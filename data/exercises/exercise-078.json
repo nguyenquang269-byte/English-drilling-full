@@ -12,8 +12,8 @@
       "options": [
         "for",
         "in",
-        "at",
-        "on"
+        "on",
+        "at"
       ],
       "correctAnswer": "at",
       "explanationVi": "Diễn tả giỏi về môn gì/lĩnh vực gì dùng 'good at'."
@@ -38,10 +38,10 @@
       "promptVi": "[Trắc nghiệm ngữ pháp] Chọn từ đúng để hoàn thành câu (Việt Nam nổi tiếng với nền ẩm thực thơm ngon.):",
       "question": "Vietnam is famous ___ its delicious cuisine.",
       "options": [
-        "about",
-        "for",
         "with",
-        "of"
+        "of",
+        "about",
+        "for"
       ],
       "correctAnswer": "for",
       "explanationVi": "Tính từ 'famous' đi với giới từ 'for'."
@@ -52,10 +52,10 @@
       "promptVi": "[Trắc nghiệm ngữ pháp] Chọn từ đúng để hoàn thành câu (Bạn có hài lòng với kết quả bài kiểm tra không?):",
       "question": "Are you satisfied ___ the exam results?",
       "options": [
-        "with",
         "about",
-        "at",
-        "for"
+        "for",
+        "with",
+        "at"
       ],
       "correctAnswer": "with",
       "explanationVi": "Tính từ 'satisfied' đi với giới từ 'with'."
@@ -66,9 +66,9 @@
       "promptVi": "[Phản xạ dịch thuật] Dịch câu sau sang tiếng Anh: \"Chào mừng Lucas. Bạn quan tâm và thích thú nhất với việc theo đuổi những lĩnh vực học thuật cụ thể nào? (interested in)\"",
       "question": "Chọn bản dịch chuẩn xác nhất cho câu: \"Chào mừng Lucas. Bạn quan tâm và thích thú nhất với việc theo đuổi những lĩnh vực học thuật cụ thể nào? (interested in)\"",
       "options": [
-        "Welcome, Lucas. What specific academic fields are you most interested in pursuing?",
         "Welcome, Lucas. What specific academic fields be you most interested in pursuing?",
         "I am deeply interested in renewable energy engineering and sustainable urban design.",
+        "Welcome, Lucas. What specific academic fields are you most interested in pursuing?",
         "We are studying English today."
       ],
       "correctAnswer": "Welcome, Lucas. What specific academic fields are you most interested in pursuing?",
@@ -80,10 +80,10 @@
       "promptVi": "[Ngữ cảnh giao tiếp] Chọn câu phản hồi tự nhiên và đúng ngữ pháp:",
       "question": "Khi đối phương nói: \"Welcome, Lucas. What specific academic fields are you most interested in pursuing?\", câu phản hồi phù hợp là gì?",
       "options": [
-        "I am deeply interested in renewable energy engineering and sustainable urban design.",
         "No, it was yesterday.",
         "Yes, I will eat it.",
-        "They are not in the office."
+        "They are not in the office.",
+        "I am deeply interested in renewable energy engineering and sustainable urban design."
       ],
       "correctAnswer": "I am deeply interested in renewable energy engineering and sustainable urban design.",
       "explanationVi": "Phản hồi phù hợp trong bài: \"I am deeply interested in renewable energy engineering and sustainable urban design.\" (Tôi rất quan tâm đến kỹ thuật năng lượng tái tạo và thiết kế đô thị bền vững.)."
@@ -95,9 +95,9 @@
       "question": "She is very good ___ playing the piano.",
       "correctAnswer": "at",
       "options": [
-        "at",
         "in",
         "on",
+        "at",
         "for"
       ],
       "explanationVi": "Đáp án đúng là \"at\". Câu hoàn chỉnh: \"She is very good at playing the piano.\" (Cô ấy chơi đàn piano rất giỏi.)."
@@ -109,10 +109,10 @@
       "question": "He is very proud ___ his daughter's achievements.",
       "correctAnswer": "of",
       "options": [
-        "for",
-        "of",
+        "with",
         "about",
-        "with"
+        "for",
+        "of"
       ],
       "explanationVi": "Đáp án đúng là \"of\". Câu hoàn chỉnh: \"He is very proud of his daughter's achievements.\" (Ông ấy rất tự hào về những thành tựu của con gái mình.)."
     },
@@ -123,10 +123,10 @@
       "question": "Vietnam is famous ___ its delicious cuisine.",
       "correctAnswer": "for",
       "options": [
+        "with",
         "for",
         "about",
-        "of",
-        "with"
+        "of"
       ],
       "explanationVi": "Đáp án đúng là \"for\". Câu hoàn chỉnh: \"Vietnam is famous for its delicious cuisine.\" (Việt Nam nổi tiếng với nền ẩm thực thơm ngon.)."
     },
@@ -137,10 +137,10 @@
       "question": "Are you satisfied ___ the exam results?",
       "correctAnswer": "with",
       "options": [
-        "for",
-        "about",
+        "at",
         "with",
-        "at"
+        "about",
+        "for"
       ],
       "explanationVi": "Đáp án đúng là \"with\". Câu hoàn chỉnh: \"Are you satisfied with the exam results?\" (Bạn có hài lòng với kết quả bài kiểm tra không?)."
     },
@@ -152,9 +152,9 @@
       "correctAnswer": "is",
       "options": [
         "am",
-        "do",
+        "is",
         "are",
-        "is"
+        "do"
       ],
       "explanationVi": "Câu phủ định hoàn chỉnh: \"She is not very good at playing the piano.\"."
     },
@@ -164,14 +164,14 @@
       "promptVi": "[Sắp xếp câu] Ghép các khối từ thành câu hoàn chỉnh mang nghĩa: \"Cô ấy chơi đàn piano rất giỏi.\"",
       "question": "Sắp xếp các từ để tạo thành câu đúng: \"Cô ấy chơi đàn piano rất giỏi.\"",
       "words": [
-        "She",
-        "good",
-        "at",
-        "is",
-        "playing",
+        "piano.",
         "the",
         "very",
-        "piano."
+        "good",
+        "playing",
+        "is",
+        "She",
+        "at"
       ],
       "correctSentence": "She is very good at playing the piano.",
       "hintVi": "Cô ấy chơi đàn piano rất giỏi.",
@@ -183,12 +183,12 @@
       "promptVi": "[Sắp xếp câu] Ghép các khối từ thành câu hoàn chỉnh mang nghĩa: \"Ông ấy rất tự hào về những thành tựu của con gái mình.\"",
       "question": "Sắp xếp các từ để tạo thành câu đúng: \"Ông ấy rất tự hào về những thành tựu của con gái mình.\"",
       "words": [
-        "of",
-        "his",
         "daughter's",
+        "his",
+        "very",
+        "of",
         "achievements.",
         "proud",
-        "very",
         "is",
         "He"
       ],
@@ -202,13 +202,13 @@
       "promptVi": "[Sắp xếp câu] Ghép các khối từ thành câu hoàn chỉnh mang nghĩa: \"Việt Nam nổi tiếng với nền ẩm thực thơm ngon.\"",
       "question": "Sắp xếp các từ để tạo thành câu đúng: \"Việt Nam nổi tiếng với nền ẩm thực thơm ngon.\"",
       "words": [
-        "its",
-        "Vietnam",
-        "is",
-        "famous",
         "cuisine.",
+        "Vietnam",
         "delicious",
-        "for"
+        "is",
+        "for",
+        "its",
+        "famous"
       ],
       "correctSentence": "Vietnam is famous for its delicious cuisine.",
       "hintVi": "Việt Nam nổi tiếng với nền ẩm thực thơm ngon.",
@@ -220,13 +220,13 @@
       "promptVi": "[Sắp xếp câu] Ghép các khối từ thành câu hoàn chỉnh mang nghĩa: \"Bạn có hài lòng với kết quả bài kiểm tra không?\"",
       "question": "Sắp xếp các từ để tạo thành câu đúng: \"Bạn có hài lòng với kết quả bài kiểm tra không?\"",
       "words": [
-        "with",
-        "results?",
         "exam",
+        "satisfied",
+        "results?",
         "the",
         "Are",
-        "satisfied",
-        "you"
+        "you",
+        "with"
       ],
       "correctSentence": "Are you satisfied with the exam results?",
       "hintVi": "Bạn có hài lòng với kết quả bài kiểm tra không?",
@@ -238,17 +238,17 @@
       "promptVi": "[Sắp xếp câu] Ghép các từ thành câu hội thoại: \"Bạn có giỏi toán điện toán nâng cao và mô hình hóa động lực học chất lưu không? (good at)\"",
       "question": "Sắp xếp các từ để tạo thành câu thoại: \"Bạn có giỏi toán điện toán nâng cao và mô hình hóa động lực học chất lưu không? (good at)\"",
       "words": [
-        "mathematics",
-        "computational",
-        "Are",
-        "modeling",
-        "fluid",
-        "dynamics",
         "and",
-        "you",
         "good",
         "at",
-        "advanced"
+        "computational",
+        "mathematics",
+        "advanced",
+        "fluid",
+        "dynamics",
+        "you",
+        "modeling",
+        "Are"
       ],
       "correctSentence": "Are you good at advanced computational mathematics and fluid dynamics modeling?",
       "hintVi": "Bạn có giỏi toán điện toán nâng cao và mô hình hóa động lực học chất lưu không? (good at)",
@@ -261,9 +261,9 @@
       "question": "Dựa vào chủ điểm \"Bài 78: Tính từ & Động từ Đi kèm Giới từ Cố định (Adjective & Verb Preposition Collocations)\", câu nào sau đây CHÍNH XÁC?",
       "options": [
         "piano. the playing at good very is She",
-        "is",
         "She is very good at playing the piano.",
-        "She be very good at playing the piano."
+        "She be very good at playing the piano.",
+        "is"
       ],
       "correctAnswer": "She is very good at playing the piano.",
       "explanationVi": "Cấu trúc chuẩn xác là: \"She is very good at playing the piano.\" (Cô ấy chơi đàn piano rất giỏi.)."
@@ -274,10 +274,10 @@
       "promptVi": "[Nhận diện cấu trúc chuẩn] Chọn câu có cấu trúc ngữ pháp HOÀN TOÀN ĐÚNG:",
       "question": "Dựa vào chủ điểm \"Bài 78: Tính từ & Động từ Đi kèm Giới từ Cố định (Adjective & Verb Preposition Collocations)\", câu nào sau đây CHÍNH XÁC?",
       "options": [
-        "He is very proud of his daughter's achievements.",
-        "He be very proud of his daughter's achievements.",
         "achievements. daughter's his of proud very is He",
-        "is"
+        "is",
+        "He is very proud of his daughter's achievements.",
+        "He be very proud of his daughter's achievements."
       ],
       "correctAnswer": "He is very proud of his daughter's achievements.",
       "explanationVi": "Cấu trúc chuẩn xác là: \"He is very proud of his daughter's achievements.\" (Ông ấy rất tự hào về những thành tựu của con gái mình.)."
@@ -289,8 +289,8 @@
       "question": "Dựa vào chủ điểm \"Bài 78: Tính từ & Động từ Đi kèm Giới từ Cố định (Adjective & Verb Preposition Collocations)\", câu nào sau đây CHÍNH XÁC?",
       "options": [
         "Vietnam is famous for its delicious cuisine.",
-        "Vietnam be famous for its delicious cuisine.",
         "cuisine. delicious its for famous is Vietnam",
+        "Vietnam be famous for its delicious cuisine.",
         "Vietnam is famous at its delicious cuisine."
       ],
       "correctAnswer": "Vietnam is famous for its delicious cuisine.",
@@ -303,9 +303,9 @@
       "question": "Dựa vào chủ điểm \"Bài 78: Tính từ & Động từ Đi kèm Giới từ Cố định (Adjective & Verb Preposition Collocations)\", câu nào sau đây CHÍNH XÁC?",
       "options": [
         "Are you satisfied at the exam results?",
-        "Are you satisfied with the exam results?",
         "results? exam the with satisfied you Are",
-        "be you satisfied with the exam results?"
+        "be you satisfied with the exam results?",
+        "Are you satisfied with the exam results?"
       ],
       "correctAnswer": "Are you satisfied with the exam results?",
       "explanationVi": "Cấu trúc chuẩn xác là: \"Are you satisfied with the exam results?\" (Bạn có hài lòng với kết quả bài kiểm tra không?)."
@@ -317,10 +317,10 @@
       "audioPrompt": "Welcome, Lucas. What specific academic fields are you most interested in pursuing?",
       "question": "Nhấn nút '🔊 Nghe audio' và chọn nghĩa tiếng Việt đúng:",
       "options": [
-        "Tôi rất quan tâm đến kỹ thuật năng lượng tái tạo và thiết kế đô thị bền vững.",
-        "Chào mừng Lucas. Bạn quan tâm và thích thú nhất với việc theo đuổi những lĩnh vực học thuật cụ thể nào? (interested in)",
         "Bạn có giỏi toán điện toán nâng cao và mô hình hóa động lực học chất lưu không? (good at)",
-        "Hôm nay thời tiết rất đẹp."
+        "Tôi rất quan tâm đến kỹ thuật năng lượng tái tạo và thiết kế đô thị bền vững.",
+        "Hôm nay thời tiết rất đẹp.",
+        "Chào mừng Lucas. Bạn quan tâm và thích thú nhất với việc theo đuổi những lĩnh vực học thuật cụ thể nào? (interested in)"
       ],
       "correctAnswer": "Chào mừng Lucas. Bạn quan tâm và thích thú nhất với việc theo đuổi những lĩnh vực học thuật cụ thể nào? (interested in)",
       "explanationVi": "Câu nghe được: \"Welcome, Lucas. What specific academic fields are you most interested in pursuing?\" có nghĩa là: \"Chào mừng Lucas. Bạn quan tâm và thích thú nhất với việc theo đuổi những lĩnh vực học thuật cụ thể nào? (interested in)\"."
@@ -332,10 +332,10 @@
       "audioPrompt": "I am deeply interested in renewable energy engineering and sustainable urban design.",
       "question": "Nhấn nút '🔊 Nghe audio' và chọn nghĩa tiếng Việt đúng:",
       "options": [
-        "Bạn có giỏi toán điện toán nâng cao và mô hình hóa động lực học chất lưu không? (good at)",
-        "Tôi rất quan tâm đến kỹ thuật năng lượng tái tạo và thiết kế đô thị bền vững.",
         "Hôm nay thời tiết rất đẹp.",
-        "Vâng, tôi rất giỏi toán và vô cùng say mê lập trình các thuật toán mô phỏng. (keen on)"
+        "Vâng, tôi rất giỏi toán và vô cùng say mê lập trình các thuật toán mô phỏng. (keen on)",
+        "Bạn có giỏi toán điện toán nâng cao và mô hình hóa động lực học chất lưu không? (good at)",
+        "Tôi rất quan tâm đến kỹ thuật năng lượng tái tạo và thiết kế đô thị bền vững."
       ],
       "correctAnswer": "Tôi rất quan tâm đến kỹ thuật năng lượng tái tạo và thiết kế đô thị bền vững.",
       "explanationVi": "Câu nghe được: \"I am deeply interested in renewable energy engineering and sustainable urban design.\" có nghĩa là: \"Tôi rất quan tâm đến kỹ thuật năng lượng tái tạo và thiết kế đô thị bền vững.\"."
@@ -347,10 +347,10 @@
       "audioPrompt": "Are you good at advanced computational mathematics and fluid dynamics modeling?",
       "question": "Nhấn nút '🔊 Nghe audio' và chọn nghĩa tiếng Việt đúng:",
       "options": [
-        "Du học đòi hỏi sự tự lập. Bạn có sợ sống một mình ở nước ngoài không? (afraid of)",
-        "Bạn có giỏi toán điện toán nâng cao và mô hình hóa động lực học chất lưu không? (good at)",
         "Vâng, tôi rất giỏi toán và vô cùng say mê lập trình các thuật toán mô phỏng. (keen on)",
-        "Hôm nay thời tiết rất đẹp."
+        "Hôm nay thời tiết rất đẹp.",
+        "Bạn có giỏi toán điện toán nâng cao và mô hình hóa động lực học chất lưu không? (good at)",
+        "Du học đòi hỏi sự tự lập. Bạn có sợ sống một mình ở nước ngoài không? (afraid of)"
       ],
       "correctAnswer": "Bạn có giỏi toán điện toán nâng cao và mô hình hóa động lực học chất lưu không? (good at)",
       "explanationVi": "Câu nghe được: \"Are you good at advanced computational mathematics and fluid dynamics modeling?\" có nghĩa là: \"Bạn có giỏi toán điện toán nâng cao và mô hình hóa động lực học chất lưu không? (good at)\"."
@@ -362,10 +362,10 @@
       "audioPrompt": "Yes, I am very good at mathematics and extremely keen on programming simulation algorithms.",
       "question": "Nhấn nút '🔊 Nghe audio' và chọn nghĩa tiếng Việt đúng:",
       "options": [
+        "Vâng, tôi rất giỏi toán và vô cùng say mê lập trình các thuật toán mô phỏng. (keen on)",
         "Du học đòi hỏi sự tự lập. Bạn có sợ sống một mình ở nước ngoài không? (afraid of)",
         "Tôi không hề sợ những thử thách văn hóa chút nào; gia đình tôi rất tự hào về những hoài bão của tôi. (proud of)",
-        "Hôm nay thời tiết rất đẹp.",
-        "Vâng, tôi rất giỏi toán và vô cùng say mê lập trình các thuật toán mô phỏng. (keen on)"
+        "Hôm nay thời tiết rất đẹp."
       ],
       "correctAnswer": "Vâng, tôi rất giỏi toán và vô cùng say mê lập trình các thuật toán mô phỏng. (keen on)",
       "explanationVi": "Câu nghe được: \"Yes, I am very good at mathematics and extremely keen on programming simulation algorithms.\" có nghĩa là: \"Vâng, tôi rất giỏi toán và vô cùng say mê lập trình các thuật toán mô phỏng. (keen on)\"."
@@ -409,32 +409,32 @@
     {
       "id": "ex-078-29",
       "type": "reading_comprehension",
-      "promptVi": "[Đọc hiểu đoạn văn] Đọc đoạn hội thoại sau và trả lời câu hỏi:",
+      "promptVi": "[Đọc hiểu đoạn văn] Đọc kĩ đoạn hội thoại và chọn nhận định đúng về nội dung:",
       "passage": "Interviewer Dr. Collins: \"Welcome, Lucas. What specific academic fields are you most interested in pursuing?\"\nLucas: \"I am deeply interested in renewable energy engineering and sustainable urban design.\"\nInterviewer Dr. Collins: \"Are you good at advanced computational mathematics and fluid dynamics modeling?\"\nLucas: \"Yes, I am very good at mathematics and extremely keen on programming simulation algorithms.\"",
-      "question": "Chủ đề trọng tâm của đoạn hội thoại trên là gì?",
+      "question": "Dựa vào đoạn đối thoại trên, thông tin nào sau đây là CHÍNH XÁC về nội dung câu nói của Interviewer Dr. Collins?",
       "options": [
-        "Cách làm món ăn truyền thống",
-        "Kế hoạch đi mua sắm tại siêu thị",
-        "Tính từ & Động từ Đi kèm Giới từ Cố định (Adjective & Verb Preposition Collocations)",
-        "Lịch trình đi du lịch nghỉ mát cuối tuần"
+        "Interviewer Dr. Collins muốn mượn tiền để mua vé máy bay gấp.",
+        "Interviewer Dr. Collins phàn nàn rằng thời tiết hôm nay quá xấu.",
+        "Interviewer Dr. Collins từ chối trả lời và yêu cầu hủy cuộc hẹn.",
+        "Interviewer Dr. Collins chia sẻ thông tin: \"Chào mừng Lucas. Bạn quan tâm và thích thú nhất với việc theo đuổi những lĩnh vực học thuật cụ thể nào? (interested in)\""
       ],
-      "correctAnswer": "Tính từ & Động từ Đi kèm Giới từ Cố định (Adjective & Verb Preposition Collocations)",
-      "explanationVi": "Đoạn hội thoại được thiết kế để minh họa trực tiếp cho chủ điểm \"Bài 78: Tính từ & Động từ Đi kèm Giới từ Cố định (Adjective & Verb Preposition Collocations)\"."
+      "correctAnswer": "Interviewer Dr. Collins chia sẻ thông tin: \"Chào mừng Lucas. Bạn quan tâm và thích thú nhất với việc theo đuổi những lĩnh vực học thuật cụ thể nào? (interested in)\"",
+      "explanationVi": "Trong đoạn hội thoại, Interviewer Dr. Collins đã nói: \"Welcome, Lucas. What specific academic fields are you most interested in pursuing?\" (nghĩa là: \"Chào mừng Lucas. Bạn quan tâm và thích thú nhất với việc theo đuổi những lĩnh vực học thuật cụ thể nào? (interested in)\")."
     },
     {
       "id": "ex-078-30",
       "type": "reading_comprehension",
-      "promptVi": "[Đọc hiểu đoạn văn] Đọc đoạn đối thoại tiếp theo và chọn nhận định đúng:",
+      "promptVi": "[Đọc hiểu đoạn văn] Đọc phần đối thoại tiếp theo và trả lời câu hỏi:",
       "passage": "Interviewer Dr. Collins: \"Studying abroad requires independence. Are you afraid of living in a foreign country alone?\"\nLucas: \"I am not afraid of cultural challenges at all; my family is very proud of my ambitions.\"\nInterviewer Dr. Collins: \"Our university faculty is internationally famous for groundbreaking battery research.\"\nLucas: \"I am fully aware of your prestigious reputation, and I hope to be responsible for laboratory trials.\"",
-      "question": "Nhận định nào sau đây là ĐÚNG về nội dung đoạn đối thoại?",
+      "question": "Trong đoạn hội thoại trên, câu nói \"I am fully aware of your prestigious reputation, and I hope to be responsible for laboratory trials.\" của Lucas mang ý nghĩa gì?",
       "options": [
-        "Các câu thoại sử dụng đúng cấu trúc \"Tính từ & Động từ Đi kèm Giới từ Cố định (Adjective & Verb Preposition Collocations)\".",
-        "Hai nhân vật đang cãi nhau và không đồng ý hợp tác.",
-        "Cuộc trò chuyện diễn ra tại nhà ga xe lửa.",
-        "Cả hai nhân vật đang thảo luận về thời tiết ngày mai."
+        "Phản hồi: \"Hẹn gặp lại vào cuối tuần sau tại sân bay quốc tế\"",
+        "Phản hồi: \"Tôi hoàn toàn nhận thức rõ về danh tiếng uy tín của quý trường, và tôi hy vọng được chịu trách nhiệm về các thử nghiệm phòng lab. (aware of / responsible for)\"",
+        "Phản hồi: \"Hoàn toàn không đồng ý và muốn rời khỏi phòng ngay lập tức\"",
+        "Phản hồi: \"Yêu cầu cung cấp hóa đơn thanh toán tiền mặt\""
       ],
-      "correctAnswer": "Các câu thoại sử dụng đúng cấu trúc \"Tính từ & Động từ Đi kèm Giới từ Cố định (Adjective & Verb Preposition Collocations)\".",
-      "explanationVi": "Đoạn đối thoại ứng dụng chuẩn xác ngữ pháp của \"Bài 78: Tính từ & Động từ Đi kèm Giới từ Cố định (Adjective & Verb Preposition Collocations)\"."
+      "correctAnswer": "Phản hồi: \"Tôi hoàn toàn nhận thức rõ về danh tiếng uy tín của quý trường, và tôi hy vọng được chịu trách nhiệm về các thử nghiệm phòng lab. (aware of / responsible for)\"",
+      "explanationVi": "Lucas nói: \"I am fully aware of your prestigious reputation, and I hope to be responsible for laboratory trials.\" có nghĩa là: \"Tôi hoàn toàn nhận thức rõ về danh tiếng uy tín của quý trường, và tôi hy vọng được chịu trách nhiệm về các thử nghiệm phòng lab. (aware of / responsible for)\"."
     }
   ]
 }

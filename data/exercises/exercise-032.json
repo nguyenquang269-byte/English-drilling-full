@@ -10,10 +10,10 @@
       "promptVi": "[Trắc nghiệm ngữ pháp] Chọn từ đúng để hoàn thành câu (Tôi đã mua một quyển sách và một chiếc ô.):",
       "question": "I bought a book and ___ umbrella.",
       "options": [
-        "some",
         "the",
-        "an",
-        "a"
+        "some",
+        "a",
+        "an"
       ],
       "correctAnswer": "an",
       "explanationVi": "'umbrella' bắt đầu bằng nguyên âm /ʌ/ nên dùng mạo từ 'an'."
@@ -24,8 +24,8 @@
       "promptVi": "[Trắc nghiệm ngữ pháp] Chọn từ đúng để hoàn thành câu (Mặt trời mọc ở hướng đông.):",
       "question": "___ sun rises in the east.",
       "options": [
-        "An",
         "Some",
+        "An",
         "The",
         "A"
       ],
@@ -38,10 +38,10 @@
       "promptVi": "[Trắc nghiệm ngữ pháp] Chọn từ đúng để hoàn thành câu (Tôi đã nhìn thấy một chú chó, và chú chó đó rất thân thiện.):",
       "question": "I saw a dog, and ___ dog was friendly.",
       "options": [
-        "an",
-        "a",
+        "this",
         "the",
-        "this"
+        "a",
+        "an"
       ],
       "correctAnswer": "the",
       "explanationVi": "Danh từ 'dog' đã được nhắc ở vế trước nên khi lặp lại dùng 'the dog'."
@@ -53,8 +53,8 @@
       "question": "___ is essential for life.",
       "options": [
         "The water",
-        "An water",
         "Water",
+        "An water",
         "A water"
       ],
       "correctAnswer": "Water",
@@ -66,10 +66,10 @@
       "promptVi": "[Phản xạ dịch thuật] Dịch câu sau sang tiếng Anh: \"Tôi cần mua một quyển vở và một chiếc ô trước khi lớp học của chúng ta bắt đầu, Rachel.\"",
       "question": "Chọn bản dịch chuẩn xác nhất cho câu: \"Tôi cần mua một quyển vở và một chiếc ô trước khi lớp học của chúng ta bắt đầu, Rachel.\"",
       "options": [
-        "is",
+        "I need to buy a notebook and an umbrella before our class begins, Rachel.",
         "There is a stationery bookstore right next to the central library.",
         "We are studying English today.",
-        "I need to buy a notebook and an umbrella before our class begins, Rachel."
+        "is"
       ],
       "correctAnswer": "I need to buy a notebook and an umbrella before our class begins, Rachel.",
       "explanationVi": "Câu dịch chuẩn xác: \"I need to buy a notebook and an umbrella before our class begins, Rachel.\" (Tôi cần mua một quyển vở và một chiếc ô trước khi lớp học của chúng ta bắt đầu, Rachel.)."
@@ -82,8 +82,8 @@
       "options": [
         "There is a stationery bookstore right next to the central library.",
         "No, it was yesterday.",
-        "Yes, I will eat it.",
-        "They are not in the office."
+        "They are not in the office.",
+        "Yes, I will eat it."
       ],
       "correctAnswer": "There is a stationery bookstore right next to the central library.",
       "explanationVi": "Phản hồi phù hợp trong bài: \"There is a stationery bookstore right next to the central library.\" (Có một hiệu sách văn phòng phẩm ngay cạnh thư viện trung tâm đấy.)."
@@ -95,10 +95,10 @@
       "question": "I bought a book and ___ umbrella.",
       "correctAnswer": "an",
       "options": [
-        "a",
-        "some",
+        "the",
         "an",
-        "the"
+        "some",
+        "a"
       ],
       "explanationVi": "Đáp án đúng là \"an\". Câu hoàn chỉnh: \"I bought a book and an umbrella.\" (Tôi đã mua một quyển sách và một chiếc ô.)."
     },
@@ -109,9 +109,9 @@
       "question": "___ sun rises in the east.",
       "correctAnswer": "The",
       "options": [
-        "A",
         "The",
         "Some",
+        "A",
         "An"
       ],
       "explanationVi": "Đáp án đúng là \"The\". Câu hoàn chỉnh: \"The sun rises in the east.\" (Mặt trời mọc ở hướng đông.)."
@@ -123,10 +123,10 @@
       "question": "I saw a dog, and ___ dog was friendly.",
       "correctAnswer": "the",
       "options": [
-        "an",
-        "the",
         "a",
-        "this"
+        "the",
+        "this",
+        "an"
       ],
       "explanationVi": "Đáp án đúng là \"the\". Câu hoàn chỉnh: \"I saw a dog, and the dog was friendly.\" (Tôi đã nhìn thấy một chú chó, và chú chó đó rất thân thiện.)."
     },
@@ -137,10 +137,10 @@
       "question": "___ is essential for life.",
       "correctAnswer": "Water",
       "options": [
+        "Water",
         "An water",
-        "A water",
         "The water",
-        "Water"
+        "A water"
       ],
       "explanationVi": "Đáp án đúng là \"Water\". Câu hoàn chỉnh: \"Water is essential for life.\" (Nước là thiết yếu đối với sự sống.)."
     },
@@ -152,9 +152,9 @@
       "correctAnswer": "bought",
       "options": [
         "are",
-        "is",
+        "bought",
         "am",
-        "bought"
+        "is"
       ],
       "explanationVi": "Câu phủ định hoàn chỉnh: \"I bought not a book and an umbrella.\"."
     },
@@ -164,13 +164,13 @@
       "promptVi": "[Sắp xếp câu] Ghép các khối từ thành câu hoàn chỉnh mang nghĩa: \"Tôi đã mua một quyển sách và một chiếc ô.\"",
       "question": "Sắp xếp các từ để tạo thành câu đúng: \"Tôi đã mua một quyển sách và một chiếc ô.\"",
       "words": [
+        "a",
         "book",
         "and",
         "an",
-        "a",
         "umbrella.",
-        "bought",
-        "I"
+        "I",
+        "bought"
       ],
       "correctSentence": "I bought a book and an umbrella.",
       "hintVi": "Tôi đã mua một quyển sách và một chiếc ô.",
@@ -182,12 +182,12 @@
       "promptVi": "[Sắp xếp câu] Ghép các khối từ thành câu hoàn chỉnh mang nghĩa: \"Mặt trời mọc ở hướng đông.\"",
       "question": "Sắp xếp các từ để tạo thành câu đúng: \"Mặt trời mọc ở hướng đông.\"",
       "words": [
-        "in",
+        "rises",
         "the",
         "The",
-        "sun",
-        "rises",
-        "east."
+        "east.",
+        "in",
+        "sun"
       ],
       "correctSentence": "The sun rises in the east.",
       "hintVi": "Mặt trời mọc ở hướng đông.",
@@ -199,15 +199,15 @@
       "promptVi": "[Sắp xếp câu] Ghép các khối từ thành câu hoàn chỉnh mang nghĩa: \"Tôi đã nhìn thấy một chú chó, và chú chó đó rất thân thiện.\"",
       "question": "Sắp xếp các từ để tạo thành câu đúng: \"Tôi đã nhìn thấy một chú chó, và chú chó đó rất thân thiện.\"",
       "words": [
-        "and",
+        "friendly.",
         "was",
+        "and",
+        "dog",
+        "saw",
         "dog,",
         "the",
-        "dog",
         "I",
-        "friendly.",
-        "a",
-        "saw"
+        "a"
       ],
       "correctSentence": "I saw a dog, and the dog was friendly.",
       "hintVi": "Tôi đã nhìn thấy một chú chó, và chú chó đó rất thân thiện.",
@@ -219,9 +219,9 @@
       "promptVi": "[Sắp xếp câu] Ghép các khối từ thành câu hoàn chỉnh mang nghĩa: \"Nước là thiết yếu đối với sự sống.\"",
       "question": "Sắp xếp các từ để tạo thành câu đúng: \"Nước là thiết yếu đối với sự sống.\"",
       "words": [
+        "is",
         "for",
         "essential",
-        "is",
         "Water",
         "life."
       ],
@@ -236,15 +236,15 @@
       "question": "Sắp xếp các từ để tạo thành câu thoại: \"Hiệu sách đó có mở cửa lúc 8 giờ sáng không?\"",
       "words": [
         "o'clock",
-        "open",
-        "bookstore",
-        "at",
-        "eight",
         "in",
+        "open",
         "the",
+        "bookstore",
+        "eight",
         "morning",
+        "the",
         "Is",
-        "the"
+        "at"
       ],
       "correctSentence": "Is the bookstore open at eight o'clock in the morning?",
       "hintVi": "Hiệu sách đó có mở cửa lúc 8 giờ sáng không?",
@@ -257,9 +257,9 @@
       "question": "Dựa vào chủ điểm \"Bài 32: Mạo từ — A / An / The & Trường hợp Không dùng Mạo từ\", câu nào sau đây CHÍNH XÁC?",
       "options": [
         "umbrella. an and book a bought I",
-        "I bought a book and an umbrella.",
         "are",
-        "is"
+        "is",
+        "I bought a book and an umbrella."
       ],
       "correctAnswer": "I bought a book and an umbrella.",
       "explanationVi": "Cấu trúc chuẩn xác là: \"I bought a book and an umbrella.\" (Tôi đã mua một quyển sách và một chiếc ô.)."
@@ -272,8 +272,8 @@
       "options": [
         "The sun rises at the east.",
         "is",
-        "The sun rises in the east.",
-        "east. the in rises sun The"
+        "east. the in rises sun The",
+        "The sun rises in the east."
       ],
       "correctAnswer": "The sun rises in the east.",
       "explanationVi": "Cấu trúc chuẩn xác là: \"The sun rises in the east.\" (Mặt trời mọc ở hướng đông.)."
@@ -284,10 +284,10 @@
       "promptVi": "[Nhận diện cấu trúc chuẩn] Chọn câu có cấu trúc ngữ pháp HOÀN TOÀN ĐÚNG:",
       "question": "Dựa vào chủ điểm \"Bài 32: Mạo từ — A / An / The & Trường hợp Không dùng Mạo từ\", câu nào sau đây CHÍNH XÁC?",
       "options": [
-        "friendly. was dog the and dog, a saw I",
-        "I saw a dog, and the dog was friendly.",
         "is",
-        "I saw a dog, and the dog be friendly."
+        "friendly. was dog the and dog, a saw I",
+        "I saw a dog, and the dog be friendly.",
+        "I saw a dog, and the dog was friendly."
       ],
       "correctAnswer": "I saw a dog, and the dog was friendly.",
       "explanationVi": "Cấu trúc chuẩn xác là: \"I saw a dog, and the dog was friendly.\" (Tôi đã nhìn thấy một chú chó, và chú chó đó rất thân thiện.)."
@@ -299,9 +299,9 @@
       "question": "Dựa vào chủ điểm \"Bài 32: Mạo từ — A / An / The & Trường hợp Không dùng Mạo từ\", câu nào sau đây CHÍNH XÁC?",
       "options": [
         "Water is essential for life.",
-        "Water is essential at life.",
+        "life. for essential is Water",
         "Water be essential for life.",
-        "life. for essential is Water"
+        "Water is essential at life."
       ],
       "correctAnswer": "Water is essential for life.",
       "explanationVi": "Cấu trúc chuẩn xác là: \"Water is essential for life.\" (Nước là thiết yếu đối với sự sống.)."
@@ -313,10 +313,10 @@
       "audioPrompt": "I need to buy a notebook and an umbrella before our class begins, Rachel.",
       "question": "Nhấn nút '🔊 Nghe audio' và chọn nghĩa tiếng Việt đúng:",
       "options": [
+        "Hiệu sách đó có mở cửa lúc 8 giờ sáng không?",
         "Tôi cần mua một quyển vở và một chiếc ô trước khi lớp học của chúng ta bắt đầu, Rachel.",
         "Hôm nay thời tiết rất đẹp.",
-        "Có một hiệu sách văn phòng phẩm ngay cạnh thư viện trung tâm đấy.",
-        "Hiệu sách đó có mở cửa lúc 8 giờ sáng không?"
+        "Có một hiệu sách văn phòng phẩm ngay cạnh thư viện trung tâm đấy."
       ],
       "correctAnswer": "Tôi cần mua một quyển vở và một chiếc ô trước khi lớp học của chúng ta bắt đầu, Rachel.",
       "explanationVi": "Câu nghe được: \"I need to buy a notebook and an umbrella before our class begins, Rachel.\" có nghĩa là: \"Tôi cần mua một quyển vở và một chiếc ô trước khi lớp học của chúng ta bắt đầu, Rachel.\"."
@@ -328,10 +328,10 @@
       "audioPrompt": "There is a stationery bookstore right next to the central library.",
       "question": "Nhấn nút '🔊 Nghe audio' và chọn nghĩa tiếng Việt đúng:",
       "options": [
-        "Hiệu sách đó có mở cửa lúc 8 giờ sáng không?",
+        "Hôm nay thời tiết rất đẹp.",
         "Có một hiệu sách văn phòng phẩm ngay cạnh thư viện trung tâm đấy.",
-        "Có, người chủ mở cửa từ rất sớm vào mỗi buổi sáng.",
-        "Hôm nay thời tiết rất đẹp."
+        "Hiệu sách đó có mở cửa lúc 8 giờ sáng không?",
+        "Có, người chủ mở cửa từ rất sớm vào mỗi buổi sáng."
       ],
       "correctAnswer": "Có một hiệu sách văn phòng phẩm ngay cạnh thư viện trung tâm đấy.",
       "explanationVi": "Câu nghe được: \"There is a stationery bookstore right next to the central library.\" có nghĩa là: \"Có một hiệu sách văn phòng phẩm ngay cạnh thư viện trung tâm đấy.\"."
@@ -344,9 +344,9 @@
       "question": "Nhấn nút '🔊 Nghe audio' và chọn nghĩa tiếng Việt đúng:",
       "options": [
         "Có, người chủ mở cửa từ rất sớm vào mỗi buổi sáng.",
+        "Hiệu sách đó có mở cửa lúc 8 giờ sáng không?",
         "Bạn có muốn ăn một quả táo hay một chiếc bánh mì kẹp cho bữa sáng không?",
-        "Hôm nay thời tiết rất đẹp.",
-        "Hiệu sách đó có mở cửa lúc 8 giờ sáng không?"
+        "Hôm nay thời tiết rất đẹp."
       ],
       "correctAnswer": "Hiệu sách đó có mở cửa lúc 8 giờ sáng không?",
       "explanationVi": "Câu nghe được: \"Is the bookstore open at eight o'clock in the morning?\" có nghĩa là: \"Hiệu sách đó có mở cửa lúc 8 giờ sáng không?\"."
@@ -358,9 +358,9 @@
       "audioPrompt": "Yes, the owner opens the door very early every morning.",
       "question": "Nhấn nút '🔊 Nghe audio' và chọn nghĩa tiếng Việt đúng:",
       "options": [
-        "Tôi thường uống sữa và ăn trái cây tươi vào buổi sáng.",
         "Hôm nay thời tiết rất đẹp.",
         "Bạn có muốn ăn một quả táo hay một chiếc bánh mì kẹp cho bữa sáng không?",
+        "Tôi thường uống sữa và ăn trái cây tươi vào buổi sáng.",
         "Có, người chủ mở cửa từ rất sớm vào mỗi buổi sáng."
       ],
       "correctAnswer": "Có, người chủ mở cửa từ rất sớm vào mỗi buổi sáng.",
@@ -405,32 +405,32 @@
     {
       "id": "ex-032-29",
       "type": "reading_comprehension",
-      "promptVi": "[Đọc hiểu đoạn văn] Đọc đoạn hội thoại sau và trả lời câu hỏi:",
+      "promptVi": "[Đọc hiểu đoạn văn] Đọc kĩ đoạn hội thoại và chọn nhận định đúng về nội dung:",
       "passage": "Kenneth: \"I need to buy a notebook and an umbrella before our class begins, Rachel.\"\nRachel: \"There is a stationery bookstore right next to the central library.\"\nKenneth: \"Is the bookstore open at eight o'clock in the morning?\"\nRachel: \"Yes, the owner opens the door very early every morning.\"",
-      "question": "Chủ đề trọng tâm của đoạn hội thoại trên là gì?",
+      "question": "Dựa vào đoạn đối thoại trên, thông tin nào sau đây là CHÍNH XÁC về nội dung câu nói của Kenneth?",
       "options": [
-        "Mạo từ — A / An / The & Trường hợp Không dùng Mạo từ",
-        "Kế hoạch đi mua sắm tại siêu thị",
-        "Lịch trình đi du lịch nghỉ mát cuối tuần",
-        "Cách làm món ăn truyền thống"
+        "Kenneth chia sẻ thông tin: \"Tôi cần mua một quyển vở và một chiếc ô trước khi lớp học của chúng ta bắt đầu, Rachel.\"",
+        "Kenneth phàn nàn rằng thời tiết hôm nay quá xấu.",
+        "Kenneth muốn mượn tiền để mua vé máy bay gấp.",
+        "Kenneth từ chối trả lời và yêu cầu hủy cuộc hẹn."
       ],
-      "correctAnswer": "Mạo từ — A / An / The & Trường hợp Không dùng Mạo từ",
-      "explanationVi": "Đoạn hội thoại được thiết kế để minh họa trực tiếp cho chủ điểm \"Bài 32: Mạo từ — A / An / The & Trường hợp Không dùng Mạo từ\"."
+      "correctAnswer": "Kenneth chia sẻ thông tin: \"Tôi cần mua một quyển vở và một chiếc ô trước khi lớp học của chúng ta bắt đầu, Rachel.\"",
+      "explanationVi": "Trong đoạn hội thoại, Kenneth đã nói: \"I need to buy a notebook and an umbrella before our class begins, Rachel.\" (nghĩa là: \"Tôi cần mua một quyển vở và một chiếc ô trước khi lớp học của chúng ta bắt đầu, Rachel.\")."
     },
     {
       "id": "ex-032-30",
       "type": "reading_comprehension",
-      "promptVi": "[Đọc hiểu đoạn văn] Đọc đoạn đối thoại tiếp theo và chọn nhận định đúng:",
+      "promptVi": "[Đọc hiểu đoạn văn] Đọc phần đối thoại tiếp theo và trả lời câu hỏi:",
       "passage": "Kenneth: \"Do you want to eat an apple or a sandwich for breakfast?\"\nRachel: \"I usually drink milk and eat fresh fruit in the morning.\"\nKenneth: \"Water is essential for health, especially when we exercise outdoors.\"\nRachel: \"Did you see the blue pen that was lying on the teacher's desk?\"",
-      "question": "Nhận định nào sau đây là ĐÚNG về nội dung đoạn đối thoại?",
+      "question": "Trong đoạn hội thoại trên, câu nói \"Did you see the blue pen that was lying on the teacher's desk?\" của Rachel mang ý nghĩa gì?",
       "options": [
-        "Cuộc trò chuyện diễn ra tại nhà ga xe lửa.",
-        "Các câu thoại sử dụng đúng cấu trúc \"Mạo từ — A / An / The & Trường hợp Không dùng Mạo từ\".",
-        "Cả hai nhân vật đang thảo luận về thời tiết ngày mai.",
-        "Hai nhân vật đang cãi nhau và không đồng ý hợp tác."
+        "Phản hồi: \"Yêu cầu cung cấp hóa đơn thanh toán tiền mặt\"",
+        "Phản hồi: \"Hoàn toàn không đồng ý và muốn rời khỏi phòng ngay lập tức\"",
+        "Phản hồi: \"Bạn có thấy chiếc bút màu xanh dương đã nằm trên bàn giáo viên không?\"",
+        "Phản hồi: \"Hẹn gặp lại vào cuối tuần sau tại sân bay quốc tế\""
       ],
-      "correctAnswer": "Các câu thoại sử dụng đúng cấu trúc \"Mạo từ — A / An / The & Trường hợp Không dùng Mạo từ\".",
-      "explanationVi": "Đoạn đối thoại ứng dụng chuẩn xác ngữ pháp của \"Bài 32: Mạo từ — A / An / The & Trường hợp Không dùng Mạo từ\"."
+      "correctAnswer": "Phản hồi: \"Bạn có thấy chiếc bút màu xanh dương đã nằm trên bàn giáo viên không?\"",
+      "explanationVi": "Rachel nói: \"Did you see the blue pen that was lying on the teacher's desk?\" có nghĩa là: \"Bạn có thấy chiếc bút màu xanh dương đã nằm trên bàn giáo viên không?\"."
     }
   ]
 }

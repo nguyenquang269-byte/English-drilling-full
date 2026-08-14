@@ -12,8 +12,8 @@
       "options": [
         "who",
         "which",
-        "whose",
-        "whom"
+        "whom",
+        "whose"
       ],
       "correctAnswer": "who",
       "explanationVi": "Bổ nghĩa cho 'The woman' (người) làm chủ ngữ của động từ 'lives' dùng 'who'."
@@ -25,9 +25,9 @@
       "question": "The book ___ I bought yesterday is very interesting.",
       "options": [
         "which",
-        "whom",
+        "who",
         "whose",
-        "who"
+        "whom"
       ],
       "correctAnswer": "which",
       "explanationVi": "Bổ nghĩa cho danh từ chỉ vật 'The book' dùng 'which' hoặc 'that'."
@@ -38,10 +38,10 @@
       "promptVi": "[Trắc nghiệm ngữ pháp] Chọn từ đúng để hoàn thành câu (Người đàn ông mà chúng tôi gặp ở sân bay rất thân thiện.):",
       "question": "The man ___ we met at the airport was very friendly.",
       "options": [
-        "what",
-        "which",
         "whom",
-        "where"
+        "which",
+        "where",
+        "what"
       ],
       "correctAnswer": "whom",
       "explanationVi": "Bổ nghĩa cho 'The man' đóng vai trò tân ngữ của động từ 'met' dùng 'whom'."
@@ -54,8 +54,8 @@
       "options": [
         "which",
         "that",
-        "where",
-        "what"
+        "what",
+        "where"
       ],
       "correctAnswer": "which",
       "explanationVi": "Sau dấu phẩy (mệnh đề không xác định) bổ nghĩa cho địa danh/vật dùng 'which', tuyệt đối không dùng 'that'."
@@ -67,9 +67,9 @@
       "question": "Chọn bản dịch chuẩn xác nhất cho câu: \"Nhìn đằng kia kìa Lucas! Bạn có biết vị kiến trúc sư phần mềm - người đã thiết kế nền tảng AI đột phá đó không?\"",
       "options": [
         "Yes, that is Dr. Miller, who graduated at the top of his class from Cambridge University.",
+        "Look over there, Lucas! be you know the software architect who designed that groundbreaking AI platform?",
         "We are studying English today.",
-        "Look over there, Lucas! Do you know the software architect who designed that groundbreaking AI platform?",
-        "Look over there, Lucas! be you know the software architect who designed that groundbreaking AI platform?"
+        "Look over there, Lucas! Do you know the software architect who designed that groundbreaking AI platform?"
       ],
       "correctAnswer": "Look over there, Lucas! Do you know the software architect who designed that groundbreaking AI platform?",
       "explanationVi": "Câu dịch chuẩn xác: \"Look over there, Lucas! Do you know the software architect who designed that groundbreaking AI platform?\" (Nhìn đằng kia kìa Lucas! Bạn có biết vị kiến trúc sư phần mềm - người đã thiết kế nền tảng AI đột phá đó không?)."
@@ -80,10 +80,10 @@
       "promptVi": "[Ngữ cảnh giao tiếp] Chọn câu phản hồi tự nhiên và đúng ngữ pháp:",
       "question": "Khi đối phương nói: \"Look over there, Lucas! Do you know the software architect who designed that groundbreaking AI platform?\", câu phản hồi phù hợp là gì?",
       "options": [
-        "They are not in the office.",
-        "Yes, that is Dr. Miller, who graduated at the top of his class from Cambridge University.",
         "Yes, I will eat it.",
-        "No, it was yesterday."
+        "No, it was yesterday.",
+        "Yes, that is Dr. Miller, who graduated at the top of his class from Cambridge University.",
+        "They are not in the office."
       ],
       "correctAnswer": "Yes, that is Dr. Miller, who graduated at the top of his class from Cambridge University.",
       "explanationVi": "Phản hồi phù hợp trong bài: \"Yes, that is Dr. Miller, who graduated at the top of his class from Cambridge University.\" (Có chứ, đó là Tiến sĩ Miller, người đã tốt nghiệp thủ khoa trường Đại học Cambridge. (Mệnh đề không xác định có dấu phẩy))."
@@ -109,8 +109,8 @@
       "question": "The book ___ I bought yesterday is very interesting.",
       "correctAnswer": "which",
       "options": [
-        "whose",
         "who",
+        "whose",
         "which",
         "whom"
       ],
@@ -123,10 +123,10 @@
       "question": "The man ___ we met at the airport was very friendly.",
       "correctAnswer": "whom",
       "options": [
-        "whom",
         "what",
         "which",
-        "where"
+        "where",
+        "whom"
       ],
       "explanationVi": "Đáp án đúng là \"whom\". Câu hoàn chỉnh: \"The man whom we met at the airport was very friendly.\" (Người đàn ông mà chúng tôi gặp ở sân bay rất thân thiện.)."
     },
@@ -137,10 +137,10 @@
       "question": "Paris, ___ is the capital of France, attracts millions of tourists.",
       "correctAnswer": "which",
       "options": [
-        "which",
-        "where",
+        "what",
         "that",
-        "what"
+        "where",
+        "which"
       ],
       "explanationVi": "Đáp án đúng là \"which\". Câu hoàn chỉnh: \"Paris, which is the capital of France, attracts millions of tourists.\" (Paris, thủ đô của nước Pháp, thu hút hàng triệu khách du lịch.)."
     },
@@ -151,9 +151,9 @@
       "question": "The _____ not who lives next door is a doctor.",
       "correctAnswer": "woman",
       "options": [
+        "is",
         "am",
         "are",
-        "is",
         "woman"
       ],
       "explanationVi": "Câu phủ định hoàn chỉnh: \"The woman not who lives next door is a doctor.\"."
@@ -164,15 +164,15 @@
       "promptVi": "[Sắp xếp câu] Ghép các khối từ thành câu hoàn chỉnh mang nghĩa: \"Người phụ nữ sống ở nhà bên cạnh là một bác sĩ.\"",
       "question": "Sắp xếp các từ để tạo thành câu đúng: \"Người phụ nữ sống ở nhà bên cạnh là một bác sĩ.\"",
       "words": [
-        "doctor.",
-        "is",
-        "door",
-        "next",
-        "a",
-        "lives",
-        "woman",
         "The",
-        "who"
+        "lives",
+        "next",
+        "door",
+        "who",
+        "woman",
+        "is",
+        "a",
+        "doctor."
       ],
       "correctSentence": "The woman who lives next door is a doctor.",
       "hintVi": "Người phụ nữ sống ở nhà bên cạnh là một bác sĩ.",
@@ -184,14 +184,14 @@
       "promptVi": "[Sắp xếp câu] Ghép các khối từ thành câu hoàn chỉnh mang nghĩa: \"Cuốn sách mà tôi đã mua hôm qua rất thú vị.\"",
       "question": "Sắp xếp các từ để tạo thành câu đúng: \"Cuốn sách mà tôi đã mua hôm qua rất thú vị.\"",
       "words": [
-        "yesterday",
         "which",
+        "interesting.",
+        "very",
+        "The",
+        "book",
+        "yesterday",
         "is",
         "bought",
-        "very",
-        "interesting.",
-        "book",
-        "The",
         "I"
       ],
       "correctSentence": "The book which I bought yesterday is very interesting.",
@@ -204,17 +204,17 @@
       "promptVi": "[Sắp xếp câu] Ghép các khối từ thành câu hoàn chỉnh mang nghĩa: \"Người đàn ông mà chúng tôi gặp ở sân bay rất thân thiện.\"",
       "question": "Sắp xếp các từ để tạo thành câu đúng: \"Người đàn ông mà chúng tôi gặp ở sân bay rất thân thiện.\"",
       "words": [
-        "at",
-        "met",
-        "airport",
-        "we",
-        "whom",
         "was",
-        "very",
+        "we",
+        "at",
+        "airport",
+        "whom",
+        "The",
         "man",
+        "met",
         "friendly.",
-        "the",
-        "The"
+        "very",
+        "the"
       ],
       "correctSentence": "The man whom we met at the airport was very friendly.",
       "hintVi": "Người đàn ông mà chúng tôi gặp ở sân bay rất thân thiện.",
@@ -226,17 +226,17 @@
       "promptVi": "[Sắp xếp câu] Ghép các khối từ thành câu hoàn chỉnh mang nghĩa: \"Paris, thủ đô của nước Pháp, thu hút hàng triệu khách du lịch.\"",
       "question": "Sắp xếp các từ để tạo thành câu đúng: \"Paris, thủ đô của nước Pháp, thu hút hàng triệu khách du lịch.\"",
       "words": [
-        "millions",
-        "is",
-        "of",
         "capital",
         "France,",
-        "tourists.",
-        "Paris,",
-        "attracts",
         "the",
         "which",
-        "of"
+        "attracts",
+        "of",
+        "millions",
+        "of",
+        "tourists.",
+        "Paris,",
+        "is"
       ],
       "correctSentence": "Paris, which is the capital of France, attracts millions of tourists.",
       "hintVi": "Paris, thủ đô của nước Pháp, thu hút hàng triệu khách du lịch.",
@@ -248,18 +248,18 @@
       "promptVi": "[Sắp xếp câu] Ghép các từ thành câu hội thoại: \"Có phải ông ấy là ứng viên mà hội đồng tuyển dụng của chúng ta đã phỏng vấn vào chiều thứ Năm tuần trước không?\"",
       "question": "Sắp xếp các từ để tạo thành câu thoại: \"Có phải ông ấy là ứng viên mà hội đồng tuyển dụng của chúng ta đã phỏng vấn vào chiều thứ Năm tuần trước không?\"",
       "words": [
-        "interviewed",
-        "whom",
-        "the",
-        "Is",
-        "last",
-        "afternoon",
-        "our",
         "committee",
-        "candidate",
-        "Thursday",
+        "the",
         "he",
-        "hiring"
+        "hiring",
+        "last",
+        "our",
+        "candidate",
+        "afternoon",
+        "Is",
+        "whom",
+        "interviewed",
+        "Thursday"
       ],
       "correctSentence": "Is he the candidate whom our hiring committee interviewed last Thursday afternoon?",
       "hintVi": "Có phải ông ấy là ứng viên mà hội đồng tuyển dụng của chúng ta đã phỏng vấn vào chiều thứ Năm tuần trước không?",
@@ -271,10 +271,10 @@
       "promptVi": "[Nhận diện cấu trúc chuẩn] Chọn câu có cấu trúc ngữ pháp HOÀN TOÀN ĐÚNG:",
       "question": "Dựa vào chủ điểm \"Bài 56: Mệnh đề Quan hệ — Who / Whom / Which / That (Defining & Non-Defining Relative Clauses)\", câu nào sau đây CHÍNH XÁC?",
       "options": [
-        "is",
-        "The woman who lives next door is a doctor.",
+        "doctor. a is door next lives who woman The",
         "The woman who lives next door be a doctor.",
-        "doctor. a is door next lives who woman The"
+        "The woman who lives next door is a doctor.",
+        "is"
       ],
       "correctAnswer": "The woman who lives next door is a doctor.",
       "explanationVi": "Cấu trúc chuẩn xác là: \"The woman who lives next door is a doctor.\" (Người phụ nữ sống ở nhà bên cạnh là một bác sĩ.)."
@@ -285,10 +285,10 @@
       "promptVi": "[Nhận diện cấu trúc chuẩn] Chọn câu có cấu trúc ngữ pháp HOÀN TOÀN ĐÚNG:",
       "question": "Dựa vào chủ điểm \"Bài 56: Mệnh đề Quan hệ — Who / Whom / Which / That (Defining & Non-Defining Relative Clauses)\", câu nào sau đây CHÍNH XÁC?",
       "options": [
-        "The book which I bought yesterday be very interesting.",
-        "interesting. very is yesterday bought I which book The",
         "is",
-        "The book which I bought yesterday is very interesting."
+        "The book which I bought yesterday be very interesting.",
+        "The book which I bought yesterday is very interesting.",
+        "interesting. very is yesterday bought I which book The"
       ],
       "correctAnswer": "The book which I bought yesterday is very interesting.",
       "explanationVi": "Cấu trúc chuẩn xác là: \"The book which I bought yesterday is very interesting.\" (Cuốn sách mà tôi đã mua hôm qua rất thú vị.)."
@@ -299,9 +299,9 @@
       "promptVi": "[Nhận diện cấu trúc chuẩn] Chọn câu có cấu trúc ngữ pháp HOÀN TOÀN ĐÚNG:",
       "question": "Dựa vào chủ điểm \"Bài 56: Mệnh đề Quan hệ — Who / Whom / Which / That (Defining & Non-Defining Relative Clauses)\", câu nào sau đây CHÍNH XÁC?",
       "options": [
-        "The man whom we met at the airport be very friendly.",
-        "friendly. very was airport the at met we whom man The",
         "is",
+        "friendly. very was airport the at met we whom man The",
+        "The man whom we met at the airport be very friendly.",
         "The man whom we met at the airport was very friendly."
       ],
       "correctAnswer": "The man whom we met at the airport was very friendly.",
@@ -313,9 +313,9 @@
       "promptVi": "[Nhận diện cấu trúc chuẩn] Chọn câu có cấu trúc ngữ pháp HOÀN TOÀN ĐÚNG:",
       "question": "Dựa vào chủ điểm \"Bài 56: Mệnh đề Quan hệ — Who / Whom / Which / That (Defining & Non-Defining Relative Clauses)\", câu nào sau đây CHÍNH XÁC?",
       "options": [
-        "is",
         "Paris, which is the capital of France, attracts millions of tourists.",
         "tourists. of millions attracts France, of capital the is which Paris,",
+        "is",
         "Paris, which be the capital of France, attracts millions of tourists."
       ],
       "correctAnswer": "Paris, which is the capital of France, attracts millions of tourists.",
@@ -328,10 +328,10 @@
       "audioPrompt": "Look over there, Lucas! Do you know the software architect who designed that groundbreaking AI platform?",
       "question": "Nhấn nút '🔊 Nghe audio' và chọn nghĩa tiếng Việt đúng:",
       "options": [
-        "Hôm nay thời tiết rất đẹp.",
-        "Nhìn đằng kia kìa Lucas! Bạn có biết vị kiến trúc sư phần mềm - người đã thiết kế nền tảng AI đột phá đó không?",
+        "Có chứ, đó là Tiến sĩ Miller, người đã tốt nghiệp thủ khoa trường Đại học Cambridge. (Mệnh đề không xác định có dấu phẩy)",
         "Có phải ông ấy là ứng viên mà hội đồng tuyển dụng của chúng ta đã phỏng vấn vào chiều thứ Năm tuần trước không?",
-        "Có chứ, đó là Tiến sĩ Miller, người đã tốt nghiệp thủ khoa trường Đại học Cambridge. (Mệnh đề không xác định có dấu phẩy)"
+        "Nhìn đằng kia kìa Lucas! Bạn có biết vị kiến trúc sư phần mềm - người đã thiết kế nền tảng AI đột phá đó không?",
+        "Hôm nay thời tiết rất đẹp."
       ],
       "correctAnswer": "Nhìn đằng kia kìa Lucas! Bạn có biết vị kiến trúc sư phần mềm - người đã thiết kế nền tảng AI đột phá đó không?",
       "explanationVi": "Câu nghe được: \"Look over there, Lucas! Do you know the software architect who designed that groundbreaking AI platform?\" có nghĩa là: \"Nhìn đằng kia kìa Lucas! Bạn có biết vị kiến trúc sư phần mềm - người đã thiết kế nền tảng AI đột phá đó không?\"."
@@ -344,9 +344,9 @@
       "question": "Nhấn nút '🔊 Nghe audio' và chọn nghĩa tiếng Việt đúng:",
       "options": [
         "Đúng là ông ấy đấy. Bài thuyết trình mà ông ấy đã trình bày hôm qua đã nhận được sự tán thưởng nhiệt liệt từ khán phòng.",
-        "Hôm nay thời tiết rất đẹp.",
+        "Có chứ, đó là Tiến sĩ Miller, người đã tốt nghiệp thủ khoa trường Đại học Cambridge. (Mệnh đề không xác định có dấu phẩy)",
         "Có phải ông ấy là ứng viên mà hội đồng tuyển dụng của chúng ta đã phỏng vấn vào chiều thứ Năm tuần trước không?",
-        "Có chứ, đó là Tiến sĩ Miller, người đã tốt nghiệp thủ khoa trường Đại học Cambridge. (Mệnh đề không xác định có dấu phẩy)"
+        "Hôm nay thời tiết rất đẹp."
       ],
       "correctAnswer": "Có chứ, đó là Tiến sĩ Miller, người đã tốt nghiệp thủ khoa trường Đại học Cambridge. (Mệnh đề không xác định có dấu phẩy)",
       "explanationVi": "Câu nghe được: \"Yes, that is Dr. Miller, who graduated at the top of his class from Cambridge University.\" có nghĩa là: \"Có chứ, đó là Tiến sĩ Miller, người đã tốt nghiệp thủ khoa trường Đại học Cambridge. (Mệnh đề không xác định có dấu phẩy)\"."
@@ -358,10 +358,10 @@
       "audioPrompt": "Is he the candidate whom our hiring committee interviewed last Thursday afternoon?",
       "question": "Nhấn nút '🔊 Nghe audio' và chọn nghĩa tiếng Việt đúng:",
       "options": [
+        "Có phải ông ấy là ứng viên mà hội đồng tuyển dụng của chúng ta đã phỏng vấn vào chiều thứ Năm tuần trước không?",
         "Đúng là ông ấy đấy. Bài thuyết trình mà ông ấy đã trình bày hôm qua đã nhận được sự tán thưởng nhiệt liệt từ khán phòng.",
-        "Hôm nay thời tiết rất đẹp.",
         "Con chip vi mạch cải tiến mà nhóm nghiên cứu của ông ấy phát minh có thể xử lý dữ liệu nhanh hơn mười lần.",
-        "Có phải ông ấy là ứng viên mà hội đồng tuyển dụng của chúng ta đã phỏng vấn vào chiều thứ Năm tuần trước không?"
+        "Hôm nay thời tiết rất đẹp."
       ],
       "correctAnswer": "Có phải ông ấy là ứng viên mà hội đồng tuyển dụng của chúng ta đã phỏng vấn vào chiều thứ Năm tuần trước không?",
       "explanationVi": "Câu nghe được: \"Is he the candidate whom our hiring committee interviewed last Thursday afternoon?\" có nghĩa là: \"Có phải ông ấy là ứng viên mà hội đồng tuyển dụng của chúng ta đã phỏng vấn vào chiều thứ Năm tuần trước không?\"."
@@ -373,10 +373,10 @@
       "audioPrompt": "Indeed he is. The presentation which he delivered yesterday received a standing ovation.",
       "question": "Nhấn nút '🔊 Nghe audio' và chọn nghĩa tiếng Việt đúng:",
       "options": [
-        "Con chip vi mạch cải tiến mà nhóm nghiên cứu của ông ấy phát minh có thể xử lý dữ liệu nhanh hơn mười lần.",
-        "Đúng là ông ấy đấy. Bài thuyết trình mà ông ấy đã trình bày hôm qua đã nhận được sự tán thưởng nhiệt liệt từ khán phòng.",
         "Hôm nay thời tiết rất đẹp.",
-        "Các nhà đầu tư mạo hiểm, những người vừa đến từ Thung lũng Silicon, đang vô cùng hào hứng tài trợ cho công ty khởi nghiệp của ông."
+        "Đúng là ông ấy đấy. Bài thuyết trình mà ông ấy đã trình bày hôm qua đã nhận được sự tán thưởng nhiệt liệt từ khán phòng.",
+        "Các nhà đầu tư mạo hiểm, những người vừa đến từ Thung lũng Silicon, đang vô cùng hào hứng tài trợ cho công ty khởi nghiệp của ông.",
+        "Con chip vi mạch cải tiến mà nhóm nghiên cứu của ông ấy phát minh có thể xử lý dữ liệu nhanh hơn mười lần."
       ],
       "correctAnswer": "Đúng là ông ấy đấy. Bài thuyết trình mà ông ấy đã trình bày hôm qua đã nhận được sự tán thưởng nhiệt liệt từ khán phòng.",
       "explanationVi": "Câu nghe được: \"Indeed he is. The presentation which he delivered yesterday received a standing ovation.\" có nghĩa là: \"Đúng là ông ấy đấy. Bài thuyết trình mà ông ấy đã trình bày hôm qua đã nhận được sự tán thưởng nhiệt liệt từ khán phòng.\"."
@@ -420,32 +420,32 @@
     {
       "id": "ex-056-29",
       "type": "reading_comprehension",
-      "promptVi": "[Đọc hiểu đoạn văn] Đọc đoạn hội thoại sau và trả lời câu hỏi:",
+      "promptVi": "[Đọc hiểu đoạn văn] Đọc kĩ đoạn hội thoại và chọn nhận định đúng về nội dung:",
       "passage": "Recruiter Anna: \"Look over there, Lucas! Do you know the software architect who designed that groundbreaking AI platform?\"\nLucas: \"Yes, that is Dr. Miller, who graduated at the top of his class from Cambridge University.\"\nRecruiter Anna: \"Is he the candidate whom our hiring committee interviewed last Thursday afternoon?\"\nLucas: \"Indeed he is. The presentation which he delivered yesterday received a standing ovation.\"",
-      "question": "Chủ đề trọng tâm của đoạn hội thoại trên là gì?",
+      "question": "Dựa vào đoạn đối thoại trên, thông tin nào sau đây là CHÍNH XÁC về nội dung câu nói của Recruiter Anna?",
       "options": [
-        "Cách làm món ăn truyền thống",
-        "Kế hoạch đi mua sắm tại siêu thị",
-        "Mệnh đề Quan hệ — Who / Whom / Which / That (Defining & Non-Defining Relative Clauses)",
-        "Lịch trình đi du lịch nghỉ mát cuối tuần"
+        "Recruiter Anna chia sẻ thông tin: \"Nhìn đằng kia kìa Lucas! Bạn có biết vị kiến trúc sư phần mềm - người đã thiết kế nền tảng AI đột phá đó không?\"",
+        "Recruiter Anna phàn nàn rằng thời tiết hôm nay quá xấu.",
+        "Recruiter Anna từ chối trả lời và yêu cầu hủy cuộc hẹn.",
+        "Recruiter Anna muốn mượn tiền để mua vé máy bay gấp."
       ],
-      "correctAnswer": "Mệnh đề Quan hệ — Who / Whom / Which / That (Defining & Non-Defining Relative Clauses)",
-      "explanationVi": "Đoạn hội thoại được thiết kế để minh họa trực tiếp cho chủ điểm \"Bài 56: Mệnh đề Quan hệ — Who / Whom / Which / That (Defining & Non-Defining Relative Clauses)\"."
+      "correctAnswer": "Recruiter Anna chia sẻ thông tin: \"Nhìn đằng kia kìa Lucas! Bạn có biết vị kiến trúc sư phần mềm - người đã thiết kế nền tảng AI đột phá đó không?\"",
+      "explanationVi": "Trong đoạn hội thoại, Recruiter Anna đã nói: \"Look over there, Lucas! Do you know the software architect who designed that groundbreaking AI platform?\" (nghĩa là: \"Nhìn đằng kia kìa Lucas! Bạn có biết vị kiến trúc sư phần mềm - người đã thiết kế nền tảng AI đột phá đó không?\")."
     },
     {
       "id": "ex-056-30",
       "type": "reading_comprehension",
-      "promptVi": "[Đọc hiểu đoạn văn] Đọc đoạn đối thoại tiếp theo và chọn nhận định đúng:",
+      "promptVi": "[Đọc hiểu đoạn văn] Đọc phần đối thoại tiếp theo và trả lời câu hỏi:",
       "passage": "Recruiter Anna: \"The innovative microchip that his research team invented can process data ten times faster.\"\nLucas: \"The venture capital investors, who arrived from Silicon Valley, are extremely eager to fund his startup.\"\nRecruiter Anna: \"We should introduce ourselves to the junior engineers that are standing near his booth.\"\nLucas: \"Great idea! The conference hall, which holds over two thousand delegates, is completely packed today.\"",
-      "question": "Nhận định nào sau đây là ĐÚNG về nội dung đoạn đối thoại?",
+      "question": "Trong đoạn hội thoại trên, câu nói \"Great idea! The conference hall, which holds over two thousand delegates, is completely packed today.\" của Lucas mang ý nghĩa gì?",
       "options": [
-        "Các câu thoại sử dụng đúng cấu trúc \"Mệnh đề Quan hệ — Who / Whom / Which / That (Defining & Non-Defining Relative Clauses)\".",
-        "Hai nhân vật đang cãi nhau và không đồng ý hợp tác.",
-        "Cuộc trò chuyện diễn ra tại nhà ga xe lửa.",
-        "Cả hai nhân vật đang thảo luận về thời tiết ngày mai."
+        "Phản hồi: \"Hoàn toàn không đồng ý và muốn rời khỏi phòng ngay lập tức\"",
+        "Phản hồi: \"Ý tưởng tuyệt vời! Hội trường hội nghị, nơi có sức chứa hơn 2.000 đại biểu, hôm nay đã chật kín người.\"",
+        "Phản hồi: \"Yêu cầu cung cấp hóa đơn thanh toán tiền mặt\"",
+        "Phản hồi: \"Hẹn gặp lại vào cuối tuần sau tại sân bay quốc tế\""
       ],
-      "correctAnswer": "Các câu thoại sử dụng đúng cấu trúc \"Mệnh đề Quan hệ — Who / Whom / Which / That (Defining & Non-Defining Relative Clauses)\".",
-      "explanationVi": "Đoạn đối thoại ứng dụng chuẩn xác ngữ pháp của \"Bài 56: Mệnh đề Quan hệ — Who / Whom / Which / That (Defining & Non-Defining Relative Clauses)\"."
+      "correctAnswer": "Phản hồi: \"Ý tưởng tuyệt vời! Hội trường hội nghị, nơi có sức chứa hơn 2.000 đại biểu, hôm nay đã chật kín người.\"",
+      "explanationVi": "Lucas nói: \"Great idea! The conference hall, which holds over two thousand delegates, is completely packed today.\" có nghĩa là: \"Ý tưởng tuyệt vời! Hội trường hội nghị, nơi có sức chứa hơn 2.000 đại biểu, hôm nay đã chật kín người.\"."
     }
   ]
 }

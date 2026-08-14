@@ -11,9 +11,9 @@
       "question": "I ___ drink coffee at night.",
       "options": [
         "don't",
-        "doesn't",
+        "not",
         "am not",
-        "not"
+        "doesn't"
       ],
       "correctAnswer": "don't",
       "explanationVi": "Chủ ngữ 'I' với động từ thường 'drink' dùng trợ động từ 'don't'."
@@ -24,10 +24,10 @@
       "promptVi": "[Trắc nghiệm ngữ pháp] Chọn từ đúng để hoàn thành câu (Anh ấy không sống ở thành phố này.):",
       "question": "He ___ live in this city.",
       "options": [
-        "not",
-        "doesn't",
         "don't",
-        "isn't"
+        "isn't",
+        "not",
+        "doesn't"
       ],
       "correctAnswer": "doesn't",
       "explanationVi": "Ngôi thứ 3 số ít 'He' đi với 'doesn't'."
@@ -39,8 +39,8 @@
       "question": "They ___ work on weekends.",
       "options": [
         "doesn't",
-        "aren't",
         "don't",
+        "aren't",
         "not"
       ],
       "correctAnswer": "don't",
@@ -52,10 +52,10 @@
       "promptVi": "[Trắc nghiệm ngữ pháp] Chọn từ đúng để hoàn thành câu (Cô ấy không xem TV vào buổi tối.):",
       "question": "She ___ watch TV in the evening.",
       "options": [
-        "doesn't",
         "don't",
-        "isn't",
-        "doesn't watches"
+        "doesn't",
+        "doesn't watches",
+        "isn't"
       ],
       "correctAnswer": "doesn't",
       "explanationVi": "'She' đi với 'doesn't' và theo sau là động từ nguyên mẫu 'watch'."
@@ -66,10 +66,10 @@
       "promptVi": "[Phản xạ dịch thuật] Dịch câu sau sang tiếng Anh: \"Bạn có muốn đi ăn thức ăn nhanh cho bữa trưa không, Jessica?\"",
       "question": "Chọn bản dịch chuẩn xác nhất cho câu: \"Bạn có muốn đi ăn thức ăn nhanh cho bữa trưa không, Jessica?\"",
       "options": [
-        "We are studying English today.",
+        "No thanks, Brian. I don't eat fast food on weekdays.",
         "be you want to grab some fast food for lunch, Jessica?",
-        "Do you want to grab some fast food for lunch, Jessica?",
-        "No thanks, Brian. I don't eat fast food on weekdays."
+        "We are studying English today.",
+        "Do you want to grab some fast food for lunch, Jessica?"
       ],
       "correctAnswer": "Do you want to grab some fast food for lunch, Jessica?",
       "explanationVi": "Câu dịch chuẩn xác: \"Do you want to grab some fast food for lunch, Jessica?\" (Bạn có muốn đi ăn thức ăn nhanh cho bữa trưa không, Jessica?)."
@@ -80,10 +80,10 @@
       "promptVi": "[Ngữ cảnh giao tiếp] Chọn câu phản hồi tự nhiên và đúng ngữ pháp:",
       "question": "Khi đối phương nói: \"Do you want to grab some fast food for lunch, Jessica?\", câu phản hồi phù hợp là gì?",
       "options": [
-        "No, it was yesterday.",
+        "They are not in the office.",
         "Yes, I will eat it.",
-        "No thanks, Brian. I don't eat fast food on weekdays.",
-        "They are not in the office."
+        "No, it was yesterday.",
+        "No thanks, Brian. I don't eat fast food on weekdays."
       ],
       "correctAnswer": "No thanks, Brian. I don't eat fast food on weekdays.",
       "explanationVi": "Phản hồi phù hợp trong bài: \"No thanks, Brian. I don't eat fast food on weekdays.\" (Không cảm ơn, Brian. Tôi không ăn đồ ăn nhanh vào các ngày trong tuần.)."
@@ -97,8 +97,8 @@
       "options": [
         "don't",
         "doesn't",
-        "am not",
-        "not"
+        "not",
+        "am not"
       ],
       "explanationVi": "Đáp án đúng là \"don't\". Câu hoàn chỉnh: \"I don't drink coffee at night.\" (Tôi không uống cà phê vào buổi tối.)."
     },
@@ -110,8 +110,8 @@
       "correctAnswer": "doesn't",
       "options": [
         "doesn't",
-        "isn't",
         "not",
+        "isn't",
         "don't"
       ],
       "explanationVi": "Đáp án đúng là \"doesn't\". Câu hoàn chỉnh: \"He doesn't live in this city.\" (Anh ấy không sống ở thành phố này.)."
@@ -123,10 +123,10 @@
       "question": "They ___ work on weekends.",
       "correctAnswer": "don't",
       "options": [
-        "aren't",
-        "not",
         "don't",
-        "doesn't"
+        "aren't",
+        "doesn't",
+        "not"
       ],
       "explanationVi": "Đáp án đúng là \"don't\". Câu hoàn chỉnh: \"They don't work on weekends.\" (Họ không làm việc vào cuối tuần.)."
     },
@@ -137,10 +137,10 @@
       "question": "She ___ watch TV in the evening.",
       "correctAnswer": "doesn't",
       "options": [
-        "isn't",
-        "doesn't watches",
         "doesn't",
-        "don't"
+        "don't",
+        "isn't",
+        "doesn't watches"
       ],
       "explanationVi": "Đáp án đúng là \"doesn't\". Câu hoàn chỉnh: \"She doesn't watch TV in the evening.\" (Cô ấy không xem TV vào buổi tối.)."
     },
@@ -151,9 +151,9 @@
       "question": "I _____ not drink coffee at night.",
       "correctAnswer": "don't",
       "options": [
-        "don't",
-        "am",
         "is",
+        "am",
+        "don't",
         "are"
       ],
       "explanationVi": "Câu phủ định hoàn chỉnh: \"I don't not drink coffee at night.\"."
@@ -164,12 +164,12 @@
       "promptVi": "[Sắp xếp câu] Ghép các khối từ thành câu hoàn chỉnh mang nghĩa: \"Tôi không uống cà phê vào buổi tối.\"",
       "question": "Sắp xếp các từ để tạo thành câu đúng: \"Tôi không uống cà phê vào buổi tối.\"",
       "words": [
-        "coffee",
-        "don't",
+        "at",
         "drink",
         "I",
-        "at",
-        "night."
+        "night.",
+        "don't",
+        "coffee"
       ],
       "correctSentence": "I don't drink coffee at night.",
       "hintVi": "Tôi không uống cà phê vào buổi tối.",
@@ -181,12 +181,12 @@
       "promptVi": "[Sắp xếp câu] Ghép các khối từ thành câu hoàn chỉnh mang nghĩa: \"Anh ấy không sống ở thành phố này.\"",
       "question": "Sắp xếp các từ để tạo thành câu đúng: \"Anh ấy không sống ở thành phố này.\"",
       "words": [
-        "this",
-        "city.",
-        "in",
-        "doesn't",
+        "live",
         "He",
-        "live"
+        "this",
+        "in",
+        "city.",
+        "doesn't"
       ],
       "correctSentence": "He doesn't live in this city.",
       "hintVi": "Anh ấy không sống ở thành phố này.",
@@ -198,10 +198,10 @@
       "promptVi": "[Sắp xếp câu] Ghép các khối từ thành câu hoàn chỉnh mang nghĩa: \"Họ không làm việc vào cuối tuần.\"",
       "question": "Sắp xếp các từ để tạo thành câu đúng: \"Họ không làm việc vào cuối tuần.\"",
       "words": [
-        "weekends.",
         "work",
-        "don't",
+        "weekends.",
         "on",
+        "don't",
         "They"
       ],
       "correctSentence": "They don't work on weekends.",
@@ -214,12 +214,12 @@
       "promptVi": "[Sắp xếp câu] Ghép các khối từ thành câu hoàn chỉnh mang nghĩa: \"Cô ấy không xem TV vào buổi tối.\"",
       "question": "Sắp xếp các từ để tạo thành câu đúng: \"Cô ấy không xem TV vào buổi tối.\"",
       "words": [
-        "evening.",
-        "in",
         "watch",
+        "in",
+        "evening.",
         "TV",
-        "doesn't",
         "the",
+        "doesn't",
         "She"
       ],
       "correctSentence": "She doesn't watch TV in the evening.",
@@ -232,13 +232,13 @@
       "promptVi": "[Sắp xếp câu] Ghép các từ thành câu hội thoại: \"Thật sao? Tại sao bạn lại không thích thức ăn nhanh?\"",
       "question": "Sắp xếp các từ để tạo thành câu thoại: \"Thật sao? Tại sao bạn lại không thích thức ăn nhanh?\"",
       "words": [
-        "don't",
-        "Why",
-        "food",
         "Really",
-        "you",
+        "Why",
         "fast",
-        "like"
+        "like",
+        "you",
+        "don't",
+        "food"
       ],
       "correctSentence": "Really? Why don't you like fast food?",
       "hintVi": "Thật sao? Tại sao bạn lại không thích thức ăn nhanh?",
@@ -251,9 +251,9 @@
       "question": "Dựa vào chủ điểm \"Bài 12: Động từ Thường — Phủ định (Don't / Doesn't)\", câu nào sau đây CHÍNH XÁC?",
       "options": [
         "I don't drink coffee at night.",
-        "night. at coffee drink don't I",
+        "is",
         "are",
-        "is"
+        "night. at coffee drink don't I"
       ],
       "correctAnswer": "I don't drink coffee at night.",
       "explanationVi": "Cấu trúc chuẩn xác là: \"I don't drink coffee at night.\" (Tôi không uống cà phê vào buổi tối.)."
@@ -264,9 +264,9 @@
       "promptVi": "[Nhận diện cấu trúc chuẩn] Chọn câu có cấu trúc ngữ pháp HOÀN TOÀN ĐÚNG:",
       "question": "Dựa vào chủ điểm \"Bài 12: Động từ Thường — Phủ định (Don't / Doesn't)\", câu nào sau đây CHÍNH XÁC?",
       "options": [
-        "He doesn't live in this city.",
-        "is",
         "He doesn't live at this city.",
+        "is",
+        "He doesn't live in this city.",
         "city. this in live doesn't He"
       ],
       "correctAnswer": "He doesn't live in this city.",
@@ -278,10 +278,10 @@
       "promptVi": "[Nhận diện cấu trúc chuẩn] Chọn câu có cấu trúc ngữ pháp HOÀN TOÀN ĐÚNG:",
       "question": "Dựa vào chủ điểm \"Bài 12: Động từ Thường — Phủ định (Don't / Doesn't)\", câu nào sau đây CHÍNH XÁC?",
       "options": [
-        "They don't work at weekends.",
-        "is",
         "They don't work on weekends.",
-        "weekends. on work don't They"
+        "They don't work at weekends.",
+        "weekends. on work don't They",
+        "is"
       ],
       "correctAnswer": "They don't work on weekends.",
       "explanationVi": "Cấu trúc chuẩn xác là: \"They don't work on weekends.\" (Họ không làm việc vào cuối tuần.)."
@@ -292,10 +292,10 @@
       "promptVi": "[Nhận diện cấu trúc chuẩn] Chọn câu có cấu trúc ngữ pháp HOÀN TOÀN ĐÚNG:",
       "question": "Dựa vào chủ điểm \"Bài 12: Động từ Thường — Phủ định (Don't / Doesn't)\", câu nào sau đây CHÍNH XÁC?",
       "options": [
+        "evening. the in TV watch doesn't She",
         "She doesn't watch TV at the evening.",
         "is",
-        "She doesn't watch TV in the evening.",
-        "evening. the in TV watch doesn't She"
+        "She doesn't watch TV in the evening."
       ],
       "correctAnswer": "She doesn't watch TV in the evening.",
       "explanationVi": "Cấu trúc chuẩn xác là: \"She doesn't watch TV in the evening.\" (Cô ấy không xem TV vào buổi tối.)."
@@ -307,10 +307,10 @@
       "audioPrompt": "Do you want to grab some fast food for lunch, Jessica?",
       "question": "Nhấn nút '🔊 Nghe audio' và chọn nghĩa tiếng Việt đúng:",
       "options": [
-        "Không cảm ơn, Brian. Tôi không ăn đồ ăn nhanh vào các ngày trong tuần.",
-        "Thật sao? Tại sao bạn lại không thích thức ăn nhanh?",
+        "Hôm nay thời tiết rất đẹp.",
         "Bạn có muốn đi ăn thức ăn nhanh cho bữa trưa không, Jessica?",
-        "Hôm nay thời tiết rất đẹp."
+        "Không cảm ơn, Brian. Tôi không ăn đồ ăn nhanh vào các ngày trong tuần.",
+        "Thật sao? Tại sao bạn lại không thích thức ăn nhanh?"
       ],
       "correctAnswer": "Bạn có muốn đi ăn thức ăn nhanh cho bữa trưa không, Jessica?",
       "explanationVi": "Câu nghe được: \"Do you want to grab some fast food for lunch, Jessica?\" có nghĩa là: \"Bạn có muốn đi ăn thức ăn nhanh cho bữa trưa không, Jessica?\"."
@@ -322,10 +322,10 @@
       "audioPrompt": "No thanks, Brian. I don't eat fast food on weekdays.",
       "question": "Nhấn nút '🔊 Nghe audio' và chọn nghĩa tiếng Việt đúng:",
       "options": [
-        "Không cảm ơn, Brian. Tôi không ăn đồ ăn nhanh vào các ngày trong tuần.",
+        "Hôm nay thời tiết rất đẹp.",
         "Thật sao? Tại sao bạn lại không thích thức ăn nhanh?",
-        "Tôi không cảm thấy tràn đầy năng lượng sau khi ăn nó. Tôi thích món salad tốt cho sức khỏe hơn.",
-        "Hôm nay thời tiết rất đẹp."
+        "Không cảm ơn, Brian. Tôi không ăn đồ ăn nhanh vào các ngày trong tuần.",
+        "Tôi không cảm thấy tràn đầy năng lượng sau khi ăn nó. Tôi thích món salad tốt cho sức khỏe hơn."
       ],
       "correctAnswer": "Không cảm ơn, Brian. Tôi không ăn đồ ăn nhanh vào các ngày trong tuần.",
       "explanationVi": "Câu nghe được: \"No thanks, Brian. I don't eat fast food on weekdays.\" có nghĩa là: \"Không cảm ơn, Brian. Tôi không ăn đồ ăn nhanh vào các ngày trong tuần.\"."
@@ -337,10 +337,10 @@
       "audioPrompt": "Really? Why don't you like fast food?",
       "question": "Nhấn nút '🔊 Nghe audio' và chọn nghĩa tiếng Việt đúng:",
       "options": [
-        "Bạn cùng phòng của bạn có nấu bữa trưa cho bạn ở nhà không?",
         "Thật sao? Tại sao bạn lại không thích thức ăn nhanh?",
+        "Hôm nay thời tiết rất đẹp.",
         "Tôi không cảm thấy tràn đầy năng lượng sau khi ăn nó. Tôi thích món salad tốt cho sức khỏe hơn.",
-        "Hôm nay thời tiết rất đẹp."
+        "Bạn cùng phòng của bạn có nấu bữa trưa cho bạn ở nhà không?"
       ],
       "correctAnswer": "Thật sao? Tại sao bạn lại không thích thức ăn nhanh?",
       "explanationVi": "Câu nghe được: \"Really? Why don't you like fast food?\" có nghĩa là: \"Thật sao? Tại sao bạn lại không thích thức ăn nhanh?\"."
@@ -352,10 +352,10 @@
       "audioPrompt": "I don't feel energetic after eating it. I prefer healthy salad.",
       "question": "Nhấn nút '🔊 Nghe audio' và chọn nghĩa tiếng Việt đúng:",
       "options": [
-        "Tôi không cảm thấy tràn đầy năng lượng sau khi ăn nó. Tôi thích món salad tốt cho sức khỏe hơn.",
         "Bạn cùng phòng của bạn có nấu bữa trưa cho bạn ở nhà không?",
-        "Không, cô ấy không nấu ăn vào buổi sáng vì cô ấy dậy muộn.",
-        "Hôm nay thời tiết rất đẹp."
+        "Hôm nay thời tiết rất đẹp.",
+        "Tôi không cảm thấy tràn đầy năng lượng sau khi ăn nó. Tôi thích món salad tốt cho sức khỏe hơn.",
+        "Không, cô ấy không nấu ăn vào buổi sáng vì cô ấy dậy muộn."
       ],
       "correctAnswer": "Tôi không cảm thấy tràn đầy năng lượng sau khi ăn nó. Tôi thích món salad tốt cho sức khỏe hơn.",
       "explanationVi": "Câu nghe được: \"I don't feel energetic after eating it. I prefer healthy salad.\" có nghĩa là: \"Tôi không cảm thấy tràn đầy năng lượng sau khi ăn nó. Tôi thích món salad tốt cho sức khỏe hơn.\"."
@@ -399,32 +399,32 @@
     {
       "id": "ex-012-29",
       "type": "reading_comprehension",
-      "promptVi": "[Đọc hiểu đoạn văn] Đọc đoạn hội thoại sau và trả lời câu hỏi:",
+      "promptVi": "[Đọc hiểu đoạn văn] Đọc kĩ đoạn hội thoại và chọn nhận định đúng về nội dung:",
       "passage": "Brian: \"Do you want to grab some fast food for lunch, Jessica?\"\nJessica: \"No thanks, Brian. I don't eat fast food on weekdays.\"\nBrian: \"Really? Why don't you like fast food?\"\nJessica: \"I don't feel energetic after eating it. I prefer healthy salad.\"",
-      "question": "Chủ đề trọng tâm của đoạn hội thoại trên là gì?",
+      "question": "Dựa vào đoạn đối thoại trên, thông tin nào sau đây là CHÍNH XÁC về nội dung câu nói của Brian?",
       "options": [
-        "Động từ Thường — Phủ định (Don't / Doesn't)",
-        "Cách làm món ăn truyền thống",
-        "Lịch trình đi du lịch nghỉ mát cuối tuần",
-        "Kế hoạch đi mua sắm tại siêu thị"
+        "Brian muốn mượn tiền để mua vé máy bay gấp.",
+        "Brian chia sẻ thông tin: \"Bạn có muốn đi ăn thức ăn nhanh cho bữa trưa không, Jessica?\"",
+        "Brian từ chối trả lời và yêu cầu hủy cuộc hẹn.",
+        "Brian phàn nàn rằng thời tiết hôm nay quá xấu."
       ],
-      "correctAnswer": "Động từ Thường — Phủ định (Don't / Doesn't)",
-      "explanationVi": "Đoạn hội thoại được thiết kế để minh họa trực tiếp cho chủ điểm \"Bài 12: Động từ Thường — Phủ định (Don't / Doesn't)\"."
+      "correctAnswer": "Brian chia sẻ thông tin: \"Bạn có muốn đi ăn thức ăn nhanh cho bữa trưa không, Jessica?\"",
+      "explanationVi": "Trong đoạn hội thoại, Brian đã nói: \"Do you want to grab some fast food for lunch, Jessica?\" (nghĩa là: \"Bạn có muốn đi ăn thức ăn nhanh cho bữa trưa không, Jessica?\")."
     },
     {
       "id": "ex-012-30",
       "type": "reading_comprehension",
-      "promptVi": "[Đọc hiểu đoạn văn] Đọc đoạn đối thoại tiếp theo và chọn nhận định đúng:",
+      "promptVi": "[Đọc hiểu đoạn văn] Đọc phần đối thoại tiếp theo và trả lời câu hỏi:",
       "passage": "Brian: \"Does your roommate cook lunch for you at home?\"\nJessica: \"No, she doesn't cook in the morning because she wakes up late.\"\nBrian: \"Does she work at an office nearby?\"\nJessica: \"She doesn't work in an office. She works remotely from home.\"",
-      "question": "Nhận định nào sau đây là ĐÚNG về nội dung đoạn đối thoại?",
+      "question": "Trong đoạn hội thoại trên, câu nói \"She doesn't work in an office. She works remotely from home.\" của Jessica mang ý nghĩa gì?",
       "options": [
-        "Cuộc trò chuyện diễn ra tại nhà ga xe lửa.",
-        "Cả hai nhân vật đang thảo luận về thời tiết ngày mai.",
-        "Các câu thoại sử dụng đúng cấu trúc \"Động từ Thường — Phủ định (Don't / Doesn't)\".",
-        "Hai nhân vật đang cãi nhau và không đồng ý hợp tác."
+        "Phản hồi: \"Hoàn toàn không đồng ý và muốn rời khỏi phòng ngay lập tức\"",
+        "Phản hồi: \"Yêu cầu cung cấp hóa đơn thanh toán tiền mặt\"",
+        "Phản hồi: \"Hẹn gặp lại vào cuối tuần sau tại sân bay quốc tế\"",
+        "Phản hồi: \"Cô ấy không làm việc ở văn phòng. Cô ấy làm việc từ xa tại nhà.\""
       ],
-      "correctAnswer": "Các câu thoại sử dụng đúng cấu trúc \"Động từ Thường — Phủ định (Don't / Doesn't)\".",
-      "explanationVi": "Đoạn đối thoại ứng dụng chuẩn xác ngữ pháp của \"Bài 12: Động từ Thường — Phủ định (Don't / Doesn't)\"."
+      "correctAnswer": "Phản hồi: \"Cô ấy không làm việc ở văn phòng. Cô ấy làm việc từ xa tại nhà.\"",
+      "explanationVi": "Jessica nói: \"She doesn't work in an office. She works remotely from home.\" có nghĩa là: \"Cô ấy không làm việc ở văn phòng. Cô ấy làm việc từ xa tại nhà.\"."
     }
   ]
 }

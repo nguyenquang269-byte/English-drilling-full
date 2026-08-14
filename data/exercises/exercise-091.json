@@ -10,10 +10,10 @@
       "promptVi": "[Trắc nghiệm ngữ pháp] Chọn từ đúng để hoàn thành câu (Anh ấy đã hứa sẽ gọi cho tôi ngay khi anh ấy đến nơi.):",
       "question": "He promised ___ me as soon as he arrived.",
       "options": [
+        "call",
         "to call",
         "calling",
-        "called",
-        "call"
+        "called"
       ],
       "correctAnswer": "to call",
       "explanationVi": "Sau động từ 'promise' dùng 'to V' (to call)."
@@ -24,10 +24,10 @@
       "promptVi": "[Trắc nghiệm ngữ pháp] Chọn từ đúng để hoàn thành câu (Cô ấy đã xin lỗi vì đến muộn cuộc họp.):",
       "question": "She apologized ___ being late to the meeting.",
       "options": [
+        "for",
         "with",
         "about",
-        "to",
-        "for"
+        "to"
       ],
       "correctAnswer": "for",
       "explanationVi": "'apologize for V-ing' mang nghĩa xin lỗi vì đã làm gì."
@@ -38,10 +38,10 @@
       "promptVi": "[Trắc nghiệm ngữ pháp] Chọn từ đúng để hoàn thành câu (Giáo viên nói rằng Trái Đất quay xung quanh Mặt Trời.):",
       "question": "The teacher said that the Earth ___ around the Sun.",
       "options": [
-        "moving",
-        "moves",
         "had moved",
-        "moved"
+        "moved",
+        "moving",
+        "moves"
       ],
       "correctAnswer": "moves",
       "explanationVi": "Chân lý khoa học hiển nhiên luôn giữ ở thì Hiện tại đơn (moves) không lùi thì."
@@ -52,10 +52,10 @@
       "promptVi": "[Trắc nghiệm ngữ pháp] Chọn từ đúng để hoàn thành câu (Anh ấy đã đề xuất đi dạo trong công viên.):",
       "question": "He suggested ___ for a walk in the park.",
       "options": [
-        "go",
+        "to go",
         "went",
-        "going",
-        "to go"
+        "go",
+        "going"
       ],
       "correctAnswer": "going",
       "explanationVi": "Sau động từ tường thuật 'suggest' dùng V-ing 'going'."
@@ -66,10 +66,10 @@
       "promptVi": "[Phản xạ dịch thuật] Dịch câu sau sang tiếng Anh: \"Chào buổi sáng Luật sư Henderson. Giám đốc điều hành đã phát biểu những gì trong phiên điều trần điều tra?\"",
       "question": "Chọn bản dịch chuẩn xác nhất cho câu: \"Chào buổi sáng Luật sư Henderson. Giám đốc điều hành đã phát biểu những gì trong phiên điều trần điều tra?\"",
       "options": [
-        "He denied altering any financial balance sheets and insisted on cooperating fully with regulatory auditors.",
         "Good morning, Counsel Henderson. What be the chief executive officer state during the investigative hearing?",
         "We are studying English today.",
-        "Good morning, Counsel Henderson. What did the chief executive officer state during the investigative hearing?"
+        "Good morning, Counsel Henderson. What did the chief executive officer state during the investigative hearing?",
+        "He denied altering any financial balance sheets and insisted on cooperating fully with regulatory auditors."
       ],
       "correctAnswer": "Good morning, Counsel Henderson. What did the chief executive officer state during the investigative hearing?",
       "explanationVi": "Câu dịch chuẩn xác: \"Good morning, Counsel Henderson. What did the chief executive officer state during the investigative hearing?\" (Chào buổi sáng Luật sư Henderson. Giám đốc điều hành đã phát biểu những gì trong phiên điều trần điều tra?)."
@@ -80,9 +80,9 @@
       "promptVi": "[Ngữ cảnh giao tiếp] Chọn câu phản hồi tự nhiên và đúng ngữ pháp:",
       "question": "Khi đối phương nói: \"Good morning, Counsel Henderson. What did the chief executive officer state during the investigative hearing?\", câu phản hồi phù hợp là gì?",
       "options": [
-        "No, it was yesterday.",
-        "He denied altering any financial balance sheets and insisted on cooperating fully with regulatory auditors.",
         "They are not in the office.",
+        "He denied altering any financial balance sheets and insisted on cooperating fully with regulatory auditors.",
+        "No, it was yesterday.",
         "Yes, I will eat it."
       ],
       "correctAnswer": "He denied altering any financial balance sheets and insisted on cooperating fully with regulatory auditors.",
@@ -96,8 +96,8 @@
       "correctAnswer": "to call",
       "options": [
         "to call",
-        "calling",
         "call",
+        "calling",
         "called"
       ],
       "explanationVi": "Đáp án đúng là \"to call\". Câu hoàn chỉnh: \"He promised to call me as soon as he arrived.\" (Anh ấy đã hứa sẽ gọi cho tôi ngay khi anh ấy đến nơi.)."
@@ -109,10 +109,10 @@
       "question": "She apologized ___ being late to the meeting.",
       "correctAnswer": "for",
       "options": [
-        "to",
-        "with",
         "for",
-        "about"
+        "about",
+        "to",
+        "with"
       ],
       "explanationVi": "Đáp án đúng là \"for\". Câu hoàn chỉnh: \"She apologized for being late to the meeting.\" (Cô ấy đã xin lỗi vì đến muộn cuộc họp.)."
     },
@@ -123,9 +123,9 @@
       "question": "The teacher said that the Earth ___ around the Sun.",
       "correctAnswer": "moves",
       "options": [
-        "had moved",
         "moved",
         "moves",
+        "had moved",
         "moving"
       ],
       "explanationVi": "Đáp án đúng là \"moves\". Câu hoàn chỉnh: \"The teacher said that the Earth moves around the Sun.\" (Giáo viên nói rằng Trái Đất quay xung quanh Mặt Trời.)."
@@ -137,10 +137,10 @@
       "question": "He suggested ___ for a walk in the park.",
       "correctAnswer": "going",
       "options": [
-        "going",
-        "went",
+        "go",
         "to go",
-        "go"
+        "went",
+        "going"
       ],
       "explanationVi": "Đáp án đúng là \"going\". Câu hoàn chỉnh: \"He suggested going for a walk in the park.\" (Anh ấy đã đề xuất đi dạo trong công viên.)."
     },
@@ -151,10 +151,10 @@
       "question": "He _____ not to call me as soon as he arrived.",
       "correctAnswer": "promised",
       "options": [
-        "are",
         "promised",
         "is",
-        "am"
+        "am",
+        "are"
       ],
       "explanationVi": "Câu phủ định hoàn chỉnh: \"He promised not to call me as soon as he arrived.\"."
     },
@@ -164,16 +164,16 @@
       "promptVi": "[Sắp xếp câu] Ghép các khối từ thành câu hoàn chỉnh mang nghĩa: \"Anh ấy đã hứa sẽ gọi cho tôi ngay khi anh ấy đến nơi.\"",
       "question": "Sắp xếp các từ để tạo thành câu đúng: \"Anh ấy đã hứa sẽ gọi cho tôi ngay khi anh ấy đến nơi.\"",
       "words": [
-        "to",
+        "as",
         "call",
         "He",
-        "as",
-        "he",
-        "soon",
+        "to",
         "promised",
+        "he",
         "me",
-        "as",
-        "arrived."
+        "soon",
+        "arrived.",
+        "as"
       ],
       "correctSentence": "He promised to call me as soon as he arrived.",
       "hintVi": "Anh ấy đã hứa sẽ gọi cho tôi ngay khi anh ấy đến nơi.",
@@ -185,13 +185,13 @@
       "promptVi": "[Sắp xếp câu] Ghép các khối từ thành câu hoàn chỉnh mang nghĩa: \"Cô ấy đã xin lỗi vì đến muộn cuộc họp.\"",
       "question": "Sắp xếp các từ để tạo thành câu đúng: \"Cô ấy đã xin lỗi vì đến muộn cuộc họp.\"",
       "words": [
-        "to",
-        "She",
-        "the",
-        "late",
-        "meeting.",
-        "being",
         "for",
+        "to",
+        "the",
+        "being",
+        "meeting.",
+        "She",
+        "late",
         "apologized"
       ],
       "correctSentence": "She apologized for being late to the meeting.",
@@ -204,16 +204,16 @@
       "promptVi": "[Sắp xếp câu] Ghép các khối từ thành câu hoàn chỉnh mang nghĩa: \"Giáo viên nói rằng Trái Đất quay xung quanh Mặt Trời.\"",
       "question": "Sắp xếp các từ để tạo thành câu đúng: \"Giáo viên nói rằng Trái Đất quay xung quanh Mặt Trời.\"",
       "words": [
-        "moves",
         "that",
+        "Earth",
+        "moves",
+        "said",
+        "The",
         "around",
         "the",
-        "Sun.",
         "the",
-        "Earth",
-        "said",
         "teacher",
-        "The"
+        "Sun."
       ],
       "correctSentence": "The teacher said that the Earth moves around the Sun.",
       "hintVi": "Giáo viên nói rằng Trái Đất quay xung quanh Mặt Trời.",
@@ -225,15 +225,15 @@
       "promptVi": "[Sắp xếp câu] Ghép các khối từ thành câu hoàn chỉnh mang nghĩa: \"Anh ấy đã đề xuất đi dạo trong công viên.\"",
       "question": "Sắp xếp các từ để tạo thành câu đúng: \"Anh ấy đã đề xuất đi dạo trong công viên.\"",
       "words": [
-        "suggested",
-        "going",
         "walk",
-        "a",
+        "suggested",
         "in",
-        "He",
-        "park.",
         "the",
-        "for"
+        "a",
+        "for",
+        "park.",
+        "going",
+        "He"
       ],
       "correctSentence": "He suggested going for a walk in the park.",
       "hintVi": "Anh ấy đã đề xuất đi dạo trong công viên.",
@@ -245,19 +245,19 @@
       "promptVi": "[Sắp xếp câu] Ghép các từ thành câu hội thoại: \"Cựu kiểm soát viên tài chính có thừa nhận đã tính toán sai sót trong hồ sơ khai thuế không? (admit making)\"",
       "question": "Sắp xếp các từ để tạo thành câu thoại: \"Cựu kiểm soát viên tài chính có thừa nhận đã tính toán sai sót trong hồ sơ khai thuế không? (admit making)\"",
       "words": [
-        "miscalculations",
-        "Did",
-        "filings",
         "the",
         "financial",
-        "former",
-        "the",
-        "making",
+        "in",
+        "Did",
+        "miscalculations",
+        "filings",
         "tax",
-        "controller",
-        "computational",
         "admit",
-        "in"
+        "the",
+        "former",
+        "computational",
+        "controller",
+        "making"
       ],
       "correctSentence": "Did the former financial controller admit making computational miscalculations in the tax filings?",
       "hintVi": "Cựu kiểm soát viên tài chính có thừa nhận đã tính toán sai sót trong hồ sơ khai thuế không? (admit making)",
@@ -269,10 +269,10 @@
       "promptVi": "[Nhận diện cấu trúc chuẩn] Chọn câu có cấu trúc ngữ pháp HOÀN TOÀN ĐÚNG:",
       "question": "Dựa vào chủ điểm \"Bài 91: Câu Tường thuật Nâng cao — Động từ Tường thuật Cụ thể & Không Lùi Thì (Advanced Reporting Verbs & No-Backshift Rules)\", câu nào sau đây CHÍNH XÁC?",
       "options": [
-        "He promised to call me as soon as he arrived.",
         "He promised at call me as soon as he arrived.",
-        "arrived. he as soon as me call to promised He",
-        "is"
+        "He promised to call me as soon as he arrived.",
+        "is",
+        "arrived. he as soon as me call to promised He"
       ],
       "correctAnswer": "He promised to call me as soon as he arrived.",
       "explanationVi": "Cấu trúc chuẩn xác là: \"He promised to call me as soon as he arrived.\" (Anh ấy đã hứa sẽ gọi cho tôi ngay khi anh ấy đến nơi.)."
@@ -283,10 +283,10 @@
       "promptVi": "[Nhận diện cấu trúc chuẩn] Chọn câu có cấu trúc ngữ pháp HOÀN TOÀN ĐÚNG:",
       "question": "Dựa vào chủ điểm \"Bài 91: Câu Tường thuật Nâng cao — Động từ Tường thuật Cụ thể & Không Lùi Thì (Advanced Reporting Verbs & No-Backshift Rules)\", câu nào sau đây CHÍNH XÁC?",
       "options": [
-        "She apologized at being late to the meeting.",
-        "meeting. the to late being for apologized She",
         "is",
-        "She apologized for being late to the meeting."
+        "She apologized for being late to the meeting.",
+        "She apologized at being late to the meeting.",
+        "meeting. the to late being for apologized She"
       ],
       "correctAnswer": "She apologized for being late to the meeting.",
       "explanationVi": "Cấu trúc chuẩn xác là: \"She apologized for being late to the meeting.\" (Cô ấy đã xin lỗi vì đến muộn cuộc họp.)."
@@ -298,9 +298,9 @@
       "question": "Dựa vào chủ điểm \"Bài 91: Câu Tường thuật Nâng cao — Động từ Tường thuật Cụ thể & Không Lùi Thì (Advanced Reporting Verbs & No-Backshift Rules)\", câu nào sau đây CHÍNH XÁC?",
       "options": [
         "are",
-        "is",
+        "Sun. the around moves Earth the that said teacher The",
         "The teacher said that the Earth moves around the Sun.",
-        "Sun. the around moves Earth the that said teacher The"
+        "is"
       ],
       "correctAnswer": "The teacher said that the Earth moves around the Sun.",
       "explanationVi": "Cấu trúc chuẩn xác là: \"The teacher said that the Earth moves around the Sun.\" (Giáo viên nói rằng Trái Đất quay xung quanh Mặt Trời.)."
@@ -311,10 +311,10 @@
       "promptVi": "[Nhận diện cấu trúc chuẩn] Chọn câu có cấu trúc ngữ pháp HOÀN TOÀN ĐÚNG:",
       "question": "Dựa vào chủ điểm \"Bài 91: Câu Tường thuật Nâng cao — Động từ Tường thuật Cụ thể & Không Lùi Thì (Advanced Reporting Verbs & No-Backshift Rules)\", câu nào sau đây CHÍNH XÁC?",
       "options": [
+        "is",
         "He suggested going at a walk in the park.",
         "He suggested going for a walk in the park.",
-        "park. the in walk a for going suggested He",
-        "is"
+        "park. the in walk a for going suggested He"
       ],
       "correctAnswer": "He suggested going for a walk in the park.",
       "explanationVi": "Cấu trúc chuẩn xác là: \"He suggested going for a walk in the park.\" (Anh ấy đã đề xuất đi dạo trong công viên.)."
@@ -327,9 +327,9 @@
       "question": "Nhấn nút '🔊 Nghe audio' và chọn nghĩa tiếng Việt đúng:",
       "options": [
         "Ông ấy đã phủ nhận việc sửa đổi bất kỳ bảng cân đối tài chính nào và kiên quyết hợp tác đầy đủ với các kiểm toán viên quản lý. (denied altering / insisted on cooperating)",
-        "Chào buổi sáng Luật sư Henderson. Giám đốc điều hành đã phát biểu những gì trong phiên điều trần điều tra?",
         "Cựu kiểm soát viên tài chính có thừa nhận đã tính toán sai sót trong hồ sơ khai thuế không? (admit making)",
-        "Hôm nay thời tiết rất đẹp."
+        "Hôm nay thời tiết rất đẹp.",
+        "Chào buổi sáng Luật sư Henderson. Giám đốc điều hành đã phát biểu những gì trong phiên điều trần điều tra?"
       ],
       "correctAnswer": "Chào buổi sáng Luật sư Henderson. Giám đốc điều hành đã phát biểu những gì trong phiên điều trần điều tra?",
       "explanationVi": "Câu nghe được: \"Good morning, Counsel Henderson. What did the chief executive officer state during the investigative hearing?\" có nghĩa là: \"Chào buổi sáng Luật sư Henderson. Giám đốc điều hành đã phát biểu những gì trong phiên điều trần điều tra?\"."
@@ -341,10 +341,10 @@
       "audioPrompt": "He denied altering any financial balance sheets and insisted on cooperating fully with regulatory auditors.",
       "question": "Nhấn nút '🔊 Nghe audio' và chọn nghĩa tiếng Việt đúng:",
       "options": [
+        "Cựu kiểm soát viên tài chính có thừa nhận đã tính toán sai sót trong hồ sơ khai thuế không? (admit making)",
         "Ông ấy đã phủ nhận việc sửa đổi bất kỳ bảng cân đối tài chính nào và kiên quyết hợp tác đầy đủ với các kiểm toán viên quản lý. (denied altering / insisted on cooperating)",
         "Có, ông ấy đã xin lỗi vì gây ra các sai lệch hành chính và hứa sẽ khắc phục chúng ngay lập tức. (apologized for causing / promised to rectify)",
-        "Hôm nay thời tiết rất đẹp.",
-        "Cựu kiểm soát viên tài chính có thừa nhận đã tính toán sai sót trong hồ sơ khai thuế không? (admit making)"
+        "Hôm nay thời tiết rất đẹp."
       ],
       "correctAnswer": "Ông ấy đã phủ nhận việc sửa đổi bất kỳ bảng cân đối tài chính nào và kiên quyết hợp tác đầy đủ với các kiểm toán viên quản lý. (denied altering / insisted on cooperating)",
       "explanationVi": "Câu nghe được: \"He denied altering any financial balance sheets and insisted on cooperating fully with regulatory auditors.\" có nghĩa là: \"Ông ấy đã phủ nhận việc sửa đổi bất kỳ bảng cân đối tài chính nào và kiên quyết hợp tác đầy đủ với các kiểm toán viên quản lý. (denied altering / insisted on cooperating)\"."
@@ -357,9 +357,9 @@
       "question": "Nhấn nút '🔊 Nghe audio' và chọn nghĩa tiếng Việt đúng:",
       "options": [
         "Có, ông ấy đã xin lỗi vì gây ra các sai lệch hành chính và hứa sẽ khắc phục chúng ngay lập tức. (apologized for causing / promised to rectify)",
-        "Hôm nay thời tiết rất đẹp.",
         "Cựu kiểm soát viên tài chính có thừa nhận đã tính toán sai sót trong hồ sơ khai thuế không? (admit making)",
-        "Trưởng công tố đã cáo buộc công ty tư vấn bên thứ ba che giấu các giao dịch tài khoản ở nước ngoài. (accused sb of concealing)"
+        "Trưởng công tố đã cáo buộc công ty tư vấn bên thứ ba che giấu các giao dịch tài khoản ở nước ngoài. (accused sb of concealing)",
+        "Hôm nay thời tiết rất đẹp."
       ],
       "correctAnswer": "Cựu kiểm soát viên tài chính có thừa nhận đã tính toán sai sót trong hồ sơ khai thuế không? (admit making)",
       "explanationVi": "Câu nghe được: \"Did the former financial controller admit making computational miscalculations in the tax filings?\" có nghĩa là: \"Cựu kiểm soát viên tài chính có thừa nhận đã tính toán sai sót trong hồ sơ khai thuế không? (admit making)\"."
@@ -371,10 +371,10 @@
       "audioPrompt": "Yes, he apologized for causing administrative discrepancies and promised to rectify them immediately.",
       "question": "Nhấn nút '🔊 Nghe audio' và chọn nghĩa tiếng Việt đúng:",
       "options": [
-        "Luật sư bào chữa chính của chúng ta đã nhắc nhở ủy ban đặc biệt rằng công ty vẫn đang có khả năng thanh toán và không có nợ. (reminded that S remains - không lùi thì vì sự thật vẫn đúng)",
         "Có, ông ấy đã xin lỗi vì gây ra các sai lệch hành chính và hứa sẽ khắc phục chúng ngay lập tức. (apologized for causing / promised to rectify)",
+        "Hôm nay thời tiết rất đẹp.",
         "Trưởng công tố đã cáo buộc công ty tư vấn bên thứ ba che giấu các giao dịch tài khoản ở nước ngoài. (accused sb of concealing)",
-        "Hôm nay thời tiết rất đẹp."
+        "Luật sư bào chữa chính của chúng ta đã nhắc nhở ủy ban đặc biệt rằng công ty vẫn đang có khả năng thanh toán và không có nợ. (reminded that S remains - không lùi thì vì sự thật vẫn đúng)"
       ],
       "correctAnswer": "Có, ông ấy đã xin lỗi vì gây ra các sai lệch hành chính và hứa sẽ khắc phục chúng ngay lập tức. (apologized for causing / promised to rectify)",
       "explanationVi": "Câu nghe được: \"Yes, he apologized for causing administrative discrepancies and promised to rectify them immediately.\" có nghĩa là: \"Có, ông ấy đã xin lỗi vì gây ra các sai lệch hành chính và hứa sẽ khắc phục chúng ngay lập tức. (apologized for causing / promised to rectify)\"."
@@ -418,32 +418,32 @@
     {
       "id": "ex-091-29",
       "type": "reading_comprehension",
-      "promptVi": "[Đọc hiểu đoạn văn] Đọc đoạn hội thoại sau và trả lời câu hỏi:",
+      "promptVi": "[Đọc hiểu đoạn văn] Đọc kĩ đoạn hội thoại và chọn nhận định đúng về nội dung:",
       "passage": "Chief Auditor James: \"Good morning, Counsel Henderson. What did the chief executive officer state during the investigative hearing?\"\nCounsel Henderson: \"He denied altering any financial balance sheets and insisted on cooperating fully with regulatory auditors.\"\nChief Auditor James: \"Did the former financial controller admit making computational miscalculations in the tax filings?\"\nCounsel Henderson: \"Yes, he apologized for causing administrative discrepancies and promised to rectify them immediately.\"",
-      "question": "Chủ đề trọng tâm của đoạn hội thoại trên là gì?",
+      "question": "Dựa vào đoạn đối thoại trên, thông tin nào sau đây là CHÍNH XÁC về nội dung câu nói của Chief Auditor James?",
       "options": [
-        "Kế hoạch đi mua sắm tại siêu thị",
-        "Câu Tường thuật Nâng cao — Động từ Tường thuật Cụ thể & Không Lùi Thì (Advanced Reporting Verbs & No-Backshift Rules)",
-        "Cách làm món ăn truyền thống",
-        "Lịch trình đi du lịch nghỉ mát cuối tuần"
+        "Chief Auditor James phàn nàn rằng thời tiết hôm nay quá xấu.",
+        "Chief Auditor James chia sẻ thông tin: \"Chào buổi sáng Luật sư Henderson. Giám đốc điều hành đã phát biểu những gì trong phiên điều trần điều tra?\"",
+        "Chief Auditor James từ chối trả lời và yêu cầu hủy cuộc hẹn.",
+        "Chief Auditor James muốn mượn tiền để mua vé máy bay gấp."
       ],
-      "correctAnswer": "Câu Tường thuật Nâng cao — Động từ Tường thuật Cụ thể & Không Lùi Thì (Advanced Reporting Verbs & No-Backshift Rules)",
-      "explanationVi": "Đoạn hội thoại được thiết kế để minh họa trực tiếp cho chủ điểm \"Bài 91: Câu Tường thuật Nâng cao — Động từ Tường thuật Cụ thể & Không Lùi Thì (Advanced Reporting Verbs & No-Backshift Rules)\"."
+      "correctAnswer": "Chief Auditor James chia sẻ thông tin: \"Chào buổi sáng Luật sư Henderson. Giám đốc điều hành đã phát biểu những gì trong phiên điều trần điều tra?\"",
+      "explanationVi": "Trong đoạn hội thoại, Chief Auditor James đã nói: \"Good morning, Counsel Henderson. What did the chief executive officer state during the investigative hearing?\" (nghĩa là: \"Chào buổi sáng Luật sư Henderson. Giám đốc điều hành đã phát biểu những gì trong phiên điều trần điều tra?\")."
     },
     {
       "id": "ex-091-30",
       "type": "reading_comprehension",
-      "promptVi": "[Đọc hiểu đoạn văn] Đọc đoạn đối thoại tiếp theo và chọn nhận định đúng:",
+      "promptVi": "[Đọc hiểu đoạn văn] Đọc phần đối thoại tiếp theo và trả lời câu hỏi:",
       "passage": "Chief Auditor James: \"The lead prosecutor accused the third-party consulting firm of concealing offshore account transactions.\"\nCounsel Henderson: \"Our lead defense attorney reminded the special committee that the company remains solvent and debt-free.\"\nChief Auditor James: \"The economic expert stated that inflation directly impacts corporate liquidity across all industries.\"\nCounsel Henderson: \"The compliance director warned all executives against sharing unreleased earnings forecasts with the press.\"",
-      "question": "Nhận định nào sau đây là ĐÚNG về nội dung đoạn đối thoại?",
+      "question": "Trong đoạn hội thoại trên, câu nói \"The compliance director warned all executives against sharing unreleased earnings forecasts with the press.\" của Counsel Henderson mang ý nghĩa gì?",
       "options": [
-        "Các câu thoại sử dụng đúng cấu trúc \"Câu Tường thuật Nâng cao — Động từ Tường thuật Cụ thể & Không Lùi Thì (Advanced Reporting Verbs & No-Backshift Rules)\".",
-        "Hai nhân vật đang cãi nhau và không đồng ý hợp tác.",
-        "Cả hai nhân vật đang thảo luận về thời tiết ngày mai.",
-        "Cuộc trò chuyện diễn ra tại nhà ga xe lửa."
+        "Phản hồi: \"Giám đốc tuân thủ đã cảnh báo tất cả các giám đốc điều hành không được chia sẻ dự báo doanh thu chưa công bố với báo chí. (warned against sharing)\"",
+        "Phản hồi: \"Yêu cầu cung cấp hóa đơn thanh toán tiền mặt\"",
+        "Phản hồi: \"Hẹn gặp lại vào cuối tuần sau tại sân bay quốc tế\"",
+        "Phản hồi: \"Hoàn toàn không đồng ý và muốn rời khỏi phòng ngay lập tức\""
       ],
-      "correctAnswer": "Các câu thoại sử dụng đúng cấu trúc \"Câu Tường thuật Nâng cao — Động từ Tường thuật Cụ thể & Không Lùi Thì (Advanced Reporting Verbs & No-Backshift Rules)\".",
-      "explanationVi": "Đoạn đối thoại ứng dụng chuẩn xác ngữ pháp của \"Bài 91: Câu Tường thuật Nâng cao — Động từ Tường thuật Cụ thể & Không Lùi Thì (Advanced Reporting Verbs & No-Backshift Rules)\"."
+      "correctAnswer": "Phản hồi: \"Giám đốc tuân thủ đã cảnh báo tất cả các giám đốc điều hành không được chia sẻ dự báo doanh thu chưa công bố với báo chí. (warned against sharing)\"",
+      "explanationVi": "Counsel Henderson nói: \"The compliance director warned all executives against sharing unreleased earnings forecasts with the press.\" có nghĩa là: \"Giám đốc tuân thủ đã cảnh báo tất cả các giám đốc điều hành không được chia sẻ dự báo doanh thu chưa công bố với báo chí. (warned against sharing)\"."
     }
   ]
 }

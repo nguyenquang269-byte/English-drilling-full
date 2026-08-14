@@ -10,10 +10,10 @@
       "promptVi": "[Trắc nghiệm ngữ pháp] Chọn từ đúng để hoàn thành câu (Bạn nên đi khám bác sĩ.):",
       "question": "You ___ see a doctor.",
       "options": [
-        "would",
+        "could",
         "might",
         "should",
-        "could"
+        "would"
       ],
       "correctAnswer": "should",
       "explanationVi": "Đưa ra lời khuyên dùng 'should'."
@@ -25,9 +25,9 @@
       "question": "You ___ stay up late.",
       "options": [
         "shouldn't",
-        "mustn't",
         "don't",
-        "haven't"
+        "haven't",
+        "mustn't"
       ],
       "correctAnswer": "shouldn't",
       "explanationVi": "Khuyên không nên làm gì dùng 'shouldn't'."
@@ -38,10 +38,10 @@
       "promptVi": "[Trắc nghiệm ngữ pháp] Chọn từ đúng để hoàn thành câu (Tôi nên làm gì bây giờ?):",
       "question": "What ___ I do now?",
       "options": [
-        "am",
         "should",
+        "have",
         "must",
-        "have"
+        "am"
       ],
       "correctAnswer": "should",
       "explanationVi": "Hỏi xin lời khuyên dùng 'should'."
@@ -52,10 +52,10 @@
       "promptVi": "[Trắc nghiệm ngữ pháp] Chọn từ đúng để hoàn thành câu (Chúng ta có nên mua chiếc xe ô tô này không?):",
       "question": "___ we buy this car?",
       "options": [
-        "Do",
-        "Are",
         "Should",
-        "Will"
+        "Will",
+        "Do",
+        "Are"
       ],
       "correctAnswer": "Should",
       "explanationVi": "Hỏi ý kiến nên hay không đưa 'Should' lên đầu."
@@ -66,10 +66,10 @@
       "promptVi": "[Phản xạ dịch thuật] Dịch câu sau sang tiếng Anh: \"Tôi bị đau đầu dữ dội và đau mắt suốt cả buổi chiều nay, Wendy.\"",
       "question": "Chọn bản dịch chuẩn xác nhất cho câu: \"Tôi bị đau đầu dữ dội và đau mắt suốt cả buổi chiều nay, Wendy.\"",
       "options": [
-        "I be had a severe headache and sore eyes all afternoon, Wendy.",
         "We are studying English today.",
-        "I have had a severe headache and sore eyes all afternoon, Wendy.",
-        "You should take a short break and rest your eyes away from your computer."
+        "You should take a short break and rest your eyes away from your computer.",
+        "I be had a severe headache and sore eyes all afternoon, Wendy.",
+        "I have had a severe headache and sore eyes all afternoon, Wendy."
       ],
       "correctAnswer": "I have had a severe headache and sore eyes all afternoon, Wendy.",
       "explanationVi": "Câu dịch chuẩn xác: \"I have had a severe headache and sore eyes all afternoon, Wendy.\" (Tôi bị đau đầu dữ dội và đau mắt suốt cả buổi chiều nay, Wendy.)."
@@ -80,10 +80,10 @@
       "promptVi": "[Ngữ cảnh giao tiếp] Chọn câu phản hồi tự nhiên và đúng ngữ pháp:",
       "question": "Khi đối phương nói: \"I have had a severe headache and sore eyes all afternoon, Wendy.\", câu phản hồi phù hợp là gì?",
       "options": [
-        "No, it was yesterday.",
-        "You should take a short break and rest your eyes away from your computer.",
+        "Yes, I will eat it.",
         "They are not in the office.",
-        "Yes, I will eat it."
+        "You should take a short break and rest your eyes away from your computer.",
+        "No, it was yesterday."
       ],
       "correctAnswer": "You should take a short break and rest your eyes away from your computer.",
       "explanationVi": "Phản hồi phù hợp trong bài: \"You should take a short break and rest your eyes away from your computer.\" (Bạn nên nghỉ ngơi một chút và để mắt tránh xa máy tính của bạn.)."
@@ -96,9 +96,9 @@
       "correctAnswer": "should",
       "options": [
         "should",
+        "might",
         "could",
-        "would",
-        "might"
+        "would"
       ],
       "explanationVi": "Đáp án đúng là \"should\". Câu hoàn chỉnh: \"You should see a doctor.\" (Bạn nên đi khám bác sĩ.)."
     },
@@ -109,10 +109,10 @@
       "question": "You ___ stay up late.",
       "correctAnswer": "shouldn't",
       "options": [
-        "don't",
+        "mustn't",
         "shouldn't",
         "haven't",
-        "mustn't"
+        "don't"
       ],
       "explanationVi": "Đáp án đúng là \"shouldn't\". Câu hoàn chỉnh: \"You shouldn't stay up late.\" (Bạn không nên thức khuya.)."
     },
@@ -124,9 +124,9 @@
       "correctAnswer": "should",
       "options": [
         "should",
-        "am",
+        "must",
         "have",
-        "must"
+        "am"
       ],
       "explanationVi": "Đáp án đúng là \"should\". Câu hoàn chỉnh: \"What should I do now?\" (Tôi nên làm gì bây giờ?)."
     },
@@ -138,9 +138,9 @@
       "correctAnswer": "Should",
       "options": [
         "Do",
-        "Will",
         "Should",
-        "Are"
+        "Are",
+        "Will"
       ],
       "explanationVi": "Đáp án đúng là \"Should\". Câu hoàn chỉnh: \"Should we buy this car?\" (Chúng ta có nên mua chiếc xe ô tô này không?)."
     },
@@ -151,9 +151,9 @@
       "question": "You _____ not see a doctor.",
       "correctAnswer": "should",
       "options": [
-        "am",
-        "is",
         "should",
+        "is",
+        "am",
         "are"
       ],
       "explanationVi": "Câu phủ định hoàn chỉnh: \"You should not see a doctor.\"."
@@ -164,11 +164,11 @@
       "promptVi": "[Sắp xếp câu] Ghép các khối từ thành câu hoàn chỉnh mang nghĩa: \"Bạn nên đi khám bác sĩ.\"",
       "question": "Sắp xếp các từ để tạo thành câu đúng: \"Bạn nên đi khám bác sĩ.\"",
       "words": [
-        "a",
-        "see",
-        "You",
         "doctor.",
-        "should"
+        "You",
+        "see",
+        "should",
+        "a"
       ],
       "correctSentence": "You should see a doctor.",
       "hintVi": "Bạn nên đi khám bác sĩ.",
@@ -180,11 +180,11 @@
       "promptVi": "[Sắp xếp câu] Ghép các khối từ thành câu hoàn chỉnh mang nghĩa: \"Bạn không nên thức khuya.\"",
       "question": "Sắp xếp các từ để tạo thành câu đúng: \"Bạn không nên thức khuya.\"",
       "words": [
-        "late.",
+        "stay",
+        "up",
         "You",
         "shouldn't",
-        "up",
-        "stay"
+        "late."
       ],
       "correctSentence": "You shouldn't stay up late.",
       "hintVi": "Bạn không nên thức khuya.",
@@ -196,11 +196,11 @@
       "promptVi": "[Sắp xếp câu] Ghép các khối từ thành câu hoàn chỉnh mang nghĩa: \"Tôi nên làm gì bây giờ?\"",
       "question": "Sắp xếp các từ để tạo thành câu đúng: \"Tôi nên làm gì bây giờ?\"",
       "words": [
-        "do",
-        "now?",
         "I",
         "should",
-        "What"
+        "What",
+        "do",
+        "now?"
       ],
       "correctSentence": "What should I do now?",
       "hintVi": "Tôi nên làm gì bây giờ?",
@@ -212,10 +212,10 @@
       "promptVi": "[Sắp xếp câu] Ghép các khối từ thành câu hoàn chỉnh mang nghĩa: \"Chúng ta có nên mua chiếc xe ô tô này không?\"",
       "question": "Sắp xếp các từ để tạo thành câu đúng: \"Chúng ta có nên mua chiếc xe ô tô này không?\"",
       "words": [
-        "Should",
         "we",
-        "this",
+        "Should",
         "car?",
+        "this",
         "buy"
       ],
       "correctSentence": "Should we buy this car?",
@@ -228,18 +228,18 @@
       "promptVi": "[Sắp xếp câu] Ghép các từ thành câu hội thoại: \"Tôi nên uống một chút trà thảo mộc ấm hay uống một viên thuốc giảm đau?\"",
       "question": "Sắp xếp các từ để tạo thành câu thoại: \"Tôi nên uống một chút trà thảo mộc ấm hay uống một viên thuốc giảm đau?\"",
       "words": [
-        "some",
-        "drink",
-        "take",
-        "herbal",
-        "I",
-        "tablet",
+        "tea",
         "Should",
+        "I",
+        "drink",
+        "or",
+        "painkiller",
         "warm",
         "a",
-        "or",
-        "tea",
-        "painkiller"
+        "tablet",
+        "take",
+        "some",
+        "herbal"
       ],
       "correctSentence": "Should I drink some warm herbal tea or take a painkiller tablet?",
       "hintVi": "Tôi nên uống một chút trà thảo mộc ấm hay uống một viên thuốc giảm đau?",
@@ -252,8 +252,8 @@
       "question": "Dựa vào chủ điểm \"Bài 36: Động từ Khuyết thiếu — Should / Shouldn’t (Lời khuyên & Đề xuất)\", câu nào sau đây CHÍNH XÁC?",
       "options": [
         "are",
-        "is",
         "You should see a doctor.",
+        "is",
         "doctor. a see should You"
       ],
       "correctAnswer": "You should see a doctor.",
@@ -265,10 +265,10 @@
       "promptVi": "[Nhận diện cấu trúc chuẩn] Chọn câu có cấu trúc ngữ pháp HOÀN TOÀN ĐÚNG:",
       "question": "Dựa vào chủ điểm \"Bài 36: Động từ Khuyết thiếu — Should / Shouldn’t (Lời khuyên & Đề xuất)\", câu nào sau đây CHÍNH XÁC?",
       "options": [
-        "late. up stay shouldn't You",
         "You shouldn't stay up late.",
-        "are",
-        "is"
+        "is",
+        "late. up stay shouldn't You",
+        "are"
       ],
       "correctAnswer": "You shouldn't stay up late.",
       "explanationVi": "Cấu trúc chuẩn xác là: \"You shouldn't stay up late.\" (Bạn không nên thức khuya.)."
@@ -279,10 +279,10 @@
       "promptVi": "[Nhận diện cấu trúc chuẩn] Chọn câu có cấu trúc ngữ pháp HOÀN TOÀN ĐÚNG:",
       "question": "Dựa vào chủ điểm \"Bài 36: Động từ Khuyết thiếu — Should / Shouldn’t (Lời khuyên & Đề xuất)\", câu nào sau đây CHÍNH XÁC?",
       "options": [
-        "is",
-        "now? do I should What",
         "are",
-        "What should I do now?"
+        "What should I do now?",
+        "now? do I should What",
+        "is"
       ],
       "correctAnswer": "What should I do now?",
       "explanationVi": "Cấu trúc chuẩn xác là: \"What should I do now?\" (Tôi nên làm gì bây giờ?)."
@@ -293,10 +293,10 @@
       "promptVi": "[Nhận diện cấu trúc chuẩn] Chọn câu có cấu trúc ngữ pháp HOÀN TOÀN ĐÚNG:",
       "question": "Dựa vào chủ điểm \"Bài 36: Động từ Khuyết thiếu — Should / Shouldn’t (Lời khuyên & Đề xuất)\", câu nào sau đây CHÍNH XÁC?",
       "options": [
-        "Should we buy this car?",
         "are",
-        "is",
-        "car? this buy we Should"
+        "Should we buy this car?",
+        "car? this buy we Should",
+        "is"
       ],
       "correctAnswer": "Should we buy this car?",
       "explanationVi": "Cấu trúc chuẩn xác là: \"Should we buy this car?\" (Chúng ta có nên mua chiếc xe ô tô này không?)."
@@ -308,10 +308,10 @@
       "audioPrompt": "I have had a severe headache and sore eyes all afternoon, Wendy.",
       "question": "Nhấn nút '🔊 Nghe audio' và chọn nghĩa tiếng Việt đúng:",
       "options": [
-        "Bạn nên nghỉ ngơi một chút và để mắt tránh xa máy tính của bạn.",
-        "Tôi nên uống một chút trà thảo mộc ấm hay uống một viên thuốc giảm đau?",
         "Hôm nay thời tiết rất đẹp.",
-        "Tôi bị đau đầu dữ dội và đau mắt suốt cả buổi chiều nay, Wendy."
+        "Tôi bị đau đầu dữ dội và đau mắt suốt cả buổi chiều nay, Wendy.",
+        "Tôi nên uống một chút trà thảo mộc ấm hay uống một viên thuốc giảm đau?",
+        "Bạn nên nghỉ ngơi một chút và để mắt tránh xa máy tính của bạn."
       ],
       "correctAnswer": "Tôi bị đau đầu dữ dội và đau mắt suốt cả buổi chiều nay, Wendy.",
       "explanationVi": "Câu nghe được: \"I have had a severe headache and sore eyes all afternoon, Wendy.\" có nghĩa là: \"Tôi bị đau đầu dữ dội và đau mắt suốt cả buổi chiều nay, Wendy.\"."
@@ -323,8 +323,8 @@
       "audioPrompt": "You should take a short break and rest your eyes away from your computer.",
       "question": "Nhấn nút '🔊 Nghe audio' và chọn nghĩa tiếng Việt đúng:",
       "options": [
-        "Bạn nên uống trà hoa cúc ấm và uống thật nhiều nước lọc.",
         "Hôm nay thời tiết rất đẹp.",
+        "Bạn nên uống trà hoa cúc ấm và uống thật nhiều nước lọc.",
         "Bạn nên nghỉ ngơi một chút và để mắt tránh xa máy tính của bạn.",
         "Tôi nên uống một chút trà thảo mộc ấm hay uống một viên thuốc giảm đau?"
       ],
@@ -339,8 +339,8 @@
       "question": "Nhấn nút '🔊 Nghe audio' và chọn nghĩa tiếng Việt đúng:",
       "options": [
         "Hôm nay thời tiết rất đẹp.",
-        "Bạn nên uống trà hoa cúc ấm và uống thật nhiều nước lọc.",
         "Tôi thường thức khuya quá nửa đêm để hoàn thành các bài tập lập trình.",
+        "Bạn nên uống trà hoa cúc ấm và uống thật nhiều nước lọc.",
         "Tôi nên uống một chút trà thảo mộc ấm hay uống một viên thuốc giảm đau?"
       ],
       "correctAnswer": "Tôi nên uống một chút trà thảo mộc ấm hay uống một viên thuốc giảm đau?",
@@ -353,10 +353,10 @@
       "audioPrompt": "You should drink warm chamomile tea and drink plenty of fresh water.",
       "question": "Nhấn nút '🔊 Nghe audio' và chọn nghĩa tiếng Việt đúng:",
       "options": [
-        "Bạn không nên thức khuya mỗi đêm vì điều đó gây hại cho hệ miễn dịch của bạn.",
         "Bạn nên uống trà hoa cúc ấm và uống thật nhiều nước lọc.",
+        "Tôi thường thức khuya quá nửa đêm để hoàn thành các bài tập lập trình.",
         "Hôm nay thời tiết rất đẹp.",
-        "Tôi thường thức khuya quá nửa đêm để hoàn thành các bài tập lập trình."
+        "Bạn không nên thức khuya mỗi đêm vì điều đó gây hại cho hệ miễn dịch của bạn."
       ],
       "correctAnswer": "Bạn nên uống trà hoa cúc ấm và uống thật nhiều nước lọc.",
       "explanationVi": "Câu nghe được: \"You should drink warm chamomile tea and drink plenty of fresh water.\" có nghĩa là: \"Bạn nên uống trà hoa cúc ấm và uống thật nhiều nước lọc.\"."
@@ -400,32 +400,32 @@
     {
       "id": "ex-036-29",
       "type": "reading_comprehension",
-      "promptVi": "[Đọc hiểu đoạn văn] Đọc đoạn hội thoại sau và trả lời câu hỏi:",
+      "promptVi": "[Đọc hiểu đoạn văn] Đọc kĩ đoạn hội thoại và chọn nhận định đúng về nội dung:",
       "passage": "Samuel: \"I have had a severe headache and sore eyes all afternoon, Wendy.\"\nWendy: \"You should take a short break and rest your eyes away from your computer.\"\nSamuel: \"Should I drink some warm herbal tea or take a painkiller tablet?\"\nWendy: \"You should drink warm chamomile tea and drink plenty of fresh water.\"",
-      "question": "Chủ đề trọng tâm của đoạn hội thoại trên là gì?",
+      "question": "Dựa vào đoạn đối thoại trên, thông tin nào sau đây là CHÍNH XÁC về nội dung câu nói của Samuel?",
       "options": [
-        "Kế hoạch đi mua sắm tại siêu thị",
-        "Động từ Khuyết thiếu — Should / Shouldn’t (Lời khuyên & Đề xuất)",
-        "Cách làm món ăn truyền thống",
-        "Lịch trình đi du lịch nghỉ mát cuối tuần"
+        "Samuel phàn nàn rằng thời tiết hôm nay quá xấu.",
+        "Samuel muốn mượn tiền để mua vé máy bay gấp.",
+        "Samuel chia sẻ thông tin: \"Tôi bị đau đầu dữ dội và đau mắt suốt cả buổi chiều nay, Wendy.\"",
+        "Samuel từ chối trả lời và yêu cầu hủy cuộc hẹn."
       ],
-      "correctAnswer": "Động từ Khuyết thiếu — Should / Shouldn’t (Lời khuyên & Đề xuất)",
-      "explanationVi": "Đoạn hội thoại được thiết kế để minh họa trực tiếp cho chủ điểm \"Bài 36: Động từ Khuyết thiếu — Should / Shouldn’t (Lời khuyên & Đề xuất)\"."
+      "correctAnswer": "Samuel chia sẻ thông tin: \"Tôi bị đau đầu dữ dội và đau mắt suốt cả buổi chiều nay, Wendy.\"",
+      "explanationVi": "Trong đoạn hội thoại, Samuel đã nói: \"I have had a severe headache and sore eyes all afternoon, Wendy.\" (nghĩa là: \"Tôi bị đau đầu dữ dội và đau mắt suốt cả buổi chiều nay, Wendy.\")."
     },
     {
       "id": "ex-036-30",
       "type": "reading_comprehension",
-      "promptVi": "[Đọc hiểu đoạn văn] Đọc đoạn đối thoại tiếp theo và chọn nhận định đúng:",
+      "promptVi": "[Đọc hiểu đoạn văn] Đọc phần đối thoại tiếp theo và trả lời câu hỏi:",
       "passage": "Samuel: \"I often stay up past midnight to finish coding assignments.\"\nWendy: \"You shouldn't stay up late every night because it damages your immune system.\"\nSamuel: \"What should people do to maintain high energy levels throughout the workday?\"\nWendy: \"They should exercise regularly, eat green vegetables, and sleep eight hours.\"",
-      "question": "Nhận định nào sau đây là ĐÚNG về nội dung đoạn đối thoại?",
+      "question": "Trong đoạn hội thoại trên, câu nói \"They should exercise regularly, eat green vegetables, and sleep eight hours.\" của Wendy mang ý nghĩa gì?",
       "options": [
-        "Các câu thoại sử dụng đúng cấu trúc \"Động từ Khuyết thiếu — Should / Shouldn’t (Lời khuyên & Đề xuất)\".",
-        "Cả hai nhân vật đang thảo luận về thời tiết ngày mai.",
-        "Hai nhân vật đang cãi nhau và không đồng ý hợp tác.",
-        "Cuộc trò chuyện diễn ra tại nhà ga xe lửa."
+        "Phản hồi: \"Hoàn toàn không đồng ý và muốn rời khỏi phòng ngay lập tức\"",
+        "Phản hồi: \"Họ nên tập thể dục đều đặn, ăn nhiều rau xanh, và ngủ đủ 8 tiếng.\"",
+        "Phản hồi: \"Hẹn gặp lại vào cuối tuần sau tại sân bay quốc tế\"",
+        "Phản hồi: \"Yêu cầu cung cấp hóa đơn thanh toán tiền mặt\""
       ],
-      "correctAnswer": "Các câu thoại sử dụng đúng cấu trúc \"Động từ Khuyết thiếu — Should / Shouldn’t (Lời khuyên & Đề xuất)\".",
-      "explanationVi": "Đoạn đối thoại ứng dụng chuẩn xác ngữ pháp của \"Bài 36: Động từ Khuyết thiếu — Should / Shouldn’t (Lời khuyên & Đề xuất)\"."
+      "correctAnswer": "Phản hồi: \"Họ nên tập thể dục đều đặn, ăn nhiều rau xanh, và ngủ đủ 8 tiếng.\"",
+      "explanationVi": "Wendy nói: \"They should exercise regularly, eat green vegetables, and sleep eight hours.\" có nghĩa là: \"Họ nên tập thể dục đều đặn, ăn nhiều rau xanh, và ngủ đủ 8 tiếng.\"."
     }
   ]
 }

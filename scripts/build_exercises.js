@@ -233,38 +233,48 @@ for (let i = 1; i <= 100; i++) {
   // -------------------------------------------------------------
   // GROUP 7: READING COMPREHENSION (2 Questions)
   // -------------------------------------------------------------
-  const passage1 = lines.slice(0, 4).map(l => `${l.speaker}: "${l.en}"`).join('\n');
-  const passage2 = lines.slice(4, 8).map(l => `${l.speaker}: "${l.en}"`).join('\n');
-  const cleanTitle = lesson.title.replace(/^Bài \d+:\s*/, '');
+  const passage1Lines = lines.length >= 4 ? lines.slice(0, 4) : lines;
+  const passage2Lines = lines.length >= 8 ? lines.slice(4, 8) : (lines.length >= 4 ? lines.slice(lines.length - 4) : lines);
 
+  const passage1Text = passage1Lines.map(l => `${l.speaker}: "${l.en}"`).join('\n');
+  const passage2Text = passage2Lines.map(l => `${l.speaker}: "${l.en}"`).join('\n');
+
+  // Question 1: Content understanding of speaker in passage 1
+  const line0 = passage1Lines[0] || { speaker: "Nhân vật", en: t0.baseEn, vi: t0.baseVi };
+  const line1 = passage1Lines[1] || { speaker: "Bạn", en: "Yes, I understand.", vi: "Vâng, tôi hiểu rồi." };
+  
+  const q1Correct = `${line0.speaker} chia sẻ thông tin: "${line0.vi}"`;
+  const q1Wrong1 = `${line0.speaker} phàn nàn rằng thời tiết hôm nay quá xấu.`;
+  const q1Wrong2 = `${line0.speaker} từ chối trả lời và yêu cầu hủy cuộc hẹn.`;
+  const q1Wrong3 = `${line0.speaker} muốn mượn tiền để mua vé máy bay gấp.`;
+  
   questions.push({
     id: makeId(),
     type: "reading_comprehension",
-    promptVi: `[Đọc hiểu đoạn văn] Đọc đoạn hội thoại sau và trả lời câu hỏi:`,
-    passage: passage1 || `A: "${t0.baseEn}"\nB: "Yes, I agree."`,
-    question: `Chủ đề trọng tâm của đoạn hội thoại trên là gì?`,
-    options: ensure4Options(cleanTitle, [
-      "Kế hoạch đi mua sắm tại siêu thị",
-      "Lịch trình đi du lịch nghỉ mát cuối tuần",
-      "Cách làm món ăn truyền thống"
-    ]),
-    correctAnswer: cleanTitle,
-    explanationVi: `Đoạn hội thoại được thiết kế để minh họa trực tiếp cho chủ điểm "${lesson.title}".`
+    promptVi: `[Đọc hiểu đoạn văn] Đọc kĩ đoạn hội thoại và chọn nhận định đúng về nội dung:`,
+    passage: passage1Text,
+    question: `Dựa vào đoạn đối thoại trên, thông tin nào sau đây là CHÍNH XÁC về nội dung câu nói của ${line0.speaker}?`,
+    options: ensure4Options(q1Correct, [q1Wrong1, q1Wrong2, q1Wrong3]),
+    correctAnswer: q1Correct,
+    explanationVi: `Trong đoạn hội thoại, ${line0.speaker} đã nói: "${line0.en}" (nghĩa là: "${line0.vi}").`
   });
 
+  // Question 2: Content understanding of response in passage 2
+  const targetRespLine = passage2Lines[passage2Lines.length - 1] || line1;
+  const q2Correct = `Phản hồi: "${targetRespLine.vi}"`;
+  const q2Wrong1 = `Phản hồi: "Hoàn toàn không đồng ý và muốn rời khỏi phòng ngay lập tức"`;
+  const q2Wrong2 = `Phản hồi: "Hẹn gặp lại vào cuối tuần sau tại sân bay quốc tế"`;
+  const q2Wrong3 = `Phản hồi: "Yêu cầu cung cấp hóa đơn thanh toán tiền mặt"`;
+
   questions.push({
     id: makeId(),
     type: "reading_comprehension",
-    promptVi: `[Đọc hiểu đoạn văn] Đọc đoạn đối thoại tiếp theo và chọn nhận định đúng:`,
-    passage: passage2 || passage1 || `A: "${t0.baseEn}"\nB: "Yes, I agree."`,
-    question: `Nhận định nào sau đây là ĐÚNG về nội dung đoạn đối thoại?`,
-    options: ensure4Options(`Các câu thoại sử dụng đúng cấu trúc "${cleanTitle}".`, [
-      "Hai nhân vật đang cãi nhau và không đồng ý hợp tác.",
-      "Cuộc trò chuyện diễn ra tại nhà ga xe lửa.",
-      "Cả hai nhân vật đang thảo luận về thời tiết ngày mai."
-    ]),
-    correctAnswer: `Các câu thoại sử dụng đúng cấu trúc "${cleanTitle}".`,
-    explanationVi: `Đoạn đối thoại ứng dụng chuẩn xác ngữ pháp của "${lesson.title}".`
+    promptVi: `[Đọc hiểu đoạn văn] Đọc phần đối thoại tiếp theo và trả lời câu hỏi:`,
+    passage: passage2Text,
+    question: `Trong đoạn hội thoại trên, câu nói "${targetRespLine.en}" của ${targetRespLine.speaker} mang ý nghĩa gì?`,
+    options: ensure4Options(q2Correct, [q2Wrong1, q2Wrong2, q2Wrong3]),
+    correctAnswer: q2Correct,
+    explanationVi: `${targetRespLine.speaker} nói: "${targetRespLine.en}" có nghĩa là: "${targetRespLine.vi}".`
   });
 
   // -------------------------------------------------------------

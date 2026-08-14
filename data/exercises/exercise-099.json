@@ -10,9 +10,9 @@
       "promptVi": "[Trắc nghiệm ngữ pháp] Chọn từ đúng để hoàn thành câu (Tôi không thích chiếc áo sơ mi đỏ này, tôi thích chiếc màu xanh dương hơn.):",
       "question": "I don't like this red shirt, I prefer the blue ___.",
       "options": [
-        "it",
         "one",
         "shirt one",
+        "it",
         "ones"
       ],
       "correctAnswer": "one",
@@ -24,9 +24,9 @@
       "promptVi": "[Trắc nghiệm ngữ pháp] Chọn từ đúng để hoàn thành câu (Ngày mai trời có mưa không? - Tôi hy vọng là không.):",
       "question": "Will it rain tomorrow? - I hope ___.",
       "options": [
+        "no",
         "never",
         "don't",
-        "no",
         "not"
       ],
       "correctAnswer": "not",
@@ -38,10 +38,10 @@
       "promptVi": "[Trắc nghiệm ngữ pháp] Chọn từ đúng để hoàn thành câu (Giá cả ở Tokyo cao hơn giá cả ở Bangkok.):",
       "question": "The prices in Tokyo are higher than ___ in Bangkok.",
       "options": [
-        "those",
+        "them",
         "ones",
-        "that",
-        "them"
+        "those",
+        "that"
       ],
       "correctAnswer": "those",
       "explanationVi": "'those' thay thế cho danh từ số nhiều 'the prices' trong so sánh."
@@ -53,9 +53,9 @@
       "question": "She can play the violin very well, and her sister ___ too.",
       "options": [
         "is",
-        "can",
+        "does",
         "plays",
-        "does"
+        "can"
       ],
       "correctAnswer": "can",
       "explanationVi": "Dùng lại trợ động từ khiếm khuyết 'can' để tránh lặp lại vị ngữ."
@@ -68,8 +68,8 @@
       "options": [
         "We are studying English today.",
         "I definitely prefer the emerald one because its sustainable weaving technique is superior to that of standard synthetic dresses.",
-        "Good morning, Elena. Which organic silk evening gowns should we showcase on the runway, the black ones or the emerald one?",
-        "is"
+        "is",
+        "Good morning, Elena. Which organic silk evening gowns should we showcase on the runway, the black ones or the emerald one?"
       ],
       "correctAnswer": "Good morning, Elena. Which organic silk evening gowns should we showcase on the runway, the black ones or the emerald one?",
       "explanationVi": "Câu dịch chuẩn xác: \"Good morning, Elena. Which organic silk evening gowns should we showcase on the runway, the black ones or the emerald one?\" (Chào buổi sáng Elena. Chúng ta nên trình diễn những chiếc váy dạ hội lụa hữu cơ nào trên sàn diễn, những chiếc màu đen hay chiếc màu ngọc lục bảo? (the black ones / the emerald one))."
@@ -80,10 +80,10 @@
       "promptVi": "[Ngữ cảnh giao tiếp] Chọn câu phản hồi tự nhiên và đúng ngữ pháp:",
       "question": "Khi đối phương nói: \"Good morning, Elena. Which organic silk evening gowns should we showcase on the runway, the black ones or the emerald one?\", câu phản hồi phù hợp là gì?",
       "options": [
+        "I definitely prefer the emerald one because its sustainable weaving technique is superior to that of standard synthetic dresses.",
         "They are not in the office.",
-        "Yes, I will eat it.",
         "No, it was yesterday.",
-        "I definitely prefer the emerald one because its sustainable weaving technique is superior to that of standard synthetic dresses."
+        "Yes, I will eat it."
       ],
       "correctAnswer": "I definitely prefer the emerald one because its sustainable weaving technique is superior to that of standard synthetic dresses.",
       "explanationVi": "Phản hồi phù hợp trong bài: \"I definitely prefer the emerald one because its sustainable weaving technique is superior to that of standard synthetic dresses.\" (Tôi chắc chắn thích chiếc màu ngọc lục bảo hơn vì kỹ thuật dệt bền vững của nó vượt trội hơn kỹ thuật dệt của các loại váy sợi tổng hợp tiêu chuẩn. (the emerald one / that of = the technique of))."
@@ -95,10 +95,10 @@
       "question": "I don't like this red shirt, I prefer the blue ___.",
       "correctAnswer": "one",
       "options": [
+        "shirt one",
         "ones",
-        "one",
         "it",
-        "shirt one"
+        "one"
       ],
       "explanationVi": "Đáp án đúng là \"one\". Câu hoàn chỉnh: \"I don't like this red shirt, I prefer the blue one.\" (Tôi không thích chiếc áo sơ mi đỏ này, tôi thích chiếc màu xanh dương hơn.)."
     },
@@ -109,8 +109,8 @@
       "question": "Will it rain tomorrow? - I hope ___.",
       "correctAnswer": "not",
       "options": [
-        "not",
         "never",
+        "not",
         "no",
         "don't"
       ],
@@ -123,10 +123,10 @@
       "question": "The prices in Tokyo are higher than ___ in Bangkok.",
       "correctAnswer": "those",
       "options": [
-        "them",
         "ones",
         "those",
-        "that"
+        "that",
+        "them"
       ],
       "explanationVi": "Đáp án đúng là \"those\". Câu hoàn chỉnh: \"The prices in Tokyo are higher than those in Bangkok.\" (Giá cả ở Tokyo cao hơn giá cả ở Bangkok.)."
     },
@@ -137,10 +137,10 @@
       "question": "She can play the violin very well, and her sister ___ too.",
       "correctAnswer": "can",
       "options": [
-        "can",
         "does",
         "is",
-        "plays"
+        "plays",
+        "can"
       ],
       "explanationVi": "Đáp án đúng là \"can\". Câu hoàn chỉnh: \"She can play the violin very well, and her sister can too.\" (Cô ấy có thể chơi vĩ cầm rất giỏi, và em gái cô ấy cũng có thể.)."
     },
@@ -151,9 +151,9 @@
       "question": "I _____ not like this red shirt, I prefer the blue one.",
       "correctAnswer": "don't",
       "options": [
-        "is",
-        "don't",
         "are",
+        "don't",
+        "is",
         "am"
       ],
       "explanationVi": "Câu phủ định hoàn chỉnh: \"I don't not like this red shirt, I prefer the blue one.\"."
@@ -164,17 +164,17 @@
       "promptVi": "[Sắp xếp câu] Ghép các khối từ thành câu hoàn chỉnh mang nghĩa: \"Tôi không thích chiếc áo sơ mi đỏ này, tôi thích chiếc màu xanh dương hơn.\"",
       "question": "Sắp xếp các từ để tạo thành câu đúng: \"Tôi không thích chiếc áo sơ mi đỏ này, tôi thích chiếc màu xanh dương hơn.\"",
       "words": [
-        "this",
-        "red",
+        "prefer",
+        "shirt,",
         "the",
-        "I",
-        "don't",
+        "like",
         "blue",
         "one.",
         "I",
-        "like",
-        "prefer",
-        "shirt,"
+        "this",
+        "red",
+        "don't",
+        "I"
       ],
       "correctSentence": "I don't like this red shirt, I prefer the blue one.",
       "hintVi": "Tôi không thích chiếc áo sơ mi đỏ này, tôi thích chiếc màu xanh dương hơn.",
@@ -186,14 +186,14 @@
       "promptVi": "[Sắp xếp câu] Ghép các khối từ thành câu hoàn chỉnh mang nghĩa: \"Ngày mai trời có mưa không? - Tôi hy vọng là không.\"",
       "question": "Sắp xếp các từ để tạo thành câu đúng: \"Ngày mai trời có mưa không? - Tôi hy vọng là không.\"",
       "words": [
-        "hope",
-        "-",
-        "I",
-        "tomorrow?",
-        "not.",
-        "it",
         "rain",
-        "Will"
+        "Will",
+        "it",
+        "hope",
+        "not.",
+        "tomorrow?",
+        "-",
+        "I"
       ],
       "correctSentence": "Will it rain tomorrow? - I hope not.",
       "hintVi": "Ngày mai trời có mưa không? - Tôi hy vọng là không.",
@@ -205,16 +205,16 @@
       "promptVi": "[Sắp xếp câu] Ghép các khối từ thành câu hoàn chỉnh mang nghĩa: \"Giá cả ở Tokyo cao hơn giá cả ở Bangkok.\"",
       "question": "Sắp xếp các từ để tạo thành câu đúng: \"Giá cả ở Tokyo cao hơn giá cả ở Bangkok.\"",
       "words": [
-        "those",
-        "prices",
-        "Bangkok.",
         "higher",
-        "in",
-        "in",
-        "than",
-        "The",
+        "Bangkok.",
         "are",
-        "Tokyo"
+        "prices",
+        "in",
+        "those",
+        "Tokyo",
+        "than",
+        "in",
+        "The"
       ],
       "correctSentence": "The prices in Tokyo are higher than those in Bangkok.",
       "hintVi": "Giá cả ở Tokyo cao hơn giá cả ở Bangkok.",
@@ -226,18 +226,18 @@
       "promptVi": "[Sắp xếp câu] Ghép các khối từ thành câu hoàn chỉnh mang nghĩa: \"Cô ấy có thể chơi vĩ cầm rất giỏi, và em gái cô ấy cũng có thể.\"",
       "question": "Sắp xếp các từ để tạo thành câu đúng: \"Cô ấy có thể chơi vĩ cầm rất giỏi, và em gái cô ấy cũng có thể.\"",
       "words": [
-        "violin",
-        "well,",
-        "play",
         "the",
-        "sister",
-        "very",
-        "and",
+        "too.",
         "can",
         "She",
+        "and",
+        "violin",
         "her",
+        "very",
+        "play",
+        "well,",
         "can",
-        "too."
+        "sister"
       ],
       "correctSentence": "She can play the violin very well, and her sister can too.",
       "hintVi": "Cô ấy có thể chơi vĩ cầm rất giỏi, và em gái cô ấy cũng có thể.",
@@ -249,16 +249,16 @@
       "promptVi": "[Sắp xếp câu] Ghép các từ thành câu hội thoại: \"Bạn có tin rằng dòng sản phẩm thân thiện với môi trường của chúng ta sẽ thu hút các khách mua hàng quốc tế không?\"",
       "question": "Sắp xếp các từ để tạo thành câu thoại: \"Bạn có tin rằng dòng sản phẩm thân thiện với môi trường của chúng ta sẽ thu hút các khách mua hàng quốc tế không?\"",
       "words": [
-        "eco-friendly",
-        "Do",
-        "you",
-        "appeal",
-        "will",
-        "buyers",
-        "believe",
-        "line",
         "our",
         "international",
+        "eco-friendly",
+        "line",
+        "you",
+        "buyers",
+        "appeal",
+        "Do",
+        "will",
+        "believe",
         "to"
       ],
       "correctSentence": "Do you believe our eco-friendly line will appeal to international buyers?",
@@ -271,10 +271,10 @@
       "promptVi": "[Nhận diện cấu trúc chuẩn] Chọn câu có cấu trúc ngữ pháp HOÀN TOÀN ĐÚNG:",
       "question": "Dựa vào chủ điểm \"Bài 99: Cấu trúc Thay thế & Tránh Lặp Từ (Substitution & Ellipsis: One/Ones, So/Not, That/Those, Auxiliary Reductions)\", câu nào sau đây CHÍNH XÁC?",
       "options": [
-        "are",
-        "is",
         "one. blue the prefer I shirt, red this like don't I",
-        "I don't like this red shirt, I prefer the blue one."
+        "I don't like this red shirt, I prefer the blue one.",
+        "are",
+        "is"
       ],
       "correctAnswer": "I don't like this red shirt, I prefer the blue one.",
       "explanationVi": "Cấu trúc chuẩn xác là: \"I don't like this red shirt, I prefer the blue one.\" (Tôi không thích chiếc áo sơ mi đỏ này, tôi thích chiếc màu xanh dương hơn.)."
@@ -285,10 +285,10 @@
       "promptVi": "[Nhận diện cấu trúc chuẩn] Chọn câu có cấu trúc ngữ pháp HOÀN TOÀN ĐÚNG:",
       "question": "Dựa vào chủ điểm \"Bài 99: Cấu trúc Thay thế & Tránh Lặp Từ (Substitution & Ellipsis: One/Ones, So/Not, That/Those, Auxiliary Reductions)\", câu nào sau đây CHÍNH XÁC?",
       "options": [
-        "are",
-        "is",
+        "not. hope I - tomorrow? rain it Will",
         "Will it rain tomorrow? - I hope not.",
-        "not. hope I - tomorrow? rain it Will"
+        "is",
+        "are"
       ],
       "correctAnswer": "Will it rain tomorrow? - I hope not.",
       "explanationVi": "Cấu trúc chuẩn xác là: \"Will it rain tomorrow? - I hope not.\" (Ngày mai trời có mưa không? - Tôi hy vọng là không.)."
@@ -299,10 +299,10 @@
       "promptVi": "[Nhận diện cấu trúc chuẩn] Chọn câu có cấu trúc ngữ pháp HOÀN TOÀN ĐÚNG:",
       "question": "Dựa vào chủ điểm \"Bài 99: Cấu trúc Thay thế & Tránh Lặp Từ (Substitution & Ellipsis: One/Ones, So/Not, That/Those, Auxiliary Reductions)\", câu nào sau đây CHÍNH XÁC?",
       "options": [
-        "The prices in Tokyo are higher than those in Bangkok.",
-        "Bangkok. in those than higher are Tokyo in prices The",
+        "The prices at Tokyo are higher than those in Bangkok.",
         "The prices in Tokyo be higher than those in Bangkok.",
-        "The prices at Tokyo are higher than those in Bangkok."
+        "Bangkok. in those than higher are Tokyo in prices The",
+        "The prices in Tokyo are higher than those in Bangkok."
       ],
       "correctAnswer": "The prices in Tokyo are higher than those in Bangkok.",
       "explanationVi": "Cấu trúc chuẩn xác là: \"The prices in Tokyo are higher than those in Bangkok.\" (Giá cả ở Tokyo cao hơn giá cả ở Bangkok.)."
@@ -313,10 +313,10 @@
       "promptVi": "[Nhận diện cấu trúc chuẩn] Chọn câu có cấu trúc ngữ pháp HOÀN TOÀN ĐÚNG:",
       "question": "Dựa vào chủ điểm \"Bài 99: Cấu trúc Thay thế & Tránh Lặp Từ (Substitution & Ellipsis: One/Ones, So/Not, That/Those, Auxiliary Reductions)\", câu nào sau đây CHÍNH XÁC?",
       "options": [
-        "is",
-        "are",
+        "too. can sister her and well, very violin the play can She",
         "She can play the violin very well, and her sister can too.",
-        "too. can sister her and well, very violin the play can She"
+        "is",
+        "are"
       ],
       "correctAnswer": "She can play the violin very well, and her sister can too.",
       "explanationVi": "Cấu trúc chuẩn xác là: \"She can play the violin very well, and her sister can too.\" (Cô ấy có thể chơi vĩ cầm rất giỏi, và em gái cô ấy cũng có thể.)."
@@ -328,10 +328,10 @@
       "audioPrompt": "Good morning, Elena. Which organic silk evening gowns should we showcase on the runway, the black ones or the emerald one?",
       "question": "Nhấn nút '🔊 Nghe audio' và chọn nghĩa tiếng Việt đúng:",
       "options": [
-        "Bạn có tin rằng dòng sản phẩm thân thiện với môi trường của chúng ta sẽ thu hút các khách mua hàng quốc tế không?",
-        "Chào buổi sáng Elena. Chúng ta nên trình diễn những chiếc váy dạ hội lụa hữu cơ nào trên sàn diễn, những chiếc màu đen hay chiếc màu ngọc lục bảo? (the black ones / the emerald one)",
+        "Tôi chắc chắn thích chiếc màu ngọc lục bảo hơn vì kỹ thuật dệt bền vững của nó vượt trội hơn kỹ thuật dệt của các loại váy sợi tổng hợp tiêu chuẩn. (the emerald one / that of = the technique of)",
         "Hôm nay thời tiết rất đẹp.",
-        "Tôi chắc chắn thích chiếc màu ngọc lục bảo hơn vì kỹ thuật dệt bền vững của nó vượt trội hơn kỹ thuật dệt của các loại váy sợi tổng hợp tiêu chuẩn. (the emerald one / that of = the technique of)"
+        "Chào buổi sáng Elena. Chúng ta nên trình diễn những chiếc váy dạ hội lụa hữu cơ nào trên sàn diễn, những chiếc màu đen hay chiếc màu ngọc lục bảo? (the black ones / the emerald one)",
+        "Bạn có tin rằng dòng sản phẩm thân thiện với môi trường của chúng ta sẽ thu hút các khách mua hàng quốc tế không?"
       ],
       "correctAnswer": "Chào buổi sáng Elena. Chúng ta nên trình diễn những chiếc váy dạ hội lụa hữu cơ nào trên sàn diễn, những chiếc màu đen hay chiếc màu ngọc lục bảo? (the black ones / the emerald one)",
       "explanationVi": "Câu nghe được: \"Good morning, Elena. Which organic silk evening gowns should we showcase on the runway, the black ones or the emerald one?\" có nghĩa là: \"Chào buổi sáng Elena. Chúng ta nên trình diễn những chiếc váy dạ hội lụa hữu cơ nào trên sàn diễn, những chiếc màu đen hay chiếc màu ngọc lục bảo? (the black ones / the emerald one)\"."
@@ -343,10 +343,10 @@
       "audioPrompt": "I definitely prefer the emerald one because its sustainable weaving technique is superior to that of standard synthetic dresses.",
       "question": "Nhấn nút '🔊 Nghe audio' và chọn nghĩa tiếng Việt đúng:",
       "options": [
-        "Bạn có tin rằng dòng sản phẩm thân thiện với môi trường của chúng ta sẽ thu hút các khách mua hàng quốc tế không?",
-        "Tôi chắc chắn thích chiếc màu ngọc lục bảo hơn vì kỹ thuật dệt bền vững của nó vượt trội hơn kỹ thuật dệt của các loại váy sợi tổng hợp tiêu chuẩn. (the emerald one / that of = the technique of)",
         "Tôi hoàn toàn nghĩ như vậy! Tất cả các trung tâm bách hóa lớn đều đã yêu cầu các sản phẩm may mặc sinh thái cao cấp. (I think so = I think that it will appeal)",
-        "Hôm nay thời tiết rất đẹp."
+        "Tôi chắc chắn thích chiếc màu ngọc lục bảo hơn vì kỹ thuật dệt bền vững của nó vượt trội hơn kỹ thuật dệt của các loại váy sợi tổng hợp tiêu chuẩn. (the emerald one / that of = the technique of)",
+        "Hôm nay thời tiết rất đẹp.",
+        "Bạn có tin rằng dòng sản phẩm thân thiện với môi trường của chúng ta sẽ thu hút các khách mua hàng quốc tế không?"
       ],
       "correctAnswer": "Tôi chắc chắn thích chiếc màu ngọc lục bảo hơn vì kỹ thuật dệt bền vững của nó vượt trội hơn kỹ thuật dệt của các loại váy sợi tổng hợp tiêu chuẩn. (the emerald one / that of = the technique of)",
       "explanationVi": "Câu nghe được: \"I definitely prefer the emerald one because its sustainable weaving technique is superior to that of standard synthetic dresses.\" có nghĩa là: \"Tôi chắc chắn thích chiếc màu ngọc lục bảo hơn vì kỹ thuật dệt bền vững của nó vượt trội hơn kỹ thuật dệt của các loại váy sợi tổng hợp tiêu chuẩn. (the emerald one / that of = the technique of)\"."
@@ -373,10 +373,10 @@
       "audioPrompt": "I certainly think so! All the major department stores have requested luxury eco-garments.",
       "question": "Nhấn nút '🔊 Nghe audio' và chọn nghĩa tiếng Việt đúng:",
       "options": [
-        "Tôi hy vọng là không, nhưng nếu đúng như vậy, chúng ta có thể điều chỉnh nhẹ tỷ lệ pha trộn sợi mà không làm giảm chất lượng. (I hope not / if so)",
-        "Tôi hoàn toàn nghĩ như vậy! Tất cả các trung tâm bách hóa lớn đều đã yêu cầu các sản phẩm may mặc sinh thái cao cấp. (I think so = I think that it will appeal)",
         "Hôm nay thời tiết rất đẹp.",
-        "Liệu giá bông toàn cầu tăng cao có ảnh hưởng đến chi phí sản xuất của chúng ta trong mùa sắp tới không?"
+        "Tôi hy vọng là không, nhưng nếu đúng như vậy, chúng ta có thể điều chỉnh nhẹ tỷ lệ pha trộn sợi mà không làm giảm chất lượng. (I hope not / if so)",
+        "Liệu giá bông toàn cầu tăng cao có ảnh hưởng đến chi phí sản xuất của chúng ta trong mùa sắp tới không?",
+        "Tôi hoàn toàn nghĩ như vậy! Tất cả các trung tâm bách hóa lớn đều đã yêu cầu các sản phẩm may mặc sinh thái cao cấp. (I think so = I think that it will appeal)"
       ],
       "correctAnswer": "Tôi hoàn toàn nghĩ như vậy! Tất cả các trung tâm bách hóa lớn đều đã yêu cầu các sản phẩm may mặc sinh thái cao cấp. (I think so = I think that it will appeal)",
       "explanationVi": "Câu nghe được: \"I certainly think so! All the major department stores have requested luxury eco-garments.\" có nghĩa là: \"Tôi hoàn toàn nghĩ như vậy! Tất cả các trung tâm bách hóa lớn đều đã yêu cầu các sản phẩm may mặc sinh thái cao cấp. (I think so = I think that it will appeal)\"."
@@ -420,32 +420,32 @@
     {
       "id": "ex-099-29",
       "type": "reading_comprehension",
-      "promptVi": "[Đọc hiểu đoạn văn] Đọc đoạn hội thoại sau và trả lời câu hỏi:",
+      "promptVi": "[Đọc hiểu đoạn văn] Đọc kĩ đoạn hội thoại và chọn nhận định đúng về nội dung:",
       "passage": "Fashion Director Oliver: \"Good morning, Elena. Which organic silk evening gowns should we showcase on the runway, the black ones or the emerald one?\"\nElena: \"I definitely prefer the emerald one because its sustainable weaving technique is superior to that of standard synthetic dresses.\"\nFashion Director Oliver: \"Do you believe our eco-friendly line will appeal to international buyers?\"\nElena: \"I certainly think so! All the major department stores have requested luxury eco-garments.\"",
-      "question": "Chủ đề trọng tâm của đoạn hội thoại trên là gì?",
+      "question": "Dựa vào đoạn đối thoại trên, thông tin nào sau đây là CHÍNH XÁC về nội dung câu nói của Fashion Director Oliver?",
       "options": [
-        "Cách làm món ăn truyền thống",
-        "Kế hoạch đi mua sắm tại siêu thị",
-        "Cấu trúc Thay thế & Tránh Lặp Từ (Substitution & Ellipsis: One/Ones, So/Not, That/Those, Auxiliary Reductions)",
-        "Lịch trình đi du lịch nghỉ mát cuối tuần"
+        "Fashion Director Oliver phàn nàn rằng thời tiết hôm nay quá xấu.",
+        "Fashion Director Oliver muốn mượn tiền để mua vé máy bay gấp.",
+        "Fashion Director Oliver từ chối trả lời và yêu cầu hủy cuộc hẹn.",
+        "Fashion Director Oliver chia sẻ thông tin: \"Chào buổi sáng Elena. Chúng ta nên trình diễn những chiếc váy dạ hội lụa hữu cơ nào trên sàn diễn, những chiếc màu đen hay chiếc màu ngọc lục bảo? (the black ones / the emerald one)\""
       ],
-      "correctAnswer": "Cấu trúc Thay thế & Tránh Lặp Từ (Substitution & Ellipsis: One/Ones, So/Not, That/Those, Auxiliary Reductions)",
-      "explanationVi": "Đoạn hội thoại được thiết kế để minh họa trực tiếp cho chủ điểm \"Bài 99: Cấu trúc Thay thế & Tránh Lặp Từ (Substitution & Ellipsis: One/Ones, So/Not, That/Those, Auxiliary Reductions)\"."
+      "correctAnswer": "Fashion Director Oliver chia sẻ thông tin: \"Chào buổi sáng Elena. Chúng ta nên trình diễn những chiếc váy dạ hội lụa hữu cơ nào trên sàn diễn, những chiếc màu đen hay chiếc màu ngọc lục bảo? (the black ones / the emerald one)\"",
+      "explanationVi": "Trong đoạn hội thoại, Fashion Director Oliver đã nói: \"Good morning, Elena. Which organic silk evening gowns should we showcase on the runway, the black ones or the emerald one?\" (nghĩa là: \"Chào buổi sáng Elena. Chúng ta nên trình diễn những chiếc váy dạ hội lụa hữu cơ nào trên sàn diễn, những chiếc màu đen hay chiếc màu ngọc lục bảo? (the black ones / the emerald one)\")."
     },
     {
       "id": "ex-099-30",
       "type": "reading_comprehension",
-      "promptVi": "[Đọc hiểu đoạn văn] Đọc đoạn đối thoại tiếp theo và chọn nhận định đúng:",
+      "promptVi": "[Đọc hiểu đoạn văn] Đọc phần đối thoại tiếp theo và trả lời câu hỏi:",
       "passage": "Fashion Director Oliver: \"Will rising global cotton prices affect our production costs this upcoming season?\"\nElena: \"I hope not, but if so, we can adjust our fabric blend ratios slightly without compromising quality.\"\nFashion Director Oliver: \"The tensile strength of bamboo fibers is much higher than that of recycled polyester.\"\nElena: \"And the aesthetic qualities of botanical dyes are richer than those of chemical pigments.\"",
-      "question": "Nhận định nào sau đây là ĐÚNG về nội dung đoạn đối thoại?",
+      "question": "Trong đoạn hội thoại trên, câu nói \"And the aesthetic qualities of botanical dyes are richer than those of chemical pigments.\" của Elena mang ý nghĩa gì?",
       "options": [
-        "Cả hai nhân vật đang thảo luận về thời tiết ngày mai.",
-        "Hai nhân vật đang cãi nhau và không đồng ý hợp tác.",
-        "Các câu thoại sử dụng đúng cấu trúc \"Cấu trúc Thay thế & Tránh Lặp Từ (Substitution & Ellipsis: One/Ones, So/Not, That/Those, Auxiliary Reductions)\".",
-        "Cuộc trò chuyện diễn ra tại nhà ga xe lửa."
+        "Phản hồi: \"Hoàn toàn không đồng ý và muốn rời khỏi phòng ngay lập tức\"",
+        "Phản hồi: \"Hẹn gặp lại vào cuối tuần sau tại sân bay quốc tế\"",
+        "Phản hồi: \"Yêu cầu cung cấp hóa đơn thanh toán tiền mặt\"",
+        "Phản hồi: \"Và những phẩm chất thẩm mỹ của thuốc nhuộm thực vật phong phú hơn những phẩm chất của chất màu hóa học. (those of = the qualities of)\""
       ],
-      "correctAnswer": "Các câu thoại sử dụng đúng cấu trúc \"Cấu trúc Thay thế & Tránh Lặp Từ (Substitution & Ellipsis: One/Ones, So/Not, That/Those, Auxiliary Reductions)\".",
-      "explanationVi": "Đoạn đối thoại ứng dụng chuẩn xác ngữ pháp của \"Bài 99: Cấu trúc Thay thế & Tránh Lặp Từ (Substitution & Ellipsis: One/Ones, So/Not, That/Those, Auxiliary Reductions)\"."
+      "correctAnswer": "Phản hồi: \"Và những phẩm chất thẩm mỹ của thuốc nhuộm thực vật phong phú hơn những phẩm chất của chất màu hóa học. (those of = the qualities of)\"",
+      "explanationVi": "Elena nói: \"And the aesthetic qualities of botanical dyes are richer than those of chemical pigments.\" có nghĩa là: \"Và những phẩm chất thẩm mỹ của thuốc nhuộm thực vật phong phú hơn những phẩm chất của chất màu hóa học. (those of = the qualities of)\"."
     }
   ]
 }

@@ -1457,13 +1457,23 @@ function renderQuizQuestion() {
   const container = el.quizAnswerDynamicArea;
   container.innerHTML = "";
 
+function escapeHtml(str) {
+  if (!str) return "";
+  return String(str)
+    .replace(/&/g, "&amp;")
+    .replace(/</g, "&lt;")
+    .replace(/>/g, "&gt;")
+    .replace(/"/g, "&quot;")
+    .replace(/'/g, "&#039;");
+}
+
   if (q.type === "multiple_choice" || q.type === "find_error" || q.type === "listening_reflex" || q.type === "reading_comprehension") {
     const opts = q.options || [];
     container.innerHTML = `
       <div class="options-grid">
         ${opts.map((opt, i) => `
-          <button class="chip-btn" id="quiz-opt-${i}" onclick="selectQuizChoice('${opt.replace(/'/g, "\\'")}', this)">
-            <strong>${String.fromCharCode(65 + i)}.</strong> ${opt}
+          <button class="chip-btn" id="quiz-opt-${i}" onclick="selectQuizChoiceByIndex(${i}, this)">
+            <strong>${String.fromCharCode(65 + i)}.</strong> ${escapeHtml(opt)}
           </button>
         `).join("")}
       </div>
@@ -1523,25 +1533,30 @@ function renderQuizQuestion() {
   }
 }
 
-// Choice submission
-window.selectQuizChoice = function(selected, btnEl) {
+// Choice submission (Index-based selection prevents quoting bugs)
+window.selectQuizChoiceByIndex = function(idx, btnEl) {
   const q = quizQuestions[currentQuizIdx];
+  if (!q || !q.options || q.options[idx] === undefined) return;
+  const selected = q.options[idx];
   const isCorrect = selected.trim().toLowerCase() === q.correctAnswer.trim().toLowerCase();
 
-  // Disable all option buttons
-  document.querySelectorAll("#quizAnswerDynamicArea .chip-btn").forEach(b => {
+  // Disable all option buttons and highlight the right answer
+  document.querySelectorAll("#quizAnswerDynamicArea .chip-btn").forEach((b, i) => {
     b.disabled = true;
-    if (b.textContent.includes(q.correctAnswer)) b.classList.add("correct");
+    if (q.options[i] && q.options[i].trim().toLowerCase() === q.correctAnswer.trim().toLowerCase()) {
+      b.classList.add("correct");
+    }
   });
 
   if (isCorrect) {
-    btnEl.classList.add("correct");
+    if (btnEl) btnEl.classList.add("correct");
     handleQuizEvaluation(true, selected);
   } else {
-    btnEl.classList.add("wrong");
+    if (btnEl) btnEl.classList.add("wrong");
     handleQuizEvaluation(false, selected);
   }
 };
+window.selectQuizChoice = window.selectQuizChoiceByIndex;
 
 // Fill submission
 window.submitQuizFill = function() {

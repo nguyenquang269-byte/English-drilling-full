@@ -10,10 +10,10 @@
       "promptVi": "[Trắc nghiệm ngữ pháp] Chọn từ đúng để hoàn thành câu (Quyển sách này là của tôi, không phải của bạn.):",
       "question": "This book is ___, not yours.",
       "options": [
-        "my",
-        "mine",
         "me",
-        "I"
+        "I",
+        "my",
+        "mine"
       ],
       "correctAnswer": "mine",
       "explanationVi": "Đứng độc lập cuối câu thay cho 'my book' dùng đại từ sở hữu 'mine'."
@@ -24,10 +24,10 @@
       "promptVi": "[Trắc nghiệm ngữ pháp] Chọn từ đúng để hoàn thành câu (Làm ơn đưa chìa khóa cho anh ấy.):",
       "question": "Please give ___ the key.",
       "options": [
-        "he",
         "his",
+        "him",
         "himself",
-        "him"
+        "he"
       ],
       "correctAnswer": "him",
       "explanationVi": "Sau động từ 'give' dùng đại từ tân ngữ 'him'."
@@ -38,9 +38,9 @@
       "promptVi": "[Trắc nghiệm ngữ pháp] Chọn từ đúng để hoàn thành câu (Ngôi nhà của chúng tôi to hơn ngôi nhà của họ.):",
       "question": "___ house is bigger than their house.",
       "options": [
-        "We",
-        "Ours",
         "Our",
+        "Ours",
+        "We",
         "Us"
       ],
       "correctAnswer": "Our",
@@ -52,10 +52,10 @@
       "promptVi": "[Trắc nghiệm ngữ pháp] Chọn từ đúng để hoàn thành câu (Bạn có thể giúp chúng tôi việc này không?):",
       "question": "Can you help ___ with this task?",
       "options": [
-        "our",
         "we",
         "ours",
-        "us"
+        "us",
+        "our"
       ],
       "correctAnswer": "us",
       "explanationVi": "Sau động từ 'help' dùng đại từ tân ngữ 'us'."
@@ -66,10 +66,10 @@
       "promptVi": "[Phản xạ dịch thuật] Dịch câu sau sang tiếng Anh: \"Xin lỗi, Olivia, chiếc máy tính xách tay màu bạc này có phải của bạn không?\"",
       "question": "Chọn bản dịch chuẩn xác nhất cho câu: \"Xin lỗi, Olivia, chiếc máy tính xách tay màu bạc này có phải của bạn không?\"",
       "options": [
-        "Excuse me, Olivia, is this silver laptop yours?",
-        "We are studying English today.",
         "Excuse me, Olivia, be this silver laptop yours?",
-        "No, that laptop isn't mine. My laptop is black and smaller."
+        "No, that laptop isn't mine. My laptop is black and smaller.",
+        "We are studying English today.",
+        "Excuse me, Olivia, is this silver laptop yours?"
       ],
       "correctAnswer": "Excuse me, Olivia, is this silver laptop yours?",
       "explanationVi": "Câu dịch chuẩn xác: \"Excuse me, Olivia, is this silver laptop yours?\" (Xin lỗi, Olivia, chiếc máy tính xách tay màu bạc này có phải của bạn không?)."
@@ -95,10 +95,10 @@
       "question": "This book is ___, not yours.",
       "correctAnswer": "mine",
       "options": [
-        "my",
-        "I",
         "mine",
-        "me"
+        "me",
+        "I",
+        "my"
       ],
       "explanationVi": "Đáp án đúng là \"mine\". Câu hoàn chỉnh: \"This book is mine, not yours.\" (Quyển sách này là của tôi, không phải của bạn.)."
     },
@@ -123,9 +123,9 @@
       "question": "___ house is bigger than their house.",
       "correctAnswer": "Our",
       "options": [
+        "We",
         "Our",
         "Ours",
-        "We",
         "Us"
       ],
       "explanationVi": "Đáp án đúng là \"Our\". Câu hoàn chỉnh: \"Our house is bigger than their house.\" (Ngôi nhà của chúng tôi to hơn ngôi nhà của họ.)."
@@ -137,10 +137,10 @@
       "question": "Can you help ___ with this task?",
       "correctAnswer": "us",
       "options": [
-        "ours",
-        "us",
         "we",
-        "our"
+        "our",
+        "ours",
+        "us"
       ],
       "explanationVi": "Đáp án đúng là \"us\". Câu hoàn chỉnh: \"Can you help us with this task?\" (Bạn có thể giúp chúng tôi việc này không?)."
     },
@@ -152,8 +152,8 @@
       "correctAnswer": "book",
       "options": [
         "book",
-        "are",
         "is",
+        "are",
         "am"
       ],
       "explanationVi": "Câu phủ định hoàn chỉnh: \"This book is mine, not yours.\"."
@@ -164,12 +164,12 @@
       "promptVi": "[Sắp xếp câu] Ghép các khối từ thành câu hoàn chỉnh mang nghĩa: \"Quyển sách này là của tôi, không phải của bạn.\"",
       "question": "Sắp xếp các từ để tạo thành câu đúng: \"Quyển sách này là của tôi, không phải của bạn.\"",
       "words": [
-        "This",
         "mine,",
-        "is",
-        "not",
+        "yours.",
         "book",
-        "yours."
+        "not",
+        "is",
+        "This"
       ],
       "correctSentence": "This book is mine, not yours.",
       "hintVi": "Quyển sách này là của tôi, không phải của bạn.",
@@ -181,11 +181,11 @@
       "promptVi": "[Sắp xếp câu] Ghép các khối từ thành câu hoàn chỉnh mang nghĩa: \"Làm ơn đưa chìa khóa cho anh ấy.\"",
       "question": "Sắp xếp các từ để tạo thành câu đúng: \"Làm ơn đưa chìa khóa cho anh ấy.\"",
       "words": [
-        "the",
         "him",
-        "Please",
         "key.",
-        "give"
+        "give",
+        "the",
+        "Please"
       ],
       "correctSentence": "Please give him the key.",
       "hintVi": "Làm ơn đưa chìa khóa cho anh ấy.",
@@ -197,13 +197,13 @@
       "promptVi": "[Sắp xếp câu] Ghép các khối từ thành câu hoàn chỉnh mang nghĩa: \"Ngôi nhà của chúng tôi to hơn ngôi nhà của họ.\"",
       "question": "Sắp xếp các từ để tạo thành câu đúng: \"Ngôi nhà của chúng tôi to hơn ngôi nhà của họ.\"",
       "words": [
-        "than",
-        "their",
-        "house.",
-        "bigger",
-        "Our",
         "house",
-        "is"
+        "bigger",
+        "than",
+        "house.",
+        "is",
+        "their",
+        "Our"
       ],
       "correctSentence": "Our house is bigger than their house.",
       "hintVi": "Ngôi nhà của chúng tôi to hơn ngôi nhà của họ.",
@@ -216,12 +216,12 @@
       "question": "Sắp xếp các từ để tạo thành câu đúng: \"Bạn có thể giúp chúng tôi việc này không?\"",
       "words": [
         "us",
-        "this",
-        "task?",
-        "with",
         "help",
+        "with",
         "Can",
-        "you"
+        "task?",
+        "you",
+        "this"
       ],
       "correctSentence": "Can you help us with this task?",
       "hintVi": "Bạn có thể giúp chúng tôi việc này không?",
@@ -233,19 +233,19 @@
       "promptVi": "[Sắp xếp câu] Ghép các từ thành câu hội thoại: \"Tôi tìm thấy nó trên bàn giáo viên của chúng ta. Bạn có biết của ai không?\"",
       "question": "Sắp xếp các từ để tạo thành câu thoại: \"Tôi tìm thấy nó trên bàn giáo viên của chúng ta. Bạn có biết của ai không?\"",
       "words": [
-        "whose",
-        "it",
-        "found",
-        "teacher's",
-        "I",
         "is",
-        "on",
+        "whose",
+        "our",
         "Do",
         "desk",
         "it",
-        "our",
+        "teacher's",
+        "it",
+        "found",
         "you",
-        "know"
+        "know",
+        "on",
+        "I"
       ],
       "correctSentence": "I found it on our teacher's desk. Do you know whose it is?",
       "hintVi": "Tôi tìm thấy nó trên bàn giáo viên của chúng ta. Bạn có biết của ai không?",
@@ -258,9 +258,9 @@
       "question": "Dựa vào chủ điểm \"Bài 33: Đại từ — Chủ ngữ / Tân ngữ / Sở hữu Cơ bản\", câu nào sau đây CHÍNH XÁC?",
       "options": [
         "is",
-        "This book is mine, not yours.",
+        "This book be mine, not yours.",
         "yours. not mine, is book This",
-        "This book be mine, not yours."
+        "This book is mine, not yours."
       ],
       "correctAnswer": "This book is mine, not yours.",
       "explanationVi": "Cấu trúc chuẩn xác là: \"This book is mine, not yours.\" (Quyển sách này là của tôi, không phải của bạn.)."
@@ -271,10 +271,10 @@
       "promptVi": "[Nhận diện cấu trúc chuẩn] Chọn câu có cấu trúc ngữ pháp HOÀN TOÀN ĐÚNG:",
       "question": "Dựa vào chủ điểm \"Bài 33: Đại từ — Chủ ngữ / Tân ngữ / Sở hữu Cơ bản\", câu nào sau đây CHÍNH XÁC?",
       "options": [
-        "is",
-        "key. the him give Please",
         "are",
-        "Please give him the key."
+        "key. the him give Please",
+        "Please give him the key.",
+        "is"
       ],
       "correctAnswer": "Please give him the key.",
       "explanationVi": "Cấu trúc chuẩn xác là: \"Please give him the key.\" (Làm ơn đưa chìa khóa cho anh ấy.)."
@@ -286,9 +286,9 @@
       "question": "Dựa vào chủ điểm \"Bài 33: Đại từ — Chủ ngữ / Tân ngữ / Sở hữu Cơ bản\", câu nào sau đây CHÍNH XÁC?",
       "options": [
         "is",
+        "Our house is bigger than their house.",
         "house. their than bigger is house Our",
-        "Our house be bigger than their house.",
-        "Our house is bigger than their house."
+        "Our house be bigger than their house."
       ],
       "correctAnswer": "Our house is bigger than their house.",
       "explanationVi": "Cấu trúc chuẩn xác là: \"Our house is bigger than their house.\" (Ngôi nhà của chúng tôi to hơn ngôi nhà của họ.)."
@@ -299,10 +299,10 @@
       "promptVi": "[Nhận diện cấu trúc chuẩn] Chọn câu có cấu trúc ngữ pháp HOÀN TOÀN ĐÚNG:",
       "question": "Dựa vào chủ điểm \"Bài 33: Đại từ — Chủ ngữ / Tân ngữ / Sở hữu Cơ bản\", câu nào sau đây CHÍNH XÁC?",
       "options": [
-        "task? this with us help you Can",
+        "Can you help us at this task?",
         "Can you help us with this task?",
         "is",
-        "Can you help us at this task?"
+        "task? this with us help you Can"
       ],
       "correctAnswer": "Can you help us with this task?",
       "explanationVi": "Cấu trúc chuẩn xác là: \"Can you help us with this task?\" (Bạn có thể giúp chúng tôi việc này không?)."
@@ -316,8 +316,8 @@
       "options": [
         "Không, chiếc máy tính đó không phải của tôi. Máy tính của tôi màu đen và nhỏ hơn.",
         "Xin lỗi, Olivia, chiếc máy tính xách tay màu bạc này có phải của bạn không?",
-        "Hôm nay thời tiết rất đẹp.",
-        "Tôi tìm thấy nó trên bàn giáo viên của chúng ta. Bạn có biết của ai không?"
+        "Tôi tìm thấy nó trên bàn giáo viên của chúng ta. Bạn có biết của ai không?",
+        "Hôm nay thời tiết rất đẹp."
       ],
       "correctAnswer": "Xin lỗi, Olivia, chiếc máy tính xách tay màu bạc này có phải của bạn không?",
       "explanationVi": "Câu nghe được: \"Excuse me, Olivia, is this silver laptop yours?\" có nghĩa là: \"Xin lỗi, Olivia, chiếc máy tính xách tay màu bạc này có phải của bạn không?\"."
@@ -329,10 +329,10 @@
       "audioPrompt": "No, that laptop isn't mine. My laptop is black and smaller.",
       "question": "Nhấn nút '🔊 Nghe audio' và chọn nghĩa tiếng Việt đúng:",
       "options": [
+        "Không, chiếc máy tính đó không phải của tôi. Máy tính của tôi màu đen và nhỏ hơn.",
         "Tôi tìm thấy nó trên bàn giáo viên của chúng ta. Bạn có biết của ai không?",
         "Hôm nay thời tiết rất đẹp.",
-        "Tôi nghĩ nó thuộc về Eric. Lúc nãy anh ấy đã đang tìm kiếm máy tính xách tay của anh ấy.",
-        "Không, chiếc máy tính đó không phải của tôi. Máy tính của tôi màu đen và nhỏ hơn."
+        "Tôi nghĩ nó thuộc về Eric. Lúc nãy anh ấy đã đang tìm kiếm máy tính xách tay của anh ấy."
       ],
       "correctAnswer": "Không, chiếc máy tính đó không phải của tôi. Máy tính của tôi màu đen và nhỏ hơn.",
       "explanationVi": "Câu nghe được: \"No, that laptop isn't mine. My laptop is black and smaller.\" có nghĩa là: \"Không, chiếc máy tính đó không phải của tôi. Máy tính của tôi màu đen và nhỏ hơn.\"."
@@ -344,10 +344,10 @@
       "audioPrompt": "I found it on our teacher's desk. Do you know whose it is?",
       "question": "Nhấn nút '🔊 Nghe audio' và chọn nghĩa tiếng Việt đúng:",
       "options": [
+        "Tôi nên đưa trực tiếp cho anh ấy hay giao cho giáo sư của chúng ta?",
         "Tôi nghĩ nó thuộc về Eric. Lúc nãy anh ấy đã đang tìm kiếm máy tính xách tay của anh ấy.",
         "Tôi tìm thấy nó trên bàn giáo viên của chúng ta. Bạn có biết của ai không?",
-        "Hôm nay thời tiết rất đẹp.",
-        "Tôi nên đưa trực tiếp cho anh ấy hay giao cho giáo sư của chúng ta?"
+        "Hôm nay thời tiết rất đẹp."
       ],
       "correctAnswer": "Tôi tìm thấy nó trên bàn giáo viên của chúng ta. Bạn có biết của ai không?",
       "explanationVi": "Câu nghe được: \"I found it on our teacher's desk. Do you know whose it is?\" có nghĩa là: \"Tôi tìm thấy nó trên bàn giáo viên của chúng ta. Bạn có biết của ai không?\"."
@@ -359,10 +359,10 @@
       "audioPrompt": "I think it belongs to Eric. He was looking for his laptop earlier.",
       "question": "Nhấn nút '🔊 Nghe audio' và chọn nghĩa tiếng Việt đúng:",
       "options": [
-        "Làm ơn hãy đưa cho anh ấy. Anh ấy đang đợi chúng ta trong căng tin.",
         "Tôi nghĩ nó thuộc về Eric. Lúc nãy anh ấy đã đang tìm kiếm máy tính xách tay của anh ấy.",
+        "Tôi nên đưa trực tiếp cho anh ấy hay giao cho giáo sư của chúng ta?",
         "Hôm nay thời tiết rất đẹp.",
-        "Tôi nên đưa trực tiếp cho anh ấy hay giao cho giáo sư của chúng ta?"
+        "Làm ơn hãy đưa cho anh ấy. Anh ấy đang đợi chúng ta trong căng tin."
       ],
       "correctAnswer": "Tôi nghĩ nó thuộc về Eric. Lúc nãy anh ấy đã đang tìm kiếm máy tính xách tay của anh ấy.",
       "explanationVi": "Câu nghe được: \"I think it belongs to Eric. He was looking for his laptop earlier.\" có nghĩa là: \"Tôi nghĩ nó thuộc về Eric. Lúc nãy anh ấy đã đang tìm kiếm máy tính xách tay của anh ấy.\"."
@@ -406,32 +406,32 @@
     {
       "id": "ex-033-29",
       "type": "reading_comprehension",
-      "promptVi": "[Đọc hiểu đoạn văn] Đọc đoạn hội thoại sau và trả lời câu hỏi:",
+      "promptVi": "[Đọc hiểu đoạn văn] Đọc kĩ đoạn hội thoại và chọn nhận định đúng về nội dung:",
       "passage": "Nathan: \"Excuse me, Olivia, is this silver laptop yours?\"\nOlivia: \"No, that laptop isn't mine. My laptop is black and smaller.\"\nNathan: \"I found it on our teacher's desk. Do you know whose it is?\"\nOlivia: \"I think it belongs to Eric. He was looking for his laptop earlier.\"",
-      "question": "Chủ đề trọng tâm của đoạn hội thoại trên là gì?",
+      "question": "Dựa vào đoạn đối thoại trên, thông tin nào sau đây là CHÍNH XÁC về nội dung câu nói của Nathan?",
       "options": [
-        "Cách làm món ăn truyền thống",
-        "Lịch trình đi du lịch nghỉ mát cuối tuần",
-        "Kế hoạch đi mua sắm tại siêu thị",
-        "Đại từ — Chủ ngữ / Tân ngữ / Sở hữu Cơ bản"
+        "Nathan phàn nàn rằng thời tiết hôm nay quá xấu.",
+        "Nathan chia sẻ thông tin: \"Xin lỗi, Olivia, chiếc máy tính xách tay màu bạc này có phải của bạn không?\"",
+        "Nathan từ chối trả lời và yêu cầu hủy cuộc hẹn.",
+        "Nathan muốn mượn tiền để mua vé máy bay gấp."
       ],
-      "correctAnswer": "Đại từ — Chủ ngữ / Tân ngữ / Sở hữu Cơ bản",
-      "explanationVi": "Đoạn hội thoại được thiết kế để minh họa trực tiếp cho chủ điểm \"Bài 33: Đại từ — Chủ ngữ / Tân ngữ / Sở hữu Cơ bản\"."
+      "correctAnswer": "Nathan chia sẻ thông tin: \"Xin lỗi, Olivia, chiếc máy tính xách tay màu bạc này có phải của bạn không?\"",
+      "explanationVi": "Trong đoạn hội thoại, Nathan đã nói: \"Excuse me, Olivia, is this silver laptop yours?\" (nghĩa là: \"Xin lỗi, Olivia, chiếc máy tính xách tay màu bạc này có phải của bạn không?\")."
     },
     {
       "id": "ex-033-30",
       "type": "reading_comprehension",
-      "promptVi": "[Đọc hiểu đoạn văn] Đọc đoạn đối thoại tiếp theo và chọn nhận định đúng:",
+      "promptVi": "[Đọc hiểu đoạn văn] Đọc phần đối thoại tiếp theo và trả lời câu hỏi:",
       "passage": "Nathan: \"Should I give it to him directly or hand it to our professor?\"\nOlivia: \"Please give it to him. He is waiting for us in the cafeteria.\"\nNathan: \"And are these colorful notebooks theirs or ours?\"\nOlivia: \"They are ours! We left our notebooks here after the morning lecture.\"",
-      "question": "Nhận định nào sau đây là ĐÚNG về nội dung đoạn đối thoại?",
+      "question": "Trong đoạn hội thoại trên, câu nói \"They are ours! We left our notebooks here after the morning lecture.\" của Olivia mang ý nghĩa gì?",
       "options": [
-        "Cuộc trò chuyện diễn ra tại nhà ga xe lửa.",
-        "Hai nhân vật đang cãi nhau và không đồng ý hợp tác.",
-        "Cả hai nhân vật đang thảo luận về thời tiết ngày mai.",
-        "Các câu thoại sử dụng đúng cấu trúc \"Đại từ — Chủ ngữ / Tân ngữ / Sở hữu Cơ bản\"."
+        "Phản hồi: \"Hẹn gặp lại vào cuối tuần sau tại sân bay quốc tế\"",
+        "Phản hồi: \"Chúng là của chúng ta! Chúng ta đã để quên những cuốn vở của chúng ta ở đây sau bài giảng sáng nay.\"",
+        "Phản hồi: \"Yêu cầu cung cấp hóa đơn thanh toán tiền mặt\"",
+        "Phản hồi: \"Hoàn toàn không đồng ý và muốn rời khỏi phòng ngay lập tức\""
       ],
-      "correctAnswer": "Các câu thoại sử dụng đúng cấu trúc \"Đại từ — Chủ ngữ / Tân ngữ / Sở hữu Cơ bản\".",
-      "explanationVi": "Đoạn đối thoại ứng dụng chuẩn xác ngữ pháp của \"Bài 33: Đại từ — Chủ ngữ / Tân ngữ / Sở hữu Cơ bản\"."
+      "correctAnswer": "Phản hồi: \"Chúng là của chúng ta! Chúng ta đã để quên những cuốn vở của chúng ta ở đây sau bài giảng sáng nay.\"",
+      "explanationVi": "Olivia nói: \"They are ours! We left our notebooks here after the morning lecture.\" có nghĩa là: \"Chúng là của chúng ta! Chúng ta đã để quên những cuốn vở của chúng ta ở đây sau bài giảng sáng nay.\"."
     }
   ]
 }

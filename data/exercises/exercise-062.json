@@ -10,10 +10,10 @@
       "promptVi": "[Trắc nghiệm ngữ pháp] Chọn từ đúng để hoàn thành câu (Cả Tom và Mary đều yêu thích tiếng Anh.):",
       "question": "Both Tom and Mary ___ English.",
       "options": [
-        "loves",
-        "loving",
+        "is loving",
         "love",
-        "is loving"
+        "loving",
+        "loves"
       ],
       "correctAnswer": "love",
       "explanationVi": "'Both... and' nối hai chủ ngữ luôn đi với động từ số nhiều (love nguyên mẫu)."
@@ -24,10 +24,10 @@
       "promptVi": "[Trắc nghiệm ngữ pháp] Chọn từ đúng để hoàn thành câu (Hoặc bạn hoặc anh ấy chịu trách nhiệm cho việc này.):",
       "question": "Either you or he ___ responsible for this.",
       "options": [
-        "is",
-        "be",
         "am",
-        "are"
+        "are",
+        "be",
+        "is"
       ],
       "correctAnswer": "is",
       "explanationVi": "Trong cấu trúc 'Either A or B', động từ chia theo chủ ngữ gần nhất là 'he' -> 'is'."
@@ -39,9 +39,9 @@
       "question": "Neither Peter nor his friends ___ present.",
       "options": [
         "was",
-        "are",
         "is",
-        "were"
+        "were",
+        "are"
       ],
       "correctAnswer": "were",
       "explanationVi": "Chủ ngữ gần nhất 'his friends' là số nhiều nên động từ quá khứ là 'were'."
@@ -52,10 +52,10 @@
       "promptVi": "[Trắc nghiệm ngữ pháp] Chọn từ đúng để hoàn thành câu (Không chỉ giáo viên mà cả các học sinh cũng rất vui mừng.):",
       "question": "Not only the teacher ___ the students were happy.",
       "options": [
+        "but also",
         "and also",
         "as well",
-        "together",
-        "but also"
+        "together"
       ],
       "correctAnswer": "but also",
       "explanationVi": "Cặp liên từ tương quan là 'Not only... but also'."
@@ -66,10 +66,10 @@
       "promptVi": "[Phản xạ dịch thuật] Dịch câu sau sang tiếng Anh: \"Chào buổi sáng Rachel. Hôm nay chúng ta cần quyết định về các nhà cung cấp cơ sở hạ tầng đám mây.\"",
       "question": "Chọn bản dịch chuẩn xác nhất cho câu: \"Chào buổi sáng Rachel. Hôm nay chúng ta cần quyết định về các nhà cung cấp cơ sở hạ tầng đám mây.\"",
       "options": [
+        "Good morning, Rachel. We need to decide on our cloud infrastructure providers today.",
         "Both Amazon Web Services and Google Cloud offer exceptional enterprise security features.",
-        "We are studying English today.",
         "is",
-        "Good morning, Rachel. We need to decide on our cloud infrastructure providers today."
+        "We are studying English today."
       ],
       "correctAnswer": "Good morning, Rachel. We need to decide on our cloud infrastructure providers today.",
       "explanationVi": "Câu dịch chuẩn xác: \"Good morning, Rachel. We need to decide on our cloud infrastructure providers today.\" (Chào buổi sáng Rachel. Hôm nay chúng ta cần quyết định về các nhà cung cấp cơ sở hạ tầng đám mây.)."
@@ -80,10 +80,10 @@
       "promptVi": "[Ngữ cảnh giao tiếp] Chọn câu phản hồi tự nhiên và đúng ngữ pháp:",
       "question": "Khi đối phương nói: \"Good morning, Rachel. We need to decide on our cloud infrastructure providers today.\", câu phản hồi phù hợp là gì?",
       "options": [
-        "Both Amazon Web Services and Google Cloud offer exceptional enterprise security features.",
-        "Yes, I will eat it.",
+        "No, it was yesterday.",
         "They are not in the office.",
-        "No, it was yesterday."
+        "Both Amazon Web Services and Google Cloud offer exceptional enterprise security features.",
+        "Yes, I will eat it."
       ],
       "correctAnswer": "Both Amazon Web Services and Google Cloud offer exceptional enterprise security features.",
       "explanationVi": "Phản hồi phù hợp trong bài: \"Both Amazon Web Services and Google Cloud offer exceptional enterprise security features.\" (Cả Amazon Web Services và Google Cloud đều cung cấp các tính năng bảo mật doanh nghiệp vượt trội. (Both... and... -> động từ số nhiều))."
@@ -95,9 +95,9 @@
       "question": "Both Tom and Mary ___ English.",
       "correctAnswer": "love",
       "options": [
-        "love",
-        "loving",
         "loves",
+        "loving",
+        "love",
         "is loving"
       ],
       "explanationVi": "Đáp án đúng là \"love\". Câu hoàn chỉnh: \"Both Tom and Mary love English.\" (Cả Tom và Mary đều yêu thích tiếng Anh.)."
@@ -109,10 +109,10 @@
       "question": "Either you or he ___ responsible for this.",
       "correctAnswer": "is",
       "options": [
-        "is",
+        "are",
         "be",
-        "am",
-        "are"
+        "is",
+        "am"
       ],
       "explanationVi": "Đáp án đúng là \"is\". Câu hoàn chỉnh: \"Either you or he is responsible for this.\" (Hoặc bạn hoặc anh ấy chịu trách nhiệm cho việc này.)."
     },
@@ -137,9 +137,9 @@
       "question": "Not only the teacher ___ the students were happy.",
       "correctAnswer": "but also",
       "options": [
-        "and also",
-        "as well",
         "together",
+        "as well",
+        "and also",
         "but also"
       ],
       "explanationVi": "Đáp án đúng là \"but also\". Câu hoàn chỉnh: \"Not only the teacher but also the students were happy.\" (Không chỉ giáo viên mà cả các học sinh cũng rất vui mừng.)."
@@ -151,10 +151,10 @@
       "question": "Both _____ not and Mary love English.",
       "correctAnswer": "Tom",
       "options": [
-        "are",
+        "is",
         "am",
         "Tom",
-        "is"
+        "are"
       ],
       "explanationVi": "Câu phủ định hoàn chỉnh: \"Both Tom not and Mary love English.\"."
     },
@@ -165,11 +165,11 @@
       "question": "Sắp xếp các từ để tạo thành câu đúng: \"Cả Tom và Mary đều yêu thích tiếng Anh.\"",
       "words": [
         "English.",
-        "Tom",
+        "Mary",
         "and",
         "love",
         "Both",
-        "Mary"
+        "Tom"
       ],
       "correctSentence": "Both Tom and Mary love English.",
       "hintVi": "Cả Tom và Mary đều yêu thích tiếng Anh.",
@@ -181,14 +181,14 @@
       "promptVi": "[Sắp xếp câu] Ghép các khối từ thành câu hoàn chỉnh mang nghĩa: \"Hoặc bạn hoặc anh ấy chịu trách nhiệm cho việc này.\"",
       "question": "Sắp xếp các từ để tạo thành câu đúng: \"Hoặc bạn hoặc anh ấy chịu trách nhiệm cho việc này.\"",
       "words": [
-        "Either",
-        "you",
-        "is",
-        "responsible",
-        "or",
         "this.",
-        "he",
-        "for"
+        "is",
+        "or",
+        "you",
+        "for",
+        "Either",
+        "responsible",
+        "he"
       ],
       "correctSentence": "Either you or he is responsible for this.",
       "hintVi": "Hoặc bạn hoặc anh ấy chịu trách nhiệm cho việc này.",
@@ -200,13 +200,13 @@
       "promptVi": "[Sắp xếp câu] Ghép các khối từ thành câu hoàn chỉnh mang nghĩa: \"Cả Peter lẫn các bạn của anh ấy đều không có mặt.\"",
       "question": "Sắp xếp các từ để tạo thành câu đúng: \"Cả Peter lẫn các bạn của anh ấy đều không có mặt.\"",
       "words": [
-        "Neither",
-        "present.",
-        "Peter",
         "his",
+        "present.",
         "were",
+        "friends",
+        "Neither",
         "nor",
-        "friends"
+        "Peter"
       ],
       "correctSentence": "Neither Peter nor his friends were present.",
       "hintVi": "Cả Peter lẫn các bạn của anh ấy đều không có mặt.",
@@ -218,16 +218,16 @@
       "promptVi": "[Sắp xếp câu] Ghép các khối từ thành câu hoàn chỉnh mang nghĩa: \"Không chỉ giáo viên mà cả các học sinh cũng rất vui mừng.\"",
       "question": "Sắp xếp các từ để tạo thành câu đúng: \"Không chỉ giáo viên mà cả các học sinh cũng rất vui mừng.\"",
       "words": [
-        "students",
-        "Not",
-        "the",
-        "also",
         "were",
-        "teacher",
-        "only",
-        "the",
         "happy.",
-        "but"
+        "the",
+        "students",
+        "also",
+        "the",
+        "teacher",
+        "Not",
+        "but",
+        "only"
       ],
       "correctSentence": "Not only the teacher but also the students were happy.",
       "hintVi": "Không chỉ giáo viên mà cả các học sinh cũng rất vui mừng.",
@@ -239,23 +239,23 @@
       "promptVi": "[Sắp xếp câu] Ghép các từ thành câu hội thoại: \"Hoặc là trưởng nhóm hoặc là các kỹ sư dự án phải nộp bảng đánh giá kỹ thuật trước 3 giờ chiều. (Either... or... -> chia theo engineers)\"",
       "question": "Sắp xếp các từ để tạo thành câu thoại: \"Hoặc là trưởng nhóm hoặc là các kỹ sư dự án phải nộp bảng đánh giá kỹ thuật trước 3 giờ chiều. (Either... or... -> chia theo engineers)\"",
       "words": [
-        "team",
-        "3",
-        "submit",
-        "leader",
-        "the",
-        "engineers",
-        "the",
-        "by",
-        "or",
-        "project",
-        "have",
         "Either",
-        "PM",
+        "the",
         "to",
         "the",
+        "team",
+        "leader",
         "evaluation",
-        "technical"
+        "or",
+        "by",
+        "project",
+        "have",
+        "engineers",
+        "technical",
+        "3",
+        "PM",
+        "submit",
+        "the"
       ],
       "correctSentence": "Either the team leader or the project engineers have to submit the technical evaluation by 3 PM.",
       "hintVi": "Hoặc là trưởng nhóm hoặc là các kỹ sư dự án phải nộp bảng đánh giá kỹ thuật trước 3 giờ chiều. (Either... or... -> chia theo engineers)",
@@ -267,10 +267,10 @@
       "promptVi": "[Nhận diện cấu trúc chuẩn] Chọn câu có cấu trúc ngữ pháp HOÀN TOÀN ĐÚNG:",
       "question": "Dựa vào chủ điểm \"Bài 62: Câu Ghép — Liên từ Tương quan (Correlative Conjunctions: Both...and / Neither...nor / Either...or)\", câu nào sau đây CHÍNH XÁC?",
       "options": [
-        "are",
+        "English. love Mary and Tom Both",
         "Both Tom and Mary love English.",
-        "is",
-        "English. love Mary and Tom Both"
+        "are",
+        "is"
       ],
       "correctAnswer": "Both Tom and Mary love English.",
       "explanationVi": "Cấu trúc chuẩn xác là: \"Both Tom and Mary love English.\" (Cả Tom và Mary đều yêu thích tiếng Anh.)."
@@ -281,10 +281,10 @@
       "promptVi": "[Nhận diện cấu trúc chuẩn] Chọn câu có cấu trúc ngữ pháp HOÀN TOÀN ĐÚNG:",
       "question": "Dựa vào chủ điểm \"Bài 62: Câu Ghép — Liên từ Tương quan (Correlative Conjunctions: Both...and / Neither...nor / Either...or)\", câu nào sau đây CHÍNH XÁC?",
       "options": [
-        "this. for responsible is he or you Either",
+        "Either you or he is responsible at this.",
         "Either you or he be responsible for this.",
         "Either you or he is responsible for this.",
-        "Either you or he is responsible at this."
+        "this. for responsible is he or you Either"
       ],
       "correctAnswer": "Either you or he is responsible for this.",
       "explanationVi": "Cấu trúc chuẩn xác là: \"Either you or he is responsible for this.\" (Hoặc bạn hoặc anh ấy chịu trách nhiệm cho việc này.)."
@@ -295,10 +295,10 @@
       "promptVi": "[Nhận diện cấu trúc chuẩn] Chọn câu có cấu trúc ngữ pháp HOÀN TOÀN ĐÚNG:",
       "question": "Dựa vào chủ điểm \"Bài 62: Câu Ghép — Liên từ Tương quan (Correlative Conjunctions: Both...and / Neither...nor / Either...or)\", câu nào sau đây CHÍNH XÁC?",
       "options": [
-        "is",
-        "present. were friends his nor Peter Neither",
         "Neither Peter nor his friends be present.",
-        "Neither Peter nor his friends were present."
+        "is",
+        "Neither Peter nor his friends were present.",
+        "present. were friends his nor Peter Neither"
       ],
       "correctAnswer": "Neither Peter nor his friends were present.",
       "explanationVi": "Cấu trúc chuẩn xác là: \"Neither Peter nor his friends were present.\" (Cả Peter lẫn các bạn của anh ấy đều không có mặt.)."
@@ -310,9 +310,9 @@
       "question": "Dựa vào chủ điểm \"Bài 62: Câu Ghép — Liên từ Tương quan (Correlative Conjunctions: Both...and / Neither...nor / Either...or)\", câu nào sau đây CHÍNH XÁC?",
       "options": [
         "Not only the teacher but also the students be happy.",
+        "Not only the teacher but also the students were happy.",
         "is",
-        "happy. were students the also but teacher the only Not",
-        "Not only the teacher but also the students were happy."
+        "happy. were students the also but teacher the only Not"
       ],
       "correctAnswer": "Not only the teacher but also the students were happy.",
       "explanationVi": "Cấu trúc chuẩn xác là: \"Not only the teacher but also the students were happy.\" (Không chỉ giáo viên mà cả các học sinh cũng rất vui mừng.)."
@@ -325,9 +325,9 @@
       "question": "Nhấn nút '🔊 Nghe audio' và chọn nghĩa tiếng Việt đúng:",
       "options": [
         "Cả Amazon Web Services và Google Cloud đều cung cấp các tính năng bảo mật doanh nghiệp vượt trội. (Both... and... -> động từ số nhiều)",
+        "Chào buổi sáng Rachel. Hôm nay chúng ta cần quyết định về các nhà cung cấp cơ sở hạ tầng đám mây.",
         "Hoặc là trưởng nhóm hoặc là các kỹ sư dự án phải nộp bảng đánh giá kỹ thuật trước 3 giờ chiều. (Either... or... -> chia theo engineers)",
-        "Hôm nay thời tiết rất đẹp.",
-        "Chào buổi sáng Rachel. Hôm nay chúng ta cần quyết định về các nhà cung cấp cơ sở hạ tầng đám mây."
+        "Hôm nay thời tiết rất đẹp."
       ],
       "correctAnswer": "Chào buổi sáng Rachel. Hôm nay chúng ta cần quyết định về các nhà cung cấp cơ sở hạ tầng đám mây.",
       "explanationVi": "Câu nghe được: \"Good morning, Rachel. We need to decide on our cloud infrastructure providers today.\" có nghĩa là: \"Chào buổi sáng Rachel. Hôm nay chúng ta cần quyết định về các nhà cung cấp cơ sở hạ tầng đám mây.\"."
@@ -339,10 +339,10 @@
       "audioPrompt": "Both Amazon Web Services and Google Cloud offer exceptional enterprise security features.",
       "question": "Nhấn nút '🔊 Nghe audio' và chọn nghĩa tiếng Việt đúng:",
       "options": [
+        "Hôm nay thời tiết rất đẹp.",
         "Cả Amazon Web Services và Google Cloud đều cung cấp các tính năng bảo mật doanh nghiệp vượt trội. (Both... and... -> động từ số nhiều)",
-        "Hoặc là trưởng nhóm hoặc là các kỹ sư dự án phải nộp bảng đánh giá kỹ thuật trước 3 giờ chiều. (Either... or... -> chia theo engineers)",
         "Cả giám đốc tiếp thị lẫn giám đốc tài chính đều không đồng ý với kế hoạch dự phòng đắt đỏ đó. (Neither... nor... -> chia theo manager)",
-        "Hôm nay thời tiết rất đẹp."
+        "Hoặc là trưởng nhóm hoặc là các kỹ sư dự án phải nộp bảng đánh giá kỹ thuật trước 3 giờ chiều. (Either... or... -> chia theo engineers)"
       ],
       "correctAnswer": "Cả Amazon Web Services và Google Cloud đều cung cấp các tính năng bảo mật doanh nghiệp vượt trội. (Both... and... -> động từ số nhiều)",
       "explanationVi": "Câu nghe được: \"Both Amazon Web Services and Google Cloud offer exceptional enterprise security features.\" có nghĩa là: \"Cả Amazon Web Services và Google Cloud đều cung cấp các tính năng bảo mật doanh nghiệp vượt trội. (Both... and... -> động từ số nhiều)\"."
@@ -355,8 +355,8 @@
       "question": "Nhấn nút '🔊 Nghe audio' và chọn nghĩa tiếng Việt đúng:",
       "options": [
         "Hoặc bạn hoặc Mark chịu trách nhiệm thực hiện cuộc kiểm tra hiệu năng hệ thống cuối cùng. (Either you or Mark is...)",
-        "Hôm nay thời tiết rất đẹp.",
         "Hoặc là trưởng nhóm hoặc là các kỹ sư dự án phải nộp bảng đánh giá kỹ thuật trước 3 giờ chiều. (Either... or... -> chia theo engineers)",
+        "Hôm nay thời tiết rất đẹp.",
         "Cả giám đốc tiếp thị lẫn giám đốc tài chính đều không đồng ý với kế hoạch dự phòng đắt đỏ đó. (Neither... nor... -> chia theo manager)"
       ],
       "correctAnswer": "Hoặc là trưởng nhóm hoặc là các kỹ sư dự án phải nộp bảng đánh giá kỹ thuật trước 3 giờ chiều. (Either... or... -> chia theo engineers)",
@@ -369,10 +369,10 @@
       "audioPrompt": "Neither the marketing director nor the finance manager agrees with the expensive backup plan.",
       "question": "Nhấn nút '🔊 Nghe audio' và chọn nghĩa tiếng Việt đúng:",
       "options": [
-        "Hoặc bạn hoặc Mark chịu trách nhiệm thực hiện cuộc kiểm tra hiệu năng hệ thống cuối cùng. (Either you or Mark is...)",
-        "Cả giám đốc tiếp thị lẫn giám đốc tài chính đều không đồng ý với kế hoạch dự phòng đắt đỏ đó. (Neither... nor... -> chia theo manager)",
         "Tôi có thể xử lý việc đó dễ dàng. Cả trợ lý của tôi và tôi đều đã sẵn sàng xem xét các nhật ký máy chủ.",
-        "Hôm nay thời tiết rất đẹp."
+        "Cả giám đốc tiếp thị lẫn giám đốc tài chính đều không đồng ý với kế hoạch dự phòng đắt đỏ đó. (Neither... nor... -> chia theo manager)",
+        "Hôm nay thời tiết rất đẹp.",
+        "Hoặc bạn hoặc Mark chịu trách nhiệm thực hiện cuộc kiểm tra hiệu năng hệ thống cuối cùng. (Either you or Mark is...)"
       ],
       "correctAnswer": "Cả giám đốc tiếp thị lẫn giám đốc tài chính đều không đồng ý với kế hoạch dự phòng đắt đỏ đó. (Neither... nor... -> chia theo manager)",
       "explanationVi": "Câu nghe được: \"Neither the marketing director nor the finance manager agrees with the expensive backup plan.\" có nghĩa là: \"Cả giám đốc tiếp thị lẫn giám đốc tài chính đều không đồng ý với kế hoạch dự phòng đắt đỏ đó. (Neither... nor... -> chia theo manager)\"."
@@ -416,32 +416,32 @@
     {
       "id": "ex-062-29",
       "type": "reading_comprehension",
-      "promptVi": "[Đọc hiểu đoạn văn] Đọc đoạn hội thoại sau và trả lời câu hỏi:",
+      "promptVi": "[Đọc hiểu đoạn văn] Đọc kĩ đoạn hội thoại và chọn nhận định đúng về nội dung:",
       "passage": "Operations Manager: \"Good morning, Rachel. We need to decide on our cloud infrastructure providers today.\"\nRachel: \"Both Amazon Web Services and Google Cloud offer exceptional enterprise security features.\"\nOperations Manager: \"Either the team leader or the project engineers have to submit the technical evaluation by 3 PM.\"\nRachel: \"Neither the marketing director nor the finance manager agrees with the expensive backup plan.\"",
-      "question": "Chủ đề trọng tâm của đoạn hội thoại trên là gì?",
+      "question": "Dựa vào đoạn đối thoại trên, thông tin nào sau đây là CHÍNH XÁC về nội dung câu nói của Operations Manager?",
       "options": [
-        "Kế hoạch đi mua sắm tại siêu thị",
-        "Câu Ghép — Liên từ Tương quan (Correlative Conjunctions: Both...and / Neither...nor / Either...or)",
-        "Lịch trình đi du lịch nghỉ mát cuối tuần",
-        "Cách làm món ăn truyền thống"
+        "Operations Manager chia sẻ thông tin: \"Chào buổi sáng Rachel. Hôm nay chúng ta cần quyết định về các nhà cung cấp cơ sở hạ tầng đám mây.\"",
+        "Operations Manager phàn nàn rằng thời tiết hôm nay quá xấu.",
+        "Operations Manager muốn mượn tiền để mua vé máy bay gấp.",
+        "Operations Manager từ chối trả lời và yêu cầu hủy cuộc hẹn."
       ],
-      "correctAnswer": "Câu Ghép — Liên từ Tương quan (Correlative Conjunctions: Both...and / Neither...nor / Either...or)",
-      "explanationVi": "Đoạn hội thoại được thiết kế để minh họa trực tiếp cho chủ điểm \"Bài 62: Câu Ghép — Liên từ Tương quan (Correlative Conjunctions: Both...and / Neither...nor / Either...or)\"."
+      "correctAnswer": "Operations Manager chia sẻ thông tin: \"Chào buổi sáng Rachel. Hôm nay chúng ta cần quyết định về các nhà cung cấp cơ sở hạ tầng đám mây.\"",
+      "explanationVi": "Trong đoạn hội thoại, Operations Manager đã nói: \"Good morning, Rachel. We need to decide on our cloud infrastructure providers today.\" (nghĩa là: \"Chào buổi sáng Rachel. Hôm nay chúng ta cần quyết định về các nhà cung cấp cơ sở hạ tầng đám mây.\")."
     },
     {
       "id": "ex-062-30",
       "type": "reading_comprehension",
-      "promptVi": "[Đọc hiểu đoạn văn] Đọc đoạn đối thoại tiếp theo và chọn nhận định đúng:",
+      "promptVi": "[Đọc hiểu đoạn văn] Đọc phần đối thoại tiếp theo và trả lời câu hỏi:",
       "passage": "Operations Manager: \"Either you or Mark is responsible for conducting the final system performance audit.\"\nRachel: \"I can handle it easily. Both my assistant and I are ready to review the server logs.\"\nOperations Manager: \"Neither the hardware budget nor the software licenses were approved during yesterday's meeting.\"\nRachel: \"We can choose either the annual subscription model or the pay-as-you-go billing scheme.\"",
-      "question": "Nhận định nào sau đây là ĐÚNG về nội dung đoạn đối thoại?",
+      "question": "Trong đoạn hội thoại trên, câu nói \"We can choose either the annual subscription model or the pay-as-you-go billing scheme.\" của Rachel mang ý nghĩa gì?",
       "options": [
-        "Các câu thoại sử dụng đúng cấu trúc \"Câu Ghép — Liên từ Tương quan (Correlative Conjunctions: Both...and / Neither...nor / Either...or)\".",
-        "Cả hai nhân vật đang thảo luận về thời tiết ngày mai.",
-        "Cuộc trò chuyện diễn ra tại nhà ga xe lửa.",
-        "Hai nhân vật đang cãi nhau và không đồng ý hợp tác."
+        "Phản hồi: \"Chúng ta có thể chọn gói đăng ký hàng năm hoặc phương thức thanh toán theo mức sử dụng.\"",
+        "Phản hồi: \"Hoàn toàn không đồng ý và muốn rời khỏi phòng ngay lập tức\"",
+        "Phản hồi: \"Yêu cầu cung cấp hóa đơn thanh toán tiền mặt\"",
+        "Phản hồi: \"Hẹn gặp lại vào cuối tuần sau tại sân bay quốc tế\""
       ],
-      "correctAnswer": "Các câu thoại sử dụng đúng cấu trúc \"Câu Ghép — Liên từ Tương quan (Correlative Conjunctions: Both...and / Neither...nor / Either...or)\".",
-      "explanationVi": "Đoạn đối thoại ứng dụng chuẩn xác ngữ pháp của \"Bài 62: Câu Ghép — Liên từ Tương quan (Correlative Conjunctions: Both...and / Neither...nor / Either...or)\"."
+      "correctAnswer": "Phản hồi: \"Chúng ta có thể chọn gói đăng ký hàng năm hoặc phương thức thanh toán theo mức sử dụng.\"",
+      "explanationVi": "Rachel nói: \"We can choose either the annual subscription model or the pay-as-you-go billing scheme.\" có nghĩa là: \"Chúng ta có thể chọn gói đăng ký hàng năm hoặc phương thức thanh toán theo mức sử dụng.\"."
     }
   ]
 }

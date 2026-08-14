@@ -10,10 +10,10 @@
       "promptVi": "[Trắc nghiệm ngữ pháp] Chọn từ đúng để hoàn thành câu (Cô ấy nói tiếng Anh một cách lưu loát.):",
       "question": "She speaks English ___.",
       "options": [
-        "fluent",
-        "fluently",
+        "more fluent",
         "fluency",
-        "more fluent"
+        "fluent",
+        "fluently"
       ],
       "correctAnswer": "fluently",
       "explanationVi": "Bổ nghĩa cho động từ 'speaks' dùng trạng từ 'fluently'."
@@ -24,10 +24,10 @@
       "promptVi": "[Trắc nghiệm ngữ pháp] Chọn từ đúng để hoàn thành câu (Anh ấy lái xe rất cẩn thận.):",
       "question": "He drives very ___.",
       "options": [
-        "careful",
-        "care",
         "carefully",
-        "caring"
+        "care",
+        "caring",
+        "careful"
       ],
       "correctAnswer": "carefully",
       "explanationVi": "Bổ nghĩa cho động từ 'drives' dùng trạng từ 'carefully'."
@@ -38,9 +38,9 @@
       "promptVi": "[Trắc nghiệm ngữ pháp] Chọn từ đúng để hoàn thành câu (Cô ấy chơi đàn piano rất giỏi.):",
       "question": "She plays the piano very ___.",
       "options": [
-        "good",
-        "well",
         "better",
+        "well",
+        "good",
         "goodly"
       ],
       "correctAnswer": "well",
@@ -52,10 +52,10 @@
       "promptVi": "[Trắc nghiệm ngữ pháp] Chọn từ đúng để hoàn thành câu (Anh ấy làm việc chăm chỉ mỗi một ngày.):",
       "question": "He works ___ every single day.",
       "options": [
+        "hardly",
         "hard",
-        "hardness",
         "harder",
-        "hardly"
+        "hardness"
       ],
       "correctAnswer": "hard",
       "explanationVi": "'hard' vừa là tính từ vừa là trạng từ ('hardly' có nghĩa là hầu như không)."
@@ -67,9 +67,9 @@
       "question": "Chọn bản dịch chuẩn xác nhất cho câu: \"Hôm qua bạn có xem buổi hòa nhạc piano cổ điển không, Maya?\"",
       "options": [
         "Yes! The pianist was amazing. She played the grand piano so beautifully and smoothly!",
-        "be you watch the classical piano concert yesterday evening, Maya?",
         "Did you watch the classical piano concert yesterday evening, Maya?",
-        "We are studying English today."
+        "We are studying English today.",
+        "be you watch the classical piano concert yesterday evening, Maya?"
       ],
       "correctAnswer": "Did you watch the classical piano concert yesterday evening, Maya?",
       "explanationVi": "Câu dịch chuẩn xác: \"Did you watch the classical piano concert yesterday evening, Maya?\" (Hôm qua bạn có xem buổi hòa nhạc piano cổ điển không, Maya?)."
@@ -80,10 +80,10 @@
       "promptVi": "[Ngữ cảnh giao tiếp] Chọn câu phản hồi tự nhiên và đúng ngữ pháp:",
       "question": "Khi đối phương nói: \"Did you watch the classical piano concert yesterday evening, Maya?\", câu phản hồi phù hợp là gì?",
       "options": [
+        "They are not in the office.",
         "No, it was yesterday.",
         "Yes! The pianist was amazing. She played the grand piano so beautifully and smoothly!",
-        "Yes, I will eat it.",
-        "They are not in the office."
+        "Yes, I will eat it."
       ],
       "correctAnswer": "Yes! The pianist was amazing. She played the grand piano so beautifully and smoothly!",
       "explanationVi": "Phản hồi phù hợp trong bài: \"Yes! The pianist was amazing. She played the grand piano so beautifully and smoothly!\" (Có! Nghệ sĩ piano thật tuyệt vời. Cô ấy đã chơi đại dương cầm thật đẹp đẽ và mượt mà!)."
@@ -95,10 +95,10 @@
       "question": "She speaks English ___.",
       "correctAnswer": "fluently",
       "options": [
-        "fluently",
-        "fluent",
         "fluency",
-        "more fluent"
+        "fluent",
+        "more fluent",
+        "fluently"
       ],
       "explanationVi": "Đáp án đúng là \"fluently\". Câu hoàn chỉnh: \"She speaks English fluently.\" (Cô ấy nói tiếng Anh một cách lưu loát.)."
     },
@@ -109,10 +109,10 @@
       "question": "He drives very ___.",
       "correctAnswer": "carefully",
       "options": [
-        "careful",
-        "carefully",
         "caring",
-        "care"
+        "care",
+        "carefully",
+        "careful"
       ],
       "explanationVi": "Đáp án đúng là \"carefully\". Câu hoàn chỉnh: \"He drives very carefully.\" (Anh ấy lái xe rất cẩn thận.)."
     },
@@ -123,10 +123,10 @@
       "question": "She plays the piano very ___.",
       "correctAnswer": "well",
       "options": [
-        "well",
+        "goodly",
         "good",
-        "better",
-        "goodly"
+        "well",
+        "better"
       ],
       "explanationVi": "Đáp án đúng là \"well\". Câu hoàn chỉnh: \"She plays the piano very well.\" (Cô ấy chơi đàn piano rất giỏi.)."
     },
@@ -137,10 +137,10 @@
       "question": "He works ___ every single day.",
       "correctAnswer": "hard",
       "options": [
+        "hard",
         "hardly",
         "harder",
-        "hardness",
-        "hard"
+        "hardness"
       ],
       "explanationVi": "Đáp án đúng là \"hard\". Câu hoàn chỉnh: \"He works hard every single day.\" (Anh ấy làm việc chăm chỉ mỗi một ngày.)."
     },
@@ -151,10 +151,10 @@
       "question": "She _____ not English fluently.",
       "correctAnswer": "speaks",
       "options": [
-        "is",
+        "am",
         "speaks",
         "are",
-        "am"
+        "is"
       ],
       "explanationVi": "Câu phủ định hoàn chỉnh: \"She speaks not English fluently.\"."
     },
@@ -164,10 +164,10 @@
       "promptVi": "[Sắp xếp câu] Ghép các khối từ thành câu hoàn chỉnh mang nghĩa: \"Cô ấy nói tiếng Anh một cách lưu loát.\"",
       "question": "Sắp xếp các từ để tạo thành câu đúng: \"Cô ấy nói tiếng Anh một cách lưu loát.\"",
       "words": [
+        "fluently.",
         "English",
-        "speaks",
         "She",
-        "fluently."
+        "speaks"
       ],
       "correctSentence": "She speaks English fluently.",
       "hintVi": "Cô ấy nói tiếng Anh một cách lưu loát.",
@@ -179,10 +179,10 @@
       "promptVi": "[Sắp xếp câu] Ghép các khối từ thành câu hoàn chỉnh mang nghĩa: \"Anh ấy lái xe rất cẩn thận.\"",
       "question": "Sắp xếp các từ để tạo thành câu đúng: \"Anh ấy lái xe rất cẩn thận.\"",
       "words": [
-        "He",
+        "carefully.",
         "drives",
-        "very",
-        "carefully."
+        "He",
+        "very"
       ],
       "correctSentence": "He drives very carefully.",
       "hintVi": "Anh ấy lái xe rất cẩn thận.",
@@ -194,12 +194,12 @@
       "promptVi": "[Sắp xếp câu] Ghép các khối từ thành câu hoàn chỉnh mang nghĩa: \"Cô ấy chơi đàn piano rất giỏi.\"",
       "question": "Sắp xếp các từ để tạo thành câu đúng: \"Cô ấy chơi đàn piano rất giỏi.\"",
       "words": [
+        "the",
         "well.",
-        "very",
         "She",
         "piano",
-        "plays",
-        "the"
+        "very",
+        "plays"
       ],
       "correctSentence": "She plays the piano very well.",
       "hintVi": "Cô ấy chơi đàn piano rất giỏi.",
@@ -211,12 +211,12 @@
       "promptVi": "[Sắp xếp câu] Ghép các khối từ thành câu hoàn chỉnh mang nghĩa: \"Anh ấy làm việc chăm chỉ mỗi một ngày.\"",
       "question": "Sắp xếp các từ để tạo thành câu đúng: \"Anh ấy làm việc chăm chỉ mỗi một ngày.\"",
       "words": [
+        "hard",
+        "day.",
+        "works",
         "single",
         "every",
-        "He",
-        "hard",
-        "works",
-        "day."
+        "He"
       ],
       "correctSentence": "He works hard every single day.",
       "hintVi": "Anh ấy làm việc chăm chỉ mỗi một ngày.",
@@ -228,16 +228,16 @@
       "promptVi": "[Sắp xếp câu] Ghép các từ thành câu hội thoại: \"Những ngón tay của cô ấy lướt đi thật nhanh chóng và chuẩn xác trên các phím đàn.\"",
       "question": "Sắp xếp các từ để tạo thành câu thoại: \"Những ngón tay của cô ấy lướt đi thật nhanh chóng và chuẩn xác trên các phím đàn.\"",
       "words": [
-        "Her",
-        "fingers",
         "across",
-        "moved",
         "the",
+        "Her",
         "accurately",
+        "fingers",
+        "moved",
         "keys",
         "so",
-        "and",
-        "quickly"
+        "quickly",
+        "and"
       ],
       "correctSentence": "Her fingers moved so quickly and accurately across the keys.",
       "hintVi": "Những ngón tay của cô ấy lướt đi thật nhanh chóng và chuẩn xác trên các phím đàn.",
@@ -250,9 +250,9 @@
       "question": "Dựa vào chủ điểm \"Bài 31: Tính từ & Trạng từ — Phân biệt & Chuyển đuôi -ly\", câu nào sau đây CHÍNH XÁC?",
       "options": [
         "fluently. English speaks She",
-        "She speaks English fluently.",
+        "is",
         "are",
-        "is"
+        "She speaks English fluently."
       ],
       "correctAnswer": "She speaks English fluently.",
       "explanationVi": "Cấu trúc chuẩn xác là: \"She speaks English fluently.\" (Cô ấy nói tiếng Anh một cách lưu loát.)."
@@ -263,10 +263,10 @@
       "promptVi": "[Nhận diện cấu trúc chuẩn] Chọn câu có cấu trúc ngữ pháp HOÀN TOÀN ĐÚNG:",
       "question": "Dựa vào chủ điểm \"Bài 31: Tính từ & Trạng từ — Phân biệt & Chuyển đuôi -ly\", câu nào sau đây CHÍNH XÁC?",
       "options": [
-        "He drives very carefully.",
-        "carefully. very drives He",
         "is",
-        "are"
+        "He drives very carefully.",
+        "are",
+        "carefully. very drives He"
       ],
       "correctAnswer": "He drives very carefully.",
       "explanationVi": "Cấu trúc chuẩn xác là: \"He drives very carefully.\" (Anh ấy lái xe rất cẩn thận.)."
@@ -277,10 +277,10 @@
       "promptVi": "[Nhận diện cấu trúc chuẩn] Chọn câu có cấu trúc ngữ pháp HOÀN TOÀN ĐÚNG:",
       "question": "Dựa vào chủ điểm \"Bài 31: Tính từ & Trạng từ — Phân biệt & Chuyển đuôi -ly\", câu nào sau đây CHÍNH XÁC?",
       "options": [
-        "are",
-        "well. very piano the plays She",
+        "is",
         "She plays the piano very well.",
-        "is"
+        "are",
+        "well. very piano the plays She"
       ],
       "correctAnswer": "She plays the piano very well.",
       "explanationVi": "Cấu trúc chuẩn xác là: \"She plays the piano very well.\" (Cô ấy chơi đàn piano rất giỏi.)."
@@ -291,10 +291,10 @@
       "promptVi": "[Nhận diện cấu trúc chuẩn] Chọn câu có cấu trúc ngữ pháp HOÀN TOÀN ĐÚNG:",
       "question": "Dựa vào chủ điểm \"Bài 31: Tính từ & Trạng từ — Phân biệt & Chuyển đuôi -ly\", câu nào sau đây CHÍNH XÁC?",
       "options": [
-        "day. single every hard works He",
         "are",
-        "He works hard every single day.",
-        "is"
+        "day. single every hard works He",
+        "is",
+        "He works hard every single day."
       ],
       "correctAnswer": "He works hard every single day.",
       "explanationVi": "Cấu trúc chuẩn xác là: \"He works hard every single day.\" (Anh ấy làm việc chăm chỉ mỗi một ngày.)."
@@ -306,10 +306,10 @@
       "audioPrompt": "Did you watch the classical piano concert yesterday evening, Maya?",
       "question": "Nhấn nút '🔊 Nghe audio' và chọn nghĩa tiếng Việt đúng:",
       "options": [
-        "Có! Nghệ sĩ piano thật tuyệt vời. Cô ấy đã chơi đại dương cầm thật đẹp đẽ và mượt mà!",
         "Hôm qua bạn có xem buổi hòa nhạc piano cổ điển không, Maya?",
-        "Hôm nay thời tiết rất đẹp.",
-        "Những ngón tay của cô ấy lướt đi thật nhanh chóng và chuẩn xác trên các phím đàn."
+        "Có! Nghệ sĩ piano thật tuyệt vời. Cô ấy đã chơi đại dương cầm thật đẹp đẽ và mượt mà!",
+        "Những ngón tay của cô ấy lướt đi thật nhanh chóng và chuẩn xác trên các phím đàn.",
+        "Hôm nay thời tiết rất đẹp."
       ],
       "correctAnswer": "Hôm qua bạn có xem buổi hòa nhạc piano cổ điển không, Maya?",
       "explanationVi": "Câu nghe được: \"Did you watch the classical piano concert yesterday evening, Maya?\" có nghĩa là: \"Hôm qua bạn có xem buổi hòa nhạc piano cổ điển không, Maya?\"."
@@ -336,10 +336,10 @@
       "audioPrompt": "Her fingers moved so quickly and accurately across the keys.",
       "question": "Nhấn nút '🔊 Nghe audio' và chọn nghĩa tiếng Việt đúng:",
       "options": [
-        "Cô ấy là một nhạc sĩ thực sự cẩn thận và tài năng với kỹ thuật tuyệt vời.",
         "Những ngón tay của cô ấy lướt đi thật nhanh chóng và chuẩn xác trên các phím đàn.",
-        "Khán giả đã lắng nghe một cách yên lặng và chăm chú trong suốt toàn bộ bản xô-nát.",
-        "Hôm nay thời tiết rất đẹp."
+        "Hôm nay thời tiết rất đẹp.",
+        "Cô ấy là một nhạc sĩ thực sự cẩn thận và tài năng với kỹ thuật tuyệt vời.",
+        "Khán giả đã lắng nghe một cách yên lặng và chăm chú trong suốt toàn bộ bản xô-nát."
       ],
       "correctAnswer": "Những ngón tay của cô ấy lướt đi thật nhanh chóng và chuẩn xác trên các phím đàn.",
       "explanationVi": "Câu nghe được: \"Her fingers moved so quickly and accurately across the keys.\" có nghĩa là: \"Những ngón tay của cô ấy lướt đi thật nhanh chóng và chuẩn xác trên các phím đàn.\"."
@@ -352,8 +352,8 @@
       "question": "Nhấn nút '🔊 Nghe audio' và chọn nghĩa tiếng Việt đúng:",
       "options": [
         "Cô ấy là một nhạc sĩ thực sự cẩn thận và tài năng với kỹ thuật tuyệt vời.",
-        "Hôm nay thời tiết rất đẹp.",
         "Khán giả đã lắng nghe một cách yên lặng và chăm chú trong suốt toàn bộ bản xô-nát.",
+        "Hôm nay thời tiết rất đẹp.",
         "Mọi người đã vỗ tay nhiệt liệt khi tác phẩm cuối cùng kết thúc."
       ],
       "correctAnswer": "Cô ấy là một nhạc sĩ thực sự cẩn thận và tài năng với kỹ thuật tuyệt vời.",
@@ -398,32 +398,32 @@
     {
       "id": "ex-031-29",
       "type": "reading_comprehension",
-      "promptVi": "[Đọc hiểu đoạn văn] Đọc đoạn hội thoại sau và trả lời câu hỏi:",
+      "promptVi": "[Đọc hiểu đoạn văn] Đọc kĩ đoạn hội thoại và chọn nhận định đúng về nội dung:",
       "passage": "Julian: \"Did you watch the classical piano concert yesterday evening, Maya?\"\nMaya: \"Yes! The pianist was amazing. She played the grand piano so beautifully and smoothly!\"\nJulian: \"Her fingers moved so quickly and accurately across the keys.\"\nMaya: \"She is a truly careful and talented musician with wonderful technique.\"",
-      "question": "Chủ đề trọng tâm của đoạn hội thoại trên là gì?",
+      "question": "Dựa vào đoạn đối thoại trên, thông tin nào sau đây là CHÍNH XÁC về nội dung câu nói của Julian?",
       "options": [
-        "Lịch trình đi du lịch nghỉ mát cuối tuần",
-        "Tính từ & Trạng từ — Phân biệt & Chuyển đuôi -ly",
-        "Kế hoạch đi mua sắm tại siêu thị",
-        "Cách làm món ăn truyền thống"
+        "Julian muốn mượn tiền để mua vé máy bay gấp.",
+        "Julian phàn nàn rằng thời tiết hôm nay quá xấu.",
+        "Julian từ chối trả lời và yêu cầu hủy cuộc hẹn.",
+        "Julian chia sẻ thông tin: \"Hôm qua bạn có xem buổi hòa nhạc piano cổ điển không, Maya?\""
       ],
-      "correctAnswer": "Tính từ & Trạng từ — Phân biệt & Chuyển đuôi -ly",
-      "explanationVi": "Đoạn hội thoại được thiết kế để minh họa trực tiếp cho chủ điểm \"Bài 31: Tính từ & Trạng từ — Phân biệt & Chuyển đuôi -ly\"."
+      "correctAnswer": "Julian chia sẻ thông tin: \"Hôm qua bạn có xem buổi hòa nhạc piano cổ điển không, Maya?\"",
+      "explanationVi": "Trong đoạn hội thoại, Julian đã nói: \"Did you watch the classical piano concert yesterday evening, Maya?\" (nghĩa là: \"Hôm qua bạn có xem buổi hòa nhạc piano cổ điển không, Maya?\")."
     },
     {
       "id": "ex-031-30",
       "type": "reading_comprehension",
-      "promptVi": "[Đọc hiểu đoạn văn] Đọc đoạn đối thoại tiếp theo và chọn nhận định đúng:",
+      "promptVi": "[Đọc hiểu đoạn văn] Đọc phần đối thoại tiếp theo và trả lời câu hỏi:",
       "passage": "Julian: \"The audience listened quietly and attentively during the entire sonata.\"\nMaya: \"Everyone clapped enthusiastically when the final piece ended.\"\nJulian: \"He drives his sports car very carefully on the slippery mountain road.\"\nMaya: \"Good drivers always react calmly and promptly in dangerous situations.\"",
-      "question": "Nhận định nào sau đây là ĐÚNG về nội dung đoạn đối thoại?",
+      "question": "Trong đoạn hội thoại trên, câu nói \"Good drivers always react calmly and promptly in dangerous situations.\" của Maya mang ý nghĩa gì?",
       "options": [
-        "Hai nhân vật đang cãi nhau và không đồng ý hợp tác.",
-        "Cuộc trò chuyện diễn ra tại nhà ga xe lửa.",
-        "Các câu thoại sử dụng đúng cấu trúc \"Tính từ & Trạng từ — Phân biệt & Chuyển đuôi -ly\".",
-        "Cả hai nhân vật đang thảo luận về thời tiết ngày mai."
+        "Phản hồi: \"Hoàn toàn không đồng ý và muốn rời khỏi phòng ngay lập tức\"",
+        "Phản hồi: \"Những người lái xe giỏi luôn phản ứng bình tĩnh và nhanh chóng trong các tình huống nguy hiểm.\"",
+        "Phản hồi: \"Yêu cầu cung cấp hóa đơn thanh toán tiền mặt\"",
+        "Phản hồi: \"Hẹn gặp lại vào cuối tuần sau tại sân bay quốc tế\""
       ],
-      "correctAnswer": "Các câu thoại sử dụng đúng cấu trúc \"Tính từ & Trạng từ — Phân biệt & Chuyển đuôi -ly\".",
-      "explanationVi": "Đoạn đối thoại ứng dụng chuẩn xác ngữ pháp của \"Bài 31: Tính từ & Trạng từ — Phân biệt & Chuyển đuôi -ly\"."
+      "correctAnswer": "Phản hồi: \"Những người lái xe giỏi luôn phản ứng bình tĩnh và nhanh chóng trong các tình huống nguy hiểm.\"",
+      "explanationVi": "Maya nói: \"Good drivers always react calmly and promptly in dangerous situations.\" có nghĩa là: \"Những người lái xe giỏi luôn phản ứng bình tĩnh và nhanh chóng trong các tình huống nguy hiểm.\"."
     }
   ]
 }

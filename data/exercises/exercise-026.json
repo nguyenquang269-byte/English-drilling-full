@@ -10,9 +10,9 @@
       "promptVi": "[Trắc nghiệm ngữ pháp] Chọn từ đúng để hoàn thành câu (Tôi vẫn chưa xem bộ phim đó.):",
       "question": "I ___ seen that movie yet.",
       "options": [
-        "didn't",
-        "hasn't",
         "haven't",
+        "hasn't",
+        "didn't",
         "don't"
       ],
       "correctAnswer": "haven't",
@@ -25,9 +25,9 @@
       "question": "___ you finished your homework?",
       "options": [
         "Has",
+        "Do",
         "Have",
-        "Did",
-        "Do"
+        "Did"
       ],
       "correctAnswer": "Have",
       "explanationVi": "Chủ ngữ 'you' đi với trợ động từ 'Have'."
@@ -38,10 +38,10 @@
       "promptVi": "[Trắc nghiệm ngữ pháp] Chọn từ đúng để hoàn thành câu (Hôm nay cô ấy đã gọi điện cho bạn chưa?):",
       "question": "___ she called you today?",
       "options": [
-        "Has",
-        "Did",
         "Have",
-        "Is"
+        "Has",
+        "Is",
+        "Did"
       ],
       "correctAnswer": "Has",
       "explanationVi": "Chủ ngữ 'she' đi với 'Has'."
@@ -53,9 +53,9 @@
       "question": "They ___ received the email.",
       "options": [
         "didn't",
-        "haven't",
+        "hasn't",
         "aren't",
-        "hasn't"
+        "haven't"
       ],
       "correctAnswer": "haven't",
       "explanationVi": "Chủ ngữ số nhiều 'They' đi với 'haven't'."
@@ -66,9 +66,9 @@
       "promptVi": "[Phản xạ dịch thuật] Dịch câu sau sang tiếng Anh: \"Bạn đã xem các số liệu bán hàng quý này chưa, Megan?\"",
       "question": "Chọn bản dịch chuẩn xác nhất cho câu: \"Bạn đã xem các số liệu bán hàng quý này chưa, Megan?\"",
       "options": [
-        "No, I haven't seen them yet. The accounting team hasn't emailed the final file.",
         "Have you seen the quarterly sales figures, Megan?",
         "be you seen the quarterly sales figures, Megan?",
+        "No, I haven't seen them yet. The accounting team hasn't emailed the final file.",
         "We are studying English today."
       ],
       "correctAnswer": "Have you seen the quarterly sales figures, Megan?",
@@ -80,10 +80,10 @@
       "promptVi": "[Ngữ cảnh giao tiếp] Chọn câu phản hồi tự nhiên và đúng ngữ pháp:",
       "question": "Khi đối phương nói: \"Have you seen the quarterly sales figures, Megan?\", câu phản hồi phù hợp là gì?",
       "options": [
-        "No, I haven't seen them yet. The accounting team hasn't emailed the final file.",
-        "No, it was yesterday.",
         "Yes, I will eat it.",
-        "They are not in the office."
+        "They are not in the office.",
+        "No, I haven't seen them yet. The accounting team hasn't emailed the final file.",
+        "No, it was yesterday."
       ],
       "correctAnswer": "No, I haven't seen them yet. The accounting team hasn't emailed the final file.",
       "explanationVi": "Phản hồi phù hợp trong bài: \"No, I haven't seen them yet. The accounting team hasn't emailed the final file.\" (Chưa, tôi chưa xem. Nhóm kế toán vẫn chưa gửi email tệp cuối cùng.)."
@@ -95,10 +95,10 @@
       "question": "I ___ seen that movie yet.",
       "correctAnswer": "haven't",
       "options": [
-        "didn't",
         "hasn't",
         "don't",
-        "haven't"
+        "haven't",
+        "didn't"
       ],
       "explanationVi": "Đáp án đúng là \"haven't\". Câu hoàn chỉnh: \"I haven't seen that movie yet.\" (Tôi vẫn chưa xem bộ phim đó.)."
     },
@@ -109,10 +109,10 @@
       "question": "___ you finished your homework?",
       "correctAnswer": "Have",
       "options": [
-        "Have",
-        "Do",
+        "Has",
         "Did",
-        "Has"
+        "Have",
+        "Do"
       ],
       "explanationVi": "Đáp án đúng là \"Have\". Câu hoàn chỉnh: \"Have you finished your homework?\" (Bạn đã hoàn thành bài tập về nhà chưa?)."
     },
@@ -125,8 +125,8 @@
       "options": [
         "Have",
         "Did",
-        "Has",
-        "Is"
+        "Is",
+        "Has"
       ],
       "explanationVi": "Đáp án đúng là \"Has\". Câu hoàn chỉnh: \"Has she called you today?\" (Hôm nay cô ấy đã gọi điện cho bạn chưa?)."
     },
@@ -137,10 +137,10 @@
       "question": "They ___ received the email.",
       "correctAnswer": "haven't",
       "options": [
-        "hasn't",
+        "aren't",
         "haven't",
         "didn't",
-        "aren't"
+        "hasn't"
       ],
       "explanationVi": "Đáp án đúng là \"haven't\". Câu hoàn chỉnh: \"They haven't received the email.\" (Họ vẫn chưa nhận được bức email.)."
     },
@@ -153,8 +153,8 @@
       "options": [
         "am",
         "is",
-        "haven't",
-        "are"
+        "are",
+        "haven't"
       ],
       "explanationVi": "Câu phủ định hoàn chỉnh: \"I haven't not seen that movie yet.\"."
     },
@@ -164,12 +164,12 @@
       "promptVi": "[Sắp xếp câu] Ghép các khối từ thành câu hoàn chỉnh mang nghĩa: \"Tôi vẫn chưa xem bộ phim đó.\"",
       "question": "Sắp xếp các từ để tạo thành câu đúng: \"Tôi vẫn chưa xem bộ phim đó.\"",
       "words": [
-        "seen",
-        "yet.",
-        "haven't",
         "movie",
+        "seen",
         "I",
-        "that"
+        "haven't",
+        "that",
+        "yet."
       ],
       "correctSentence": "I haven't seen that movie yet.",
       "hintVi": "Tôi vẫn chưa xem bộ phim đó.",
@@ -181,11 +181,11 @@
       "promptVi": "[Sắp xếp câu] Ghép các khối từ thành câu hoàn chỉnh mang nghĩa: \"Bạn đã hoàn thành bài tập về nhà chưa?\"",
       "question": "Sắp xếp các từ để tạo thành câu đúng: \"Bạn đã hoàn thành bài tập về nhà chưa?\"",
       "words": [
-        "your",
         "homework?",
-        "finished",
+        "your",
         "you",
-        "Have"
+        "Have",
+        "finished"
       ],
       "correctSentence": "Have you finished your homework?",
       "hintVi": "Bạn đã hoàn thành bài tập về nhà chưa?",
@@ -197,11 +197,11 @@
       "promptVi": "[Sắp xếp câu] Ghép các khối từ thành câu hoàn chỉnh mang nghĩa: \"Hôm nay cô ấy đã gọi điện cho bạn chưa?\"",
       "question": "Sắp xếp các từ để tạo thành câu đúng: \"Hôm nay cô ấy đã gọi điện cho bạn chưa?\"",
       "words": [
-        "today?",
         "called",
         "she",
-        "you",
-        "Has"
+        "today?",
+        "Has",
+        "you"
       ],
       "correctSentence": "Has she called you today?",
       "hintVi": "Hôm nay cô ấy đã gọi điện cho bạn chưa?",
@@ -213,11 +213,11 @@
       "promptVi": "[Sắp xếp câu] Ghép các khối từ thành câu hoàn chỉnh mang nghĩa: \"Họ vẫn chưa nhận được bức email.\"",
       "question": "Sắp xếp các từ để tạo thành câu đúng: \"Họ vẫn chưa nhận được bức email.\"",
       "words": [
-        "haven't",
-        "the",
         "email.",
-        "They",
-        "received"
+        "the",
+        "haven't",
+        "received",
+        "They"
       ],
       "correctSentence": "They haven't received the email.",
       "hintVi": "Họ vẫn chưa nhận được bức email.",
@@ -229,16 +229,16 @@
       "promptVi": "[Sắp xếp câu] Ghép các từ thành câu hội thoại: \"Giám đốc đã ký hợp đồng với đối tác Nhật Bản chưa?\"",
       "question": "Sắp xếp các từ để tạo thành câu thoại: \"Giám đốc đã ký hợp đồng với đối tác Nhật Bản chưa?\"",
       "words": [
-        "Japanese",
         "contract",
-        "the",
-        "partner",
         "signed",
+        "with",
+        "the",
         "director",
         "the",
+        "partner",
         "the",
-        "Has",
-        "with"
+        "Japanese",
+        "Has"
       ],
       "correctSentence": "Has the director signed the contract with the Japanese partner?",
       "hintVi": "Giám đốc đã ký hợp đồng với đối tác Nhật Bản chưa?",
@@ -251,8 +251,8 @@
       "question": "Dựa vào chủ điểm \"Bài 26: Hiện tại Hoàn thành — Phủ định, Câu hỏi & Trả lời ngắn\", câu nào sau đây CHÍNH XÁC?",
       "options": [
         "is",
-        "are",
         "yet. movie that seen haven't I",
+        "are",
         "I haven't seen that movie yet."
       ],
       "correctAnswer": "I haven't seen that movie yet.",
@@ -264,8 +264,8 @@
       "promptVi": "[Nhận diện cấu trúc chuẩn] Chọn câu có cấu trúc ngữ pháp HOÀN TOÀN ĐÚNG:",
       "question": "Dựa vào chủ điểm \"Bài 26: Hiện tại Hoàn thành — Phủ định, Câu hỏi & Trả lời ngắn\", câu nào sau đây CHÍNH XÁC?",
       "options": [
-        "homework? your finished you Have",
         "Have you finished your homework?",
+        "homework? your finished you Have",
         "is",
         "are"
       ],
@@ -279,9 +279,9 @@
       "question": "Dựa vào chủ điểm \"Bài 26: Hiện tại Hoàn thành — Phủ định, Câu hỏi & Trả lời ngắn\", câu nào sau đây CHÍNH XÁC?",
       "options": [
         "today? you called she Has",
-        "is",
+        "Has she called you today?",
         "are",
-        "Has she called you today?"
+        "is"
       ],
       "correctAnswer": "Has she called you today?",
       "explanationVi": "Cấu trúc chuẩn xác là: \"Has she called you today?\" (Hôm nay cô ấy đã gọi điện cho bạn chưa?)."
@@ -292,10 +292,10 @@
       "promptVi": "[Nhận diện cấu trúc chuẩn] Chọn câu có cấu trúc ngữ pháp HOÀN TOÀN ĐÚNG:",
       "question": "Dựa vào chủ điểm \"Bài 26: Hiện tại Hoàn thành — Phủ định, Câu hỏi & Trả lời ngắn\", câu nào sau đây CHÍNH XÁC?",
       "options": [
-        "email. the received haven't They",
         "are",
+        "is",
         "They haven't received the email.",
-        "is"
+        "email. the received haven't They"
       ],
       "correctAnswer": "They haven't received the email.",
       "explanationVi": "Cấu trúc chuẩn xác là: \"They haven't received the email.\" (Họ vẫn chưa nhận được bức email.)."
@@ -307,10 +307,10 @@
       "audioPrompt": "Have you seen the quarterly sales figures, Megan?",
       "question": "Nhấn nút '🔊 Nghe audio' và chọn nghĩa tiếng Việt đúng:",
       "options": [
+        "Bạn đã xem các số liệu bán hàng quý này chưa, Megan?",
         "Hôm nay thời tiết rất đẹp.",
-        "Giám đốc đã ký hợp đồng với đối tác Nhật Bản chưa?",
         "Chưa, tôi chưa xem. Nhóm kế toán vẫn chưa gửi email tệp cuối cùng.",
-        "Bạn đã xem các số liệu bán hàng quý này chưa, Megan?"
+        "Giám đốc đã ký hợp đồng với đối tác Nhật Bản chưa?"
       ],
       "correctAnswer": "Bạn đã xem các số liệu bán hàng quý này chưa, Megan?",
       "explanationVi": "Câu nghe được: \"Have you seen the quarterly sales figures, Megan?\" có nghĩa là: \"Bạn đã xem các số liệu bán hàng quý này chưa, Megan?\"."
@@ -322,10 +322,10 @@
       "audioPrompt": "No, I haven't seen them yet. The accounting team hasn't emailed the final file.",
       "question": "Nhấn nút '🔊 Nghe audio' và chọn nghĩa tiếng Việt đúng:",
       "options": [
-        "Giám đốc đã ký hợp đồng với đối tác Nhật Bản chưa?",
         "Chưa, tôi chưa xem. Nhóm kế toán vẫn chưa gửi email tệp cuối cùng.",
-        "Hôm nay thời tiết rất đẹp.",
-        "Có, ông ấy đã ký rồi. Ông ấy ký sáng nay, nhưng ông ấy vẫn chưa công bố chính thức."
+        "Có, ông ấy đã ký rồi. Ông ấy ký sáng nay, nhưng ông ấy vẫn chưa công bố chính thức.",
+        "Giám đốc đã ký hợp đồng với đối tác Nhật Bản chưa?",
+        "Hôm nay thời tiết rất đẹp."
       ],
       "correctAnswer": "Chưa, tôi chưa xem. Nhóm kế toán vẫn chưa gửi email tệp cuối cùng.",
       "explanationVi": "Câu nghe được: \"No, I haven't seen them yet. The accounting team hasn't emailed the final file.\" có nghĩa là: \"Chưa, tôi chưa xem. Nhóm kế toán vẫn chưa gửi email tệp cuối cùng.\"."
@@ -337,9 +337,9 @@
       "audioPrompt": "Has the director signed the contract with the Japanese partner?",
       "question": "Nhấn nút '🔊 Nghe audio' và chọn nghĩa tiếng Việt đúng:",
       "options": [
+        "Có, ông ấy đã ký rồi. Ông ấy ký sáng nay, nhưng ông ấy vẫn chưa công bố chính thức.",
         "Họ đã giao những chiếc máy tính mới đến phòng ban của chúng ta chưa?",
         "Hôm nay thời tiết rất đẹp.",
-        "Có, ông ấy đã ký rồi. Ông ấy ký sáng nay, nhưng ông ấy vẫn chưa công bố chính thức.",
         "Giám đốc đã ký hợp đồng với đối tác Nhật Bản chưa?"
       ],
       "correctAnswer": "Giám đốc đã ký hợp đồng với đối tác Nhật Bản chưa?",
@@ -352,10 +352,10 @@
       "audioPrompt": "Yes, he has. He signed it this morning, but he hasn't announced it officially.",
       "question": "Nhấn nút '🔊 Nghe audio' và chọn nghĩa tiếng Việt đúng:",
       "options": [
+        "Có, ông ấy đã ký rồi. Ông ấy ký sáng nay, nhưng ông ấy vẫn chưa công bố chính thức.",
         "Hôm nay thời tiết rất đẹp.",
-        "Chưa, họ chưa giao. Xe tải giao hàng đã gặp sự cố ùn tắc giao thông.",
         "Họ đã giao những chiếc máy tính mới đến phòng ban của chúng ta chưa?",
-        "Có, ông ấy đã ký rồi. Ông ấy ký sáng nay, nhưng ông ấy vẫn chưa công bố chính thức."
+        "Chưa, họ chưa giao. Xe tải giao hàng đã gặp sự cố ùn tắc giao thông."
       ],
       "correctAnswer": "Có, ông ấy đã ký rồi. Ông ấy ký sáng nay, nhưng ông ấy vẫn chưa công bố chính thức.",
       "explanationVi": "Câu nghe được: \"Yes, he has. He signed it this morning, but he hasn't announced it officially.\" có nghĩa là: \"Có, ông ấy đã ký rồi. Ông ấy ký sáng nay, nhưng ông ấy vẫn chưa công bố chính thức.\"."
@@ -399,32 +399,32 @@
     {
       "id": "ex-026-29",
       "type": "reading_comprehension",
-      "promptVi": "[Đọc hiểu đoạn văn] Đọc đoạn hội thoại sau và trả lời câu hỏi:",
+      "promptVi": "[Đọc hiểu đoạn văn] Đọc kĩ đoạn hội thoại và chọn nhận định đúng về nội dung:",
       "passage": "Justin: \"Have you seen the quarterly sales figures, Megan?\"\nMegan: \"No, I haven't seen them yet. The accounting team hasn't emailed the final file.\"\nJustin: \"Has the director signed the contract with the Japanese partner?\"\nMegan: \"Yes, he has. He signed it this morning, but he hasn't announced it officially.\"",
-      "question": "Chủ đề trọng tâm của đoạn hội thoại trên là gì?",
+      "question": "Dựa vào đoạn đối thoại trên, thông tin nào sau đây là CHÍNH XÁC về nội dung câu nói của Justin?",
       "options": [
-        "Hiện tại Hoàn thành — Phủ định, Câu hỏi & Trả lời ngắn",
-        "Cách làm món ăn truyền thống",
-        "Kế hoạch đi mua sắm tại siêu thị",
-        "Lịch trình đi du lịch nghỉ mát cuối tuần"
+        "Justin muốn mượn tiền để mua vé máy bay gấp.",
+        "Justin phàn nàn rằng thời tiết hôm nay quá xấu.",
+        "Justin từ chối trả lời và yêu cầu hủy cuộc hẹn.",
+        "Justin chia sẻ thông tin: \"Bạn đã xem các số liệu bán hàng quý này chưa, Megan?\""
       ],
-      "correctAnswer": "Hiện tại Hoàn thành — Phủ định, Câu hỏi & Trả lời ngắn",
-      "explanationVi": "Đoạn hội thoại được thiết kế để minh họa trực tiếp cho chủ điểm \"Bài 26: Hiện tại Hoàn thành — Phủ định, Câu hỏi & Trả lời ngắn\"."
+      "correctAnswer": "Justin chia sẻ thông tin: \"Bạn đã xem các số liệu bán hàng quý này chưa, Megan?\"",
+      "explanationVi": "Trong đoạn hội thoại, Justin đã nói: \"Have you seen the quarterly sales figures, Megan?\" (nghĩa là: \"Bạn đã xem các số liệu bán hàng quý này chưa, Megan?\")."
     },
     {
       "id": "ex-026-30",
       "type": "reading_comprehension",
-      "promptVi": "[Đọc hiểu đoạn văn] Đọc đoạn đối thoại tiếp theo và chọn nhận định đúng:",
+      "promptVi": "[Đọc hiểu đoạn văn] Đọc phần đối thoại tiếp theo và trả lời câu hỏi:",
       "passage": "Justin: \"Have they delivered the new computers to our department?\"\nMegan: \"No, they haven't delivered them. The delivery truck has encountered traffic delay.\"\nJustin: \"Have you printed the handout copies for this afternoon's meeting?\"\nMegan: \"Yes, I have! I have already printed fifty copies and put them on the table.\"",
-      "question": "Nhận định nào sau đây là ĐÚNG về nội dung đoạn đối thoại?",
+      "question": "Trong đoạn hội thoại trên, câu nói \"Yes, I have! I have already printed fifty copies and put them on the table.\" của Megan mang ý nghĩa gì?",
       "options": [
-        "Hai nhân vật đang cãi nhau và không đồng ý hợp tác.",
-        "Các câu thoại sử dụng đúng cấu trúc \"Hiện tại Hoàn thành — Phủ định, Câu hỏi & Trả lời ngắn\".",
-        "Cuộc trò chuyện diễn ra tại nhà ga xe lửa.",
-        "Cả hai nhân vật đang thảo luận về thời tiết ngày mai."
+        "Phản hồi: \"Hoàn toàn không đồng ý và muốn rời khỏi phòng ngay lập tức\"",
+        "Phản hồi: \"Có, tôi đã in rồi! Tôi đã in 50 bản và xếp sẵn trên bàn.\"",
+        "Phản hồi: \"Yêu cầu cung cấp hóa đơn thanh toán tiền mặt\"",
+        "Phản hồi: \"Hẹn gặp lại vào cuối tuần sau tại sân bay quốc tế\""
       ],
-      "correctAnswer": "Các câu thoại sử dụng đúng cấu trúc \"Hiện tại Hoàn thành — Phủ định, Câu hỏi & Trả lời ngắn\".",
-      "explanationVi": "Đoạn đối thoại ứng dụng chuẩn xác ngữ pháp của \"Bài 26: Hiện tại Hoàn thành — Phủ định, Câu hỏi & Trả lời ngắn\"."
+      "correctAnswer": "Phản hồi: \"Có, tôi đã in rồi! Tôi đã in 50 bản và xếp sẵn trên bàn.\"",
+      "explanationVi": "Megan nói: \"Yes, I have! I have already printed fifty copies and put them on the table.\" có nghĩa là: \"Có, tôi đã in rồi! Tôi đã in 50 bản và xếp sẵn trên bàn.\"."
     }
   ]
 }

@@ -11,9 +11,9 @@
       "question": "This task must ___ finished today.",
       "options": [
         "been",
+        "being",
         "be",
-        "is",
-        "being"
+        "is"
       ],
       "correctAnswer": "be",
       "explanationVi": "Sau modal verb (must) trong câu bị động luôn dùng 'be + V3'."
@@ -24,10 +24,10 @@
       "promptVi": "[Trắc nghiệm ngữ pháp] Chọn từ đúng để hoàn thành câu (Vấn đề này có thể được giải quyết dễ dàng không?):",
       "question": "Can this problem be ___ easily?",
       "options": [
-        "solved",
-        "solves",
         "solve",
-        "solving"
+        "solved",
+        "solving",
+        "solves"
       ],
       "correctAnswer": "solved",
       "explanationVi": "Bị động sau modal: can + S + be + V3 (solved)."
@@ -38,10 +38,10 @@
       "promptVi": "[Trắc nghiệm ngữ pháp] Chọn từ đúng để hoàn thành câu (Các quy tắc nên được tuân thủ một cách nghiêm ngặt.):",
       "question": "The rules ___ be followed strictly.",
       "options": [
-        "are",
+        "should",
         "have",
-        "do",
-        "should"
+        "are",
+        "do"
       ],
       "correctAnswer": "should",
       "explanationVi": "Lời khuyên trong câu bị động dùng 'should be followed'."
@@ -52,10 +52,10 @@
       "promptVi": "[Trắc nghiệm ngữ pháp] Chọn từ đúng để hoàn thành câu (Cánh cửa này không được phép mở.):",
       "question": "This door ___ not be opened.",
       "options": [
+        "might",
         "must",
         "can",
-        "should",
-        "might"
+        "should"
       ],
       "correctAnswer": "must",
       "explanationVi": "Chỉ sự cấm đoán dùng 'must not be opened'."
@@ -66,8 +66,8 @@
       "promptVi": "[Phản xạ dịch thuật] Dịch câu sau sang tiếng Anh: \"Chào mừng các bạn đến với phòng thí nghiệm hóa học nâng cao! Kính bảo hộ bắt buộc phải được đeo mọi lúc.\"",
       "question": "Chọn bản dịch chuẩn xác nhất cho câu: \"Chào mừng các bạn đến với phòng thí nghiệm hóa học nâng cao! Kính bảo hộ bắt buộc phải được đeo mọi lúc.\"",
       "options": [
-        "Welcome to the advanced chemical laboratory! Safety goggles must be worn at all times.",
         "Understood, Professor. Can these dangerous chemical containers be stored near direct sunlight?",
+        "Welcome to the advanced chemical laboratory! Safety goggles must be worn at all times.",
         "is",
         "We are studying English today."
       ],
@@ -80,10 +80,10 @@
       "promptVi": "[Ngữ cảnh giao tiếp] Chọn câu phản hồi tự nhiên và đúng ngữ pháp:",
       "question": "Khi đối phương nói: \"Welcome to the advanced chemical laboratory! Safety goggles must be worn at all times.\", câu phản hồi phù hợp là gì?",
       "options": [
-        "No, it was yesterday.",
         "Understood, Professor. Can these dangerous chemical containers be stored near direct sunlight?",
+        "They are not in the office.",
         "Yes, I will eat it.",
-        "They are not in the office."
+        "No, it was yesterday."
       ],
       "correctAnswer": "Understood, Professor. Can these dangerous chemical containers be stored near direct sunlight?",
       "explanationVi": "Phản hồi phù hợp trong bài: \"Understood, Professor. Can these dangerous chemical containers be stored near direct sunlight?\" (Em hiểu rồi, Giáo sư. Những bình hóa chất nguy hiểm này có thể được cất gần ánh nắng trực tiếp không?)."
@@ -95,10 +95,10 @@
       "question": "This task must ___ finished today.",
       "correctAnswer": "be",
       "options": [
-        "been",
-        "be",
         "being",
-        "is"
+        "been",
+        "is",
+        "be"
       ],
       "explanationVi": "Đáp án đúng là \"be\". Câu hoàn chỉnh: \"This task must be finished today.\" (Nhiệm vụ này phải được hoàn thành trong hôm nay.)."
     },
@@ -110,9 +110,9 @@
       "correctAnswer": "solved",
       "options": [
         "solved",
-        "solve",
         "solving",
-        "solves"
+        "solves",
+        "solve"
       ],
       "explanationVi": "Đáp án đúng là \"solved\". Câu hoàn chỉnh: \"Can this problem be solved easily?\" (Vấn đề này có thể được giải quyết dễ dàng không?)."
     },
@@ -123,10 +123,10 @@
       "question": "The rules ___ be followed strictly.",
       "correctAnswer": "should",
       "options": [
-        "do",
         "are",
-        "should",
-        "have"
+        "have",
+        "do",
+        "should"
       ],
       "explanationVi": "Đáp án đúng là \"should\". Câu hoàn chỉnh: \"The rules should be followed strictly.\" (Các quy tắc nên được tuân thủ một cách nghiêm ngặt.)."
     },
@@ -137,10 +137,10 @@
       "question": "This door ___ not be opened.",
       "correctAnswer": "must",
       "options": [
-        "should",
         "can",
-        "might",
-        "must"
+        "must",
+        "should",
+        "might"
       ],
       "explanationVi": "Đáp án đúng là \"must\". Câu hoàn chỉnh: \"This door must not be opened.\" (Cánh cửa này không được phép mở.)."
     },
@@ -151,8 +151,8 @@
       "question": "This _____ not must be finished today.",
       "correctAnswer": "task",
       "options": [
-        "task",
         "am",
+        "task",
         "is",
         "are"
       ],
@@ -166,10 +166,10 @@
       "words": [
         "finished",
         "today.",
-        "be",
         "task",
-        "must",
-        "This"
+        "be",
+        "This",
+        "must"
       ],
       "correctSentence": "This task must be finished today.",
       "hintVi": "Nhiệm vụ này phải được hoàn thành trong hôm nay.",
@@ -181,12 +181,12 @@
       "promptVi": "[Sắp xếp câu] Ghép các khối từ thành câu hoàn chỉnh mang nghĩa: \"Vấn đề này có thể được giải quyết dễ dàng không?\"",
       "question": "Sắp xếp các từ để tạo thành câu đúng: \"Vấn đề này có thể được giải quyết dễ dàng không?\"",
       "words": [
-        "solved",
+        "easily?",
         "Can",
         "problem",
-        "easily?",
-        "be",
-        "this"
+        "solved",
+        "this",
+        "be"
       ],
       "correctSentence": "Can this problem be solved easily?",
       "hintVi": "Vấn đề này có thể được giải quyết dễ dàng không?",
@@ -199,11 +199,11 @@
       "question": "Sắp xếp các từ để tạo thành câu đúng: \"Các quy tắc nên được tuân thủ một cách nghiêm ngặt.\"",
       "words": [
         "should",
-        "The",
-        "followed",
+        "be",
         "strictly.",
         "rules",
-        "be"
+        "The",
+        "followed"
       ],
       "correctSentence": "The rules should be followed strictly.",
       "hintVi": "Các quy tắc nên được tuân thủ một cách nghiêm ngặt.",
@@ -215,12 +215,12 @@
       "promptVi": "[Sắp xếp câu] Ghép các khối từ thành câu hoàn chỉnh mang nghĩa: \"Cánh cửa này không được phép mở.\"",
       "question": "Sắp xếp các từ để tạo thành câu đúng: \"Cánh cửa này không được phép mở.\"",
       "words": [
-        "not",
-        "must",
-        "be",
-        "This",
         "opened.",
-        "door"
+        "must",
+        "This",
+        "not",
+        "door",
+        "be"
       ],
       "correctSentence": "This door must not be opened.",
       "hintVi": "Cánh cửa này không được phép mở.",
@@ -232,23 +232,23 @@
       "promptVi": "[Sắp xếp câu] Ghép các từ thành câu hội thoại: \"Không, chúng không thể bị phơi dưới nhiệt độ; tất cả các chất dễ cháy phải được giữ trong tủ thép chống cháy.\"",
       "question": "Sắp xếp các từ để tạo thành câu thoại: \"Không, chúng không thể bị phơi dưới nhiệt độ; tất cả các chất dễ cháy phải được giữ trong tủ thép chống cháy.\"",
       "words": [
-        "No",
-        "cannot",
+        "they",
         "steel",
-        "cabinets",
+        "No",
+        "be",
+        "flammable",
         "exposed",
-        "substances",
-        "must",
+        "cabinets",
         "be",
         "all",
-        "they",
-        "be",
-        "fireproof",
+        "cannot",
         "to",
-        "flammable",
-        "in",
         "kept",
-        "heat;"
+        "fireproof",
+        "heat;",
+        "in",
+        "must",
+        "substances"
       ],
       "correctSentence": "No, they cannot be exposed to heat; all flammable substances must be kept in fireproof steel cabinets.",
       "hintVi": "Không, chúng không thể bị phơi dưới nhiệt độ; tất cả các chất dễ cháy phải được giữ trong tủ thép chống cháy.",
@@ -260,10 +260,10 @@
       "promptVi": "[Nhận diện cấu trúc chuẩn] Chọn câu có cấu trúc ngữ pháp HOÀN TOÀN ĐÚNG:",
       "question": "Dựa vào chủ điểm \"Bài 48: Câu Bị động — Với Động từ Khuyết thiếu (Modal Passives: Can / Must / Should + be + V3/ed)\", câu nào sau đây CHÍNH XÁC?",
       "options": [
-        "is",
-        "This task must be finished today.",
+        "are",
         "today. finished be must task This",
-        "are"
+        "is",
+        "This task must be finished today."
       ],
       "correctAnswer": "This task must be finished today.",
       "explanationVi": "Cấu trúc chuẩn xác là: \"This task must be finished today.\" (Nhiệm vụ này phải được hoàn thành trong hôm nay.)."
@@ -274,10 +274,10 @@
       "promptVi": "[Nhận diện cấu trúc chuẩn] Chọn câu có cấu trúc ngữ pháp HOÀN TOÀN ĐÚNG:",
       "question": "Dựa vào chủ điểm \"Bài 48: Câu Bị động — Với Động từ Khuyết thiếu (Modal Passives: Can / Must / Should + be + V3/ed)\", câu nào sau đây CHÍNH XÁC?",
       "options": [
-        "easily? solved be problem this Can",
         "are",
-        "is",
-        "Can this problem be solved easily?"
+        "easily? solved be problem this Can",
+        "Can this problem be solved easily?",
+        "is"
       ],
       "correctAnswer": "Can this problem be solved easily?",
       "explanationVi": "Cấu trúc chuẩn xác là: \"Can this problem be solved easily?\" (Vấn đề này có thể được giải quyết dễ dàng không?)."
@@ -290,8 +290,8 @@
       "options": [
         "The rules should be followed strictly.",
         "are",
-        "strictly. followed be should rules The",
-        "is"
+        "is",
+        "strictly. followed be should rules The"
       ],
       "correctAnswer": "The rules should be followed strictly.",
       "explanationVi": "Cấu trúc chuẩn xác là: \"The rules should be followed strictly.\" (Các quy tắc nên được tuân thủ một cách nghiêm ngặt.)."
@@ -302,10 +302,10 @@
       "promptVi": "[Nhận diện cấu trúc chuẩn] Chọn câu có cấu trúc ngữ pháp HOÀN TOÀN ĐÚNG:",
       "question": "Dựa vào chủ điểm \"Bài 48: Câu Bị động — Với Động từ Khuyết thiếu (Modal Passives: Can / Must / Should + be + V3/ed)\", câu nào sau đây CHÍNH XÁC?",
       "options": [
-        "opened. be not must door This",
-        "This door must not be opened.",
         "are",
-        "is"
+        "This door must not be opened.",
+        "is",
+        "opened. be not must door This"
       ],
       "correctAnswer": "This door must not be opened.",
       "explanationVi": "Cấu trúc chuẩn xác là: \"This door must not be opened.\" (Cánh cửa này không được phép mở.)."
@@ -317,10 +317,10 @@
       "audioPrompt": "Welcome to the advanced chemical laboratory! Safety goggles must be worn at all times.",
       "question": "Nhấn nút '🔊 Nghe audio' và chọn nghĩa tiếng Việt đúng:",
       "options": [
-        "Chào mừng các bạn đến với phòng thí nghiệm hóa học nâng cao! Kính bảo hộ bắt buộc phải được đeo mọi lúc.",
-        "Hôm nay thời tiết rất đẹp.",
         "Không, chúng không thể bị phơi dưới nhiệt độ; tất cả các chất dễ cháy phải được giữ trong tủ thép chống cháy.",
-        "Em hiểu rồi, Giáo sư. Những bình hóa chất nguy hiểm này có thể được cất gần ánh nắng trực tiếp không?"
+        "Em hiểu rồi, Giáo sư. Những bình hóa chất nguy hiểm này có thể được cất gần ánh nắng trực tiếp không?",
+        "Hôm nay thời tiết rất đẹp.",
+        "Chào mừng các bạn đến với phòng thí nghiệm hóa học nâng cao! Kính bảo hộ bắt buộc phải được đeo mọi lúc."
       ],
       "correctAnswer": "Chào mừng các bạn đến với phòng thí nghiệm hóa học nâng cao! Kính bảo hộ bắt buộc phải được đeo mọi lúc.",
       "explanationVi": "Câu nghe được: \"Welcome to the advanced chemical laboratory! Safety goggles must be worn at all times.\" có nghĩa là: \"Chào mừng các bạn đến với phòng thí nghiệm hóa học nâng cao! Kính bảo hộ bắt buộc phải được đeo mọi lúc.\"."
@@ -332,10 +332,10 @@
       "audioPrompt": "Understood, Professor. Can these dangerous chemical containers be stored near direct sunlight?",
       "question": "Nhấn nút '🔊 Nghe audio' và chọn nghĩa tiếng Việt đúng:",
       "options": [
-        "Những cốc thủy tinh và ống nghiệm này có nên được rửa sạch ngay sau mỗi thí nghiệm không?",
         "Không, chúng không thể bị phơi dưới nhiệt độ; tất cả các chất dễ cháy phải được giữ trong tủ thép chống cháy.",
         "Hôm nay thời tiết rất đẹp.",
-        "Em hiểu rồi, Giáo sư. Những bình hóa chất nguy hiểm này có thể được cất gần ánh nắng trực tiếp không?"
+        "Em hiểu rồi, Giáo sư. Những bình hóa chất nguy hiểm này có thể được cất gần ánh nắng trực tiếp không?",
+        "Những cốc thủy tinh và ống nghiệm này có nên được rửa sạch ngay sau mỗi thí nghiệm không?"
       ],
       "correctAnswer": "Em hiểu rồi, Giáo sư. Những bình hóa chất nguy hiểm này có thể được cất gần ánh nắng trực tiếp không?",
       "explanationVi": "Câu nghe được: \"Understood, Professor. Can these dangerous chemical containers be stored near direct sunlight?\" có nghĩa là: \"Em hiểu rồi, Giáo sư. Những bình hóa chất nguy hiểm này có thể được cất gần ánh nắng trực tiếp không?\"."
@@ -347,10 +347,10 @@
       "audioPrompt": "No, they cannot be exposed to heat; all flammable substances must be kept in fireproof steel cabinets.",
       "question": "Nhấn nút '🔊 Nghe audio' và chọn nghĩa tiếng Việt đúng:",
       "options": [
-        "Hôm nay thời tiết rất đẹp.",
-        "Những cốc thủy tinh và ống nghiệm này có nên được rửa sạch ngay sau mỗi thí nghiệm không?",
+        "Có chứ, đồ thủy tinh nên được làm sạch kỹ lưỡng bằng nước cất để ngăn ngừa nhiễm tạp chất.",
         "Không, chúng không thể bị phơi dưới nhiệt độ; tất cả các chất dễ cháy phải được giữ trong tủ thép chống cháy.",
-        "Có chứ, đồ thủy tinh nên được làm sạch kỹ lưỡng bằng nước cất để ngăn ngừa nhiễm tạp chất."
+        "Hôm nay thời tiết rất đẹp.",
+        "Những cốc thủy tinh và ống nghiệm này có nên được rửa sạch ngay sau mỗi thí nghiệm không?"
       ],
       "correctAnswer": "Không, chúng không thể bị phơi dưới nhiệt độ; tất cả các chất dễ cháy phải được giữ trong tủ thép chống cháy.",
       "explanationVi": "Câu nghe được: \"No, they cannot be exposed to heat; all flammable substances must be kept in fireproof steel cabinets.\" có nghĩa là: \"Không, chúng không thể bị phơi dưới nhiệt độ; tất cả các chất dễ cháy phải được giữ trong tủ thép chống cháy.\"."
@@ -409,32 +409,32 @@
     {
       "id": "ex-048-29",
       "type": "reading_comprehension",
-      "promptVi": "[Đọc hiểu đoạn văn] Đọc đoạn hội thoại sau và trả lời câu hỏi:",
+      "promptVi": "[Đọc hiểu đoạn văn] Đọc kĩ đoạn hội thoại và chọn nhận định đúng về nội dung:",
       "passage": "Professor Hayes: \"Welcome to the advanced chemical laboratory! Safety goggles must be worn at all times.\"\nSamantha: \"Understood, Professor. Can these dangerous chemical containers be stored near direct sunlight?\"\nProfessor Hayes: \"No, they cannot be exposed to heat; all flammable substances must be kept in fireproof steel cabinets.\"\nSamantha: \"Should these glass beakers and test tubes be washed immediately after each experiment?\"",
-      "question": "Chủ đề trọng tâm của đoạn hội thoại trên là gì?",
+      "question": "Dựa vào đoạn đối thoại trên, thông tin nào sau đây là CHÍNH XÁC về nội dung câu nói của Professor Hayes?",
       "options": [
-        "Câu Bị động — Với Động từ Khuyết thiếu (Modal Passives: Can / Must / Should + be + V3/ed)",
-        "Cách làm món ăn truyền thống",
-        "Kế hoạch đi mua sắm tại siêu thị",
-        "Lịch trình đi du lịch nghỉ mát cuối tuần"
+        "Professor Hayes phàn nàn rằng thời tiết hôm nay quá xấu.",
+        "Professor Hayes chia sẻ thông tin: \"Chào mừng các bạn đến với phòng thí nghiệm hóa học nâng cao! Kính bảo hộ bắt buộc phải được đeo mọi lúc.\"",
+        "Professor Hayes muốn mượn tiền để mua vé máy bay gấp.",
+        "Professor Hayes từ chối trả lời và yêu cầu hủy cuộc hẹn."
       ],
-      "correctAnswer": "Câu Bị động — Với Động từ Khuyết thiếu (Modal Passives: Can / Must / Should + be + V3/ed)",
-      "explanationVi": "Đoạn hội thoại được thiết kế để minh họa trực tiếp cho chủ điểm \"Bài 48: Câu Bị động — Với Động từ Khuyết thiếu (Modal Passives: Can / Must / Should + be + V3/ed)\"."
+      "correctAnswer": "Professor Hayes chia sẻ thông tin: \"Chào mừng các bạn đến với phòng thí nghiệm hóa học nâng cao! Kính bảo hộ bắt buộc phải được đeo mọi lúc.\"",
+      "explanationVi": "Trong đoạn hội thoại, Professor Hayes đã nói: \"Welcome to the advanced chemical laboratory! Safety goggles must be worn at all times.\" (nghĩa là: \"Chào mừng các bạn đến với phòng thí nghiệm hóa học nâng cao! Kính bảo hộ bắt buộc phải được đeo mọi lúc.\")."
     },
     {
       "id": "ex-048-30",
       "type": "reading_comprehension",
-      "promptVi": "[Đọc hiểu đoạn văn] Đọc đoạn đối thoại tiếp theo và chọn nhận định đúng:",
+      "promptVi": "[Đọc hiểu đoạn văn] Đọc phần đối thoại tiếp theo và trả lời câu hỏi:",
       "passage": "Professor Hayes: \"Yes, glassware should be cleaned thoroughly with distilled water to prevent contamination.\"\nSamantha: \"How can hazardous acid waste be disposed of safely according to environmental laws?\"\nProfessor Hayes: \"It must be neutralized first, and then it can be collected by certified waste disposal teams.\"\nSamantha: \"Emergency exit doors must not be blocked under any circumstances.\"",
-      "question": "Nhận định nào sau đây là ĐÚNG về nội dung đoạn đối thoại?",
+      "question": "Trong đoạn hội thoại trên, câu nói \"Emergency exit doors must not be blocked under any circumstances.\" của Samantha mang ý nghĩa gì?",
       "options": [
-        "Hai nhân vật đang cãi nhau và không đồng ý hợp tác.",
-        "Cả hai nhân vật đang thảo luận về thời tiết ngày mai.",
-        "Các câu thoại sử dụng đúng cấu trúc \"Câu Bị động — Với Động từ Khuyết thiếu (Modal Passives: Can / Must / Should + be + V3/ed)\".",
-        "Cuộc trò chuyện diễn ra tại nhà ga xe lửa."
+        "Phản hồi: \"Các cửa thoát hiểm khẩn cấp không được phép bị chặn trong bất kỳ trường hợp nào.\"",
+        "Phản hồi: \"Hoàn toàn không đồng ý và muốn rời khỏi phòng ngay lập tức\"",
+        "Phản hồi: \"Hẹn gặp lại vào cuối tuần sau tại sân bay quốc tế\"",
+        "Phản hồi: \"Yêu cầu cung cấp hóa đơn thanh toán tiền mặt\""
       ],
-      "correctAnswer": "Các câu thoại sử dụng đúng cấu trúc \"Câu Bị động — Với Động từ Khuyết thiếu (Modal Passives: Can / Must / Should + be + V3/ed)\".",
-      "explanationVi": "Đoạn đối thoại ứng dụng chuẩn xác ngữ pháp của \"Bài 48: Câu Bị động — Với Động từ Khuyết thiếu (Modal Passives: Can / Must / Should + be + V3/ed)\"."
+      "correctAnswer": "Phản hồi: \"Các cửa thoát hiểm khẩn cấp không được phép bị chặn trong bất kỳ trường hợp nào.\"",
+      "explanationVi": "Samantha nói: \"Emergency exit doors must not be blocked under any circumstances.\" có nghĩa là: \"Các cửa thoát hiểm khẩn cấp không được phép bị chặn trong bất kỳ trường hợp nào.\"."
     }
   ]
 }

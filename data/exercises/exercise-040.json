@@ -10,10 +10,10 @@
       "promptVi": "[Trắc nghiệm ngữ pháp] Chọn từ đúng để hoàn thành câu (Có một ít sữa ở trong tủ lạnh.):",
       "question": "There is ___ milk in the fridge.",
       "options": [
+        "any",
         "some",
-        "a",
         "many",
-        "any"
+        "a"
       ],
       "correctAnswer": "some",
       "explanationVi": "Câu khẳng định với danh từ không đếm được dùng 'some'."
@@ -26,8 +26,8 @@
       "options": [
         "many",
         "any",
-        "some",
-        "a"
+        "a",
+        "some"
       ],
       "correctAnswer": "any",
       "explanationVi": "Trong câu phủ định dùng 'any'."
@@ -40,8 +40,8 @@
       "options": [
         "some",
         "any",
-        "a",
-        "many"
+        "many",
+        "a"
       ],
       "correctAnswer": "some",
       "explanationVi": "Câu mời/đề nghị lịch sự dùng 'some' thay vì 'any'."
@@ -52,10 +52,10 @@
       "promptVi": "[Trắc nghiệm ngữ pháp] Chọn từ đúng để hoàn thành câu (Cô ấy cần một số thông tin về khóa học.):",
       "question": "She needs ___ information about the course.",
       "options": [
-        "a",
-        "an",
         "some",
-        "many"
+        "an",
+        "many",
+        "a"
       ],
       "correctAnswer": "some",
       "explanationVi": "'information' là danh từ không đếm được nên dùng 'some', không dùng 'an'."
@@ -66,9 +66,9 @@
       "promptVi": "[Phản xạ dịch thuật] Dịch câu sau sang tiếng Anh: \"Chúng ta đã sẵn sàng nấu mì Ý và nướng bánh mì cho bữa tối chưa, Emily?\"",
       "question": "Chọn bản dịch chuẩn xác nhất cho câu: \"Chúng ta đã sẵn sàng nấu mì Ý và nướng bánh mì cho bữa tối chưa, Emily?\"",
       "options": [
-        "Are we ready to cook pasta and bake bread for dinner, Emily?",
-        "be we ready to cook pasta and bake bread for dinner, Emily?",
         "We are studying English today.",
+        "be we ready to cook pasta and bake bread for dinner, Emily?",
+        "Are we ready to cook pasta and bake bread for dinner, Emily?",
         "Let's check the kitchen pantry first. Do we have any flour and butter?"
       ],
       "correctAnswer": "Are we ready to cook pasta and bake bread for dinner, Emily?",
@@ -80,10 +80,10 @@
       "promptVi": "[Ngữ cảnh giao tiếp] Chọn câu phản hồi tự nhiên và đúng ngữ pháp:",
       "question": "Khi đối phương nói: \"Are we ready to cook pasta and bake bread for dinner, Emily?\", câu phản hồi phù hợp là gì?",
       "options": [
-        "Yes, I will eat it.",
         "They are not in the office.",
         "Let's check the kitchen pantry first. Do we have any flour and butter?",
-        "No, it was yesterday."
+        "No, it was yesterday.",
+        "Yes, I will eat it."
       ],
       "correctAnswer": "Let's check the kitchen pantry first. Do we have any flour and butter?",
       "explanationVi": "Phản hồi phù hợp trong bài: \"Let's check the kitchen pantry first. Do we have any flour and butter?\" (Hãy kiểm tra tủ bếp trước đã. Chúng ta có chút bột mì và bơ nào không?)."
@@ -95,8 +95,8 @@
       "question": "There is ___ milk in the fridge.",
       "correctAnswer": "some",
       "options": [
-        "any",
         "many",
+        "any",
         "some",
         "a"
       ],
@@ -110,9 +110,9 @@
       "correctAnswer": "any",
       "options": [
         "any",
+        "a",
         "some",
-        "many",
-        "a"
+        "many"
       ],
       "explanationVi": "Đáp án đúng là \"any\". Câu hoàn chỉnh: \"I don't have any money.\" (Tôi không có chút tiền nào.)."
     },
@@ -124,9 +124,9 @@
       "correctAnswer": "some",
       "options": [
         "some",
+        "any",
         "a",
-        "many",
-        "any"
+        "many"
       ],
       "explanationVi": "Đáp án đúng là \"some\". Câu hoàn chỉnh: \"Would you like some tea?\" (Bạn có muốn dùng một chút trà không?)."
     },
@@ -137,9 +137,9 @@
       "question": "She needs ___ information about the course.",
       "correctAnswer": "some",
       "options": [
-        "a",
-        "many",
         "some",
+        "many",
+        "a",
         "an"
       ],
       "explanationVi": "Đáp án đúng là \"some\". Câu hoàn chỉnh: \"She needs some information about the course.\" (Cô ấy cần một số thông tin về khóa học.)."
@@ -151,10 +151,10 @@
       "question": "There _____ not some milk in the fridge.",
       "correctAnswer": "is",
       "options": [
-        "am",
+        "are",
         "is",
-        "do",
-        "are"
+        "am",
+        "do"
       ],
       "explanationVi": "Câu phủ định hoàn chỉnh: \"There is not some milk in the fridge.\"."
     },
@@ -165,12 +165,12 @@
       "question": "Sắp xếp các từ để tạo thành câu đúng: \"Có một ít sữa ở trong tủ lạnh.\"",
       "words": [
         "is",
-        "fridge.",
-        "milk",
-        "in",
-        "the",
         "There",
-        "some"
+        "the",
+        "fridge.",
+        "some",
+        "in",
+        "milk"
       ],
       "correctSentence": "There is some milk in the fridge.",
       "hintVi": "Có một ít sữa ở trong tủ lạnh.",
@@ -182,11 +182,11 @@
       "promptVi": "[Sắp xếp câu] Ghép các khối từ thành câu hoàn chỉnh mang nghĩa: \"Tôi không có chút tiền nào.\"",
       "question": "Sắp xếp các từ để tạo thành câu đúng: \"Tôi không có chút tiền nào.\"",
       "words": [
-        "money.",
-        "any",
         "don't",
         "I",
-        "have"
+        "have",
+        "any",
+        "money."
       ],
       "correctSentence": "I don't have any money.",
       "hintVi": "Tôi không có chút tiền nào.",
@@ -199,10 +199,10 @@
       "question": "Sắp xếp các từ để tạo thành câu đúng: \"Bạn có muốn dùng một chút trà không?\"",
       "words": [
         "tea?",
-        "you",
         "Would",
-        "like",
-        "some"
+        "you",
+        "some",
+        "like"
       ],
       "correctSentence": "Would you like some tea?",
       "hintVi": "Bạn có muốn dùng một chút trà không?",
@@ -214,13 +214,13 @@
       "promptVi": "[Sắp xếp câu] Ghép các khối từ thành câu hoàn chỉnh mang nghĩa: \"Cô ấy cần một số thông tin về khóa học.\"",
       "question": "Sắp xếp các từ để tạo thành câu đúng: \"Cô ấy cần một số thông tin về khóa học.\"",
       "words": [
-        "information",
         "course.",
         "needs",
-        "She",
-        "about",
+        "information",
         "the",
-        "some"
+        "some",
+        "She",
+        "about"
       ],
       "correctSentence": "She needs some information about the course.",
       "hintVi": "Cô ấy cần một số thông tin về khóa học.",
@@ -232,21 +232,21 @@
       "promptVi": "[Sắp xếp câu] Ghép các từ thành câu hội thoại: \"Vâng, chúng ta có một ít bột mì trong lọ, nhưng không còn chút sữa tươi nào.\"",
       "question": "Sắp xếp các từ để tạo thành câu thoại: \"Vâng, chúng ta có một ít bột mì trong lọ, nhưng không còn chút sữa tươi nào.\"",
       "words": [
-        "flour",
-        "the",
-        "left",
-        "any",
-        "isn't",
-        "some",
-        "in",
-        "milk",
-        "jar",
-        "have",
-        "but",
-        "there",
-        "we",
         "Yes",
-        "fresh"
+        "flour",
+        "jar",
+        "in",
+        "left",
+        "fresh",
+        "the",
+        "but",
+        "have",
+        "any",
+        "milk",
+        "some",
+        "we",
+        "there",
+        "isn't"
       ],
       "correctSentence": "Yes, we have some flour in the jar, but there isn't any fresh milk left.",
       "hintVi": "Vâng, chúng ta có một ít bột mì trong lọ, nhưng không còn chút sữa tươi nào.",
@@ -258,10 +258,10 @@
       "promptVi": "[Nhận diện cấu trúc chuẩn] Chọn câu có cấu trúc ngữ pháp HOÀN TOÀN ĐÚNG:",
       "question": "Dựa vào chủ điểm \"Bài 40: Danh từ Không đếm được — Cách dùng & Lượng từ (Some / Any & Đơn vị đo)\", câu nào sau đây CHÍNH XÁC?",
       "options": [
+        "There is some milk at the fridge.",
         "There be some milk in the fridge.",
         "There is some milk in the fridge.",
-        "fridge. the in milk some is There",
-        "There is some milk at the fridge."
+        "fridge. the in milk some is There"
       ],
       "correctAnswer": "There is some milk in the fridge.",
       "explanationVi": "Cấu trúc chuẩn xác là: \"There is some milk in the fridge.\" (Có một ít sữa ở trong tủ lạnh.)."
@@ -272,9 +272,9 @@
       "promptVi": "[Nhận diện cấu trúc chuẩn] Chọn câu có cấu trúc ngữ pháp HOÀN TOÀN ĐÚNG:",
       "question": "Dựa vào chủ điểm \"Bài 40: Danh từ Không đếm được — Cách dùng & Lượng từ (Some / Any & Đơn vị đo)\", câu nào sau đây CHÍNH XÁC?",
       "options": [
-        "money. any have don't I",
         "are",
         "is",
+        "money. any have don't I",
         "I don't have any money."
       ],
       "correctAnswer": "I don't have any money.",
@@ -286,10 +286,10 @@
       "promptVi": "[Nhận diện cấu trúc chuẩn] Chọn câu có cấu trúc ngữ pháp HOÀN TOÀN ĐÚNG:",
       "question": "Dựa vào chủ điểm \"Bài 40: Danh từ Không đếm được — Cách dùng & Lượng từ (Some / Any & Đơn vị đo)\", câu nào sau đây CHÍNH XÁC?",
       "options": [
-        "tea? some like you Would",
         "Would you like some tea?",
-        "are",
-        "is"
+        "is",
+        "tea? some like you Would",
+        "are"
       ],
       "correctAnswer": "Would you like some tea?",
       "explanationVi": "Cấu trúc chuẩn xác là: \"Would you like some tea?\" (Bạn có muốn dùng một chút trà không?)."
@@ -300,10 +300,10 @@
       "promptVi": "[Nhận diện cấu trúc chuẩn] Chọn câu có cấu trúc ngữ pháp HOÀN TOÀN ĐÚNG:",
       "question": "Dựa vào chủ điểm \"Bài 40: Danh từ Không đếm được — Cách dùng & Lượng từ (Some / Any & Đơn vị đo)\", câu nào sau đây CHÍNH XÁC?",
       "options": [
-        "course. the about information some needs She",
-        "She needs some information about the course.",
         "are",
-        "is"
+        "is",
+        "She needs some information about the course.",
+        "course. the about information some needs She"
       ],
       "correctAnswer": "She needs some information about the course.",
       "explanationVi": "Cấu trúc chuẩn xác là: \"She needs some information about the course.\" (Cô ấy cần một số thông tin về khóa học.)."
@@ -315,10 +315,10 @@
       "audioPrompt": "Are we ready to cook pasta and bake bread for dinner, Emily?",
       "question": "Nhấn nút '🔊 Nghe audio' và chọn nghĩa tiếng Việt đúng:",
       "options": [
-        "Vâng, chúng ta có một ít bột mì trong lọ, nhưng không còn chút sữa tươi nào.",
-        "Hôm nay thời tiết rất đẹp.",
+        "Chúng ta đã sẵn sàng nấu mì Ý và nướng bánh mì cho bữa tối chưa, Emily?",
         "Hãy kiểm tra tủ bếp trước đã. Chúng ta có chút bột mì và bơ nào không?",
-        "Chúng ta đã sẵn sàng nấu mì Ý và nướng bánh mì cho bữa tối chưa, Emily?"
+        "Hôm nay thời tiết rất đẹp.",
+        "Vâng, chúng ta có một ít bột mì trong lọ, nhưng không còn chút sữa tươi nào."
       ],
       "correctAnswer": "Chúng ta đã sẵn sàng nấu mì Ý và nướng bánh mì cho bữa tối chưa, Emily?",
       "explanationVi": "Câu nghe được: \"Are we ready to cook pasta and bake bread for dinner, Emily?\" có nghĩa là: \"Chúng ta đã sẵn sàng nấu mì Ý và nướng bánh mì cho bữa tối chưa, Emily?\"."
@@ -330,10 +330,10 @@
       "audioPrompt": "Let's check the kitchen pantry first. Do we have any flour and butter?",
       "question": "Nhấn nút '🔊 Nghe audio' và chọn nghĩa tiếng Việt đúng:",
       "options": [
+        "Hãy kiểm tra tủ bếp trước đã. Chúng ta có chút bột mì và bơ nào không?",
         "Vâng, chúng ta có một ít bột mì trong lọ, nhưng không còn chút sữa tươi nào.",
         "Hôm nay thời tiết rất đẹp.",
-        "Có chút dầu ô liu nào trong tủ để xào rau củ không?",
-        "Hãy kiểm tra tủ bếp trước đã. Chúng ta có chút bột mì và bơ nào không?"
+        "Có chút dầu ô liu nào trong tủ để xào rau củ không?"
       ],
       "correctAnswer": "Hãy kiểm tra tủ bếp trước đã. Chúng ta có chút bột mì và bơ nào không?",
       "explanationVi": "Câu nghe được: \"Let's check the kitchen pantry first. Do we have any flour and butter?\" có nghĩa là: \"Hãy kiểm tra tủ bếp trước đã. Chúng ta có chút bột mì và bơ nào không?\"."
@@ -345,10 +345,10 @@
       "audioPrompt": "Yes, we have some flour in the jar, but there isn't any fresh milk left.",
       "question": "Nhấn nút '🔊 Nghe audio' và chọn nghĩa tiếng Việt đúng:",
       "options": [
-        "Vâng, chúng ta có một ít bột mì trong lọ, nhưng không còn chút sữa tươi nào.",
         "Có chút dầu ô liu nào trong tủ để xào rau củ không?",
+        "Hôm nay thời tiết rất đẹp.",
         "Chúng ta có một ít dầu ô liu, nhưng chúng ta không có chút hạt tiêu đen hay muối nào.",
-        "Hôm nay thời tiết rất đẹp."
+        "Vâng, chúng ta có một ít bột mì trong lọ, nhưng không còn chút sữa tươi nào."
       ],
       "correctAnswer": "Vâng, chúng ta có một ít bột mì trong lọ, nhưng không còn chút sữa tươi nào.",
       "explanationVi": "Câu nghe được: \"Yes, we have some flour in the jar, but there isn't any fresh milk left.\" có nghĩa là: \"Vâng, chúng ta có một ít bột mì trong lọ, nhưng không còn chút sữa tươi nào.\"."
@@ -360,9 +360,9 @@
       "audioPrompt": "Is there any olive oil in the cabinet to cook the vegetables?",
       "question": "Nhấn nút '🔊 Nghe audio' và chọn nghĩa tiếng Việt đúng:",
       "options": [
-        "Bạn có muốn một chút trà nóng hay nước lạnh trong khi tôi viết danh sách mua sắm không?",
-        "Chúng ta có một ít dầu ô liu, nhưng chúng ta không có chút hạt tiêu đen hay muối nào.",
         "Hôm nay thời tiết rất đẹp.",
+        "Chúng ta có một ít dầu ô liu, nhưng chúng ta không có chút hạt tiêu đen hay muối nào.",
+        "Bạn có muốn một chút trà nóng hay nước lạnh trong khi tôi viết danh sách mua sắm không?",
         "Có chút dầu ô liu nào trong tủ để xào rau củ không?"
       ],
       "correctAnswer": "Có chút dầu ô liu nào trong tủ để xào rau củ không?",
@@ -407,32 +407,32 @@
     {
       "id": "ex-040-29",
       "type": "reading_comprehension",
-      "promptVi": "[Đọc hiểu đoạn văn] Đọc đoạn hội thoại sau và trả lời câu hỏi:",
+      "promptVi": "[Đọc hiểu đoạn văn] Đọc kĩ đoạn hội thoại và chọn nhận định đúng về nội dung:",
       "passage": "Daniel: \"Are we ready to cook pasta and bake bread for dinner, Emily?\"\nEmily: \"Let's check the kitchen pantry first. Do we have any flour and butter?\"\nDaniel: \"Yes, we have some flour in the jar, but there isn't any fresh milk left.\"\nEmily: \"Is there any olive oil in the cabinet to cook the vegetables?\"",
-      "question": "Chủ đề trọng tâm của đoạn hội thoại trên là gì?",
+      "question": "Dựa vào đoạn đối thoại trên, thông tin nào sau đây là CHÍNH XÁC về nội dung câu nói của Daniel?",
       "options": [
-        "Kế hoạch đi mua sắm tại siêu thị",
-        "Danh từ Không đếm được — Cách dùng & Lượng từ (Some / Any & Đơn vị đo)",
-        "Cách làm món ăn truyền thống",
-        "Lịch trình đi du lịch nghỉ mát cuối tuần"
+        "Daniel muốn mượn tiền để mua vé máy bay gấp.",
+        "Daniel phàn nàn rằng thời tiết hôm nay quá xấu.",
+        "Daniel từ chối trả lời và yêu cầu hủy cuộc hẹn.",
+        "Daniel chia sẻ thông tin: \"Chúng ta đã sẵn sàng nấu mì Ý và nướng bánh mì cho bữa tối chưa, Emily?\""
       ],
-      "correctAnswer": "Danh từ Không đếm được — Cách dùng & Lượng từ (Some / Any & Đơn vị đo)",
-      "explanationVi": "Đoạn hội thoại được thiết kế để minh họa trực tiếp cho chủ điểm \"Bài 40: Danh từ Không đếm được — Cách dùng & Lượng từ (Some / Any & Đơn vị đo)\"."
+      "correctAnswer": "Daniel chia sẻ thông tin: \"Chúng ta đã sẵn sàng nấu mì Ý và nướng bánh mì cho bữa tối chưa, Emily?\"",
+      "explanationVi": "Trong đoạn hội thoại, Daniel đã nói: \"Are we ready to cook pasta and bake bread for dinner, Emily?\" (nghĩa là: \"Chúng ta đã sẵn sàng nấu mì Ý và nướng bánh mì cho bữa tối chưa, Emily?\")."
     },
     {
       "id": "ex-040-30",
       "type": "reading_comprehension",
-      "promptVi": "[Đọc hiểu đoạn văn] Đọc đoạn đối thoại tiếp theo và chọn nhận định đúng:",
+      "promptVi": "[Đọc hiểu đoạn văn] Đọc phần đối thoại tiếp theo và trả lời câu hỏi:",
       "passage": "Daniel: \"We have some olive oil, but we don't have any black pepper or salt.\"\nEmily: \"Would you like some hot tea or cold water while I write the shopping list?\"\nDaniel: \"Some cold water with ice would be wonderful, thank you!\"\nEmily: \"How much money do we need to buy all these groceries at the supermarket?\"",
-      "question": "Nhận định nào sau đây là ĐÚNG về nội dung đoạn đối thoại?",
+      "question": "Trong đoạn hội thoại trên, câu nói \"How much money do we need to buy all these groceries at the supermarket?\" của Emily mang ý nghĩa gì?",
       "options": [
-        "Hai nhân vật đang cãi nhau và không đồng ý hợp tác.",
-        "Cả hai nhân vật đang thảo luận về thời tiết ngày mai.",
-        "Các câu thoại sử dụng đúng cấu trúc \"Danh từ Không đếm được — Cách dùng & Lượng từ (Some / Any & Đơn vị đo)\".",
-        "Cuộc trò chuyện diễn ra tại nhà ga xe lửa."
+        "Phản hồi: \"Chúng ta cần bao nhiêu tiền để mua tất cả chỗ thực phẩm này tại siêu thị?\"",
+        "Phản hồi: \"Yêu cầu cung cấp hóa đơn thanh toán tiền mặt\"",
+        "Phản hồi: \"Hoàn toàn không đồng ý và muốn rời khỏi phòng ngay lập tức\"",
+        "Phản hồi: \"Hẹn gặp lại vào cuối tuần sau tại sân bay quốc tế\""
       ],
-      "correctAnswer": "Các câu thoại sử dụng đúng cấu trúc \"Danh từ Không đếm được — Cách dùng & Lượng từ (Some / Any & Đơn vị đo)\".",
-      "explanationVi": "Đoạn đối thoại ứng dụng chuẩn xác ngữ pháp của \"Bài 40: Danh từ Không đếm được — Cách dùng & Lượng từ (Some / Any & Đơn vị đo)\"."
+      "correctAnswer": "Phản hồi: \"Chúng ta cần bao nhiêu tiền để mua tất cả chỗ thực phẩm này tại siêu thị?\"",
+      "explanationVi": "Emily nói: \"How much money do we need to buy all these groceries at the supermarket?\" có nghĩa là: \"Chúng ta cần bao nhiêu tiền để mua tất cả chỗ thực phẩm này tại siêu thị?\"."
     }
   ]
 }

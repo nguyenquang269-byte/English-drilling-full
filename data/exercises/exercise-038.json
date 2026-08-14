@@ -11,8 +11,8 @@
       "question": "It ___ rain this afternoon.",
       "options": [
         "must",
-        "does",
         "may",
+        "does",
         "should"
       ],
       "correctAnswer": "may",
@@ -24,8 +24,8 @@
       "promptVi": "[Trắc nghiệm ngữ pháp] Chọn từ đúng để hoàn thành câu (Thưa thầy/ông, tôi có thể vào được không?):",
       "question": "___ I come in, sir?",
       "options": [
-        "May",
         "Do",
+        "May",
         "Will",
         "Am"
       ],
@@ -38,10 +38,10 @@
       "promptVi": "[Trắc nghiệm ngữ pháp] Chọn từ đúng để hoàn thành câu (Anh ấy có thể không biết về cuộc họp.):",
       "question": "He might ___ know about the meeting.",
       "options": [
-        "not",
-        "no",
         "never",
-        "don't"
+        "no",
+        "don't",
+        "not"
       ],
       "correctAnswer": "not",
       "explanationVi": "Phủ định sau might thêm 'not'."
@@ -53,8 +53,8 @@
       "question": "We might ___ to the beach this weekend.",
       "options": [
         "going",
-        "go",
         "goes",
+        "go",
         "went"
       ],
       "correctAnswer": "go",
@@ -68,8 +68,8 @@
       "options": [
         "We are studying English today.",
         "be you going camping in the national forest this weekend, Diana?",
-        "I am not completely sure yet. It may rain heavily on Saturday afternoon.",
-        "Are you going camping in the national forest this weekend, Diana?"
+        "Are you going camping in the national forest this weekend, Diana?",
+        "I am not completely sure yet. It may rain heavily on Saturday afternoon."
       ],
       "correctAnswer": "Are you going camping in the national forest this weekend, Diana?",
       "explanationVi": "Câu dịch chuẩn xác: \"Are you going camping in the national forest this weekend, Diana?\" (Bạn có đi cắm trại trong rừng quốc gia cuối tuần này không, Diana?)."
@@ -80,9 +80,9 @@
       "promptVi": "[Ngữ cảnh giao tiếp] Chọn câu phản hồi tự nhiên và đúng ngữ pháp:",
       "question": "Khi đối phương nói: \"Are you going camping in the national forest this weekend, Diana?\", câu phản hồi phù hợp là gì?",
       "options": [
-        "I am not completely sure yet. It may rain heavily on Saturday afternoon.",
         "They are not in the office.",
         "No, it was yesterday.",
+        "I am not completely sure yet. It may rain heavily on Saturday afternoon.",
         "Yes, I will eat it."
       ],
       "correctAnswer": "I am not completely sure yet. It may rain heavily on Saturday afternoon.",
@@ -96,9 +96,9 @@
       "correctAnswer": "may",
       "options": [
         "may",
-        "should",
+        "does",
         "must",
-        "does"
+        "should"
       ],
       "explanationVi": "Đáp án đúng là \"may\". Câu hoàn chỉnh: \"It may rain this afternoon.\" (Chiều nay trời có thể sẽ mưa.)."
     },
@@ -109,10 +109,10 @@
       "question": "___ I come in, sir?",
       "correctAnswer": "May",
       "options": [
+        "Do",
         "Will",
         "May",
-        "Am",
-        "Do"
+        "Am"
       ],
       "explanationVi": "Đáp án đúng là \"May\". Câu hoàn chỉnh: \"May I come in, sir?\" (Thưa thầy/ông, tôi có thể vào được không?)."
     },
@@ -124,9 +124,9 @@
       "correctAnswer": "not",
       "options": [
         "no",
+        "not",
         "don't",
-        "never",
-        "not"
+        "never"
       ],
       "explanationVi": "Đáp án đúng là \"not\". Câu hoàn chỉnh: \"He might not know about the meeting.\" (Anh ấy có thể không biết về cuộc họp.)."
     },
@@ -139,8 +139,8 @@
       "options": [
         "go",
         "going",
-        "went",
-        "goes"
+        "goes",
+        "went"
       ],
       "explanationVi": "Đáp án đúng là \"go\". Câu hoàn chỉnh: \"We might go to the beach this weekend.\" (Chúng tôi có thể sẽ đi biển vào cuối tuần này.)."
     },
@@ -151,10 +151,10 @@
       "question": "It _____ not rain this afternoon.",
       "correctAnswer": "may",
       "options": [
-        "are",
-        "may",
         "am",
-        "is"
+        "may",
+        "is",
+        "are"
       ],
       "explanationVi": "Câu phủ định hoàn chỉnh: \"It may not rain this afternoon.\"."
     },
@@ -164,11 +164,11 @@
       "promptVi": "[Sắp xếp câu] Ghép các khối từ thành câu hoàn chỉnh mang nghĩa: \"Chiều nay trời có thể sẽ mưa.\"",
       "question": "Sắp xếp các từ để tạo thành câu đúng: \"Chiều nay trời có thể sẽ mưa.\"",
       "words": [
-        "rain",
         "It",
         "this",
-        "may",
-        "afternoon."
+        "rain",
+        "afternoon.",
+        "may"
       ],
       "correctSentence": "It may rain this afternoon.",
       "hintVi": "Chiều nay trời có thể sẽ mưa.",
@@ -180,10 +180,10 @@
       "promptVi": "[Sắp xếp câu] Ghép các khối từ thành câu hoàn chỉnh mang nghĩa: \"Thưa thầy/ông, tôi có thể vào được không?\"",
       "question": "Sắp xếp các từ để tạo thành câu đúng: \"Thưa thầy/ông, tôi có thể vào được không?\"",
       "words": [
-        "I",
-        "May",
-        "in,",
         "sir?",
+        "I",
+        "in,",
+        "May",
         "come"
       ],
       "correctSentence": "May I come in, sir?",
@@ -196,13 +196,13 @@
       "promptVi": "[Sắp xếp câu] Ghép các khối từ thành câu hoàn chỉnh mang nghĩa: \"Anh ấy có thể không biết về cuộc họp.\"",
       "question": "Sắp xếp các từ để tạo thành câu đúng: \"Anh ấy có thể không biết về cuộc họp.\"",
       "words": [
-        "know",
-        "He",
-        "the",
         "might",
         "meeting.",
         "not",
-        "about"
+        "the",
+        "He",
+        "about",
+        "know"
       ],
       "correctSentence": "He might not know about the meeting.",
       "hintVi": "Anh ấy có thể không biết về cuộc họp.",
@@ -214,14 +214,14 @@
       "promptVi": "[Sắp xếp câu] Ghép các khối từ thành câu hoàn chỉnh mang nghĩa: \"Chúng tôi có thể sẽ đi biển vào cuối tuần này.\"",
       "question": "Sắp xếp các từ để tạo thành câu đúng: \"Chúng tôi có thể sẽ đi biển vào cuối tuần này.\"",
       "words": [
-        "might",
-        "the",
-        "to",
+        "We",
         "beach",
         "weekend.",
-        "go",
-        "We",
-        "this"
+        "the",
+        "this",
+        "might",
+        "to",
+        "go"
       ],
       "correctSentence": "We might go to the beach this weekend.",
       "hintVi": "Chúng tôi có thể sẽ đi biển vào cuối tuần này.",
@@ -233,16 +233,16 @@
       "promptVi": "[Sắp xếp câu] Ghép các từ thành câu hội thoại: \"Dự báo thời tiết nói rằng nhiệt độ có thể giảm mạnh vào ban đêm.\"",
       "question": "Sắp xếp các từ để tạo thành câu thoại: \"Dự báo thời tiết nói rằng nhiệt độ có thể giảm mạnh vào ban đêm.\"",
       "words": [
-        "at",
-        "The",
-        "might",
-        "weather",
-        "night",
         "forecast",
+        "at",
         "said",
-        "drop",
+        "weather",
+        "temperatures",
         "significantly",
-        "temperatures"
+        "drop",
+        "might",
+        "The",
+        "night"
       ],
       "correctSentence": "The weather forecast said temperatures might drop significantly at night.",
       "hintVi": "Dự báo thời tiết nói rằng nhiệt độ có thể giảm mạnh vào ban đêm.",
@@ -254,10 +254,10 @@
       "promptVi": "[Nhận diện cấu trúc chuẩn] Chọn câu có cấu trúc ngữ pháp HOÀN TOÀN ĐÚNG:",
       "question": "Dựa vào chủ điểm \"Bài 38: Động từ Khuyết thiếu — May / Might (Sự chắc chắn không cao & Xin phép lịch sự)\", câu nào sau đây CHÍNH XÁC?",
       "options": [
-        "are",
         "afternoon. this rain may It",
-        "is",
-        "It may rain this afternoon."
+        "are",
+        "It may rain this afternoon.",
+        "is"
       ],
       "correctAnswer": "It may rain this afternoon.",
       "explanationVi": "Cấu trúc chuẩn xác là: \"It may rain this afternoon.\" (Chiều nay trời có thể sẽ mưa.)."
@@ -268,10 +268,10 @@
       "promptVi": "[Nhận diện cấu trúc chuẩn] Chọn câu có cấu trúc ngữ pháp HOÀN TOÀN ĐÚNG:",
       "question": "Dựa vào chủ điểm \"Bài 38: Động từ Khuyết thiếu — May / Might (Sự chắc chắn không cao & Xin phép lịch sự)\", câu nào sau đây CHÍNH XÁC?",
       "options": [
-        "is",
-        "May I come in, sir?",
         "sir? in, come I May",
-        "May I come at, sir?"
+        "May I come at, sir?",
+        "is",
+        "May I come in, sir?"
       ],
       "correctAnswer": "May I come in, sir?",
       "explanationVi": "Cấu trúc chuẩn xác là: \"May I come in, sir?\" (Thưa thầy/ông, tôi có thể vào được không?)."
@@ -282,9 +282,9 @@
       "promptVi": "[Nhận diện cấu trúc chuẩn] Chọn câu có cấu trúc ngữ pháp HOÀN TOÀN ĐÚNG:",
       "question": "Dựa vào chủ điểm \"Bài 38: Động từ Khuyết thiếu — May / Might (Sự chắc chắn không cao & Xin phép lịch sự)\", câu nào sau đây CHÍNH XÁC?",
       "options": [
+        "is",
         "meeting. the about know not might He",
         "He might not know about the meeting.",
-        "is",
         "are"
       ],
       "correctAnswer": "He might not know about the meeting.",
@@ -296,10 +296,10 @@
       "promptVi": "[Nhận diện cấu trúc chuẩn] Chọn câu có cấu trúc ngữ pháp HOÀN TOÀN ĐÚNG:",
       "question": "Dựa vào chủ điểm \"Bài 38: Động từ Khuyết thiếu — May / Might (Sự chắc chắn không cao & Xin phép lịch sự)\", câu nào sau đây CHÍNH XÁC?",
       "options": [
-        "weekend. this beach the to go might We",
-        "We might go to the beach this weekend.",
         "is",
-        "We might go at the beach this weekend."
+        "We might go at the beach this weekend.",
+        "We might go to the beach this weekend.",
+        "weekend. this beach the to go might We"
       ],
       "correctAnswer": "We might go to the beach this weekend.",
       "explanationVi": "Cấu trúc chuẩn xác là: \"We might go to the beach this weekend.\" (Chúng tôi có thể sẽ đi biển vào cuối tuần này.)."
@@ -311,10 +311,10 @@
       "audioPrompt": "Are you going camping in the national forest this weekend, Diana?",
       "question": "Nhấn nút '🔊 Nghe audio' và chọn nghĩa tiếng Việt đúng:",
       "options": [
-        "Hôm nay thời tiết rất đẹp.",
+        "Tôi vẫn chưa hoàn toàn chắc chắn. Trời có thể sẽ mưa to vào chiều thứ Bảy.",
         "Bạn có đi cắm trại trong rừng quốc gia cuối tuần này không, Diana?",
-        "Dự báo thời tiết nói rằng nhiệt độ có thể giảm mạnh vào ban đêm.",
-        "Tôi vẫn chưa hoàn toàn chắc chắn. Trời có thể sẽ mưa to vào chiều thứ Bảy."
+        "Hôm nay thời tiết rất đẹp.",
+        "Dự báo thời tiết nói rằng nhiệt độ có thể giảm mạnh vào ban đêm."
       ],
       "correctAnswer": "Bạn có đi cắm trại trong rừng quốc gia cuối tuần này không, Diana?",
       "explanationVi": "Câu nghe được: \"Are you going camping in the national forest this weekend, Diana?\" có nghĩa là: \"Bạn có đi cắm trại trong rừng quốc gia cuối tuần này không, Diana?\"."
@@ -326,10 +326,10 @@
       "audioPrompt": "I am not completely sure yet. It may rain heavily on Saturday afternoon.",
       "question": "Nhấn nút '🔊 Nghe audio' và chọn nghĩa tiếng Việt đúng:",
       "options": [
-        "Nếu thời tiết xấu, chúng tôi có thể sẽ ở nhà và xem phim thay vào đó.",
+        "Dự báo thời tiết nói rằng nhiệt độ có thể giảm mạnh vào ban đêm.",
         "Tôi vẫn chưa hoàn toàn chắc chắn. Trời có thể sẽ mưa to vào chiều thứ Bảy.",
         "Hôm nay thời tiết rất đẹp.",
-        "Dự báo thời tiết nói rằng nhiệt độ có thể giảm mạnh vào ban đêm."
+        "Nếu thời tiết xấu, chúng tôi có thể sẽ ở nhà và xem phim thay vào đó."
       ],
       "correctAnswer": "Tôi vẫn chưa hoàn toàn chắc chắn. Trời có thể sẽ mưa to vào chiều thứ Bảy.",
       "explanationVi": "Câu nghe được: \"I am not completely sure yet. It may rain heavily on Saturday afternoon.\" có nghĩa là: \"Tôi vẫn chưa hoàn toàn chắc chắn. Trời có thể sẽ mưa to vào chiều thứ Bảy.\"."
@@ -341,10 +341,10 @@
       "audioPrompt": "The weather forecast said temperatures might drop significantly at night.",
       "question": "Nhấn nút '🔊 Nghe audio' và chọn nghĩa tiếng Việt đúng:",
       "options": [
-        "Hôm nay thời tiết rất đẹp.",
-        "Nếu thời tiết xấu, chúng tôi có thể sẽ ở nhà và xem phim thay vào đó.",
         "Dự báo thời tiết nói rằng nhiệt độ có thể giảm mạnh vào ban đêm.",
-        "Tôi có thể xem ứng dụng radar thời tiết trên điện thoại của bạn để cập nhật không?"
+        "Nếu thời tiết xấu, chúng tôi có thể sẽ ở nhà và xem phim thay vào đó.",
+        "Tôi có thể xem ứng dụng radar thời tiết trên điện thoại của bạn để cập nhật không?",
+        "Hôm nay thời tiết rất đẹp."
       ],
       "correctAnswer": "Dự báo thời tiết nói rằng nhiệt độ có thể giảm mạnh vào ban đêm.",
       "explanationVi": "Câu nghe được: \"The weather forecast said temperatures might drop significantly at night.\" có nghĩa là: \"Dự báo thời tiết nói rằng nhiệt độ có thể giảm mạnh vào ban đêm.\"."
@@ -356,10 +356,10 @@
       "audioPrompt": "If the weather is bad, we might stay at home and watch movies instead.",
       "question": "Nhấn nút '🔊 Nghe audio' và chọn nghĩa tiếng Việt đúng:",
       "options": [
-        "Nếu thời tiết xấu, chúng tôi có thể sẽ ở nhà và xem phim thay vào đó.",
+        "Hôm nay thời tiết rất đẹp.",
         "Vâng, dĩ nhiên bạn có thể. Hình ảnh vệ tinh trông khá nhiều mây.",
-        "Tôi có thể xem ứng dụng radar thời tiết trên điện thoại của bạn để cập nhật không?",
-        "Hôm nay thời tiết rất đẹp."
+        "Nếu thời tiết xấu, chúng tôi có thể sẽ ở nhà và xem phim thay vào đó.",
+        "Tôi có thể xem ứng dụng radar thời tiết trên điện thoại của bạn để cập nhật không?"
       ],
       "correctAnswer": "Nếu thời tiết xấu, chúng tôi có thể sẽ ở nhà và xem phim thay vào đó.",
       "explanationVi": "Câu nghe được: \"If the weather is bad, we might stay at home and watch movies instead.\" có nghĩa là: \"Nếu thời tiết xấu, chúng tôi có thể sẽ ở nhà và xem phim thay vào đó.\"."
@@ -403,32 +403,32 @@
     {
       "id": "ex-038-29",
       "type": "reading_comprehension",
-      "promptVi": "[Đọc hiểu đoạn văn] Đọc đoạn hội thoại sau và trả lời câu hỏi:",
+      "promptVi": "[Đọc hiểu đoạn văn] Đọc kĩ đoạn hội thoại và chọn nhận định đúng về nội dung:",
       "passage": "Benjamin: \"Are you going camping in the national forest this weekend, Diana?\"\nDiana: \"I am not completely sure yet. It may rain heavily on Saturday afternoon.\"\nBenjamin: \"The weather forecast said temperatures might drop significantly at night.\"\nDiana: \"If the weather is bad, we might stay at home and watch movies instead.\"",
-      "question": "Chủ đề trọng tâm của đoạn hội thoại trên là gì?",
+      "question": "Dựa vào đoạn đối thoại trên, thông tin nào sau đây là CHÍNH XÁC về nội dung câu nói của Benjamin?",
       "options": [
-        "Động từ Khuyết thiếu — May / Might (Sự chắc chắn không cao & Xin phép lịch sự)",
-        "Cách làm món ăn truyền thống",
-        "Kế hoạch đi mua sắm tại siêu thị",
-        "Lịch trình đi du lịch nghỉ mát cuối tuần"
+        "Benjamin từ chối trả lời và yêu cầu hủy cuộc hẹn.",
+        "Benjamin chia sẻ thông tin: \"Bạn có đi cắm trại trong rừng quốc gia cuối tuần này không, Diana?\"",
+        "Benjamin muốn mượn tiền để mua vé máy bay gấp.",
+        "Benjamin phàn nàn rằng thời tiết hôm nay quá xấu."
       ],
-      "correctAnswer": "Động từ Khuyết thiếu — May / Might (Sự chắc chắn không cao & Xin phép lịch sự)",
-      "explanationVi": "Đoạn hội thoại được thiết kế để minh họa trực tiếp cho chủ điểm \"Bài 38: Động từ Khuyết thiếu — May / Might (Sự chắc chắn không cao & Xin phép lịch sự)\"."
+      "correctAnswer": "Benjamin chia sẻ thông tin: \"Bạn có đi cắm trại trong rừng quốc gia cuối tuần này không, Diana?\"",
+      "explanationVi": "Trong đoạn hội thoại, Benjamin đã nói: \"Are you going camping in the national forest this weekend, Diana?\" (nghĩa là: \"Bạn có đi cắm trại trong rừng quốc gia cuối tuần này không, Diana?\")."
     },
     {
       "id": "ex-038-30",
       "type": "reading_comprehension",
-      "promptVi": "[Đọc hiểu đoạn văn] Đọc đoạn đối thoại tiếp theo và chọn nhận định đúng:",
+      "promptVi": "[Đọc hiểu đoạn văn] Đọc phần đối thoại tiếp theo và trả lời câu hỏi:",
       "passage": "Benjamin: \"May I check your smartphone's weather radar application for updates?\"\nDiana: \"Yes, of course you may. The satellite images look quite cloudy.\"\nBenjamin: \"Our mutual friend George might join us if his business trip finishes early.\"\nDiana: \"He may not have enough free time because his schedule is very busy.\"",
-      "question": "Nhận định nào sau đây là ĐÚNG về nội dung đoạn đối thoại?",
+      "question": "Trong đoạn hội thoại trên, câu nói \"He may not have enough free time because his schedule is very busy.\" của Diana mang ý nghĩa gì?",
       "options": [
-        "Cuộc trò chuyện diễn ra tại nhà ga xe lửa.",
-        "Hai nhân vật đang cãi nhau và không đồng ý hợp tác.",
-        "Các câu thoại sử dụng đúng cấu trúc \"Động từ Khuyết thiếu — May / Might (Sự chắc chắn không cao & Xin phép lịch sự)\".",
-        "Cả hai nhân vật đang thảo luận về thời tiết ngày mai."
+        "Phản hồi: \"Yêu cầu cung cấp hóa đơn thanh toán tiền mặt\"",
+        "Phản hồi: \"Hẹn gặp lại vào cuối tuần sau tại sân bay quốc tế\"",
+        "Phản hồi: \"Anh ấy có thể không có đủ thời gian rảnh vì lịch trình của anh ấy rất bận rộn.\"",
+        "Phản hồi: \"Hoàn toàn không đồng ý và muốn rời khỏi phòng ngay lập tức\""
       ],
-      "correctAnswer": "Các câu thoại sử dụng đúng cấu trúc \"Động từ Khuyết thiếu — May / Might (Sự chắc chắn không cao & Xin phép lịch sự)\".",
-      "explanationVi": "Đoạn đối thoại ứng dụng chuẩn xác ngữ pháp của \"Bài 38: Động từ Khuyết thiếu — May / Might (Sự chắc chắn không cao & Xin phép lịch sự)\"."
+      "correctAnswer": "Phản hồi: \"Anh ấy có thể không có đủ thời gian rảnh vì lịch trình của anh ấy rất bận rộn.\"",
+      "explanationVi": "Diana nói: \"He may not have enough free time because his schedule is very busy.\" có nghĩa là: \"Anh ấy có thể không có đủ thời gian rảnh vì lịch trình của anh ấy rất bận rộn.\"."
     }
   ]
 }

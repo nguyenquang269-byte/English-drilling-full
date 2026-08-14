@@ -10,10 +10,10 @@
       "promptVi": "[Trắc nghiệm ngữ pháp] Chọn từ đúng để hoàn thành câu (Nếu không có sự giúp đỡ của bạn, tôi không thể hoàn thành dự án này.):",
       "question": "___ your help, I couldn't finish this project.",
       "options": [
-        "Without",
         "With",
+        "Unless",
         "Except",
-        "Unless"
+        "Without"
       ],
       "correctAnswer": "Without",
       "explanationVi": "'Without + Noun' mang nghĩa 'Nếu không có... thì không thể'."
@@ -25,9 +25,9 @@
       "question": "He left the room without ___ a word.",
       "options": [
         "said",
+        "to say",
         "say",
-        "saying",
-        "to say"
+        "saying"
       ],
       "correctAnswer": "saying",
       "explanationVi": "Sau giới từ 'without' động từ ở dạng V-ing (saying)."
@@ -38,8 +38,8 @@
       "promptVi": "[Trắc nghiệm ngữ pháp] Chọn từ đúng để hoàn thành câu (Nhờ có sự làm việc chăm chỉ, bạn có thể đạt được các mục tiêu của mình.):",
       "question": "___ hard work, you can achieve your goals.",
       "options": [
-        "In",
         "With",
+        "In",
         "Without",
         "For"
       ],
@@ -52,10 +52,10 @@
       "promptVi": "[Trắc nghiệm ngữ pháp] Chọn từ đúng để hoàn thành câu (Anh ấy ngồi đọc sách với chiếc cửa sổ đang mở.):",
       "question": "He sat reading a book with the window ___.",
       "options": [
-        "opened",
+        "opening",
         "open",
-        "to open",
-        "opening"
+        "opened",
+        "to open"
       ],
       "correctAnswer": "open",
       "explanationVi": "Cấu trúc trạng thái 'with + noun + adj' (with the window open)."
@@ -66,10 +66,10 @@
       "promptVi": "[Phản xạ dịch thuật] Dịch câu sau sang tiếng Anh: \"Chào buổi sáng Tiến sĩ Thorne. Nếu không có hệ thống giám sát bằng máy bay không người lái hiện đại, chúng ta sẽ không bao giờ có thể theo dõi loài báo tuyết quý hiếm. (Without + Noun = If we didn't have)\"",
       "question": "Chọn bản dịch chuẩn xác nhất cho câu: \"Chào buổi sáng Tiến sĩ Thorne. Nếu không có hệ thống giám sát bằng máy bay không người lái hiện đại, chúng ta sẽ không bao giờ có thể theo dõi loài báo tuyết quý hiếm. (Without + Noun = If we didn't have)\"",
       "options": [
+        "We are studying English today.",
         "Indeed. With advanced infrared thermal imaging, our research team can track nocturnal animal movements easily.",
-        "is",
         "Good morning, Dr. Thorne. Without modern drone surveillance, we could never monitor endangered snow leopards.",
-        "We are studying English today."
+        "is"
       ],
       "correctAnswer": "Good morning, Dr. Thorne. Without modern drone surveillance, we could never monitor endangered snow leopards.",
       "explanationVi": "Câu dịch chuẩn xác: \"Good morning, Dr. Thorne. Without modern drone surveillance, we could never monitor endangered snow leopards.\" (Chào buổi sáng Tiến sĩ Thorne. Nếu không có hệ thống giám sát bằng máy bay không người lái hiện đại, chúng ta sẽ không bao giờ có thể theo dõi loài báo tuyết quý hiếm. (Without + Noun = If we didn't have))."
@@ -80,10 +80,10 @@
       "promptVi": "[Ngữ cảnh giao tiếp] Chọn câu phản hồi tự nhiên và đúng ngữ pháp:",
       "question": "Khi đối phương nói: \"Good morning, Dr. Thorne. Without modern drone surveillance, we could never monitor endangered snow leopards.\", câu phản hồi phù hợp là gì?",
       "options": [
-        "Indeed. With advanced infrared thermal imaging, our research team can track nocturnal animal movements easily.",
-        "They are not in the office.",
         "No, it was yesterday.",
-        "Yes, I will eat it."
+        "Indeed. With advanced infrared thermal imaging, our research team can track nocturnal animal movements easily.",
+        "Yes, I will eat it.",
+        "They are not in the office."
       ],
       "correctAnswer": "Indeed. With advanced infrared thermal imaging, our research team can track nocturnal animal movements easily.",
       "explanationVi": "Phản hồi phù hợp trong bài: \"Indeed. With advanced infrared thermal imaging, our research team can track nocturnal animal movements easily.\" (Quả thực như vậy. Với công nghệ ảnh nhiệt hồng ngoại tiên tiến, đội nghiên cứu của chúng ta có thể theo dõi sự di chuyển ban đêm của động vật một cách dễ dàng. (With + Noun))."
@@ -95,10 +95,10 @@
       "question": "___ your help, I couldn't finish this project.",
       "correctAnswer": "Without",
       "options": [
-        "Unless",
-        "With",
         "Except",
-        "Without"
+        "Unless",
+        "Without",
+        "With"
       ],
       "explanationVi": "Đáp án đúng là \"Without\". Câu hoàn chỉnh: \"Without your help, I couldn't finish this project.\" (Nếu không có sự giúp đỡ của bạn, tôi không thể hoàn thành dự án này.)."
     },
@@ -110,9 +110,9 @@
       "correctAnswer": "saying",
       "options": [
         "said",
+        "to say",
         "saying",
-        "say",
-        "to say"
+        "say"
       ],
       "explanationVi": "Đáp án đúng là \"saying\". Câu hoàn chỉnh: \"He left the room without saying a word.\" (Anh ấy đã rời khỏi phòng mà không nói một lời nào.)."
     },
@@ -123,8 +123,8 @@
       "question": "___ hard work, you can achieve your goals.",
       "correctAnswer": "With",
       "options": [
-        "In",
         "With",
+        "In",
         "Without",
         "For"
       ],
@@ -137,10 +137,10 @@
       "question": "He sat reading a book with the window ___.",
       "correctAnswer": "open",
       "options": [
-        "opened",
-        "to open",
+        "open",
         "opening",
-        "open"
+        "opened",
+        "to open"
       ],
       "explanationVi": "Đáp án đúng là \"open\". Câu hoàn chỉnh: \"He sat reading a book with the window open.\" (Anh ấy ngồi đọc sách với chiếc cửa sổ đang mở.)."
     },
@@ -151,10 +151,10 @@
       "question": "Without _____ not help, I couldn't finish this project.",
       "correctAnswer": "your",
       "options": [
-        "are",
+        "is",
         "am",
         "your",
-        "is"
+        "are"
       ],
       "explanationVi": "Câu phủ định hoàn chỉnh: \"Without your not help, I couldn't finish this project.\"."
     },
@@ -164,14 +164,14 @@
       "promptVi": "[Sắp xếp câu] Ghép các khối từ thành câu hoàn chỉnh mang nghĩa: \"Nếu không có sự giúp đỡ của bạn, tôi không thể hoàn thành dự án này.\"",
       "question": "Sắp xếp các từ để tạo thành câu đúng: \"Nếu không có sự giúp đỡ của bạn, tôi không thể hoàn thành dự án này.\"",
       "words": [
-        "couldn't",
-        "finish",
-        "this",
-        "project.",
-        "Without",
         "I",
+        "project.",
         "help,",
-        "your"
+        "this",
+        "your",
+        "finish",
+        "Without",
+        "couldn't"
       ],
       "correctSentence": "Without your help, I couldn't finish this project.",
       "hintVi": "Nếu không có sự giúp đỡ của bạn, tôi không thể hoàn thành dự án này.",
@@ -183,14 +183,14 @@
       "promptVi": "[Sắp xếp câu] Ghép các khối từ thành câu hoàn chỉnh mang nghĩa: \"Anh ấy đã rời khỏi phòng mà không nói một lời nào.\"",
       "question": "Sắp xếp các từ để tạo thành câu đúng: \"Anh ấy đã rời khỏi phòng mà không nói một lời nào.\"",
       "words": [
-        "without",
         "saying",
-        "left",
-        "He",
-        "room",
+        "without",
         "a",
         "word.",
-        "the"
+        "the",
+        "room",
+        "He",
+        "left"
       ],
       "correctSentence": "He left the room without saying a word.",
       "hintVi": "Anh ấy đã rời khỏi phòng mà không nói một lời nào.",
@@ -202,14 +202,14 @@
       "promptVi": "[Sắp xếp câu] Ghép các khối từ thành câu hoàn chỉnh mang nghĩa: \"Nhờ có sự làm việc chăm chỉ, bạn có thể đạt được các mục tiêu của mình.\"",
       "question": "Sắp xếp các từ để tạo thành câu đúng: \"Nhờ có sự làm việc chăm chỉ, bạn có thể đạt được các mục tiêu của mình.\"",
       "words": [
-        "hard",
+        "achieve",
         "can",
+        "With",
         "goals.",
         "you",
-        "achieve",
-        "work,",
-        "With",
-        "your"
+        "your",
+        "hard",
+        "work,"
       ],
       "correctSentence": "With hard work, you can achieve your goals.",
       "hintVi": "Nhờ có sự làm việc chăm chỉ, bạn có thể đạt được các mục tiêu của mình.",
@@ -221,14 +221,14 @@
       "promptVi": "[Sắp xếp câu] Ghép các khối từ thành câu hoàn chỉnh mang nghĩa: \"Anh ấy ngồi đọc sách với chiếc cửa sổ đang mở.\"",
       "question": "Sắp xếp các từ để tạo thành câu đúng: \"Anh ấy ngồi đọc sách với chiếc cửa sổ đang mở.\"",
       "words": [
-        "with",
-        "the",
-        "reading",
-        "window",
         "a",
+        "the",
+        "window",
         "He",
         "book",
         "open.",
+        "with",
+        "reading",
         "sat"
       ],
       "correctSentence": "He sat reading a book with the window open.",
@@ -241,20 +241,20 @@
       "promptVi": "[Sắp xếp câu] Ghép các từ thành câu hội thoại: \"Nếu không đảm bảo được khoản tài trợ khẩn cấp của chính phủ vào năm ngoái, khu bảo tồn động vật hoang dã đã phải đóng cửa rồi. (Without securing + V-ing)\"",
       "question": "Sắp xếp các từ để tạo thành câu thoại: \"Nếu không đảm bảo được khoản tài trợ khẩn cấp của chính phủ vào năm ngoái, khu bảo tồn động vật hoang dã đã phải đóng cửa rồi. (Without securing + V-ing)\"",
       "words": [
-        "the",
-        "year",
-        "last",
-        "have",
-        "sanctuary",
         "down",
         "government",
-        "securing",
+        "emergency",
+        "sanctuary",
         "funding",
+        "the",
+        "securing",
         "Without",
+        "last",
         "closed",
-        "would",
         "wildlife",
-        "emergency"
+        "would",
+        "year",
+        "have"
       ],
       "correctSentence": "Without securing emergency government funding last year, the wildlife sanctuary would have closed down.",
       "hintVi": "Nếu không đảm bảo được khoản tài trợ khẩn cấp của chính phủ vào năm ngoái, khu bảo tồn động vật hoang dã đã phải đóng cửa rồi. (Without securing + V-ing)",
@@ -266,10 +266,10 @@
       "promptVi": "[Nhận diện cấu trúc chuẩn] Chọn câu có cấu trúc ngữ pháp HOÀN TOÀN ĐÚNG:",
       "question": "Dựa vào chủ điểm \"Bài 82: Cấu trúc With & Without (With / Without + Noun / V-ing in Conditional & Adverbial Use)\", câu nào sau đây CHÍNH XÁC?",
       "options": [
-        "project. this finish couldn't I help, your Without",
-        "are",
         "Without your help, I couldn't finish this project.",
-        "is"
+        "is",
+        "are",
+        "project. this finish couldn't I help, your Without"
       ],
       "correctAnswer": "Without your help, I couldn't finish this project.",
       "explanationVi": "Cấu trúc chuẩn xác là: \"Without your help, I couldn't finish this project.\" (Nếu không có sự giúp đỡ của bạn, tôi không thể hoàn thành dự án này.)."
@@ -280,10 +280,10 @@
       "promptVi": "[Nhận diện cấu trúc chuẩn] Chọn câu có cấu trúc ngữ pháp HOÀN TOÀN ĐÚNG:",
       "question": "Dựa vào chủ điểm \"Bài 82: Cấu trúc With & Without (With / Without + Noun / V-ing in Conditional & Adverbial Use)\", câu nào sau đây CHÍNH XÁC?",
       "options": [
-        "word. a saying without room the left He",
-        "are",
         "is",
-        "He left the room without saying a word."
+        "He left the room without saying a word.",
+        "are",
+        "word. a saying without room the left He"
       ],
       "correctAnswer": "He left the room without saying a word.",
       "explanationVi": "Cấu trúc chuẩn xác là: \"He left the room without saying a word.\" (Anh ấy đã rời khỏi phòng mà không nói một lời nào.)."
@@ -294,10 +294,10 @@
       "promptVi": "[Nhận diện cấu trúc chuẩn] Chọn câu có cấu trúc ngữ pháp HOÀN TOÀN ĐÚNG:",
       "question": "Dựa vào chủ điểm \"Bài 82: Cấu trúc With & Without (With / Without + Noun / V-ing in Conditional & Adverbial Use)\", câu nào sau đây CHÍNH XÁC?",
       "options": [
-        "is",
-        "With hard work, you can achieve your goals.",
+        "at hard work, you can achieve your goals.",
         "goals. your achieve can you work, hard With",
-        "at hard work, you can achieve your goals."
+        "is",
+        "With hard work, you can achieve your goals."
       ],
       "correctAnswer": "With hard work, you can achieve your goals.",
       "explanationVi": "Cấu trúc chuẩn xác là: \"With hard work, you can achieve your goals.\" (Nhờ có sự làm việc chăm chỉ, bạn có thể đạt được các mục tiêu của mình.)."
@@ -308,10 +308,10 @@
       "promptVi": "[Nhận diện cấu trúc chuẩn] Chọn câu có cấu trúc ngữ pháp HOÀN TOÀN ĐÚNG:",
       "question": "Dựa vào chủ điểm \"Bài 82: Cấu trúc With & Without (With / Without + Noun / V-ing in Conditional & Adverbial Use)\", câu nào sau đây CHÍNH XÁC?",
       "options": [
-        "He sat reading a book with the window open.",
+        "open. window the with book a reading sat He",
         "is",
-        "He sat reading a book at the window open.",
-        "open. window the with book a reading sat He"
+        "He sat reading a book with the window open.",
+        "He sat reading a book at the window open."
       ],
       "correctAnswer": "He sat reading a book with the window open.",
       "explanationVi": "Cấu trúc chuẩn xác là: \"He sat reading a book with the window open.\" (Anh ấy ngồi đọc sách với chiếc cửa sổ đang mở.)."
@@ -338,10 +338,10 @@
       "audioPrompt": "Indeed. With advanced infrared thermal imaging, our research team can track nocturnal animal movements easily.",
       "question": "Nhấn nút '🔊 Nghe audio' và chọn nghĩa tiếng Việt đúng:",
       "options": [
+        "Nếu không đảm bảo được khoản tài trợ khẩn cấp của chính phủ vào năm ngoái, khu bảo tồn động vật hoang dã đã phải đóng cửa rồi. (Without securing + V-ing)",
         "Quả thực như vậy. Với công nghệ ảnh nhiệt hồng ngoại tiên tiến, đội nghiên cứu của chúng ta có thể theo dõi sự di chuyển ban đêm của động vật một cách dễ dàng. (With + Noun)",
-        "Hôm nay thời tiết rất đẹp.",
         "Với hàng ngàn khoản quyên góp hảo tâm của công chúng đổ về, chúng ta đã mở rộng phòng khám thú y một cách suôn sẻ.",
-        "Nếu không đảm bảo được khoản tài trợ khẩn cấp của chính phủ vào năm ngoái, khu bảo tồn động vật hoang dã đã phải đóng cửa rồi. (Without securing + V-ing)"
+        "Hôm nay thời tiết rất đẹp."
       ],
       "correctAnswer": "Quả thực như vậy. Với công nghệ ảnh nhiệt hồng ngoại tiên tiến, đội nghiên cứu của chúng ta có thể theo dõi sự di chuyển ban đêm của động vật một cách dễ dàng. (With + Noun)",
       "explanationVi": "Câu nghe được: \"Indeed. With advanced infrared thermal imaging, our research team can track nocturnal animal movements easily.\" có nghĩa là: \"Quả thực như vậy. Với công nghệ ảnh nhiệt hồng ngoại tiên tiến, đội nghiên cứu của chúng ta có thể theo dõi sự di chuyển ban đêm của động vật một cách dễ dàng. (With + Noun)\"."
@@ -353,10 +353,10 @@
       "audioPrompt": "Without securing emergency government funding last year, the wildlife sanctuary would have closed down.",
       "question": "Nhấn nút '🔊 Nghe audio' và chọn nghĩa tiếng Việt đúng:",
       "options": [
-        "Nếu không đảm bảo được khoản tài trợ khẩn cấp của chính phủ vào năm ngoái, khu bảo tồn động vật hoang dã đã phải đóng cửa rồi. (Without securing + V-ing)",
-        "Với hàng ngàn khoản quyên góp hảo tâm của công chúng đổ về, chúng ta đã mở rộng phòng khám thú y một cách suôn sẻ.",
+        "Hôm nay thời tiết rất đẹp.",
         "Các kiểm lâm địa phương có thể tuần tra các rặng núi cao an toàn mà không cần mặc đồ định vị vệ tinh giữ nhiệt không? (without wearing)",
-        "Hôm nay thời tiết rất đẹp."
+        "Với hàng ngàn khoản quyên góp hảo tâm của công chúng đổ về, chúng ta đã mở rộng phòng khám thú y một cách suôn sẻ.",
+        "Nếu không đảm bảo được khoản tài trợ khẩn cấp của chính phủ vào năm ngoái, khu bảo tồn động vật hoang dã đã phải đóng cửa rồi. (Without securing + V-ing)"
       ],
       "correctAnswer": "Nếu không đảm bảo được khoản tài trợ khẩn cấp của chính phủ vào năm ngoái, khu bảo tồn động vật hoang dã đã phải đóng cửa rồi. (Without securing + V-ing)",
       "explanationVi": "Câu nghe được: \"Without securing emergency government funding last year, the wildlife sanctuary would have closed down.\" có nghĩa là: \"Nếu không đảm bảo được khoản tài trợ khẩn cấp của chính phủ vào năm ngoái, khu bảo tồn động vật hoang dã đã phải đóng cửa rồi. (Without securing + V-ing)\"."
@@ -368,10 +368,10 @@
       "audioPrompt": "With thousands of generous public donations pouring in, we expanded our veterinary clinic smoothly.",
       "question": "Nhấn nút '🔊 Nghe audio' và chọn nghĩa tiếng Việt đúng:",
       "options": [
-        "Hôm nay thời tiết rất đẹp.",
+        "Với hàng ngàn khoản quyên góp hảo tâm của công chúng đổ về, chúng ta đã mở rộng phòng khám thú y một cách suôn sẻ.",
         "Các kiểm lâm địa phương có thể tuần tra các rặng núi cao an toàn mà không cần mặc đồ định vị vệ tinh giữ nhiệt không? (without wearing)",
-        "Không, việc di chuyển trên các đỉnh núi tuyết mà không có thiết bị sinh tồn thích hợp là cực kỳ nguy hiểm.",
-        "Với hàng ngàn khoản quyên góp hảo tâm của công chúng đổ về, chúng ta đã mở rộng phòng khám thú y một cách suôn sẻ."
+        "Hôm nay thời tiết rất đẹp.",
+        "Không, việc di chuyển trên các đỉnh núi tuyết mà không có thiết bị sinh tồn thích hợp là cực kỳ nguy hiểm."
       ],
       "correctAnswer": "Với hàng ngàn khoản quyên góp hảo tâm của công chúng đổ về, chúng ta đã mở rộng phòng khám thú y một cách suôn sẻ.",
       "explanationVi": "Câu nghe được: \"With thousands of generous public donations pouring in, we expanded our veterinary clinic smoothly.\" có nghĩa là: \"Với hàng ngàn khoản quyên góp hảo tâm của công chúng đổ về, chúng ta đã mở rộng phòng khám thú y một cách suôn sẻ.\"."
@@ -415,32 +415,32 @@
     {
       "id": "ex-082-29",
       "type": "reading_comprehension",
-      "promptVi": "[Đọc hiểu đoạn văn] Đọc đoạn hội thoại sau và trả lời câu hỏi:",
+      "promptVi": "[Đọc hiểu đoạn văn] Đọc kĩ đoạn hội thoại và chọn nhận định đúng về nội dung:",
       "passage": "Ranger Maxwell: \"Good morning, Dr. Thorne. Without modern drone surveillance, we could never monitor endangered snow leopards.\"\nDr. Thorne: \"Indeed. With advanced infrared thermal imaging, our research team can track nocturnal animal movements easily.\"\nRanger Maxwell: \"Without securing emergency government funding last year, the wildlife sanctuary would have closed down.\"\nDr. Thorne: \"With thousands of generous public donations pouring in, we expanded our veterinary clinic smoothly.\"",
-      "question": "Chủ đề trọng tâm của đoạn hội thoại trên là gì?",
+      "question": "Dựa vào đoạn đối thoại trên, thông tin nào sau đây là CHÍNH XÁC về nội dung câu nói của Ranger Maxwell?",
       "options": [
-        "Kế hoạch đi mua sắm tại siêu thị",
-        "Lịch trình đi du lịch nghỉ mát cuối tuần",
-        "Cách làm món ăn truyền thống",
-        "Cấu trúc With & Without (With / Without + Noun / V-ing in Conditional & Adverbial Use)"
+        "Ranger Maxwell muốn mượn tiền để mua vé máy bay gấp.",
+        "Ranger Maxwell chia sẻ thông tin: \"Chào buổi sáng Tiến sĩ Thorne. Nếu không có hệ thống giám sát bằng máy bay không người lái hiện đại, chúng ta sẽ không bao giờ có thể theo dõi loài báo tuyết quý hiếm. (Without + Noun = If we didn't have)\"",
+        "Ranger Maxwell phàn nàn rằng thời tiết hôm nay quá xấu.",
+        "Ranger Maxwell từ chối trả lời và yêu cầu hủy cuộc hẹn."
       ],
-      "correctAnswer": "Cấu trúc With & Without (With / Without + Noun / V-ing in Conditional & Adverbial Use)",
-      "explanationVi": "Đoạn hội thoại được thiết kế để minh họa trực tiếp cho chủ điểm \"Bài 82: Cấu trúc With & Without (With / Without + Noun / V-ing in Conditional & Adverbial Use)\"."
+      "correctAnswer": "Ranger Maxwell chia sẻ thông tin: \"Chào buổi sáng Tiến sĩ Thorne. Nếu không có hệ thống giám sát bằng máy bay không người lái hiện đại, chúng ta sẽ không bao giờ có thể theo dõi loài báo tuyết quý hiếm. (Without + Noun = If we didn't have)\"",
+      "explanationVi": "Trong đoạn hội thoại, Ranger Maxwell đã nói: \"Good morning, Dr. Thorne. Without modern drone surveillance, we could never monitor endangered snow leopards.\" (nghĩa là: \"Chào buổi sáng Tiến sĩ Thorne. Nếu không có hệ thống giám sát bằng máy bay không người lái hiện đại, chúng ta sẽ không bao giờ có thể theo dõi loài báo tuyết quý hiếm. (Without + Noun = If we didn't have)\")."
     },
     {
       "id": "ex-082-30",
       "type": "reading_comprehension",
-      "promptVi": "[Đọc hiểu đoạn văn] Đọc đoạn đối thoại tiếp theo và chọn nhận định đúng:",
+      "promptVi": "[Đọc hiểu đoạn văn] Đọc phần đối thoại tiếp theo và trả lời câu hỏi:",
       "passage": "Ranger Maxwell: \"Can local forest rangers patrol high mountain ridges safely without wearing thermal satellite gear?\"\nDr. Thorne: \"No, navigating snowy peaks without proper survival equipment is extremely hazardous.\"\nRanger Maxwell: \"With proper training and strict anti-poaching protocols, wildlife populations have increased by thirty percent.\"\nDr. Thorne: \"Without community education programs, local villagers wouldn't have supported our wildlife reserve.\"",
-      "question": "Nhận định nào sau đây là ĐÚNG về nội dung đoạn đối thoại?",
+      "question": "Trong đoạn hội thoại trên, câu nói \"Without community education programs, local villagers wouldn't have supported our wildlife reserve.\" của Dr. Thorne mang ý nghĩa gì?",
       "options": [
-        "Các câu thoại sử dụng đúng cấu trúc \"Cấu trúc With & Without (With / Without + Noun / V-ing in Conditional & Adverbial Use)\".",
-        "Hai nhân vật đang cãi nhau và không đồng ý hợp tác.",
-        "Cuộc trò chuyện diễn ra tại nhà ga xe lửa.",
-        "Cả hai nhân vật đang thảo luận về thời tiết ngày mai."
+        "Phản hồi: \"Hẹn gặp lại vào cuối tuần sau tại sân bay quốc tế\"",
+        "Phản hồi: \"Hoàn toàn không đồng ý và muốn rời khỏi phòng ngay lập tức\"",
+        "Phản hồi: \"Nếu không có các chương trình giáo dục cộng đồng, dân làng địa phương đã không ủng hộ khu bảo tồn động vật hoang dã của chúng ta.\"",
+        "Phản hồi: \"Yêu cầu cung cấp hóa đơn thanh toán tiền mặt\""
       ],
-      "correctAnswer": "Các câu thoại sử dụng đúng cấu trúc \"Cấu trúc With & Without (With / Without + Noun / V-ing in Conditional & Adverbial Use)\".",
-      "explanationVi": "Đoạn đối thoại ứng dụng chuẩn xác ngữ pháp của \"Bài 82: Cấu trúc With & Without (With / Without + Noun / V-ing in Conditional & Adverbial Use)\"."
+      "correctAnswer": "Phản hồi: \"Nếu không có các chương trình giáo dục cộng đồng, dân làng địa phương đã không ủng hộ khu bảo tồn động vật hoang dã của chúng ta.\"",
+      "explanationVi": "Dr. Thorne nói: \"Without community education programs, local villagers wouldn't have supported our wildlife reserve.\" có nghĩa là: \"Nếu không có các chương trình giáo dục cộng đồng, dân làng địa phương đã không ủng hộ khu bảo tồn động vật hoang dã của chúng ta.\"."
     }
   ]
 }

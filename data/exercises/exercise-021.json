@@ -11,9 +11,9 @@
       "question": "This smartphone is ___ than that one.",
       "options": [
         "fastest",
+        "more fast",
         "faster",
-        "fast",
-        "more fast"
+        "fast"
       ],
       "correctAnswer": "faster",
       "explanationVi": "Tính từ ngắn 'fast' thêm đuôi '-er' thành 'faster'."
@@ -25,9 +25,9 @@
       "question": "He is the ___ student in our class.",
       "options": [
         "tall",
+        "tallest",
         "most tall",
-        "taller",
-        "tallest"
+        "taller"
       ],
       "correctAnswer": "tallest",
       "explanationVi": "Sau 'the' dùng dạng so sánh nhất '-est' -> 'tallest'."
@@ -39,9 +39,9 @@
       "question": "Today is ___ than yesterday.",
       "options": [
         "hotter",
+        "more hot",
         "hoter",
-        "hot",
-        "more hot"
+        "hot"
       ],
       "correctAnswer": "hotter",
       "explanationVi": "'hot' (nguyên âm o + phụ âm t) nhân đôi t -> 'hotter'."
@@ -52,10 +52,10 @@
       "promptVi": "[Trắc nghiệm ngữ pháp] Chọn từ đúng để hoàn thành câu (Chiếc hộp này nặng hơn chiếc túi kia.):",
       "question": "This box is ___ than that bag.",
       "options": [
-        "heavyer",
         "heaviest",
         "heavier",
-        "more heavy"
+        "more heavy",
+        "heavyer"
       ],
       "correctAnswer": "heavier",
       "explanationVi": "Tính từ kết thúc bằng 'y' đổi thành '-ier' -> 'heavier'."
@@ -66,10 +66,10 @@
       "promptVi": "[Phản xạ dịch thuật] Dịch câu sau sang tiếng Anh: \"Hãy nhìn hai chiếc điện thoại thông minh mới này đi Diana. Chiếc nào chạy nhanh hơn?\"",
       "question": "Chọn bản dịch chuẩn xác nhất cho câu: \"Hãy nhìn hai chiếc điện thoại thông minh mới này đi Diana. Chiếc nào chạy nhanh hơn?\"",
       "options": [
-        "We are studying English today.",
-        "Look at these two new smartphones, Diana. Which one is faster?",
         "Look at these two new smartphones, Diana. Which one be faster?",
-        "The silver phone is faster and lighter than the black one."
+        "Look at these two new smartphones, Diana. Which one is faster?",
+        "The silver phone is faster and lighter than the black one.",
+        "We are studying English today."
       ],
       "correctAnswer": "Look at these two new smartphones, Diana. Which one is faster?",
       "explanationVi": "Câu dịch chuẩn xác: \"Look at these two new smartphones, Diana. Which one is faster?\" (Hãy nhìn hai chiếc điện thoại thông minh mới này đi Diana. Chiếc nào chạy nhanh hơn?)."
@@ -81,9 +81,9 @@
       "question": "Khi đối phương nói: \"Look at these two new smartphones, Diana. Which one is faster?\", câu phản hồi phù hợp là gì?",
       "options": [
         "No, it was yesterday.",
-        "The silver phone is faster and lighter than the black one.",
         "Yes, I will eat it.",
-        "They are not in the office."
+        "They are not in the office.",
+        "The silver phone is faster and lighter than the black one."
       ],
       "correctAnswer": "The silver phone is faster and lighter than the black one.",
       "explanationVi": "Phản hồi phù hợp trong bài: \"The silver phone is faster and lighter than the black one.\" (Chiếc điện thoại màu bạc nhanh hơn và nhẹ hơn chiếc màu đen.)."
@@ -95,10 +95,10 @@
       "question": "This smartphone is ___ than that one.",
       "correctAnswer": "faster",
       "options": [
+        "faster",
         "more fast",
-        "fastest",
         "fast",
-        "faster"
+        "fastest"
       ],
       "explanationVi": "Đáp án đúng là \"faster\". Câu hoàn chỉnh: \"This smartphone is faster than that one.\" (Chiếc điện thoại thông minh này nhanh hơn chiếc kia.)."
     },
@@ -123,10 +123,10 @@
       "question": "Today is ___ than yesterday.",
       "correctAnswer": "hotter",
       "options": [
-        "hot",
+        "more hot",
         "hoter",
         "hotter",
-        "more hot"
+        "hot"
       ],
       "explanationVi": "Đáp án đúng là \"hotter\". Câu hoàn chỉnh: \"Today is hotter than yesterday.\" (Hôm nay trời nóng hơn hôm qua.)."
     },
@@ -164,13 +164,13 @@
       "promptVi": "[Sắp xếp câu] Ghép các khối từ thành câu hoàn chỉnh mang nghĩa: \"Chiếc điện thoại thông minh này nhanh hơn chiếc kia.\"",
       "question": "Sắp xếp các từ để tạo thành câu đúng: \"Chiếc điện thoại thông minh này nhanh hơn chiếc kia.\"",
       "words": [
+        "that",
+        "faster",
+        "smartphone",
+        "is",
         "one.",
         "This",
-        "is",
-        "smartphone",
-        "faster",
-        "than",
-        "that"
+        "than"
       ],
       "correctSentence": "This smartphone is faster than that one.",
       "hintVi": "Chiếc điện thoại thông minh này nhanh hơn chiếc kia.",
@@ -182,14 +182,14 @@
       "promptVi": "[Sắp xếp câu] Ghép các khối từ thành câu hoàn chỉnh mang nghĩa: \"Anh ấy là học sinh cao nhất trong lớp chúng tôi.\"",
       "question": "Sắp xếp các từ để tạo thành câu đúng: \"Anh ấy là học sinh cao nhất trong lớp chúng tôi.\"",
       "words": [
-        "He",
+        "is",
+        "in",
+        "our",
         "class.",
         "the",
-        "our",
         "tallest",
-        "in",
         "student",
-        "is"
+        "He"
       ],
       "correctSentence": "He is the tallest student in our class.",
       "hintVi": "Anh ấy là học sinh cao nhất trong lớp chúng tôi.",
@@ -201,11 +201,11 @@
       "promptVi": "[Sắp xếp câu] Ghép các khối từ thành câu hoàn chỉnh mang nghĩa: \"Hôm nay trời nóng hơn hôm qua.\"",
       "question": "Sắp xếp các từ để tạo thành câu đúng: \"Hôm nay trời nóng hơn hôm qua.\"",
       "words": [
-        "is",
+        "hotter",
         "than",
-        "Today",
+        "is",
         "yesterday.",
-        "hotter"
+        "Today"
       ],
       "correctSentence": "Today is hotter than yesterday.",
       "hintVi": "Hôm nay trời nóng hơn hôm qua.",
@@ -218,12 +218,12 @@
       "question": "Sắp xếp các từ để tạo thành câu đúng: \"Chiếc hộp này nặng hơn chiếc túi kia.\"",
       "words": [
         "that",
-        "heavier",
-        "bag.",
-        "than",
-        "is",
         "This",
-        "box"
+        "than",
+        "heavier",
+        "is",
+        "box",
+        "bag."
       ],
       "correctSentence": "This box is heavier than that bag.",
       "hintVi": "Chiếc hộp này nặng hơn chiếc túi kia.",
@@ -235,14 +235,14 @@
       "promptVi": "[Sắp xếp câu] Ghép các từ thành câu hội thoại: \"Chiếc màu đen có rẻ hơn chiếc màu bạc không?\"",
       "question": "Sắp xếp các từ để tạo thành câu thoại: \"Chiếc màu đen có rẻ hơn chiếc màu bạc không?\"",
       "words": [
-        "phone",
-        "Is",
-        "silver",
-        "the",
-        "black",
         "than",
         "the",
         "one",
+        "Is",
+        "black",
+        "silver",
+        "phone",
+        "the",
         "cheaper"
       ],
       "correctSentence": "Is the black phone cheaper than the silver one?",
@@ -255,10 +255,10 @@
       "promptVi": "[Nhận diện cấu trúc chuẩn] Chọn câu có cấu trúc ngữ pháp HOÀN TOÀN ĐÚNG:",
       "question": "Dựa vào chủ điểm \"Bài 21: So sánh Tính từ — Cơ bản (So sánh hơn & So sánh nhất ngắn)\", câu nào sau đây CHÍNH XÁC?",
       "options": [
-        "is",
-        "This smartphone is faster than that one.",
         "one. that than faster is smartphone This",
-        "This smartphone be faster than that one."
+        "is",
+        "This smartphone be faster than that one.",
+        "This smartphone is faster than that one."
       ],
       "correctAnswer": "This smartphone is faster than that one.",
       "explanationVi": "Cấu trúc chuẩn xác là: \"This smartphone is faster than that one.\" (Chiếc điện thoại thông minh này nhanh hơn chiếc kia.)."
@@ -270,8 +270,8 @@
       "question": "Dựa vào chủ điểm \"Bài 21: So sánh Tính từ — Cơ bản (So sánh hơn & So sánh nhất ngắn)\", câu nào sau đây CHÍNH XÁC?",
       "options": [
         "class. our in student tallest the is He",
-        "He is the tallest student in our class.",
         "He be the tallest student in our class.",
+        "He is the tallest student in our class.",
         "He is the tallest student at our class."
       ],
       "correctAnswer": "He is the tallest student in our class.",
@@ -284,8 +284,8 @@
       "question": "Dựa vào chủ điểm \"Bài 21: So sánh Tính từ — Cơ bản (So sánh hơn & So sánh nhất ngắn)\", câu nào sau đây CHÍNH XÁC?",
       "options": [
         "Today is hotter than yesterday.",
-        "is",
         "Today be hotter than yesterday.",
+        "is",
         "yesterday. than hotter is Today"
       ],
       "correctAnswer": "Today is hotter than yesterday.",
@@ -298,9 +298,9 @@
       "question": "Dựa vào chủ điểm \"Bài 21: So sánh Tính từ — Cơ bản (So sánh hơn & So sánh nhất ngắn)\", câu nào sau đây CHÍNH XÁC?",
       "options": [
         "is",
-        "This box be heavier than that bag.",
+        "This box is heavier than that bag.",
         "bag. that than heavier is box This",
-        "This box is heavier than that bag."
+        "This box be heavier than that bag."
       ],
       "correctAnswer": "This box is heavier than that bag.",
       "explanationVi": "Cấu trúc chuẩn xác là: \"This box is heavier than that bag.\" (Chiếc hộp này nặng hơn chiếc túi kia.)."
@@ -312,8 +312,8 @@
       "audioPrompt": "Look at these two new smartphones, Diana. Which one is faster?",
       "question": "Nhấn nút '🔊 Nghe audio' và chọn nghĩa tiếng Việt đúng:",
       "options": [
-        "Chiếc điện thoại màu bạc nhanh hơn và nhẹ hơn chiếc màu đen.",
         "Hãy nhìn hai chiếc điện thoại thông minh mới này đi Diana. Chiếc nào chạy nhanh hơn?",
+        "Chiếc điện thoại màu bạc nhanh hơn và nhẹ hơn chiếc màu đen.",
         "Hôm nay thời tiết rất đẹp.",
         "Chiếc màu đen có rẻ hơn chiếc màu bạc không?"
       ],
@@ -327,10 +327,10 @@
       "audioPrompt": "The silver phone is faster and lighter than the black one.",
       "question": "Nhấn nút '🔊 Nghe audio' và chọn nghĩa tiếng Việt đúng:",
       "options": [
-        "Có, nó rẻ hơn, nhưng thời lượng pin của nó ngắn hơn.",
+        "Hôm nay thời tiết rất đẹp.",
         "Chiếc màu đen có rẻ hơn chiếc màu bạc không?",
         "Chiếc điện thoại màu bạc nhanh hơn và nhẹ hơn chiếc màu đen.",
-        "Hôm nay thời tiết rất đẹp."
+        "Có, nó rẻ hơn, nhưng thời lượng pin của nó ngắn hơn."
       ],
       "correctAnswer": "Chiếc điện thoại màu bạc nhanh hơn và nhẹ hơn chiếc màu đen.",
       "explanationVi": "Câu nghe được: \"The silver phone is faster and lighter than the black one.\" có nghĩa là: \"Chiếc điện thoại màu bạc nhanh hơn và nhẹ hơn chiếc màu đen.\"."
@@ -342,10 +342,10 @@
       "audioPrompt": "Is the black phone cheaper than the silver one?",
       "question": "Nhấn nút '🔊 Nghe audio' và chọn nghĩa tiếng Việt đúng:",
       "options": [
-        "Có, nó rẻ hơn, nhưng thời lượng pin của nó ngắn hơn.",
-        "Chiếc màu đen có rẻ hơn chiếc màu bạc không?",
         "Hôm nay thời tiết rất đẹp.",
-        "Thiết bị nào có màn hình sáng nhất trong cửa hàng này vậy?"
+        "Chiếc màu đen có rẻ hơn chiếc màu bạc không?",
+        "Thiết bị nào có màn hình sáng nhất trong cửa hàng này vậy?",
+        "Có, nó rẻ hơn, nhưng thời lượng pin của nó ngắn hơn."
       ],
       "correctAnswer": "Chiếc màu đen có rẻ hơn chiếc màu bạc không?",
       "explanationVi": "Câu nghe được: \"Is the black phone cheaper than the silver one?\" có nghĩa là: \"Chiếc màu đen có rẻ hơn chiếc màu bạc không?\"."
@@ -358,8 +358,8 @@
       "question": "Nhấn nút '🔊 Nghe audio' và chọn nghĩa tiếng Việt đúng:",
       "options": [
         "Có, nó rẻ hơn, nhưng thời lượng pin của nó ngắn hơn.",
-        "Hôm nay thời tiết rất đẹp.",
         "Thiết bị nào có màn hình sáng nhất trong cửa hàng này vậy?",
+        "Hôm nay thời tiết rất đẹp.",
         "Mẫu pro có màn hình sáng nhất và rõ nét nhất trong tất cả."
       ],
       "correctAnswer": "Có, nó rẻ hơn, nhưng thời lượng pin của nó ngắn hơn.",
@@ -404,32 +404,32 @@
     {
       "id": "ex-021-29",
       "type": "reading_comprehension",
-      "promptVi": "[Đọc hiểu đoạn văn] Đọc đoạn hội thoại sau và trả lời câu hỏi:",
+      "promptVi": "[Đọc hiểu đoạn văn] Đọc kĩ đoạn hội thoại và chọn nhận định đúng về nội dung:",
       "passage": "Oscar: \"Look at these two new smartphones, Diana. Which one is faster?\"\nDiana: \"The silver phone is faster and lighter than the black one.\"\nOscar: \"Is the black phone cheaper than the silver one?\"\nDiana: \"Yes, it is cheaper, but its battery life is shorter.\"",
-      "question": "Chủ đề trọng tâm của đoạn hội thoại trên là gì?",
+      "question": "Dựa vào đoạn đối thoại trên, thông tin nào sau đây là CHÍNH XÁC về nội dung câu nói của Oscar?",
       "options": [
-        "Cách làm món ăn truyền thống",
-        "Kế hoạch đi mua sắm tại siêu thị",
-        "So sánh Tính từ — Cơ bản (So sánh hơn & So sánh nhất ngắn)",
-        "Lịch trình đi du lịch nghỉ mát cuối tuần"
+        "Oscar phàn nàn rằng thời tiết hôm nay quá xấu.",
+        "Oscar chia sẻ thông tin: \"Hãy nhìn hai chiếc điện thoại thông minh mới này đi Diana. Chiếc nào chạy nhanh hơn?\"",
+        "Oscar muốn mượn tiền để mua vé máy bay gấp.",
+        "Oscar từ chối trả lời và yêu cầu hủy cuộc hẹn."
       ],
-      "correctAnswer": "So sánh Tính từ — Cơ bản (So sánh hơn & So sánh nhất ngắn)",
-      "explanationVi": "Đoạn hội thoại được thiết kế để minh họa trực tiếp cho chủ điểm \"Bài 21: So sánh Tính từ — Cơ bản (So sánh hơn & So sánh nhất ngắn)\"."
+      "correctAnswer": "Oscar chia sẻ thông tin: \"Hãy nhìn hai chiếc điện thoại thông minh mới này đi Diana. Chiếc nào chạy nhanh hơn?\"",
+      "explanationVi": "Trong đoạn hội thoại, Oscar đã nói: \"Look at these two new smartphones, Diana. Which one is faster?\" (nghĩa là: \"Hãy nhìn hai chiếc điện thoại thông minh mới này đi Diana. Chiếc nào chạy nhanh hơn?\")."
     },
     {
       "id": "ex-021-30",
       "type": "reading_comprehension",
-      "promptVi": "[Đọc hiểu đoạn văn] Đọc đoạn đối thoại tiếp theo và chọn nhận định đúng:",
+      "promptVi": "[Đọc hiểu đoạn văn] Đọc phần đối thoại tiếp theo và trả lời câu hỏi:",
       "passage": "Oscar: \"Which device has the brightest screen in this store?\"\nDiana: \"The pro model has the brightest and clearest display of all.\"\nOscar: \"My brother's new apartment is larger and closer to work than mine.\"\nDiana: \"Is his neighborhood quieter than your current area?\"",
-      "question": "Nhận định nào sau đây là ĐÚNG về nội dung đoạn đối thoại?",
+      "question": "Trong đoạn hội thoại trên, câu nói \"Is his neighborhood quieter than your current area?\" của Diana mang ý nghĩa gì?",
       "options": [
-        "Hai nhân vật đang cãi nhau và không đồng ý hợp tác.",
-        "Cả hai nhân vật đang thảo luận về thời tiết ngày mai.",
-        "Các câu thoại sử dụng đúng cấu trúc \"So sánh Tính từ — Cơ bản (So sánh hơn & So sánh nhất ngắn)\".",
-        "Cuộc trò chuyện diễn ra tại nhà ga xe lửa."
+        "Phản hồi: \"Yêu cầu cung cấp hóa đơn thanh toán tiền mặt\"",
+        "Phản hồi: \"Khu phố của anh ấy có yên tĩnh hơn khu vực hiện tại của bạn không?\"",
+        "Phản hồi: \"Hoàn toàn không đồng ý và muốn rời khỏi phòng ngay lập tức\"",
+        "Phản hồi: \"Hẹn gặp lại vào cuối tuần sau tại sân bay quốc tế\""
       ],
-      "correctAnswer": "Các câu thoại sử dụng đúng cấu trúc \"So sánh Tính từ — Cơ bản (So sánh hơn & So sánh nhất ngắn)\".",
-      "explanationVi": "Đoạn đối thoại ứng dụng chuẩn xác ngữ pháp của \"Bài 21: So sánh Tính từ — Cơ bản (So sánh hơn & So sánh nhất ngắn)\"."
+      "correctAnswer": "Phản hồi: \"Khu phố của anh ấy có yên tĩnh hơn khu vực hiện tại của bạn không?\"",
+      "explanationVi": "Diana nói: \"Is his neighborhood quieter than your current area?\" có nghĩa là: \"Khu phố của anh ấy có yên tĩnh hơn khu vực hiện tại của bạn không?\"."
     }
   ]
 }
