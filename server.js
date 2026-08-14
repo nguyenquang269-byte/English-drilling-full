@@ -208,6 +208,10 @@ app.use((req, res) => {
   res.sendFile(path.join(__dirname, 'index.html'));
 });
 
-app.listen(PORT, HOST, () => {
-  console.log(`HocDrill server running at http://${HOST}:${PORT}`);
-});
+if (require.main === module) {
+  app.listen(PORT, HOST, () => {
+    console.log(`HocDrill server running at http://${HOST}:${PORT}`);
+  });
+}
+
+module.exports = app;

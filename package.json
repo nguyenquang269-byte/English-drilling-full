@@ -5,7 +5,7 @@
   "scripts": {
     "dev": "node server.js",
     "start": "node server.js",
-    "build": "mkdir -p dist && cp -r index.html app.js data dist/ 2>/dev/null || true"
+    "build": "node scripts/build_exercises.js"
   },
   "keywords": ["english", "learning", "speaking"],
   "author": "nguyenquang269-byte",

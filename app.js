@@ -701,11 +701,16 @@ function loadSelectedLesson() {
     return;
   }
 
-  fetch(`/data/${fileName}`)
-    .then(r => {
-      if (!r.ok) throw new Error("Could not load lesson");
+  const tryFetch = (url) => {
+    return fetch(url).then(r => {
+      if (!r.ok) throw new Error(`HTTP ${r.status}`);
       return r.json();
-    })
+    });
+  };
+
+  tryFetch(`/data/${fileName}`)
+    .catch(() => tryFetch(`./data/${fileName}`))
+    .catch(() => tryFetch(`data/${fileName}`))
     .then(data => {
       lessonData = data;
       currentTargetIndex = 0;
@@ -716,8 +721,8 @@ function loadSelectedLesson() {
       updateOverallProgressUI();
     })
     .catch(err => {
-      console.error(err);
-      alert("Lỗi khi tải dữ liệu bài học. Vui lòng thử lại!");
+      console.error("Error loading lesson:", err);
+      alert("Không thể tải tệp dữ liệu bài học (" + fileName + "). Vui lòng kiểm tra kết nối!");
     });
 }
 
@@ -1115,8 +1120,10 @@ function startReviewQuiz() {
 function fallbackLoadReviewPool(lessonFiles, count) {
   const promises = lessonFiles.slice(0, 20).map(fn => {
     const pad = fn.replace(".json", "").replace("lesson-", "");
-    return fetch(`/data/exercises/exercise-${pad}.json`)
-      .then(r => r.ok ? r.json() : null)
+    const tryFetchEx = (url) => fetch(url).then(r => r.ok ? r.json() : Promise.reject());
+    return tryFetchEx(`/data/exercises/exercise-${pad}.json`)
+      .catch(() => tryFetchEx(`./data/exercises/exercise-${pad}.json`))
+      .catch(() => tryFetchEx(`data/exercises/exercise-${pad}.json`))
       .catch(() => null);
   });
 
