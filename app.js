@@ -695,13 +695,14 @@ function renderRecognitionHistory() {
 // 5. LESSON DRILLING LOGIC (TABS 1)
 // ==========================================
 function loadSelectedLesson() {
-  const fileName = el.lessonSelector.value;
+  let fileName = el.lessonSelector.value;
   if (!fileName) {
-    alert("Vui lòng chọn bài học từ danh sách!");
-    return;
+    fileName = "lesson-001.json";
+    el.lessonSelector.value = fileName;
   }
 
-  const base = window.location.pathname.endsWith('/') ? window.location.pathname : window.location.pathname.substring(0, window.location.pathname.lastIndexOf('/') + 1);
+  const primaryUrl = new URL(`data/${fileName}`, window.location.href).href;
+
   const tryFetch = (url) => {
     return fetch(url).then(r => {
       if (!r.ok) throw new Error(`HTTP ${r.status}`);
@@ -709,11 +710,12 @@ function loadSelectedLesson() {
     });
   };
 
-  tryFetch(`${base}data/${fileName}`)
+  tryFetch(primaryUrl)
     .catch(() => tryFetch(`./data/${fileName}`))
     .catch(() => tryFetch(`/data/${fileName}`))
     .catch(() => tryFetch(`data/${fileName}`))
     .then(data => {
+      if (!data || !data.title) throw new Error("Invalid lesson data payload");
       lessonData = data;
       currentTargetIndex = 0;
       currentMode = 1;
@@ -724,7 +726,7 @@ function loadSelectedLesson() {
     })
     .catch(err => {
       console.error("Error loading lesson:", err);
-      alert("Không thể tải tệp dữ liệu bài học (" + fileName + "). Vui lòng kiểm tra kết nối!");
+      alert("Không thể tải tệp dữ liệu bài học (" + fileName + "). Vui lòng kiểm tra kết nối mạng!");
     });
 }
 
@@ -749,47 +751,58 @@ function updateTimerDisplay() {
 }
 
 function renderDialogueStep() {
-  if (!lessonData) return;
-  el.lessonTitle.textContent = lessonData.title;
-  el.dialogueSectionTitle.textContent = `🎙️ Hội thoại mở đầu: ${lessonData.openingDialogue ? lessonData.openingDialogue.title : ''}`;
+  try {
+    if (!lessonData) return;
+    el.lessonTitle.textContent = lessonData.title || "Bài học tiếng Anh";
+    if (el.dialogueSectionTitle) {
+      el.dialogueSectionTitle.textContent = `🎙️ Hội thoại mở đầu: ${lessonData.openingDialogue ? lessonData.openingDialogue.title : ''}`;
+    }
 
-  // Dialogue lines
-  const lines = lessonData.openingDialogue ? lessonData.openingDialogue.lines : [];
-  el.dialogueList.innerHTML = lines.map((line, idx) => {
-    const isMale = line.gender === "male";
-    const cardClass = isMale ? "speaker-male-card" : "speaker-female-card";
-    const badgeClass = isMale ? "speaker-male" : "speaker-female";
-    const icon = isMale ? "👨" : "👩";
+    // Dialogue lines
+    const lines = (lessonData.openingDialogue && lessonData.openingDialogue.lines) || [];
+    el.dialogueList.innerHTML = lines.map((line, idx) => {
+      const isMale = line.gender === "male";
+      const cardClass = isMale ? "speaker-male-card" : "speaker-female-card";
+      const badgeClass = isMale ? "speaker-male" : "speaker-female";
+      const icon = isMale ? "👨" : "👩";
 
-    return `
-      <div class="dialogue-item ${cardClass}" id="dialogue-line-${idx}">
-        <span class="speaker-badge ${badgeClass}">${icon} ${line.speaker}</span>
-        <div class="dialogue-en">${line.en}</div>
-        <div class="dialogue-vi">${line.vi}</div>
-        <div class="dialogue-actions">
-          <button class="btn-outline-en" onclick="speakLineEn(${idx})" style="font-size:12px; padding:4px 8px;">🔊 Nghe EN</button>
-          <button class="btn-outline-vi" onclick="speakLineVi(${idx})" style="font-size:12px; padding:4px 8px;">🔊 Nghe VI</button>
-        </div>
-      </div>
-    `;
-  }).join("");
-
-  // Grammar Box
-  if (lessonData.grammarRules) {
-    const gr = lessonData.grammarRules;
-    if (el.grammarBoxHeaderTitle) el.grammarBoxHeaderTitle.textContent = `💡 ${gr.title || 'Quy tắc ngữ pháp trọng tâm'}`;
-    el.grammarContent.innerHTML = `
-      <p style="margin-bottom:8px;"><strong>Tóm tắt:</strong> ${gr.summaryVi}</p>
-      <div class="grammar-grid">
-        ${gr.points.map(pt => `
-          <div class="grammar-item">
-            <div style="font-weight:700; color:#1e40af; margin-bottom:4px;">${pt.subject}</div>
-            <div style="font-size:13px; margin-bottom:4px;">${pt.toBe.replace(/\n/g, '<br/>')}</div>
-            <div style="font-size:12px; color:#15803d; font-style:italic;">VD: ${pt.example ? pt.example.replace(/\n/g, '<br/>') : ''}</div>
+      return `
+        <div class="dialogue-item ${cardClass}" id="dialogue-line-${idx}">
+          <span class="speaker-badge ${badgeClass}">${icon} ${line.speaker || 'Người nói'}</span>
+          <div class="dialogue-en">${line.en || ''}</div>
+          <div class="dialogue-vi">${line.vi || ''}</div>
+          <div class="dialogue-actions">
+            <button class="btn-outline-en" onclick="speakLineEn(${idx})" style="font-size:12px; padding:4px 8px;">🔊 Nghe EN</button>
+            <button class="btn-outline-vi" onclick="speakLineVi(${idx})" style="font-size:12px; padding:4px 8px;">🔊 Nghe VI</button>
           </div>
-        `).join("")}
-      </div>
-    `;
+        </div>
+      `;
+    }).join("");
+
+    // Grammar Box
+    if (lessonData.grammarRules) {
+      const gr = lessonData.grammarRules;
+      if (el.grammarBoxHeaderTitle) el.grammarBoxHeaderTitle.textContent = `💡 ${gr.title || 'Quy tắc ngữ pháp trọng tâm'}`;
+      const points = gr.points || [];
+      el.grammarContent.innerHTML = `
+        <p style="margin-bottom:8px;"><strong>Tóm tắt:</strong> ${gr.summaryVi || ''}</p>
+        <div class="grammar-grid">
+          ${points.map(pt => {
+            const ruleContent = String(pt.toBe || pt.rule || pt.structure || pt.formula || '').replace(/\n/g, '<br/>');
+            const exampleContent = pt.example ? String(pt.example).replace(/\n/g, '<br/>') : '';
+            return `
+              <div class="grammar-item">
+                <div style="font-weight:700; color:#1e40af; margin-bottom:4px;">${pt.subject || 'Quy tắc'}</div>
+                <div style="font-size:13px; margin-bottom:4px;">${ruleContent}</div>
+                ${exampleContent ? `<div style="font-size:12px; color:#15803d; font-style:italic;">VD: ${exampleContent}</div>` : ''}
+              </div>
+            `;
+          }).join("")}
+        </div>
+      `;
+    }
+  } catch (err) {
+    console.error("Error in renderDialogueStep:", err);
   }
 }
 
@@ -1549,7 +1562,7 @@ function bindEvents() {
   el.btnReadGrammar.addEventListener("click", () => {
     if (lessonData && lessonData.grammarRules) {
       const rules = lessonData.grammarRules;
-      const text = `${rules.summaryVi} ${rules.points.map(p => `${p.subject} dùng với ${p.toBe}`).join('. ')}`;
+      const text = `${rules.summaryVi || ''} ${(rules.points || []).map(p => `${p.subject || ''}: ${p.toBe || p.rule || p.structure || ''}`).join('. ')}`;
       speakVi(text);
     }
   });
