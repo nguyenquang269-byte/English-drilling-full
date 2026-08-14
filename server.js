@@ -215,12 +215,12 @@ app.get('/api/review-pool', (req, res) => {
   }
 });
 
-// Fallback to index.html ONLY for navigation routes (never for static assets)
-app.get('*', (req, res, next) => {
-  if (req.path.startsWith('/api') || req.path.includes('.') || req.xhr) {
-    return next();
+// Express 5 compatible fallback to index.html ONLY for navigation routes
+app.use((req, res, next) => {
+  if (req.method === 'GET' && !req.path.startsWith('/api') && !req.path.includes('.')) {
+    return res.sendFile(path.join(__dirname, 'index.html'));
   }
-  res.sendFile(path.join(__dirname, 'index.html'));
+  next();
 });
 
 if (require.main === module) {
