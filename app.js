@@ -420,72 +420,106 @@ function getVoiceForGender(gender) {
   }
 }
 
-function speakVi(text, callback) {
-  stopAllAudio();
-  setAudioBadge(true);
+// Global utterance reference to prevent Chromium Garbage Collection bug
+let activeSpeechUtterance = null;
+let speechKeepAliveTimer = null;
+
+function clearSpeechKeepAlive() {
+  if (speechKeepAliveTimer) {
+    clearInterval(speechKeepAliveTimer);
+    speechKeepAliveTimer = null;
+  }
+}
+
+function startSpeechKeepAlive() {
+  clearSpeechKeepAlive();
+  speechKeepAliveTimer = setInterval(() => {
+    if (window.speechSynthesis && window.speechSynthesis.speaking) {
+      window.speechSynthesis.pause();
+      window.speechSynthesis.resume();
+    } else {
+      clearSpeechKeepAlive();
+    }
+  }, 5000);
+}
+
+function speakUtterance(text, lang = "en-US", gender = "male", callback, isPartOfSequence = false) {
+  if (!("speechSynthesis" in window)) {
+    if (callback) callback();
+    return;
+  }
+
+  // Cancel previous speech if this is a single trigger
+  if (!isPartOfSequence) {
+    window.speechSynthesis.cancel();
+    isDialoguePlaying = false;
+    if (el.btnPlayFullDialogue) el.btnPlayFullDialogue.textContent = "▶ Nghe toàn bộ hội thoại";
+  }
+
+  clearSpeechKeepAlive();
 
   const cleanText = text.replace(/<[^>]*>/g, '').trim();
-
-  // If speechSynthesis is available, use it directly for fast, offline, and zero-error playback
-  if ("speechSynthesis" in window) {
-    const u = new SpeechSynthesisUtterance(cleanText);
-    u.lang = "vi-VN";
-    u.rate = currentSpeechRate;
-    u.onend = () => {
-      setAudioBadge(false);
-      if (callback) callback();
-    };
-    u.onerror = () => {
-      setAudioBadge(false);
-      if (callback) callback();
-    };
-    window.speechSynthesis.speak(u);
-  } else {
-    setAudioBadge(false);
+  if (!cleanText) {
     if (callback) callback();
+    return;
   }
+
+  const u = new SpeechSynthesisUtterance(cleanText);
+  activeSpeechUtterance = u; // Keep global reference so Chrome GC won't kill it
+  u.lang = lang;
+  u.rate = currentSpeechRate || 1.0;
+
+  if (lang.startsWith("en")) {
+    const voice = getVoiceForGender(gender);
+    if (voice) u.voice = voice;
+  } else if (lang.startsWith("vi")) {
+    const viVoice = availableVoices.find(v => v.lang.includes("vi") || v.lang.includes("VI"));
+    if (viVoice) u.voice = viVoice;
+  }
+
+  let hasEnded = false;
+  const finish = () => {
+    if (hasEnded) return;
+    hasEnded = true;
+    clearSpeechKeepAlive();
+    setAudioBadge(false);
+    activeSpeechUtterance = null;
+    if (callback) callback();
+  };
+
+  u.onend = finish;
+  u.onerror = (e) => {
+    console.warn("SpeechSynthesis event:", e);
+    finish();
+  };
+
+  setAudioBadge(true);
+  startSpeechKeepAlive();
+
+  // Small timeout to ensure reliable speech trigger on all browsers
+  setTimeout(() => {
+    window.speechSynthesis.speak(u);
+  }, 25);
+}
+
+function speakVi(text, callback) {
+  speakUtterance(text, "vi-VN", "female", callback, false);
 }
 
 function speakEn(text, gender = "male", callback) {
-  stopAllAudio();
-  setAudioBadge(true);
-
-  const cleanText = text.replace(/<[^>]*>/g, '').trim();
-
-  // Use native Web Speech Synthesis with gender matching for 100% reliable client-side audio
-  if ("speechSynthesis" in window) {
-    const u = new SpeechSynthesisUtterance(cleanText);
-    u.lang = "en-US";
-    u.rate = currentSpeechRate;
-    const voice = getVoiceForGender(gender);
-    if (voice) u.voice = voice;
-
-    u.onend = () => {
-      setAudioBadge(false);
-      if (callback) callback();
-    };
-    u.onerror = () => {
-      setAudioBadge(false);
-      if (callback) callback();
-    };
-    window.speechSynthesis.speak(u);
-  } else {
-    setAudioBadge(false);
-    if (callback) callback();
-  }
+  speakUtterance(text, "en-US", gender, callback, false);
 }
 
 function stopAllAudio() {
-  if (currentAudioElement) {
-    currentAudioElement.pause();
-    currentAudioElement = null;
-  }
+  clearSpeechKeepAlive();
   if ("speechSynthesis" in window) {
     window.speechSynthesis.cancel();
   }
   setAudioBadge(false);
+  activeSpeechUtterance = null;
   isDialoguePlaying = false;
   if (el.btnPlayFullDialogue) el.btnPlayFullDialogue.textContent = "▶ Nghe toàn bộ hội thoại";
+  document.querySelectorAll(".dialogue-item").forEach(d => d.classList.remove("playing"));
 }
 
 function setAudioBadge(isPlaying) {
@@ -896,13 +930,19 @@ window.speakLineVi = function(idx) {
 function playFullDialogue() {
   if (!lessonData || !lessonData.openingDialogue) return;
   const lines = lessonData.openingDialogue.lines;
-  if (!lines.length) return;
+  if (!lines || !lines.length) return;
+
+  // Toggle stop if already playing
+  if (isDialoguePlaying) {
+    stopAllAudio();
+    return;
+  }
 
   isDialoguePlaying = true;
   dialoguePlaybackIndex = 0;
   if (el.btnPlayFullDialogue) el.btnPlayFullDialogue.textContent = "⏹ Dừng phát hội thoại";
 
-  function playNext() {
+  function playNextLine() {
     if (!isDialoguePlaying || dialoguePlaybackIndex >= lines.length) {
       stopAllAudio();
       return;
@@ -916,13 +956,14 @@ function playFullDialogue() {
     }
 
     const currentLine = lines[dialoguePlaybackIndex];
-    speakEn(currentLine.en, currentLine.gender, () => {
+    speakUtterance(currentLine.en, "en-US", currentLine.gender, () => {
+      if (!isDialoguePlaying) return;
       dialoguePlaybackIndex++;
-      setTimeout(playNext, 600);
-    });
+      setTimeout(playNextLine, 500);
+    }, true);
   }
 
-  playNext();
+  playNextLine();
 }
 
 function getTargetData() {
