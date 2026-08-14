@@ -1,9 +1,9 @@
 // ==================================================
-// HocDrill — Ứng dụng Luyện Nói & Khoan Sâu Tiếng Anh (To Be)
+// HocDrill — Nền Tảng Luyện Phản Xạ Ngữ Pháp & Ôn Luyện Tiếng Anh 100 Bài
 // ==================================================
 
-const MAX_TIME_SECONDS = 30 * 60;
-let currentSpeechRate = 0.65; // Default slower speech rate as requested (0.65x)
+const MAX_TIME_SECONDS = 35 * 60;
+let currentSpeechRate = 0.65; // Default slower speech rate (0.65x)
 
 let lessonData = null;
 let currentTargetIndex = 0;
@@ -26,16 +26,40 @@ let availableVoices = [];
 // Scramble state
 let scrambleSelectedWords = [];
 
+// Quiz / Review State
+const STORAGE_KEY_COMPLETED = "hocdrill_completed_lessons";
+let quizQuestions = [];
+let currentQuizIdx = 0;
+let quizScore = 0;
+let quizUserAnswers = [];
+let quizTimerSeconds = 0;
+let quizTimerInterval = null;
+let quizScrambleSelectedWords = [];
+let quizIsRecordingSpeaking = false;
+
 // DOM Element Selectors
 const el = {
+  // Main Tabs
+  tabBtnLessons: document.getElementById("tabBtnLessons"),
+  tabBtnReview: document.getElementById("tabBtnReview"),
+  tabLessonsContent: document.getElementById("tabLessonsContent"),
+  tabReviewContent: document.getElementById("tabReviewContent"),
+
+  // Overall Progress
+  overallProgressFill: document.getElementById("overallProgressFill"),
+  overallProgressCount: document.getElementById("overallProgressCount"),
+  btnToggleCurrentCompleted: document.getElementById("btnToggleCurrentCompleted"),
+
+  // Lesson Tab Selectors
   lessonSelector: document.getElementById("lessonSelector"),
   btnLoadLesson: document.getElementById("btnLoadLesson"),
+  btnJumpToReviewFromLesson: document.getElementById("btnJumpToReviewFromLesson"),
   lessonTitle: document.getElementById("lessonTitle"),
   timeLeft: document.getElementById("timeLeft"),
   progressFill: document.getElementById("progressFill"),
   audioStatusBadge: document.getElementById("audioStatusBadge"),
 
-  // Steps
+  // Steps in Lesson Tab
   stepSelect: document.getElementById("stepSelect"),
   stepDialogue: document.getElementById("stepDialogue"),
   stepDrill: document.getElementById("stepDrill"),
@@ -46,9 +70,11 @@ const el = {
   btnPlayFullDialogue: document.getElementById("btnPlayFullDialogue"),
   dialogueList: document.getElementById("dialogueList"),
   grammarBox: document.getElementById("grammarBox"),
+  grammarBoxHeaderTitle: document.getElementById("grammarBoxHeaderTitle"),
   grammarContent: document.getElementById("grammarContent"),
   btnReadGrammar: document.getElementById("btnReadGrammar"),
   btnGoToDrills: document.getElementById("btnGoToDrills"),
+  btnBackToSelectFromDialogue: document.getElementById("btnBackToSelectFromDialogue"),
 
   // Drill Step
   targetCounter: document.getElementById("targetCounter"),
@@ -64,33 +90,33 @@ const el = {
   containerMode4: document.getElementById("containerMode4"),
   containerMode5: document.getElementById("containerMode5"),
 
-  // Mode 1 Elements
+  // Mode 1
   btnAudioRepeat: document.getElementById("btnAudioRepeat"),
   btnAudioRepeatVi: document.getElementById("btnAudioRepeatVi"),
   btnMicRepeat: document.getElementById("btnMicRepeat"),
-  repeatScore: document.getElementById("repeatScore"),
   waveCanvasRepeat: document.getElementById("waveCanvasRepeat"),
   liveSpeechStatus: document.getElementById("liveSpeechStatus"),
+  repeatScore: document.getElementById("repeatScore"),
   repeatInputFallback: document.getElementById("repeatInputFallback"),
   btnCheckRepeatText: document.getElementById("btnCheckRepeatText"),
 
-  // Mode 2 Elements
+  // Mode 2
   fillSentenceDisplay: document.getElementById("fillSentenceDisplay"),
   fillOptionsGrid: document.getElementById("fillOptionsGrid"),
 
-  // Mode 3 Elements
+  // Mode 3
   scrambleTarget: document.getElementById("scrambleTarget"),
   scramblePool: document.getElementById("scramblePool"),
   btnResetScramble: document.getElementById("btnResetScramble"),
   btnCheckScramble: document.getElementById("btnCheckScramble"),
 
-  // Mode 4 Elements
+  // Mode 4
   transformInstruction: document.getElementById("transformInstruction"),
   transformInput: document.getElementById("transformInput"),
   btnCheckTransform: document.getElementById("btnCheckTransform"),
   btnMicTransform: document.getElementById("btnMicTransform"),
 
-  // Mode 5 Elements
+  // Mode 5
   contextInstruction: document.getElementById("contextInstruction"),
   contextInput: document.getElementById("contextInput"),
   btnCheckContext: document.getElementById("btnCheckContext"),
@@ -100,14 +126,59 @@ const el = {
   feedbackMsg: document.getElementById("feedbackMsg"),
   btnPrevDrillMode: document.getElementById("btnPrevDrillMode"),
   btnNextDrillMode: document.getElementById("btnNextDrillMode"),
-
-  // History & Summary
   recognitionHistory: document.getElementById("recognitionHistory"),
   finalScoreText: document.getElementById("finalScoreText"),
-  btnNextLesson: document.getElementById("btnNextLesson")
+  btnRestartCurrentLesson: document.getElementById("btnRestartCurrentLesson"),
+  btnNextLesson: document.getElementById("btnNextLesson"),
+  btnGoToReviewAfterDone: document.getElementById("btnGoToReviewAfterDone"),
+
+  // Stepper pills
+  pills: [
+    document.getElementById("pill-mode1"),
+    document.getElementById("pill-mode2"),
+    document.getElementById("pill-mode3"),
+    document.getElementById("pill-mode4"),
+    document.getElementById("pill-mode5")
+  ],
+
+  // Review / Quiz Tab Elements
+  reviewSetupView: document.getElementById("reviewSetupView"),
+  reviewCompletedCountText: document.getElementById("reviewCompletedCountText"),
+  btnStartReviewQuiz: document.getElementById("btnStartReviewQuiz"),
+
+  reviewQuizActiveView: document.getElementById("reviewQuizActiveView"),
+  quizQuestionIdx: document.getElementById("quizQuestionIdx"),
+  quizTotalQuestions: document.getElementById("quizTotalQuestions"),
+  quizTimerText: document.getElementById("quizTimerText"),
+  quizCurrentScore: document.getElementById("quizCurrentScore"),
+  quizProgressBar: document.getElementById("quizProgressBar"),
+
+  quizTypeBadge: document.getElementById("quizTypeBadge"),
+  btnQuizPlayAudioPrompt: document.getElementById("btnQuizPlayAudioPrompt"),
+  quizPromptVi: document.getElementById("quizPromptVi"),
+  quizReadingBox: document.getElementById("quizReadingBox"),
+  quizReadingPassageText: document.getElementById("quizReadingPassageText"),
+  btnReadQuizPassage: document.getElementById("btnReadQuizPassage"),
+  quizQuestionText: document.getElementById("quizQuestionText"),
+  quizAnswerDynamicArea: document.getElementById("quizAnswerDynamicArea"),
+  quizFeedbackBox: document.getElementById("quizFeedbackBox"),
+  quizExplanationBox: document.getElementById("quizExplanationBox"),
+  btnQuitReviewQuiz: document.getElementById("btnQuitReviewQuiz"),
+  btnNextQuizQuestion: document.getElementById("btnNextQuizQuestion"),
+
+  // Review Results Elements
+  reviewResultView: document.getElementById("reviewResultView"),
+  quizResultSubtitle: document.getElementById("quizResultSubtitle"),
+  resScoreText: document.getElementById("resScoreText"),
+  resPercentText: document.getElementById("resPercentText"),
+  resTimeSpentText: document.getElementById("resTimeSpentText"),
+  resGradeBadge: document.getElementById("resGradeBadge"),
+  btnRestartNewQuiz: document.getElementById("btnRestartNewQuiz"),
+  btnBackToLessonTab: document.getElementById("btnBackToLessonTab"),
+  quizDetailedBreakdownList: document.getElementById("quizDetailedBreakdownList")
 };
 
-// Lesson List
+// Full catalog of 100 lessons
 const LESSON_LIST = [
   { file: "lesson-001.json", name: "Bài 1: ToBe - I am / You are (Cơ bản)" },
   { file: "lesson-002.json", name: "Bài 2: ToBe - Hiện tại Đơn (Nghề nghiệp & Tính chất)" },
@@ -126,56 +197,56 @@ const LESSON_LIST = [
   { file: "lesson-015.json", name: "Bài 15: Động từ Thường - Quá khứ Đơn (Did / Didn't)" },
   { file: "lesson-016.json", name: "Bài 16: Động từ Thường - Tương lai Đơn (Will / Won't)" },
   { file: "lesson-017.json", name: "Bài 17: ToBe - Hiện tại Tiếp diễn (Am / Is / Are + V-ing)" },
-  { file: "lesson-018.json", name: "Bài 18: Hiện tại Tiếp diễn - Phủ định & Câu hỏi (Yes/No & Wh-)" },
+  { file: "lesson-018.json", name: "Bài 18: Hiện tại Tiếp diễn - Phủ định, Yes/No & Wh- Questions" },
   { file: "lesson-019.json", name: "Bài 19: Động từ Thường - Hiện tại Tiếp diễn (Be + V-ing)" },
   { file: "lesson-020.json", name: "Bài 20: Hiện tại Tiếp diễn - Đầy đủ 3 dạng & Trả lời ngắn" },
-  { file: "lesson-021.json", name: "Bài 21: So sánh Tính từ - Cơ bản (Ngắn: -er / -est)" },
-  { file: "lesson-022.json", name: "Bài 22: So sánh Tính từ - Dài hơn (More/Most) & Bất quy tắc" },
+  { file: "lesson-021.json", name: "Bài 21: So sánh Tính từ - Cơ bản (So sánh hơn & So sánh nhất ngắn)" },
+  { file: "lesson-022.json", name: "Bài 22: So sánh Tính từ - Dài hơn & Dạng Bất quy tắc nâng cao" },
   { file: "lesson-023.json", name: "Bài 23: Trạng từ Tần suất - Vị trí & Cách phối hợp" },
-  { file: "lesson-024.json", name: "Bài 24: Giới từ Thời gian & Nơi chốn (In / On / At)" },
+  { file: "lesson-024.json", name: "Bài 24: Trạng từ Chỉ mức độ & Cách thức - Vị trí & Ngữ cảnh" },
   { file: "lesson-025.json", name: "Bài 25: Hiện tại Hoàn thành - Cơ bản (Have / Has + V3/ed)" },
   { file: "lesson-026.json", name: "Bài 26: Hiện tại Hoàn thành - Phủ định, Câu hỏi & Trả lời ngắn" },
   { file: "lesson-027.json", name: "Bài 27: Hiện tại Hoàn thành - Kết hợp Ever / Never / Already / Yet" },
   { file: "lesson-028.json", name: "Bài 28: Quá khứ Tiếp diễn - Cơ bản (Was / Were + V-ing)" },
   { file: "lesson-029.json", name: "Bài 29: Quá khứ Tiếp diễn - Kết hợp Quá khứ Đơn (When / While)" },
   { file: "lesson-030.json", name: "Bài 30: Tương lai Tiếp diễn - Cơ bản (Will be + V-ing)" },
-  { file: "lesson-031.json", name: "Bài 31: Tính từ & Trạng từ - Phân biệt & Đuôi -ly" },
-  { file: "lesson-032.json", name: "Bài 32: Mạo từ - A / An / The & Mạo từ Rỗng (Zero Article)" },
-  { file: "lesson-033.json", name: "Bài 33: Đại từ - Chủ ngữ / Tân ngữ / Sở hữu Cơ bản" },
-  { file: "lesson-034.json", name: "Bài 34: Động từ Khuyết thiếu - Can / Can't (Khả năng & Xin phép)" },
-  { file: "lesson-035.json", name: "Bài 35: Động từ Khuyết thiếu - Must / Have to (Nghĩa vụ & Quy định)" },
-  { file: "lesson-036.json", name: "Bài 36: Động từ Khuyết thiếu - Should / Shouldn't (Lời khuyên)" },
-  { file: "lesson-037.json", name: "Bài 37: Động từ Khuyết thiếu - Could / Couldn't (Khả năng Quá khứ & Lịch sự)" },
-  { file: "lesson-038.json", name: "Bài 38: Động từ Khuyết thiếu - May / Might (Sự chắc chắn không cao & Xin phép)" },
-  { file: "lesson-039.json", name: "Bài 39: Danh từ Đếm được - Số ít & Số nhiều (Quy tắc thêm -s / -es)" },
-  { file: "lesson-040.json", name: "Bài 40: Danh từ Không đếm được - Cách dùng & Lượng từ (Some / Any)" },
+  { file: "lesson-031.json", name: "Bài 31: Tính từ & Trạng từ - Phân biệt & Chuyển đuôi -ly" },
+  { file: "lesson-032.json", name: "Bài 32: Mạo từ - A / An / The & Không dùng mạo từ" },
+  { file: "lesson-033.json", name: "Bài 33: Giới từ Chỉ Thời gian - In / On / At & Cụm cố định" },
+  { file: "lesson-034.json", name: "Bài 34: Giới từ Chỉ Nơi chốn - In / On / At / Under / Next to" },
+  { file: "lesson-035.json", name: "Bài 35: Giới từ Chỉ Phương hướng & Chuyển động - To / Into / Out of" },
+  { file: "lesson-036.json", name: "Bài 36: Động từ Khuyết thiếu - Can / Can't (Khả năng & Xin phép)" },
+  { file: "lesson-037.json", name: "Bài 37: Động từ Khuyết thiếu - Could / Couldn't (Quá khứ & Lịch sự)" },
+  { file: "lesson-038.json", name: "Bài 38: Động từ Khuyết thiếu - May / Might (Dự đoán & Xin phép)" },
+  { file: "lesson-039.json", name: "Bài 39: Danh từ Đếm được - Số ít & Số nhiều (-s / -es)" },
+  { file: "lesson-040.json", name: "Bài 40: Danh từ Không đếm được & Lượng từ (Some / Any)" },
   { file: "lesson-041.json", name: "Bài 41: Lượng từ - Many / Much / A lot of / Some / Any" },
   { file: "lesson-042.json", name: "Bài 42: Câu So sánh - Cấu trúc đầy đủ (Than / As...As)" },
-  { file: "lesson-043.json", name: "Bài 43: Câu Điều kiện - Loại 1 (If + Hiện tại Đơn, Tương lai Đơn)" },
-  { file: "lesson-044.json", name: "Bài 44: Câu Điều kiện - Loại 2 (If + Quá khứ Đơn, Would + V)" },
-  { file: "lesson-045.json", name: "Bài 45: Câu Bị động - Hiện tại Đơn (Am/Is/Are + V3/ed)" },
-  { file: "lesson-046.json", name: "Bài 46: Câu Bị động - Quá khứ Đơn (Was/Were + V3/ed)" },
+  { file: "lesson-043.json", name: "Bài 43: Câu Bị động - Hiện tại Đơn (Am / Is / Are + V3/ed)" },
+  { file: "lesson-044.json", name: "Bài 44: Câu Bị động - Quá khứ Đơn (Was / Were + V3/ed)" },
+  { file: "lesson-045.json", name: "Bài 45: Câu Bị động - Tương lai Đơn (Will be + V3/ed)" },
+  { file: "lesson-046.json", name: "Bài 46: Câu Bị động - Hiện tại Tiếp diễn (Is/Are being + V3/ed)" },
   { file: "lesson-047.json", name: "Bài 47: Câu Bị động - Hiện tại Hoàn thành (Have/Has been + V3/ed)" },
-  { file: "lesson-048.json", name: "Bài 48: Câu Bị động - Với Động từ khuyết thiếu (Can/Should/Must + be + V3/ed)" },
-  { file: "lesson-049.json", name: "Bài 49: Câu Điều kiện - Loại 3 (If + Quá khứ Hoàn thành, Would have + V3/ed)" },
-  { file: "lesson-050.json", name: "Bài 50: Câu Điều kiện - Tổng hợp 3 loại & Cách rút gọn If" },
-  { file: "lesson-051.json", name: "Bài 51: Dạng Nguyên mẫu & V-ing sau Động từ (Like / Enjoy / Want / Hope)" },
+  { file: "lesson-048.json", name: "Bài 48: Câu Bị động - Với Động từ khuyết thiếu (Can/Should/Must + be + V3)" },
+  { file: "lesson-049.json", name: "Bài 49: Câu Điều kiện - Loại 3 (If + Had V3, Would have V3)" },
+  { file: "lesson-050.json", name: "Bài 50: Câu Điều kiện - Tổng hợp 3 loại & Đảo ngữ If" },
+  { file: "lesson-051.json", name: "Bài 51: Dạng Nguyên mẫu & V-ing sau Động từ (Like/Enjoy/Want/Hope)" },
   { file: "lesson-052.json", name: "Bài 52: Động từ Đuôi -ed - Cách phát âm 3 âm tiết (/t/ /d/ /ɪd/)" },
-  { file: "lesson-053.json", name: "Bài 53: Trạng từ - So sánh hơn & So sánh nhất (More / Most / Faster / Best)" },
-  { file: "lesson-054.json", name: "Bài 54: Câu Hỏi Đuôi - Cơ bản (Tag Questions: Isn't it? Aren't you? Doesn't she?)" },
-  { file: "lesson-055.json", name: "Bài 55: Câu Hỏi Đuôi - Trường hợp Đặc biệt (Everybody / Nobody / Let's / I am)" },
-  { file: "lesson-056.json", name: "Bài 56: Mệnh đề Quan hệ - Who / Whom / Which / That (Xác định & Không xác định)" },
-  { file: "lesson-057.json", name: "Bài 57: Mệnh đề Quan hệ - Whose / Where / When / Why (Sở hữu, Nơi chốn, Thời gian, Lý do)" },
-  { file: "lesson-058.json", name: "Bài 58: Câu Tường thuật - Câu Kể (Reported Speech: Say / Tell & Quy tắc lùi thì)" },
-  { file: "lesson-059.json", name: "Bài 59: Câu Tường thuật - Câu Hỏi & Câu Mệnh lệnh (Ask / Tell / Request)" },
-  { file: "lesson-060.json", name: "Bài 60: Cấu trúc Nhấn mạnh & Đảo ngữ Cơ bản (Cleft Sentences & Negative Inversion)" },
+  { file: "lesson-053.json", name: "Bài 53: Trạng từ - So sánh hơn & So sánh nhất" },
+  { file: "lesson-054.json", name: "Bài 54: Câu Tường thuật - Câu kể cơ bản (Lùi thì & Đổi đại từ)" },
+  { file: "lesson-055.json", name: "Bài 55: Câu Tường thuật - Câu hỏi Yes/No & Wh- (If/Whether)" },
+  { file: "lesson-056.json", name: "Bài 56: Câu Tường thuật - Mệnh lệnh & Yêu cầu (Told/Asked to V)" },
+  { file: "lesson-057.json", name: "Bài 57: Đại từ Quan hệ - Who / Whom (Mệnh đề quan hệ người)" },
+  { file: "lesson-058.json", name: "Bài 58: Đại từ Quan hệ - Which / That (Mệnh đề quan hệ vật)" },
+  { file: "lesson-059.json", name: "Bài 59: Đại từ Quan hệ - Whose (Quan hệ sở hữu)" },
+  { file: "lesson-060.json", name: "Bài 60: Đại từ Quan hệ - Where / When / Why (Trạng từ quan hệ)" },
   { file: "lesson-061.json", name: "Bài 61: Đại từ Quan hệ - Giới từ đi trước & Đại từ không xác định" },
   { file: "lesson-062.json", name: "Bài 62: Câu Ghép - Liên từ phối hợp (Both...and / Neither...nor / Either...or)" },
-  { file: "lesson-063.json", name: "Bài 63: Câu Ghép - Liên từ đối lập & nguyên nhân-kết quả" },
+  { file: "lesson-063.json", name: "Bài 63: Câu Ghép - Liên từ đối lập & Nguyên nhân-kết quả" },
   { file: "lesson-064.json", name: "Bài 64: Hiện tại Hoàn thành Tiếp diễn - Cơ bản (Have/Has been + V-ing)" },
   { file: "lesson-065.json", name: "Bài 65: Quá khứ Hoàn thành - Cơ bản (Had + V3/ed)" },
-  { file: "lesson-066.json", name: "Bài 66: Quá khứ Hoàn thành - Kết hợp với Quá khứ Đơn & Trạng từ" },
-  { file: "lesson-067.json", name: "Bài 67: Quá khứ Hoàn thành Tiếp diễn (Had been + V-ing)" },
+  { file: "lesson-066.json", name: "Bài 66: Quá khứ Hoàn thành - Kết hợp Quá khứ Đơn (After / Before / When)" },
+  { file: "lesson-067.json", name: "Bài 67: Quá khứ Hoàn thành Tiếp diễn - Cơ bản (Had been + V-ing)" },
   { file: "lesson-068.json", name: "Bài 68: Tương lai Hoàn thành & Tương lai Hoàn thành Tiếp diễn" },
   { file: "lesson-069.json", name: "Bài 69: Cấu trúc Động từ + Giới từ thông dụng (Depend on / Listen to...)" },
   { file: "lesson-070.json", name: "Bài 70: Cấu trúc Động từ + Trạng từ (Cụm Động từ Phrasal Verb - Cơ bản)" },
@@ -211,1008 +282,779 @@ const LESSON_LIST = [
   { file: "lesson-100.json", name: "Bài 100: Tổng hợp Ngữ pháp Toàn Diện - Bản đồ Tinh hoa & Bài Kiểm tra Tổng kết" }
 ];
 
-// ========== INITIALIZATION ==========
-function init() {
-  initVoices();
-  populateLessonSelector();
-  initSpeechRecognition();
-  bindEvents();
-  initSpeedControls();
-  showStep("select");
-  drawWavePlaceholder();
-}
-
-function initVoices() {
-  if (typeof window !== "undefined" && "speechSynthesis" in window) {
-    const loadVoices = () => {
-      availableVoices = window.speechSynthesis.getVoices();
-    };
-    loadVoices();
-    if (window.speechSynthesis.onvoiceschanged !== undefined) {
-      window.speechSynthesis.onvoiceschanged = loadVoices;
-    }
+// ==========================================
+// 1. COMPLETION TRACKING & LOCALSTORAGE
+// ==========================================
+function getCompletedLessons() {
+  try {
+    const raw = localStorage.getItem(STORAGE_KEY_COMPLETED);
+    return raw ? JSON.parse(raw) : [];
+  } catch (e) {
+    return [];
   }
 }
 
-function populateLessonSelector() {
-  el.lessonSelector.innerHTML = '<option value="">-- Vui lòng chọn bài học --</option>';
-  LESSON_LIST.forEach(item => {
+function saveCompletedLessons(arr) {
+  try {
+    localStorage.setItem(STORAGE_KEY_COMPLETED, JSON.stringify(arr));
+  } catch (e) {}
+}
+
+function isLessonCompleted(fileName) {
+  const list = getCompletedLessons();
+  return list.includes(fileName);
+}
+
+function markLessonCompleted(fileName, state = true) {
+  let list = getCompletedLessons();
+  if (state && !list.includes(fileName)) {
+    list.push(fileName);
+  } else if (!state && list.includes(fileName)) {
+    list = list.filter(f => f !== fileName);
+  }
+  saveCompletedLessons(list);
+  updateOverallProgressUI();
+}
+
+function toggleCurrentLessonCompleted() {
+  const currentVal = el.lessonSelector.value;
+  if (!currentVal) {
+    alert("Vui lòng chọn một bài học trước!");
+    return;
+  }
+  const currentStatus = isLessonCompleted(currentVal);
+  markLessonCompleted(currentVal, !currentStatus);
+}
+
+function updateOverallProgressUI() {
+  const completed = getCompletedLessons();
+  const count = completed.length;
+  const total = LESSON_LIST.length;
+  const pct = Math.round((count / total) * 100);
+
+  if (el.overallProgressFill) el.overallProgressFill.style.width = `${pct}%`;
+  if (el.overallProgressCount) el.overallProgressCount.textContent = `${count} / ${total} bài (${pct}%)`;
+
+  if (el.reviewCompletedCountText) {
+    el.reviewCompletedCountText.textContent = `${count} bài`;
+  }
+
+  // Update current toggle button label
+  const currentVal = el.lessonSelector.value;
+  if (el.btnToggleCurrentCompleted) {
+    if (currentVal && isLessonCompleted(currentVal)) {
+      el.btnToggleCurrentCompleted.textContent = "✅ Đã học (Bấm để hủy)";
+      el.btnToggleCurrentCompleted.style.background = "#dcfce7";
+      el.btnToggleCurrentCompleted.style.color = "#166534";
+    } else {
+      el.btnToggleCurrentCompleted.textContent = "✔️ Đánh dấu bài này đã học";
+      el.btnToggleCurrentCompleted.style.background = "#f1f5f9";
+      el.btnToggleCurrentCompleted.style.color = "#334155";
+    }
+  }
+
+  // Update lesson selector option labels
+  populateLessonSelector(false);
+}
+
+function populateLessonSelector(resetSelection = true) {
+  const prevVal = el.lessonSelector.value;
+  el.lessonSelector.innerHTML = '<option value="">-- Vui lòng chọn bài học (1 - 100) --</option>';
+
+  LESSON_LIST.forEach((item, idx) => {
     const opt = document.createElement("option");
     opt.value = item.file;
-    opt.textContent = item.name;
+    const completed = isLessonCompleted(item.file);
+    opt.textContent = completed ? `✅ [Đã học] ${item.name}` : `[Bài ${idx + 1}] ${item.name}`;
     el.lessonSelector.appendChild(opt);
   });
+
+  if (!resetSelection && prevVal) {
+    el.lessonSelector.value = prevVal;
+  }
 }
 
-function initSpeedControls() {
-  const speedBtns = document.querySelectorAll(".speed-btn");
-  speedBtns.forEach(btn => {
-    btn.addEventListener("click", () => {
-      speedBtns.forEach(b => b.classList.remove("active"));
-      btn.classList.add("active");
-      currentSpeechRate = parseFloat(btn.dataset.speed) || 0.65;
-    });
+// ==========================================
+// 2. MAIN TAB NAVIGATION
+// ==========================================
+function switchMainTab(tabName) {
+  stopAllAudio();
+  if (tabName === "review") {
+    el.tabBtnLessons.classList.remove("active");
+    el.tabBtnReview.classList.add("active");
+    el.tabLessonsContent.classList.remove("active");
+    el.tabReviewContent.classList.add("active");
+    updateOverallProgressUI();
+  } else {
+    el.tabBtnReview.classList.remove("active");
+    el.tabBtnLessons.classList.add("active");
+    el.tabReviewContent.classList.remove("active");
+    el.tabLessonsContent.classList.add("active");
+    updateOverallProgressUI();
+  }
+}
+
+// ==========================================
+// 3. AUDIO & SPEECH SYNTHESIS ENGINE
+// ==========================================
+function initVoices() {
+  if ("speechSynthesis" in window) {
+    availableVoices = window.speechSynthesis.getVoices();
+    window.speechSynthesis.onvoiceschanged = () => {
+      availableVoices = window.speechSynthesis.getVoices();
+    };
+  }
+}
+
+function getVoiceForGender(gender) {
+  if (!availableVoices.length) return null;
+  const enVoices = availableVoices.filter(v => v.lang.startsWith("en"));
+  if (!enVoices.length) return null;
+
+  if (gender === "male") {
+    const male = enVoices.find(v => /male|david|george|james|guy|alex/i.test(v.name));
+    return male || enVoices[0];
+  } else {
+    const female = enVoices.find(v => /female|zira|samantha|victoria|susan|karen/i.test(v.name));
+    return female || enVoices[enVoices.length - 1];
+  }
+}
+
+function speakVi(text, callback) {
+  stopAllAudio();
+  setAudioBadge(true);
+
+  const cleanText = text.replace(/<[^>]*>/g, '').trim();
+  const proxyUrl = `/api/tts?text=${encodeURIComponent(cleanText)}&lang=vi`;
+  
+  const audio = new Audio(proxyUrl);
+  currentAudioElement = audio;
+
+  audio.playbackRate = currentSpeechRate;
+  audio.onended = () => {
+    setAudioBadge(false);
+    currentAudioElement = null;
+    if (callback) callback();
+  };
+
+  audio.onerror = () => {
+    // Fallback to Web Speech API
+    if ("speechSynthesis" in window) {
+      const u = new SpeechSynthesisUtterance(cleanText);
+      u.lang = "vi-VN";
+      u.rate = currentSpeechRate;
+      u.onend = () => {
+        setAudioBadge(false);
+        if (callback) callback();
+      };
+      u.onerror = () => {
+        setAudioBadge(false);
+        if (callback) callback();
+      };
+      window.speechSynthesis.speak(u);
+    } else {
+      setAudioBadge(false);
+      if (callback) callback();
+    }
+  };
+
+  audio.play().catch(() => {
+    setAudioBadge(false);
+    if (callback) callback();
   });
 }
 
-// ========== STOP ALL AUDIO & TTS ENGINE ==========
-function stopAllAudio(resetDialogueFlag = true) {
-  if (resetDialogueFlag) {
-    isDialoguePlaying = false;
-    if (el.btnPlayFullDialogue) {
-      el.btnPlayFullDialogue.textContent = "▶ Nghe toàn bộ hội thoại (2 giọng Nam & Nữ)";
+function speakEn(text, gender = "male", callback) {
+  stopAllAudio();
+  setAudioBadge(true);
+
+  const cleanText = text.replace(/<[^>]*>/g, '').trim();
+  const proxyUrl = `/api/tts?text=${encodeURIComponent(cleanText)}&lang=en`;
+  
+  const audio = new Audio(proxyUrl);
+  currentAudioElement = audio;
+
+  audio.playbackRate = currentSpeechRate;
+  audio.onended = () => {
+    setAudioBadge(false);
+    currentAudioElement = null;
+    if (callback) callback();
+  };
+
+  audio.onerror = () => {
+    // Fallback to Web Speech API with gender selection
+    if ("speechSynthesis" in window) {
+      const u = new SpeechSynthesisUtterance(cleanText);
+      u.lang = "en-US";
+      u.rate = currentSpeechRate;
+      const voice = getVoiceForGender(gender);
+      if (voice) u.voice = voice;
+
+      u.onend = () => {
+        setAudioBadge(false);
+        if (callback) callback();
+      };
+      u.onerror = () => {
+        setAudioBadge(false);
+        if (callback) callback();
+      };
+      window.speechSynthesis.speak(u);
+    } else {
+      setAudioBadge(false);
+      if (callback) callback();
     }
-  }
-  if (typeof window !== "undefined" && "speechSynthesis" in window) {
-    window.speechSynthesis.cancel();
-  }
+  };
+
+  audio.play().catch(() => {
+    setAudioBadge(false);
+    if (callback) callback();
+  });
+}
+
+function stopAllAudio() {
   if (currentAudioElement) {
     currentAudioElement.pause();
-    currentAudioElement.currentTime = 0;
     currentAudioElement = null;
   }
-  setAudioStatus(false);
-}
-
-function setAudioStatus(playing, label = "Đang phát...") {
-  if (playing) {
-    el.audioStatusBadge.textContent = `🔊 ${label}`;
-    el.audioStatusBadge.style.display = "inline-block";
-  } else {
-    el.audioStatusBadge.style.display = "none";
+  if ("speechSynthesis" in window) {
+    window.speechSynthesis.cancel();
   }
-}
-
-// Find distinct English voices for Male vs Female speakers
-function getEnglishVoiceForGender(gender = "female") {
-  if (!availableVoices || availableVoices.length === 0) {
-    if (typeof window !== "undefined" && "speechSynthesis" in window) {
-      availableVoices = window.speechSynthesis.getVoices();
-    }
-  }
-  const enVoices = (availableVoices || []).filter(v => v.lang && v.lang.toLowerCase().startsWith("en"));
-  if (enVoices.length === 0) return null;
-
-  const isMale = (gender === "male");
-
-  const maleKeywords = ["male", "david", "mark", "guy", "george", "alex", "daniel", "james", "fred", "aaron", "arthur", "richard", "tom", "michael", "oliver", "en-us-x-sfg#male"];
-  const femaleKeywords = ["female", "zira", "samantha", "victoria", "karen", "jenny", "susan", "catherine", "lisa", "mary", "hazel", "ava", "google us english", "en-us-x-sfg#female"];
-
-  if (isMale) {
-    const maleVoice = enVoices.find(v => {
-      const name = (v.name || "").toLowerCase();
-      return maleKeywords.some(kw => name.includes(kw));
-    });
-    if (maleVoice) return maleVoice;
-  } else {
-    const femaleVoice = enVoices.find(v => {
-      const name = (v.name || "").toLowerCase();
-      return femaleKeywords.some(kw => name.includes(kw));
-    });
-    if (femaleVoice) return femaleVoice;
-  }
-
-  if (enVoices.length > 1) {
-    return isMale ? enVoices[1] : enVoices[0];
-  }
-
-  return enVoices[0];
-}
-
-// Speak English text with distinct male / female voice configuration & fallback
-function speakEn(text, isAutoDialogue = false, gender = "female") {
-  return new Promise(resolve => {
-    const cleanText = text.replace(/<[^>]*>/g, "").trim();
-    if (!cleanText) return resolve();
-
-    stopAllAudio(!isAutoDialogue);
-    const isMale = (gender === "male");
-    const statusText = isMale ? "Tiếng Anh (Nam 👨)" : "Tiếng Anh (Nữ 👩)";
-    setAudioStatus(true, statusText);
-
-    let resolved = false;
-    const finish = () => {
-      if (!resolved) {
-        resolved = true;
-        setAudioStatus(false);
-        resolve();
-      }
-    };
-
-    const safetyTimeout = setTimeout(() => {
-      finish();
-    }, Math.max(3500, cleanText.length * 120));
-
-    // Try Web Speech API first with distinct voice and pitch
-    if ("speechSynthesis" in window) {
-      try {
-        window.speechSynthesis.cancel();
-        const utt = new SpeechSynthesisUtterance(cleanText);
-        utt.lang = "en-US";
-        utt.rate = currentSpeechRate;
-
-        // Distinct pitch & acoustic settings for Male vs Female
-        utt.pitch = isMale ? 0.82 : 1.18;
-
-        const voice = getEnglishVoiceForGender(gender);
-        if (voice) {
-          utt.voice = voice;
-        }
-
-        utt.onend = () => {
-          clearTimeout(safetyTimeout);
-          finish();
-        };
-        utt.onerror = () => {
-          clearTimeout(safetyTimeout);
-          speakViaProxy(cleanText, "en").then(finish);
-        };
-
-        window.speechSynthesis.speak(utt);
-      } catch (e) {
-        clearTimeout(safetyTimeout);
-        speakViaProxy(cleanText, "en").then(finish);
-      }
-    } else {
-      clearTimeout(safetyTimeout);
-      speakViaProxy(cleanText, "en").then(finish);
-    }
-  });
-}
-
-// Speak Vietnamese text with Fallback to Server Proxy Endpoint
-function speakVi(text, isAutoDialogue = false) {
-  return new Promise(resolve => {
-    const cleanText = text.replace(/<[^>]*>/g, "").replace(/[-*_]/g, " ").trim();
-    if (!cleanText) return resolve();
-
-    stopAllAudio(!isAutoDialogue);
-    setAudioStatus(true, "Tiếng Việt");
-
-    let resolved = false;
-    const finish = () => {
-      if (!resolved) {
-        resolved = true;
-        setAudioStatus(false);
-        resolve();
-      }
-    };
-
-    const safetyTimeout = setTimeout(() => {
-      finish();
-    }, Math.max(3500, cleanText.length * 120));
-
-    if (availableVoices.length === 0 && "speechSynthesis" in window) {
-      availableVoices = window.speechSynthesis.getVoices();
-    }
-
-    const viVoice = availableVoices.find(v => v.lang && (v.lang.startsWith("vi") || v.lang.includes("vi-VN")));
-
-    if ("speechSynthesis" in window && viVoice) {
-      try {
-        window.speechSynthesis.cancel();
-        const utt = new SpeechSynthesisUtterance(cleanText);
-        utt.lang = "vi-VN";
-        utt.voice = viVoice;
-        utt.rate = currentSpeechRate;
-
-        utt.onend = () => {
-          clearTimeout(safetyTimeout);
-          finish();
-        };
-        utt.onerror = () => {
-          clearTimeout(safetyTimeout);
-          speakViaProxy(cleanText, "vi").then(finish);
-        };
-
-        window.speechSynthesis.speak(utt);
-      } catch (e) {
-        clearTimeout(safetyTimeout);
-        speakViaProxy(cleanText, "vi").then(finish);
-      }
-    } else {
-      clearTimeout(safetyTimeout);
-      speakViaProxy(cleanText, "vi").then(finish);
-    }
-  });
-}
-
-function speakViaProxy(text, lang) {
-  return new Promise(resolve => {
-    try {
-      const audioUrl = `/api/tts?text=${encodeURIComponent(text)}&lang=${lang}`;
-      const audio = new Audio(audioUrl);
-      audio.playbackRate = Math.max(0.5, Math.min(1.5, currentSpeechRate));
-      currentAudioElement = audio;
-
-      audio.onended = () => {
-        currentAudioElement = null;
-        resolve();
-      };
-      audio.onerror = () => {
-        currentAudioElement = null;
-        resolve();
-      };
-
-      audio.play().catch(() => resolve());
-    } catch (e) {
-      resolve();
-    }
-  });
-}
-
-// ========== LOAD LESSON DATA ==========
-async function loadSelectedLesson() {
-  const fileName = el.lessonSelector.value;
-  if (!fileName) {
-    alert("Vui lòng chọn bài học!");
-    return;
-  }
-
-  stopAllAudio();
-
-  try {
-    const res = await fetch(`./data/${fileName}`);
-    if (!res.ok) throw new Error("File not found");
-    lessonData = await res.json();
-  } catch (err) {
-    try {
-      const resFallback = await fetch(`/data/${fileName}`);
-      if (!resFallback.ok) throw new Error("Fallback failed");
-      lessonData = await resFallback.json();
-    } catch (fallbackErr) {
-      return alert(`❌ Lỗi: Không tải được file bài học data/${fileName}`);
-    }
-  }
-
-  el.lessonTitle.textContent = lessonData.title || "Bài học To Be";
-  currentTargetIndex = 0;
-  currentMode = 1;
-  recognitionHistory = [];
-  renderRecognitionHistory();
-
-  timeLeft = MAX_TIME_SECONDS;
-  clearInterval(timerInterval);
-  startTimer();
-
-  renderDialogueStep();
-  showStep("dialogue");
-}
-
-// ========== TIMER & PROGRESS ==========
-function startTimer() {
-  updateTimeDisplay();
-  timerInterval = setInterval(() => {
-    timeLeft--;
-    if (timeLeft <= 0) {
-      clearInterval(timerInterval);
-      alert("⏰ Hết thời gian bài học!");
-      return;
-    }
-    updateTimeDisplay();
-  }, 1000);
-}
-
-function updateTimeDisplay() {
-  const m = Math.floor(timeLeft / 60);
-  const s = String(timeLeft % 60).padStart(2, "0");
-  el.timeLeft.textContent = `${m}:${s}`;
-}
-
-function updateProgress() {
-  if (!lessonData || !lessonData.drillingTargets) return;
-  const totalSteps = lessonData.drillingTargets.length * 5;
-  const currentCompleted = currentTargetIndex * 5 + (currentMode - 1);
-  const percent = Math.min(100, Math.round((currentCompleted / totalSteps) * 100));
-  el.progressFill.style.width = `${percent}%`;
-}
-
-// ========== STEP 1: OPENING DIALOGUE & GRAMMAR ==========
-function renderDialogueStep() {
-  if (!lessonData || !lessonData.openingDialogue) return;
-
-  const dialogue = lessonData.openingDialogue;
-  el.dialogueSectionTitle.textContent = dialogue.title || "🎙️ Hội thoại mở đầu (~30s)";
-
-  // Render dialogue lines with explicit Male / Female badges and distinct voices
-  el.dialogueList.innerHTML = dialogue.lines.map((line, idx) => {
-    const isMale = (line.gender === "male" || (!line.gender && idx % 2 === 0));
-    const genderTag = isMale ? "male" : "female";
-    const genderLabel = isMale ? "👨 Nam" : "👩 Nữ";
-    const badgeClass = isMale ? "speaker-badge speaker-male" : "speaker-badge speaker-female";
-    const cardClass = isMale ? "dialogue-item speaker-male-card" : "dialogue-item speaker-female-card";
-
-    return `
-      <div class="${cardClass}" id="dialogue-item-${idx}">
-        <span class="${badgeClass}">${genderLabel}: ${line.speaker}</span>
-        <div class="dialogue-en">${line.en}</div>
-        <div class="dialogue-vi">${line.vi}</div>
-        <div class="dialogue-actions">
-          <button class="btn-outline-en" onclick="speakEn('${escapeJs(line.en)}', false, '${genderTag}')">
-            🔊 Nghe giọng ${isMale ? "Nam 👨" : "Nữ 👩"}
-          </button>
-          <button class="btn-outline-vi" onclick="speakVi('${escapeJs(line.vi)}')">🔊 Dịch Tiếng Việt</button>
-        </div>
-      </div>
-    `;
-  }).join("");
-
-  // Render Grammar Rules
-  if (lessonData.grammarRules) {
-    const rules = lessonData.grammarRules;
-    let html = `<p style="margin-bottom:8px;">${rules.summaryVi}</p><div class="grammar-grid">`;
-    rules.points.forEach(pt => {
-      html += `
-        <div class="grammar-item">
-          <strong>${pt.subject}</strong> → <span style="color:var(--primary); font-weight:700;">${pt.toBe}</span><br/>
-          <span style="font-size:13px; color:#475569;">${pt.example}</span>
-        </div>
-      `;
-    });
-    html += `</div><div style="margin-top:10px; font-size:13px; color:#1e3a8a;"><strong>Cấu trúc:</strong> ${rules.forms.join(" | ")}</div>`;
-    el.grammarContent.innerHTML = html;
-  }
-}
-
-async function playFullDialogue() {
-  if (!lessonData || !lessonData.openingDialogue) return;
-  const lines = lessonData.openingDialogue.lines;
-
-  if (isDialoguePlaying) {
-    stopAllAudio(true);
-    return;
-  }
-
-  isDialoguePlaying = true;
-  if (el.btnPlayFullDialogue) {
-    el.btnPlayFullDialogue.textContent = "⏹️ Dừng phát";
-  }
-
-  for (let i = 0; i < lines.length; i++) {
-    if (!isDialoguePlaying) break;
-
-    // Highlight line
-    document.querySelectorAll(".dialogue-item").forEach(item => item.classList.remove("playing"));
-    const activeItem = document.getElementById(`dialogue-item-${i}`);
-    if (activeItem) {
-      activeItem.classList.add("playing");
-      activeItem.scrollIntoView({ behavior: "smooth", block: "nearest" });
-    }
-
-    const lineGender = lines[i].gender || (i % 2 === 0 ? "male" : "female");
-    // Speak English line sequentially with respective male or female voice
-    await speakEn(lines[i].en, true, lineGender);
-    if (!isDialoguePlaying) break;
-
-    // Natural conversational pause between turns
-    await new Promise(r => setTimeout(r, 650));
-  }
-
-  document.querySelectorAll(".dialogue-item").forEach(item => item.classList.remove("playing"));
+  setAudioBadge(false);
   isDialoguePlaying = false;
-  if (el.btnPlayFullDialogue) {
-    el.btnPlayFullDialogue.textContent = "▶ Nghe toàn bộ hội thoại (2 giọng Nam & Nữ)";
-  }
+  if (el.btnPlayFullDialogue) el.btnPlayFullDialogue.textContent = "▶ Nghe toàn bộ hội thoại";
 }
 
-// Helper to escape single quotes in inline onclick
-function escapeJs(str) {
-  return str.replace(/'/g, "\\'").replace(/"/g, "&quot;");
+function setAudioBadge(isPlaying) {
+  if (!el.audioStatusBadge) return;
+  el.audioStatusBadge.style.display = isPlaying ? "inline-block" : "none";
 }
 
-// ========== STEP 2: 5-LEVEL DRILLING LOGIC ==========
-function renderCurrentDrill() {
-  hideFeedback();
-  stopAllAudio();
-  updateProgress();
-
-  const targets = lessonData.drillingTargets;
-  if (!targets || currentTargetIndex >= targets.length) {
-    showStep("done");
-    renderSummary();
-    return;
-  }
-
-  const currentTarget = targets[currentTargetIndex];
-  el.targetCounter.textContent = `${currentTargetIndex + 1}/${targets.length}`;
-  el.targetEnText.textContent = currentTarget.baseEn;
-  el.targetViText.textContent = currentTarget.baseVi;
-
-  // Update Stepper Pills
-  [1, 2, 3, 4, 5].forEach(m => {
-    const pill = document.getElementById(`pill-mode${m}`);
-    if (pill) {
-      pill.classList.remove("active", "completed");
-      if (m === currentMode) pill.classList.add("active");
-      else if (m < currentMode) pill.classList.add("completed");
-    }
-  });
-
-  // Hide all mode containers
-  [el.containerMode1, el.containerMode2, el.containerMode3, el.containerMode4, el.containerMode5].forEach(c => c.style.display = "none");
-
-  el.btnNextDrillMode.style.display = "none";
-  el.btnPrevDrillMode.style.display = (currentTargetIndex === 0 && currentMode === 1) ? "none" : "inline-flex";
-
-  const drills = currentTarget.drills;
-
-  // Mode Specific Renders
-  if (currentMode === 1) {
-    renderMode1(drills.mode1_repeat);
-  } else if (currentMode === 2) {
-    renderMode2(drills.mode2_fill);
-  } else if (currentMode === 3) {
-    renderMode3(drills.mode3_scramble);
-  } else if (currentMode === 4) {
-    renderMode4(drills.mode4_transform);
-  } else if (currentMode === 5) {
-    renderMode5(drills.mode5_context);
-  }
-}
-
-// --- Mode 1: Nghe & Nhắc lại ---
-function renderMode1(data) {
-  el.modeTitle.textContent = "Cấp độ 1: Nghe và Nhắc lại theo mẫu";
-  el.modePrompt.textContent = data.promptVi || "Bấm 🎤 Nói ngay để luyện phát âm chuẩn.";
-  el.repeatScore.textContent = "—";
-  if (el.liveSpeechStatus) {
-    el.liveSpeechStatus.textContent = "🎙️ Nhấn 'Nói ngay' và phát âm câu mẫu";
-    el.liveSpeechStatus.style.color = "var(--primary)";
-  }
-  if (el.repeatInputFallback) el.repeatInputFallback.value = "";
-  el.containerMode1.style.display = "block";
-  drawWavePlaceholder();
-
-  el.btnAudioRepeat.onclick = () => speakEn(data.targetEn);
-  el.btnAudioRepeatVi.onclick = () => speakVi(data.hintVi);
-
-  const processScoreResult = (score, said) => {
-    el.repeatScore.textContent = `${score}%`;
-    if (el.repeatInputFallback && said) el.repeatInputFallback.value = said;
-
-    if (score >= 60) {
-      showFeedback(true, `🎉 Rất tốt! Bạn nói: "${said}" (${score}%)`);
-      speakEn("Very good!").then(() => {
-        el.btnNextDrillMode.style.display = "inline-flex";
-      });
-    } else if (said) {
-      showFeedback(false, `⚠️ Bạn nói: "${said}" (${score}%). Nhấn 🎤 thử lại hoặc chỉnh sửa ô nhập bàn phím.`);
-    } else {
-      showFeedback(false, `⚠️ Chưa nhận diện được giọng nói. Vui lòng thử nói to hơn hoặc dùng bàn phím nhập.`);
-    }
-  };
-
-  el.btnMicRepeat.onclick = () => {
-    startRecognitionFlow(data.targetEn, processScoreResult);
-  };
-
-  if (el.btnCheckRepeatText) {
-    el.btnCheckRepeatText.onclick = () => {
-      const typed = (el.repeatInputFallback.value || "").trim();
-      if (!typed) {
-        showFeedback(false, "Vui lòng nhập câu tiếng Anh bạn muốn kiểm tra.");
-        return;
-      }
-      const score = calculateSimilarityScore(typed, data.targetEn);
-      processScoreResult(score, typed);
-    };
-  }
-}
-
-// --- Mode 2: Điền từ vào chỗ trống ---
-function renderMode2(data) {
-  el.modeTitle.textContent = "Cấp độ 2: Điền từ còn thiếu vào chỗ trống";
-  el.modePrompt.textContent = data.promptVi || "Chọn đáp án đúng để hoàn thành câu:";
-  el.containerMode2.style.display = "block";
-
-  const parts = data.sentenceWithBlank.split("___");
-  el.fillSentenceDisplay.innerHTML = `${parts[0]}<span class="blank-input" id="blankWordSlot">___</span>${parts[1] || ""}`;
-
-  el.fillOptionsGrid.innerHTML = data.options.map(opt => `
-    <button class="chip-btn" onclick="checkMode2Answer('${opt}', '${data.correctAnswer}', '${data.sentenceWithBlank.replace('___', opt)}')">${opt}</button>
-  `).join("");
-}
-
-function checkMode2Answer(selected, correct, fullSentence) {
-  const slot = document.getElementById("blankWordSlot");
-  if (slot) slot.textContent = selected;
-
-  if (selected.toLowerCase() === correct.toLowerCase()) {
-    showFeedback(true, `✅ Chính xác! "${fullSentence}"`);
-    speakEn(fullSentence).then(() => {
-      el.btnNextDrillMode.style.display = "inline-flex";
-    });
-  } else {
-    showFeedback(false, `❌ Chưa đúng! Hãy thử lại.`);
-  }
-}
-
-// --- Mode 3: Sắp xếp từ ---
-function renderMode3(data) {
-  el.modeTitle.textContent = "Cấp độ 3: Sắp xếp từ xáo trộn thành câu";
-  el.modePrompt.textContent = data.promptVi || "Nhấn vào từng từ bên dưới theo thứ tự đúng:";
-  el.containerMode3.style.display = "block";
-
-  scrambleSelectedWords = [];
-  renderScrambleState(data.words, data.correctSentence);
-}
-
-function renderScrambleState(allWords, correctSentence) {
-  el.scrambleTarget.innerHTML = scrambleSelectedWords.map((w, idx) => `
-    <div class="word-block" onclick="removeScrambleWord(${idx}, '${escapeJs(correctSentence)}')">${w}</div>
-  `).join("") || '<span style="color:#94a3b8; font-size:13px;">Chưa chọn từ...</span>';
-
-  // Pool contains remaining unselected words
-  const remainingWords = [...allWords];
-  scrambleSelectedWords.forEach(selected => {
-    const index = remainingWords.indexOf(selected);
-    if (index > -1) remainingWords.splice(index, 1);
-  });
-
-  el.scramblePool.innerHTML = remainingWords.map(w => `
-    <div class="word-block" onclick="addScrambleWord('${escapeJs(w)}', '${escapeJs(correctSentence)}')">${w}</div>
-  `).join("");
-
-  el.btnResetScramble.onclick = () => {
-    scrambleSelectedWords = [];
-    renderScrambleState(allWords, correctSentence);
-    hideFeedback();
-  };
-
-  el.btnCheckScramble.onclick = () => {
-    const constructed = scrambleSelectedWords.join(" ").trim();
-    if (constructed.toLowerCase() === correctSentence.toLowerCase()) {
-      showFeedback(true, `🎉 Xuất sắc! Câu chuẩn: "${correctSentence}"`);
-      speakEn(correctSentence).then(() => {
-        el.btnNextDrillMode.style.display = "inline-flex";
-      });
-    } else {
-      showFeedback(false, `❌ Chưa chính xác. Thứ tự hiện tại: "${constructed}"`);
-    }
-  };
-}
-
-function addScrambleWord(word, correctSentence) {
-  scrambleSelectedWords.push(word);
-  const targets = lessonData.drillingTargets[currentTargetIndex].drills.mode3_scramble.words;
-  renderScrambleState(targets, correctSentence);
-}
-
-function removeScrambleWord(index, correctSentence) {
-  scrambleSelectedWords.splice(index, 1);
-  const targets = lessonData.drillingTargets[currentTargetIndex].drills.mode3_scramble.words;
-  renderScrambleState(targets, correctSentence);
-}
-
-// --- Mode 4: Biến đổi câu ---
-function renderMode4(data) {
-  el.modeTitle.textContent = "Cấp độ 4: Biến đổi câu theo yêu cầu";
-  el.modePrompt.textContent = data.promptVi;
-  el.containerMode4.style.display = "block";
-
-  el.transformInstruction.innerHTML = `<strong>Yêu cầu:</strong> ${data.instructionVi}<br/><span style="color:var(--muted); font-size:13px;">Gợi ý: ${data.hintVi}</span>`;
-  el.transformInput.value = "";
-
-  el.btnCheckTransform.onclick = () => {
-    const userInput = el.transformInput.value.trim();
-    checkTextAnswer(userInput, data.targetEn);
-  };
-
-  el.btnMicTransform.onclick = () => {
-    startRecognitionFlow(data.targetEn, (score, said) => {
-      el.transformInput.value = said;
-      checkTextAnswer(said, data.targetEn);
-    });
-  };
-}
-
-// --- Mode 5: Đổi ngữ cảnh / Ngôi ---
-function renderMode5(data) {
-  el.modeTitle.textContent = "Cấp độ 5: Biến đổi theo ngôi / ngữ cảnh mới";
-  el.modePrompt.textContent = data.promptVi;
-  el.containerMode5.style.display = "block";
-
-  el.contextInstruction.innerHTML = `<strong>Yêu cầu:</strong> ${data.instructionVi}<br/><span style="color:var(--muted); font-size:13px;">Nghĩa: ${data.hintVi}</span>`;
-  el.contextInput.value = "";
-
-  el.btnCheckContext.onclick = () => {
-    const userInput = el.contextInput.value.trim();
-    checkTextAnswer(userInput, data.targetEn);
-  };
-
-  el.btnMicContext.onclick = () => {
-    startRecognitionFlow(data.targetEn, (score, said) => {
-      el.contextInput.value = said;
-      checkTextAnswer(said, data.targetEn);
-    });
-  };
-}
-
-function checkTextAnswer(userText, targetEn) {
-  if (!userText) {
-    showFeedback(false, "Vui lòng nhập câu trả lời trước khi kiểm tra.");
-    return;
-  }
-  const score = calculateSimilarityScore(userText, targetEn);
-  if (score >= 75) {
-    showFeedback(true, `🎉 Hoàn hảo! "${userText}" (Độ chính xác: ${score}%)`);
-    speakEn(targetEn).then(() => {
-      el.btnNextDrillMode.style.display = "inline-flex";
-    });
-  } else {
-    showFeedback(false, `❌ Chưa chính xác ("${userText}" - ${score}%). Đáp án gợi ý: "${targetEn}"`);
-  }
-}
-
-// ========== TEXT NORMALIZATION & SIMILARITY ==========
-function normalizeText(text) {
-  if (!text) return "";
-  let s = text.toLowerCase().trim();
-  s = s.replace(/i'm/g, "i am")
-       .replace(/you're/g, "you are")
-       .replace(/he's/g, "he is")
-       .replace(/she's/g, "she is")
-       .replace(/it's/g, "it is")
-       .replace(/we're/g, "we are")
-       .replace(/they're/g, "they are")
-       .replace(/isn't/g, "is not")
-       .replace(/aren't/g, "are not")
-       .replace(/don't/g, "do not")
-       .replace(/can't/g, "cannot");
-  s = s.replace(/[.,?!'"]/g, " ");
-  return s.replace(/\s+/g, " ").trim();
-}
-
-function calculateSimilarityScore(said, target) {
-  const normSaid = normalizeText(said);
-  const normTarget = normalizeText(target);
-
-  if (!normSaid) return 0;
-  if (normSaid === normTarget) return 100;
-
-  const wordsSaid = normSaid.split(" ");
-  const wordsTarget = normTarget.split(" ");
-
-  let matchedWords = 0;
-  const tempTargetWords = [...wordsTarget];
-
-  wordsSaid.forEach(w => {
-    const idx = tempTargetWords.indexOf(w);
-    if (idx !== -1) {
-      matchedWords++;
-      tempTargetWords.splice(idx, 1);
-    }
-  });
-
-  const wordRatio = (matchedWords / wordsTarget.length) * 100;
-  const levSim = levDistanceSimilarity(normSaid, normTarget);
-
-  return Math.min(100, Math.round(Math.max(wordRatio, levSim)));
-}
-
-function levDistanceSimilarity(s1, s2) {
-  let m = s1.length, n = s2.length;
-  if (m === 0) return n === 0 ? 100 : 0;
-  if (n === 0) return 0;
-
-  let d = Array.from({ length: m + 1 }, () => new Array(n + 1).fill(0));
-  for (let i = 0; i <= m; i++) d[i][0] = i;
-  for (let j = 0; j <= n; j++) d[0][j] = j;
-
-  for (let i = 1; i <= m; i++) {
-    for (let j = 1; j <= n; j++) {
-      let cost = s1[i - 1] === s2[j - 1] ? 0 : 1;
-      d[i][j] = Math.min(
-        d[i - 1][j] + 1,
-        d[i][j - 1] + 1,
-        d[i - 1][j - 1] + cost
-      );
-    }
-  }
-
-  let dist = d[m][n];
-  let maxLen = Math.max(m, n);
-  return Math.round(((maxLen - dist) / maxLen) * 100);
-}
-
-// ========== DRILL NAVIGATION ==========
-function nextDrillMode() {
-  if (currentMode < 5) {
-    currentMode++;
-  } else {
-    currentMode = 1;
-    currentTargetIndex++;
-  }
-  renderCurrentDrill();
-}
-
-function prevDrillMode() {
-  if (currentMode > 1) {
-    currentMode--;
-  } else if (currentTargetIndex > 0) {
-    currentTargetIndex--;
-    currentMode = 5;
-  }
-  renderCurrentDrill();
-}
-
-// ========== FEEDBACK MESSAGES ==========
-function showFeedback(isSuccess, text) {
-  el.feedbackMsg.className = `feedback-msg ${isSuccess ? "success" : "error"}`;
-  el.feedbackMsg.textContent = text;
-}
-
-function hideFeedback() {
-  el.feedbackMsg.className = "feedback-msg";
-  el.feedbackMsg.style.display = "none";
-}
-
-// ========== SPEECH RECOGNITION & AUDIO WAVE ==========
-let recognitionTimeout = null;
-
+// ==========================================
+// 4. SPEECH RECOGNITION & CANVAS WAVEFORM
+// ==========================================
 function initSpeechRecognition() {
   const SpeechRec = window.SpeechRecognition || window.webkitSpeechRecognition;
-  if (!SpeechRec) {
-    console.warn("Speech recognition API is not supported in this browser.");
-    return;
-  }
-  try {
+  if (SpeechRec) {
     recognition = new SpeechRec();
+    recognition.continuous = false;
+    recognition.interimResults = false;
     recognition.lang = "en-US";
-    recognition.interimResults = true;
-    recognition.maxAlternatives = 1;
-  } catch (e) {
-    console.warn("Could not init SpeechRecognition:", e);
+
+    recognition.onstart = () => {
+      isRecording = true;
+      if (el.btnMicRepeat) el.btnMicRepeat.classList.add("recording");
+      if (el.btnMicTransform) el.btnMicTransform.classList.add("recording");
+      if (el.btnMicContext) el.btnMicContext.classList.add("recording");
+      if (el.liveSpeechStatus) el.liveSpeechStatus.textContent = "🎙️ Đang nghe... Hãy phát âm câu của bạn!";
+    };
+
+    recognition.onresult = (event) => {
+      const transcript = event.results[0][0].transcript;
+      handleSpeechResult(transcript);
+    };
+
+    recognition.onerror = (e) => {
+      console.warn("Speech recognition error:", e.error);
+      stopRecording();
+      if (el.liveSpeechStatus) el.liveSpeechStatus.textContent = "⚠️ Không nhận diện được hoặc Micro bị chặn. Bạn có thể gõ văn bản dự phòng bên dưới.";
+    };
+
+    recognition.onend = () => {
+      stopRecording();
+    };
   }
 }
 
-let waveAnimFrame = null;
-
-async function startRecognitionFlow(targetText, callback) {
-  if (!recognition) {
-    initSpeechRecognition();
+function startRecording(canvasId) {
+  stopAllAudio();
+  if (recognition) {
+    try {
+      recognition.start();
+    } catch (err) {}
   }
+  startWaveVisualizer(canvasId);
+}
 
-  if (!recognition) {
-    addToHistory("⚠️ Trình duyệt chưa hỗ trợ Web Speech Recognition API");
-    if (el.liveSpeechStatus) {
-      el.liveSpeechStatus.textContent = "⚠️ Trình duyệt chưa hỗ trợ nhận diện tự động. Bạn hãy nhập câu bằng bàn phím bên dưới!";
-      el.liveSpeechStatus.style.color = "var(--danger)";
+function stopRecording() {
+  isRecording = false;
+  quizIsRecordingSpeaking = false;
+  if (el.btnMicRepeat) el.btnMicRepeat.classList.remove("recording");
+  if (el.btnMicTransform) el.btnMicTransform.classList.remove("recording");
+  if (el.btnMicContext) el.btnMicContext.classList.remove("recording");
+  
+  const quizMicBtn = document.getElementById("btnQuizSpeakingMic");
+  if (quizMicBtn) quizMicBtn.classList.remove("recording");
+
+  stopWaveVisualizer();
+}
+
+function startWaveVisualizer(canvasId) {
+  const canvas = document.getElementById(canvasId);
+  if (!canvas) return;
+  const ctx = canvas.getContext("2d");
+
+  navigator.mediaDevices?.getUserMedia({ audio: true }).then((stream) => {
+    mediaStream = stream;
+    audioContext = new (window.AudioContext || window.webkitAudioContext)();
+    analyser = audioContext.createAnalyser();
+    const source = audioContext.createMediaStreamSource(stream);
+    source.connect(analyser);
+    analyser.fftSize = 64;
+
+    const dataArray = new Uint8Array(analyser.frequencyBinCount);
+    function draw() {
+      if (!isRecording && !quizIsRecordingSpeaking) return;
+      requestAnimationFrame(draw);
+      analyser.getByteFrequencyData(dataArray);
+
+      ctx.clearRect(0, 0, canvas.width, canvas.height);
+      const barWidth = (canvas.width / dataArray.length) * 1.5;
+      let x = 0;
+
+      for (let i = 0; i < dataArray.length; i++) {
+        const barHeight = (dataArray[i] / 255) * canvas.height;
+        ctx.fillStyle = "#2563eb";
+        ctx.fillRect(x, canvas.height - barHeight, barWidth - 2, barHeight);
+        x += barWidth;
+      }
     }
-    showFeedback(false, "Trình duyệt chưa hỗ trợ nhận diện giọng nói tự động. Hãy nhập câu nói vào ô bàn phím bên dưới!");
+    draw();
+  }).catch(() => {});
+}
+
+function stopWaveVisualizer() {
+  if (mediaStream) {
+    mediaStream.getTracks().forEach(t => t.stop());
+    mediaStream = null;
+  }
+  if (audioContext && audioContext.state !== "closed") {
+    audioContext.close();
+    audioContext = null;
+  }
+}
+
+function handleSpeechResult(transcript) {
+  addRecognitionHistory(transcript);
+
+  // Check if we are currently inside the Review Quiz speaking mode
+  if (quizIsRecordingSpeaking) {
+    evaluateQuizSpeakingSpeech(transcript);
     return;
   }
 
-  // Stop any ongoing TTS audio before starting mic input
-  stopAllAudio(true);
+  // Otherwise handle lesson drilling modes
+  if (currentMode === 1) {
+    const target = getTargetData();
+    const targetText = target.baseEn;
+    const score = calculateSimilarity(transcript, targetText);
+    
+    el.repeatScore.textContent = `${score}% ("${transcript}")`;
+    el.liveSpeechStatus.textContent = `Bạn nói: "${transcript}"`;
 
-  isRecording = true;
-  updateMicButtonState(true);
-  startWaveVisualization();
-
-  if (el.liveSpeechStatus) {
-    el.liveSpeechStatus.textContent = "🎙️ Đang lắng nghe... Hãy nói ngay bây giờ!";
-    el.liveSpeechStatus.style.color = "#dc2626";
-  }
-
-  try {
-    recognition.abort();
-  } catch (e) {}
-
-  let lastCapturedTranscript = "";
-
-  recognition.interimResults = true;
-  recognition.lang = "en-US";
-
-  // Safeguard timeout to prevent infinite listening hanging
-  if (recognitionTimeout) clearTimeout(recognitionTimeout);
-  recognitionTimeout = setTimeout(() => {
-    if (isRecording) {
-      try { recognition.stop(); } catch (e) {}
-    }
-  }, 10000);
-
-  recognition.onresult = (e) => {
-    let interimText = "";
-    let finalText = "";
-    for (let i = 0; i < e.results.length; i++) {
-      const trans = e.results[i][0].transcript;
-      if (e.results[i].isFinal) {
-        finalText += " " + trans;
-      } else {
-        interimText += " " + trans;
-      }
-    }
-    lastCapturedTranscript = (finalText || interimText).trim();
-    if (lastCapturedTranscript && el.liveSpeechStatus) {
-      el.liveSpeechStatus.textContent = `🗣️ Đang nghe: "${lastCapturedTranscript}"`;
-      el.liveSpeechStatus.style.color = "var(--primary)";
-    }
-  };
-
-  recognition.onerror = (err) => {
-    if (recognitionTimeout) clearTimeout(recognitionTimeout);
-    isRecording = false;
-    updateMicButtonState(false);
-    stopWaveVisualization();
-
-    const errCode = err.error || "unknown";
-    console.warn("Speech recognition error:", errCode, err);
-
-    let msg = "Lỗi nhận diện giọng nói.";
-    if (errCode === "no-speech") {
-      msg = "Không phát hiện tiếng nói (Micro nhỏ hoặc ngắt lời nhanh). Bạn có thể thử lại hoặc nhập câu bằng bàn phím.";
-    } else if (errCode === "network") {
-      msg = "Không kết nối được dịch vụ nhận diện giọng nói Google. Vui lòng nhập câu bằng bàn phím.";
-    } else if (errCode === "not-allowed" || errCode === "service-not-allowed") {
-      msg = "Quyền truy cập Micro bị từ chối hoặc bị chặn bởi trình duyệt.";
-    } else if (errCode === "audio-capture") {
-      msg = "Không tìm thấy thiết bị thu âm Micro.";
-    }
-
-    if (el.liveSpeechStatus) {
-      el.liveSpeechStatus.textContent = `❌ ${msg}`;
-      el.liveSpeechStatus.style.color = "var(--danger)";
-    }
-
-    addToHistory(`❌ Lỗi [${errCode}]: ${msg}`);
-    showFeedback(false, `❌ ${msg}`);
-  };
-
-  recognition.onend = () => {
-    if (recognitionTimeout) clearTimeout(recognitionTimeout);
-    const wasRecording = isRecording;
-    isRecording = false;
-    updateMicButtonState(false);
-    stopWaveVisualization();
-
-    if (lastCapturedTranscript) {
-      const said = lastCapturedTranscript;
-      const score = calculateSimilarityScore(said, targetText);
-
-      if (el.liveSpeechStatus) {
-        el.liveSpeechStatus.textContent = `✅ Nghe xong: "${said}" (${score}%)`;
-        el.liveSpeechStatus.style.color = "var(--success)";
-      }
-
-      addToHistory(`🎤 Nghe được: "${said}" → Độ chính xác: ${score}%`);
-      callback(score, said);
-    } else if (wasRecording) {
-      if (el.liveSpeechStatus && !el.liveSpeechStatus.textContent.includes("❌")) {
-        el.liveSpeechStatus.textContent = "⚠️ Chưa nhận diện được từ nào. Bấm 'Nói ngay' lại hoặc dùng ô nhập bàn phím bên dưới.";
-        el.liveSpeechStatus.style.color = "var(--warning)";
-      }
-    }
-  };
-
-  try {
-    setTimeout(() => {
-      if (isRecording) {
-        try {
-          recognition.start();
-        } catch (startErr) {
-          console.warn("Recognition start error:", startErr);
-        }
-      }
-    }, 100);
-  } catch (err) {
-    isRecording = false;
-    updateMicButtonState(false);
-    stopWaveVisualization();
-    if (el.liveSpeechStatus) {
-      el.liveSpeechStatus.textContent = "❌ Không thể khởi động nhận diện giọng nói. Hãy dùng bàn phím nhập bên dưới.";
-      el.liveSpeechStatus.style.color = "var(--danger)";
-    }
-  }
-}
-
-function startWaveVisualization() {
-  const canvas = el.waveCanvasRepeat;
-  if (!canvas) return;
-  const ctx = canvas.getContext("2d");
-  if (!ctx) return;
-
-  if (waveAnimFrame) cancelAnimationFrame(waveAnimFrame);
-
-  let step = 0;
-  const renderWave = () => {
-    if (!isRecording) return;
-    waveAnimFrame = requestAnimationFrame(renderWave);
-    step += 0.15;
-
-    ctx.clearRect(0, 0, canvas.width, canvas.height);
-    const width = canvas.width;
-    const height = canvas.height;
-    const midY = height / 2;
-
-    const numBars = 32;
-    const barWidth = width / numBars;
-
-    for (let i = 0; i < numBars; i++) {
-      const val = Math.sin(step + i * 0.35) * Math.cos(step * 0.7 + i * 0.15);
-      const barHeight = Math.max(6, Math.abs(val) * (height * 0.75));
-
-      ctx.fillStyle = i % 2 === 0 ? "#2563eb" : "#3b82f6";
-      ctx.fillRect(i * barWidth + 2, midY - barHeight / 2, barWidth - 4, barHeight);
-    }
-  };
-  renderWave();
-}
-
-function stopWaveVisualization() {
-  isRecording = false;
-  if (waveAnimFrame) {
-    cancelAnimationFrame(waveAnimFrame);
-    waveAnimFrame = null;
-  }
-  drawWavePlaceholder();
-}
-
-function drawWavePlaceholder() {
-  const canvas = el.waveCanvasRepeat;
-  if (!canvas) return;
-  const ctx = canvas.getContext("2d");
-  if (!ctx) return;
-  ctx.clearRect(0, 0, canvas.width, canvas.height);
-  ctx.fillStyle = "#94a3b8";
-  ctx.font = "13px sans-serif";
-  ctx.textAlign = "center";
-  ctx.fillText("🎤 Sóng âm giọng nói sẽ xuất hiện tại đây khi bạn nói", canvas.width / 2, canvas.height / 2 + 4);
-}
-
-function updateMicButtonState(recording) {
-  [el.btnMicRepeat, el.btnMicTransform, el.btnMicContext].forEach(btn => {
-    if (!btn) return;
-    if (recording) {
-      btn.classList.add("recording");
+    if (score >= 70) {
+      showFeedback(true, `🎉 Xuất sắc! Phát âm chính xác ${score}%.`);
+      markDrillSuccess(1);
     } else {
-      btn.classList.remove("recording");
+      showFeedback(false, `Chưa chính xác (${score}%). Thử lại hoặc nghe lại câu mẫu.`);
     }
-  });
+  } else if (currentMode === 4) {
+    el.transformInput.value = transcript;
+    checkTransform();
+  } else if (currentMode === 5) {
+    el.contextInput.value = transcript;
+    checkContext();
+  }
 }
 
-// ========== RECOGNITION HISTORY ==========
-function addToHistory(text) {
-  const time = new Date().toLocaleTimeString("vi-VN");
+function calculateSimilarity(str1, str2) {
+  const clean1 = str1.toLowerCase().replace(/[^a-z0-9 ]/g, "").trim().split(/\s+/);
+  const clean2 = str2.toLowerCase().replace(/[^a-z0-9 ]/g, "").trim().split(/\s+/);
+  
+  let matches = 0;
+  clean1.forEach(w => {
+    if (clean2.includes(w)) matches++;
+  });
+  return Math.round((matches / Math.max(clean1.length, clean2.length)) * 100);
+}
+
+function addRecognitionHistory(text) {
+  const time = new Date().toTimeString().split(" ")[0];
   recognitionHistory.unshift({ time, text });
-  if (recognitionHistory.length > 20) recognitionHistory.pop();
+  if (recognitionHistory.length > 8) recognitionHistory.pop();
   renderRecognitionHistory();
 }
 
 function renderRecognitionHistory() {
+  if (!el.recognitionHistory) return;
   el.recognitionHistory.innerHTML = recognitionHistory.length
     ? recognitionHistory.map(item => `<div class="history-item"><span class="time">[${item.time}]</span> ${item.text}</div>`).join("")
     : `<div class="history-item"><span class="time">--:--:--</span> Chưa có dữ liệu nói</div>`;
 }
 
-// ========== SUMMARY STEP ==========
+// ==========================================
+// 5. LESSON DRILLING LOGIC (TABS 1)
+// ==========================================
+function loadSelectedLesson() {
+  const fileName = el.lessonSelector.value;
+  if (!fileName) {
+    alert("Vui lòng chọn bài học từ danh sách!");
+    return;
+  }
+
+  fetch(`/data/${fileName}`)
+    .then(r => {
+      if (!r.ok) throw new Error("Could not load lesson");
+      return r.json();
+    })
+    .then(data => {
+      lessonData = data;
+      currentTargetIndex = 0;
+      currentMode = 1;
+      resetLessonTimer();
+      renderDialogueStep();
+      showStep("dialogue");
+      updateOverallProgressUI();
+    })
+    .catch(err => {
+      console.error(err);
+      alert("Lỗi khi tải dữ liệu bài học. Vui lòng thử lại!");
+    });
+}
+
+function resetLessonTimer() {
+  clearInterval(timerInterval);
+  timeLeft = MAX_TIME_SECONDS;
+  updateTimerDisplay();
+  timerInterval = setInterval(() => {
+    timeLeft--;
+    updateTimerDisplay();
+    if (timeLeft <= 0) {
+      clearInterval(timerInterval);
+      alert("⏱️ Hết thời gian bài học!");
+    }
+  }, 1000);
+}
+
+function updateTimerDisplay() {
+  const m = Math.floor(timeLeft / 60);
+  const s = timeLeft % 60;
+  if (el.timeLeft) el.timeLeft.textContent = `${String(m).padStart(2, "0")}:${String(s).padStart(2, "0")}`;
+}
+
+function renderDialogueStep() {
+  if (!lessonData) return;
+  el.lessonTitle.textContent = lessonData.title;
+  el.dialogueSectionTitle.textContent = `🎙️ Hội thoại mở đầu: ${lessonData.openingDialogue ? lessonData.openingDialogue.title : ''}`;
+
+  // Dialogue lines
+  const lines = lessonData.openingDialogue ? lessonData.openingDialogue.lines : [];
+  el.dialogueList.innerHTML = lines.map((line, idx) => {
+    const isMale = line.gender === "male";
+    const cardClass = isMale ? "speaker-male-card" : "speaker-female-card";
+    const badgeClass = isMale ? "speaker-male" : "speaker-female";
+    const icon = isMale ? "👨" : "👩";
+
+    return `
+      <div class="dialogue-item ${cardClass}" id="dialogue-line-${idx}">
+        <span class="speaker-badge ${badgeClass}">${icon} ${line.speaker}</span>
+        <div class="dialogue-en">${line.en}</div>
+        <div class="dialogue-vi">${line.vi}</div>
+        <div class="dialogue-actions">
+          <button class="btn-outline-en" onclick="speakLineEn(${idx})" style="font-size:12px; padding:4px 8px;">🔊 Nghe EN</button>
+          <button class="btn-outline-vi" onclick="speakLineVi(${idx})" style="font-size:12px; padding:4px 8px;">🔊 Nghe VI</button>
+        </div>
+      </div>
+    `;
+  }).join("");
+
+  // Grammar Box
+  if (lessonData.grammarRules) {
+    const gr = lessonData.grammarRules;
+    if (el.grammarBoxHeaderTitle) el.grammarBoxHeaderTitle.textContent = `💡 ${gr.title || 'Quy tắc ngữ pháp trọng tâm'}`;
+    el.grammarContent.innerHTML = `
+      <p style="margin-bottom:8px;"><strong>Tóm tắt:</strong> ${gr.summaryVi}</p>
+      <div class="grammar-grid">
+        ${gr.points.map(pt => `
+          <div class="grammar-item">
+            <div style="font-weight:700; color:#1e40af; margin-bottom:4px;">${pt.subject}</div>
+            <div style="font-size:13px; margin-bottom:4px;">${pt.toBe.replace(/\n/g, '<br/>')}</div>
+            <div style="font-size:12px; color:#15803d; font-style:italic;">VD: ${pt.example ? pt.example.replace(/\n/g, '<br/>') : ''}</div>
+          </div>
+        `).join("")}
+      </div>
+    `;
+  }
+}
+
+window.speakLineEn = function(idx) {
+  if (!lessonData || !lessonData.openingDialogue) return;
+  const line = lessonData.openingDialogue.lines[idx];
+  if (line) speakEn(line.en, line.gender);
+};
+
+window.speakLineVi = function(idx) {
+  if (!lessonData || !lessonData.openingDialogue) return;
+  const line = lessonData.openingDialogue.lines[idx];
+  if (line) speakVi(line.vi);
+};
+
+function playFullDialogue() {
+  if (!lessonData || !lessonData.openingDialogue) return;
+  const lines = lessonData.openingDialogue.lines;
+  if (!lines.length) return;
+
+  isDialoguePlaying = true;
+  dialoguePlaybackIndex = 0;
+  if (el.btnPlayFullDialogue) el.btnPlayFullDialogue.textContent = "⏹ Dừng phát hội thoại";
+
+  function playNext() {
+    if (!isDialoguePlaying || dialoguePlaybackIndex >= lines.length) {
+      stopAllAudio();
+      return;
+    }
+
+    document.querySelectorAll(".dialogue-item").forEach(d => d.classList.remove("playing"));
+    const currentCard = document.getElementById(`dialogue-line-${dialoguePlaybackIndex}`);
+    if (currentCard) {
+      currentCard.classList.add("playing");
+      currentCard.scrollIntoView({ behavior: "smooth", block: "nearest" });
+    }
+
+    const currentLine = lines[dialoguePlaybackIndex];
+    speakEn(currentLine.en, currentLine.gender, () => {
+      dialoguePlaybackIndex++;
+      setTimeout(playNext, 600);
+    });
+  }
+
+  playNext();
+}
+
+function getTargetData() {
+  if (!lessonData || !lessonData.drillingTargets) return {};
+  return lessonData.drillingTargets[currentTargetIndex] || {};
+}
+
+function renderCurrentDrill() {
+  const target = getTargetData();
+  if (!target || !target.drills) return;
+
+  const totalTargets = lessonData.drillingTargets.length;
+  el.targetCounter.textContent = `${currentTargetIndex + 1}/${totalTargets}`;
+  el.targetEnText.textContent = target.baseEn;
+  el.targetViText.textContent = target.baseVi;
+
+  // Update stepper pills
+  el.pills.forEach((p, idx) => {
+    p.classList.remove("active");
+    if (idx + 1 === currentMode) p.classList.add("active");
+  });
+
+  // Hide all mode containers
+  el.containerMode1.style.display = "none";
+  el.containerMode2.style.display = "none";
+  el.containerMode3.style.display = "none";
+  el.containerMode4.style.display = "none";
+  el.containerMode5.style.display = "none";
+  hideFeedback();
+  el.btnNextDrillMode.style.display = "none";
+
+  const d = target.drills;
+
+  if (currentMode === 1) {
+    el.containerMode1.style.display = "block";
+    el.modeTitle.textContent = "Cấp độ 1: Nghe và nhắc lại";
+    el.modePrompt.textContent = (d.mode1_repeat && d.mode1_repeat.promptVi) || "Hãy nghe và nói lại câu mẫu chính xác:";
+    el.repeatScore.textContent = "—";
+    el.liveSpeechStatus.textContent = "🎙️ Nhấn 'Nói ngay' và phát âm câu mẫu";
+    if (el.repeatInputFallback) el.repeatInputFallback.value = "";
+  } else if (currentMode === 2) {
+    el.containerMode2.style.display = "block";
+    el.modeTitle.textContent = "Cấp độ 2: Điền chỗ trống";
+    el.modePrompt.textContent = (d.mode2_fill && d.mode2_fill.promptVi) || "Chọn từ thích hợp điền vào chỗ trống:";
+    el.fillSentenceDisplay.innerHTML = (d.mode2_fill && d.mode2_fill.sentenceWithBlank.replace("___", '<span class="blank-input">___</span>')) || "";
+
+    const options = (d.mode2_fill && d.mode2_fill.options) || [];
+    el.fillOptionsGrid.innerHTML = options.map(opt => `
+      <button class="chip-btn" onclick="checkFillOption('${opt.replace(/'/g, "\\'")}')">${opt}</button>
+    `).join("");
+  } else if (currentMode === 3) {
+    el.containerMode3.style.display = "block";
+    el.modeTitle.textContent = "Cấp độ 3: Sắp xếp câu";
+    el.modePrompt.textContent = (d.mode3_scramble && d.mode3_scramble.promptVi) || "Nhấn vào các từ để ghép thành câu hoàn chỉnh:";
+    initScrambleWords(d.mode3_scramble ? d.mode3_scramble.words : []);
+  } else if (currentMode === 4) {
+    el.containerMode4.style.display = "block";
+    el.modeTitle.textContent = "Cấp độ 4: Biến đổi câu";
+    el.modePrompt.textContent = (d.mode4_transform && d.mode4_transform.promptVi) || "Biến đổi câu theo yêu cầu:";
+    el.transformInstruction.textContent = (d.mode4_transform && d.mode4_transform.instructionVi) || "";
+    el.transformInput.value = "";
+  } else if (currentMode === 5) {
+    el.containerMode5.style.display = "block";
+    el.modeTitle.textContent = "Cấp độ 5: Ngữ cảnh mới";
+    el.modePrompt.textContent = (d.mode5_context && d.mode5_context.promptVi) || "Áp dụng cấu trúc vào ngữ cảnh mới:";
+    el.contextInstruction.textContent = (d.mode5_context && d.mode5_context.instructionVi) || "";
+    el.contextInput.value = "";
+  }
+
+  updateProgressFill();
+}
+
+function updateProgressFill() {
+  if (!lessonData || !lessonData.drillingTargets) return;
+  const total = lessonData.drillingTargets.length * 5;
+  const current = (currentTargetIndex * 5) + currentMode;
+  const pct = Math.round((current / total) * 100);
+  if (el.progressFill) el.progressFill.style.width = `${pct}%`;
+}
+
+// Mode 2 Check
+window.checkFillOption = function(selected) {
+  const target = getTargetData();
+  const correct = target.drills.mode2_fill.correctAnswer;
+  if (selected.trim().toLowerCase() === correct.trim().toLowerCase()) {
+    showFeedback(true, `🎉 Chính xác! Đáp án là "${correct}". ${target.drills.mode2_fill.explanationVi || ''}`);
+    markDrillSuccess(2);
+  } else {
+    showFeedback(false, `Chưa chính xác. Hãy thử lại! Gợi ý: ${target.drills.mode2_fill.explanationVi || ''}`);
+  }
+};
+
+// Mode 3 Scramble
+function initScrambleWords(words) {
+  scrambleSelectedWords = [];
+  el.scrambleTarget.innerHTML = '<span style="color:#94a3b8; font-size:14px;">(Chạm vào các từ bên dưới)</span>';
+  
+  const shuffled = [...words].sort(() => Math.random() - 0.5);
+  el.scramblePool.innerHTML = shuffled.map((w, idx) => `
+    <div class="word-block" id="word-${idx}" onclick="selectScrambleWord('${w.replace(/'/g, "\\'")}', this)">${w}</div>
+  `).join("");
+}
+
+window.selectScrambleWord = function(word, btn) {
+  if (btn.style.visibility === "hidden") return;
+  btn.style.visibility = "hidden";
+  scrambleSelectedWords.push({ word, btn });
+  renderScrambleTarget();
+};
+
+function renderScrambleTarget() {
+  if (!scrambleSelectedWords.length) {
+    el.scrambleTarget.innerHTML = '<span style="color:#94a3b8; font-size:14px;">(Chạm vào các từ bên dưới)</span>';
+    return;
+  }
+  el.scrambleTarget.innerHTML = scrambleSelectedWords.map((item, idx) => `
+    <div class="word-block" onclick="removeScrambleWord(${idx})">${item.word}</div>
+  `).join("");
+}
+
+window.removeScrambleWord = function(idx) {
+  const item = scrambleSelectedWords.splice(idx, 1)[0];
+  if (item && item.btn) item.btn.style.visibility = "visible";
+  renderScrambleTarget();
+};
+
+function checkScramble() {
+  const target = getTargetData();
+  const correct = target.drills.mode3_scramble.correctSentence.trim().toLowerCase();
+  const current = scrambleSelectedWords.map(i => i.word).join(" ").trim().toLowerCase();
+
+  if (current === correct || calculateSimilarity(current, correct) >= 95) {
+    showFeedback(true, `🎉 Chính xác! Câu hoàn chỉnh: "${target.drills.mode3_scramble.correctSentence}".`);
+    markDrillSuccess(3);
+  } else {
+    showFeedback(false, `Chưa đúng trật tự từ. Thử lại hoặc bấm Làm lại!`);
+  }
+}
+
+// Mode 4 Transform
+function checkTransform() {
+  const target = getTargetData();
+  const correct = target.drills.mode4_transform.targetEn;
+  const user = el.transformInput.value.trim();
+
+  if (calculateSimilarity(user, correct) >= 80) {
+    showFeedback(true, `🎉 Tuyệt vời! "${correct}".`);
+    markDrillSuccess(4);
+  } else {
+    showFeedback(false, `Chưa đúng cấu trúc. Gợi ý: ${target.drills.mode4_transform.hintVi || ''}`);
+  }
+}
+
+// Mode 5 Context
+function checkContext() {
+  const target = getTargetData();
+  const correct = target.drills.mode5_context.targetEn;
+  const user = el.contextInput.value.trim();
+
+  if (calculateSimilarity(user, correct) >= 80) {
+    showFeedback(true, `🎉 Hoàn hảo! "${correct}".`);
+    markDrillSuccess(5);
+  } else {
+    showFeedback(false, `Chưa chính xác. Gợi ý: ${target.drills.mode5_context.hintVi || ''}`);
+  }
+}
+
+function markDrillSuccess(mode) {
+  if (el.pills[mode - 1]) el.pills[mode - 1].classList.add("completed");
+  el.btnNextDrillMode.style.display = "inline-flex";
+}
+
+function nextDrillMode() {
+  if (currentMode < 5) {
+    currentMode++;
+    renderCurrentDrill();
+  } else {
+    // Finish target
+    const totalTargets = lessonData.drillingTargets.length;
+    if (currentTargetIndex < totalTargets - 1) {
+      currentTargetIndex++;
+      currentMode = 1;
+      renderCurrentDrill();
+    } else {
+      // Completed entire lesson!
+      renderSummary();
+      showStep("done");
+    }
+  }
+}
+
+function prevDrillMode() {
+  if (currentMode > 1) {
+    currentMode--;
+    renderCurrentDrill();
+  } else if (currentTargetIndex > 0) {
+    currentTargetIndex--;
+    currentMode = 5;
+    renderCurrentDrill();
+  }
+}
+
+function showFeedback(isSuccess, msg) {
+  if (!el.feedbackMsg) return;
+  el.feedbackMsg.className = `feedback-msg ${isSuccess ? 'success' : 'error'}`;
+  el.feedbackMsg.textContent = msg;
+}
+
+function hideFeedback() {
+  if (!el.feedbackMsg) return;
+  el.feedbackMsg.style.display = "none";
+}
+
+// Summary Step
 function renderSummary() {
   clearInterval(timerInterval);
   const timeSpentMinutes = Math.max(1, Math.floor((MAX_TIME_SECONDS - timeLeft) / 60));
-  el.finalScoreText.textContent = `Bạn đã hoàn thành bài học "${lessonData.title}" trong ${timeSpentMinutes} phút! Tất cả 5 Cấp độ Drilling đã được vượt qua thành công.`;
+  if (el.finalScoreText) {
+    el.finalScoreText.textContent = `Bạn đã hoàn thành toàn bộ bài học "${lessonData.title}" trong ${timeSpentMinutes} phút! Đã chinh phục trọn vẹn 5 cấp độ phản xạ!`;
+  }
+  
+  // Auto-mark completed lesson in localStorage
+  if (el.lessonSelector.value) {
+    markLessonCompleted(el.lessonSelector.value, true);
+  }
 }
 
-// ========== STEP NAVIGATION HELPER ==========
 function showStep(name) {
   el.stepSelect.classList.remove("active");
   el.stepDialogue.classList.remove("active");
@@ -1225,9 +1067,465 @@ function showStep(name) {
   if (name === "done") el.stepDone.classList.add("active");
 }
 
-// ========== BIND EVENT LISTENERS ==========
+// ==========================================
+// 6. SMART REVIEW & 20-QUESTION QUIZ ENGINE (TAB 2)
+// ==========================================
+function startReviewQuiz() {
+  stopAllAudio();
+  const scopeEl = document.querySelector('input[name="reviewScope"]:checked');
+  const countEl = document.querySelector('input[name="reviewCount"]:checked');
+  const scope = scopeEl ? scopeEl.value : "completed";
+  const count = countEl ? parseInt(countEl.value, 10) : 20;
+
+  const completed = getCompletedLessons();
+  let selectedLessonFiles = [];
+
+  if (scope === "completed") {
+    if (completed.length === 0) {
+      // If no completed lessons, default to first 5 lessons for demo
+      selectedLessonFiles = ["lesson-001.json", "lesson-002.json", "lesson-003.json", "lesson-004.json", "lesson-005.json"];
+    } else {
+      selectedLessonFiles = completed;
+    }
+  } else {
+    // All 100 lessons
+    selectedLessonFiles = LESSON_LIST.map(l => l.file);
+  }
+
+  // Fetch review questions from server endpoint
+  const queryParam = selectedLessonFiles.join(",");
+  fetch(`/api/review-pool?lessons=${encodeURIComponent(queryParam)}&count=${count}`)
+    .then(r => {
+      if (!r.ok) throw new Error("Could not load review pool");
+      return r.json();
+    })
+    .then(data => {
+      if (!data.questions || !data.questions.length) {
+        alert("Không tìm thấy bài tập cho phạm vi đã chọn!");
+        return;
+      }
+      initQuizState(data.questions, count);
+    })
+    .catch(err => {
+      console.warn("Falling back to local exercise loading:", err);
+      fallbackLoadReviewPool(selectedLessonFiles, count);
+    });
+}
+
+function fallbackLoadReviewPool(lessonFiles, count) {
+  const promises = lessonFiles.slice(0, 20).map(fn => {
+    const pad = fn.replace(".json", "").replace("lesson-", "");
+    return fetch(`/data/exercises/exercise-${pad}.json`)
+      .then(r => r.ok ? r.json() : null)
+      .catch(() => null);
+  });
+
+  Promise.all(promises).then(results => {
+    let pool = [];
+    results.forEach(res => {
+      if (res && res.questions) pool.push(...res.questions);
+    });
+
+    if (!pool.length) {
+      alert("Không tải được ngân hàng câu hỏi. Vui lòng kiểm tra lại!");
+      return;
+    }
+
+    pool.sort(() => Math.random() - 0.5);
+    initQuizState(pool.slice(0, count), count);
+  });
+}
+
+function initQuizState(questions, totalCount) {
+  quizQuestions = questions.slice(0, totalCount);
+  currentQuizIdx = 0;
+  quizScore = 0;
+  quizUserAnswers = [];
+  quizTimerSeconds = 0;
+
+  clearInterval(quizTimerInterval);
+  quizTimerInterval = setInterval(() => {
+    quizTimerSeconds++;
+    const m = Math.floor(quizTimerSeconds / 60);
+    const s = quizTimerSeconds % 60;
+    if (el.quizTimerText) {
+      el.quizTimerText.textContent = `${String(m).padStart(2, "0")}:${String(s).padStart(2, "0")}`;
+    }
+  }, 1000);
+
+  el.reviewSetupView.style.display = "none";
+  el.reviewResultView.style.display = "none";
+  el.reviewQuizActiveView.style.display = "block";
+
+  renderQuizQuestion();
+}
+
+function renderQuizQuestion() {
+  if (currentQuizIdx >= quizQuestions.length) {
+    showQuizResults();
+    return;
+  }
+
+  const q = quizQuestions[currentQuizIdx];
+  const qNum = currentQuizIdx + 1;
+  const total = quizQuestions.length;
+
+  el.quizQuestionIdx.textContent = qNum;
+  el.quizTotalQuestions.textContent = total;
+  el.quizCurrentScore.textContent = `${quizScore} / ${currentQuizIdx}`;
+  el.quizProgressBar.style.width = `${Math.round((qNum / total) * 100)}%`;
+
+  el.quizFeedbackBox.style.display = "none";
+  el.quizExplanationBox.style.display = "none";
+  el.btnNextQuizQuestion.style.display = "none";
+
+  // Badge mapping
+  const typeMap = {
+    multiple_choice: "🎯 Trắc nghiệm ngữ pháp",
+    fill_blank: "✍️ Điền từ vào chỗ trống",
+    sentence_scramble: "🧩 Sắp xếp câu hoàn chỉnh",
+    find_error: "🔍 Nhận diện cấu trúc chuẩn",
+    listening_reflex: "🎧 Nghe phản xạ & Dịch nghĩa",
+    speaking_practice: "🎙️ Luyện nói qua Micro",
+    reading_comprehension: "📖 Đọc hiểu đoạn văn"
+  };
+  el.quizTypeBadge.textContent = typeMap[q.type] || "🎯 Bài tập";
+
+  el.quizPromptVi.textContent = q.promptVi || "Chọn hoặc điền câu trả lời chính xác:";
+
+  // Audio prompt button for listening_reflex
+  if (q.type === "listening_reflex" && q.audioPrompt) {
+    el.btnQuizPlayAudioPrompt.style.display = "inline-flex";
+    el.btnQuizPlayAudioPrompt.onclick = () => speakEn(q.audioPrompt, "female");
+    // auto play audio prompt
+    speakEn(q.audioPrompt, "female");
+  } else {
+    el.btnQuizPlayAudioPrompt.style.display = "none";
+  }
+
+  // Reading box
+  if (q.type === "reading_comprehension" && q.passage) {
+    el.quizReadingBox.style.display = "block";
+    el.quizReadingPassageText.textContent = q.passage;
+    el.btnReadQuizPassage.onclick = () => speakEn(q.passage.replace(/\n/g, ". "), "female");
+  } else {
+    el.quizReadingBox.style.display = "none";
+  }
+
+  el.quizQuestionText.textContent = q.question || q.promptVi || "";
+
+  // Dynamic Question Content Renderer
+  const container = el.quizAnswerDynamicArea;
+  container.innerHTML = "";
+
+  if (q.type === "multiple_choice" || q.type === "find_error" || q.type === "listening_reflex" || q.type === "reading_comprehension") {
+    const opts = q.options || [];
+    container.innerHTML = `
+      <div class="options-grid">
+        ${opts.map((opt, i) => `
+          <button class="chip-btn" id="quiz-opt-${i}" onclick="selectQuizChoice('${opt.replace(/'/g, "\\'")}', this)">
+            <strong>${String.fromCharCode(65 + i)}.</strong> ${opt}
+          </button>
+        `).join("")}
+      </div>
+    `;
+  } else if (q.type === "fill_blank") {
+    container.innerHTML = `
+      <div style="display:flex; gap:10px; margin:16px 0; flex-wrap:wrap;">
+        <input type="text" id="quizFillInput" placeholder="Nhập câu trả lời..." style="flex:1; padding:12px; font-size:16px; border-radius:10px; border:2px solid var(--border); outline:none;" />
+        <button class="btn-primary" id="btnSubmitQuizFill" onclick="submitQuizFill()">Kiểm tra</button>
+      </div>
+    `;
+  } else if (q.type === "sentence_scramble") {
+    quizScrambleSelectedWords = [];
+    const words = q.words || q.correctSentence.split(' ');
+    const shuffled = [...words].sort(() => Math.random() - 0.5);
+
+    container.innerHTML = `
+      <div class="scramble-target" id="quizScrambleTarget">
+        <span style="color:#94a3b8; font-size:14px;">(Chạm vào các từ bên dưới để ghép câu)</span>
+      </div>
+      <div class="scramble-pool" id="quizScramblePool">
+        ${shuffled.map((w, idx) => `
+          <div class="word-block" id="quiz-word-${idx}" onclick="selectQuizScrambleWord('${w.replace(/'/g, "\\'")}', this)">${w}</div>
+        `).join("")}
+      </div>
+      <div style="text-align:center; margin-top:12px; display:flex; justify-content:center; gap:10px;">
+        <button class="btn-secondary" onclick="resetQuizScramble()">🔄 Làm lại</button>
+        <button class="btn-primary" onclick="submitQuizScramble()">✔️ Kiểm tra</button>
+      </div>
+    `;
+  } else if (q.type === "speaking_practice") {
+    container.innerHTML = `
+      <div class="speaking-box">
+        <div style="font-size:18px; font-weight:700; color:#7e22ce; margin-bottom:4px;">${q.targetSentence}</div>
+        <div style="font-size:14px; color:var(--muted); margin-bottom:12px;">Dịch nghĩa: ${q.hintVi || ''}</div>
+        
+        <canvas id="waveCanvasQuizSpeaking" class="wave-canvas" width="600" height="60"></canvas>
+
+        <div style="display:flex; justify-content:center; gap:10px; margin:12px 0; flex-wrap:wrap;">
+          <button class="btn-outline-en" onclick="speakEn('${q.targetSentence.replace(/'/g, "\\'")}', 'female')">🔊 Nghe câu mẫu</button>
+          <button class="btn-primary" id="btnQuizSpeakingMic" onclick="toggleQuizSpeakingRecording()">🎤 Bấm để Nói ngay</button>
+        </div>
+
+        <div id="quizSpeakingLiveText" style="text-align:center; font-size:14px; font-weight:600; color:var(--primary); min-height:22px;">
+          🎙️ Bấm nút "Nói ngay" và phát âm câu mẫu
+        </div>
+
+        <div style="margin-top:10px; padding-top:10px; border-top:1px dashed var(--border);">
+          <div style="font-size:12px; color:var(--muted); margin-bottom:4px;">💡 Nhập văn bản dự phòng nếu không dùng Microphone:</div>
+          <div style="display:flex; gap:8px;">
+            <input type="text" id="quizSpeakingFallbackInput" placeholder="Nhập câu tiếng Anh..." style="flex:1; padding:8px 12px; font-size:14px; border-radius:8px; border:1px solid var(--border); outline:none;" />
+            <button class="btn-primary" onclick="submitQuizSpeakingFallback()" style="font-size:14px; padding:8px 16px;">Kiểm tra</button>
+          </div>
+        </div>
+      </div>
+    `;
+  }
+}
+
+// Choice submission
+window.selectQuizChoice = function(selected, btnEl) {
+  const q = quizQuestions[currentQuizIdx];
+  const isCorrect = selected.trim().toLowerCase() === q.correctAnswer.trim().toLowerCase();
+
+  // Disable all option buttons
+  document.querySelectorAll("#quizAnswerDynamicArea .chip-btn").forEach(b => {
+    b.disabled = true;
+    if (b.textContent.includes(q.correctAnswer)) b.classList.add("correct");
+  });
+
+  if (isCorrect) {
+    btnEl.classList.add("correct");
+    handleQuizEvaluation(true, selected);
+  } else {
+    btnEl.classList.add("wrong");
+    handleQuizEvaluation(false, selected);
+  }
+};
+
+// Fill submission
+window.submitQuizFill = function() {
+  const inputEl = document.getElementById("quizFillInput");
+  if (!inputEl) return;
+  const user = inputEl.value.trim();
+  const q = quizQuestions[currentQuizIdx];
+  const isCorrect = user.toLowerCase() === q.correctAnswer.trim().toLowerCase();
+  
+  inputEl.disabled = true;
+  document.getElementById("btnSubmitQuizFill").disabled = true;
+  handleQuizEvaluation(isCorrect, user);
+};
+
+// Scramble selection
+window.selectQuizScrambleWord = function(word, btn) {
+  if (btn.style.visibility === "hidden") return;
+  btn.style.visibility = "hidden";
+  quizScrambleSelectedWords.push({ word, btn });
+  renderQuizScrambleTarget();
+};
+
+function renderQuizScrambleTarget() {
+  const targetEl = document.getElementById("quizScrambleTarget");
+  if (!targetEl) return;
+  if (!quizScrambleSelectedWords.length) {
+    targetEl.innerHTML = '<span style="color:#94a3b8; font-size:14px;">(Chạm vào các từ bên dưới để ghép câu)</span>';
+    return;
+  }
+  targetEl.innerHTML = quizScrambleSelectedWords.map((item, idx) => `
+    <div class="word-block" onclick="removeQuizScrambleWord(${idx})">${item.word}</div>
+  `).join("");
+}
+
+window.removeQuizScrambleWord = function(idx) {
+  const item = quizScrambleSelectedWords.splice(idx, 1)[0];
+  if (item && item.btn) item.btn.style.visibility = "visible";
+  renderQuizScrambleTarget();
+};
+
+window.resetQuizScramble = function() {
+  const q = quizQuestions[currentQuizIdx];
+  quizScrambleSelectedWords = [];
+  const words = q.words || q.correctSentence.split(' ');
+  const shuffled = [...words].sort(() => Math.random() - 0.5);
+
+  document.getElementById("quizScrambleTarget").innerHTML = '<span style="color:#94a3b8; font-size:14px;">(Chạm vào các từ bên dưới)</span>';
+  document.getElementById("quizScramblePool").innerHTML = shuffled.map((w, idx) => `
+    <div class="word-block" id="quiz-word-${idx}" onclick="selectQuizScrambleWord('${w.replace(/'/g, "\\'")}', this)">${w}</div>
+  `).join("");
+};
+
+window.submitQuizScramble = function() {
+  const q = quizQuestions[currentQuizIdx];
+  const current = quizScrambleSelectedWords.map(i => i.word).join(" ").trim();
+  const isCorrect = current.toLowerCase() === q.correctSentence.trim().toLowerCase() || calculateSimilarity(current, q.correctSentence) >= 95;
+  handleQuizEvaluation(isCorrect, current);
+};
+
+// Speaking toggle
+window.toggleQuizSpeakingRecording = function() {
+  if (quizIsRecordingSpeaking) {
+    stopRecording();
+  } else {
+    quizIsRecordingSpeaking = true;
+    const btn = document.getElementById("btnQuizSpeakingMic");
+    if (btn) btn.classList.add("recording");
+    startRecording("waveCanvasQuizSpeaking");
+    const status = document.getElementById("quizSpeakingLiveText");
+    if (status) status.textContent = "🎙️ Đang nghe... Hãy phát âm câu tiếng Anh của bạn!";
+  }
+};
+
+function evaluateQuizSpeakingSpeech(transcript) {
+  stopRecording();
+  const q = quizQuestions[currentQuizIdx];
+  const target = q.targetSentence;
+  const score = calculateSimilarity(transcript, target);
+
+  const status = document.getElementById("quizSpeakingLiveText");
+  if (status) status.textContent = `Bạn đã nói: "${transcript}" (Độ tương đồng: ${score}%)`;
+
+  const isCorrect = score >= 70;
+  handleQuizEvaluation(isCorrect, `${transcript} (${score}%)`);
+}
+
+window.submitQuizSpeakingFallback = function() {
+  const input = document.getElementById("quizSpeakingFallbackInput");
+  if (!input) return;
+  const user = input.value.trim();
+  const q = quizQuestions[currentQuizIdx];
+  const score = calculateSimilarity(user, q.targetSentence);
+  handleQuizEvaluation(score >= 70, `${user} (${score}%)`);
+};
+
+// Common Evaluation Handler
+function handleQuizEvaluation(isCorrect, userAns) {
+  const q = quizQuestions[currentQuizIdx];
+  if (isCorrect) quizScore++;
+
+  quizUserAnswers.push({
+    question: q.question || q.promptVi,
+    userAnswer: userAns,
+    correctAnswer: q.correctAnswer || q.correctSentence || q.targetSentence,
+    explanationVi: q.explanationVi,
+    isCorrect: isCorrect
+  });
+
+  el.quizCurrentScore.textContent = `${quizScore} / ${currentQuizIdx + 1}`;
+
+  el.quizFeedbackBox.style.display = "block";
+  el.quizFeedbackBox.className = `feedback-msg ${isCorrect ? 'success' : 'error'}`;
+  el.quizFeedbackBox.textContent = isCorrect ? "🎉 Chính xác!" : "❌ Chưa chính xác!";
+
+  if (q.explanationVi) {
+    el.quizExplanationBox.style.display = "block";
+    el.quizExplanationBox.innerHTML = `<strong>💡 Giải thích chi tiết:</strong> ${q.explanationVi}`;
+  }
+
+  el.btnNextQuizQuestion.style.display = "inline-flex";
+}
+
+function nextQuizQuestion() {
+  currentQuizIdx++;
+  renderQuizQuestion();
+}
+
+function showQuizResults() {
+  clearInterval(quizTimerInterval);
+  el.reviewQuizActiveView.style.display = "none";
+  el.reviewResultView.style.display = "block";
+
+  const total = quizQuestions.length;
+  const pct = Math.round((quizScore / total) * 100);
+  const m = Math.floor(quizTimerSeconds / 60);
+  const s = quizTimerSeconds % 60;
+  const timeStr = `${String(m).padStart(2, "0")}:${String(s).padStart(2, "0")}`;
+
+  el.resScoreText.textContent = `${quizScore} / ${total}`;
+  el.resPercentText.textContent = `${pct}%`;
+  el.resPercentText.style.color = pct >= 80 ? "#16a34a" : (pct >= 50 ? "#d97706" : "#dc2626");
+  el.resTimeSpentText.textContent = timeStr;
+
+  if (pct >= 90) {
+    el.resGradeBadge.textContent = "🏆 Xuất sắc";
+    el.resGradeBadge.style.color = "#16a34a";
+  } else if (pct >= 75) {
+    el.resGradeBadge.textContent = "⭐ Rất Tốt";
+    el.resGradeBadge.style.color = "#2563eb";
+  } else if (pct >= 50) {
+    el.resGradeBadge.textContent = "👍 Đạt Yêu Cầu";
+    el.resGradeBadge.style.color = "#d97706";
+  } else {
+    el.resGradeBadge.textContent = "💡 Cần Ôn Lại";
+    el.resGradeBadge.style.color = "#dc2626";
+  }
+
+  // Render Detailed Review Breakdown
+  el.quizDetailedBreakdownList.innerHTML = quizUserAnswers.map((item, idx) => `
+    <div class="review-item-card ${item.isCorrect ? 'is-correct' : 'is-wrong'}">
+      <div style="font-weight:700; font-size:15px; margin-bottom:4px; color:#0f172a;">
+        Câu ${idx + 1}: ${item.question}
+      </div>
+      <div style="font-size:14px; margin-bottom:2px;">
+        <strong>Câu trả lời của bạn:</strong> 
+        <span style="color:${item.isCorrect ? '#16a34a' : '#dc2626'}; font-weight:600;">${item.userAnswer}</span>
+      </div>
+      ${!item.isCorrect ? `
+        <div style="font-size:14px; margin-bottom:4px;">
+          <strong>Đáp án đúng:</strong> <span style="color:#16a34a; font-weight:700;">${item.correctAnswer}</span>
+        </div>
+      ` : ''}
+      <div style="font-size:13px; color:#475569; margin-top:6px; background:#f1f5f9; padding:6px 10px; border-radius:6px;">
+        💡 ${item.explanationVi}
+      </div>
+    </div>
+  `).join("");
+}
+
+// ==========================================
+// 7. INITIALIZATION & EVENT BINDINGS
+// ==========================================
+function init() {
+  initVoices();
+  populateLessonSelector(true);
+  updateOverallProgressUI();
+  initSpeechRecognition();
+  bindEvents();
+  initSpeedControls();
+}
+
+function initSpeedControls() {
+  document.querySelectorAll(".speed-btn").forEach(btn => {
+    btn.addEventListener("click", () => {
+      document.querySelectorAll(".speed-btn").forEach(b => b.classList.remove("active"));
+      btn.classList.add("active");
+      currentSpeechRate = parseFloat(btn.getAttribute("data-speed"));
+    });
+  });
+}
+
 function bindEvents() {
+  // Main tab switching
+  el.tabBtnLessons.addEventListener("click", () => switchMainTab("lessons"));
+  el.tabBtnReview.addEventListener("click", () => switchMainTab("review"));
+  el.btnJumpToReviewFromLesson.addEventListener("click", () => switchMainTab("review"));
+  el.btnGoToReviewAfterDone.addEventListener("click", () => switchMainTab("review"));
+  el.btnBackToLessonTab.addEventListener("click", () => switchMainTab("lessons"));
+
+  // Toggle lesson completed status
+  el.btnToggleCurrentCompleted.addEventListener("click", toggleCurrentLessonCompleted);
+
+  // Lesson selector change updates toggle button
+  el.lessonSelector.addEventListener("change", () => {
+    updateOverallProgressUI();
+  });
+
+  // Lesson Tab events
   el.btnLoadLesson.addEventListener("click", loadSelectedLesson);
+  el.btnBackToSelectFromDialogue.addEventListener("click", () => {
+    stopAllAudio();
+    showStep("select");
+  });
 
   el.btnPlayFullDialogue.addEventListener("click", () => {
     if (isDialoguePlaying) {
@@ -1254,17 +1552,89 @@ function bindEvents() {
   el.btnNextDrillMode.addEventListener("click", nextDrillMode);
   el.btnPrevDrillMode.addEventListener("click", prevDrillMode);
 
+  el.btnRestartCurrentLesson.addEventListener("click", () => {
+    currentTargetIndex = 0;
+    currentMode = 1;
+    resetLessonTimer();
+    showStep("drill");
+    renderCurrentDrill();
+  });
+
   el.btnNextLesson.addEventListener("click", () => {
     const currentVal = el.lessonSelector.value;
     const currIdx = LESSON_LIST.findIndex(item => item.file === currentVal);
     if (currIdx !== -1 && currIdx < LESSON_LIST.length - 1) {
       el.lessonSelector.value = LESSON_LIST[currIdx + 1].file;
+      loadSelectedLesson();
     } else {
-      el.lessonSelector.value = LESSON_LIST[0].file;
+      alert("Bạn đã học đến bài cuối cùng của khóa học!");
     }
-    loadSelectedLesson();
+  });
+
+  // Drill Mode 1 (Repeat)
+  el.btnAudioRepeat.addEventListener("click", () => {
+    const target = getTargetData();
+    speakEn(target.baseEn, "female");
+  });
+
+  el.btnAudioRepeatVi.addEventListener("click", () => {
+    const target = getTargetData();
+    speakVi(target.baseVi);
+  });
+
+  el.btnMicRepeat.addEventListener("click", () => {
+    if (isRecording) {
+      stopRecording();
+    } else {
+      startRecording("waveCanvasRepeat");
+    }
+  });
+
+  if (el.btnCheckRepeatText) {
+    el.btnCheckRepeatText.addEventListener("click", () => {
+      const val = el.repeatInputFallback.value.trim();
+      if (!val) return;
+      handleSpeechResult(val);
+    });
+  }
+
+  // Drill Mode 3 (Scramble)
+  el.btnResetScramble.addEventListener("click", () => {
+    const target = getTargetData();
+    initScrambleWords(target.drills.mode3_scramble.words);
+  });
+
+  el.btnCheckScramble.addEventListener("click", checkScramble);
+
+  // Drill Mode 4 (Transform)
+  el.btnCheckTransform.addEventListener("click", checkTransform);
+  el.btnMicTransform.addEventListener("click", () => {
+    if (isRecording) stopRecording();
+    else startRecording("waveCanvasRepeat");
+  });
+
+  // Drill Mode 5 (Context)
+  el.btnCheckContext.addEventListener("click", checkContext);
+  el.btnMicContext.addEventListener("click", () => {
+    if (isRecording) stopRecording();
+    else startRecording("waveCanvasRepeat");
+  });
+
+  // Review / Quiz Tab Events
+  el.btnStartReviewQuiz.addEventListener("click", startReviewQuiz);
+  el.btnNextQuizQuestion.addEventListener("click", nextQuizQuestion);
+  el.btnQuitReviewQuiz.addEventListener("click", () => {
+    if (confirm("Bạn có chắc chắn muốn dừng bài ôn tập hiện tại?")) {
+      clearInterval(quizTimerInterval);
+      el.reviewQuizActiveView.style.display = "none";
+      el.reviewSetupView.style.display = "block";
+    }
+  });
+  el.btnRestartNewQuiz.addEventListener("click", () => {
+    el.reviewResultView.style.display = "none";
+    el.reviewSetupView.style.display = "block";
   });
 }
 
-// Initialize on DOM load
+// Start app on DOMContentLoaded
 window.addEventListener("DOMContentLoaded", init);

@@ -1,6 +1,7 @@
 const express = require('express');
 const path = require('path');
 const https = require('https');
+const fs = require('fs');
 
 const app = express();
 const PORT = 3000;
@@ -142,6 +143,64 @@ app.get('/api/lessons', (req, res) => {
     { file: "lesson-099.json", name: "Bài 99: Cấu trúc Thay thế & Tránh Lặp trong câu" },
     { file: "lesson-100.json", name: "Bài 100: Tổng hợp Ngữ pháp Toàn Diện - Bản đồ Tinh hoa & Bài Kiểm tra Tổng kết" }
   ]);
+});
+
+// API route to get an exercise file
+app.get('/api/exercise/:id', (req, res) => {
+  const exId = req.params.id.replace(/[^a-zA-Z0-9_-]/g, '');
+  const filePath = path.join(__dirname, 'data', 'exercises', `${exId}.json`);
+  if (fs.existsSync(filePath)) {
+    res.sendFile(filePath);
+  } else {
+    res.status(404).json({ error: 'Exercise not found' });
+  }
+});
+
+// API route to get random 20 review questions from specified lessons
+app.get('/api/review-pool', (req, res) => {
+  try {
+    let lessonsParam = req.query.lessons;
+    let count = parseInt(req.query.count, 10) || 20;
+    let targetLessons = [];
+
+    if (lessonsParam) {
+      targetLessons = lessonsParam.split(',').map(s => s.trim().replace('.json', '').replace('lesson-', ''));
+    } else {
+      for (let i = 1; i <= 100; i++) targetLessons.push(String(i).padStart(3, '0'));
+    }
+
+    let allQuestions = [];
+    targetLessons.forEach(num => {
+      const pad = String(num).padStart(3, '0');
+      const exFile = path.join(__dirname, 'data', 'exercises', `exercise-${pad}.json`);
+      if (fs.existsSync(exFile)) {
+        const data = JSON.parse(fs.readFileSync(exFile, 'utf8'));
+        if (data.questions && Array.isArray(data.questions)) {
+          allQuestions.push(...data.questions);
+        }
+      }
+    });
+
+    if (allQuestions.length === 0) {
+      return res.status(404).json({ error: 'No questions found for the selected lessons' });
+    }
+
+    // Shuffle questions
+    for (let i = allQuestions.length - 1; i > 0; i--) {
+      const j = Math.floor(Math.random() * (i + 1));
+      [allQuestions[i], allQuestions[j]] = [allQuestions[j], allQuestions[i]];
+    }
+
+    const selectedQuestions = allQuestions.slice(0, Math.min(count, allQuestions.length));
+    res.json({
+      totalAvailable: allQuestions.length,
+      count: selectedQuestions.length,
+      questions: selectedQuestions
+    });
+  } catch (err) {
+    console.error('Error generating review pool:', err);
+    res.status(500).json({ error: 'Failed to generate review pool' });
+  }
 });
 
 // Fallback to index.html for any unhandled routes
