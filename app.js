@@ -508,19 +508,12 @@ function speakEn(text, gender = "male", callback) {
 }
 
 function stopAllAudio() {
-  isDialoguePlaying = false;
-  if (dialogueSafetyTimer) {
-    clearTimeout(dialogueSafetyTimer);
-    dialogueSafetyTimer = null;
-  }
   if ("speechSynthesis" in window) {
     try {
       window.speechSynthesis.cancel();
     } catch (e) {}
   }
   setAudioBadge(false);
-  if (el.btnPlayFullDialogue) el.btnPlayFullDialogue.textContent = "▶ Nghe toàn bộ hội thoại";
-  document.querySelectorAll(".dialogue-item").forEach(d => d.classList.remove("playing"));
 }
 
 function setAudioBadge(isPlaying) {
@@ -928,106 +921,6 @@ window.speakLineVi = function(idx) {
   if (line) speakVi(line.vi);
 };
 
-function playFullDialogue() {
-  if (!lessonData || !lessonData.openingDialogue) return;
-  const lines = lessonData.openingDialogue.lines;
-  if (!lines || !lines.length) return;
-
-  // Toggle stop if already playing
-  if (isDialoguePlaying) {
-    stopAllAudio();
-    return;
-  }
-
-  isDialoguePlaying = true;
-  dialogueCurrentIdx = 0;
-  if (el.btnPlayFullDialogue) el.btnPlayFullDialogue.textContent = "⏹ Dừng phát hội thoại";
-
-  if ("speechSynthesis" in window) {
-    try {
-      window.speechSynthesis.cancel();
-      window.speechSynthesis.resume();
-    } catch (e) {}
-  }
-
-  function playStep(idx) {
-    if (!isDialoguePlaying || idx >= lines.length) {
-      stopAllAudio();
-      return;
-    }
-
-    dialogueCurrentIdx = idx;
-
-    // Highlight active card
-    document.querySelectorAll(".dialogue-item").forEach(d => d.classList.remove("playing"));
-    const card = document.getElementById(`dialogue-line-${idx}`);
-    if (card) {
-      card.classList.add("playing");
-      card.scrollIntoView({ behavior: "smooth", block: "nearest" });
-    }
-
-    const currentLine = lines[idx];
-    const cleanText = (currentLine.en || '').replace(/<[^>]*>/g, '').trim();
-
-    if (!("speechSynthesis" in window) || !cleanText) {
-      if (isDialoguePlaying) setTimeout(() => playStep(idx + 1), 400);
-      return;
-    }
-
-    try { window.speechSynthesis.resume(); } catch (e) {}
-
-    const u = new SpeechSynthesisUtterance(cleanText);
-    window.__currentUtterance = u;
-    u.lang = "en-US";
-    u.rate = currentSpeechRate || 1.0;
-    u.pitch = (currentLine.gender === "female") ? 1.25 : 0.95;
-
-    const voice = getVoiceForGender(currentLine.gender);
-    if (voice) u.voice = voice;
-
-    let stepFinished = false;
-    const nextStep = () => {
-      if (stepFinished) return;
-      stepFinished = true;
-      if (dialogueSafetyTimer) {
-        clearTimeout(dialogueSafetyTimer);
-        dialogueSafetyTimer = null;
-      }
-      if (!isDialoguePlaying) return;
-      setTimeout(() => playStep(idx + 1), 250);
-    };
-
-    u.onend = nextStep;
-    u.onerror = (e) => {
-      console.warn("Dialogue line event:", e);
-      if (e.error !== 'interrupted' && e.error !== 'canceled') {
-        nextStep();
-      }
-    };
-
-    const wordCount = cleanText.split(/\s+/).length;
-    const maxWait = Math.max(3000, (wordCount / 2) * 1000 + 2000);
-    dialogueSafetyTimer = setTimeout(() => {
-      if (!stepFinished && isDialoguePlaying) {
-        console.warn("Dialogue watchdog moving to next sentence");
-        nextStep();
-      }
-    }, maxWait);
-
-    setAudioBadge(true);
-    try {
-      window.speechSynthesis.speak(u);
-    } catch (e) {
-      nextStep();
-    }
-  }
-
-  // Play immediately within user click gesture
-  playStep(0);
-}
-
-window.playFullDialogue = playFullDialogue;
-
 function getTargetData() {
   if (!lessonData || !lessonData.drillingTargets) return {};
   return lessonData.drillingTargets[currentTargetIndex] || {};
@@ -1409,12 +1302,10 @@ function renderQuizQuestion() {
 
   el.quizPromptVi.textContent = q.promptVi || "Chọn hoặc điền câu trả lời chính xác:";
 
-  // Audio prompt button for listening_reflex
+  // Audio prompt button for listening_reflex (Audio ONLY plays when user clicks button)
   if (q.type === "listening_reflex" && q.audioPrompt) {
     el.btnQuizPlayAudioPrompt.style.display = "inline-flex";
     el.btnQuizPlayAudioPrompt.onclick = () => speakEn(q.audioPrompt, "female");
-    // auto play audio prompt
-    speakEn(q.audioPrompt, "female");
   } else {
     el.btnQuizPlayAudioPrompt.style.display = "none";
   }
@@ -1430,7 +1321,7 @@ function renderQuizQuestion() {
 
   el.quizQuestionText.textContent = q.question || q.promptVi || "";
 
-  // Dynamic Question Content Renderer
+  // Dynamic Question Content Renderer (No hints/spoilers)
   const container = el.quizAnswerDynamicArea;
   container.innerHTML = "";
 
@@ -1446,20 +1337,11 @@ function renderQuizQuestion() {
       </div>
     `;
   } else if (q.type === "fill_blank") {
-    const opts = q.options || [];
     container.innerHTML = `
-      <div style="display:flex; gap:8px; margin:10px 0; flex-wrap:wrap;">
-        <input type="text" id="quizFillInput" placeholder="Gõ từ hoặc chọn từ gợi ý bên dưới..." style="flex:1; min-width:200px; padding:10px 14px; font-size:15px; border-radius:8px; border:2px solid var(--border); outline:none;" />
-        <button class="btn-primary" id="btnSubmitQuizFill" onclick="submitQuizFill()" style="padding:10px 18px;">Kiểm tra</button>
+      <div style="display:flex; gap:10px; margin:14px 0; flex-wrap:wrap;">
+        <input type="text" id="quizFillInput" placeholder="Nhập câu trả lời của bạn..." style="flex:1; min-width:220px; padding:12px 14px; font-size:15px; border-radius:8px; border:2px solid var(--border); outline:none;" onkeydown="if(event.key==='Enter') submitQuizFill();" />
+        <button class="btn-primary" id="btnSubmitQuizFill" onclick="submitQuizFill()" style="padding:12px 24px;">Kiểm tra</button>
       </div>
-      ${opts.length > 0 ? `
-        <div style="font-size:12px; color:var(--muted); margin-bottom:6px;">💡 Gợi ý lựa chọn (nhấp vào để điền nhanh):</div>
-        <div class="chips-container" style="display:flex; gap:8px; flex-wrap:wrap; margin-bottom:8px;">
-          ${opts.map(opt => `
-            <button class="chip-btn" onclick="document.getElementById('quizFillInput').value = '${opt.replace(/'/g, "\\'")}'; submitQuizFill();" style="padding:6px 12px; font-size:13px;">${opt}</button>
-          `).join("")}
-        </div>
-      ` : ''}
     `;
   } else if (q.type === "sentence_scramble") {
     quizScrambleSelectedWords = [];
@@ -1859,20 +1741,24 @@ function bindEvents() {
     else startRecording("waveCanvasRepeat");
   });
 
-  // Review / Quiz Tab Events
-  el.btnStartReviewQuiz.addEventListener("click", startReviewQuiz);
-  el.btnNextQuizQuestion.addEventListener("click", nextQuizQuestion);
-  el.btnQuitReviewQuiz.addEventListener("click", () => {
-    if (confirm("Bạn có chắc chắn muốn dừng bài ôn tập hiện tại?")) {
-      clearInterval(quizTimerInterval);
-      el.reviewQuizActiveView.style.display = "none";
+  // Review / Quiz Tab Events (Direct single handlers prevent double firing)
+  if (el.btnStartReviewQuiz) el.btnStartReviewQuiz.onclick = startReviewQuiz;
+  if (el.btnNextQuizQuestion) el.btnNextQuizQuestion.onclick = nextQuizQuestion;
+  if (el.btnQuitReviewQuiz) {
+    el.btnQuitReviewQuiz.onclick = () => {
+      if (confirm("Bạn có chắc chắn muốn dừng bài ôn tập hiện tại?")) {
+        clearInterval(quizTimerInterval);
+        el.reviewQuizActiveView.style.display = "none";
+        el.reviewSetupView.style.display = "block";
+      }
+    };
+  }
+  if (el.btnRestartNewQuiz) {
+    el.btnRestartNewQuiz.onclick = () => {
+      el.reviewResultView.style.display = "none";
       el.reviewSetupView.style.display = "block";
-    }
-  });
-  el.btnRestartNewQuiz.addEventListener("click", () => {
-    el.reviewResultView.style.display = "none";
-    el.reviewSetupView.style.display = "block";
-  });
+    };
+  }
 }
 
 // Start app safely on DOM ready or immediate
