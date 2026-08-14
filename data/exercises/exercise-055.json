@@ -2,11 +2,26 @@
   "lessonId": "lesson-055",
   "lessonNumber": 55,
   "title": "Bài tập Ôn luyện: Bài 55: Câu Hỏi Đuôi — Các Trường Hợp Đặc Biệt (Advanced Tag Questions: Nobody / Never / Little / Imperatives)",
+  "totalQuestions": 30,
   "questions": [
     {
       "id": "ex-055-01",
       "type": "multiple_choice",
-      "promptVi": "Chọn đáp án đúng nhất hoàn thành câu:",
+      "promptVi": "[Trắc nghiệm] Chọn từ/cụm từ đúng để hoàn thành câu (Mọi người đều sẵn sàng cho cuộc họp rồi, phải không?):",
+      "question": "Everyone is ready for the meeting, ___?",
+      "options": [
+        "aren't they",
+        "isn't he",
+        "isn't everyone",
+        "don't they"
+      ],
+      "correctAnswer": "aren't they",
+      "explanationVi": "'Everyone' làm chủ ngữ thì đại từ ở đuôi là 'they', to be tương ứng ở hiện tại là 'aren't they'."
+    },
+    {
+      "id": "ex-055-02",
+      "type": "multiple_choice",
+      "promptVi": "[Trắc nghiệm] Chọn từ/cụm từ đúng để hoàn thành câu (Không có thứ gì bị hư hại trong cơn bão, phải không?):",
       "question": "Nothing was damaged during the storm, ___?",
       "options": [
         "was it",
@@ -18,9 +33,65 @@
       "explanationVi": "'Nothing' mang nghĩa phủ định, nên đuôi dùng khẳng định 'was it'."
     },
     {
-      "id": "ex-055-02",
+      "id": "ex-055-03",
+      "type": "multiple_choice",
+      "promptVi": "[Trắc nghiệm] Chọn từ/cụm từ đúng để hoàn thành câu (Cô ấy không bao giờ nói dối, đúng không?):",
+      "question": "She never tells lies, ___?",
+      "options": [
+        "does she",
+        "doesn't she",
+        "is she",
+        "isn't she"
+      ],
+      "correctAnswer": "does she",
+      "explanationVi": "'never' làm cho vế đầu mang nghĩa phủ định nên đuôi phải là khẳng định 'does she'."
+    },
+    {
+      "id": "ex-055-04",
+      "type": "multiple_choice",
+      "promptVi": "[Trắc nghiệm] Chọn từ/cụm từ đúng để hoàn thành câu (Đừng đến muộn buổi phỏng vấn nhé, được không?):",
+      "question": "Don't be late for the interview, ___?",
+      "options": [
+        "will you",
+        "shall you",
+        "do you",
+        "don't you"
+      ],
+      "correctAnswer": "will you",
+      "explanationVi": "Câu mệnh lệnh 'Don't + V' luôn có đuôi là 'will you'."
+    },
+    {
+      "id": "ex-055-05",
+      "type": "multiple_choice",
+      "promptVi": "[Trắc nghiệm] Dịch câu sau sang tiếng Anh: \"Mọi người đều có mặt trong phòng họp khẩn cấp rồi, phải không? (everyone -> they, are -> aren't)\"",
+      "question": "Chọn bản dịch chuẩn xác cho câu: \"Mọi người đều có mặt trong phòng họp khẩn cấp rồi, phải không? (everyone -> they, are -> aren't)\"",
+      "options": [
+        "Everyone is present in the emergency conference room, aren't they?",
+        "Everyone be present in the emergency conference room, aren't they?",
+        "Yes, they are. Nobody left the office before inspecting the database logs, did they?",
+        "I want to go to the park now."
+      ],
+      "correctAnswer": "Everyone is present in the emergency conference room, aren't they?",
+      "explanationVi": "Câu đúng là \"Everyone is present in the emergency conference room, aren't they?\" (Mọi người đều có mặt trong phòng họp khẩn cấp rồi, phải không? (everyone -> they, are -> aren't))."
+    },
+    {
+      "id": "ex-055-06",
+      "type": "multiple_choice",
+      "promptVi": "[Trắc nghiệm] Chọn câu trả lời hoặc cách diễn đạt phù hợp:",
+      "question": "Trong ngữ cảnh giao tiếp: \"Everyone is present in the emergency conference room, aren't they?\", câu phản hồi tự nhiên là gì?",
+      "options": [
+        "Yes, they are. Nobody left the office before inspecting the database logs, did they?",
+        "No, it is yesterday morning.",
+        "Yes, I will eat apple.",
+        "They are not at the library."
+      ],
+      "correctAnswer": "Yes, they are. Nobody left the office before inspecting the database logs, did they?",
+      "explanationVi": "Phản hồi phù hợp: \"Yes, they are. Nobody left the office before inspecting the database logs, did they?\" (Vâng, đủ cả rồi. Không ai rời văn phòng trước khi kiểm tra nhật ký cơ sở dữ liệu, đúng không? (nobody -> phủ định, did they?))."
+    },
+    {
+      "id": "ex-055-07",
       "type": "fill_blank",
-      "promptVi": "Điền từ hoặc dạng đúng của động từ vào chỗ trống:",
+      "promptVi": "[Điền từ - (Dạng phủ định)] Điền dạng đúng của động từ vào ô trống (Mọi người đều sẵn sàng cho cuộc họp rồi, phải không?):",
       "question": "Everyone is ready for the meeting, ___?",
       "correctAnswer": "aren't they",
       "options": [
@@ -29,89 +100,331 @@
         "isn't everyone",
         "don't they"
       ],
-      "explanationVi": "'Everyone' làm chủ ngữ thì đại từ ở đuôi là 'they', to be tương ứng ở hiện tại là 'aren't they'."
+      "explanationVi": "Đáp án chính xác: \"aren't they\". Mọi người đều sẵn sàng cho cuộc họp rồi, phải không?."
     },
     {
-      "id": "ex-055-03",
+      "id": "ex-055-08",
+      "type": "fill_blank",
+      "promptVi": "[Điền từ - (Dạng phủ định)] Điền dạng đúng của động từ vào ô trống (Không có thứ gì bị hư hại trong cơn bão, phải không?):",
+      "question": "Nothing was damaged during the storm, ___?",
+      "correctAnswer": "was it",
+      "options": [
+        "was it",
+        "wasn't it",
+        "were they",
+        "didn't it"
+      ],
+      "explanationVi": "Đáp án chính xác: \"was it\". Không có thứ gì bị hư hại trong cơn bão, phải không?."
+    },
+    {
+      "id": "ex-055-09",
+      "type": "fill_blank",
+      "promptVi": "[Điền từ - (Dạng khẳng định)] Điền dạng đúng của động từ vào ô trống (Cô ấy không bao giờ nói dối, đúng không?):",
+      "question": "She never tells lies, ___?",
+      "correctAnswer": "does she",
+      "options": [
+        "does she",
+        "doesn't she",
+        "is she",
+        "isn't she"
+      ],
+      "explanationVi": "Đáp án chính xác: \"does she\". Cô ấy không bao giờ nói dối, đúng không?."
+    },
+    {
+      "id": "ex-055-10",
+      "type": "fill_blank",
+      "promptVi": "[Điền từ - (Dạng phủ định)] Điền dạng đúng của động từ vào ô trống (Đừng đến muộn buổi phỏng vấn nhé, được không?):",
+      "question": "Don't be late for the interview, ___?",
+      "correctAnswer": "will you",
+      "options": [
+        "will you",
+        "shall you",
+        "do you",
+        "don't you"
+      ],
+      "explanationVi": "Đáp án chính xác: \"will you\". Đừng đến muộn buổi phỏng vấn nhé, được không?."
+    },
+    {
+      "id": "ex-055-11",
+      "type": "fill_blank",
+      "promptVi": "[Điền từ - Dạng PHỦ ĐỊNH] Hoàn thành câu phủ định sau:",
+      "correctAnswer": "Everyone is not ready for the meeting, aren't they?",
+      "options": [
+        "Everyone is not ready for the meeting, aren't they?",
+        "Everyone is ready for the meeting, aren't they?",
+        "Not Everyone is ready for the meeting, aren't they?",
+        "Everyone is ready for the meeting, aren't they? no"
+      ],
+      "explanationVi": "Dạng phủ định chuẩn: Thêm 'not' sau động từ chính."
+    },
+    {
+      "id": "ex-055-12",
       "type": "sentence_scramble",
-      "promptVi": "Sắp xếp các khối từ sau thành câu hoàn chỉnh:",
+      "promptVi": "[Sắp xếp câu] Xếp các khối từ thành câu hoàn chỉnh mang nghĩa: \"Mọi người đều sẵn sàng cho cuộc họp rồi, phải không?\"",
+      "words": [
+        "for",
+        "Everyone",
+        "the",
+        "meeting,",
+        "is",
+        "aren't",
+        "ready",
+        "they?"
+      ],
+      "correctSentence": "Everyone is ready for the meeting, aren't they?",
+      "hintVi": "Mọi người đều sẵn sàng cho cuộc họp rồi, phải không?",
+      "explanationVi": "Câu hoàn chỉnh: \"Everyone is ready for the meeting, aren't they?\" (Mọi người đều sẵn sàng cho cuộc họp rồi, phải không?)."
+    },
+    {
+      "id": "ex-055-13",
+      "type": "sentence_scramble",
+      "promptVi": "[Sắp xếp câu] Xếp các khối từ thành câu hoàn chỉnh mang nghĩa: \"Không có thứ gì bị hư hại trong cơn bão, phải không?\"",
+      "words": [
+        "was",
+        "storm,",
+        "was",
+        "during",
+        "Nothing",
+        "it?",
+        "damaged",
+        "the"
+      ],
+      "correctSentence": "Nothing was damaged during the storm, was it?",
+      "hintVi": "Không có thứ gì bị hư hại trong cơn bão, phải không?",
+      "explanationVi": "Câu hoàn chỉnh: \"Nothing was damaged during the storm, was it?\" (Không có thứ gì bị hư hại trong cơn bão, phải không?)."
+    },
+    {
+      "id": "ex-055-14",
+      "type": "sentence_scramble",
+      "promptVi": "[Sắp xếp câu] Xếp các khối từ thành câu hoàn chỉnh mang nghĩa: \"Cô ấy không bao giờ nói dối, đúng không?\"",
       "words": [
         "she?",
         "does",
+        "She",
         "lies,",
-        "tells",
         "never",
-        "She"
+        "tells"
       ],
       "correctSentence": "She never tells lies, does she?",
       "hintVi": "Cô ấy không bao giờ nói dối, đúng không?",
       "explanationVi": "Câu hoàn chỉnh: \"She never tells lies, does she?\" (Cô ấy không bao giờ nói dối, đúng không?)."
     },
     {
-      "id": "ex-055-04",
-      "type": "find_error",
-      "promptVi": "Chọn câu có cấu trúc ngữ pháp chuẩn xác nhất trong các câu sau:",
-      "question": "Dựa vào chủ điểm ngữ pháp \"Bài 55: Câu Hỏi Đuôi — Các Trường Hợp Đặc Biệt (Advanced Tag Questions: Nobody / Never / Little / Imperatives)\", câu nào sau đây là hoàn toàn CHÍNH XÁC?",
-      "options": [
-        "Don't be late for the interview, will you?",
-        "Don't be late for the interview, be you?",
-        "Don't be late with the interview, will you?",
-        "be late for the interview, will you? Don't"
+      "id": "ex-055-15",
+      "type": "sentence_scramble",
+      "promptVi": "[Sắp xếp câu] Xếp các khối từ thành câu hoàn chỉnh mang nghĩa: \"Đừng đến muộn buổi phỏng vấn nhé, được không?\"",
+      "words": [
+        "the",
+        "be",
+        "interview,",
+        "will",
+        "for",
+        "you?",
+        "Don't",
+        "late"
       ],
-      "correctAnswer": "Don't be late for the interview, will you?",
-      "explanationVi": "Cấu trúc chuẩn xác là: \"Don't be late for the interview, will you?\" (Đừng đến muộn buổi phỏng vấn nhé, được không?)."
+      "correctSentence": "Don't be late for the interview, will you?",
+      "hintVi": "Đừng đến muộn buổi phỏng vấn nhé, được không?",
+      "explanationVi": "Câu hoàn chỉnh: \"Don't be late for the interview, will you?\" (Đừng đến muộn buổi phỏng vấn nhé, được không?)."
     },
     {
-      "id": "ex-055-05",
+      "id": "ex-055-16",
+      "type": "sentence_scramble",
+      "promptVi": "[Sắp xếp câu] Xếp các từ thành câu hội thoại: \"Chính xác. Chúng ta hiếm khi gặp loại sự cố máy chủ này, đúng không nhỉ? (rarely -> mang nghĩa phủ định, đuôi 'do we?')\"",
+      "words": [
+        "of",
+        "We",
+        "this",
+        "server",
+        "do",
+        "malfunction",
+        "kind",
+        "encounter",
+        "Correct",
+        "rarely",
+        "we"
+      ],
+      "correctSentence": "Correct. We rarely encounter this kind of server malfunction, do we?",
+      "hintVi": "Chính xác. Chúng ta hiếm khi gặp loại sự cố máy chủ này, đúng không nhỉ? (rarely -> mang nghĩa phủ định, đuôi 'do we?')",
+      "explanationVi": "Câu đúng: \"Correct. We rarely encounter this kind of server malfunction, do we?\" (Chính xác. Chúng ta hiếm khi gặp loại sự cố máy chủ này, đúng không nhỉ? (rarely -> mang nghĩa phủ định, đuôi 'do we?'))."
+    },
+    {
+      "id": "ex-055-17",
+      "type": "find_error",
+      "promptVi": "[Tìm lỗi sai & Chọn câu đúng] Câu nào dưới đây có cấu trúc ngữ pháp HOÀN TOÀN ĐÚNG?",
+      "question": "Chủ điểm \"Bài 55: Câu Hỏi Đuôi — Các Trường Hợp Đặc Biệt (Advanced Tag Questions: Nobody / Never / Little / Imperatives)\": Chọn câu CHÍNH XÁC:",
+      "options": [
+        "Everyone is ready for the meeting, aren't they?",
+        "Everyone be ready for the meeting, aren't they?",
+        "Everyone are not is ready for the meeting, aren't they?",
+        "they? aren't meeting, the for ready is Everyone"
+      ],
+      "correctAnswer": "Everyone is ready for the meeting, aren't they?",
+      "explanationVi": "Câu chuẩn xác là: \"Everyone is ready for the meeting, aren't they?\" (Mọi người đều sẵn sàng cho cuộc họp rồi, phải không?)."
+    },
+    {
+      "id": "ex-055-18",
+      "type": "find_error",
+      "promptVi": "[Tìm lỗi sai & Chọn câu đúng] Câu nào dưới đây có cấu trúc ngữ pháp HOÀN TOÀN ĐÚNG?",
+      "question": "Chủ điểm \"Bài 55: Câu Hỏi Đuôi — Các Trường Hợp Đặc Biệt (Advanced Tag Questions: Nobody / Never / Little / Imperatives)\": Chọn câu CHÍNH XÁC:",
+      "options": [
+        "Nothing was damaged during the storm, was it?",
+        "Nothing be damaged during the storm, was it?",
+        "Nothing are not is damaged during the storm, was it?",
+        "it? was storm, the during damaged was Nothing"
+      ],
+      "correctAnswer": "Nothing was damaged during the storm, was it?",
+      "explanationVi": "Câu chuẩn xác là: \"Nothing was damaged during the storm, was it?\" (Không có thứ gì bị hư hại trong cơn bão, phải không?)."
+    },
+    {
+      "id": "ex-055-19",
+      "type": "find_error",
+      "promptVi": "[Tìm lỗi sai & Chọn câu đúng] Câu nào dưới đây có cấu trúc ngữ pháp HOÀN TOÀN ĐÚNG?",
+      "question": "Chủ điểm \"Bài 55: Câu Hỏi Đuôi — Các Trường Hợp Đặc Biệt (Advanced Tag Questions: Nobody / Never / Little / Imperatives)\": Chọn câu CHÍNH XÁC:",
+      "options": [
+        "She never tells lies, does she?",
+        "she? does lies, tells never She",
+        "She never tells lies, does she? (sai)",
+        "She never tells lies, does she? (sai)"
+      ],
+      "correctAnswer": "She never tells lies, does she?",
+      "explanationVi": "Câu chuẩn xác là: \"She never tells lies, does she?\" (Cô ấy không bao giờ nói dối, đúng không?)."
+    },
+    {
+      "id": "ex-055-20",
+      "type": "find_error",
+      "promptVi": "[Tìm lỗi sai & Chọn câu đúng] Câu nào dưới đây có cấu trúc ngữ pháp HOÀN TOÀN ĐÚNG?",
+      "question": "Chủ điểm \"Bài 55: Câu Hỏi Đuôi — Các Trường Hợp Đặc Biệt (Advanced Tag Questions: Nobody / Never / Little / Imperatives)\": Chọn câu CHÍNH XÁC:",
+      "options": [
+        "Don't be late for the interview, will you?",
+        "you? will interview, the for late be Don't",
+        "Don't be late for the interview, will you? (sai)",
+        "Don't be late for the interview, will you? (sai)"
+      ],
+      "correctAnswer": "Don't be late for the interview, will you?",
+      "explanationVi": "Câu chuẩn xác là: \"Don't be late for the interview, will you?\" (Đừng đến muộn buổi phỏng vấn nhé, được không?)."
+    },
+    {
+      "id": "ex-055-21",
       "type": "listening_reflex",
-      "promptVi": "Nghe câu tiếng Anh và chọn bản dịch tiếng Việt chuẩn xác:",
+      "promptVi": "[Nghe phản xạ] Nghe câu phát âm tiếng Anh và chọn bản dịch tiếng Việt đúng nhất:",
       "audioPrompt": "Everyone is present in the emergency conference room, aren't they?",
-      "question": "Nghe câu phát âm tiếng Anh và chọn nghĩa đúng:",
+      "question": "Nhấn nút '🔊 Nghe audio' để nghe câu thoại và chọn nghĩa đúng:",
       "options": [
         "Mọi người đều có mặt trong phòng họp khẩn cấp rồi, phải không? (everyone -> they, are -> aren't)",
         "Vâng, đủ cả rồi. Không ai rời văn phòng trước khi kiểm tra nhật ký cơ sở dữ liệu, đúng không? (nobody -> phủ định, did they?)",
         "Chính xác. Chúng ta hiếm khi gặp loại sự cố máy chủ này, đúng không nhỉ? (rarely -> mang nghĩa phủ định, đuôi 'do we?')",
-        "Hôm nay chúng tôi đi mua sắm tại trung tâm thương mại."
+        "Ngày mai trời sẽ mưa to."
       ],
       "correctAnswer": "Mọi người đều có mặt trong phòng họp khẩn cấp rồi, phải không? (everyone -> they, are -> aren't)",
-      "explanationVi": "Câu nghe được: \"Everyone is present in the emergency conference room, aren't they?\" nghĩa là: \"Mọi người đều có mặt trong phòng họp khẩn cấp rồi, phải không? (everyone -> they, are -> aren't)\"."
+      "explanationVi": "Câu nghe được: \"Everyone is present in the emergency conference room, aren't they?\" có nghĩa là: \"Mọi người đều có mặt trong phòng họp khẩn cấp rồi, phải không? (everyone -> they, are -> aren't)\"."
     },
     {
-      "id": "ex-055-06",
+      "id": "ex-055-22",
+      "type": "listening_reflex",
+      "promptVi": "[Nghe phản xạ] Nghe câu phát âm tiếng Anh và chọn bản dịch tiếng Việt đúng nhất:",
+      "audioPrompt": "Yes, they are. Nobody left the office before inspecting the database logs, did they?",
+      "question": "Nhấn nút '🔊 Nghe audio' để nghe câu thoại và chọn nghĩa đúng:",
+      "options": [
+        "Vâng, đủ cả rồi. Không ai rời văn phòng trước khi kiểm tra nhật ký cơ sở dữ liệu, đúng không? (nobody -> phủ định, did they?)",
+        "Chính xác. Chúng ta hiếm khi gặp loại sự cố máy chủ này, đúng không nhỉ? (rarely -> mang nghĩa phủ định, đuôi 'do we?')",
+        "Hầu như không bao giờ. Có rất ít tổn hại đối với dữ liệu mã hóa của người dùng, đúng không? (little -> bán phủ định, is there?)",
+        "Ngày mai trời sẽ mưa to."
+      ],
+      "correctAnswer": "Vâng, đủ cả rồi. Không ai rời văn phòng trước khi kiểm tra nhật ký cơ sở dữ liệu, đúng không? (nobody -> phủ định, did they?)",
+      "explanationVi": "Câu nghe được: \"Yes, they are. Nobody left the office before inspecting the database logs, did they?\" có nghĩa là: \"Vâng, đủ cả rồi. Không ai rời văn phòng trước khi kiểm tra nhật ký cơ sở dữ liệu, đúng không? (nobody -> phủ định, did they?)\"."
+    },
+    {
+      "id": "ex-055-23",
+      "type": "listening_reflex",
+      "promptVi": "[Nghe phản xạ] Nghe câu phát âm tiếng Anh và chọn bản dịch tiếng Việt đúng nhất:",
+      "audioPrompt": "Correct. We rarely encounter this kind of server malfunction, do we?",
+      "question": "Nhấn nút '🔊 Nghe audio' để nghe câu thoại và chọn nghĩa đúng:",
+      "options": [
+        "Chính xác. Chúng ta hiếm khi gặp loại sự cố máy chủ này, đúng không nhỉ? (rarely -> mang nghĩa phủ định, đuôi 'do we?')",
+        "Hầu như không bao giờ. Có rất ít tổn hại đối với dữ liệu mã hóa của người dùng, đúng không? (little -> bán phủ định, is there?)",
+        "May mắn thay, không có gì bị mất vĩnh viễn trong lúc mất điện, phải không? (nothing -> đại từ 'it', was it?)",
+        "Ngày mai trời sẽ mưa to."
+      ],
+      "correctAnswer": "Chính xác. Chúng ta hiếm khi gặp loại sự cố máy chủ này, đúng không nhỉ? (rarely -> mang nghĩa phủ định, đuôi 'do we?')",
+      "explanationVi": "Câu nghe được: \"Correct. We rarely encounter this kind of server malfunction, do we?\" có nghĩa là: \"Chính xác. Chúng ta hiếm khi gặp loại sự cố máy chủ này, đúng không nhỉ? (rarely -> mang nghĩa phủ định, đuôi 'do we?')\"."
+    },
+    {
+      "id": "ex-055-24",
+      "type": "listening_reflex",
+      "promptVi": "[Nghe phản xạ] Nghe câu phát âm tiếng Anh và chọn bản dịch tiếng Việt đúng nhất:",
+      "audioPrompt": "Almost never. There is little damage to our users' encrypted data, is there?",
+      "question": "Nhấn nút '🔊 Nghe audio' để nghe câu thoại và chọn nghĩa đúng:",
+      "options": [
+        "Hầu như không bao giờ. Có rất ít tổn hại đối với dữ liệu mã hóa của người dùng, đúng không? (little -> bán phủ định, is there?)",
+        "May mắn thay, không có gì bị mất vĩnh viễn trong lúc mất điện, phải không? (nothing -> đại từ 'it', was it?)",
+        "Không mất gì cả! Có ai đó đã sao lưu toàn bộ hệ thống vào tối qua, đúng không? (someone -> they, didn't they?)",
+        "Ngày mai trời sẽ mưa to."
+      ],
+      "correctAnswer": "Hầu như không bao giờ. Có rất ít tổn hại đối với dữ liệu mã hóa của người dùng, đúng không? (little -> bán phủ định, is there?)",
+      "explanationVi": "Câu nghe được: \"Almost never. There is little damage to our users' encrypted data, is there?\" có nghĩa là: \"Hầu như không bao giờ. Có rất ít tổn hại đối với dữ liệu mã hóa của người dùng, đúng không? (little -> bán phủ định, is there?)\"."
+    },
+    {
+      "id": "ex-055-25",
       "type": "speaking_practice",
-      "promptVi": "Luyện nói qua Micro: Hãy nhấn nút 'Nói ngay' và phát âm chuẩn xác câu sau:",
+      "promptVi": "[Luyện nói qua Micro] Nhấn nút '🎙️ Bắt đầu nói' và đọc to, rõ ràng câu tiếng Anh sau:",
       "targetSentence": "Everyone is ready for the meeting, aren't they?",
       "hintVi": "Mọi người đều sẵn sàng cho cuộc họp rồi, phải không?",
-      "explanationVi": "Mẫu câu chuẩn: \"Everyone is ready for the meeting, aren't they?\" (Mọi người đều sẵn sàng cho cuộc họp rồi, phải không?). Hãy phát âm rõ ràng từng từ và giữ ngữ điệu tự nhiên."
+      "explanationVi": "Câu mục tiêu: \"Everyone is ready for the meeting, aren't they?\" (Mọi người đều sẵn sàng cho cuộc họp rồi, phải không?). Luyện phát âm chuẩn xác từng âm tiết và ngữ điệu tự nhiên."
     },
     {
-      "id": "ex-055-07",
+      "id": "ex-055-26",
+      "type": "speaking_practice",
+      "promptVi": "[Luyện nói qua Micro] Nhấn nút '🎙️ Bắt đầu nói' và đọc to, rõ ràng câu tiếng Anh sau:",
+      "targetSentence": "Nothing was damaged during the storm, was it?",
+      "hintVi": "Không có thứ gì bị hư hại trong cơn bão, phải không?",
+      "explanationVi": "Câu mục tiêu: \"Nothing was damaged during the storm, was it?\" (Không có thứ gì bị hư hại trong cơn bão, phải không?). Luyện phát âm chuẩn xác từng âm tiết và ngữ điệu tự nhiên."
+    },
+    {
+      "id": "ex-055-27",
+      "type": "speaking_practice",
+      "promptVi": "[Luyện nói qua Micro] Nhấn nút '🎙️ Bắt đầu nói' và đọc to, rõ ràng câu tiếng Anh sau:",
+      "targetSentence": "She never tells lies, does she?",
+      "hintVi": "Cô ấy không bao giờ nói dối, đúng không?",
+      "explanationVi": "Câu mục tiêu: \"She never tells lies, does she?\" (Cô ấy không bao giờ nói dối, đúng không?). Luyện phát âm chuẩn xác từng âm tiết và ngữ điệu tự nhiên."
+    },
+    {
+      "id": "ex-055-28",
+      "type": "speaking_practice",
+      "promptVi": "[Luyện nói qua Micro] Nhấn nút '🎙️ Bắt đầu nói' và đọc to, rõ ràng câu tiếng Anh sau:",
+      "targetSentence": "Don't be late for the interview, will you?",
+      "hintVi": "Đừng đến muộn buổi phỏng vấn nhé, được không?",
+      "explanationVi": "Câu mục tiêu: \"Don't be late for the interview, will you?\" (Đừng đến muộn buổi phỏng vấn nhé, được không?). Luyện phát âm chuẩn xác từng âm tiết và ngữ điệu tự nhiên."
+    },
+    {
+      "id": "ex-055-29",
       "type": "reading_comprehension",
-      "promptVi": "Đọc đoạn hội thoại ngắn sau và trả lời câu hỏi đọc hiểu:",
-      "passage": "Chief Engineer: \"Everyone is present in the emergency conference room, aren't they?\"\nLead Developer: \"Yes, they are. Nobody left the office before inspecting the database logs, did they?\"\nChief Engineer: \"Correct. We rarely encounter this kind of server malfunction, do we?\"\nLead Developer: \"Almost never. There is little damage to our users' encrypted data, is there?\"",
-      "question": "Dựa vào ngữ cảnh đoạn hội thoại trên, Chief Engineer và Lead Developer đang trao đổi về nội dung trọng tâm nào?",
+      "promptVi": "[Đọc hiểu đoạn văn 1] Đọc đoạn hội thoại mở đầu sau và trả lời câu hỏi:",
+      "passage": "Chief Engineer (Nam): \"Everyone is present in the emergency conference room, aren't they?\"\nLead Developer (Nữ): \"Yes, they are. Nobody left the office before inspecting the database logs, did they?\"\nChief Engineer (Nam): \"Correct. We rarely encounter this kind of server malfunction, do we?\"\nLead Developer (Nữ): \"Almost never. There is little damage to our users' encrypted data, is there?\"",
+      "question": "Câu hỏi: Trong đoạn hội thoại trên, các nhân vật đang thảo luận về chủ đề gì?",
       "options": [
         "Câu Hỏi Đuôi — Các Trường Hợp Đặc Biệt (Advanced Tag Questions: Nobody / Never / Little / Imperatives)",
-        "Kế hoạch mua sắm và nấu ăn cho bữa tối gia đình",
-        "Lịch trình đi du lịch nghỉ dưỡng mùa hè",
-        "Dự báo thời tiết và nhiệt độ ngày mai"
+        "Kế hoạch đi nghỉ dưỡng cuối tuần ở bãi biển",
+        "Mua sắm quần áo và đồ dùng thể thao",
+        "Cách làm món ăn truyền thống gia đình"
       ],
       "correctAnswer": "Câu Hỏi Đuôi — Các Trường Hợp Đặc Biệt (Advanced Tag Questions: Nobody / Never / Little / Imperatives)",
-      "explanationVi": "Đoạn hội thoại mở đầu được thiết kế để minh họa và ứng dụng trực tiếp chủ điểm: \"Bài 55: Câu Hỏi Đuôi — Các Trường Hợp Đặc Biệt (Advanced Tag Questions: Nobody / Never / Little / Imperatives)\"."
+      "explanationVi": "Đoạn hội thoại mở đầu được thiết kế để minh họa trực tiếp cho chủ điểm ngữ pháp: \"Bài 55: Câu Hỏi Đuôi — Các Trường Hợp Đặc Biệt (Advanced Tag Questions: Nobody / Never / Little / Imperatives)\"."
     },
     {
-      "id": "ex-055-08",
-      "type": "multiple_choice",
-      "promptVi": "Phản xạ dịch & Ngữ pháp: Chọn câu tiếng Anh diễn đạt đúng nghĩa:",
-      "question": "Dịch câu sang tiếng Anh: \"Cô ấy không bao giờ nói dối, đúng không?\"",
+      "id": "ex-055-30",
+      "type": "reading_comprehension",
+      "promptVi": "[Đọc hiểu đoạn văn 2] Đọc phần tiếp theo của đoạn hội thoại và chọn nhận định đúng:",
+      "passage": "Chief Engineer (Nam): \"Fortunately, nothing was permanently lost during the power outage, was it?\"\nLead Developer (Nữ): \"Nothing at all! Someone backed up the whole system yesterday evening, didn't they?\"\nChief Engineer (Nam): \"Yes, our automated script did. I am responsible for signing off on the security report, aren't I?\"\nLead Developer (Nữ): \"Yes, sir. Please send the final audit summary to the executive board, will you?\"",
+      "question": "Nhận định nào sau đây là ĐÚNG với nội dung đoạn hội thoại trên?",
       "options": [
-        "She never tells lies, does she?",
-        "She never tells lies, is she?",
-        "Nothing was damaged during the storm, was it?",
-        "Incorrect grammatical form 3"
+        "Các câu hội thoại sử dụng đúng cấu trúc ngữ pháp \"Bài 55: Câu Hỏi Đuôi — Các Trường Hợp Đặc Biệt (Advanced Tag Questions: Nobody / Never / Little / Imperatives)\".",
+        "Các nhân vật không hiểu ý nhau và từ chối nói chuyện.",
+        "Đoạn hội thoại nói về việc chuyển nhà sang thành phố khác.",
+        "Cả hai nhân vật đều đang ở sân bay chuẩn bị lên máy bay."
       ],
-      "correctAnswer": "She never tells lies, does she?",
-      "explanationVi": "Bản dịch chuẩn xác và đúng ngữ pháp là: \"She never tells lies, does she?\" (Cô ấy không bao giờ nói dối, đúng không?)."
+      "correctAnswer": "Các câu hội thoại sử dụng đúng cấu trúc ngữ pháp \"Bài 55: Câu Hỏi Đuôi — Các Trường Hợp Đặc Biệt (Advanced Tag Questions: Nobody / Never / Little / Imperatives)\".",
+      "explanationVi": "Đoạn hội thoại thứ hai tiếp tục củng cố và ứng dụng các quy tắc ngữ pháp của \"Bài 55: Câu Hỏi Đuôi — Các Trường Hợp Đặc Biệt (Advanced Tag Questions: Nobody / Never / Little / Imperatives)\"."
     }
   ]
 }

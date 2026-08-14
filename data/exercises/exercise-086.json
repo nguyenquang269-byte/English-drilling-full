@@ -2,11 +2,26 @@
   "lessonId": "lesson-086",
   "lessonNumber": 86,
   "title": "Bài tập Ôn luyện: Bài 86: Cấu trúc So sánh Toàn Diện & Các Dạng Bất Quy Tắc (Comprehensive Comparative & Superlative Mastery)",
+  "totalQuestions": 30,
   "questions": [
     {
       "id": "ex-086-01",
       "type": "multiple_choice",
-      "promptVi": "Chọn đáp án đúng nhất hoàn thành câu:",
+      "promptVi": "[Trắc nghiệm] Chọn từ/cụm từ đúng để hoàn thành câu (Cô ấy là học sinh thông minh nhất trong lớp chúng tôi.):",
+      "question": "She is the smartest student ___ our class.",
+      "options": [
+        "in",
+        "of",
+        "at",
+        "from"
+      ],
+      "correctAnswer": "in",
+      "explanationVi": "Trước danh từ tập thể/nơi chốn 'our class' trong so sánh nhất dùng giới từ 'in'."
+    },
+    {
+      "id": "ex-086-02",
+      "type": "multiple_choice",
+      "promptVi": "[Trắc nghiệm] Chọn từ/cụm từ đúng để hoàn thành câu (Chiếc máy tính này không nhanh bằng máy tính của tôi.):",
       "question": "This computer is not as fast ___ mine.",
       "options": [
         "as",
@@ -18,9 +33,65 @@
       "explanationVi": "Cấu trúc so sánh không bằng: not as + adj + as."
     },
     {
-      "id": "ex-086-02",
+      "id": "ex-086-03",
+      "type": "multiple_choice",
+      "promptVi": "[Trắc nghiệm] Chọn từ/cụm từ đúng để hoàn thành câu (Sản phẩm mới này vượt trội hơn so với phiên bản cũ.):",
+      "question": "This new product is superior ___ the old version.",
+      "options": [
+        "to",
+        "than",
+        "from",
+        "with"
+      ],
+      "correctAnswer": "to",
+      "explanationVi": "'superior' luôn đi với giới từ 'to', không dùng 'than'."
+    },
+    {
+      "id": "ex-086-04",
+      "type": "multiple_choice",
+      "promptVi": "[Trắc nghiệm] Chọn từ/cụm từ đúng để hoàn thành câu (Sức khỏe của anh ấy đang ngày càng trở nên tốt hơn mỗi ngày.):",
+      "question": "His health is getting ___ and better every day.",
+      "options": [
+        "better",
+        "good",
+        "best",
+        "more good"
+      ],
+      "correctAnswer": "better",
+      "explanationVi": "Cấu trúc so sánh lũy tiến: better and better (ngày càng tốt hơn)."
+    },
+    {
+      "id": "ex-086-05",
+      "type": "multiple_choice",
+      "promptVi": "[Trắc nghiệm] Dịch câu sau sang tiếng Anh: \"Chào buổi chiều những người mê xe! Hôm nay, chúng ta thử nghiệm ba chiếc siêu xe điện nhanh nhất trên đường đua sa mạc của chúng ta.\"",
+      "question": "Chọn bản dịch chuẩn xác cho câu: \"Chào buổi chiều những người mê xe! Hôm nay, chúng ta thử nghiệm ba chiếc siêu xe điện nhanh nhất trên đường đua sa mạc của chúng ta.\"",
+      "options": [
+        "Good afternoon, gearheads! Today, we test the three fastest electric hypercars on our desert track.",
+        "Good afternoon, gearheads! Today, we test the three fastest electric hypercars on our desert track.",
+        "Model X is by far the most aerodynamic vehicle our engineering firm has ever designed.",
+        "I want to go to the park now."
+      ],
+      "correctAnswer": "Good afternoon, gearheads! Today, we test the three fastest electric hypercars on our desert track.",
+      "explanationVi": "Câu đúng là \"Good afternoon, gearheads! Today, we test the three fastest electric hypercars on our desert track.\" (Chào buổi chiều những người mê xe! Hôm nay, chúng ta thử nghiệm ba chiếc siêu xe điện nhanh nhất trên đường đua sa mạc của chúng ta.)."
+    },
+    {
+      "id": "ex-086-06",
+      "type": "multiple_choice",
+      "promptVi": "[Trắc nghiệm] Chọn câu trả lời hoặc cách diễn đạt phù hợp:",
+      "question": "Trong ngữ cảnh giao tiếp: \"Good afternoon, gearheads! Today, we test the three fastest electric hypercars on our desert track.\", câu phản hồi tự nhiên là gì?",
+      "options": [
+        "Model X is by far the most aerodynamic vehicle our engineering firm has ever designed.",
+        "No, it is yesterday morning.",
+        "Yes, I will eat apple.",
+        "They are not at the library."
+      ],
+      "correctAnswer": "Model X is by far the most aerodynamic vehicle our engineering firm has ever designed.",
+      "explanationVi": "Phản hồi phù hợp: \"Model X is by far the most aerodynamic vehicle our engineering firm has ever designed.\" (Mẫu X cho đến nay là chiếc xe có tính khí động học cao nhất mà công ty kỹ thuật của chúng ta từng thiết kế. (by far the most aerodynamic))."
+    },
+    {
+      "id": "ex-086-07",
       "type": "fill_blank",
-      "promptVi": "Điền từ hoặc dạng đúng của động từ vào chỗ trống:",
+      "promptVi": "[Điền từ - (Dạng khẳng định)] Điền dạng đúng của động từ vào ô trống (Cô ấy là học sinh thông minh nhất trong lớp chúng tôi.):",
       "question": "She is the smartest student ___ our class.",
       "correctAnswer": "in",
       "options": [
@@ -29,92 +100,339 @@
         "at",
         "from"
       ],
-      "explanationVi": "Trước danh từ tập thể/nơi chốn 'our class' trong so sánh nhất dùng giới từ 'in'."
+      "explanationVi": "Đáp án chính xác: \"in\". Cô ấy là học sinh thông minh nhất trong lớp chúng tôi.."
     },
     {
-      "id": "ex-086-03",
+      "id": "ex-086-08",
+      "type": "fill_blank",
+      "promptVi": "[Điền từ - (Dạng phủ định)] Điền dạng đúng của động từ vào ô trống (Chiếc máy tính này không nhanh bằng máy tính của tôi.):",
+      "question": "This computer is not as fast ___ mine.",
+      "correctAnswer": "as",
+      "options": [
+        "as",
+        "than",
+        "to",
+        "like"
+      ],
+      "explanationVi": "Đáp án chính xác: \"as\". Chiếc máy tính này không nhanh bằng máy tính của tôi.."
+    },
+    {
+      "id": "ex-086-09",
+      "type": "fill_blank",
+      "promptVi": "[Điền từ - (Dạng khẳng định)] Điền dạng đúng của động từ vào ô trống (Sản phẩm mới này vượt trội hơn so với phiên bản cũ.):",
+      "question": "This new product is superior ___ the old version.",
+      "correctAnswer": "to",
+      "options": [
+        "to",
+        "than",
+        "from",
+        "with"
+      ],
+      "explanationVi": "Đáp án chính xác: \"to\". Sản phẩm mới này vượt trội hơn so với phiên bản cũ.."
+    },
+    {
+      "id": "ex-086-10",
+      "type": "fill_blank",
+      "promptVi": "[Điền từ - (Dạng khẳng định)] Điền dạng đúng của động từ vào ô trống (Sức khỏe của anh ấy đang ngày càng trở nên tốt hơn mỗi ngày.):",
+      "question": "His health is getting ___ and better every day.",
+      "correctAnswer": "better",
+      "options": [
+        "better",
+        "good",
+        "best",
+        "more good"
+      ],
+      "explanationVi": "Đáp án chính xác: \"better\". Sức khỏe của anh ấy đang ngày càng trở nên tốt hơn mỗi ngày.."
+    },
+    {
+      "id": "ex-086-11",
+      "type": "fill_blank",
+      "promptVi": "[Điền từ - Dạng PHỦ ĐỊNH] Hoàn thành câu phủ định sau:",
+      "correctAnswer": "She is not the smartest student in our class.",
+      "options": [
+        "She is not the smartest student in our class.",
+        "She is the smartest student in our class.",
+        "Not She is the smartest student in our class.",
+        "She is the smartest student in our class. no"
+      ],
+      "explanationVi": "Dạng phủ định chuẩn: Thêm 'not' sau động từ chính."
+    },
+    {
+      "id": "ex-086-12",
       "type": "sentence_scramble",
-      "promptVi": "Sắp xếp các khối từ sau thành câu hoàn chỉnh:",
+      "promptVi": "[Sắp xếp câu] Xếp các khối từ thành câu hoàn chỉnh mang nghĩa: \"Cô ấy là học sinh thông minh nhất trong lớp chúng tôi.\"",
       "words": [
+        "the",
+        "is",
+        "class.",
+        "student",
+        "in",
+        "She",
+        "our",
+        "smartest"
+      ],
+      "correctSentence": "She is the smartest student in our class.",
+      "hintVi": "Cô ấy là học sinh thông minh nhất trong lớp chúng tôi.",
+      "explanationVi": "Câu hoàn chỉnh: \"She is the smartest student in our class.\" (Cô ấy là học sinh thông minh nhất trong lớp chúng tôi.)."
+    },
+    {
+      "id": "ex-086-13",
+      "type": "sentence_scramble",
+      "promptVi": "[Sắp xếp câu] Xếp các khối từ thành câu hoàn chỉnh mang nghĩa: \"Chiếc máy tính này không nhanh bằng máy tính của tôi.\"",
+      "words": [
+        "as",
+        "not",
+        "as",
+        "is",
+        "computer",
+        "mine.",
+        "This",
+        "fast"
+      ],
+      "correctSentence": "This computer is not as fast as mine.",
+      "hintVi": "Chiếc máy tính này không nhanh bằng máy tính của tôi.",
+      "explanationVi": "Câu hoàn chỉnh: \"This computer is not as fast as mine.\" (Chiếc máy tính này không nhanh bằng máy tính của tôi.)."
+    },
+    {
+      "id": "ex-086-14",
+      "type": "sentence_scramble",
+      "promptVi": "[Sắp xếp câu] Xếp các khối từ thành câu hoàn chỉnh mang nghĩa: \"Sản phẩm mới này vượt trội hơn so với phiên bản cũ.\"",
+      "words": [
+        "is",
         "version.",
         "old",
-        "the",
-        "to",
-        "superior",
-        "is",
+        "This",
         "product",
+        "the",
         "new",
-        "This"
+        "to",
+        "superior"
       ],
       "correctSentence": "This new product is superior to the old version.",
       "hintVi": "Sản phẩm mới này vượt trội hơn so với phiên bản cũ.",
       "explanationVi": "Câu hoàn chỉnh: \"This new product is superior to the old version.\" (Sản phẩm mới này vượt trội hơn so với phiên bản cũ.)."
     },
     {
-      "id": "ex-086-04",
+      "id": "ex-086-15",
+      "type": "sentence_scramble",
+      "promptVi": "[Sắp xếp câu] Xếp các khối từ thành câu hoàn chỉnh mang nghĩa: \"Sức khỏe của anh ấy đang ngày càng trở nên tốt hơn mỗi ngày.\"",
+      "words": [
+        "His",
+        "better",
+        "day.",
+        "better",
+        "health",
+        "every",
+        "is",
+        "and",
+        "getting"
+      ],
+      "correctSentence": "His health is getting better and better every day.",
+      "hintVi": "Sức khỏe của anh ấy đang ngày càng trở nên tốt hơn mỗi ngày.",
+      "explanationVi": "Câu hoàn chỉnh: \"His health is getting better and better every day.\" (Sức khỏe của anh ấy đang ngày càng trở nên tốt hơn mỗi ngày.)."
+    },
+    {
+      "id": "ex-086-16",
+      "type": "sentence_scramble",
+      "promptVi": "[Sắp xếp câu] Xếp các từ thành câu hội thoại: \"Có phải khả năng tăng tốc của Mẫu Y không hoàn toàn bùng nổ bằng Mẫu Z không? (not quite as explosive as)\"",
+      "words": [
+        "of",
+        "acceleration",
+        "Model",
+        "as",
+        "not",
+        "the",
+        "quite",
+        "Y",
+        "as",
+        "Is",
+        "that",
+        "explosive",
+        "Model",
+        "of",
+        "Z"
+      ],
+      "correctSentence": "Is the acceleration of Model Y not quite as explosive as that of Model Z?",
+      "hintVi": "Có phải khả năng tăng tốc của Mẫu Y không hoàn toàn bùng nổ bằng Mẫu Z không? (not quite as explosive as)",
+      "explanationVi": "Câu đúng: \"Is the acceleration of Model Y not quite as explosive as that of Model Z?\" (Có phải khả năng tăng tốc của Mẫu Y không hoàn toàn bùng nổ bằng Mẫu Z không? (not quite as explosive as))."
+    },
+    {
+      "id": "ex-086-17",
       "type": "find_error",
-      "promptVi": "Chọn câu có cấu trúc ngữ pháp chuẩn xác nhất trong các câu sau:",
-      "question": "Dựa vào chủ điểm ngữ pháp \"Bài 86: Cấu trúc So sánh Toàn Diện & Các Dạng Bất Quy Tắc (Comprehensive Comparative & Superlative Mastery)\", câu nào sau đây là hoàn toàn CHÍNH XÁC?",
+      "promptVi": "[Tìm lỗi sai & Chọn câu đúng] Câu nào dưới đây có cấu trúc ngữ pháp HOÀN TOÀN ĐÚNG?",
+      "question": "Chủ điểm \"Bài 86: Cấu trúc So sánh Toàn Diện & Các Dạng Bất Quy Tắc (Comprehensive Comparative & Superlative Mastery)\": Chọn câu CHÍNH XÁC:",
+      "options": [
+        "She is the smartest student in our class.",
+        "She be the smartest student in our class.",
+        "She are not is the smartest student in our class.",
+        "class. our in student smartest the is She"
+      ],
+      "correctAnswer": "She is the smartest student in our class.",
+      "explanationVi": "Câu chuẩn xác là: \"She is the smartest student in our class.\" (Cô ấy là học sinh thông minh nhất trong lớp chúng tôi.)."
+    },
+    {
+      "id": "ex-086-18",
+      "type": "find_error",
+      "promptVi": "[Tìm lỗi sai & Chọn câu đúng] Câu nào dưới đây có cấu trúc ngữ pháp HOÀN TOÀN ĐÚNG?",
+      "question": "Chủ điểm \"Bài 86: Cấu trúc So sánh Toàn Diện & Các Dạng Bất Quy Tắc (Comprehensive Comparative & Superlative Mastery)\": Chọn câu CHÍNH XÁC:",
+      "options": [
+        "This computer is not as fast as mine.",
+        "This computer be not as fast as mine.",
+        "This computer are not is not as fast as mine.",
+        "mine. as fast as not is computer This"
+      ],
+      "correctAnswer": "This computer is not as fast as mine.",
+      "explanationVi": "Câu chuẩn xác là: \"This computer is not as fast as mine.\" (Chiếc máy tính này không nhanh bằng máy tính của tôi.)."
+    },
+    {
+      "id": "ex-086-19",
+      "type": "find_error",
+      "promptVi": "[Tìm lỗi sai & Chọn câu đúng] Câu nào dưới đây có cấu trúc ngữ pháp HOÀN TOÀN ĐÚNG?",
+      "question": "Chủ điểm \"Bài 86: Cấu trúc So sánh Toàn Diện & Các Dạng Bất Quy Tắc (Comprehensive Comparative & Superlative Mastery)\": Chọn câu CHÍNH XÁC:",
+      "options": [
+        "This new product is superior to the old version.",
+        "This new product be superior to the old version.",
+        "This new product are not is superior to the old version.",
+        "version. old the to superior is product new This"
+      ],
+      "correctAnswer": "This new product is superior to the old version.",
+      "explanationVi": "Câu chuẩn xác là: \"This new product is superior to the old version.\" (Sản phẩm mới này vượt trội hơn so với phiên bản cũ.)."
+    },
+    {
+      "id": "ex-086-20",
+      "type": "find_error",
+      "promptVi": "[Tìm lỗi sai & Chọn câu đúng] Câu nào dưới đây có cấu trúc ngữ pháp HOÀN TOÀN ĐÚNG?",
+      "question": "Chủ điểm \"Bài 86: Cấu trúc So sánh Toàn Diện & Các Dạng Bất Quy Tắc (Comprehensive Comparative & Superlative Mastery)\": Chọn câu CHÍNH XÁC:",
       "options": [
         "His health is getting better and better every day.",
         "His health be getting better and better every day.",
-        "Is His health is getting better and better every day.",
-        "health is getting better and better every day. His"
+        "His health are not is getting better and better every day.",
+        "day. every better and better getting is health His"
       ],
       "correctAnswer": "His health is getting better and better every day.",
-      "explanationVi": "Cấu trúc chuẩn xác là: \"His health is getting better and better every day.\" (Sức khỏe của anh ấy đang ngày càng trở nên tốt hơn mỗi ngày.)."
+      "explanationVi": "Câu chuẩn xác là: \"His health is getting better and better every day.\" (Sức khỏe của anh ấy đang ngày càng trở nên tốt hơn mỗi ngày.)."
     },
     {
-      "id": "ex-086-05",
+      "id": "ex-086-21",
       "type": "listening_reflex",
-      "promptVi": "Nghe câu tiếng Anh và chọn bản dịch tiếng Việt chuẩn xác:",
+      "promptVi": "[Nghe phản xạ] Nghe câu phát âm tiếng Anh và chọn bản dịch tiếng Việt đúng nhất:",
       "audioPrompt": "Good afternoon, gearheads! Today, we test the three fastest electric hypercars on our desert track.",
-      "question": "Nghe câu phát âm tiếng Anh và chọn nghĩa đúng:",
+      "question": "Nhấn nút '🔊 Nghe audio' để nghe câu thoại và chọn nghĩa đúng:",
       "options": [
         "Chào buổi chiều những người mê xe! Hôm nay, chúng ta thử nghiệm ba chiếc siêu xe điện nhanh nhất trên đường đua sa mạc của chúng ta.",
         "Mẫu X cho đến nay là chiếc xe có tính khí động học cao nhất mà công ty kỹ thuật của chúng ta từng thiết kế. (by far the most aerodynamic)",
         "Có phải khả năng tăng tốc của Mẫu Y không hoàn toàn bùng nổ bằng Mẫu Z không? (not quite as explosive as)",
-        "Hôm nay chúng tôi đi mua sắm tại trung tâm thương mại."
+        "Ngày mai trời sẽ mưa to."
       ],
       "correctAnswer": "Chào buổi chiều những người mê xe! Hôm nay, chúng ta thử nghiệm ba chiếc siêu xe điện nhanh nhất trên đường đua sa mạc của chúng ta.",
-      "explanationVi": "Câu nghe được: \"Good afternoon, gearheads! Today, we test the three fastest electric hypercars on our desert track.\" nghĩa là: \"Chào buổi chiều những người mê xe! Hôm nay, chúng ta thử nghiệm ba chiếc siêu xe điện nhanh nhất trên đường đua sa mạc của chúng ta.\"."
+      "explanationVi": "Câu nghe được: \"Good afternoon, gearheads! Today, we test the three fastest electric hypercars on our desert track.\" có nghĩa là: \"Chào buổi chiều những người mê xe! Hôm nay, chúng ta thử nghiệm ba chiếc siêu xe điện nhanh nhất trên đường đua sa mạc của chúng ta.\"."
     },
     {
-      "id": "ex-086-06",
+      "id": "ex-086-22",
+      "type": "listening_reflex",
+      "promptVi": "[Nghe phản xạ] Nghe câu phát âm tiếng Anh và chọn bản dịch tiếng Việt đúng nhất:",
+      "audioPrompt": "Model X is by far the most aerodynamic vehicle our engineering firm has ever designed.",
+      "question": "Nhấn nút '🔊 Nghe audio' để nghe câu thoại và chọn nghĩa đúng:",
+      "options": [
+        "Mẫu X cho đến nay là chiếc xe có tính khí động học cao nhất mà công ty kỹ thuật của chúng ta từng thiết kế. (by far the most aerodynamic)",
+        "Có phải khả năng tăng tốc của Mẫu Y không hoàn toàn bùng nổ bằng Mẫu Z không? (not quite as explosive as)",
+        "Đúng vậy, nhưng quãng đường phanh gốm-carbon của nó ngắn hơn đáng kể so với bất kỳ đối thủ nào cùng phân khúc. (considerably shorter than)",
+        "Ngày mai trời sẽ mưa to."
+      ],
+      "correctAnswer": "Mẫu X cho đến nay là chiếc xe có tính khí động học cao nhất mà công ty kỹ thuật của chúng ta từng thiết kế. (by far the most aerodynamic)",
+      "explanationVi": "Câu nghe được: \"Model X is by far the most aerodynamic vehicle our engineering firm has ever designed.\" có nghĩa là: \"Mẫu X cho đến nay là chiếc xe có tính khí động học cao nhất mà công ty kỹ thuật của chúng ta từng thiết kế. (by far the most aerodynamic)\"."
+    },
+    {
+      "id": "ex-086-23",
+      "type": "listening_reflex",
+      "promptVi": "[Nghe phản xạ] Nghe câu phát âm tiếng Anh và chọn bản dịch tiếng Việt đúng nhất:",
+      "audioPrompt": "Is the acceleration of Model Y not quite as explosive as that of Model Z?",
+      "question": "Nhấn nút '🔊 Nghe audio' để nghe câu thoại và chọn nghĩa đúng:",
+      "options": [
+        "Có phải khả năng tăng tốc của Mẫu Y không hoàn toàn bùng nổ bằng Mẫu Z không? (not quite as explosive as)",
+        "Đúng vậy, nhưng quãng đường phanh gốm-carbon của nó ngắn hơn đáng kể so với bất kỳ đối thủ nào cùng phân khúc. (considerably shorter than)",
+        "Chiếc xe nào xử lý các khúc cua gấp tốt nhất trong tất cả ba nguyên mẫu? (handles best of all three)",
+        "Ngày mai trời sẽ mưa to."
+      ],
+      "correctAnswer": "Có phải khả năng tăng tốc của Mẫu Y không hoàn toàn bùng nổ bằng Mẫu Z không? (not quite as explosive as)",
+      "explanationVi": "Câu nghe được: \"Is the acceleration of Model Y not quite as explosive as that of Model Z?\" có nghĩa là: \"Có phải khả năng tăng tốc của Mẫu Y không hoàn toàn bùng nổ bằng Mẫu Z không? (not quite as explosive as)\"."
+    },
+    {
+      "id": "ex-086-24",
+      "type": "listening_reflex",
+      "promptVi": "[Nghe phản xạ] Nghe câu phát âm tiếng Anh và chọn bản dịch tiếng Việt đúng nhất:",
+      "audioPrompt": "Yes, but its carbon-ceramic braking distance is considerably shorter than any competitor in its class.",
+      "question": "Nhấn nút '🔊 Nghe audio' để nghe câu thoại và chọn nghĩa đúng:",
+      "options": [
+        "Đúng vậy, nhưng quãng đường phanh gốm-carbon của nó ngắn hơn đáng kể so với bất kỳ đối thủ nào cùng phân khúc. (considerably shorter than)",
+        "Chiếc xe nào xử lý các khúc cua gấp tốt nhất trong tất cả ba nguyên mẫu? (handles best of all three)",
+        "Mẫu Z mang lại sự ổn định hơn nữa vì trọng tâm của nó ngày càng thấp hơn. (further stability / lower and lower)",
+        "Ngày mai trời sẽ mưa to."
+      ],
+      "correctAnswer": "Đúng vậy, nhưng quãng đường phanh gốm-carbon của nó ngắn hơn đáng kể so với bất kỳ đối thủ nào cùng phân khúc. (considerably shorter than)",
+      "explanationVi": "Câu nghe được: \"Yes, but its carbon-ceramic braking distance is considerably shorter than any competitor in its class.\" có nghĩa là: \"Đúng vậy, nhưng quãng đường phanh gốm-carbon của nó ngắn hơn đáng kể so với bất kỳ đối thủ nào cùng phân khúc. (considerably shorter than)\"."
+    },
+    {
+      "id": "ex-086-25",
       "type": "speaking_practice",
-      "promptVi": "Luyện nói qua Micro: Hãy nhấn nút 'Nói ngay' và phát âm chuẩn xác câu sau:",
+      "promptVi": "[Luyện nói qua Micro] Nhấn nút '🎙️ Bắt đầu nói' và đọc to, rõ ràng câu tiếng Anh sau:",
       "targetSentence": "She is the smartest student in our class.",
       "hintVi": "Cô ấy là học sinh thông minh nhất trong lớp chúng tôi.",
-      "explanationVi": "Mẫu câu chuẩn: \"She is the smartest student in our class.\" (Cô ấy là học sinh thông minh nhất trong lớp chúng tôi.). Hãy phát âm rõ ràng từng từ và giữ ngữ điệu tự nhiên."
+      "explanationVi": "Câu mục tiêu: \"She is the smartest student in our class.\" (Cô ấy là học sinh thông minh nhất trong lớp chúng tôi.). Luyện phát âm chuẩn xác từng âm tiết và ngữ điệu tự nhiên."
     },
     {
-      "id": "ex-086-07",
+      "id": "ex-086-26",
+      "type": "speaking_practice",
+      "promptVi": "[Luyện nói qua Micro] Nhấn nút '🎙️ Bắt đầu nói' và đọc to, rõ ràng câu tiếng Anh sau:",
+      "targetSentence": "This computer is not as fast as mine.",
+      "hintVi": "Chiếc máy tính này không nhanh bằng máy tính của tôi.",
+      "explanationVi": "Câu mục tiêu: \"This computer is not as fast as mine.\" (Chiếc máy tính này không nhanh bằng máy tính của tôi.). Luyện phát âm chuẩn xác từng âm tiết và ngữ điệu tự nhiên."
+    },
+    {
+      "id": "ex-086-27",
+      "type": "speaking_practice",
+      "promptVi": "[Luyện nói qua Micro] Nhấn nút '🎙️ Bắt đầu nói' và đọc to, rõ ràng câu tiếng Anh sau:",
+      "targetSentence": "This new product is superior to the old version.",
+      "hintVi": "Sản phẩm mới này vượt trội hơn so với phiên bản cũ.",
+      "explanationVi": "Câu mục tiêu: \"This new product is superior to the old version.\" (Sản phẩm mới này vượt trội hơn so với phiên bản cũ.). Luyện phát âm chuẩn xác từng âm tiết và ngữ điệu tự nhiên."
+    },
+    {
+      "id": "ex-086-28",
+      "type": "speaking_practice",
+      "promptVi": "[Luyện nói qua Micro] Nhấn nút '🎙️ Bắt đầu nói' và đọc to, rõ ràng câu tiếng Anh sau:",
+      "targetSentence": "His health is getting better and better every day.",
+      "hintVi": "Sức khỏe của anh ấy đang ngày càng trở nên tốt hơn mỗi ngày.",
+      "explanationVi": "Câu mục tiêu: \"His health is getting better and better every day.\" (Sức khỏe của anh ấy đang ngày càng trở nên tốt hơn mỗi ngày.). Luyện phát âm chuẩn xác từng âm tiết và ngữ điệu tự nhiên."
+    },
+    {
+      "id": "ex-086-29",
       "type": "reading_comprehension",
-      "promptVi": "Đọc đoạn hội thoại ngắn sau và trả lời câu hỏi đọc hiểu:",
-      "passage": "Automotive Host: \"Good afternoon, gearheads! Today, we test the three fastest electric hypercars on our desert track.\"\nTest Driver Mia: \"Model X is by far the most aerodynamic vehicle our engineering firm has ever designed.\"\nAutomotive Host: \"Is the acceleration of Model Y not quite as explosive as that of Model Z?\"\nTest Driver Mia: \"Yes, but its carbon-ceramic braking distance is considerably shorter than any competitor in its class.\"",
-      "question": "Dựa vào ngữ cảnh đoạn hội thoại trên, Automotive Host và Test Driver Mia đang trao đổi về nội dung trọng tâm nào?",
+      "promptVi": "[Đọc hiểu đoạn văn 1] Đọc đoạn hội thoại mở đầu sau và trả lời câu hỏi:",
+      "passage": "Automotive Host (Nam): \"Good afternoon, gearheads! Today, we test the three fastest electric hypercars on our desert track.\"\nTest Driver Mia (Nữ): \"Model X is by far the most aerodynamic vehicle our engineering firm has ever designed.\"\nAutomotive Host (Nam): \"Is the acceleration of Model Y not quite as explosive as that of Model Z?\"\nTest Driver Mia (Nữ): \"Yes, but its carbon-ceramic braking distance is considerably shorter than any competitor in its class.\"",
+      "question": "Câu hỏi: Trong đoạn hội thoại trên, các nhân vật đang thảo luận về chủ đề gì?",
       "options": [
         "Cấu trúc So sánh Toàn Diện & Các Dạng Bất Quy Tắc (Comprehensive Comparative & Superlative Mastery)",
-        "Kế hoạch mua sắm và nấu ăn cho bữa tối gia đình",
-        "Lịch trình đi du lịch nghỉ dưỡng mùa hè",
-        "Dự báo thời tiết và nhiệt độ ngày mai"
+        "Kế hoạch đi nghỉ dưỡng cuối tuần ở bãi biển",
+        "Mua sắm quần áo và đồ dùng thể thao",
+        "Cách làm món ăn truyền thống gia đình"
       ],
       "correctAnswer": "Cấu trúc So sánh Toàn Diện & Các Dạng Bất Quy Tắc (Comprehensive Comparative & Superlative Mastery)",
-      "explanationVi": "Đoạn hội thoại mở đầu được thiết kế để minh họa và ứng dụng trực tiếp chủ điểm: \"Bài 86: Cấu trúc So sánh Toàn Diện & Các Dạng Bất Quy Tắc (Comprehensive Comparative & Superlative Mastery)\"."
+      "explanationVi": "Đoạn hội thoại mở đầu được thiết kế để minh họa trực tiếp cho chủ điểm ngữ pháp: \"Bài 86: Cấu trúc So sánh Toàn Diện & Các Dạng Bất Quy Tắc (Comprehensive Comparative & Superlative Mastery)\"."
     },
     {
-      "id": "ex-086-08",
-      "type": "multiple_choice",
-      "promptVi": "Phản xạ dịch & Ngữ pháp: Chọn câu tiếng Anh diễn đạt đúng nghĩa:",
-      "question": "Dịch câu sang tiếng Anh: \"Sản phẩm mới này vượt trội hơn so với phiên bản cũ.\"",
+      "id": "ex-086-30",
+      "type": "reading_comprehension",
+      "promptVi": "[Đọc hiểu đoạn văn 2] Đọc phần tiếp theo của đoạn hội thoại và chọn nhận định đúng:",
+      "passage": "Automotive Host (Nam): \"Which vehicle handles sharp corners best of all three prototypes?\"\nTest Driver Mia (Nữ): \"Model Z provides further stability because its center of gravity is lower and lower.\"\nAutomotive Host (Nam): \"The faster you drive around the hairpin bend, the more downforce the active rear spoiler generates.\"\nTest Driver Mia (Nữ): \"This battery technology is superior to traditional lithium-ion packs in terms of heat dissipation.\"",
+      "question": "Nhận định nào sau đây là ĐÚNG với nội dung đoạn hội thoại trên?",
       "options": [
-        "This new product is superior to the old version.",
-        "This new product is superior at the old version.",
-        "This computer is not as fast as mine.",
-        "Incorrect grammatical form 3"
+        "Các câu hội thoại sử dụng đúng cấu trúc ngữ pháp \"Bài 86: Cấu trúc So sánh Toàn Diện & Các Dạng Bất Quy Tắc (Comprehensive Comparative & Superlative Mastery)\".",
+        "Các nhân vật không hiểu ý nhau và từ chối nói chuyện.",
+        "Đoạn hội thoại nói về việc chuyển nhà sang thành phố khác.",
+        "Cả hai nhân vật đều đang ở sân bay chuẩn bị lên máy bay."
       ],
-      "correctAnswer": "This new product is superior to the old version.",
-      "explanationVi": "Bản dịch chuẩn xác và đúng ngữ pháp là: \"This new product is superior to the old version.\" (Sản phẩm mới này vượt trội hơn so với phiên bản cũ.)."
+      "correctAnswer": "Các câu hội thoại sử dụng đúng cấu trúc ngữ pháp \"Bài 86: Cấu trúc So sánh Toàn Diện & Các Dạng Bất Quy Tắc (Comprehensive Comparative & Superlative Mastery)\".",
+      "explanationVi": "Đoạn hội thoại thứ hai tiếp tục củng cố và ứng dụng các quy tắc ngữ pháp của \"Bài 86: Cấu trúc So sánh Toàn Diện & Các Dạng Bất Quy Tắc (Comprehensive Comparative & Superlative Mastery)\"."
     }
   ]
 }

@@ -2,11 +2,26 @@
   "lessonId": "lesson-066",
   "lessonNumber": 66,
   "title": "Bài tập Ôn luyện: Bài 66: Quá khứ Hoàn thành — Phối hợp Thì với Quá khứ Đơn (Past Perfect with When / Before / After / By the time)",
+  "totalQuestions": 30,
   "questions": [
     {
       "id": "ex-066-01",
       "type": "multiple_choice",
-      "promptVi": "Chọn đáp án đúng nhất hoàn thành câu:",
+      "promptVi": "[Trắc nghiệm] Chọn từ/cụm từ đúng để hoàn thành câu (Sau khi anh ấy đã hoàn thành công việc, anh ấy đi về nhà.):",
+      "question": "After he ___ work, he went home.",
+      "options": [
+        "had finished",
+        "finished",
+        "finishes",
+        "has finished"
+      ],
+      "correctAnswer": "had finished",
+      "explanationVi": "Hành động hoàn thành công việc xảy ra trước hành động về nhà nên dùng 'had finished'."
+    },
+    {
+      "id": "ex-066-02",
+      "type": "multiple_choice",
+      "promptVi": "[Trắc nghiệm] Chọn từ/cụm từ đúng để hoàn thành câu (Vào lúc chúng tôi đến nơi, bộ phim đã bắt đầu rồi.):",
       "question": "By the time we ___, the movie had started.",
       "options": [
         "arrived",
@@ -18,9 +33,65 @@
       "explanationVi": "Mệnh đề sau 'By the time' trong quá khứ chia ở thì Quá khứ đơn (arrived)."
     },
     {
-      "id": "ex-066-02",
+      "id": "ex-066-03",
+      "type": "multiple_choice",
+      "promptVi": "[Trắc nghiệm] Chọn từ/cụm từ đúng để hoàn thành câu (Trước khi đi ngủ, cô ấy đã khóa cửa lại cẩn thận.):",
+      "question": "Before she went to bed, she ___ the door.",
+      "options": [
+        "had locked",
+        "locked",
+        "locks",
+        "has locked"
+      ],
+      "correctAnswer": "had locked",
+      "explanationVi": "Khóa cửa xảy ra trước khi đi ngủ nên dùng 'had locked'."
+    },
+    {
+      "id": "ex-066-04",
+      "type": "multiple_choice",
+      "promptVi": "[Trắc nghiệm] Chọn từ/cụm từ đúng để hoàn thành câu (Khi tôi đến bến, xe buýt đã rời đi mất rồi.):",
+      "question": "When I arrived at the station, the bus had already ___.",
+      "options": [
+        "left",
+        "leave",
+        "leaves",
+        "leaving"
+      ],
+      "correctAnswer": "left",
+      "explanationVi": "Sau 'had already' dùng V3 là 'left'."
+    },
+    {
+      "id": "ex-066-05",
+      "type": "multiple_choice",
+      "promptVi": "[Trắc nghiệm] Dịch câu sau sang tiếng Anh: \"Xin lỗi sĩ quan. Sau khi tôi đã hạ cánh xuống sân bay Tokyo, tôi phát hiện ra vali của mình đã bị thất lạc! (After had landed -> discovered)\"",
+      "question": "Chọn bản dịch chuẩn xác cho câu: \"Xin lỗi sĩ quan. Sau khi tôi đã hạ cánh xuống sân bay Tokyo, tôi phát hiện ra vali của mình đã bị thất lạc! (After had landed -> discovered)\"",
+      "options": [
+        "Excuse me, officer. After I had landed at Tokyo Airport, I discovered that my suitcase was missing!",
+        "Excuse me, officer. After I had landed at Tokyo Airport, I discovered that my suitcase be missing!",
+        "Do not worry, sir. Had you checked your bags before you boarded your connecting flight in Seoul?",
+        "I want to go to the park now."
+      ],
+      "correctAnswer": "Excuse me, officer. After I had landed at Tokyo Airport, I discovered that my suitcase was missing!",
+      "explanationVi": "Câu đúng là \"Excuse me, officer. After I had landed at Tokyo Airport, I discovered that my suitcase was missing!\" (Xin lỗi sĩ quan. Sau khi tôi đã hạ cánh xuống sân bay Tokyo, tôi phát hiện ra vali của mình đã bị thất lạc! (After had landed -> discovered))."
+    },
+    {
+      "id": "ex-066-06",
+      "type": "multiple_choice",
+      "promptVi": "[Trắc nghiệm] Chọn câu trả lời hoặc cách diễn đạt phù hợp:",
+      "question": "Trong ngữ cảnh giao tiếp: \"Excuse me, officer. After I had landed at Tokyo Airport, I discovered that my suitcase was missing!\", câu phản hồi tự nhiên là gì?",
+      "options": [
+        "Do not worry, sir. Had you checked your bags before you boarded your connecting flight in Seoul?",
+        "No, it is yesterday morning.",
+        "Yes, I will eat apple.",
+        "They are not at the library."
+      ],
+      "correctAnswer": "Do not worry, sir. Had you checked your bags before you boarded your connecting flight in Seoul?",
+      "explanationVi": "Phản hồi phù hợp: \"Do not worry, sir. Had you checked your bags before you boarded your connecting flight in Seoul?\" (Xin ông đừng lo lắng. Ông đã ký gửi hành lý trước khi lên chuyến bay nối chuyến ở Seoul chưa? (before you boarded))."
+    },
+    {
+      "id": "ex-066-07",
       "type": "fill_blank",
-      "promptVi": "Điền từ hoặc dạng đúng của động từ vào chỗ trống:",
+      "promptVi": "[Điền từ - (Dạng khẳng định)] Điền dạng đúng của động từ vào ô trống (Sau khi anh ấy đã hoàn thành công việc, anh ấy đi về nhà.):",
       "question": "After he ___ work, he went home.",
       "correctAnswer": "had finished",
       "options": [
@@ -29,93 +100,340 @@
         "finishes",
         "has finished"
       ],
-      "explanationVi": "Hành động hoàn thành công việc xảy ra trước hành động về nhà nên dùng 'had finished'."
+      "explanationVi": "Đáp án chính xác: \"had finished\". Sau khi anh ấy đã hoàn thành công việc, anh ấy đi về nhà.."
     },
     {
-      "id": "ex-066-03",
-      "type": "sentence_scramble",
-      "promptVi": "Sắp xếp các khối từ sau thành câu hoàn chỉnh:",
-      "words": [
-        "door.",
-        "the",
+      "id": "ex-066-08",
+      "type": "fill_blank",
+      "promptVi": "[Điền từ - (Dạng khẳng định)] Điền dạng đúng của động từ vào ô trống (Vào lúc chúng tôi đến nơi, bộ phim đã bắt đầu rồi.):",
+      "question": "By the time we ___, the movie had started.",
+      "correctAnswer": "arrived",
+      "options": [
+        "arrived",
+        "had arrived",
+        "arrive",
+        "arriving"
+      ],
+      "explanationVi": "Đáp án chính xác: \"arrived\". Vào lúc chúng tôi đến nơi, bộ phim đã bắt đầu rồi.."
+    },
+    {
+      "id": "ex-066-09",
+      "type": "fill_blank",
+      "promptVi": "[Điền từ - (Dạng khẳng định)] Điền dạng đúng của động từ vào ô trống (Trước khi đi ngủ, cô ấy đã khóa cửa lại cẩn thận.):",
+      "question": "Before she went to bed, she ___ the door.",
+      "correctAnswer": "had locked",
+      "options": [
+        "had locked",
         "locked",
+        "locks",
+        "has locked"
+      ],
+      "explanationVi": "Đáp án chính xác: \"had locked\". Trước khi đi ngủ, cô ấy đã khóa cửa lại cẩn thận.."
+    },
+    {
+      "id": "ex-066-10",
+      "type": "fill_blank",
+      "promptVi": "[Điền từ - (Dạng khẳng định)] Điền dạng đúng của động từ vào ô trống (Khi tôi đến bến, xe buýt đã rời đi mất rồi.):",
+      "question": "When I arrived at the station, the bus had already ___.",
+      "correctAnswer": "left",
+      "options": [
+        "left",
+        "leave",
+        "leaves",
+        "leaving"
+      ],
+      "explanationVi": "Đáp án chính xác: \"left\". Khi tôi đến bến, xe buýt đã rời đi mất rồi.."
+    },
+    {
+      "id": "ex-066-11",
+      "type": "fill_blank",
+      "promptVi": "[Điền từ - Dạng PHỦ ĐỊNH] Hoàn thành câu phủ định sau:",
+      "correctAnswer": "After he had finished work, he went home.",
+      "options": [
+        "After he had finished work, he went home.",
+        "After he had finished work, he went home.",
+        "Not After he had finished work, he went home.",
+        "After he had finished work, he went home. no"
+      ],
+      "explanationVi": "Dạng phủ định chuẩn: Thêm 'not' sau động từ chính."
+    },
+    {
+      "id": "ex-066-12",
+      "type": "sentence_scramble",
+      "promptVi": "[Sắp xếp câu] Xếp các khối từ thành câu hoàn chỉnh mang nghĩa: \"Sau khi anh ấy đã hoàn thành công việc, anh ấy đi về nhà.\"",
+      "words": [
+        "he",
         "had",
+        "he",
+        "went",
+        "finished",
+        "After",
+        "home.",
+        "work,"
+      ],
+      "correctSentence": "After he had finished work, he went home.",
+      "hintVi": "Sau khi anh ấy đã hoàn thành công việc, anh ấy đi về nhà.",
+      "explanationVi": "Câu hoàn chỉnh: \"After he had finished work, he went home.\" (Sau khi anh ấy đã hoàn thành công việc, anh ấy đi về nhà.)."
+    },
+    {
+      "id": "ex-066-13",
+      "type": "sentence_scramble",
+      "promptVi": "[Sắp xếp câu] Xếp các khối từ thành câu hoàn chỉnh mang nghĩa: \"Vào lúc chúng tôi đến nơi, bộ phim đã bắt đầu rồi.\"",
+      "words": [
+        "we",
+        "time",
+        "arrived,",
+        "By",
+        "started.",
+        "the",
+        "the",
+        "movie",
+        "had"
+      ],
+      "correctSentence": "By the time we arrived, the movie had started.",
+      "hintVi": "Vào lúc chúng tôi đến nơi, bộ phim đã bắt đầu rồi.",
+      "explanationVi": "Câu hoàn chỉnh: \"By the time we arrived, the movie had started.\" (Vào lúc chúng tôi đến nơi, bộ phim đã bắt đầu rồi.)."
+    },
+    {
+      "id": "ex-066-14",
+      "type": "sentence_scramble",
+      "promptVi": "[Sắp xếp câu] Xếp các khối từ thành câu hoàn chỉnh mang nghĩa: \"Trước khi đi ngủ, cô ấy đã khóa cửa lại cẩn thận.\"",
+      "words": [
+        "had",
+        "went",
+        "locked",
+        "Before",
+        "she",
+        "the",
+        "door.",
         "she",
         "bed,",
-        "to",
-        "went",
-        "she",
-        "Before"
+        "to"
       ],
       "correctSentence": "Before she went to bed, she had locked the door.",
       "hintVi": "Trước khi đi ngủ, cô ấy đã khóa cửa lại cẩn thận.",
       "explanationVi": "Câu hoàn chỉnh: \"Before she went to bed, she had locked the door.\" (Trước khi đi ngủ, cô ấy đã khóa cửa lại cẩn thận.)."
     },
     {
-      "id": "ex-066-04",
-      "type": "find_error",
-      "promptVi": "Chọn câu có cấu trúc ngữ pháp chuẩn xác nhất trong các câu sau:",
-      "question": "Dựa vào chủ điểm ngữ pháp \"Bài 66: Quá khứ Hoàn thành — Phối hợp Thì với Quá khứ Đơn (Past Perfect with When / Before / After / By the time)\", câu nào sau đây là hoàn toàn CHÍNH XÁC?",
-      "options": [
-        "When I arrived at the station, the bus had already left.",
-        "When I arrived at the station, the bus be already left.",
-        "When I arrived with the station, the bus had already left.",
-        "I arrived at the station, the bus had already left. When"
+      "id": "ex-066-15",
+      "type": "sentence_scramble",
+      "promptVi": "[Sắp xếp câu] Xếp các khối từ thành câu hoàn chỉnh mang nghĩa: \"Khi tôi đến bến, xe buýt đã rời đi mất rồi.\"",
+      "words": [
+        "I",
+        "left.",
+        "at",
+        "bus",
+        "had",
+        "When",
+        "already",
+        "the",
+        "station,",
+        "arrived",
+        "the"
       ],
-      "correctAnswer": "When I arrived at the station, the bus had already left.",
-      "explanationVi": "Cấu trúc chuẩn xác là: \"When I arrived at the station, the bus had already left.\" (Khi tôi đến bến, xe buýt đã rời đi mất rồi.)."
+      "correctSentence": "When I arrived at the station, the bus had already left.",
+      "hintVi": "Khi tôi đến bến, xe buýt đã rời đi mất rồi.",
+      "explanationVi": "Câu hoàn chỉnh: \"When I arrived at the station, the bus had already left.\" (Khi tôi đến bến, xe buýt đã rời đi mất rồi.)."
     },
     {
-      "id": "ex-066-05",
+      "id": "ex-066-16",
+      "type": "sentence_scramble",
+      "promptVi": "[Sắp xếp câu] Xếp các từ thành câu hội thoại: \"Vâng, tôi đã ký gửi chúng ở Luân Đôn trước khi cửa lên máy bay mở ra. (had checked before opened)\"",
+      "words": [
+        "opened",
+        "Yes",
+        "boarding",
+        "in",
+        "checked",
+        "I",
+        "gate",
+        "had",
+        "London",
+        "the",
+        "them",
+        "before"
+      ],
+      "correctSentence": "Yes, I had checked them in London before the boarding gate opened.",
+      "hintVi": "Vâng, tôi đã ký gửi chúng ở Luân Đôn trước khi cửa lên máy bay mở ra. (had checked before opened)",
+      "explanationVi": "Câu đúng: \"Yes, I had checked them in London before the boarding gate opened.\" (Vâng, tôi đã ký gửi chúng ở Luân Đôn trước khi cửa lên máy bay mở ra. (had checked before opened))."
+    },
+    {
+      "id": "ex-066-17",
+      "type": "find_error",
+      "promptVi": "[Tìm lỗi sai & Chọn câu đúng] Câu nào dưới đây có cấu trúc ngữ pháp HOÀN TOÀN ĐÚNG?",
+      "question": "Chủ điểm \"Bài 66: Quá khứ Hoàn thành — Phối hợp Thì với Quá khứ Đơn (Past Perfect with When / Before / After / By the time)\": Chọn câu CHÍNH XÁC:",
+      "options": [
+        "After he had finished work, he went home.",
+        "home. went he work, finished had he After",
+        "After he had finished work, he went home. (sai)",
+        "After he had finished work, he went home. (sai)"
+      ],
+      "correctAnswer": "After he had finished work, he went home.",
+      "explanationVi": "Câu chuẩn xác là: \"After he had finished work, he went home.\" (Sau khi anh ấy đã hoàn thành công việc, anh ấy đi về nhà.)."
+    },
+    {
+      "id": "ex-066-18",
+      "type": "find_error",
+      "promptVi": "[Tìm lỗi sai & Chọn câu đúng] Câu nào dưới đây có cấu trúc ngữ pháp HOÀN TOÀN ĐÚNG?",
+      "question": "Chủ điểm \"Bài 66: Quá khứ Hoàn thành — Phối hợp Thì với Quá khứ Đơn (Past Perfect with When / Before / After / By the time)\": Chọn câu CHÍNH XÁC:",
+      "options": [
+        "By the time we arrived, the movie had started.",
+        "started. had movie the arrived, we time the By",
+        "By the time we arrived, the movie had started. (sai)",
+        "By the time we arrived, the movie had started. (sai)"
+      ],
+      "correctAnswer": "By the time we arrived, the movie had started.",
+      "explanationVi": "Câu chuẩn xác là: \"By the time we arrived, the movie had started.\" (Vào lúc chúng tôi đến nơi, bộ phim đã bắt đầu rồi.)."
+    },
+    {
+      "id": "ex-066-19",
+      "type": "find_error",
+      "promptVi": "[Tìm lỗi sai & Chọn câu đúng] Câu nào dưới đây có cấu trúc ngữ pháp HOÀN TOÀN ĐÚNG?",
+      "question": "Chủ điểm \"Bài 66: Quá khứ Hoàn thành — Phối hợp Thì với Quá khứ Đơn (Past Perfect with When / Before / After / By the time)\": Chọn câu CHÍNH XÁC:",
+      "options": [
+        "Before she went to bed, she had locked the door.",
+        "door. the locked had she bed, to went she Before",
+        "Before she went to bed, she had locked the door. (sai)",
+        "Before she went to bed, she had locked the door. (sai)"
+      ],
+      "correctAnswer": "Before she went to bed, she had locked the door.",
+      "explanationVi": "Câu chuẩn xác là: \"Before she went to bed, she had locked the door.\" (Trước khi đi ngủ, cô ấy đã khóa cửa lại cẩn thận.)."
+    },
+    {
+      "id": "ex-066-20",
+      "type": "find_error",
+      "promptVi": "[Tìm lỗi sai & Chọn câu đúng] Câu nào dưới đây có cấu trúc ngữ pháp HOÀN TOÀN ĐÚNG?",
+      "question": "Chủ điểm \"Bài 66: Quá khứ Hoàn thành — Phối hợp Thì với Quá khứ Đơn (Past Perfect with When / Before / After / By the time)\": Chọn câu CHÍNH XÁC:",
+      "options": [
+        "When I arrived at the station, the bus had already left.",
+        "left. already had bus the station, the at arrived I When",
+        "When I arrived at the station, the bus had already left. (sai)",
+        "When I arrived at the station, the bus had already left. (sai)"
+      ],
+      "correctAnswer": "When I arrived at the station, the bus had already left.",
+      "explanationVi": "Câu chuẩn xác là: \"When I arrived at the station, the bus had already left.\" (Khi tôi đến bến, xe buýt đã rời đi mất rồi.)."
+    },
+    {
+      "id": "ex-066-21",
       "type": "listening_reflex",
-      "promptVi": "Nghe câu tiếng Anh và chọn bản dịch tiếng Việt chuẩn xác:",
+      "promptVi": "[Nghe phản xạ] Nghe câu phát âm tiếng Anh và chọn bản dịch tiếng Việt đúng nhất:",
       "audioPrompt": "Excuse me, officer. After I had landed at Tokyo Airport, I discovered that my suitcase was missing!",
-      "question": "Nghe câu phát âm tiếng Anh và chọn nghĩa đúng:",
+      "question": "Nhấn nút '🔊 Nghe audio' để nghe câu thoại và chọn nghĩa đúng:",
       "options": [
         "Xin lỗi sĩ quan. Sau khi tôi đã hạ cánh xuống sân bay Tokyo, tôi phát hiện ra vali của mình đã bị thất lạc! (After had landed -> discovered)",
         "Xin ông đừng lo lắng. Ông đã ký gửi hành lý trước khi lên chuyến bay nối chuyến ở Seoul chưa? (before you boarded)",
         "Vâng, tôi đã ký gửi chúng ở Luân Đôn trước khi cửa lên máy bay mở ra. (had checked before opened)",
-        "Hôm nay chúng tôi đi mua sắm tại trung tâm thương mại."
+        "Ngày mai trời sẽ mưa to."
       ],
       "correctAnswer": "Xin lỗi sĩ quan. Sau khi tôi đã hạ cánh xuống sân bay Tokyo, tôi phát hiện ra vali của mình đã bị thất lạc! (After had landed -> discovered)",
-      "explanationVi": "Câu nghe được: \"Excuse me, officer. After I had landed at Tokyo Airport, I discovered that my suitcase was missing!\" nghĩa là: \"Xin lỗi sĩ quan. Sau khi tôi đã hạ cánh xuống sân bay Tokyo, tôi phát hiện ra vali của mình đã bị thất lạc! (After had landed -> discovered)\"."
+      "explanationVi": "Câu nghe được: \"Excuse me, officer. After I had landed at Tokyo Airport, I discovered that my suitcase was missing!\" có nghĩa là: \"Xin lỗi sĩ quan. Sau khi tôi đã hạ cánh xuống sân bay Tokyo, tôi phát hiện ra vali của mình đã bị thất lạc! (After had landed -> discovered)\"."
     },
     {
-      "id": "ex-066-06",
+      "id": "ex-066-22",
+      "type": "listening_reflex",
+      "promptVi": "[Nghe phản xạ] Nghe câu phát âm tiếng Anh và chọn bản dịch tiếng Việt đúng nhất:",
+      "audioPrompt": "Do not worry, sir. Had you checked your bags before you boarded your connecting flight in Seoul?",
+      "question": "Nhấn nút '🔊 Nghe audio' để nghe câu thoại và chọn nghĩa đúng:",
+      "options": [
+        "Xin ông đừng lo lắng. Ông đã ký gửi hành lý trước khi lên chuyến bay nối chuyến ở Seoul chưa? (before you boarded)",
+        "Vâng, tôi đã ký gửi chúng ở Luân Đôn trước khi cửa lên máy bay mở ra. (had checked before opened)",
+        "Để tôi tra cứu mã thẻ hành lý của ông. Vào lúc chuyến bay từ Seoul của ông cất cánh, nhân viên mặt đất đã chuyển được ba trăm kiện hành lý rồi. (By the time departed -> had transferred)",
+        "Ngày mai trời sẽ mưa to."
+      ],
+      "correctAnswer": "Xin ông đừng lo lắng. Ông đã ký gửi hành lý trước khi lên chuyến bay nối chuyến ở Seoul chưa? (before you boarded)",
+      "explanationVi": "Câu nghe được: \"Do not worry, sir. Had you checked your bags before you boarded your connecting flight in Seoul?\" có nghĩa là: \"Xin ông đừng lo lắng. Ông đã ký gửi hành lý trước khi lên chuyến bay nối chuyến ở Seoul chưa? (before you boarded)\"."
+    },
+    {
+      "id": "ex-066-23",
+      "type": "listening_reflex",
+      "promptVi": "[Nghe phản xạ] Nghe câu phát âm tiếng Anh và chọn bản dịch tiếng Việt đúng nhất:",
+      "audioPrompt": "Yes, I had checked them in London before the boarding gate opened.",
+      "question": "Nhấn nút '🔊 Nghe audio' để nghe câu thoại và chọn nghĩa đúng:",
+      "options": [
+        "Vâng, tôi đã ký gửi chúng ở Luân Đôn trước khi cửa lên máy bay mở ra. (had checked before opened)",
+        "Để tôi tra cứu mã thẻ hành lý của ông. Vào lúc chuyến bay từ Seoul của ông cất cánh, nhân viên mặt đất đã chuyển được ba trăm kiện hành lý rồi. (By the time departed -> had transferred)",
+        "Chuyện gì đã xảy ra với hành lý của tôi? Có ai đó đã bốc nhầm nó lên một chiếc máy bay khác không?",
+        "Ngày mai trời sẽ mưa to."
+      ],
+      "correctAnswer": "Vâng, tôi đã ký gửi chúng ở Luân Đôn trước khi cửa lên máy bay mở ra. (had checked before opened)",
+      "explanationVi": "Câu nghe được: \"Yes, I had checked them in London before the boarding gate opened.\" có nghĩa là: \"Vâng, tôi đã ký gửi chúng ở Luân Đôn trước khi cửa lên máy bay mở ra. (had checked before opened)\"."
+    },
+    {
+      "id": "ex-066-24",
+      "type": "listening_reflex",
+      "promptVi": "[Nghe phản xạ] Nghe câu phát âm tiếng Anh và chọn bản dịch tiếng Việt đúng nhất:",
+      "audioPrompt": "Let me look up your baggage tag. By the time your Seoul flight departed, ground staff had transferred three hundred bags.",
+      "question": "Nhấn nút '🔊 Nghe audio' để nghe câu thoại và chọn nghĩa đúng:",
+      "options": [
+        "Để tôi tra cứu mã thẻ hành lý của ông. Vào lúc chuyến bay từ Seoul của ông cất cánh, nhân viên mặt đất đã chuyển được ba trăm kiện hành lý rồi. (By the time departed -> had transferred)",
+        "Chuyện gì đã xảy ra với hành lý của tôi? Có ai đó đã bốc nhầm nó lên một chiếc máy bay khác không?",
+        "Ngay sau khi đội mặt đất nhận ra sự chậm trễ, họ đã chuyển tiếp hành lý của ông trên chuyến bay hỏa tốc kế tiếp. (As soon as had realized -> forwarded)",
+        "Ngày mai trời sẽ mưa to."
+      ],
+      "correctAnswer": "Để tôi tra cứu mã thẻ hành lý của ông. Vào lúc chuyến bay từ Seoul của ông cất cánh, nhân viên mặt đất đã chuyển được ba trăm kiện hành lý rồi. (By the time departed -> had transferred)",
+      "explanationVi": "Câu nghe được: \"Let me look up your baggage tag. By the time your Seoul flight departed, ground staff had transferred three hundred bags.\" có nghĩa là: \"Để tôi tra cứu mã thẻ hành lý của ông. Vào lúc chuyến bay từ Seoul của ông cất cánh, nhân viên mặt đất đã chuyển được ba trăm kiện hành lý rồi. (By the time departed -> had transferred)\"."
+    },
+    {
+      "id": "ex-066-25",
       "type": "speaking_practice",
-      "promptVi": "Luyện nói qua Micro: Hãy nhấn nút 'Nói ngay' và phát âm chuẩn xác câu sau:",
+      "promptVi": "[Luyện nói qua Micro] Nhấn nút '🎙️ Bắt đầu nói' và đọc to, rõ ràng câu tiếng Anh sau:",
       "targetSentence": "After he had finished work, he went home.",
       "hintVi": "Sau khi anh ấy đã hoàn thành công việc, anh ấy đi về nhà.",
-      "explanationVi": "Mẫu câu chuẩn: \"After he had finished work, he went home.\" (Sau khi anh ấy đã hoàn thành công việc, anh ấy đi về nhà.). Hãy phát âm rõ ràng từng từ và giữ ngữ điệu tự nhiên."
+      "explanationVi": "Câu mục tiêu: \"After he had finished work, he went home.\" (Sau khi anh ấy đã hoàn thành công việc, anh ấy đi về nhà.). Luyện phát âm chuẩn xác từng âm tiết và ngữ điệu tự nhiên."
     },
     {
-      "id": "ex-066-07",
+      "id": "ex-066-26",
+      "type": "speaking_practice",
+      "promptVi": "[Luyện nói qua Micro] Nhấn nút '🎙️ Bắt đầu nói' và đọc to, rõ ràng câu tiếng Anh sau:",
+      "targetSentence": "By the time we arrived, the movie had started.",
+      "hintVi": "Vào lúc chúng tôi đến nơi, bộ phim đã bắt đầu rồi.",
+      "explanationVi": "Câu mục tiêu: \"By the time we arrived, the movie had started.\" (Vào lúc chúng tôi đến nơi, bộ phim đã bắt đầu rồi.). Luyện phát âm chuẩn xác từng âm tiết và ngữ điệu tự nhiên."
+    },
+    {
+      "id": "ex-066-27",
+      "type": "speaking_practice",
+      "promptVi": "[Luyện nói qua Micro] Nhấn nút '🎙️ Bắt đầu nói' và đọc to, rõ ràng câu tiếng Anh sau:",
+      "targetSentence": "Before she went to bed, she had locked the door.",
+      "hintVi": "Trước khi đi ngủ, cô ấy đã khóa cửa lại cẩn thận.",
+      "explanationVi": "Câu mục tiêu: \"Before she went to bed, she had locked the door.\" (Trước khi đi ngủ, cô ấy đã khóa cửa lại cẩn thận.). Luyện phát âm chuẩn xác từng âm tiết và ngữ điệu tự nhiên."
+    },
+    {
+      "id": "ex-066-28",
+      "type": "speaking_practice",
+      "promptVi": "[Luyện nói qua Micro] Nhấn nút '🎙️ Bắt đầu nói' và đọc to, rõ ràng câu tiếng Anh sau:",
+      "targetSentence": "When I arrived at the station, the bus had already left.",
+      "hintVi": "Khi tôi đến bến, xe buýt đã rời đi mất rồi.",
+      "explanationVi": "Câu mục tiêu: \"When I arrived at the station, the bus had already left.\" (Khi tôi đến bến, xe buýt đã rời đi mất rồi.). Luyện phát âm chuẩn xác từng âm tiết và ngữ điệu tự nhiên."
+    },
+    {
+      "id": "ex-066-29",
       "type": "reading_comprehension",
-      "promptVi": "Đọc đoạn hội thoại ngắn sau và trả lời câu hỏi đọc hiểu:",
-      "passage": "Traveler Simon: \"Excuse me, officer. After I had landed at Tokyo Airport, I discovered that my suitcase was missing!\"\nAirport Agent: \"Do not worry, sir. Had you checked your bags before you boarded your connecting flight in Seoul?\"\nTraveler Simon: \"Yes, I had checked them in London before the boarding gate opened.\"\nAirport Agent: \"Let me look up your baggage tag. By the time your Seoul flight departed, ground staff had transferred three hundred bags.\"",
-      "question": "Dựa vào ngữ cảnh đoạn hội thoại trên, Traveler Simon và Airport Agent đang trao đổi về nội dung trọng tâm nào?",
+      "promptVi": "[Đọc hiểu đoạn văn 1] Đọc đoạn hội thoại mở đầu sau và trả lời câu hỏi:",
+      "passage": "Traveler Simon (Nam): \"Excuse me, officer. After I had landed at Tokyo Airport, I discovered that my suitcase was missing!\"\nAirport Agent (Nữ): \"Do not worry, sir. Had you checked your bags before you boarded your connecting flight in Seoul?\"\nTraveler Simon (Nam): \"Yes, I had checked them in London before the boarding gate opened.\"\nAirport Agent (Nữ): \"Let me look up your baggage tag. By the time your Seoul flight departed, ground staff had transferred three hundred bags.\"",
+      "question": "Câu hỏi: Trong đoạn hội thoại trên, các nhân vật đang thảo luận về chủ đề gì?",
       "options": [
         "Quá khứ Hoàn thành — Phối hợp Thì với Quá khứ Đơn (Past Perfect with When / Before / After / By the time)",
-        "Kế hoạch mua sắm và nấu ăn cho bữa tối gia đình",
-        "Lịch trình đi du lịch nghỉ dưỡng mùa hè",
-        "Dự báo thời tiết và nhiệt độ ngày mai"
+        "Kế hoạch đi nghỉ dưỡng cuối tuần ở bãi biển",
+        "Mua sắm quần áo và đồ dùng thể thao",
+        "Cách làm món ăn truyền thống gia đình"
       ],
       "correctAnswer": "Quá khứ Hoàn thành — Phối hợp Thì với Quá khứ Đơn (Past Perfect with When / Before / After / By the time)",
-      "explanationVi": "Đoạn hội thoại mở đầu được thiết kế để minh họa và ứng dụng trực tiếp chủ điểm: \"Bài 66: Quá khứ Hoàn thành — Phối hợp Thì với Quá khứ Đơn (Past Perfect with When / Before / After / By the time)\"."
+      "explanationVi": "Đoạn hội thoại mở đầu được thiết kế để minh họa trực tiếp cho chủ điểm ngữ pháp: \"Bài 66: Quá khứ Hoàn thành — Phối hợp Thì với Quá khứ Đơn (Past Perfect with When / Before / After / By the time)\"."
     },
     {
-      "id": "ex-066-08",
-      "type": "multiple_choice",
-      "promptVi": "Phản xạ dịch & Ngữ pháp: Chọn câu tiếng Anh diễn đạt đúng nghĩa:",
-      "question": "Dịch câu sang tiếng Anh: \"Trước khi đi ngủ, cô ấy đã khóa cửa lại cẩn thận.\"",
+      "id": "ex-066-30",
+      "type": "reading_comprehension",
+      "promptVi": "[Đọc hiểu đoạn văn 2] Đọc phần tiếp theo của đoạn hội thoại và chọn nhận định đúng:",
+      "passage": "Traveler Simon (Nam): \"What happened to my luggage? Had someone mistakenly loaded it onto another aircraft?\"\nAirport Agent (Nữ): \"As soon as the ground team had realized the delay, they forwarded your luggage on the subsequent express flight.\"\nTraveler Simon (Nam): \"I was anxious because I had packed critical business presentation documents in that suitcase.\"\nAirport Agent (Nữ): \"The system confirms that the express aircraft landed twenty minutes ago.\"",
+      "question": "Nhận định nào sau đây là ĐÚNG với nội dung đoạn hội thoại trên?",
       "options": [
-        "Before she went to bed, she had locked the door.",
-        "Before she went to bed, she is locked the door.",
-        "Before she went at bed, she had locked the door.",
-        "By the time we arrived, the movie had started."
+        "Các câu hội thoại sử dụng đúng cấu trúc ngữ pháp \"Bài 66: Quá khứ Hoàn thành — Phối hợp Thì với Quá khứ Đơn (Past Perfect with When / Before / After / By the time)\".",
+        "Các nhân vật không hiểu ý nhau và từ chối nói chuyện.",
+        "Đoạn hội thoại nói về việc chuyển nhà sang thành phố khác.",
+        "Cả hai nhân vật đều đang ở sân bay chuẩn bị lên máy bay."
       ],
-      "correctAnswer": "Before she went to bed, she had locked the door.",
-      "explanationVi": "Bản dịch chuẩn xác và đúng ngữ pháp là: \"Before she went to bed, she had locked the door.\" (Trước khi đi ngủ, cô ấy đã khóa cửa lại cẩn thận.)."
+      "correctAnswer": "Các câu hội thoại sử dụng đúng cấu trúc ngữ pháp \"Bài 66: Quá khứ Hoàn thành — Phối hợp Thì với Quá khứ Đơn (Past Perfect with When / Before / After / By the time)\".",
+      "explanationVi": "Đoạn hội thoại thứ hai tiếp tục củng cố và ứng dụng các quy tắc ngữ pháp của \"Bài 66: Quá khứ Hoàn thành — Phối hợp Thì với Quá khứ Đơn (Past Perfect with When / Before / After / By the time)\"."
     }
   ]
 }

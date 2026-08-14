@@ -2,11 +2,26 @@
   "lessonId": "lesson-041",
   "lessonNumber": 41,
   "title": "Bài tập Ôn luyện: Bài 41: Lượng từ — Many / Much / A lot of / Some / Any (Quantifiers)",
+  "totalQuestions": 30,
   "questions": [
     {
       "id": "ex-041-01",
       "type": "multiple_choice",
-      "promptVi": "Chọn đáp án đúng nhất hoàn thành câu:",
+      "promptVi": "[Trắc nghiệm] Chọn từ/cụm từ đúng để hoàn thành câu (Bạn đọc bao nhiêu cuốn sách mỗi tháng?):",
+      "question": "How ___ books do you read each month?",
+      "options": [
+        "many",
+        "much",
+        "any",
+        "some"
+      ],
+      "correctAnswer": "many",
+      "explanationVi": "'books' là danh từ đếm được số nhiều nên dùng 'How many'."
+    },
+    {
+      "id": "ex-041-02",
+      "type": "multiple_choice",
+      "promptVi": "[Trắc nghiệm] Chọn từ/cụm từ đúng để hoàn thành câu (Hôm nay tôi không có nhiều thời gian rảnh.):",
       "question": "I don't have ___ free time today.",
       "options": [
         "much",
@@ -18,9 +33,65 @@
       "explanationVi": "'time' là danh từ không đếm được nên dùng 'much' trong câu phủ định."
     },
     {
-      "id": "ex-041-02",
+      "id": "ex-041-03",
+      "type": "multiple_choice",
+      "promptVi": "[Trắc nghiệm] Chọn từ/cụm từ đúng để hoàn thành câu (Cô ấy có rất nhiều bạn tốt.):",
+      "question": "She has a ___ of good friends.",
+      "options": [
+        "lot",
+        "many",
+        "much",
+        "few"
+      ],
+      "correctAnswer": "lot",
+      "explanationVi": "Cụm từ đúng là 'a lot of'."
+    },
+    {
+      "id": "ex-041-04",
+      "type": "multiple_choice",
+      "promptVi": "[Trắc nghiệm] Chọn từ/cụm từ đúng để hoàn thành câu (Không có nhiều xe hơi trên đường.):",
+      "question": "There aren't ___ cars on the road.",
+      "options": [
+        "many",
+        "much",
+        "lot",
+        "a"
+      ],
+      "correctAnswer": "many",
+      "explanationVi": "'cars' là danh từ số nhiều nên dùng 'many'."
+    },
+    {
+      "id": "ex-041-05",
+      "type": "multiple_choice",
+      "promptVi": "[Trắc nghiệm] Dịch câu sau sang tiếng Anh: \"Có bao nhiêu khách mời được mời đến bữa tiệc sinh nhật bất ngờ của Oliver vào thứ Bảy?\"",
+      "question": "Chọn bản dịch chuẩn xác cho câu: \"Có bao nhiêu khách mời được mời đến bữa tiệc sinh nhật bất ngờ của Oliver vào thứ Bảy?\"",
+      "options": [
+        "How many guests are invited to Oliver's surprise birthday party on Saturday?",
+        "How many guests be invited to Oliver's surprise birthday party on Saturday?",
+        "We invited a lot of people! There are over thirty close friends and relatives.",
+        "I want to go to the park now."
+      ],
+      "correctAnswer": "How many guests are invited to Oliver's surprise birthday party on Saturday?",
+      "explanationVi": "Câu đúng là \"How many guests are invited to Oliver's surprise birthday party on Saturday?\" (Có bao nhiêu khách mời được mời đến bữa tiệc sinh nhật bất ngờ của Oliver vào thứ Bảy?)."
+    },
+    {
+      "id": "ex-041-06",
+      "type": "multiple_choice",
+      "promptVi": "[Trắc nghiệm] Chọn câu trả lời hoặc cách diễn đạt phù hợp:",
+      "question": "Trong ngữ cảnh giao tiếp: \"How many guests are invited to Oliver's surprise birthday party on Saturday?\", câu phản hồi tự nhiên là gì?",
+      "options": [
+        "We invited a lot of people! There are over thirty close friends and relatives.",
+        "No, it is yesterday morning.",
+        "Yes, I will eat apple.",
+        "They are not at the library."
+      ],
+      "correctAnswer": "We invited a lot of people! There are over thirty close friends and relatives.",
+      "explanationVi": "Phản hồi phù hợp: \"We invited a lot of people! There are over thirty close friends and relatives.\" (Chúng ta đã mời rất nhiều người! Có hơn ba mươi bạn thân và người thân.)."
+    },
+    {
+      "id": "ex-041-07",
       "type": "fill_blank",
-      "promptVi": "Điền từ hoặc dạng đúng của động từ vào chỗ trống:",
+      "promptVi": "[Điền từ - (Dạng khẳng định)] Điền dạng đúng của động từ vào ô trống (Bạn đọc bao nhiêu cuốn sách mỗi tháng?):",
       "question": "How ___ books do you read each month?",
       "correctAnswer": "many",
       "options": [
@@ -29,90 +100,332 @@
         "any",
         "some"
       ],
-      "explanationVi": "'books' là danh từ đếm được số nhiều nên dùng 'How many'."
+      "explanationVi": "Đáp án chính xác: \"many\". Bạn đọc bao nhiêu cuốn sách mỗi tháng?."
     },
     {
-      "id": "ex-041-03",
-      "type": "sentence_scramble",
-      "promptVi": "Sắp xếp các khối từ sau thành câu hoàn chỉnh:",
-      "words": [
-        "friends.",
-        "good",
-        "of",
+      "id": "ex-041-08",
+      "type": "fill_blank",
+      "promptVi": "[Điền từ - (Dạng phủ định)] Điền dạng đúng của động từ vào ô trống (Hôm nay tôi không có nhiều thời gian rảnh.):",
+      "question": "I don't have ___ free time today.",
+      "correctAnswer": "much",
+      "options": [
+        "much",
+        "many",
+        "a lot",
+        "few"
+      ],
+      "explanationVi": "Đáp án chính xác: \"much\". Hôm nay tôi không có nhiều thời gian rảnh.."
+    },
+    {
+      "id": "ex-041-09",
+      "type": "fill_blank",
+      "promptVi": "[Điền từ - (Dạng khẳng định)] Điền dạng đúng của động từ vào ô trống (Cô ấy có rất nhiều bạn tốt.):",
+      "question": "She has a ___ of good friends.",
+      "correctAnswer": "lot",
+      "options": [
         "lot",
-        "a",
+        "many",
+        "much",
+        "few"
+      ],
+      "explanationVi": "Đáp án chính xác: \"lot\". Cô ấy có rất nhiều bạn tốt.."
+    },
+    {
+      "id": "ex-041-10",
+      "type": "fill_blank",
+      "promptVi": "[Điền từ - (Dạng phủ định)] Điền dạng đúng của động từ vào ô trống (Không có nhiều xe hơi trên đường.):",
+      "question": "There aren't ___ cars on the road.",
+      "correctAnswer": "many",
+      "options": [
+        "many",
+        "much",
+        "lot",
+        "a"
+      ],
+      "explanationVi": "Đáp án chính xác: \"many\". Không có nhiều xe hơi trên đường.."
+    },
+    {
+      "id": "ex-041-11",
+      "type": "fill_blank",
+      "promptVi": "[Điền từ - Dạng PHỦ ĐỊNH] Hoàn thành câu phủ định sau:",
+      "correctAnswer": "How many books do you read each month?",
+      "options": [
+        "How many books do you read each month?",
+        "How many books do you read each month?",
+        "Not How many books do you read each month?",
+        "How many books do you read each month? no"
+      ],
+      "explanationVi": "Dạng phủ định chuẩn: Thêm 'not' sau động từ chính."
+    },
+    {
+      "id": "ex-041-12",
+      "type": "sentence_scramble",
+      "promptVi": "[Sắp xếp câu] Xếp các khối từ thành câu hoàn chỉnh mang nghĩa: \"Bạn đọc bao nhiêu cuốn sách mỗi tháng?\"",
+      "words": [
+        "month?",
+        "many",
+        "How",
+        "you",
+        "books",
+        "do",
+        "read",
+        "each"
+      ],
+      "correctSentence": "How many books do you read each month?",
+      "hintVi": "Bạn đọc bao nhiêu cuốn sách mỗi tháng?",
+      "explanationVi": "Câu hoàn chỉnh: \"How many books do you read each month?\" (Bạn đọc bao nhiêu cuốn sách mỗi tháng?)."
+    },
+    {
+      "id": "ex-041-13",
+      "type": "sentence_scramble",
+      "promptVi": "[Sắp xếp câu] Xếp các khối từ thành câu hoàn chỉnh mang nghĩa: \"Hôm nay tôi không có nhiều thời gian rảnh.\"",
+      "words": [
+        "time",
+        "have",
+        "don't",
+        "I",
+        "free",
+        "much",
+        "today."
+      ],
+      "correctSentence": "I don't have much free time today.",
+      "hintVi": "Hôm nay tôi không có nhiều thời gian rảnh.",
+      "explanationVi": "Câu hoàn chỉnh: \"I don't have much free time today.\" (Hôm nay tôi không có nhiều thời gian rảnh.)."
+    },
+    {
+      "id": "ex-041-14",
+      "type": "sentence_scramble",
+      "promptVi": "[Sắp xếp câu] Xếp các khối từ thành câu hoàn chỉnh mang nghĩa: \"Cô ấy có rất nhiều bạn tốt.\"",
+      "words": [
+        "good",
+        "lot",
+        "She",
         "has",
-        "She"
+        "friends.",
+        "a",
+        "of"
       ],
       "correctSentence": "She has a lot of good friends.",
       "hintVi": "Cô ấy có rất nhiều bạn tốt.",
       "explanationVi": "Câu hoàn chỉnh: \"She has a lot of good friends.\" (Cô ấy có rất nhiều bạn tốt.)."
     },
     {
-      "id": "ex-041-04",
-      "type": "find_error",
-      "promptVi": "Chọn câu có cấu trúc ngữ pháp chuẩn xác nhất trong các câu sau:",
-      "question": "Dựa vào chủ điểm ngữ pháp \"Bài 41: Lượng từ — Many / Much / A lot of / Some / Any (Quantifiers)\", câu nào sau đây là hoàn toàn CHÍNH XÁC?",
-      "options": [
-        "There aren't many cars on the road.",
-        "There aren't many cars on the road. not",
-        "There aren't many cars with the road.",
-        "aren't many cars on the road. There"
+      "id": "ex-041-15",
+      "type": "sentence_scramble",
+      "promptVi": "[Sắp xếp câu] Xếp các khối từ thành câu hoàn chỉnh mang nghĩa: \"Không có nhiều xe hơi trên đường.\"",
+      "words": [
+        "road.",
+        "the",
+        "aren't",
+        "on",
+        "many",
+        "cars",
+        "There"
       ],
-      "correctAnswer": "There aren't many cars on the road.",
-      "explanationVi": "Cấu trúc chuẩn xác là: \"There aren't many cars on the road.\" (Không có nhiều xe hơi trên đường.)."
+      "correctSentence": "There aren't many cars on the road.",
+      "hintVi": "Không có nhiều xe hơi trên đường.",
+      "explanationVi": "Câu hoàn chỉnh: \"There aren't many cars on the road.\" (Không có nhiều xe hơi trên đường.)."
     },
     {
-      "id": "ex-041-05",
+      "id": "ex-041-16",
+      "type": "sentence_scramble",
+      "promptVi": "[Sắp xếp câu] Xếp các từ thành câu hội thoại: \"Chúng ta cần chuẩn bị bao nhiêu đồ ăn và thức uống cho ba mươi người?\"",
+      "words": [
+        "prepare",
+        "need",
+        "How",
+        "do",
+        "much",
+        "for",
+        "thirty",
+        "food",
+        "people",
+        "to",
+        "and",
+        "drink",
+        "we"
+      ],
+      "correctSentence": "How much food and drink do we need to prepare for thirty people?",
+      "hintVi": "Chúng ta cần chuẩn bị bao nhiêu đồ ăn và thức uống cho ba mươi người?",
+      "explanationVi": "Câu đúng: \"How much food and drink do we need to prepare for thirty people?\" (Chúng ta cần chuẩn bị bao nhiêu đồ ăn và thức uống cho ba mươi người?)."
+    },
+    {
+      "id": "ex-041-17",
+      "type": "find_error",
+      "promptVi": "[Tìm lỗi sai & Chọn câu đúng] Câu nào dưới đây có cấu trúc ngữ pháp HOÀN TOÀN ĐÚNG?",
+      "question": "Chủ điểm \"Bài 41: Lượng từ — Many / Much / A lot of / Some / Any (Quantifiers)\": Chọn câu CHÍNH XÁC:",
+      "options": [
+        "How many books do you read each month?",
+        "month? each read you do books many How",
+        "How many books do you read each month? (sai)",
+        "How many books do you read each month? (sai)"
+      ],
+      "correctAnswer": "How many books do you read each month?",
+      "explanationVi": "Câu chuẩn xác là: \"How many books do you read each month?\" (Bạn đọc bao nhiêu cuốn sách mỗi tháng?)."
+    },
+    {
+      "id": "ex-041-18",
+      "type": "find_error",
+      "promptVi": "[Tìm lỗi sai & Chọn câu đúng] Câu nào dưới đây có cấu trúc ngữ pháp HOÀN TOÀN ĐÚNG?",
+      "question": "Chủ điểm \"Bài 41: Lượng từ — Many / Much / A lot of / Some / Any (Quantifiers)\": Chọn câu CHÍNH XÁC:",
+      "options": [
+        "I don't have much free time today.",
+        "today. time free much have don't I",
+        "I don't have much free time today. (sai)",
+        "I don't have much free time today. (sai)"
+      ],
+      "correctAnswer": "I don't have much free time today.",
+      "explanationVi": "Câu chuẩn xác là: \"I don't have much free time today.\" (Hôm nay tôi không có nhiều thời gian rảnh.)."
+    },
+    {
+      "id": "ex-041-19",
+      "type": "find_error",
+      "promptVi": "[Tìm lỗi sai & Chọn câu đúng] Câu nào dưới đây có cấu trúc ngữ pháp HOÀN TOÀN ĐÚNG?",
+      "question": "Chủ điểm \"Bài 41: Lượng từ — Many / Much / A lot of / Some / Any (Quantifiers)\": Chọn câu CHÍNH XÁC:",
+      "options": [
+        "She has a lot of good friends.",
+        "friends. good of lot a has She",
+        "She has a lot of good friends. (sai)",
+        "She has a lot of good friends. (sai)"
+      ],
+      "correctAnswer": "She has a lot of good friends.",
+      "explanationVi": "Câu chuẩn xác là: \"She has a lot of good friends.\" (Cô ấy có rất nhiều bạn tốt.)."
+    },
+    {
+      "id": "ex-041-20",
+      "type": "find_error",
+      "promptVi": "[Tìm lỗi sai & Chọn câu đúng] Câu nào dưới đây có cấu trúc ngữ pháp HOÀN TOÀN ĐÚNG?",
+      "question": "Chủ điểm \"Bài 41: Lượng từ — Many / Much / A lot of / Some / Any (Quantifiers)\": Chọn câu CHÍNH XÁC:",
+      "options": [
+        "There aren't many cars on the road.",
+        "road. the on cars many aren't There",
+        "There aren't many cars on the road. (sai)",
+        "There aren't many cars on the road. (sai)"
+      ],
+      "correctAnswer": "There aren't many cars on the road.",
+      "explanationVi": "Câu chuẩn xác là: \"There aren't many cars on the road.\" (Không có nhiều xe hơi trên đường.)."
+    },
+    {
+      "id": "ex-041-21",
       "type": "listening_reflex",
-      "promptVi": "Nghe câu tiếng Anh và chọn bản dịch tiếng Việt chuẩn xác:",
+      "promptVi": "[Nghe phản xạ] Nghe câu phát âm tiếng Anh và chọn bản dịch tiếng Việt đúng nhất:",
       "audioPrompt": "How many guests are invited to Oliver's surprise birthday party on Saturday?",
-      "question": "Nghe câu phát âm tiếng Anh và chọn nghĩa đúng:",
+      "question": "Nhấn nút '🔊 Nghe audio' để nghe câu thoại và chọn nghĩa đúng:",
       "options": [
         "Có bao nhiêu khách mời được mời đến bữa tiệc sinh nhật bất ngờ của Oliver vào thứ Bảy?",
         "Chúng ta đã mời rất nhiều người! Có hơn ba mươi bạn thân và người thân.",
         "Chúng ta cần chuẩn bị bao nhiêu đồ ăn và thức uống cho ba mươi người?",
-        "Hôm nay chúng tôi đi mua sắm tại trung tâm thương mại."
+        "Ngày mai trời sẽ mưa to."
       ],
       "correctAnswer": "Có bao nhiêu khách mời được mời đến bữa tiệc sinh nhật bất ngờ của Oliver vào thứ Bảy?",
-      "explanationVi": "Câu nghe được: \"How many guests are invited to Oliver's surprise birthday party on Saturday?\" nghĩa là: \"Có bao nhiêu khách mời được mời đến bữa tiệc sinh nhật bất ngờ của Oliver vào thứ Bảy?\"."
+      "explanationVi": "Câu nghe được: \"How many guests are invited to Oliver's surprise birthday party on Saturday?\" có nghĩa là: \"Có bao nhiêu khách mời được mời đến bữa tiệc sinh nhật bất ngờ của Oliver vào thứ Bảy?\"."
     },
     {
-      "id": "ex-041-06",
+      "id": "ex-041-22",
+      "type": "listening_reflex",
+      "promptVi": "[Nghe phản xạ] Nghe câu phát âm tiếng Anh và chọn bản dịch tiếng Việt đúng nhất:",
+      "audioPrompt": "We invited a lot of people! There are over thirty close friends and relatives.",
+      "question": "Nhấn nút '🔊 Nghe audio' để nghe câu thoại và chọn nghĩa đúng:",
+      "options": [
+        "Chúng ta đã mời rất nhiều người! Có hơn ba mươi bạn thân và người thân.",
+        "Chúng ta cần chuẩn bị bao nhiêu đồ ăn và thức uống cho ba mươi người?",
+        "Chúng ta sẽ cần rất nhiều nước trái cây, một ít nước ngọt và nhiều bánh pizza nhỏ.",
+        "Ngày mai trời sẽ mưa to."
+      ],
+      "correctAnswer": "Chúng ta đã mời rất nhiều người! Có hơn ba mươi bạn thân và người thân.",
+      "explanationVi": "Câu nghe được: \"We invited a lot of people! There are over thirty close friends and relatives.\" có nghĩa là: \"Chúng ta đã mời rất nhiều người! Có hơn ba mươi bạn thân và người thân.\"."
+    },
+    {
+      "id": "ex-041-23",
+      "type": "listening_reflex",
+      "promptVi": "[Nghe phản xạ] Nghe câu phát âm tiếng Anh và chọn bản dịch tiếng Việt đúng nhất:",
+      "audioPrompt": "How much food and drink do we need to prepare for thirty people?",
+      "question": "Nhấn nút '🔊 Nghe audio' để nghe câu thoại và chọn nghĩa đúng:",
+      "options": [
+        "Chúng ta cần chuẩn bị bao nhiêu đồ ăn và thức uống cho ba mươi người?",
+        "Chúng ta sẽ cần rất nhiều nước trái cây, một ít nước ngọt và nhiều bánh pizza nhỏ.",
+        "Chúng ta có nhiều đá trong ngăn đông để giữ đồ uống lạnh không?",
+        "Ngày mai trời sẽ mưa to."
+      ],
+      "correctAnswer": "Chúng ta cần chuẩn bị bao nhiêu đồ ăn và thức uống cho ba mươi người?",
+      "explanationVi": "Câu nghe được: \"How much food and drink do we need to prepare for thirty people?\" có nghĩa là: \"Chúng ta cần chuẩn bị bao nhiêu đồ ăn và thức uống cho ba mươi người?\"."
+    },
+    {
+      "id": "ex-041-24",
+      "type": "listening_reflex",
+      "promptVi": "[Nghe phản xạ] Nghe câu phát âm tiếng Anh và chọn bản dịch tiếng Việt đúng nhất:",
+      "audioPrompt": "We will need a lot of fruit juice, some soft drinks, and many mini pizzas.",
+      "question": "Nhấn nút '🔊 Nghe audio' để nghe câu thoại và chọn nghĩa đúng:",
+      "options": [
+        "Chúng ta sẽ cần rất nhiều nước trái cây, một ít nước ngọt và nhiều bánh pizza nhỏ.",
+        "Chúng ta có nhiều đá trong ngăn đông để giữ đồ uống lạnh không?",
+        "Không, không còn nhiều đá, nhưng có rất nhiều cốc nhựa sạch.",
+        "Ngày mai trời sẽ mưa to."
+      ],
+      "correctAnswer": "Chúng ta sẽ cần rất nhiều nước trái cây, một ít nước ngọt và nhiều bánh pizza nhỏ.",
+      "explanationVi": "Câu nghe được: \"We will need a lot of fruit juice, some soft drinks, and many mini pizzas.\" có nghĩa là: \"Chúng ta sẽ cần rất nhiều nước trái cây, một ít nước ngọt và nhiều bánh pizza nhỏ.\"."
+    },
+    {
+      "id": "ex-041-25",
       "type": "speaking_practice",
-      "promptVi": "Luyện nói qua Micro: Hãy nhấn nút 'Nói ngay' và phát âm chuẩn xác câu sau:",
+      "promptVi": "[Luyện nói qua Micro] Nhấn nút '🎙️ Bắt đầu nói' và đọc to, rõ ràng câu tiếng Anh sau:",
       "targetSentence": "How many books do you read each month?",
       "hintVi": "Bạn đọc bao nhiêu cuốn sách mỗi tháng?",
-      "explanationVi": "Mẫu câu chuẩn: \"How many books do you read each month?\" (Bạn đọc bao nhiêu cuốn sách mỗi tháng?). Hãy phát âm rõ ràng từng từ và giữ ngữ điệu tự nhiên."
+      "explanationVi": "Câu mục tiêu: \"How many books do you read each month?\" (Bạn đọc bao nhiêu cuốn sách mỗi tháng?). Luyện phát âm chuẩn xác từng âm tiết và ngữ điệu tự nhiên."
     },
     {
-      "id": "ex-041-07",
+      "id": "ex-041-26",
+      "type": "speaking_practice",
+      "promptVi": "[Luyện nói qua Micro] Nhấn nút '🎙️ Bắt đầu nói' và đọc to, rõ ràng câu tiếng Anh sau:",
+      "targetSentence": "I don't have much free time today.",
+      "hintVi": "Hôm nay tôi không có nhiều thời gian rảnh.",
+      "explanationVi": "Câu mục tiêu: \"I don't have much free time today.\" (Hôm nay tôi không có nhiều thời gian rảnh.). Luyện phát âm chuẩn xác từng âm tiết và ngữ điệu tự nhiên."
+    },
+    {
+      "id": "ex-041-27",
+      "type": "speaking_practice",
+      "promptVi": "[Luyện nói qua Micro] Nhấn nút '🎙️ Bắt đầu nói' và đọc to, rõ ràng câu tiếng Anh sau:",
+      "targetSentence": "She has a lot of good friends.",
+      "hintVi": "Cô ấy có rất nhiều bạn tốt.",
+      "explanationVi": "Câu mục tiêu: \"She has a lot of good friends.\" (Cô ấy có rất nhiều bạn tốt.). Luyện phát âm chuẩn xác từng âm tiết và ngữ điệu tự nhiên."
+    },
+    {
+      "id": "ex-041-28",
+      "type": "speaking_practice",
+      "promptVi": "[Luyện nói qua Micro] Nhấn nút '🎙️ Bắt đầu nói' và đọc to, rõ ràng câu tiếng Anh sau:",
+      "targetSentence": "There aren't many cars on the road.",
+      "hintVi": "Không có nhiều xe hơi trên đường.",
+      "explanationVi": "Câu mục tiêu: \"There aren't many cars on the road.\" (Không có nhiều xe hơi trên đường.). Luyện phát âm chuẩn xác từng âm tiết và ngữ điệu tự nhiên."
+    },
+    {
+      "id": "ex-041-29",
       "type": "reading_comprehension",
-      "promptVi": "Đọc đoạn hội thoại ngắn sau và trả lời câu hỏi đọc hiểu:",
-      "passage": "Lucas: \"How many guests are invited to Oliver's surprise birthday party on Saturday?\"\nChloe: \"We invited a lot of people! There are over thirty close friends and relatives.\"\nLucas: \"How much food and drink do we need to prepare for thirty people?\"\nChloe: \"We will need a lot of fruit juice, some soft drinks, and many mini pizzas.\"",
-      "question": "Dựa vào ngữ cảnh đoạn hội thoại trên, Lucas và Chloe đang trao đổi về nội dung trọng tâm nào?",
+      "promptVi": "[Đọc hiểu đoạn văn 1] Đọc đoạn hội thoại mở đầu sau và trả lời câu hỏi:",
+      "passage": "Lucas (Nam): \"How many guests are invited to Oliver's surprise birthday party on Saturday?\"\nChloe (Nữ): \"We invited a lot of people! There are over thirty close friends and relatives.\"\nLucas (Nam): \"How much food and drink do we need to prepare for thirty people?\"\nChloe (Nữ): \"We will need a lot of fruit juice, some soft drinks, and many mini pizzas.\"",
+      "question": "Câu hỏi: Trong đoạn hội thoại trên, các nhân vật đang thảo luận về chủ đề gì?",
       "options": [
         "Lượng từ — Many / Much / A lot of / Some / Any (Quantifiers)",
-        "Kế hoạch mua sắm và nấu ăn cho bữa tối gia đình",
-        "Lịch trình đi du lịch nghỉ dưỡng mùa hè",
-        "Dự báo thời tiết và nhiệt độ ngày mai"
+        "Kế hoạch đi nghỉ dưỡng cuối tuần ở bãi biển",
+        "Mua sắm quần áo và đồ dùng thể thao",
+        "Cách làm món ăn truyền thống gia đình"
       ],
       "correctAnswer": "Lượng từ — Many / Much / A lot of / Some / Any (Quantifiers)",
-      "explanationVi": "Đoạn hội thoại mở đầu được thiết kế để minh họa và ứng dụng trực tiếp chủ điểm: \"Bài 41: Lượng từ — Many / Much / A lot of / Some / Any (Quantifiers)\"."
+      "explanationVi": "Đoạn hội thoại mở đầu được thiết kế để minh họa trực tiếp cho chủ điểm ngữ pháp: \"Bài 41: Lượng từ — Many / Much / A lot of / Some / Any (Quantifiers)\"."
     },
     {
-      "id": "ex-041-08",
-      "type": "multiple_choice",
-      "promptVi": "Phản xạ dịch & Ngữ pháp: Chọn câu tiếng Anh diễn đạt đúng nghĩa:",
-      "question": "Dịch câu sang tiếng Anh: \"Cô ấy có rất nhiều bạn tốt.\"",
+      "id": "ex-041-30",
+      "type": "reading_comprehension",
+      "promptVi": "[Đọc hiểu đoạn văn 2] Đọc phần tiếp theo của đoạn hội thoại và chọn nhận định đúng:",
+      "passage": "Lucas (Nam): \"Do we have much ice in the freezer to keep the drinks chilled?\"\nChloe (Nữ): \"No, there isn't much ice left, but there are a lot of clean plastic cups.\"\nLucas (Nam): \"Are there many balloons and decorations in the party storage box?\"\nChloe (Nữ): \"Yes, there are lots of colorful balloons and some bright LED string lights.\"",
+      "question": "Nhận định nào sau đây là ĐÚNG với nội dung đoạn hội thoại trên?",
       "options": [
-        "She has a lot of good friends.",
-        "She is a lot of good friends.",
-        "I don't have much free time today.",
-        "Incorrect grammatical form 3"
+        "Các câu hội thoại sử dụng đúng cấu trúc ngữ pháp \"Bài 41: Lượng từ — Many / Much / A lot of / Some / Any (Quantifiers)\".",
+        "Các nhân vật không hiểu ý nhau và từ chối nói chuyện.",
+        "Đoạn hội thoại nói về việc chuyển nhà sang thành phố khác.",
+        "Cả hai nhân vật đều đang ở sân bay chuẩn bị lên máy bay."
       ],
-      "correctAnswer": "She has a lot of good friends.",
-      "explanationVi": "Bản dịch chuẩn xác và đúng ngữ pháp là: \"She has a lot of good friends.\" (Cô ấy có rất nhiều bạn tốt.)."
+      "correctAnswer": "Các câu hội thoại sử dụng đúng cấu trúc ngữ pháp \"Bài 41: Lượng từ — Many / Much / A lot of / Some / Any (Quantifiers)\".",
+      "explanationVi": "Đoạn hội thoại thứ hai tiếp tục củng cố và ứng dụng các quy tắc ngữ pháp của \"Bài 41: Lượng từ — Many / Much / A lot of / Some / Any (Quantifiers)\"."
     }
   ]
 }

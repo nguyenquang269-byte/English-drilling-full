@@ -288,9 +288,17 @@ const LESSON_LIST = [
 function getCompletedLessons() {
   try {
     const raw = localStorage.getItem(STORAGE_KEY_COMPLETED);
-    return raw ? JSON.parse(raw) : [];
+    let list = raw ? JSON.parse(raw) : ["lesson-001.json"];
+    if (!list || !Array.isArray(list) || list.length === 0) {
+      list = ["lesson-001.json"];
+      saveCompletedLessons(list);
+    } else if (!list.includes("lesson-001.json")) {
+      list.unshift("lesson-001.json");
+      saveCompletedLessons(list);
+    }
+    return list;
   } catch (e) {
-    return [];
+    return ["lesson-001.json"];
   }
 }
 
@@ -310,7 +318,9 @@ function markLessonCompleted(fileName, state = true) {
   if (state && !list.includes(fileName)) {
     list.push(fileName);
   } else if (!state && list.includes(fileName)) {
-    list = list.filter(f => f !== fileName);
+    if (fileName !== "lesson-001.json") {
+      list = list.filter(f => f !== fileName);
+    }
   }
   saveCompletedLessons(list);
   updateOverallProgressUI();
@@ -430,57 +440,17 @@ function getVoiceForGender(gender) {
   }
 }
 
-let currentPlayingAudio = null;
-let activeSpeechUtterance = null;
+let dialogueCurrentIdx = 0;
+let dialogueSafetyTimer = null;
 
-function playAudioStream(text, lang = "en", gender = "male", callback, isPartOfSequence = false) {
-  if (!isPartOfSequence) {
-    stopAllAudio();
-  }
-
-  setAudioBadge(true);
-
+function speakSingle(text, lang = "en-US", gender = "male", callback) {
+  stopAllAudio();
   const cleanText = text.replace(/<[^>]*>/g, '').trim();
   if (!cleanText) {
-    setAudioBadge(false);
     if (callback) callback();
     return;
   }
 
-  let isFinished = false;
-  const onDone = () => {
-    if (isFinished) return;
-    isFinished = true;
-    currentPlayingAudio = null;
-    setAudioBadge(false);
-    if (callback) callback();
-  };
-
-  // 1. Try Google Studio TTS audio stream (HTML5 Audio object - 100% reliable continuous sequence)
-  const ttsLang = lang.startsWith("vi") ? "vi" : "en";
-  const ttsUrl = `https://translate.google.com/translate_tts?ie=UTF-8&tl=${ttsLang}&client=tw-ob&q=${encodeURIComponent(cleanText)}`;
-  
-  const audio = new Audio();
-  currentPlayingAudio = audio;
-  audio.playbackRate = currentSpeechRate || 1.0;
-  audio.src = ttsUrl;
-
-  audio.onended = onDone;
-  audio.onerror = () => {
-    // 2. Fallback to Web Speech Synthesis if audio stream network blocked
-    speakWithWebSpeech(cleanText, lang, gender, onDone);
-  };
-
-  const playPromise = audio.play();
-  if (playPromise !== undefined) {
-    playPromise.catch((err) => {
-      console.warn("Audio stream playback failed, falling back to Web Speech:", err);
-      speakWithWebSpeech(cleanText, lang, gender, onDone);
-    });
-  }
-}
-
-function speakWithWebSpeech(text, lang = "en-US", gender = "male", callback) {
   if (!("speechSynthesis" in window)) {
     if (callback) callback();
     return;
@@ -491,47 +461,53 @@ function speakWithWebSpeech(text, lang = "en-US", gender = "male", callback) {
     window.speechSynthesis.resume();
   } catch (e) {}
 
-  const u = new SpeechSynthesisUtterance(text);
-  activeSpeechUtterance = u;
+  const u = new SpeechSynthesisUtterance(cleanText);
+  window.__currentUtterance = u;
   u.lang = lang.startsWith("vi") ? "vi-VN" : "en-US";
   u.rate = currentSpeechRate || 1.0;
   u.pitch = (gender === "female") ? 1.25 : 0.95;
 
-  let ended = false;
+  if (lang.startsWith("en")) {
+    const voice = getVoiceForGender(gender);
+    if (voice) u.voice = voice;
+  } else if (lang.startsWith("vi")) {
+    const voices = getAvailableVoices();
+    const viVoice = voices.find(v => v.lang && (v.lang.includes("vi") || v.lang.includes("VI")));
+    if (viVoice) u.voice = viVoice;
+  }
+
+  let done = false;
   const finish = () => {
-    if (ended) return;
-    ended = true;
-    activeSpeechUtterance = null;
+    if (done) return;
+    done = true;
+    setAudioBadge(false);
     if (callback) callback();
   };
 
   u.onend = finish;
   u.onerror = finish;
 
-  setTimeout(() => {
-    try {
-      window.speechSynthesis.speak(u);
-    } catch (e) {
-      finish();
-    }
-  }, 20);
+  setAudioBadge(true);
+  try {
+    window.speechSynthesis.speak(u);
+  } catch (e) {
+    finish();
+  }
 }
 
 function speakVi(text, callback) {
-  playAudioStream(text, "vi", "female", callback, false);
+  speakSingle(text, "vi-VN", "female", callback);
 }
 
 function speakEn(text, gender = "male", callback) {
-  playAudioStream(text, "en", gender, callback, false);
+  speakSingle(text, "en-US", gender, callback);
 }
 
 function stopAllAudio() {
-  if (currentPlayingAudio) {
-    try {
-      currentPlayingAudio.pause();
-      currentPlayingAudio.currentTime = 0;
-    } catch (e) {}
-    currentPlayingAudio = null;
+  isDialoguePlaying = false;
+  if (dialogueSafetyTimer) {
+    clearTimeout(dialogueSafetyTimer);
+    dialogueSafetyTimer = null;
   }
   if ("speechSynthesis" in window) {
     try {
@@ -539,8 +515,6 @@ function stopAllAudio() {
     } catch (e) {}
   }
   setAudioBadge(false);
-  activeSpeechUtterance = null;
-  isDialoguePlaying = false;
   if (el.btnPlayFullDialogue) el.btnPlayFullDialogue.textContent = "▶ Nghe toàn bộ hội thoại";
   document.querySelectorAll(".dialogue-item").forEach(d => d.classList.remove("playing"));
 }
@@ -961,32 +935,79 @@ function playFullDialogue() {
     return;
   }
 
+  stopAllAudio();
   isDialoguePlaying = true;
-  dialoguePlaybackIndex = 0;
+  dialogueCurrentIdx = 0;
   if (el.btnPlayFullDialogue) el.btnPlayFullDialogue.textContent = "⏹ Dừng phát hội thoại";
 
-  function playNextLine() {
-    if (!isDialoguePlaying || dialoguePlaybackIndex >= lines.length) {
+  function playStep(idx) {
+    if (!isDialoguePlaying || idx >= lines.length) {
       stopAllAudio();
       return;
     }
 
+    dialogueCurrentIdx = idx;
+
+    // Highlight active card
     document.querySelectorAll(".dialogue-item").forEach(d => d.classList.remove("playing"));
-    const currentCard = document.getElementById(`dialogue-line-${dialoguePlaybackIndex}`);
-    if (currentCard) {
-      currentCard.classList.add("playing");
-      currentCard.scrollIntoView({ behavior: "smooth", block: "nearest" });
+    const card = document.getElementById(`dialogue-line-${idx}`);
+    if (card) {
+      card.classList.add("playing");
+      card.scrollIntoView({ behavior: "smooth", block: "nearest" });
     }
 
-    const currentLine = lines[dialoguePlaybackIndex];
-    playAudioStream(currentLine.en, "en", currentLine.gender, () => {
+    const currentLine = lines[idx];
+    const cleanText = (currentLine.en || '').replace(/<[^>]*>/g, '').trim();
+
+    if (!("speechSynthesis" in window) || !cleanText) {
+      if (isDialoguePlaying) setTimeout(() => playStep(idx + 1), 400);
+      return;
+    }
+
+    try { window.speechSynthesis.resume(); } catch (e) {}
+
+    const u = new SpeechSynthesisUtterance(cleanText);
+    window.__currentUtterance = u;
+    u.lang = "en-US";
+    u.rate = currentSpeechRate || 1.0;
+    u.pitch = (currentLine.gender === "female") ? 1.25 : 0.95;
+
+    const voice = getVoiceForGender(currentLine.gender);
+    if (voice) u.voice = voice;
+
+    let stepFinished = false;
+    const nextStep = () => {
+      if (stepFinished) return;
+      stepFinished = true;
+      if (dialogueSafetyTimer) {
+        clearTimeout(dialogueSafetyTimer);
+        dialogueSafetyTimer = null;
+      }
       if (!isDialoguePlaying) return;
-      dialoguePlaybackIndex++;
-      setTimeout(playNextLine, 350);
-    }, true);
+      setTimeout(() => playStep(idx + 1), 300);
+    };
+
+    u.onend = nextStep;
+    u.onerror = nextStep;
+
+    const wordCount = cleanText.split(/\s+/).length;
+    const maxWait = Math.max(3000, (wordCount / 2) * 1000 + 2000);
+    dialogueSafetyTimer = setTimeout(() => {
+      if (!stepFinished) {
+        console.warn("Dialogue watchdog moving to next sentence");
+        nextStep();
+      }
+    }, maxWait);
+
+    setAudioBadge(true);
+    try {
+      window.speechSynthesis.speak(u);
+    } catch (e) {
+      nextStep();
+    }
   }
 
-  playNextLine();
+  playStep(0);
 }
 
 function getTargetData() {

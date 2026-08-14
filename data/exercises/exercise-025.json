@@ -2,11 +2,26 @@
   "lessonId": "lesson-025",
   "lessonNumber": 25,
   "title": "Bài tập Ôn luyện: Bài 25: Hiện tại Hoàn thành — Cơ bản (Have / Has + V3/ed)",
+  "totalQuestions": 30,
   "questions": [
     {
       "id": "ex-025-01",
       "type": "multiple_choice",
-      "promptVi": "Chọn đáp án đúng nhất hoàn thành câu:",
+      "promptVi": "[Trắc nghiệm] Chọn từ/cụm từ đúng để hoàn thành câu (Tôi đã từng đến thăm Đà Nẵng hai lần.):",
+      "question": "I ___ visited Da Nang twice.",
+      "options": [
+        "have",
+        "has",
+        "had",
+        "am"
+      ],
+      "correctAnswer": "have",
+      "explanationVi": "Chủ ngữ 'I' đi với 'have' trong thì Hiện tại Hoàn thành."
+    },
+    {
+      "id": "ex-025-02",
+      "type": "multiple_choice",
+      "promptVi": "[Trắc nghiệm] Chọn từ/cụm từ đúng để hoàn thành câu (Anh ấy đã làm việc ở đây được ba năm.):",
       "question": "He ___ worked here for three years.",
       "options": [
         "has",
@@ -18,9 +33,65 @@
       "explanationVi": "Ngôi thứ 3 số ít 'He' đi với 'has'."
     },
     {
-      "id": "ex-025-02",
+      "id": "ex-025-03",
+      "type": "multiple_choice",
+      "promptVi": "[Trắc nghiệm] Chọn từ/cụm từ đúng để hoàn thành câu (Chúng tôi vừa mới hoàn thành dự án của mình.):",
+      "question": "We have just ___ our project.",
+      "options": [
+        "finished",
+        "finish",
+        "finishes",
+        "finishing"
+      ],
+      "correctAnswer": "finished",
+      "explanationVi": "Sau 'have' dùng phân từ 2 'finished'."
+    },
+    {
+      "id": "ex-025-04",
+      "type": "multiple_choice",
+      "promptVi": "[Trắc nghiệm] Chọn từ/cụm từ đúng để hoàn thành câu (Cô ấy đã xem bộ phim đó rồi.):",
+      "question": "She has ___ that movie already.",
+      "options": [
+        "seen",
+        "saw",
+        "see",
+        "sees"
+      ],
+      "correctAnswer": "seen",
+      "explanationVi": "'seen' là quá khứ phân từ (V3) của 'see'."
+    },
+    {
+      "id": "ex-025-05",
+      "type": "multiple_choice",
+      "promptVi": "[Trắc nghiệm] Dịch câu sau sang tiếng Anh: \"Bạn đã từng đến thăm thành phố Đà Nẵng bao giờ chưa, Olivia?\"",
+      "question": "Chọn bản dịch chuẩn xác cho câu: \"Bạn đã từng đến thăm thành phố Đà Nẵng bao giờ chưa, Olivia?\"",
+      "options": [
+        "Have you ever visited Da Nang city, Olivia?",
+        "be you ever visited Da Nang city, Olivia?",
+        "Yes, I have visited Da Nang twice. I have seen the famous Dragon Bridge.",
+        "I want to go to the park now."
+      ],
+      "correctAnswer": "Have you ever visited Da Nang city, Olivia?",
+      "explanationVi": "Câu đúng là \"Have you ever visited Da Nang city, Olivia?\" (Bạn đã từng đến thăm thành phố Đà Nẵng bao giờ chưa, Olivia?)."
+    },
+    {
+      "id": "ex-025-06",
+      "type": "multiple_choice",
+      "promptVi": "[Trắc nghiệm] Chọn câu trả lời hoặc cách diễn đạt phù hợp:",
+      "question": "Trong ngữ cảnh giao tiếp: \"Have you ever visited Da Nang city, Olivia?\", câu phản hồi tự nhiên là gì?",
+      "options": [
+        "Yes, I have visited Da Nang twice. I have seen the famous Dragon Bridge.",
+        "No, it is yesterday morning.",
+        "Yes, I will eat apple.",
+        "They are not at the library."
+      ],
+      "correctAnswer": "Yes, I have visited Da Nang twice. I have seen the famous Dragon Bridge.",
+      "explanationVi": "Phản hồi phù hợp: \"Yes, I have visited Da Nang twice. I have seen the famous Dragon Bridge.\" (Có, tôi đã đến thăm Đà Nẵng hai lần rồi. Tôi đã tận mắt chiêm ngưỡng Cầu Rồng nổi tiếng.)."
+    },
+    {
+      "id": "ex-025-07",
       "type": "fill_blank",
-      "promptVi": "Điền từ hoặc dạng đúng của động từ vào chỗ trống:",
+      "promptVi": "[Điền từ - (Dạng khẳng định)] Điền dạng đúng của động từ vào ô trống (Tôi đã từng đến thăm Đà Nẵng hai lần.):",
       "question": "I ___ visited Da Nang twice.",
       "correctAnswer": "have",
       "options": [
@@ -29,18 +100,106 @@
         "had",
         "am"
       ],
-      "explanationVi": "Chủ ngữ 'I' đi với 'have' trong thì Hiện tại Hoàn thành."
+      "explanationVi": "Đáp án chính xác: \"have\". Tôi đã từng đến thăm Đà Nẵng hai lần.."
     },
     {
-      "id": "ex-025-03",
-      "type": "sentence_scramble",
-      "promptVi": "Sắp xếp các khối từ sau thành câu hoàn chỉnh:",
-      "words": [
-        "project.",
-        "our",
-        "finished",
-        "just",
+      "id": "ex-025-08",
+      "type": "fill_blank",
+      "promptVi": "[Điền từ - (Dạng khẳng định)] Điền dạng đúng của động từ vào ô trống (Anh ấy đã làm việc ở đây được ba năm.):",
+      "question": "He ___ worked here for three years.",
+      "correctAnswer": "has",
+      "options": [
+        "has",
         "have",
+        "is",
+        "was"
+      ],
+      "explanationVi": "Đáp án chính xác: \"has\". Anh ấy đã làm việc ở đây được ba năm.."
+    },
+    {
+      "id": "ex-025-09",
+      "type": "fill_blank",
+      "promptVi": "[Điền từ - (Dạng khẳng định)] Điền dạng đúng của động từ vào ô trống (Chúng tôi vừa mới hoàn thành dự án của mình.):",
+      "question": "We have just ___ our project.",
+      "correctAnswer": "finished",
+      "options": [
+        "finished",
+        "finish",
+        "finishes",
+        "finishing"
+      ],
+      "explanationVi": "Đáp án chính xác: \"finished\". Chúng tôi vừa mới hoàn thành dự án của mình.."
+    },
+    {
+      "id": "ex-025-10",
+      "type": "fill_blank",
+      "promptVi": "[Điền từ - (Dạng khẳng định)] Điền dạng đúng của động từ vào ô trống (Cô ấy đã xem bộ phim đó rồi.):",
+      "question": "She has ___ that movie already.",
+      "correctAnswer": "seen",
+      "options": [
+        "seen",
+        "saw",
+        "see",
+        "sees"
+      ],
+      "explanationVi": "Đáp án chính xác: \"seen\". Cô ấy đã xem bộ phim đó rồi.."
+    },
+    {
+      "id": "ex-025-11",
+      "type": "fill_blank",
+      "promptVi": "[Điền từ - Dạng PHỦ ĐỊNH] Hoàn thành câu phủ định sau:",
+      "correctAnswer": "I have visited Da Nang twice.",
+      "options": [
+        "I have visited Da Nang twice.",
+        "I have visited Da Nang twice.",
+        "Not I have visited Da Nang twice.",
+        "I have visited Da Nang twice. no"
+      ],
+      "explanationVi": "Dạng phủ định chuẩn: Thêm 'not' sau động từ chính."
+    },
+    {
+      "id": "ex-025-12",
+      "type": "sentence_scramble",
+      "promptVi": "[Sắp xếp câu] Xếp các khối từ thành câu hoàn chỉnh mang nghĩa: \"Tôi đã từng đến thăm Đà Nẵng hai lần.\"",
+      "words": [
+        "Nang",
+        "visited",
+        "Da",
+        "I",
+        "have",
+        "twice."
+      ],
+      "correctSentence": "I have visited Da Nang twice.",
+      "hintVi": "Tôi đã từng đến thăm Đà Nẵng hai lần.",
+      "explanationVi": "Câu hoàn chỉnh: \"I have visited Da Nang twice.\" (Tôi đã từng đến thăm Đà Nẵng hai lần.)."
+    },
+    {
+      "id": "ex-025-13",
+      "type": "sentence_scramble",
+      "promptVi": "[Sắp xếp câu] Xếp các khối từ thành câu hoàn chỉnh mang nghĩa: \"Anh ấy đã làm việc ở đây được ba năm.\"",
+      "words": [
+        "three",
+        "years.",
+        "He",
+        "has",
+        "here",
+        "worked",
+        "for"
+      ],
+      "correctSentence": "He has worked here for three years.",
+      "hintVi": "Anh ấy đã làm việc ở đây được ba năm.",
+      "explanationVi": "Câu hoàn chỉnh: \"He has worked here for three years.\" (Anh ấy đã làm việc ở đây được ba năm.)."
+    },
+    {
+      "id": "ex-025-14",
+      "type": "sentence_scramble",
+      "promptVi": "[Sắp xếp câu] Xếp các khối từ thành câu hoàn chỉnh mang nghĩa: \"Chúng tôi vừa mới hoàn thành dự án của mình.\"",
+      "words": [
+        "have",
+        "just",
+        "our",
+        "project.",
+        "finished",
         "We"
       ],
       "correctSentence": "We have just finished our project.",
@@ -48,70 +207,219 @@
       "explanationVi": "Câu hoàn chỉnh: \"We have just finished our project.\" (Chúng tôi vừa mới hoàn thành dự án của mình.)."
     },
     {
-      "id": "ex-025-04",
-      "type": "find_error",
-      "promptVi": "Chọn câu có cấu trúc ngữ pháp chuẩn xác nhất trong các câu sau:",
-      "question": "Dựa vào chủ điểm ngữ pháp \"Bài 25: Hiện tại Hoàn thành — Cơ bản (Have / Has + V3/ed)\", câu nào sau đây là hoàn toàn CHÍNH XÁC?",
-      "options": [
-        "She has seen that movie already.",
-        "She be seen that movie already.",
-        "Is She has seen that movie already.",
-        "has seen that movie already. She"
+      "id": "ex-025-15",
+      "type": "sentence_scramble",
+      "promptVi": "[Sắp xếp câu] Xếp các khối từ thành câu hoàn chỉnh mang nghĩa: \"Cô ấy đã xem bộ phim đó rồi.\"",
+      "words": [
+        "already.",
+        "movie",
+        "seen",
+        "She",
+        "has",
+        "that"
       ],
-      "correctAnswer": "She has seen that movie already.",
-      "explanationVi": "Cấu trúc chuẩn xác là: \"She has seen that movie already.\" (Cô ấy đã xem bộ phim đó rồi.)."
+      "correctSentence": "She has seen that movie already.",
+      "hintVi": "Cô ấy đã xem bộ phim đó rồi.",
+      "explanationVi": "Câu hoàn chỉnh: \"She has seen that movie already.\" (Cô ấy đã xem bộ phim đó rồi.)."
     },
     {
-      "id": "ex-025-05",
+      "id": "ex-025-16",
+      "type": "sentence_scramble",
+      "promptVi": "[Sắp xếp câu] Xếp các từ thành câu hội thoại: \"Tuyệt quá! Anh trai tôi cũng đã từng du lịch đến đó vài lần.\"",
+      "words": [
+        "times",
+        "traveled",
+        "also",
+        "has",
+        "brother",
+        "My",
+        "there",
+        "awesome",
+        "is",
+        "That",
+        "several"
+      ],
+      "correctSentence": "That is awesome! My brother has also traveled there several times.",
+      "hintVi": "Tuyệt quá! Anh trai tôi cũng đã từng du lịch đến đó vài lần.",
+      "explanationVi": "Câu đúng: \"That is awesome! My brother has also traveled there several times.\" (Tuyệt quá! Anh trai tôi cũng đã từng du lịch đến đó vài lần.)."
+    },
+    {
+      "id": "ex-025-17",
+      "type": "find_error",
+      "promptVi": "[Tìm lỗi sai & Chọn câu đúng] Câu nào dưới đây có cấu trúc ngữ pháp HOÀN TOÀN ĐÚNG?",
+      "question": "Chủ điểm \"Bài 25: Hiện tại Hoàn thành — Cơ bản (Have / Has + V3/ed)\": Chọn câu CHÍNH XÁC:",
+      "options": [
+        "I have visited Da Nang twice.",
+        "twice. Nang Da visited have I",
+        "I have visited Da Nang twice. (sai)",
+        "I have visited Da Nang twice. (sai)"
+      ],
+      "correctAnswer": "I have visited Da Nang twice.",
+      "explanationVi": "Câu chuẩn xác là: \"I have visited Da Nang twice.\" (Tôi đã từng đến thăm Đà Nẵng hai lần.)."
+    },
+    {
+      "id": "ex-025-18",
+      "type": "find_error",
+      "promptVi": "[Tìm lỗi sai & Chọn câu đúng] Câu nào dưới đây có cấu trúc ngữ pháp HOÀN TOÀN ĐÚNG?",
+      "question": "Chủ điểm \"Bài 25: Hiện tại Hoàn thành — Cơ bản (Have / Has + V3/ed)\": Chọn câu CHÍNH XÁC:",
+      "options": [
+        "He has worked here for three years.",
+        "years. three for here worked has He",
+        "He has worked here for three years. (sai)",
+        "He has worked here for three years. (sai)"
+      ],
+      "correctAnswer": "He has worked here for three years.",
+      "explanationVi": "Câu chuẩn xác là: \"He has worked here for three years.\" (Anh ấy đã làm việc ở đây được ba năm.)."
+    },
+    {
+      "id": "ex-025-19",
+      "type": "find_error",
+      "promptVi": "[Tìm lỗi sai & Chọn câu đúng] Câu nào dưới đây có cấu trúc ngữ pháp HOÀN TOÀN ĐÚNG?",
+      "question": "Chủ điểm \"Bài 25: Hiện tại Hoàn thành — Cơ bản (Have / Has + V3/ed)\": Chọn câu CHÍNH XÁC:",
+      "options": [
+        "We have just finished our project.",
+        "project. our finished just have We",
+        "We have just finished our project. (sai)",
+        "We have just finished our project. (sai)"
+      ],
+      "correctAnswer": "We have just finished our project.",
+      "explanationVi": "Câu chuẩn xác là: \"We have just finished our project.\" (Chúng tôi vừa mới hoàn thành dự án của mình.)."
+    },
+    {
+      "id": "ex-025-20",
+      "type": "find_error",
+      "promptVi": "[Tìm lỗi sai & Chọn câu đúng] Câu nào dưới đây có cấu trúc ngữ pháp HOÀN TOÀN ĐÚNG?",
+      "question": "Chủ điểm \"Bài 25: Hiện tại Hoàn thành — Cơ bản (Have / Has + V3/ed)\": Chọn câu CHÍNH XÁC:",
+      "options": [
+        "She has seen that movie already.",
+        "already. movie that seen has She",
+        "She has seen that movie already. (sai)",
+        "She has seen that movie already. (sai)"
+      ],
+      "correctAnswer": "She has seen that movie already.",
+      "explanationVi": "Câu chuẩn xác là: \"She has seen that movie already.\" (Cô ấy đã xem bộ phim đó rồi.)."
+    },
+    {
+      "id": "ex-025-21",
       "type": "listening_reflex",
-      "promptVi": "Nghe câu tiếng Anh và chọn bản dịch tiếng Việt chuẩn xác:",
+      "promptVi": "[Nghe phản xạ] Nghe câu phát âm tiếng Anh và chọn bản dịch tiếng Việt đúng nhất:",
       "audioPrompt": "Have you ever visited Da Nang city, Olivia?",
-      "question": "Nghe câu phát âm tiếng Anh và chọn nghĩa đúng:",
+      "question": "Nhấn nút '🔊 Nghe audio' để nghe câu thoại và chọn nghĩa đúng:",
       "options": [
         "Bạn đã từng đến thăm thành phố Đà Nẵng bao giờ chưa, Olivia?",
         "Có, tôi đã đến thăm Đà Nẵng hai lần rồi. Tôi đã tận mắt chiêm ngưỡng Cầu Rồng nổi tiếng.",
         "Tuyệt quá! Anh trai tôi cũng đã từng du lịch đến đó vài lần.",
-        "Hôm nay chúng tôi đi mua sắm tại trung tâm thương mại."
+        "Ngày mai trời sẽ mưa to."
       ],
       "correctAnswer": "Bạn đã từng đến thăm thành phố Đà Nẵng bao giờ chưa, Olivia?",
-      "explanationVi": "Câu nghe được: \"Have you ever visited Da Nang city, Olivia?\" nghĩa là: \"Bạn đã từng đến thăm thành phố Đà Nẵng bao giờ chưa, Olivia?\"."
+      "explanationVi": "Câu nghe được: \"Have you ever visited Da Nang city, Olivia?\" có nghĩa là: \"Bạn đã từng đến thăm thành phố Đà Nẵng bao giờ chưa, Olivia?\"."
     },
     {
-      "id": "ex-025-06",
+      "id": "ex-025-22",
+      "type": "listening_reflex",
+      "promptVi": "[Nghe phản xạ] Nghe câu phát âm tiếng Anh và chọn bản dịch tiếng Việt đúng nhất:",
+      "audioPrompt": "Yes, I have visited Da Nang twice. I have seen the famous Dragon Bridge.",
+      "question": "Nhấn nút '🔊 Nghe audio' để nghe câu thoại và chọn nghĩa đúng:",
+      "options": [
+        "Có, tôi đã đến thăm Đà Nẵng hai lần rồi. Tôi đã tận mắt chiêm ngưỡng Cầu Rồng nổi tiếng.",
+        "Tuyệt quá! Anh trai tôi cũng đã từng du lịch đến đó vài lần.",
+        "Anh ấy đã sống ở Việt Nam được ba năm rồi đúng không?",
+        "Ngày mai trời sẽ mưa to."
+      ],
+      "correctAnswer": "Có, tôi đã đến thăm Đà Nẵng hai lần rồi. Tôi đã tận mắt chiêm ngưỡng Cầu Rồng nổi tiếng.",
+      "explanationVi": "Câu nghe được: \"Yes, I have visited Da Nang twice. I have seen the famous Dragon Bridge.\" có nghĩa là: \"Có, tôi đã đến thăm Đà Nẵng hai lần rồi. Tôi đã tận mắt chiêm ngưỡng Cầu Rồng nổi tiếng.\"."
+    },
+    {
+      "id": "ex-025-23",
+      "type": "listening_reflex",
+      "promptVi": "[Nghe phản xạ] Nghe câu phát âm tiếng Anh và chọn bản dịch tiếng Việt đúng nhất:",
+      "audioPrompt": "That is awesome! My brother has also traveled there several times.",
+      "question": "Nhấn nút '🔊 Nghe audio' để nghe câu thoại và chọn nghĩa đúng:",
+      "options": [
+        "Tuyệt quá! Anh trai tôi cũng đã từng du lịch đến đó vài lần.",
+        "Anh ấy đã sống ở Việt Nam được ba năm rồi đúng không?",
+        "Đúng vậy, anh ấy đã làm việc như một kiến trúc sư ở TP. Hồ Chí Minh từ năm 2023.",
+        "Ngày mai trời sẽ mưa to."
+      ],
+      "correctAnswer": "Tuyệt quá! Anh trai tôi cũng đã từng du lịch đến đó vài lần.",
+      "explanationVi": "Câu nghe được: \"That is awesome! My brother has also traveled there several times.\" có nghĩa là: \"Tuyệt quá! Anh trai tôi cũng đã từng du lịch đến đó vài lần.\"."
+    },
+    {
+      "id": "ex-025-24",
+      "type": "listening_reflex",
+      "promptVi": "[Nghe phản xạ] Nghe câu phát âm tiếng Anh và chọn bản dịch tiếng Việt đúng nhất:",
+      "audioPrompt": "He has lived in Vietnam for three years, right?",
+      "question": "Nhấn nút '🔊 Nghe audio' để nghe câu thoại và chọn nghĩa đúng:",
+      "options": [
+        "Anh ấy đã sống ở Việt Nam được ba năm rồi đúng không?",
+        "Đúng vậy, anh ấy đã làm việc như một kiến trúc sư ở TP. Hồ Chí Minh từ năm 2023.",
+        "Tôi vừa mới đọc xong một cuốn sách rất lôi cuốn về lịch sử Việt Nam.",
+        "Ngày mai trời sẽ mưa to."
+      ],
+      "correctAnswer": "Anh ấy đã sống ở Việt Nam được ba năm rồi đúng không?",
+      "explanationVi": "Câu nghe được: \"He has lived in Vietnam for three years, right?\" có nghĩa là: \"Anh ấy đã sống ở Việt Nam được ba năm rồi đúng không?\"."
+    },
+    {
+      "id": "ex-025-25",
       "type": "speaking_practice",
-      "promptVi": "Luyện nói qua Micro: Hãy nhấn nút 'Nói ngay' và phát âm chuẩn xác câu sau:",
+      "promptVi": "[Luyện nói qua Micro] Nhấn nút '🎙️ Bắt đầu nói' và đọc to, rõ ràng câu tiếng Anh sau:",
       "targetSentence": "I have visited Da Nang twice.",
       "hintVi": "Tôi đã từng đến thăm Đà Nẵng hai lần.",
-      "explanationVi": "Mẫu câu chuẩn: \"I have visited Da Nang twice.\" (Tôi đã từng đến thăm Đà Nẵng hai lần.). Hãy phát âm rõ ràng từng từ và giữ ngữ điệu tự nhiên."
+      "explanationVi": "Câu mục tiêu: \"I have visited Da Nang twice.\" (Tôi đã từng đến thăm Đà Nẵng hai lần.). Luyện phát âm chuẩn xác từng âm tiết và ngữ điệu tự nhiên."
     },
     {
-      "id": "ex-025-07",
+      "id": "ex-025-26",
+      "type": "speaking_practice",
+      "promptVi": "[Luyện nói qua Micro] Nhấn nút '🎙️ Bắt đầu nói' và đọc to, rõ ràng câu tiếng Anh sau:",
+      "targetSentence": "He has worked here for three years.",
+      "hintVi": "Anh ấy đã làm việc ở đây được ba năm.",
+      "explanationVi": "Câu mục tiêu: \"He has worked here for three years.\" (Anh ấy đã làm việc ở đây được ba năm.). Luyện phát âm chuẩn xác từng âm tiết và ngữ điệu tự nhiên."
+    },
+    {
+      "id": "ex-025-27",
+      "type": "speaking_practice",
+      "promptVi": "[Luyện nói qua Micro] Nhấn nút '🎙️ Bắt đầu nói' và đọc to, rõ ràng câu tiếng Anh sau:",
+      "targetSentence": "We have just finished our project.",
+      "hintVi": "Chúng tôi vừa mới hoàn thành dự án của mình.",
+      "explanationVi": "Câu mục tiêu: \"We have just finished our project.\" (Chúng tôi vừa mới hoàn thành dự án của mình.). Luyện phát âm chuẩn xác từng âm tiết và ngữ điệu tự nhiên."
+    },
+    {
+      "id": "ex-025-28",
+      "type": "speaking_practice",
+      "promptVi": "[Luyện nói qua Micro] Nhấn nút '🎙️ Bắt đầu nói' và đọc to, rõ ràng câu tiếng Anh sau:",
+      "targetSentence": "She has seen that movie already.",
+      "hintVi": "Cô ấy đã xem bộ phim đó rồi.",
+      "explanationVi": "Câu mục tiêu: \"She has seen that movie already.\" (Cô ấy đã xem bộ phim đó rồi.). Luyện phát âm chuẩn xác từng âm tiết và ngữ điệu tự nhiên."
+    },
+    {
+      "id": "ex-025-29",
       "type": "reading_comprehension",
-      "promptVi": "Đọc đoạn hội thoại ngắn sau và trả lời câu hỏi đọc hiểu:",
-      "passage": "Nathan: \"Have you ever visited Da Nang city, Olivia?\"\nOlivia: \"Yes, I have visited Da Nang twice. I have seen the famous Dragon Bridge.\"\nNathan: \"That is awesome! My brother has also traveled there several times.\"\nOlivia: \"He has lived in Vietnam for three years, right?\"",
-      "question": "Dựa vào ngữ cảnh đoạn hội thoại trên, Nathan và Olivia đang trao đổi về nội dung trọng tâm nào?",
+      "promptVi": "[Đọc hiểu đoạn văn 1] Đọc đoạn hội thoại mở đầu sau và trả lời câu hỏi:",
+      "passage": "Nathan (Nam): \"Have you ever visited Da Nang city, Olivia?\"\nOlivia (Nữ): \"Yes, I have visited Da Nang twice. I have seen the famous Dragon Bridge.\"\nNathan (Nam): \"That is awesome! My brother has also traveled there several times.\"\nOlivia (Nữ): \"He has lived in Vietnam for three years, right?\"",
+      "question": "Câu hỏi: Trong đoạn hội thoại trên, các nhân vật đang thảo luận về chủ đề gì?",
       "options": [
         "Hiện tại Hoàn thành — Cơ bản (Have / Has + V3/ed)",
-        "Kế hoạch mua sắm và nấu ăn cho bữa tối gia đình",
-        "Lịch trình đi du lịch nghỉ dưỡng mùa hè",
-        "Dự báo thời tiết và nhiệt độ ngày mai"
+        "Kế hoạch đi nghỉ dưỡng cuối tuần ở bãi biển",
+        "Mua sắm quần áo và đồ dùng thể thao",
+        "Cách làm món ăn truyền thống gia đình"
       ],
       "correctAnswer": "Hiện tại Hoàn thành — Cơ bản (Have / Has + V3/ed)",
-      "explanationVi": "Đoạn hội thoại mở đầu được thiết kế để minh họa và ứng dụng trực tiếp chủ điểm: \"Bài 25: Hiện tại Hoàn thành — Cơ bản (Have / Has + V3/ed)\"."
+      "explanationVi": "Đoạn hội thoại mở đầu được thiết kế để minh họa trực tiếp cho chủ điểm ngữ pháp: \"Bài 25: Hiện tại Hoàn thành — Cơ bản (Have / Has + V3/ed)\"."
     },
     {
-      "id": "ex-025-08",
-      "type": "multiple_choice",
-      "promptVi": "Phản xạ dịch & Ngữ pháp: Chọn câu tiếng Anh diễn đạt đúng nghĩa:",
-      "question": "Dịch câu sang tiếng Anh: \"Chúng tôi vừa mới hoàn thành dự án của mình.\"",
+      "id": "ex-025-30",
+      "type": "reading_comprehension",
+      "promptVi": "[Đọc hiểu đoạn văn 2] Đọc phần tiếp theo của đoạn hội thoại và chọn nhận định đúng:",
+      "passage": "Nathan (Nam): \"Yes, he has worked as an architect in Ho Chi Minh City since 2023.\"\nOlivia (Nữ): \"I have just finished reading a fascinating book about Vietnamese history.\"\nNathan (Nam): \"We have learned so much about international culture this year.\"\nOlivia (Nữ): \"Our team has completed all project milestones ahead of schedule.\"",
+      "question": "Nhận định nào sau đây là ĐÚNG với nội dung đoạn hội thoại trên?",
       "options": [
-        "We have just finished our project.",
-        "We is just finished our project.",
-        "He has worked here for three years.",
-        "Incorrect grammatical form 3"
+        "Các câu hội thoại sử dụng đúng cấu trúc ngữ pháp \"Bài 25: Hiện tại Hoàn thành — Cơ bản (Have / Has + V3/ed)\".",
+        "Các nhân vật không hiểu ý nhau và từ chối nói chuyện.",
+        "Đoạn hội thoại nói về việc chuyển nhà sang thành phố khác.",
+        "Cả hai nhân vật đều đang ở sân bay chuẩn bị lên máy bay."
       ],
-      "correctAnswer": "We have just finished our project.",
-      "explanationVi": "Bản dịch chuẩn xác và đúng ngữ pháp là: \"We have just finished our project.\" (Chúng tôi vừa mới hoàn thành dự án của mình.)."
+      "correctAnswer": "Các câu hội thoại sử dụng đúng cấu trúc ngữ pháp \"Bài 25: Hiện tại Hoàn thành — Cơ bản (Have / Has + V3/ed)\".",
+      "explanationVi": "Đoạn hội thoại thứ hai tiếp tục củng cố và ứng dụng các quy tắc ngữ pháp của \"Bài 25: Hiện tại Hoàn thành — Cơ bản (Have / Has + V3/ed)\"."
     }
   ]
 }

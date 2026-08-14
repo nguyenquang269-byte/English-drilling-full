@@ -2,11 +2,26 @@
   "lessonId": "lesson-038",
   "lessonNumber": 38,
   "title": "Bài tập Ôn luyện: Bài 38: Động từ Khuyết thiếu — May / Might (Sự chắc chắn không cao & Xin phép lịch sự)",
+  "totalQuestions": 30,
   "questions": [
     {
       "id": "ex-038-01",
       "type": "multiple_choice",
-      "promptVi": "Chọn đáp án đúng nhất hoàn thành câu:",
+      "promptVi": "[Trắc nghiệm] Chọn từ/cụm từ đúng để hoàn thành câu (Chiều nay trời có thể sẽ mưa.):",
+      "question": "It ___ rain this afternoon.",
+      "options": [
+        "may",
+        "must",
+        "should",
+        "does"
+      ],
+      "correctAnswer": "may",
+      "explanationVi": "Dự đoán sự việc có thể xảy ra dùng 'may'."
+    },
+    {
+      "id": "ex-038-02",
+      "type": "multiple_choice",
+      "promptVi": "[Trắc nghiệm] Chọn từ/cụm từ đúng để hoàn thành câu (Thưa thầy/ông, tôi có thể vào được không?):",
       "question": "___ I come in, sir?",
       "options": [
         "May",
@@ -18,9 +33,65 @@
       "explanationVi": "Xin phép trang trọng dùng 'May'."
     },
     {
-      "id": "ex-038-02",
+      "id": "ex-038-03",
+      "type": "multiple_choice",
+      "promptVi": "[Trắc nghiệm] Chọn từ/cụm từ đúng để hoàn thành câu (Anh ấy có thể không biết về cuộc họp.):",
+      "question": "He might ___ know about the meeting.",
+      "options": [
+        "not",
+        "no",
+        "don't",
+        "never"
+      ],
+      "correctAnswer": "not",
+      "explanationVi": "Phủ định sau might thêm 'not'."
+    },
+    {
+      "id": "ex-038-04",
+      "type": "multiple_choice",
+      "promptVi": "[Trắc nghiệm] Chọn từ/cụm từ đúng để hoàn thành câu (Chúng tôi có thể sẽ đi biển vào cuối tuần này.):",
+      "question": "We might ___ to the beach this weekend.",
+      "options": [
+        "go",
+        "going",
+        "went",
+        "goes"
+      ],
+      "correctAnswer": "go",
+      "explanationVi": "Sau 'might' luôn dùng động từ nguyên mẫu không to (go)."
+    },
+    {
+      "id": "ex-038-05",
+      "type": "multiple_choice",
+      "promptVi": "[Trắc nghiệm] Dịch câu sau sang tiếng Anh: \"Bạn có đi cắm trại trong rừng quốc gia cuối tuần này không, Diana?\"",
+      "question": "Chọn bản dịch chuẩn xác cho câu: \"Bạn có đi cắm trại trong rừng quốc gia cuối tuần này không, Diana?\"",
+      "options": [
+        "Are you going camping in the national forest this weekend, Diana?",
+        "be you going camping in the national forest this weekend, Diana?",
+        "I am not completely sure yet. It may rain heavily on Saturday afternoon.",
+        "I want to go to the park now."
+      ],
+      "correctAnswer": "Are you going camping in the national forest this weekend, Diana?",
+      "explanationVi": "Câu đúng là \"Are you going camping in the national forest this weekend, Diana?\" (Bạn có đi cắm trại trong rừng quốc gia cuối tuần này không, Diana?)."
+    },
+    {
+      "id": "ex-038-06",
+      "type": "multiple_choice",
+      "promptVi": "[Trắc nghiệm] Chọn câu trả lời hoặc cách diễn đạt phù hợp:",
+      "question": "Trong ngữ cảnh giao tiếp: \"Are you going camping in the national forest this weekend, Diana?\", câu phản hồi tự nhiên là gì?",
+      "options": [
+        "I am not completely sure yet. It may rain heavily on Saturday afternoon.",
+        "No, it is yesterday morning.",
+        "Yes, I will eat apple.",
+        "They are not at the library."
+      ],
+      "correctAnswer": "I am not completely sure yet. It may rain heavily on Saturday afternoon.",
+      "explanationVi": "Phản hồi phù hợp: \"I am not completely sure yet. It may rain heavily on Saturday afternoon.\" (Tôi vẫn chưa hoàn toàn chắc chắn. Trời có thể sẽ mưa to vào chiều thứ Bảy.)."
+    },
+    {
+      "id": "ex-038-07",
       "type": "fill_blank",
-      "promptVi": "Điền từ hoặc dạng đúng của động từ vào chỗ trống:",
+      "promptVi": "[Điền từ - (Dạng khẳng định)] Điền dạng đúng của động từ vào ô trống (Chiều nay trời có thể sẽ mưa.):",
       "question": "It ___ rain this afternoon.",
       "correctAnswer": "may",
       "options": [
@@ -29,90 +100,325 @@
         "should",
         "does"
       ],
-      "explanationVi": "Dự đoán sự việc có thể xảy ra dùng 'may'."
+      "explanationVi": "Đáp án chính xác: \"may\". Chiều nay trời có thể sẽ mưa.."
     },
     {
-      "id": "ex-038-03",
-      "type": "sentence_scramble",
-      "promptVi": "Sắp xếp các khối từ sau thành câu hoàn chỉnh:",
-      "words": [
-        "meeting.",
-        "the",
-        "about",
-        "know",
+      "id": "ex-038-08",
+      "type": "fill_blank",
+      "promptVi": "[Điền từ - (Dạng khẳng định)] Điền dạng đúng của động từ vào ô trống (Thưa thầy/ông, tôi có thể vào được không?):",
+      "question": "___ I come in, sir?",
+      "correctAnswer": "May",
+      "options": [
+        "May",
+        "Do",
+        "Am",
+        "Will"
+      ],
+      "explanationVi": "Đáp án chính xác: \"May\". Thưa thầy/ông, tôi có thể vào được không?."
+    },
+    {
+      "id": "ex-038-09",
+      "type": "fill_blank",
+      "promptVi": "[Điền từ - (Dạng phủ định)] Điền dạng đúng của động từ vào ô trống (Anh ấy có thể không biết về cuộc họp.):",
+      "question": "He might ___ know about the meeting.",
+      "correctAnswer": "not",
+      "options": [
         "not",
-        "might",
-        "He"
+        "no",
+        "don't",
+        "never"
+      ],
+      "explanationVi": "Đáp án chính xác: \"not\". Anh ấy có thể không biết về cuộc họp.."
+    },
+    {
+      "id": "ex-038-10",
+      "type": "fill_blank",
+      "promptVi": "[Điền từ - (Dạng khẳng định)] Điền dạng đúng của động từ vào ô trống (Chúng tôi có thể sẽ đi biển vào cuối tuần này.):",
+      "question": "We might ___ to the beach this weekend.",
+      "correctAnswer": "go",
+      "options": [
+        "go",
+        "going",
+        "went",
+        "goes"
+      ],
+      "explanationVi": "Đáp án chính xác: \"go\". Chúng tôi có thể sẽ đi biển vào cuối tuần này.."
+    },
+    {
+      "id": "ex-038-11",
+      "type": "fill_blank",
+      "promptVi": "[Điền từ - Dạng PHỦ ĐỊNH] Hoàn thành câu phủ định sau:",
+      "correctAnswer": "It may rain this afternoon.",
+      "options": [
+        "It may rain this afternoon.",
+        "It may rain this afternoon.",
+        "Not It may rain this afternoon.",
+        "It may rain this afternoon. no"
+      ],
+      "explanationVi": "Dạng phủ định chuẩn: Thêm 'not' sau động từ chính."
+    },
+    {
+      "id": "ex-038-12",
+      "type": "sentence_scramble",
+      "promptVi": "[Sắp xếp câu] Xếp các khối từ thành câu hoàn chỉnh mang nghĩa: \"Chiều nay trời có thể sẽ mưa.\"",
+      "words": [
+        "rain",
+        "afternoon.",
+        "It",
+        "may",
+        "this"
+      ],
+      "correctSentence": "It may rain this afternoon.",
+      "hintVi": "Chiều nay trời có thể sẽ mưa.",
+      "explanationVi": "Câu hoàn chỉnh: \"It may rain this afternoon.\" (Chiều nay trời có thể sẽ mưa.)."
+    },
+    {
+      "id": "ex-038-13",
+      "type": "sentence_scramble",
+      "promptVi": "[Sắp xếp câu] Xếp các khối từ thành câu hoàn chỉnh mang nghĩa: \"Thưa thầy/ông, tôi có thể vào được không?\"",
+      "words": [
+        "in,",
+        "May",
+        "I",
+        "sir?",
+        "come"
+      ],
+      "correctSentence": "May I come in, sir?",
+      "hintVi": "Thưa thầy/ông, tôi có thể vào được không?",
+      "explanationVi": "Câu hoàn chỉnh: \"May I come in, sir?\" (Thưa thầy/ông, tôi có thể vào được không?)."
+    },
+    {
+      "id": "ex-038-14",
+      "type": "sentence_scramble",
+      "promptVi": "[Sắp xếp câu] Xếp các khối từ thành câu hoàn chỉnh mang nghĩa: \"Anh ấy có thể không biết về cuộc họp.\"",
+      "words": [
+        "the",
+        "meeting.",
+        "not",
+        "know",
+        "about",
+        "He",
+        "might"
       ],
       "correctSentence": "He might not know about the meeting.",
       "hintVi": "Anh ấy có thể không biết về cuộc họp.",
       "explanationVi": "Câu hoàn chỉnh: \"He might not know about the meeting.\" (Anh ấy có thể không biết về cuộc họp.)."
     },
     {
-      "id": "ex-038-04",
-      "type": "find_error",
-      "promptVi": "Chọn câu có cấu trúc ngữ pháp chuẩn xác nhất trong các câu sau:",
-      "question": "Dựa vào chủ điểm ngữ pháp \"Bài 38: Động từ Khuyết thiếu — May / Might (Sự chắc chắn không cao & Xin phép lịch sự)\", câu nào sau đây là hoàn toàn CHÍNH XÁC?",
-      "options": [
-        "We might go to the beach this weekend.",
-        "We might go to the beach this weekend. not",
-        "We might go with the beach this weekend.",
-        "might go to the beach this weekend. We"
+      "id": "ex-038-15",
+      "type": "sentence_scramble",
+      "promptVi": "[Sắp xếp câu] Xếp các khối từ thành câu hoàn chỉnh mang nghĩa: \"Chúng tôi có thể sẽ đi biển vào cuối tuần này.\"",
+      "words": [
+        "to",
+        "might",
+        "this",
+        "weekend.",
+        "beach",
+        "the",
+        "We",
+        "go"
       ],
-      "correctAnswer": "We might go to the beach this weekend.",
-      "explanationVi": "Cấu trúc chuẩn xác là: \"We might go to the beach this weekend.\" (Chúng tôi có thể sẽ đi biển vào cuối tuần này.)."
+      "correctSentence": "We might go to the beach this weekend.",
+      "hintVi": "Chúng tôi có thể sẽ đi biển vào cuối tuần này.",
+      "explanationVi": "Câu hoàn chỉnh: \"We might go to the beach this weekend.\" (Chúng tôi có thể sẽ đi biển vào cuối tuần này.)."
     },
     {
-      "id": "ex-038-05",
+      "id": "ex-038-16",
+      "type": "sentence_scramble",
+      "promptVi": "[Sắp xếp câu] Xếp các từ thành câu hội thoại: \"Dự báo thời tiết nói rằng nhiệt độ có thể giảm mạnh vào ban đêm.\"",
+      "words": [
+        "temperatures",
+        "drop",
+        "said",
+        "forecast",
+        "significantly",
+        "weather",
+        "The",
+        "might",
+        "night",
+        "at"
+      ],
+      "correctSentence": "The weather forecast said temperatures might drop significantly at night.",
+      "hintVi": "Dự báo thời tiết nói rằng nhiệt độ có thể giảm mạnh vào ban đêm.",
+      "explanationVi": "Câu đúng: \"The weather forecast said temperatures might drop significantly at night.\" (Dự báo thời tiết nói rằng nhiệt độ có thể giảm mạnh vào ban đêm.)."
+    },
+    {
+      "id": "ex-038-17",
+      "type": "find_error",
+      "promptVi": "[Tìm lỗi sai & Chọn câu đúng] Câu nào dưới đây có cấu trúc ngữ pháp HOÀN TOÀN ĐÚNG?",
+      "question": "Chủ điểm \"Bài 38: Động từ Khuyết thiếu — May / Might (Sự chắc chắn không cao & Xin phép lịch sự)\": Chọn câu CHÍNH XÁC:",
+      "options": [
+        "It may rain this afternoon.",
+        "afternoon. this rain may It",
+        "It may rain this afternoon. (sai)",
+        "It may rain this afternoon. (sai)"
+      ],
+      "correctAnswer": "It may rain this afternoon.",
+      "explanationVi": "Câu chuẩn xác là: \"It may rain this afternoon.\" (Chiều nay trời có thể sẽ mưa.)."
+    },
+    {
+      "id": "ex-038-18",
+      "type": "find_error",
+      "promptVi": "[Tìm lỗi sai & Chọn câu đúng] Câu nào dưới đây có cấu trúc ngữ pháp HOÀN TOÀN ĐÚNG?",
+      "question": "Chủ điểm \"Bài 38: Động từ Khuyết thiếu — May / Might (Sự chắc chắn không cao & Xin phép lịch sự)\": Chọn câu CHÍNH XÁC:",
+      "options": [
+        "May I come in, sir?",
+        "sir? in, come I May",
+        "May I come in, sir? (sai)",
+        "May I come in, sir? (sai)"
+      ],
+      "correctAnswer": "May I come in, sir?",
+      "explanationVi": "Câu chuẩn xác là: \"May I come in, sir?\" (Thưa thầy/ông, tôi có thể vào được không?)."
+    },
+    {
+      "id": "ex-038-19",
+      "type": "find_error",
+      "promptVi": "[Tìm lỗi sai & Chọn câu đúng] Câu nào dưới đây có cấu trúc ngữ pháp HOÀN TOÀN ĐÚNG?",
+      "question": "Chủ điểm \"Bài 38: Động từ Khuyết thiếu — May / Might (Sự chắc chắn không cao & Xin phép lịch sự)\": Chọn câu CHÍNH XÁC:",
+      "options": [
+        "He might not know about the meeting.",
+        "meeting. the about know not might He",
+        "He might not know about the meeting. (sai)",
+        "He might not know about the meeting. (sai)"
+      ],
+      "correctAnswer": "He might not know about the meeting.",
+      "explanationVi": "Câu chuẩn xác là: \"He might not know about the meeting.\" (Anh ấy có thể không biết về cuộc họp.)."
+    },
+    {
+      "id": "ex-038-20",
+      "type": "find_error",
+      "promptVi": "[Tìm lỗi sai & Chọn câu đúng] Câu nào dưới đây có cấu trúc ngữ pháp HOÀN TOÀN ĐÚNG?",
+      "question": "Chủ điểm \"Bài 38: Động từ Khuyết thiếu — May / Might (Sự chắc chắn không cao & Xin phép lịch sự)\": Chọn câu CHÍNH XÁC:",
+      "options": [
+        "We might go to the beach this weekend.",
+        "weekend. this beach the to go might We",
+        "We might go to the beach this weekend. (sai)",
+        "We might go to the beach this weekend. (sai)"
+      ],
+      "correctAnswer": "We might go to the beach this weekend.",
+      "explanationVi": "Câu chuẩn xác là: \"We might go to the beach this weekend.\" (Chúng tôi có thể sẽ đi biển vào cuối tuần này.)."
+    },
+    {
+      "id": "ex-038-21",
       "type": "listening_reflex",
-      "promptVi": "Nghe câu tiếng Anh và chọn bản dịch tiếng Việt chuẩn xác:",
+      "promptVi": "[Nghe phản xạ] Nghe câu phát âm tiếng Anh và chọn bản dịch tiếng Việt đúng nhất:",
       "audioPrompt": "Are you going camping in the national forest this weekend, Diana?",
-      "question": "Nghe câu phát âm tiếng Anh và chọn nghĩa đúng:",
+      "question": "Nhấn nút '🔊 Nghe audio' để nghe câu thoại và chọn nghĩa đúng:",
       "options": [
         "Bạn có đi cắm trại trong rừng quốc gia cuối tuần này không, Diana?",
         "Tôi vẫn chưa hoàn toàn chắc chắn. Trời có thể sẽ mưa to vào chiều thứ Bảy.",
         "Dự báo thời tiết nói rằng nhiệt độ có thể giảm mạnh vào ban đêm.",
-        "Hôm nay chúng tôi đi mua sắm tại trung tâm thương mại."
+        "Ngày mai trời sẽ mưa to."
       ],
       "correctAnswer": "Bạn có đi cắm trại trong rừng quốc gia cuối tuần này không, Diana?",
-      "explanationVi": "Câu nghe được: \"Are you going camping in the national forest this weekend, Diana?\" nghĩa là: \"Bạn có đi cắm trại trong rừng quốc gia cuối tuần này không, Diana?\"."
+      "explanationVi": "Câu nghe được: \"Are you going camping in the national forest this weekend, Diana?\" có nghĩa là: \"Bạn có đi cắm trại trong rừng quốc gia cuối tuần này không, Diana?\"."
     },
     {
-      "id": "ex-038-06",
+      "id": "ex-038-22",
+      "type": "listening_reflex",
+      "promptVi": "[Nghe phản xạ] Nghe câu phát âm tiếng Anh và chọn bản dịch tiếng Việt đúng nhất:",
+      "audioPrompt": "I am not completely sure yet. It may rain heavily on Saturday afternoon.",
+      "question": "Nhấn nút '🔊 Nghe audio' để nghe câu thoại và chọn nghĩa đúng:",
+      "options": [
+        "Tôi vẫn chưa hoàn toàn chắc chắn. Trời có thể sẽ mưa to vào chiều thứ Bảy.",
+        "Dự báo thời tiết nói rằng nhiệt độ có thể giảm mạnh vào ban đêm.",
+        "Nếu thời tiết xấu, chúng tôi có thể sẽ ở nhà và xem phim thay vào đó.",
+        "Ngày mai trời sẽ mưa to."
+      ],
+      "correctAnswer": "Tôi vẫn chưa hoàn toàn chắc chắn. Trời có thể sẽ mưa to vào chiều thứ Bảy.",
+      "explanationVi": "Câu nghe được: \"I am not completely sure yet. It may rain heavily on Saturday afternoon.\" có nghĩa là: \"Tôi vẫn chưa hoàn toàn chắc chắn. Trời có thể sẽ mưa to vào chiều thứ Bảy.\"."
+    },
+    {
+      "id": "ex-038-23",
+      "type": "listening_reflex",
+      "promptVi": "[Nghe phản xạ] Nghe câu phát âm tiếng Anh và chọn bản dịch tiếng Việt đúng nhất:",
+      "audioPrompt": "The weather forecast said temperatures might drop significantly at night.",
+      "question": "Nhấn nút '🔊 Nghe audio' để nghe câu thoại và chọn nghĩa đúng:",
+      "options": [
+        "Dự báo thời tiết nói rằng nhiệt độ có thể giảm mạnh vào ban đêm.",
+        "Nếu thời tiết xấu, chúng tôi có thể sẽ ở nhà và xem phim thay vào đó.",
+        "Tôi có thể xem ứng dụng radar thời tiết trên điện thoại của bạn để cập nhật không?",
+        "Ngày mai trời sẽ mưa to."
+      ],
+      "correctAnswer": "Dự báo thời tiết nói rằng nhiệt độ có thể giảm mạnh vào ban đêm.",
+      "explanationVi": "Câu nghe được: \"The weather forecast said temperatures might drop significantly at night.\" có nghĩa là: \"Dự báo thời tiết nói rằng nhiệt độ có thể giảm mạnh vào ban đêm.\"."
+    },
+    {
+      "id": "ex-038-24",
+      "type": "listening_reflex",
+      "promptVi": "[Nghe phản xạ] Nghe câu phát âm tiếng Anh và chọn bản dịch tiếng Việt đúng nhất:",
+      "audioPrompt": "If the weather is bad, we might stay at home and watch movies instead.",
+      "question": "Nhấn nút '🔊 Nghe audio' để nghe câu thoại và chọn nghĩa đúng:",
+      "options": [
+        "Nếu thời tiết xấu, chúng tôi có thể sẽ ở nhà và xem phim thay vào đó.",
+        "Tôi có thể xem ứng dụng radar thời tiết trên điện thoại của bạn để cập nhật không?",
+        "Vâng, dĩ nhiên bạn có thể. Hình ảnh vệ tinh trông khá nhiều mây.",
+        "Ngày mai trời sẽ mưa to."
+      ],
+      "correctAnswer": "Nếu thời tiết xấu, chúng tôi có thể sẽ ở nhà và xem phim thay vào đó.",
+      "explanationVi": "Câu nghe được: \"If the weather is bad, we might stay at home and watch movies instead.\" có nghĩa là: \"Nếu thời tiết xấu, chúng tôi có thể sẽ ở nhà và xem phim thay vào đó.\"."
+    },
+    {
+      "id": "ex-038-25",
       "type": "speaking_practice",
-      "promptVi": "Luyện nói qua Micro: Hãy nhấn nút 'Nói ngay' và phát âm chuẩn xác câu sau:",
+      "promptVi": "[Luyện nói qua Micro] Nhấn nút '🎙️ Bắt đầu nói' và đọc to, rõ ràng câu tiếng Anh sau:",
       "targetSentence": "It may rain this afternoon.",
       "hintVi": "Chiều nay trời có thể sẽ mưa.",
-      "explanationVi": "Mẫu câu chuẩn: \"It may rain this afternoon.\" (Chiều nay trời có thể sẽ mưa.). Hãy phát âm rõ ràng từng từ và giữ ngữ điệu tự nhiên."
+      "explanationVi": "Câu mục tiêu: \"It may rain this afternoon.\" (Chiều nay trời có thể sẽ mưa.). Luyện phát âm chuẩn xác từng âm tiết và ngữ điệu tự nhiên."
     },
     {
-      "id": "ex-038-07",
+      "id": "ex-038-26",
+      "type": "speaking_practice",
+      "promptVi": "[Luyện nói qua Micro] Nhấn nút '🎙️ Bắt đầu nói' và đọc to, rõ ràng câu tiếng Anh sau:",
+      "targetSentence": "May I come in, sir?",
+      "hintVi": "Thưa thầy/ông, tôi có thể vào được không?",
+      "explanationVi": "Câu mục tiêu: \"May I come in, sir?\" (Thưa thầy/ông, tôi có thể vào được không?). Luyện phát âm chuẩn xác từng âm tiết và ngữ điệu tự nhiên."
+    },
+    {
+      "id": "ex-038-27",
+      "type": "speaking_practice",
+      "promptVi": "[Luyện nói qua Micro] Nhấn nút '🎙️ Bắt đầu nói' và đọc to, rõ ràng câu tiếng Anh sau:",
+      "targetSentence": "He might not know about the meeting.",
+      "hintVi": "Anh ấy có thể không biết về cuộc họp.",
+      "explanationVi": "Câu mục tiêu: \"He might not know about the meeting.\" (Anh ấy có thể không biết về cuộc họp.). Luyện phát âm chuẩn xác từng âm tiết và ngữ điệu tự nhiên."
+    },
+    {
+      "id": "ex-038-28",
+      "type": "speaking_practice",
+      "promptVi": "[Luyện nói qua Micro] Nhấn nút '🎙️ Bắt đầu nói' và đọc to, rõ ràng câu tiếng Anh sau:",
+      "targetSentence": "We might go to the beach this weekend.",
+      "hintVi": "Chúng tôi có thể sẽ đi biển vào cuối tuần này.",
+      "explanationVi": "Câu mục tiêu: \"We might go to the beach this weekend.\" (Chúng tôi có thể sẽ đi biển vào cuối tuần này.). Luyện phát âm chuẩn xác từng âm tiết và ngữ điệu tự nhiên."
+    },
+    {
+      "id": "ex-038-29",
       "type": "reading_comprehension",
-      "promptVi": "Đọc đoạn hội thoại ngắn sau và trả lời câu hỏi đọc hiểu:",
-      "passage": "Benjamin: \"Are you going camping in the national forest this weekend, Diana?\"\nDiana: \"I am not completely sure yet. It may rain heavily on Saturday afternoon.\"\nBenjamin: \"The weather forecast said temperatures might drop significantly at night.\"\nDiana: \"If the weather is bad, we might stay at home and watch movies instead.\"",
-      "question": "Dựa vào ngữ cảnh đoạn hội thoại trên, Benjamin và Diana đang trao đổi về nội dung trọng tâm nào?",
+      "promptVi": "[Đọc hiểu đoạn văn 1] Đọc đoạn hội thoại mở đầu sau và trả lời câu hỏi:",
+      "passage": "Benjamin (Nam): \"Are you going camping in the national forest this weekend, Diana?\"\nDiana (Nữ): \"I am not completely sure yet. It may rain heavily on Saturday afternoon.\"\nBenjamin (Nam): \"The weather forecast said temperatures might drop significantly at night.\"\nDiana (Nữ): \"If the weather is bad, we might stay at home and watch movies instead.\"",
+      "question": "Câu hỏi: Trong đoạn hội thoại trên, các nhân vật đang thảo luận về chủ đề gì?",
       "options": [
         "Động từ Khuyết thiếu — May / Might (Sự chắc chắn không cao & Xin phép lịch sự)",
-        "Kế hoạch mua sắm và nấu ăn cho bữa tối gia đình",
-        "Lịch trình đi du lịch nghỉ dưỡng mùa hè",
-        "Dự báo thời tiết và nhiệt độ ngày mai"
+        "Kế hoạch đi nghỉ dưỡng cuối tuần ở bãi biển",
+        "Mua sắm quần áo và đồ dùng thể thao",
+        "Cách làm món ăn truyền thống gia đình"
       ],
       "correctAnswer": "Động từ Khuyết thiếu — May / Might (Sự chắc chắn không cao & Xin phép lịch sự)",
-      "explanationVi": "Đoạn hội thoại mở đầu được thiết kế để minh họa và ứng dụng trực tiếp chủ điểm: \"Bài 38: Động từ Khuyết thiếu — May / Might (Sự chắc chắn không cao & Xin phép lịch sự)\"."
+      "explanationVi": "Đoạn hội thoại mở đầu được thiết kế để minh họa trực tiếp cho chủ điểm ngữ pháp: \"Bài 38: Động từ Khuyết thiếu — May / Might (Sự chắc chắn không cao & Xin phép lịch sự)\"."
     },
     {
-      "id": "ex-038-08",
-      "type": "multiple_choice",
-      "promptVi": "Phản xạ dịch & Ngữ pháp: Chọn câu tiếng Anh diễn đạt đúng nghĩa:",
-      "question": "Dịch câu sang tiếng Anh: \"Anh ấy có thể không biết về cuộc họp.\"",
+      "id": "ex-038-30",
+      "type": "reading_comprehension",
+      "promptVi": "[Đọc hiểu đoạn văn 2] Đọc phần tiếp theo của đoạn hội thoại và chọn nhận định đúng:",
+      "passage": "Benjamin (Nam): \"May I check your smartphone's weather radar application for updates?\"\nDiana (Nữ): \"Yes, of course you may. The satellite images look quite cloudy.\"\nBenjamin (Nam): \"Our mutual friend George might join us if his business trip finishes early.\"\nDiana (Nữ): \"He may not have enough free time because his schedule is very busy.\"",
+      "question": "Nhận định nào sau đây là ĐÚNG với nội dung đoạn hội thoại trên?",
       "options": [
-        "He might not know about the meeting.",
-        "He might not know at the meeting.",
-        "May I come in, sir?",
-        "Incorrect grammatical form 3"
+        "Các câu hội thoại sử dụng đúng cấu trúc ngữ pháp \"Bài 38: Động từ Khuyết thiếu — May / Might (Sự chắc chắn không cao & Xin phép lịch sự)\".",
+        "Các nhân vật không hiểu ý nhau và từ chối nói chuyện.",
+        "Đoạn hội thoại nói về việc chuyển nhà sang thành phố khác.",
+        "Cả hai nhân vật đều đang ở sân bay chuẩn bị lên máy bay."
       ],
-      "correctAnswer": "He might not know about the meeting.",
-      "explanationVi": "Bản dịch chuẩn xác và đúng ngữ pháp là: \"He might not know about the meeting.\" (Anh ấy có thể không biết về cuộc họp.)."
+      "correctAnswer": "Các câu hội thoại sử dụng đúng cấu trúc ngữ pháp \"Bài 38: Động từ Khuyết thiếu — May / Might (Sự chắc chắn không cao & Xin phép lịch sự)\".",
+      "explanationVi": "Đoạn hội thoại thứ hai tiếp tục củng cố và ứng dụng các quy tắc ngữ pháp của \"Bài 38: Động từ Khuyết thiếu — May / Might (Sự chắc chắn không cao & Xin phép lịch sự)\"."
     }
   ]
 }

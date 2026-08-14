@@ -2,11 +2,26 @@
   "lessonId": "lesson-061",
   "lessonNumber": 61,
   "title": "Bài tập Ôn luyện: Bài 61: Đại từ Quan hệ — Giới từ đi trước & Đại từ không xác định (Preposition + Whom/Which & Indefinite Pronouns)",
+  "totalQuestions": 30,
   "questions": [
     {
       "id": "ex-061-01",
       "type": "multiple_choice",
-      "promptVi": "Chọn đáp án đúng nhất hoàn thành câu:",
+      "promptVi": "[Trắc nghiệm] Chọn từ/cụm từ đúng để hoàn thành câu (Người đàn ông mà tôi đã trò chuyện cùng rất nhiệt tình giúp đỡ.):",
+      "question": "The man to ___ I spoke was very helpful.",
+      "options": [
+        "whom",
+        "who",
+        "which",
+        "that"
+      ],
+      "correctAnswer": "whom",
+      "explanationVi": "Sau giới từ chỉ người bắt buộc dùng 'whom', không dùng who hay that."
+    },
+    {
+      "id": "ex-061-02",
+      "type": "multiple_choice",
+      "promptVi": "[Trắc nghiệm] Chọn từ/cụm từ đúng để hoàn thành câu (Đây là ngôi nhà mà tôi đã sinh ra tại đó.):",
       "question": "This is the house in ___ I was born.",
       "options": [
         "which",
@@ -18,9 +33,65 @@
       "explanationVi": "Sau giới từ chỉ nơi chốn/vật dùng 'which' (in which)."
     },
     {
-      "id": "ex-061-02",
+      "id": "ex-061-03",
+      "type": "multiple_choice",
+      "promptVi": "[Trắc nghiệm] Chọn từ/cụm từ đúng để hoàn thành câu (Có điều gì mà tôi có thể làm để giúp đỡ không?):",
+      "question": "Is there anything ___ I can do to help?",
+      "options": [
+        "that",
+        "which",
+        "whom",
+        "who"
+      ],
+      "correctAnswer": "that",
+      "explanationVi": "Sau đại từ bất định 'anything' dùng 'that'."
+    },
+    {
+      "id": "ex-061-04",
+      "type": "multiple_choice",
+      "promptVi": "[Trắc nghiệm] Chọn từ/cụm từ đúng để hoàn thành câu (Anh ấy có ba người chị gái, tất cả họ đều là giáo viên.):",
+      "question": "He has three sisters, all of ___ are teachers.",
+      "options": [
+        "whom",
+        "who",
+        "them",
+        "which"
+      ],
+      "correctAnswer": "whom",
+      "explanationVi": "Sau 'all of' chỉ người trong mệnh đề quan hệ dùng 'whom'."
+    },
+    {
+      "id": "ex-061-05",
+      "type": "multiple_choice",
+      "promptVi": "[Trắc nghiệm] Dịch câu sau sang tiếng Anh: \"Chào buổi sáng Clara. Em đã nhận được hồ sơ khoa học mà chúng ta đã trao đổi hôm qua chưa? (about which)\"",
+      "question": "Chọn bản dịch chuẩn xác cho câu: \"Chào buổi sáng Clara. Em đã nhận được hồ sơ khoa học mà chúng ta đã trao đổi hôm qua chưa? (about which)\"",
+      "options": [
+        "Good morning, Clara. Did you receive the scientific dossier about which we spoke yesterday?",
+        "Good morning, Clara. be you receive the scientific dossier about which we spoke yesterday?",
+        "Yes, Professor. Is Dr. Evans the lead geneticist to whom I should send our laboratory report?",
+        "I want to go to the park now."
+      ],
+      "correctAnswer": "Good morning, Clara. Did you receive the scientific dossier about which we spoke yesterday?",
+      "explanationVi": "Câu đúng là \"Good morning, Clara. Did you receive the scientific dossier about which we spoke yesterday?\" (Chào buổi sáng Clara. Em đã nhận được hồ sơ khoa học mà chúng ta đã trao đổi hôm qua chưa? (about which))."
+    },
+    {
+      "id": "ex-061-06",
+      "type": "multiple_choice",
+      "promptVi": "[Trắc nghiệm] Chọn câu trả lời hoặc cách diễn đạt phù hợp:",
+      "question": "Trong ngữ cảnh giao tiếp: \"Good morning, Clara. Did you receive the scientific dossier about which we spoke yesterday?\", câu phản hồi tự nhiên là gì?",
+      "options": [
+        "Yes, Professor. Is Dr. Evans the lead geneticist to whom I should send our laboratory report?",
+        "No, it is yesterday morning.",
+        "Yes, I will eat apple.",
+        "They are not at the library."
+      ],
+      "correctAnswer": "Yes, Professor. Is Dr. Evans the lead geneticist to whom I should send our laboratory report?",
+      "explanationVi": "Phản hồi phù hợp: \"Yes, Professor. Is Dr. Evans the lead geneticist to whom I should send our laboratory report?\" (Vâng, thưa Giáo sư. Có phải Tiến sĩ Evans là nhà di truyền học phụ trách mà em nên gửi báo cáo phòng thí nghiệm không? (to whom))."
+    },
+    {
+      "id": "ex-061-07",
       "type": "fill_blank",
-      "promptVi": "Điền từ hoặc dạng đúng của động từ vào chỗ trống:",
+      "promptVi": "[Điền từ - (Dạng khẳng định)] Điền dạng đúng của động từ vào ô trống (Người đàn ông mà tôi đã trò chuyện cùng rất nhiệt tình giúp đỡ.):",
       "question": "The man to ___ I spoke was very helpful.",
       "correctAnswer": "whom",
       "options": [
@@ -29,92 +100,341 @@
         "which",
         "that"
       ],
-      "explanationVi": "Sau giới từ chỉ người bắt buộc dùng 'whom', không dùng who hay that."
+      "explanationVi": "Đáp án chính xác: \"whom\". Người đàn ông mà tôi đã trò chuyện cùng rất nhiệt tình giúp đỡ.."
     },
     {
-      "id": "ex-061-03",
+      "id": "ex-061-08",
+      "type": "fill_blank",
+      "promptVi": "[Điền từ - (Dạng khẳng định)] Điền dạng đúng của động từ vào ô trống (Đây là ngôi nhà mà tôi đã sinh ra tại đó.):",
+      "question": "This is the house in ___ I was born.",
+      "correctAnswer": "which",
+      "options": [
+        "which",
+        "that",
+        "where",
+        "whom"
+      ],
+      "explanationVi": "Đáp án chính xác: \"which\". Đây là ngôi nhà mà tôi đã sinh ra tại đó.."
+    },
+    {
+      "id": "ex-061-09",
+      "type": "fill_blank",
+      "promptVi": "[Điền từ - (Dạng khẳng định)] Điền dạng đúng của động từ vào ô trống (Có điều gì mà tôi có thể làm để giúp đỡ không?):",
+      "question": "Is there anything ___ I can do to help?",
+      "correctAnswer": "that",
+      "options": [
+        "that",
+        "which",
+        "whom",
+        "who"
+      ],
+      "explanationVi": "Đáp án chính xác: \"that\". Có điều gì mà tôi có thể làm để giúp đỡ không?."
+    },
+    {
+      "id": "ex-061-10",
+      "type": "fill_blank",
+      "promptVi": "[Điền từ - (Dạng khẳng định)] Điền dạng đúng của động từ vào ô trống (Anh ấy có ba người chị gái, tất cả họ đều là giáo viên.):",
+      "question": "He has three sisters, all of ___ are teachers.",
+      "correctAnswer": "whom",
+      "options": [
+        "whom",
+        "who",
+        "them",
+        "which"
+      ],
+      "explanationVi": "Đáp án chính xác: \"whom\". Anh ấy có ba người chị gái, tất cả họ đều là giáo viên.."
+    },
+    {
+      "id": "ex-061-11",
+      "type": "fill_blank",
+      "promptVi": "[Điền từ - Dạng PHỦ ĐỊNH] Hoàn thành câu phủ định sau:",
+      "correctAnswer": "The man to whom I spoke was not very helpful.",
+      "options": [
+        "The man to whom I spoke was not very helpful.",
+        "The man to whom I spoke was very helpful.",
+        "Not The man to whom I spoke was very helpful.",
+        "The man to whom I spoke was very helpful. no"
+      ],
+      "explanationVi": "Dạng phủ định chuẩn: Thêm 'not' sau động từ chính."
+    },
+    {
+      "id": "ex-061-12",
       "type": "sentence_scramble",
-      "promptVi": "Sắp xếp các khối từ sau thành câu hoàn chỉnh:",
+      "promptVi": "[Sắp xếp câu] Xếp các khối từ thành câu hoàn chỉnh mang nghĩa: \"Người đàn ông mà tôi đã trò chuyện cùng rất nhiệt tình giúp đỡ.\"",
       "words": [
-        "help?",
+        "helpful.",
+        "very",
+        "was",
         "to",
-        "do",
-        "can",
+        "spoke",
+        "I",
+        "The",
+        "whom",
+        "man"
+      ],
+      "correctSentence": "The man to whom I spoke was very helpful.",
+      "hintVi": "Người đàn ông mà tôi đã trò chuyện cùng rất nhiệt tình giúp đỡ.",
+      "explanationVi": "Câu hoàn chỉnh: \"The man to whom I spoke was very helpful.\" (Người đàn ông mà tôi đã trò chuyện cùng rất nhiệt tình giúp đỡ.)."
+    },
+    {
+      "id": "ex-061-13",
+      "type": "sentence_scramble",
+      "promptVi": "[Sắp xếp câu] Xếp các khối từ thành câu hoàn chỉnh mang nghĩa: \"Đây là ngôi nhà mà tôi đã sinh ra tại đó.\"",
+      "words": [
+        "I",
+        "was",
+        "born.",
+        "the",
+        "house",
+        "This",
+        "in",
+        "is",
+        "which"
+      ],
+      "correctSentence": "This is the house in which I was born.",
+      "hintVi": "Đây là ngôi nhà mà tôi đã sinh ra tại đó.",
+      "explanationVi": "Câu hoàn chỉnh: \"This is the house in which I was born.\" (Đây là ngôi nhà mà tôi đã sinh ra tại đó.)."
+    },
+    {
+      "id": "ex-061-14",
+      "type": "sentence_scramble",
+      "promptVi": "[Sắp xếp câu] Xếp các khối từ thành câu hoàn chỉnh mang nghĩa: \"Có điều gì mà tôi có thể làm để giúp đỡ không?\"",
+      "words": [
         "I",
         "that",
-        "anything",
+        "help?",
         "there",
-        "Is"
+        "anything",
+        "to",
+        "Is",
+        "do",
+        "can"
       ],
       "correctSentence": "Is there anything that I can do to help?",
       "hintVi": "Có điều gì mà tôi có thể làm để giúp đỡ không?",
       "explanationVi": "Câu hoàn chỉnh: \"Is there anything that I can do to help?\" (Có điều gì mà tôi có thể làm để giúp đỡ không?)."
     },
     {
-      "id": "ex-061-04",
-      "type": "find_error",
-      "promptVi": "Chọn câu có cấu trúc ngữ pháp chuẩn xác nhất trong các câu sau:",
-      "question": "Dựa vào chủ điểm ngữ pháp \"Bài 61: Đại từ Quan hệ — Giới từ đi trước & Đại từ không xác định (Preposition + Whom/Which & Indefinite Pronouns)\", câu nào sau đây là hoàn toàn CHÍNH XÁC?",
-      "options": [
-        "He has three sisters, all of whom are teachers.",
-        "He be three sisters, all of whom are teachers.",
-        "He has three sisters, all with whom are teachers.",
-        "has three sisters, all of whom are teachers. He"
+      "id": "ex-061-15",
+      "type": "sentence_scramble",
+      "promptVi": "[Sắp xếp câu] Xếp các khối từ thành câu hoàn chỉnh mang nghĩa: \"Anh ấy có ba người chị gái, tất cả họ đều là giáo viên.\"",
+      "words": [
+        "sisters,",
+        "He",
+        "whom",
+        "are",
+        "has",
+        "three",
+        "all",
+        "of",
+        "teachers."
       ],
-      "correctAnswer": "He has three sisters, all of whom are teachers.",
-      "explanationVi": "Cấu trúc chuẩn xác là: \"He has three sisters, all of whom are teachers.\" (Anh ấy có ba người chị gái, tất cả họ đều là giáo viên.)."
+      "correctSentence": "He has three sisters, all of whom are teachers.",
+      "hintVi": "Anh ấy có ba người chị gái, tất cả họ đều là giáo viên.",
+      "explanationVi": "Câu hoàn chỉnh: \"He has three sisters, all of whom are teachers.\" (Anh ấy có ba người chị gái, tất cả họ đều là giáo viên.)."
     },
     {
-      "id": "ex-061-05",
+      "id": "ex-061-16",
+      "type": "sentence_scramble",
+      "promptVi": "[Sắp xếp câu] Xếp các từ thành câu hội thoại: \"Chính xác. Ông ấy là trưởng nhóm nghiên cứu mà khoa chúng ta đã hợp tác trong một thập kỷ. (with whom)\"",
+      "words": [
+        "a",
+        "the",
+        "collaborated",
+        "for",
+        "principal",
+        "faculty",
+        "with",
+        "our",
+        "is",
+        "He",
+        "Precisely",
+        "investigator",
+        "has",
+        "whom",
+        "decade"
+      ],
+      "correctSentence": "Precisely. He is the principal investigator with whom our faculty has collaborated for a decade.",
+      "hintVi": "Chính xác. Ông ấy là trưởng nhóm nghiên cứu mà khoa chúng ta đã hợp tác trong một thập kỷ. (with whom)",
+      "explanationVi": "Câu đúng: \"Precisely. He is the principal investigator with whom our faculty has collaborated for a decade.\" (Chính xác. Ông ấy là trưởng nhóm nghiên cứu mà khoa chúng ta đã hợp tác trong một thập kỷ. (with whom))."
+    },
+    {
+      "id": "ex-061-17",
+      "type": "find_error",
+      "promptVi": "[Tìm lỗi sai & Chọn câu đúng] Câu nào dưới đây có cấu trúc ngữ pháp HOÀN TOÀN ĐÚNG?",
+      "question": "Chủ điểm \"Bài 61: Đại từ Quan hệ — Giới từ đi trước & Đại từ không xác định (Preposition + Whom/Which & Indefinite Pronouns)\": Chọn câu CHÍNH XÁC:",
+      "options": [
+        "The man to whom I spoke was very helpful.",
+        "The man to whom I spoke be very helpful.",
+        "The man to whom I spoke are not is very helpful.",
+        "helpful. very was spoke I whom to man The"
+      ],
+      "correctAnswer": "The man to whom I spoke was very helpful.",
+      "explanationVi": "Câu chuẩn xác là: \"The man to whom I spoke was very helpful.\" (Người đàn ông mà tôi đã trò chuyện cùng rất nhiệt tình giúp đỡ.)."
+    },
+    {
+      "id": "ex-061-18",
+      "type": "find_error",
+      "promptVi": "[Tìm lỗi sai & Chọn câu đúng] Câu nào dưới đây có cấu trúc ngữ pháp HOÀN TOÀN ĐÚNG?",
+      "question": "Chủ điểm \"Bài 61: Đại từ Quan hệ — Giới từ đi trước & Đại từ không xác định (Preposition + Whom/Which & Indefinite Pronouns)\": Chọn câu CHÍNH XÁC:",
+      "options": [
+        "This is the house in which I was born.",
+        "This be the house in which I was born.",
+        "This are not is the house in which I was born.",
+        "born. was I which in house the is This"
+      ],
+      "correctAnswer": "This is the house in which I was born.",
+      "explanationVi": "Câu chuẩn xác là: \"This is the house in which I was born.\" (Đây là ngôi nhà mà tôi đã sinh ra tại đó.)."
+    },
+    {
+      "id": "ex-061-19",
+      "type": "find_error",
+      "promptVi": "[Tìm lỗi sai & Chọn câu đúng] Câu nào dưới đây có cấu trúc ngữ pháp HOÀN TOÀN ĐÚNG?",
+      "question": "Chủ điểm \"Bài 61: Đại từ Quan hệ — Giới từ đi trước & Đại từ không xác định (Preposition + Whom/Which & Indefinite Pronouns)\": Chọn câu CHÍNH XÁC:",
+      "options": [
+        "Is there anything that I can do to help?",
+        "be there anything that I can do to help?",
+        "are not is there anything that I can do to help?",
+        "help? to do can I that anything there Is"
+      ],
+      "correctAnswer": "Is there anything that I can do to help?",
+      "explanationVi": "Câu chuẩn xác là: \"Is there anything that I can do to help?\" (Có điều gì mà tôi có thể làm để giúp đỡ không?)."
+    },
+    {
+      "id": "ex-061-20",
+      "type": "find_error",
+      "promptVi": "[Tìm lỗi sai & Chọn câu đúng] Câu nào dưới đây có cấu trúc ngữ pháp HOÀN TOÀN ĐÚNG?",
+      "question": "Chủ điểm \"Bài 61: Đại từ Quan hệ — Giới từ đi trước & Đại từ không xác định (Preposition + Whom/Which & Indefinite Pronouns)\": Chọn câu CHÍNH XÁC:",
+      "options": [
+        "He has three sisters, all of whom are teachers.",
+        "He has three sisters, all of whom be teachers.",
+        "He has three sisters, all of whom are not is teachers.",
+        "teachers. are whom of all sisters, three has He"
+      ],
+      "correctAnswer": "He has three sisters, all of whom are teachers.",
+      "explanationVi": "Câu chuẩn xác là: \"He has three sisters, all of whom are teachers.\" (Anh ấy có ba người chị gái, tất cả họ đều là giáo viên.)."
+    },
+    {
+      "id": "ex-061-21",
       "type": "listening_reflex",
-      "promptVi": "Nghe câu tiếng Anh và chọn bản dịch tiếng Việt chuẩn xác:",
+      "promptVi": "[Nghe phản xạ] Nghe câu phát âm tiếng Anh và chọn bản dịch tiếng Việt đúng nhất:",
       "audioPrompt": "Good morning, Clara. Did you receive the scientific dossier about which we spoke yesterday?",
-      "question": "Nghe câu phát âm tiếng Anh và chọn nghĩa đúng:",
+      "question": "Nhấn nút '🔊 Nghe audio' để nghe câu thoại và chọn nghĩa đúng:",
       "options": [
         "Chào buổi sáng Clara. Em đã nhận được hồ sơ khoa học mà chúng ta đã trao đổi hôm qua chưa? (about which)",
         "Vâng, thưa Giáo sư. Có phải Tiến sĩ Evans là nhà di truyền học phụ trách mà em nên gửi báo cáo phòng thí nghiệm không? (to whom)",
         "Chính xác. Ông ấy là trưởng nhóm nghiên cứu mà khoa chúng ta đã hợp tác trong một thập kỷ. (with whom)",
-        "Hôm nay chúng tôi đi mua sắm tại trung tâm thương mại."
+        "Ngày mai trời sẽ mưa to."
       ],
       "correctAnswer": "Chào buổi sáng Clara. Em đã nhận được hồ sơ khoa học mà chúng ta đã trao đổi hôm qua chưa? (about which)",
-      "explanationVi": "Câu nghe được: \"Good morning, Clara. Did you receive the scientific dossier about which we spoke yesterday?\" nghĩa là: \"Chào buổi sáng Clara. Em đã nhận được hồ sơ khoa học mà chúng ta đã trao đổi hôm qua chưa? (about which)\"."
+      "explanationVi": "Câu nghe được: \"Good morning, Clara. Did you receive the scientific dossier about which we spoke yesterday?\" có nghĩa là: \"Chào buổi sáng Clara. Em đã nhận được hồ sơ khoa học mà chúng ta đã trao đổi hôm qua chưa? (about which)\"."
     },
     {
-      "id": "ex-061-06",
+      "id": "ex-061-22",
+      "type": "listening_reflex",
+      "promptVi": "[Nghe phản xạ] Nghe câu phát âm tiếng Anh và chọn bản dịch tiếng Việt đúng nhất:",
+      "audioPrompt": "Yes, Professor. Is Dr. Evans the lead geneticist to whom I should send our laboratory report?",
+      "question": "Nhấn nút '🔊 Nghe audio' để nghe câu thoại và chọn nghĩa đúng:",
+      "options": [
+        "Vâng, thưa Giáo sư. Có phải Tiến sĩ Evans là nhà di truyền học phụ trách mà em nên gửi báo cáo phòng thí nghiệm không? (to whom)",
+        "Chính xác. Ông ấy là trưởng nhóm nghiên cứu mà khoa chúng ta đã hợp tác trong một thập kỷ. (with whom)",
+        "Có một người trong khoa chúng ta chuyên về mô hình hóa dữ liệu sinh thống kê. (someone who)",
+        "Ngày mai trời sẽ mưa to."
+      ],
+      "correctAnswer": "Vâng, thưa Giáo sư. Có phải Tiến sĩ Evans là nhà di truyền học phụ trách mà em nên gửi báo cáo phòng thí nghiệm không? (to whom)",
+      "explanationVi": "Câu nghe được: \"Yes, Professor. Is Dr. Evans the lead geneticist to whom I should send our laboratory report?\" có nghĩa là: \"Vâng, thưa Giáo sư. Có phải Tiến sĩ Evans là nhà di truyền học phụ trách mà em nên gửi báo cáo phòng thí nghiệm không? (to whom)\"."
+    },
+    {
+      "id": "ex-061-23",
+      "type": "listening_reflex",
+      "promptVi": "[Nghe phản xạ] Nghe câu phát âm tiếng Anh và chọn bản dịch tiếng Việt đúng nhất:",
+      "audioPrompt": "Precisely. He is the principal investigator with whom our faculty has collaborated for a decade.",
+      "question": "Nhấn nút '🔊 Nghe audio' để nghe câu thoại và chọn nghĩa đúng:",
+      "options": [
+        "Chính xác. Ông ấy là trưởng nhóm nghiên cứu mà khoa chúng ta đã hợp tác trong một thập kỷ. (with whom)",
+        "Có một người trong khoa chúng ta chuyên về mô hình hóa dữ liệu sinh thống kê. (someone who)",
+        "Tuyệt vời quá! Chúng ta cần một người có thể phân tích các biến số thử nghiệm lâm sàng phức tạp một cách nhanh chóng.",
+        "Ngày mai trời sẽ mưa to."
+      ],
+      "correctAnswer": "Chính xác. Ông ấy là trưởng nhóm nghiên cứu mà khoa chúng ta đã hợp tác trong một thập kỷ. (with whom)",
+      "explanationVi": "Câu nghe được: \"Precisely. He is the principal investigator with whom our faculty has collaborated for a decade.\" có nghĩa là: \"Chính xác. Ông ấy là trưởng nhóm nghiên cứu mà khoa chúng ta đã hợp tác trong một thập kỷ. (with whom)\"."
+    },
+    {
+      "id": "ex-061-24",
+      "type": "listening_reflex",
+      "promptVi": "[Nghe phản xạ] Nghe câu phát âm tiếng Anh và chọn bản dịch tiếng Việt đúng nhất:",
+      "audioPrompt": "There is someone in our department who specializes in bio-statistical data modeling.",
+      "question": "Nhấn nút '🔊 Nghe audio' để nghe câu thoại và chọn nghĩa đúng:",
+      "options": [
+        "Có một người trong khoa chúng ta chuyên về mô hình hóa dữ liệu sinh thống kê. (someone who)",
+        "Tuyệt vời quá! Chúng ta cần một người có thể phân tích các biến số thử nghiệm lâm sàng phức tạp một cách nhanh chóng.",
+        "Có điều gì cần lưu ý đặc biệt trước khi chúng ta nộp đề xuất tài trợ không? (anything that)",
+        "Ngày mai trời sẽ mưa to."
+      ],
+      "correctAnswer": "Có một người trong khoa chúng ta chuyên về mô hình hóa dữ liệu sinh thống kê. (someone who)",
+      "explanationVi": "Câu nghe được: \"There is someone in our department who specializes in bio-statistical data modeling.\" có nghĩa là: \"Có một người trong khoa chúng ta chuyên về mô hình hóa dữ liệu sinh thống kê. (someone who)\"."
+    },
+    {
+      "id": "ex-061-25",
       "type": "speaking_practice",
-      "promptVi": "Luyện nói qua Micro: Hãy nhấn nút 'Nói ngay' và phát âm chuẩn xác câu sau:",
+      "promptVi": "[Luyện nói qua Micro] Nhấn nút '🎙️ Bắt đầu nói' và đọc to, rõ ràng câu tiếng Anh sau:",
       "targetSentence": "The man to whom I spoke was very helpful.",
       "hintVi": "Người đàn ông mà tôi đã trò chuyện cùng rất nhiệt tình giúp đỡ.",
-      "explanationVi": "Mẫu câu chuẩn: \"The man to whom I spoke was very helpful.\" (Người đàn ông mà tôi đã trò chuyện cùng rất nhiệt tình giúp đỡ.). Hãy phát âm rõ ràng từng từ và giữ ngữ điệu tự nhiên."
+      "explanationVi": "Câu mục tiêu: \"The man to whom I spoke was very helpful.\" (Người đàn ông mà tôi đã trò chuyện cùng rất nhiệt tình giúp đỡ.). Luyện phát âm chuẩn xác từng âm tiết và ngữ điệu tự nhiên."
     },
     {
-      "id": "ex-061-07",
+      "id": "ex-061-26",
+      "type": "speaking_practice",
+      "promptVi": "[Luyện nói qua Micro] Nhấn nút '🎙️ Bắt đầu nói' và đọc to, rõ ràng câu tiếng Anh sau:",
+      "targetSentence": "This is the house in which I was born.",
+      "hintVi": "Đây là ngôi nhà mà tôi đã sinh ra tại đó.",
+      "explanationVi": "Câu mục tiêu: \"This is the house in which I was born.\" (Đây là ngôi nhà mà tôi đã sinh ra tại đó.). Luyện phát âm chuẩn xác từng âm tiết và ngữ điệu tự nhiên."
+    },
+    {
+      "id": "ex-061-27",
+      "type": "speaking_practice",
+      "promptVi": "[Luyện nói qua Micro] Nhấn nút '🎙️ Bắt đầu nói' và đọc to, rõ ràng câu tiếng Anh sau:",
+      "targetSentence": "Is there anything that I can do to help?",
+      "hintVi": "Có điều gì mà tôi có thể làm để giúp đỡ không?",
+      "explanationVi": "Câu mục tiêu: \"Is there anything that I can do to help?\" (Có điều gì mà tôi có thể làm để giúp đỡ không?). Luyện phát âm chuẩn xác từng âm tiết và ngữ điệu tự nhiên."
+    },
+    {
+      "id": "ex-061-28",
+      "type": "speaking_practice",
+      "promptVi": "[Luyện nói qua Micro] Nhấn nút '🎙️ Bắt đầu nói' và đọc to, rõ ràng câu tiếng Anh sau:",
+      "targetSentence": "He has three sisters, all of whom are teachers.",
+      "hintVi": "Anh ấy có ba người chị gái, tất cả họ đều là giáo viên.",
+      "explanationVi": "Câu mục tiêu: \"He has three sisters, all of whom are teachers.\" (Anh ấy có ba người chị gái, tất cả họ đều là giáo viên.). Luyện phát âm chuẩn xác từng âm tiết và ngữ điệu tự nhiên."
+    },
+    {
+      "id": "ex-061-29",
       "type": "reading_comprehension",
-      "promptVi": "Đọc đoạn hội thoại ngắn sau và trả lời câu hỏi đọc hiểu:",
-      "passage": "Professor Bennett: \"Good morning, Clara. Did you receive the scientific dossier about which we spoke yesterday?\"\nClara: \"Yes, Professor. Is Dr. Evans the lead geneticist to whom I should send our laboratory report?\"\nProfessor Bennett: \"Precisely. He is the principal investigator with whom our faculty has collaborated for a decade.\"\nClara: \"There is someone in our department who specializes in bio-statistical data modeling.\"",
-      "question": "Dựa vào ngữ cảnh đoạn hội thoại trên, Professor Bennett và Clara đang trao đổi về nội dung trọng tâm nào?",
+      "promptVi": "[Đọc hiểu đoạn văn 1] Đọc đoạn hội thoại mở đầu sau và trả lời câu hỏi:",
+      "passage": "Professor Bennett (Nam): \"Good morning, Clara. Did you receive the scientific dossier about which we spoke yesterday?\"\nClara (Nữ): \"Yes, Professor. Is Dr. Evans the lead geneticist to whom I should send our laboratory report?\"\nProfessor Bennett (Nam): \"Precisely. He is the principal investigator with whom our faculty has collaborated for a decade.\"\nClara (Nữ): \"There is someone in our department who specializes in bio-statistical data modeling.\"",
+      "question": "Câu hỏi: Trong đoạn hội thoại trên, các nhân vật đang thảo luận về chủ đề gì?",
       "options": [
         "Đại từ Quan hệ — Giới từ đi trước & Đại từ không xác định (Preposition + Whom/Which & Indefinite Pronouns)",
-        "Kế hoạch mua sắm và nấu ăn cho bữa tối gia đình",
-        "Lịch trình đi du lịch nghỉ dưỡng mùa hè",
-        "Dự báo thời tiết và nhiệt độ ngày mai"
+        "Kế hoạch đi nghỉ dưỡng cuối tuần ở bãi biển",
+        "Mua sắm quần áo và đồ dùng thể thao",
+        "Cách làm món ăn truyền thống gia đình"
       ],
       "correctAnswer": "Đại từ Quan hệ — Giới từ đi trước & Đại từ không xác định (Preposition + Whom/Which & Indefinite Pronouns)",
-      "explanationVi": "Đoạn hội thoại mở đầu được thiết kế để minh họa và ứng dụng trực tiếp chủ điểm: \"Bài 61: Đại từ Quan hệ — Giới từ đi trước & Đại từ không xác định (Preposition + Whom/Which & Indefinite Pronouns)\"."
+      "explanationVi": "Đoạn hội thoại mở đầu được thiết kế để minh họa trực tiếp cho chủ điểm ngữ pháp: \"Bài 61: Đại từ Quan hệ — Giới từ đi trước & Đại từ không xác định (Preposition + Whom/Which & Indefinite Pronouns)\"."
     },
     {
-      "id": "ex-061-08",
-      "type": "multiple_choice",
-      "promptVi": "Phản xạ dịch & Ngữ pháp: Chọn câu tiếng Anh diễn đạt đúng nghĩa:",
-      "question": "Dịch câu sang tiếng Anh: \"Có điều gì mà tôi có thể làm để giúp đỡ không?\"",
+      "id": "ex-061-30",
+      "type": "reading_comprehension",
+      "promptVi": "[Đọc hiểu đoạn văn 2] Đọc phần tiếp theo của đoạn hội thoại và chọn nhận định đúng:",
+      "passage": "Professor Bennett (Nam): \"That is excellent! We need someone that can analyze complex clinical trial variables quickly.\"\nClara (Nữ): \"Is there anything that needs special attention before we submit the grant proposal?\"\nProfessor Bennett (Nam): \"Make sure all the statistical figures on which our hypotheses rely are verified thoroughly.\"\nClara (Nữ): \"I checked everything that was included in the supplementary index last night.\"",
+      "question": "Nhận định nào sau đây là ĐÚNG với nội dung đoạn hội thoại trên?",
       "options": [
-        "Is there anything that I can do to help?",
-        "is there anything that I can do to help?",
-        "Is there anything that I can do at help?",
-        "This is the house in which I was born."
+        "Các câu hội thoại sử dụng đúng cấu trúc ngữ pháp \"Bài 61: Đại từ Quan hệ — Giới từ đi trước & Đại từ không xác định (Preposition + Whom/Which & Indefinite Pronouns)\".",
+        "Các nhân vật không hiểu ý nhau và từ chối nói chuyện.",
+        "Đoạn hội thoại nói về việc chuyển nhà sang thành phố khác.",
+        "Cả hai nhân vật đều đang ở sân bay chuẩn bị lên máy bay."
       ],
-      "correctAnswer": "Is there anything that I can do to help?",
-      "explanationVi": "Bản dịch chuẩn xác và đúng ngữ pháp là: \"Is there anything that I can do to help?\" (Có điều gì mà tôi có thể làm để giúp đỡ không?)."
+      "correctAnswer": "Các câu hội thoại sử dụng đúng cấu trúc ngữ pháp \"Bài 61: Đại từ Quan hệ — Giới từ đi trước & Đại từ không xác định (Preposition + Whom/Which & Indefinite Pronouns)\".",
+      "explanationVi": "Đoạn hội thoại thứ hai tiếp tục củng cố và ứng dụng các quy tắc ngữ pháp của \"Bài 61: Đại từ Quan hệ — Giới từ đi trước & Đại từ không xác định (Preposition + Whom/Which & Indefinite Pronouns)\"."
     }
   ]
 }

@@ -2,11 +2,26 @@
   "lessonId": "lesson-015",
   "lessonNumber": 15,
   "title": "Bài tập Ôn luyện: Bài 15: Động từ Thường — Quá khứ Đơn (Did / Didn't + động từ nguyên mẫu)",
+  "totalQuestions": 30,
   "questions": [
     {
       "id": "ex-015-01",
       "type": "multiple_choice",
-      "promptVi": "Chọn đáp án đúng nhất hoàn thành câu:",
+      "promptVi": "[Trắc nghiệm] Chọn từ/cụm từ đúng để hoàn thành câu (Hôm qua tôi đã xem một bộ phim thú vị.):",
+      "question": "I ___ an interesting movie yesterday.",
+      "options": [
+        "watched",
+        "watch",
+        "watches",
+        "watching"
+      ],
+      "correctAnswer": "watched",
+      "explanationVi": "Có từ chỉ thời gian quá khứ 'yesterday' nên dùng V-ed 'watched'."
+    },
+    {
+      "id": "ex-015-02",
+      "type": "multiple_choice",
+      "promptVi": "[Trắc nghiệm] Chọn từ/cụm từ đúng để hoàn thành câu (Cuối tuần trước bạn có về thăm ông bà không?):",
       "question": "___ you visit your grandparents last weekend?",
       "options": [
         "Did",
@@ -18,9 +33,65 @@
       "explanationVi": "Hành động trong quá khứ 'last weekend' dùng trợ động từ 'Did' ở đầu câu hỏi."
     },
     {
-      "id": "ex-015-02",
+      "id": "ex-015-03",
+      "type": "multiple_choice",
+      "promptVi": "[Trắc nghiệm] Chọn từ/cụm từ đúng để hoàn thành câu (Thứ Hai tuần trước họ đã không đi làm.):",
+      "question": "They didn't ___ to work last Monday.",
+      "options": [
+        "go",
+        "went",
+        "goes",
+        "going"
+      ],
+      "correctAnswer": "go",
+      "explanationVi": "Sau trợ động từ phủ định 'didn't', động từ chính luôn ở dạng nguyên mẫu 'go'."
+    },
+    {
+      "id": "ex-015-04",
+      "type": "multiple_choice",
+      "promptVi": "[Trắc nghiệm] Chọn từ/cụm từ đúng để hoàn thành câu (Cô ấy đã mua một chiếc máy tính xách tay mới hai ngày trước.):",
+      "question": "She ___ a new laptop two days ago.",
+      "options": [
+        "bought",
+        "buy",
+        "buys",
+        "buyed"
+      ],
+      "correctAnswer": "bought",
+      "explanationVi": "'Bought' là dạng quá khứ bất quy tắc của 'buy'."
+    },
+    {
+      "id": "ex-015-05",
+      "type": "multiple_choice",
+      "promptVi": "[Trắc nghiệm] Dịch câu sau sang tiếng Anh: \"Bạn có tận hưởng chuyến đi cuối tuần vừa rồi không, Grace?\"",
+      "question": "Chọn bản dịch chuẩn xác cho câu: \"Bạn có tận hưởng chuyến đi cuối tuần vừa rồi không, Grace?\"",
+      "options": [
+        "Did you enjoy your weekend trip, Grace?",
+        "be you enjoy your weekend trip, Grace?",
+        "Yes, I did! I visited my grandparents in the countryside.",
+        "I want to go to the park now."
+      ],
+      "correctAnswer": "Did you enjoy your weekend trip, Grace?",
+      "explanationVi": "Câu đúng là \"Did you enjoy your weekend trip, Grace?\" (Bạn có tận hưởng chuyến đi cuối tuần vừa rồi không, Grace?)."
+    },
+    {
+      "id": "ex-015-06",
+      "type": "multiple_choice",
+      "promptVi": "[Trắc nghiệm] Chọn câu trả lời hoặc cách diễn đạt phù hợp:",
+      "question": "Trong ngữ cảnh giao tiếp: \"Did you enjoy your weekend trip, Grace?\", câu phản hồi tự nhiên là gì?",
+      "options": [
+        "Yes, I did! I visited my grandparents in the countryside.",
+        "No, it is yesterday morning.",
+        "Yes, I will eat apple.",
+        "They are not at the library."
+      ],
+      "correctAnswer": "Yes, I did! I visited my grandparents in the countryside.",
+      "explanationVi": "Phản hồi phù hợp: \"Yes, I did! I visited my grandparents in the countryside.\" (Có chứ! Tôi đã về thăm ông bà ở vùng quê.)."
+    },
+    {
+      "id": "ex-015-07",
       "type": "fill_blank",
-      "promptVi": "Điền từ hoặc dạng đúng của động từ vào chỗ trống:",
+      "promptVi": "[Điền từ - (Dạng khẳng định)] Điền dạng đúng của động từ vào ô trống (Hôm qua tôi đã xem một bộ phim thú vị.):",
       "question": "I ___ an interesting movie yesterday.",
       "correctAnswer": "watched",
       "options": [
@@ -29,90 +100,326 @@
         "watches",
         "watching"
       ],
-      "explanationVi": "Có từ chỉ thời gian quá khứ 'yesterday' nên dùng V-ed 'watched'."
+      "explanationVi": "Đáp án chính xác: \"watched\". Hôm qua tôi đã xem một bộ phim thú vị.."
     },
     {
-      "id": "ex-015-03",
-      "type": "sentence_scramble",
-      "promptVi": "Sắp xếp các khối từ sau thành câu hoàn chỉnh:",
-      "words": [
-        "Monday.",
-        "last",
-        "work",
-        "to",
+      "id": "ex-015-08",
+      "type": "fill_blank",
+      "promptVi": "[Điền từ - (Dạng khẳng định)] Điền dạng đúng của động từ vào ô trống (Cuối tuần trước bạn có về thăm ông bà không?):",
+      "question": "___ you visit your grandparents last weekend?",
+      "correctAnswer": "Did",
+      "options": [
+        "Did",
+        "Do",
+        "Does",
+        "Were"
+      ],
+      "explanationVi": "Đáp án chính xác: \"Did\". Cuối tuần trước bạn có về thăm ông bà không?."
+    },
+    {
+      "id": "ex-015-09",
+      "type": "fill_blank",
+      "promptVi": "[Điền từ - (Dạng phủ định)] Điền dạng đúng của động từ vào ô trống (Thứ Hai tuần trước họ đã không đi làm.):",
+      "question": "They didn't ___ to work last Monday.",
+      "correctAnswer": "go",
+      "options": [
         "go",
+        "went",
+        "goes",
+        "going"
+      ],
+      "explanationVi": "Đáp án chính xác: \"go\". Thứ Hai tuần trước họ đã không đi làm.."
+    },
+    {
+      "id": "ex-015-10",
+      "type": "fill_blank",
+      "promptVi": "[Điền từ - (Dạng khẳng định)] Điền dạng đúng của động từ vào ô trống (Cô ấy đã mua một chiếc máy tính xách tay mới hai ngày trước.):",
+      "question": "She ___ a new laptop two days ago.",
+      "correctAnswer": "bought",
+      "options": [
+        "bought",
+        "buy",
+        "buys",
+        "buyed"
+      ],
+      "explanationVi": "Đáp án chính xác: \"bought\". Cô ấy đã mua một chiếc máy tính xách tay mới hai ngày trước.."
+    },
+    {
+      "id": "ex-015-11",
+      "type": "fill_blank",
+      "promptVi": "[Điền từ - Dạng PHỦ ĐỊNH] Hoàn thành câu phủ định sau:",
+      "correctAnswer": "I watched an interesting movie yesterday.",
+      "options": [
+        "I watched an interesting movie yesterday.",
+        "I watched an interesting movie yesterday.",
+        "Not I watched an interesting movie yesterday.",
+        "I watched an interesting movie yesterday. no"
+      ],
+      "explanationVi": "Dạng phủ định chuẩn: Thêm 'not' sau động từ chính."
+    },
+    {
+      "id": "ex-015-12",
+      "type": "sentence_scramble",
+      "promptVi": "[Sắp xếp câu] Xếp các khối từ thành câu hoàn chỉnh mang nghĩa: \"Hôm qua tôi đã xem một bộ phim thú vị.\"",
+      "words": [
+        "interesting",
+        "I",
+        "an",
+        "movie",
+        "watched",
+        "yesterday."
+      ],
+      "correctSentence": "I watched an interesting movie yesterday.",
+      "hintVi": "Hôm qua tôi đã xem một bộ phim thú vị.",
+      "explanationVi": "Câu hoàn chỉnh: \"I watched an interesting movie yesterday.\" (Hôm qua tôi đã xem một bộ phim thú vị.)."
+    },
+    {
+      "id": "ex-015-13",
+      "type": "sentence_scramble",
+      "promptVi": "[Sắp xếp câu] Xếp các khối từ thành câu hoàn chỉnh mang nghĩa: \"Cuối tuần trước bạn có về thăm ông bà không?\"",
+      "words": [
+        "weekend?",
+        "last",
+        "you",
+        "your",
+        "grandparents",
+        "visit",
+        "Did"
+      ],
+      "correctSentence": "Did you visit your grandparents last weekend?",
+      "hintVi": "Cuối tuần trước bạn có về thăm ông bà không?",
+      "explanationVi": "Câu hoàn chỉnh: \"Did you visit your grandparents last weekend?\" (Cuối tuần trước bạn có về thăm ông bà không?)."
+    },
+    {
+      "id": "ex-015-14",
+      "type": "sentence_scramble",
+      "promptVi": "[Sắp xếp câu] Xếp các khối từ thành câu hoàn chỉnh mang nghĩa: \"Thứ Hai tuần trước họ đã không đi làm.\"",
+      "words": [
+        "last",
+        "Monday.",
         "didn't",
-        "They"
+        "They",
+        "work",
+        "go",
+        "to"
       ],
       "correctSentence": "They didn't go to work last Monday.",
       "hintVi": "Thứ Hai tuần trước họ đã không đi làm.",
       "explanationVi": "Câu hoàn chỉnh: \"They didn't go to work last Monday.\" (Thứ Hai tuần trước họ đã không đi làm.)."
     },
     {
-      "id": "ex-015-04",
-      "type": "find_error",
-      "promptVi": "Chọn câu có cấu trúc ngữ pháp chuẩn xác nhất trong các câu sau:",
-      "question": "Dựa vào chủ điểm ngữ pháp \"Bài 15: Động từ Thường — Quá khứ Đơn (Did / Didn't + động từ nguyên mẫu)\", câu nào sau đây là hoàn toàn CHÍNH XÁC?",
-      "options": [
-        "She bought a new laptop two days ago.",
-        "She bought a new laptop two days ago. not",
-        "Is She bought a new laptop two days ago.",
-        "bought a new laptop two days ago. She"
+      "id": "ex-015-15",
+      "type": "sentence_scramble",
+      "promptVi": "[Sắp xếp câu] Xếp các khối từ thành câu hoàn chỉnh mang nghĩa: \"Cô ấy đã mua một chiếc máy tính xách tay mới hai ngày trước.\"",
+      "words": [
+        "ago.",
+        "She",
+        "laptop",
+        "days",
+        "bought",
+        "new",
+        "two",
+        "a"
       ],
-      "correctAnswer": "She bought a new laptop two days ago.",
-      "explanationVi": "Cấu trúc chuẩn xác là: \"She bought a new laptop two days ago.\" (Cô ấy đã mua một chiếc máy tính xách tay mới hai ngày trước.)."
+      "correctSentence": "She bought a new laptop two days ago.",
+      "hintVi": "Cô ấy đã mua một chiếc máy tính xách tay mới hai ngày trước.",
+      "explanationVi": "Câu hoàn chỉnh: \"She bought a new laptop two days ago.\" (Cô ấy đã mua một chiếc máy tính xách tay mới hai ngày trước.)."
     },
     {
-      "id": "ex-015-05",
+      "id": "ex-015-16",
+      "type": "sentence_scramble",
+      "promptVi": "[Sắp xếp câu] Xếp các từ thành câu hội thoại: \"Bạn đã làm những gì ở đó cùng với gia đình?\"",
+      "words": [
+        "you",
+        "your",
+        "did",
+        "with",
+        "What",
+        "do",
+        "family",
+        "there"
+      ],
+      "correctSentence": "What did you do there with your family?",
+      "hintVi": "Bạn đã làm những gì ở đó cùng với gia đình?",
+      "explanationVi": "Câu đúng: \"What did you do there with your family?\" (Bạn đã làm những gì ở đó cùng với gia đình?)."
+    },
+    {
+      "id": "ex-015-17",
+      "type": "find_error",
+      "promptVi": "[Tìm lỗi sai & Chọn câu đúng] Câu nào dưới đây có cấu trúc ngữ pháp HOÀN TOÀN ĐÚNG?",
+      "question": "Chủ điểm \"Bài 15: Động từ Thường — Quá khứ Đơn (Did / Didn't + động từ nguyên mẫu)\": Chọn câu CHÍNH XÁC:",
+      "options": [
+        "I watched an interesting movie yesterday.",
+        "yesterday. movie interesting an watched I",
+        "I watched an interesting movie yesterday. (sai)",
+        "I watched an interesting movie yesterday. (sai)"
+      ],
+      "correctAnswer": "I watched an interesting movie yesterday.",
+      "explanationVi": "Câu chuẩn xác là: \"I watched an interesting movie yesterday.\" (Hôm qua tôi đã xem một bộ phim thú vị.)."
+    },
+    {
+      "id": "ex-015-18",
+      "type": "find_error",
+      "promptVi": "[Tìm lỗi sai & Chọn câu đúng] Câu nào dưới đây có cấu trúc ngữ pháp HOÀN TOÀN ĐÚNG?",
+      "question": "Chủ điểm \"Bài 15: Động từ Thường — Quá khứ Đơn (Did / Didn't + động từ nguyên mẫu)\": Chọn câu CHÍNH XÁC:",
+      "options": [
+        "Did you visit your grandparents last weekend?",
+        "weekend? last grandparents your visit you Did",
+        "Did you visit your grandparents last weekend? (sai)",
+        "Did you visit your grandparents last weekend? (sai)"
+      ],
+      "correctAnswer": "Did you visit your grandparents last weekend?",
+      "explanationVi": "Câu chuẩn xác là: \"Did you visit your grandparents last weekend?\" (Cuối tuần trước bạn có về thăm ông bà không?)."
+    },
+    {
+      "id": "ex-015-19",
+      "type": "find_error",
+      "promptVi": "[Tìm lỗi sai & Chọn câu đúng] Câu nào dưới đây có cấu trúc ngữ pháp HOÀN TOÀN ĐÚNG?",
+      "question": "Chủ điểm \"Bài 15: Động từ Thường — Quá khứ Đơn (Did / Didn't + động từ nguyên mẫu)\": Chọn câu CHÍNH XÁC:",
+      "options": [
+        "They didn't go to work last Monday.",
+        "Monday. last work to go didn't They",
+        "They didn't go to work last Monday. (sai)",
+        "They didn't go to work last Monday. (sai)"
+      ],
+      "correctAnswer": "They didn't go to work last Monday.",
+      "explanationVi": "Câu chuẩn xác là: \"They didn't go to work last Monday.\" (Thứ Hai tuần trước họ đã không đi làm.)."
+    },
+    {
+      "id": "ex-015-20",
+      "type": "find_error",
+      "promptVi": "[Tìm lỗi sai & Chọn câu đúng] Câu nào dưới đây có cấu trúc ngữ pháp HOÀN TOÀN ĐÚNG?",
+      "question": "Chủ điểm \"Bài 15: Động từ Thường — Quá khứ Đơn (Did / Didn't + động từ nguyên mẫu)\": Chọn câu CHÍNH XÁC:",
+      "options": [
+        "She bought a new laptop two days ago.",
+        "ago. days two laptop new a bought She",
+        "She bought a new laptop two days ago. (sai)",
+        "She bought a new laptop two days ago. (sai)"
+      ],
+      "correctAnswer": "She bought a new laptop two days ago.",
+      "explanationVi": "Câu chuẩn xác là: \"She bought a new laptop two days ago.\" (Cô ấy đã mua một chiếc máy tính xách tay mới hai ngày trước.)."
+    },
+    {
+      "id": "ex-015-21",
       "type": "listening_reflex",
-      "promptVi": "Nghe câu tiếng Anh và chọn bản dịch tiếng Việt chuẩn xác:",
+      "promptVi": "[Nghe phản xạ] Nghe câu phát âm tiếng Anh và chọn bản dịch tiếng Việt đúng nhất:",
       "audioPrompt": "Did you enjoy your weekend trip, Grace?",
-      "question": "Nghe câu phát âm tiếng Anh và chọn nghĩa đúng:",
+      "question": "Nhấn nút '🔊 Nghe audio' để nghe câu thoại và chọn nghĩa đúng:",
       "options": [
         "Bạn có tận hưởng chuyến đi cuối tuần vừa rồi không, Grace?",
         "Có chứ! Tôi đã về thăm ông bà ở vùng quê.",
         "Bạn đã làm những gì ở đó cùng với gia đình?",
-        "Hôm nay chúng tôi đi mua sắm tại trung tâm thương mại."
+        "Ngày mai trời sẽ mưa to."
       ],
       "correctAnswer": "Bạn có tận hưởng chuyến đi cuối tuần vừa rồi không, Grace?",
-      "explanationVi": "Câu nghe được: \"Did you enjoy your weekend trip, Grace?\" nghĩa là: \"Bạn có tận hưởng chuyến đi cuối tuần vừa rồi không, Grace?\"."
+      "explanationVi": "Câu nghe được: \"Did you enjoy your weekend trip, Grace?\" có nghĩa là: \"Bạn có tận hưởng chuyến đi cuối tuần vừa rồi không, Grace?\"."
     },
     {
-      "id": "ex-015-06",
+      "id": "ex-015-22",
+      "type": "listening_reflex",
+      "promptVi": "[Nghe phản xạ] Nghe câu phát âm tiếng Anh và chọn bản dịch tiếng Việt đúng nhất:",
+      "audioPrompt": "Yes, I did! I visited my grandparents in the countryside.",
+      "question": "Nhấn nút '🔊 Nghe audio' để nghe câu thoại và chọn nghĩa đúng:",
+      "options": [
+        "Có chứ! Tôi đã về thăm ông bà ở vùng quê.",
+        "Bạn đã làm những gì ở đó cùng với gia đình?",
+        "Chúng tôi đã đi dạo trong vườn cây xanh và nấu một bữa tối thịnh soạn.",
+        "Ngày mai trời sẽ mưa to."
+      ],
+      "correctAnswer": "Có chứ! Tôi đã về thăm ông bà ở vùng quê.",
+      "explanationVi": "Câu nghe được: \"Yes, I did! I visited my grandparents in the countryside.\" có nghĩa là: \"Có chứ! Tôi đã về thăm ông bà ở vùng quê.\"."
+    },
+    {
+      "id": "ex-015-23",
+      "type": "listening_reflex",
+      "promptVi": "[Nghe phản xạ] Nghe câu phát âm tiếng Anh và chọn bản dịch tiếng Việt đúng nhất:",
+      "audioPrompt": "What did you do there with your family?",
+      "question": "Nhấn nút '🔊 Nghe audio' để nghe câu thoại và chọn nghĩa đúng:",
+      "options": [
+        "Bạn đã làm những gì ở đó cùng với gia đình?",
+        "Chúng tôi đã đi dạo trong vườn cây xanh và nấu một bữa tối thịnh soạn.",
+        "Bạn có đi câu cá ở con sông gần nhà ông bà không?",
+        "Ngày mai trời sẽ mưa to."
+      ],
+      "correctAnswer": "Bạn đã làm những gì ở đó cùng với gia đình?",
+      "explanationVi": "Câu nghe được: \"What did you do there with your family?\" có nghĩa là: \"Bạn đã làm những gì ở đó cùng với gia đình?\"."
+    },
+    {
+      "id": "ex-015-24",
+      "type": "listening_reflex",
+      "promptVi": "[Nghe phản xạ] Nghe câu phát âm tiếng Anh và chọn bản dịch tiếng Việt đúng nhất:",
+      "audioPrompt": "We walked in the green garden and cooked a big dinner.",
+      "question": "Nhấn nút '🔊 Nghe audio' để nghe câu thoại và chọn nghĩa đúng:",
+      "options": [
+        "Chúng tôi đã đi dạo trong vườn cây xanh và nấu một bữa tối thịnh soạn.",
+        "Bạn có đi câu cá ở con sông gần nhà ông bà không?",
+        "Không, chúng tôi đã không đi câu cá vì trời đã mưa vào chiều Chủ nhật.",
+        "Ngày mai trời sẽ mưa to."
+      ],
+      "correctAnswer": "Chúng tôi đã đi dạo trong vườn cây xanh và nấu một bữa tối thịnh soạn.",
+      "explanationVi": "Câu nghe được: \"We walked in the green garden and cooked a big dinner.\" có nghĩa là: \"Chúng tôi đã đi dạo trong vườn cây xanh và nấu một bữa tối thịnh soạn.\"."
+    },
+    {
+      "id": "ex-015-25",
       "type": "speaking_practice",
-      "promptVi": "Luyện nói qua Micro: Hãy nhấn nút 'Nói ngay' và phát âm chuẩn xác câu sau:",
+      "promptVi": "[Luyện nói qua Micro] Nhấn nút '🎙️ Bắt đầu nói' và đọc to, rõ ràng câu tiếng Anh sau:",
       "targetSentence": "I watched an interesting movie yesterday.",
       "hintVi": "Hôm qua tôi đã xem một bộ phim thú vị.",
-      "explanationVi": "Mẫu câu chuẩn: \"I watched an interesting movie yesterday.\" (Hôm qua tôi đã xem một bộ phim thú vị.). Hãy phát âm rõ ràng từng từ và giữ ngữ điệu tự nhiên."
+      "explanationVi": "Câu mục tiêu: \"I watched an interesting movie yesterday.\" (Hôm qua tôi đã xem một bộ phim thú vị.). Luyện phát âm chuẩn xác từng âm tiết và ngữ điệu tự nhiên."
     },
     {
-      "id": "ex-015-07",
+      "id": "ex-015-26",
+      "type": "speaking_practice",
+      "promptVi": "[Luyện nói qua Micro] Nhấn nút '🎙️ Bắt đầu nói' và đọc to, rõ ràng câu tiếng Anh sau:",
+      "targetSentence": "Did you visit your grandparents last weekend?",
+      "hintVi": "Cuối tuần trước bạn có về thăm ông bà không?",
+      "explanationVi": "Câu mục tiêu: \"Did you visit your grandparents last weekend?\" (Cuối tuần trước bạn có về thăm ông bà không?). Luyện phát âm chuẩn xác từng âm tiết và ngữ điệu tự nhiên."
+    },
+    {
+      "id": "ex-015-27",
+      "type": "speaking_practice",
+      "promptVi": "[Luyện nói qua Micro] Nhấn nút '🎙️ Bắt đầu nói' và đọc to, rõ ràng câu tiếng Anh sau:",
+      "targetSentence": "They didn't go to work last Monday.",
+      "hintVi": "Thứ Hai tuần trước họ đã không đi làm.",
+      "explanationVi": "Câu mục tiêu: \"They didn't go to work last Monday.\" (Thứ Hai tuần trước họ đã không đi làm.). Luyện phát âm chuẩn xác từng âm tiết và ngữ điệu tự nhiên."
+    },
+    {
+      "id": "ex-015-28",
+      "type": "speaking_practice",
+      "promptVi": "[Luyện nói qua Micro] Nhấn nút '🎙️ Bắt đầu nói' và đọc to, rõ ràng câu tiếng Anh sau:",
+      "targetSentence": "She bought a new laptop two days ago.",
+      "hintVi": "Cô ấy đã mua một chiếc máy tính xách tay mới hai ngày trước.",
+      "explanationVi": "Câu mục tiêu: \"She bought a new laptop two days ago.\" (Cô ấy đã mua một chiếc máy tính xách tay mới hai ngày trước.). Luyện phát âm chuẩn xác từng âm tiết và ngữ điệu tự nhiên."
+    },
+    {
+      "id": "ex-015-29",
       "type": "reading_comprehension",
-      "promptVi": "Đọc đoạn hội thoại ngắn sau và trả lời câu hỏi đọc hiểu:",
-      "passage": "Eric: \"Did you enjoy your weekend trip, Grace?\"\nGrace: \"Yes, I did! I visited my grandparents in the countryside.\"\nEric: \"What did you do there with your family?\"\nGrace: \"We walked in the green garden and cooked a big dinner.\"",
-      "question": "Dựa vào ngữ cảnh đoạn hội thoại trên, Eric và Grace đang trao đổi về nội dung trọng tâm nào?",
+      "promptVi": "[Đọc hiểu đoạn văn 1] Đọc đoạn hội thoại mở đầu sau và trả lời câu hỏi:",
+      "passage": "Eric (Nam): \"Did you enjoy your weekend trip, Grace?\"\nGrace (Nữ): \"Yes, I did! I visited my grandparents in the countryside.\"\nEric (Nam): \"What did you do there with your family?\"\nGrace (Nữ): \"We walked in the green garden and cooked a big dinner.\"",
+      "question": "Câu hỏi: Trong đoạn hội thoại trên, các nhân vật đang thảo luận về chủ đề gì?",
       "options": [
         "Động từ Thường — Quá khứ Đơn (Did / Didn't + động từ nguyên mẫu)",
-        "Kế hoạch mua sắm và nấu ăn cho bữa tối gia đình",
-        "Lịch trình đi du lịch nghỉ dưỡng mùa hè",
-        "Dự báo thời tiết và nhiệt độ ngày mai"
+        "Kế hoạch đi nghỉ dưỡng cuối tuần ở bãi biển",
+        "Mua sắm quần áo và đồ dùng thể thao",
+        "Cách làm món ăn truyền thống gia đình"
       ],
       "correctAnswer": "Động từ Thường — Quá khứ Đơn (Did / Didn't + động từ nguyên mẫu)",
-      "explanationVi": "Đoạn hội thoại mở đầu được thiết kế để minh họa và ứng dụng trực tiếp chủ điểm: \"Bài 15: Động từ Thường — Quá khứ Đơn (Did / Didn't + động từ nguyên mẫu)\"."
+      "explanationVi": "Đoạn hội thoại mở đầu được thiết kế để minh họa trực tiếp cho chủ điểm ngữ pháp: \"Bài 15: Động từ Thường — Quá khứ Đơn (Did / Didn't + động từ nguyên mẫu)\"."
     },
     {
-      "id": "ex-015-08",
-      "type": "multiple_choice",
-      "promptVi": "Phản xạ dịch & Ngữ pháp: Chọn câu tiếng Anh diễn đạt đúng nghĩa:",
-      "question": "Dịch câu sang tiếng Anh: \"Thứ Hai tuần trước họ đã không đi làm.\"",
+      "id": "ex-015-30",
+      "type": "reading_comprehension",
+      "promptVi": "[Đọc hiểu đoạn văn 2] Đọc phần tiếp theo của đoạn hội thoại và chọn nhận định đúng:",
+      "passage": "Eric (Nam): \"Did you go fishing in the river near their house?\"\nGrace (Nữ): \"No, we didn't go fishing because it rained on Sunday afternoon.\"\nEric (Nam): \"Did you buy any fresh fruits to bring back?\"\nGrace (Nữ): \"Yes, my grandmother gave me a big basket of organic mangoes.\"",
+      "question": "Nhận định nào sau đây là ĐÚNG với nội dung đoạn hội thoại trên?",
       "options": [
-        "They didn't go to work last Monday.",
-        "They didn't go at work last Monday.",
-        "Did you visit your grandparents last weekend?",
-        "Incorrect grammatical form 3"
+        "Các câu hội thoại sử dụng đúng cấu trúc ngữ pháp \"Bài 15: Động từ Thường — Quá khứ Đơn (Did / Didn't + động từ nguyên mẫu)\".",
+        "Các nhân vật không hiểu ý nhau và từ chối nói chuyện.",
+        "Đoạn hội thoại nói về việc chuyển nhà sang thành phố khác.",
+        "Cả hai nhân vật đều đang ở sân bay chuẩn bị lên máy bay."
       ],
-      "correctAnswer": "They didn't go to work last Monday.",
-      "explanationVi": "Bản dịch chuẩn xác và đúng ngữ pháp là: \"They didn't go to work last Monday.\" (Thứ Hai tuần trước họ đã không đi làm.)."
+      "correctAnswer": "Các câu hội thoại sử dụng đúng cấu trúc ngữ pháp \"Bài 15: Động từ Thường — Quá khứ Đơn (Did / Didn't + động từ nguyên mẫu)\".",
+      "explanationVi": "Đoạn hội thoại thứ hai tiếp tục củng cố và ứng dụng các quy tắc ngữ pháp của \"Bài 15: Động từ Thường — Quá khứ Đơn (Did / Didn't + động từ nguyên mẫu)\"."
     }
   ]
 }

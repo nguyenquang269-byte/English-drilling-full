@@ -2,11 +2,26 @@
   "lessonId": "lesson-047",
   "lessonNumber": 47,
   "title": "Bài tập Ôn luyện: Bài 47: Câu Bị động — Hiện tại Hoàn thành (Have / Has been + V3/ed)",
+  "totalQuestions": 30,
   "questions": [
     {
       "id": "ex-047-01",
       "type": "multiple_choice",
-      "promptVi": "Chọn đáp án đúng nhất hoàn thành câu:",
+      "promptVi": "[Trắc nghiệm] Chọn từ/cụm từ đúng để hoàn thành câu (Bản báo cáo đã được gửi đi rồi.):",
+      "question": "The report has ___ sent.",
+      "options": [
+        "been",
+        "being",
+        "be",
+        "was"
+      ],
+      "correctAnswer": "been",
+      "explanationVi": "Bị động thì hiện tại hoàn thành: has + been + V3 (sent)."
+    },
+    {
+      "id": "ex-047-02",
+      "type": "multiple_choice",
+      "promptVi": "[Trắc nghiệm] Chọn từ/cụm từ đúng để hoàn thành câu (Cây cầu đã được xây dựng xong.):",
       "question": "The bridge has been ___.",
       "options": [
         "built",
@@ -18,9 +33,65 @@
       "explanationVi": "Phân từ hai V3 của 'build' là 'built'."
     },
     {
-      "id": "ex-047-02",
+      "id": "ex-047-03",
+      "type": "multiple_choice",
+      "promptVi": "[Trắc nghiệm] Chọn từ/cụm từ đúng để hoàn thành câu (Tất cả vé đã được bán hết.):",
+      "question": "All the tickets ___ been sold.",
+      "options": [
+        "have",
+        "has",
+        "are",
+        "were"
+      ],
+      "correctAnswer": "have",
+      "explanationVi": "'tickets' là danh từ số nhiều nên dùng 'have been sold'."
+    },
+    {
+      "id": "ex-047-04",
+      "type": "multiple_choice",
+      "promptVi": "[Trắc nghiệm] Chọn từ/cụm từ đúng để hoàn thành câu (Xe của bạn đã được sửa xong chưa?):",
+      "question": "___ your car been repaired yet?",
+      "options": [
+        "Has",
+        "Have",
+        "Is",
+        "Did"
+      ],
+      "correctAnswer": "Has",
+      "explanationVi": "'your car' là danh từ số ít nên bắt đầu bằng 'Has'."
+    },
+    {
+      "id": "ex-047-05",
+      "type": "multiple_choice",
+      "promptVi": "[Trắc nghiệm] Dịch câu sau sang tiếng Anh: \"Báo cáo tài chính hàng năm đã được hoàn thành và nộp bởi nhóm kế toán của chúng ta chưa?\"",
+      "question": "Chọn bản dịch chuẩn xác cho câu: \"Báo cáo tài chính hàng năm đã được hoàn thành và nộp bởi nhóm kế toán của chúng ta chưa?\"",
+      "options": [
+        "Has the annual financial report been completed and submitted by our accounting team?",
+        "be the annual financial report been completed and submitted by our accounting team?",
+        "Yes, it has been thoroughly reviewed and signed by the chief financial officer.",
+        "I want to go to the park now."
+      ],
+      "correctAnswer": "Has the annual financial report been completed and submitted by our accounting team?",
+      "explanationVi": "Câu đúng là \"Has the annual financial report been completed and submitted by our accounting team?\" (Báo cáo tài chính hàng năm đã được hoàn thành và nộp bởi nhóm kế toán của chúng ta chưa?)."
+    },
+    {
+      "id": "ex-047-06",
+      "type": "multiple_choice",
+      "promptVi": "[Trắc nghiệm] Chọn câu trả lời hoặc cách diễn đạt phù hợp:",
+      "question": "Trong ngữ cảnh giao tiếp: \"Has the annual financial report been completed and submitted by our accounting team?\", câu phản hồi tự nhiên là gì?",
+      "options": [
+        "Yes, it has been thoroughly reviewed and signed by the chief financial officer.",
+        "No, it is yesterday morning.",
+        "Yes, I will eat apple.",
+        "They are not at the library."
+      ],
+      "correctAnswer": "Yes, it has been thoroughly reviewed and signed by the chief financial officer.",
+      "explanationVi": "Phản hồi phù hợp: \"Yes, it has been thoroughly reviewed and signed by the chief financial officer.\" (Vâng, nó đã được xem xét kỹ lưỡng và được ký bởi giám đốc tài chính rồi.)."
+    },
+    {
+      "id": "ex-047-07",
       "type": "fill_blank",
-      "promptVi": "Điền từ hoặc dạng đúng của động từ vào chỗ trống:",
+      "promptVi": "[Điền từ - (Dạng khẳng định)] Điền dạng đúng của động từ vào ô trống (Bản báo cáo đã được gửi đi rồi.):",
       "question": "The report has ___ sent.",
       "correctAnswer": "been",
       "options": [
@@ -29,89 +100,325 @@
         "be",
         "was"
       ],
-      "explanationVi": "Bị động thì hiện tại hoàn thành: has + been + V3 (sent)."
+      "explanationVi": "Đáp án chính xác: \"been\". Bản báo cáo đã được gửi đi rồi.."
     },
     {
-      "id": "ex-047-03",
+      "id": "ex-047-08",
+      "type": "fill_blank",
+      "promptVi": "[Điền từ - (Dạng khẳng định)] Điền dạng đúng của động từ vào ô trống (Cây cầu đã được xây dựng xong.):",
+      "question": "The bridge has been ___.",
+      "correctAnswer": "built",
+      "options": [
+        "built",
+        "build",
+        "building",
+        "builded"
+      ],
+      "explanationVi": "Đáp án chính xác: \"built\". Cây cầu đã được xây dựng xong.."
+    },
+    {
+      "id": "ex-047-09",
+      "type": "fill_blank",
+      "promptVi": "[Điền từ - (Dạng khẳng định)] Điền dạng đúng của động từ vào ô trống (Tất cả vé đã được bán hết.):",
+      "question": "All the tickets ___ been sold.",
+      "correctAnswer": "have",
+      "options": [
+        "have",
+        "has",
+        "are",
+        "were"
+      ],
+      "explanationVi": "Đáp án chính xác: \"have\". Tất cả vé đã được bán hết.."
+    },
+    {
+      "id": "ex-047-10",
+      "type": "fill_blank",
+      "promptVi": "[Điền từ - (Dạng khẳng định)] Điền dạng đúng của động từ vào ô trống (Xe của bạn đã được sửa xong chưa?):",
+      "question": "___ your car been repaired yet?",
+      "correctAnswer": "Has",
+      "options": [
+        "Has",
+        "Have",
+        "Is",
+        "Did"
+      ],
+      "explanationVi": "Đáp án chính xác: \"Has\". Xe của bạn đã được sửa xong chưa?."
+    },
+    {
+      "id": "ex-047-11",
+      "type": "fill_blank",
+      "promptVi": "[Điền từ - Dạng PHỦ ĐỊNH] Hoàn thành câu phủ định sau:",
+      "correctAnswer": "The report has been sent.",
+      "options": [
+        "The report has been sent.",
+        "The report has been sent.",
+        "Not The report has been sent.",
+        "The report has been sent. no"
+      ],
+      "explanationVi": "Dạng phủ định chuẩn: Thêm 'not' sau động từ chính."
+    },
+    {
+      "id": "ex-047-12",
       "type": "sentence_scramble",
-      "promptVi": "Sắp xếp các khối từ sau thành câu hoàn chỉnh:",
+      "promptVi": "[Sắp xếp câu] Xếp các khối từ thành câu hoàn chỉnh mang nghĩa: \"Bản báo cáo đã được gửi đi rồi.\"",
+      "words": [
+        "The",
+        "sent.",
+        "been",
+        "report",
+        "has"
+      ],
+      "correctSentence": "The report has been sent.",
+      "hintVi": "Bản báo cáo đã được gửi đi rồi.",
+      "explanationVi": "Câu hoàn chỉnh: \"The report has been sent.\" (Bản báo cáo đã được gửi đi rồi.)."
+    },
+    {
+      "id": "ex-047-13",
+      "type": "sentence_scramble",
+      "promptVi": "[Sắp xếp câu] Xếp các khối từ thành câu hoàn chỉnh mang nghĩa: \"Cây cầu đã được xây dựng xong.\"",
+      "words": [
+        "been",
+        "built.",
+        "bridge",
+        "The",
+        "has"
+      ],
+      "correctSentence": "The bridge has been built.",
+      "hintVi": "Cây cầu đã được xây dựng xong.",
+      "explanationVi": "Câu hoàn chỉnh: \"The bridge has been built.\" (Cây cầu đã được xây dựng xong.)."
+    },
+    {
+      "id": "ex-047-14",
+      "type": "sentence_scramble",
+      "promptVi": "[Sắp xếp câu] Xếp các khối từ thành câu hoàn chỉnh mang nghĩa: \"Tất cả vé đã được bán hết.\"",
       "words": [
         "sold.",
+        "All",
         "been",
-        "have",
         "tickets",
         "the",
-        "All"
+        "have"
       ],
       "correctSentence": "All the tickets have been sold.",
       "hintVi": "Tất cả vé đã được bán hết.",
       "explanationVi": "Câu hoàn chỉnh: \"All the tickets have been sold.\" (Tất cả vé đã được bán hết.)."
     },
     {
-      "id": "ex-047-04",
-      "type": "find_error",
-      "promptVi": "Chọn câu có cấu trúc ngữ pháp chuẩn xác nhất trong các câu sau:",
-      "question": "Dựa vào chủ điểm ngữ pháp \"Bài 47: Câu Bị động — Hiện tại Hoàn thành (Have / Has been + V3/ed)\", câu nào sau đây là hoàn toàn CHÍNH XÁC?",
-      "options": [
-        "Has your car been repaired yet?",
-        "be your car been repaired yet?",
-        "Is Has your car been repaired yet?",
-        "your car been repaired yet? Has"
+      "id": "ex-047-15",
+      "type": "sentence_scramble",
+      "promptVi": "[Sắp xếp câu] Xếp các khối từ thành câu hoàn chỉnh mang nghĩa: \"Xe của bạn đã được sửa xong chưa?\"",
+      "words": [
+        "yet?",
+        "your",
+        "Has",
+        "been",
+        "car",
+        "repaired"
       ],
-      "correctAnswer": "Has your car been repaired yet?",
-      "explanationVi": "Cấu trúc chuẩn xác là: \"Has your car been repaired yet?\" (Xe của bạn đã được sửa xong chưa?)."
+      "correctSentence": "Has your car been repaired yet?",
+      "hintVi": "Xe của bạn đã được sửa xong chưa?",
+      "explanationVi": "Câu hoàn chỉnh: \"Has your car been repaired yet?\" (Xe của bạn đã được sửa xong chưa?)."
     },
     {
-      "id": "ex-047-05",
+      "id": "ex-047-16",
+      "type": "sentence_scramble",
+      "promptVi": "[Sắp xếp câu] Xếp các từ thành câu hội thoại: \"Tất cả bàn ghế phòng hội nghị mới mua đã được giao tới chưa?\"",
+      "words": [
+        "yet",
+        "tables",
+        "Have",
+        "all",
+        "and",
+        "the",
+        "purchased",
+        "conference",
+        "room",
+        "delivered",
+        "been",
+        "newly",
+        "chairs"
+      ],
+      "correctSentence": "Have all the newly purchased conference room chairs and tables been delivered yet?",
+      "hintVi": "Tất cả bàn ghế phòng hội nghị mới mua đã được giao tới chưa?",
+      "explanationVi": "Câu đúng: \"Have all the newly purchased conference room chairs and tables been delivered yet?\" (Tất cả bàn ghế phòng hội nghị mới mua đã được giao tới chưa?)."
+    },
+    {
+      "id": "ex-047-17",
+      "type": "find_error",
+      "promptVi": "[Tìm lỗi sai & Chọn câu đúng] Câu nào dưới đây có cấu trúc ngữ pháp HOÀN TOÀN ĐÚNG?",
+      "question": "Chủ điểm \"Bài 47: Câu Bị động — Hiện tại Hoàn thành (Have / Has been + V3/ed)\": Chọn câu CHÍNH XÁC:",
+      "options": [
+        "The report has been sent.",
+        "sent. been has report The",
+        "The report has been sent. (sai)",
+        "The report has been sent. (sai)"
+      ],
+      "correctAnswer": "The report has been sent.",
+      "explanationVi": "Câu chuẩn xác là: \"The report has been sent.\" (Bản báo cáo đã được gửi đi rồi.)."
+    },
+    {
+      "id": "ex-047-18",
+      "type": "find_error",
+      "promptVi": "[Tìm lỗi sai & Chọn câu đúng] Câu nào dưới đây có cấu trúc ngữ pháp HOÀN TOÀN ĐÚNG?",
+      "question": "Chủ điểm \"Bài 47: Câu Bị động — Hiện tại Hoàn thành (Have / Has been + V3/ed)\": Chọn câu CHÍNH XÁC:",
+      "options": [
+        "The bridge has been built.",
+        "built. been has bridge The",
+        "The bridge has been built. (sai)",
+        "The bridge has been built. (sai)"
+      ],
+      "correctAnswer": "The bridge has been built.",
+      "explanationVi": "Câu chuẩn xác là: \"The bridge has been built.\" (Cây cầu đã được xây dựng xong.)."
+    },
+    {
+      "id": "ex-047-19",
+      "type": "find_error",
+      "promptVi": "[Tìm lỗi sai & Chọn câu đúng] Câu nào dưới đây có cấu trúc ngữ pháp HOÀN TOÀN ĐÚNG?",
+      "question": "Chủ điểm \"Bài 47: Câu Bị động — Hiện tại Hoàn thành (Have / Has been + V3/ed)\": Chọn câu CHÍNH XÁC:",
+      "options": [
+        "All the tickets have been sold.",
+        "sold. been have tickets the All",
+        "All the tickets have been sold. (sai)",
+        "All the tickets have been sold. (sai)"
+      ],
+      "correctAnswer": "All the tickets have been sold.",
+      "explanationVi": "Câu chuẩn xác là: \"All the tickets have been sold.\" (Tất cả vé đã được bán hết.)."
+    },
+    {
+      "id": "ex-047-20",
+      "type": "find_error",
+      "promptVi": "[Tìm lỗi sai & Chọn câu đúng] Câu nào dưới đây có cấu trúc ngữ pháp HOÀN TOÀN ĐÚNG?",
+      "question": "Chủ điểm \"Bài 47: Câu Bị động — Hiện tại Hoàn thành (Have / Has been + V3/ed)\": Chọn câu CHÍNH XÁC:",
+      "options": [
+        "Has your car been repaired yet?",
+        "yet? repaired been car your Has",
+        "Has your car been repaired yet? (sai)",
+        "Has your car been repaired yet? (sai)"
+      ],
+      "correctAnswer": "Has your car been repaired yet?",
+      "explanationVi": "Câu chuẩn xác là: \"Has your car been repaired yet?\" (Xe của bạn đã được sửa xong chưa?)."
+    },
+    {
+      "id": "ex-047-21",
       "type": "listening_reflex",
-      "promptVi": "Nghe câu tiếng Anh và chọn bản dịch tiếng Việt chuẩn xác:",
+      "promptVi": "[Nghe phản xạ] Nghe câu phát âm tiếng Anh và chọn bản dịch tiếng Việt đúng nhất:",
       "audioPrompt": "Has the annual financial report been completed and submitted by our accounting team?",
-      "question": "Nghe câu phát âm tiếng Anh và chọn nghĩa đúng:",
+      "question": "Nhấn nút '🔊 Nghe audio' để nghe câu thoại và chọn nghĩa đúng:",
       "options": [
         "Báo cáo tài chính hàng năm đã được hoàn thành và nộp bởi nhóm kế toán của chúng ta chưa?",
         "Vâng, nó đã được xem xét kỹ lưỡng và được ký bởi giám đốc tài chính rồi.",
         "Tất cả bàn ghế phòng hội nghị mới mua đã được giao tới chưa?",
-        "Hôm nay chúng tôi đi mua sắm tại trung tâm thương mại."
+        "Ngày mai trời sẽ mưa to."
       ],
       "correctAnswer": "Báo cáo tài chính hàng năm đã được hoàn thành và nộp bởi nhóm kế toán của chúng ta chưa?",
-      "explanationVi": "Câu nghe được: \"Has the annual financial report been completed and submitted by our accounting team?\" nghĩa là: \"Báo cáo tài chính hàng năm đã được hoàn thành và nộp bởi nhóm kế toán của chúng ta chưa?\"."
+      "explanationVi": "Câu nghe được: \"Has the annual financial report been completed and submitted by our accounting team?\" có nghĩa là: \"Báo cáo tài chính hàng năm đã được hoàn thành và nộp bởi nhóm kế toán của chúng ta chưa?\"."
     },
     {
-      "id": "ex-047-06",
+      "id": "ex-047-22",
+      "type": "listening_reflex",
+      "promptVi": "[Nghe phản xạ] Nghe câu phát âm tiếng Anh và chọn bản dịch tiếng Việt đúng nhất:",
+      "audioPrompt": "Yes, it has been thoroughly reviewed and signed by the chief financial officer.",
+      "question": "Nhấn nút '🔊 Nghe audio' để nghe câu thoại và chọn nghĩa đúng:",
+      "options": [
+        "Vâng, nó đã được xem xét kỹ lưỡng và được ký bởi giám đốc tài chính rồi.",
+        "Tất cả bàn ghế phòng hội nghị mới mua đã được giao tới chưa?",
+        "Chúng vừa mới được giao sáng nay và đã được lắp ráp gọn gàng trên tầng ba.",
+        "Ngày mai trời sẽ mưa to."
+      ],
+      "correctAnswer": "Vâng, nó đã được xem xét kỹ lưỡng và được ký bởi giám đốc tài chính rồi.",
+      "explanationVi": "Câu nghe được: \"Yes, it has been thoroughly reviewed and signed by the chief financial officer.\" có nghĩa là: \"Vâng, nó đã được xem xét kỹ lưỡng và được ký bởi giám đốc tài chính rồi.\"."
+    },
+    {
+      "id": "ex-047-23",
+      "type": "listening_reflex",
+      "promptVi": "[Nghe phản xạ] Nghe câu phát âm tiếng Anh và chọn bản dịch tiếng Việt đúng nhất:",
+      "audioPrompt": "Have all the newly purchased conference room chairs and tables been delivered yet?",
+      "question": "Nhấn nút '🔊 Nghe audio' để nghe câu thoại và chọn nghĩa đúng:",
+      "options": [
+        "Tất cả bàn ghế phòng hội nghị mới mua đã được giao tới chưa?",
+        "Chúng vừa mới được giao sáng nay và đã được lắp ráp gọn gàng trên tầng ba.",
+        "Hệ thống điều hòa trung tâm bị hỏng đã được kỹ thuật viên sửa chữa chưa?",
+        "Ngày mai trời sẽ mưa to."
+      ],
+      "correctAnswer": "Tất cả bàn ghế phòng hội nghị mới mua đã được giao tới chưa?",
+      "explanationVi": "Câu nghe được: \"Have all the newly purchased conference room chairs and tables been delivered yet?\" có nghĩa là: \"Tất cả bàn ghế phòng hội nghị mới mua đã được giao tới chưa?\"."
+    },
+    {
+      "id": "ex-047-24",
+      "type": "listening_reflex",
+      "promptVi": "[Nghe phản xạ] Nghe câu phát âm tiếng Anh và chọn bản dịch tiếng Việt đúng nhất:",
+      "audioPrompt": "They have just been delivered this morning and assembled neatly on the third floor.",
+      "question": "Nhấn nút '🔊 Nghe audio' để nghe câu thoại và chọn nghĩa đúng:",
+      "options": [
+        "Chúng vừa mới được giao sáng nay và đã được lắp ráp gọn gàng trên tầng ba.",
+        "Hệ thống điều hòa trung tâm bị hỏng đã được kỹ thuật viên sửa chữa chưa?",
+        "Chưa, nó vẫn chưa được sửa vì các linh kiện thay thế vẫn chưa tới.",
+        "Ngày mai trời sẽ mưa to."
+      ],
+      "correctAnswer": "Chúng vừa mới được giao sáng nay và đã được lắp ráp gọn gàng trên tầng ba.",
+      "explanationVi": "Câu nghe được: \"They have just been delivered this morning and assembled neatly on the third floor.\" có nghĩa là: \"Chúng vừa mới được giao sáng nay và đã được lắp ráp gọn gàng trên tầng ba.\"."
+    },
+    {
+      "id": "ex-047-25",
       "type": "speaking_practice",
-      "promptVi": "Luyện nói qua Micro: Hãy nhấn nút 'Nói ngay' và phát âm chuẩn xác câu sau:",
+      "promptVi": "[Luyện nói qua Micro] Nhấn nút '🎙️ Bắt đầu nói' và đọc to, rõ ràng câu tiếng Anh sau:",
       "targetSentence": "The report has been sent.",
       "hintVi": "Bản báo cáo đã được gửi đi rồi.",
-      "explanationVi": "Mẫu câu chuẩn: \"The report has been sent.\" (Bản báo cáo đã được gửi đi rồi.). Hãy phát âm rõ ràng từng từ và giữ ngữ điệu tự nhiên."
+      "explanationVi": "Câu mục tiêu: \"The report has been sent.\" (Bản báo cáo đã được gửi đi rồi.). Luyện phát âm chuẩn xác từng âm tiết và ngữ điệu tự nhiên."
     },
     {
-      "id": "ex-047-07",
+      "id": "ex-047-26",
+      "type": "speaking_practice",
+      "promptVi": "[Luyện nói qua Micro] Nhấn nút '🎙️ Bắt đầu nói' và đọc to, rõ ràng câu tiếng Anh sau:",
+      "targetSentence": "The bridge has been built.",
+      "hintVi": "Cây cầu đã được xây dựng xong.",
+      "explanationVi": "Câu mục tiêu: \"The bridge has been built.\" (Cây cầu đã được xây dựng xong.). Luyện phát âm chuẩn xác từng âm tiết và ngữ điệu tự nhiên."
+    },
+    {
+      "id": "ex-047-27",
+      "type": "speaking_practice",
+      "promptVi": "[Luyện nói qua Micro] Nhấn nút '🎙️ Bắt đầu nói' và đọc to, rõ ràng câu tiếng Anh sau:",
+      "targetSentence": "All the tickets have been sold.",
+      "hintVi": "Tất cả vé đã được bán hết.",
+      "explanationVi": "Câu mục tiêu: \"All the tickets have been sold.\" (Tất cả vé đã được bán hết.). Luyện phát âm chuẩn xác từng âm tiết và ngữ điệu tự nhiên."
+    },
+    {
+      "id": "ex-047-28",
+      "type": "speaking_practice",
+      "promptVi": "[Luyện nói qua Micro] Nhấn nút '🎙️ Bắt đầu nói' và đọc to, rõ ràng câu tiếng Anh sau:",
+      "targetSentence": "Has your car been repaired yet?",
+      "hintVi": "Xe của bạn đã được sửa xong chưa?",
+      "explanationVi": "Câu mục tiêu: \"Has your car been repaired yet?\" (Xe của bạn đã được sửa xong chưa?). Luyện phát âm chuẩn xác từng âm tiết và ngữ điệu tự nhiên."
+    },
+    {
+      "id": "ex-047-29",
       "type": "reading_comprehension",
-      "promptVi": "Đọc đoạn hội thoại ngắn sau và trả lời câu hỏi đọc hiểu:",
-      "passage": "Marcus: \"Has the annual financial report been completed and submitted by our accounting team?\"\nElena: \"Yes, it has been thoroughly reviewed and signed by the chief financial officer.\"\nMarcus: \"Have all the newly purchased conference room chairs and tables been delivered yet?\"\nElena: \"They have just been delivered this morning and assembled neatly on the third floor.\"",
-      "question": "Dựa vào ngữ cảnh đoạn hội thoại trên, Marcus và Elena đang trao đổi về nội dung trọng tâm nào?",
+      "promptVi": "[Đọc hiểu đoạn văn 1] Đọc đoạn hội thoại mở đầu sau và trả lời câu hỏi:",
+      "passage": "Marcus (Nam): \"Has the annual financial report been completed and submitted by our accounting team?\"\nElena (Nữ): \"Yes, it has been thoroughly reviewed and signed by the chief financial officer.\"\nMarcus (Nam): \"Have all the newly purchased conference room chairs and tables been delivered yet?\"\nElena (Nữ): \"They have just been delivered this morning and assembled neatly on the third floor.\"",
+      "question": "Câu hỏi: Trong đoạn hội thoại trên, các nhân vật đang thảo luận về chủ đề gì?",
       "options": [
         "Câu Bị động — Hiện tại Hoàn thành (Have / Has been + V3/ed)",
-        "Kế hoạch mua sắm và nấu ăn cho bữa tối gia đình",
-        "Lịch trình đi du lịch nghỉ dưỡng mùa hè",
-        "Dự báo thời tiết và nhiệt độ ngày mai"
+        "Kế hoạch đi nghỉ dưỡng cuối tuần ở bãi biển",
+        "Mua sắm quần áo và đồ dùng thể thao",
+        "Cách làm món ăn truyền thống gia đình"
       ],
       "correctAnswer": "Câu Bị động — Hiện tại Hoàn thành (Have / Has been + V3/ed)",
-      "explanationVi": "Đoạn hội thoại mở đầu được thiết kế để minh họa và ứng dụng trực tiếp chủ điểm: \"Bài 47: Câu Bị động — Hiện tại Hoàn thành (Have / Has been + V3/ed)\"."
+      "explanationVi": "Đoạn hội thoại mở đầu được thiết kế để minh họa trực tiếp cho chủ điểm ngữ pháp: \"Bài 47: Câu Bị động — Hiện tại Hoàn thành (Have / Has been + V3/ed)\"."
     },
     {
-      "id": "ex-047-08",
-      "type": "multiple_choice",
-      "promptVi": "Phản xạ dịch & Ngữ pháp: Chọn câu tiếng Anh diễn đạt đúng nghĩa:",
-      "question": "Dịch câu sang tiếng Anh: \"Tất cả vé đã được bán hết.\"",
+      "id": "ex-047-30",
+      "type": "reading_comprehension",
+      "promptVi": "[Đọc hiểu đoạn văn 2] Đọc phần tiếp theo của đoạn hội thoại và chọn nhận định đúng:",
+      "passage": "Marcus (Nam): \"Has the broken central air conditioning system been fixed by the technician?\"\nElena (Nữ): \"No, it hasn't been repaired yet because the replacement parts have not arrived.\"\nMarcus (Nam): \"Have the official invitation letters been sent to our key international partners?\"\nElena (Nữ): \"All fifty invitations have already been emailed, and twenty guests have confirmed.\"",
+      "question": "Nhận định nào sau đây là ĐÚNG với nội dung đoạn hội thoại trên?",
       "options": [
-        "All the tickets have been sold.",
-        "All the tickets is been sold.",
-        "The bridge has been built.",
-        "Incorrect grammatical form 3"
+        "Các câu hội thoại sử dụng đúng cấu trúc ngữ pháp \"Bài 47: Câu Bị động — Hiện tại Hoàn thành (Have / Has been + V3/ed)\".",
+        "Các nhân vật không hiểu ý nhau và từ chối nói chuyện.",
+        "Đoạn hội thoại nói về việc chuyển nhà sang thành phố khác.",
+        "Cả hai nhân vật đều đang ở sân bay chuẩn bị lên máy bay."
       ],
-      "correctAnswer": "All the tickets have been sold.",
-      "explanationVi": "Bản dịch chuẩn xác và đúng ngữ pháp là: \"All the tickets have been sold.\" (Tất cả vé đã được bán hết.)."
+      "correctAnswer": "Các câu hội thoại sử dụng đúng cấu trúc ngữ pháp \"Bài 47: Câu Bị động — Hiện tại Hoàn thành (Have / Has been + V3/ed)\".",
+      "explanationVi": "Đoạn hội thoại thứ hai tiếp tục củng cố và ứng dụng các quy tắc ngữ pháp của \"Bài 47: Câu Bị động — Hiện tại Hoàn thành (Have / Has been + V3/ed)\"."
     }
   ]
 }

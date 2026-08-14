@@ -2,11 +2,26 @@
   "lessonId": "lesson-085",
   "lessonNumber": 85,
   "title": "Bài tập Ôn luyện: Bài 85: Danh từ Đếm được & Không đếm được Nâng cao — Lượng từ Toàn diện (Countable/Uncountable Shifts & Quantifiers)",
+  "totalQuestions": 30,
   "questions": [
     {
       "id": "ex-085-01",
       "type": "multiple_choice",
-      "promptVi": "Chọn đáp án đúng nhất hoàn thành câu:",
+      "promptVi": "[Trắc nghiệm] Chọn từ/cụm từ đúng để hoàn thành câu (Có đủ chỗ trống cho tất cả chúng ta trong xe ô tô không?):",
+      "question": "Is there enough ___ for all of us in the car?",
+      "options": [
+        "room",
+        "a room",
+        "rooms",
+        "the room"
+      ],
+      "correctAnswer": "room",
+      "explanationVi": "'room' mang nghĩa chỗ trống/không gian là danh từ không đếm được."
+    },
+    {
+      "id": "ex-085-02",
+      "type": "multiple_choice",
+      "promptVi": "[Trắc nghiệm] Chọn từ/cụm từ đúng để hoàn thành câu (Mỗi một học sinh đều có một phong cách học tập khác nhau.):",
       "question": "Each student ___ a different learning style.",
       "options": [
         "has",
@@ -18,9 +33,65 @@
       "explanationVi": "'Each + danh từ số ít' đi với động từ số ít 'has'."
     },
     {
-      "id": "ex-085-02",
+      "id": "ex-085-03",
+      "type": "multiple_choice",
+      "promptVi": "[Trắc nghiệm] Chọn từ/cụm từ đúng để hoàn thành câu (Tôi đã dành trọn cả ngày để đọc cuốn tiểu thuyết đó.):",
+      "question": "I spent the ___ day reading that novel.",
+      "options": [
+        "whole",
+        "all",
+        "each",
+        "every"
+      ],
+      "correctAnswer": "whole",
+      "explanationVi": "'the whole day' có nghĩa là trọn vẹn cả ngày."
+    },
+    {
+      "id": "ex-085-04",
+      "type": "multiple_choice",
+      "promptVi": "[Trắc nghiệm] Chọn từ/cụm từ đúng để hoàn thành câu (Cả hai câu trả lời đều không đúng.):",
+      "question": "Neither answer ___ correct.",
+      "options": [
+        "is",
+        "are",
+        "be",
+        "were not"
+      ],
+      "correctAnswer": "is",
+      "explanationVi": "'Neither + danh từ số ít' đi với động từ số ít 'is' (bản thân mang nghĩa phủ định)."
+    },
+    {
+      "id": "ex-085-05",
+      "type": "multiple_choice",
+      "promptVi": "[Trắc nghiệm] Dịch câu sau sang tiếng Anh: \"Chào buổi sáng Clara. Phòng cung ứng của chúng ta đã đặt đủ kính thủy tinh cho các tủ trưng bày bánh chưa? (glass = chất liệu kính - không đếm được)\"",
+      "question": "Chọn bản dịch chuẩn xác cho câu: \"Chào buổi sáng Clara. Phòng cung ứng của chúng ta đã đặt đủ kính thủy tinh cho các tủ trưng bày bánh chưa? (glass = chất liệu kính - không đếm được)\"",
+      "options": [
+        "Good morning, Clara. Did our supply department order enough glass for the pastry display cases?",
+        "Good morning, Clara. be our supply department order enough glass for the pastry display cases?",
+        "Yes, Chef! And I also ordered fifty wine glasses for the banquet hall.",
+        "I want to go to the park now."
+      ],
+      "correctAnswer": "Good morning, Clara. Did our supply department order enough glass for the pastry display cases?",
+      "explanationVi": "Câu đúng là \"Good morning, Clara. Did our supply department order enough glass for the pastry display cases?\" (Chào buổi sáng Clara. Phòng cung ứng của chúng ta đã đặt đủ kính thủy tinh cho các tủ trưng bày bánh chưa? (glass = chất liệu kính - không đếm được))."
+    },
+    {
+      "id": "ex-085-06",
+      "type": "multiple_choice",
+      "promptVi": "[Trắc nghiệm] Chọn câu trả lời hoặc cách diễn đạt phù hợp:",
+      "question": "Trong ngữ cảnh giao tiếp: \"Good morning, Clara. Did our supply department order enough glass for the pastry display cases?\", câu phản hồi tự nhiên là gì?",
+      "options": [
+        "Yes, Chef! And I also ordered fifty wine glasses for the banquet hall.",
+        "No, it is yesterday morning.",
+        "Yes, I will eat apple.",
+        "They are not at the library."
+      ],
+      "correctAnswer": "Yes, Chef! And I also ordered fifty wine glasses for the banquet hall.",
+      "explanationVi": "Phản hồi phù hợp: \"Yes, Chef! And I also ordered fifty wine glasses for the banquet hall.\" (Vâng thưa Bếp trưởng! Và tôi cũng đã đặt năm mươi chiếc ly uống rượu vang cho sảnh tiệc. (glasses = những chiếc ly - đếm được))."
+    },
+    {
+      "id": "ex-085-07",
       "type": "fill_blank",
-      "promptVi": "Điền từ hoặc dạng đúng của động từ vào chỗ trống:",
+      "promptVi": "[Điền từ - (Dạng khẳng định)] Điền dạng đúng của động từ vào ô trống (Có đủ chỗ trống cho tất cả chúng ta trong xe ô tô không?):",
       "question": "Is there enough ___ for all of us in the car?",
       "correctAnswer": "room",
       "options": [
@@ -29,91 +100,333 @@
         "rooms",
         "the room"
       ],
-      "explanationVi": "'room' mang nghĩa chỗ trống/không gian là danh từ không đếm được."
+      "explanationVi": "Đáp án chính xác: \"room\". Có đủ chỗ trống cho tất cả chúng ta trong xe ô tô không?."
     },
     {
-      "id": "ex-085-03",
-      "type": "sentence_scramble",
-      "promptVi": "Sắp xếp các khối từ sau thành câu hoàn chỉnh:",
-      "words": [
-        "novel.",
-        "that",
-        "reading",
-        "day",
+      "id": "ex-085-08",
+      "type": "fill_blank",
+      "promptVi": "[Điền từ - (Dạng khẳng định)] Điền dạng đúng của động từ vào ô trống (Mỗi một học sinh đều có một phong cách học tập khác nhau.):",
+      "question": "Each student ___ a different learning style.",
+      "correctAnswer": "has",
+      "options": [
+        "has",
+        "have",
+        "are having",
+        "having"
+      ],
+      "explanationVi": "Đáp án chính xác: \"has\". Mỗi một học sinh đều có một phong cách học tập khác nhau.."
+    },
+    {
+      "id": "ex-085-09",
+      "type": "fill_blank",
+      "promptVi": "[Điền từ - (Dạng khẳng định)] Điền dạng đúng của động từ vào ô trống (Tôi đã dành trọn cả ngày để đọc cuốn tiểu thuyết đó.):",
+      "question": "I spent the ___ day reading that novel.",
+      "correctAnswer": "whole",
+      "options": [
         "whole",
+        "all",
+        "each",
+        "every"
+      ],
+      "explanationVi": "Đáp án chính xác: \"whole\". Tôi đã dành trọn cả ngày để đọc cuốn tiểu thuyết đó.."
+    },
+    {
+      "id": "ex-085-10",
+      "type": "fill_blank",
+      "promptVi": "[Điền từ - (Dạng khẳng định)] Điền dạng đúng của động từ vào ô trống (Cả hai câu trả lời đều không đúng.):",
+      "question": "Neither answer ___ correct.",
+      "correctAnswer": "is",
+      "options": [
+        "is",
+        "are",
+        "be",
+        "were not"
+      ],
+      "explanationVi": "Đáp án chính xác: \"is\". Cả hai câu trả lời đều không đúng.."
+    },
+    {
+      "id": "ex-085-11",
+      "type": "fill_blank",
+      "promptVi": "[Điền từ - Dạng PHỦ ĐỊNH] Hoàn thành câu phủ định sau:",
+      "correctAnswer": "Is not there enough room for all of us in the car?",
+      "options": [
+        "Is not there enough room for all of us in the car?",
+        "Is there enough room for all of us in the car?",
+        "Not Is there enough room for all of us in the car?",
+        "Is there enough room for all of us in the car? no"
+      ],
+      "explanationVi": "Dạng phủ định chuẩn: Thêm 'not' sau động từ chính."
+    },
+    {
+      "id": "ex-085-12",
+      "type": "sentence_scramble",
+      "promptVi": "[Sắp xếp câu] Xếp các khối từ thành câu hoàn chỉnh mang nghĩa: \"Có đủ chỗ trống cho tất cả chúng ta trong xe ô tô không?\"",
+      "words": [
+        "enough",
         "the",
+        "us",
+        "there",
+        "room",
+        "Is",
+        "all",
+        "for",
+        "of",
+        "car?",
+        "in"
+      ],
+      "correctSentence": "Is there enough room for all of us in the car?",
+      "hintVi": "Có đủ chỗ trống cho tất cả chúng ta trong xe ô tô không?",
+      "explanationVi": "Câu hoàn chỉnh: \"Is there enough room for all of us in the car?\" (Có đủ chỗ trống cho tất cả chúng ta trong xe ô tô không?)."
+    },
+    {
+      "id": "ex-085-13",
+      "type": "sentence_scramble",
+      "promptVi": "[Sắp xếp câu] Xếp các khối từ thành câu hoàn chỉnh mang nghĩa: \"Mỗi một học sinh đều có một phong cách học tập khác nhau.\"",
+      "words": [
+        "different",
+        "student",
+        "Each",
+        "a",
+        "has",
+        "learning",
+        "style."
+      ],
+      "correctSentence": "Each student has a different learning style.",
+      "hintVi": "Mỗi một học sinh đều có một phong cách học tập khác nhau.",
+      "explanationVi": "Câu hoàn chỉnh: \"Each student has a different learning style.\" (Mỗi một học sinh đều có một phong cách học tập khác nhau.)."
+    },
+    {
+      "id": "ex-085-14",
+      "type": "sentence_scramble",
+      "promptVi": "[Sắp xếp câu] Xếp các khối từ thành câu hoàn chỉnh mang nghĩa: \"Tôi đã dành trọn cả ngày để đọc cuốn tiểu thuyết đó.\"",
+      "words": [
+        "whole",
+        "reading",
+        "novel.",
+        "the",
+        "I",
+        "that",
         "spent",
-        "I"
+        "day"
       ],
       "correctSentence": "I spent the whole day reading that novel.",
       "hintVi": "Tôi đã dành trọn cả ngày để đọc cuốn tiểu thuyết đó.",
       "explanationVi": "Câu hoàn chỉnh: \"I spent the whole day reading that novel.\" (Tôi đã dành trọn cả ngày để đọc cuốn tiểu thuyết đó.)."
     },
     {
-      "id": "ex-085-04",
+      "id": "ex-085-15",
+      "type": "sentence_scramble",
+      "promptVi": "[Sắp xếp câu] Xếp các khối từ thành câu hoàn chỉnh mang nghĩa: \"Cả hai câu trả lời đều không đúng.\"",
+      "words": [
+        "answer",
+        "correct.",
+        "is",
+        "Neither"
+      ],
+      "correctSentence": "Neither answer is correct.",
+      "hintVi": "Cả hai câu trả lời đều không đúng.",
+      "explanationVi": "Câu hoàn chỉnh: \"Neither answer is correct.\" (Cả hai câu trả lời đều không đúng.)."
+    },
+    {
+      "id": "ex-085-16",
+      "type": "sentence_scramble",
+      "promptVi": "[Sắp xếp câu] Xếp các từ thành câu hội thoại: \"Có đủ không gian trống trong tủ đông lớn để chứa các lô cá hồi tươi không? (room = chỗ trống/không gian - không đếm được)\"",
+      "words": [
+        "fresh",
+        "Is",
+        "salmon",
+        "there",
+        "walk-in",
+        "to",
+        "enough",
+        "room",
+        "the",
+        "shipments",
+        "freezer",
+        "store",
+        "in"
+      ],
+      "correctSentence": "Is there enough room in the walk-in freezer to store fresh salmon shipments?",
+      "hintVi": "Có đủ không gian trống trong tủ đông lớn để chứa các lô cá hồi tươi không? (room = chỗ trống/không gian - không đếm được)",
+      "explanationVi": "Câu đúng: \"Is there enough room in the walk-in freezer to store fresh salmon shipments?\" (Có đủ không gian trống trong tủ đông lớn để chứa các lô cá hồi tươi không? (room = chỗ trống/không gian - không đếm được))."
+    },
+    {
+      "id": "ex-085-17",
       "type": "find_error",
-      "promptVi": "Chọn câu có cấu trúc ngữ pháp chuẩn xác nhất trong các câu sau:",
-      "question": "Dựa vào chủ điểm ngữ pháp \"Bài 85: Danh từ Đếm được & Không đếm được Nâng cao — Lượng từ Toàn diện (Countable/Uncountable Shifts & Quantifiers)\", câu nào sau đây là hoàn toàn CHÍNH XÁC?",
+      "promptVi": "[Tìm lỗi sai & Chọn câu đúng] Câu nào dưới đây có cấu trúc ngữ pháp HOÀN TOÀN ĐÚNG?",
+      "question": "Chủ điểm \"Bài 85: Danh từ Đếm được & Không đếm được Nâng cao — Lượng từ Toàn diện (Countable/Uncountable Shifts & Quantifiers)\": Chọn câu CHÍNH XÁC:",
+      "options": [
+        "Is there enough room for all of us in the car?",
+        "be there enough room for all of us in the car?",
+        "are not is there enough room for all of us in the car?",
+        "car? the in us of all for room enough there Is"
+      ],
+      "correctAnswer": "Is there enough room for all of us in the car?",
+      "explanationVi": "Câu chuẩn xác là: \"Is there enough room for all of us in the car?\" (Có đủ chỗ trống cho tất cả chúng ta trong xe ô tô không?)."
+    },
+    {
+      "id": "ex-085-18",
+      "type": "find_error",
+      "promptVi": "[Tìm lỗi sai & Chọn câu đúng] Câu nào dưới đây có cấu trúc ngữ pháp HOÀN TOÀN ĐÚNG?",
+      "question": "Chủ điểm \"Bài 85: Danh từ Đếm được & Không đếm được Nâng cao — Lượng từ Toàn diện (Countable/Uncountable Shifts & Quantifiers)\": Chọn câu CHÍNH XÁC:",
+      "options": [
+        "Each student has a different learning style.",
+        "style. learning different a has student Each",
+        "Each student has a different learning style. (sai)",
+        "Each student has a different learning style. (sai)"
+      ],
+      "correctAnswer": "Each student has a different learning style.",
+      "explanationVi": "Câu chuẩn xác là: \"Each student has a different learning style.\" (Mỗi một học sinh đều có một phong cách học tập khác nhau.)."
+    },
+    {
+      "id": "ex-085-19",
+      "type": "find_error",
+      "promptVi": "[Tìm lỗi sai & Chọn câu đúng] Câu nào dưới đây có cấu trúc ngữ pháp HOÀN TOÀN ĐÚNG?",
+      "question": "Chủ điểm \"Bài 85: Danh từ Đếm được & Không đếm được Nâng cao — Lượng từ Toàn diện (Countable/Uncountable Shifts & Quantifiers)\": Chọn câu CHÍNH XÁC:",
+      "options": [
+        "I spent the whole day reading that novel.",
+        "novel. that reading day whole the spent I",
+        "I spent the whole day reading that novel. (sai)",
+        "I spent the whole day reading that novel. (sai)"
+      ],
+      "correctAnswer": "I spent the whole day reading that novel.",
+      "explanationVi": "Câu chuẩn xác là: \"I spent the whole day reading that novel.\" (Tôi đã dành trọn cả ngày để đọc cuốn tiểu thuyết đó.)."
+    },
+    {
+      "id": "ex-085-20",
+      "type": "find_error",
+      "promptVi": "[Tìm lỗi sai & Chọn câu đúng] Câu nào dưới đây có cấu trúc ngữ pháp HOÀN TOÀN ĐÚNG?",
+      "question": "Chủ điểm \"Bài 85: Danh từ Đếm được & Không đếm được Nâng cao — Lượng từ Toàn diện (Countable/Uncountable Shifts & Quantifiers)\": Chọn câu CHÍNH XÁC:",
       "options": [
         "Neither answer is correct.",
         "Neither answer be correct.",
-        "Is Neither answer is correct.",
-        "answer is correct. Neither"
+        "Neither answer are not is correct.",
+        "correct. is answer Neither"
       ],
       "correctAnswer": "Neither answer is correct.",
-      "explanationVi": "Cấu trúc chuẩn xác là: \"Neither answer is correct.\" (Cả hai câu trả lời đều không đúng.)."
+      "explanationVi": "Câu chuẩn xác là: \"Neither answer is correct.\" (Cả hai câu trả lời đều không đúng.)."
     },
     {
-      "id": "ex-085-05",
+      "id": "ex-085-21",
       "type": "listening_reflex",
-      "promptVi": "Nghe câu tiếng Anh và chọn bản dịch tiếng Việt chuẩn xác:",
+      "promptVi": "[Nghe phản xạ] Nghe câu phát âm tiếng Anh và chọn bản dịch tiếng Việt đúng nhất:",
       "audioPrompt": "Good morning, Clara. Did our supply department order enough glass for the pastry display cases?",
-      "question": "Nghe câu phát âm tiếng Anh và chọn nghĩa đúng:",
+      "question": "Nhấn nút '🔊 Nghe audio' để nghe câu thoại và chọn nghĩa đúng:",
       "options": [
         "Chào buổi sáng Clara. Phòng cung ứng của chúng ta đã đặt đủ kính thủy tinh cho các tủ trưng bày bánh chưa? (glass = chất liệu kính - không đếm được)",
         "Vâng thưa Bếp trưởng! Và tôi cũng đã đặt năm mươi chiếc ly uống rượu vang cho sảnh tiệc. (glasses = những chiếc ly - đếm được)",
         "Có đủ không gian trống trong tủ đông lớn để chứa các lô cá hồi tươi không? (room = chỗ trống/không gian - không đếm được)",
-        "Hôm nay chúng tôi đi mua sắm tại trung tâm thương mại."
+        "Ngày mai trời sẽ mưa to."
       ],
       "correctAnswer": "Chào buổi sáng Clara. Phòng cung ứng của chúng ta đã đặt đủ kính thủy tinh cho các tủ trưng bày bánh chưa? (glass = chất liệu kính - không đếm được)",
-      "explanationVi": "Câu nghe được: \"Good morning, Clara. Did our supply department order enough glass for the pastry display cases?\" nghĩa là: \"Chào buổi sáng Clara. Phòng cung ứng của chúng ta đã đặt đủ kính thủy tinh cho các tủ trưng bày bánh chưa? (glass = chất liệu kính - không đếm được)\"."
+      "explanationVi": "Câu nghe được: \"Good morning, Clara. Did our supply department order enough glass for the pastry display cases?\" có nghĩa là: \"Chào buổi sáng Clara. Phòng cung ứng của chúng ta đã đặt đủ kính thủy tinh cho các tủ trưng bày bánh chưa? (glass = chất liệu kính - không đếm được)\"."
     },
     {
-      "id": "ex-085-06",
+      "id": "ex-085-22",
+      "type": "listening_reflex",
+      "promptVi": "[Nghe phản xạ] Nghe câu phát âm tiếng Anh và chọn bản dịch tiếng Việt đúng nhất:",
+      "audioPrompt": "Yes, Chef! And I also ordered fifty wine glasses for the banquet hall.",
+      "question": "Nhấn nút '🔊 Nghe audio' để nghe câu thoại và chọn nghĩa đúng:",
+      "options": [
+        "Vâng thưa Bếp trưởng! Và tôi cũng đã đặt năm mươi chiếc ly uống rượu vang cho sảnh tiệc. (glasses = những chiếc ly - đếm được)",
+        "Có đủ không gian trống trong tủ đông lớn để chứa các lô cá hồi tươi không? (room = chỗ trống/không gian - không đếm được)",
+        "Vâng, chúng tôi đã sắp xếp toàn bộ khu vực kho chứa để mỗi một ngăn kệ đều sạch sẽ và dễ lấy. (the whole area / every single shelf)",
+        "Ngày mai trời sẽ mưa to."
+      ],
+      "correctAnswer": "Vâng thưa Bếp trưởng! Và tôi cũng đã đặt năm mươi chiếc ly uống rượu vang cho sảnh tiệc. (glasses = những chiếc ly - đếm được)",
+      "explanationVi": "Câu nghe được: \"Yes, Chef! And I also ordered fifty wine glasses for the banquet hall.\" có nghĩa là: \"Vâng thưa Bếp trưởng! Và tôi cũng đã đặt năm mươi chiếc ly uống rượu vang cho sảnh tiệc. (glasses = những chiếc ly - đếm được)\"."
+    },
+    {
+      "id": "ex-085-23",
+      "type": "listening_reflex",
+      "promptVi": "[Nghe phản xạ] Nghe câu phát âm tiếng Anh và chọn bản dịch tiếng Việt đúng nhất:",
+      "audioPrompt": "Is there enough room in the walk-in freezer to store fresh salmon shipments?",
+      "question": "Nhấn nút '🔊 Nghe audio' để nghe câu thoại và chọn nghĩa đúng:",
+      "options": [
+        "Có đủ không gian trống trong tủ đông lớn để chứa các lô cá hồi tươi không? (room = chỗ trống/không gian - không đếm được)",
+        "Vâng, chúng tôi đã sắp xếp toàn bộ khu vực kho chứa để mỗi một ngăn kệ đều sạch sẽ và dễ lấy. (the whole area / every single shelf)",
+        "Tôi cần một ít giấy trắng để phác thảo thực đơn theo mùa, và sau đó hãy mang cho tôi tờ báo sáng nay nhé. (paper = giấy viết / a paper = tờ báo)",
+        "Ngày mai trời sẽ mưa to."
+      ],
+      "correctAnswer": "Có đủ không gian trống trong tủ đông lớn để chứa các lô cá hồi tươi không? (room = chỗ trống/không gian - không đếm được)",
+      "explanationVi": "Câu nghe được: \"Is there enough room in the walk-in freezer to store fresh salmon shipments?\" có nghĩa là: \"Có đủ không gian trống trong tủ đông lớn để chứa các lô cá hồi tươi không? (room = chỗ trống/không gian - không đếm được)\"."
+    },
+    {
+      "id": "ex-085-24",
+      "type": "listening_reflex",
+      "promptVi": "[Nghe phản xạ] Nghe câu phát âm tiếng Anh và chọn bản dịch tiếng Việt đúng nhất:",
+      "audioPrompt": "Yes, we organized the whole storage area so every single shelf is clean and accessible.",
+      "question": "Nhấn nút '🔊 Nghe audio' để nghe câu thoại và chọn nghĩa đúng:",
+      "options": [
+        "Vâng, chúng tôi đã sắp xếp toàn bộ khu vực kho chứa để mỗi một ngăn kệ đều sạch sẽ và dễ lấy. (the whole area / every single shelf)",
+        "Tôi cần một ít giấy trắng để phác thảo thực đơn theo mùa, và sau đó hãy mang cho tôi tờ báo sáng nay nhé. (paper = giấy viết / a paper = tờ báo)",
+        "Đây là tờ nhật báo thưa Bếp trưởng. Cả các đầu bếp tập sự và các trợ lý làm bánh đều đã sẵn sàng. (Both... and...)",
+        "Ngày mai trời sẽ mưa to."
+      ],
+      "correctAnswer": "Vâng, chúng tôi đã sắp xếp toàn bộ khu vực kho chứa để mỗi một ngăn kệ đều sạch sẽ và dễ lấy. (the whole area / every single shelf)",
+      "explanationVi": "Câu nghe được: \"Yes, we organized the whole storage area so every single shelf is clean and accessible.\" có nghĩa là: \"Vâng, chúng tôi đã sắp xếp toàn bộ khu vực kho chứa để mỗi một ngăn kệ đều sạch sẽ và dễ lấy. (the whole area / every single shelf)\"."
+    },
+    {
+      "id": "ex-085-25",
       "type": "speaking_practice",
-      "promptVi": "Luyện nói qua Micro: Hãy nhấn nút 'Nói ngay' và phát âm chuẩn xác câu sau:",
+      "promptVi": "[Luyện nói qua Micro] Nhấn nút '🎙️ Bắt đầu nói' và đọc to, rõ ràng câu tiếng Anh sau:",
       "targetSentence": "Is there enough room for all of us in the car?",
       "hintVi": "Có đủ chỗ trống cho tất cả chúng ta trong xe ô tô không?",
-      "explanationVi": "Mẫu câu chuẩn: \"Is there enough room for all of us in the car?\" (Có đủ chỗ trống cho tất cả chúng ta trong xe ô tô không?). Hãy phát âm rõ ràng từng từ và giữ ngữ điệu tự nhiên."
+      "explanationVi": "Câu mục tiêu: \"Is there enough room for all of us in the car?\" (Có đủ chỗ trống cho tất cả chúng ta trong xe ô tô không?). Luyện phát âm chuẩn xác từng âm tiết và ngữ điệu tự nhiên."
     },
     {
-      "id": "ex-085-07",
+      "id": "ex-085-26",
+      "type": "speaking_practice",
+      "promptVi": "[Luyện nói qua Micro] Nhấn nút '🎙️ Bắt đầu nói' và đọc to, rõ ràng câu tiếng Anh sau:",
+      "targetSentence": "Each student has a different learning style.",
+      "hintVi": "Mỗi một học sinh đều có một phong cách học tập khác nhau.",
+      "explanationVi": "Câu mục tiêu: \"Each student has a different learning style.\" (Mỗi một học sinh đều có một phong cách học tập khác nhau.). Luyện phát âm chuẩn xác từng âm tiết và ngữ điệu tự nhiên."
+    },
+    {
+      "id": "ex-085-27",
+      "type": "speaking_practice",
+      "promptVi": "[Luyện nói qua Micro] Nhấn nút '🎙️ Bắt đầu nói' và đọc to, rõ ràng câu tiếng Anh sau:",
+      "targetSentence": "I spent the whole day reading that novel.",
+      "hintVi": "Tôi đã dành trọn cả ngày để đọc cuốn tiểu thuyết đó.",
+      "explanationVi": "Câu mục tiêu: \"I spent the whole day reading that novel.\" (Tôi đã dành trọn cả ngày để đọc cuốn tiểu thuyết đó.). Luyện phát âm chuẩn xác từng âm tiết và ngữ điệu tự nhiên."
+    },
+    {
+      "id": "ex-085-28",
+      "type": "speaking_practice",
+      "promptVi": "[Luyện nói qua Micro] Nhấn nút '🎙️ Bắt đầu nói' và đọc to, rõ ràng câu tiếng Anh sau:",
+      "targetSentence": "Neither answer is correct.",
+      "hintVi": "Cả hai câu trả lời đều không đúng.",
+      "explanationVi": "Câu mục tiêu: \"Neither answer is correct.\" (Cả hai câu trả lời đều không đúng.). Luyện phát âm chuẩn xác từng âm tiết và ngữ điệu tự nhiên."
+    },
+    {
+      "id": "ex-085-29",
       "type": "reading_comprehension",
-      "promptVi": "Đọc đoạn hội thoại ngắn sau và trả lời câu hỏi đọc hiểu:",
-      "passage": "Executive Chef Laurent: \"Good morning, Clara. Did our supply department order enough glass for the pastry display cases?\"\nClara: \"Yes, Chef! And I also ordered fifty wine glasses for the banquet hall.\"\nExecutive Chef Laurent: \"Is there enough room in the walk-in freezer to store fresh salmon shipments?\"\nClara: \"Yes, we organized the whole storage area so every single shelf is clean and accessible.\"",
-      "question": "Dựa vào ngữ cảnh đoạn hội thoại trên, Executive Chef Laurent và Clara đang trao đổi về nội dung trọng tâm nào?",
+      "promptVi": "[Đọc hiểu đoạn văn 1] Đọc đoạn hội thoại mở đầu sau và trả lời câu hỏi:",
+      "passage": "Executive Chef Laurent (Nam): \"Good morning, Clara. Did our supply department order enough glass for the pastry display cases?\"\nClara (Nữ): \"Yes, Chef! And I also ordered fifty wine glasses for the banquet hall.\"\nExecutive Chef Laurent (Nam): \"Is there enough room in the walk-in freezer to store fresh salmon shipments?\"\nClara (Nữ): \"Yes, we organized the whole storage area so every single shelf is clean and accessible.\"",
+      "question": "Câu hỏi: Trong đoạn hội thoại trên, các nhân vật đang thảo luận về chủ đề gì?",
       "options": [
         "Danh từ Đếm được & Không đếm được Nâng cao — Lượng từ Toàn diện (Countable/Uncountable Shifts & Quantifiers)",
-        "Kế hoạch mua sắm và nấu ăn cho bữa tối gia đình",
-        "Lịch trình đi du lịch nghỉ dưỡng mùa hè",
-        "Dự báo thời tiết và nhiệt độ ngày mai"
+        "Kế hoạch đi nghỉ dưỡng cuối tuần ở bãi biển",
+        "Mua sắm quần áo và đồ dùng thể thao",
+        "Cách làm món ăn truyền thống gia đình"
       ],
       "correctAnswer": "Danh từ Đếm được & Không đếm được Nâng cao — Lượng từ Toàn diện (Countable/Uncountable Shifts & Quantifiers)",
-      "explanationVi": "Đoạn hội thoại mở đầu được thiết kế để minh họa và ứng dụng trực tiếp chủ điểm: \"Bài 85: Danh từ Đếm được & Không đếm được Nâng cao — Lượng từ Toàn diện (Countable/Uncountable Shifts & Quantifiers)\"."
+      "explanationVi": "Đoạn hội thoại mở đầu được thiết kế để minh họa trực tiếp cho chủ điểm ngữ pháp: \"Bài 85: Danh từ Đếm được & Không đếm được Nâng cao — Lượng từ Toàn diện (Countable/Uncountable Shifts & Quantifiers)\"."
     },
     {
-      "id": "ex-085-08",
-      "type": "multiple_choice",
-      "promptVi": "Phản xạ dịch & Ngữ pháp: Chọn câu tiếng Anh diễn đạt đúng nghĩa:",
-      "question": "Dịch câu sang tiếng Anh: \"Tôi đã dành trọn cả ngày để đọc cuốn tiểu thuyết đó.\"",
+      "id": "ex-085-30",
+      "type": "reading_comprehension",
+      "promptVi": "[Đọc hiểu đoạn văn 2] Đọc phần tiếp theo của đoạn hội thoại và chọn nhận định đúng:",
+      "passage": "Executive Chef Laurent (Nam): \"I need some plain paper to sketch our seasonal menu, and then bring me today's morning paper.\"\nClara (Nữ): \"Here is the daily newspaper, Chef. Both the apprentice chefs and the pastry assistants are ready.\"\nExecutive Chef Laurent (Nam): \"Each dish that leaves this kitchen must be a masterpiece of culinary art.\"\nClara (Nữ): \"Neither of the two seafood suppliers has raised their delivery fees this quarter.\"",
+      "question": "Nhận định nào sau đây là ĐÚNG với nội dung đoạn hội thoại trên?",
       "options": [
-        "I spent the whole day reading that novel.",
-        "Each student has a different learning style.",
-        "Incorrect grammatical form 2",
-        "Incorrect grammatical form 3"
+        "Các câu hội thoại sử dụng đúng cấu trúc ngữ pháp \"Bài 85: Danh từ Đếm được & Không đếm được Nâng cao — Lượng từ Toàn diện (Countable/Uncountable Shifts & Quantifiers)\".",
+        "Các nhân vật không hiểu ý nhau và từ chối nói chuyện.",
+        "Đoạn hội thoại nói về việc chuyển nhà sang thành phố khác.",
+        "Cả hai nhân vật đều đang ở sân bay chuẩn bị lên máy bay."
       ],
-      "correctAnswer": "I spent the whole day reading that novel.",
-      "explanationVi": "Bản dịch chuẩn xác và đúng ngữ pháp là: \"I spent the whole day reading that novel.\" (Tôi đã dành trọn cả ngày để đọc cuốn tiểu thuyết đó.)."
+      "correctAnswer": "Các câu hội thoại sử dụng đúng cấu trúc ngữ pháp \"Bài 85: Danh từ Đếm được & Không đếm được Nâng cao — Lượng từ Toàn diện (Countable/Uncountable Shifts & Quantifiers)\".",
+      "explanationVi": "Đoạn hội thoại thứ hai tiếp tục củng cố và ứng dụng các quy tắc ngữ pháp của \"Bài 85: Danh từ Đếm được & Không đếm được Nâng cao — Lượng từ Toàn diện (Countable/Uncountable Shifts & Quantifiers)\"."
     }
   ]
 }

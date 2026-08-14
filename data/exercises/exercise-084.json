@@ -2,11 +2,26 @@
   "lessonId": "lesson-084",
   "lessonNumber": 84,
   "title": "Bài tập Ôn luyện: Bài 84: Cấu trúc Thì trong Mệnh đề Thời gian & Điều kiện (Present Tenses for Future in Time & If-Clauses)",
+  "totalQuestions": 30,
   "questions": [
     {
       "id": "ex-084-01",
       "type": "multiple_choice",
-      "promptVi": "Chọn đáp án đúng nhất hoàn thành câu:",
+      "promptVi": "[Trắc nghiệm] Chọn từ/cụm từ đúng để hoàn thành câu (Tôi sẽ gọi cho bạn ngay khi tôi đến Tokyo.):",
+      "question": "I will call you as soon as I ___ in Tokyo.",
+      "options": [
+        "arrive",
+        "will arrive",
+        "arrived",
+        "am arriving"
+      ],
+      "correctAnswer": "arrive",
+      "explanationVi": "Sau liên từ chỉ thời gian 'as soon as' dùng thì Hiện tại đơn (arrive) thay cho tương lai."
+    },
+    {
+      "id": "ex-084-02",
+      "type": "multiple_choice",
+      "promptVi": "[Trắc nghiệm] Chọn từ/cụm từ đúng để hoàn thành câu (Chúng ta sẽ đợi ở đây cho đến khi trời tạnh mưa.):",
       "question": "We will wait here until it ___ raining.",
       "options": [
         "stops",
@@ -18,9 +33,65 @@
       "explanationVi": "Sau 'until' dùng hiện tại đơn ngôi thứ 3 số ít 'stops'."
     },
     {
-      "id": "ex-084-02",
+      "id": "ex-084-03",
+      "type": "multiple_choice",
+      "promptVi": "[Trắc nghiệm] Chọn từ/cụm từ đúng để hoàn thành câu (Xin vui lòng tắt đèn trước khi bạn rời đi.):",
+      "question": "Please turn off the lights before you ___.",
+      "options": [
+        "leave",
+        "will leave",
+        "left",
+        "are leaving"
+      ],
+      "correctAnswer": "leave",
+      "explanationVi": "Sau 'before' dùng hiện tại đơn 'leave'."
+    },
+    {
+      "id": "ex-084-04",
+      "type": "multiple_choice",
+      "promptVi": "[Trắc nghiệm] Chọn từ/cụm từ đúng để hoàn thành câu (Chúng tôi sẽ đi dã ngoại nếu thời tiết đẹp vào ngày mai.):",
+      "question": "We will go for a picnic if the weather ___ fine tomorrow.",
+      "options": [
+        "is",
+        "will be",
+        "was",
+        "be"
+      ],
+      "correctAnswer": "is",
+      "explanationVi": "Trong mệnh đề IF loại 1, động từ chia ở Hiện tại đơn (is) kể cả khi có 'tomorrow'."
+    },
+    {
+      "id": "ex-084-05",
+      "type": "multiple_choice",
+      "promptVi": "[Trắc nghiệm] Dịch câu sau sang tiếng Anh: \"Xin toàn đội chú ý! Ngay khi bình nhiên liệu đông lạnh tự động được nạp đầy áp suất, chúng ta sẽ bắt đầu đếm ngược cuối cùng. (As soon as is pressurized -> will begin)\"",
+      "question": "Chọn bản dịch chuẩn xác cho câu: \"Xin toàn đội chú ý! Ngay khi bình nhiên liệu đông lạnh tự động được nạp đầy áp suất, chúng ta sẽ bắt đầu đếm ngược cuối cùng. (As soon as is pressurized -> will begin)\"",
+      "options": [
+        "Attention, launch crew! As soon as the automated cryogenic propellant tank is fully pressurized, we will begin the final countdown.",
+        "Attention, launch crew! As soon as the automated cryogenic propellant tank be fully pressurized, we will begin the final countdown.",
+        "Understood, sir. When the rocket clears the launch tower, telemetry computers will lock onto orbital coordinates.",
+        "I want to go to the park now."
+      ],
+      "correctAnswer": "Attention, launch crew! As soon as the automated cryogenic propellant tank is fully pressurized, we will begin the final countdown.",
+      "explanationVi": "Câu đúng là \"Attention, launch crew! As soon as the automated cryogenic propellant tank is fully pressurized, we will begin the final countdown.\" (Xin toàn đội chú ý! Ngay khi bình nhiên liệu đông lạnh tự động được nạp đầy áp suất, chúng ta sẽ bắt đầu đếm ngược cuối cùng. (As soon as is pressurized -> will begin))."
+    },
+    {
+      "id": "ex-084-06",
+      "type": "multiple_choice",
+      "promptVi": "[Trắc nghiệm] Chọn câu trả lời hoặc cách diễn đạt phù hợp:",
+      "question": "Trong ngữ cảnh giao tiếp: \"Attention, launch crew! As soon as the automated cryogenic propellant tank is fully pressurized, we will begin the final countdown.\", câu phản hồi tự nhiên là gì?",
+      "options": [
+        "Understood, sir. When the rocket clears the launch tower, telemetry computers will lock onto orbital coordinates.",
+        "No, it is yesterday morning.",
+        "Yes, I will eat apple.",
+        "They are not at the library."
+      ],
+      "correctAnswer": "Understood, sir. When the rocket clears the launch tower, telemetry computers will lock onto orbital coordinates.",
+      "explanationVi": "Phản hồi phù hợp: \"Understood, sir. When the rocket clears the launch tower, telemetry computers will lock onto orbital coordinates.\" (Rõ, thưa sếp. Khi tên lửa vượt qua tháp phóng, các máy tính đo xa sẽ khóa vào tọa độ quỹ đạo. (When clears -> will lock))."
+    },
+    {
+      "id": "ex-084-07",
       "type": "fill_blank",
-      "promptVi": "Điền từ hoặc dạng đúng của động từ vào chỗ trống:",
+      "promptVi": "[Điền từ - (Dạng khẳng định)] Điền dạng đúng của động từ vào ô trống (Tôi sẽ gọi cho bạn ngay khi tôi đến Tokyo.):",
       "question": "I will call you as soon as I ___ in Tokyo.",
       "correctAnswer": "arrive",
       "options": [
@@ -29,20 +100,114 @@
         "arrived",
         "am arriving"
       ],
-      "explanationVi": "Sau liên từ chỉ thời gian 'as soon as' dùng thì Hiện tại đơn (arrive) thay cho tương lai."
+      "explanationVi": "Đáp án chính xác: \"arrive\". Tôi sẽ gọi cho bạn ngay khi tôi đến Tokyo.."
     },
     {
-      "id": "ex-084-03",
+      "id": "ex-084-08",
+      "type": "fill_blank",
+      "promptVi": "[Điền từ - (Dạng khẳng định)] Điền dạng đúng của động từ vào ô trống (Chúng ta sẽ đợi ở đây cho đến khi trời tạnh mưa.):",
+      "question": "We will wait here until it ___ raining.",
+      "correctAnswer": "stops",
+      "options": [
+        "stops",
+        "will stop",
+        "stopped",
+        "stop"
+      ],
+      "explanationVi": "Đáp án chính xác: \"stops\". Chúng ta sẽ đợi ở đây cho đến khi trời tạnh mưa.."
+    },
+    {
+      "id": "ex-084-09",
+      "type": "fill_blank",
+      "promptVi": "[Điền từ - (Dạng khẳng định)] Điền dạng đúng của động từ vào ô trống (Xin vui lòng tắt đèn trước khi bạn rời đi.):",
+      "question": "Please turn off the lights before you ___.",
+      "correctAnswer": "leave",
+      "options": [
+        "leave",
+        "will leave",
+        "left",
+        "are leaving"
+      ],
+      "explanationVi": "Đáp án chính xác: \"leave\". Xin vui lòng tắt đèn trước khi bạn rời đi.."
+    },
+    {
+      "id": "ex-084-10",
+      "type": "fill_blank",
+      "promptVi": "[Điền từ - (Dạng khẳng định)] Điền dạng đúng của động từ vào ô trống (Chúng tôi sẽ đi dã ngoại nếu thời tiết đẹp vào ngày mai.):",
+      "question": "We will go for a picnic if the weather ___ fine tomorrow.",
+      "correctAnswer": "is",
+      "options": [
+        "is",
+        "will be",
+        "was",
+        "be"
+      ],
+      "explanationVi": "Đáp án chính xác: \"is\". Chúng tôi sẽ đi dã ngoại nếu thời tiết đẹp vào ngày mai.."
+    },
+    {
+      "id": "ex-084-11",
+      "type": "fill_blank",
+      "promptVi": "[Điền từ - Dạng PHỦ ĐỊNH] Hoàn thành câu phủ định sau:",
+      "correctAnswer": "I will call you as soon as I arrive in Tokyo.",
+      "options": [
+        "I will call you as soon as I arrive in Tokyo.",
+        "I will call you as soon as I arrive in Tokyo.",
+        "Not I will call you as soon as I arrive in Tokyo.",
+        "I will call you as soon as I arrive in Tokyo. no"
+      ],
+      "explanationVi": "Dạng phủ định chuẩn: Thêm 'not' sau động từ chính."
+    },
+    {
+      "id": "ex-084-12",
       "type": "sentence_scramble",
-      "promptVi": "Sắp xếp các khối từ sau thành câu hoàn chỉnh:",
+      "promptVi": "[Sắp xếp câu] Xếp các khối từ thành câu hoàn chỉnh mang nghĩa: \"Tôi sẽ gọi cho bạn ngay khi tôi đến Tokyo.\"",
       "words": [
+        "soon",
+        "I",
+        "Tokyo.",
+        "you",
+        "as",
+        "in",
+        "as",
+        "arrive",
+        "will",
+        "call",
+        "I"
+      ],
+      "correctSentence": "I will call you as soon as I arrive in Tokyo.",
+      "hintVi": "Tôi sẽ gọi cho bạn ngay khi tôi đến Tokyo.",
+      "explanationVi": "Câu hoàn chỉnh: \"I will call you as soon as I arrive in Tokyo.\" (Tôi sẽ gọi cho bạn ngay khi tôi đến Tokyo.)."
+    },
+    {
+      "id": "ex-084-13",
+      "type": "sentence_scramble",
+      "promptVi": "[Sắp xếp câu] Xếp các khối từ thành câu hoàn chỉnh mang nghĩa: \"Chúng ta sẽ đợi ở đây cho đến khi trời tạnh mưa.\"",
+      "words": [
+        "stops",
+        "here",
+        "We",
+        "until",
+        "wait",
+        "will",
+        "it",
+        "raining."
+      ],
+      "correctSentence": "We will wait here until it stops raining.",
+      "hintVi": "Chúng ta sẽ đợi ở đây cho đến khi trời tạnh mưa.",
+      "explanationVi": "Câu hoàn chỉnh: \"We will wait here until it stops raining.\" (Chúng ta sẽ đợi ở đây cho đến khi trời tạnh mưa.)."
+    },
+    {
+      "id": "ex-084-14",
+      "type": "sentence_scramble",
+      "promptVi": "[Sắp xếp câu] Xếp các khối từ thành câu hoàn chỉnh mang nghĩa: \"Xin vui lòng tắt đèn trước khi bạn rời đi.\"",
+      "words": [
+        "turn",
+        "off",
         "leave.",
         "you",
         "before",
         "lights",
         "the",
-        "off",
-        "turn",
         "Please"
       ],
       "correctSentence": "Please turn off the lights before you leave.",
@@ -50,70 +215,230 @@
       "explanationVi": "Câu hoàn chỉnh: \"Please turn off the lights before you leave.\" (Xin vui lòng tắt đèn trước khi bạn rời đi.)."
     },
     {
-      "id": "ex-084-04",
-      "type": "find_error",
-      "promptVi": "Chọn câu có cấu trúc ngữ pháp chuẩn xác nhất trong các câu sau:",
-      "question": "Dựa vào chủ điểm ngữ pháp \"Bài 84: Cấu trúc Thì trong Mệnh đề Thời gian & Điều kiện (Present Tenses for Future in Time & If-Clauses)\", câu nào sau đây là hoàn toàn CHÍNH XÁC?",
-      "options": [
-        "We will go for a picnic if the weather is fine tomorrow.",
-        "We be go for a picnic if the weather is fine tomorrow.",
-        "We will go with a picnic if the weather is fine tomorrow.",
-        "will go for a picnic if the weather is fine tomorrow. We"
+      "id": "ex-084-15",
+      "type": "sentence_scramble",
+      "promptVi": "[Sắp xếp câu] Xếp các khối từ thành câu hoàn chỉnh mang nghĩa: \"Chúng tôi sẽ đi dã ngoại nếu thời tiết đẹp vào ngày mai.\"",
+      "words": [
+        "picnic",
+        "will",
+        "the",
+        "if",
+        "weather",
+        "is",
+        "go",
+        "fine",
+        "We",
+        "for",
+        "tomorrow.",
+        "a"
       ],
-      "correctAnswer": "We will go for a picnic if the weather is fine tomorrow.",
-      "explanationVi": "Cấu trúc chuẩn xác là: \"We will go for a picnic if the weather is fine tomorrow.\" (Chúng tôi sẽ đi dã ngoại nếu thời tiết đẹp vào ngày mai.)."
+      "correctSentence": "We will go for a picnic if the weather is fine tomorrow.",
+      "hintVi": "Chúng tôi sẽ đi dã ngoại nếu thời tiết đẹp vào ngày mai.",
+      "explanationVi": "Câu hoàn chỉnh: \"We will go for a picnic if the weather is fine tomorrow.\" (Chúng tôi sẽ đi dã ngoại nếu thời tiết đẹp vào ngày mai.)."
     },
     {
-      "id": "ex-084-05",
+      "id": "ex-084-16",
+      "type": "sentence_scramble",
+      "promptVi": "[Sắp xếp câu] Xếp các từ thành câu hội thoại: \"Không được kích hoạt việc tách tầng đẩy cho đến khi đội radar mặt đất đã xác nhận vận tốc quỹ đạo ổn định. (until has confirmed)\"",
+      "words": [
+        "not",
+        "the",
+        "stable",
+        "ground",
+        "initiate",
+        "the",
+        "Do",
+        "confirmed",
+        "orbital",
+        "until",
+        "has",
+        "team",
+        "velocity",
+        "radar",
+        "booster",
+        "separation"
+      ],
+      "correctSentence": "Do not initiate the booster separation until the ground radar team has confirmed stable orbital velocity.",
+      "hintVi": "Không được kích hoạt việc tách tầng đẩy cho đến khi đội radar mặt đất đã xác nhận vận tốc quỹ đạo ổn định. (until has confirmed)",
+      "explanationVi": "Câu đúng: \"Do not initiate the booster separation until the ground radar team has confirmed stable orbital velocity.\" (Không được kích hoạt việc tách tầng đẩy cho đến khi đội radar mặt đất đã xác nhận vận tốc quỹ đạo ổn định. (until has confirmed))."
+    },
+    {
+      "id": "ex-084-17",
+      "type": "find_error",
+      "promptVi": "[Tìm lỗi sai & Chọn câu đúng] Câu nào dưới đây có cấu trúc ngữ pháp HOÀN TOÀN ĐÚNG?",
+      "question": "Chủ điểm \"Bài 84: Cấu trúc Thì trong Mệnh đề Thời gian & Điều kiện (Present Tenses for Future in Time & If-Clauses)\": Chọn câu CHÍNH XÁC:",
+      "options": [
+        "I will call you as soon as I arrive in Tokyo.",
+        "Tokyo. in arrive I as soon as you call will I",
+        "I will call you as soon as I arrive in Tokyo. (sai)",
+        "I will call you as soon as I arrive in Tokyo. (sai)"
+      ],
+      "correctAnswer": "I will call you as soon as I arrive in Tokyo.",
+      "explanationVi": "Câu chuẩn xác là: \"I will call you as soon as I arrive in Tokyo.\" (Tôi sẽ gọi cho bạn ngay khi tôi đến Tokyo.)."
+    },
+    {
+      "id": "ex-084-18",
+      "type": "find_error",
+      "promptVi": "[Tìm lỗi sai & Chọn câu đúng] Câu nào dưới đây có cấu trúc ngữ pháp HOÀN TOÀN ĐÚNG?",
+      "question": "Chủ điểm \"Bài 84: Cấu trúc Thì trong Mệnh đề Thời gian & Điều kiện (Present Tenses for Future in Time & If-Clauses)\": Chọn câu CHÍNH XÁC:",
+      "options": [
+        "We will wait here until it stops raining.",
+        "raining. stops it until here wait will We",
+        "We will wait here until it stops raining. (sai)",
+        "We will wait here until it stops raining. (sai)"
+      ],
+      "correctAnswer": "We will wait here until it stops raining.",
+      "explanationVi": "Câu chuẩn xác là: \"We will wait here until it stops raining.\" (Chúng ta sẽ đợi ở đây cho đến khi trời tạnh mưa.)."
+    },
+    {
+      "id": "ex-084-19",
+      "type": "find_error",
+      "promptVi": "[Tìm lỗi sai & Chọn câu đúng] Câu nào dưới đây có cấu trúc ngữ pháp HOÀN TOÀN ĐÚNG?",
+      "question": "Chủ điểm \"Bài 84: Cấu trúc Thì trong Mệnh đề Thời gian & Điều kiện (Present Tenses for Future in Time & If-Clauses)\": Chọn câu CHÍNH XÁC:",
+      "options": [
+        "Please turn off the lights before you leave.",
+        "leave. you before lights the off turn Please",
+        "Please turn off the lights before you leave. (sai)",
+        "Please turn off the lights before you leave. (sai)"
+      ],
+      "correctAnswer": "Please turn off the lights before you leave.",
+      "explanationVi": "Câu chuẩn xác là: \"Please turn off the lights before you leave.\" (Xin vui lòng tắt đèn trước khi bạn rời đi.)."
+    },
+    {
+      "id": "ex-084-20",
+      "type": "find_error",
+      "promptVi": "[Tìm lỗi sai & Chọn câu đúng] Câu nào dưới đây có cấu trúc ngữ pháp HOÀN TOÀN ĐÚNG?",
+      "question": "Chủ điểm \"Bài 84: Cấu trúc Thì trong Mệnh đề Thời gian & Điều kiện (Present Tenses for Future in Time & If-Clauses)\": Chọn câu CHÍNH XÁC:",
+      "options": [
+        "We will go for a picnic if the weather is fine tomorrow.",
+        "We will go for a picnic if the weather be fine tomorrow.",
+        "We will go for a picnic if the weather are not is fine tomorrow.",
+        "tomorrow. fine is weather the if picnic a for go will We"
+      ],
+      "correctAnswer": "We will go for a picnic if the weather is fine tomorrow.",
+      "explanationVi": "Câu chuẩn xác là: \"We will go for a picnic if the weather is fine tomorrow.\" (Chúng tôi sẽ đi dã ngoại nếu thời tiết đẹp vào ngày mai.)."
+    },
+    {
+      "id": "ex-084-21",
       "type": "listening_reflex",
-      "promptVi": "Nghe câu tiếng Anh và chọn bản dịch tiếng Việt chuẩn xác:",
+      "promptVi": "[Nghe phản xạ] Nghe câu phát âm tiếng Anh và chọn bản dịch tiếng Việt đúng nhất:",
       "audioPrompt": "Attention, launch crew! As soon as the automated cryogenic propellant tank is fully pressurized, we will begin the final countdown.",
-      "question": "Nghe câu phát âm tiếng Anh và chọn nghĩa đúng:",
+      "question": "Nhấn nút '🔊 Nghe audio' để nghe câu thoại và chọn nghĩa đúng:",
       "options": [
         "Xin toàn đội chú ý! Ngay khi bình nhiên liệu đông lạnh tự động được nạp đầy áp suất, chúng ta sẽ bắt đầu đếm ngược cuối cùng. (As soon as is pressurized -> will begin)",
         "Rõ, thưa sếp. Khi tên lửa vượt qua tháp phóng, các máy tính đo xa sẽ khóa vào tọa độ quỹ đạo. (When clears -> will lock)",
         "Không được kích hoạt việc tách tầng đẩy cho đến khi đội radar mặt đất đã xác nhận vận tốc quỹ đạo ổn định. (until has confirmed)",
-        "Hôm nay chúng tôi đi mua sắm tại trung tâm thương mại."
+        "Ngày mai trời sẽ mưa to."
       ],
       "correctAnswer": "Xin toàn đội chú ý! Ngay khi bình nhiên liệu đông lạnh tự động được nạp đầy áp suất, chúng ta sẽ bắt đầu đếm ngược cuối cùng. (As soon as is pressurized -> will begin)",
-      "explanationVi": "Câu nghe được: \"Attention, launch crew! As soon as the automated cryogenic propellant tank is fully pressurized, we will begin the final countdown.\" nghĩa là: \"Xin toàn đội chú ý! Ngay khi bình nhiên liệu đông lạnh tự động được nạp đầy áp suất, chúng ta sẽ bắt đầu đếm ngược cuối cùng. (As soon as is pressurized -> will begin)\"."
+      "explanationVi": "Câu nghe được: \"Attention, launch crew! As soon as the automated cryogenic propellant tank is fully pressurized, we will begin the final countdown.\" có nghĩa là: \"Xin toàn đội chú ý! Ngay khi bình nhiên liệu đông lạnh tự động được nạp đầy áp suất, chúng ta sẽ bắt đầu đếm ngược cuối cùng. (As soon as is pressurized -> will begin)\"."
     },
     {
-      "id": "ex-084-06",
+      "id": "ex-084-22",
+      "type": "listening_reflex",
+      "promptVi": "[Nghe phản xạ] Nghe câu phát âm tiếng Anh và chọn bản dịch tiếng Việt đúng nhất:",
+      "audioPrompt": "Understood, sir. When the rocket clears the launch tower, telemetry computers will lock onto orbital coordinates.",
+      "question": "Nhấn nút '🔊 Nghe audio' để nghe câu thoại và chọn nghĩa đúng:",
+      "options": [
+        "Rõ, thưa sếp. Khi tên lửa vượt qua tháp phóng, các máy tính đo xa sẽ khóa vào tọa độ quỹ đạo. (When clears -> will lock)",
+        "Không được kích hoạt việc tách tầng đẩy cho đến khi đội radar mặt đất đã xác nhận vận tốc quỹ đạo ổn định. (until has confirmed)",
+        "Chúng ta sẽ duy trì sự im lặng vô tuyến trong khi tàu vũ trụ bay qua tầng điện ly phía trên. (while passes)",
+        "Ngày mai trời sẽ mưa to."
+      ],
+      "correctAnswer": "Rõ, thưa sếp. Khi tên lửa vượt qua tháp phóng, các máy tính đo xa sẽ khóa vào tọa độ quỹ đạo. (When clears -> will lock)",
+      "explanationVi": "Câu nghe được: \"Understood, sir. When the rocket clears the launch tower, telemetry computers will lock onto orbital coordinates.\" có nghĩa là: \"Rõ, thưa sếp. Khi tên lửa vượt qua tháp phóng, các máy tính đo xa sẽ khóa vào tọa độ quỹ đạo. (When clears -> will lock)\"."
+    },
+    {
+      "id": "ex-084-23",
+      "type": "listening_reflex",
+      "promptVi": "[Nghe phản xạ] Nghe câu phát âm tiếng Anh và chọn bản dịch tiếng Việt đúng nhất:",
+      "audioPrompt": "Do not initiate the booster separation until the ground radar team has confirmed stable orbital velocity.",
+      "question": "Nhấn nút '🔊 Nghe audio' để nghe câu thoại và chọn nghĩa đúng:",
+      "options": [
+        "Không được kích hoạt việc tách tầng đẩy cho đến khi đội radar mặt đất đã xác nhận vận tốc quỹ đạo ổn định. (until has confirmed)",
+        "Chúng ta sẽ duy trì sự im lặng vô tuyến trong khi tàu vũ trụ bay qua tầng điện ly phía trên. (while passes)",
+        "Nếu sự nhiễu loạn khí quyển vượt quá các thông số an toàn, hệ thống dẫn đường bay sẽ tự động hủy bỏ chứ? (If exceeds -> will abort)",
+        "Ngày mai trời sẽ mưa to."
+      ],
+      "correctAnswer": "Không được kích hoạt việc tách tầng đẩy cho đến khi đội radar mặt đất đã xác nhận vận tốc quỹ đạo ổn định. (until has confirmed)",
+      "explanationVi": "Câu nghe được: \"Do not initiate the booster separation until the ground radar team has confirmed stable orbital velocity.\" có nghĩa là: \"Không được kích hoạt việc tách tầng đẩy cho đến khi đội radar mặt đất đã xác nhận vận tốc quỹ đạo ổn định. (until has confirmed)\"."
+    },
+    {
+      "id": "ex-084-24",
+      "type": "listening_reflex",
+      "promptVi": "[Nghe phản xạ] Nghe câu phát âm tiếng Anh và chọn bản dịch tiếng Việt đúng nhất:",
+      "audioPrompt": "We will maintain radio silence while the spacecraft passes through the upper ionosphere.",
+      "question": "Nhấn nút '🔊 Nghe audio' để nghe câu thoại và chọn nghĩa đúng:",
+      "options": [
+        "Chúng ta sẽ duy trì sự im lặng vô tuyến trong khi tàu vũ trụ bay qua tầng điện ly phía trên. (while passes)",
+        "Nếu sự nhiễu loạn khí quyển vượt quá các thông số an toàn, hệ thống dẫn đường bay sẽ tự động hủy bỏ chứ? (If exceeds -> will abort)",
+        "Vâng, trừ phi chỉ huy sứ mệnh ghi đè chuỗi lệnh máy tính bằng tay. (unless overrides)",
+        "Ngày mai trời sẽ mưa to."
+      ],
+      "correctAnswer": "Chúng ta sẽ duy trì sự im lặng vô tuyến trong khi tàu vũ trụ bay qua tầng điện ly phía trên. (while passes)",
+      "explanationVi": "Câu nghe được: \"We will maintain radio silence while the spacecraft passes through the upper ionosphere.\" có nghĩa là: \"Chúng ta sẽ duy trì sự im lặng vô tuyến trong khi tàu vũ trụ bay qua tầng điện ly phía trên. (while passes)\"."
+    },
+    {
+      "id": "ex-084-25",
       "type": "speaking_practice",
-      "promptVi": "Luyện nói qua Micro: Hãy nhấn nút 'Nói ngay' và phát âm chuẩn xác câu sau:",
+      "promptVi": "[Luyện nói qua Micro] Nhấn nút '🎙️ Bắt đầu nói' và đọc to, rõ ràng câu tiếng Anh sau:",
       "targetSentence": "I will call you as soon as I arrive in Tokyo.",
       "hintVi": "Tôi sẽ gọi cho bạn ngay khi tôi đến Tokyo.",
-      "explanationVi": "Mẫu câu chuẩn: \"I will call you as soon as I arrive in Tokyo.\" (Tôi sẽ gọi cho bạn ngay khi tôi đến Tokyo.). Hãy phát âm rõ ràng từng từ và giữ ngữ điệu tự nhiên."
+      "explanationVi": "Câu mục tiêu: \"I will call you as soon as I arrive in Tokyo.\" (Tôi sẽ gọi cho bạn ngay khi tôi đến Tokyo.). Luyện phát âm chuẩn xác từng âm tiết và ngữ điệu tự nhiên."
     },
     {
-      "id": "ex-084-07",
+      "id": "ex-084-26",
+      "type": "speaking_practice",
+      "promptVi": "[Luyện nói qua Micro] Nhấn nút '🎙️ Bắt đầu nói' và đọc to, rõ ràng câu tiếng Anh sau:",
+      "targetSentence": "We will wait here until it stops raining.",
+      "hintVi": "Chúng ta sẽ đợi ở đây cho đến khi trời tạnh mưa.",
+      "explanationVi": "Câu mục tiêu: \"We will wait here until it stops raining.\" (Chúng ta sẽ đợi ở đây cho đến khi trời tạnh mưa.). Luyện phát âm chuẩn xác từng âm tiết và ngữ điệu tự nhiên."
+    },
+    {
+      "id": "ex-084-27",
+      "type": "speaking_practice",
+      "promptVi": "[Luyện nói qua Micro] Nhấn nút '🎙️ Bắt đầu nói' và đọc to, rõ ràng câu tiếng Anh sau:",
+      "targetSentence": "Please turn off the lights before you leave.",
+      "hintVi": "Xin vui lòng tắt đèn trước khi bạn rời đi.",
+      "explanationVi": "Câu mục tiêu: \"Please turn off the lights before you leave.\" (Xin vui lòng tắt đèn trước khi bạn rời đi.). Luyện phát âm chuẩn xác từng âm tiết và ngữ điệu tự nhiên."
+    },
+    {
+      "id": "ex-084-28",
+      "type": "speaking_practice",
+      "promptVi": "[Luyện nói qua Micro] Nhấn nút '🎙️ Bắt đầu nói' và đọc to, rõ ràng câu tiếng Anh sau:",
+      "targetSentence": "We will go for a picnic if the weather is fine tomorrow.",
+      "hintVi": "Chúng tôi sẽ đi dã ngoại nếu thời tiết đẹp vào ngày mai.",
+      "explanationVi": "Câu mục tiêu: \"We will go for a picnic if the weather is fine tomorrow.\" (Chúng tôi sẽ đi dã ngoại nếu thời tiết đẹp vào ngày mai.). Luyện phát âm chuẩn xác từng âm tiết và ngữ điệu tự nhiên."
+    },
+    {
+      "id": "ex-084-29",
       "type": "reading_comprehension",
-      "promptVi": "Đọc đoạn hội thoại ngắn sau và trả lời câu hỏi đọc hiểu:",
-      "passage": "Flight Director: \"Attention, launch crew! As soon as the automated cryogenic propellant tank is fully pressurized, we will begin the final countdown.\"\nTelemetry Officer: \"Understood, sir. When the rocket clears the launch tower, telemetry computers will lock onto orbital coordinates.\"\nFlight Director: \"Do not initiate the booster separation until the ground radar team has confirmed stable orbital velocity.\"\nTelemetry Officer: \"We will maintain radio silence while the spacecraft passes through the upper ionosphere.\"",
-      "question": "Dựa vào ngữ cảnh đoạn hội thoại trên, Flight Director và Telemetry Officer đang trao đổi về nội dung trọng tâm nào?",
+      "promptVi": "[Đọc hiểu đoạn văn 1] Đọc đoạn hội thoại mở đầu sau và trả lời câu hỏi:",
+      "passage": "Flight Director (Nam): \"Attention, launch crew! As soon as the automated cryogenic propellant tank is fully pressurized, we will begin the final countdown.\"\nTelemetry Officer (Nữ): \"Understood, sir. When the rocket clears the launch tower, telemetry computers will lock onto orbital coordinates.\"\nFlight Director (Nam): \"Do not initiate the booster separation until the ground radar team has confirmed stable orbital velocity.\"\nTelemetry Officer (Nữ): \"We will maintain radio silence while the spacecraft passes through the upper ionosphere.\"",
+      "question": "Câu hỏi: Trong đoạn hội thoại trên, các nhân vật đang thảo luận về chủ đề gì?",
       "options": [
         "Cấu trúc Thì trong Mệnh đề Thời gian & Điều kiện (Present Tenses for Future in Time & If-Clauses)",
-        "Kế hoạch mua sắm và nấu ăn cho bữa tối gia đình",
-        "Lịch trình đi du lịch nghỉ dưỡng mùa hè",
-        "Dự báo thời tiết và nhiệt độ ngày mai"
+        "Kế hoạch đi nghỉ dưỡng cuối tuần ở bãi biển",
+        "Mua sắm quần áo và đồ dùng thể thao",
+        "Cách làm món ăn truyền thống gia đình"
       ],
       "correctAnswer": "Cấu trúc Thì trong Mệnh đề Thời gian & Điều kiện (Present Tenses for Future in Time & If-Clauses)",
-      "explanationVi": "Đoạn hội thoại mở đầu được thiết kế để minh họa và ứng dụng trực tiếp chủ điểm: \"Bài 84: Cấu trúc Thì trong Mệnh đề Thời gian & Điều kiện (Present Tenses for Future in Time & If-Clauses)\"."
+      "explanationVi": "Đoạn hội thoại mở đầu được thiết kế để minh họa trực tiếp cho chủ điểm ngữ pháp: \"Bài 84: Cấu trúc Thì trong Mệnh đề Thời gian & Điều kiện (Present Tenses for Future in Time & If-Clauses)\"."
     },
     {
-      "id": "ex-084-08",
-      "type": "multiple_choice",
-      "promptVi": "Phản xạ dịch & Ngữ pháp: Chọn câu tiếng Anh diễn đạt đúng nghĩa:",
-      "question": "Dịch câu sang tiếng Anh: \"Xin vui lòng tắt đèn trước khi bạn rời đi.\"",
+      "id": "ex-084-30",
+      "type": "reading_comprehension",
+      "promptVi": "[Đọc hiểu đoạn văn 2] Đọc phần tiếp theo của đoạn hội thoại và chọn nhận định đúng:",
+      "passage": "Flight Director (Nam): \"If atmospheric turbulence exceeds safety parameters, will the flight guidance system abort automatically?\"\nTelemetry Officer (Nữ): \"Yes, unless the mission commander overrides the computer sequence manually.\"\nFlight Director (Nam): \"By the time the secondary capsule docks with the international space station, the astronauts will have rested.\"\nTelemetry Officer (Nữ): \"We will dispatch recovery naval vessels before the return capsule splashes down in the Pacific.\"",
+      "question": "Nhận định nào sau đây là ĐÚNG với nội dung đoạn hội thoại trên?",
       "options": [
-        "Please turn off the lights before you leave.",
-        "We will wait here until it stops raining.",
-        "Incorrect grammatical form 2",
-        "Incorrect grammatical form 3"
+        "Các câu hội thoại sử dụng đúng cấu trúc ngữ pháp \"Bài 84: Cấu trúc Thì trong Mệnh đề Thời gian & Điều kiện (Present Tenses for Future in Time & If-Clauses)\".",
+        "Các nhân vật không hiểu ý nhau và từ chối nói chuyện.",
+        "Đoạn hội thoại nói về việc chuyển nhà sang thành phố khác.",
+        "Cả hai nhân vật đều đang ở sân bay chuẩn bị lên máy bay."
       ],
-      "correctAnswer": "Please turn off the lights before you leave.",
-      "explanationVi": "Bản dịch chuẩn xác và đúng ngữ pháp là: \"Please turn off the lights before you leave.\" (Xin vui lòng tắt đèn trước khi bạn rời đi.)."
+      "correctAnswer": "Các câu hội thoại sử dụng đúng cấu trúc ngữ pháp \"Bài 84: Cấu trúc Thì trong Mệnh đề Thời gian & Điều kiện (Present Tenses for Future in Time & If-Clauses)\".",
+      "explanationVi": "Đoạn hội thoại thứ hai tiếp tục củng cố và ứng dụng các quy tắc ngữ pháp của \"Bài 84: Cấu trúc Thì trong Mệnh đề Thời gian & Điều kiện (Present Tenses for Future in Time & If-Clauses)\"."
     }
   ]
 }

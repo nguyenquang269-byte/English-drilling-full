@@ -2,11 +2,26 @@
   "lessonId": "lesson-059",
   "lessonNumber": 59,
   "title": "Bài tập Ôn luyện: Bài 59: Câu Tường thuật — Câu Hỏi & Mệnh Lệnh (Reported Questions: If/Whether/Wh- & Imperatives: To-V / Not to-V)",
+  "totalQuestions": 30,
   "questions": [
     {
       "id": "ex-059-01",
       "type": "multiple_choice",
-      "promptVi": "Chọn đáp án đúng nhất hoàn thành câu:",
+      "promptVi": "[Trắc nghiệm] Chọn từ/cụm từ đúng để hoàn thành câu (Anh ấy đã hỏi tôi xem tôi có thích cà phê không.):",
+      "question": "He asked me ___ I liked coffee.",
+      "options": [
+        "if",
+        "that",
+        "what",
+        "which"
+      ],
+      "correctAnswer": "if",
+      "explanationVi": "Tường thuật câu hỏi Yes/No dùng 'if' hoặc 'whether'."
+    },
+    {
+      "id": "ex-059-02",
+      "type": "multiple_choice",
+      "promptVi": "[Trắc nghiệm] Chọn từ/cụm từ đúng để hoàn thành câu (Cô ấy đã hỏi tôi rằng tôi sống ở đâu.):",
       "question": "She asked me where I ___.",
       "options": [
         "lived",
@@ -18,9 +33,65 @@
       "explanationVi": "Trật tự câu hỏi gián tiếp là S + V lùi thì (I lived), không dùng trợ động từ did."
     },
     {
-      "id": "ex-059-02",
+      "id": "ex-059-03",
+      "type": "multiple_choice",
+      "promptVi": "[Trắc nghiệm] Chọn từ/cụm từ đúng để hoàn thành câu (Giáo viên đã bảo các học sinh mở sách ra.):",
+      "question": "The teacher told the students ___ their books.",
+      "options": [
+        "to open",
+        "open",
+        "opening",
+        "opened"
+      ],
+      "correctAnswer": "to open",
+      "explanationVi": "Tường thuật câu mệnh lệnh: tell + O + to V-inf."
+    },
+    {
+      "id": "ex-059-04",
+      "type": "multiple_choice",
+      "promptVi": "[Trắc nghiệm] Chọn từ/cụm từ đúng để hoàn thành câu (Anh ấy đã bảo tôi đừng lo lắng về kỳ thi.):",
+      "question": "He told me ___ worry about the exam.",
+      "options": [
+        "not to",
+        "to not",
+        "don't",
+        "not"
+      ],
+      "correctAnswer": "not to",
+      "explanationVi": "Tường thuật mệnh lệnh phủ định dùng: tell + O + not to V."
+    },
+    {
+      "id": "ex-059-05",
+      "type": "multiple_choice",
+      "promptVi": "[Trắc nghiệm] Dịch câu sau sang tiếng Anh: \"Buổi phỏng vấn vị trí kỹ sư phần mềm cấp cao sáng nay của bạn thế nào rồi Ashley?\"",
+      "question": "Chọn bản dịch chuẩn xác cho câu: \"Buổi phỏng vấn vị trí kỹ sư phần mềm cấp cao sáng nay của bạn thế nào rồi Ashley?\"",
+      "options": [
+        "How did your senior software engineer interview go this morning, Ashley?",
+        "How be your senior software engineer interview go this morning, Ashley?",
+        "It was thorough! The interviewer asked me where I had worked previously.",
+        "I want to go to the park now."
+      ],
+      "correctAnswer": "How did your senior software engineer interview go this morning, Ashley?",
+      "explanationVi": "Câu đúng là \"How did your senior software engineer interview go this morning, Ashley?\" (Buổi phỏng vấn vị trí kỹ sư phần mềm cấp cao sáng nay của bạn thế nào rồi Ashley?)."
+    },
+    {
+      "id": "ex-059-06",
+      "type": "multiple_choice",
+      "promptVi": "[Trắc nghiệm] Chọn câu trả lời hoặc cách diễn đạt phù hợp:",
+      "question": "Trong ngữ cảnh giao tiếp: \"How did your senior software engineer interview go this morning, Ashley?\", câu phản hồi tự nhiên là gì?",
+      "options": [
+        "It was thorough! The interviewer asked me where I had worked previously.",
+        "No, it is yesterday morning.",
+        "Yes, I will eat apple.",
+        "They are not at the library."
+      ],
+      "correctAnswer": "It was thorough! The interviewer asked me where I had worked previously.",
+      "explanationVi": "Phản hồi phù hợp: \"It was thorough! The interviewer asked me where I had worked previously.\" (Rất kỹ lưỡng! Người phỏng vấn đã hỏi tôi đã từng làm việc ở đâu trước đây. (Wh- question: where I had worked))."
+    },
+    {
+      "id": "ex-059-07",
       "type": "fill_blank",
-      "promptVi": "Điền từ hoặc dạng đúng của động từ vào chỗ trống:",
+      "promptVi": "[Điền từ - (Dạng khẳng định)] Điền dạng đúng của động từ vào ô trống (Anh ấy đã hỏi tôi xem tôi có thích cà phê không.):",
       "question": "He asked me ___ I liked coffee.",
       "correctAnswer": "if",
       "options": [
@@ -29,92 +100,332 @@
         "what",
         "which"
       ],
-      "explanationVi": "Tường thuật câu hỏi Yes/No dùng 'if' hoặc 'whether'."
+      "explanationVi": "Đáp án chính xác: \"if\". Anh ấy đã hỏi tôi xem tôi có thích cà phê không.."
     },
     {
-      "id": "ex-059-03",
+      "id": "ex-059-08",
+      "type": "fill_blank",
+      "promptVi": "[Điền từ - (Dạng khẳng định)] Điền dạng đúng của động từ vào ô trống (Cô ấy đã hỏi tôi rằng tôi sống ở đâu.):",
+      "question": "She asked me where I ___.",
+      "correctAnswer": "lived",
+      "options": [
+        "lived",
+        "live",
+        "did live",
+        "living"
+      ],
+      "explanationVi": "Đáp án chính xác: \"lived\". Cô ấy đã hỏi tôi rằng tôi sống ở đâu.."
+    },
+    {
+      "id": "ex-059-09",
+      "type": "fill_blank",
+      "promptVi": "[Điền từ - (Dạng khẳng định)] Điền dạng đúng của động từ vào ô trống (Giáo viên đã bảo các học sinh mở sách ra.):",
+      "question": "The teacher told the students ___ their books.",
+      "correctAnswer": "to open",
+      "options": [
+        "to open",
+        "open",
+        "opening",
+        "opened"
+      ],
+      "explanationVi": "Đáp án chính xác: \"to open\". Giáo viên đã bảo các học sinh mở sách ra.."
+    },
+    {
+      "id": "ex-059-10",
+      "type": "fill_blank",
+      "promptVi": "[Điền từ - (Dạng phủ định)] Điền dạng đúng của động từ vào ô trống (Anh ấy đã bảo tôi đừng lo lắng về kỳ thi.):",
+      "question": "He told me ___ worry about the exam.",
+      "correctAnswer": "not to",
+      "options": [
+        "not to",
+        "to not",
+        "don't",
+        "not"
+      ],
+      "explanationVi": "Đáp án chính xác: \"not to\". Anh ấy đã bảo tôi đừng lo lắng về kỳ thi.."
+    },
+    {
+      "id": "ex-059-11",
+      "type": "fill_blank",
+      "promptVi": "[Điền từ - Dạng PHỦ ĐỊNH] Hoàn thành câu phủ định sau:",
+      "correctAnswer": "He asked me if I liked coffee.",
+      "options": [
+        "He asked me if I liked coffee.",
+        "He asked me if I liked coffee.",
+        "Not He asked me if I liked coffee.",
+        "He asked me if I liked coffee. no"
+      ],
+      "explanationVi": "Dạng phủ định chuẩn: Thêm 'not' sau động từ chính."
+    },
+    {
+      "id": "ex-059-12",
       "type": "sentence_scramble",
-      "promptVi": "Sắp xếp các khối từ sau thành câu hoàn chỉnh:",
+      "promptVi": "[Sắp xếp câu] Xếp các khối từ thành câu hoàn chỉnh mang nghĩa: \"Anh ấy đã hỏi tôi xem tôi có thích cà phê không.\"",
+      "words": [
+        "asked",
+        "I",
+        "if",
+        "me",
+        "liked",
+        "coffee.",
+        "He"
+      ],
+      "correctSentence": "He asked me if I liked coffee.",
+      "hintVi": "Anh ấy đã hỏi tôi xem tôi có thích cà phê không.",
+      "explanationVi": "Câu hoàn chỉnh: \"He asked me if I liked coffee.\" (Anh ấy đã hỏi tôi xem tôi có thích cà phê không.)."
+    },
+    {
+      "id": "ex-059-13",
+      "type": "sentence_scramble",
+      "promptVi": "[Sắp xếp câu] Xếp các khối từ thành câu hoàn chỉnh mang nghĩa: \"Cô ấy đã hỏi tôi rằng tôi sống ở đâu.\"",
+      "words": [
+        "where",
+        "lived.",
+        "I",
+        "She",
+        "me",
+        "asked"
+      ],
+      "correctSentence": "She asked me where I lived.",
+      "hintVi": "Cô ấy đã hỏi tôi rằng tôi sống ở đâu.",
+      "explanationVi": "Câu hoàn chỉnh: \"She asked me where I lived.\" (Cô ấy đã hỏi tôi rằng tôi sống ở đâu.)."
+    },
+    {
+      "id": "ex-059-14",
+      "type": "sentence_scramble",
+      "promptVi": "[Sắp xếp câu] Xếp các khối từ thành câu hoàn chỉnh mang nghĩa: \"Giáo viên đã bảo các học sinh mở sách ra.\"",
       "words": [
         "books.",
         "their",
-        "open",
-        "to",
         "students",
-        "the",
-        "told",
+        "The",
+        "open",
         "teacher",
-        "The"
+        "to",
+        "the",
+        "told"
       ],
       "correctSentence": "The teacher told the students to open their books.",
       "hintVi": "Giáo viên đã bảo các học sinh mở sách ra.",
       "explanationVi": "Câu hoàn chỉnh: \"The teacher told the students to open their books.\" (Giáo viên đã bảo các học sinh mở sách ra.)."
     },
     {
-      "id": "ex-059-04",
-      "type": "find_error",
-      "promptVi": "Chọn câu có cấu trúc ngữ pháp chuẩn xác nhất trong các câu sau:",
-      "question": "Dựa vào chủ điểm ngữ pháp \"Bài 59: Câu Tường thuật — Câu Hỏi & Mệnh Lệnh (Reported Questions: If/Whether/Wh- & Imperatives: To-V / Not to-V)\", câu nào sau đây là hoàn toàn CHÍNH XÁC?",
-      "options": [
-        "He told me not to worry about the exam.",
-        "He told me not to worry about the exam. not",
-        "He told me not with worry about the exam.",
-        "told me not to worry about the exam. He"
+      "id": "ex-059-15",
+      "type": "sentence_scramble",
+      "promptVi": "[Sắp xếp câu] Xếp các khối từ thành câu hoàn chỉnh mang nghĩa: \"Anh ấy đã bảo tôi đừng lo lắng về kỳ thi.\"",
+      "words": [
+        "to",
+        "exam.",
+        "not",
+        "told",
+        "the",
+        "worry",
+        "about",
+        "me",
+        "He"
       ],
-      "correctAnswer": "He told me not to worry about the exam.",
-      "explanationVi": "Cấu trúc chuẩn xác là: \"He told me not to worry about the exam.\" (Anh ấy đã bảo tôi đừng lo lắng về kỳ thi.)."
+      "correctSentence": "He told me not to worry about the exam.",
+      "hintVi": "Anh ấy đã bảo tôi đừng lo lắng về kỳ thi.",
+      "explanationVi": "Câu hoàn chỉnh: \"He told me not to worry about the exam.\" (Anh ấy đã bảo tôi đừng lo lắng về kỳ thi.)."
     },
     {
-      "id": "ex-059-05",
+      "id": "ex-059-16",
+      "type": "sentence_scramble",
+      "promptVi": "[Sắp xếp câu] Xếp các từ thành câu hội thoại: \"Họ có hỏi liệu bạn có thể chuyển công tác đến trụ sở quốc tế của họ không? (Yes/No: whether you could)\"",
+      "words": [
+        "their",
+        "whether",
+        "ask",
+        "could",
+        "they",
+        "you",
+        "Did",
+        "international",
+        "relocate",
+        "to",
+        "headquarters"
+      ],
+      "correctSentence": "Did they ask whether you could relocate to their international headquarters?",
+      "hintVi": "Họ có hỏi liệu bạn có thể chuyển công tác đến trụ sở quốc tế của họ không? (Yes/No: whether you could)",
+      "explanationVi": "Câu đúng: \"Did they ask whether you could relocate to their international headquarters?\" (Họ có hỏi liệu bạn có thể chuyển công tác đến trụ sở quốc tế của họ không? (Yes/No: whether you could))."
+    },
+    {
+      "id": "ex-059-17",
+      "type": "find_error",
+      "promptVi": "[Tìm lỗi sai & Chọn câu đúng] Câu nào dưới đây có cấu trúc ngữ pháp HOÀN TOÀN ĐÚNG?",
+      "question": "Chủ điểm \"Bài 59: Câu Tường thuật — Câu Hỏi & Mệnh Lệnh (Reported Questions: If/Whether/Wh- & Imperatives: To-V / Not to-V)\": Chọn câu CHÍNH XÁC:",
+      "options": [
+        "He asked me if I liked coffee.",
+        "coffee. liked I if me asked He",
+        "He asked me if I liked coffee. (sai)",
+        "He asked me if I liked coffee. (sai)"
+      ],
+      "correctAnswer": "He asked me if I liked coffee.",
+      "explanationVi": "Câu chuẩn xác là: \"He asked me if I liked coffee.\" (Anh ấy đã hỏi tôi xem tôi có thích cà phê không.)."
+    },
+    {
+      "id": "ex-059-18",
+      "type": "find_error",
+      "promptVi": "[Tìm lỗi sai & Chọn câu đúng] Câu nào dưới đây có cấu trúc ngữ pháp HOÀN TOÀN ĐÚNG?",
+      "question": "Chủ điểm \"Bài 59: Câu Tường thuật — Câu Hỏi & Mệnh Lệnh (Reported Questions: If/Whether/Wh- & Imperatives: To-V / Not to-V)\": Chọn câu CHÍNH XÁC:",
+      "options": [
+        "She asked me where I lived.",
+        "lived. I where me asked She",
+        "She asked me where I lived. (sai)",
+        "She asked me where I lived. (sai)"
+      ],
+      "correctAnswer": "She asked me where I lived.",
+      "explanationVi": "Câu chuẩn xác là: \"She asked me where I lived.\" (Cô ấy đã hỏi tôi rằng tôi sống ở đâu.)."
+    },
+    {
+      "id": "ex-059-19",
+      "type": "find_error",
+      "promptVi": "[Tìm lỗi sai & Chọn câu đúng] Câu nào dưới đây có cấu trúc ngữ pháp HOÀN TOÀN ĐÚNG?",
+      "question": "Chủ điểm \"Bài 59: Câu Tường thuật — Câu Hỏi & Mệnh Lệnh (Reported Questions: If/Whether/Wh- & Imperatives: To-V / Not to-V)\": Chọn câu CHÍNH XÁC:",
+      "options": [
+        "The teacher told the students to open their books.",
+        "books. their open to students the told teacher The",
+        "The teacher told the students to open their books. (sai)",
+        "The teacher told the students to open their books. (sai)"
+      ],
+      "correctAnswer": "The teacher told the students to open their books.",
+      "explanationVi": "Câu chuẩn xác là: \"The teacher told the students to open their books.\" (Giáo viên đã bảo các học sinh mở sách ra.)."
+    },
+    {
+      "id": "ex-059-20",
+      "type": "find_error",
+      "promptVi": "[Tìm lỗi sai & Chọn câu đúng] Câu nào dưới đây có cấu trúc ngữ pháp HOÀN TOÀN ĐÚNG?",
+      "question": "Chủ điểm \"Bài 59: Câu Tường thuật — Câu Hỏi & Mệnh Lệnh (Reported Questions: If/Whether/Wh- & Imperatives: To-V / Not to-V)\": Chọn câu CHÍNH XÁC:",
+      "options": [
+        "He told me not to worry about the exam.",
+        "exam. the about worry to not me told He",
+        "He told me not to worry about the exam. (sai)",
+        "He told me not to worry about the exam. (sai)"
+      ],
+      "correctAnswer": "He told me not to worry about the exam.",
+      "explanationVi": "Câu chuẩn xác là: \"He told me not to worry about the exam.\" (Anh ấy đã bảo tôi đừng lo lắng về kỳ thi.)."
+    },
+    {
+      "id": "ex-059-21",
       "type": "listening_reflex",
-      "promptVi": "Nghe câu tiếng Anh và chọn bản dịch tiếng Việt chuẩn xác:",
+      "promptVi": "[Nghe phản xạ] Nghe câu phát âm tiếng Anh và chọn bản dịch tiếng Việt đúng nhất:",
       "audioPrompt": "How did your senior software engineer interview go this morning, Ashley?",
-      "question": "Nghe câu phát âm tiếng Anh và chọn nghĩa đúng:",
+      "question": "Nhấn nút '🔊 Nghe audio' để nghe câu thoại và chọn nghĩa đúng:",
       "options": [
         "Buổi phỏng vấn vị trí kỹ sư phần mềm cấp cao sáng nay của bạn thế nào rồi Ashley?",
         "Rất kỹ lưỡng! Người phỏng vấn đã hỏi tôi đã từng làm việc ở đâu trước đây. (Wh- question: where I had worked)",
         "Họ có hỏi liệu bạn có thể chuyển công tác đến trụ sở quốc tế của họ không? (Yes/No: whether you could)",
-        "Hôm nay chúng tôi đi mua sắm tại trung tâm thương mại."
+        "Ngày mai trời sẽ mưa to."
       ],
       "correctAnswer": "Buổi phỏng vấn vị trí kỹ sư phần mềm cấp cao sáng nay của bạn thế nào rồi Ashley?",
-      "explanationVi": "Câu nghe được: \"How did your senior software engineer interview go this morning, Ashley?\" nghĩa là: \"Buổi phỏng vấn vị trí kỹ sư phần mềm cấp cao sáng nay của bạn thế nào rồi Ashley?\"."
+      "explanationVi": "Câu nghe được: \"How did your senior software engineer interview go this morning, Ashley?\" có nghĩa là: \"Buổi phỏng vấn vị trí kỹ sư phần mềm cấp cao sáng nay của bạn thế nào rồi Ashley?\"."
     },
     {
-      "id": "ex-059-06",
+      "id": "ex-059-22",
+      "type": "listening_reflex",
+      "promptVi": "[Nghe phản xạ] Nghe câu phát âm tiếng Anh và chọn bản dịch tiếng Việt đúng nhất:",
+      "audioPrompt": "It was thorough! The interviewer asked me where I had worked previously.",
+      "question": "Nhấn nút '🔊 Nghe audio' để nghe câu thoại và chọn nghĩa đúng:",
+      "options": [
+        "Rất kỹ lưỡng! Người phỏng vấn đã hỏi tôi đã từng làm việc ở đâu trước đây. (Wh- question: where I had worked)",
+        "Họ có hỏi liệu bạn có thể chuyển công tác đến trụ sở quốc tế của họ không? (Yes/No: whether you could)",
+        "Có chứ, họ đã hỏi liệu tôi có sẵn sàng đi công tác nước ngoài thường xuyên để tư vấn kỹ thuật không. (if I was)",
+        "Ngày mai trời sẽ mưa to."
+      ],
+      "correctAnswer": "Rất kỹ lưỡng! Người phỏng vấn đã hỏi tôi đã từng làm việc ở đâu trước đây. (Wh- question: where I had worked)",
+      "explanationVi": "Câu nghe được: \"It was thorough! The interviewer asked me where I had worked previously.\" có nghĩa là: \"Rất kỹ lưỡng! Người phỏng vấn đã hỏi tôi đã từng làm việc ở đâu trước đây. (Wh- question: where I had worked)\"."
+    },
+    {
+      "id": "ex-059-23",
+      "type": "listening_reflex",
+      "promptVi": "[Nghe phản xạ] Nghe câu phát âm tiếng Anh và chọn bản dịch tiếng Việt đúng nhất:",
+      "audioPrompt": "Did they ask whether you could relocate to their international headquarters?",
+      "question": "Nhấn nút '🔊 Nghe audio' để nghe câu thoại và chọn nghĩa đúng:",
+      "options": [
+        "Họ có hỏi liệu bạn có thể chuyển công tác đến trụ sở quốc tế của họ không? (Yes/No: whether you could)",
+        "Có chứ, họ đã hỏi liệu tôi có sẵn sàng đi công tác nước ngoài thường xuyên để tư vấn kỹ thuật không. (if I was)",
+        "Giám đốc tuyển dụng còn hỏi thêm điều gì trong phần kiến trúc hệ thống nữa?",
+        "Ngày mai trời sẽ mưa to."
+      ],
+      "correctAnswer": "Họ có hỏi liệu bạn có thể chuyển công tác đến trụ sở quốc tế của họ không? (Yes/No: whether you could)",
+      "explanationVi": "Câu nghe được: \"Did they ask whether you could relocate to their international headquarters?\" có nghĩa là: \"Họ có hỏi liệu bạn có thể chuyển công tác đến trụ sở quốc tế của họ không? (Yes/No: whether you could)\"."
+    },
+    {
+      "id": "ex-059-24",
+      "type": "listening_reflex",
+      "promptVi": "[Nghe phản xạ] Nghe câu phát âm tiếng Anh và chọn bản dịch tiếng Việt đúng nhất:",
+      "audioPrompt": "Yes, they asked if I was willing to travel abroad frequently for technical consulting.",
+      "question": "Nhấn nút '🔊 Nghe audio' để nghe câu thoại và chọn nghĩa đúng:",
+      "options": [
+        "Có chứ, họ đã hỏi liệu tôi có sẵn sàng đi công tác nước ngoài thường xuyên để tư vấn kỹ thuật không. (if I was)",
+        "Giám đốc tuyển dụng còn hỏi thêm điều gì trong phần kiến trúc hệ thống nữa?",
+        "Ông ấy đã hỏi tôi sẽ xử lý sự cố quá tải máy chủ do lưu lượng truy cập cao đột ngột như thế nào.",
+        "Ngày mai trời sẽ mưa to."
+      ],
+      "correctAnswer": "Có chứ, họ đã hỏi liệu tôi có sẵn sàng đi công tác nước ngoài thường xuyên để tư vấn kỹ thuật không. (if I was)",
+      "explanationVi": "Câu nghe được: \"Yes, they asked if I was willing to travel abroad frequently for technical consulting.\" có nghĩa là: \"Có chứ, họ đã hỏi liệu tôi có sẵn sàng đi công tác nước ngoài thường xuyên để tư vấn kỹ thuật không. (if I was)\"."
+    },
+    {
+      "id": "ex-059-25",
       "type": "speaking_practice",
-      "promptVi": "Luyện nói qua Micro: Hãy nhấn nút 'Nói ngay' và phát âm chuẩn xác câu sau:",
+      "promptVi": "[Luyện nói qua Micro] Nhấn nút '🎙️ Bắt đầu nói' và đọc to, rõ ràng câu tiếng Anh sau:",
       "targetSentence": "He asked me if I liked coffee.",
       "hintVi": "Anh ấy đã hỏi tôi xem tôi có thích cà phê không.",
-      "explanationVi": "Mẫu câu chuẩn: \"He asked me if I liked coffee.\" (Anh ấy đã hỏi tôi xem tôi có thích cà phê không.). Hãy phát âm rõ ràng từng từ và giữ ngữ điệu tự nhiên."
+      "explanationVi": "Câu mục tiêu: \"He asked me if I liked coffee.\" (Anh ấy đã hỏi tôi xem tôi có thích cà phê không.). Luyện phát âm chuẩn xác từng âm tiết và ngữ điệu tự nhiên."
     },
     {
-      "id": "ex-059-07",
+      "id": "ex-059-26",
+      "type": "speaking_practice",
+      "promptVi": "[Luyện nói qua Micro] Nhấn nút '🎙️ Bắt đầu nói' và đọc to, rõ ràng câu tiếng Anh sau:",
+      "targetSentence": "She asked me where I lived.",
+      "hintVi": "Cô ấy đã hỏi tôi rằng tôi sống ở đâu.",
+      "explanationVi": "Câu mục tiêu: \"She asked me where I lived.\" (Cô ấy đã hỏi tôi rằng tôi sống ở đâu.). Luyện phát âm chuẩn xác từng âm tiết và ngữ điệu tự nhiên."
+    },
+    {
+      "id": "ex-059-27",
+      "type": "speaking_practice",
+      "promptVi": "[Luyện nói qua Micro] Nhấn nút '🎙️ Bắt đầu nói' và đọc to, rõ ràng câu tiếng Anh sau:",
+      "targetSentence": "The teacher told the students to open their books.",
+      "hintVi": "Giáo viên đã bảo các học sinh mở sách ra.",
+      "explanationVi": "Câu mục tiêu: \"The teacher told the students to open their books.\" (Giáo viên đã bảo các học sinh mở sách ra.). Luyện phát âm chuẩn xác từng âm tiết và ngữ điệu tự nhiên."
+    },
+    {
+      "id": "ex-059-28",
+      "type": "speaking_practice",
+      "promptVi": "[Luyện nói qua Micro] Nhấn nút '🎙️ Bắt đầu nói' và đọc to, rõ ràng câu tiếng Anh sau:",
+      "targetSentence": "He told me not to worry about the exam.",
+      "hintVi": "Anh ấy đã bảo tôi đừng lo lắng về kỳ thi.",
+      "explanationVi": "Câu mục tiêu: \"He told me not to worry about the exam.\" (Anh ấy đã bảo tôi đừng lo lắng về kỳ thi.). Luyện phát âm chuẩn xác từng âm tiết và ngữ điệu tự nhiên."
+    },
+    {
+      "id": "ex-059-29",
       "type": "reading_comprehension",
-      "promptVi": "Đọc đoạn hội thoại ngắn sau và trả lời câu hỏi đọc hiểu:",
-      "passage": "Timothy: \"How did your senior software engineer interview go this morning, Ashley?\"\nAshley: \"It was thorough! The interviewer asked me where I had worked previously.\"\nTimothy: \"Did they ask whether you could relocate to their international headquarters?\"\nAshley: \"Yes, they asked if I was willing to travel abroad frequently for technical consulting.\"",
-      "question": "Dựa vào ngữ cảnh đoạn hội thoại trên, Timothy và Ashley đang trao đổi về nội dung trọng tâm nào?",
+      "promptVi": "[Đọc hiểu đoạn văn 1] Đọc đoạn hội thoại mở đầu sau và trả lời câu hỏi:",
+      "passage": "Timothy (Nam): \"How did your senior software engineer interview go this morning, Ashley?\"\nAshley (Nữ): \"It was thorough! The interviewer asked me where I had worked previously.\"\nTimothy (Nam): \"Did they ask whether you could relocate to their international headquarters?\"\nAshley (Nữ): \"Yes, they asked if I was willing to travel abroad frequently for technical consulting.\"",
+      "question": "Câu hỏi: Trong đoạn hội thoại trên, các nhân vật đang thảo luận về chủ đề gì?",
       "options": [
         "Câu Tường thuật — Câu Hỏi & Mệnh Lệnh (Reported Questions: If/Whether/Wh- & Imperatives: To-V / Not to-V)",
-        "Kế hoạch mua sắm và nấu ăn cho bữa tối gia đình",
-        "Lịch trình đi du lịch nghỉ dưỡng mùa hè",
-        "Dự báo thời tiết và nhiệt độ ngày mai"
+        "Kế hoạch đi nghỉ dưỡng cuối tuần ở bãi biển",
+        "Mua sắm quần áo và đồ dùng thể thao",
+        "Cách làm món ăn truyền thống gia đình"
       ],
       "correctAnswer": "Câu Tường thuật — Câu Hỏi & Mệnh Lệnh (Reported Questions: If/Whether/Wh- & Imperatives: To-V / Not to-V)",
-      "explanationVi": "Đoạn hội thoại mở đầu được thiết kế để minh họa và ứng dụng trực tiếp chủ điểm: \"Bài 59: Câu Tường thuật — Câu Hỏi & Mệnh Lệnh (Reported Questions: If/Whether/Wh- & Imperatives: To-V / Not to-V)\"."
+      "explanationVi": "Đoạn hội thoại mở đầu được thiết kế để minh họa trực tiếp cho chủ điểm ngữ pháp: \"Bài 59: Câu Tường thuật — Câu Hỏi & Mệnh Lệnh (Reported Questions: If/Whether/Wh- & Imperatives: To-V / Not to-V)\"."
     },
     {
-      "id": "ex-059-08",
-      "type": "multiple_choice",
-      "promptVi": "Phản xạ dịch & Ngữ pháp: Chọn câu tiếng Anh diễn đạt đúng nghĩa:",
-      "question": "Dịch câu sang tiếng Anh: \"Giáo viên đã bảo các học sinh mở sách ra.\"",
+      "id": "ex-059-30",
+      "type": "reading_comprehension",
+      "promptVi": "[Đọc hiểu đoạn văn 2] Đọc phần tiếp theo của đoạn hội thoại và chọn nhận định đúng:",
+      "passage": "Timothy (Nam): \"What else did the hiring director ask during the system architecture session?\"\nAshley (Nữ): \"He asked how I would handle sudden high-traffic server overloads.\"\nTimothy (Nam): \"What instructions did the building security officers give when you entered?\"\nAshley (Nữ): \"The security guard told me to wear my visitor badge visibly at all times.\"",
+      "question": "Nhận định nào sau đây là ĐÚNG với nội dung đoạn hội thoại trên?",
       "options": [
-        "The teacher told the students to open their books.",
-        "The teacher told the students at open their books.",
-        "She asked me where I lived.",
-        "Incorrect grammatical form 3"
+        "Các câu hội thoại sử dụng đúng cấu trúc ngữ pháp \"Bài 59: Câu Tường thuật — Câu Hỏi & Mệnh Lệnh (Reported Questions: If/Whether/Wh- & Imperatives: To-V / Not to-V)\".",
+        "Các nhân vật không hiểu ý nhau và từ chối nói chuyện.",
+        "Đoạn hội thoại nói về việc chuyển nhà sang thành phố khác.",
+        "Cả hai nhân vật đều đang ở sân bay chuẩn bị lên máy bay."
       ],
-      "correctAnswer": "The teacher told the students to open their books.",
-      "explanationVi": "Bản dịch chuẩn xác và đúng ngữ pháp là: \"The teacher told the students to open their books.\" (Giáo viên đã bảo các học sinh mở sách ra.)."
+      "correctAnswer": "Các câu hội thoại sử dụng đúng cấu trúc ngữ pháp \"Bài 59: Câu Tường thuật — Câu Hỏi & Mệnh Lệnh (Reported Questions: If/Whether/Wh- & Imperatives: To-V / Not to-V)\".",
+      "explanationVi": "Đoạn hội thoại thứ hai tiếp tục củng cố và ứng dụng các quy tắc ngữ pháp của \"Bài 59: Câu Tường thuật — Câu Hỏi & Mệnh Lệnh (Reported Questions: If/Whether/Wh- & Imperatives: To-V / Not to-V)\"."
     }
   ]
 }

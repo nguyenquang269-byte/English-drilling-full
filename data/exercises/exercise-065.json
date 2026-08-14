@@ -2,11 +2,26 @@
   "lessonId": "lesson-065",
   "lessonNumber": 65,
   "title": "Bài tập Ôn luyện: Bài 65: Quá khứ Hoàn thành — Cơ bản (Past Perfect Simple: Had + V3/ed)",
+  "totalQuestions": 30,
   "questions": [
     {
       "id": "ex-065-01",
       "type": "multiple_choice",
-      "promptVi": "Chọn đáp án đúng nhất hoàn thành câu:",
+      "promptVi": "[Trắc nghiệm] Chọn từ/cụm từ đúng để hoàn thành câu (Trước 9 giờ tối, tôi đã hoàn thành tất cả bài tập về nhà của mình.):",
+      "question": "By 9 PM, I ___ finished all my homework.",
+      "options": [
+        "had",
+        "have",
+        "was",
+        "did"
+      ],
+      "correctAnswer": "had",
+      "explanationVi": "Trước một thời điểm quá khứ (By 9 PM) dùng thì Quá khứ hoàn thành 'had + V3'."
+    },
+    {
+      "id": "ex-065-02",
+      "type": "multiple_choice",
+      "promptVi": "[Trắc nghiệm] Chọn từ/cụm từ đúng để hoàn thành câu (Chuyến tàu đã rời đi rồi khi chúng tôi đến nơi.):",
       "question": "The train had already ___ when we arrived.",
       "options": [
         "left",
@@ -18,9 +33,65 @@
       "explanationVi": "Sau 'had already' dùng dạng V3 là 'left'."
     },
     {
-      "id": "ex-065-02",
+      "id": "ex-065-03",
+      "type": "multiple_choice",
+      "promptVi": "[Trắc nghiệm] Chọn từ/cụm từ đúng để hoàn thành câu (Bạn đã ăn tối trước khi đi ra ngoài chưa?):",
+      "question": "___ you eaten dinner before you went out?",
+      "options": [
+        "Had",
+        "Have",
+        "Did",
+        "Were"
+      ],
+      "correctAnswer": "Had",
+      "explanationVi": "Hỏi hành động xảy ra trước hành động quá khứ (went out) dùng 'Had + S + V3'."
+    },
+    {
+      "id": "ex-065-04",
+      "type": "multiple_choice",
+      "promptVi": "[Trắc nghiệm] Chọn từ/cụm từ đúng để hoàn thành câu (Tôi chưa từng đến thăm Luân Đôn trước mùa hè năm ngoái.):",
+      "question": "I had ___ visited London before last summer.",
+      "options": [
+        "never",
+        "not yet",
+        "no",
+        "rare"
+      ],
+      "correctAnswer": "never",
+      "explanationVi": "'never' đứng giữa had và visited để chỉ 'chưa từng bao giờ trước đó'."
+    },
+    {
+      "id": "ex-065-05",
+      "type": "multiple_choice",
+      "promptVi": "[Trắc nghiệm] Dịch câu sau sang tiếng Anh: \"Chào buổi sáng Sĩ quan Lee. Bạn đã đến bảo tàng trung tâm thành phố lúc mấy giờ vào tối hôm qua?\"",
+      "question": "Chọn bản dịch chuẩn xác cho câu: \"Chào buổi sáng Sĩ quan Lee. Bạn đã đến bảo tàng trung tâm thành phố lúc mấy giờ vào tối hôm qua?\"",
+      "options": [
+        "Good morning, Officer Lee. What time did you arrive at the downtown museum yesterday evening?",
+        "Good morning, Officer Lee. What time be you arrive at the downtown museum yesterday evening?",
+        "I arrived at 9 PM, but the security guard had already locked all the exterior gates.",
+        "I want to go to the park now."
+      ],
+      "correctAnswer": "Good morning, Officer Lee. What time did you arrive at the downtown museum yesterday evening?",
+      "explanationVi": "Câu đúng là \"Good morning, Officer Lee. What time did you arrive at the downtown museum yesterday evening?\" (Chào buổi sáng Sĩ quan Lee. Bạn đã đến bảo tàng trung tâm thành phố lúc mấy giờ vào tối hôm qua?)."
+    },
+    {
+      "id": "ex-065-06",
+      "type": "multiple_choice",
+      "promptVi": "[Trắc nghiệm] Chọn câu trả lời hoặc cách diễn đạt phù hợp:",
+      "question": "Trong ngữ cảnh giao tiếp: \"Good morning, Officer Lee. What time did you arrive at the downtown museum yesterday evening?\", câu phản hồi tự nhiên là gì?",
+      "options": [
+        "I arrived at 9 PM, but the security guard had already locked all the exterior gates.",
+        "No, it is yesterday morning.",
+        "Yes, I will eat apple.",
+        "They are not at the library."
+      ],
+      "correctAnswer": "I arrived at 9 PM, but the security guard had already locked all the exterior gates.",
+      "explanationVi": "Phản hồi phù hợp: \"I arrived at 9 PM, but the security guard had already locked all the exterior gates.\" (Tôi đã đến lúc 9 giờ tối, nhưng nhân viên bảo vệ đã khóa tất cả các cổng bên ngoài từ trước đó rồi. (had already locked))."
+    },
+    {
+      "id": "ex-065-07",
       "type": "fill_blank",
-      "promptVi": "Điền từ hoặc dạng đúng của động từ vào chỗ trống:",
+      "promptVi": "[Điền từ - (Dạng khẳng định)] Điền dạng đúng của động từ vào ô trống (Trước 9 giờ tối, tôi đã hoàn thành tất cả bài tập về nhà của mình.):",
       "question": "By 9 PM, I ___ finished all my homework.",
       "correctAnswer": "had",
       "options": [
@@ -29,91 +100,336 @@
         "was",
         "did"
       ],
-      "explanationVi": "Trước một thời điểm quá khứ (By 9 PM) dùng thì Quá khứ hoàn thành 'had + V3'."
+      "explanationVi": "Đáp án chính xác: \"had\". Trước 9 giờ tối, tôi đã hoàn thành tất cả bài tập về nhà của mình.."
     },
     {
-      "id": "ex-065-03",
+      "id": "ex-065-08",
+      "type": "fill_blank",
+      "promptVi": "[Điền từ - (Dạng khẳng định)] Điền dạng đúng của động từ vào ô trống (Chuyến tàu đã rời đi rồi khi chúng tôi đến nơi.):",
+      "question": "The train had already ___ when we arrived.",
+      "correctAnswer": "left",
+      "options": [
+        "left",
+        "leave",
+        "leaving",
+        "leaves"
+      ],
+      "explanationVi": "Đáp án chính xác: \"left\". Chuyến tàu đã rời đi rồi khi chúng tôi đến nơi.."
+    },
+    {
+      "id": "ex-065-09",
+      "type": "fill_blank",
+      "promptVi": "[Điền từ - (Dạng khẳng định)] Điền dạng đúng của động từ vào ô trống (Bạn đã ăn tối trước khi đi ra ngoài chưa?):",
+      "question": "___ you eaten dinner before you went out?",
+      "correctAnswer": "Had",
+      "options": [
+        "Had",
+        "Have",
+        "Did",
+        "Were"
+      ],
+      "explanationVi": "Đáp án chính xác: \"Had\". Bạn đã ăn tối trước khi đi ra ngoài chưa?."
+    },
+    {
+      "id": "ex-065-10",
+      "type": "fill_blank",
+      "promptVi": "[Điền từ - (Dạng khẳng định)] Điền dạng đúng của động từ vào ô trống (Tôi chưa từng đến thăm Luân Đôn trước mùa hè năm ngoái.):",
+      "question": "I had ___ visited London before last summer.",
+      "correctAnswer": "never",
+      "options": [
+        "never",
+        "not yet",
+        "no",
+        "rare"
+      ],
+      "explanationVi": "Đáp án chính xác: \"never\". Tôi chưa từng đến thăm Luân Đôn trước mùa hè năm ngoái.."
+    },
+    {
+      "id": "ex-065-11",
+      "type": "fill_blank",
+      "promptVi": "[Điền từ - Dạng PHỦ ĐỊNH] Hoàn thành câu phủ định sau:",
+      "correctAnswer": "By 9 PM, I had finished all my homework.",
+      "options": [
+        "By 9 PM, I had finished all my homework.",
+        "By 9 PM, I had finished all my homework.",
+        "Not By 9 PM, I had finished all my homework.",
+        "By 9 PM, I had finished all my homework. no"
+      ],
+      "explanationVi": "Dạng phủ định chuẩn: Thêm 'not' sau động từ chính."
+    },
+    {
+      "id": "ex-065-12",
       "type": "sentence_scramble",
-      "promptVi": "Sắp xếp các khối từ sau thành câu hoàn chỉnh:",
+      "promptVi": "[Sắp xếp câu] Xếp các khối từ thành câu hoàn chỉnh mang nghĩa: \"Trước 9 giờ tối, tôi đã hoàn thành tất cả bài tập về nhà của mình.\"",
+      "words": [
+        "finished",
+        "PM,",
+        "homework.",
+        "I",
+        "9",
+        "had",
+        "my",
+        "all",
+        "By"
+      ],
+      "correctSentence": "By 9 PM, I had finished all my homework.",
+      "hintVi": "Trước 9 giờ tối, tôi đã hoàn thành tất cả bài tập về nhà của mình.",
+      "explanationVi": "Câu hoàn chỉnh: \"By 9 PM, I had finished all my homework.\" (Trước 9 giờ tối, tôi đã hoàn thành tất cả bài tập về nhà của mình.)."
+    },
+    {
+      "id": "ex-065-13",
+      "type": "sentence_scramble",
+      "promptVi": "[Sắp xếp câu] Xếp các khối từ thành câu hoàn chỉnh mang nghĩa: \"Chuyến tàu đã rời đi rồi khi chúng tôi đến nơi.\"",
+      "words": [
+        "arrived.",
+        "we",
+        "The",
+        "when",
+        "had",
+        "left",
+        "already",
+        "train"
+      ],
+      "correctSentence": "The train had already left when we arrived.",
+      "hintVi": "Chuyến tàu đã rời đi rồi khi chúng tôi đến nơi.",
+      "explanationVi": "Câu hoàn chỉnh: \"The train had already left when we arrived.\" (Chuyến tàu đã rời đi rồi khi chúng tôi đến nơi.)."
+    },
+    {
+      "id": "ex-065-14",
+      "type": "sentence_scramble",
+      "promptVi": "[Sắp xếp câu] Xếp các khối từ thành câu hoàn chỉnh mang nghĩa: \"Bạn đã ăn tối trước khi đi ra ngoài chưa?\"",
       "words": [
         "out?",
         "went",
         "you",
         "before",
+        "Had",
         "dinner",
         "eaten",
-        "you",
-        "Had"
+        "you"
       ],
       "correctSentence": "Had you eaten dinner before you went out?",
       "hintVi": "Bạn đã ăn tối trước khi đi ra ngoài chưa?",
       "explanationVi": "Câu hoàn chỉnh: \"Had you eaten dinner before you went out?\" (Bạn đã ăn tối trước khi đi ra ngoài chưa?)."
     },
     {
-      "id": "ex-065-04",
-      "type": "find_error",
-      "promptVi": "Chọn câu có cấu trúc ngữ pháp chuẩn xác nhất trong các câu sau:",
-      "question": "Dựa vào chủ điểm ngữ pháp \"Bài 65: Quá khứ Hoàn thành — Cơ bản (Past Perfect Simple: Had + V3/ed)\", câu nào sau đây là hoàn toàn CHÍNH XÁC?",
-      "options": [
-        "I had never visited London before last summer.",
-        "I be never visited London before last summer.",
-        "Is I had never visited London before last summer.",
-        "had never visited London before last summer. I"
+      "id": "ex-065-15",
+      "type": "sentence_scramble",
+      "promptVi": "[Sắp xếp câu] Xếp các khối từ thành câu hoàn chỉnh mang nghĩa: \"Tôi chưa từng đến thăm Luân Đôn trước mùa hè năm ngoái.\"",
+      "words": [
+        "summer.",
+        "last",
+        "never",
+        "before",
+        "I",
+        "London",
+        "had",
+        "visited"
       ],
-      "correctAnswer": "I had never visited London before last summer.",
-      "explanationVi": "Cấu trúc chuẩn xác là: \"I had never visited London before last summer.\" (Tôi chưa từng đến thăm Luân Đôn trước mùa hè năm ngoái.)."
+      "correctSentence": "I had never visited London before last summer.",
+      "hintVi": "Tôi chưa từng đến thăm Luân Đôn trước mùa hè năm ngoái.",
+      "explanationVi": "Câu hoàn chỉnh: \"I had never visited London before last summer.\" (Tôi chưa từng đến thăm Luân Đôn trước mùa hè năm ngoái.)."
     },
     {
-      "id": "ex-065-05",
+      "id": "ex-065-16",
+      "type": "sentence_scramble",
+      "promptVi": "[Sắp xếp câu] Xếp các từ thành câu hội thoại: \"Nhân viên bảo tàng có nhận thấy điều gì khả nghi trước khi chuông báo động chính reo lên không? (Had the staff noticed)\"",
+      "words": [
+        "the",
+        "alarm",
+        "before",
+        "main",
+        "noticed",
+        "went",
+        "off",
+        "staff",
+        "museum",
+        "suspicious",
+        "anything",
+        "Had",
+        "the"
+      ],
+      "correctSentence": "Had the museum staff noticed anything suspicious before the main alarm went off?",
+      "hintVi": "Nhân viên bảo tàng có nhận thấy điều gì khả nghi trước khi chuông báo động chính reo lên không? (Had the staff noticed)",
+      "explanationVi": "Câu đúng: \"Had the museum staff noticed anything suspicious before the main alarm went off?\" (Nhân viên bảo tàng có nhận thấy điều gì khả nghi trước khi chuông báo động chính reo lên không? (Had the staff noticed))."
+    },
+    {
+      "id": "ex-065-17",
+      "type": "find_error",
+      "promptVi": "[Tìm lỗi sai & Chọn câu đúng] Câu nào dưới đây có cấu trúc ngữ pháp HOÀN TOÀN ĐÚNG?",
+      "question": "Chủ điểm \"Bài 65: Quá khứ Hoàn thành — Cơ bản (Past Perfect Simple: Had + V3/ed)\": Chọn câu CHÍNH XÁC:",
+      "options": [
+        "By 9 PM, I had finished all my homework.",
+        "homework. my all finished had I PM, 9 By",
+        "By 9 PM, I had finished all my homework. (sai)",
+        "By 9 PM, I had finished all my homework. (sai)"
+      ],
+      "correctAnswer": "By 9 PM, I had finished all my homework.",
+      "explanationVi": "Câu chuẩn xác là: \"By 9 PM, I had finished all my homework.\" (Trước 9 giờ tối, tôi đã hoàn thành tất cả bài tập về nhà của mình.)."
+    },
+    {
+      "id": "ex-065-18",
+      "type": "find_error",
+      "promptVi": "[Tìm lỗi sai & Chọn câu đúng] Câu nào dưới đây có cấu trúc ngữ pháp HOÀN TOÀN ĐÚNG?",
+      "question": "Chủ điểm \"Bài 65: Quá khứ Hoàn thành — Cơ bản (Past Perfect Simple: Had + V3/ed)\": Chọn câu CHÍNH XÁC:",
+      "options": [
+        "The train had already left when we arrived.",
+        "arrived. we when left already had train The",
+        "The train had already left when we arrived. (sai)",
+        "The train had already left when we arrived. (sai)"
+      ],
+      "correctAnswer": "The train had already left when we arrived.",
+      "explanationVi": "Câu chuẩn xác là: \"The train had already left when we arrived.\" (Chuyến tàu đã rời đi rồi khi chúng tôi đến nơi.)."
+    },
+    {
+      "id": "ex-065-19",
+      "type": "find_error",
+      "promptVi": "[Tìm lỗi sai & Chọn câu đúng] Câu nào dưới đây có cấu trúc ngữ pháp HOÀN TOÀN ĐÚNG?",
+      "question": "Chủ điểm \"Bài 65: Quá khứ Hoàn thành — Cơ bản (Past Perfect Simple: Had + V3/ed)\": Chọn câu CHÍNH XÁC:",
+      "options": [
+        "Had you eaten dinner before you went out?",
+        "out? went you before dinner eaten you Had",
+        "Had you eaten dinner before you went out? (sai)",
+        "Had you eaten dinner before you went out? (sai)"
+      ],
+      "correctAnswer": "Had you eaten dinner before you went out?",
+      "explanationVi": "Câu chuẩn xác là: \"Had you eaten dinner before you went out?\" (Bạn đã ăn tối trước khi đi ra ngoài chưa?)."
+    },
+    {
+      "id": "ex-065-20",
+      "type": "find_error",
+      "promptVi": "[Tìm lỗi sai & Chọn câu đúng] Câu nào dưới đây có cấu trúc ngữ pháp HOÀN TOÀN ĐÚNG?",
+      "question": "Chủ điểm \"Bài 65: Quá khứ Hoàn thành — Cơ bản (Past Perfect Simple: Had + V3/ed)\": Chọn câu CHÍNH XÁC:",
+      "options": [
+        "I had never visited London before last summer.",
+        "summer. last before London visited never had I",
+        "I had never visited London before last summer. (sai)",
+        "I had never visited London before last summer. (sai)"
+      ],
+      "correctAnswer": "I had never visited London before last summer.",
+      "explanationVi": "Câu chuẩn xác là: \"I had never visited London before last summer.\" (Tôi chưa từng đến thăm Luân Đôn trước mùa hè năm ngoái.)."
+    },
+    {
+      "id": "ex-065-21",
       "type": "listening_reflex",
-      "promptVi": "Nghe câu tiếng Anh và chọn bản dịch tiếng Việt chuẩn xác:",
+      "promptVi": "[Nghe phản xạ] Nghe câu phát âm tiếng Anh và chọn bản dịch tiếng Việt đúng nhất:",
       "audioPrompt": "Good morning, Officer Lee. What time did you arrive at the downtown museum yesterday evening?",
-      "question": "Nghe câu phát âm tiếng Anh và chọn nghĩa đúng:",
+      "question": "Nhấn nút '🔊 Nghe audio' để nghe câu thoại và chọn nghĩa đúng:",
       "options": [
         "Chào buổi sáng Sĩ quan Lee. Bạn đã đến bảo tàng trung tâm thành phố lúc mấy giờ vào tối hôm qua?",
         "Tôi đã đến lúc 9 giờ tối, nhưng nhân viên bảo vệ đã khóa tất cả các cổng bên ngoài từ trước đó rồi. (had already locked)",
         "Nhân viên bảo tàng có nhận thấy điều gì khả nghi trước khi chuông báo động chính reo lên không? (Had the staff noticed)",
-        "Hôm nay chúng tôi đi mua sắm tại trung tâm thương mại."
+        "Ngày mai trời sẽ mưa to."
       ],
       "correctAnswer": "Chào buổi sáng Sĩ quan Lee. Bạn đã đến bảo tàng trung tâm thành phố lúc mấy giờ vào tối hôm qua?",
-      "explanationVi": "Câu nghe được: \"Good morning, Officer Lee. What time did you arrive at the downtown museum yesterday evening?\" nghĩa là: \"Chào buổi sáng Sĩ quan Lee. Bạn đã đến bảo tàng trung tâm thành phố lúc mấy giờ vào tối hôm qua?\"."
+      "explanationVi": "Câu nghe được: \"Good morning, Officer Lee. What time did you arrive at the downtown museum yesterday evening?\" có nghĩa là: \"Chào buổi sáng Sĩ quan Lee. Bạn đã đến bảo tàng trung tâm thành phố lúc mấy giờ vào tối hôm qua?\"."
     },
     {
-      "id": "ex-065-06",
+      "id": "ex-065-22",
+      "type": "listening_reflex",
+      "promptVi": "[Nghe phản xạ] Nghe câu phát âm tiếng Anh và chọn bản dịch tiếng Việt đúng nhất:",
+      "audioPrompt": "I arrived at 9 PM, but the security guard had already locked all the exterior gates.",
+      "question": "Nhấn nút '🔊 Nghe audio' để nghe câu thoại và chọn nghĩa đúng:",
+      "options": [
+        "Tôi đã đến lúc 9 giờ tối, nhưng nhân viên bảo vệ đã khóa tất cả các cổng bên ngoài từ trước đó rồi. (had already locked)",
+        "Nhân viên bảo tàng có nhận thấy điều gì khả nghi trước khi chuông báo động chính reo lên không? (Had the staff noticed)",
+        "Không, họ đã không nhìn thấy bất kỳ ai khác thường trong phòng trưng bày cổ vật. (had not seen)",
+        "Ngày mai trời sẽ mưa to."
+      ],
+      "correctAnswer": "Tôi đã đến lúc 9 giờ tối, nhưng nhân viên bảo vệ đã khóa tất cả các cổng bên ngoài từ trước đó rồi. (had already locked)",
+      "explanationVi": "Câu nghe được: \"I arrived at 9 PM, but the security guard had already locked all the exterior gates.\" có nghĩa là: \"Tôi đã đến lúc 9 giờ tối, nhưng nhân viên bảo vệ đã khóa tất cả các cổng bên ngoài từ trước đó rồi. (had already locked)\"."
+    },
+    {
+      "id": "ex-065-23",
+      "type": "listening_reflex",
+      "promptVi": "[Nghe phản xạ] Nghe câu phát âm tiếng Anh và chọn bản dịch tiếng Việt đúng nhất:",
+      "audioPrompt": "Had the museum staff noticed anything suspicious before the main alarm went off?",
+      "question": "Nhấn nút '🔊 Nghe audio' để nghe câu thoại và chọn nghĩa đúng:",
+      "options": [
+        "Nhân viên bảo tàng có nhận thấy điều gì khả nghi trước khi chuông báo động chính reo lên không? (Had the staff noticed)",
+        "Không, họ đã không nhìn thấy bất kỳ ai khác thường trong phòng trưng bày cổ vật. (had not seen)",
+        "Trước 8 giờ 30 tối, bức tranh thời Phục hưng vô giá đã biến mất một cách bí ẩn khỏi bức tường. (had vanished)",
+        "Ngày mai trời sẽ mưa to."
+      ],
+      "correctAnswer": "Nhân viên bảo tàng có nhận thấy điều gì khả nghi trước khi chuông báo động chính reo lên không? (Had the staff noticed)",
+      "explanationVi": "Câu nghe được: \"Had the museum staff noticed anything suspicious before the main alarm went off?\" có nghĩa là: \"Nhân viên bảo tàng có nhận thấy điều gì khả nghi trước khi chuông báo động chính reo lên không? (Had the staff noticed)\"."
+    },
+    {
+      "id": "ex-065-24",
+      "type": "listening_reflex",
+      "promptVi": "[Nghe phản xạ] Nghe câu phát âm tiếng Anh và chọn bản dịch tiếng Việt đúng nhất:",
+      "audioPrompt": "No, they had not seen anyone unusual in the antique exhibition gallery.",
+      "question": "Nhấn nút '🔊 Nghe audio' để nghe câu thoại và chọn nghĩa đúng:",
+      "options": [
+        "Không, họ đã không nhìn thấy bất kỳ ai khác thường trong phòng trưng bày cổ vật. (had not seen)",
+        "Trước 8 giờ 30 tối, bức tranh thời Phục hưng vô giá đã biến mất một cách bí ẩn khỏi bức tường. (had vanished)",
+        "Kẻ đột nhập đã vô hiệu hóa các máy quay giám sát trước khi bước vào căn hầm trung tâm. (had disabled)",
+        "Ngày mai trời sẽ mưa to."
+      ],
+      "correctAnswer": "Không, họ đã không nhìn thấy bất kỳ ai khác thường trong phòng trưng bày cổ vật. (had not seen)",
+      "explanationVi": "Câu nghe được: \"No, they had not seen anyone unusual in the antique exhibition gallery.\" có nghĩa là: \"Không, họ đã không nhìn thấy bất kỳ ai khác thường trong phòng trưng bày cổ vật. (had not seen)\"."
+    },
+    {
+      "id": "ex-065-25",
       "type": "speaking_practice",
-      "promptVi": "Luyện nói qua Micro: Hãy nhấn nút 'Nói ngay' và phát âm chuẩn xác câu sau:",
+      "promptVi": "[Luyện nói qua Micro] Nhấn nút '🎙️ Bắt đầu nói' và đọc to, rõ ràng câu tiếng Anh sau:",
       "targetSentence": "By 9 PM, I had finished all my homework.",
       "hintVi": "Trước 9 giờ tối, tôi đã hoàn thành tất cả bài tập về nhà của mình.",
-      "explanationVi": "Mẫu câu chuẩn: \"By 9 PM, I had finished all my homework.\" (Trước 9 giờ tối, tôi đã hoàn thành tất cả bài tập về nhà của mình.). Hãy phát âm rõ ràng từng từ và giữ ngữ điệu tự nhiên."
+      "explanationVi": "Câu mục tiêu: \"By 9 PM, I had finished all my homework.\" (Trước 9 giờ tối, tôi đã hoàn thành tất cả bài tập về nhà của mình.). Luyện phát âm chuẩn xác từng âm tiết và ngữ điệu tự nhiên."
     },
     {
-      "id": "ex-065-07",
+      "id": "ex-065-26",
+      "type": "speaking_practice",
+      "promptVi": "[Luyện nói qua Micro] Nhấn nút '🎙️ Bắt đầu nói' và đọc to, rõ ràng câu tiếng Anh sau:",
+      "targetSentence": "The train had already left when we arrived.",
+      "hintVi": "Chuyến tàu đã rời đi rồi khi chúng tôi đến nơi.",
+      "explanationVi": "Câu mục tiêu: \"The train had already left when we arrived.\" (Chuyến tàu đã rời đi rồi khi chúng tôi đến nơi.). Luyện phát âm chuẩn xác từng âm tiết và ngữ điệu tự nhiên."
+    },
+    {
+      "id": "ex-065-27",
+      "type": "speaking_practice",
+      "promptVi": "[Luyện nói qua Micro] Nhấn nút '🎙️ Bắt đầu nói' và đọc to, rõ ràng câu tiếng Anh sau:",
+      "targetSentence": "Had you eaten dinner before you went out?",
+      "hintVi": "Bạn đã ăn tối trước khi đi ra ngoài chưa?",
+      "explanationVi": "Câu mục tiêu: \"Had you eaten dinner before you went out?\" (Bạn đã ăn tối trước khi đi ra ngoài chưa?). Luyện phát âm chuẩn xác từng âm tiết và ngữ điệu tự nhiên."
+    },
+    {
+      "id": "ex-065-28",
+      "type": "speaking_practice",
+      "promptVi": "[Luyện nói qua Micro] Nhấn nút '🎙️ Bắt đầu nói' và đọc to, rõ ràng câu tiếng Anh sau:",
+      "targetSentence": "I had never visited London before last summer.",
+      "hintVi": "Tôi chưa từng đến thăm Luân Đôn trước mùa hè năm ngoái.",
+      "explanationVi": "Câu mục tiêu: \"I had never visited London before last summer.\" (Tôi chưa từng đến thăm Luân Đôn trước mùa hè năm ngoái.). Luyện phát âm chuẩn xác từng âm tiết và ngữ điệu tự nhiên."
+    },
+    {
+      "id": "ex-065-29",
       "type": "reading_comprehension",
-      "promptVi": "Đọc đoạn hội thoại ngắn sau và trả lời câu hỏi đọc hiểu:",
-      "passage": "Detective Vance: \"Good morning, Officer Lee. What time did you arrive at the downtown museum yesterday evening?\"\nOfficer Lee: \"I arrived at 9 PM, but the security guard had already locked all the exterior gates.\"\nDetective Vance: \"Had the museum staff noticed anything suspicious before the main alarm went off?\"\nOfficer Lee: \"No, they had not seen anyone unusual in the antique exhibition gallery.\"",
-      "question": "Dựa vào ngữ cảnh đoạn hội thoại trên, Detective Vance và Officer Lee đang trao đổi về nội dung trọng tâm nào?",
+      "promptVi": "[Đọc hiểu đoạn văn 1] Đọc đoạn hội thoại mở đầu sau và trả lời câu hỏi:",
+      "passage": "Detective Vance (Nam): \"Good morning, Officer Lee. What time did you arrive at the downtown museum yesterday evening?\"\nOfficer Lee (Nữ): \"I arrived at 9 PM, but the security guard had already locked all the exterior gates.\"\nDetective Vance (Nam): \"Had the museum staff noticed anything suspicious before the main alarm went off?\"\nOfficer Lee (Nữ): \"No, they had not seen anyone unusual in the antique exhibition gallery.\"",
+      "question": "Câu hỏi: Trong đoạn hội thoại trên, các nhân vật đang thảo luận về chủ đề gì?",
       "options": [
         "Quá khứ Hoàn thành — Cơ bản (Past Perfect Simple: Had + V3/ed)",
-        "Kế hoạch mua sắm và nấu ăn cho bữa tối gia đình",
-        "Lịch trình đi du lịch nghỉ dưỡng mùa hè",
-        "Dự báo thời tiết và nhiệt độ ngày mai"
+        "Kế hoạch đi nghỉ dưỡng cuối tuần ở bãi biển",
+        "Mua sắm quần áo và đồ dùng thể thao",
+        "Cách làm món ăn truyền thống gia đình"
       ],
       "correctAnswer": "Quá khứ Hoàn thành — Cơ bản (Past Perfect Simple: Had + V3/ed)",
-      "explanationVi": "Đoạn hội thoại mở đầu được thiết kế để minh họa và ứng dụng trực tiếp chủ điểm: \"Bài 65: Quá khứ Hoàn thành — Cơ bản (Past Perfect Simple: Had + V3/ed)\"."
+      "explanationVi": "Đoạn hội thoại mở đầu được thiết kế để minh họa trực tiếp cho chủ điểm ngữ pháp: \"Bài 65: Quá khứ Hoàn thành — Cơ bản (Past Perfect Simple: Had + V3/ed)\"."
     },
     {
-      "id": "ex-065-08",
-      "type": "multiple_choice",
-      "promptVi": "Phản xạ dịch & Ngữ pháp: Chọn câu tiếng Anh diễn đạt đúng nghĩa:",
-      "question": "Dịch câu sang tiếng Anh: \"Bạn đã ăn tối trước khi đi ra ngoài chưa?\"",
+      "id": "ex-065-30",
+      "type": "reading_comprehension",
+      "promptVi": "[Đọc hiểu đoạn văn 2] Đọc phần tiếp theo của đoạn hội thoại và chọn nhận định đúng:",
+      "passage": "Detective Vance (Nam): \"By 8:30 PM, the priceless Renaissance painting had mysteriously vanished from the wall.\"\nOfficer Lee (Nữ): \"The intruders had disabled the surveillance cameras before entering the central vault.\"\nDetective Vance (Nam): \"Had anyone touched the glass display case before our forensic investigators arrived?\"\nOfficer Lee (Nữ): \"No, sir. We had cordoned off the entire perimeter before anyone could enter.\"",
+      "question": "Nhận định nào sau đây là ĐÚNG với nội dung đoạn hội thoại trên?",
       "options": [
-        "Had you eaten dinner before you went out?",
-        "is you eaten dinner before you went out?",
-        "The train had already left when we arrived.",
-        "Incorrect grammatical form 3"
+        "Các câu hội thoại sử dụng đúng cấu trúc ngữ pháp \"Bài 65: Quá khứ Hoàn thành — Cơ bản (Past Perfect Simple: Had + V3/ed)\".",
+        "Các nhân vật không hiểu ý nhau và từ chối nói chuyện.",
+        "Đoạn hội thoại nói về việc chuyển nhà sang thành phố khác.",
+        "Cả hai nhân vật đều đang ở sân bay chuẩn bị lên máy bay."
       ],
-      "correctAnswer": "Had you eaten dinner before you went out?",
-      "explanationVi": "Bản dịch chuẩn xác và đúng ngữ pháp là: \"Had you eaten dinner before you went out?\" (Bạn đã ăn tối trước khi đi ra ngoài chưa?)."
+      "correctAnswer": "Các câu hội thoại sử dụng đúng cấu trúc ngữ pháp \"Bài 65: Quá khứ Hoàn thành — Cơ bản (Past Perfect Simple: Had + V3/ed)\".",
+      "explanationVi": "Đoạn hội thoại thứ hai tiếp tục củng cố và ứng dụng các quy tắc ngữ pháp của \"Bài 65: Quá khứ Hoàn thành — Cơ bản (Past Perfect Simple: Had + V3/ed)\"."
     }
   ]
 }

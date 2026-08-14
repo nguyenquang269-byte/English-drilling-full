@@ -2,11 +2,26 @@
   "lessonId": "lesson-070",
   "lessonNumber": 70,
   "title": "Bài tập Ôn luyện: Bài 70: Cụm Động từ Thông dụng (Essential Phrasal Verbs: Turn on / Give up / Look for / Go on)",
+  "totalQuestions": 30,
   "questions": [
     {
       "id": "ex-070-01",
       "type": "multiple_choice",
-      "promptVi": "Chọn đáp án đúng nhất hoàn thành câu:",
+      "promptVi": "[Trắc nghiệm] Chọn từ/cụm từ đúng để hoàn thành câu (Bạn có thể vui lòng bật đèn lên được không?):",
+      "question": "Could you please turn ___ the light?",
+      "options": [
+        "on",
+        "in",
+        "up",
+        "at"
+      ],
+      "correctAnswer": "on",
+      "explanationVi": "'turn on' mang nghĩa bật (đèn, thiết bị điện)."
+    },
+    {
+      "id": "ex-070-02",
+      "type": "multiple_choice",
+      "promptVi": "[Trắc nghiệm] Chọn từ/cụm từ đúng để hoàn thành câu (Đừng bao giờ từ bỏ ước mơ của bạn.):",
       "question": "Never give ___ on your dreams.",
       "options": [
         "up",
@@ -18,9 +33,65 @@
       "explanationVi": "'give up' là cụm động từ mang nghĩa từ bỏ."
     },
     {
-      "id": "ex-070-02",
+      "id": "ex-070-03",
+      "type": "multiple_choice",
+      "promptVi": "[Trắc nghiệm] Chọn từ/cụm từ đúng để hoàn thành câu (Tôi đang tìm kiếm chìa khóa xe ô tô của mình.):",
+      "question": "I am looking ___ my car keys.",
+      "options": [
+        "for",
+        "at",
+        "after",
+        "into"
+      ],
+      "correctAnswer": "for",
+      "explanationVi": "'look for' có nghĩa là tìm kiếm."
+    },
+    {
+      "id": "ex-070-04",
+      "type": "multiple_choice",
+      "promptVi": "[Trắc nghiệm] Chọn từ/cụm từ đúng để hoàn thành câu (Chúng ta đã hết cà phê rồi.):",
+      "question": "We have run out ___ coffee.",
+      "options": [
+        "of",
+        "from",
+        "with",
+        "off"
+      ],
+      "correctAnswer": "of",
+      "explanationVi": "Cụm 'run out of + noun' mang nghĩa hết/cạn kiệt."
+    },
+    {
+      "id": "ex-070-05",
+      "type": "multiple_choice",
+      "promptVi": "[Trắc nghiệm] Dịch câu sau sang tiếng Anh: \"Chào buổi sáng Zoe! Bạn có thể bật máy chiếu trên cao và kiểm tra micrô được không? (turn on sth / turn sth on)\"",
+      "question": "Chọn bản dịch chuẩn xác cho câu: \"Chào buổi sáng Zoe! Bạn có thể bật máy chiếu trên cao và kiểm tra micrô được không? (turn on sth / turn sth on)\"",
+      "options": [
+        "Good morning, Zoe! Could you please turn on the overhead projectors and test the microphone?",
+        "Good morning, Zoe! Could you please turn on the overhead projectors and test the microphone?",
+        "Sure thing! I will turn them on right away before the workshop attendees arrive.",
+        "I want to go to the park now."
+      ],
+      "correctAnswer": "Good morning, Zoe! Could you please turn on the overhead projectors and test the microphone?",
+      "explanationVi": "Câu đúng là \"Good morning, Zoe! Could you please turn on the overhead projectors and test the microphone?\" (Chào buổi sáng Zoe! Bạn có thể bật máy chiếu trên cao và kiểm tra micrô được không? (turn on sth / turn sth on))."
+    },
+    {
+      "id": "ex-070-06",
+      "type": "multiple_choice",
+      "promptVi": "[Trắc nghiệm] Chọn câu trả lời hoặc cách diễn đạt phù hợp:",
+      "question": "Trong ngữ cảnh giao tiếp: \"Good morning, Zoe! Could you please turn on the overhead projectors and test the microphone?\", câu phản hồi tự nhiên là gì?",
+      "options": [
+        "Sure thing! I will turn them on right away before the workshop attendees arrive.",
+        "No, it is yesterday morning.",
+        "Yes, I will eat apple.",
+        "They are not at the library."
+      ],
+      "correctAnswer": "Sure thing! I will turn them on right away before the workshop attendees arrive.",
+      "explanationVi": "Phản hồi phù hợp: \"Sure thing! I will turn them on right away before the workshop attendees arrive.\" (Chắc chắn rồi! Tôi sẽ bật chúng lên ngay trước khi các học viên hội thảo đến. (turn them on))."
+    },
+    {
+      "id": "ex-070-07",
       "type": "fill_blank",
-      "promptVi": "Điền từ hoặc dạng đúng của động từ vào chỗ trống:",
+      "promptVi": "[Điền từ - (Dạng khẳng định)] Điền dạng đúng của động từ vào ô trống (Bạn có thể vui lòng bật đèn lên được không?):",
       "question": "Could you please turn ___ the light?",
       "correctAnswer": "on",
       "options": [
@@ -29,19 +100,107 @@
         "up",
         "at"
       ],
-      "explanationVi": "'turn on' mang nghĩa bật (đèn, thiết bị điện)."
+      "explanationVi": "Đáp án chính xác: \"on\". Bạn có thể vui lòng bật đèn lên được không?."
     },
     {
-      "id": "ex-070-03",
+      "id": "ex-070-08",
+      "type": "fill_blank",
+      "promptVi": "[Điền từ - (Dạng khẳng định)] Điền dạng đúng của động từ vào ô trống (Đừng bao giờ từ bỏ ước mơ của bạn.):",
+      "question": "Never give ___ on your dreams.",
+      "correctAnswer": "up",
+      "options": [
+        "up",
+        "out",
+        "away",
+        "in"
+      ],
+      "explanationVi": "Đáp án chính xác: \"up\". Đừng bao giờ từ bỏ ước mơ của bạn.."
+    },
+    {
+      "id": "ex-070-09",
+      "type": "fill_blank",
+      "promptVi": "[Điền từ - (Dạng khẳng định)] Điền dạng đúng của động từ vào ô trống (Tôi đang tìm kiếm chìa khóa xe ô tô của mình.):",
+      "question": "I am looking ___ my car keys.",
+      "correctAnswer": "for",
+      "options": [
+        "for",
+        "at",
+        "after",
+        "into"
+      ],
+      "explanationVi": "Đáp án chính xác: \"for\". Tôi đang tìm kiếm chìa khóa xe ô tô của mình.."
+    },
+    {
+      "id": "ex-070-10",
+      "type": "fill_blank",
+      "promptVi": "[Điền từ - (Dạng khẳng định)] Điền dạng đúng của động từ vào ô trống (Chúng ta đã hết cà phê rồi.):",
+      "question": "We have run out ___ coffee.",
+      "correctAnswer": "of",
+      "options": [
+        "of",
+        "from",
+        "with",
+        "off"
+      ],
+      "explanationVi": "Đáp án chính xác: \"of\". Chúng ta đã hết cà phê rồi.."
+    },
+    {
+      "id": "ex-070-11",
+      "type": "fill_blank",
+      "promptVi": "[Điền từ - Dạng PHỦ ĐỊNH] Hoàn thành câu phủ định sau:",
+      "correctAnswer": "Could you please turn on the light?",
+      "options": [
+        "Could you please turn on the light?",
+        "Could you please turn on the light?",
+        "Not Could you please turn on the light?",
+        "Could you please turn on the light? no"
+      ],
+      "explanationVi": "Dạng phủ định chuẩn: Thêm 'not' sau động từ chính."
+    },
+    {
+      "id": "ex-070-12",
       "type": "sentence_scramble",
-      "promptVi": "Sắp xếp các khối từ sau thành câu hoàn chỉnh:",
+      "promptVi": "[Sắp xếp câu] Xếp các khối từ thành câu hoàn chỉnh mang nghĩa: \"Bạn có thể vui lòng bật đèn lên được không?\"",
+      "words": [
+        "the",
+        "you",
+        "light?",
+        "on",
+        "please",
+        "turn",
+        "Could"
+      ],
+      "correctSentence": "Could you please turn on the light?",
+      "hintVi": "Bạn có thể vui lòng bật đèn lên được không?",
+      "explanationVi": "Câu hoàn chỉnh: \"Could you please turn on the light?\" (Bạn có thể vui lòng bật đèn lên được không?)."
+    },
+    {
+      "id": "ex-070-13",
+      "type": "sentence_scramble",
+      "promptVi": "[Sắp xếp câu] Xếp các khối từ thành câu hoàn chỉnh mang nghĩa: \"Đừng bao giờ từ bỏ ước mơ của bạn.\"",
+      "words": [
+        "Never",
+        "your",
+        "on",
+        "give",
+        "dreams.",
+        "up"
+      ],
+      "correctSentence": "Never give up on your dreams.",
+      "hintVi": "Đừng bao giờ từ bỏ ước mơ của bạn.",
+      "explanationVi": "Câu hoàn chỉnh: \"Never give up on your dreams.\" (Đừng bao giờ từ bỏ ước mơ của bạn.)."
+    },
+    {
+      "id": "ex-070-14",
+      "type": "sentence_scramble",
+      "promptVi": "[Sắp xếp câu] Xếp các khối từ thành câu hoàn chỉnh mang nghĩa: \"Tôi đang tìm kiếm chìa khóa xe ô tô của mình.\"",
       "words": [
         "keys.",
+        "am",
         "car",
-        "my",
         "for",
         "looking",
-        "am",
+        "my",
         "I"
       ],
       "correctSentence": "I am looking for my car keys.",
@@ -49,70 +208,220 @@
       "explanationVi": "Câu hoàn chỉnh: \"I am looking for my car keys.\" (Tôi đang tìm kiếm chìa khóa xe ô tô của mình.)."
     },
     {
-      "id": "ex-070-04",
-      "type": "find_error",
-      "promptVi": "Chọn câu có cấu trúc ngữ pháp chuẩn xác nhất trong các câu sau:",
-      "question": "Dựa vào chủ điểm ngữ pháp \"Bài 70: Cụm Động từ Thông dụng (Essential Phrasal Verbs: Turn on / Give up / Look for / Go on)\", câu nào sau đây là hoàn toàn CHÍNH XÁC?",
-      "options": [
-        "We have run out of coffee.",
-        "We be run out of coffee.",
-        "We have run out with coffee.",
-        "have run out of coffee. We"
+      "id": "ex-070-15",
+      "type": "sentence_scramble",
+      "promptVi": "[Sắp xếp câu] Xếp các khối từ thành câu hoàn chỉnh mang nghĩa: \"Chúng ta đã hết cà phê rồi.\"",
+      "words": [
+        "run",
+        "coffee.",
+        "We",
+        "out",
+        "of",
+        "have"
       ],
-      "correctAnswer": "We have run out of coffee.",
-      "explanationVi": "Cấu trúc chuẩn xác là: \"We have run out of coffee.\" (Chúng ta đã hết cà phê rồi.)."
+      "correctSentence": "We have run out of coffee.",
+      "hintVi": "Chúng ta đã hết cà phê rồi.",
+      "explanationVi": "Câu hoàn chỉnh: \"We have run out of coffee.\" (Chúng ta đã hết cà phê rồi.)."
     },
     {
-      "id": "ex-070-05",
+      "id": "ex-070-16",
+      "type": "sentence_scramble",
+      "promptVi": "[Sắp xếp câu] Xếp các từ thành câu hội thoại: \"Bạn đang tìm kiếm cái gì trong tủ hồ sơ gần lối vào thế? (look for sth - không tách rời)\"",
+      "words": [
+        "are",
+        "What",
+        "near",
+        "in",
+        "looking",
+        "cabinet",
+        "that",
+        "for",
+        "you",
+        "filing",
+        "the",
+        "entrance"
+      ],
+      "correctSentence": "What are you looking for in that filing cabinet near the entrance?",
+      "hintVi": "Bạn đang tìm kiếm cái gì trong tủ hồ sơ gần lối vào thế? (look for sth - không tách rời)",
+      "explanationVi": "Câu đúng: \"What are you looking for in that filing cabinet near the entrance?\" (Bạn đang tìm kiếm cái gì trong tủ hồ sơ gần lối vào thế? (look for sth - không tách rời))."
+    },
+    {
+      "id": "ex-070-17",
+      "type": "find_error",
+      "promptVi": "[Tìm lỗi sai & Chọn câu đúng] Câu nào dưới đây có cấu trúc ngữ pháp HOÀN TOÀN ĐÚNG?",
+      "question": "Chủ điểm \"Bài 70: Cụm Động từ Thông dụng (Essential Phrasal Verbs: Turn on / Give up / Look for / Go on)\": Chọn câu CHÍNH XÁC:",
+      "options": [
+        "Could you please turn on the light?",
+        "light? the on turn please you Could",
+        "Could you please turn on the light? (sai)",
+        "Could you please turn on the light? (sai)"
+      ],
+      "correctAnswer": "Could you please turn on the light?",
+      "explanationVi": "Câu chuẩn xác là: \"Could you please turn on the light?\" (Bạn có thể vui lòng bật đèn lên được không?)."
+    },
+    {
+      "id": "ex-070-18",
+      "type": "find_error",
+      "promptVi": "[Tìm lỗi sai & Chọn câu đúng] Câu nào dưới đây có cấu trúc ngữ pháp HOÀN TOÀN ĐÚNG?",
+      "question": "Chủ điểm \"Bài 70: Cụm Động từ Thông dụng (Essential Phrasal Verbs: Turn on / Give up / Look for / Go on)\": Chọn câu CHÍNH XÁC:",
+      "options": [
+        "Never give up on your dreams.",
+        "dreams. your on up give Never",
+        "Never give up on your dreams. (sai)",
+        "Never give up on your dreams. (sai)"
+      ],
+      "correctAnswer": "Never give up on your dreams.",
+      "explanationVi": "Câu chuẩn xác là: \"Never give up on your dreams.\" (Đừng bao giờ từ bỏ ước mơ của bạn.)."
+    },
+    {
+      "id": "ex-070-19",
+      "type": "find_error",
+      "promptVi": "[Tìm lỗi sai & Chọn câu đúng] Câu nào dưới đây có cấu trúc ngữ pháp HOÀN TOÀN ĐÚNG?",
+      "question": "Chủ điểm \"Bài 70: Cụm Động từ Thông dụng (Essential Phrasal Verbs: Turn on / Give up / Look for / Go on)\": Chọn câu CHÍNH XÁC:",
+      "options": [
+        "I am looking for my car keys.",
+        "I be looking for my car keys.",
+        "I are not is looking for my car keys.",
+        "keys. car my for looking am I"
+      ],
+      "correctAnswer": "I am looking for my car keys.",
+      "explanationVi": "Câu chuẩn xác là: \"I am looking for my car keys.\" (Tôi đang tìm kiếm chìa khóa xe ô tô của mình.)."
+    },
+    {
+      "id": "ex-070-20",
+      "type": "find_error",
+      "promptVi": "[Tìm lỗi sai & Chọn câu đúng] Câu nào dưới đây có cấu trúc ngữ pháp HOÀN TOÀN ĐÚNG?",
+      "question": "Chủ điểm \"Bài 70: Cụm Động từ Thông dụng (Essential Phrasal Verbs: Turn on / Give up / Look for / Go on)\": Chọn câu CHÍNH XÁC:",
+      "options": [
+        "We have run out of coffee.",
+        "coffee. of out run have We",
+        "We have run out of coffee. (sai)",
+        "We have run out of coffee. (sai)"
+      ],
+      "correctAnswer": "We have run out of coffee.",
+      "explanationVi": "Câu chuẩn xác là: \"We have run out of coffee.\" (Chúng ta đã hết cà phê rồi.)."
+    },
+    {
+      "id": "ex-070-21",
       "type": "listening_reflex",
-      "promptVi": "Nghe câu tiếng Anh và chọn bản dịch tiếng Việt chuẩn xác:",
+      "promptVi": "[Nghe phản xạ] Nghe câu phát âm tiếng Anh và chọn bản dịch tiếng Việt đúng nhất:",
       "audioPrompt": "Good morning, Zoe! Could you please turn on the overhead projectors and test the microphone?",
-      "question": "Nghe câu phát âm tiếng Anh và chọn nghĩa đúng:",
+      "question": "Nhấn nút '🔊 Nghe audio' để nghe câu thoại và chọn nghĩa đúng:",
       "options": [
         "Chào buổi sáng Zoe! Bạn có thể bật máy chiếu trên cao và kiểm tra micrô được không? (turn on sth / turn sth on)",
         "Chắc chắn rồi! Tôi sẽ bật chúng lên ngay trước khi các học viên hội thảo đến. (turn them on)",
         "Bạn đang tìm kiếm cái gì trong tủ hồ sơ gần lối vào thế? (look for sth - không tách rời)",
-        "Hôm nay chúng tôi đi mua sắm tại trung tâm thương mại."
+        "Ngày mai trời sẽ mưa to."
       ],
       "correctAnswer": "Chào buổi sáng Zoe! Bạn có thể bật máy chiếu trên cao và kiểm tra micrô được không? (turn on sth / turn sth on)",
-      "explanationVi": "Câu nghe được: \"Good morning, Zoe! Could you please turn on the overhead projectors and test the microphone?\" nghĩa là: \"Chào buổi sáng Zoe! Bạn có thể bật máy chiếu trên cao và kiểm tra micrô được không? (turn on sth / turn sth on)\"."
+      "explanationVi": "Câu nghe được: \"Good morning, Zoe! Could you please turn on the overhead projectors and test the microphone?\" có nghĩa là: \"Chào buổi sáng Zoe! Bạn có thể bật máy chiếu trên cao và kiểm tra micrô được không? (turn on sth / turn sth on)\"."
     },
     {
-      "id": "ex-070-06",
+      "id": "ex-070-22",
+      "type": "listening_reflex",
+      "promptVi": "[Nghe phản xạ] Nghe câu phát âm tiếng Anh và chọn bản dịch tiếng Việt đúng nhất:",
+      "audioPrompt": "Sure thing! I will turn them on right away before the workshop attendees arrive.",
+      "question": "Nhấn nút '🔊 Nghe audio' để nghe câu thoại và chọn nghĩa đúng:",
+      "options": [
+        "Chắc chắn rồi! Tôi sẽ bật chúng lên ngay trước khi các học viên hội thảo đến. (turn them on)",
+        "Bạn đang tìm kiếm cái gì trong tủ hồ sơ gần lối vào thế? (look for sth - không tách rời)",
+        "Tôi đang tìm kiếm các ổ USB flash dự phòng có chứa các slide trình diễn sản phẩm.",
+        "Ngày mai trời sẽ mưa to."
+      ],
+      "correctAnswer": "Chắc chắn rồi! Tôi sẽ bật chúng lên ngay trước khi các học viên hội thảo đến. (turn them on)",
+      "explanationVi": "Câu nghe được: \"Sure thing! I will turn them on right away before the workshop attendees arrive.\" có nghĩa là: \"Chắc chắn rồi! Tôi sẽ bật chúng lên ngay trước khi các học viên hội thảo đến. (turn them on)\"."
+    },
+    {
+      "id": "ex-070-23",
+      "type": "listening_reflex",
+      "promptVi": "[Nghe phản xạ] Nghe câu phát âm tiếng Anh và chọn bản dịch tiếng Việt đúng nhất:",
+      "audioPrompt": "What are you looking for in that filing cabinet near the entrance?",
+      "question": "Nhấn nút '🔊 Nghe audio' để nghe câu thoại và chọn nghĩa đúng:",
+      "options": [
+        "Bạn đang tìm kiếm cái gì trong tủ hồ sơ gần lối vào thế? (look for sth - không tách rời)",
+        "Tôi đang tìm kiếm các ổ USB flash dự phòng có chứa các slide trình diễn sản phẩm.",
+        "Xin đừng bỏ cuộc nếu bạn không thể tìm thấy chúng ngay; chúng ta có các bản sao lưu đám mây được lưu trữ an toàn. (give up)",
+        "Ngày mai trời sẽ mưa to."
+      ],
+      "correctAnswer": "Bạn đang tìm kiếm cái gì trong tủ hồ sơ gần lối vào thế? (look for sth - không tách rời)",
+      "explanationVi": "Câu nghe được: \"What are you looking for in that filing cabinet near the entrance?\" có nghĩa là: \"Bạn đang tìm kiếm cái gì trong tủ hồ sơ gần lối vào thế? (look for sth - không tách rời)\"."
+    },
+    {
+      "id": "ex-070-24",
+      "type": "listening_reflex",
+      "promptVi": "[Nghe phản xạ] Nghe câu phát âm tiếng Anh và chọn bản dịch tiếng Việt đúng nhất:",
+      "audioPrompt": "I am looking for our backup USB flash drives that contain our product demo slides.",
+      "question": "Nhấn nút '🔊 Nghe audio' để nghe câu thoại và chọn nghĩa đúng:",
+      "options": [
+        "Tôi đang tìm kiếm các ổ USB flash dự phòng có chứa các slide trình diễn sản phẩm.",
+        "Xin đừng bỏ cuộc nếu bạn không thể tìm thấy chúng ngay; chúng ta có các bản sao lưu đám mây được lưu trữ an toàn. (give up)",
+        "Tôi tìm thấy chúng rồi! Chúng ta hãy thiết lập các bàn làm việc trình diễn trên bàn thuyết trình trung tâm nhé. (set up)",
+        "Ngày mai trời sẽ mưa to."
+      ],
+      "correctAnswer": "Tôi đang tìm kiếm các ổ USB flash dự phòng có chứa các slide trình diễn sản phẩm.",
+      "explanationVi": "Câu nghe được: \"I am looking for our backup USB flash drives that contain our product demo slides.\" có nghĩa là: \"Tôi đang tìm kiếm các ổ USB flash dự phòng có chứa các slide trình diễn sản phẩm.\"."
+    },
+    {
+      "id": "ex-070-25",
       "type": "speaking_practice",
-      "promptVi": "Luyện nói qua Micro: Hãy nhấn nút 'Nói ngay' và phát âm chuẩn xác câu sau:",
+      "promptVi": "[Luyện nói qua Micro] Nhấn nút '🎙️ Bắt đầu nói' và đọc to, rõ ràng câu tiếng Anh sau:",
       "targetSentence": "Could you please turn on the light?",
       "hintVi": "Bạn có thể vui lòng bật đèn lên được không?",
-      "explanationVi": "Mẫu câu chuẩn: \"Could you please turn on the light?\" (Bạn có thể vui lòng bật đèn lên được không?). Hãy phát âm rõ ràng từng từ và giữ ngữ điệu tự nhiên."
+      "explanationVi": "Câu mục tiêu: \"Could you please turn on the light?\" (Bạn có thể vui lòng bật đèn lên được không?). Luyện phát âm chuẩn xác từng âm tiết và ngữ điệu tự nhiên."
     },
     {
-      "id": "ex-070-07",
+      "id": "ex-070-26",
+      "type": "speaking_practice",
+      "promptVi": "[Luyện nói qua Micro] Nhấn nút '🎙️ Bắt đầu nói' và đọc to, rõ ràng câu tiếng Anh sau:",
+      "targetSentence": "Never give up on your dreams.",
+      "hintVi": "Đừng bao giờ từ bỏ ước mơ của bạn.",
+      "explanationVi": "Câu mục tiêu: \"Never give up on your dreams.\" (Đừng bao giờ từ bỏ ước mơ của bạn.). Luyện phát âm chuẩn xác từng âm tiết và ngữ điệu tự nhiên."
+    },
+    {
+      "id": "ex-070-27",
+      "type": "speaking_practice",
+      "promptVi": "[Luyện nói qua Micro] Nhấn nút '🎙️ Bắt đầu nói' và đọc to, rõ ràng câu tiếng Anh sau:",
+      "targetSentence": "I am looking for my car keys.",
+      "hintVi": "Tôi đang tìm kiếm chìa khóa xe ô tô của mình.",
+      "explanationVi": "Câu mục tiêu: \"I am looking for my car keys.\" (Tôi đang tìm kiếm chìa khóa xe ô tô của mình.). Luyện phát âm chuẩn xác từng âm tiết và ngữ điệu tự nhiên."
+    },
+    {
+      "id": "ex-070-28",
+      "type": "speaking_practice",
+      "promptVi": "[Luyện nói qua Micro] Nhấn nút '🎙️ Bắt đầu nói' và đọc to, rõ ràng câu tiếng Anh sau:",
+      "targetSentence": "We have run out of coffee.",
+      "hintVi": "Chúng ta đã hết cà phê rồi.",
+      "explanationVi": "Câu mục tiêu: \"We have run out of coffee.\" (Chúng ta đã hết cà phê rồi.). Luyện phát âm chuẩn xác từng âm tiết và ngữ điệu tự nhiên."
+    },
+    {
+      "id": "ex-070-29",
       "type": "reading_comprehension",
-      "promptVi": "Đọc đoạn hội thoại ngắn sau và trả lời câu hỏi đọc hiểu:",
-      "passage": "Lucas: \"Good morning, Zoe! Could you please turn on the overhead projectors and test the microphone?\"\nZoe: \"Sure thing! I will turn them on right away before the workshop attendees arrive.\"\nLucas: \"What are you looking for in that filing cabinet near the entrance?\"\nZoe: \"I am looking for our backup USB flash drives that contain our product demo slides.\"",
-      "question": "Dựa vào ngữ cảnh đoạn hội thoại trên, Lucas và Zoe đang trao đổi về nội dung trọng tâm nào?",
+      "promptVi": "[Đọc hiểu đoạn văn 1] Đọc đoạn hội thoại mở đầu sau và trả lời câu hỏi:",
+      "passage": "Lucas (Nam): \"Good morning, Zoe! Could you please turn on the overhead projectors and test the microphone?\"\nZoe (Nữ): \"Sure thing! I will turn them on right away before the workshop attendees arrive.\"\nLucas (Nam): \"What are you looking for in that filing cabinet near the entrance?\"\nZoe (Nữ): \"I am looking for our backup USB flash drives that contain our product demo slides.\"",
+      "question": "Câu hỏi: Trong đoạn hội thoại trên, các nhân vật đang thảo luận về chủ đề gì?",
       "options": [
         "Cụm Động từ Thông dụng (Essential Phrasal Verbs: Turn on / Give up / Look for / Go on)",
-        "Kế hoạch mua sắm và nấu ăn cho bữa tối gia đình",
-        "Lịch trình đi du lịch nghỉ dưỡng mùa hè",
-        "Dự báo thời tiết và nhiệt độ ngày mai"
+        "Kế hoạch đi nghỉ dưỡng cuối tuần ở bãi biển",
+        "Mua sắm quần áo và đồ dùng thể thao",
+        "Cách làm món ăn truyền thống gia đình"
       ],
       "correctAnswer": "Cụm Động từ Thông dụng (Essential Phrasal Verbs: Turn on / Give up / Look for / Go on)",
-      "explanationVi": "Đoạn hội thoại mở đầu được thiết kế để minh họa và ứng dụng trực tiếp chủ điểm: \"Bài 70: Cụm Động từ Thông dụng (Essential Phrasal Verbs: Turn on / Give up / Look for / Go on)\"."
+      "explanationVi": "Đoạn hội thoại mở đầu được thiết kế để minh họa trực tiếp cho chủ điểm ngữ pháp: \"Bài 70: Cụm Động từ Thông dụng (Essential Phrasal Verbs: Turn on / Give up / Look for / Go on)\"."
     },
     {
-      "id": "ex-070-08",
-      "type": "multiple_choice",
-      "promptVi": "Phản xạ dịch & Ngữ pháp: Chọn câu tiếng Anh diễn đạt đúng nghĩa:",
-      "question": "Dịch câu sang tiếng Anh: \"Tôi đang tìm kiếm chìa khóa xe ô tô của mình.\"",
+      "id": "ex-070-30",
+      "type": "reading_comprehension",
+      "promptVi": "[Đọc hiểu đoạn văn 2] Đọc phần tiếp theo của đoạn hội thoại và chọn nhận định đúng:",
+      "passage": "Lucas (Nam): \"Please don't give up if you can't locate them immediately; we have cloud copies stored securely.\"\nZoe (Nữ): \"I found them! Let's set up the demonstration workstations on the central presentation table.\"\nLucas (Nam): \"Did our team have to put off the investor pitch meeting until tomorrow afternoon?\"\nZoe (Nữ): \"No, we decided not to put it off because all financial forecasts are completely ready.\"",
+      "question": "Nhận định nào sau đây là ĐÚNG với nội dung đoạn hội thoại trên?",
       "options": [
-        "I am looking for my car keys.",
-        "I is looking for my car keys.",
-        "I am looking at my car keys.",
-        "Never give up on your dreams."
+        "Các câu hội thoại sử dụng đúng cấu trúc ngữ pháp \"Bài 70: Cụm Động từ Thông dụng (Essential Phrasal Verbs: Turn on / Give up / Look for / Go on)\".",
+        "Các nhân vật không hiểu ý nhau và từ chối nói chuyện.",
+        "Đoạn hội thoại nói về việc chuyển nhà sang thành phố khác.",
+        "Cả hai nhân vật đều đang ở sân bay chuẩn bị lên máy bay."
       ],
-      "correctAnswer": "I am looking for my car keys.",
-      "explanationVi": "Bản dịch chuẩn xác và đúng ngữ pháp là: \"I am looking for my car keys.\" (Tôi đang tìm kiếm chìa khóa xe ô tô của mình.)."
+      "correctAnswer": "Các câu hội thoại sử dụng đúng cấu trúc ngữ pháp \"Bài 70: Cụm Động từ Thông dụng (Essential Phrasal Verbs: Turn on / Give up / Look for / Go on)\".",
+      "explanationVi": "Đoạn hội thoại thứ hai tiếp tục củng cố và ứng dụng các quy tắc ngữ pháp của \"Bài 70: Cụm Động từ Thông dụng (Essential Phrasal Verbs: Turn on / Give up / Look for / Go on)\"."
     }
   ]
 }

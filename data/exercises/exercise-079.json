@@ -2,11 +2,26 @@
   "lessonId": "lesson-079",
   "lessonNumber": 79,
   "title": "Bài tập Ôn luyện: Bài 79: Cấu trúc Đề xuất & Câu Ước (Suggestions & Wishes: Suggest / Recommend / Wish / If only)",
+  "totalQuestions": 30,
   "questions": [
     {
       "id": "ex-079-01",
       "type": "multiple_choice",
-      "promptVi": "Chọn đáp án đúng nhất hoàn thành câu:",
+      "promptVi": "[Trắc nghiệm] Chọn từ/cụm từ đúng để hoàn thành câu (Tôi đề xuất đi xem phim tối nay.):",
+      "question": "I suggest ___ to the cinema tonight.",
+      "options": [
+        "going",
+        "to go",
+        "go",
+        "went"
+      ],
+      "correctAnswer": "going",
+      "explanationVi": "Sau động từ 'suggest' khi đề xuất cùng làm dùng dạng V-ing (going)."
+    },
+    {
+      "id": "ex-079-02",
+      "type": "multiple_choice",
+      "promptVi": "[Trắc nghiệm] Chọn từ/cụm từ đúng để hoàn thành câu (Tôi ước gì tôi đang ở trên một bãi biển đầy nắng ngay lúc này.):",
       "question": "I wish I ___ on a sunny beach right now.",
       "options": [
         "were",
@@ -18,9 +33,65 @@
       "explanationVi": "Câu ước trái ngược hiện tại dùng 'were' cho tất cả các ngôi."
     },
     {
-      "id": "ex-079-02",
+      "id": "ex-079-03",
+      "type": "multiple_choice",
+      "promptVi": "[Trắc nghiệm] Chọn từ/cụm từ đúng để hoàn thành câu (Tôi ước gì tôi đã học tập chăm chỉ hơn cho kỳ thi cuối kỳ.):",
+      "question": "I wish I ___ harder for the final exam.",
+      "options": [
+        "had studied",
+        "studied",
+        "study",
+        "have studied"
+      ],
+      "correctAnswer": "had studied",
+      "explanationVi": "Ước một điều trái với quá khứ dùng 'had + V3'."
+    },
+    {
+      "id": "ex-079-04",
+      "type": "multiple_choice",
+      "promptVi": "[Trắc nghiệm] Chọn từ/cụm từ đúng để hoàn thành câu (Tôi ước gì trời sẽ tạnh mưa để chúng tôi có thể đá bóng.):",
+      "question": "I wish it ___ stop raining soon.",
+      "options": [
+        "would",
+        "will",
+        "is",
+        "can"
+      ],
+      "correctAnswer": "would",
+      "explanationVi": "Ước muốn một điều gì đó thay đổi hoặc dừng lại trong tương lai dùng 'would + V-inf'."
+    },
+    {
+      "id": "ex-079-05",
+      "type": "multiple_choice",
+      "promptVi": "[Trắc nghiệm] Dịch câu sau sang tiếng Anh: \"Chào buổi sáng các thành viên Hội đồng. Làm thế nào để chúng ta có thể thúc đẩy du lịch bền vững tại công viên quốc gia ven biển?\"",
+      "question": "Chọn bản dịch chuẩn xác cho câu: \"Chào buổi sáng các thành viên Hội đồng. Làm thế nào để chúng ta có thể thúc đẩy du lịch bền vững tại công viên quốc gia ven biển?\"",
+      "options": [
+        "Good morning, Council members. How can we promote sustainable tourism in our coastal national park?",
+        "Good morning, Council members. How can we promote sustainable tourism in our coastal national park?",
+        "I suggest building wooden boardwalks to protect fragile coral ecosystems from foot traffic.",
+        "I want to go to the park now."
+      ],
+      "correctAnswer": "Good morning, Council members. How can we promote sustainable tourism in our coastal national park?",
+      "explanationVi": "Câu đúng là \"Good morning, Council members. How can we promote sustainable tourism in our coastal national park?\" (Chào buổi sáng các thành viên Hội đồng. Làm thế nào để chúng ta có thể thúc đẩy du lịch bền vững tại công viên quốc gia ven biển?)."
+    },
+    {
+      "id": "ex-079-06",
+      "type": "multiple_choice",
+      "promptVi": "[Trắc nghiệm] Chọn câu trả lời hoặc cách diễn đạt phù hợp:",
+      "question": "Trong ngữ cảnh giao tiếp: \"Good morning, Council members. How can we promote sustainable tourism in our coastal national park?\", câu phản hồi tự nhiên là gì?",
+      "options": [
+        "I suggest building wooden boardwalks to protect fragile coral ecosystems from foot traffic.",
+        "No, it is yesterday morning.",
+        "Yes, I will eat apple.",
+        "They are not at the library."
+      ],
+      "correctAnswer": "I suggest building wooden boardwalks to protect fragile coral ecosystems from foot traffic.",
+      "explanationVi": "Phản hồi phù hợp: \"I suggest building wooden boardwalks to protect fragile coral ecosystems from foot traffic.\" (Tôi đề xuất xây dựng các đường lát ván gỗ để bảo vệ các hệ sinh thái san hô mỏng manh khỏi việc bị giẫm đạp. (suggest building))."
+    },
+    {
+      "id": "ex-079-07",
       "type": "fill_blank",
-      "promptVi": "Điền từ hoặc dạng đúng của động từ vào chỗ trống:",
+      "promptVi": "[Điền từ - (Dạng khẳng định)] Điền dạng đúng của động từ vào ô trống (Tôi đề xuất đi xem phim tối nay.):",
       "question": "I suggest ___ to the cinema tonight.",
       "correctAnswer": "going",
       "options": [
@@ -29,93 +100,340 @@
         "go",
         "went"
       ],
-      "explanationVi": "Sau động từ 'suggest' khi đề xuất cùng làm dùng dạng V-ing (going)."
+      "explanationVi": "Đáp án chính xác: \"going\". Tôi đề xuất đi xem phim tối nay.."
     },
     {
-      "id": "ex-079-03",
+      "id": "ex-079-08",
+      "type": "fill_blank",
+      "promptVi": "[Điền từ - (Dạng khẳng định)] Điền dạng đúng của động từ vào ô trống (Tôi ước gì tôi đang ở trên một bãi biển đầy nắng ngay lúc này.):",
+      "question": "I wish I ___ on a sunny beach right now.",
+      "correctAnswer": "were",
+      "options": [
+        "were",
+        "am",
+        "was",
+        "be"
+      ],
+      "explanationVi": "Đáp án chính xác: \"were\". Tôi ước gì tôi đang ở trên một bãi biển đầy nắng ngay lúc này.."
+    },
+    {
+      "id": "ex-079-09",
+      "type": "fill_blank",
+      "promptVi": "[Điền từ - (Dạng khẳng định)] Điền dạng đúng của động từ vào ô trống (Tôi ước gì tôi đã học tập chăm chỉ hơn cho kỳ thi cuối kỳ.):",
+      "question": "I wish I ___ harder for the final exam.",
+      "correctAnswer": "had studied",
+      "options": [
+        "had studied",
+        "studied",
+        "study",
+        "have studied"
+      ],
+      "explanationVi": "Đáp án chính xác: \"had studied\". Tôi ước gì tôi đã học tập chăm chỉ hơn cho kỳ thi cuối kỳ.."
+    },
+    {
+      "id": "ex-079-10",
+      "type": "fill_blank",
+      "promptVi": "[Điền từ - (Dạng khẳng định)] Điền dạng đúng của động từ vào ô trống (Tôi ước gì trời sẽ tạnh mưa để chúng tôi có thể đá bóng.):",
+      "question": "I wish it ___ stop raining soon.",
+      "correctAnswer": "would",
+      "options": [
+        "would",
+        "will",
+        "is",
+        "can"
+      ],
+      "explanationVi": "Đáp án chính xác: \"would\". Tôi ước gì trời sẽ tạnh mưa để chúng tôi có thể đá bóng.."
+    },
+    {
+      "id": "ex-079-11",
+      "type": "fill_blank",
+      "promptVi": "[Điền từ - Dạng PHỦ ĐỊNH] Hoàn thành câu phủ định sau:",
+      "correctAnswer": "I suggest going to the cinema tonight.",
+      "options": [
+        "I suggest going to the cinema tonight.",
+        "I suggest going to the cinema tonight.",
+        "Not I suggest going to the cinema tonight.",
+        "I suggest going to the cinema tonight. no"
+      ],
+      "explanationVi": "Dạng phủ định chuẩn: Thêm 'not' sau động từ chính."
+    },
+    {
+      "id": "ex-079-12",
       "type": "sentence_scramble",
-      "promptVi": "Sắp xếp các khối từ sau thành câu hoàn chỉnh:",
+      "promptVi": "[Sắp xếp câu] Xếp các khối từ thành câu hoàn chỉnh mang nghĩa: \"Tôi đề xuất đi xem phim tối nay.\"",
       "words": [
-        "exam.",
-        "final",
+        "cinema",
+        "tonight.",
+        "to",
+        "suggest",
         "the",
+        "going",
+        "I"
+      ],
+      "correctSentence": "I suggest going to the cinema tonight.",
+      "hintVi": "Tôi đề xuất đi xem phim tối nay.",
+      "explanationVi": "Câu hoàn chỉnh: \"I suggest going to the cinema tonight.\" (Tôi đề xuất đi xem phim tối nay.)."
+    },
+    {
+      "id": "ex-079-13",
+      "type": "sentence_scramble",
+      "promptVi": "[Sắp xếp câu] Xếp các khối từ thành câu hoàn chỉnh mang nghĩa: \"Tôi ước gì tôi đang ở trên một bãi biển đầy nắng ngay lúc này.\"",
+      "words": [
+        "I",
+        "now.",
+        "right",
+        "on",
+        "beach",
+        "wish",
+        "a",
+        "I",
+        "sunny",
+        "were"
+      ],
+      "correctSentence": "I wish I were on a sunny beach right now.",
+      "hintVi": "Tôi ước gì tôi đang ở trên một bãi biển đầy nắng ngay lúc này.",
+      "explanationVi": "Câu hoàn chỉnh: \"I wish I were on a sunny beach right now.\" (Tôi ước gì tôi đang ở trên một bãi biển đầy nắng ngay lúc này.)."
+    },
+    {
+      "id": "ex-079-14",
+      "type": "sentence_scramble",
+      "promptVi": "[Sắp xếp câu] Xếp các khối từ thành câu hoàn chỉnh mang nghĩa: \"Tôi ước gì tôi đã học tập chăm chỉ hơn cho kỳ thi cuối kỳ.\"",
+      "words": [
         "for",
-        "harder",
         "studied",
         "had",
-        "I",
+        "final",
         "wish",
-        "I"
+        "harder",
+        "I",
+        "exam.",
+        "I",
+        "the"
       ],
       "correctSentence": "I wish I had studied harder for the final exam.",
       "hintVi": "Tôi ước gì tôi đã học tập chăm chỉ hơn cho kỳ thi cuối kỳ.",
       "explanationVi": "Câu hoàn chỉnh: \"I wish I had studied harder for the final exam.\" (Tôi ước gì tôi đã học tập chăm chỉ hơn cho kỳ thi cuối kỳ.)."
     },
     {
-      "id": "ex-079-04",
-      "type": "find_error",
-      "promptVi": "Chọn câu có cấu trúc ngữ pháp chuẩn xác nhất trong các câu sau:",
-      "question": "Dựa vào chủ điểm ngữ pháp \"Bài 79: Cấu trúc Đề xuất & Câu Ước (Suggestions & Wishes: Suggest / Recommend / Wish / If only)\", câu nào sau đây là hoàn toàn CHÍNH XÁC?",
-      "options": [
-        "I wish it would stop raining so we could play football.",
-        "I wish it be stop raining so we could play football.",
-        "Is I wish it would stop raining so we could play football.",
-        "wish it would stop raining so we could play football. I"
+      "id": "ex-079-15",
+      "type": "sentence_scramble",
+      "promptVi": "[Sắp xếp câu] Xếp các khối từ thành câu hoàn chỉnh mang nghĩa: \"Tôi ước gì trời sẽ tạnh mưa để chúng tôi có thể đá bóng.\"",
+      "words": [
+        "it",
+        "we",
+        "I",
+        "wish",
+        "stop",
+        "would",
+        "so",
+        "could",
+        "play",
+        "raining",
+        "football."
       ],
-      "correctAnswer": "I wish it would stop raining so we could play football.",
-      "explanationVi": "Cấu trúc chuẩn xác là: \"I wish it would stop raining so we could play football.\" (Tôi ước gì trời sẽ tạnh mưa để chúng tôi có thể đá bóng.)."
+      "correctSentence": "I wish it would stop raining so we could play football.",
+      "hintVi": "Tôi ước gì trời sẽ tạnh mưa để chúng tôi có thể đá bóng.",
+      "explanationVi": "Câu hoàn chỉnh: \"I wish it would stop raining so we could play football.\" (Tôi ước gì trời sẽ tạnh mưa để chúng tôi có thể đá bóng.)."
     },
     {
-      "id": "ex-079-05",
+      "id": "ex-079-16",
+      "type": "sentence_scramble",
+      "promptVi": "[Sắp xếp câu] Xếp các từ thành câu hội thoại: \"Cố vấn môi trường của chúng ta đã khuyến nghị rằng chúng ta nên lắp đặt hệ thống chiếu sáng bằng năng lượng mặt trời dọc theo các đường mòn đi bộ. (recommended that we install)\"",
+      "words": [
+        "trails",
+        "hiking",
+        "Our",
+        "solar-powered",
+        "along",
+        "we",
+        "install",
+        "environmental",
+        "that",
+        "recommended",
+        "lighting",
+        "consultant"
+      ],
+      "correctSentence": "Our environmental consultant recommended that we install solar-powered lighting along hiking trails.",
+      "hintVi": "Cố vấn môi trường của chúng ta đã khuyến nghị rằng chúng ta nên lắp đặt hệ thống chiếu sáng bằng năng lượng mặt trời dọc theo các đường mòn đi bộ. (recommended that we install)",
+      "explanationVi": "Câu đúng: \"Our environmental consultant recommended that we install solar-powered lighting along hiking trails.\" (Cố vấn môi trường của chúng ta đã khuyến nghị rằng chúng ta nên lắp đặt hệ thống chiếu sáng bằng năng lượng mặt trời dọc theo các đường mòn đi bộ. (recommended that we install))."
+    },
+    {
+      "id": "ex-079-17",
+      "type": "find_error",
+      "promptVi": "[Tìm lỗi sai & Chọn câu đúng] Câu nào dưới đây có cấu trúc ngữ pháp HOÀN TOÀN ĐÚNG?",
+      "question": "Chủ điểm \"Bài 79: Cấu trúc Đề xuất & Câu Ước (Suggestions & Wishes: Suggest / Recommend / Wish / If only)\": Chọn câu CHÍNH XÁC:",
+      "options": [
+        "I suggest going to the cinema tonight.",
+        "tonight. cinema the to going suggest I",
+        "I suggest going to the cinema tonight. (sai)",
+        "I suggest going to the cinema tonight. (sai)"
+      ],
+      "correctAnswer": "I suggest going to the cinema tonight.",
+      "explanationVi": "Câu chuẩn xác là: \"I suggest going to the cinema tonight.\" (Tôi đề xuất đi xem phim tối nay.)."
+    },
+    {
+      "id": "ex-079-18",
+      "type": "find_error",
+      "promptVi": "[Tìm lỗi sai & Chọn câu đúng] Câu nào dưới đây có cấu trúc ngữ pháp HOÀN TOÀN ĐÚNG?",
+      "question": "Chủ điểm \"Bài 79: Cấu trúc Đề xuất & Câu Ước (Suggestions & Wishes: Suggest / Recommend / Wish / If only)\": Chọn câu CHÍNH XÁC:",
+      "options": [
+        "I wish I were on a sunny beach right now.",
+        "I wish I be on a sunny beach right now.",
+        "I wish I are not is on a sunny beach right now.",
+        "now. right beach sunny a on were I wish I"
+      ],
+      "correctAnswer": "I wish I were on a sunny beach right now.",
+      "explanationVi": "Câu chuẩn xác là: \"I wish I were on a sunny beach right now.\" (Tôi ước gì tôi đang ở trên một bãi biển đầy nắng ngay lúc này.)."
+    },
+    {
+      "id": "ex-079-19",
+      "type": "find_error",
+      "promptVi": "[Tìm lỗi sai & Chọn câu đúng] Câu nào dưới đây có cấu trúc ngữ pháp HOÀN TOÀN ĐÚNG?",
+      "question": "Chủ điểm \"Bài 79: Cấu trúc Đề xuất & Câu Ước (Suggestions & Wishes: Suggest / Recommend / Wish / If only)\": Chọn câu CHÍNH XÁC:",
+      "options": [
+        "I wish I had studied harder for the final exam.",
+        "exam. final the for harder studied had I wish I",
+        "I wish I had studied harder for the final exam. (sai)",
+        "I wish I had studied harder for the final exam. (sai)"
+      ],
+      "correctAnswer": "I wish I had studied harder for the final exam.",
+      "explanationVi": "Câu chuẩn xác là: \"I wish I had studied harder for the final exam.\" (Tôi ước gì tôi đã học tập chăm chỉ hơn cho kỳ thi cuối kỳ.)."
+    },
+    {
+      "id": "ex-079-20",
+      "type": "find_error",
+      "promptVi": "[Tìm lỗi sai & Chọn câu đúng] Câu nào dưới đây có cấu trúc ngữ pháp HOÀN TOÀN ĐÚNG?",
+      "question": "Chủ điểm \"Bài 79: Cấu trúc Đề xuất & Câu Ước (Suggestions & Wishes: Suggest / Recommend / Wish / If only)\": Chọn câu CHÍNH XÁC:",
+      "options": [
+        "I wish it would stop raining so we could play football.",
+        "football. play could we so raining stop would it wish I",
+        "I wish it would stop raining so we could play football. (sai)",
+        "I wish it would stop raining so we could play football. (sai)"
+      ],
+      "correctAnswer": "I wish it would stop raining so we could play football.",
+      "explanationVi": "Câu chuẩn xác là: \"I wish it would stop raining so we could play football.\" (Tôi ước gì trời sẽ tạnh mưa để chúng tôi có thể đá bóng.)."
+    },
+    {
+      "id": "ex-079-21",
       "type": "listening_reflex",
-      "promptVi": "Nghe câu tiếng Anh và chọn bản dịch tiếng Việt chuẩn xác:",
+      "promptVi": "[Nghe phản xạ] Nghe câu phát âm tiếng Anh và chọn bản dịch tiếng Việt đúng nhất:",
       "audioPrompt": "Good morning, Council members. How can we promote sustainable tourism in our coastal national park?",
-      "question": "Nghe câu phát âm tiếng Anh và chọn nghĩa đúng:",
+      "question": "Nhấn nút '🔊 Nghe audio' để nghe câu thoại và chọn nghĩa đúng:",
       "options": [
         "Chào buổi sáng các thành viên Hội đồng. Làm thế nào để chúng ta có thể thúc đẩy du lịch bền vững tại công viên quốc gia ven biển?",
         "Tôi đề xuất xây dựng các đường lát ván gỗ để bảo vệ các hệ sinh thái san hô mỏng manh khỏi việc bị giẫm đạp. (suggest building)",
         "Cố vấn môi trường của chúng ta đã khuyến nghị rằng chúng ta nên lắp đặt hệ thống chiếu sáng bằng năng lượng mặt trời dọc theo các đường mòn đi bộ. (recommended that we install)",
-        "Hôm nay chúng tôi đi mua sắm tại trung tâm thương mại."
+        "Ngày mai trời sẽ mưa to."
       ],
       "correctAnswer": "Chào buổi sáng các thành viên Hội đồng. Làm thế nào để chúng ta có thể thúc đẩy du lịch bền vững tại công viên quốc gia ven biển?",
-      "explanationVi": "Câu nghe được: \"Good morning, Council members. How can we promote sustainable tourism in our coastal national park?\" nghĩa là: \"Chào buổi sáng các thành viên Hội đồng. Làm thế nào để chúng ta có thể thúc đẩy du lịch bền vững tại công viên quốc gia ven biển?\"."
+      "explanationVi": "Câu nghe được: \"Good morning, Council members. How can we promote sustainable tourism in our coastal national park?\" có nghĩa là: \"Chào buổi sáng các thành viên Hội đồng. Làm thế nào để chúng ta có thể thúc đẩy du lịch bền vững tại công viên quốc gia ven biển?\"."
     },
     {
-      "id": "ex-079-06",
+      "id": "ex-079-22",
+      "type": "listening_reflex",
+      "promptVi": "[Nghe phản xạ] Nghe câu phát âm tiếng Anh và chọn bản dịch tiếng Việt đúng nhất:",
+      "audioPrompt": "I suggest building wooden boardwalks to protect fragile coral ecosystems from foot traffic.",
+      "question": "Nhấn nút '🔊 Nghe audio' để nghe câu thoại và chọn nghĩa đúng:",
+      "options": [
+        "Tôi đề xuất xây dựng các đường lát ván gỗ để bảo vệ các hệ sinh thái san hô mỏng manh khỏi việc bị giẫm đạp. (suggest building)",
+        "Cố vấn môi trường của chúng ta đã khuyến nghị rằng chúng ta nên lắp đặt hệ thống chiếu sáng bằng năng lượng mặt trời dọc theo các đường mòn đi bộ. (recommended that we install)",
+        "Tôi ước gì ngân sách thành phố của chúng ta lớn hơn để chúng ta có thể tài trợ cho các xe buýt đưa đón chạy điện ngay lúc này. (I wish budget were larger)",
+        "Ngày mai trời sẽ mưa to."
+      ],
+      "correctAnswer": "Tôi đề xuất xây dựng các đường lát ván gỗ để bảo vệ các hệ sinh thái san hô mỏng manh khỏi việc bị giẫm đạp. (suggest building)",
+      "explanationVi": "Câu nghe được: \"I suggest building wooden boardwalks to protect fragile coral ecosystems from foot traffic.\" có nghĩa là: \"Tôi đề xuất xây dựng các đường lát ván gỗ để bảo vệ các hệ sinh thái san hô mỏng manh khỏi việc bị giẫm đạp. (suggest building)\"."
+    },
+    {
+      "id": "ex-079-23",
+      "type": "listening_reflex",
+      "promptVi": "[Nghe phản xạ] Nghe câu phát âm tiếng Anh và chọn bản dịch tiếng Việt đúng nhất:",
+      "audioPrompt": "Our environmental consultant recommended that we install solar-powered lighting along hiking trails.",
+      "question": "Nhấn nút '🔊 Nghe audio' để nghe câu thoại và chọn nghĩa đúng:",
+      "options": [
+        "Cố vấn môi trường của chúng ta đã khuyến nghị rằng chúng ta nên lắp đặt hệ thống chiếu sáng bằng năng lượng mặt trời dọc theo các đường mòn đi bộ. (recommended that we install)",
+        "Tôi ước gì ngân sách thành phố của chúng ta lớn hơn để chúng ta có thể tài trợ cho các xe buýt đưa đón chạy điện ngay lúc này. (I wish budget were larger)",
+        "Giá như chúng ta đã nộp đơn xin tài trợ cơ sở hạ tầng xanh liên bang trước thời hạn của tháng trước! (If only had applied)",
+        "Ngày mai trời sẽ mưa to."
+      ],
+      "correctAnswer": "Cố vấn môi trường của chúng ta đã khuyến nghị rằng chúng ta nên lắp đặt hệ thống chiếu sáng bằng năng lượng mặt trời dọc theo các đường mòn đi bộ. (recommended that we install)",
+      "explanationVi": "Câu nghe được: \"Our environmental consultant recommended that we install solar-powered lighting along hiking trails.\" có nghĩa là: \"Cố vấn môi trường của chúng ta đã khuyến nghị rằng chúng ta nên lắp đặt hệ thống chiếu sáng bằng năng lượng mặt trời dọc theo các đường mòn đi bộ. (recommended that we install)\"."
+    },
+    {
+      "id": "ex-079-24",
+      "type": "listening_reflex",
+      "promptVi": "[Nghe phản xạ] Nghe câu phát âm tiếng Anh và chọn bản dịch tiếng Việt đúng nhất:",
+      "audioPrompt": "I wish our municipal budget were larger so we could fund electric shuttle buses immediately.",
+      "question": "Nhấn nút '🔊 Nghe audio' để nghe câu thoại và chọn nghĩa đúng:",
+      "options": [
+        "Tôi ước gì ngân sách thành phố của chúng ta lớn hơn để chúng ta có thể tài trợ cho các xe buýt đưa đón chạy điện ngay lúc này. (I wish budget were larger)",
+        "Giá như chúng ta đã nộp đơn xin tài trợ cơ sở hạ tầng xanh liên bang trước thời hạn của tháng trước! (If only had applied)",
+        "Tôi đề xuất ủy ban du lịch của chúng ta nên khởi động một chiến dịch dọn sạch bãi biển vào thứ Bảy tới. (propose that launch)",
+        "Ngày mai trời sẽ mưa to."
+      ],
+      "correctAnswer": "Tôi ước gì ngân sách thành phố của chúng ta lớn hơn để chúng ta có thể tài trợ cho các xe buýt đưa đón chạy điện ngay lúc này. (I wish budget were larger)",
+      "explanationVi": "Câu nghe được: \"I wish our municipal budget were larger so we could fund electric shuttle buses immediately.\" có nghĩa là: \"Tôi ước gì ngân sách thành phố của chúng ta lớn hơn để chúng ta có thể tài trợ cho các xe buýt đưa đón chạy điện ngay lúc này. (I wish budget were larger)\"."
+    },
+    {
+      "id": "ex-079-25",
       "type": "speaking_practice",
-      "promptVi": "Luyện nói qua Micro: Hãy nhấn nút 'Nói ngay' và phát âm chuẩn xác câu sau:",
+      "promptVi": "[Luyện nói qua Micro] Nhấn nút '🎙️ Bắt đầu nói' và đọc to, rõ ràng câu tiếng Anh sau:",
       "targetSentence": "I suggest going to the cinema tonight.",
       "hintVi": "Tôi đề xuất đi xem phim tối nay.",
-      "explanationVi": "Mẫu câu chuẩn: \"I suggest going to the cinema tonight.\" (Tôi đề xuất đi xem phim tối nay.). Hãy phát âm rõ ràng từng từ và giữ ngữ điệu tự nhiên."
+      "explanationVi": "Câu mục tiêu: \"I suggest going to the cinema tonight.\" (Tôi đề xuất đi xem phim tối nay.). Luyện phát âm chuẩn xác từng âm tiết và ngữ điệu tự nhiên."
     },
     {
-      "id": "ex-079-07",
+      "id": "ex-079-26",
+      "type": "speaking_practice",
+      "promptVi": "[Luyện nói qua Micro] Nhấn nút '🎙️ Bắt đầu nói' và đọc to, rõ ràng câu tiếng Anh sau:",
+      "targetSentence": "I wish I were on a sunny beach right now.",
+      "hintVi": "Tôi ước gì tôi đang ở trên một bãi biển đầy nắng ngay lúc này.",
+      "explanationVi": "Câu mục tiêu: \"I wish I were on a sunny beach right now.\" (Tôi ước gì tôi đang ở trên một bãi biển đầy nắng ngay lúc này.). Luyện phát âm chuẩn xác từng âm tiết và ngữ điệu tự nhiên."
+    },
+    {
+      "id": "ex-079-27",
+      "type": "speaking_practice",
+      "promptVi": "[Luyện nói qua Micro] Nhấn nút '🎙️ Bắt đầu nói' và đọc to, rõ ràng câu tiếng Anh sau:",
+      "targetSentence": "I wish I had studied harder for the final exam.",
+      "hintVi": "Tôi ước gì tôi đã học tập chăm chỉ hơn cho kỳ thi cuối kỳ.",
+      "explanationVi": "Câu mục tiêu: \"I wish I had studied harder for the final exam.\" (Tôi ước gì tôi đã học tập chăm chỉ hơn cho kỳ thi cuối kỳ.). Luyện phát âm chuẩn xác từng âm tiết và ngữ điệu tự nhiên."
+    },
+    {
+      "id": "ex-079-28",
+      "type": "speaking_practice",
+      "promptVi": "[Luyện nói qua Micro] Nhấn nút '🎙️ Bắt đầu nói' và đọc to, rõ ràng câu tiếng Anh sau:",
+      "targetSentence": "I wish it would stop raining so we could play football.",
+      "hintVi": "Tôi ước gì trời sẽ tạnh mưa để chúng tôi có thể đá bóng.",
+      "explanationVi": "Câu mục tiêu: \"I wish it would stop raining so we could play football.\" (Tôi ước gì trời sẽ tạnh mưa để chúng tôi có thể đá bóng.). Luyện phát âm chuẩn xác từng âm tiết và ngữ điệu tự nhiên."
+    },
+    {
+      "id": "ex-079-29",
       "type": "reading_comprehension",
-      "promptVi": "Đọc đoạn hội thoại ngắn sau và trả lời câu hỏi đọc hiểu:",
-      "passage": "Mayor Daniel: \"Good morning, Council members. How can we promote sustainable tourism in our coastal national park?\"\nPlanner Chloe: \"I suggest building wooden boardwalks to protect fragile coral ecosystems from foot traffic.\"\nMayor Daniel: \"Our environmental consultant recommended that we install solar-powered lighting along hiking trails.\"\nPlanner Chloe: \"I wish our municipal budget were larger so we could fund electric shuttle buses immediately.\"",
-      "question": "Dựa vào ngữ cảnh đoạn hội thoại trên, Mayor Daniel và Planner Chloe đang trao đổi về nội dung trọng tâm nào?",
+      "promptVi": "[Đọc hiểu đoạn văn 1] Đọc đoạn hội thoại mở đầu sau và trả lời câu hỏi:",
+      "passage": "Mayor Daniel (Nam): \"Good morning, Council members. How can we promote sustainable tourism in our coastal national park?\"\nPlanner Chloe (Nữ): \"I suggest building wooden boardwalks to protect fragile coral ecosystems from foot traffic.\"\nMayor Daniel (Nam): \"Our environmental consultant recommended that we install solar-powered lighting along hiking trails.\"\nPlanner Chloe (Nữ): \"I wish our municipal budget were larger so we could fund electric shuttle buses immediately.\"",
+      "question": "Câu hỏi: Trong đoạn hội thoại trên, các nhân vật đang thảo luận về chủ đề gì?",
       "options": [
         "Cấu trúc Đề xuất & Câu Ước (Suggestions & Wishes: Suggest / Recommend / Wish / If only)",
-        "Kế hoạch mua sắm và nấu ăn cho bữa tối gia đình",
-        "Lịch trình đi du lịch nghỉ dưỡng mùa hè",
-        "Dự báo thời tiết và nhiệt độ ngày mai"
+        "Kế hoạch đi nghỉ dưỡng cuối tuần ở bãi biển",
+        "Mua sắm quần áo và đồ dùng thể thao",
+        "Cách làm món ăn truyền thống gia đình"
       ],
       "correctAnswer": "Cấu trúc Đề xuất & Câu Ước (Suggestions & Wishes: Suggest / Recommend / Wish / If only)",
-      "explanationVi": "Đoạn hội thoại mở đầu được thiết kế để minh họa và ứng dụng trực tiếp chủ điểm: \"Bài 79: Cấu trúc Đề xuất & Câu Ước (Suggestions & Wishes: Suggest / Recommend / Wish / If only)\"."
+      "explanationVi": "Đoạn hội thoại mở đầu được thiết kế để minh họa trực tiếp cho chủ điểm ngữ pháp: \"Bài 79: Cấu trúc Đề xuất & Câu Ước (Suggestions & Wishes: Suggest / Recommend / Wish / If only)\"."
     },
     {
-      "id": "ex-079-08",
-      "type": "multiple_choice",
-      "promptVi": "Phản xạ dịch & Ngữ pháp: Chọn câu tiếng Anh diễn đạt đúng nghĩa:",
-      "question": "Dịch câu sang tiếng Anh: \"Tôi ước gì tôi đã học tập chăm chỉ hơn cho kỳ thi cuối kỳ.\"",
+      "id": "ex-079-30",
+      "type": "reading_comprehension",
+      "promptVi": "[Đọc hiểu đoạn văn 2] Đọc phần tiếp theo của đoạn hội thoại và chọn nhận định đúng:",
+      "passage": "Mayor Daniel (Nam): \"If only we had applied for the federal green infrastructure grant before last month's deadline!\"\nPlanner Chloe (Nữ): \"I propose that our tourism committee launch a clean-beach campaign this coming Saturday.\"\nMayor Daniel (Nam): \"I wish travelers would stop leaving plastic bottles and aluminum cans on the sand dunes.\"\nPlanner Chloe (Nữ): \"We suggest placing recycling stations every two hundred meters along the beach.\"",
+      "question": "Nhận định nào sau đây là ĐÚNG với nội dung đoạn hội thoại trên?",
       "options": [
-        "I wish I had studied harder for the final exam.",
-        "I wish I is studied harder for the final exam.",
-        "I wish I had studied harder at the final exam.",
-        "I wish I were on a sunny beach right now."
+        "Các câu hội thoại sử dụng đúng cấu trúc ngữ pháp \"Bài 79: Cấu trúc Đề xuất & Câu Ước (Suggestions & Wishes: Suggest / Recommend / Wish / If only)\".",
+        "Các nhân vật không hiểu ý nhau và từ chối nói chuyện.",
+        "Đoạn hội thoại nói về việc chuyển nhà sang thành phố khác.",
+        "Cả hai nhân vật đều đang ở sân bay chuẩn bị lên máy bay."
       ],
-      "correctAnswer": "I wish I had studied harder for the final exam.",
-      "explanationVi": "Bản dịch chuẩn xác và đúng ngữ pháp là: \"I wish I had studied harder for the final exam.\" (Tôi ước gì tôi đã học tập chăm chỉ hơn cho kỳ thi cuối kỳ.)."
+      "correctAnswer": "Các câu hội thoại sử dụng đúng cấu trúc ngữ pháp \"Bài 79: Cấu trúc Đề xuất & Câu Ước (Suggestions & Wishes: Suggest / Recommend / Wish / If only)\".",
+      "explanationVi": "Đoạn hội thoại thứ hai tiếp tục củng cố và ứng dụng các quy tắc ngữ pháp của \"Bài 79: Cấu trúc Đề xuất & Câu Ước (Suggestions & Wishes: Suggest / Recommend / Wish / If only)\"."
     }
   ]
 }
