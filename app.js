@@ -943,10 +943,12 @@ function playFullDialogue() {
   dialogueCurrentIdx = 0;
   if (el.btnPlayFullDialogue) el.btnPlayFullDialogue.textContent = "⏹ Dừng phát hội thoại";
 
-  try {
-    window.speechSynthesis.cancel();
-    window.speechSynthesis.resume();
-  } catch (e) {}
+  if ("speechSynthesis" in window) {
+    try {
+      window.speechSynthesis.cancel();
+      window.speechSynthesis.resume();
+    } catch (e) {}
+  }
 
   function playStep(idx) {
     if (!isDialoguePlaying || idx >= lines.length) {
@@ -992,7 +994,7 @@ function playFullDialogue() {
         dialogueSafetyTimer = null;
       }
       if (!isDialoguePlaying) return;
-      setTimeout(() => playStep(idx + 1), 350);
+      setTimeout(() => playStep(idx + 1), 250);
     };
 
     u.onend = nextStep;
@@ -1004,7 +1006,7 @@ function playFullDialogue() {
     };
 
     const wordCount = cleanText.split(/\s+/).length;
-    const maxWait = Math.max(3500, (wordCount / 2) * 1000 + 2500);
+    const maxWait = Math.max(3000, (wordCount / 2) * 1000 + 2000);
     dialogueSafetyTimer = setTimeout(() => {
       if (!stepFinished && isDialoguePlaying) {
         console.warn("Dialogue watchdog moving to next sentence");
@@ -1020,13 +1022,11 @@ function playFullDialogue() {
     }
   }
 
-  // 60ms delay after cancel() ensures Chromium's audio queue is completely fresh
-  setTimeout(() => {
-    if (isDialoguePlaying) {
-      playStep(0);
-    }
-  }, 60);
+  // Play immediately within user click gesture
+  playStep(0);
 }
+
+window.playFullDialogue = playFullDialogue;
 
 function getTargetData() {
   if (!lessonData || !lessonData.drillingTargets) return {};
@@ -1305,16 +1305,27 @@ function fallbackLoadReviewPool(lessonFiles, count) {
         pool.push(...window.HOCDRILL_EXERCISES[exKey].questions);
       }
     });
+
+    // If selected pool has fewer than requested count, fill with questions from other exercises
+    if (pool.length < count) {
+      Object.keys(window.HOCDRILL_EXERCISES).forEach(key => {
+        if (pool.length < count * 2 && window.HOCDRILL_EXERCISES[key].questions) {
+          pool.push(...window.HOCDRILL_EXERCISES[key].questions);
+        }
+      });
+    }
+
     if (pool.length > 0) {
       pool.sort(() => Math.random() - 0.5);
-      initQuizState(pool.slice(0, count), count);
+      const selected = pool.slice(0, count);
+      initQuizState(selected, count);
       return;
     }
   }
 
   // 2. Network Fallback
   const base = window.location.pathname.endsWith('/') ? window.location.pathname : window.location.pathname.substring(0, window.location.pathname.lastIndexOf('/') + 1);
-  const promises = lessonFiles.slice(0, 20).map(fn => {
+  const promises = lessonFiles.slice(0, 30).map(fn => {
     const pad = fn.replace(".json", "").replace("lesson-", "");
     const tryFetchEx = (url) => fetch(url).then(r => r.ok ? r.json() : Promise.reject());
     return tryFetchEx(`${base}data/exercises/exercise-${pad}.json`)
@@ -1336,7 +1347,8 @@ function fallbackLoadReviewPool(lessonFiles, count) {
     }
 
     pool.sort(() => Math.random() - 0.5);
-    initQuizState(pool.slice(0, count), count);
+    const selected = pool.slice(0, count);
+    initQuizState(selected, count);
   });
 }
 
@@ -1615,7 +1627,7 @@ function handleQuizEvaluation(isCorrect, userAns) {
     isCorrect: isCorrect
   });
 
-  el.quizCurrentScore.textContent = `${quizScore} / ${currentQuizIdx + 1}`;
+  el.quizCurrentScore.textContent = `${quizScore}`;
 
   el.quizFeedbackBox.style.display = "block";
   el.quizFeedbackBox.className = `feedback-msg ${isCorrect ? 'success' : 'error'}`;
@@ -1627,6 +1639,13 @@ function handleQuizEvaluation(isCorrect, userAns) {
   }
 
   el.btnNextQuizQuestion.style.display = "inline-flex";
+
+  // Smoothly scroll to the next button in case viewport is small
+  setTimeout(() => {
+    if (el.btnNextQuizQuestion) {
+      el.btnNextQuizQuestion.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+    }
+  }, 40);
 }
 
 function nextQuizQuestion() {
@@ -1640,7 +1659,11 @@ function showQuizResults() {
   el.reviewResultView.style.display = "block";
 
   const total = quizQuestions.length;
-  const pct = Math.round((quizScore / total) * 100);
+  const answeredCount = quizUserAnswers.length;
+  const correctCount = quizUserAnswers.filter(a => a.isCorrect).length;
+  quizScore = correctCount;
+
+  const pct = total > 0 ? Math.round((quizScore / total) * 100) : 0;
   const m = Math.floor(quizTimerSeconds / 60);
   const s = quizTimerSeconds % 60;
   const timeStr = `${String(m).padStart(2, "0")}:${String(s).padStart(2, "0")}`;
@@ -1649,6 +1672,9 @@ function showQuizResults() {
   el.resPercentText.textContent = `${pct}%`;
   el.resPercentText.style.color = pct >= 80 ? "#16a34a" : (pct >= 50 ? "#d97706" : "#dc2626");
   el.resTimeSpentText.textContent = timeStr;
+  if (el.quizResultSubtitle) {
+    el.quizResultSubtitle.textContent = `Đã hoàn thành ${total} câu hỏi ôn luyện (${quizScore} câu đúng)`;
+  }
 
   if (pct >= 90) {
     el.resGradeBadge.textContent = "🏆 Xuất sắc";
