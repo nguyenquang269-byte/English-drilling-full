@@ -425,43 +425,25 @@ function speakVi(text, callback) {
   setAudioBadge(true);
 
   const cleanText = text.replace(/<[^>]*>/g, '').trim();
-  const proxyUrl = `/api/tts?text=${encodeURIComponent(cleanText)}&lang=vi`;
-  
-  const audio = new Audio(proxyUrl);
-  currentAudioElement = audio;
 
-  audio.playbackRate = currentSpeechRate;
-  audio.onended = () => {
-    setAudioBadge(false);
-    currentAudioElement = null;
-    if (callback) callback();
-  };
-
-  audio.onerror = () => {
-    // Fallback to Web Speech API
-    if ("speechSynthesis" in window) {
-      const u = new SpeechSynthesisUtterance(cleanText);
-      u.lang = "vi-VN";
-      u.rate = currentSpeechRate;
-      u.onend = () => {
-        setAudioBadge(false);
-        if (callback) callback();
-      };
-      u.onerror = () => {
-        setAudioBadge(false);
-        if (callback) callback();
-      };
-      window.speechSynthesis.speak(u);
-    } else {
+  // If speechSynthesis is available, use it directly for fast, offline, and zero-error playback
+  if ("speechSynthesis" in window) {
+    const u = new SpeechSynthesisUtterance(cleanText);
+    u.lang = "vi-VN";
+    u.rate = currentSpeechRate;
+    u.onend = () => {
       setAudioBadge(false);
       if (callback) callback();
-    }
-  };
-
-  audio.play().catch(() => {
+    };
+    u.onerror = () => {
+      setAudioBadge(false);
+      if (callback) callback();
+    };
+    window.speechSynthesis.speak(u);
+  } else {
     setAudioBadge(false);
     if (callback) callback();
-  });
+  }
 }
 
 function speakEn(text, gender = "male", callback) {
@@ -469,46 +451,28 @@ function speakEn(text, gender = "male", callback) {
   setAudioBadge(true);
 
   const cleanText = text.replace(/<[^>]*>/g, '').trim();
-  const proxyUrl = `/api/tts?text=${encodeURIComponent(cleanText)}&lang=en`;
-  
-  const audio = new Audio(proxyUrl);
-  currentAudioElement = audio;
 
-  audio.playbackRate = currentSpeechRate;
-  audio.onended = () => {
-    setAudioBadge(false);
-    currentAudioElement = null;
-    if (callback) callback();
-  };
+  // Use native Web Speech Synthesis with gender matching for 100% reliable client-side audio
+  if ("speechSynthesis" in window) {
+    const u = new SpeechSynthesisUtterance(cleanText);
+    u.lang = "en-US";
+    u.rate = currentSpeechRate;
+    const voice = getVoiceForGender(gender);
+    if (voice) u.voice = voice;
 
-  audio.onerror = () => {
-    // Fallback to Web Speech API with gender selection
-    if ("speechSynthesis" in window) {
-      const u = new SpeechSynthesisUtterance(cleanText);
-      u.lang = "en-US";
-      u.rate = currentSpeechRate;
-      const voice = getVoiceForGender(gender);
-      if (voice) u.voice = voice;
-
-      u.onend = () => {
-        setAudioBadge(false);
-        if (callback) callback();
-      };
-      u.onerror = () => {
-        setAudioBadge(false);
-        if (callback) callback();
-      };
-      window.speechSynthesis.speak(u);
-    } else {
+    u.onend = () => {
       setAudioBadge(false);
       if (callback) callback();
-    }
-  };
-
-  audio.play().catch(() => {
+    };
+    u.onerror = () => {
+      setAudioBadge(false);
+      if (callback) callback();
+    };
+    window.speechSynthesis.speak(u);
+  } else {
     setAudioBadge(false);
     if (callback) callback();
-  });
+  }
 }
 
 function stopAllAudio() {
@@ -1223,24 +1187,8 @@ function startReviewQuiz() {
     selectedLessonFiles = LESSON_LIST.map(l => l.file);
   }
 
-  // Fetch review questions from server endpoint
-  const queryParam = selectedLessonFiles.join(",");
-  fetch(`/api/review-pool?lessons=${encodeURIComponent(queryParam)}&count=${count}`)
-    .then(r => {
-      if (!r.ok) throw new Error("Could not load review pool");
-      return r.json();
-    })
-    .then(data => {
-      if (!data.questions || !data.questions.length) {
-        alert("Không tìm thấy bài tập cho phạm vi đã chọn!");
-        return;
-      }
-      initQuizState(data.questions, count);
-    })
-    .catch(err => {
-      console.warn("Falling back to local exercise loading:", err);
-      fallbackLoadReviewPool(selectedLessonFiles, count);
-    });
+  // Load review questions directly (zero network delay)
+  fallbackLoadReviewPool(selectedLessonFiles, count);
 }
 
 function fallbackLoadReviewPool(lessonFiles, count) {
