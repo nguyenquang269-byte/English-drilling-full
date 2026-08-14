@@ -1626,82 +1626,85 @@ function initSpeedControls() {
 }
 
 function bindEvents() {
-  // Main tab switching
-  el.tabBtnLessons.addEventListener("click", () => switchMainTab("lessons"));
-  el.tabBtnReview.addEventListener("click", () => switchMainTab("review"));
-  el.btnJumpToReviewFromLesson.addEventListener("click", () => switchMainTab("review"));
-  el.btnGoToReviewAfterDone.addEventListener("click", () => switchMainTab("review"));
-  el.btnBackToLessonTab.addEventListener("click", () => switchMainTab("lessons"));
-
-  // Toggle lesson completed status
-  el.btnToggleCurrentCompleted.addEventListener("click", toggleCurrentLessonCompleted);
-
-  // Lesson selector change updates toggle button
-  el.lessonSelector.addEventListener("change", () => {
-    updateOverallProgressUI();
-  });
+  if (el.tabBtnLessons) el.tabBtnLessons.onclick = () => switchMainTab("lessons");
+  if (el.tabBtnReview) el.tabBtnReview.onclick = () => switchMainTab("review");
+  if (el.btnJumpToReviewFromLesson) el.btnJumpToReviewFromLesson.onclick = () => switchMainTab("review");
+  if (el.btnGoToReviewAfterDone) el.btnGoToReviewAfterDone.onclick = () => switchMainTab("review");
+  if (el.btnBackToLessonTab) el.btnBackToLessonTab.onclick = () => switchMainTab("lessons");
+  if (el.btnToggleCompletion) el.btnToggleCompletion.onclick = toggleCurrentLessonCompleted;
+  if (el.lessonSelector) {
+    el.lessonSelector.onchange = () => {
+      updateOverallProgressUI();
+    };
+  }
 
   // Lesson Tab events
-  el.btnLoadLesson.addEventListener("click", loadSelectedLesson);
-  el.btnBackToSelectFromDialogue.addEventListener("click", () => {
-    stopAllAudio();
-    showStep("select");
-  });
-
-  el.btnPlayFullDialogue.addEventListener("click", () => {
-    if (isDialoguePlaying) {
+  if (el.btnLoadLesson) el.btnLoadLesson.onclick = loadSelectedLesson;
+  if (el.btnBackToSelectFromDialogue) {
+    el.btnBackToSelectFromDialogue.onclick = () => {
       stopAllAudio();
-    } else {
-      playFullDialogue();
-    }
-  });
+      showStep("select");
+    };
+  }
 
-  el.btnReadGrammar.addEventListener("click", () => {
-    if (lessonData && lessonData.grammarRules) {
-      const rules = lessonData.grammarRules;
-      const text = `${rules.summaryVi || ''} ${(rules.points || []).map(p => `${p.subject || ''}: ${p.toBe || p.rule || p.structure || ''}`).join('. ')}`;
-      speakVi(text);
-    }
-  });
+  if (el.btnReadGrammar) {
+    el.btnReadGrammar.onclick = () => {
+      if (lessonData && lessonData.grammarRules) {
+        const rules = lessonData.grammarRules;
+        const text = `${rules.summaryVi || ''} ${(rules.points || []).map(p => `${p.subject || ''}: ${p.toBe || p.rule || p.structure || ''}`).join('. ')}`;
+        speakVi(text);
+      }
+    };
+  }
 
-  el.btnGoToDrills.addEventListener("click", () => {
-    stopAllAudio();
-    showStep("drill");
-    renderCurrentDrill();
-  });
+  if (el.btnGoToDrills) {
+    el.btnGoToDrills.onclick = () => {
+      stopAllAudio();
+      showStep("drill");
+      renderCurrentDrill();
+    };
+  }
 
-  el.btnNextDrillMode.addEventListener("click", nextDrillMode);
-  el.btnPrevDrillMode.addEventListener("click", prevDrillMode);
+  if (el.btnNextDrillMode) el.btnNextDrillMode.onclick = nextDrillMode;
+  if (el.btnPrevDrillMode) el.btnPrevDrillMode.onclick = prevDrillMode;
 
-  el.btnRestartCurrentLesson.addEventListener("click", () => {
-    currentTargetIndex = 0;
-    currentMode = 1;
-    resetLessonTimer();
-    showStep("drill");
-    renderCurrentDrill();
-  });
+  if (el.btnRestartCurrentLesson) {
+    el.btnRestartCurrentLesson.onclick = () => {
+      currentTargetIndex = 0;
+      currentMode = 1;
+      resetLessonTimer();
+      showStep("drill");
+      renderCurrentDrill();
+    };
+  }
 
-  el.btnNextLesson.addEventListener("click", () => {
-    const currentVal = el.lessonSelector.value;
-    const currIdx = LESSON_LIST.findIndex(item => item.file === currentVal);
-    if (currIdx !== -1 && currIdx < LESSON_LIST.length - 1) {
-      el.lessonSelector.value = LESSON_LIST[currIdx + 1].file;
-      loadSelectedLesson();
-    } else {
-      alert("Bạn đã học đến bài cuối cùng của khóa học!");
-    }
-  });
+  if (el.btnNextLesson) {
+    el.btnNextLesson.onclick = () => {
+      const currentVal = el.lessonSelector.value;
+      const currIdx = LESSON_LIST.findIndex(item => item.file === currentVal);
+      if (currIdx !== -1 && currIdx < LESSON_LIST.length - 1) {
+        el.lessonSelector.value = LESSON_LIST[currIdx + 1].file;
+        loadSelectedLesson();
+      } else {
+        alert("Bạn đã học đến bài cuối cùng của khóa học!");
+      }
+    };
+  }
 
   // Drill Mode 1 (Repeat)
-  el.btnAudioRepeat.addEventListener("click", () => {
-    const target = getTargetData();
-    speakEn(target.baseEn, "female");
-  });
+  if (el.btnAudioRepeat) {
+    el.btnAudioRepeat.onclick = () => {
+      const target = getTargetData();
+      speakEn(target.baseEn, "female");
+    };
+  }
 
-  el.btnAudioRepeatVi.addEventListener("click", () => {
-    const target = getTargetData();
-    speakVi(target.baseVi);
-  });
+  if (el.btnAudioRepeatVi) {
+    el.btnAudioRepeatVi.onclick = () => {
+      const target = getTargetData();
+      speakVi(target.baseVi);
+    };
+  }
 
   el.btnMicRepeat.addEventListener("click", () => {
     if (isRecording) {
