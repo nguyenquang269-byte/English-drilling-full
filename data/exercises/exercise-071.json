@@ -7,13 +7,13 @@
     {
       "id": "ex-071-01",
       "type": "multiple_choice",
-      "promptVi": "[Trắc nghiệm] Chọn từ/cụm từ đúng để hoàn thành câu (Nếu bạn không biết từ đó, hãy tra cứu nó trong từ điển.):",
+      "promptVi": "[Trắc nghiệm ngữ pháp] Chọn từ đúng để hoàn thành câu (Nếu bạn không biết từ đó, hãy tra cứu nó trong từ điển.):",
       "question": "If you don't know the word, look it ___ in the dictionary.",
       "options": [
-        "up",
-        "for",
         "after",
-        "at"
+        "for",
+        "at",
+        "up"
       ],
       "correctAnswer": "up",
       "explanationVi": "'look up' mang nghĩa tra cứu trong từ điển hoặc danh bạ."
@@ -21,13 +21,13 @@
     {
       "id": "ex-071-02",
       "type": "multiple_choice",
-      "promptVi": "[Trắc nghiệm] Chọn từ/cụm từ đúng để hoàn thành câu (Cô ấy giống mẹ mình về nhiều mặt.):",
+      "promptVi": "[Trắc nghiệm ngữ pháp] Chọn từ đúng để hoàn thành câu (Cô ấy giống mẹ mình về nhiều mặt.):",
       "question": "She takes ___ her mother in many ways.",
       "options": [
         "after",
         "up",
-        "off",
-        "over"
+        "over",
+        "off"
       ],
       "correctAnswer": "after",
       "explanationVi": "'take after sb' mang nghĩa giống người thân trong gia đình."
@@ -35,7 +35,7 @@
     {
       "id": "ex-071-03",
       "type": "multiple_choice",
-      "promptVi": "[Trắc nghiệm] Chọn từ/cụm từ đúng để hoàn thành câu (Chuyến bay đã cất cánh đúng giờ bất chấp sương mù.):",
+      "promptVi": "[Trắc nghiệm ngữ pháp] Chọn từ đúng để hoàn thành câu (Chuyến bay đã cất cánh đúng giờ bất chấp sương mù.):",
       "question": "The flight took ___ on time despite the fog.",
       "options": [
         "off",
@@ -49,11 +49,11 @@
     {
       "id": "ex-071-04",
       "type": "multiple_choice",
-      "promptVi": "[Trắc nghiệm] Chọn từ/cụm từ đúng để hoàn thành câu (Anh ấy đã được nuôi nấng bởi ông bà ở vùng nông thôn.):",
+      "promptVi": "[Trắc nghiệm ngữ pháp] Chọn từ đúng để hoàn thành câu (Anh ấy đã được nuôi nấng bởi ông bà ở vùng nông thôn.):",
       "question": "He was brought ___ by his grandparents in the countryside.",
       "options": [
-        "up",
         "about",
+        "up",
         "in",
         "off"
       ],
@@ -63,116 +63,118 @@
     {
       "id": "ex-071-05",
       "type": "multiple_choice",
-      "promptVi": "[Trắc nghiệm] Dịch câu sau sang tiếng Anh: \"Chào buổi sáng Clara! Tôi nghe nói gần đây bạn bắt đầu theo đuổi môn vẽ minh họa kỹ thuật số. (take up = bắt đầu sở thích)\"",
-      "question": "Chọn bản dịch chuẩn xác cho câu: \"Chào buổi sáng Clara! Tôi nghe nói gần đây bạn bắt đầu theo đuổi môn vẽ minh họa kỹ thuật số. (take up = bắt đầu sở thích)\"",
+      "promptVi": "[Phản xạ dịch thuật] Dịch câu sau sang tiếng Anh: \"Chào buổi sáng Clara! Tôi nghe nói gần đây bạn bắt đầu theo đuổi môn vẽ minh họa kỹ thuật số. (take up = bắt đầu sở thích)\"",
+      "question": "Chọn bản dịch chuẩn xác nhất cho câu: \"Chào buổi sáng Clara! Tôi nghe nói gần đây bạn bắt đầu theo đuổi môn vẽ minh họa kỹ thuật số. (take up = bắt đầu sở thích)\"",
       "options": [
-        "Good morning, Clara! I heard you took up digital illustration recently.",
-        "Good morning, Clara! I heard you took up digital illustration recently.",
         "Yes! I take after my mother, who is a passionate watercolor landscape painter.",
-        "I want to go to the park now."
+        "Good morning, Clara! I heard you took up digital illustration recently.",
+        "is",
+        "We are studying English today."
       ],
       "correctAnswer": "Good morning, Clara! I heard you took up digital illustration recently.",
-      "explanationVi": "Câu đúng là \"Good morning, Clara! I heard you took up digital illustration recently.\" (Chào buổi sáng Clara! Tôi nghe nói gần đây bạn bắt đầu theo đuổi môn vẽ minh họa kỹ thuật số. (take up = bắt đầu sở thích))."
+      "explanationVi": "Câu dịch chuẩn xác: \"Good morning, Clara! I heard you took up digital illustration recently.\" (Chào buổi sáng Clara! Tôi nghe nói gần đây bạn bắt đầu theo đuổi môn vẽ minh họa kỹ thuật số. (take up = bắt đầu sở thích))."
     },
     {
       "id": "ex-071-06",
       "type": "multiple_choice",
-      "promptVi": "[Trắc nghiệm] Chọn câu trả lời hoặc cách diễn đạt phù hợp:",
-      "question": "Trong ngữ cảnh giao tiếp: \"Good morning, Clara! I heard you took up digital illustration recently.\", câu phản hồi tự nhiên là gì?",
+      "promptVi": "[Ngữ cảnh giao tiếp] Chọn câu phản hồi tự nhiên và đúng ngữ pháp:",
+      "question": "Khi đối phương nói: \"Good morning, Clara! I heard you took up digital illustration recently.\", câu phản hồi phù hợp là gì?",
       "options": [
+        "No, it was yesterday.",
+        "Yes, I will eat it.",
         "Yes! I take after my mother, who is a passionate watercolor landscape painter.",
-        "No, it is yesterday morning.",
-        "Yes, I will eat apple.",
-        "They are not at the library."
+        "They are not in the office."
       ],
       "correctAnswer": "Yes! I take after my mother, who is a passionate watercolor landscape painter.",
-      "explanationVi": "Phản hồi phù hợp: \"Yes! I take after my mother, who is a passionate watercolor landscape painter.\" (Đúng vậy! Tôi giống mẹ tôi, người là một họa sĩ vẽ tranh màu nước phong cảnh đầy nhiệt huyết. (take after = giống tính cách/ngoại hình))."
+      "explanationVi": "Phản hồi phù hợp trong bài: \"Yes! I take after my mother, who is a passionate watercolor landscape painter.\" (Đúng vậy! Tôi giống mẹ tôi, người là một họa sĩ vẽ tranh màu nước phong cảnh đầy nhiệt huyết. (take after = giống tính cách/ngoại hình))."
     },
     {
       "id": "ex-071-07",
       "type": "fill_blank",
-      "promptVi": "[Điền từ - (Dạng phủ định)] Điền dạng đúng của động từ vào ô trống (Nếu bạn không biết từ đó, hãy tra cứu nó trong từ điển.):",
+      "promptVi": "[Điền từ - Dạng PHỦ ĐỊNH] Điền từ còn thiếu vào ô trống (Nếu bạn không biết từ đó, hãy tra cứu nó trong từ điển.):",
       "question": "If you don't know the word, look it ___ in the dictionary.",
       "correctAnswer": "up",
       "options": [
-        "up",
         "for",
+        "at",
         "after",
-        "at"
+        "up"
       ],
-      "explanationVi": "Đáp án chính xác: \"up\". Nếu bạn không biết từ đó, hãy tra cứu nó trong từ điển.."
+      "explanationVi": "Đáp án đúng là \"up\". Câu hoàn chỉnh: \"If you don't know the word, look it up in the dictionary.\" (Nếu bạn không biết từ đó, hãy tra cứu nó trong từ điển.)."
     },
     {
       "id": "ex-071-08",
       "type": "fill_blank",
-      "promptVi": "[Điền từ - (Dạng khẳng định)] Điền dạng đúng của động từ vào ô trống (Cô ấy giống mẹ mình về nhiều mặt.):",
+      "promptVi": "[Điền từ - Dạng KHẲNG ĐỊNH] Điền từ còn thiếu vào ô trống (Cô ấy giống mẹ mình về nhiều mặt.):",
       "question": "She takes ___ her mother in many ways.",
       "correctAnswer": "after",
       "options": [
         "after",
         "up",
-        "off",
-        "over"
+        "over",
+        "off"
       ],
-      "explanationVi": "Đáp án chính xác: \"after\". Cô ấy giống mẹ mình về nhiều mặt.."
+      "explanationVi": "Đáp án đúng là \"after\". Câu hoàn chỉnh: \"She takes after her mother in many ways.\" (Cô ấy giống mẹ mình về nhiều mặt.)."
     },
     {
       "id": "ex-071-09",
       "type": "fill_blank",
-      "promptVi": "[Điền từ - (Dạng khẳng định)] Điền dạng đúng của động từ vào ô trống (Chuyến bay đã cất cánh đúng giờ bất chấp sương mù.):",
+      "promptVi": "[Điền từ - Dạng KHẲNG ĐỊNH] Điền từ còn thiếu vào ô trống (Chuyến bay đã cất cánh đúng giờ bất chấp sương mù.):",
       "question": "The flight took ___ on time despite the fog.",
       "correctAnswer": "off",
       "options": [
-        "off",
         "up",
-        "over",
-        "in"
+        "in",
+        "off",
+        "over"
       ],
-      "explanationVi": "Đáp án chính xác: \"off\". Chuyến bay đã cất cánh đúng giờ bất chấp sương mù.."
+      "explanationVi": "Đáp án đúng là \"off\". Câu hoàn chỉnh: \"The flight took off on time despite the fog.\" (Chuyến bay đã cất cánh đúng giờ bất chấp sương mù.)."
     },
     {
       "id": "ex-071-10",
       "type": "fill_blank",
-      "promptVi": "[Điền từ - (Dạng khẳng định)] Điền dạng đúng của động từ vào ô trống (Anh ấy đã được nuôi nấng bởi ông bà ở vùng nông thôn.):",
+      "promptVi": "[Điền từ - Dạng KHẲNG ĐỊNH] Điền từ còn thiếu vào ô trống (Anh ấy đã được nuôi nấng bởi ông bà ở vùng nông thôn.):",
       "question": "He was brought ___ by his grandparents in the countryside.",
       "correctAnswer": "up",
       "options": [
         "up",
-        "about",
         "in",
+        "about",
         "off"
       ],
-      "explanationVi": "Đáp án chính xác: \"up\". Anh ấy đã được nuôi nấng bởi ông bà ở vùng nông thôn.."
+      "explanationVi": "Đáp án đúng là \"up\". Câu hoàn chỉnh: \"He was brought up by his grandparents in the countryside.\" (Anh ấy đã được nuôi nấng bởi ông bà ở vùng nông thôn.)."
     },
     {
       "id": "ex-071-11",
       "type": "fill_blank",
-      "promptVi": "[Điền từ - Dạng PHỦ ĐỊNH] Hoàn thành câu phủ định sau:",
-      "correctAnswer": "If you don't know the word, look it up in the dictionary.",
+      "promptVi": "[Điền từ - Dạng PHỦ ĐỊNH] Điền trợ động từ/động từ tobe phủ định vào chỗ trống:",
+      "question": "If _____ not don't know the word, look it up in the dictionary.",
+      "correctAnswer": "you",
       "options": [
-        "If you don't know the word, look it up in the dictionary.",
-        "If you don't know the word, look it up in the dictionary.",
-        "Not If you don't know the word, look it up in the dictionary.",
-        "If you don't know the word, look it up in the dictionary. no"
+        "is",
+        "you",
+        "am",
+        "are"
       ],
-      "explanationVi": "Dạng phủ định chuẩn: Thêm 'not' sau động từ chính."
+      "explanationVi": "Câu phủ định hoàn chỉnh: \"If you not don't know the word, look it up in the dictionary.\"."
     },
     {
       "id": "ex-071-12",
       "type": "sentence_scramble",
-      "promptVi": "[Sắp xếp câu] Xếp các khối từ thành câu hoàn chỉnh mang nghĩa: \"Nếu bạn không biết từ đó, hãy tra cứu nó trong từ điển.\"",
+      "promptVi": "[Sắp xếp câu] Ghép các khối từ thành câu hoàn chỉnh mang nghĩa: \"Nếu bạn không biết từ đó, hãy tra cứu nó trong từ điển.\"",
+      "question": "Sắp xếp các từ để tạo thành câu đúng: \"Nếu bạn không biết từ đó, hãy tra cứu nó trong từ điển.\"",
       "words": [
-        "the",
-        "up",
         "you",
-        "don't",
-        "If",
-        "word,",
-        "the",
-        "know",
-        "look",
-        "it",
         "dictionary.",
+        "the",
+        "the",
+        "If",
+        "don't",
+        "word,",
+        "know",
+        "it",
+        "up",
+        "look",
         "in"
       ],
       "correctSentence": "If you don't know the word, look it up in the dictionary.",
@@ -182,16 +184,17 @@
     {
       "id": "ex-071-13",
       "type": "sentence_scramble",
-      "promptVi": "[Sắp xếp câu] Xếp các khối từ thành câu hoàn chỉnh mang nghĩa: \"Cô ấy giống mẹ mình về nhiều mặt.\"",
+      "promptVi": "[Sắp xếp câu] Ghép các khối từ thành câu hoàn chỉnh mang nghĩa: \"Cô ấy giống mẹ mình về nhiều mặt.\"",
+      "question": "Sắp xếp các từ để tạo thành câu đúng: \"Cô ấy giống mẹ mình về nhiều mặt.\"",
       "words": [
         "ways.",
+        "many",
         "mother",
+        "after",
         "her",
         "in",
-        "many",
-        "takes",
-        "after",
-        "She"
+        "She",
+        "takes"
       ],
       "correctSentence": "She takes after her mother in many ways.",
       "hintVi": "Cô ấy giống mẹ mình về nhiều mặt.",
@@ -200,17 +203,18 @@
     {
       "id": "ex-071-14",
       "type": "sentence_scramble",
-      "promptVi": "[Sắp xếp câu] Xếp các khối từ thành câu hoàn chỉnh mang nghĩa: \"Chuyến bay đã cất cánh đúng giờ bất chấp sương mù.\"",
+      "promptVi": "[Sắp xếp câu] Ghép các khối từ thành câu hoàn chỉnh mang nghĩa: \"Chuyến bay đã cất cánh đúng giờ bất chấp sương mù.\"",
+      "question": "Sắp xếp các từ để tạo thành câu đúng: \"Chuyến bay đã cất cánh đúng giờ bất chấp sương mù.\"",
       "words": [
+        "on",
         "fog.",
-        "The",
         "the",
         "flight",
         "despite",
+        "The",
         "off",
-        "on",
-        "took",
-        "time"
+        "time",
+        "took"
       ],
       "correctSentence": "The flight took off on time despite the fog.",
       "hintVi": "Chuyến bay đã cất cánh đúng giờ bất chấp sương mù.",
@@ -219,18 +223,19 @@
     {
       "id": "ex-071-15",
       "type": "sentence_scramble",
-      "promptVi": "[Sắp xếp câu] Xếp các khối từ thành câu hoàn chỉnh mang nghĩa: \"Anh ấy đã được nuôi nấng bởi ông bà ở vùng nông thôn.\"",
+      "promptVi": "[Sắp xếp câu] Ghép các khối từ thành câu hoàn chỉnh mang nghĩa: \"Anh ấy đã được nuôi nấng bởi ông bà ở vùng nông thôn.\"",
+      "question": "Sắp xếp các từ để tạo thành câu đúng: \"Anh ấy đã được nuôi nấng bởi ông bà ở vùng nông thôn.\"",
       "words": [
         "brought",
-        "in",
-        "grandparents",
-        "by",
-        "the",
         "his",
-        "countryside.",
-        "was",
         "He",
-        "up"
+        "by",
+        "was",
+        "grandparents",
+        "in",
+        "up",
+        "the",
+        "countryside."
       ],
       "correctSentence": "He was brought up by his grandparents in the countryside.",
       "hintVi": "Anh ấy đã được nuôi nấng bởi ông bà ở vùng nông thôn.",
@@ -239,21 +244,22 @@
     {
       "id": "ex-071-16",
       "type": "sentence_scramble",
-      "promptVi": "[Sắp xếp câu] Xếp các từ thành câu hội thoại: \"Bất cứ khi nào gặp các thuật ngữ thiết kế đồ họa phức tạp, bạn có tra cứu chúng trên mạng không? (look up = tra cứu)\"",
+      "promptVi": "[Sắp xếp câu] Ghép các từ thành câu hội thoại: \"Bất cứ khi nào gặp các thuật ngữ thiết kế đồ họa phức tạp, bạn có tra cứu chúng trên mạng không? (look up = tra cứu)\"",
+      "question": "Sắp xếp các từ để tạo thành câu thoại: \"Bất cứ khi nào gặp các thuật ngữ thiết kế đồ họa phức tạp, bạn có tra cứu chúng trên mạng không? (look up = tra cứu)\"",
       "words": [
-        "design",
-        "terms",
-        "complex",
-        "online",
-        "look",
-        "encounter",
-        "up",
-        "you",
-        "you",
         "them",
-        "do",
         "Whenever",
-        "graphic"
+        "up",
+        "complex",
+        "design",
+        "graphic",
+        "do",
+        "you",
+        "terms",
+        "look",
+        "online",
+        "encounter",
+        "you"
       ],
       "correctSentence": "Whenever you encounter complex graphic design terms, do you look them up online?",
       "hintVi": "Bất cứ khi nào gặp các thuật ngữ thiết kế đồ họa phức tạp, bạn có tra cứu chúng trên mạng không? (look up = tra cứu)",
@@ -262,70 +268,70 @@
     {
       "id": "ex-071-17",
       "type": "find_error",
-      "promptVi": "[Tìm lỗi sai & Chọn câu đúng] Câu nào dưới đây có cấu trúc ngữ pháp HOÀN TOÀN ĐÚNG?",
-      "question": "Chủ điểm \"Bài 71: Cụm Động từ Nâng cao & Dễ Nhầm Lẫn (Confusing Phrasal Verbs: Look up / Look after / Take off / Take after)\": Chọn câu CHÍNH XÁC:",
+      "promptVi": "[Nhận diện cấu trúc chuẩn] Chọn câu có cấu trúc ngữ pháp HOÀN TOÀN ĐÚNG:",
+      "question": "Dựa vào chủ điểm \"Bài 71: Cụm Động từ Nâng cao & Dễ Nhầm Lẫn (Confusing Phrasal Verbs: Look up / Look after / Take off / Take after)\", câu nào sau đây CHÍNH XÁC?",
       "options": [
         "If you don't know the word, look it up in the dictionary.",
+        "is",
         "dictionary. the in up it look word, the know don't you If",
-        "If you don't know the word, look it up in the dictionary. (sai)",
-        "If you don't know the word, look it up in the dictionary. (sai)"
+        "If you don't know the word, look it up at the dictionary."
       ],
       "correctAnswer": "If you don't know the word, look it up in the dictionary.",
-      "explanationVi": "Câu chuẩn xác là: \"If you don't know the word, look it up in the dictionary.\" (Nếu bạn không biết từ đó, hãy tra cứu nó trong từ điển.)."
+      "explanationVi": "Cấu trúc chuẩn xác là: \"If you don't know the word, look it up in the dictionary.\" (Nếu bạn không biết từ đó, hãy tra cứu nó trong từ điển.)."
     },
     {
       "id": "ex-071-18",
       "type": "find_error",
-      "promptVi": "[Tìm lỗi sai & Chọn câu đúng] Câu nào dưới đây có cấu trúc ngữ pháp HOÀN TOÀN ĐÚNG?",
-      "question": "Chủ điểm \"Bài 71: Cụm Động từ Nâng cao & Dễ Nhầm Lẫn (Confusing Phrasal Verbs: Look up / Look after / Take off / Take after)\": Chọn câu CHÍNH XÁC:",
+      "promptVi": "[Nhận diện cấu trúc chuẩn] Chọn câu có cấu trúc ngữ pháp HOÀN TOÀN ĐÚNG:",
+      "question": "Dựa vào chủ điểm \"Bài 71: Cụm Động từ Nâng cao & Dễ Nhầm Lẫn (Confusing Phrasal Verbs: Look up / Look after / Take off / Take after)\", câu nào sau đây CHÍNH XÁC?",
       "options": [
-        "She takes after her mother in many ways.",
         "ways. many in mother her after takes She",
-        "She takes after her mother in many ways. (sai)",
-        "She takes after her mother in many ways. (sai)"
+        "She takes after her mother at many ways.",
+        "She takes after her mother in many ways.",
+        "is"
       ],
       "correctAnswer": "She takes after her mother in many ways.",
-      "explanationVi": "Câu chuẩn xác là: \"She takes after her mother in many ways.\" (Cô ấy giống mẹ mình về nhiều mặt.)."
+      "explanationVi": "Cấu trúc chuẩn xác là: \"She takes after her mother in many ways.\" (Cô ấy giống mẹ mình về nhiều mặt.)."
     },
     {
       "id": "ex-071-19",
       "type": "find_error",
-      "promptVi": "[Tìm lỗi sai & Chọn câu đúng] Câu nào dưới đây có cấu trúc ngữ pháp HOÀN TOÀN ĐÚNG?",
-      "question": "Chủ điểm \"Bài 71: Cụm Động từ Nâng cao & Dễ Nhầm Lẫn (Confusing Phrasal Verbs: Look up / Look after / Take off / Take after)\": Chọn câu CHÍNH XÁC:",
+      "promptVi": "[Nhận diện cấu trúc chuẩn] Chọn câu có cấu trúc ngữ pháp HOÀN TOÀN ĐÚNG:",
+      "question": "Dựa vào chủ điểm \"Bài 71: Cụm Động từ Nâng cao & Dễ Nhầm Lẫn (Confusing Phrasal Verbs: Look up / Look after / Take off / Take after)\", câu nào sau đây CHÍNH XÁC?",
       "options": [
-        "The flight took off on time despite the fog.",
         "fog. the despite time on off took flight The",
-        "The flight took off on time despite the fog. (sai)",
-        "The flight took off on time despite the fog. (sai)"
+        "is",
+        "The flight took off on time despite the fog.",
+        "The flight took off at time despite the fog."
       ],
       "correctAnswer": "The flight took off on time despite the fog.",
-      "explanationVi": "Câu chuẩn xác là: \"The flight took off on time despite the fog.\" (Chuyến bay đã cất cánh đúng giờ bất chấp sương mù.)."
+      "explanationVi": "Cấu trúc chuẩn xác là: \"The flight took off on time despite the fog.\" (Chuyến bay đã cất cánh đúng giờ bất chấp sương mù.)."
     },
     {
       "id": "ex-071-20",
       "type": "find_error",
-      "promptVi": "[Tìm lỗi sai & Chọn câu đúng] Câu nào dưới đây có cấu trúc ngữ pháp HOÀN TOÀN ĐÚNG?",
-      "question": "Chủ điểm \"Bài 71: Cụm Động từ Nâng cao & Dễ Nhầm Lẫn (Confusing Phrasal Verbs: Look up / Look after / Take off / Take after)\": Chọn câu CHÍNH XÁC:",
+      "promptVi": "[Nhận diện cấu trúc chuẩn] Chọn câu có cấu trúc ngữ pháp HOÀN TOÀN ĐÚNG:",
+      "question": "Dựa vào chủ điểm \"Bài 71: Cụm Động từ Nâng cao & Dễ Nhầm Lẫn (Confusing Phrasal Verbs: Look up / Look after / Take off / Take after)\", câu nào sau đây CHÍNH XÁC?",
       "options": [
-        "He was brought up by his grandparents in the countryside.",
         "He be brought up by his grandparents in the countryside.",
-        "He are not is brought up by his grandparents in the countryside.",
-        "countryside. the in grandparents his by up brought was He"
+        "countryside. the in grandparents his by up brought was He",
+        "He was brought up by his grandparents in the countryside.",
+        "He was brought up at his grandparents in the countryside."
       ],
       "correctAnswer": "He was brought up by his grandparents in the countryside.",
-      "explanationVi": "Câu chuẩn xác là: \"He was brought up by his grandparents in the countryside.\" (Anh ấy đã được nuôi nấng bởi ông bà ở vùng nông thôn.)."
+      "explanationVi": "Cấu trúc chuẩn xác là: \"He was brought up by his grandparents in the countryside.\" (Anh ấy đã được nuôi nấng bởi ông bà ở vùng nông thôn.)."
     },
     {
       "id": "ex-071-21",
       "type": "listening_reflex",
-      "promptVi": "[Nghe phản xạ] Nghe câu phát âm tiếng Anh và chọn bản dịch tiếng Việt đúng nhất:",
+      "promptVi": "[Nghe phản xạ] Nghe câu phát âm tiếng Anh và chọn bản dịch tiếng Việt đúng:",
       "audioPrompt": "Good morning, Clara! I heard you took up digital illustration recently.",
-      "question": "Nhấn nút '🔊 Nghe audio' để nghe câu thoại và chọn nghĩa đúng:",
+      "question": "Nhấn nút '🔊 Nghe audio' và chọn nghĩa tiếng Việt đúng:",
       "options": [
-        "Chào buổi sáng Clara! Tôi nghe nói gần đây bạn bắt đầu theo đuổi môn vẽ minh họa kỹ thuật số. (take up = bắt đầu sở thích)",
         "Đúng vậy! Tôi giống mẹ tôi, người là một họa sĩ vẽ tranh màu nước phong cảnh đầy nhiệt huyết. (take after = giống tính cách/ngoại hình)",
         "Bất cứ khi nào gặp các thuật ngữ thiết kế đồ họa phức tạp, bạn có tra cứu chúng trên mạng không? (look up = tra cứu)",
-        "Ngày mai trời sẽ mưa to."
+        "Hôm nay thời tiết rất đẹp.",
+        "Chào buổi sáng Clara! Tôi nghe nói gần đây bạn bắt đầu theo đuổi môn vẽ minh họa kỹ thuật số. (take up = bắt đầu sở thích)"
       ],
       "correctAnswer": "Chào buổi sáng Clara! Tôi nghe nói gần đây bạn bắt đầu theo đuổi môn vẽ minh họa kỹ thuật số. (take up = bắt đầu sở thích)",
       "explanationVi": "Câu nghe được: \"Good morning, Clara! I heard you took up digital illustration recently.\" có nghĩa là: \"Chào buổi sáng Clara! Tôi nghe nói gần đây bạn bắt đầu theo đuổi môn vẽ minh họa kỹ thuật số. (take up = bắt đầu sở thích)\"."
@@ -333,14 +339,14 @@
     {
       "id": "ex-071-22",
       "type": "listening_reflex",
-      "promptVi": "[Nghe phản xạ] Nghe câu phát âm tiếng Anh và chọn bản dịch tiếng Việt đúng nhất:",
+      "promptVi": "[Nghe phản xạ] Nghe câu phát âm tiếng Anh và chọn bản dịch tiếng Việt đúng:",
       "audioPrompt": "Yes! I take after my mother, who is a passionate watercolor landscape painter.",
-      "question": "Nhấn nút '🔊 Nghe audio' để nghe câu thoại và chọn nghĩa đúng:",
+      "question": "Nhấn nút '🔊 Nghe audio' và chọn nghĩa tiếng Việt đúng:",
       "options": [
         "Đúng vậy! Tôi giống mẹ tôi, người là một họa sĩ vẽ tranh màu nước phong cảnh đầy nhiệt huyết. (take after = giống tính cách/ngoại hình)",
-        "Bất cứ khi nào gặp các thuật ngữ thiết kế đồ họa phức tạp, bạn có tra cứu chúng trên mạng không? (look up = tra cứu)",
         "Luôn luôn chứ! Tôi tra cứu các bài hướng dẫn kỹ thuật, nhưng tôi cũng tìm kiếm cảm hứng sáng tạo trong thiên nhiên. (look for = tìm kiếm)",
-        "Ngày mai trời sẽ mưa to."
+        "Hôm nay thời tiết rất đẹp.",
+        "Bất cứ khi nào gặp các thuật ngữ thiết kế đồ họa phức tạp, bạn có tra cứu chúng trên mạng không? (look up = tra cứu)"
       ],
       "correctAnswer": "Đúng vậy! Tôi giống mẹ tôi, người là một họa sĩ vẽ tranh màu nước phong cảnh đầy nhiệt huyết. (take after = giống tính cách/ngoại hình)",
       "explanationVi": "Câu nghe được: \"Yes! I take after my mother, who is a passionate watercolor landscape painter.\" có nghĩa là: \"Đúng vậy! Tôi giống mẹ tôi, người là một họa sĩ vẽ tranh màu nước phong cảnh đầy nhiệt huyết. (take after = giống tính cách/ngoại hình)\"."
@@ -348,14 +354,14 @@
     {
       "id": "ex-071-23",
       "type": "listening_reflex",
-      "promptVi": "[Nghe phản xạ] Nghe câu phát âm tiếng Anh và chọn bản dịch tiếng Việt đúng nhất:",
+      "promptVi": "[Nghe phản xạ] Nghe câu phát âm tiếng Anh và chọn bản dịch tiếng Việt đúng:",
       "audioPrompt": "Whenever you encounter complex graphic design terms, do you look them up online?",
-      "question": "Nhấn nút '🔊 Nghe audio' để nghe câu thoại và chọn nghĩa đúng:",
+      "question": "Nhấn nút '🔊 Nghe audio' và chọn nghĩa tiếng Việt đúng:",
       "options": [
-        "Bất cứ khi nào gặp các thuật ngữ thiết kế đồ họa phức tạp, bạn có tra cứu chúng trên mạng không? (look up = tra cứu)",
         "Luôn luôn chứ! Tôi tra cứu các bài hướng dẫn kỹ thuật, nhưng tôi cũng tìm kiếm cảm hứng sáng tạo trong thiên nhiên. (look for = tìm kiếm)",
+        "Hôm nay thời tiết rất đẹp.",
         "Ai sẽ chăm sóc chú chó golden retriever của bạn khi chuyến bay của bạn cất cánh vào ngày mai? (look after = chăm sóc / take off = cất cánh)",
-        "Ngày mai trời sẽ mưa to."
+        "Bất cứ khi nào gặp các thuật ngữ thiết kế đồ họa phức tạp, bạn có tra cứu chúng trên mạng không? (look up = tra cứu)"
       ],
       "correctAnswer": "Bất cứ khi nào gặp các thuật ngữ thiết kế đồ họa phức tạp, bạn có tra cứu chúng trên mạng không? (look up = tra cứu)",
       "explanationVi": "Câu nghe được: \"Whenever you encounter complex graphic design terms, do you look them up online?\" có nghĩa là: \"Bất cứ khi nào gặp các thuật ngữ thiết kế đồ họa phức tạp, bạn có tra cứu chúng trên mạng không? (look up = tra cứu)\"."
@@ -363,14 +369,14 @@
     {
       "id": "ex-071-24",
       "type": "listening_reflex",
-      "promptVi": "[Nghe phản xạ] Nghe câu phát âm tiếng Anh và chọn bản dịch tiếng Việt đúng nhất:",
+      "promptVi": "[Nghe phản xạ] Nghe câu phát âm tiếng Anh và chọn bản dịch tiếng Việt đúng:",
       "audioPrompt": "Always! I look up technical tutorials, but I also look for creative inspiration in nature.",
-      "question": "Nhấn nút '🔊 Nghe audio' để nghe câu thoại và chọn nghĩa đúng:",
+      "question": "Nhấn nút '🔊 Nghe audio' và chọn nghĩa tiếng Việt đúng:",
       "options": [
+        "Hôm nay thời tiết rất đẹp.",
         "Luôn luôn chứ! Tôi tra cứu các bài hướng dẫn kỹ thuật, nhưng tôi cũng tìm kiếm cảm hứng sáng tạo trong thiên nhiên. (look for = tìm kiếm)",
         "Ai sẽ chăm sóc chú chó golden retriever của bạn khi chuyến bay của bạn cất cánh vào ngày mai? (look after = chăm sóc / take off = cất cánh)",
-        "Anh trai tôi sẽ chăm sóc nó. Anh ấy được nuôi dưỡng lớn lên tại trang trại gia đình chúng tôi. (bring up = nuôi nấng)",
-        "Ngày mai trời sẽ mưa to."
+        "Anh trai tôi sẽ chăm sóc nó. Anh ấy được nuôi dưỡng lớn lên tại trang trại gia đình chúng tôi. (bring up = nuôi nấng)"
       ],
       "correctAnswer": "Luôn luôn chứ! Tôi tra cứu các bài hướng dẫn kỹ thuật, nhưng tôi cũng tìm kiếm cảm hứng sáng tạo trong thiên nhiên. (look for = tìm kiếm)",
       "explanationVi": "Câu nghe được: \"Always! I look up technical tutorials, but I also look for creative inspiration in nature.\" có nghĩa là: \"Luôn luôn chứ! Tôi tra cứu các bài hướng dẫn kỹ thuật, nhưng tôi cũng tìm kiếm cảm hứng sáng tạo trong thiên nhiên. (look for = tìm kiếm)\"."
@@ -378,64 +384,68 @@
     {
       "id": "ex-071-25",
       "type": "speaking_practice",
-      "promptVi": "[Luyện nói qua Micro] Nhấn nút '🎙️ Bắt đầu nói' và đọc to, rõ ràng câu tiếng Anh sau:",
+      "promptVi": "[Luyện nói qua Micro] Nhấn nút 'Bấm để Nói ngay' và phát âm câu sau:",
+      "question": "Luyện phát âm chuẩn câu: \"If you don't know the word, look it up in the dictionary.\" (Nếu bạn không biết từ đó, hãy tra cứu nó trong từ điển.)",
       "targetSentence": "If you don't know the word, look it up in the dictionary.",
       "hintVi": "Nếu bạn không biết từ đó, hãy tra cứu nó trong từ điển.",
-      "explanationVi": "Câu mục tiêu: \"If you don't know the word, look it up in the dictionary.\" (Nếu bạn không biết từ đó, hãy tra cứu nó trong từ điển.). Luyện phát âm chuẩn xác từng âm tiết và ngữ điệu tự nhiên."
+      "explanationVi": "Mẫu câu chuẩn: \"If you don't know the word, look it up in the dictionary.\" (Nếu bạn không biết từ đó, hãy tra cứu nó trong từ điển.). Luyện phát âm rõ ràng từng từ."
     },
     {
       "id": "ex-071-26",
       "type": "speaking_practice",
-      "promptVi": "[Luyện nói qua Micro] Nhấn nút '🎙️ Bắt đầu nói' và đọc to, rõ ràng câu tiếng Anh sau:",
+      "promptVi": "[Luyện nói qua Micro] Nhấn nút 'Bấm để Nói ngay' và phát âm câu sau:",
+      "question": "Luyện phát âm chuẩn câu: \"She takes after her mother in many ways.\" (Cô ấy giống mẹ mình về nhiều mặt.)",
       "targetSentence": "She takes after her mother in many ways.",
       "hintVi": "Cô ấy giống mẹ mình về nhiều mặt.",
-      "explanationVi": "Câu mục tiêu: \"She takes after her mother in many ways.\" (Cô ấy giống mẹ mình về nhiều mặt.). Luyện phát âm chuẩn xác từng âm tiết và ngữ điệu tự nhiên."
+      "explanationVi": "Mẫu câu chuẩn: \"She takes after her mother in many ways.\" (Cô ấy giống mẹ mình về nhiều mặt.). Luyện phát âm rõ ràng từng từ."
     },
     {
       "id": "ex-071-27",
       "type": "speaking_practice",
-      "promptVi": "[Luyện nói qua Micro] Nhấn nút '🎙️ Bắt đầu nói' và đọc to, rõ ràng câu tiếng Anh sau:",
+      "promptVi": "[Luyện nói qua Micro] Nhấn nút 'Bấm để Nói ngay' và phát âm câu sau:",
+      "question": "Luyện phát âm chuẩn câu: \"The flight took off on time despite the fog.\" (Chuyến bay đã cất cánh đúng giờ bất chấp sương mù.)",
       "targetSentence": "The flight took off on time despite the fog.",
       "hintVi": "Chuyến bay đã cất cánh đúng giờ bất chấp sương mù.",
-      "explanationVi": "Câu mục tiêu: \"The flight took off on time despite the fog.\" (Chuyến bay đã cất cánh đúng giờ bất chấp sương mù.). Luyện phát âm chuẩn xác từng âm tiết và ngữ điệu tự nhiên."
+      "explanationVi": "Mẫu câu chuẩn: \"The flight took off on time despite the fog.\" (Chuyến bay đã cất cánh đúng giờ bất chấp sương mù.). Luyện phát âm rõ ràng từng từ."
     },
     {
       "id": "ex-071-28",
       "type": "speaking_practice",
-      "promptVi": "[Luyện nói qua Micro] Nhấn nút '🎙️ Bắt đầu nói' và đọc to, rõ ràng câu tiếng Anh sau:",
+      "promptVi": "[Luyện nói qua Micro] Nhấn nút 'Bấm để Nói ngay' và phát âm câu sau:",
+      "question": "Luyện phát âm chuẩn câu: \"He was brought up by his grandparents in the countryside.\" (Anh ấy đã được nuôi nấng bởi ông bà ở vùng nông thôn.)",
       "targetSentence": "He was brought up by his grandparents in the countryside.",
       "hintVi": "Anh ấy đã được nuôi nấng bởi ông bà ở vùng nông thôn.",
-      "explanationVi": "Câu mục tiêu: \"He was brought up by his grandparents in the countryside.\" (Anh ấy đã được nuôi nấng bởi ông bà ở vùng nông thôn.). Luyện phát âm chuẩn xác từng âm tiết và ngữ điệu tự nhiên."
+      "explanationVi": "Mẫu câu chuẩn: \"He was brought up by his grandparents in the countryside.\" (Anh ấy đã được nuôi nấng bởi ông bà ở vùng nông thôn.). Luyện phát âm rõ ràng từng từ."
     },
     {
       "id": "ex-071-29",
       "type": "reading_comprehension",
-      "promptVi": "[Đọc hiểu đoạn văn 1] Đọc đoạn hội thoại mở đầu sau và trả lời câu hỏi:",
-      "passage": "Brandon (Nam): \"Good morning, Clara! I heard you took up digital illustration recently.\"\nClara (Nữ): \"Yes! I take after my mother, who is a passionate watercolor landscape painter.\"\nBrandon (Nam): \"Whenever you encounter complex graphic design terms, do you look them up online?\"\nClara (Nữ): \"Always! I look up technical tutorials, but I also look for creative inspiration in nature.\"",
-      "question": "Câu hỏi: Trong đoạn hội thoại trên, các nhân vật đang thảo luận về chủ đề gì?",
+      "promptVi": "[Đọc hiểu đoạn văn] Đọc đoạn hội thoại sau và trả lời câu hỏi:",
+      "passage": "Brandon: \"Good morning, Clara! I heard you took up digital illustration recently.\"\nClara: \"Yes! I take after my mother, who is a passionate watercolor landscape painter.\"\nBrandon: \"Whenever you encounter complex graphic design terms, do you look them up online?\"\nClara: \"Always! I look up technical tutorials, but I also look for creative inspiration in nature.\"",
+      "question": "Chủ đề trọng tâm của đoạn hội thoại trên là gì?",
       "options": [
+        "Lịch trình đi du lịch nghỉ mát cuối tuần",
         "Cụm Động từ Nâng cao & Dễ Nhầm Lẫn (Confusing Phrasal Verbs: Look up / Look after / Take off / Take after)",
-        "Kế hoạch đi nghỉ dưỡng cuối tuần ở bãi biển",
-        "Mua sắm quần áo và đồ dùng thể thao",
-        "Cách làm món ăn truyền thống gia đình"
+        "Cách làm món ăn truyền thống",
+        "Kế hoạch đi mua sắm tại siêu thị"
       ],
       "correctAnswer": "Cụm Động từ Nâng cao & Dễ Nhầm Lẫn (Confusing Phrasal Verbs: Look up / Look after / Take off / Take after)",
-      "explanationVi": "Đoạn hội thoại mở đầu được thiết kế để minh họa trực tiếp cho chủ điểm ngữ pháp: \"Bài 71: Cụm Động từ Nâng cao & Dễ Nhầm Lẫn (Confusing Phrasal Verbs: Look up / Look after / Take off / Take after)\"."
+      "explanationVi": "Đoạn hội thoại được thiết kế để minh họa trực tiếp cho chủ điểm \"Bài 71: Cụm Động từ Nâng cao & Dễ Nhầm Lẫn (Confusing Phrasal Verbs: Look up / Look after / Take off / Take after)\"."
     },
     {
       "id": "ex-071-30",
       "type": "reading_comprehension",
-      "promptVi": "[Đọc hiểu đoạn văn 2] Đọc phần tiếp theo của đoạn hội thoại và chọn nhận định đúng:",
-      "passage": "Brandon (Nam): \"Who will look after your pet golden retriever when your flight takes off tomorrow?\"\nClara (Nữ): \"My brother will look after him. He was brought up on our family farm.\"\nBrandon (Nam): \"Will a senior executive take over the design department while you are away in Rome?\"\nClara (Nữ): \"Yes, Sarah will take over my duties so project deadlines will not be put off.\"",
-      "question": "Nhận định nào sau đây là ĐÚNG với nội dung đoạn hội thoại trên?",
+      "promptVi": "[Đọc hiểu đoạn văn] Đọc đoạn đối thoại tiếp theo và chọn nhận định đúng:",
+      "passage": "Brandon: \"Who will look after your pet golden retriever when your flight takes off tomorrow?\"\nClara: \"My brother will look after him. He was brought up on our family farm.\"\nBrandon: \"Will a senior executive take over the design department while you are away in Rome?\"\nClara: \"Yes, Sarah will take over my duties so project deadlines will not be put off.\"",
+      "question": "Nhận định nào sau đây là ĐÚNG về nội dung đoạn đối thoại?",
       "options": [
-        "Các câu hội thoại sử dụng đúng cấu trúc ngữ pháp \"Bài 71: Cụm Động từ Nâng cao & Dễ Nhầm Lẫn (Confusing Phrasal Verbs: Look up / Look after / Take off / Take after)\".",
-        "Các nhân vật không hiểu ý nhau và từ chối nói chuyện.",
-        "Đoạn hội thoại nói về việc chuyển nhà sang thành phố khác.",
-        "Cả hai nhân vật đều đang ở sân bay chuẩn bị lên máy bay."
+        "Hai nhân vật đang cãi nhau và không đồng ý hợp tác.",
+        "Cả hai nhân vật đang thảo luận về thời tiết ngày mai.",
+        "Cuộc trò chuyện diễn ra tại nhà ga xe lửa.",
+        "Các câu thoại sử dụng đúng cấu trúc \"Cụm Động từ Nâng cao & Dễ Nhầm Lẫn (Confusing Phrasal Verbs: Look up / Look after / Take off / Take after)\"."
       ],
-      "correctAnswer": "Các câu hội thoại sử dụng đúng cấu trúc ngữ pháp \"Bài 71: Cụm Động từ Nâng cao & Dễ Nhầm Lẫn (Confusing Phrasal Verbs: Look up / Look after / Take off / Take after)\".",
-      "explanationVi": "Đoạn hội thoại thứ hai tiếp tục củng cố và ứng dụng các quy tắc ngữ pháp của \"Bài 71: Cụm Động từ Nâng cao & Dễ Nhầm Lẫn (Confusing Phrasal Verbs: Look up / Look after / Take off / Take after)\"."
+      "correctAnswer": "Các câu thoại sử dụng đúng cấu trúc \"Cụm Động từ Nâng cao & Dễ Nhầm Lẫn (Confusing Phrasal Verbs: Look up / Look after / Take off / Take after)\".",
+      "explanationVi": "Đoạn đối thoại ứng dụng chuẩn xác ngữ pháp của \"Bài 71: Cụm Động từ Nâng cao & Dễ Nhầm Lẫn (Confusing Phrasal Verbs: Look up / Look after / Take off / Take after)\"."
     }
   ]
 }

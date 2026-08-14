@@ -7,13 +7,13 @@
     {
       "id": "ex-068-01",
       "type": "multiple_choice",
-      "promptVi": "[Trắc nghiệm] Chọn từ/cụm từ đúng để hoàn thành câu (Trước năm sau, tôi sẽ tốt nghiệp đại học rồi.):",
+      "promptVi": "[Trắc nghiệm ngữ pháp] Chọn từ đúng để hoàn thành câu (Trước năm sau, tôi sẽ tốt nghiệp đại học rồi.):",
       "question": "By next year, I ___ graduated from university.",
       "options": [
-        "will have",
-        "would have",
         "have",
-        "will"
+        "would have",
+        "will",
+        "will have"
       ],
       "correctAnswer": "will have",
       "explanationVi": "Trước mốc tương lai (By next year) dùng thì Tương lai hoàn thành 'will have + V3'."
@@ -21,13 +21,13 @@
     {
       "id": "ex-068-02",
       "type": "multiple_choice",
-      "promptVi": "[Trắc nghiệm] Chọn từ/cụm từ đúng để hoàn thành câu (Vào lúc bạn đến nơi, chúng tôi sẽ chuẩn bị xong bữa tối rồi.):",
+      "promptVi": "[Trắc nghiệm ngữ pháp] Chọn từ đúng để hoàn thành câu (Vào lúc bạn đến nơi, chúng tôi sẽ chuẩn bị xong bữa tối rồi.):",
       "question": "By the time you arrive, we will have ___ dinner.",
       "options": [
-        "prepared",
-        "prepare",
+        "prepares",
         "preparing",
-        "prepares"
+        "prepare",
+        "prepared"
       ],
       "correctAnswer": "prepared",
       "explanationVi": "Sau 'will have' dùng V3 là 'prepared'."
@@ -35,13 +35,13 @@
     {
       "id": "ex-068-03",
       "type": "multiple_choice",
-      "promptVi": "[Trắc nghiệm] Chọn từ/cụm từ đúng để hoàn thành câu (Tính đến tháng sau, tôi sẽ làm việc ở đây liên tục được năm năm.):",
+      "promptVi": "[Trắc nghiệm ngữ pháp] Chọn từ đúng để hoàn thành câu (Tính đến tháng sau, tôi sẽ làm việc ở đây liên tục được năm năm.):",
       "question": "By next month, I ___ working here for five years.",
       "options": [
+        "will have",
         "will have been",
         "will be",
-        "have been",
-        "will have"
+        "have been"
       ],
       "correctAnswer": "will have been",
       "explanationVi": "Nhấn mạnh quá trình liên tục (for five years) tính đến mốc tương lai (By next month) dùng 'will have been + V-ing'."
@@ -49,13 +49,13 @@
     {
       "id": "ex-068-04",
       "type": "multiple_choice",
-      "promptVi": "[Trắc nghiệm] Chọn từ/cụm từ đúng để hoàn thành câu (Bạn sẽ hoàn thành xong bản báo cáo trước năm giờ chứ?):",
+      "promptVi": "[Trắc nghiệm ngữ pháp] Chọn từ đúng để hoàn thành câu (Bạn sẽ hoàn thành xong bản báo cáo trước năm giờ chứ?):",
       "question": "___ you have finished the report by five o'clock?",
       "options": [
-        "Will",
         "Have",
         "Do",
-        "Are"
+        "Are",
+        "Will"
       ],
       "correctAnswer": "Will",
       "explanationVi": "Câu hỏi tương lai hoàn thành: Will + S + have + V3...?"
@@ -63,114 +63,116 @@
     {
       "id": "ex-068-05",
       "type": "multiple_choice",
-      "promptVi": "[Trắc nghiệm] Dịch câu sau sang tiếng Anh: \"Chào buổi sáng cả đội. Hãy cùng xem xét các cột mốc thi công tổng thể cho tòa tháp thương mại mới.\"",
-      "question": "Chọn bản dịch chuẩn xác cho câu: \"Chào buổi sáng cả đội. Hãy cùng xem xét các cột mốc thi công tổng thể cho tòa tháp thương mại mới.\"",
+      "promptVi": "[Phản xạ dịch thuật] Dịch câu sau sang tiếng Anh: \"Chào buổi sáng cả đội. Hãy cùng xem xét các cột mốc thi công tổng thể cho tòa tháp thương mại mới.\"",
+      "question": "Chọn bản dịch chuẩn xác nhất cho câu: \"Chào buổi sáng cả đội. Hãy cùng xem xét các cột mốc thi công tổng thể cho tòa tháp thương mại mới.\"",
       "options": [
         "Good morning, team. Let's review our master construction milestones for the new commercial tower.",
-        "Good morning, team. Let's review our master construction milestones for the new commercial tower.",
-        "By the end of next month, our engineering crew will have completed the underground foundation.",
-        "I want to go to the park now."
+        "is",
+        "We are studying English today.",
+        "By the end of next month, our engineering crew will have completed the underground foundation."
       ],
       "correctAnswer": "Good morning, team. Let's review our master construction milestones for the new commercial tower.",
-      "explanationVi": "Câu đúng là \"Good morning, team. Let's review our master construction milestones for the new commercial tower.\" (Chào buổi sáng cả đội. Hãy cùng xem xét các cột mốc thi công tổng thể cho tòa tháp thương mại mới.)."
+      "explanationVi": "Câu dịch chuẩn xác: \"Good morning, team. Let's review our master construction milestones for the new commercial tower.\" (Chào buổi sáng cả đội. Hãy cùng xem xét các cột mốc thi công tổng thể cho tòa tháp thương mại mới.)."
     },
     {
       "id": "ex-068-06",
       "type": "multiple_choice",
-      "promptVi": "[Trắc nghiệm] Chọn câu trả lời hoặc cách diễn đạt phù hợp:",
-      "question": "Trong ngữ cảnh giao tiếp: \"Good morning, team. Let's review our master construction milestones for the new commercial tower.\", câu phản hồi tự nhiên là gì?",
+      "promptVi": "[Ngữ cảnh giao tiếp] Chọn câu phản hồi tự nhiên và đúng ngữ pháp:",
+      "question": "Khi đối phương nói: \"Good morning, team. Let's review our master construction milestones for the new commercial tower.\", câu phản hồi phù hợp là gì?",
       "options": [
         "By the end of next month, our engineering crew will have completed the underground foundation.",
-        "No, it is yesterday morning.",
-        "Yes, I will eat apple.",
-        "They are not at the library."
+        "No, it was yesterday.",
+        "They are not in the office.",
+        "Yes, I will eat it."
       ],
       "correctAnswer": "By the end of next month, our engineering crew will have completed the underground foundation.",
-      "explanationVi": "Phản hồi phù hợp: \"By the end of next month, our engineering crew will have completed the underground foundation.\" (Trước cuối tháng tới, đội ngũ kỹ thuật của chúng ta sẽ hoàn thành xong phần móng ngầm. (will have completed))."
+      "explanationVi": "Phản hồi phù hợp trong bài: \"By the end of next month, our engineering crew will have completed the underground foundation.\" (Trước cuối tháng tới, đội ngũ kỹ thuật của chúng ta sẽ hoàn thành xong phần móng ngầm. (will have completed))."
     },
     {
       "id": "ex-068-07",
       "type": "fill_blank",
-      "promptVi": "[Điền từ - (Dạng khẳng định)] Điền dạng đúng của động từ vào ô trống (Trước năm sau, tôi sẽ tốt nghiệp đại học rồi.):",
+      "promptVi": "[Điền từ - Dạng KHẲNG ĐỊNH] Điền từ còn thiếu vào ô trống (Trước năm sau, tôi sẽ tốt nghiệp đại học rồi.):",
       "question": "By next year, I ___ graduated from university.",
       "correctAnswer": "will have",
       "options": [
         "will have",
-        "would have",
         "have",
+        "would have",
         "will"
       ],
-      "explanationVi": "Đáp án chính xác: \"will have\". Trước năm sau, tôi sẽ tốt nghiệp đại học rồi.."
+      "explanationVi": "Đáp án đúng là \"will have\". Câu hoàn chỉnh: \"By next year, I will have graduated from university.\" (Trước năm sau, tôi sẽ tốt nghiệp đại học rồi.)."
     },
     {
       "id": "ex-068-08",
       "type": "fill_blank",
-      "promptVi": "[Điền từ - (Dạng khẳng định)] Điền dạng đúng của động từ vào ô trống (Vào lúc bạn đến nơi, chúng tôi sẽ chuẩn bị xong bữa tối rồi.):",
+      "promptVi": "[Điền từ - Dạng KHẲNG ĐỊNH] Điền từ còn thiếu vào ô trống (Vào lúc bạn đến nơi, chúng tôi sẽ chuẩn bị xong bữa tối rồi.):",
       "question": "By the time you arrive, we will have ___ dinner.",
       "correctAnswer": "prepared",
       "options": [
-        "prepared",
+        "prepares",
         "prepare",
-        "preparing",
-        "prepares"
+        "prepared",
+        "preparing"
       ],
-      "explanationVi": "Đáp án chính xác: \"prepared\". Vào lúc bạn đến nơi, chúng tôi sẽ chuẩn bị xong bữa tối rồi.."
+      "explanationVi": "Đáp án đúng là \"prepared\". Câu hoàn chỉnh: \"By the time you arrive, we will have prepared dinner.\" (Vào lúc bạn đến nơi, chúng tôi sẽ chuẩn bị xong bữa tối rồi.)."
     },
     {
       "id": "ex-068-09",
       "type": "fill_blank",
-      "promptVi": "[Điền từ - (Dạng khẳng định)] Điền dạng đúng của động từ vào ô trống (Tính đến tháng sau, tôi sẽ làm việc ở đây liên tục được năm năm.):",
+      "promptVi": "[Điền từ - Dạng KHẲNG ĐỊNH] Điền từ còn thiếu vào ô trống (Tính đến tháng sau, tôi sẽ làm việc ở đây liên tục được năm năm.):",
       "question": "By next month, I ___ working here for five years.",
       "correctAnswer": "will have been",
       "options": [
-        "will have been",
         "will be",
         "have been",
+        "will have been",
         "will have"
       ],
-      "explanationVi": "Đáp án chính xác: \"will have been\". Tính đến tháng sau, tôi sẽ làm việc ở đây liên tục được năm năm.."
+      "explanationVi": "Đáp án đúng là \"will have been\". Câu hoàn chỉnh: \"By next month, I will have been working here for five years.\" (Tính đến tháng sau, tôi sẽ làm việc ở đây liên tục được năm năm.)."
     },
     {
       "id": "ex-068-10",
       "type": "fill_blank",
-      "promptVi": "[Điền từ - (Dạng khẳng định)] Điền dạng đúng của động từ vào ô trống (Bạn sẽ hoàn thành xong bản báo cáo trước năm giờ chứ?):",
+      "promptVi": "[Điền từ - Dạng KHẲNG ĐỊNH] Điền từ còn thiếu vào ô trống (Bạn sẽ hoàn thành xong bản báo cáo trước năm giờ chứ?):",
       "question": "___ you have finished the report by five o'clock?",
       "correctAnswer": "Will",
       "options": [
-        "Will",
-        "Have",
         "Do",
-        "Are"
+        "Have",
+        "Are",
+        "Will"
       ],
-      "explanationVi": "Đáp án chính xác: \"Will\". Bạn sẽ hoàn thành xong bản báo cáo trước năm giờ chứ?."
+      "explanationVi": "Đáp án đúng là \"Will\". Câu hoàn chỉnh: \"Will you have finished the report by five o'clock?\" (Bạn sẽ hoàn thành xong bản báo cáo trước năm giờ chứ?)."
     },
     {
       "id": "ex-068-11",
       "type": "fill_blank",
-      "promptVi": "[Điền từ - Dạng PHỦ ĐỊNH] Hoàn thành câu phủ định sau:",
-      "correctAnswer": "By next year, I will have graduated from university.",
+      "promptVi": "[Điền từ - Dạng PHỦ ĐỊNH] Điền trợ động từ/động từ tobe phủ định vào chỗ trống:",
+      "question": "By _____ not year, I will have graduated from university.",
+      "correctAnswer": "next",
       "options": [
-        "By next year, I will have graduated from university.",
-        "By next year, I will have graduated from university.",
-        "Not By next year, I will have graduated from university.",
-        "By next year, I will have graduated from university. no"
+        "next",
+        "is",
+        "are",
+        "am"
       ],
-      "explanationVi": "Dạng phủ định chuẩn: Thêm 'not' sau động từ chính."
+      "explanationVi": "Câu phủ định hoàn chỉnh: \"By next not year, I will have graduated from university.\"."
     },
     {
       "id": "ex-068-12",
       "type": "sentence_scramble",
-      "promptVi": "[Sắp xếp câu] Xếp các khối từ thành câu hoàn chỉnh mang nghĩa: \"Trước năm sau, tôi sẽ tốt nghiệp đại học rồi.\"",
+      "promptVi": "[Sắp xếp câu] Ghép các khối từ thành câu hoàn chỉnh mang nghĩa: \"Trước năm sau, tôi sẽ tốt nghiệp đại học rồi.\"",
+      "question": "Sắp xếp các từ để tạo thành câu đúng: \"Trước năm sau, tôi sẽ tốt nghiệp đại học rồi.\"",
       "words": [
-        "year,",
-        "from",
-        "By",
-        "next",
         "graduated",
-        "I",
+        "next",
         "university.",
         "will",
-        "have"
+        "from",
+        "I",
+        "By",
+        "have",
+        "year,"
       ],
       "correctSentence": "By next year, I will have graduated from university.",
       "hintVi": "Trước năm sau, tôi sẽ tốt nghiệp đại học rồi.",
@@ -179,18 +181,19 @@
     {
       "id": "ex-068-13",
       "type": "sentence_scramble",
-      "promptVi": "[Sắp xếp câu] Xếp các khối từ thành câu hoàn chỉnh mang nghĩa: \"Vào lúc bạn đến nơi, chúng tôi sẽ chuẩn bị xong bữa tối rồi.\"",
+      "promptVi": "[Sắp xếp câu] Ghép các khối từ thành câu hoàn chỉnh mang nghĩa: \"Vào lúc bạn đến nơi, chúng tôi sẽ chuẩn bị xong bữa tối rồi.\"",
+      "question": "Sắp xếp các từ để tạo thành câu đúng: \"Vào lúc bạn đến nơi, chúng tôi sẽ chuẩn bị xong bữa tối rồi.\"",
       "words": [
-        "you",
-        "have",
-        "prepared",
-        "dinner.",
-        "time",
         "will",
-        "the",
-        "we",
+        "prepared",
+        "you",
         "arrive,",
-        "By"
+        "have",
+        "By",
+        "time",
+        "dinner.",
+        "the",
+        "we"
       ],
       "correctSentence": "By the time you arrive, we will have prepared dinner.",
       "hintVi": "Vào lúc bạn đến nơi, chúng tôi sẽ chuẩn bị xong bữa tối rồi.",
@@ -199,20 +202,21 @@
     {
       "id": "ex-068-14",
       "type": "sentence_scramble",
-      "promptVi": "[Sắp xếp câu] Xếp các khối từ thành câu hoàn chỉnh mang nghĩa: \"Tính đến tháng sau, tôi sẽ làm việc ở đây liên tục được năm năm.\"",
+      "promptVi": "[Sắp xếp câu] Ghép các khối từ thành câu hoàn chỉnh mang nghĩa: \"Tính đến tháng sau, tôi sẽ làm việc ở đây liên tục được năm năm.\"",
+      "question": "Sắp xếp các từ để tạo thành câu đúng: \"Tính đến tháng sau, tôi sẽ làm việc ở đây liên tục được năm năm.\"",
       "words": [
-        "five",
-        "next",
-        "will",
-        "I",
-        "years.",
-        "have",
-        "By",
         "for",
-        "here",
+        "will",
+        "By",
         "working",
+        "five",
+        "have",
         "month,",
-        "been"
+        "here",
+        "I",
+        "next",
+        "been",
+        "years."
       ],
       "correctSentence": "By next month, I will have been working here for five years.",
       "hintVi": "Tính đến tháng sau, tôi sẽ làm việc ở đây liên tục được năm năm.",
@@ -221,17 +225,18 @@
     {
       "id": "ex-068-15",
       "type": "sentence_scramble",
-      "promptVi": "[Sắp xếp câu] Xếp các khối từ thành câu hoàn chỉnh mang nghĩa: \"Bạn sẽ hoàn thành xong bản báo cáo trước năm giờ chứ?\"",
+      "promptVi": "[Sắp xếp câu] Ghép các khối từ thành câu hoàn chỉnh mang nghĩa: \"Bạn sẽ hoàn thành xong bản báo cáo trước năm giờ chứ?\"",
+      "question": "Sắp xếp các từ để tạo thành câu đúng: \"Bạn sẽ hoàn thành xong bản báo cáo trước năm giờ chứ?\"",
       "words": [
-        "report",
-        "have",
+        "o'clock?",
+        "five",
         "by",
+        "you",
+        "the",
         "finished",
         "Will",
-        "you",
-        "o'clock?",
-        "the",
-        "five"
+        "have",
+        "report"
       ],
       "correctSentence": "Will you have finished the report by five o'clock?",
       "hintVi": "Bạn sẽ hoàn thành xong bản báo cáo trước năm giờ chứ?",
@@ -240,21 +245,22 @@
     {
       "id": "ex-068-16",
       "type": "sentence_scramble",
-      "promptVi": "[Sắp xếp câu] Xếp các từ thành câu hội thoại: \"Mặt kính bên ngoài sẽ được lắp đặt xong trước khi đợt băng giá mùa đông tràn về chứ?\"",
+      "promptVi": "[Sắp xếp câu] Ghép các từ thành câu hội thoại: \"Mặt kính bên ngoài sẽ được lắp đặt xong trước khi đợt băng giá mùa đông tràn về chứ?\"",
+      "question": "Sắp xếp các từ để tạo thành câu thoại: \"Mặt kính bên ngoài sẽ được lắp đặt xong trước khi đợt băng giá mùa đông tràn về chứ?\"",
       "words": [
         "the",
         "arrives",
         "frost",
-        "exterior",
         "Will",
-        "have",
+        "before",
+        "facade",
+        "exterior",
         "been",
         "glass",
-        "installed",
-        "before",
+        "have",
         "the",
-        "winter",
-        "facade"
+        "installed",
+        "winter"
       ],
       "correctSentence": "Will the exterior glass facade have been installed before the winter frost arrives?",
       "hintVi": "Mặt kính bên ngoài sẽ được lắp đặt xong trước khi đợt băng giá mùa đông tràn về chứ?",
@@ -263,70 +269,70 @@
     {
       "id": "ex-068-17",
       "type": "find_error",
-      "promptVi": "[Tìm lỗi sai & Chọn câu đúng] Câu nào dưới đây có cấu trúc ngữ pháp HOÀN TOÀN ĐÚNG?",
-      "question": "Chủ điểm \"Bài 68: Tương lai Hoàn thành & Tương lai Hoàn thành Tiếp diễn (Future Perfect & Future Perfect Continuous)\": Chọn câu CHÍNH XÁC:",
+      "promptVi": "[Nhận diện cấu trúc chuẩn] Chọn câu có cấu trúc ngữ pháp HOÀN TOÀN ĐÚNG:",
+      "question": "Dựa vào chủ điểm \"Bài 68: Tương lai Hoàn thành & Tương lai Hoàn thành Tiếp diễn (Future Perfect & Future Perfect Continuous)\", câu nào sau đây CHÍNH XÁC?",
       "options": [
+        "at next year, I will have graduated from university.",
         "By next year, I will have graduated from university.",
         "university. from graduated have will I year, next By",
-        "By next year, I will have graduated from university. (sai)",
-        "By next year, I will have graduated from university. (sai)"
+        "is"
       ],
       "correctAnswer": "By next year, I will have graduated from university.",
-      "explanationVi": "Câu chuẩn xác là: \"By next year, I will have graduated from university.\" (Trước năm sau, tôi sẽ tốt nghiệp đại học rồi.)."
+      "explanationVi": "Cấu trúc chuẩn xác là: \"By next year, I will have graduated from university.\" (Trước năm sau, tôi sẽ tốt nghiệp đại học rồi.)."
     },
     {
       "id": "ex-068-18",
       "type": "find_error",
-      "promptVi": "[Tìm lỗi sai & Chọn câu đúng] Câu nào dưới đây có cấu trúc ngữ pháp HOÀN TOÀN ĐÚNG?",
-      "question": "Chủ điểm \"Bài 68: Tương lai Hoàn thành & Tương lai Hoàn thành Tiếp diễn (Future Perfect & Future Perfect Continuous)\": Chọn câu CHÍNH XÁC:",
+      "promptVi": "[Nhận diện cấu trúc chuẩn] Chọn câu có cấu trúc ngữ pháp HOÀN TOÀN ĐÚNG:",
+      "question": "Dựa vào chủ điểm \"Bài 68: Tương lai Hoàn thành & Tương lai Hoàn thành Tiếp diễn (Future Perfect & Future Perfect Continuous)\", câu nào sau đây CHÍNH XÁC?",
       "options": [
-        "By the time you arrive, we will have prepared dinner.",
+        "at the time you arrive, we will have prepared dinner.",
         "dinner. prepared have will we arrive, you time the By",
-        "By the time you arrive, we will have prepared dinner. (sai)",
-        "By the time you arrive, we will have prepared dinner. (sai)"
+        "By the time you arrive, we will have prepared dinner.",
+        "is"
       ],
       "correctAnswer": "By the time you arrive, we will have prepared dinner.",
-      "explanationVi": "Câu chuẩn xác là: \"By the time you arrive, we will have prepared dinner.\" (Vào lúc bạn đến nơi, chúng tôi sẽ chuẩn bị xong bữa tối rồi.)."
+      "explanationVi": "Cấu trúc chuẩn xác là: \"By the time you arrive, we will have prepared dinner.\" (Vào lúc bạn đến nơi, chúng tôi sẽ chuẩn bị xong bữa tối rồi.)."
     },
     {
       "id": "ex-068-19",
       "type": "find_error",
-      "promptVi": "[Tìm lỗi sai & Chọn câu đúng] Câu nào dưới đây có cấu trúc ngữ pháp HOÀN TOÀN ĐÚNG?",
-      "question": "Chủ điểm \"Bài 68: Tương lai Hoàn thành & Tương lai Hoàn thành Tiếp diễn (Future Perfect & Future Perfect Continuous)\": Chọn câu CHÍNH XÁC:",
+      "promptVi": "[Nhận diện cấu trúc chuẩn] Chọn câu có cấu trúc ngữ pháp HOÀN TOÀN ĐÚNG:",
+      "question": "Dựa vào chủ điểm \"Bài 68: Tương lai Hoàn thành & Tương lai Hoàn thành Tiếp diễn (Future Perfect & Future Perfect Continuous)\", câu nào sau đây CHÍNH XÁC?",
       "options": [
-        "By next month, I will have been working here for five years.",
         "years. five for here working been have will I month, next By",
-        "By next month, I will have been working here for five years. (sai)",
-        "By next month, I will have been working here for five years. (sai)"
+        "By next month, I will have been working here for five years.",
+        "is",
+        "at next month, I will have been working here for five years."
       ],
       "correctAnswer": "By next month, I will have been working here for five years.",
-      "explanationVi": "Câu chuẩn xác là: \"By next month, I will have been working here for five years.\" (Tính đến tháng sau, tôi sẽ làm việc ở đây liên tục được năm năm.)."
+      "explanationVi": "Cấu trúc chuẩn xác là: \"By next month, I will have been working here for five years.\" (Tính đến tháng sau, tôi sẽ làm việc ở đây liên tục được năm năm.)."
     },
     {
       "id": "ex-068-20",
       "type": "find_error",
-      "promptVi": "[Tìm lỗi sai & Chọn câu đúng] Câu nào dưới đây có cấu trúc ngữ pháp HOÀN TOÀN ĐÚNG?",
-      "question": "Chủ điểm \"Bài 68: Tương lai Hoàn thành & Tương lai Hoàn thành Tiếp diễn (Future Perfect & Future Perfect Continuous)\": Chọn câu CHÍNH XÁC:",
+      "promptVi": "[Nhận diện cấu trúc chuẩn] Chọn câu có cấu trúc ngữ pháp HOÀN TOÀN ĐÚNG:",
+      "question": "Dựa vào chủ điểm \"Bài 68: Tương lai Hoàn thành & Tương lai Hoàn thành Tiếp diễn (Future Perfect & Future Perfect Continuous)\", câu nào sau đây CHÍNH XÁC?",
       "options": [
         "Will you have finished the report by five o'clock?",
         "o'clock? five by report the finished have you Will",
-        "Will you have finished the report by five o'clock? (sai)",
-        "Will you have finished the report by five o'clock? (sai)"
+        "is",
+        "Will you have finished the report at five o'clock?"
       ],
       "correctAnswer": "Will you have finished the report by five o'clock?",
-      "explanationVi": "Câu chuẩn xác là: \"Will you have finished the report by five o'clock?\" (Bạn sẽ hoàn thành xong bản báo cáo trước năm giờ chứ?)."
+      "explanationVi": "Cấu trúc chuẩn xác là: \"Will you have finished the report by five o'clock?\" (Bạn sẽ hoàn thành xong bản báo cáo trước năm giờ chứ?)."
     },
     {
       "id": "ex-068-21",
       "type": "listening_reflex",
-      "promptVi": "[Nghe phản xạ] Nghe câu phát âm tiếng Anh và chọn bản dịch tiếng Việt đúng nhất:",
+      "promptVi": "[Nghe phản xạ] Nghe câu phát âm tiếng Anh và chọn bản dịch tiếng Việt đúng:",
       "audioPrompt": "Good morning, team. Let's review our master construction milestones for the new commercial tower.",
-      "question": "Nhấn nút '🔊 Nghe audio' để nghe câu thoại và chọn nghĩa đúng:",
+      "question": "Nhấn nút '🔊 Nghe audio' và chọn nghĩa tiếng Việt đúng:",
       "options": [
-        "Chào buổi sáng cả đội. Hãy cùng xem xét các cột mốc thi công tổng thể cho tòa tháp thương mại mới.",
-        "Trước cuối tháng tới, đội ngũ kỹ thuật của chúng ta sẽ hoàn thành xong phần móng ngầm. (will have completed)",
         "Mặt kính bên ngoài sẽ được lắp đặt xong trước khi đợt băng giá mùa đông tràn về chứ?",
-        "Ngày mai trời sẽ mưa to."
+        "Hôm nay thời tiết rất đẹp.",
+        "Chào buổi sáng cả đội. Hãy cùng xem xét các cột mốc thi công tổng thể cho tòa tháp thương mại mới.",
+        "Trước cuối tháng tới, đội ngũ kỹ thuật của chúng ta sẽ hoàn thành xong phần móng ngầm. (will have completed)"
       ],
       "correctAnswer": "Chào buổi sáng cả đội. Hãy cùng xem xét các cột mốc thi công tổng thể cho tòa tháp thương mại mới.",
       "explanationVi": "Câu nghe được: \"Good morning, team. Let's review our master construction milestones for the new commercial tower.\" có nghĩa là: \"Chào buổi sáng cả đội. Hãy cùng xem xét các cột mốc thi công tổng thể cho tòa tháp thương mại mới.\"."
@@ -334,14 +340,14 @@
     {
       "id": "ex-068-22",
       "type": "listening_reflex",
-      "promptVi": "[Nghe phản xạ] Nghe câu phát âm tiếng Anh và chọn bản dịch tiếng Việt đúng nhất:",
+      "promptVi": "[Nghe phản xạ] Nghe câu phát âm tiếng Anh và chọn bản dịch tiếng Việt đúng:",
       "audioPrompt": "By the end of next month, our engineering crew will have completed the underground foundation.",
-      "question": "Nhấn nút '🔊 Nghe audio' để nghe câu thoại và chọn nghĩa đúng:",
+      "question": "Nhấn nút '🔊 Nghe audio' và chọn nghĩa tiếng Việt đúng:",
       "options": [
+        "Vâng, các kỹ thuật viên lắp kính của chúng ta sẽ hoàn thiện toàn bộ bốn mươi tầng bên ngoài trước tháng Mười Một. (will have finished by...)",
         "Trước cuối tháng tới, đội ngũ kỹ thuật của chúng ta sẽ hoàn thành xong phần móng ngầm. (will have completed)",
         "Mặt kính bên ngoài sẽ được lắp đặt xong trước khi đợt băng giá mùa đông tràn về chứ?",
-        "Vâng, các kỹ thuật viên lắp kính của chúng ta sẽ hoàn thiện toàn bộ bốn mươi tầng bên ngoài trước tháng Mười Một. (will have finished by...)",
-        "Ngày mai trời sẽ mưa to."
+        "Hôm nay thời tiết rất đẹp."
       ],
       "correctAnswer": "Trước cuối tháng tới, đội ngũ kỹ thuật của chúng ta sẽ hoàn thành xong phần móng ngầm. (will have completed)",
       "explanationVi": "Câu nghe được: \"By the end of next month, our engineering crew will have completed the underground foundation.\" có nghĩa là: \"Trước cuối tháng tới, đội ngũ kỹ thuật của chúng ta sẽ hoàn thành xong phần móng ngầm. (will have completed)\"."
@@ -349,14 +355,14 @@
     {
       "id": "ex-068-23",
       "type": "listening_reflex",
-      "promptVi": "[Nghe phản xạ] Nghe câu phát âm tiếng Anh và chọn bản dịch tiếng Việt đúng nhất:",
+      "promptVi": "[Nghe phản xạ] Nghe câu phát âm tiếng Anh và chọn bản dịch tiếng Việt đúng:",
       "audioPrompt": "Will the exterior glass facade have been installed before the winter frost arrives?",
-      "question": "Nhấn nút '🔊 Nghe audio' để nghe câu thoại và chọn nghĩa đúng:",
+      "question": "Nhấn nút '🔊 Nghe audio' và chọn nghĩa tiếng Việt đúng:",
       "options": [
         "Mặt kính bên ngoài sẽ được lắp đặt xong trước khi đợt băng giá mùa đông tràn về chứ?",
         "Vâng, các kỹ thuật viên lắp kính của chúng ta sẽ hoàn thiện toàn bộ bốn mươi tầng bên ngoài trước tháng Mười Một. (will have finished by...)",
         "Tính đến tháng Mười Hai tới, công ty kỹ thuật kết cấu của chúng ta sẽ làm việc liên tục trong dự án biểu tượng này được bao lâu? (will have been working)",
-        "Ngày mai trời sẽ mưa to."
+        "Hôm nay thời tiết rất đẹp."
       ],
       "correctAnswer": "Mặt kính bên ngoài sẽ được lắp đặt xong trước khi đợt băng giá mùa đông tràn về chứ?",
       "explanationVi": "Câu nghe được: \"Will the exterior glass facade have been installed before the winter frost arrives?\" có nghĩa là: \"Mặt kính bên ngoài sẽ được lắp đặt xong trước khi đợt băng giá mùa đông tràn về chứ?\"."
@@ -364,14 +370,14 @@
     {
       "id": "ex-068-24",
       "type": "listening_reflex",
-      "promptVi": "[Nghe phản xạ] Nghe câu phát âm tiếng Anh và chọn bản dịch tiếng Việt đúng nhất:",
+      "promptVi": "[Nghe phản xạ] Nghe câu phát âm tiếng Anh và chọn bản dịch tiếng Việt đúng:",
       "audioPrompt": "Yes, our glazing technicians will have finished all forty exterior floors by November.",
-      "question": "Nhấn nút '🔊 Nghe audio' để nghe câu thoại và chọn nghĩa đúng:",
+      "question": "Nhấn nút '🔊 Nghe audio' và chọn nghĩa tiếng Việt đúng:",
       "options": [
         "Vâng, các kỹ thuật viên lắp kính của chúng ta sẽ hoàn thiện toàn bộ bốn mươi tầng bên ngoài trước tháng Mười Một. (will have finished by...)",
         "Tính đến tháng Mười Hai tới, công ty kỹ thuật kết cấu của chúng ta sẽ làm việc liên tục trong dự án biểu tượng này được bao lâu? (will have been working)",
         "Tính đến tháng Mười Hai tới, chúng ta sẽ quản lý các hoạt động công trường liên tục đúng tròn ba năm. (will have been managing for three years)",
-        "Ngày mai trời sẽ mưa to."
+        "Hôm nay thời tiết rất đẹp."
       ],
       "correctAnswer": "Vâng, các kỹ thuật viên lắp kính của chúng ta sẽ hoàn thiện toàn bộ bốn mươi tầng bên ngoài trước tháng Mười Một. (will have finished by...)",
       "explanationVi": "Câu nghe được: \"Yes, our glazing technicians will have finished all forty exterior floors by November.\" có nghĩa là: \"Vâng, các kỹ thuật viên lắp kính của chúng ta sẽ hoàn thiện toàn bộ bốn mươi tầng bên ngoài trước tháng Mười Một. (will have finished by...)\"."
@@ -379,64 +385,68 @@
     {
       "id": "ex-068-25",
       "type": "speaking_practice",
-      "promptVi": "[Luyện nói qua Micro] Nhấn nút '🎙️ Bắt đầu nói' và đọc to, rõ ràng câu tiếng Anh sau:",
+      "promptVi": "[Luyện nói qua Micro] Nhấn nút 'Bấm để Nói ngay' và phát âm câu sau:",
+      "question": "Luyện phát âm chuẩn câu: \"By next year, I will have graduated from university.\" (Trước năm sau, tôi sẽ tốt nghiệp đại học rồi.)",
       "targetSentence": "By next year, I will have graduated from university.",
       "hintVi": "Trước năm sau, tôi sẽ tốt nghiệp đại học rồi.",
-      "explanationVi": "Câu mục tiêu: \"By next year, I will have graduated from university.\" (Trước năm sau, tôi sẽ tốt nghiệp đại học rồi.). Luyện phát âm chuẩn xác từng âm tiết và ngữ điệu tự nhiên."
+      "explanationVi": "Mẫu câu chuẩn: \"By next year, I will have graduated from university.\" (Trước năm sau, tôi sẽ tốt nghiệp đại học rồi.). Luyện phát âm rõ ràng từng từ."
     },
     {
       "id": "ex-068-26",
       "type": "speaking_practice",
-      "promptVi": "[Luyện nói qua Micro] Nhấn nút '🎙️ Bắt đầu nói' và đọc to, rõ ràng câu tiếng Anh sau:",
+      "promptVi": "[Luyện nói qua Micro] Nhấn nút 'Bấm để Nói ngay' và phát âm câu sau:",
+      "question": "Luyện phát âm chuẩn câu: \"By the time you arrive, we will have prepared dinner.\" (Vào lúc bạn đến nơi, chúng tôi sẽ chuẩn bị xong bữa tối rồi.)",
       "targetSentence": "By the time you arrive, we will have prepared dinner.",
       "hintVi": "Vào lúc bạn đến nơi, chúng tôi sẽ chuẩn bị xong bữa tối rồi.",
-      "explanationVi": "Câu mục tiêu: \"By the time you arrive, we will have prepared dinner.\" (Vào lúc bạn đến nơi, chúng tôi sẽ chuẩn bị xong bữa tối rồi.). Luyện phát âm chuẩn xác từng âm tiết và ngữ điệu tự nhiên."
+      "explanationVi": "Mẫu câu chuẩn: \"By the time you arrive, we will have prepared dinner.\" (Vào lúc bạn đến nơi, chúng tôi sẽ chuẩn bị xong bữa tối rồi.). Luyện phát âm rõ ràng từng từ."
     },
     {
       "id": "ex-068-27",
       "type": "speaking_practice",
-      "promptVi": "[Luyện nói qua Micro] Nhấn nút '🎙️ Bắt đầu nói' và đọc to, rõ ràng câu tiếng Anh sau:",
+      "promptVi": "[Luyện nói qua Micro] Nhấn nút 'Bấm để Nói ngay' và phát âm câu sau:",
+      "question": "Luyện phát âm chuẩn câu: \"By next month, I will have been working here for five years.\" (Tính đến tháng sau, tôi sẽ làm việc ở đây liên tục được năm năm.)",
       "targetSentence": "By next month, I will have been working here for five years.",
       "hintVi": "Tính đến tháng sau, tôi sẽ làm việc ở đây liên tục được năm năm.",
-      "explanationVi": "Câu mục tiêu: \"By next month, I will have been working here for five years.\" (Tính đến tháng sau, tôi sẽ làm việc ở đây liên tục được năm năm.). Luyện phát âm chuẩn xác từng âm tiết và ngữ điệu tự nhiên."
+      "explanationVi": "Mẫu câu chuẩn: \"By next month, I will have been working here for five years.\" (Tính đến tháng sau, tôi sẽ làm việc ở đây liên tục được năm năm.). Luyện phát âm rõ ràng từng từ."
     },
     {
       "id": "ex-068-28",
       "type": "speaking_practice",
-      "promptVi": "[Luyện nói qua Micro] Nhấn nút '🎙️ Bắt đầu nói' và đọc to, rõ ràng câu tiếng Anh sau:",
+      "promptVi": "[Luyện nói qua Micro] Nhấn nút 'Bấm để Nói ngay' và phát âm câu sau:",
+      "question": "Luyện phát âm chuẩn câu: \"Will you have finished the report by five o'clock?\" (Bạn sẽ hoàn thành xong bản báo cáo trước năm giờ chứ?)",
       "targetSentence": "Will you have finished the report by five o'clock?",
       "hintVi": "Bạn sẽ hoàn thành xong bản báo cáo trước năm giờ chứ?",
-      "explanationVi": "Câu mục tiêu: \"Will you have finished the report by five o'clock?\" (Bạn sẽ hoàn thành xong bản báo cáo trước năm giờ chứ?). Luyện phát âm chuẩn xác từng âm tiết và ngữ điệu tự nhiên."
+      "explanationVi": "Mẫu câu chuẩn: \"Will you have finished the report by five o'clock?\" (Bạn sẽ hoàn thành xong bản báo cáo trước năm giờ chứ?). Luyện phát âm rõ ràng từng từ."
     },
     {
       "id": "ex-068-29",
       "type": "reading_comprehension",
-      "promptVi": "[Đọc hiểu đoạn văn 1] Đọc đoạn hội thoại mở đầu sau và trả lời câu hỏi:",
-      "passage": "Chief Architect (Nam): \"Good morning, team. Let's review our master construction milestones for the new commercial tower.\"\nProject Engineer (Nữ): \"By the end of next month, our engineering crew will have completed the underground foundation.\"\nChief Architect (Nam): \"Will the exterior glass facade have been installed before the winter frost arrives?\"\nProject Engineer (Nữ): \"Yes, our glazing technicians will have finished all forty exterior floors by November.\"",
-      "question": "Câu hỏi: Trong đoạn hội thoại trên, các nhân vật đang thảo luận về chủ đề gì?",
+      "promptVi": "[Đọc hiểu đoạn văn] Đọc đoạn hội thoại sau và trả lời câu hỏi:",
+      "passage": "Chief Architect: \"Good morning, team. Let's review our master construction milestones for the new commercial tower.\"\nProject Engineer: \"By the end of next month, our engineering crew will have completed the underground foundation.\"\nChief Architect: \"Will the exterior glass facade have been installed before the winter frost arrives?\"\nProject Engineer: \"Yes, our glazing technicians will have finished all forty exterior floors by November.\"",
+      "question": "Chủ đề trọng tâm của đoạn hội thoại trên là gì?",
       "options": [
-        "Tương lai Hoàn thành & Tương lai Hoàn thành Tiếp diễn (Future Perfect & Future Perfect Continuous)",
-        "Kế hoạch đi nghỉ dưỡng cuối tuần ở bãi biển",
-        "Mua sắm quần áo và đồ dùng thể thao",
-        "Cách làm món ăn truyền thống gia đình"
+        "Lịch trình đi du lịch nghỉ mát cuối tuần",
+        "Cách làm món ăn truyền thống",
+        "Kế hoạch đi mua sắm tại siêu thị",
+        "Tương lai Hoàn thành & Tương lai Hoàn thành Tiếp diễn (Future Perfect & Future Perfect Continuous)"
       ],
       "correctAnswer": "Tương lai Hoàn thành & Tương lai Hoàn thành Tiếp diễn (Future Perfect & Future Perfect Continuous)",
-      "explanationVi": "Đoạn hội thoại mở đầu được thiết kế để minh họa trực tiếp cho chủ điểm ngữ pháp: \"Bài 68: Tương lai Hoàn thành & Tương lai Hoàn thành Tiếp diễn (Future Perfect & Future Perfect Continuous)\"."
+      "explanationVi": "Đoạn hội thoại được thiết kế để minh họa trực tiếp cho chủ điểm \"Bài 68: Tương lai Hoàn thành & Tương lai Hoàn thành Tiếp diễn (Future Perfect & Future Perfect Continuous)\"."
     },
     {
       "id": "ex-068-30",
       "type": "reading_comprehension",
-      "promptVi": "[Đọc hiểu đoạn văn 2] Đọc phần tiếp theo của đoạn hội thoại và chọn nhận định đúng:",
-      "passage": "Chief Architect (Nam): \"By next December, how long will our structural engineering firm have been working on this landmark project?\"\nProject Engineer (Nữ): \"By next December, we will have been managing site operations continuously for exactly three years.\"\nChief Architect (Nam): \"Will the environmental inspectors have certified our solar rooftop panels by next spring?\"\nProject Engineer (Nữ): \"They will have issued the sustainability green certificate long before the grand opening ceremony.\"",
-      "question": "Nhận định nào sau đây là ĐÚNG với nội dung đoạn hội thoại trên?",
+      "promptVi": "[Đọc hiểu đoạn văn] Đọc đoạn đối thoại tiếp theo và chọn nhận định đúng:",
+      "passage": "Chief Architect: \"By next December, how long will our structural engineering firm have been working on this landmark project?\"\nProject Engineer: \"By next December, we will have been managing site operations continuously for exactly three years.\"\nChief Architect: \"Will the environmental inspectors have certified our solar rooftop panels by next spring?\"\nProject Engineer: \"They will have issued the sustainability green certificate long before the grand opening ceremony.\"",
+      "question": "Nhận định nào sau đây là ĐÚNG về nội dung đoạn đối thoại?",
       "options": [
-        "Các câu hội thoại sử dụng đúng cấu trúc ngữ pháp \"Bài 68: Tương lai Hoàn thành & Tương lai Hoàn thành Tiếp diễn (Future Perfect & Future Perfect Continuous)\".",
-        "Các nhân vật không hiểu ý nhau và từ chối nói chuyện.",
-        "Đoạn hội thoại nói về việc chuyển nhà sang thành phố khác.",
-        "Cả hai nhân vật đều đang ở sân bay chuẩn bị lên máy bay."
+        "Hai nhân vật đang cãi nhau và không đồng ý hợp tác.",
+        "Các câu thoại sử dụng đúng cấu trúc \"Tương lai Hoàn thành & Tương lai Hoàn thành Tiếp diễn (Future Perfect & Future Perfect Continuous)\".",
+        "Cuộc trò chuyện diễn ra tại nhà ga xe lửa.",
+        "Cả hai nhân vật đang thảo luận về thời tiết ngày mai."
       ],
-      "correctAnswer": "Các câu hội thoại sử dụng đúng cấu trúc ngữ pháp \"Bài 68: Tương lai Hoàn thành & Tương lai Hoàn thành Tiếp diễn (Future Perfect & Future Perfect Continuous)\".",
-      "explanationVi": "Đoạn hội thoại thứ hai tiếp tục củng cố và ứng dụng các quy tắc ngữ pháp của \"Bài 68: Tương lai Hoàn thành & Tương lai Hoàn thành Tiếp diễn (Future Perfect & Future Perfect Continuous)\"."
+      "correctAnswer": "Các câu thoại sử dụng đúng cấu trúc \"Tương lai Hoàn thành & Tương lai Hoàn thành Tiếp diễn (Future Perfect & Future Perfect Continuous)\".",
+      "explanationVi": "Đoạn đối thoại ứng dụng chuẩn xác ngữ pháp của \"Bài 68: Tương lai Hoàn thành & Tương lai Hoàn thành Tiếp diễn (Future Perfect & Future Perfect Continuous)\"."
     }
   ]
 }

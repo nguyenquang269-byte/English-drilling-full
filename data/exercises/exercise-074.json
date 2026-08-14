@@ -7,13 +7,13 @@
     {
       "id": "ex-074-01",
       "type": "multiple_choice",
-      "promptVi": "[Trắc nghiệm] Chọn từ/cụm từ đúng để hoàn thành câu (Cậu ấy quá trẻ để có thể lái xe ô tô.):",
+      "promptVi": "[Trắc nghiệm ngữ pháp] Chọn từ đúng để hoàn thành câu (Cậu ấy quá trẻ để có thể lái xe ô tô.):",
       "question": "He is ___ young to drive a car.",
       "options": [
         "too",
         "so",
-        "very",
-        "enough"
+        "enough",
+        "very"
       ],
       "correctAnswer": "too",
       "explanationVi": "Cấu trúc 'too + adj + to V' chỉ sự quá mức dẫn đến không thể làm gì."
@@ -21,13 +21,13 @@
     {
       "id": "ex-074-02",
       "type": "multiple_choice",
-      "promptVi": "[Trắc nghiệm] Chọn từ/cụm từ đúng để hoàn thành câu (Cô ấy đã đủ lớn để tự đưa ra các quyết định của mình.):",
+      "promptVi": "[Trắc nghiệm ngữ pháp] Chọn từ đúng để hoàn thành câu (Cô ấy đã đủ lớn để tự đưa ra các quyết định của mình.):",
       "question": "She is old ___ to make her own decisions.",
       "options": [
-        "enough",
-        "too",
         "so",
-        "such"
+        "such",
+        "enough",
+        "too"
       ],
       "correctAnswer": "enough",
       "explanationVi": "Tính từ đứng trước 'enough': 'old enough'."
@@ -35,13 +35,13 @@
     {
       "id": "ex-074-03",
       "type": "multiple_choice",
-      "promptVi": "[Trắc nghiệm] Chọn từ/cụm từ đúng để hoàn thành câu (Thời tiết lạnh đến nỗi mà chúng tôi đã ở trong nhà.):",
+      "promptVi": "[Trắc nghiệm ngữ pháp] Chọn từ đúng để hoàn thành câu (Thời tiết lạnh đến nỗi mà chúng tôi đã ở trong nhà.):",
       "question": "The weather was ___ cold that we stayed inside.",
       "options": [
+        "very",
         "so",
         "such",
-        "too",
-        "very"
+        "too"
       ],
       "correctAnswer": "so",
       "explanationVi": "Trước tính từ 'cold' đi kèm mệnh đề 'that' dùng 'so'."
@@ -49,7 +49,7 @@
     {
       "id": "ex-074-04",
       "type": "multiple_choice",
-      "promptVi": "[Trắc nghiệm] Chọn từ/cụm từ đúng để hoàn thành câu (Cô ấy là một nhạc sĩ tài năng đến nỗi mà ai cũng ngưỡng mộ cô.):",
+      "promptVi": "[Trắc nghiệm ngữ pháp] Chọn từ đúng để hoàn thành câu (Cô ấy là một nhạc sĩ tài năng đến nỗi mà ai cũng ngưỡng mộ cô.):",
       "question": "She is ___ talented musician that everyone admires her.",
       "options": [
         "such a",
@@ -63,112 +63,114 @@
     {
       "id": "ex-074-05",
       "type": "multiple_choice",
-      "promptVi": "[Trắc nghiệm] Dịch câu sau sang tiếng Anh: \"Chào buổi chiều Megan. Bạn thấy căn hộ áp mái nhìn ra sông thế nào rồi?\"",
-      "question": "Chọn bản dịch chuẩn xác cho câu: \"Chào buổi chiều Megan. Bạn thấy căn hộ áp mái nhìn ra sông thế nào rồi?\"",
+      "promptVi": "[Phản xạ dịch thuật] Dịch câu sau sang tiếng Anh: \"Chào buổi chiều Megan. Bạn thấy căn hộ áp mái nhìn ra sông thế nào rồi?\"",
+      "question": "Chọn bản dịch chuẩn xác nhất cho câu: \"Chào buổi chiều Megan. Bạn thấy căn hộ áp mái nhìn ra sông thế nào rồi?\"",
       "options": [
-        "Good afternoon, Megan. How did you find that penthouse apartment overlooking the river?",
+        "We are studying English today.",
         "Good afternoon, Megan. How be you find that penthouse apartment overlooking the river?",
         "The monthly rental price was too high for our startup company to afford right now.",
-        "I want to go to the park now."
+        "Good afternoon, Megan. How did you find that penthouse apartment overlooking the river?"
       ],
       "correctAnswer": "Good afternoon, Megan. How did you find that penthouse apartment overlooking the river?",
-      "explanationVi": "Câu đúng là \"Good afternoon, Megan. How did you find that penthouse apartment overlooking the river?\" (Chào buổi chiều Megan. Bạn thấy căn hộ áp mái nhìn ra sông thế nào rồi?)."
+      "explanationVi": "Câu dịch chuẩn xác: \"Good afternoon, Megan. How did you find that penthouse apartment overlooking the river?\" (Chào buổi chiều Megan. Bạn thấy căn hộ áp mái nhìn ra sông thế nào rồi?)."
     },
     {
       "id": "ex-074-06",
       "type": "multiple_choice",
-      "promptVi": "[Trắc nghiệm] Chọn câu trả lời hoặc cách diễn đạt phù hợp:",
-      "question": "Trong ngữ cảnh giao tiếp: \"Good afternoon, Megan. How did you find that penthouse apartment overlooking the river?\", câu phản hồi tự nhiên là gì?",
+      "promptVi": "[Ngữ cảnh giao tiếp] Chọn câu phản hồi tự nhiên và đúng ngữ pháp:",
+      "question": "Khi đối phương nói: \"Good afternoon, Megan. How did you find that penthouse apartment overlooking the river?\", câu phản hồi phù hợp là gì?",
       "options": [
+        "Yes, I will eat it.",
         "The monthly rental price was too high for our startup company to afford right now.",
-        "No, it is yesterday morning.",
-        "Yes, I will eat apple.",
-        "They are not at the library."
+        "No, it was yesterday.",
+        "They are not in the office."
       ],
       "correctAnswer": "The monthly rental price was too high for our startup company to afford right now.",
-      "explanationVi": "Phản hồi phù hợp: \"The monthly rental price was too high for our startup company to afford right now.\" (Giá thuê hàng tháng quá cao đối với công ty khởi nghiệp chúng tôi để có thể chi trả lúc này. (too high for us to afford))."
+      "explanationVi": "Phản hồi phù hợp trong bài: \"The monthly rental price was too high for our startup company to afford right now.\" (Giá thuê hàng tháng quá cao đối với công ty khởi nghiệp chúng tôi để có thể chi trả lúc này. (too high for us to afford))."
     },
     {
       "id": "ex-074-07",
       "type": "fill_blank",
-      "promptVi": "[Điền từ - (Dạng khẳng định)] Điền dạng đúng của động từ vào ô trống (Cậu ấy quá trẻ để có thể lái xe ô tô.):",
+      "promptVi": "[Điền từ - Dạng KHẲNG ĐỊNH] Điền từ còn thiếu vào ô trống (Cậu ấy quá trẻ để có thể lái xe ô tô.):",
       "question": "He is ___ young to drive a car.",
       "correctAnswer": "too",
       "options": [
-        "too",
-        "so",
         "very",
-        "enough"
+        "enough",
+        "so",
+        "too"
       ],
-      "explanationVi": "Đáp án chính xác: \"too\". Cậu ấy quá trẻ để có thể lái xe ô tô.."
+      "explanationVi": "Đáp án đúng là \"too\". Câu hoàn chỉnh: \"He is too young to drive a car.\" (Cậu ấy quá trẻ để có thể lái xe ô tô.)."
     },
     {
       "id": "ex-074-08",
       "type": "fill_blank",
-      "promptVi": "[Điền từ - (Dạng khẳng định)] Điền dạng đúng của động từ vào ô trống (Cô ấy đã đủ lớn để tự đưa ra các quyết định của mình.):",
+      "promptVi": "[Điền từ - Dạng KHẲNG ĐỊNH] Điền từ còn thiếu vào ô trống (Cô ấy đã đủ lớn để tự đưa ra các quyết định của mình.):",
       "question": "She is old ___ to make her own decisions.",
       "correctAnswer": "enough",
       "options": [
-        "enough",
+        "such",
         "too",
-        "so",
-        "such"
+        "enough",
+        "so"
       ],
-      "explanationVi": "Đáp án chính xác: \"enough\". Cô ấy đã đủ lớn để tự đưa ra các quyết định của mình.."
+      "explanationVi": "Đáp án đúng là \"enough\". Câu hoàn chỉnh: \"She is old enough to make her own decisions.\" (Cô ấy đã đủ lớn để tự đưa ra các quyết định của mình.)."
     },
     {
       "id": "ex-074-09",
       "type": "fill_blank",
-      "promptVi": "[Điền từ - (Dạng khẳng định)] Điền dạng đúng của động từ vào ô trống (Thời tiết lạnh đến nỗi mà chúng tôi đã ở trong nhà.):",
+      "promptVi": "[Điền từ - Dạng KHẲNG ĐỊNH] Điền từ còn thiếu vào ô trống (Thời tiết lạnh đến nỗi mà chúng tôi đã ở trong nhà.):",
       "question": "The weather was ___ cold that we stayed inside.",
       "correctAnswer": "so",
       "options": [
         "so",
         "such",
-        "too",
-        "very"
+        "very",
+        "too"
       ],
-      "explanationVi": "Đáp án chính xác: \"so\". Thời tiết lạnh đến nỗi mà chúng tôi đã ở trong nhà.."
+      "explanationVi": "Đáp án đúng là \"so\". Câu hoàn chỉnh: \"The weather was so cold that we stayed inside.\" (Thời tiết lạnh đến nỗi mà chúng tôi đã ở trong nhà.)."
     },
     {
       "id": "ex-074-10",
       "type": "fill_blank",
-      "promptVi": "[Điền từ - (Dạng khẳng định)] Điền dạng đúng của động từ vào ô trống (Cô ấy là một nhạc sĩ tài năng đến nỗi mà ai cũng ngưỡng mộ cô.):",
+      "promptVi": "[Điền từ - Dạng KHẲNG ĐỊNH] Điền từ còn thiếu vào ô trống (Cô ấy là một nhạc sĩ tài năng đến nỗi mà ai cũng ngưỡng mộ cô.):",
       "question": "She is ___ talented musician that everyone admires her.",
       "correctAnswer": "such a",
       "options": [
-        "such a",
+        "very",
         "so a",
-        "too",
-        "very"
+        "such a",
+        "too"
       ],
-      "explanationVi": "Đáp án chính xác: \"such a\". Cô ấy là một nhạc sĩ tài năng đến nỗi mà ai cũng ngưỡng mộ cô.."
+      "explanationVi": "Đáp án đúng là \"such a\". Câu hoàn chỉnh: \"She is such a talented musician that everyone admires her.\" (Cô ấy là một nhạc sĩ tài năng đến nỗi mà ai cũng ngưỡng mộ cô.)."
     },
     {
       "id": "ex-074-11",
       "type": "fill_blank",
-      "promptVi": "[Điền từ - Dạng PHỦ ĐỊNH] Hoàn thành câu phủ định sau:",
-      "correctAnswer": "He is not too young to drive a car.",
+      "promptVi": "[Điền từ - Dạng PHỦ ĐỊNH] Điền trợ động từ/động từ tobe phủ định vào chỗ trống:",
+      "question": "He _____ not too young to drive a car.",
+      "correctAnswer": "is",
       "options": [
-        "He is not too young to drive a car.",
-        "He is too young to drive a car.",
-        "Not He is too young to drive a car.",
-        "He is too young to drive a car. no"
+        "are",
+        "is",
+        "do",
+        "am"
       ],
-      "explanationVi": "Dạng phủ định chuẩn: Thêm 'not' sau động từ chính."
+      "explanationVi": "Câu phủ định hoàn chỉnh: \"He is not too young to drive a car.\"."
     },
     {
       "id": "ex-074-12",
       "type": "sentence_scramble",
-      "promptVi": "[Sắp xếp câu] Xếp các khối từ thành câu hoàn chỉnh mang nghĩa: \"Cậu ấy quá trẻ để có thể lái xe ô tô.\"",
+      "promptVi": "[Sắp xếp câu] Ghép các khối từ thành câu hoàn chỉnh mang nghĩa: \"Cậu ấy quá trẻ để có thể lái xe ô tô.\"",
+      "question": "Sắp xếp các từ để tạo thành câu đúng: \"Cậu ấy quá trẻ để có thể lái xe ô tô.\"",
       "words": [
-        "is",
+        "to",
+        "young",
         "drive",
         "a",
-        "He",
         "too",
-        "young",
-        "to",
+        "is",
+        "He",
         "car."
       ],
       "correctSentence": "He is too young to drive a car.",
@@ -178,17 +180,18 @@
     {
       "id": "ex-074-13",
       "type": "sentence_scramble",
-      "promptVi": "[Sắp xếp câu] Xếp các khối từ thành câu hoàn chỉnh mang nghĩa: \"Cô ấy đã đủ lớn để tự đưa ra các quyết định của mình.\"",
+      "promptVi": "[Sắp xếp câu] Ghép các khối từ thành câu hoàn chỉnh mang nghĩa: \"Cô ấy đã đủ lớn để tự đưa ra các quyết định của mình.\"",
+      "question": "Sắp xếp các từ để tạo thành câu đúng: \"Cô ấy đã đủ lớn để tự đưa ra các quyết định của mình.\"",
       "words": [
-        "is",
-        "her",
-        "to",
-        "enough",
-        "She",
-        "old",
-        "decisions.",
         "own",
-        "make"
+        "old",
+        "is",
+        "She",
+        "make",
+        "her",
+        "enough",
+        "to",
+        "decisions."
       ],
       "correctSentence": "She is old enough to make her own decisions.",
       "hintVi": "Cô ấy đã đủ lớn để tự đưa ra các quyết định của mình.",
@@ -197,17 +200,18 @@
     {
       "id": "ex-074-14",
       "type": "sentence_scramble",
-      "promptVi": "[Sắp xếp câu] Xếp các khối từ thành câu hoàn chỉnh mang nghĩa: \"Thời tiết lạnh đến nỗi mà chúng tôi đã ở trong nhà.\"",
+      "promptVi": "[Sắp xếp câu] Ghép các khối từ thành câu hoàn chỉnh mang nghĩa: \"Thời tiết lạnh đến nỗi mà chúng tôi đã ở trong nhà.\"",
+      "question": "Sắp xếp các từ để tạo thành câu đúng: \"Thời tiết lạnh đến nỗi mà chúng tôi đã ở trong nhà.\"",
       "words": [
-        "that",
         "we",
+        "stayed",
+        "was",
+        "that",
         "The",
         "weather",
-        "was",
-        "so",
-        "stayed",
         "inside.",
-        "cold"
+        "cold",
+        "so"
       ],
       "correctSentence": "The weather was so cold that we stayed inside.",
       "hintVi": "Thời tiết lạnh đến nỗi mà chúng tôi đã ở trong nhà.",
@@ -216,18 +220,19 @@
     {
       "id": "ex-074-15",
       "type": "sentence_scramble",
-      "promptVi": "[Sắp xếp câu] Xếp các khối từ thành câu hoàn chỉnh mang nghĩa: \"Cô ấy là một nhạc sĩ tài năng đến nỗi mà ai cũng ngưỡng mộ cô.\"",
+      "promptVi": "[Sắp xếp câu] Ghép các khối từ thành câu hoàn chỉnh mang nghĩa: \"Cô ấy là một nhạc sĩ tài năng đến nỗi mà ai cũng ngưỡng mộ cô.\"",
+      "question": "Sắp xếp các từ để tạo thành câu đúng: \"Cô ấy là một nhạc sĩ tài năng đến nỗi mà ai cũng ngưỡng mộ cô.\"",
       "words": [
-        "admires",
-        "such",
         "that",
-        "talented",
-        "musician",
+        "such",
+        "everyone",
+        "a",
         "She",
         "is",
         "her.",
-        "everyone",
-        "a"
+        "admires",
+        "musician",
+        "talented"
       ],
       "correctSentence": "She is such a talented musician that everyone admires her.",
       "hintVi": "Cô ấy là một nhạc sĩ tài năng đến nỗi mà ai cũng ngưỡng mộ cô.",
@@ -236,22 +241,23 @@
     {
       "id": "ex-074-16",
       "type": "sentence_scramble",
-      "promptVi": "[Sắp xếp câu] Xếp các từ thành câu hội thoại: \"Tôi hoàn toàn hiểu. Dãy văn phòng ngoại ô có đủ rộng rãi cho đội ngũ kỹ thuật của bạn không? (spacious enough)\"",
+      "promptVi": "[Sắp xếp câu] Ghép các từ thành câu hội thoại: \"Tôi hoàn toàn hiểu. Dãy văn phòng ngoại ô có đủ rộng rãi cho đội ngũ kỹ thuật của bạn không? (spacious enough)\"",
+      "question": "Sắp xếp các từ để tạo thành câu thoại: \"Tôi hoàn toàn hiểu. Dãy văn phòng ngoại ô có đủ rộng rãi cho đội ngũ kỹ thuật của bạn không? (spacious enough)\"",
       "words": [
-        "suburban",
+        "enough",
+        "for",
+        "understand",
         "I",
-        "your",
-        "spacious",
+        "suburban",
+        "office",
         "engineering",
         "the",
-        "for",
-        "enough",
-        "office",
-        "understand",
+        "your",
+        "spacious",
         "Is",
-        "completely",
+        "team",
         "suite",
-        "team"
+        "completely"
       ],
       "correctSentence": "I understand completely. Is the suburban office suite spacious enough for your engineering team?",
       "hintVi": "Tôi hoàn toàn hiểu. Dãy văn phòng ngoại ô có đủ rộng rãi cho đội ngũ kỹ thuật của bạn không? (spacious enough)",
@@ -260,70 +266,70 @@
     {
       "id": "ex-074-17",
       "type": "find_error",
-      "promptVi": "[Tìm lỗi sai & Chọn câu đúng] Câu nào dưới đây có cấu trúc ngữ pháp HOÀN TOÀN ĐÚNG?",
-      "question": "Chủ điểm \"Bài 74: Cấu trúc với Too / Enough / So...That / Such...That (Result & Degree Modifiers)\": Chọn câu CHÍNH XÁC:",
+      "promptVi": "[Nhận diện cấu trúc chuẩn] Chọn câu có cấu trúc ngữ pháp HOÀN TOÀN ĐÚNG:",
+      "question": "Dựa vào chủ điểm \"Bài 74: Cấu trúc với Too / Enough / So...That / Such...That (Result & Degree Modifiers)\", câu nào sau đây CHÍNH XÁC?",
       "options": [
-        "He is too young to drive a car.",
         "He be too young to drive a car.",
-        "He are not is too young to drive a car.",
-        "car. a drive to young too is He"
+        "car. a drive to young too is He",
+        "He is too young to drive a car.",
+        "He is too young at drive a car."
       ],
       "correctAnswer": "He is too young to drive a car.",
-      "explanationVi": "Câu chuẩn xác là: \"He is too young to drive a car.\" (Cậu ấy quá trẻ để có thể lái xe ô tô.)."
+      "explanationVi": "Cấu trúc chuẩn xác là: \"He is too young to drive a car.\" (Cậu ấy quá trẻ để có thể lái xe ô tô.)."
     },
     {
       "id": "ex-074-18",
       "type": "find_error",
-      "promptVi": "[Tìm lỗi sai & Chọn câu đúng] Câu nào dưới đây có cấu trúc ngữ pháp HOÀN TOÀN ĐÚNG?",
-      "question": "Chủ điểm \"Bài 74: Cấu trúc với Too / Enough / So...That / Such...That (Result & Degree Modifiers)\": Chọn câu CHÍNH XÁC:",
+      "promptVi": "[Nhận diện cấu trúc chuẩn] Chọn câu có cấu trúc ngữ pháp HOÀN TOÀN ĐÚNG:",
+      "question": "Dựa vào chủ điểm \"Bài 74: Cấu trúc với Too / Enough / So...That / Such...That (Result & Degree Modifiers)\", câu nào sau đây CHÍNH XÁC?",
       "options": [
-        "She is old enough to make her own decisions.",
         "She be old enough to make her own decisions.",
-        "She are not is old enough to make her own decisions.",
-        "decisions. own her make to enough old is She"
+        "She is old enough to make her own decisions.",
+        "decisions. own her make to enough old is She",
+        "She is old enough at make her own decisions."
       ],
       "correctAnswer": "She is old enough to make her own decisions.",
-      "explanationVi": "Câu chuẩn xác là: \"She is old enough to make her own decisions.\" (Cô ấy đã đủ lớn để tự đưa ra các quyết định của mình.)."
+      "explanationVi": "Cấu trúc chuẩn xác là: \"She is old enough to make her own decisions.\" (Cô ấy đã đủ lớn để tự đưa ra các quyết định của mình.)."
     },
     {
       "id": "ex-074-19",
       "type": "find_error",
-      "promptVi": "[Tìm lỗi sai & Chọn câu đúng] Câu nào dưới đây có cấu trúc ngữ pháp HOÀN TOÀN ĐÚNG?",
-      "question": "Chủ điểm \"Bài 74: Cấu trúc với Too / Enough / So...That / Such...That (Result & Degree Modifiers)\": Chọn câu CHÍNH XÁC:",
+      "promptVi": "[Nhận diện cấu trúc chuẩn] Chọn câu có cấu trúc ngữ pháp HOÀN TOÀN ĐÚNG:",
+      "question": "Dựa vào chủ điểm \"Bài 74: Cấu trúc với Too / Enough / So...That / Such...That (Result & Degree Modifiers)\", câu nào sau đây CHÍNH XÁC?",
       "options": [
-        "The weather was so cold that we stayed inside.",
+        "inside. stayed we that cold so was weather The",
         "The weather be so cold that we stayed inside.",
-        "The weather are not is so cold that we stayed inside.",
-        "inside. stayed we that cold so was weather The"
+        "is",
+        "The weather was so cold that we stayed inside."
       ],
       "correctAnswer": "The weather was so cold that we stayed inside.",
-      "explanationVi": "Câu chuẩn xác là: \"The weather was so cold that we stayed inside.\" (Thời tiết lạnh đến nỗi mà chúng tôi đã ở trong nhà.)."
+      "explanationVi": "Cấu trúc chuẩn xác là: \"The weather was so cold that we stayed inside.\" (Thời tiết lạnh đến nỗi mà chúng tôi đã ở trong nhà.)."
     },
     {
       "id": "ex-074-20",
       "type": "find_error",
-      "promptVi": "[Tìm lỗi sai & Chọn câu đúng] Câu nào dưới đây có cấu trúc ngữ pháp HOÀN TOÀN ĐÚNG?",
-      "question": "Chủ điểm \"Bài 74: Cấu trúc với Too / Enough / So...That / Such...That (Result & Degree Modifiers)\": Chọn câu CHÍNH XÁC:",
+      "promptVi": "[Nhận diện cấu trúc chuẩn] Chọn câu có cấu trúc ngữ pháp HOÀN TOÀN ĐÚNG:",
+      "question": "Dựa vào chủ điểm \"Bài 74: Cấu trúc với Too / Enough / So...That / Such...That (Result & Degree Modifiers)\", câu nào sau đây CHÍNH XÁC?",
       "options": [
         "She is such a talented musician that everyone admires her.",
         "She be such a talented musician that everyone admires her.",
-        "She are not is such a talented musician that everyone admires her.",
-        "her. admires everyone that musician talented a such is She"
+        "her. admires everyone that musician talented a such is She",
+        "is"
       ],
       "correctAnswer": "She is such a talented musician that everyone admires her.",
-      "explanationVi": "Câu chuẩn xác là: \"She is such a talented musician that everyone admires her.\" (Cô ấy là một nhạc sĩ tài năng đến nỗi mà ai cũng ngưỡng mộ cô.)."
+      "explanationVi": "Cấu trúc chuẩn xác là: \"She is such a talented musician that everyone admires her.\" (Cô ấy là một nhạc sĩ tài năng đến nỗi mà ai cũng ngưỡng mộ cô.)."
     },
     {
       "id": "ex-074-21",
       "type": "listening_reflex",
-      "promptVi": "[Nghe phản xạ] Nghe câu phát âm tiếng Anh và chọn bản dịch tiếng Việt đúng nhất:",
+      "promptVi": "[Nghe phản xạ] Nghe câu phát âm tiếng Anh và chọn bản dịch tiếng Việt đúng:",
       "audioPrompt": "Good afternoon, Megan. How did you find that penthouse apartment overlooking the river?",
-      "question": "Nhấn nút '🔊 Nghe audio' để nghe câu thoại và chọn nghĩa đúng:",
+      "question": "Nhấn nút '🔊 Nghe audio' và chọn nghĩa tiếng Việt đúng:",
       "options": [
-        "Chào buổi chiều Megan. Bạn thấy căn hộ áp mái nhìn ra sông thế nào rồi?",
-        "Giá thuê hàng tháng quá cao đối với công ty khởi nghiệp chúng tôi để có thể chi trả lúc này. (too high for us to afford)",
         "Tôi hoàn toàn hiểu. Dãy văn phòng ngoại ô có đủ rộng rãi cho đội ngũ kỹ thuật của bạn không? (spacious enough)",
-        "Ngày mai trời sẽ mưa to."
+        "Giá thuê hàng tháng quá cao đối với công ty khởi nghiệp chúng tôi để có thể chi trả lúc này. (too high for us to afford)",
+        "Chào buổi chiều Megan. Bạn thấy căn hộ áp mái nhìn ra sông thế nào rồi?",
+        "Hôm nay thời tiết rất đẹp."
       ],
       "correctAnswer": "Chào buổi chiều Megan. Bạn thấy căn hộ áp mái nhìn ra sông thế nào rồi?",
       "explanationVi": "Câu nghe được: \"Good afternoon, Megan. How did you find that penthouse apartment overlooking the river?\" có nghĩa là: \"Chào buổi chiều Megan. Bạn thấy căn hộ áp mái nhìn ra sông thế nào rồi?\"."
@@ -331,14 +337,14 @@
     {
       "id": "ex-074-22",
       "type": "listening_reflex",
-      "promptVi": "[Nghe phản xạ] Nghe câu phát âm tiếng Anh và chọn bản dịch tiếng Việt đúng nhất:",
+      "promptVi": "[Nghe phản xạ] Nghe câu phát âm tiếng Anh và chọn bản dịch tiếng Việt đúng:",
       "audioPrompt": "The monthly rental price was too high for our startup company to afford right now.",
-      "question": "Nhấn nút '🔊 Nghe audio' để nghe câu thoại và chọn nghĩa đúng:",
+      "question": "Nhấn nút '🔊 Nghe audio' và chọn nghĩa tiếng Việt đúng:",
       "options": [
+        "Hôm nay thời tiết rất đẹp.",
         "Giá thuê hàng tháng quá cao đối với công ty khởi nghiệp chúng tôi để có thể chi trả lúc này. (too high for us to afford)",
-        "Tôi hoàn toàn hiểu. Dãy văn phòng ngoại ô có đủ rộng rãi cho đội ngũ kỹ thuật của bạn không? (spacious enough)",
         "Có chứ, nó đủ lớn để bố trí ba mươi bàn làm việc và một phòng họp rộng rãi. (large enough to accommodate)",
-        "Ngày mai trời sẽ mưa to."
+        "Tôi hoàn toàn hiểu. Dãy văn phòng ngoại ô có đủ rộng rãi cho đội ngũ kỹ thuật của bạn không? (spacious enough)"
       ],
       "correctAnswer": "Giá thuê hàng tháng quá cao đối với công ty khởi nghiệp chúng tôi để có thể chi trả lúc này. (too high for us to afford)",
       "explanationVi": "Câu nghe được: \"The monthly rental price was too high for our startup company to afford right now.\" có nghĩa là: \"Giá thuê hàng tháng quá cao đối với công ty khởi nghiệp chúng tôi để có thể chi trả lúc này. (too high for us to afford)\"."
@@ -346,14 +352,14 @@
     {
       "id": "ex-074-23",
       "type": "listening_reflex",
-      "promptVi": "[Nghe phản xạ] Nghe câu phát âm tiếng Anh và chọn bản dịch tiếng Việt đúng nhất:",
+      "promptVi": "[Nghe phản xạ] Nghe câu phát âm tiếng Anh và chọn bản dịch tiếng Việt đúng:",
       "audioPrompt": "I understand completely. Is the suburban office suite spacious enough for your engineering team?",
-      "question": "Nhấn nút '🔊 Nghe audio' để nghe câu thoại và chọn nghĩa đúng:",
+      "question": "Nhấn nút '🔊 Nghe audio' và chọn nghĩa tiếng Việt đúng:",
       "options": [
         "Tôi hoàn toàn hiểu. Dãy văn phòng ngoại ô có đủ rộng rãi cho đội ngũ kỹ thuật của bạn không? (spacious enough)",
-        "Có chứ, nó đủ lớn để bố trí ba mươi bàn làm việc và một phòng họp rộng rãi. (large enough to accommodate)",
         "Khu thương mại trung tâm thành phố ồn ào đến mức nhiều nhà thiết kế sáng tạo không thể tập trung được. (so noisy that)",
-        "Ngày mai trời sẽ mưa to."
+        "Có chứ, nó đủ lớn để bố trí ba mươi bàn làm việc và một phòng họp rộng rãi. (large enough to accommodate)",
+        "Hôm nay thời tiết rất đẹp."
       ],
       "correctAnswer": "Tôi hoàn toàn hiểu. Dãy văn phòng ngoại ô có đủ rộng rãi cho đội ngũ kỹ thuật của bạn không? (spacious enough)",
       "explanationVi": "Câu nghe được: \"I understand completely. Is the suburban office suite spacious enough for your engineering team?\" có nghĩa là: \"Tôi hoàn toàn hiểu. Dãy văn phòng ngoại ô có đủ rộng rãi cho đội ngũ kỹ thuật của bạn không? (spacious enough)\"."
@@ -361,14 +367,14 @@
     {
       "id": "ex-074-24",
       "type": "listening_reflex",
-      "promptVi": "[Nghe phản xạ] Nghe câu phát âm tiếng Anh và chọn bản dịch tiếng Việt đúng nhất:",
+      "promptVi": "[Nghe phản xạ] Nghe câu phát âm tiếng Anh và chọn bản dịch tiếng Việt đúng:",
       "audioPrompt": "Yes, it is large enough to accommodate thirty workstations and a spacious conference room.",
-      "question": "Nhấn nút '🔊 Nghe audio' để nghe câu thoại và chọn nghĩa đúng:",
+      "question": "Nhấn nút '🔊 Nghe audio' và chọn nghĩa tiếng Việt đúng:",
       "options": [
-        "Có chứ, nó đủ lớn để bố trí ba mươi bàn làm việc và một phòng họp rộng rãi. (large enough to accommodate)",
-        "Khu thương mại trung tâm thành phố ồn ào đến mức nhiều nhà thiết kế sáng tạo không thể tập trung được. (so noisy that)",
         "Tòa nhà ngoại ô có những chiếc cửa sổ cách âm tốt đến nỗi các văn phòng bên trong luôn hoàn toàn yên tĩnh. (such soundproof windows that)",
-        "Ngày mai trời sẽ mưa to."
+        "Hôm nay thời tiết rất đẹp.",
+        "Khu thương mại trung tâm thành phố ồn ào đến mức nhiều nhà thiết kế sáng tạo không thể tập trung được. (so noisy that)",
+        "Có chứ, nó đủ lớn để bố trí ba mươi bàn làm việc và một phòng họp rộng rãi. (large enough to accommodate)"
       ],
       "correctAnswer": "Có chứ, nó đủ lớn để bố trí ba mươi bàn làm việc và một phòng họp rộng rãi. (large enough to accommodate)",
       "explanationVi": "Câu nghe được: \"Yes, it is large enough to accommodate thirty workstations and a spacious conference room.\" có nghĩa là: \"Có chứ, nó đủ lớn để bố trí ba mươi bàn làm việc và một phòng họp rộng rãi. (large enough to accommodate)\"."
@@ -376,64 +382,68 @@
     {
       "id": "ex-074-25",
       "type": "speaking_practice",
-      "promptVi": "[Luyện nói qua Micro] Nhấn nút '🎙️ Bắt đầu nói' và đọc to, rõ ràng câu tiếng Anh sau:",
+      "promptVi": "[Luyện nói qua Micro] Nhấn nút 'Bấm để Nói ngay' và phát âm câu sau:",
+      "question": "Luyện phát âm chuẩn câu: \"He is too young to drive a car.\" (Cậu ấy quá trẻ để có thể lái xe ô tô.)",
       "targetSentence": "He is too young to drive a car.",
       "hintVi": "Cậu ấy quá trẻ để có thể lái xe ô tô.",
-      "explanationVi": "Câu mục tiêu: \"He is too young to drive a car.\" (Cậu ấy quá trẻ để có thể lái xe ô tô.). Luyện phát âm chuẩn xác từng âm tiết và ngữ điệu tự nhiên."
+      "explanationVi": "Mẫu câu chuẩn: \"He is too young to drive a car.\" (Cậu ấy quá trẻ để có thể lái xe ô tô.). Luyện phát âm rõ ràng từng từ."
     },
     {
       "id": "ex-074-26",
       "type": "speaking_practice",
-      "promptVi": "[Luyện nói qua Micro] Nhấn nút '🎙️ Bắt đầu nói' và đọc to, rõ ràng câu tiếng Anh sau:",
+      "promptVi": "[Luyện nói qua Micro] Nhấn nút 'Bấm để Nói ngay' và phát âm câu sau:",
+      "question": "Luyện phát âm chuẩn câu: \"She is old enough to make her own decisions.\" (Cô ấy đã đủ lớn để tự đưa ra các quyết định của mình.)",
       "targetSentence": "She is old enough to make her own decisions.",
       "hintVi": "Cô ấy đã đủ lớn để tự đưa ra các quyết định của mình.",
-      "explanationVi": "Câu mục tiêu: \"She is old enough to make her own decisions.\" (Cô ấy đã đủ lớn để tự đưa ra các quyết định của mình.). Luyện phát âm chuẩn xác từng âm tiết và ngữ điệu tự nhiên."
+      "explanationVi": "Mẫu câu chuẩn: \"She is old enough to make her own decisions.\" (Cô ấy đã đủ lớn để tự đưa ra các quyết định của mình.). Luyện phát âm rõ ràng từng từ."
     },
     {
       "id": "ex-074-27",
       "type": "speaking_practice",
-      "promptVi": "[Luyện nói qua Micro] Nhấn nút '🎙️ Bắt đầu nói' và đọc to, rõ ràng câu tiếng Anh sau:",
+      "promptVi": "[Luyện nói qua Micro] Nhấn nút 'Bấm để Nói ngay' và phát âm câu sau:",
+      "question": "Luyện phát âm chuẩn câu: \"The weather was so cold that we stayed inside.\" (Thời tiết lạnh đến nỗi mà chúng tôi đã ở trong nhà.)",
       "targetSentence": "The weather was so cold that we stayed inside.",
       "hintVi": "Thời tiết lạnh đến nỗi mà chúng tôi đã ở trong nhà.",
-      "explanationVi": "Câu mục tiêu: \"The weather was so cold that we stayed inside.\" (Thời tiết lạnh đến nỗi mà chúng tôi đã ở trong nhà.). Luyện phát âm chuẩn xác từng âm tiết và ngữ điệu tự nhiên."
+      "explanationVi": "Mẫu câu chuẩn: \"The weather was so cold that we stayed inside.\" (Thời tiết lạnh đến nỗi mà chúng tôi đã ở trong nhà.). Luyện phát âm rõ ràng từng từ."
     },
     {
       "id": "ex-074-28",
       "type": "speaking_practice",
-      "promptVi": "[Luyện nói qua Micro] Nhấn nút '🎙️ Bắt đầu nói' và đọc to, rõ ràng câu tiếng Anh sau:",
+      "promptVi": "[Luyện nói qua Micro] Nhấn nút 'Bấm để Nói ngay' và phát âm câu sau:",
+      "question": "Luyện phát âm chuẩn câu: \"She is such a talented musician that everyone admires her.\" (Cô ấy là một nhạc sĩ tài năng đến nỗi mà ai cũng ngưỡng mộ cô.)",
       "targetSentence": "She is such a talented musician that everyone admires her.",
       "hintVi": "Cô ấy là một nhạc sĩ tài năng đến nỗi mà ai cũng ngưỡng mộ cô.",
-      "explanationVi": "Câu mục tiêu: \"She is such a talented musician that everyone admires her.\" (Cô ấy là một nhạc sĩ tài năng đến nỗi mà ai cũng ngưỡng mộ cô.). Luyện phát âm chuẩn xác từng âm tiết và ngữ điệu tự nhiên."
+      "explanationVi": "Mẫu câu chuẩn: \"She is such a talented musician that everyone admires her.\" (Cô ấy là một nhạc sĩ tài năng đến nỗi mà ai cũng ngưỡng mộ cô.). Luyện phát âm rõ ràng từng từ."
     },
     {
       "id": "ex-074-29",
       "type": "reading_comprehension",
-      "promptVi": "[Đọc hiểu đoạn văn 1] Đọc đoạn hội thoại mở đầu sau và trả lời câu hỏi:",
-      "passage": "Real Estate Agent (Nam): \"Good afternoon, Megan. How did you find that penthouse apartment overlooking the river?\"\nMegan (Nữ): \"The monthly rental price was too high for our startup company to afford right now.\"\nReal Estate Agent (Nam): \"I understand completely. Is the suburban office suite spacious enough for your engineering team?\"\nMegan (Nữ): \"Yes, it is large enough to accommodate thirty workstations and a spacious conference room.\"",
-      "question": "Câu hỏi: Trong đoạn hội thoại trên, các nhân vật đang thảo luận về chủ đề gì?",
+      "promptVi": "[Đọc hiểu đoạn văn] Đọc đoạn hội thoại sau và trả lời câu hỏi:",
+      "passage": "Real Estate Agent: \"Good afternoon, Megan. How did you find that penthouse apartment overlooking the river?\"\nMegan: \"The monthly rental price was too high for our startup company to afford right now.\"\nReal Estate Agent: \"I understand completely. Is the suburban office suite spacious enough for your engineering team?\"\nMegan: \"Yes, it is large enough to accommodate thirty workstations and a spacious conference room.\"",
+      "question": "Chủ đề trọng tâm của đoạn hội thoại trên là gì?",
       "options": [
-        "Cấu trúc với Too / Enough / So...That / Such...That (Result & Degree Modifiers)",
-        "Kế hoạch đi nghỉ dưỡng cuối tuần ở bãi biển",
-        "Mua sắm quần áo và đồ dùng thể thao",
-        "Cách làm món ăn truyền thống gia đình"
+        "Lịch trình đi du lịch nghỉ mát cuối tuần",
+        "Cách làm món ăn truyền thống",
+        "Kế hoạch đi mua sắm tại siêu thị",
+        "Cấu trúc với Too / Enough / So...That / Such...That (Result & Degree Modifiers)"
       ],
       "correctAnswer": "Cấu trúc với Too / Enough / So...That / Such...That (Result & Degree Modifiers)",
-      "explanationVi": "Đoạn hội thoại mở đầu được thiết kế để minh họa trực tiếp cho chủ điểm ngữ pháp: \"Bài 74: Cấu trúc với Too / Enough / So...That / Such...That (Result & Degree Modifiers)\"."
+      "explanationVi": "Đoạn hội thoại được thiết kế để minh họa trực tiếp cho chủ điểm \"Bài 74: Cấu trúc với Too / Enough / So...That / Such...That (Result & Degree Modifiers)\"."
     },
     {
       "id": "ex-074-30",
       "type": "reading_comprehension",
-      "promptVi": "[Đọc hiểu đoạn văn 2] Đọc phần tiếp theo của đoạn hội thoại và chọn nhận định đúng:",
-      "passage": "Real Estate Agent (Nam): \"The commercial district downtown was so noisy that many creative designers couldn't focus.\"\nMegan (Nữ): \"The suburban building has such soundproof windows that interior offices remain completely peaceful.\"\nReal Estate Agent (Nam): \"Did your senior developers speak quickly enough during the remote video tour?\"\nMegan (Nữ): \"They spoke clearly, and the landlord was so generous that he offered two months of free parking.\"",
-      "question": "Nhận định nào sau đây là ĐÚNG với nội dung đoạn hội thoại trên?",
+      "promptVi": "[Đọc hiểu đoạn văn] Đọc đoạn đối thoại tiếp theo và chọn nhận định đúng:",
+      "passage": "Real Estate Agent: \"The commercial district downtown was so noisy that many creative designers couldn't focus.\"\nMegan: \"The suburban building has such soundproof windows that interior offices remain completely peaceful.\"\nReal Estate Agent: \"Did your senior developers speak quickly enough during the remote video tour?\"\nMegan: \"They spoke clearly, and the landlord was so generous that he offered two months of free parking.\"",
+      "question": "Nhận định nào sau đây là ĐÚNG về nội dung đoạn đối thoại?",
       "options": [
-        "Các câu hội thoại sử dụng đúng cấu trúc ngữ pháp \"Bài 74: Cấu trúc với Too / Enough / So...That / Such...That (Result & Degree Modifiers)\".",
-        "Các nhân vật không hiểu ý nhau và từ chối nói chuyện.",
-        "Đoạn hội thoại nói về việc chuyển nhà sang thành phố khác.",
-        "Cả hai nhân vật đều đang ở sân bay chuẩn bị lên máy bay."
+        "Cuộc trò chuyện diễn ra tại nhà ga xe lửa.",
+        "Hai nhân vật đang cãi nhau và không đồng ý hợp tác.",
+        "Cả hai nhân vật đang thảo luận về thời tiết ngày mai.",
+        "Các câu thoại sử dụng đúng cấu trúc \"Cấu trúc với Too / Enough / So...That / Such...That (Result & Degree Modifiers)\"."
       ],
-      "correctAnswer": "Các câu hội thoại sử dụng đúng cấu trúc ngữ pháp \"Bài 74: Cấu trúc với Too / Enough / So...That / Such...That (Result & Degree Modifiers)\".",
-      "explanationVi": "Đoạn hội thoại thứ hai tiếp tục củng cố và ứng dụng các quy tắc ngữ pháp của \"Bài 74: Cấu trúc với Too / Enough / So...That / Such...That (Result & Degree Modifiers)\"."
+      "correctAnswer": "Các câu thoại sử dụng đúng cấu trúc \"Cấu trúc với Too / Enough / So...That / Such...That (Result & Degree Modifiers)\".",
+      "explanationVi": "Đoạn đối thoại ứng dụng chuẩn xác ngữ pháp của \"Bài 74: Cấu trúc với Too / Enough / So...That / Such...That (Result & Degree Modifiers)\"."
     }
   ]
 }

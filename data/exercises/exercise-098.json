@@ -7,11 +7,11 @@
     {
       "id": "ex-098-01",
       "type": "multiple_choice",
-      "promptVi": "[Trắc nghiệm] Chọn từ/cụm từ đúng để hoàn thành câu (Chưa bao giờ tôi nhìn thấy một cảnh hoàng hôn đẹp đến thế.):",
+      "promptVi": "[Trắc nghiệm ngữ pháp] Chọn từ đúng để hoàn thành câu (Chưa bao giờ tôi nhìn thấy một cảnh hoàng hôn đẹp đến thế.):",
       "question": "Never ___ I seen such a beautiful sunset.",
       "options": [
-        "have",
         "did",
+        "have",
         "was",
         "had"
       ],
@@ -21,11 +21,11 @@
     {
       "id": "ex-098-02",
       "type": "multiple_choice",
-      "promptVi": "[Trắc nghiệm] Chọn từ/cụm từ đúng để hoàn thành câu (Tôi vừa mới về đến nhà thì trời bắt đầu đổ mưa.):",
+      "promptVi": "[Trắc nghiệm ngữ pháp] Chọn từ đúng để hoàn thành câu (Tôi vừa mới về đến nhà thì trời bắt đầu đổ mưa.):",
       "question": "No sooner had I arrived home ___ it started to rain.",
       "options": [
-        "than",
         "when",
+        "than",
         "that",
         "then"
       ],
@@ -35,13 +35,13 @@
     {
       "id": "ex-098-03",
       "type": "multiple_choice",
-      "promptVi": "[Trắc nghiệm] Chọn từ/cụm từ đúng để hoàn thành câu (Chỉ bằng cách luyện tập mỗi ngày, bạn mới có thể nói tiếng Anh trôi chảy.):",
+      "promptVi": "[Trắc nghiệm ngữ pháp] Chọn từ đúng để hoàn thành câu (Chỉ bằng cách luyện tập mỗi ngày, bạn mới có thể nói tiếng Anh trôi chảy.):",
       "question": "Only by practicing every day ___ you speak English fluently.",
       "options": [
         "can",
         "you can",
-        "do",
-        "will"
+        "will",
+        "do"
       ],
       "correctAnswer": "can",
       "explanationVi": "Sau cụm 'Only by practicing' ta đảo trợ động từ 'can' lên trước 'you'."
@@ -49,12 +49,12 @@
     {
       "id": "ex-098-04",
       "type": "multiple_choice",
-      "promptVi": "[Trắc nghiệm] Chọn từ/cụm từ đúng để hoàn thành câu (Nếu quý khách cần thêm bất kỳ thông tin nào, xin vui lòng liên hệ với chúng tôi.):",
+      "promptVi": "[Trắc nghiệm ngữ pháp] Chọn từ đúng để hoàn thành câu (Nếu quý khách cần thêm bất kỳ thông tin nào, xin vui lòng liên hệ với chúng tôi.):",
       "question": "___ you need any further information, please contact us.",
       "options": [
         "Should",
-        "If",
         "Were",
+        "If",
         "Had"
       ],
       "correctAnswer": "Should",
@@ -63,113 +63,115 @@
     {
       "id": "ex-098-05",
       "type": "multiple_choice",
-      "promptVi": "[Trắc nghiệm] Dịch câu sau sang tiếng Anh: \"Chào buổi sáng Giám đốc Steele. Chưa bao giờ trước đây cơ quan tình báo của chúng ta chứng kiến hoạt động gián điệp thuật toán tinh vi đến vậy. (Never before has S V3)\"",
-      "question": "Chọn bản dịch chuẩn xác cho câu: \"Chào buổi sáng Giám đốc Steele. Chưa bao giờ trước đây cơ quan tình báo của chúng ta chứng kiến hoạt động gián điệp thuật toán tinh vi đến vậy. (Never before has S V3)\"",
+      "promptVi": "[Phản xạ dịch thuật] Dịch câu sau sang tiếng Anh: \"Chào buổi sáng Giám đốc Steele. Chưa bao giờ trước đây cơ quan tình báo của chúng ta chứng kiến hoạt động gián điệp thuật toán tinh vi đến vậy. (Never before has S V3)\"",
+      "question": "Chọn bản dịch chuẩn xác nhất cho câu: \"Chào buổi sáng Giám đốc Steele. Chưa bao giờ trước đây cơ quan tình báo của chúng ta chứng kiến hoạt động gián điệp thuật toán tinh vi đến vậy. (Never before has S V3)\"",
       "options": [
-        "Good morning, Director Steele. Never before has our intelligence agency witnessed such sophisticated algorithmic espionage.",
         "Good morning, Director Steele. Never before be our intelligence agency witnessed such sophisticated algorithmic espionage.",
-        "Under no circumstances must unauthorized engineers access raw training neural weights.",
-        "I want to go to the park now."
+        "Good morning, Director Steele. Never before has our intelligence agency witnessed such sophisticated algorithmic espionage.",
+        "We are studying English today.",
+        "Under no circumstances must unauthorized engineers access raw training neural weights."
       ],
       "correctAnswer": "Good morning, Director Steele. Never before has our intelligence agency witnessed such sophisticated algorithmic espionage.",
-      "explanationVi": "Câu đúng là \"Good morning, Director Steele. Never before has our intelligence agency witnessed such sophisticated algorithmic espionage.\" (Chào buổi sáng Giám đốc Steele. Chưa bao giờ trước đây cơ quan tình báo của chúng ta chứng kiến hoạt động gián điệp thuật toán tinh vi đến vậy. (Never before has S V3))."
+      "explanationVi": "Câu dịch chuẩn xác: \"Good morning, Director Steele. Never before has our intelligence agency witnessed such sophisticated algorithmic espionage.\" (Chào buổi sáng Giám đốc Steele. Chưa bao giờ trước đây cơ quan tình báo của chúng ta chứng kiến hoạt động gián điệp thuật toán tinh vi đến vậy. (Never before has S V3))."
     },
     {
       "id": "ex-098-06",
       "type": "multiple_choice",
-      "promptVi": "[Trắc nghiệm] Chọn câu trả lời hoặc cách diễn đạt phù hợp:",
-      "question": "Trong ngữ cảnh giao tiếp: \"Good morning, Director Steele. Never before has our intelligence agency witnessed such sophisticated algorithmic espionage.\", câu phản hồi tự nhiên là gì?",
+      "promptVi": "[Ngữ cảnh giao tiếp] Chọn câu phản hồi tự nhiên và đúng ngữ pháp:",
+      "question": "Khi đối phương nói: \"Good morning, Director Steele. Never before has our intelligence agency witnessed such sophisticated algorithmic espionage.\", câu phản hồi phù hợp là gì?",
       "options": [
+        "They are not in the office.",
         "Under no circumstances must unauthorized engineers access raw training neural weights.",
-        "No, it is yesterday morning.",
-        "Yes, I will eat apple.",
-        "They are not at the library."
+        "No, it was yesterday.",
+        "Yes, I will eat it."
       ],
       "correctAnswer": "Under no circumstances must unauthorized engineers access raw training neural weights.",
-      "explanationVi": "Phản hồi phù hợp: \"Under no circumstances must unauthorized engineers access raw training neural weights.\" (Trong bất kỳ hoàn cảnh nào, các kỹ sư chưa được cấp quyền cũng không được phép truy cập vào các trọng số thần kinh huấn luyện thô. (Under no circumstances must S V))."
+      "explanationVi": "Phản hồi phù hợp trong bài: \"Under no circumstances must unauthorized engineers access raw training neural weights.\" (Trong bất kỳ hoàn cảnh nào, các kỹ sư chưa được cấp quyền cũng không được phép truy cập vào các trọng số thần kinh huấn luyện thô. (Under no circumstances must S V))."
     },
     {
       "id": "ex-098-07",
       "type": "fill_blank",
-      "promptVi": "[Điền từ - (Dạng khẳng định)] Điền dạng đúng của động từ vào ô trống (Chưa bao giờ tôi nhìn thấy một cảnh hoàng hôn đẹp đến thế.):",
+      "promptVi": "[Điền từ - Dạng KHẲNG ĐỊNH] Điền từ còn thiếu vào ô trống (Chưa bao giờ tôi nhìn thấy một cảnh hoàng hôn đẹp đến thế.):",
       "question": "Never ___ I seen such a beautiful sunset.",
       "correctAnswer": "have",
       "options": [
-        "have",
+        "had",
         "did",
-        "was",
-        "had"
+        "have",
+        "was"
       ],
-      "explanationVi": "Đáp án chính xác: \"have\". Chưa bao giờ tôi nhìn thấy một cảnh hoàng hôn đẹp đến thế.."
+      "explanationVi": "Đáp án đúng là \"have\". Câu hoàn chỉnh: \"Never have I seen such a beautiful sunset.\" (Chưa bao giờ tôi nhìn thấy một cảnh hoàng hôn đẹp đến thế.)."
     },
     {
       "id": "ex-098-08",
       "type": "fill_blank",
-      "promptVi": "[Điền từ - (Dạng khẳng định)] Điền dạng đúng của động từ vào ô trống (Tôi vừa mới về đến nhà thì trời bắt đầu đổ mưa.):",
+      "promptVi": "[Điền từ - Dạng KHẲNG ĐỊNH] Điền từ còn thiếu vào ô trống (Tôi vừa mới về đến nhà thì trời bắt đầu đổ mưa.):",
       "question": "No sooner had I arrived home ___ it started to rain.",
       "correctAnswer": "than",
       "options": [
-        "than",
-        "when",
         "that",
-        "then"
+        "when",
+        "then",
+        "than"
       ],
-      "explanationVi": "Đáp án chính xác: \"than\". Tôi vừa mới về đến nhà thì trời bắt đầu đổ mưa.."
+      "explanationVi": "Đáp án đúng là \"than\". Câu hoàn chỉnh: \"No sooner had I arrived home than it started to rain.\" (Tôi vừa mới về đến nhà thì trời bắt đầu đổ mưa.)."
     },
     {
       "id": "ex-098-09",
       "type": "fill_blank",
-      "promptVi": "[Điền từ - (Dạng khẳng định)] Điền dạng đúng của động từ vào ô trống (Chỉ bằng cách luyện tập mỗi ngày, bạn mới có thể nói tiếng Anh trôi chảy.):",
+      "promptVi": "[Điền từ - Dạng KHẲNG ĐỊNH] Điền từ còn thiếu vào ô trống (Chỉ bằng cách luyện tập mỗi ngày, bạn mới có thể nói tiếng Anh trôi chảy.):",
       "question": "Only by practicing every day ___ you speak English fluently.",
       "correctAnswer": "can",
       "options": [
         "can",
         "you can",
-        "do",
-        "will"
+        "will",
+        "do"
       ],
-      "explanationVi": "Đáp án chính xác: \"can\". Chỉ bằng cách luyện tập mỗi ngày, bạn mới có thể nói tiếng Anh trôi chảy.."
+      "explanationVi": "Đáp án đúng là \"can\". Câu hoàn chỉnh: \"Only by practicing every day can you speak English fluently.\" (Chỉ bằng cách luyện tập mỗi ngày, bạn mới có thể nói tiếng Anh trôi chảy.)."
     },
     {
       "id": "ex-098-10",
       "type": "fill_blank",
-      "promptVi": "[Điền từ - (Dạng khẳng định)] Điền dạng đúng của động từ vào ô trống (Nếu quý khách cần thêm bất kỳ thông tin nào, xin vui lòng liên hệ với chúng tôi.):",
+      "promptVi": "[Điền từ - Dạng KHẲNG ĐỊNH] Điền từ còn thiếu vào ô trống (Nếu quý khách cần thêm bất kỳ thông tin nào, xin vui lòng liên hệ với chúng tôi.):",
       "question": "___ you need any further information, please contact us.",
       "correctAnswer": "Should",
       "options": [
         "Should",
-        "If",
+        "Had",
         "Were",
-        "Had"
+        "If"
       ],
-      "explanationVi": "Đáp án chính xác: \"Should\". Nếu quý khách cần thêm bất kỳ thông tin nào, xin vui lòng liên hệ với chúng tôi.."
+      "explanationVi": "Đáp án đúng là \"Should\". Câu hoàn chỉnh: \"Should you need any further information, please contact us.\" (Nếu quý khách cần thêm bất kỳ thông tin nào, xin vui lòng liên hệ với chúng tôi.)."
     },
     {
       "id": "ex-098-11",
       "type": "fill_blank",
-      "promptVi": "[Điền từ - Dạng PHỦ ĐỊNH] Hoàn thành câu phủ định sau:",
-      "correctAnswer": "Never have I seen such a beautiful sunset.",
+      "promptVi": "[Điền từ - Dạng PHỦ ĐỊNH] Điền trợ động từ/động từ tobe phủ định vào chỗ trống:",
+      "question": "Never _____ not I seen such a beautiful sunset.",
+      "correctAnswer": "have",
       "options": [
-        "Never have I seen such a beautiful sunset.",
-        "Never have I seen such a beautiful sunset.",
-        "Not Never have I seen such a beautiful sunset.",
-        "Never have I seen such a beautiful sunset. no"
+        "have",
+        "is",
+        "are",
+        "am"
       ],
-      "explanationVi": "Dạng phủ định chuẩn: Thêm 'not' sau động từ chính."
+      "explanationVi": "Câu phủ định hoàn chỉnh: \"Never have not I seen such a beautiful sunset.\"."
     },
     {
       "id": "ex-098-12",
       "type": "sentence_scramble",
-      "promptVi": "[Sắp xếp câu] Xếp các khối từ thành câu hoàn chỉnh mang nghĩa: \"Chưa bao giờ tôi nhìn thấy một cảnh hoàng hôn đẹp đến thế.\"",
+      "promptVi": "[Sắp xếp câu] Ghép các khối từ thành câu hoàn chỉnh mang nghĩa: \"Chưa bao giờ tôi nhìn thấy một cảnh hoàng hôn đẹp đến thế.\"",
+      "question": "Sắp xếp các từ để tạo thành câu đúng: \"Chưa bao giờ tôi nhìn thấy một cảnh hoàng hôn đẹp đến thế.\"",
       "words": [
-        "beautiful",
-        "I",
-        "a",
         "sunset.",
-        "seen",
+        "a",
+        "I",
+        "Never",
+        "beautiful",
         "have",
-        "such",
-        "Never"
+        "seen",
+        "such"
       ],
       "correctSentence": "Never have I seen such a beautiful sunset.",
       "hintVi": "Chưa bao giờ tôi nhìn thấy một cảnh hoàng hôn đẹp đến thế.",
@@ -178,19 +180,20 @@
     {
       "id": "ex-098-13",
       "type": "sentence_scramble",
-      "promptVi": "[Sắp xếp câu] Xếp các khối từ thành câu hoàn chỉnh mang nghĩa: \"Tôi vừa mới về đến nhà thì trời bắt đầu đổ mưa.\"",
+      "promptVi": "[Sắp xếp câu] Ghép các khối từ thành câu hoàn chỉnh mang nghĩa: \"Tôi vừa mới về đến nhà thì trời bắt đầu đổ mưa.\"",
+      "question": "Sắp xếp các từ để tạo thành câu đúng: \"Tôi vừa mới về đến nhà thì trời bắt đầu đổ mưa.\"",
       "words": [
         "rain.",
-        "it",
-        "had",
-        "arrived",
-        "home",
-        "No",
-        "to",
-        "than",
         "I",
+        "to",
         "started",
-        "sooner"
+        "it",
+        "than",
+        "home",
+        "sooner",
+        "No",
+        "arrived",
+        "had"
       ],
       "correctSentence": "No sooner had I arrived home than it started to rain.",
       "hintVi": "Tôi vừa mới về đến nhà thì trời bắt đầu đổ mưa.",
@@ -199,18 +202,19 @@
     {
       "id": "ex-098-14",
       "type": "sentence_scramble",
-      "promptVi": "[Sắp xếp câu] Xếp các khối từ thành câu hoàn chỉnh mang nghĩa: \"Chỉ bằng cách luyện tập mỗi ngày, bạn mới có thể nói tiếng Anh trôi chảy.\"",
+      "promptVi": "[Sắp xếp câu] Ghép các khối từ thành câu hoàn chỉnh mang nghĩa: \"Chỉ bằng cách luyện tập mỗi ngày, bạn mới có thể nói tiếng Anh trôi chảy.\"",
+      "question": "Sắp xếp các từ để tạo thành câu đúng: \"Chỉ bằng cách luyện tập mỗi ngày, bạn mới có thể nói tiếng Anh trôi chảy.\"",
       "words": [
-        "fluently.",
+        "speak",
+        "Only",
         "you",
         "can",
-        "practicing",
-        "Only",
-        "English",
-        "by",
         "every",
-        "day",
-        "speak"
+        "by",
+        "English",
+        "practicing",
+        "fluently.",
+        "day"
       ],
       "correctSentence": "Only by practicing every day can you speak English fluently.",
       "hintVi": "Chỉ bằng cách luyện tập mỗi ngày, bạn mới có thể nói tiếng Anh trôi chảy.",
@@ -219,17 +223,18 @@
     {
       "id": "ex-098-15",
       "type": "sentence_scramble",
-      "promptVi": "[Sắp xếp câu] Xếp các khối từ thành câu hoàn chỉnh mang nghĩa: \"Nếu quý khách cần thêm bất kỳ thông tin nào, xin vui lòng liên hệ với chúng tôi.\"",
+      "promptVi": "[Sắp xếp câu] Ghép các khối từ thành câu hoàn chỉnh mang nghĩa: \"Nếu quý khách cần thêm bất kỳ thông tin nào, xin vui lòng liên hệ với chúng tôi.\"",
+      "question": "Sắp xếp các từ để tạo thành câu đúng: \"Nếu quý khách cần thêm bất kỳ thông tin nào, xin vui lòng liên hệ với chúng tôi.\"",
       "words": [
         "you",
         "information,",
         "please",
-        "Should",
-        "us.",
         "further",
-        "need",
         "contact",
-        "any"
+        "us.",
+        "Should",
+        "any",
+        "need"
       ],
       "correctSentence": "Should you need any further information, please contact us.",
       "hintVi": "Nếu quý khách cần thêm bất kỳ thông tin nào, xin vui lòng liên hệ với chúng tôi.",
@@ -238,25 +243,26 @@
     {
       "id": "ex-098-16",
       "type": "sentence_scramble",
-      "promptVi": "[Sắp xếp câu] Xếp các từ thành câu hội thoại: \"Ngay khi chúng ta vừa triển khai giao thức mã hóa lượng tử thì những kẻ tấn công bên ngoài đã lập tức hủy bỏ cuộc tấn công mạng. (No sooner had we deployed... than...)\"",
+      "promptVi": "[Sắp xếp câu] Ghép các từ thành câu hội thoại: \"Ngay khi chúng ta vừa triển khai giao thức mã hóa lượng tử thì những kẻ tấn công bên ngoài đã lập tức hủy bỏ cuộc tấn công mạng. (No sooner had we deployed... than...)\"",
+      "question": "Sắp xếp các từ để tạo thành câu thoại: \"Ngay khi chúng ta vừa triển khai giao thức mã hóa lượng tử thì những kẻ tấn công bên ngoài đã lập tức hủy bỏ cuộc tấn công mạng. (No sooner had we deployed... than...)\"",
       "words": [
-        "aborted",
-        "sooner",
-        "quantum",
-        "external",
-        "No",
         "cyber",
-        "the",
-        "attackers",
-        "than",
-        "their",
         "had",
-        "assault",
+        "aborted",
         "we",
+        "assault",
+        "external",
+        "attackers",
+        "deployed",
+        "sooner",
+        "than",
+        "quantum",
         "encryption",
-        "protocol",
+        "their",
         "the",
-        "deployed"
+        "No",
+        "the",
+        "protocol"
       ],
       "correctSentence": "No sooner had we deployed the quantum encryption protocol than the external attackers aborted their cyber assault.",
       "hintVi": "Ngay khi chúng ta vừa triển khai giao thức mã hóa lượng tử thì những kẻ tấn công bên ngoài đã lập tức hủy bỏ cuộc tấn công mạng. (No sooner had we deployed... than...)",
@@ -265,70 +271,70 @@
     {
       "id": "ex-098-17",
       "type": "find_error",
-      "promptVi": "[Tìm lỗi sai & Chọn câu đúng] Câu nào dưới đây có cấu trúc ngữ pháp HOÀN TOÀN ĐÚNG?",
-      "question": "Chủ điểm \"Bài 98: Đảo ngữ Toàn Diện — Tuyển Tập Tất Cả Các Trường Hợp (Master Inversion Guide: Negatives, Time, Conditionals, Only & So/Such)\": Chọn câu CHÍNH XÁC:",
+      "promptVi": "[Nhận diện cấu trúc chuẩn] Chọn câu có cấu trúc ngữ pháp HOÀN TOÀN ĐÚNG:",
+      "question": "Dựa vào chủ điểm \"Bài 98: Đảo ngữ Toàn Diện — Tuyển Tập Tất Cả Các Trường Hợp (Master Inversion Guide: Negatives, Time, Conditionals, Only & So/Such)\", câu nào sau đây CHÍNH XÁC?",
       "options": [
         "Never have I seen such a beautiful sunset.",
-        "sunset. beautiful a such seen I have Never",
-        "Never have I seen such a beautiful sunset. (sai)",
-        "Never have I seen such a beautiful sunset. (sai)"
+        "is",
+        "are",
+        "sunset. beautiful a such seen I have Never"
       ],
       "correctAnswer": "Never have I seen such a beautiful sunset.",
-      "explanationVi": "Câu chuẩn xác là: \"Never have I seen such a beautiful sunset.\" (Chưa bao giờ tôi nhìn thấy một cảnh hoàng hôn đẹp đến thế.)."
+      "explanationVi": "Cấu trúc chuẩn xác là: \"Never have I seen such a beautiful sunset.\" (Chưa bao giờ tôi nhìn thấy một cảnh hoàng hôn đẹp đến thế.)."
     },
     {
       "id": "ex-098-18",
       "type": "find_error",
-      "promptVi": "[Tìm lỗi sai & Chọn câu đúng] Câu nào dưới đây có cấu trúc ngữ pháp HOÀN TOÀN ĐÚNG?",
-      "question": "Chủ điểm \"Bài 98: Đảo ngữ Toàn Diện — Tuyển Tập Tất Cả Các Trường Hợp (Master Inversion Guide: Negatives, Time, Conditionals, Only & So/Such)\": Chọn câu CHÍNH XÁC:",
+      "promptVi": "[Nhận diện cấu trúc chuẩn] Chọn câu có cấu trúc ngữ pháp HOÀN TOÀN ĐÚNG:",
+      "question": "Dựa vào chủ điểm \"Bài 98: Đảo ngữ Toàn Diện — Tuyển Tập Tất Cả Các Trường Hợp (Master Inversion Guide: Negatives, Time, Conditionals, Only & So/Such)\", câu nào sau đây CHÍNH XÁC?",
       "options": [
+        "No sooner had I arrived home than it started at rain.",
         "No sooner had I arrived home than it started to rain.",
         "rain. to started it than home arrived I had sooner No",
-        "No sooner had I arrived home than it started to rain. (sai)",
-        "No sooner had I arrived home than it started to rain. (sai)"
+        "is"
       ],
       "correctAnswer": "No sooner had I arrived home than it started to rain.",
-      "explanationVi": "Câu chuẩn xác là: \"No sooner had I arrived home than it started to rain.\" (Tôi vừa mới về đến nhà thì trời bắt đầu đổ mưa.)."
+      "explanationVi": "Cấu trúc chuẩn xác là: \"No sooner had I arrived home than it started to rain.\" (Tôi vừa mới về đến nhà thì trời bắt đầu đổ mưa.)."
     },
     {
       "id": "ex-098-19",
       "type": "find_error",
-      "promptVi": "[Tìm lỗi sai & Chọn câu đúng] Câu nào dưới đây có cấu trúc ngữ pháp HOÀN TOÀN ĐÚNG?",
-      "question": "Chủ điểm \"Bài 98: Đảo ngữ Toàn Diện — Tuyển Tập Tất Cả Các Trường Hợp (Master Inversion Guide: Negatives, Time, Conditionals, Only & So/Such)\": Chọn câu CHÍNH XÁC:",
+      "promptVi": "[Nhận diện cấu trúc chuẩn] Chọn câu có cấu trúc ngữ pháp HOÀN TOÀN ĐÚNG:",
+      "question": "Dựa vào chủ điểm \"Bài 98: Đảo ngữ Toàn Diện — Tuyển Tập Tất Cả Các Trường Hợp (Master Inversion Guide: Negatives, Time, Conditionals, Only & So/Such)\", câu nào sau đây CHÍNH XÁC?",
       "options": [
-        "Only by practicing every day can you speak English fluently.",
+        "Only at practicing every day can you speak English fluently.",
         "fluently. English speak you can day every practicing by Only",
-        "Only by practicing every day can you speak English fluently. (sai)",
-        "Only by practicing every day can you speak English fluently. (sai)"
+        "is",
+        "Only by practicing every day can you speak English fluently."
       ],
       "correctAnswer": "Only by practicing every day can you speak English fluently.",
-      "explanationVi": "Câu chuẩn xác là: \"Only by practicing every day can you speak English fluently.\" (Chỉ bằng cách luyện tập mỗi ngày, bạn mới có thể nói tiếng Anh trôi chảy.)."
+      "explanationVi": "Cấu trúc chuẩn xác là: \"Only by practicing every day can you speak English fluently.\" (Chỉ bằng cách luyện tập mỗi ngày, bạn mới có thể nói tiếng Anh trôi chảy.)."
     },
     {
       "id": "ex-098-20",
       "type": "find_error",
-      "promptVi": "[Tìm lỗi sai & Chọn câu đúng] Câu nào dưới đây có cấu trúc ngữ pháp HOÀN TOÀN ĐÚNG?",
-      "question": "Chủ điểm \"Bài 98: Đảo ngữ Toàn Diện — Tuyển Tập Tất Cả Các Trường Hợp (Master Inversion Guide: Negatives, Time, Conditionals, Only & So/Such)\": Chọn câu CHÍNH XÁC:",
+      "promptVi": "[Nhận diện cấu trúc chuẩn] Chọn câu có cấu trúc ngữ pháp HOÀN TOÀN ĐÚNG:",
+      "question": "Dựa vào chủ điểm \"Bài 98: Đảo ngữ Toàn Diện — Tuyển Tập Tất Cả Các Trường Hợp (Master Inversion Guide: Negatives, Time, Conditionals, Only & So/Such)\", câu nào sau đây CHÍNH XÁC?",
       "options": [
-        "Should you need any further information, please contact us.",
         "us. contact please information, further any need you Should",
-        "Should you need any further information, please contact us. (sai)",
-        "Should you need any further information, please contact us. (sai)"
+        "are",
+        "is",
+        "Should you need any further information, please contact us."
       ],
       "correctAnswer": "Should you need any further information, please contact us.",
-      "explanationVi": "Câu chuẩn xác là: \"Should you need any further information, please contact us.\" (Nếu quý khách cần thêm bất kỳ thông tin nào, xin vui lòng liên hệ với chúng tôi.)."
+      "explanationVi": "Cấu trúc chuẩn xác là: \"Should you need any further information, please contact us.\" (Nếu quý khách cần thêm bất kỳ thông tin nào, xin vui lòng liên hệ với chúng tôi.)."
     },
     {
       "id": "ex-098-21",
       "type": "listening_reflex",
-      "promptVi": "[Nghe phản xạ] Nghe câu phát âm tiếng Anh và chọn bản dịch tiếng Việt đúng nhất:",
+      "promptVi": "[Nghe phản xạ] Nghe câu phát âm tiếng Anh và chọn bản dịch tiếng Việt đúng:",
       "audioPrompt": "Good morning, Director Steele. Never before has our intelligence agency witnessed such sophisticated algorithmic espionage.",
-      "question": "Nhấn nút '🔊 Nghe audio' để nghe câu thoại và chọn nghĩa đúng:",
+      "question": "Nhấn nút '🔊 Nghe audio' và chọn nghĩa tiếng Việt đúng:",
       "options": [
-        "Chào buổi sáng Giám đốc Steele. Chưa bao giờ trước đây cơ quan tình báo của chúng ta chứng kiến hoạt động gián điệp thuật toán tinh vi đến vậy. (Never before has S V3)",
+        "Hôm nay thời tiết rất đẹp.",
         "Trong bất kỳ hoàn cảnh nào, các kỹ sư chưa được cấp quyền cũng không được phép truy cập vào các trọng số thần kinh huấn luyện thô. (Under no circumstances must S V)",
-        "Ngay khi chúng ta vừa triển khai giao thức mã hóa lượng tử thì những kẻ tấn công bên ngoài đã lập tức hủy bỏ cuộc tấn công mạng. (No sooner had we deployed... than...)",
-        "Ngày mai trời sẽ mưa to."
+        "Chào buổi sáng Giám đốc Steele. Chưa bao giờ trước đây cơ quan tình báo của chúng ta chứng kiến hoạt động gián điệp thuật toán tinh vi đến vậy. (Never before has S V3)",
+        "Ngay khi chúng ta vừa triển khai giao thức mã hóa lượng tử thì những kẻ tấn công bên ngoài đã lập tức hủy bỏ cuộc tấn công mạng. (No sooner had we deployed... than...)"
       ],
       "correctAnswer": "Chào buổi sáng Giám đốc Steele. Chưa bao giờ trước đây cơ quan tình báo của chúng ta chứng kiến hoạt động gián điệp thuật toán tinh vi đến vậy. (Never before has S V3)",
       "explanationVi": "Câu nghe được: \"Good morning, Director Steele. Never before has our intelligence agency witnessed such sophisticated algorithmic espionage.\" có nghĩa là: \"Chào buổi sáng Giám đốc Steele. Chưa bao giờ trước đây cơ quan tình báo của chúng ta chứng kiến hoạt động gián điệp thuật toán tinh vi đến vậy. (Never before has S V3)\"."
@@ -336,14 +342,14 @@
     {
       "id": "ex-098-22",
       "type": "listening_reflex",
-      "promptVi": "[Nghe phản xạ] Nghe câu phát âm tiếng Anh và chọn bản dịch tiếng Việt đúng nhất:",
+      "promptVi": "[Nghe phản xạ] Nghe câu phát âm tiếng Anh và chọn bản dịch tiếng Việt đúng:",
       "audioPrompt": "Under no circumstances must unauthorized engineers access raw training neural weights.",
-      "question": "Nhấn nút '🔊 Nghe audio' để nghe câu thoại và chọn nghĩa đúng:",
+      "question": "Nhấn nút '🔊 Nghe audio' và chọn nghĩa tiếng Việt đúng:",
       "options": [
-        "Trong bất kỳ hoàn cảnh nào, các kỹ sư chưa được cấp quyền cũng không được phép truy cập vào các trọng số thần kinh huấn luyện thô. (Under no circumstances must S V)",
-        "Ngay khi chúng ta vừa triển khai giao thức mã hóa lượng tử thì những kẻ tấn công bên ngoài đã lập tức hủy bỏ cuộc tấn công mạng. (No sooner had we deployed... than...)",
         "Cơ sở dữ liệu trung tâm vừa mới cảnh báo an ninh thì các thuật toán chống xâm nhập của chúng ta đã cô lập máy chủ bị xâm phạm. (Hardly had S V3... when...)",
-        "Ngày mai trời sẽ mưa to."
+        "Trong bất kỳ hoàn cảnh nào, các kỹ sư chưa được cấp quyền cũng không được phép truy cập vào các trọng số thần kinh huấn luyện thô. (Under no circumstances must S V)",
+        "Hôm nay thời tiết rất đẹp.",
+        "Ngay khi chúng ta vừa triển khai giao thức mã hóa lượng tử thì những kẻ tấn công bên ngoài đã lập tức hủy bỏ cuộc tấn công mạng. (No sooner had we deployed... than...)"
       ],
       "correctAnswer": "Trong bất kỳ hoàn cảnh nào, các kỹ sư chưa được cấp quyền cũng không được phép truy cập vào các trọng số thần kinh huấn luyện thô. (Under no circumstances must S V)",
       "explanationVi": "Câu nghe được: \"Under no circumstances must unauthorized engineers access raw training neural weights.\" có nghĩa là: \"Trong bất kỳ hoàn cảnh nào, các kỹ sư chưa được cấp quyền cũng không được phép truy cập vào các trọng số thần kinh huấn luyện thô. (Under no circumstances must S V)\"."
@@ -351,14 +357,14 @@
     {
       "id": "ex-098-23",
       "type": "listening_reflex",
-      "promptVi": "[Nghe phản xạ] Nghe câu phát âm tiếng Anh và chọn bản dịch tiếng Việt đúng nhất:",
+      "promptVi": "[Nghe phản xạ] Nghe câu phát âm tiếng Anh và chọn bản dịch tiếng Việt đúng:",
       "audioPrompt": "No sooner had we deployed the quantum encryption protocol than the external attackers aborted their cyber assault.",
-      "question": "Nhấn nút '🔊 Nghe audio' để nghe câu thoại và chọn nghĩa đúng:",
+      "question": "Nhấn nút '🔊 Nghe audio' và chọn nghĩa tiếng Việt đúng:",
       "options": [
-        "Ngay khi chúng ta vừa triển khai giao thức mã hóa lượng tử thì những kẻ tấn công bên ngoài đã lập tức hủy bỏ cuộc tấn công mạng. (No sooner had we deployed... than...)",
+        "Hôm nay thời tiết rất đẹp.",
         "Cơ sở dữ liệu trung tâm vừa mới cảnh báo an ninh thì các thuật toán chống xâm nhập của chúng ta đã cô lập máy chủ bị xâm phạm. (Hardly had S V3... when...)",
         "Chỉ bằng cách thực thi các khóa sinh trắc học đa yếu tố, chúng ta mới có thể đảm bảo tính toàn vẹn dữ liệu tuyệt đối. (Only by V-ing can we guarantee)",
-        "Ngày mai trời sẽ mưa to."
+        "Ngay khi chúng ta vừa triển khai giao thức mã hóa lượng tử thì những kẻ tấn công bên ngoài đã lập tức hủy bỏ cuộc tấn công mạng. (No sooner had we deployed... than...)"
       ],
       "correctAnswer": "Ngay khi chúng ta vừa triển khai giao thức mã hóa lượng tử thì những kẻ tấn công bên ngoài đã lập tức hủy bỏ cuộc tấn công mạng. (No sooner had we deployed... than...)",
       "explanationVi": "Câu nghe được: \"No sooner had we deployed the quantum encryption protocol than the external attackers aborted their cyber assault.\" có nghĩa là: \"Ngay khi chúng ta vừa triển khai giao thức mã hóa lượng tử thì những kẻ tấn công bên ngoài đã lập tức hủy bỏ cuộc tấn công mạng. (No sooner had we deployed... than...)\"."
@@ -366,14 +372,14 @@
     {
       "id": "ex-098-24",
       "type": "listening_reflex",
-      "promptVi": "[Nghe phản xạ] Nghe câu phát âm tiếng Anh và chọn bản dịch tiếng Việt đúng nhất:",
+      "promptVi": "[Nghe phản xạ] Nghe câu phát âm tiếng Anh và chọn bản dịch tiếng Việt đúng:",
       "audioPrompt": "Hardly had the central database alerted security when our counter-intrusion algorithms isolated the compromised server.",
-      "question": "Nhấn nút '🔊 Nghe audio' để nghe câu thoại và chọn nghĩa đúng:",
+      "question": "Nhấn nút '🔊 Nghe audio' và chọn nghĩa tiếng Việt đúng:",
       "options": [
-        "Cơ sở dữ liệu trung tâm vừa mới cảnh báo an ninh thì các thuật toán chống xâm nhập của chúng ta đã cô lập máy chủ bị xâm phạm. (Hardly had S V3... when...)",
+        "Hôm nay thời tiết rất đẹp.",
         "Chỉ bằng cách thực thi các khóa sinh trắc học đa yếu tố, chúng ta mới có thể đảm bảo tính toàn vẹn dữ liệu tuyệt đối. (Only by V-ing can we guarantee)",
-        "Nếu có bất kỳ sự bất thường nào của hệ thống nảy sinh, đội phản ứng nhanh của chúng ta sẽ vô hiệu hóa nó trong vòng 60 giây. (Should S V = If S should V)",
-        "Ngày mai trời sẽ mưa to."
+        "Cơ sở dữ liệu trung tâm vừa mới cảnh báo an ninh thì các thuật toán chống xâm nhập của chúng ta đã cô lập máy chủ bị xâm phạm. (Hardly had S V3... when...)",
+        "Nếu có bất kỳ sự bất thường nào của hệ thống nảy sinh, đội phản ứng nhanh của chúng ta sẽ vô hiệu hóa nó trong vòng 60 giây. (Should S V = If S should V)"
       ],
       "correctAnswer": "Cơ sở dữ liệu trung tâm vừa mới cảnh báo an ninh thì các thuật toán chống xâm nhập của chúng ta đã cô lập máy chủ bị xâm phạm. (Hardly had S V3... when...)",
       "explanationVi": "Câu nghe được: \"Hardly had the central database alerted security when our counter-intrusion algorithms isolated the compromised server.\" có nghĩa là: \"Cơ sở dữ liệu trung tâm vừa mới cảnh báo an ninh thì các thuật toán chống xâm nhập của chúng ta đã cô lập máy chủ bị xâm phạm. (Hardly had S V3... when...)\"."
@@ -381,64 +387,68 @@
     {
       "id": "ex-098-25",
       "type": "speaking_practice",
-      "promptVi": "[Luyện nói qua Micro] Nhấn nút '🎙️ Bắt đầu nói' và đọc to, rõ ràng câu tiếng Anh sau:",
+      "promptVi": "[Luyện nói qua Micro] Nhấn nút 'Bấm để Nói ngay' và phát âm câu sau:",
+      "question": "Luyện phát âm chuẩn câu: \"Never have I seen such a beautiful sunset.\" (Chưa bao giờ tôi nhìn thấy một cảnh hoàng hôn đẹp đến thế.)",
       "targetSentence": "Never have I seen such a beautiful sunset.",
       "hintVi": "Chưa bao giờ tôi nhìn thấy một cảnh hoàng hôn đẹp đến thế.",
-      "explanationVi": "Câu mục tiêu: \"Never have I seen such a beautiful sunset.\" (Chưa bao giờ tôi nhìn thấy một cảnh hoàng hôn đẹp đến thế.). Luyện phát âm chuẩn xác từng âm tiết và ngữ điệu tự nhiên."
+      "explanationVi": "Mẫu câu chuẩn: \"Never have I seen such a beautiful sunset.\" (Chưa bao giờ tôi nhìn thấy một cảnh hoàng hôn đẹp đến thế.). Luyện phát âm rõ ràng từng từ."
     },
     {
       "id": "ex-098-26",
       "type": "speaking_practice",
-      "promptVi": "[Luyện nói qua Micro] Nhấn nút '🎙️ Bắt đầu nói' và đọc to, rõ ràng câu tiếng Anh sau:",
+      "promptVi": "[Luyện nói qua Micro] Nhấn nút 'Bấm để Nói ngay' và phát âm câu sau:",
+      "question": "Luyện phát âm chuẩn câu: \"No sooner had I arrived home than it started to rain.\" (Tôi vừa mới về đến nhà thì trời bắt đầu đổ mưa.)",
       "targetSentence": "No sooner had I arrived home than it started to rain.",
       "hintVi": "Tôi vừa mới về đến nhà thì trời bắt đầu đổ mưa.",
-      "explanationVi": "Câu mục tiêu: \"No sooner had I arrived home than it started to rain.\" (Tôi vừa mới về đến nhà thì trời bắt đầu đổ mưa.). Luyện phát âm chuẩn xác từng âm tiết và ngữ điệu tự nhiên."
+      "explanationVi": "Mẫu câu chuẩn: \"No sooner had I arrived home than it started to rain.\" (Tôi vừa mới về đến nhà thì trời bắt đầu đổ mưa.). Luyện phát âm rõ ràng từng từ."
     },
     {
       "id": "ex-098-27",
       "type": "speaking_practice",
-      "promptVi": "[Luyện nói qua Micro] Nhấn nút '🎙️ Bắt đầu nói' và đọc to, rõ ràng câu tiếng Anh sau:",
+      "promptVi": "[Luyện nói qua Micro] Nhấn nút 'Bấm để Nói ngay' và phát âm câu sau:",
+      "question": "Luyện phát âm chuẩn câu: \"Only by practicing every day can you speak English fluently.\" (Chỉ bằng cách luyện tập mỗi ngày, bạn mới có thể nói tiếng Anh trôi chảy.)",
       "targetSentence": "Only by practicing every day can you speak English fluently.",
       "hintVi": "Chỉ bằng cách luyện tập mỗi ngày, bạn mới có thể nói tiếng Anh trôi chảy.",
-      "explanationVi": "Câu mục tiêu: \"Only by practicing every day can you speak English fluently.\" (Chỉ bằng cách luyện tập mỗi ngày, bạn mới có thể nói tiếng Anh trôi chảy.). Luyện phát âm chuẩn xác từng âm tiết và ngữ điệu tự nhiên."
+      "explanationVi": "Mẫu câu chuẩn: \"Only by practicing every day can you speak English fluently.\" (Chỉ bằng cách luyện tập mỗi ngày, bạn mới có thể nói tiếng Anh trôi chảy.). Luyện phát âm rõ ràng từng từ."
     },
     {
       "id": "ex-098-28",
       "type": "speaking_practice",
-      "promptVi": "[Luyện nói qua Micro] Nhấn nút '🎙️ Bắt đầu nói' và đọc to, rõ ràng câu tiếng Anh sau:",
+      "promptVi": "[Luyện nói qua Micro] Nhấn nút 'Bấm để Nói ngay' và phát âm câu sau:",
+      "question": "Luyện phát âm chuẩn câu: \"Should you need any further information, please contact us.\" (Nếu quý khách cần thêm bất kỳ thông tin nào, xin vui lòng liên hệ với chúng tôi.)",
       "targetSentence": "Should you need any further information, please contact us.",
       "hintVi": "Nếu quý khách cần thêm bất kỳ thông tin nào, xin vui lòng liên hệ với chúng tôi.",
-      "explanationVi": "Câu mục tiêu: \"Should you need any further information, please contact us.\" (Nếu quý khách cần thêm bất kỳ thông tin nào, xin vui lòng liên hệ với chúng tôi.). Luyện phát âm chuẩn xác từng âm tiết và ngữ điệu tự nhiên."
+      "explanationVi": "Mẫu câu chuẩn: \"Should you need any further information, please contact us.\" (Nếu quý khách cần thêm bất kỳ thông tin nào, xin vui lòng liên hệ với chúng tôi.). Luyện phát âm rõ ràng từng từ."
     },
     {
       "id": "ex-098-29",
       "type": "reading_comprehension",
-      "promptVi": "[Đọc hiểu đoạn văn 1] Đọc đoạn hội thoại mở đầu sau và trả lời câu hỏi:",
-      "passage": "Chief Inspector Ross (Nam): \"Good morning, Director Steele. Never before has our intelligence agency witnessed such sophisticated algorithmic espionage.\"\nDirector Steele (Nữ): \"Under no circumstances must unauthorized engineers access raw training neural weights.\"\nChief Inspector Ross (Nam): \"No sooner had we deployed the quantum encryption protocol than the external attackers aborted their cyber assault.\"\nDirector Steele (Nữ): \"Hardly had the central database alerted security when our counter-intrusion algorithms isolated the compromised server.\"",
-      "question": "Câu hỏi: Trong đoạn hội thoại trên, các nhân vật đang thảo luận về chủ đề gì?",
+      "promptVi": "[Đọc hiểu đoạn văn] Đọc đoạn hội thoại sau và trả lời câu hỏi:",
+      "passage": "Chief Inspector Ross: \"Good morning, Director Steele. Never before has our intelligence agency witnessed such sophisticated algorithmic espionage.\"\nDirector Steele: \"Under no circumstances must unauthorized engineers access raw training neural weights.\"\nChief Inspector Ross: \"No sooner had we deployed the quantum encryption protocol than the external attackers aborted their cyber assault.\"\nDirector Steele: \"Hardly had the central database alerted security when our counter-intrusion algorithms isolated the compromised server.\"",
+      "question": "Chủ đề trọng tâm của đoạn hội thoại trên là gì?",
       "options": [
+        "Kế hoạch đi mua sắm tại siêu thị",
         "Đảo ngữ Toàn Diện — Tuyển Tập Tất Cả Các Trường Hợp (Master Inversion Guide: Negatives, Time, Conditionals, Only & So/Such)",
-        "Kế hoạch đi nghỉ dưỡng cuối tuần ở bãi biển",
-        "Mua sắm quần áo và đồ dùng thể thao",
-        "Cách làm món ăn truyền thống gia đình"
+        "Lịch trình đi du lịch nghỉ mát cuối tuần",
+        "Cách làm món ăn truyền thống"
       ],
       "correctAnswer": "Đảo ngữ Toàn Diện — Tuyển Tập Tất Cả Các Trường Hợp (Master Inversion Guide: Negatives, Time, Conditionals, Only & So/Such)",
-      "explanationVi": "Đoạn hội thoại mở đầu được thiết kế để minh họa trực tiếp cho chủ điểm ngữ pháp: \"Bài 98: Đảo ngữ Toàn Diện — Tuyển Tập Tất Cả Các Trường Hợp (Master Inversion Guide: Negatives, Time, Conditionals, Only & So/Such)\"."
+      "explanationVi": "Đoạn hội thoại được thiết kế để minh họa trực tiếp cho chủ điểm \"Bài 98: Đảo ngữ Toàn Diện — Tuyển Tập Tất Cả Các Trường Hợp (Master Inversion Guide: Negatives, Time, Conditionals, Only & So/Such)\"."
     },
     {
       "id": "ex-098-30",
       "type": "reading_comprehension",
-      "promptVi": "[Đọc hiểu đoạn văn 2] Đọc phần tiếp theo của đoạn hội thoại và chọn nhận định đúng:",
-      "passage": "Chief Inspector Ross (Nam): \"Only by enforcing multi-factor biometric keys can we guarantee absolute data integrity.\"\nDirector Steele (Nữ): \"Should any system anomaly arise, our rapid incident team will neutralize it within sixty seconds.\"\nChief Inspector Ross (Nam): \"Were our server infrastructure located abroad, international regulatory compliance would be far more difficult.\"\nDirector Steele (Nữ): \"Had we not patched the legacy firmware last month, the entire national electrical grid would have collapsed.\"",
-      "question": "Nhận định nào sau đây là ĐÚNG với nội dung đoạn hội thoại trên?",
+      "promptVi": "[Đọc hiểu đoạn văn] Đọc đoạn đối thoại tiếp theo và chọn nhận định đúng:",
+      "passage": "Chief Inspector Ross: \"Only by enforcing multi-factor biometric keys can we guarantee absolute data integrity.\"\nDirector Steele: \"Should any system anomaly arise, our rapid incident team will neutralize it within sixty seconds.\"\nChief Inspector Ross: \"Were our server infrastructure located abroad, international regulatory compliance would be far more difficult.\"\nDirector Steele: \"Had we not patched the legacy firmware last month, the entire national electrical grid would have collapsed.\"",
+      "question": "Nhận định nào sau đây là ĐÚNG về nội dung đoạn đối thoại?",
       "options": [
-        "Các câu hội thoại sử dụng đúng cấu trúc ngữ pháp \"Bài 98: Đảo ngữ Toàn Diện — Tuyển Tập Tất Cả Các Trường Hợp (Master Inversion Guide: Negatives, Time, Conditionals, Only & So/Such)\".",
-        "Các nhân vật không hiểu ý nhau và từ chối nói chuyện.",
-        "Đoạn hội thoại nói về việc chuyển nhà sang thành phố khác.",
-        "Cả hai nhân vật đều đang ở sân bay chuẩn bị lên máy bay."
+        "Hai nhân vật đang cãi nhau và không đồng ý hợp tác.",
+        "Các câu thoại sử dụng đúng cấu trúc \"Đảo ngữ Toàn Diện — Tuyển Tập Tất Cả Các Trường Hợp (Master Inversion Guide: Negatives, Time, Conditionals, Only & So/Such)\".",
+        "Cuộc trò chuyện diễn ra tại nhà ga xe lửa.",
+        "Cả hai nhân vật đang thảo luận về thời tiết ngày mai."
       ],
-      "correctAnswer": "Các câu hội thoại sử dụng đúng cấu trúc ngữ pháp \"Bài 98: Đảo ngữ Toàn Diện — Tuyển Tập Tất Cả Các Trường Hợp (Master Inversion Guide: Negatives, Time, Conditionals, Only & So/Such)\".",
-      "explanationVi": "Đoạn hội thoại thứ hai tiếp tục củng cố và ứng dụng các quy tắc ngữ pháp của \"Bài 98: Đảo ngữ Toàn Diện — Tuyển Tập Tất Cả Các Trường Hợp (Master Inversion Guide: Negatives, Time, Conditionals, Only & So/Such)\"."
+      "correctAnswer": "Các câu thoại sử dụng đúng cấu trúc \"Đảo ngữ Toàn Diện — Tuyển Tập Tất Cả Các Trường Hợp (Master Inversion Guide: Negatives, Time, Conditionals, Only & So/Such)\".",
+      "explanationVi": "Đoạn đối thoại ứng dụng chuẩn xác ngữ pháp của \"Bài 98: Đảo ngữ Toàn Diện — Tuyển Tập Tất Cả Các Trường Hợp (Master Inversion Guide: Negatives, Time, Conditionals, Only & So/Such)\"."
     }
   ]
 }

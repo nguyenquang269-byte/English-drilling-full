@@ -7,13 +7,13 @@
     {
       "id": "ex-077-01",
       "type": "multiple_choice",
-      "promptVi": "[Trắc nghiệm] Chọn từ/cụm từ đúng để hoàn thành câu (Công ty mà tôi làm việc cho rất nổi tiếng.):",
+      "promptVi": "[Trắc nghiệm ngữ pháp] Chọn từ đúng để hoàn thành câu (Công ty mà tôi làm việc cho rất nổi tiếng.):",
       "question": "The company for ___ I work is very famous.",
       "options": [
-        "which",
-        "that",
         "whom",
-        "where"
+        "where",
+        "which",
+        "that"
       ],
       "correctAnswer": "which",
       "explanationVi": "Sau giới từ chỉ danh từ vật 'The company' bắt buộc dùng 'which'."
@@ -21,13 +21,13 @@
     {
       "id": "ex-077-02",
       "type": "multiple_choice",
-      "promptVi": "[Trắc nghiệm] Chọn từ/cụm từ đúng để hoàn thành câu (Bố tôi, người năm nay sáu mươi tuổi, vẫn tập thể dục mỗi sáng.):",
+      "promptVi": "[Trắc nghiệm ngữ pháp] Chọn từ đúng để hoàn thành câu (Bố tôi, người năm nay sáu mươi tuổi, vẫn tập thể dục mỗi sáng.):",
       "question": "My father, ___ is sixty years old, still exercises every morning.",
       "options": [
-        "who",
         "that",
-        "whom",
-        "whose"
+        "who",
+        "whose",
+        "whom"
       ],
       "correctAnswer": "who",
       "explanationVi": "Sau dấu phẩy chỉ người làm chủ ngữ dùng 'who', không dùng 'that'."
@@ -35,13 +35,13 @@
     {
       "id": "ex-077-03",
       "type": "multiple_choice",
-      "promptVi": "[Trắc nghiệm] Chọn từ/cụm từ đúng để hoàn thành câu (Anh ấy đã trình bày năm đề xuất, ba trong số đó đã được phê duyệt.):",
+      "promptVi": "[Trắc nghiệm ngữ pháp] Chọn từ đúng để hoàn thành câu (Anh ấy đã trình bày năm đề xuất, ba trong số đó đã được phê duyệt.):",
       "question": "He presented five proposals, three of ___ were approved.",
       "options": [
-        "which",
         "them",
-        "whom",
-        "that"
+        "which",
+        "that",
+        "whom"
       ],
       "correctAnswer": "which",
       "explanationVi": "Bổ nghĩa cho 'proposals' sau số lượng 'three of' trong mệnh đề quan hệ dùng 'which'."
@@ -49,13 +49,13 @@
     {
       "id": "ex-077-04",
       "type": "multiple_choice",
-      "promptVi": "[Trắc nghiệm] Chọn từ/cụm từ đúng để hoàn thành câu (Cô ấy là người cố vấn mà nếu không có sự hỗ trợ của cô thì tôi không thể thành công.):",
+      "promptVi": "[Trắc nghiệm ngữ pháp] Chọn từ đúng để hoàn thành câu (Cô ấy là người cố vấn mà nếu không có sự hỗ trợ của cô thì tôi không thể thành công.):",
       "question": "She is the mentor without ___ support I could not succeed.",
       "options": [
-        "whose",
+        "which",
         "whom",
-        "who",
-        "which"
+        "whose",
+        "who"
       ],
       "correctAnswer": "whose",
       "explanationVi": "'whose + noun' (whose support) chỉ quan hệ sở hữu."
@@ -63,114 +63,116 @@
     {
       "id": "ex-077-05",
       "type": "multiple_choice",
-      "promptVi": "[Trắc nghiệm] Dịch câu sau sang tiếng Anh: \"Chào buổi chiều Luật sư Vance. Hãy cùng xem lại thỏa thuận phân phối xuyên biên giới mà theo đó chúng ta đang vận hành. (under which)\"",
-      "question": "Chọn bản dịch chuẩn xác cho câu: \"Chào buổi chiều Luật sư Vance. Hãy cùng xem lại thỏa thuận phân phối xuyên biên giới mà theo đó chúng ta đang vận hành. (under which)\"",
+      "promptVi": "[Phản xạ dịch thuật] Dịch câu sau sang tiếng Anh: \"Chào buổi chiều Luật sư Vance. Hãy cùng xem lại thỏa thuận phân phối xuyên biên giới mà theo đó chúng ta đang vận hành. (under which)\"",
+      "question": "Chọn bản dịch chuẩn xác nhất cho câu: \"Chào buổi chiều Luật sư Vance. Hãy cùng xem lại thỏa thuận phân phối xuyên biên giới mà theo đó chúng ta đang vận hành. (under which)\"",
       "options": [
-        "Good afternoon, Counsel Vance. Let's review the cross-border distribution agreement under which we operate.",
-        "Good afternoon, Counsel Vance. Let's review the cross-border distribution agreement under which we operate.",
+        "We are studying English today.",
         "Certainly. The European enterprise with which we signed the partnership has three regional subsidiaries.",
-        "I want to go to the park now."
+        "is",
+        "Good afternoon, Counsel Vance. Let's review the cross-border distribution agreement under which we operate."
       ],
       "correctAnswer": "Good afternoon, Counsel Vance. Let's review the cross-border distribution agreement under which we operate.",
-      "explanationVi": "Câu đúng là \"Good afternoon, Counsel Vance. Let's review the cross-border distribution agreement under which we operate.\" (Chào buổi chiều Luật sư Vance. Hãy cùng xem lại thỏa thuận phân phối xuyên biên giới mà theo đó chúng ta đang vận hành. (under which))."
+      "explanationVi": "Câu dịch chuẩn xác: \"Good afternoon, Counsel Vance. Let's review the cross-border distribution agreement under which we operate.\" (Chào buổi chiều Luật sư Vance. Hãy cùng xem lại thỏa thuận phân phối xuyên biên giới mà theo đó chúng ta đang vận hành. (under which))."
     },
     {
       "id": "ex-077-06",
       "type": "multiple_choice",
-      "promptVi": "[Trắc nghiệm] Chọn câu trả lời hoặc cách diễn đạt phù hợp:",
-      "question": "Trong ngữ cảnh giao tiếp: \"Good afternoon, Counsel Vance. Let's review the cross-border distribution agreement under which we operate.\", câu phản hồi tự nhiên là gì?",
+      "promptVi": "[Ngữ cảnh giao tiếp] Chọn câu phản hồi tự nhiên và đúng ngữ pháp:",
+      "question": "Khi đối phương nói: \"Good afternoon, Counsel Vance. Let's review the cross-border distribution agreement under which we operate.\", câu phản hồi phù hợp là gì?",
       "options": [
         "Certainly. The European enterprise with which we signed the partnership has three regional subsidiaries.",
-        "No, it is yesterday morning.",
-        "Yes, I will eat apple.",
-        "They are not at the library."
+        "No, it was yesterday.",
+        "They are not in the office.",
+        "Yes, I will eat it."
       ],
       "correctAnswer": "Certainly. The European enterprise with which we signed the partnership has three regional subsidiaries.",
-      "explanationVi": "Phản hồi phù hợp: \"Certainly. The European enterprise with which we signed the partnership has three regional subsidiaries.\" (Chắc chắn rồi. Doanh nghiệp châu Âu mà chúng ta đã ký kết hợp tác có ba công ty con tại khu vực. (with which))."
+      "explanationVi": "Phản hồi phù hợp trong bài: \"Certainly. The European enterprise with which we signed the partnership has three regional subsidiaries.\" (Chắc chắn rồi. Doanh nghiệp châu Âu mà chúng ta đã ký kết hợp tác có ba công ty con tại khu vực. (with which))."
     },
     {
       "id": "ex-077-07",
       "type": "fill_blank",
-      "promptVi": "[Điền từ - (Dạng khẳng định)] Điền dạng đúng của động từ vào ô trống (Công ty mà tôi làm việc cho rất nổi tiếng.):",
+      "promptVi": "[Điền từ - Dạng KHẲNG ĐỊNH] Điền từ còn thiếu vào ô trống (Công ty mà tôi làm việc cho rất nổi tiếng.):",
       "question": "The company for ___ I work is very famous.",
       "correctAnswer": "which",
       "options": [
         "which",
         "that",
-        "whom",
-        "where"
+        "where",
+        "whom"
       ],
-      "explanationVi": "Đáp án chính xác: \"which\". Công ty mà tôi làm việc cho rất nổi tiếng.."
+      "explanationVi": "Đáp án đúng là \"which\". Câu hoàn chỉnh: \"The company for which I work is very famous.\" (Công ty mà tôi làm việc cho rất nổi tiếng.)."
     },
     {
       "id": "ex-077-08",
       "type": "fill_blank",
-      "promptVi": "[Điền từ - (Dạng khẳng định)] Điền dạng đúng của động từ vào ô trống (Bố tôi, người năm nay sáu mươi tuổi, vẫn tập thể dục mỗi sáng.):",
+      "promptVi": "[Điền từ - Dạng KHẲNG ĐỊNH] Điền từ còn thiếu vào ô trống (Bố tôi, người năm nay sáu mươi tuổi, vẫn tập thể dục mỗi sáng.):",
       "question": "My father, ___ is sixty years old, still exercises every morning.",
       "correctAnswer": "who",
-      "options": [
-        "who",
-        "that",
-        "whom",
-        "whose"
-      ],
-      "explanationVi": "Đáp án chính xác: \"who\". Bố tôi, người năm nay sáu mươi tuổi, vẫn tập thể dục mỗi sáng.."
-    },
-    {
-      "id": "ex-077-09",
-      "type": "fill_blank",
-      "promptVi": "[Điền từ - (Dạng khẳng định)] Điền dạng đúng của động từ vào ô trống (Anh ấy đã trình bày năm đề xuất, ba trong số đó đã được phê duyệt.):",
-      "question": "He presented five proposals, three of ___ were approved.",
-      "correctAnswer": "which",
-      "options": [
-        "which",
-        "them",
-        "whom",
-        "that"
-      ],
-      "explanationVi": "Đáp án chính xác: \"which\". Anh ấy đã trình bày năm đề xuất, ba trong số đó đã được phê duyệt.."
-    },
-    {
-      "id": "ex-077-10",
-      "type": "fill_blank",
-      "promptVi": "[Điền từ - (Dạng phủ định)] Điền dạng đúng của động từ vào ô trống (Cô ấy là người cố vấn mà nếu không có sự hỗ trợ của cô thì tôi không thể thành công.):",
-      "question": "She is the mentor without ___ support I could not succeed.",
-      "correctAnswer": "whose",
       "options": [
         "whose",
         "whom",
         "who",
-        "which"
+        "that"
       ],
-      "explanationVi": "Đáp án chính xác: \"whose\". Cô ấy là người cố vấn mà nếu không có sự hỗ trợ của cô thì tôi không thể thành công.."
+      "explanationVi": "Đáp án đúng là \"who\". Câu hoàn chỉnh: \"My father, who is sixty years old, still exercises every morning.\" (Bố tôi, người năm nay sáu mươi tuổi, vẫn tập thể dục mỗi sáng.)."
+    },
+    {
+      "id": "ex-077-09",
+      "type": "fill_blank",
+      "promptVi": "[Điền từ - Dạng KHẲNG ĐỊNH] Điền từ còn thiếu vào ô trống (Anh ấy đã trình bày năm đề xuất, ba trong số đó đã được phê duyệt.):",
+      "question": "He presented five proposals, three of ___ were approved.",
+      "correctAnswer": "which",
+      "options": [
+        "which",
+        "that",
+        "them",
+        "whom"
+      ],
+      "explanationVi": "Đáp án đúng là \"which\". Câu hoàn chỉnh: \"He presented five proposals, three of which were approved.\" (Anh ấy đã trình bày năm đề xuất, ba trong số đó đã được phê duyệt.)."
+    },
+    {
+      "id": "ex-077-10",
+      "type": "fill_blank",
+      "promptVi": "[Điền từ - Dạng PHỦ ĐỊNH] Điền từ còn thiếu vào ô trống (Cô ấy là người cố vấn mà nếu không có sự hỗ trợ của cô thì tôi không thể thành công.):",
+      "question": "She is the mentor without ___ support I could not succeed.",
+      "correctAnswer": "whose",
+      "options": [
+        "whom",
+        "which",
+        "whose",
+        "who"
+      ],
+      "explanationVi": "Đáp án đúng là \"whose\". Câu hoàn chỉnh: \"She is the mentor without whose support I could not succeed.\" (Cô ấy là người cố vấn mà nếu không có sự hỗ trợ của cô thì tôi không thể thành công.)."
     },
     {
       "id": "ex-077-11",
       "type": "fill_blank",
-      "promptVi": "[Điền từ - Dạng PHỦ ĐỊNH] Hoàn thành câu phủ định sau:",
-      "correctAnswer": "The company for which I work is not very famous.",
+      "promptVi": "[Điền từ - Dạng PHỦ ĐỊNH] Điền trợ động từ/động từ tobe phủ định vào chỗ trống:",
+      "question": "The _____ not for which I work is very famous.",
+      "correctAnswer": "company",
       "options": [
-        "The company for which I work is not very famous.",
-        "The company for which I work is very famous.",
-        "Not The company for which I work is very famous.",
-        "The company for which I work is very famous. no"
+        "am",
+        "company",
+        "are",
+        "is"
       ],
-      "explanationVi": "Dạng phủ định chuẩn: Thêm 'not' sau động từ chính."
+      "explanationVi": "Câu phủ định hoàn chỉnh: \"The company not for which I work is very famous.\"."
     },
     {
       "id": "ex-077-12",
       "type": "sentence_scramble",
-      "promptVi": "[Sắp xếp câu] Xếp các khối từ thành câu hoàn chỉnh mang nghĩa: \"Công ty mà tôi làm việc cho rất nổi tiếng.\"",
+      "promptVi": "[Sắp xếp câu] Ghép các khối từ thành câu hoàn chỉnh mang nghĩa: \"Công ty mà tôi làm việc cho rất nổi tiếng.\"",
+      "question": "Sắp xếp các từ để tạo thành câu đúng: \"Công ty mà tôi làm việc cho rất nổi tiếng.\"",
       "words": [
-        "I",
         "work",
-        "company",
-        "is",
-        "very",
-        "The",
-        "famous.",
         "which",
-        "for"
+        "company",
+        "for",
+        "The",
+        "very",
+        "is",
+        "famous.",
+        "I"
       ],
       "correctSentence": "The company for which I work is very famous.",
       "hintVi": "Công ty mà tôi làm việc cho rất nổi tiếng.",
@@ -179,19 +181,20 @@
     {
       "id": "ex-077-13",
       "type": "sentence_scramble",
-      "promptVi": "[Sắp xếp câu] Xếp các khối từ thành câu hoàn chỉnh mang nghĩa: \"Bố tôi, người năm nay sáu mươi tuổi, vẫn tập thể dục mỗi sáng.\"",
+      "promptVi": "[Sắp xếp câu] Ghép các khối từ thành câu hoàn chỉnh mang nghĩa: \"Bố tôi, người năm nay sáu mươi tuổi, vẫn tập thể dục mỗi sáng.\"",
+      "question": "Sắp xếp các từ để tạo thành câu đúng: \"Bố tôi, người năm nay sáu mươi tuổi, vẫn tập thể dục mỗi sáng.\"",
       "words": [
-        "My",
-        "exercises",
-        "still",
-        "years",
-        "every",
-        "is",
-        "old,",
         "father,",
+        "morning.",
+        "every",
+        "still",
         "sixty",
+        "My",
+        "years",
         "who",
-        "morning."
+        "exercises",
+        "old,",
+        "is"
       ],
       "correctSentence": "My father, who is sixty years old, still exercises every morning.",
       "hintVi": "Bố tôi, người năm nay sáu mươi tuổi, vẫn tập thể dục mỗi sáng.",
@@ -200,17 +203,18 @@
     {
       "id": "ex-077-14",
       "type": "sentence_scramble",
-      "promptVi": "[Sắp xếp câu] Xếp các khối từ thành câu hoàn chỉnh mang nghĩa: \"Anh ấy đã trình bày năm đề xuất, ba trong số đó đã được phê duyệt.\"",
+      "promptVi": "[Sắp xếp câu] Ghép các khối từ thành câu hoàn chỉnh mang nghĩa: \"Anh ấy đã trình bày năm đề xuất, ba trong số đó đã được phê duyệt.\"",
+      "question": "Sắp xếp các từ để tạo thành câu đúng: \"Anh ấy đã trình bày năm đề xuất, ba trong số đó đã được phê duyệt.\"",
       "words": [
-        "three",
         "presented",
-        "He",
-        "were",
-        "five",
+        "three",
         "approved.",
-        "which",
+        "He",
+        "of",
+        "were",
         "proposals,",
-        "of"
+        "five",
+        "which"
       ],
       "correctSentence": "He presented five proposals, three of which were approved.",
       "hintVi": "Anh ấy đã trình bày năm đề xuất, ba trong số đó đã được phê duyệt.",
@@ -219,19 +223,20 @@
     {
       "id": "ex-077-15",
       "type": "sentence_scramble",
-      "promptVi": "[Sắp xếp câu] Xếp các khối từ thành câu hoàn chỉnh mang nghĩa: \"Cô ấy là người cố vấn mà nếu không có sự hỗ trợ của cô thì tôi không thể thành công.\"",
+      "promptVi": "[Sắp xếp câu] Ghép các khối từ thành câu hoàn chỉnh mang nghĩa: \"Cô ấy là người cố vấn mà nếu không có sự hỗ trợ của cô thì tôi không thể thành công.\"",
+      "question": "Sắp xếp các từ để tạo thành câu đúng: \"Cô ấy là người cố vấn mà nếu không có sự hỗ trợ của cô thì tôi không thể thành công.\"",
       "words": [
-        "without",
-        "could",
-        "not",
-        "whose",
-        "support",
         "She",
+        "whose",
         "mentor",
+        "could",
         "is",
         "I",
+        "not",
+        "the",
         "succeed.",
-        "the"
+        "support",
+        "without"
       ],
       "correctSentence": "She is the mentor without whose support I could not succeed.",
       "hintVi": "Cô ấy là người cố vấn mà nếu không có sự hỗ trợ của cô thì tôi không thể thành công.",
@@ -240,21 +245,22 @@
     {
       "id": "ex-077-16",
       "type": "sentence_scramble",
-      "promptVi": "[Sắp xếp câu] Xếp các từ thành câu hội thoại: \"Có phải Tiến sĩ Heinrich, người nắm giữ các bằng sáng chế bán dẫn chính, sẽ tham dự phiên tuân thủ của chúng ta không? (Mệnh đề không xác định có dấu phẩy: Dr. Heinrich, who...)\"",
+      "promptVi": "[Sắp xếp câu] Ghép các từ thành câu hội thoại: \"Có phải Tiến sĩ Heinrich, người nắm giữ các bằng sáng chế bán dẫn chính, sẽ tham dự phiên tuân thủ của chúng ta không? (Mệnh đề không xác định có dấu phẩy: Dr. Heinrich, who...)\"",
+      "question": "Sắp xếp các từ để tạo thành câu thoại: \"Có phải Tiến sĩ Heinrich, người nắm giữ các bằng sáng chế bán dẫn chính, sẽ tham dự phiên tuân thủ của chúng ta không? (Mệnh đề không xác định có dấu phẩy: Dr. Heinrich, who...)\"",
       "words": [
-        "holds",
-        "session",
-        "attending",
-        "our",
         "Is",
-        "compliance",
-        "primary",
+        "our",
+        "who",
         "patents",
         "semiconductor",
-        "who",
+        "compliance",
+        "holds",
         "the",
+        "session",
+        "primary",
+        "Heinrich",
         "Dr",
-        "Heinrich"
+        "attending"
       ],
       "correctSentence": "Is Dr. Heinrich, who holds the primary semiconductor patents, attending our compliance session?",
       "hintVi": "Có phải Tiến sĩ Heinrich, người nắm giữ các bằng sáng chế bán dẫn chính, sẽ tham dự phiên tuân thủ của chúng ta không? (Mệnh đề không xác định có dấu phẩy: Dr. Heinrich, who...)",
@@ -263,70 +269,70 @@
     {
       "id": "ex-077-17",
       "type": "find_error",
-      "promptVi": "[Tìm lỗi sai & Chọn câu đúng] Câu nào dưới đây có cấu trúc ngữ pháp HOÀN TOÀN ĐÚNG?",
-      "question": "Chủ điểm \"Bài 77: Mệnh đề Quan hệ Nâng cao — Giới từ & Phân Loại Mệnh đề (Formal Relative Clauses & Comma Rules)\": Chọn câu CHÍNH XÁC:",
+      "promptVi": "[Nhận diện cấu trúc chuẩn] Chọn câu có cấu trúc ngữ pháp HOÀN TOÀN ĐÚNG:",
+      "question": "Dựa vào chủ điểm \"Bài 77: Mệnh đề Quan hệ Nâng cao — Giới từ & Phân Loại Mệnh đề (Formal Relative Clauses & Comma Rules)\", câu nào sau đây CHÍNH XÁC?",
       "options": [
+        "famous. very is work I which for company The",
         "The company for which I work is very famous.",
         "The company for which I work be very famous.",
-        "The company for which I work are not is very famous.",
-        "famous. very is work I which for company The"
+        "The company at which I work is very famous."
       ],
       "correctAnswer": "The company for which I work is very famous.",
-      "explanationVi": "Câu chuẩn xác là: \"The company for which I work is very famous.\" (Công ty mà tôi làm việc cho rất nổi tiếng.)."
+      "explanationVi": "Cấu trúc chuẩn xác là: \"The company for which I work is very famous.\" (Công ty mà tôi làm việc cho rất nổi tiếng.)."
     },
     {
       "id": "ex-077-18",
       "type": "find_error",
-      "promptVi": "[Tìm lỗi sai & Chọn câu đúng] Câu nào dưới đây có cấu trúc ngữ pháp HOÀN TOÀN ĐÚNG?",
-      "question": "Chủ điểm \"Bài 77: Mệnh đề Quan hệ Nâng cao — Giới từ & Phân Loại Mệnh đề (Formal Relative Clauses & Comma Rules)\": Chọn câu CHÍNH XÁC:",
+      "promptVi": "[Nhận diện cấu trúc chuẩn] Chọn câu có cấu trúc ngữ pháp HOÀN TOÀN ĐÚNG:",
+      "question": "Dựa vào chủ điểm \"Bài 77: Mệnh đề Quan hệ Nâng cao — Giới từ & Phân Loại Mệnh đề (Formal Relative Clauses & Comma Rules)\", câu nào sau đây CHÍNH XÁC?",
       "options": [
-        "My father, who is sixty years old, still exercises every morning.",
+        "is",
         "My father, who be sixty years old, still exercises every morning.",
-        "My father, who are not is sixty years old, still exercises every morning.",
+        "My father, who is sixty years old, still exercises every morning.",
         "morning. every exercises still old, years sixty is who father, My"
       ],
       "correctAnswer": "My father, who is sixty years old, still exercises every morning.",
-      "explanationVi": "Câu chuẩn xác là: \"My father, who is sixty years old, still exercises every morning.\" (Bố tôi, người năm nay sáu mươi tuổi, vẫn tập thể dục mỗi sáng.)."
+      "explanationVi": "Cấu trúc chuẩn xác là: \"My father, who is sixty years old, still exercises every morning.\" (Bố tôi, người năm nay sáu mươi tuổi, vẫn tập thể dục mỗi sáng.)."
     },
     {
       "id": "ex-077-19",
       "type": "find_error",
-      "promptVi": "[Tìm lỗi sai & Chọn câu đúng] Câu nào dưới đây có cấu trúc ngữ pháp HOÀN TOÀN ĐÚNG?",
-      "question": "Chủ điểm \"Bài 77: Mệnh đề Quan hệ Nâng cao — Giới từ & Phân Loại Mệnh đề (Formal Relative Clauses & Comma Rules)\": Chọn câu CHÍNH XÁC:",
+      "promptVi": "[Nhận diện cấu trúc chuẩn] Chọn câu có cấu trúc ngữ pháp HOÀN TOÀN ĐÚNG:",
+      "question": "Dựa vào chủ điểm \"Bài 77: Mệnh đề Quan hệ Nâng cao — Giới từ & Phân Loại Mệnh đề (Formal Relative Clauses & Comma Rules)\", câu nào sau đây CHÍNH XÁC?",
       "options": [
-        "He presented five proposals, three of which were approved.",
         "He presented five proposals, three of which be approved.",
-        "He presented five proposals, three of which are not is approved.",
-        "approved. were which of three proposals, five presented He"
+        "is",
+        "approved. were which of three proposals, five presented He",
+        "He presented five proposals, three of which were approved."
       ],
       "correctAnswer": "He presented five proposals, three of which were approved.",
-      "explanationVi": "Câu chuẩn xác là: \"He presented five proposals, three of which were approved.\" (Anh ấy đã trình bày năm đề xuất, ba trong số đó đã được phê duyệt.)."
+      "explanationVi": "Cấu trúc chuẩn xác là: \"He presented five proposals, three of which were approved.\" (Anh ấy đã trình bày năm đề xuất, ba trong số đó đã được phê duyệt.)."
     },
     {
       "id": "ex-077-20",
       "type": "find_error",
-      "promptVi": "[Tìm lỗi sai & Chọn câu đúng] Câu nào dưới đây có cấu trúc ngữ pháp HOÀN TOÀN ĐÚNG?",
-      "question": "Chủ điểm \"Bài 77: Mệnh đề Quan hệ Nâng cao — Giới từ & Phân Loại Mệnh đề (Formal Relative Clauses & Comma Rules)\": Chọn câu CHÍNH XÁC:",
+      "promptVi": "[Nhận diện cấu trúc chuẩn] Chọn câu có cấu trúc ngữ pháp HOÀN TOÀN ĐÚNG:",
+      "question": "Dựa vào chủ điểm \"Bài 77: Mệnh đề Quan hệ Nâng cao — Giới từ & Phân Loại Mệnh đề (Formal Relative Clauses & Comma Rules)\", câu nào sau đây CHÍNH XÁC?",
       "options": [
-        "She is the mentor without whose support I could not succeed.",
+        "is",
         "She be the mentor without whose support I could not succeed.",
-        "She are not is the mentor without whose support I could not succeed.",
-        "succeed. not could I support whose without mentor the is She"
+        "succeed. not could I support whose without mentor the is She",
+        "She is the mentor without whose support I could not succeed."
       ],
       "correctAnswer": "She is the mentor without whose support I could not succeed.",
-      "explanationVi": "Câu chuẩn xác là: \"She is the mentor without whose support I could not succeed.\" (Cô ấy là người cố vấn mà nếu không có sự hỗ trợ của cô thì tôi không thể thành công.)."
+      "explanationVi": "Cấu trúc chuẩn xác là: \"She is the mentor without whose support I could not succeed.\" (Cô ấy là người cố vấn mà nếu không có sự hỗ trợ của cô thì tôi không thể thành công.)."
     },
     {
       "id": "ex-077-21",
       "type": "listening_reflex",
-      "promptVi": "[Nghe phản xạ] Nghe câu phát âm tiếng Anh và chọn bản dịch tiếng Việt đúng nhất:",
+      "promptVi": "[Nghe phản xạ] Nghe câu phát âm tiếng Anh và chọn bản dịch tiếng Việt đúng:",
       "audioPrompt": "Good afternoon, Counsel Vance. Let's review the cross-border distribution agreement under which we operate.",
-      "question": "Nhấn nút '🔊 Nghe audio' để nghe câu thoại và chọn nghĩa đúng:",
+      "question": "Nhấn nút '🔊 Nghe audio' và chọn nghĩa tiếng Việt đúng:",
       "options": [
-        "Chào buổi chiều Luật sư Vance. Hãy cùng xem lại thỏa thuận phân phối xuyên biên giới mà theo đó chúng ta đang vận hành. (under which)",
-        "Chắc chắn rồi. Doanh nghiệp châu Âu mà chúng ta đã ký kết hợp tác có ba công ty con tại khu vực. (with which)",
+        "Hôm nay thời tiết rất đẹp.",
         "Có phải Tiến sĩ Heinrich, người nắm giữ các bằng sáng chế bán dẫn chính, sẽ tham dự phiên tuân thủ của chúng ta không? (Mệnh đề không xác định có dấu phẩy: Dr. Heinrich, who...)",
-        "Ngày mai trời sẽ mưa to."
+        "Chào buổi chiều Luật sư Vance. Hãy cùng xem lại thỏa thuận phân phối xuyên biên giới mà theo đó chúng ta đang vận hành. (under which)",
+        "Chắc chắn rồi. Doanh nghiệp châu Âu mà chúng ta đã ký kết hợp tác có ba công ty con tại khu vực. (with which)"
       ],
       "correctAnswer": "Chào buổi chiều Luật sư Vance. Hãy cùng xem lại thỏa thuận phân phối xuyên biên giới mà theo đó chúng ta đang vận hành. (under which)",
       "explanationVi": "Câu nghe được: \"Good afternoon, Counsel Vance. Let's review the cross-border distribution agreement under which we operate.\" có nghĩa là: \"Chào buổi chiều Luật sư Vance. Hãy cùng xem lại thỏa thuận phân phối xuyên biên giới mà theo đó chúng ta đang vận hành. (under which)\"."
@@ -334,14 +340,14 @@
     {
       "id": "ex-077-22",
       "type": "listening_reflex",
-      "promptVi": "[Nghe phản xạ] Nghe câu phát âm tiếng Anh và chọn bản dịch tiếng Việt đúng nhất:",
+      "promptVi": "[Nghe phản xạ] Nghe câu phát âm tiếng Anh và chọn bản dịch tiếng Việt đúng:",
       "audioPrompt": "Certainly. The European enterprise with which we signed the partnership has three regional subsidiaries.",
-      "question": "Nhấn nút '🔊 Nghe audio' để nghe câu thoại và chọn nghĩa đúng:",
+      "question": "Nhấn nút '🔊 Nghe audio' và chọn nghĩa tiếng Việt đúng:",
       "options": [
-        "Chắc chắn rồi. Doanh nghiệp châu Âu mà chúng ta đã ký kết hợp tác có ba công ty con tại khu vực. (with which)",
         "Có phải Tiến sĩ Heinrich, người nắm giữ các bằng sáng chế bán dẫn chính, sẽ tham dự phiên tuân thủ của chúng ta không? (Mệnh đề không xác định có dấu phẩy: Dr. Heinrich, who...)",
-        "Vâng, ông ấy là chuyên gia kỹ thuật then chốt mà nếu không có sự đồng ý của ông thì không điều khoản nào có thể thay đổi được. (without whose consent)",
-        "Ngày mai trời sẽ mưa to."
+        "Hôm nay thời tiết rất đẹp.",
+        "Chắc chắn rồi. Doanh nghiệp châu Âu mà chúng ta đã ký kết hợp tác có ba công ty con tại khu vực. (with which)",
+        "Vâng, ông ấy là chuyên gia kỹ thuật then chốt mà nếu không có sự đồng ý của ông thì không điều khoản nào có thể thay đổi được. (without whose consent)"
       ],
       "correctAnswer": "Chắc chắn rồi. Doanh nghiệp châu Âu mà chúng ta đã ký kết hợp tác có ba công ty con tại khu vực. (with which)",
       "explanationVi": "Câu nghe được: \"Certainly. The European enterprise with which we signed the partnership has three regional subsidiaries.\" có nghĩa là: \"Chắc chắn rồi. Doanh nghiệp châu Âu mà chúng ta đã ký kết hợp tác có ba công ty con tại khu vực. (with which)\"."
@@ -349,14 +355,14 @@
     {
       "id": "ex-077-23",
       "type": "listening_reflex",
-      "promptVi": "[Nghe phản xạ] Nghe câu phát âm tiếng Anh và chọn bản dịch tiếng Việt đúng nhất:",
+      "promptVi": "[Nghe phản xạ] Nghe câu phát âm tiếng Anh và chọn bản dịch tiếng Việt đúng:",
       "audioPrompt": "Is Dr. Heinrich, who holds the primary semiconductor patents, attending our compliance session?",
-      "question": "Nhấn nút '🔊 Nghe audio' để nghe câu thoại và chọn nghĩa đúng:",
+      "question": "Nhấn nút '🔊 Nghe audio' và chọn nghĩa tiếng Việt đúng:",
       "options": [
+        "Hôm nay thời tiết rất đẹp.",
         "Có phải Tiến sĩ Heinrich, người nắm giữ các bằng sáng chế bán dẫn chính, sẽ tham dự phiên tuân thủ của chúng ta không? (Mệnh đề không xác định có dấu phẩy: Dr. Heinrich, who...)",
         "Vâng, ông ấy là chuyên gia kỹ thuật then chốt mà nếu không có sự đồng ý của ông thì không điều khoản nào có thể thay đổi được. (without whose consent)",
-        "Chúng ta đã nhận được năm hồ sơ dự thầu quốc tế, hai trong số đó đáp ứng tất cả các tiêu chí môi trường nghiêm ngặt của chúng ta. (two of which)",
-        "Ngày mai trời sẽ mưa to."
+        "Chúng ta đã nhận được năm hồ sơ dự thầu quốc tế, hai trong số đó đáp ứng tất cả các tiêu chí môi trường nghiêm ngặt của chúng ta. (two of which)"
       ],
       "correctAnswer": "Có phải Tiến sĩ Heinrich, người nắm giữ các bằng sáng chế bán dẫn chính, sẽ tham dự phiên tuân thủ của chúng ta không? (Mệnh đề không xác định có dấu phẩy: Dr. Heinrich, who...)",
       "explanationVi": "Câu nghe được: \"Is Dr. Heinrich, who holds the primary semiconductor patents, attending our compliance session?\" có nghĩa là: \"Có phải Tiến sĩ Heinrich, người nắm giữ các bằng sáng chế bán dẫn chính, sẽ tham dự phiên tuân thủ của chúng ta không? (Mệnh đề không xác định có dấu phẩy: Dr. Heinrich, who...)\"."
@@ -364,14 +370,14 @@
     {
       "id": "ex-077-24",
       "type": "listening_reflex",
-      "promptVi": "[Nghe phản xạ] Nghe câu phát âm tiếng Anh và chọn bản dịch tiếng Việt đúng nhất:",
+      "promptVi": "[Nghe phản xạ] Nghe câu phát âm tiếng Anh và chọn bản dịch tiếng Việt đúng:",
       "audioPrompt": "Yes, he is the key technical expert without whose consent no clause can be altered.",
-      "question": "Nhấn nút '🔊 Nghe audio' để nghe câu thoại và chọn nghĩa đúng:",
+      "question": "Nhấn nút '🔊 Nghe audio' và chọn nghĩa tiếng Việt đúng:",
       "options": [
-        "Vâng, ông ấy là chuyên gia kỹ thuật then chốt mà nếu không có sự đồng ý của ông thì không điều khoản nào có thể thay đổi được. (without whose consent)",
         "Chúng ta đã nhận được năm hồ sơ dự thầu quốc tế, hai trong số đó đáp ứng tất cả các tiêu chí môi trường nghiêm ngặt của chúng ta. (two of which)",
         "Các đại biểu doanh nghiệp, phần lớn trong số họ đến từ Frankfurt, đã bày tỏ sự hài lòng to lớn. (most of whom)",
-        "Ngày mai trời sẽ mưa to."
+        "Vâng, ông ấy là chuyên gia kỹ thuật then chốt mà nếu không có sự đồng ý của ông thì không điều khoản nào có thể thay đổi được. (without whose consent)",
+        "Hôm nay thời tiết rất đẹp."
       ],
       "correctAnswer": "Vâng, ông ấy là chuyên gia kỹ thuật then chốt mà nếu không có sự đồng ý của ông thì không điều khoản nào có thể thay đổi được. (without whose consent)",
       "explanationVi": "Câu nghe được: \"Yes, he is the key technical expert without whose consent no clause can be altered.\" có nghĩa là: \"Vâng, ông ấy là chuyên gia kỹ thuật then chốt mà nếu không có sự đồng ý của ông thì không điều khoản nào có thể thay đổi được. (without whose consent)\"."
@@ -379,64 +385,68 @@
     {
       "id": "ex-077-25",
       "type": "speaking_practice",
-      "promptVi": "[Luyện nói qua Micro] Nhấn nút '🎙️ Bắt đầu nói' và đọc to, rõ ràng câu tiếng Anh sau:",
+      "promptVi": "[Luyện nói qua Micro] Nhấn nút 'Bấm để Nói ngay' và phát âm câu sau:",
+      "question": "Luyện phát âm chuẩn câu: \"The company for which I work is very famous.\" (Công ty mà tôi làm việc cho rất nổi tiếng.)",
       "targetSentence": "The company for which I work is very famous.",
       "hintVi": "Công ty mà tôi làm việc cho rất nổi tiếng.",
-      "explanationVi": "Câu mục tiêu: \"The company for which I work is very famous.\" (Công ty mà tôi làm việc cho rất nổi tiếng.). Luyện phát âm chuẩn xác từng âm tiết và ngữ điệu tự nhiên."
+      "explanationVi": "Mẫu câu chuẩn: \"The company for which I work is very famous.\" (Công ty mà tôi làm việc cho rất nổi tiếng.). Luyện phát âm rõ ràng từng từ."
     },
     {
       "id": "ex-077-26",
       "type": "speaking_practice",
-      "promptVi": "[Luyện nói qua Micro] Nhấn nút '🎙️ Bắt đầu nói' và đọc to, rõ ràng câu tiếng Anh sau:",
+      "promptVi": "[Luyện nói qua Micro] Nhấn nút 'Bấm để Nói ngay' và phát âm câu sau:",
+      "question": "Luyện phát âm chuẩn câu: \"My father, who is sixty years old, still exercises every morning.\" (Bố tôi, người năm nay sáu mươi tuổi, vẫn tập thể dục mỗi sáng.)",
       "targetSentence": "My father, who is sixty years old, still exercises every morning.",
       "hintVi": "Bố tôi, người năm nay sáu mươi tuổi, vẫn tập thể dục mỗi sáng.",
-      "explanationVi": "Câu mục tiêu: \"My father, who is sixty years old, still exercises every morning.\" (Bố tôi, người năm nay sáu mươi tuổi, vẫn tập thể dục mỗi sáng.). Luyện phát âm chuẩn xác từng âm tiết và ngữ điệu tự nhiên."
+      "explanationVi": "Mẫu câu chuẩn: \"My father, who is sixty years old, still exercises every morning.\" (Bố tôi, người năm nay sáu mươi tuổi, vẫn tập thể dục mỗi sáng.). Luyện phát âm rõ ràng từng từ."
     },
     {
       "id": "ex-077-27",
       "type": "speaking_practice",
-      "promptVi": "[Luyện nói qua Micro] Nhấn nút '🎙️ Bắt đầu nói' và đọc to, rõ ràng câu tiếng Anh sau:",
+      "promptVi": "[Luyện nói qua Micro] Nhấn nút 'Bấm để Nói ngay' và phát âm câu sau:",
+      "question": "Luyện phát âm chuẩn câu: \"He presented five proposals, three of which were approved.\" (Anh ấy đã trình bày năm đề xuất, ba trong số đó đã được phê duyệt.)",
       "targetSentence": "He presented five proposals, three of which were approved.",
       "hintVi": "Anh ấy đã trình bày năm đề xuất, ba trong số đó đã được phê duyệt.",
-      "explanationVi": "Câu mục tiêu: \"He presented five proposals, three of which were approved.\" (Anh ấy đã trình bày năm đề xuất, ba trong số đó đã được phê duyệt.). Luyện phát âm chuẩn xác từng âm tiết và ngữ điệu tự nhiên."
+      "explanationVi": "Mẫu câu chuẩn: \"He presented five proposals, three of which were approved.\" (Anh ấy đã trình bày năm đề xuất, ba trong số đó đã được phê duyệt.). Luyện phát âm rõ ràng từng từ."
     },
     {
       "id": "ex-077-28",
       "type": "speaking_practice",
-      "promptVi": "[Luyện nói qua Micro] Nhấn nút '🎙️ Bắt đầu nói' và đọc to, rõ ràng câu tiếng Anh sau:",
+      "promptVi": "[Luyện nói qua Micro] Nhấn nút 'Bấm để Nói ngay' và phát âm câu sau:",
+      "question": "Luyện phát âm chuẩn câu: \"She is the mentor without whose support I could not succeed.\" (Cô ấy là người cố vấn mà nếu không có sự hỗ trợ của cô thì tôi không thể thành công.)",
       "targetSentence": "She is the mentor without whose support I could not succeed.",
       "hintVi": "Cô ấy là người cố vấn mà nếu không có sự hỗ trợ của cô thì tôi không thể thành công.",
-      "explanationVi": "Câu mục tiêu: \"She is the mentor without whose support I could not succeed.\" (Cô ấy là người cố vấn mà nếu không có sự hỗ trợ của cô thì tôi không thể thành công.). Luyện phát âm chuẩn xác từng âm tiết và ngữ điệu tự nhiên."
+      "explanationVi": "Mẫu câu chuẩn: \"She is the mentor without whose support I could not succeed.\" (Cô ấy là người cố vấn mà nếu không có sự hỗ trợ của cô thì tôi không thể thành công.). Luyện phát âm rõ ràng từng từ."
     },
     {
       "id": "ex-077-29",
       "type": "reading_comprehension",
-      "promptVi": "[Đọc hiểu đoạn văn 1] Đọc đoạn hội thoại mở đầu sau và trả lời câu hỏi:",
-      "passage": "Senior Counsel Robert (Nam): \"Good afternoon, Counsel Vance. Let's review the cross-border distribution agreement under which we operate.\"\nCounsel Vance (Nữ): \"Certainly. The European enterprise with which we signed the partnership has three regional subsidiaries.\"\nSenior Counsel Robert (Nam): \"Is Dr. Heinrich, who holds the primary semiconductor patents, attending our compliance session?\"\nCounsel Vance (Nữ): \"Yes, he is the key technical expert without whose consent no clause can be altered.\"",
-      "question": "Câu hỏi: Trong đoạn hội thoại trên, các nhân vật đang thảo luận về chủ đề gì?",
+      "promptVi": "[Đọc hiểu đoạn văn] Đọc đoạn hội thoại sau và trả lời câu hỏi:",
+      "passage": "Senior Counsel Robert: \"Good afternoon, Counsel Vance. Let's review the cross-border distribution agreement under which we operate.\"\nCounsel Vance: \"Certainly. The European enterprise with which we signed the partnership has three regional subsidiaries.\"\nSenior Counsel Robert: \"Is Dr. Heinrich, who holds the primary semiconductor patents, attending our compliance session?\"\nCounsel Vance: \"Yes, he is the key technical expert without whose consent no clause can be altered.\"",
+      "question": "Chủ đề trọng tâm của đoạn hội thoại trên là gì?",
       "options": [
-        "Mệnh đề Quan hệ Nâng cao — Giới từ & Phân Loại Mệnh đề (Formal Relative Clauses & Comma Rules)",
-        "Kế hoạch đi nghỉ dưỡng cuối tuần ở bãi biển",
-        "Mua sắm quần áo và đồ dùng thể thao",
-        "Cách làm món ăn truyền thống gia đình"
+        "Cách làm món ăn truyền thống",
+        "Lịch trình đi du lịch nghỉ mát cuối tuần",
+        "Kế hoạch đi mua sắm tại siêu thị",
+        "Mệnh đề Quan hệ Nâng cao — Giới từ & Phân Loại Mệnh đề (Formal Relative Clauses & Comma Rules)"
       ],
       "correctAnswer": "Mệnh đề Quan hệ Nâng cao — Giới từ & Phân Loại Mệnh đề (Formal Relative Clauses & Comma Rules)",
-      "explanationVi": "Đoạn hội thoại mở đầu được thiết kế để minh họa trực tiếp cho chủ điểm ngữ pháp: \"Bài 77: Mệnh đề Quan hệ Nâng cao — Giới từ & Phân Loại Mệnh đề (Formal Relative Clauses & Comma Rules)\"."
+      "explanationVi": "Đoạn hội thoại được thiết kế để minh họa trực tiếp cho chủ điểm \"Bài 77: Mệnh đề Quan hệ Nâng cao — Giới từ & Phân Loại Mệnh đề (Formal Relative Clauses & Comma Rules)\"."
     },
     {
       "id": "ex-077-30",
       "type": "reading_comprehension",
-      "promptVi": "[Đọc hiểu đoạn văn 2] Đọc phần tiếp theo của đoạn hội thoại và chọn nhận định đúng:",
-      "passage": "Senior Counsel Robert (Nam): \"We received five international tenders, two of which met all our stringent environmental criteria.\"\nCounsel Vance (Nữ): \"The corporate delegates, most of whom arrived from Frankfurt, expressed immense satisfaction.\"\nSenior Counsel Robert (Nam): \"Remember that we cannot use 'that' in non-defining clauses separated by commas.\"\nCounsel Vance (Nữ): \"Understood. The manufacturing plant, which was built in 2022, complies with all ISO standards.\"",
-      "question": "Nhận định nào sau đây là ĐÚNG với nội dung đoạn hội thoại trên?",
+      "promptVi": "[Đọc hiểu đoạn văn] Đọc đoạn đối thoại tiếp theo và chọn nhận định đúng:",
+      "passage": "Senior Counsel Robert: \"We received five international tenders, two of which met all our stringent environmental criteria.\"\nCounsel Vance: \"The corporate delegates, most of whom arrived from Frankfurt, expressed immense satisfaction.\"\nSenior Counsel Robert: \"Remember that we cannot use 'that' in non-defining clauses separated by commas.\"\nCounsel Vance: \"Understood. The manufacturing plant, which was built in 2022, complies with all ISO standards.\"",
+      "question": "Nhận định nào sau đây là ĐÚNG về nội dung đoạn đối thoại?",
       "options": [
-        "Các câu hội thoại sử dụng đúng cấu trúc ngữ pháp \"Bài 77: Mệnh đề Quan hệ Nâng cao — Giới từ & Phân Loại Mệnh đề (Formal Relative Clauses & Comma Rules)\".",
-        "Các nhân vật không hiểu ý nhau và từ chối nói chuyện.",
-        "Đoạn hội thoại nói về việc chuyển nhà sang thành phố khác.",
-        "Cả hai nhân vật đều đang ở sân bay chuẩn bị lên máy bay."
+        "Các câu thoại sử dụng đúng cấu trúc \"Mệnh đề Quan hệ Nâng cao — Giới từ & Phân Loại Mệnh đề (Formal Relative Clauses & Comma Rules)\".",
+        "Cả hai nhân vật đang thảo luận về thời tiết ngày mai.",
+        "Hai nhân vật đang cãi nhau và không đồng ý hợp tác.",
+        "Cuộc trò chuyện diễn ra tại nhà ga xe lửa."
       ],
-      "correctAnswer": "Các câu hội thoại sử dụng đúng cấu trúc ngữ pháp \"Bài 77: Mệnh đề Quan hệ Nâng cao — Giới từ & Phân Loại Mệnh đề (Formal Relative Clauses & Comma Rules)\".",
-      "explanationVi": "Đoạn hội thoại thứ hai tiếp tục củng cố và ứng dụng các quy tắc ngữ pháp của \"Bài 77: Mệnh đề Quan hệ Nâng cao — Giới từ & Phân Loại Mệnh đề (Formal Relative Clauses & Comma Rules)\"."
+      "correctAnswer": "Các câu thoại sử dụng đúng cấu trúc \"Mệnh đề Quan hệ Nâng cao — Giới từ & Phân Loại Mệnh đề (Formal Relative Clauses & Comma Rules)\".",
+      "explanationVi": "Đoạn đối thoại ứng dụng chuẩn xác ngữ pháp của \"Bài 77: Mệnh đề Quan hệ Nâng cao — Giới từ & Phân Loại Mệnh đề (Formal Relative Clauses & Comma Rules)\"."
     }
   ]
 }

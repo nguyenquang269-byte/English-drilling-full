@@ -7,7 +7,7 @@
     {
       "id": "ex-035-01",
       "type": "multiple_choice",
-      "promptVi": "[Trắc nghiệm] Chọn từ/cụm từ đúng để hoàn thành câu (Bạn phải dừng lại ở đèn đỏ.):",
+      "promptVi": "[Trắc nghiệm ngữ pháp] Chọn từ đúng để hoàn thành câu (Bạn phải dừng lại ở đèn đỏ.):",
       "question": "You ___ stop at the red light.",
       "options": [
         "must",
@@ -21,13 +21,13 @@
     {
       "id": "ex-035-02",
       "type": "multiple_choice",
-      "promptVi": "[Trắc nghiệm] Chọn từ/cụm từ đúng để hoàn thành câu (Bạn không được đỗ xe ở đây.):",
+      "promptVi": "[Trắc nghiệm ngữ pháp] Chọn từ đúng để hoàn thành câu (Bạn không được đỗ xe ở đây.):",
       "question": "You ___ park your car here.",
       "options": [
-        "mustn't",
-        "don't have to",
         "can",
-        "needn't"
+        "needn't",
+        "mustn't",
+        "don't have to"
       ],
       "correctAnswer": "mustn't",
       "explanationVi": "'mustn't' dùng để cấm đoán tuyệt đối."
@@ -35,13 +35,13 @@
     {
       "id": "ex-035-03",
       "type": "multiple_choice",
-      "promptVi": "[Trắc nghiệm] Chọn từ/cụm từ đúng để hoàn thành câu (Tôi phải mặc đồng phục tại nơi làm việc.):",
+      "promptVi": "[Trắc nghiệm ngữ pháp] Chọn từ đúng để hoàn thành câu (Tôi phải mặc đồng phục tại nơi làm việc.):",
       "question": "I ___ to wear a uniform at work.",
       "options": [
-        "have",
         "has",
-        "must",
-        "should"
+        "should",
+        "have",
+        "must"
       ],
       "correctAnswer": "have",
       "explanationVi": "Cấu trúc 'have to' đi với chủ ngữ 'I'."
@@ -49,7 +49,7 @@
     {
       "id": "ex-035-04",
       "type": "multiple_choice",
-      "promptVi": "[Trắc nghiệm] Chọn từ/cụm từ đúng để hoàn thành câu (Bạn không cần phải thức dậy sớm vào ngày mai.):",
+      "promptVi": "[Trắc nghiệm ngữ pháp] Chọn từ đúng để hoàn thành câu (Bạn không cần phải thức dậy sớm vào ngày mai.):",
       "question": "You ___ have to wake up early tomorrow.",
       "options": [
         "don't",
@@ -63,112 +63,114 @@
     {
       "id": "ex-035-05",
       "type": "multiple_choice",
-      "promptVi": "[Trắc nghiệm] Dịch câu sau sang tiếng Anh: \"Chào mừng bạn đến phòng thí nghiệm của chúng tôi, Victoria! Chúng ta phải tuân theo các quy tắc an toàn nghiêm ngặt tại đây.\"",
-      "question": "Chọn bản dịch chuẩn xác cho câu: \"Chào mừng bạn đến phòng thí nghiệm của chúng tôi, Victoria! Chúng ta phải tuân theo các quy tắc an toàn nghiêm ngặt tại đây.\"",
+      "promptVi": "[Phản xạ dịch thuật] Dịch câu sau sang tiếng Anh: \"Chào mừng bạn đến phòng thí nghiệm của chúng tôi, Victoria! Chúng ta phải tuân theo các quy tắc an toàn nghiêm ngặt tại đây.\"",
+      "question": "Chọn bản dịch chuẩn xác nhất cho câu: \"Chào mừng bạn đến phòng thí nghiệm của chúng tôi, Victoria! Chúng ta phải tuân theo các quy tắc an toàn nghiêm ngặt tại đây.\"",
       "options": [
         "Welcome to our laboratory, Victoria! We must follow strict safety rules here.",
-        "Welcome to our laboratory, Victoria! We must follow strict safety rules here.",
-        "Do I have to wear a white protective lab coat and safety goggles?",
-        "I want to go to the park now."
+        "is",
+        "We are studying English today.",
+        "Do I have to wear a white protective lab coat and safety goggles?"
       ],
       "correctAnswer": "Welcome to our laboratory, Victoria! We must follow strict safety rules here.",
-      "explanationVi": "Câu đúng là \"Welcome to our laboratory, Victoria! We must follow strict safety rules here.\" (Chào mừng bạn đến phòng thí nghiệm của chúng tôi, Victoria! Chúng ta phải tuân theo các quy tắc an toàn nghiêm ngặt tại đây.)."
+      "explanationVi": "Câu dịch chuẩn xác: \"Welcome to our laboratory, Victoria! We must follow strict safety rules here.\" (Chào mừng bạn đến phòng thí nghiệm của chúng tôi, Victoria! Chúng ta phải tuân theo các quy tắc an toàn nghiêm ngặt tại đây.)."
     },
     {
       "id": "ex-035-06",
       "type": "multiple_choice",
-      "promptVi": "[Trắc nghiệm] Chọn câu trả lời hoặc cách diễn đạt phù hợp:",
-      "question": "Trong ngữ cảnh giao tiếp: \"Welcome to our laboratory, Victoria! We must follow strict safety rules here.\", câu phản hồi tự nhiên là gì?",
+      "promptVi": "[Ngữ cảnh giao tiếp] Chọn câu phản hồi tự nhiên và đúng ngữ pháp:",
+      "question": "Khi đối phương nói: \"Welcome to our laboratory, Victoria! We must follow strict safety rules here.\", câu phản hồi phù hợp là gì?",
       "options": [
+        "Yes, I will eat it.",
+        "They are not in the office.",
         "Do I have to wear a white protective lab coat and safety goggles?",
-        "No, it is yesterday morning.",
-        "Yes, I will eat apple.",
-        "They are not at the library."
+        "No, it was yesterday."
       ],
       "correctAnswer": "Do I have to wear a white protective lab coat and safety goggles?",
-      "explanationVi": "Phản hồi phù hợp: \"Do I have to wear a white protective lab coat and safety goggles?\" (Tôi có phải mặc áo blouse bảo hộ màu trắng và đeo kính bảo hộ không?)."
+      "explanationVi": "Phản hồi phù hợp trong bài: \"Do I have to wear a white protective lab coat and safety goggles?\" (Tôi có phải mặc áo blouse bảo hộ màu trắng và đeo kính bảo hộ không?)."
     },
     {
       "id": "ex-035-07",
       "type": "fill_blank",
-      "promptVi": "[Điền từ - (Dạng khẳng định)] Điền dạng đúng của động từ vào ô trống (Bạn phải dừng lại ở đèn đỏ.):",
+      "promptVi": "[Điền từ - Dạng KHẲNG ĐỊNH] Điền từ còn thiếu vào ô trống (Bạn phải dừng lại ở đèn đỏ.):",
       "question": "You ___ stop at the red light.",
       "correctAnswer": "must",
       "options": [
         "must",
+        "might",
         "can",
-        "may",
-        "might"
+        "may"
       ],
-      "explanationVi": "Đáp án chính xác: \"must\". Bạn phải dừng lại ở đèn đỏ.."
+      "explanationVi": "Đáp án đúng là \"must\". Câu hoàn chỉnh: \"You must stop at the red light.\" (Bạn phải dừng lại ở đèn đỏ.)."
     },
     {
       "id": "ex-035-08",
       "type": "fill_blank",
-      "promptVi": "[Điền từ - (Dạng phủ định)] Điền dạng đúng của động từ vào ô trống (Bạn không được đỗ xe ở đây.):",
+      "promptVi": "[Điền từ - Dạng PHỦ ĐỊNH] Điền từ còn thiếu vào ô trống (Bạn không được đỗ xe ở đây.):",
       "question": "You ___ park your car here.",
       "correctAnswer": "mustn't",
       "options": [
-        "mustn't",
         "don't have to",
         "can",
-        "needn't"
+        "needn't",
+        "mustn't"
       ],
-      "explanationVi": "Đáp án chính xác: \"mustn't\". Bạn không được đỗ xe ở đây.."
+      "explanationVi": "Đáp án đúng là \"mustn't\". Câu hoàn chỉnh: \"You mustn't park your car here.\" (Bạn không được đỗ xe ở đây.)."
     },
     {
       "id": "ex-035-09",
       "type": "fill_blank",
-      "promptVi": "[Điền từ - (Dạng khẳng định)] Điền dạng đúng của động từ vào ô trống (Tôi phải mặc đồng phục tại nơi làm việc.):",
+      "promptVi": "[Điền từ - Dạng KHẲNG ĐỊNH] Điền từ còn thiếu vào ô trống (Tôi phải mặc đồng phục tại nơi làm việc.):",
       "question": "I ___ to wear a uniform at work.",
       "correctAnswer": "have",
       "options": [
+        "should",
         "have",
         "has",
-        "must",
-        "should"
+        "must"
       ],
-      "explanationVi": "Đáp án chính xác: \"have\". Tôi phải mặc đồng phục tại nơi làm việc.."
+      "explanationVi": "Đáp án đúng là \"have\". Câu hoàn chỉnh: \"I have to wear a uniform at work.\" (Tôi phải mặc đồng phục tại nơi làm việc.)."
     },
     {
       "id": "ex-035-10",
       "type": "fill_blank",
-      "promptVi": "[Điền từ - (Dạng phủ định)] Điền dạng đúng của động từ vào ô trống (Bạn không cần phải thức dậy sớm vào ngày mai.):",
+      "promptVi": "[Điền từ - Dạng PHỦ ĐỊNH] Điền từ còn thiếu vào ô trống (Bạn không cần phải thức dậy sớm vào ngày mai.):",
       "question": "You ___ have to wake up early tomorrow.",
       "correctAnswer": "don't",
       "options": [
-        "don't",
-        "mustn't",
         "aren't",
-        "haven't"
+        "don't",
+        "haven't",
+        "mustn't"
       ],
-      "explanationVi": "Đáp án chính xác: \"don't\". Bạn không cần phải thức dậy sớm vào ngày mai.."
+      "explanationVi": "Đáp án đúng là \"don't\". Câu hoàn chỉnh: \"You don't have to wake up early tomorrow.\" (Bạn không cần phải thức dậy sớm vào ngày mai.)."
     },
     {
       "id": "ex-035-11",
       "type": "fill_blank",
-      "promptVi": "[Điền từ - Dạng PHỦ ĐỊNH] Hoàn thành câu phủ định sau:",
-      "correctAnswer": "You must stop at the red light.",
+      "promptVi": "[Điền từ - Dạng PHỦ ĐỊNH] Điền trợ động từ/động từ tobe phủ định vào chỗ trống:",
+      "question": "You _____ not stop at the red light.",
+      "correctAnswer": "must",
       "options": [
-        "You must stop at the red light.",
-        "You must stop at the red light.",
-        "Not You must stop at the red light.",
-        "You must stop at the red light. no"
+        "is",
+        "am",
+        "are",
+        "must"
       ],
-      "explanationVi": "Dạng phủ định chuẩn: Thêm 'not' sau động từ chính."
+      "explanationVi": "Câu phủ định hoàn chỉnh: \"You must not stop at the red light.\"."
     },
     {
       "id": "ex-035-12",
       "type": "sentence_scramble",
-      "promptVi": "[Sắp xếp câu] Xếp các khối từ thành câu hoàn chỉnh mang nghĩa: \"Bạn phải dừng lại ở đèn đỏ.\"",
+      "promptVi": "[Sắp xếp câu] Ghép các khối từ thành câu hoàn chỉnh mang nghĩa: \"Bạn phải dừng lại ở đèn đỏ.\"",
+      "question": "Sắp xếp các từ để tạo thành câu đúng: \"Bạn phải dừng lại ở đèn đỏ.\"",
       "words": [
-        "light.",
-        "stop",
-        "You",
-        "at",
-        "the",
         "must",
-        "red"
+        "stop",
+        "light.",
+        "the",
+        "red",
+        "at",
+        "You"
       ],
       "correctSentence": "You must stop at the red light.",
       "hintVi": "Bạn phải dừng lại ở đèn đỏ.",
@@ -177,14 +179,15 @@
     {
       "id": "ex-035-13",
       "type": "sentence_scramble",
-      "promptVi": "[Sắp xếp câu] Xếp các khối từ thành câu hoàn chỉnh mang nghĩa: \"Bạn không được đỗ xe ở đây.\"",
+      "promptVi": "[Sắp xếp câu] Ghép các khối từ thành câu hoàn chỉnh mang nghĩa: \"Bạn không được đỗ xe ở đây.\"",
+      "question": "Sắp xếp các từ để tạo thành câu đúng: \"Bạn không được đỗ xe ở đây.\"",
       "words": [
+        "park",
+        "car",
         "You",
         "here.",
-        "your",
         "mustn't",
-        "park",
-        "car"
+        "your"
       ],
       "correctSentence": "You mustn't park your car here.",
       "hintVi": "Bạn không được đỗ xe ở đây.",
@@ -193,16 +196,17 @@
     {
       "id": "ex-035-14",
       "type": "sentence_scramble",
-      "promptVi": "[Sắp xếp câu] Xếp các khối từ thành câu hoàn chỉnh mang nghĩa: \"Tôi phải mặc đồng phục tại nơi làm việc.\"",
+      "promptVi": "[Sắp xếp câu] Ghép các khối từ thành câu hoàn chỉnh mang nghĩa: \"Tôi phải mặc đồng phục tại nơi làm việc.\"",
+      "question": "Sắp xếp các từ để tạo thành câu đúng: \"Tôi phải mặc đồng phục tại nơi làm việc.\"",
       "words": [
+        "I",
+        "have",
+        "to",
         "wear",
-        "work.",
         "a",
         "uniform",
         "at",
-        "I",
-        "to",
-        "have"
+        "work."
       ],
       "correctSentence": "I have to wear a uniform at work.",
       "hintVi": "Tôi phải mặc đồng phục tại nơi làm việc.",
@@ -211,16 +215,17 @@
     {
       "id": "ex-035-15",
       "type": "sentence_scramble",
-      "promptVi": "[Sắp xếp câu] Xếp các khối từ thành câu hoàn chỉnh mang nghĩa: \"Bạn không cần phải thức dậy sớm vào ngày mai.\"",
+      "promptVi": "[Sắp xếp câu] Ghép các khối từ thành câu hoàn chỉnh mang nghĩa: \"Bạn không cần phải thức dậy sớm vào ngày mai.\"",
+      "question": "Sắp xếp các từ để tạo thành câu đúng: \"Bạn không cần phải thức dậy sớm vào ngày mai.\"",
       "words": [
-        "to",
         "up",
-        "have",
-        "tomorrow.",
-        "You",
-        "wake",
+        "to",
         "early",
-        "don't"
+        "You",
+        "tomorrow.",
+        "don't",
+        "have",
+        "wake"
       ],
       "correctSentence": "You don't have to wake up early tomorrow.",
       "hintVi": "Bạn không cần phải thức dậy sớm vào ngày mai.",
@@ -229,20 +234,21 @@
     {
       "id": "ex-035-16",
       "type": "sentence_scramble",
-      "promptVi": "[Sắp xếp câu] Xếp các từ thành câu hội thoại: \"Có, mọi người đều phải đeo kính bảo hộ trước khi bước vào khu vực hóa chất.\"",
+      "promptVi": "[Sắp xếp câu] Ghép các từ thành câu hội thoại: \"Có, mọi người đều phải đeo kính bảo hộ trước khi bước vào khu vực hóa chất.\"",
+      "question": "Sắp xếp các từ để tạo thành câu thoại: \"Có, mọi người đều phải đeo kính bảo hộ trước khi bước vào khu vực hóa chất.\"",
       "words": [
-        "area",
-        "chemical",
+        "Yes",
+        "everyone",
         "the",
         "entering",
-        "before",
-        "goggles",
-        "safety",
-        "wear",
-        "to",
         "has",
-        "everyone",
-        "Yes"
+        "goggles",
+        "area",
+        "to",
+        "safety",
+        "before",
+        "chemical",
+        "wear"
       ],
       "correctSentence": "Yes, everyone has to wear safety goggles before entering the chemical area.",
       "hintVi": "Có, mọi người đều phải đeo kính bảo hộ trước khi bước vào khu vực hóa chất.",
@@ -251,70 +257,70 @@
     {
       "id": "ex-035-17",
       "type": "find_error",
-      "promptVi": "[Tìm lỗi sai & Chọn câu đúng] Câu nào dưới đây có cấu trúc ngữ pháp HOÀN TOÀN ĐÚNG?",
-      "question": "Chủ điểm \"Bài 35: Động từ Khuyết thiếu — Must / Have to (Nghĩa vụ & Quy định)\": Chọn câu CHÍNH XÁC:",
+      "promptVi": "[Nhận diện cấu trúc chuẩn] Chọn câu có cấu trúc ngữ pháp HOÀN TOÀN ĐÚNG:",
+      "question": "Dựa vào chủ điểm \"Bài 35: Động từ Khuyết thiếu — Must / Have to (Nghĩa vụ & Quy định)\", câu nào sau đây CHÍNH XÁC?",
       "options": [
-        "You must stop at the red light.",
         "light. red the at stop must You",
-        "You must stop at the red light. (sai)",
-        "You must stop at the red light. (sai)"
+        "is",
+        "You must stop at the red light.",
+        "are"
       ],
       "correctAnswer": "You must stop at the red light.",
-      "explanationVi": "Câu chuẩn xác là: \"You must stop at the red light.\" (Bạn phải dừng lại ở đèn đỏ.)."
+      "explanationVi": "Cấu trúc chuẩn xác là: \"You must stop at the red light.\" (Bạn phải dừng lại ở đèn đỏ.)."
     },
     {
       "id": "ex-035-18",
       "type": "find_error",
-      "promptVi": "[Tìm lỗi sai & Chọn câu đúng] Câu nào dưới đây có cấu trúc ngữ pháp HOÀN TOÀN ĐÚNG?",
-      "question": "Chủ điểm \"Bài 35: Động từ Khuyết thiếu — Must / Have to (Nghĩa vụ & Quy định)\": Chọn câu CHÍNH XÁC:",
+      "promptVi": "[Nhận diện cấu trúc chuẩn] Chọn câu có cấu trúc ngữ pháp HOÀN TOÀN ĐÚNG:",
+      "question": "Dựa vào chủ điểm \"Bài 35: Động từ Khuyết thiếu — Must / Have to (Nghĩa vụ & Quy định)\", câu nào sau đây CHÍNH XÁC?",
       "options": [
         "You mustn't park your car here.",
         "here. car your park mustn't You",
-        "You mustn't park your car here. (sai)",
-        "You mustn't park your car here. (sai)"
+        "are",
+        "is"
       ],
       "correctAnswer": "You mustn't park your car here.",
-      "explanationVi": "Câu chuẩn xác là: \"You mustn't park your car here.\" (Bạn không được đỗ xe ở đây.)."
+      "explanationVi": "Cấu trúc chuẩn xác là: \"You mustn't park your car here.\" (Bạn không được đỗ xe ở đây.)."
     },
     {
       "id": "ex-035-19",
       "type": "find_error",
-      "promptVi": "[Tìm lỗi sai & Chọn câu đúng] Câu nào dưới đây có cấu trúc ngữ pháp HOÀN TOÀN ĐÚNG?",
-      "question": "Chủ điểm \"Bài 35: Động từ Khuyết thiếu — Must / Have to (Nghĩa vụ & Quy định)\": Chọn câu CHÍNH XÁC:",
+      "promptVi": "[Nhận diện cấu trúc chuẩn] Chọn câu có cấu trúc ngữ pháp HOÀN TOÀN ĐÚNG:",
+      "question": "Dựa vào chủ điểm \"Bài 35: Động từ Khuyết thiếu — Must / Have to (Nghĩa vụ & Quy định)\", câu nào sau đây CHÍNH XÁC?",
       "options": [
-        "I have to wear a uniform at work.",
+        "I have at wear a uniform at work.",
         "work. at uniform a wear to have I",
-        "I have to wear a uniform at work. (sai)",
-        "I have to wear a uniform at work. (sai)"
+        "is",
+        "I have to wear a uniform at work."
       ],
       "correctAnswer": "I have to wear a uniform at work.",
-      "explanationVi": "Câu chuẩn xác là: \"I have to wear a uniform at work.\" (Tôi phải mặc đồng phục tại nơi làm việc.)."
+      "explanationVi": "Cấu trúc chuẩn xác là: \"I have to wear a uniform at work.\" (Tôi phải mặc đồng phục tại nơi làm việc.)."
     },
     {
       "id": "ex-035-20",
       "type": "find_error",
-      "promptVi": "[Tìm lỗi sai & Chọn câu đúng] Câu nào dưới đây có cấu trúc ngữ pháp HOÀN TOÀN ĐÚNG?",
-      "question": "Chủ điểm \"Bài 35: Động từ Khuyết thiếu — Must / Have to (Nghĩa vụ & Quy định)\": Chọn câu CHÍNH XÁC:",
+      "promptVi": "[Nhận diện cấu trúc chuẩn] Chọn câu có cấu trúc ngữ pháp HOÀN TOÀN ĐÚNG:",
+      "question": "Dựa vào chủ điểm \"Bài 35: Động từ Khuyết thiếu — Must / Have to (Nghĩa vụ & Quy định)\", câu nào sau đây CHÍNH XÁC?",
       "options": [
         "You don't have to wake up early tomorrow.",
+        "You don't have at wake up early tomorrow.",
         "tomorrow. early up wake to have don't You",
-        "You don't have to wake up early tomorrow. (sai)",
-        "You don't have to wake up early tomorrow. (sai)"
+        "is"
       ],
       "correctAnswer": "You don't have to wake up early tomorrow.",
-      "explanationVi": "Câu chuẩn xác là: \"You don't have to wake up early tomorrow.\" (Bạn không cần phải thức dậy sớm vào ngày mai.)."
+      "explanationVi": "Cấu trúc chuẩn xác là: \"You don't have to wake up early tomorrow.\" (Bạn không cần phải thức dậy sớm vào ngày mai.)."
     },
     {
       "id": "ex-035-21",
       "type": "listening_reflex",
-      "promptVi": "[Nghe phản xạ] Nghe câu phát âm tiếng Anh và chọn bản dịch tiếng Việt đúng nhất:",
+      "promptVi": "[Nghe phản xạ] Nghe câu phát âm tiếng Anh và chọn bản dịch tiếng Việt đúng:",
       "audioPrompt": "Welcome to our laboratory, Victoria! We must follow strict safety rules here.",
-      "question": "Nhấn nút '🔊 Nghe audio' để nghe câu thoại và chọn nghĩa đúng:",
+      "question": "Nhấn nút '🔊 Nghe audio' và chọn nghĩa tiếng Việt đúng:",
       "options": [
-        "Chào mừng bạn đến phòng thí nghiệm của chúng tôi, Victoria! Chúng ta phải tuân theo các quy tắc an toàn nghiêm ngặt tại đây.",
         "Tôi có phải mặc áo blouse bảo hộ màu trắng và đeo kính bảo hộ không?",
-        "Có, mọi người đều phải đeo kính bảo hộ trước khi bước vào khu vực hóa chất.",
-        "Ngày mai trời sẽ mưa to."
+        "Hôm nay thời tiết rất đẹp.",
+        "Chào mừng bạn đến phòng thí nghiệm của chúng tôi, Victoria! Chúng ta phải tuân theo các quy tắc an toàn nghiêm ngặt tại đây.",
+        "Có, mọi người đều phải đeo kính bảo hộ trước khi bước vào khu vực hóa chất."
       ],
       "correctAnswer": "Chào mừng bạn đến phòng thí nghiệm của chúng tôi, Victoria! Chúng ta phải tuân theo các quy tắc an toàn nghiêm ngặt tại đây.",
       "explanationVi": "Câu nghe được: \"Welcome to our laboratory, Victoria! We must follow strict safety rules here.\" có nghĩa là: \"Chào mừng bạn đến phòng thí nghiệm của chúng tôi, Victoria! Chúng ta phải tuân theo các quy tắc an toàn nghiêm ngặt tại đây.\"."
@@ -322,14 +328,14 @@
     {
       "id": "ex-035-22",
       "type": "listening_reflex",
-      "promptVi": "[Nghe phản xạ] Nghe câu phát âm tiếng Anh và chọn bản dịch tiếng Việt đúng nhất:",
+      "promptVi": "[Nghe phản xạ] Nghe câu phát âm tiếng Anh và chọn bản dịch tiếng Việt đúng:",
       "audioPrompt": "Do I have to wear a white protective lab coat and safety goggles?",
-      "question": "Nhấn nút '🔊 Nghe audio' để nghe câu thoại và chọn nghĩa đúng:",
+      "question": "Nhấn nút '🔊 Nghe audio' và chọn nghĩa tiếng Việt đúng:",
       "options": [
         "Tôi có phải mặc áo blouse bảo hộ màu trắng và đeo kính bảo hộ không?",
         "Có, mọi người đều phải đeo kính bảo hộ trước khi bước vào khu vực hóa chất.",
-        "Bạn không được chạm vào bất kỳ chai lọ nào mà không đeo găng tay cao su!",
-        "Ngày mai trời sẽ mưa to."
+        "Hôm nay thời tiết rất đẹp.",
+        "Bạn không được chạm vào bất kỳ chai lọ nào mà không đeo găng tay cao su!"
       ],
       "correctAnswer": "Tôi có phải mặc áo blouse bảo hộ màu trắng và đeo kính bảo hộ không?",
       "explanationVi": "Câu nghe được: \"Do I have to wear a white protective lab coat and safety goggles?\" có nghĩa là: \"Tôi có phải mặc áo blouse bảo hộ màu trắng và đeo kính bảo hộ không?\"."
@@ -337,14 +343,14 @@
     {
       "id": "ex-035-23",
       "type": "listening_reflex",
-      "promptVi": "[Nghe phản xạ] Nghe câu phát âm tiếng Anh và chọn bản dịch tiếng Việt đúng nhất:",
+      "promptVi": "[Nghe phản xạ] Nghe câu phát âm tiếng Anh và chọn bản dịch tiếng Việt đúng:",
       "audioPrompt": "Yes, everyone has to wear safety goggles before entering the chemical area.",
-      "question": "Nhấn nút '🔊 Nghe audio' để nghe câu thoại và chọn nghĩa đúng:",
+      "question": "Nhấn nút '🔊 Nghe audio' và chọn nghĩa tiếng Việt đúng:",
       "options": [
         "Có, mọi người đều phải đeo kính bảo hộ trước khi bước vào khu vực hóa chất.",
-        "Bạn không được chạm vào bất kỳ chai lọ nào mà không đeo găng tay cao su!",
+        "Hôm nay thời tiết rất đẹp.",
         "Khách tham quan không được chụp ảnh bên trong phòng thử nghiệm này.",
-        "Ngày mai trời sẽ mưa to."
+        "Bạn không được chạm vào bất kỳ chai lọ nào mà không đeo găng tay cao su!"
       ],
       "correctAnswer": "Có, mọi người đều phải đeo kính bảo hộ trước khi bước vào khu vực hóa chất.",
       "explanationVi": "Câu nghe được: \"Yes, everyone has to wear safety goggles before entering the chemical area.\" có nghĩa là: \"Có, mọi người đều phải đeo kính bảo hộ trước khi bước vào khu vực hóa chất.\"."
@@ -352,14 +358,14 @@
     {
       "id": "ex-035-24",
       "type": "listening_reflex",
-      "promptVi": "[Nghe phản xạ] Nghe câu phát âm tiếng Anh và chọn bản dịch tiếng Việt đúng nhất:",
+      "promptVi": "[Nghe phản xạ] Nghe câu phát âm tiếng Anh và chọn bản dịch tiếng Việt đúng:",
       "audioPrompt": "You must not touch any bottles without wearing rubber gloves!",
-      "question": "Nhấn nút '🔊 Nghe audio' để nghe câu thoại và chọn nghĩa đúng:",
+      "question": "Nhấn nút '🔊 Nghe audio' và chọn nghĩa tiếng Việt đúng:",
       "options": [
         "Bạn không được chạm vào bất kỳ chai lọ nào mà không đeo găng tay cao su!",
-        "Khách tham quan không được chụp ảnh bên trong phòng thử nghiệm này.",
         "Chúng ta có phải nộp báo cáo phòng thí nghiệm trước 5 giờ chiều hôm nay không?",
-        "Ngày mai trời sẽ mưa to."
+        "Khách tham quan không được chụp ảnh bên trong phòng thử nghiệm này.",
+        "Hôm nay thời tiết rất đẹp."
       ],
       "correctAnswer": "Bạn không được chạm vào bất kỳ chai lọ nào mà không đeo găng tay cao su!",
       "explanationVi": "Câu nghe được: \"You must not touch any bottles without wearing rubber gloves!\" có nghĩa là: \"Bạn không được chạm vào bất kỳ chai lọ nào mà không đeo găng tay cao su!\"."
@@ -367,64 +373,68 @@
     {
       "id": "ex-035-25",
       "type": "speaking_practice",
-      "promptVi": "[Luyện nói qua Micro] Nhấn nút '🎙️ Bắt đầu nói' và đọc to, rõ ràng câu tiếng Anh sau:",
+      "promptVi": "[Luyện nói qua Micro] Nhấn nút 'Bấm để Nói ngay' và phát âm câu sau:",
+      "question": "Luyện phát âm chuẩn câu: \"You must stop at the red light.\" (Bạn phải dừng lại ở đèn đỏ.)",
       "targetSentence": "You must stop at the red light.",
       "hintVi": "Bạn phải dừng lại ở đèn đỏ.",
-      "explanationVi": "Câu mục tiêu: \"You must stop at the red light.\" (Bạn phải dừng lại ở đèn đỏ.). Luyện phát âm chuẩn xác từng âm tiết và ngữ điệu tự nhiên."
+      "explanationVi": "Mẫu câu chuẩn: \"You must stop at the red light.\" (Bạn phải dừng lại ở đèn đỏ.). Luyện phát âm rõ ràng từng từ."
     },
     {
       "id": "ex-035-26",
       "type": "speaking_practice",
-      "promptVi": "[Luyện nói qua Micro] Nhấn nút '🎙️ Bắt đầu nói' và đọc to, rõ ràng câu tiếng Anh sau:",
+      "promptVi": "[Luyện nói qua Micro] Nhấn nút 'Bấm để Nói ngay' và phát âm câu sau:",
+      "question": "Luyện phát âm chuẩn câu: \"You mustn't park your car here.\" (Bạn không được đỗ xe ở đây.)",
       "targetSentence": "You mustn't park your car here.",
       "hintVi": "Bạn không được đỗ xe ở đây.",
-      "explanationVi": "Câu mục tiêu: \"You mustn't park your car here.\" (Bạn không được đỗ xe ở đây.). Luyện phát âm chuẩn xác từng âm tiết và ngữ điệu tự nhiên."
+      "explanationVi": "Mẫu câu chuẩn: \"You mustn't park your car here.\" (Bạn không được đỗ xe ở đây.). Luyện phát âm rõ ràng từng từ."
     },
     {
       "id": "ex-035-27",
       "type": "speaking_practice",
-      "promptVi": "[Luyện nói qua Micro] Nhấn nút '🎙️ Bắt đầu nói' và đọc to, rõ ràng câu tiếng Anh sau:",
+      "promptVi": "[Luyện nói qua Micro] Nhấn nút 'Bấm để Nói ngay' và phát âm câu sau:",
+      "question": "Luyện phát âm chuẩn câu: \"I have to wear a uniform at work.\" (Tôi phải mặc đồng phục tại nơi làm việc.)",
       "targetSentence": "I have to wear a uniform at work.",
       "hintVi": "Tôi phải mặc đồng phục tại nơi làm việc.",
-      "explanationVi": "Câu mục tiêu: \"I have to wear a uniform at work.\" (Tôi phải mặc đồng phục tại nơi làm việc.). Luyện phát âm chuẩn xác từng âm tiết và ngữ điệu tự nhiên."
+      "explanationVi": "Mẫu câu chuẩn: \"I have to wear a uniform at work.\" (Tôi phải mặc đồng phục tại nơi làm việc.). Luyện phát âm rõ ràng từng từ."
     },
     {
       "id": "ex-035-28",
       "type": "speaking_practice",
-      "promptVi": "[Luyện nói qua Micro] Nhấn nút '🎙️ Bắt đầu nói' và đọc to, rõ ràng câu tiếng Anh sau:",
+      "promptVi": "[Luyện nói qua Micro] Nhấn nút 'Bấm để Nói ngay' và phát âm câu sau:",
+      "question": "Luyện phát âm chuẩn câu: \"You don't have to wake up early tomorrow.\" (Bạn không cần phải thức dậy sớm vào ngày mai.)",
       "targetSentence": "You don't have to wake up early tomorrow.",
       "hintVi": "Bạn không cần phải thức dậy sớm vào ngày mai.",
-      "explanationVi": "Câu mục tiêu: \"You don't have to wake up early tomorrow.\" (Bạn không cần phải thức dậy sớm vào ngày mai.). Luyện phát âm chuẩn xác từng âm tiết và ngữ điệu tự nhiên."
+      "explanationVi": "Mẫu câu chuẩn: \"You don't have to wake up early tomorrow.\" (Bạn không cần phải thức dậy sớm vào ngày mai.). Luyện phát âm rõ ràng từng từ."
     },
     {
       "id": "ex-035-29",
       "type": "reading_comprehension",
-      "promptVi": "[Đọc hiểu đoạn văn 1] Đọc đoạn hội thoại mở đầu sau và trả lời câu hỏi:",
-      "passage": "Patrick (Nam): \"Welcome to our laboratory, Victoria! We must follow strict safety rules here.\"\nVictoria (Nữ): \"Do I have to wear a white protective lab coat and safety goggles?\"\nPatrick (Nam): \"Yes, everyone has to wear safety goggles before entering the chemical area.\"\nVictoria (Nữ): \"You must not touch any bottles without wearing rubber gloves!\"",
-      "question": "Câu hỏi: Trong đoạn hội thoại trên, các nhân vật đang thảo luận về chủ đề gì?",
+      "promptVi": "[Đọc hiểu đoạn văn] Đọc đoạn hội thoại sau và trả lời câu hỏi:",
+      "passage": "Patrick: \"Welcome to our laboratory, Victoria! We must follow strict safety rules here.\"\nVictoria: \"Do I have to wear a white protective lab coat and safety goggles?\"\nPatrick: \"Yes, everyone has to wear safety goggles before entering the chemical area.\"\nVictoria: \"You must not touch any bottles without wearing rubber gloves!\"",
+      "question": "Chủ đề trọng tâm của đoạn hội thoại trên là gì?",
       "options": [
+        "Cách làm món ăn truyền thống",
+        "Lịch trình đi du lịch nghỉ mát cuối tuần",
         "Động từ Khuyết thiếu — Must / Have to (Nghĩa vụ & Quy định)",
-        "Kế hoạch đi nghỉ dưỡng cuối tuần ở bãi biển",
-        "Mua sắm quần áo và đồ dùng thể thao",
-        "Cách làm món ăn truyền thống gia đình"
+        "Kế hoạch đi mua sắm tại siêu thị"
       ],
       "correctAnswer": "Động từ Khuyết thiếu — Must / Have to (Nghĩa vụ & Quy định)",
-      "explanationVi": "Đoạn hội thoại mở đầu được thiết kế để minh họa trực tiếp cho chủ điểm ngữ pháp: \"Bài 35: Động từ Khuyết thiếu — Must / Have to (Nghĩa vụ & Quy định)\"."
+      "explanationVi": "Đoạn hội thoại được thiết kế để minh họa trực tiếp cho chủ điểm \"Bài 35: Động từ Khuyết thiếu — Must / Have to (Nghĩa vụ & Quy định)\"."
     },
     {
       "id": "ex-035-30",
       "type": "reading_comprehension",
-      "promptVi": "[Đọc hiểu đoạn văn 2] Đọc phần tiếp theo của đoạn hội thoại và chọn nhận định đúng:",
-      "passage": "Patrick (Nam): \"Visitors must not take photographs inside this testing room.\"\nVictoria (Nữ): \"Do we have to submit our laboratory report by five PM today?\"\nPatrick (Nam): \"No, you don't have to submit it today. Tomorrow morning is completely fine.\"\nVictoria (Nữ): \"My supervisor told me that I must study the instruction manual carefully.\"",
-      "question": "Nhận định nào sau đây là ĐÚNG với nội dung đoạn hội thoại trên?",
+      "promptVi": "[Đọc hiểu đoạn văn] Đọc đoạn đối thoại tiếp theo và chọn nhận định đúng:",
+      "passage": "Patrick: \"Visitors must not take photographs inside this testing room.\"\nVictoria: \"Do we have to submit our laboratory report by five PM today?\"\nPatrick: \"No, you don't have to submit it today. Tomorrow morning is completely fine.\"\nVictoria: \"My supervisor told me that I must study the instruction manual carefully.\"",
+      "question": "Nhận định nào sau đây là ĐÚNG về nội dung đoạn đối thoại?",
       "options": [
-        "Các câu hội thoại sử dụng đúng cấu trúc ngữ pháp \"Bài 35: Động từ Khuyết thiếu — Must / Have to (Nghĩa vụ & Quy định)\".",
-        "Các nhân vật không hiểu ý nhau và từ chối nói chuyện.",
-        "Đoạn hội thoại nói về việc chuyển nhà sang thành phố khác.",
-        "Cả hai nhân vật đều đang ở sân bay chuẩn bị lên máy bay."
+        "Cuộc trò chuyện diễn ra tại nhà ga xe lửa.",
+        "Các câu thoại sử dụng đúng cấu trúc \"Động từ Khuyết thiếu — Must / Have to (Nghĩa vụ & Quy định)\".",
+        "Hai nhân vật đang cãi nhau và không đồng ý hợp tác.",
+        "Cả hai nhân vật đang thảo luận về thời tiết ngày mai."
       ],
-      "correctAnswer": "Các câu hội thoại sử dụng đúng cấu trúc ngữ pháp \"Bài 35: Động từ Khuyết thiếu — Must / Have to (Nghĩa vụ & Quy định)\".",
-      "explanationVi": "Đoạn hội thoại thứ hai tiếp tục củng cố và ứng dụng các quy tắc ngữ pháp của \"Bài 35: Động từ Khuyết thiếu — Must / Have to (Nghĩa vụ & Quy định)\"."
+      "correctAnswer": "Các câu thoại sử dụng đúng cấu trúc \"Động từ Khuyết thiếu — Must / Have to (Nghĩa vụ & Quy định)\".",
+      "explanationVi": "Đoạn đối thoại ứng dụng chuẩn xác ngữ pháp của \"Bài 35: Động từ Khuyết thiếu — Must / Have to (Nghĩa vụ & Quy định)\"."
     }
   ]
 }

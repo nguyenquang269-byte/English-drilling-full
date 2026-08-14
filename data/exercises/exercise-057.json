@@ -7,13 +7,13 @@
     {
       "id": "ex-057-01",
       "type": "multiple_choice",
-      "promptVi": "[Trắc nghiệm] Chọn từ/cụm từ đúng để hoàn thành câu (Tôi đã gặp một người phụ nữ có con gái là ca sĩ nổi tiếng.):",
+      "promptVi": "[Trắc nghiệm ngữ pháp] Chọn từ đúng để hoàn thành câu (Tôi đã gặp một người phụ nữ có con gái là ca sĩ nổi tiếng.):",
       "question": "I met a woman ___ daughter is a famous singer.",
       "options": [
-        "whose",
         "who",
-        "whom",
-        "which"
+        "whose",
+        "which",
+        "whom"
       ],
       "correctAnswer": "whose",
       "explanationVi": "Chỉ quan hệ sở hữu (con gái của người phụ nữ) dùng 'whose'."
@@ -21,13 +21,13 @@
     {
       "id": "ex-057-02",
       "type": "multiple_choice",
-      "promptVi": "[Trắc nghiệm] Chọn từ/cụm từ đúng để hoàn thành câu (Đây là thị trấn nơi mà tôi đã lớn lên.):",
+      "promptVi": "[Trắc nghiệm ngữ pháp] Chọn từ đúng để hoàn thành câu (Đây là thị trấn nơi mà tôi đã lớn lên.):",
       "question": "This is the town ___ I grew up.",
       "options": [
-        "where",
+        "whose",
         "when",
-        "which",
-        "whose"
+        "where",
+        "which"
       ],
       "correctAnswer": "where",
       "explanationVi": "Bổ nghĩa cho nơi chốn 'the town' (nơi tôi lớn lên) dùng 'where'."
@@ -35,12 +35,12 @@
     {
       "id": "ex-057-03",
       "type": "multiple_choice",
-      "promptVi": "[Trắc nghiệm] Chọn từ/cụm từ đúng để hoàn thành câu (Tôi nhớ cái ngày mà chúng ta lần đầu gặp gỡ.):",
+      "promptVi": "[Trắc nghiệm ngữ pháp] Chọn từ đúng để hoàn thành câu (Tôi nhớ cái ngày mà chúng ta lần đầu gặp gỡ.):",
       "question": "I remember the day ___ we first met.",
       "options": [
+        "which",
         "when",
         "where",
-        "which",
         "why"
       ],
       "correctAnswer": "when",
@@ -49,11 +49,11 @@
     {
       "id": "ex-057-04",
       "type": "multiple_choice",
-      "promptVi": "[Trắc nghiệm] Chọn từ/cụm từ đúng để hoàn thành câu (Hãy nói cho tôi biết lý do tại sao bạn lại đến muộn.):",
+      "promptVi": "[Trắc nghiệm ngữ pháp] Chọn từ đúng để hoàn thành câu (Hãy nói cho tôi biết lý do tại sao bạn lại đến muộn.):",
       "question": "Tell me the reason ___ you were late.",
       "options": [
-        "why",
         "where",
+        "why",
         "when",
         "which"
       ],
@@ -63,115 +63,117 @@
     {
       "id": "ex-057-05",
       "type": "multiple_choice",
-      "promptVi": "[Trắc nghiệm] Dịch câu sau sang tiếng Anh: \"Cảm giác thật tuyệt vời khi trở lại khuôn viên trường đại học nơi mà chúng ta đã trải qua bốn năm đáng nhớ! (where)\"",
-      "question": "Chọn bản dịch chuẩn xác cho câu: \"Cảm giác thật tuyệt vời khi trở lại khuôn viên trường đại học nơi mà chúng ta đã trải qua bốn năm đáng nhớ! (where)\"",
+      "promptVi": "[Phản xạ dịch thuật] Dịch câu sau sang tiếng Anh: \"Cảm giác thật tuyệt vời khi trở lại khuôn viên trường đại học nơi mà chúng ta đã trải qua bốn năm đáng nhớ! (where)\"",
+      "question": "Chọn bản dịch chuẩn xác nhất cho câu: \"Cảm giác thật tuyệt vời khi trở lại khuôn viên trường đại học nơi mà chúng ta đã trải qua bốn năm đáng nhớ! (where)\"",
       "options": [
-        "It feels wonderful to return to the university campus where we spent four memorable years!",
-        "It feels wonderful to return to the university campus where we spent four memorable years!",
         "Look over there! That is the professor whose inspiring lectures completely changed my career path.",
-        "I want to go to the park now."
+        "It feels wonderful to return to the university campus where we spent four memorable years!",
+        "We are studying English today.",
+        "is"
       ],
       "correctAnswer": "It feels wonderful to return to the university campus where we spent four memorable years!",
-      "explanationVi": "Câu đúng là \"It feels wonderful to return to the university campus where we spent four memorable years!\" (Cảm giác thật tuyệt vời khi trở lại khuôn viên trường đại học nơi mà chúng ta đã trải qua bốn năm đáng nhớ! (where))."
+      "explanationVi": "Câu dịch chuẩn xác: \"It feels wonderful to return to the university campus where we spent four memorable years!\" (Cảm giác thật tuyệt vời khi trở lại khuôn viên trường đại học nơi mà chúng ta đã trải qua bốn năm đáng nhớ! (where))."
     },
     {
       "id": "ex-057-06",
       "type": "multiple_choice",
-      "promptVi": "[Trắc nghiệm] Chọn câu trả lời hoặc cách diễn đạt phù hợp:",
-      "question": "Trong ngữ cảnh giao tiếp: \"It feels wonderful to return to the university campus where we spent four memorable years!\", câu phản hồi tự nhiên là gì?",
+      "promptVi": "[Ngữ cảnh giao tiếp] Chọn câu phản hồi tự nhiên và đúng ngữ pháp:",
+      "question": "Khi đối phương nói: \"It feels wonderful to return to the university campus where we spent four memorable years!\", câu phản hồi phù hợp là gì?",
       "options": [
-        "Look over there! That is the professor whose inspiring lectures completely changed my career path.",
-        "No, it is yesterday morning.",
-        "Yes, I will eat apple.",
-        "They are not at the library."
+        "No, it was yesterday.",
+        "They are not in the office.",
+        "Yes, I will eat it.",
+        "Look over there! That is the professor whose inspiring lectures completely changed my career path."
       ],
       "correctAnswer": "Look over there! That is the professor whose inspiring lectures completely changed my career path.",
-      "explanationVi": "Phản hồi phù hợp: \"Look over there! That is the professor whose inspiring lectures completely changed my career path.\" (Nhìn đằng kia kìa! Đó là vị giáo sư có những bài giảng truyền cảm hứng đã thay đổi hoàn toàn con đường sự nghiệp của tôi. (whose))."
+      "explanationVi": "Phản hồi phù hợp trong bài: \"Look over there! That is the professor whose inspiring lectures completely changed my career path.\" (Nhìn đằng kia kìa! Đó là vị giáo sư có những bài giảng truyền cảm hứng đã thay đổi hoàn toàn con đường sự nghiệp của tôi. (whose))."
     },
     {
       "id": "ex-057-07",
       "type": "fill_blank",
-      "promptVi": "[Điền từ - (Dạng khẳng định)] Điền dạng đúng của động từ vào ô trống (Tôi đã gặp một người phụ nữ có con gái là ca sĩ nổi tiếng.):",
+      "promptVi": "[Điền từ - Dạng KHẲNG ĐỊNH] Điền từ còn thiếu vào ô trống (Tôi đã gặp một người phụ nữ có con gái là ca sĩ nổi tiếng.):",
       "question": "I met a woman ___ daughter is a famous singer.",
       "correctAnswer": "whose",
       "options": [
         "whose",
-        "who",
         "whom",
+        "who",
         "which"
       ],
-      "explanationVi": "Đáp án chính xác: \"whose\". Tôi đã gặp một người phụ nữ có con gái là ca sĩ nổi tiếng.."
+      "explanationVi": "Đáp án đúng là \"whose\". Câu hoàn chỉnh: \"I met a woman whose daughter is a famous singer.\" (Tôi đã gặp một người phụ nữ có con gái là ca sĩ nổi tiếng.)."
     },
     {
       "id": "ex-057-08",
       "type": "fill_blank",
-      "promptVi": "[Điền từ - (Dạng khẳng định)] Điền dạng đúng của động từ vào ô trống (Đây là thị trấn nơi mà tôi đã lớn lên.):",
+      "promptVi": "[Điền từ - Dạng KHẲNG ĐỊNH] Điền từ còn thiếu vào ô trống (Đây là thị trấn nơi mà tôi đã lớn lên.):",
       "question": "This is the town ___ I grew up.",
       "correctAnswer": "where",
       "options": [
         "where",
         "when",
-        "which",
-        "whose"
+        "whose",
+        "which"
       ],
-      "explanationVi": "Đáp án chính xác: \"where\". Đây là thị trấn nơi mà tôi đã lớn lên.."
+      "explanationVi": "Đáp án đúng là \"where\". Câu hoàn chỉnh: \"This is the town where I grew up.\" (Đây là thị trấn nơi mà tôi đã lớn lên.)."
     },
     {
       "id": "ex-057-09",
       "type": "fill_blank",
-      "promptVi": "[Điền từ - (Dạng khẳng định)] Điền dạng đúng của động từ vào ô trống (Tôi nhớ cái ngày mà chúng ta lần đầu gặp gỡ.):",
+      "promptVi": "[Điền từ - Dạng KHẲNG ĐỊNH] Điền từ còn thiếu vào ô trống (Tôi nhớ cái ngày mà chúng ta lần đầu gặp gỡ.):",
       "question": "I remember the day ___ we first met.",
       "correctAnswer": "when",
       "options": [
-        "when",
         "where",
         "which",
+        "when",
         "why"
       ],
-      "explanationVi": "Đáp án chính xác: \"when\". Tôi nhớ cái ngày mà chúng ta lần đầu gặp gỡ.."
+      "explanationVi": "Đáp án đúng là \"when\". Câu hoàn chỉnh: \"I remember the day when we first met.\" (Tôi nhớ cái ngày mà chúng ta lần đầu gặp gỡ.)."
     },
     {
       "id": "ex-057-10",
       "type": "fill_blank",
-      "promptVi": "[Điền từ - (Dạng khẳng định)] Điền dạng đúng của động từ vào ô trống (Hãy nói cho tôi biết lý do tại sao bạn lại đến muộn.):",
+      "promptVi": "[Điền từ - Dạng KHẲNG ĐỊNH] Điền từ còn thiếu vào ô trống (Hãy nói cho tôi biết lý do tại sao bạn lại đến muộn.):",
       "question": "Tell me the reason ___ you were late.",
       "correctAnswer": "why",
       "options": [
-        "why",
         "where",
         "when",
-        "which"
+        "which",
+        "why"
       ],
-      "explanationVi": "Đáp án chính xác: \"why\". Hãy nói cho tôi biết lý do tại sao bạn lại đến muộn.."
+      "explanationVi": "Đáp án đúng là \"why\". Câu hoàn chỉnh: \"Tell me the reason why you were late.\" (Hãy nói cho tôi biết lý do tại sao bạn lại đến muộn.)."
     },
     {
       "id": "ex-057-11",
       "type": "fill_blank",
-      "promptVi": "[Điền từ - Dạng PHỦ ĐỊNH] Hoàn thành câu phủ định sau:",
-      "correctAnswer": "I met a woman whose daughter is not a famous singer.",
+      "promptVi": "[Điền từ - Dạng PHỦ ĐỊNH] Điền trợ động từ/động từ tobe phủ định vào chỗ trống:",
+      "question": "I _____ not a woman whose daughter is a famous singer.",
+      "correctAnswer": "met",
       "options": [
-        "I met a woman whose daughter is not a famous singer.",
-        "I met a woman whose daughter is a famous singer.",
-        "Not I met a woman whose daughter is a famous singer.",
-        "I met a woman whose daughter is a famous singer. no"
+        "am",
+        "met",
+        "is",
+        "are"
       ],
-      "explanationVi": "Dạng phủ định chuẩn: Thêm 'not' sau động từ chính."
+      "explanationVi": "Câu phủ định hoàn chỉnh: \"I met not a woman whose daughter is a famous singer.\"."
     },
     {
       "id": "ex-057-12",
       "type": "sentence_scramble",
-      "promptVi": "[Sắp xếp câu] Xếp các khối từ thành câu hoàn chỉnh mang nghĩa: \"Tôi đã gặp một người phụ nữ có con gái là ca sĩ nổi tiếng.\"",
+      "promptVi": "[Sắp xếp câu] Ghép các khối từ thành câu hoàn chỉnh mang nghĩa: \"Tôi đã gặp một người phụ nữ có con gái là ca sĩ nổi tiếng.\"",
+      "question": "Sắp xếp các từ để tạo thành câu đúng: \"Tôi đã gặp một người phụ nữ có con gái là ca sĩ nổi tiếng.\"",
       "words": [
-        "a",
-        "I",
-        "woman",
-        "whose",
-        "is",
         "famous",
+        "singer.",
         "a",
+        "is",
         "met",
+        "woman",
+        "I",
         "daughter",
-        "singer."
+        "a",
+        "whose"
       ],
       "correctSentence": "I met a woman whose daughter is a famous singer.",
       "hintVi": "Tôi đã gặp một người phụ nữ có con gái là ca sĩ nổi tiếng.",
@@ -180,16 +182,17 @@
     {
       "id": "ex-057-13",
       "type": "sentence_scramble",
-      "promptVi": "[Sắp xếp câu] Xếp các khối từ thành câu hoàn chỉnh mang nghĩa: \"Đây là thị trấn nơi mà tôi đã lớn lên.\"",
+      "promptVi": "[Sắp xếp câu] Ghép các khối từ thành câu hoàn chỉnh mang nghĩa: \"Đây là thị trấn nơi mà tôi đã lớn lên.\"",
+      "question": "Sắp xếp các từ để tạo thành câu đúng: \"Đây là thị trấn nơi mà tôi đã lớn lên.\"",
       "words": [
+        "the",
         "up.",
         "grew",
-        "the",
         "town",
-        "This",
         "I",
-        "is",
-        "where"
+        "where",
+        "This",
+        "is"
       ],
       "correctSentence": "This is the town where I grew up.",
       "hintVi": "Đây là thị trấn nơi mà tôi đã lớn lên.",
@@ -198,15 +201,16 @@
     {
       "id": "ex-057-14",
       "type": "sentence_scramble",
-      "promptVi": "[Sắp xếp câu] Xếp các khối từ thành câu hoàn chỉnh mang nghĩa: \"Tôi nhớ cái ngày mà chúng ta lần đầu gặp gỡ.\"",
+      "promptVi": "[Sắp xếp câu] Ghép các khối từ thành câu hoàn chỉnh mang nghĩa: \"Tôi nhớ cái ngày mà chúng ta lần đầu gặp gỡ.\"",
+      "question": "Sắp xếp các từ để tạo thành câu đúng: \"Tôi nhớ cái ngày mà chúng ta lần đầu gặp gỡ.\"",
       "words": [
         "met.",
-        "day",
+        "remember",
         "first",
         "the",
-        "we",
-        "remember",
         "I",
+        "day",
+        "we",
         "when"
       ],
       "correctSentence": "I remember the day when we first met.",
@@ -216,16 +220,17 @@
     {
       "id": "ex-057-15",
       "type": "sentence_scramble",
-      "promptVi": "[Sắp xếp câu] Xếp các khối từ thành câu hoàn chỉnh mang nghĩa: \"Hãy nói cho tôi biết lý do tại sao bạn lại đến muộn.\"",
+      "promptVi": "[Sắp xếp câu] Ghép các khối từ thành câu hoàn chỉnh mang nghĩa: \"Hãy nói cho tôi biết lý do tại sao bạn lại đến muộn.\"",
+      "question": "Sắp xếp các từ để tạo thành câu đúng: \"Hãy nói cho tôi biết lý do tại sao bạn lại đến muộn.\"",
       "words": [
-        "why",
         "Tell",
         "the",
-        "late.",
-        "you",
         "reason",
-        "me",
-        "were"
+        "why",
+        "late.",
+        "were",
+        "you",
+        "me"
       ],
       "correctSentence": "Tell me the reason why you were late.",
       "hintVi": "Hãy nói cho tôi biết lý do tại sao bạn lại đến muộn.",
@@ -234,22 +239,23 @@
     {
       "id": "ex-057-16",
       "type": "sentence_scramble",
-      "promptVi": "[Sắp xếp câu] Xếp các từ thành câu hội thoại: \"Tôi vẫn nhớ như in học kỳ khi mà chúng ta cùng hợp tác trong dự án chế tạo robot đoạt giải thưởng đó. (when)\"",
+      "promptVi": "[Sắp xếp câu] Ghép các từ thành câu hội thoại: \"Tôi vẫn nhớ như in học kỳ khi mà chúng ta cùng hợp tác trong dự án chế tạo robot đoạt giải thưởng đó. (when)\"",
+      "question": "Sắp xếp các từ để tạo thành câu thoại: \"Tôi vẫn nhớ như in học kỳ khi mà chúng ta cùng hợp tác trong dự án chế tạo robot đoạt giải thưởng đó. (when)\"",
       "words": [
-        "that",
         "remember",
-        "on",
-        "semester",
-        "vividly",
-        "we",
-        "still",
-        "collaborated",
-        "project",
-        "award-winning",
         "the",
-        "I",
+        "still",
+        "we",
         "robotics",
-        "when"
+        "on",
+        "award-winning",
+        "that",
+        "I",
+        "when",
+        "project",
+        "vividly",
+        "semester",
+        "collaborated"
       ],
       "correctSentence": "I still vividly remember the semester when we collaborated on that award-winning robotics project.",
       "hintVi": "Tôi vẫn nhớ như in học kỳ khi mà chúng ta cùng hợp tác trong dự án chế tạo robot đoạt giải thưởng đó. (when)",
@@ -258,70 +264,70 @@
     {
       "id": "ex-057-17",
       "type": "find_error",
-      "promptVi": "[Tìm lỗi sai & Chọn câu đúng] Câu nào dưới đây có cấu trúc ngữ pháp HOÀN TOÀN ĐÚNG?",
-      "question": "Chủ điểm \"Bài 57: Mệnh đề Quan hệ — Whose / Where / When / Why (Possessive Relative Whose & Relative Adverbs)\": Chọn câu CHÍNH XÁC:",
+      "promptVi": "[Nhận diện cấu trúc chuẩn] Chọn câu có cấu trúc ngữ pháp HOÀN TOÀN ĐÚNG:",
+      "question": "Dựa vào chủ điểm \"Bài 57: Mệnh đề Quan hệ — Whose / Where / When / Why (Possessive Relative Whose & Relative Adverbs)\", câu nào sau đây CHÍNH XÁC?",
       "options": [
-        "I met a woman whose daughter is a famous singer.",
         "I met a woman whose daughter be a famous singer.",
-        "I met a woman whose daughter are not is a famous singer.",
-        "singer. famous a is daughter whose woman a met I"
+        "I met a woman whose daughter is a famous singer.",
+        "singer. famous a is daughter whose woman a met I",
+        "is"
       ],
       "correctAnswer": "I met a woman whose daughter is a famous singer.",
-      "explanationVi": "Câu chuẩn xác là: \"I met a woman whose daughter is a famous singer.\" (Tôi đã gặp một người phụ nữ có con gái là ca sĩ nổi tiếng.)."
+      "explanationVi": "Cấu trúc chuẩn xác là: \"I met a woman whose daughter is a famous singer.\" (Tôi đã gặp một người phụ nữ có con gái là ca sĩ nổi tiếng.)."
     },
     {
       "id": "ex-057-18",
       "type": "find_error",
-      "promptVi": "[Tìm lỗi sai & Chọn câu đúng] Câu nào dưới đây có cấu trúc ngữ pháp HOÀN TOÀN ĐÚNG?",
-      "question": "Chủ điểm \"Bài 57: Mệnh đề Quan hệ — Whose / Where / When / Why (Possessive Relative Whose & Relative Adverbs)\": Chọn câu CHÍNH XÁC:",
+      "promptVi": "[Nhận diện cấu trúc chuẩn] Chọn câu có cấu trúc ngữ pháp HOÀN TOÀN ĐÚNG:",
+      "question": "Dựa vào chủ điểm \"Bài 57: Mệnh đề Quan hệ — Whose / Where / When / Why (Possessive Relative Whose & Relative Adverbs)\", câu nào sau đây CHÍNH XÁC?",
       "options": [
         "This is the town where I grew up.",
+        "is",
         "This be the town where I grew up.",
-        "This are not is the town where I grew up.",
         "up. grew I where town the is This"
       ],
       "correctAnswer": "This is the town where I grew up.",
-      "explanationVi": "Câu chuẩn xác là: \"This is the town where I grew up.\" (Đây là thị trấn nơi mà tôi đã lớn lên.)."
+      "explanationVi": "Cấu trúc chuẩn xác là: \"This is the town where I grew up.\" (Đây là thị trấn nơi mà tôi đã lớn lên.)."
     },
     {
       "id": "ex-057-19",
       "type": "find_error",
-      "promptVi": "[Tìm lỗi sai & Chọn câu đúng] Câu nào dưới đây có cấu trúc ngữ pháp HOÀN TOÀN ĐÚNG?",
-      "question": "Chủ điểm \"Bài 57: Mệnh đề Quan hệ — Whose / Where / When / Why (Possessive Relative Whose & Relative Adverbs)\": Chọn câu CHÍNH XÁC:",
+      "promptVi": "[Nhận diện cấu trúc chuẩn] Chọn câu có cấu trúc ngữ pháp HOÀN TOÀN ĐÚNG:",
+      "question": "Dựa vào chủ điểm \"Bài 57: Mệnh đề Quan hệ — Whose / Where / When / Why (Possessive Relative Whose & Relative Adverbs)\", câu nào sau đây CHÍNH XÁC?",
       "options": [
-        "I remember the day when we first met.",
+        "is",
+        "are",
         "met. first we when day the remember I",
-        "I remember the day when we first met. (sai)",
-        "I remember the day when we first met. (sai)"
+        "I remember the day when we first met."
       ],
       "correctAnswer": "I remember the day when we first met.",
-      "explanationVi": "Câu chuẩn xác là: \"I remember the day when we first met.\" (Tôi nhớ cái ngày mà chúng ta lần đầu gặp gỡ.)."
+      "explanationVi": "Cấu trúc chuẩn xác là: \"I remember the day when we first met.\" (Tôi nhớ cái ngày mà chúng ta lần đầu gặp gỡ.)."
     },
     {
       "id": "ex-057-20",
       "type": "find_error",
-      "promptVi": "[Tìm lỗi sai & Chọn câu đúng] Câu nào dưới đây có cấu trúc ngữ pháp HOÀN TOÀN ĐÚNG?",
-      "question": "Chủ điểm \"Bài 57: Mệnh đề Quan hệ — Whose / Where / When / Why (Possessive Relative Whose & Relative Adverbs)\": Chọn câu CHÍNH XÁC:",
+      "promptVi": "[Nhận diện cấu trúc chuẩn] Chọn câu có cấu trúc ngữ pháp HOÀN TOÀN ĐÚNG:",
+      "question": "Dựa vào chủ điểm \"Bài 57: Mệnh đề Quan hệ — Whose / Where / When / Why (Possessive Relative Whose & Relative Adverbs)\", câu nào sau đây CHÍNH XÁC?",
       "options": [
-        "Tell me the reason why you were late.",
         "Tell me the reason why you be late.",
-        "Tell me the reason why you are not is late.",
-        "late. were you why reason the me Tell"
+        "Tell me the reason why you were late.",
+        "late. were you why reason the me Tell",
+        "is"
       ],
       "correctAnswer": "Tell me the reason why you were late.",
-      "explanationVi": "Câu chuẩn xác là: \"Tell me the reason why you were late.\" (Hãy nói cho tôi biết lý do tại sao bạn lại đến muộn.)."
+      "explanationVi": "Cấu trúc chuẩn xác là: \"Tell me the reason why you were late.\" (Hãy nói cho tôi biết lý do tại sao bạn lại đến muộn.)."
     },
     {
       "id": "ex-057-21",
       "type": "listening_reflex",
-      "promptVi": "[Nghe phản xạ] Nghe câu phát âm tiếng Anh và chọn bản dịch tiếng Việt đúng nhất:",
+      "promptVi": "[Nghe phản xạ] Nghe câu phát âm tiếng Anh và chọn bản dịch tiếng Việt đúng:",
       "audioPrompt": "It feels wonderful to return to the university campus where we spent four memorable years!",
-      "question": "Nhấn nút '🔊 Nghe audio' để nghe câu thoại và chọn nghĩa đúng:",
+      "question": "Nhấn nút '🔊 Nghe audio' và chọn nghĩa tiếng Việt đúng:",
       "options": [
-        "Cảm giác thật tuyệt vời khi trở lại khuôn viên trường đại học nơi mà chúng ta đã trải qua bốn năm đáng nhớ! (where)",
         "Nhìn đằng kia kìa! Đó là vị giáo sư có những bài giảng truyền cảm hứng đã thay đổi hoàn toàn con đường sự nghiệp của tôi. (whose)",
-        "Tôi vẫn nhớ như in học kỳ khi mà chúng ta cùng hợp tác trong dự án chế tạo robot đoạt giải thưởng đó. (when)",
-        "Ngày mai trời sẽ mưa to."
+        "Hôm nay thời tiết rất đẹp.",
+        "Cảm giác thật tuyệt vời khi trở lại khuôn viên trường đại học nơi mà chúng ta đã trải qua bốn năm đáng nhớ! (where)",
+        "Tôi vẫn nhớ như in học kỳ khi mà chúng ta cùng hợp tác trong dự án chế tạo robot đoạt giải thưởng đó. (when)"
       ],
       "correctAnswer": "Cảm giác thật tuyệt vời khi trở lại khuôn viên trường đại học nơi mà chúng ta đã trải qua bốn năm đáng nhớ! (where)",
       "explanationVi": "Câu nghe được: \"It feels wonderful to return to the university campus where we spent four memorable years!\" có nghĩa là: \"Cảm giác thật tuyệt vời khi trở lại khuôn viên trường đại học nơi mà chúng ta đã trải qua bốn năm đáng nhớ! (where)\"."
@@ -329,14 +335,14 @@
     {
       "id": "ex-057-22",
       "type": "listening_reflex",
-      "promptVi": "[Nghe phản xạ] Nghe câu phát âm tiếng Anh và chọn bản dịch tiếng Việt đúng nhất:",
+      "promptVi": "[Nghe phản xạ] Nghe câu phát âm tiếng Anh và chọn bản dịch tiếng Việt đúng:",
       "audioPrompt": "Look over there! That is the professor whose inspiring lectures completely changed my career path.",
-      "question": "Nhấn nút '🔊 Nghe audio' để nghe câu thoại và chọn nghĩa đúng:",
+      "question": "Nhấn nút '🔊 Nghe audio' và chọn nghĩa tiếng Việt đúng:",
       "options": [
-        "Nhìn đằng kia kìa! Đó là vị giáo sư có những bài giảng truyền cảm hứng đã thay đổi hoàn toàn con đường sự nghiệp của tôi. (whose)",
-        "Tôi vẫn nhớ như in học kỳ khi mà chúng ta cùng hợp tác trong dự án chế tạo robot đoạt giải thưởng đó. (when)",
         "Bạn có nhớ lý do tại sao nhóm chúng ta đã ở lại phòng thí nghiệm máy tính thâu đêm không? (why)",
-        "Ngày mai trời sẽ mưa to."
+        "Tôi vẫn nhớ như in học kỳ khi mà chúng ta cùng hợp tác trong dự án chế tạo robot đoạt giải thưởng đó. (when)",
+        "Hôm nay thời tiết rất đẹp.",
+        "Nhìn đằng kia kìa! Đó là vị giáo sư có những bài giảng truyền cảm hứng đã thay đổi hoàn toàn con đường sự nghiệp của tôi. (whose)"
       ],
       "correctAnswer": "Nhìn đằng kia kìa! Đó là vị giáo sư có những bài giảng truyền cảm hứng đã thay đổi hoàn toàn con đường sự nghiệp của tôi. (whose)",
       "explanationVi": "Câu nghe được: \"Look over there! That is the professor whose inspiring lectures completely changed my career path.\" có nghĩa là: \"Nhìn đằng kia kìa! Đó là vị giáo sư có những bài giảng truyền cảm hứng đã thay đổi hoàn toàn con đường sự nghiệp của tôi. (whose)\"."
@@ -344,14 +350,14 @@
     {
       "id": "ex-057-23",
       "type": "listening_reflex",
-      "promptVi": "[Nghe phản xạ] Nghe câu phát âm tiếng Anh và chọn bản dịch tiếng Việt đúng nhất:",
+      "promptVi": "[Nghe phản xạ] Nghe câu phát âm tiếng Anh và chọn bản dịch tiếng Việt đúng:",
       "audioPrompt": "I still vividly remember the semester when we collaborated on that award-winning robotics project.",
-      "question": "Nhấn nút '🔊 Nghe audio' để nghe câu thoại và chọn nghĩa đúng:",
+      "question": "Nhấn nút '🔊 Nghe audio' và chọn nghĩa tiếng Việt đúng:",
       "options": [
         "Tôi vẫn nhớ như in học kỳ khi mà chúng ta cùng hợp tác trong dự án chế tạo robot đoạt giải thưởng đó. (when)",
-        "Bạn có nhớ lý do tại sao nhóm chúng ta đã ở lại phòng thí nghiệm máy tính thâu đêm không? (why)",
         "Có chứ, chúng ta phải sửa lỗi mạng nơ-ron trước thời hạn nộp bài quốc tế!",
-        "Ngày mai trời sẽ mưa to."
+        "Hôm nay thời tiết rất đẹp.",
+        "Bạn có nhớ lý do tại sao nhóm chúng ta đã ở lại phòng thí nghiệm máy tính thâu đêm không? (why)"
       ],
       "correctAnswer": "Tôi vẫn nhớ như in học kỳ khi mà chúng ta cùng hợp tác trong dự án chế tạo robot đoạt giải thưởng đó. (when)",
       "explanationVi": "Câu nghe được: \"I still vividly remember the semester when we collaborated on that award-winning robotics project.\" có nghĩa là: \"Tôi vẫn nhớ như in học kỳ khi mà chúng ta cùng hợp tác trong dự án chế tạo robot đoạt giải thưởng đó. (when)\"."
@@ -359,14 +365,14 @@
     {
       "id": "ex-057-24",
       "type": "listening_reflex",
-      "promptVi": "[Nghe phản xạ] Nghe câu phát âm tiếng Anh và chọn bản dịch tiếng Việt đúng nhất:",
+      "promptVi": "[Nghe phản xạ] Nghe câu phát âm tiếng Anh và chọn bản dịch tiếng Việt đúng:",
       "audioPrompt": "Do you remember the reason why our team stayed in the computer laboratory overnight?",
-      "question": "Nhấn nút '🔊 Nghe audio' để nghe câu thoại và chọn nghĩa đúng:",
+      "question": "Nhấn nút '🔊 Nghe audio' và chọn nghĩa tiếng Việt đúng:",
       "options": [
-        "Bạn có nhớ lý do tại sao nhóm chúng ta đã ở lại phòng thí nghiệm máy tính thâu đêm không? (why)",
         "Có chứ, chúng ta phải sửa lỗi mạng nơ-ron trước thời hạn nộp bài quốc tế!",
-        "Kìa là bạn sinh viên có công ty khởi nghiệp gần đây đã được mua lại với giá mười triệu đô la.",
-        "Ngày mai trời sẽ mưa to."
+        "Bạn có nhớ lý do tại sao nhóm chúng ta đã ở lại phòng thí nghiệm máy tính thâu đêm không? (why)",
+        "Hôm nay thời tiết rất đẹp.",
+        "Kìa là bạn sinh viên có công ty khởi nghiệp gần đây đã được mua lại với giá mười triệu đô la."
       ],
       "correctAnswer": "Bạn có nhớ lý do tại sao nhóm chúng ta đã ở lại phòng thí nghiệm máy tính thâu đêm không? (why)",
       "explanationVi": "Câu nghe được: \"Do you remember the reason why our team stayed in the computer laboratory overnight?\" có nghĩa là: \"Bạn có nhớ lý do tại sao nhóm chúng ta đã ở lại phòng thí nghiệm máy tính thâu đêm không? (why)\"."
@@ -374,64 +380,68 @@
     {
       "id": "ex-057-25",
       "type": "speaking_practice",
-      "promptVi": "[Luyện nói qua Micro] Nhấn nút '🎙️ Bắt đầu nói' và đọc to, rõ ràng câu tiếng Anh sau:",
+      "promptVi": "[Luyện nói qua Micro] Nhấn nút 'Bấm để Nói ngay' và phát âm câu sau:",
+      "question": "Luyện phát âm chuẩn câu: \"I met a woman whose daughter is a famous singer.\" (Tôi đã gặp một người phụ nữ có con gái là ca sĩ nổi tiếng.)",
       "targetSentence": "I met a woman whose daughter is a famous singer.",
       "hintVi": "Tôi đã gặp một người phụ nữ có con gái là ca sĩ nổi tiếng.",
-      "explanationVi": "Câu mục tiêu: \"I met a woman whose daughter is a famous singer.\" (Tôi đã gặp một người phụ nữ có con gái là ca sĩ nổi tiếng.). Luyện phát âm chuẩn xác từng âm tiết và ngữ điệu tự nhiên."
+      "explanationVi": "Mẫu câu chuẩn: \"I met a woman whose daughter is a famous singer.\" (Tôi đã gặp một người phụ nữ có con gái là ca sĩ nổi tiếng.). Luyện phát âm rõ ràng từng từ."
     },
     {
       "id": "ex-057-26",
       "type": "speaking_practice",
-      "promptVi": "[Luyện nói qua Micro] Nhấn nút '🎙️ Bắt đầu nói' và đọc to, rõ ràng câu tiếng Anh sau:",
+      "promptVi": "[Luyện nói qua Micro] Nhấn nút 'Bấm để Nói ngay' và phát âm câu sau:",
+      "question": "Luyện phát âm chuẩn câu: \"This is the town where I grew up.\" (Đây là thị trấn nơi mà tôi đã lớn lên.)",
       "targetSentence": "This is the town where I grew up.",
       "hintVi": "Đây là thị trấn nơi mà tôi đã lớn lên.",
-      "explanationVi": "Câu mục tiêu: \"This is the town where I grew up.\" (Đây là thị trấn nơi mà tôi đã lớn lên.). Luyện phát âm chuẩn xác từng âm tiết và ngữ điệu tự nhiên."
+      "explanationVi": "Mẫu câu chuẩn: \"This is the town where I grew up.\" (Đây là thị trấn nơi mà tôi đã lớn lên.). Luyện phát âm rõ ràng từng từ."
     },
     {
       "id": "ex-057-27",
       "type": "speaking_practice",
-      "promptVi": "[Luyện nói qua Micro] Nhấn nút '🎙️ Bắt đầu nói' và đọc to, rõ ràng câu tiếng Anh sau:",
+      "promptVi": "[Luyện nói qua Micro] Nhấn nút 'Bấm để Nói ngay' và phát âm câu sau:",
+      "question": "Luyện phát âm chuẩn câu: \"I remember the day when we first met.\" (Tôi nhớ cái ngày mà chúng ta lần đầu gặp gỡ.)",
       "targetSentence": "I remember the day when we first met.",
       "hintVi": "Tôi nhớ cái ngày mà chúng ta lần đầu gặp gỡ.",
-      "explanationVi": "Câu mục tiêu: \"I remember the day when we first met.\" (Tôi nhớ cái ngày mà chúng ta lần đầu gặp gỡ.). Luyện phát âm chuẩn xác từng âm tiết và ngữ điệu tự nhiên."
+      "explanationVi": "Mẫu câu chuẩn: \"I remember the day when we first met.\" (Tôi nhớ cái ngày mà chúng ta lần đầu gặp gỡ.). Luyện phát âm rõ ràng từng từ."
     },
     {
       "id": "ex-057-28",
       "type": "speaking_practice",
-      "promptVi": "[Luyện nói qua Micro] Nhấn nút '🎙️ Bắt đầu nói' và đọc to, rõ ràng câu tiếng Anh sau:",
+      "promptVi": "[Luyện nói qua Micro] Nhấn nút 'Bấm để Nói ngay' và phát âm câu sau:",
+      "question": "Luyện phát âm chuẩn câu: \"Tell me the reason why you were late.\" (Hãy nói cho tôi biết lý do tại sao bạn lại đến muộn.)",
       "targetSentence": "Tell me the reason why you were late.",
       "hintVi": "Hãy nói cho tôi biết lý do tại sao bạn lại đến muộn.",
-      "explanationVi": "Câu mục tiêu: \"Tell me the reason why you were late.\" (Hãy nói cho tôi biết lý do tại sao bạn lại đến muộn.). Luyện phát âm chuẩn xác từng âm tiết và ngữ điệu tự nhiên."
+      "explanationVi": "Mẫu câu chuẩn: \"Tell me the reason why you were late.\" (Hãy nói cho tôi biết lý do tại sao bạn lại đến muộn.). Luyện phát âm rõ ràng từng từ."
     },
     {
       "id": "ex-057-29",
       "type": "reading_comprehension",
-      "promptVi": "[Đọc hiểu đoạn văn 1] Đọc đoạn hội thoại mở đầu sau và trả lời câu hỏi:",
-      "passage": "Jonathan (Nam): \"It feels wonderful to return to the university campus where we spent four memorable years!\"\nMaya (Nữ): \"Look over there! That is the professor whose inspiring lectures completely changed my career path.\"\nJonathan (Nam): \"I still vividly remember the semester when we collaborated on that award-winning robotics project.\"\nMaya (Nữ): \"Do you remember the reason why our team stayed in the computer laboratory overnight?\"",
-      "question": "Câu hỏi: Trong đoạn hội thoại trên, các nhân vật đang thảo luận về chủ đề gì?",
+      "promptVi": "[Đọc hiểu đoạn văn] Đọc đoạn hội thoại sau và trả lời câu hỏi:",
+      "passage": "Jonathan: \"It feels wonderful to return to the university campus where we spent four memorable years!\"\nMaya: \"Look over there! That is the professor whose inspiring lectures completely changed my career path.\"\nJonathan: \"I still vividly remember the semester when we collaborated on that award-winning robotics project.\"\nMaya: \"Do you remember the reason why our team stayed in the computer laboratory overnight?\"",
+      "question": "Chủ đề trọng tâm của đoạn hội thoại trên là gì?",
       "options": [
+        "Cách làm món ăn truyền thống",
+        "Lịch trình đi du lịch nghỉ mát cuối tuần",
         "Mệnh đề Quan hệ — Whose / Where / When / Why (Possessive Relative Whose & Relative Adverbs)",
-        "Kế hoạch đi nghỉ dưỡng cuối tuần ở bãi biển",
-        "Mua sắm quần áo và đồ dùng thể thao",
-        "Cách làm món ăn truyền thống gia đình"
+        "Kế hoạch đi mua sắm tại siêu thị"
       ],
       "correctAnswer": "Mệnh đề Quan hệ — Whose / Where / When / Why (Possessive Relative Whose & Relative Adverbs)",
-      "explanationVi": "Đoạn hội thoại mở đầu được thiết kế để minh họa trực tiếp cho chủ điểm ngữ pháp: \"Bài 57: Mệnh đề Quan hệ — Whose / Where / When / Why (Possessive Relative Whose & Relative Adverbs)\"."
+      "explanationVi": "Đoạn hội thoại được thiết kế để minh họa trực tiếp cho chủ điểm \"Bài 57: Mệnh đề Quan hệ — Whose / Where / When / Why (Possessive Relative Whose & Relative Adverbs)\"."
     },
     {
       "id": "ex-057-30",
       "type": "reading_comprehension",
-      "promptVi": "[Đọc hiểu đoạn văn 2] Đọc phần tiếp theo của đoạn hội thoại và chọn nhận định đúng:",
-      "passage": "Jonathan (Nam): \"Yes, we had to debug the neural network before the international submission deadline!\"\nMaya (Nữ): \"There is the student whose startup company was recently acquired for ten million dollars.\"\nJonathan (Nam): \"This is the modern library where thousands of ambitious students study every evening.\"\nMaya (Nữ): \"I cherish the moment when our names were announced on graduation day.\"",
-      "question": "Nhận định nào sau đây là ĐÚNG với nội dung đoạn hội thoại trên?",
+      "promptVi": "[Đọc hiểu đoạn văn] Đọc đoạn đối thoại tiếp theo và chọn nhận định đúng:",
+      "passage": "Jonathan: \"Yes, we had to debug the neural network before the international submission deadline!\"\nMaya: \"There is the student whose startup company was recently acquired for ten million dollars.\"\nJonathan: \"This is the modern library where thousands of ambitious students study every evening.\"\nMaya: \"I cherish the moment when our names were announced on graduation day.\"",
+      "question": "Nhận định nào sau đây là ĐÚNG về nội dung đoạn đối thoại?",
       "options": [
-        "Các câu hội thoại sử dụng đúng cấu trúc ngữ pháp \"Bài 57: Mệnh đề Quan hệ — Whose / Where / When / Why (Possessive Relative Whose & Relative Adverbs)\".",
-        "Các nhân vật không hiểu ý nhau và từ chối nói chuyện.",
-        "Đoạn hội thoại nói về việc chuyển nhà sang thành phố khác.",
-        "Cả hai nhân vật đều đang ở sân bay chuẩn bị lên máy bay."
+        "Cuộc trò chuyện diễn ra tại nhà ga xe lửa.",
+        "Hai nhân vật đang cãi nhau và không đồng ý hợp tác.",
+        "Các câu thoại sử dụng đúng cấu trúc \"Mệnh đề Quan hệ — Whose / Where / When / Why (Possessive Relative Whose & Relative Adverbs)\".",
+        "Cả hai nhân vật đang thảo luận về thời tiết ngày mai."
       ],
-      "correctAnswer": "Các câu hội thoại sử dụng đúng cấu trúc ngữ pháp \"Bài 57: Mệnh đề Quan hệ — Whose / Where / When / Why (Possessive Relative Whose & Relative Adverbs)\".",
-      "explanationVi": "Đoạn hội thoại thứ hai tiếp tục củng cố và ứng dụng các quy tắc ngữ pháp của \"Bài 57: Mệnh đề Quan hệ — Whose / Where / When / Why (Possessive Relative Whose & Relative Adverbs)\"."
+      "correctAnswer": "Các câu thoại sử dụng đúng cấu trúc \"Mệnh đề Quan hệ — Whose / Where / When / Why (Possessive Relative Whose & Relative Adverbs)\".",
+      "explanationVi": "Đoạn đối thoại ứng dụng chuẩn xác ngữ pháp của \"Bài 57: Mệnh đề Quan hệ — Whose / Where / When / Why (Possessive Relative Whose & Relative Adverbs)\"."
     }
   ]
 }

@@ -7,12 +7,12 @@
     {
       "id": "ex-054-01",
       "type": "multiple_choice",
-      "promptVi": "[Trắc nghiệm] Chọn từ/cụm từ đúng để hoàn thành câu (Bạn là học sinh, phải không?):",
+      "promptVi": "[Trắc nghiệm ngữ pháp] Chọn từ đúng để hoàn thành câu (Bạn là học sinh, phải không?):",
       "question": "You are a student, ___?",
       "options": [
         "aren't you",
-        "are you",
         "don't you",
+        "are you",
         "isn't it"
       ],
       "correctAnswer": "aren't you",
@@ -21,13 +21,13 @@
     {
       "id": "ex-054-02",
       "type": "multiple_choice",
-      "promptVi": "[Trắc nghiệm] Chọn từ/cụm từ đúng để hoàn thành câu (Cô ấy sống ở Hà Nội, phải không?):",
+      "promptVi": "[Trắc nghiệm ngữ pháp] Chọn từ đúng để hoàn thành câu (Cô ấy sống ở Hà Nội, phải không?):",
       "question": "She lives in Hanoi, ___?",
       "options": [
-        "doesn't she",
-        "isn't she",
+        "didn't she",
         "does she",
-        "didn't she"
+        "doesn't she",
+        "isn't she"
       ],
       "correctAnswer": "doesn't she",
       "explanationVi": "'lives' là động từ thường số ít hiện tại đơn -> đuôi dùng 'doesn't she'."
@@ -35,13 +35,13 @@
     {
       "id": "ex-054-03",
       "type": "multiple_choice",
-      "promptVi": "[Trắc nghiệm] Chọn từ/cụm từ đúng để hoàn thành câu (Bạn có thể nói tiếng Anh, phải không?):",
+      "promptVi": "[Trắc nghiệm ngữ pháp] Chọn từ đúng để hoàn thành câu (Bạn có thể nói tiếng Anh, phải không?):",
       "question": "You can speak English, ___?",
       "options": [
-        "can't you",
-        "don't you",
         "can you",
-        "aren't you"
+        "aren't you",
+        "can't you",
+        "don't you"
       ],
       "correctAnswer": "can't you",
       "explanationVi": "Mệnh đề có 'can' khẳng định -> đuôi dùng 'can't you'."
@@ -49,12 +49,12 @@
     {
       "id": "ex-054-04",
       "type": "multiple_choice",
-      "promptVi": "[Trắc nghiệm] Chọn từ/cụm từ đúng để hoàn thành câu (Chúng ta cùng đi xem phim nhé, được không?):",
+      "promptVi": "[Trắc nghiệm ngữ pháp] Chọn từ đúng để hoàn thành câu (Chúng ta cùng đi xem phim nhé, được không?):",
       "question": "Let's go to the cinema, ___?",
       "options": [
         "shall we",
-        "will we",
         "don't we",
+        "will we",
         "aren't we"
       ],
       "correctAnswer": "shall we",
@@ -63,110 +63,112 @@
     {
       "id": "ex-054-05",
       "type": "multiple_choice",
-      "promptVi": "[Trắc nghiệm] Dịch câu sau sang tiếng Anh: \"Hôm nay là một buổi chiều nắng thật tuyệt vời, phải không?\"",
-      "question": "Chọn bản dịch chuẩn xác cho câu: \"Hôm nay là một buổi chiều nắng thật tuyệt vời, phải không?\"",
+      "promptVi": "[Phản xạ dịch thuật] Dịch câu sau sang tiếng Anh: \"Hôm nay là một buổi chiều nắng thật tuyệt vời, phải không?\"",
+      "question": "Chọn bản dịch chuẩn xác nhất cho câu: \"Hôm nay là một buổi chiều nắng thật tuyệt vời, phải không?\"",
       "options": [
-        "It is a wonderful sunny afternoon today, isn't it?",
         "It be a wonderful sunny afternoon today, isn't it?",
         "It certainly is! You love iced caramel macchiato, don't you?",
-        "I want to go to the park now."
+        "It is a wonderful sunny afternoon today, isn't it?",
+        "We are studying English today."
       ],
       "correctAnswer": "It is a wonderful sunny afternoon today, isn't it?",
-      "explanationVi": "Câu đúng là \"It is a wonderful sunny afternoon today, isn't it?\" (Hôm nay là một buổi chiều nắng thật tuyệt vời, phải không?)."
+      "explanationVi": "Câu dịch chuẩn xác: \"It is a wonderful sunny afternoon today, isn't it?\" (Hôm nay là một buổi chiều nắng thật tuyệt vời, phải không?)."
     },
     {
       "id": "ex-054-06",
       "type": "multiple_choice",
-      "promptVi": "[Trắc nghiệm] Chọn câu trả lời hoặc cách diễn đạt phù hợp:",
-      "question": "Trong ngữ cảnh giao tiếp: \"It is a wonderful sunny afternoon today, isn't it?\", câu phản hồi tự nhiên là gì?",
+      "promptVi": "[Ngữ cảnh giao tiếp] Chọn câu phản hồi tự nhiên và đúng ngữ pháp:",
+      "question": "Khi đối phương nói: \"It is a wonderful sunny afternoon today, isn't it?\", câu phản hồi phù hợp là gì?",
       "options": [
+        "They are not in the office.",
         "It certainly is! You love iced caramel macchiato, don't you?",
-        "No, it is yesterday morning.",
-        "Yes, I will eat apple.",
-        "They are not at the library."
+        "No, it was yesterday.",
+        "Yes, I will eat it."
       ],
       "correctAnswer": "It certainly is! You love iced caramel macchiato, don't you?",
-      "explanationVi": "Phản hồi phù hợp: \"It certainly is! You love iced caramel macchiato, don't you?\" (Chắc chắn rồi! Bạn rất thích cà phê caramel macchiato đá, đúng không nào?)."
+      "explanationVi": "Phản hồi phù hợp trong bài: \"It certainly is! You love iced caramel macchiato, don't you?\" (Chắc chắn rồi! Bạn rất thích cà phê caramel macchiato đá, đúng không nào?)."
     },
     {
       "id": "ex-054-07",
       "type": "fill_blank",
-      "promptVi": "[Điền từ - (Dạng phủ định)] Điền dạng đúng của động từ vào ô trống (Bạn là học sinh, phải không?):",
+      "promptVi": "[Điền từ - Dạng PHỦ ĐỊNH] Điền từ còn thiếu vào ô trống (Bạn là học sinh, phải không?):",
       "question": "You are a student, ___?",
       "correctAnswer": "aren't you",
       "options": [
-        "aren't you",
         "are you",
-        "don't you",
-        "isn't it"
+        "isn't it",
+        "aren't you",
+        "don't you"
       ],
-      "explanationVi": "Đáp án chính xác: \"aren't you\". Bạn là học sinh, phải không?."
+      "explanationVi": "Đáp án đúng là \"aren't you\". Câu hoàn chỉnh: \"You are a student, aren't you?\" (Bạn là học sinh, phải không?)."
     },
     {
       "id": "ex-054-08",
       "type": "fill_blank",
-      "promptVi": "[Điền từ - (Dạng phủ định)] Điền dạng đúng của động từ vào ô trống (Cô ấy sống ở Hà Nội, phải không?):",
+      "promptVi": "[Điền từ - Dạng PHỦ ĐỊNH] Điền từ còn thiếu vào ô trống (Cô ấy sống ở Hà Nội, phải không?):",
       "question": "She lives in Hanoi, ___?",
       "correctAnswer": "doesn't she",
       "options": [
-        "doesn't she",
-        "isn't she",
         "does she",
-        "didn't she"
+        "didn't she",
+        "doesn't she",
+        "isn't she"
       ],
-      "explanationVi": "Đáp án chính xác: \"doesn't she\". Cô ấy sống ở Hà Nội, phải không?."
+      "explanationVi": "Đáp án đúng là \"doesn't she\". Câu hoàn chỉnh: \"She lives in Hanoi, doesn't she?\" (Cô ấy sống ở Hà Nội, phải không?)."
     },
     {
       "id": "ex-054-09",
       "type": "fill_blank",
-      "promptVi": "[Điền từ - (Dạng phủ định)] Điền dạng đúng của động từ vào ô trống (Bạn có thể nói tiếng Anh, phải không?):",
+      "promptVi": "[Điền từ - Dạng PHỦ ĐỊNH] Điền từ còn thiếu vào ô trống (Bạn có thể nói tiếng Anh, phải không?):",
       "question": "You can speak English, ___?",
       "correctAnswer": "can't you",
       "options": [
+        "aren't you",
         "can't you",
         "don't you",
-        "can you",
-        "aren't you"
+        "can you"
       ],
-      "explanationVi": "Đáp án chính xác: \"can't you\". Bạn có thể nói tiếng Anh, phải không?."
+      "explanationVi": "Đáp án đúng là \"can't you\". Câu hoàn chỉnh: \"You can speak English, can't you?\" (Bạn có thể nói tiếng Anh, phải không?)."
     },
     {
       "id": "ex-054-10",
       "type": "fill_blank",
-      "promptVi": "[Điền từ - (Dạng khẳng định)] Điền dạng đúng của động từ vào ô trống (Chúng ta cùng đi xem phim nhé, được không?):",
+      "promptVi": "[Điền từ - Dạng KHẲNG ĐỊNH] Điền từ còn thiếu vào ô trống (Chúng ta cùng đi xem phim nhé, được không?):",
       "question": "Let's go to the cinema, ___?",
       "correctAnswer": "shall we",
       "options": [
         "shall we",
+        "aren't we",
         "will we",
-        "don't we",
-        "aren't we"
+        "don't we"
       ],
-      "explanationVi": "Đáp án chính xác: \"shall we\". Chúng ta cùng đi xem phim nhé, được không?."
+      "explanationVi": "Đáp án đúng là \"shall we\". Câu hoàn chỉnh: \"Let's go to the cinema, shall we?\" (Chúng ta cùng đi xem phim nhé, được không?)."
     },
     {
       "id": "ex-054-11",
       "type": "fill_blank",
-      "promptVi": "[Điền từ - Dạng PHỦ ĐỊNH] Hoàn thành câu phủ định sau:",
-      "correctAnswer": "You are not a student, aren't you?",
+      "promptVi": "[Điền từ - Dạng PHỦ ĐỊNH] Điền trợ động từ/động từ tobe phủ định vào chỗ trống:",
+      "question": "You _____ not a student, aren't you?",
+      "correctAnswer": "are",
       "options": [
-        "You are not a student, aren't you?",
-        "You are a student, aren't you?",
-        "Not You are a student, aren't you?",
-        "You are a student, aren't you? no"
+        "are",
+        "is",
+        "am",
+        "do"
       ],
-      "explanationVi": "Dạng phủ định chuẩn: Thêm 'not' sau động từ chính."
+      "explanationVi": "Câu phủ định hoàn chỉnh: \"You are not a student, aren't you?\"."
     },
     {
       "id": "ex-054-12",
       "type": "sentence_scramble",
-      "promptVi": "[Sắp xếp câu] Xếp các khối từ thành câu hoàn chỉnh mang nghĩa: \"Bạn là học sinh, phải không?\"",
+      "promptVi": "[Sắp xếp câu] Ghép các khối từ thành câu hoàn chỉnh mang nghĩa: \"Bạn là học sinh, phải không?\"",
+      "question": "Sắp xếp các từ để tạo thành câu đúng: \"Bạn là học sinh, phải không?\"",
       "words": [
-        "student,",
         "you?",
-        "are",
-        "aren't",
         "a",
+        "are",
+        "student,",
+        "aren't",
         "You"
       ],
       "correctSentence": "You are a student, aren't you?",
@@ -176,14 +178,15 @@
     {
       "id": "ex-054-13",
       "type": "sentence_scramble",
-      "promptVi": "[Sắp xếp câu] Xếp các khối từ thành câu hoàn chỉnh mang nghĩa: \"Cô ấy sống ở Hà Nội, phải không?\"",
+      "promptVi": "[Sắp xếp câu] Ghép các khối từ thành câu hoàn chỉnh mang nghĩa: \"Cô ấy sống ở Hà Nội, phải không?\"",
+      "question": "Sắp xếp các từ để tạo thành câu đúng: \"Cô ấy sống ở Hà Nội, phải không?\"",
       "words": [
-        "she?",
+        "doesn't",
         "lives",
-        "in",
-        "She",
         "Hanoi,",
-        "doesn't"
+        "She",
+        "in",
+        "she?"
       ],
       "correctSentence": "She lives in Hanoi, doesn't she?",
       "hintVi": "Cô ấy sống ở Hà Nội, phải không?",
@@ -192,14 +195,15 @@
     {
       "id": "ex-054-14",
       "type": "sentence_scramble",
-      "promptVi": "[Sắp xếp câu] Xếp các khối từ thành câu hoàn chỉnh mang nghĩa: \"Bạn có thể nói tiếng Anh, phải không?\"",
+      "promptVi": "[Sắp xếp câu] Ghép các khối từ thành câu hoàn chỉnh mang nghĩa: \"Bạn có thể nói tiếng Anh, phải không?\"",
+      "question": "Sắp xếp các từ để tạo thành câu đúng: \"Bạn có thể nói tiếng Anh, phải không?\"",
       "words": [
+        "you?",
         "You",
         "speak",
-        "English,",
-        "can",
         "can't",
-        "you?"
+        "English,",
+        "can"
       ],
       "correctSentence": "You can speak English, can't you?",
       "hintVi": "Bạn có thể nói tiếng Anh, phải không?",
@@ -208,15 +212,16 @@
     {
       "id": "ex-054-15",
       "type": "sentence_scramble",
-      "promptVi": "[Sắp xếp câu] Xếp các khối từ thành câu hoàn chỉnh mang nghĩa: \"Chúng ta cùng đi xem phim nhé, được không?\"",
+      "promptVi": "[Sắp xếp câu] Ghép các khối từ thành câu hoàn chỉnh mang nghĩa: \"Chúng ta cùng đi xem phim nhé, được không?\"",
+      "question": "Sắp xếp các từ để tạo thành câu đúng: \"Chúng ta cùng đi xem phim nhé, được không?\"",
       "words": [
-        "go",
         "we?",
-        "to",
-        "shall",
         "cinema,",
         "the",
-        "Let's"
+        "go",
+        "shall",
+        "Let's",
+        "to"
       ],
       "correctSentence": "Let's go to the cinema, shall we?",
       "hintVi": "Chúng ta cùng đi xem phim nhé, được không?",
@@ -225,24 +230,25 @@
     {
       "id": "ex-054-16",
       "type": "sentence_scramble",
-      "promptVi": "[Sắp xếp câu] Xếp các từ thành câu hội thoại: \"Đúng vậy, đó là món đồ uống ưa thích nhất của tôi. Bạn không cho đường vào latte của mình, phải không?\"",
+      "promptVi": "[Sắp xếp câu] Ghép các từ thành câu hội thoại: \"Đúng vậy, đó là món đồ uống ưa thích nhất của tôi. Bạn không cho đường vào latte của mình, phải không?\"",
+      "question": "Sắp xếp các từ để tạo thành câu thoại: \"Đúng vậy, đó là món đồ uống ưa thích nhất của tôi. Bạn không cho đường vào latte của mình, phải không?\"",
       "words": [
-        "my",
-        "latte",
+        "sugar",
+        "that",
+        "is",
+        "do",
+        "You",
         "favorite",
         "drink",
-        "is",
-        "take",
-        "sugar",
-        "absolute",
         "your",
+        "take",
         "don't",
-        "that",
-        "in",
-        "You",
         "Yes",
-        "you",
-        "do"
+        "my",
+        "absolute",
+        "in",
+        "latte",
+        "you"
       ],
       "correctSentence": "Yes, that is my absolute favorite drink. You don't take sugar in your latte, do you?",
       "hintVi": "Đúng vậy, đó là món đồ uống ưa thích nhất của tôi. Bạn không cho đường vào latte của mình, phải không?",
@@ -251,70 +257,70 @@
     {
       "id": "ex-054-17",
       "type": "find_error",
-      "promptVi": "[Tìm lỗi sai & Chọn câu đúng] Câu nào dưới đây có cấu trúc ngữ pháp HOÀN TOÀN ĐÚNG?",
-      "question": "Chủ điểm \"Bài 54: Câu Hỏi Đuôi — Cơ bản (Tag Questions: Isn't it? Aren't you? Doesn't she? Didn't you?)\": Chọn câu CHÍNH XÁC:",
+      "promptVi": "[Nhận diện cấu trúc chuẩn] Chọn câu có cấu trúc ngữ pháp HOÀN TOÀN ĐÚNG:",
+      "question": "Dựa vào chủ điểm \"Bài 54: Câu Hỏi Đuôi — Cơ bản (Tag Questions: Isn't it? Aren't you? Doesn't she? Didn't you?)\", câu nào sau đây CHÍNH XÁC?",
       "options": [
-        "You are a student, aren't you?",
         "You be a student, aren't you?",
-        "You are not is a student, aren't you?",
-        "you? aren't student, a are You"
+        "is",
+        "you? aren't student, a are You",
+        "You are a student, aren't you?"
       ],
       "correctAnswer": "You are a student, aren't you?",
-      "explanationVi": "Câu chuẩn xác là: \"You are a student, aren't you?\" (Bạn là học sinh, phải không?)."
+      "explanationVi": "Cấu trúc chuẩn xác là: \"You are a student, aren't you?\" (Bạn là học sinh, phải không?)."
     },
     {
       "id": "ex-054-18",
       "type": "find_error",
-      "promptVi": "[Tìm lỗi sai & Chọn câu đúng] Câu nào dưới đây có cấu trúc ngữ pháp HOÀN TOÀN ĐÚNG?",
-      "question": "Chủ điểm \"Bài 54: Câu Hỏi Đuôi — Cơ bản (Tag Questions: Isn't it? Aren't you? Doesn't she? Didn't you?)\": Chọn câu CHÍNH XÁC:",
+      "promptVi": "[Nhận diện cấu trúc chuẩn] Chọn câu có cấu trúc ngữ pháp HOÀN TOÀN ĐÚNG:",
+      "question": "Dựa vào chủ điểm \"Bài 54: Câu Hỏi Đuôi — Cơ bản (Tag Questions: Isn't it? Aren't you? Doesn't she? Didn't you?)\", câu nào sau đây CHÍNH XÁC?",
       "options": [
-        "She lives in Hanoi, doesn't she?",
+        "is",
         "she? doesn't Hanoi, in lives She",
-        "She lives in Hanoi, doesn't she? (sai)",
-        "She lives in Hanoi, doesn't she? (sai)"
+        "She lives in Hanoi, doesn't she?",
+        "She lives at Hanoi, doesn't she?"
       ],
       "correctAnswer": "She lives in Hanoi, doesn't she?",
-      "explanationVi": "Câu chuẩn xác là: \"She lives in Hanoi, doesn't she?\" (Cô ấy sống ở Hà Nội, phải không?)."
+      "explanationVi": "Cấu trúc chuẩn xác là: \"She lives in Hanoi, doesn't she?\" (Cô ấy sống ở Hà Nội, phải không?)."
     },
     {
       "id": "ex-054-19",
       "type": "find_error",
-      "promptVi": "[Tìm lỗi sai & Chọn câu đúng] Câu nào dưới đây có cấu trúc ngữ pháp HOÀN TOÀN ĐÚNG?",
-      "question": "Chủ điểm \"Bài 54: Câu Hỏi Đuôi — Cơ bản (Tag Questions: Isn't it? Aren't you? Doesn't she? Didn't you?)\": Chọn câu CHÍNH XÁC:",
+      "promptVi": "[Nhận diện cấu trúc chuẩn] Chọn câu có cấu trúc ngữ pháp HOÀN TOÀN ĐÚNG:",
+      "question": "Dựa vào chủ điểm \"Bài 54: Câu Hỏi Đuôi — Cơ bản (Tag Questions: Isn't it? Aren't you? Doesn't she? Didn't you?)\", câu nào sau đây CHÍNH XÁC?",
       "options": [
-        "You can speak English, can't you?",
+        "is",
+        "are",
         "you? can't English, speak can You",
-        "You can speak English, can't you? (sai)",
-        "You can speak English, can't you? (sai)"
+        "You can speak English, can't you?"
       ],
       "correctAnswer": "You can speak English, can't you?",
-      "explanationVi": "Câu chuẩn xác là: \"You can speak English, can't you?\" (Bạn có thể nói tiếng Anh, phải không?)."
+      "explanationVi": "Cấu trúc chuẩn xác là: \"You can speak English, can't you?\" (Bạn có thể nói tiếng Anh, phải không?)."
     },
     {
       "id": "ex-054-20",
       "type": "find_error",
-      "promptVi": "[Tìm lỗi sai & Chọn câu đúng] Câu nào dưới đây có cấu trúc ngữ pháp HOÀN TOÀN ĐÚNG?",
-      "question": "Chủ điểm \"Bài 54: Câu Hỏi Đuôi — Cơ bản (Tag Questions: Isn't it? Aren't you? Doesn't she? Didn't you?)\": Chọn câu CHÍNH XÁC:",
+      "promptVi": "[Nhận diện cấu trúc chuẩn] Chọn câu có cấu trúc ngữ pháp HOÀN TOÀN ĐÚNG:",
+      "question": "Dựa vào chủ điểm \"Bài 54: Câu Hỏi Đuôi — Cơ bản (Tag Questions: Isn't it? Aren't you? Doesn't she? Didn't you?)\", câu nào sau đây CHÍNH XÁC?",
       "options": [
         "Let's go to the cinema, shall we?",
-        "we? shall cinema, the to go Let's",
-        "Let's go to the cinema, shall we? (sai)",
-        "Let's go to the cinema, shall we? (sai)"
+        "Let's go at the cinema, shall we?",
+        "is",
+        "we? shall cinema, the to go Let's"
       ],
       "correctAnswer": "Let's go to the cinema, shall we?",
-      "explanationVi": "Câu chuẩn xác là: \"Let's go to the cinema, shall we?\" (Chúng ta cùng đi xem phim nhé, được không?)."
+      "explanationVi": "Cấu trúc chuẩn xác là: \"Let's go to the cinema, shall we?\" (Chúng ta cùng đi xem phim nhé, được không?)."
     },
     {
       "id": "ex-054-21",
       "type": "listening_reflex",
-      "promptVi": "[Nghe phản xạ] Nghe câu phát âm tiếng Anh và chọn bản dịch tiếng Việt đúng nhất:",
+      "promptVi": "[Nghe phản xạ] Nghe câu phát âm tiếng Anh và chọn bản dịch tiếng Việt đúng:",
       "audioPrompt": "It is a wonderful sunny afternoon today, isn't it?",
-      "question": "Nhấn nút '🔊 Nghe audio' để nghe câu thoại và chọn nghĩa đúng:",
+      "question": "Nhấn nút '🔊 Nghe audio' và chọn nghĩa tiếng Việt đúng:",
       "options": [
         "Hôm nay là một buổi chiều nắng thật tuyệt vời, phải không?",
         "Chắc chắn rồi! Bạn rất thích cà phê caramel macchiato đá, đúng không nào?",
         "Đúng vậy, đó là món đồ uống ưa thích nhất của tôi. Bạn không cho đường vào latte của mình, phải không?",
-        "Ngày mai trời sẽ mưa to."
+        "Hôm nay thời tiết rất đẹp."
       ],
       "correctAnswer": "Hôm nay là một buổi chiều nắng thật tuyệt vời, phải không?",
       "explanationVi": "Câu nghe được: \"It is a wonderful sunny afternoon today, isn't it?\" có nghĩa là: \"Hôm nay là một buổi chiều nắng thật tuyệt vời, phải không?\"."
@@ -322,14 +328,14 @@
     {
       "id": "ex-054-22",
       "type": "listening_reflex",
-      "promptVi": "[Nghe phản xạ] Nghe câu phát âm tiếng Anh và chọn bản dịch tiếng Việt đúng nhất:",
+      "promptVi": "[Nghe phản xạ] Nghe câu phát âm tiếng Anh và chọn bản dịch tiếng Việt đúng:",
       "audioPrompt": "It certainly is! You love iced caramel macchiato, don't you?",
-      "question": "Nhấn nút '🔊 Nghe audio' để nghe câu thoại và chọn nghĩa đúng:",
+      "question": "Nhấn nút '🔊 Nghe audio' và chọn nghĩa tiếng Việt đúng:",
       "options": [
+        "Hôm nay thời tiết rất đẹp.",
         "Chắc chắn rồi! Bạn rất thích cà phê caramel macchiato đá, đúng không nào?",
         "Đúng vậy, đó là món đồ uống ưa thích nhất của tôi. Bạn không cho đường vào latte của mình, phải không?",
-        "Không, tôi không dùng đường. Chúng ta đã không gặp nhau kể từ lễ tốt nghiệp tháng trước rồi, đúng không nhỉ?",
-        "Ngày mai trời sẽ mưa to."
+        "Không, tôi không dùng đường. Chúng ta đã không gặp nhau kể từ lễ tốt nghiệp tháng trước rồi, đúng không nhỉ?"
       ],
       "correctAnswer": "Chắc chắn rồi! Bạn rất thích cà phê caramel macchiato đá, đúng không nào?",
       "explanationVi": "Câu nghe được: \"It certainly is! You love iced caramel macchiato, don't you?\" có nghĩa là: \"Chắc chắn rồi! Bạn rất thích cà phê caramel macchiato đá, đúng không nào?\"."
@@ -337,14 +343,14 @@
     {
       "id": "ex-054-23",
       "type": "listening_reflex",
-      "promptVi": "[Nghe phản xạ] Nghe câu phát âm tiếng Anh và chọn bản dịch tiếng Việt đúng nhất:",
+      "promptVi": "[Nghe phản xạ] Nghe câu phát âm tiếng Anh và chọn bản dịch tiếng Việt đúng:",
       "audioPrompt": "Yes, that is my absolute favorite drink. You don't take sugar in your latte, do you?",
-      "question": "Nhấn nút '🔊 Nghe audio' để nghe câu thoại và chọn nghĩa đúng:",
+      "question": "Nhấn nút '🔊 Nghe audio' và chọn nghĩa tiếng Việt đúng:",
       "options": [
         "Đúng vậy, đó là món đồ uống ưa thích nhất của tôi. Bạn không cho đường vào latte của mình, phải không?",
         "Không, tôi không dùng đường. Chúng ta đã không gặp nhau kể từ lễ tốt nghiệp tháng trước rồi, đúng không nhỉ?",
         "Thời gian trôi nhanh thật đấy! Công việc thiết kế đồ họa mới của bạn đang tiến triển rất suôn sẻ, phải không?",
-        "Ngày mai trời sẽ mưa to."
+        "Hôm nay thời tiết rất đẹp."
       ],
       "correctAnswer": "Đúng vậy, đó là món đồ uống ưa thích nhất của tôi. Bạn không cho đường vào latte của mình, phải không?",
       "explanationVi": "Câu nghe được: \"Yes, that is my absolute favorite drink. You don't take sugar in your latte, do you?\" có nghĩa là: \"Đúng vậy, đó là món đồ uống ưa thích nhất của tôi. Bạn không cho đường vào latte của mình, phải không?\"."
@@ -352,14 +358,14 @@
     {
       "id": "ex-054-24",
       "type": "listening_reflex",
-      "promptVi": "[Nghe phản xạ] Nghe câu phát âm tiếng Anh và chọn bản dịch tiếng Việt đúng nhất:",
+      "promptVi": "[Nghe phản xạ] Nghe câu phát âm tiếng Anh và chọn bản dịch tiếng Việt đúng:",
       "audioPrompt": "No, I don't. We haven't seen each other since last month's graduation, have we?",
-      "question": "Nhấn nút '🔊 Nghe audio' để nghe câu thoại và chọn nghĩa đúng:",
+      "question": "Nhấn nút '🔊 Nghe audio' và chọn nghĩa tiếng Việt đúng:",
       "options": [
         "Không, tôi không dùng đường. Chúng ta đã không gặp nhau kể từ lễ tốt nghiệp tháng trước rồi, đúng không nhỉ?",
         "Thời gian trôi nhanh thật đấy! Công việc thiết kế đồ họa mới của bạn đang tiến triển rất suôn sẻ, phải không?",
         "Vâng, các đồng nghiệp của tôi rất thân thiện, họ là những người hướng dẫn tuyệt vời đúng không nào?",
-        "Ngày mai trời sẽ mưa to."
+        "Hôm nay thời tiết rất đẹp."
       ],
       "correctAnswer": "Không, tôi không dùng đường. Chúng ta đã không gặp nhau kể từ lễ tốt nghiệp tháng trước rồi, đúng không nhỉ?",
       "explanationVi": "Câu nghe được: \"No, I don't. We haven't seen each other since last month's graduation, have we?\" có nghĩa là: \"Không, tôi không dùng đường. Chúng ta đã không gặp nhau kể từ lễ tốt nghiệp tháng trước rồi, đúng không nhỉ?\"."
@@ -367,64 +373,68 @@
     {
       "id": "ex-054-25",
       "type": "speaking_practice",
-      "promptVi": "[Luyện nói qua Micro] Nhấn nút '🎙️ Bắt đầu nói' và đọc to, rõ ràng câu tiếng Anh sau:",
+      "promptVi": "[Luyện nói qua Micro] Nhấn nút 'Bấm để Nói ngay' và phát âm câu sau:",
+      "question": "Luyện phát âm chuẩn câu: \"You are a student, aren't you?\" (Bạn là học sinh, phải không?)",
       "targetSentence": "You are a student, aren't you?",
       "hintVi": "Bạn là học sinh, phải không?",
-      "explanationVi": "Câu mục tiêu: \"You are a student, aren't you?\" (Bạn là học sinh, phải không?). Luyện phát âm chuẩn xác từng âm tiết và ngữ điệu tự nhiên."
+      "explanationVi": "Mẫu câu chuẩn: \"You are a student, aren't you?\" (Bạn là học sinh, phải không?). Luyện phát âm rõ ràng từng từ."
     },
     {
       "id": "ex-054-26",
       "type": "speaking_practice",
-      "promptVi": "[Luyện nói qua Micro] Nhấn nút '🎙️ Bắt đầu nói' và đọc to, rõ ràng câu tiếng Anh sau:",
+      "promptVi": "[Luyện nói qua Micro] Nhấn nút 'Bấm để Nói ngay' và phát âm câu sau:",
+      "question": "Luyện phát âm chuẩn câu: \"She lives in Hanoi, doesn't she?\" (Cô ấy sống ở Hà Nội, phải không?)",
       "targetSentence": "She lives in Hanoi, doesn't she?",
       "hintVi": "Cô ấy sống ở Hà Nội, phải không?",
-      "explanationVi": "Câu mục tiêu: \"She lives in Hanoi, doesn't she?\" (Cô ấy sống ở Hà Nội, phải không?). Luyện phát âm chuẩn xác từng âm tiết và ngữ điệu tự nhiên."
+      "explanationVi": "Mẫu câu chuẩn: \"She lives in Hanoi, doesn't she?\" (Cô ấy sống ở Hà Nội, phải không?). Luyện phát âm rõ ràng từng từ."
     },
     {
       "id": "ex-054-27",
       "type": "speaking_practice",
-      "promptVi": "[Luyện nói qua Micro] Nhấn nút '🎙️ Bắt đầu nói' và đọc to, rõ ràng câu tiếng Anh sau:",
+      "promptVi": "[Luyện nói qua Micro] Nhấn nút 'Bấm để Nói ngay' và phát âm câu sau:",
+      "question": "Luyện phát âm chuẩn câu: \"You can speak English, can't you?\" (Bạn có thể nói tiếng Anh, phải không?)",
       "targetSentence": "You can speak English, can't you?",
       "hintVi": "Bạn có thể nói tiếng Anh, phải không?",
-      "explanationVi": "Câu mục tiêu: \"You can speak English, can't you?\" (Bạn có thể nói tiếng Anh, phải không?). Luyện phát âm chuẩn xác từng âm tiết và ngữ điệu tự nhiên."
+      "explanationVi": "Mẫu câu chuẩn: \"You can speak English, can't you?\" (Bạn có thể nói tiếng Anh, phải không?). Luyện phát âm rõ ràng từng từ."
     },
     {
       "id": "ex-054-28",
       "type": "speaking_practice",
-      "promptVi": "[Luyện nói qua Micro] Nhấn nút '🎙️ Bắt đầu nói' và đọc to, rõ ràng câu tiếng Anh sau:",
+      "promptVi": "[Luyện nói qua Micro] Nhấn nút 'Bấm để Nói ngay' và phát âm câu sau:",
+      "question": "Luyện phát âm chuẩn câu: \"Let's go to the cinema, shall we?\" (Chúng ta cùng đi xem phim nhé, được không?)",
       "targetSentence": "Let's go to the cinema, shall we?",
       "hintVi": "Chúng ta cùng đi xem phim nhé, được không?",
-      "explanationVi": "Câu mục tiêu: \"Let's go to the cinema, shall we?\" (Chúng ta cùng đi xem phim nhé, được không?). Luyện phát âm chuẩn xác từng âm tiết và ngữ điệu tự nhiên."
+      "explanationVi": "Mẫu câu chuẩn: \"Let's go to the cinema, shall we?\" (Chúng ta cùng đi xem phim nhé, được không?). Luyện phát âm rõ ràng từng từ."
     },
     {
       "id": "ex-054-29",
       "type": "reading_comprehension",
-      "promptVi": "[Đọc hiểu đoạn văn 1] Đọc đoạn hội thoại mở đầu sau và trả lời câu hỏi:",
-      "passage": "Brandon (Nam): \"It is a wonderful sunny afternoon today, isn't it?\"\nHannah (Nữ): \"It certainly is! You love iced caramel macchiato, don't you?\"\nBrandon (Nam): \"Yes, that is my absolute favorite drink. You don't take sugar in your latte, do you?\"\nHannah (Nữ): \"No, I don't. We haven't seen each other since last month's graduation, have we?\"",
-      "question": "Câu hỏi: Trong đoạn hội thoại trên, các nhân vật đang thảo luận về chủ đề gì?",
+      "promptVi": "[Đọc hiểu đoạn văn] Đọc đoạn hội thoại sau và trả lời câu hỏi:",
+      "passage": "Brandon: \"It is a wonderful sunny afternoon today, isn't it?\"\nHannah: \"It certainly is! You love iced caramel macchiato, don't you?\"\nBrandon: \"Yes, that is my absolute favorite drink. You don't take sugar in your latte, do you?\"\nHannah: \"No, I don't. We haven't seen each other since last month's graduation, have we?\"",
+      "question": "Chủ đề trọng tâm của đoạn hội thoại trên là gì?",
       "options": [
+        "Cách làm món ăn truyền thống",
+        "Kế hoạch đi mua sắm tại siêu thị",
         "Câu Hỏi Đuôi — Cơ bản (Tag Questions: Isn't it? Aren't you? Doesn't she? Didn't you?)",
-        "Kế hoạch đi nghỉ dưỡng cuối tuần ở bãi biển",
-        "Mua sắm quần áo và đồ dùng thể thao",
-        "Cách làm món ăn truyền thống gia đình"
+        "Lịch trình đi du lịch nghỉ mát cuối tuần"
       ],
       "correctAnswer": "Câu Hỏi Đuôi — Cơ bản (Tag Questions: Isn't it? Aren't you? Doesn't she? Didn't you?)",
-      "explanationVi": "Đoạn hội thoại mở đầu được thiết kế để minh họa trực tiếp cho chủ điểm ngữ pháp: \"Bài 54: Câu Hỏi Đuôi — Cơ bản (Tag Questions: Isn't it? Aren't you? Doesn't she? Didn't you?)\"."
+      "explanationVi": "Đoạn hội thoại được thiết kế để minh họa trực tiếp cho chủ điểm \"Bài 54: Câu Hỏi Đuôi — Cơ bản (Tag Questions: Isn't it? Aren't you? Doesn't she? Didn't you?)\"."
     },
     {
       "id": "ex-054-30",
       "type": "reading_comprehension",
-      "promptVi": "[Đọc hiểu đoạn văn 2] Đọc phần tiếp theo của đoạn hội thoại và chọn nhận định đúng:",
-      "passage": "Brandon (Nam): \"Time flies so quickly! Your new graphic design job is going very smoothly, isn't it?\"\nHannah (Nữ): \"Yes, my colleagues are friendly, aren't they amazing mentors?\"\nBrandon (Nam): \"You finished designing the mobile app interface yesterday, didn't you?\"\nHannah (Nữ): \"I did! Our manager was impressed with the creative color palette.\"",
-      "question": "Nhận định nào sau đây là ĐÚNG với nội dung đoạn hội thoại trên?",
+      "promptVi": "[Đọc hiểu đoạn văn] Đọc đoạn đối thoại tiếp theo và chọn nhận định đúng:",
+      "passage": "Brandon: \"Time flies so quickly! Your new graphic design job is going very smoothly, isn't it?\"\nHannah: \"Yes, my colleagues are friendly, aren't they amazing mentors?\"\nBrandon: \"You finished designing the mobile app interface yesterday, didn't you?\"\nHannah: \"I did! Our manager was impressed with the creative color palette.\"",
+      "question": "Nhận định nào sau đây là ĐÚNG về nội dung đoạn đối thoại?",
       "options": [
-        "Các câu hội thoại sử dụng đúng cấu trúc ngữ pháp \"Bài 54: Câu Hỏi Đuôi — Cơ bản (Tag Questions: Isn't it? Aren't you? Doesn't she? Didn't you?)\".",
-        "Các nhân vật không hiểu ý nhau và từ chối nói chuyện.",
-        "Đoạn hội thoại nói về việc chuyển nhà sang thành phố khác.",
-        "Cả hai nhân vật đều đang ở sân bay chuẩn bị lên máy bay."
+        "Hai nhân vật đang cãi nhau và không đồng ý hợp tác.",
+        "Cả hai nhân vật đang thảo luận về thời tiết ngày mai.",
+        "Cuộc trò chuyện diễn ra tại nhà ga xe lửa.",
+        "Các câu thoại sử dụng đúng cấu trúc \"Câu Hỏi Đuôi — Cơ bản (Tag Questions: Isn't it? Aren't you? Doesn't she? Didn't you?)\"."
       ],
-      "correctAnswer": "Các câu hội thoại sử dụng đúng cấu trúc ngữ pháp \"Bài 54: Câu Hỏi Đuôi — Cơ bản (Tag Questions: Isn't it? Aren't you? Doesn't she? Didn't you?)\".",
-      "explanationVi": "Đoạn hội thoại thứ hai tiếp tục củng cố và ứng dụng các quy tắc ngữ pháp của \"Bài 54: Câu Hỏi Đuôi — Cơ bản (Tag Questions: Isn't it? Aren't you? Doesn't she? Didn't you?)\"."
+      "correctAnswer": "Các câu thoại sử dụng đúng cấu trúc \"Câu Hỏi Đuôi — Cơ bản (Tag Questions: Isn't it? Aren't you? Doesn't she? Didn't you?)\".",
+      "explanationVi": "Đoạn đối thoại ứng dụng chuẩn xác ngữ pháp của \"Bài 54: Câu Hỏi Đuôi — Cơ bản (Tag Questions: Isn't it? Aren't you? Doesn't she? Didn't you?)\"."
     }
   ]
 }

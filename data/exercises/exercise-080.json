@@ -7,11 +7,11 @@
     {
       "id": "ex-080-01",
       "type": "multiple_choice",
-      "promptVi": "[Trắc nghiệm] Chọn từ/cụm từ đúng để hoàn thành câu (Tôi đã học tiếng Anh liên tục được ba năm rồi, và tôi sẽ tiếp tục.):",
+      "promptVi": "[Trắc nghiệm ngữ pháp] Chọn từ đúng để hoàn thành câu (Tôi đã học tiếng Anh liên tục được ba năm rồi, và tôi sẽ tiếp tục.):",
       "question": "I ___ English for three years, and I will continue.",
       "options": [
-        "have been learning",
         "am learning",
+        "have been learning",
         "learned",
         "will learn"
       ],
@@ -21,13 +21,13 @@
     {
       "id": "ex-080-02",
       "type": "multiple_choice",
-      "promptVi": "[Trắc nghiệm] Chọn từ/cụm từ đúng để hoàn thành câu (Khi giáo viên đến, chúng tôi đã bắt đầu bài kiểm tra từ trước đó rồi.):",
+      "promptVi": "[Trắc nghiệm ngữ pháp] Chọn từ đúng để hoàn thành câu (Khi giáo viên đến, chúng tôi đã bắt đầu bài kiểm tra từ trước đó rồi.):",
       "question": "When the teacher arrived, we ___ the test.",
       "options": [
-        "had already started",
         "started",
-        "have started",
-        "were starting"
+        "were starting",
+        "had already started",
+        "have started"
       ],
       "correctAnswer": "had already started",
       "explanationVi": "Hành động bắt đầu bài thi xảy ra trước khi giáo viên đến dùng 'had already started'."
@@ -35,13 +35,13 @@
     {
       "id": "ex-080-03",
       "type": "multiple_choice",
-      "promptVi": "[Trắc nghiệm] Chọn từ/cụm từ đúng để hoàn thành câu (Trước tháng sau, tôi sẽ hoàn thành toàn bộ khóa học tiếng Anh này.):",
+      "promptVi": "[Trắc nghiệm ngữ pháp] Chọn từ đúng để hoàn thành câu (Trước tháng sau, tôi sẽ hoàn thành toàn bộ khóa học tiếng Anh này.):",
       "question": "By next month, I ___ completed this entire English course.",
       "options": [
-        "will have",
-        "have",
         "would have",
-        "will be"
+        "will be",
+        "have",
+        "will have"
       ],
       "correctAnswer": "will have",
       "explanationVi": "Trước một thời điểm tương lai (By next month) dùng 'will have + V3'."
@@ -49,11 +49,11 @@
     {
       "id": "ex-080-04",
       "type": "multiple_choice",
-      "promptVi": "[Trắc nghiệm] Chọn từ/cụm từ đúng để hoàn thành câu (Nếu bạn luyện tập mỗi ngày, bạn sẽ nói tiếng Anh trôi chảy.):",
+      "promptVi": "[Trắc nghiệm ngữ pháp] Chọn từ đúng để hoàn thành câu (Nếu bạn luyện tập mỗi ngày, bạn sẽ nói tiếng Anh trôi chảy.):",
       "question": "If you practice every single day, you will speak English ___.",
       "options": [
-        "fluently",
         "fluent",
+        "fluently",
         "fluency",
         "fluid"
       ],
@@ -63,117 +63,119 @@
     {
       "id": "ex-080-05",
       "type": "multiple_choice",
-      "promptVi": "[Trắc nghiệm] Dịch câu sau sang tiếng Anh: \"Xin chúc mừng cả lớp! Hôm nay, chúng ta tổng hợp toàn bộ mười hai thì tiếng Anh vào một khung giao tiếp thống nhất.\"",
-      "question": "Chọn bản dịch chuẩn xác cho câu: \"Xin chúc mừng cả lớp! Hôm nay, chúng ta tổng hợp toàn bộ mười hai thì tiếng Anh vào một khung giao tiếp thống nhất.\"",
+      "promptVi": "[Phản xạ dịch thuật] Dịch câu sau sang tiếng Anh: \"Xin chúc mừng cả lớp! Hôm nay, chúng ta tổng hợp toàn bộ mười hai thì tiếng Anh vào một khung giao tiếp thống nhất.\"",
+      "question": "Chọn bản dịch chuẩn xác nhất cho câu: \"Xin chúc mừng cả lớp! Hôm nay, chúng ta tổng hợp toàn bộ mười hai thì tiếng Anh vào một khung giao tiếp thống nhất.\"",
       "options": [
-        "Congratulations, class! Today, we synthesize all twelve English tenses into a unified communicative framework.",
-        "Congratulations, class! Today, we synthesize all twelve English tenses into a unified communicative framework.",
+        "is",
         "I always practice English every day (Present Simple), but right now I am analyzing tense timelines (Present Continuous).",
-        "I want to go to the park now."
+        "We are studying English today.",
+        "Congratulations, class! Today, we synthesize all twelve English tenses into a unified communicative framework."
       ],
       "correctAnswer": "Congratulations, class! Today, we synthesize all twelve English tenses into a unified communicative framework.",
-      "explanationVi": "Câu đúng là \"Congratulations, class! Today, we synthesize all twelve English tenses into a unified communicative framework.\" (Xin chúc mừng cả lớp! Hôm nay, chúng ta tổng hợp toàn bộ mười hai thì tiếng Anh vào một khung giao tiếp thống nhất.)."
+      "explanationVi": "Câu dịch chuẩn xác: \"Congratulations, class! Today, we synthesize all twelve English tenses into a unified communicative framework.\" (Xin chúc mừng cả lớp! Hôm nay, chúng ta tổng hợp toàn bộ mười hai thì tiếng Anh vào một khung giao tiếp thống nhất.)."
     },
     {
       "id": "ex-080-06",
       "type": "multiple_choice",
-      "promptVi": "[Trắc nghiệm] Chọn câu trả lời hoặc cách diễn đạt phù hợp:",
-      "question": "Trong ngữ cảnh giao tiếp: \"Congratulations, class! Today, we synthesize all twelve English tenses into a unified communicative framework.\", câu phản hồi tự nhiên là gì?",
+      "promptVi": "[Ngữ cảnh giao tiếp] Chọn câu phản hồi tự nhiên và đúng ngữ pháp:",
+      "question": "Khi đối phương nói: \"Congratulations, class! Today, we synthesize all twelve English tenses into a unified communicative framework.\", câu phản hồi phù hợp là gì?",
       "options": [
+        "They are not in the office.",
         "I always practice English every day (Present Simple), but right now I am analyzing tense timelines (Present Continuous).",
-        "No, it is yesterday morning.",
-        "Yes, I will eat apple.",
-        "They are not at the library."
+        "Yes, I will eat it.",
+        "No, it was yesterday."
       ],
       "correctAnswer": "I always practice English every day (Present Simple), but right now I am analyzing tense timelines (Present Continuous).",
-      "explanationVi": "Phản hồi phù hợp: \"I always practice English every day (Present Simple), but right now I am analyzing tense timelines (Present Continuous).\" (Em luôn luyện tập tiếng Anh mỗi ngày (Hiện tại đơn), nhưng ngay lúc này em đang phân tích các trục thời gian của các thì (Hiện tại tiếp diễn).)."
+      "explanationVi": "Phản hồi phù hợp trong bài: \"I always practice English every day (Present Simple), but right now I am analyzing tense timelines (Present Continuous).\" (Em luôn luyện tập tiếng Anh mỗi ngày (Hiện tại đơn), nhưng ngay lúc này em đang phân tích các trục thời gian của các thì (Hiện tại tiếp diễn).)."
     },
     {
       "id": "ex-080-07",
       "type": "fill_blank",
-      "promptVi": "[Điền từ - (Dạng khẳng định)] Điền dạng đúng của động từ vào ô trống (Tôi đã học tiếng Anh liên tục được ba năm rồi, và tôi sẽ tiếp tục.):",
+      "promptVi": "[Điền từ - Dạng KHẲNG ĐỊNH] Điền từ còn thiếu vào ô trống (Tôi đã học tiếng Anh liên tục được ba năm rồi, và tôi sẽ tiếp tục.):",
       "question": "I ___ English for three years, and I will continue.",
       "correctAnswer": "have been learning",
       "options": [
         "have been learning",
         "am learning",
-        "learned",
-        "will learn"
+        "will learn",
+        "learned"
       ],
-      "explanationVi": "Đáp án chính xác: \"have been learning\". Tôi đã học tiếng Anh liên tục được ba năm rồi, và tôi sẽ tiếp tục.."
+      "explanationVi": "Đáp án đúng là \"have been learning\". Câu hoàn chỉnh: \"I have been learning English for three years, and I will continue.\" (Tôi đã học tiếng Anh liên tục được ba năm rồi, và tôi sẽ tiếp tục.)."
     },
     {
       "id": "ex-080-08",
       "type": "fill_blank",
-      "promptVi": "[Điền từ - (Dạng khẳng định)] Điền dạng đúng của động từ vào ô trống (Khi giáo viên đến, chúng tôi đã bắt đầu bài kiểm tra từ trước đó rồi.):",
+      "promptVi": "[Điền từ - Dạng KHẲNG ĐỊNH] Điền từ còn thiếu vào ô trống (Khi giáo viên đến, chúng tôi đã bắt đầu bài kiểm tra từ trước đó rồi.):",
       "question": "When the teacher arrived, we ___ the test.",
       "correctAnswer": "had already started",
       "options": [
-        "had already started",
         "started",
         "have started",
+        "had already started",
         "were starting"
       ],
-      "explanationVi": "Đáp án chính xác: \"had already started\". Khi giáo viên đến, chúng tôi đã bắt đầu bài kiểm tra từ trước đó rồi.."
+      "explanationVi": "Đáp án đúng là \"had already started\". Câu hoàn chỉnh: \"When the teacher arrived, we had already started the test.\" (Khi giáo viên đến, chúng tôi đã bắt đầu bài kiểm tra từ trước đó rồi.)."
     },
     {
       "id": "ex-080-09",
       "type": "fill_blank",
-      "promptVi": "[Điền từ - (Dạng khẳng định)] Điền dạng đúng của động từ vào ô trống (Trước tháng sau, tôi sẽ hoàn thành toàn bộ khóa học tiếng Anh này.):",
+      "promptVi": "[Điền từ - Dạng KHẲNG ĐỊNH] Điền từ còn thiếu vào ô trống (Trước tháng sau, tôi sẽ hoàn thành toàn bộ khóa học tiếng Anh này.):",
       "question": "By next month, I ___ completed this entire English course.",
       "correctAnswer": "will have",
       "options": [
         "will have",
+        "will be",
         "have",
-        "would have",
-        "will be"
+        "would have"
       ],
-      "explanationVi": "Đáp án chính xác: \"will have\". Trước tháng sau, tôi sẽ hoàn thành toàn bộ khóa học tiếng Anh này.."
+      "explanationVi": "Đáp án đúng là \"will have\". Câu hoàn chỉnh: \"By next month, I will have completed this entire English course.\" (Trước tháng sau, tôi sẽ hoàn thành toàn bộ khóa học tiếng Anh này.)."
     },
     {
       "id": "ex-080-10",
       "type": "fill_blank",
-      "promptVi": "[Điền từ - (Dạng khẳng định)] Điền dạng đúng của động từ vào ô trống (Nếu bạn luyện tập mỗi ngày, bạn sẽ nói tiếng Anh trôi chảy.):",
+      "promptVi": "[Điền từ - Dạng KHẲNG ĐỊNH] Điền từ còn thiếu vào ô trống (Nếu bạn luyện tập mỗi ngày, bạn sẽ nói tiếng Anh trôi chảy.):",
       "question": "If you practice every single day, you will speak English ___.",
       "correctAnswer": "fluently",
       "options": [
-        "fluently",
+        "fluid",
         "fluent",
-        "fluency",
-        "fluid"
+        "fluently",
+        "fluency"
       ],
-      "explanationVi": "Đáp án chính xác: \"fluently\". Nếu bạn luyện tập mỗi ngày, bạn sẽ nói tiếng Anh trôi chảy.."
+      "explanationVi": "Đáp án đúng là \"fluently\". Câu hoàn chỉnh: \"If you practice every single day, you will speak English fluently.\" (Nếu bạn luyện tập mỗi ngày, bạn sẽ nói tiếng Anh trôi chảy.)."
     },
     {
       "id": "ex-080-11",
       "type": "fill_blank",
-      "promptVi": "[Điền từ - Dạng PHỦ ĐỊNH] Hoàn thành câu phủ định sau:",
-      "correctAnswer": "I have been learning English for three years, and I will continue.",
+      "promptVi": "[Điền từ - Dạng PHỦ ĐỊNH] Điền trợ động từ/động từ tobe phủ định vào chỗ trống:",
+      "question": "I _____ not been learning English for three years, and I will continue.",
+      "correctAnswer": "have",
       "options": [
-        "I have been learning English for three years, and I will continue.",
-        "I have been learning English for three years, and I will continue.",
-        "Not I have been learning English for three years, and I will continue.",
-        "I have been learning English for three years, and I will continue. no"
+        "have",
+        "are",
+        "am",
+        "is"
       ],
-      "explanationVi": "Dạng phủ định chuẩn: Thêm 'not' sau động từ chính."
+      "explanationVi": "Câu phủ định hoàn chỉnh: \"I have not been learning English for three years, and I will continue.\"."
     },
     {
       "id": "ex-080-12",
       "type": "sentence_scramble",
-      "promptVi": "[Sắp xếp câu] Xếp các khối từ thành câu hoàn chỉnh mang nghĩa: \"Tôi đã học tiếng Anh liên tục được ba năm rồi, và tôi sẽ tiếp tục.\"",
+      "promptVi": "[Sắp xếp câu] Ghép các khối từ thành câu hoàn chỉnh mang nghĩa: \"Tôi đã học tiếng Anh liên tục được ba năm rồi, và tôi sẽ tiếp tục.\"",
+      "question": "Sắp xếp các từ để tạo thành câu đúng: \"Tôi đã học tiếng Anh liên tục được ba năm rồi, và tôi sẽ tiếp tục.\"",
       "words": [
-        "continue.",
-        "will",
-        "have",
+        "and",
         "been",
         "I",
+        "will",
         "English",
+        "continue.",
         "for",
-        "and",
-        "I",
         "years,",
-        "three",
-        "learning"
+        "learning",
+        "have",
+        "I",
+        "three"
       ],
       "correctSentence": "I have been learning English for three years, and I will continue.",
       "hintVi": "Tôi đã học tiếng Anh liên tục được ba năm rồi, và tôi sẽ tiếp tục.",
@@ -182,18 +184,19 @@
     {
       "id": "ex-080-13",
       "type": "sentence_scramble",
-      "promptVi": "[Sắp xếp câu] Xếp các khối từ thành câu hoàn chỉnh mang nghĩa: \"Khi giáo viên đến, chúng tôi đã bắt đầu bài kiểm tra từ trước đó rồi.\"",
+      "promptVi": "[Sắp xếp câu] Ghép các khối từ thành câu hoàn chỉnh mang nghĩa: \"Khi giáo viên đến, chúng tôi đã bắt đầu bài kiểm tra từ trước đó rồi.\"",
+      "question": "Sắp xếp các từ để tạo thành câu đúng: \"Khi giáo viên đến, chúng tôi đã bắt đầu bài kiểm tra từ trước đó rồi.\"",
       "words": [
-        "arrived,",
-        "started",
-        "When",
-        "already",
-        "teacher",
-        "had",
-        "we",
         "test.",
+        "teacher",
         "the",
-        "the"
+        "the",
+        "already",
+        "started",
+        "we",
+        "arrived,",
+        "When",
+        "had"
       ],
       "correctSentence": "When the teacher arrived, we had already started the test.",
       "hintVi": "Khi giáo viên đến, chúng tôi đã bắt đầu bài kiểm tra từ trước đó rồi.",
@@ -202,19 +205,20 @@
     {
       "id": "ex-080-14",
       "type": "sentence_scramble",
-      "promptVi": "[Sắp xếp câu] Xếp các khối từ thành câu hoàn chỉnh mang nghĩa: \"Trước tháng sau, tôi sẽ hoàn thành toàn bộ khóa học tiếng Anh này.\"",
+      "promptVi": "[Sắp xếp câu] Ghép các khối từ thành câu hoàn chỉnh mang nghĩa: \"Trước tháng sau, tôi sẽ hoàn thành toàn bộ khóa học tiếng Anh này.\"",
+      "question": "Sắp xếp các từ để tạo thành câu đúng: \"Trước tháng sau, tôi sẽ hoàn thành toàn bộ khóa học tiếng Anh này.\"",
       "words": [
         "I",
-        "have",
-        "By",
-        "course.",
-        "English",
-        "next",
-        "will",
         "entire",
+        "By",
+        "next",
         "this",
-        "completed",
-        "month,"
+        "have",
+        "English",
+        "course.",
+        "will",
+        "month,",
+        "completed"
       ],
       "correctSentence": "By next month, I will have completed this entire English course.",
       "hintVi": "Trước tháng sau, tôi sẽ hoàn thành toàn bộ khóa học tiếng Anh này.",
@@ -223,19 +227,20 @@
     {
       "id": "ex-080-15",
       "type": "sentence_scramble",
-      "promptVi": "[Sắp xếp câu] Xếp các khối từ thành câu hoàn chỉnh mang nghĩa: \"Nếu bạn luyện tập mỗi ngày, bạn sẽ nói tiếng Anh trôi chảy.\"",
+      "promptVi": "[Sắp xếp câu] Ghép các khối từ thành câu hoàn chỉnh mang nghĩa: \"Nếu bạn luyện tập mỗi ngày, bạn sẽ nói tiếng Anh trôi chảy.\"",
+      "question": "Sắp xếp các từ để tạo thành câu đúng: \"Nếu bạn luyện tập mỗi ngày, bạn sẽ nói tiếng Anh trôi chảy.\"",
       "words": [
-        "you",
-        "every",
-        "will",
-        "speak",
+        "single",
+        "practice",
+        "fluently.",
         "If",
         "you",
-        "single",
         "English",
-        "practice",
+        "will",
         "day,",
-        "fluently."
+        "speak",
+        "you",
+        "every"
       ],
       "correctSentence": "If you practice every single day, you will speak English fluently.",
       "hintVi": "Nếu bạn luyện tập mỗi ngày, bạn sẽ nói tiếng Anh trôi chảy.",
@@ -244,22 +249,23 @@
     {
       "id": "ex-080-16",
       "type": "sentence_scramble",
-      "promptVi": "[Sắp xếp câu] Xếp các từ thành câu hội thoại: \"Rất xuất sắc! Điều gì phân biệt Hiện tại Hoàn thành với Hiện tại Hoàn thành Tiếp diễn trong lời nói tự nhiên?\"",
+      "promptVi": "[Sắp xếp câu] Ghép các từ thành câu hội thoại: \"Rất xuất sắc! Điều gì phân biệt Hiện tại Hoàn thành với Hiện tại Hoàn thành Tiếp diễn trong lời nói tự nhiên?\"",
+      "question": "Sắp xếp các từ để tạo thành câu thoại: \"Rất xuất sắc! Điều gì phân biệt Hiện tại Hoàn thành với Hiện tại Hoàn thành Tiếp diễn trong lời nói tự nhiên?\"",
       "words": [
+        "Continuous",
+        "the",
+        "distinguishes",
+        "natural",
         "from",
         "speech",
-        "Excellent",
+        "Present",
         "Perfect",
-        "the",
         "What",
         "Perfect",
+        "in",
         "Present",
-        "distinguishes",
-        "the",
-        "Continuous",
-        "Present",
-        "natural",
-        "in"
+        "Excellent",
+        "the"
       ],
       "correctSentence": "Excellent! What distinguishes the Present Perfect from the Present Perfect Continuous in natural speech?",
       "hintVi": "Rất xuất sắc! Điều gì phân biệt Hiện tại Hoàn thành với Hiện tại Hoàn thành Tiếp diễn trong lời nói tự nhiên?",
@@ -268,70 +274,70 @@
     {
       "id": "ex-080-17",
       "type": "find_error",
-      "promptVi": "[Tìm lỗi sai & Chọn câu đúng] Câu nào dưới đây có cấu trúc ngữ pháp HOÀN TOÀN ĐÚNG?",
-      "question": "Chủ điểm \"Bài 80: Tổng Hợp 12 Thì Tiếng Anh — Bản Đồ Ngữ Pháp & Dấu Hiệu Nhận Biết (The 12 English Tenses Master Summary)\": Chọn câu CHÍNH XÁC:",
+      "promptVi": "[Nhận diện cấu trúc chuẩn] Chọn câu có cấu trúc ngữ pháp HOÀN TOÀN ĐÚNG:",
+      "question": "Dựa vào chủ điểm \"Bài 80: Tổng Hợp 12 Thì Tiếng Anh — Bản Đồ Ngữ Pháp & Dấu Hiệu Nhận Biết (The 12 English Tenses Master Summary)\", câu nào sau đây CHÍNH XÁC?",
       "options": [
         "I have been learning English for three years, and I will continue.",
-        "continue. will I and years, three for English learning been have I",
-        "I have been learning English for three years, and I will continue. (sai)",
-        "I have been learning English for three years, and I will continue. (sai)"
+        "is",
+        "I have been learning English at three years, and I will continue.",
+        "continue. will I and years, three for English learning been have I"
       ],
       "correctAnswer": "I have been learning English for three years, and I will continue.",
-      "explanationVi": "Câu chuẩn xác là: \"I have been learning English for three years, and I will continue.\" (Tôi đã học tiếng Anh liên tục được ba năm rồi, và tôi sẽ tiếp tục.)."
+      "explanationVi": "Cấu trúc chuẩn xác là: \"I have been learning English for three years, and I will continue.\" (Tôi đã học tiếng Anh liên tục được ba năm rồi, và tôi sẽ tiếp tục.)."
     },
     {
       "id": "ex-080-18",
       "type": "find_error",
-      "promptVi": "[Tìm lỗi sai & Chọn câu đúng] Câu nào dưới đây có cấu trúc ngữ pháp HOÀN TOÀN ĐÚNG?",
-      "question": "Chủ điểm \"Bài 80: Tổng Hợp 12 Thì Tiếng Anh — Bản Đồ Ngữ Pháp & Dấu Hiệu Nhận Biết (The 12 English Tenses Master Summary)\": Chọn câu CHÍNH XÁC:",
+      "promptVi": "[Nhận diện cấu trúc chuẩn] Chọn câu có cấu trúc ngữ pháp HOÀN TOÀN ĐÚNG:",
+      "question": "Dựa vào chủ điểm \"Bài 80: Tổng Hợp 12 Thì Tiếng Anh — Bản Đồ Ngữ Pháp & Dấu Hiệu Nhận Biết (The 12 English Tenses Master Summary)\", câu nào sau đây CHÍNH XÁC?",
       "options": [
         "When the teacher arrived, we had already started the test.",
-        "test. the started already had we arrived, teacher the When",
-        "When the teacher arrived, we had already started the test. (sai)",
-        "When the teacher arrived, we had already started the test. (sai)"
+        "is",
+        "are",
+        "test. the started already had we arrived, teacher the When"
       ],
       "correctAnswer": "When the teacher arrived, we had already started the test.",
-      "explanationVi": "Câu chuẩn xác là: \"When the teacher arrived, we had already started the test.\" (Khi giáo viên đến, chúng tôi đã bắt đầu bài kiểm tra từ trước đó rồi.)."
+      "explanationVi": "Cấu trúc chuẩn xác là: \"When the teacher arrived, we had already started the test.\" (Khi giáo viên đến, chúng tôi đã bắt đầu bài kiểm tra từ trước đó rồi.)."
     },
     {
       "id": "ex-080-19",
       "type": "find_error",
-      "promptVi": "[Tìm lỗi sai & Chọn câu đúng] Câu nào dưới đây có cấu trúc ngữ pháp HOÀN TOÀN ĐÚNG?",
-      "question": "Chủ điểm \"Bài 80: Tổng Hợp 12 Thì Tiếng Anh — Bản Đồ Ngữ Pháp & Dấu Hiệu Nhận Biết (The 12 English Tenses Master Summary)\": Chọn câu CHÍNH XÁC:",
+      "promptVi": "[Nhận diện cấu trúc chuẩn] Chọn câu có cấu trúc ngữ pháp HOÀN TOÀN ĐÚNG:",
+      "question": "Dựa vào chủ điểm \"Bài 80: Tổng Hợp 12 Thì Tiếng Anh — Bản Đồ Ngữ Pháp & Dấu Hiệu Nhận Biết (The 12 English Tenses Master Summary)\", câu nào sau đây CHÍNH XÁC?",
       "options": [
+        "is",
         "By next month, I will have completed this entire English course.",
         "course. English entire this completed have will I month, next By",
-        "By next month, I will have completed this entire English course. (sai)",
-        "By next month, I will have completed this entire English course. (sai)"
+        "at next month, I will have completed this entire English course."
       ],
       "correctAnswer": "By next month, I will have completed this entire English course.",
-      "explanationVi": "Câu chuẩn xác là: \"By next month, I will have completed this entire English course.\" (Trước tháng sau, tôi sẽ hoàn thành toàn bộ khóa học tiếng Anh này.)."
+      "explanationVi": "Cấu trúc chuẩn xác là: \"By next month, I will have completed this entire English course.\" (Trước tháng sau, tôi sẽ hoàn thành toàn bộ khóa học tiếng Anh này.)."
     },
     {
       "id": "ex-080-20",
       "type": "find_error",
-      "promptVi": "[Tìm lỗi sai & Chọn câu đúng] Câu nào dưới đây có cấu trúc ngữ pháp HOÀN TOÀN ĐÚNG?",
-      "question": "Chủ điểm \"Bài 80: Tổng Hợp 12 Thì Tiếng Anh — Bản Đồ Ngữ Pháp & Dấu Hiệu Nhận Biết (The 12 English Tenses Master Summary)\": Chọn câu CHÍNH XÁC:",
+      "promptVi": "[Nhận diện cấu trúc chuẩn] Chọn câu có cấu trúc ngữ pháp HOÀN TOÀN ĐÚNG:",
+      "question": "Dựa vào chủ điểm \"Bài 80: Tổng Hợp 12 Thì Tiếng Anh — Bản Đồ Ngữ Pháp & Dấu Hiệu Nhận Biết (The 12 English Tenses Master Summary)\", câu nào sau đây CHÍNH XÁC?",
       "options": [
+        "are",
         "If you practice every single day, you will speak English fluently.",
         "fluently. English speak will you day, single every practice you If",
-        "If you practice every single day, you will speak English fluently. (sai)",
-        "If you practice every single day, you will speak English fluently. (sai)"
+        "is"
       ],
       "correctAnswer": "If you practice every single day, you will speak English fluently.",
-      "explanationVi": "Câu chuẩn xác là: \"If you practice every single day, you will speak English fluently.\" (Nếu bạn luyện tập mỗi ngày, bạn sẽ nói tiếng Anh trôi chảy.)."
+      "explanationVi": "Cấu trúc chuẩn xác là: \"If you practice every single day, you will speak English fluently.\" (Nếu bạn luyện tập mỗi ngày, bạn sẽ nói tiếng Anh trôi chảy.)."
     },
     {
       "id": "ex-080-21",
       "type": "listening_reflex",
-      "promptVi": "[Nghe phản xạ] Nghe câu phát âm tiếng Anh và chọn bản dịch tiếng Việt đúng nhất:",
+      "promptVi": "[Nghe phản xạ] Nghe câu phát âm tiếng Anh và chọn bản dịch tiếng Việt đúng:",
       "audioPrompt": "Congratulations, class! Today, we synthesize all twelve English tenses into a unified communicative framework.",
-      "question": "Nhấn nút '🔊 Nghe audio' để nghe câu thoại và chọn nghĩa đúng:",
+      "question": "Nhấn nút '🔊 Nghe audio' và chọn nghĩa tiếng Việt đúng:",
       "options": [
-        "Xin chúc mừng cả lớp! Hôm nay, chúng ta tổng hợp toàn bộ mười hai thì tiếng Anh vào một khung giao tiếp thống nhất.",
         "Em luôn luyện tập tiếng Anh mỗi ngày (Hiện tại đơn), nhưng ngay lúc này em đang phân tích các trục thời gian của các thì (Hiện tại tiếp diễn).",
         "Rất xuất sắc! Điều gì phân biệt Hiện tại Hoàn thành với Hiện tại Hoàn thành Tiếp diễn trong lời nói tự nhiên?",
-        "Ngày mai trời sẽ mưa to."
+        "Hôm nay thời tiết rất đẹp.",
+        "Xin chúc mừng cả lớp! Hôm nay, chúng ta tổng hợp toàn bộ mười hai thì tiếng Anh vào một khung giao tiếp thống nhất."
       ],
       "correctAnswer": "Xin chúc mừng cả lớp! Hôm nay, chúng ta tổng hợp toàn bộ mười hai thì tiếng Anh vào một khung giao tiếp thống nhất.",
       "explanationVi": "Câu nghe được: \"Congratulations, class! Today, we synthesize all twelve English tenses into a unified communicative framework.\" có nghĩa là: \"Xin chúc mừng cả lớp! Hôm nay, chúng ta tổng hợp toàn bộ mười hai thì tiếng Anh vào một khung giao tiếp thống nhất.\"."
@@ -339,14 +345,14 @@
     {
       "id": "ex-080-22",
       "type": "listening_reflex",
-      "promptVi": "[Nghe phản xạ] Nghe câu phát âm tiếng Anh và chọn bản dịch tiếng Việt đúng nhất:",
+      "promptVi": "[Nghe phản xạ] Nghe câu phát âm tiếng Anh và chọn bản dịch tiếng Việt đúng:",
       "audioPrompt": "I always practice English every day (Present Simple), but right now I am analyzing tense timelines (Present Continuous).",
-      "question": "Nhấn nút '🔊 Nghe audio' để nghe câu thoại và chọn nghĩa đúng:",
+      "question": "Nhấn nút '🔊 Nghe audio' và chọn nghĩa tiếng Việt đúng:",
       "options": [
-        "Em luôn luyện tập tiếng Anh mỗi ngày (Hiện tại đơn), nhưng ngay lúc này em đang phân tích các trục thời gian của các thì (Hiện tại tiếp diễn).",
-        "Rất xuất sắc! Điều gì phân biệt Hiện tại Hoàn thành với Hiện tại Hoàn thành Tiếp diễn trong lời nói tự nhiên?",
+        "Hôm nay thời tiết rất đẹp.",
         "Em đã học được tám mươi bài học (kết quả số lượng - HTHT đơn), và em đã học liên tục trong ba tháng (quá trình - HTHT tiếp diễn).",
-        "Ngày mai trời sẽ mưa to."
+        "Em luôn luyện tập tiếng Anh mỗi ngày (Hiện tại đơn), nhưng ngay lúc này em đang phân tích các trục thời gian của các thì (Hiện tại tiếp diễn).",
+        "Rất xuất sắc! Điều gì phân biệt Hiện tại Hoàn thành với Hiện tại Hoàn thành Tiếp diễn trong lời nói tự nhiên?"
       ],
       "correctAnswer": "Em luôn luyện tập tiếng Anh mỗi ngày (Hiện tại đơn), nhưng ngay lúc này em đang phân tích các trục thời gian của các thì (Hiện tại tiếp diễn).",
       "explanationVi": "Câu nghe được: \"I always practice English every day (Present Simple), but right now I am analyzing tense timelines (Present Continuous).\" có nghĩa là: \"Em luôn luyện tập tiếng Anh mỗi ngày (Hiện tại đơn), nhưng ngay lúc này em đang phân tích các trục thời gian của các thì (Hiện tại tiếp diễn).\"."
@@ -354,14 +360,14 @@
     {
       "id": "ex-080-23",
       "type": "listening_reflex",
-      "promptVi": "[Nghe phản xạ] Nghe câu phát âm tiếng Anh và chọn bản dịch tiếng Việt đúng nhất:",
+      "promptVi": "[Nghe phản xạ] Nghe câu phát âm tiếng Anh và chọn bản dịch tiếng Việt đúng:",
       "audioPrompt": "Excellent! What distinguishes the Present Perfect from the Present Perfect Continuous in natural speech?",
-      "question": "Nhấn nút '🔊 Nghe audio' để nghe câu thoại và chọn nghĩa đúng:",
+      "question": "Nhấn nút '🔊 Nghe audio' và chọn nghĩa tiếng Việt đúng:",
       "options": [
-        "Rất xuất sắc! Điều gì phân biệt Hiện tại Hoàn thành với Hiện tại Hoàn thành Tiếp diễn trong lời nói tự nhiên?",
-        "Em đã học được tám mươi bài học (kết quả số lượng - HTHT đơn), và em đã học liên tục trong ba tháng (quá trình - HTHT tiếp diễn).",
+        "Hôm nay thời tiết rất đẹp.",
         "Em phối hợp thì Quá khứ Đơn và Quá khứ Hoàn thành như thế nào khi tường thuật các sự kiện lịch sử?",
-        "Ngày mai trời sẽ mưa to."
+        "Rất xuất sắc! Điều gì phân biệt Hiện tại Hoàn thành với Hiện tại Hoàn thành Tiếp diễn trong lời nói tự nhiên?",
+        "Em đã học được tám mươi bài học (kết quả số lượng - HTHT đơn), và em đã học liên tục trong ba tháng (quá trình - HTHT tiếp diễn)."
       ],
       "correctAnswer": "Rất xuất sắc! Điều gì phân biệt Hiện tại Hoàn thành với Hiện tại Hoàn thành Tiếp diễn trong lời nói tự nhiên?",
       "explanationVi": "Câu nghe được: \"Excellent! What distinguishes the Present Perfect from the Present Perfect Continuous in natural speech?\" có nghĩa là: \"Rất xuất sắc! Điều gì phân biệt Hiện tại Hoàn thành với Hiện tại Hoàn thành Tiếp diễn trong lời nói tự nhiên?\"."
@@ -369,14 +375,14 @@
     {
       "id": "ex-080-24",
       "type": "listening_reflex",
-      "promptVi": "[Nghe phản xạ] Nghe câu phát âm tiếng Anh và chọn bản dịch tiếng Việt đúng nhất:",
+      "promptVi": "[Nghe phản xạ] Nghe câu phát âm tiếng Anh và chọn bản dịch tiếng Việt đúng:",
       "audioPrompt": "I have studied eighty lessons (Result), and I have been studying continuously for three months (Duration).",
-      "question": "Nhấn nút '🔊 Nghe audio' để nghe câu thoại và chọn nghĩa đúng:",
+      "question": "Nhấn nút '🔊 Nghe audio' và chọn nghĩa tiếng Việt đúng:",
       "options": [
         "Em đã học được tám mươi bài học (kết quả số lượng - HTHT đơn), và em đã học liên tục trong ba tháng (quá trình - HTHT tiếp diễn).",
-        "Em phối hợp thì Quá khứ Đơn và Quá khứ Hoàn thành như thế nào khi tường thuật các sự kiện lịch sử?",
         "Khi giám khảo bước vào (Quá khứ đơn), toàn đội của chúng em đã chuẩn bị xong tất cả các bài thuyết trình từ trước đó (Quá khứ hoàn thành).",
-        "Ngày mai trời sẽ mưa to."
+        "Em phối hợp thì Quá khứ Đơn và Quá khứ Hoàn thành như thế nào khi tường thuật các sự kiện lịch sử?",
+        "Hôm nay thời tiết rất đẹp."
       ],
       "correctAnswer": "Em đã học được tám mươi bài học (kết quả số lượng - HTHT đơn), và em đã học liên tục trong ba tháng (quá trình - HTHT tiếp diễn).",
       "explanationVi": "Câu nghe được: \"I have studied eighty lessons (Result), and I have been studying continuously for three months (Duration).\" có nghĩa là: \"Em đã học được tám mươi bài học (kết quả số lượng - HTHT đơn), và em đã học liên tục trong ba tháng (quá trình - HTHT tiếp diễn).\"."
@@ -384,64 +390,68 @@
     {
       "id": "ex-080-25",
       "type": "speaking_practice",
-      "promptVi": "[Luyện nói qua Micro] Nhấn nút '🎙️ Bắt đầu nói' và đọc to, rõ ràng câu tiếng Anh sau:",
+      "promptVi": "[Luyện nói qua Micro] Nhấn nút 'Bấm để Nói ngay' và phát âm câu sau:",
+      "question": "Luyện phát âm chuẩn câu: \"I have been learning English for three years, and I will continue.\" (Tôi đã học tiếng Anh liên tục được ba năm rồi, và tôi sẽ tiếp tục.)",
       "targetSentence": "I have been learning English for three years, and I will continue.",
       "hintVi": "Tôi đã học tiếng Anh liên tục được ba năm rồi, và tôi sẽ tiếp tục.",
-      "explanationVi": "Câu mục tiêu: \"I have been learning English for three years, and I will continue.\" (Tôi đã học tiếng Anh liên tục được ba năm rồi, và tôi sẽ tiếp tục.). Luyện phát âm chuẩn xác từng âm tiết và ngữ điệu tự nhiên."
+      "explanationVi": "Mẫu câu chuẩn: \"I have been learning English for three years, and I will continue.\" (Tôi đã học tiếng Anh liên tục được ba năm rồi, và tôi sẽ tiếp tục.). Luyện phát âm rõ ràng từng từ."
     },
     {
       "id": "ex-080-26",
       "type": "speaking_practice",
-      "promptVi": "[Luyện nói qua Micro] Nhấn nút '🎙️ Bắt đầu nói' và đọc to, rõ ràng câu tiếng Anh sau:",
+      "promptVi": "[Luyện nói qua Micro] Nhấn nút 'Bấm để Nói ngay' và phát âm câu sau:",
+      "question": "Luyện phát âm chuẩn câu: \"When the teacher arrived, we had already started the test.\" (Khi giáo viên đến, chúng tôi đã bắt đầu bài kiểm tra từ trước đó rồi.)",
       "targetSentence": "When the teacher arrived, we had already started the test.",
       "hintVi": "Khi giáo viên đến, chúng tôi đã bắt đầu bài kiểm tra từ trước đó rồi.",
-      "explanationVi": "Câu mục tiêu: \"When the teacher arrived, we had already started the test.\" (Khi giáo viên đến, chúng tôi đã bắt đầu bài kiểm tra từ trước đó rồi.). Luyện phát âm chuẩn xác từng âm tiết và ngữ điệu tự nhiên."
+      "explanationVi": "Mẫu câu chuẩn: \"When the teacher arrived, we had already started the test.\" (Khi giáo viên đến, chúng tôi đã bắt đầu bài kiểm tra từ trước đó rồi.). Luyện phát âm rõ ràng từng từ."
     },
     {
       "id": "ex-080-27",
       "type": "speaking_practice",
-      "promptVi": "[Luyện nói qua Micro] Nhấn nút '🎙️ Bắt đầu nói' và đọc to, rõ ràng câu tiếng Anh sau:",
+      "promptVi": "[Luyện nói qua Micro] Nhấn nút 'Bấm để Nói ngay' và phát âm câu sau:",
+      "question": "Luyện phát âm chuẩn câu: \"By next month, I will have completed this entire English course.\" (Trước tháng sau, tôi sẽ hoàn thành toàn bộ khóa học tiếng Anh này.)",
       "targetSentence": "By next month, I will have completed this entire English course.",
       "hintVi": "Trước tháng sau, tôi sẽ hoàn thành toàn bộ khóa học tiếng Anh này.",
-      "explanationVi": "Câu mục tiêu: \"By next month, I will have completed this entire English course.\" (Trước tháng sau, tôi sẽ hoàn thành toàn bộ khóa học tiếng Anh này.). Luyện phát âm chuẩn xác từng âm tiết và ngữ điệu tự nhiên."
+      "explanationVi": "Mẫu câu chuẩn: \"By next month, I will have completed this entire English course.\" (Trước tháng sau, tôi sẽ hoàn thành toàn bộ khóa học tiếng Anh này.). Luyện phát âm rõ ràng từng từ."
     },
     {
       "id": "ex-080-28",
       "type": "speaking_practice",
-      "promptVi": "[Luyện nói qua Micro] Nhấn nút '🎙️ Bắt đầu nói' và đọc to, rõ ràng câu tiếng Anh sau:",
+      "promptVi": "[Luyện nói qua Micro] Nhấn nút 'Bấm để Nói ngay' và phát âm câu sau:",
+      "question": "Luyện phát âm chuẩn câu: \"If you practice every single day, you will speak English fluently.\" (Nếu bạn luyện tập mỗi ngày, bạn sẽ nói tiếng Anh trôi chảy.)",
       "targetSentence": "If you practice every single day, you will speak English fluently.",
       "hintVi": "Nếu bạn luyện tập mỗi ngày, bạn sẽ nói tiếng Anh trôi chảy.",
-      "explanationVi": "Câu mục tiêu: \"If you practice every single day, you will speak English fluently.\" (Nếu bạn luyện tập mỗi ngày, bạn sẽ nói tiếng Anh trôi chảy.). Luyện phát âm chuẩn xác từng âm tiết và ngữ điệu tự nhiên."
+      "explanationVi": "Mẫu câu chuẩn: \"If you practice every single day, you will speak English fluently.\" (Nếu bạn luyện tập mỗi ngày, bạn sẽ nói tiếng Anh trôi chảy.). Luyện phát âm rõ ràng từng từ."
     },
     {
       "id": "ex-080-29",
       "type": "reading_comprehension",
-      "promptVi": "[Đọc hiểu đoạn văn 1] Đọc đoạn hội thoại mở đầu sau và trả lời câu hỏi:",
-      "passage": "Professor Bennett (Nam): \"Congratulations, class! Today, we synthesize all twelve English tenses into a unified communicative framework.\"\nStudent Maya (Nữ): \"I always practice English every day (Present Simple), but right now I am analyzing tense timelines (Present Continuous).\"\nProfessor Bennett (Nam): \"Excellent! What distinguishes the Present Perfect from the Present Perfect Continuous in natural speech?\"\nStudent Maya (Nữ): \"I have studied eighty lessons (Result), and I have been studying continuously for three months (Duration).\"",
-      "question": "Câu hỏi: Trong đoạn hội thoại trên, các nhân vật đang thảo luận về chủ đề gì?",
+      "promptVi": "[Đọc hiểu đoạn văn] Đọc đoạn hội thoại sau và trả lời câu hỏi:",
+      "passage": "Professor Bennett: \"Congratulations, class! Today, we synthesize all twelve English tenses into a unified communicative framework.\"\nStudent Maya: \"I always practice English every day (Present Simple), but right now I am analyzing tense timelines (Present Continuous).\"\nProfessor Bennett: \"Excellent! What distinguishes the Present Perfect from the Present Perfect Continuous in natural speech?\"\nStudent Maya: \"I have studied eighty lessons (Result), and I have been studying continuously for three months (Duration).\"",
+      "question": "Chủ đề trọng tâm của đoạn hội thoại trên là gì?",
       "options": [
+        "Lịch trình đi du lịch nghỉ mát cuối tuần",
+        "Kế hoạch đi mua sắm tại siêu thị",
         "Tổng Hợp 12 Thì Tiếng Anh — Bản Đồ Ngữ Pháp & Dấu Hiệu Nhận Biết (The 12 English Tenses Master Summary)",
-        "Kế hoạch đi nghỉ dưỡng cuối tuần ở bãi biển",
-        "Mua sắm quần áo và đồ dùng thể thao",
-        "Cách làm món ăn truyền thống gia đình"
+        "Cách làm món ăn truyền thống"
       ],
       "correctAnswer": "Tổng Hợp 12 Thì Tiếng Anh — Bản Đồ Ngữ Pháp & Dấu Hiệu Nhận Biết (The 12 English Tenses Master Summary)",
-      "explanationVi": "Đoạn hội thoại mở đầu được thiết kế để minh họa trực tiếp cho chủ điểm ngữ pháp: \"Bài 80: Tổng Hợp 12 Thì Tiếng Anh — Bản Đồ Ngữ Pháp & Dấu Hiệu Nhận Biết (The 12 English Tenses Master Summary)\"."
+      "explanationVi": "Đoạn hội thoại được thiết kế để minh họa trực tiếp cho chủ điểm \"Bài 80: Tổng Hợp 12 Thì Tiếng Anh — Bản Đồ Ngữ Pháp & Dấu Hiệu Nhận Biết (The 12 English Tenses Master Summary)\"."
     },
     {
       "id": "ex-080-30",
       "type": "reading_comprehension",
-      "promptVi": "[Đọc hiểu đoạn văn 2] Đọc phần tiếp theo của đoạn hội thoại và chọn nhận định đúng:",
-      "passage": "Professor Bennett (Nam): \"How do you coordinate the Past Simple and Past Perfect when narrating historical events?\"\nStudent Maya (Nữ): \"When the examiner entered (Past Simple), our whole team had already prepared all the presentations (Past Perfect).\"\nProfessor Bennett (Nam): \"And while they were reviewing the slides (Past Continuous), were you feeling confident?\"\nStudent Maya (Nữ): \"Yes, because we had been practicing the delivery for weeks (Past Perfect Continuous).\"",
-      "question": "Nhận định nào sau đây là ĐÚNG với nội dung đoạn hội thoại trên?",
+      "promptVi": "[Đọc hiểu đoạn văn] Đọc đoạn đối thoại tiếp theo và chọn nhận định đúng:",
+      "passage": "Professor Bennett: \"How do you coordinate the Past Simple and Past Perfect when narrating historical events?\"\nStudent Maya: \"When the examiner entered (Past Simple), our whole team had already prepared all the presentations (Past Perfect).\"\nProfessor Bennett: \"And while they were reviewing the slides (Past Continuous), were you feeling confident?\"\nStudent Maya: \"Yes, because we had been practicing the delivery for weeks (Past Perfect Continuous).\"",
+      "question": "Nhận định nào sau đây là ĐÚNG về nội dung đoạn đối thoại?",
       "options": [
-        "Các câu hội thoại sử dụng đúng cấu trúc ngữ pháp \"Bài 80: Tổng Hợp 12 Thì Tiếng Anh — Bản Đồ Ngữ Pháp & Dấu Hiệu Nhận Biết (The 12 English Tenses Master Summary)\".",
-        "Các nhân vật không hiểu ý nhau và từ chối nói chuyện.",
-        "Đoạn hội thoại nói về việc chuyển nhà sang thành phố khác.",
-        "Cả hai nhân vật đều đang ở sân bay chuẩn bị lên máy bay."
+        "Hai nhân vật đang cãi nhau và không đồng ý hợp tác.",
+        "Cả hai nhân vật đang thảo luận về thời tiết ngày mai.",
+        "Các câu thoại sử dụng đúng cấu trúc \"Tổng Hợp 12 Thì Tiếng Anh — Bản Đồ Ngữ Pháp & Dấu Hiệu Nhận Biết (The 12 English Tenses Master Summary)\".",
+        "Cuộc trò chuyện diễn ra tại nhà ga xe lửa."
       ],
-      "correctAnswer": "Các câu hội thoại sử dụng đúng cấu trúc ngữ pháp \"Bài 80: Tổng Hợp 12 Thì Tiếng Anh — Bản Đồ Ngữ Pháp & Dấu Hiệu Nhận Biết (The 12 English Tenses Master Summary)\".",
-      "explanationVi": "Đoạn hội thoại thứ hai tiếp tục củng cố và ứng dụng các quy tắc ngữ pháp của \"Bài 80: Tổng Hợp 12 Thì Tiếng Anh — Bản Đồ Ngữ Pháp & Dấu Hiệu Nhận Biết (The 12 English Tenses Master Summary)\"."
+      "correctAnswer": "Các câu thoại sử dụng đúng cấu trúc \"Tổng Hợp 12 Thì Tiếng Anh — Bản Đồ Ngữ Pháp & Dấu Hiệu Nhận Biết (The 12 English Tenses Master Summary)\".",
+      "explanationVi": "Đoạn đối thoại ứng dụng chuẩn xác ngữ pháp của \"Bài 80: Tổng Hợp 12 Thì Tiếng Anh — Bản Đồ Ngữ Pháp & Dấu Hiệu Nhận Biết (The 12 English Tenses Master Summary)\"."
     }
   ]
 }

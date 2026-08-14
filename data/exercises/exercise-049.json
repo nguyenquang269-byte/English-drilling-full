@@ -7,13 +7,13 @@
     {
       "id": "ex-049-01",
       "type": "multiple_choice",
-      "promptVi": "[Trắc nghiệm] Chọn từ/cụm từ đúng để hoàn thành câu (Nếu tôi đã học chăm chỉ hơn, tôi đã thi đỗ kỳ thi rồi.):",
+      "promptVi": "[Trắc nghiệm ngữ pháp] Chọn từ đúng để hoàn thành câu (Nếu tôi đã học chăm chỉ hơn, tôi đã thi đỗ kỳ thi rồi.):",
       "question": "If I ___ harder, I would have passed the exam.",
       "options": [
-        "had studied",
+        "have studied",
         "studied",
-        "study",
-        "have studied"
+        "had studied",
+        "study"
       ],
       "correctAnswer": "had studied",
       "explanationVi": "Mệnh đề IF loại 3 dùng thì quá khứ hoàn thành (had studied)."
@@ -21,13 +21,13 @@
     {
       "id": "ex-049-02",
       "type": "multiple_choice",
-      "promptVi": "[Trắc nghiệm] Chọn từ/cụm từ đúng để hoàn thành câu (Nếu trời đã không mưa, chúng tôi đã đi biển rồi.):",
+      "promptVi": "[Trắc nghiệm ngữ pháp] Chọn từ đúng để hoàn thành câu (Nếu trời đã không mưa, chúng tôi đã đi biển rồi.):",
       "question": "If it hadn't rained, we would have ___ to the beach.",
       "options": [
-        "gone",
-        "go",
+        "going",
         "went",
-        "going"
+        "go",
+        "gone"
       ],
       "correctAnswer": "gone",
       "explanationVi": "Sau 'would have' dùng V3 là 'gone'."
@@ -35,13 +35,13 @@
     {
       "id": "ex-049-03",
       "type": "multiple_choice",
-      "promptVi": "[Trắc nghiệm] Chọn từ/cụm từ đúng để hoàn thành câu (Nếu bạn đã nói với tôi, tôi đã giúp bạn rồi.):",
+      "promptVi": "[Trắc nghiệm ngữ pháp] Chọn từ đúng để hoàn thành câu (Nếu bạn đã nói với tôi, tôi đã giúp bạn rồi.):",
       "question": "If you had told me, I ___ helped you.",
       "options": [
-        "would have",
-        "will have",
+        "had",
         "would",
-        "had"
+        "will have",
+        "would have"
       ],
       "correctAnswer": "would have",
       "explanationVi": "Mệnh đề chính điều kiện loại 3 dùng 'would have + V3'."
@@ -49,13 +49,13 @@
     {
       "id": "ex-049-04",
       "type": "multiple_choice",
-      "promptVi": "[Trắc nghiệm] Chọn từ/cụm từ đúng để hoàn thành câu (Bạn sẽ làm gì nếu bạn đã bị lỡ chuyến tàu?):",
+      "promptVi": "[Trắc nghiệm ngữ pháp] Chọn từ đúng để hoàn thành câu (Bạn sẽ làm gì nếu bạn đã bị lỡ chuyến tàu?):",
       "question": "What would you have ___ if you had missed the train?",
       "options": [
+        "doing",
         "done",
         "do",
-        "did",
-        "doing"
+        "did"
       ],
       "correctAnswer": "done",
       "explanationVi": "Sau would have dùng V3 của do là 'done'."
@@ -63,35 +63,35 @@
     {
       "id": "ex-049-05",
       "type": "multiple_choice",
-      "promptVi": "[Trắc nghiệm] Dịch câu sau sang tiếng Anh: \"Bạn có nghe tin Sarah bị lỡ chuyến bay đi Luân Đôn sáng hôm qua không?\"",
-      "question": "Chọn bản dịch chuẩn xác cho câu: \"Bạn có nghe tin Sarah bị lỡ chuyến bay đi Luân Đôn sáng hôm qua không?\"",
+      "promptVi": "[Phản xạ dịch thuật] Dịch câu sau sang tiếng Anh: \"Bạn có nghe tin Sarah bị lỡ chuyến bay đi Luân Đôn sáng hôm qua không?\"",
+      "question": "Chọn bản dịch chuẩn xác nhất cho câu: \"Bạn có nghe tin Sarah bị lỡ chuyến bay đi Luân Đôn sáng hôm qua không?\"",
       "options": [
-        "Did you hear that Sarah missed her flight to London yesterday morning?",
-        "be you hear that Sarah missed her flight to London yesterday morning?",
         "Yes! If she had left her apartment thirty minutes earlier, she would have caught the flight.",
-        "I want to go to the park now."
+        "Did you hear that Sarah missed her flight to London yesterday morning?",
+        "We are studying English today.",
+        "be you hear that Sarah missed her flight to London yesterday morning?"
       ],
       "correctAnswer": "Did you hear that Sarah missed her flight to London yesterday morning?",
-      "explanationVi": "Câu đúng là \"Did you hear that Sarah missed her flight to London yesterday morning?\" (Bạn có nghe tin Sarah bị lỡ chuyến bay đi Luân Đôn sáng hôm qua không?)."
+      "explanationVi": "Câu dịch chuẩn xác: \"Did you hear that Sarah missed her flight to London yesterday morning?\" (Bạn có nghe tin Sarah bị lỡ chuyến bay đi Luân Đôn sáng hôm qua không?)."
     },
     {
       "id": "ex-049-06",
       "type": "multiple_choice",
-      "promptVi": "[Trắc nghiệm] Chọn câu trả lời hoặc cách diễn đạt phù hợp:",
-      "question": "Trong ngữ cảnh giao tiếp: \"Did you hear that Sarah missed her flight to London yesterday morning?\", câu phản hồi tự nhiên là gì?",
+      "promptVi": "[Ngữ cảnh giao tiếp] Chọn câu phản hồi tự nhiên và đúng ngữ pháp:",
+      "question": "Khi đối phương nói: \"Did you hear that Sarah missed her flight to London yesterday morning?\", câu phản hồi phù hợp là gì?",
       "options": [
+        "No, it was yesterday.",
         "Yes! If she had left her apartment thirty minutes earlier, she would have caught the flight.",
-        "No, it is yesterday morning.",
-        "Yes, I will eat apple.",
-        "They are not at the library."
+        "They are not in the office.",
+        "Yes, I will eat it."
       ],
       "correctAnswer": "Yes! If she had left her apartment thirty minutes earlier, she would have caught the flight.",
-      "explanationVi": "Phản hồi phù hợp: \"Yes! If she had left her apartment thirty minutes earlier, she would have caught the flight.\" (Có chứ! Nếu cô ấy rời căn hộ sớm hơn ba mươi phút, cô ấy đã kịp chuyến bay rồi.)."
+      "explanationVi": "Phản hồi phù hợp trong bài: \"Yes! If she had left her apartment thirty minutes earlier, she would have caught the flight.\" (Có chứ! Nếu cô ấy rời căn hộ sớm hơn ba mươi phút, cô ấy đã kịp chuyến bay rồi.)."
     },
     {
       "id": "ex-049-07",
       "type": "fill_blank",
-      "promptVi": "[Điền từ - (Dạng khẳng định)] Điền dạng đúng của động từ vào ô trống (Nếu tôi đã học chăm chỉ hơn, tôi đã thi đỗ kỳ thi rồi.):",
+      "promptVi": "[Điền từ - Dạng KHẲNG ĐỊNH] Điền từ còn thiếu vào ô trống (Nếu tôi đã học chăm chỉ hơn, tôi đã thi đỗ kỳ thi rồi.):",
       "question": "If I ___ harder, I would have passed the exam.",
       "correctAnswer": "had studied",
       "options": [
@@ -100,79 +100,81 @@
         "study",
         "have studied"
       ],
-      "explanationVi": "Đáp án chính xác: \"had studied\". Nếu tôi đã học chăm chỉ hơn, tôi đã thi đỗ kỳ thi rồi.."
+      "explanationVi": "Đáp án đúng là \"had studied\". Câu hoàn chỉnh: \"If I had studied harder, I would have passed the exam.\" (Nếu tôi đã học chăm chỉ hơn, tôi đã thi đỗ kỳ thi rồi.)."
     },
     {
       "id": "ex-049-08",
       "type": "fill_blank",
-      "promptVi": "[Điền từ - (Dạng phủ định)] Điền dạng đúng của động từ vào ô trống (Nếu trời đã không mưa, chúng tôi đã đi biển rồi.):",
+      "promptVi": "[Điền từ - Dạng PHỦ ĐỊNH] Điền từ còn thiếu vào ô trống (Nếu trời đã không mưa, chúng tôi đã đi biển rồi.):",
       "question": "If it hadn't rained, we would have ___ to the beach.",
       "correctAnswer": "gone",
       "options": [
-        "gone",
         "go",
-        "went",
-        "going"
+        "gone",
+        "going",
+        "went"
       ],
-      "explanationVi": "Đáp án chính xác: \"gone\". Nếu trời đã không mưa, chúng tôi đã đi biển rồi.."
+      "explanationVi": "Đáp án đúng là \"gone\". Câu hoàn chỉnh: \"If it hadn't rained, we would have gone to the beach.\" (Nếu trời đã không mưa, chúng tôi đã đi biển rồi.)."
     },
     {
       "id": "ex-049-09",
       "type": "fill_blank",
-      "promptVi": "[Điền từ - (Dạng khẳng định)] Điền dạng đúng của động từ vào ô trống (Nếu bạn đã nói với tôi, tôi đã giúp bạn rồi.):",
+      "promptVi": "[Điền từ - Dạng KHẲNG ĐỊNH] Điền từ còn thiếu vào ô trống (Nếu bạn đã nói với tôi, tôi đã giúp bạn rồi.):",
       "question": "If you had told me, I ___ helped you.",
       "correctAnswer": "would have",
       "options": [
+        "had",
         "would have",
-        "will have",
         "would",
-        "had"
+        "will have"
       ],
-      "explanationVi": "Đáp án chính xác: \"would have\". Nếu bạn đã nói với tôi, tôi đã giúp bạn rồi.."
+      "explanationVi": "Đáp án đúng là \"would have\". Câu hoàn chỉnh: \"If you had told me, I would have helped you.\" (Nếu bạn đã nói với tôi, tôi đã giúp bạn rồi.)."
     },
     {
       "id": "ex-049-10",
       "type": "fill_blank",
-      "promptVi": "[Điền từ - (Dạng khẳng định)] Điền dạng đúng của động từ vào ô trống (Bạn sẽ làm gì nếu bạn đã bị lỡ chuyến tàu?):",
+      "promptVi": "[Điền từ - Dạng KHẲNG ĐỊNH] Điền từ còn thiếu vào ô trống (Bạn sẽ làm gì nếu bạn đã bị lỡ chuyến tàu?):",
       "question": "What would you have ___ if you had missed the train?",
       "correctAnswer": "done",
       "options": [
         "done",
         "do",
-        "did",
-        "doing"
+        "doing",
+        "did"
       ],
-      "explanationVi": "Đáp án chính xác: \"done\". Bạn sẽ làm gì nếu bạn đã bị lỡ chuyến tàu?."
+      "explanationVi": "Đáp án đúng là \"done\". Câu hoàn chỉnh: \"What would you have done if you had missed the train?\" (Bạn sẽ làm gì nếu bạn đã bị lỡ chuyến tàu?)."
     },
     {
       "id": "ex-049-11",
       "type": "fill_blank",
-      "promptVi": "[Điền từ - Dạng PHỦ ĐỊNH] Hoàn thành câu phủ định sau:",
-      "correctAnswer": "If I had studied harder, I would have passed the exam.",
+      "promptVi": "[Điền từ - Dạng PHỦ ĐỊNH] Điền trợ động từ/động từ tobe phủ định vào chỗ trống:",
+      "question": "_____ notf I had studied harder, I would have passed the exam.",
+      "correctAnswer": "I",
       "options": [
-        "If I had studied harder, I would have passed the exam.",
-        "If I had studied harder, I would have passed the exam.",
-        "Not If I had studied harder, I would have passed the exam.",
-        "If I had studied harder, I would have passed the exam. no"
+        "I",
+        "am",
+        "are",
+        "is"
       ],
-      "explanationVi": "Dạng phủ định chuẩn: Thêm 'not' sau động từ chính."
+      "explanationVi": "Câu phủ định hoàn chỉnh: \"I notf I had studied harder, I would have passed the exam.\"."
     },
     {
       "id": "ex-049-12",
       "type": "sentence_scramble",
-      "promptVi": "[Sắp xếp câu] Xếp các khối từ thành câu hoàn chỉnh mang nghĩa: \"Nếu tôi đã học chăm chỉ hơn, tôi đã thi đỗ kỳ thi rồi.\"",
+      "promptVi": "[Sắp xếp câu] Ghép các khối từ thành câu hoàn chỉnh mang nghĩa: \"Nếu tôi đã học chăm chỉ hơn, tôi đã thi đỗ kỳ thi rồi.\"",
+      "question": "Sắp xếp các từ để tạo thành câu đúng: \"Nếu tôi đã học chăm chỉ hơn, tôi đã thi đỗ kỳ thi rồi.\"",
       "words": [
-        "have",
-        "the",
-        "would",
-        "passed",
-        "I",
         "exam.",
+        "studied",
+        "the",
+        "I",
         "If",
+        "passed",
+        "have",
+        "would",
         "harder,",
         "I",
-        "had",
-        "studied"
+        "had"
       ],
       "correctSentence": "If I had studied harder, I would have passed the exam.",
       "hintVi": "Nếu tôi đã học chăm chỉ hơn, tôi đã thi đỗ kỳ thi rồi.",
@@ -181,19 +183,20 @@
     {
       "id": "ex-049-13",
       "type": "sentence_scramble",
-      "promptVi": "[Sắp xếp câu] Xếp các khối từ thành câu hoàn chỉnh mang nghĩa: \"Nếu trời đã không mưa, chúng tôi đã đi biển rồi.\"",
+      "promptVi": "[Sắp xếp câu] Ghép các khối từ thành câu hoàn chỉnh mang nghĩa: \"Nếu trời đã không mưa, chúng tôi đã đi biển rồi.\"",
+      "question": "Sắp xếp các từ để tạo thành câu đúng: \"Nếu trời đã không mưa, chúng tôi đã đi biển rồi.\"",
       "words": [
-        "to",
-        "would",
-        "we",
-        "hadn't",
-        "gone",
-        "rained,",
-        "beach.",
-        "it",
-        "If",
         "the",
-        "have"
+        "beach.",
+        "rained,",
+        "gone",
+        "we",
+        "it",
+        "to",
+        "hadn't",
+        "have",
+        "would",
+        "If"
       ],
       "correctSentence": "If it hadn't rained, we would have gone to the beach.",
       "hintVi": "Nếu trời đã không mưa, chúng tôi đã đi biển rồi.",
@@ -202,18 +205,19 @@
     {
       "id": "ex-049-14",
       "type": "sentence_scramble",
-      "promptVi": "[Sắp xếp câu] Xếp các khối từ thành câu hoàn chỉnh mang nghĩa: \"Nếu bạn đã nói với tôi, tôi đã giúp bạn rồi.\"",
+      "promptVi": "[Sắp xếp câu] Ghép các khối từ thành câu hoàn chỉnh mang nghĩa: \"Nếu bạn đã nói với tôi, tôi đã giúp bạn rồi.\"",
+      "question": "Sắp xếp các từ để tạo thành câu đúng: \"Nếu bạn đã nói với tôi, tôi đã giúp bạn rồi.\"",
       "words": [
-        "had",
         "told",
+        "had",
         "you.",
-        "would",
-        "I",
-        "you",
         "me,",
-        "If",
         "helped",
-        "have"
+        "you",
+        "have",
+        "If",
+        "would",
+        "I"
       ],
       "correctSentence": "If you had told me, I would have helped you.",
       "hintVi": "Nếu bạn đã nói với tôi, tôi đã giúp bạn rồi.",
@@ -222,19 +226,20 @@
     {
       "id": "ex-049-15",
       "type": "sentence_scramble",
-      "promptVi": "[Sắp xếp câu] Xếp các khối từ thành câu hoàn chỉnh mang nghĩa: \"Bạn sẽ làm gì nếu bạn đã bị lỡ chuyến tàu?\"",
+      "promptVi": "[Sắp xếp câu] Ghép các khối từ thành câu hoàn chỉnh mang nghĩa: \"Bạn sẽ làm gì nếu bạn đã bị lỡ chuyến tàu?\"",
+      "question": "Sắp xếp các từ để tạo thành câu đúng: \"Bạn sẽ làm gì nếu bạn đã bị lỡ chuyến tàu?\"",
       "words": [
-        "the",
-        "train?",
-        "have",
         "would",
-        "missed",
+        "had",
+        "the",
         "you",
-        "done",
         "if",
+        "have",
+        "train?",
         "What",
         "you",
-        "had"
+        "missed",
+        "done"
       ],
       "correctSentence": "What would you have done if you had missed the train?",
       "hintVi": "Bạn sẽ làm gì nếu bạn đã bị lỡ chuyến tàu?",
@@ -243,23 +248,24 @@
     {
       "id": "ex-049-16",
       "type": "sentence_scramble",
-      "promptVi": "[Sắp xếp câu] Xếp các từ thành câu hội thoại: \"Nếu chiếc taxi không gặp tình trạng tắc đường khủng khiếp trên cao tốc, cô ấy đã đến đúng giờ.\"",
+      "promptVi": "[Sắp xếp câu] Ghép các từ thành câu hội thoại: \"Nếu chiếc taxi không gặp tình trạng tắc đường khủng khiếp trên cao tốc, cô ấy đã đến đúng giờ.\"",
+      "question": "Sắp xếp các từ để tạo thành câu thoại: \"Nếu chiếc taxi không gặp tình trạng tắc đường khủng khiếp trên cao tốc, cô ấy đã đến đúng giờ.\"",
       "words": [
-        "have",
-        "encountered",
-        "terrible",
-        "time",
-        "not",
         "traffic",
-        "had",
-        "on",
-        "would",
-        "taxi",
         "highway",
-        "the",
+        "on",
+        "terrible",
         "she",
+        "encountered",
+        "not",
+        "have",
+        "had",
+        "taxi",
         "arrived",
-        "If"
+        "the",
+        "would",
+        "If",
+        "time"
       ],
       "correctSentence": "If the taxi had not encountered terrible highway traffic, she would have arrived on time.",
       "hintVi": "Nếu chiếc taxi không gặp tình trạng tắc đường khủng khiếp trên cao tốc, cô ấy đã đến đúng giờ.",
@@ -268,70 +274,70 @@
     {
       "id": "ex-049-17",
       "type": "find_error",
-      "promptVi": "[Tìm lỗi sai & Chọn câu đúng] Câu nào dưới đây có cấu trúc ngữ pháp HOÀN TOÀN ĐÚNG?",
-      "question": "Chủ điểm \"Bài 49: Câu Điều kiện — Loại 3 (Third Conditional: If + Past Perfect, Would have + V3)\": Chọn câu CHÍNH XÁC:",
+      "promptVi": "[Nhận diện cấu trúc chuẩn] Chọn câu có cấu trúc ngữ pháp HOÀN TOÀN ĐÚNG:",
+      "question": "Dựa vào chủ điểm \"Bài 49: Câu Điều kiện — Loại 3 (Third Conditional: If + Past Perfect, Would have + V3)\", câu nào sau đây CHÍNH XÁC?",
       "options": [
         "If I had studied harder, I would have passed the exam.",
+        "is",
         "exam. the passed have would I harder, studied had I If",
-        "If I had studied harder, I would have passed the exam. (sai)",
-        "If I had studied harder, I would have passed the exam. (sai)"
+        "are"
       ],
       "correctAnswer": "If I had studied harder, I would have passed the exam.",
-      "explanationVi": "Câu chuẩn xác là: \"If I had studied harder, I would have passed the exam.\" (Nếu tôi đã học chăm chỉ hơn, tôi đã thi đỗ kỳ thi rồi.)."
+      "explanationVi": "Cấu trúc chuẩn xác là: \"If I had studied harder, I would have passed the exam.\" (Nếu tôi đã học chăm chỉ hơn, tôi đã thi đỗ kỳ thi rồi.)."
     },
     {
       "id": "ex-049-18",
       "type": "find_error",
-      "promptVi": "[Tìm lỗi sai & Chọn câu đúng] Câu nào dưới đây có cấu trúc ngữ pháp HOÀN TOÀN ĐÚNG?",
-      "question": "Chủ điểm \"Bài 49: Câu Điều kiện — Loại 3 (Third Conditional: If + Past Perfect, Would have + V3)\": Chọn câu CHÍNH XÁC:",
+      "promptVi": "[Nhận diện cấu trúc chuẩn] Chọn câu có cấu trúc ngữ pháp HOÀN TOÀN ĐÚNG:",
+      "question": "Dựa vào chủ điểm \"Bài 49: Câu Điều kiện — Loại 3 (Third Conditional: If + Past Perfect, Would have + V3)\", câu nào sau đây CHÍNH XÁC?",
       "options": [
-        "If it hadn't rained, we would have gone to the beach.",
+        "If it hadn't rained, we would have gone at the beach.",
         "beach. the to gone have would we rained, hadn't it If",
-        "If it hadn't rained, we would have gone to the beach. (sai)",
-        "If it hadn't rained, we would have gone to the beach. (sai)"
+        "is",
+        "If it hadn't rained, we would have gone to the beach."
       ],
       "correctAnswer": "If it hadn't rained, we would have gone to the beach.",
-      "explanationVi": "Câu chuẩn xác là: \"If it hadn't rained, we would have gone to the beach.\" (Nếu trời đã không mưa, chúng tôi đã đi biển rồi.)."
+      "explanationVi": "Cấu trúc chuẩn xác là: \"If it hadn't rained, we would have gone to the beach.\" (Nếu trời đã không mưa, chúng tôi đã đi biển rồi.)."
     },
     {
       "id": "ex-049-19",
       "type": "find_error",
-      "promptVi": "[Tìm lỗi sai & Chọn câu đúng] Câu nào dưới đây có cấu trúc ngữ pháp HOÀN TOÀN ĐÚNG?",
-      "question": "Chủ điểm \"Bài 49: Câu Điều kiện — Loại 3 (Third Conditional: If + Past Perfect, Would have + V3)\": Chọn câu CHÍNH XÁC:",
+      "promptVi": "[Nhận diện cấu trúc chuẩn] Chọn câu có cấu trúc ngữ pháp HOÀN TOÀN ĐÚNG:",
+      "question": "Dựa vào chủ điểm \"Bài 49: Câu Điều kiện — Loại 3 (Third Conditional: If + Past Perfect, Would have + V3)\", câu nào sau đây CHÍNH XÁC?",
       "options": [
-        "If you had told me, I would have helped you.",
         "you. helped have would I me, told had you If",
-        "If you had told me, I would have helped you. (sai)",
-        "If you had told me, I would have helped you. (sai)"
+        "are",
+        "is",
+        "If you had told me, I would have helped you."
       ],
       "correctAnswer": "If you had told me, I would have helped you.",
-      "explanationVi": "Câu chuẩn xác là: \"If you had told me, I would have helped you.\" (Nếu bạn đã nói với tôi, tôi đã giúp bạn rồi.)."
+      "explanationVi": "Cấu trúc chuẩn xác là: \"If you had told me, I would have helped you.\" (Nếu bạn đã nói với tôi, tôi đã giúp bạn rồi.)."
     },
     {
       "id": "ex-049-20",
       "type": "find_error",
-      "promptVi": "[Tìm lỗi sai & Chọn câu đúng] Câu nào dưới đây có cấu trúc ngữ pháp HOÀN TOÀN ĐÚNG?",
-      "question": "Chủ điểm \"Bài 49: Câu Điều kiện — Loại 3 (Third Conditional: If + Past Perfect, Would have + V3)\": Chọn câu CHÍNH XÁC:",
+      "promptVi": "[Nhận diện cấu trúc chuẩn] Chọn câu có cấu trúc ngữ pháp HOÀN TOÀN ĐÚNG:",
+      "question": "Dựa vào chủ điểm \"Bài 49: Câu Điều kiện — Loại 3 (Third Conditional: If + Past Perfect, Would have + V3)\", câu nào sau đây CHÍNH XÁC?",
       "options": [
-        "What would you have done if you had missed the train?",
         "train? the missed had you if done have you would What",
-        "What would you have done if you had missed the train? (sai)",
-        "What would you have done if you had missed the train? (sai)"
+        "What would you have done if you had missed the train?",
+        "is",
+        "are"
       ],
       "correctAnswer": "What would you have done if you had missed the train?",
-      "explanationVi": "Câu chuẩn xác là: \"What would you have done if you had missed the train?\" (Bạn sẽ làm gì nếu bạn đã bị lỡ chuyến tàu?)."
+      "explanationVi": "Cấu trúc chuẩn xác là: \"What would you have done if you had missed the train?\" (Bạn sẽ làm gì nếu bạn đã bị lỡ chuyến tàu?)."
     },
     {
       "id": "ex-049-21",
       "type": "listening_reflex",
-      "promptVi": "[Nghe phản xạ] Nghe câu phát âm tiếng Anh và chọn bản dịch tiếng Việt đúng nhất:",
+      "promptVi": "[Nghe phản xạ] Nghe câu phát âm tiếng Anh và chọn bản dịch tiếng Việt đúng:",
       "audioPrompt": "Did you hear that Sarah missed her flight to London yesterday morning?",
-      "question": "Nhấn nút '🔊 Nghe audio' để nghe câu thoại và chọn nghĩa đúng:",
+      "question": "Nhấn nút '🔊 Nghe audio' và chọn nghĩa tiếng Việt đúng:",
       "options": [
+        "Hôm nay thời tiết rất đẹp.",
         "Bạn có nghe tin Sarah bị lỡ chuyến bay đi Luân Đôn sáng hôm qua không?",
         "Có chứ! Nếu cô ấy rời căn hộ sớm hơn ba mươi phút, cô ấy đã kịp chuyến bay rồi.",
-        "Nếu chiếc taxi không gặp tình trạng tắc đường khủng khiếp trên cao tốc, cô ấy đã đến đúng giờ.",
-        "Ngày mai trời sẽ mưa to."
+        "Nếu chiếc taxi không gặp tình trạng tắc đường khủng khiếp trên cao tốc, cô ấy đã đến đúng giờ."
       ],
       "correctAnswer": "Bạn có nghe tin Sarah bị lỡ chuyến bay đi Luân Đôn sáng hôm qua không?",
       "explanationVi": "Câu nghe được: \"Did you hear that Sarah missed her flight to London yesterday morning?\" có nghĩa là: \"Bạn có nghe tin Sarah bị lỡ chuyến bay đi Luân Đôn sáng hôm qua không?\"."
@@ -339,14 +345,14 @@
     {
       "id": "ex-049-22",
       "type": "listening_reflex",
-      "promptVi": "[Nghe phản xạ] Nghe câu phát âm tiếng Anh và chọn bản dịch tiếng Việt đúng nhất:",
+      "promptVi": "[Nghe phản xạ] Nghe câu phát âm tiếng Anh và chọn bản dịch tiếng Việt đúng:",
       "audioPrompt": "Yes! If she had left her apartment thirty minutes earlier, she would have caught the flight.",
-      "question": "Nhấn nút '🔊 Nghe audio' để nghe câu thoại và chọn nghĩa đúng:",
+      "question": "Nhấn nút '🔊 Nghe audio' và chọn nghĩa tiếng Việt đúng:",
       "options": [
         "Có chứ! Nếu cô ấy rời căn hộ sớm hơn ba mươi phút, cô ấy đã kịp chuyến bay rồi.",
         "Nếu chiếc taxi không gặp tình trạng tắc đường khủng khiếp trên cao tốc, cô ấy đã đến đúng giờ.",
         "Cô ấy sẽ làm gì nếu nhân viên hãng hàng không từ chối đặt lại vé cho cô ấy?",
-        "Ngày mai trời sẽ mưa to."
+        "Hôm nay thời tiết rất đẹp."
       ],
       "correctAnswer": "Có chứ! Nếu cô ấy rời căn hộ sớm hơn ba mươi phút, cô ấy đã kịp chuyến bay rồi.",
       "explanationVi": "Câu nghe được: \"Yes! If she had left her apartment thirty minutes earlier, she would have caught the flight.\" có nghĩa là: \"Có chứ! Nếu cô ấy rời căn hộ sớm hơn ba mươi phút, cô ấy đã kịp chuyến bay rồi.\"."
@@ -354,14 +360,14 @@
     {
       "id": "ex-049-23",
       "type": "listening_reflex",
-      "promptVi": "[Nghe phản xạ] Nghe câu phát âm tiếng Anh và chọn bản dịch tiếng Việt đúng nhất:",
+      "promptVi": "[Nghe phản xạ] Nghe câu phát âm tiếng Anh và chọn bản dịch tiếng Việt đúng:",
       "audioPrompt": "If the taxi had not encountered terrible highway traffic, she would have arrived on time.",
-      "question": "Nhấn nút '🔊 Nghe audio' để nghe câu thoại và chọn nghĩa đúng:",
+      "question": "Nhấn nút '🔊 Nghe audio' và chọn nghĩa tiếng Việt đúng:",
       "options": [
-        "Nếu chiếc taxi không gặp tình trạng tắc đường khủng khiếp trên cao tốc, cô ấy đã đến đúng giờ.",
         "Cô ấy sẽ làm gì nếu nhân viên hãng hàng không từ chối đặt lại vé cho cô ấy?",
-        "Cô ấy sẽ phải mua một tấm vé mới toanh với mức giá rất đắt.",
-        "Ngày mai trời sẽ mưa to."
+        "Hôm nay thời tiết rất đẹp.",
+        "Nếu chiếc taxi không gặp tình trạng tắc đường khủng khiếp trên cao tốc, cô ấy đã đến đúng giờ.",
+        "Cô ấy sẽ phải mua một tấm vé mới toanh với mức giá rất đắt."
       ],
       "correctAnswer": "Nếu chiếc taxi không gặp tình trạng tắc đường khủng khiếp trên cao tốc, cô ấy đã đến đúng giờ.",
       "explanationVi": "Câu nghe được: \"If the taxi had not encountered terrible highway traffic, she would have arrived on time.\" có nghĩa là: \"Nếu chiếc taxi không gặp tình trạng tắc đường khủng khiếp trên cao tốc, cô ấy đã đến đúng giờ.\"."
@@ -369,14 +375,14 @@
     {
       "id": "ex-049-24",
       "type": "listening_reflex",
-      "promptVi": "[Nghe phản xạ] Nghe câu phát âm tiếng Anh và chọn bản dịch tiếng Việt đúng nhất:",
+      "promptVi": "[Nghe phản xạ] Nghe câu phát âm tiếng Anh và chọn bản dịch tiếng Việt đúng:",
       "audioPrompt": "What would she have done if the airline staff had refused to rebook her ticket?",
-      "question": "Nhấn nút '🔊 Nghe audio' để nghe câu thoại và chọn nghĩa đúng:",
+      "question": "Nhấn nút '🔊 Nghe audio' và chọn nghĩa tiếng Việt đúng:",
       "options": [
         "Cô ấy sẽ làm gì nếu nhân viên hãng hàng không từ chối đặt lại vé cho cô ấy?",
         "Cô ấy sẽ phải mua một tấm vé mới toanh với mức giá rất đắt.",
         "Nếu tôi biết về công trình thi công đường cao tốc nghiêm trọng đó, tôi đã cảnh báo cô ấy trước rồi.",
-        "Ngày mai trời sẽ mưa to."
+        "Hôm nay thời tiết rất đẹp."
       ],
       "correctAnswer": "Cô ấy sẽ làm gì nếu nhân viên hãng hàng không từ chối đặt lại vé cho cô ấy?",
       "explanationVi": "Câu nghe được: \"What would she have done if the airline staff had refused to rebook her ticket?\" có nghĩa là: \"Cô ấy sẽ làm gì nếu nhân viên hãng hàng không từ chối đặt lại vé cho cô ấy?\"."
@@ -384,64 +390,68 @@
     {
       "id": "ex-049-25",
       "type": "speaking_practice",
-      "promptVi": "[Luyện nói qua Micro] Nhấn nút '🎙️ Bắt đầu nói' và đọc to, rõ ràng câu tiếng Anh sau:",
+      "promptVi": "[Luyện nói qua Micro] Nhấn nút 'Bấm để Nói ngay' và phát âm câu sau:",
+      "question": "Luyện phát âm chuẩn câu: \"If I had studied harder, I would have passed the exam.\" (Nếu tôi đã học chăm chỉ hơn, tôi đã thi đỗ kỳ thi rồi.)",
       "targetSentence": "If I had studied harder, I would have passed the exam.",
       "hintVi": "Nếu tôi đã học chăm chỉ hơn, tôi đã thi đỗ kỳ thi rồi.",
-      "explanationVi": "Câu mục tiêu: \"If I had studied harder, I would have passed the exam.\" (Nếu tôi đã học chăm chỉ hơn, tôi đã thi đỗ kỳ thi rồi.). Luyện phát âm chuẩn xác từng âm tiết và ngữ điệu tự nhiên."
+      "explanationVi": "Mẫu câu chuẩn: \"If I had studied harder, I would have passed the exam.\" (Nếu tôi đã học chăm chỉ hơn, tôi đã thi đỗ kỳ thi rồi.). Luyện phát âm rõ ràng từng từ."
     },
     {
       "id": "ex-049-26",
       "type": "speaking_practice",
-      "promptVi": "[Luyện nói qua Micro] Nhấn nút '🎙️ Bắt đầu nói' và đọc to, rõ ràng câu tiếng Anh sau:",
+      "promptVi": "[Luyện nói qua Micro] Nhấn nút 'Bấm để Nói ngay' và phát âm câu sau:",
+      "question": "Luyện phát âm chuẩn câu: \"If it hadn't rained, we would have gone to the beach.\" (Nếu trời đã không mưa, chúng tôi đã đi biển rồi.)",
       "targetSentence": "If it hadn't rained, we would have gone to the beach.",
       "hintVi": "Nếu trời đã không mưa, chúng tôi đã đi biển rồi.",
-      "explanationVi": "Câu mục tiêu: \"If it hadn't rained, we would have gone to the beach.\" (Nếu trời đã không mưa, chúng tôi đã đi biển rồi.). Luyện phát âm chuẩn xác từng âm tiết và ngữ điệu tự nhiên."
+      "explanationVi": "Mẫu câu chuẩn: \"If it hadn't rained, we would have gone to the beach.\" (Nếu trời đã không mưa, chúng tôi đã đi biển rồi.). Luyện phát âm rõ ràng từng từ."
     },
     {
       "id": "ex-049-27",
       "type": "speaking_practice",
-      "promptVi": "[Luyện nói qua Micro] Nhấn nút '🎙️ Bắt đầu nói' và đọc to, rõ ràng câu tiếng Anh sau:",
+      "promptVi": "[Luyện nói qua Micro] Nhấn nút 'Bấm để Nói ngay' và phát âm câu sau:",
+      "question": "Luyện phát âm chuẩn câu: \"If you had told me, I would have helped you.\" (Nếu bạn đã nói với tôi, tôi đã giúp bạn rồi.)",
       "targetSentence": "If you had told me, I would have helped you.",
       "hintVi": "Nếu bạn đã nói với tôi, tôi đã giúp bạn rồi.",
-      "explanationVi": "Câu mục tiêu: \"If you had told me, I would have helped you.\" (Nếu bạn đã nói với tôi, tôi đã giúp bạn rồi.). Luyện phát âm chuẩn xác từng âm tiết và ngữ điệu tự nhiên."
+      "explanationVi": "Mẫu câu chuẩn: \"If you had told me, I would have helped you.\" (Nếu bạn đã nói với tôi, tôi đã giúp bạn rồi.). Luyện phát âm rõ ràng từng từ."
     },
     {
       "id": "ex-049-28",
       "type": "speaking_practice",
-      "promptVi": "[Luyện nói qua Micro] Nhấn nút '🎙️ Bắt đầu nói' và đọc to, rõ ràng câu tiếng Anh sau:",
+      "promptVi": "[Luyện nói qua Micro] Nhấn nút 'Bấm để Nói ngay' và phát âm câu sau:",
+      "question": "Luyện phát âm chuẩn câu: \"What would you have done if you had missed the train?\" (Bạn sẽ làm gì nếu bạn đã bị lỡ chuyến tàu?)",
       "targetSentence": "What would you have done if you had missed the train?",
       "hintVi": "Bạn sẽ làm gì nếu bạn đã bị lỡ chuyến tàu?",
-      "explanationVi": "Câu mục tiêu: \"What would you have done if you had missed the train?\" (Bạn sẽ làm gì nếu bạn đã bị lỡ chuyến tàu?). Luyện phát âm chuẩn xác từng âm tiết và ngữ điệu tự nhiên."
+      "explanationVi": "Mẫu câu chuẩn: \"What would you have done if you had missed the train?\" (Bạn sẽ làm gì nếu bạn đã bị lỡ chuyến tàu?). Luyện phát âm rõ ràng từng từ."
     },
     {
       "id": "ex-049-29",
       "type": "reading_comprehension",
-      "promptVi": "[Đọc hiểu đoạn văn 1] Đọc đoạn hội thoại mở đầu sau và trả lời câu hỏi:",
-      "passage": "Gabriel (Nam): \"Did you hear that Sarah missed her flight to London yesterday morning?\"\nNatalie (Nữ): \"Yes! If she had left her apartment thirty minutes earlier, she would have caught the flight.\"\nGabriel (Nam): \"If the taxi had not encountered terrible highway traffic, she would have arrived on time.\"\nNatalie (Nữ): \"What would she have done if the airline staff had refused to rebook her ticket?\"",
-      "question": "Câu hỏi: Trong đoạn hội thoại trên, các nhân vật đang thảo luận về chủ đề gì?",
+      "promptVi": "[Đọc hiểu đoạn văn] Đọc đoạn hội thoại sau và trả lời câu hỏi:",
+      "passage": "Gabriel: \"Did you hear that Sarah missed her flight to London yesterday morning?\"\nNatalie: \"Yes! If she had left her apartment thirty minutes earlier, she would have caught the flight.\"\nGabriel: \"If the taxi had not encountered terrible highway traffic, she would have arrived on time.\"\nNatalie: \"What would she have done if the airline staff had refused to rebook her ticket?\"",
+      "question": "Chủ đề trọng tâm của đoạn hội thoại trên là gì?",
       "options": [
-        "Câu Điều kiện — Loại 3 (Third Conditional: If + Past Perfect, Would have + V3)",
-        "Kế hoạch đi nghỉ dưỡng cuối tuần ở bãi biển",
-        "Mua sắm quần áo và đồ dùng thể thao",
-        "Cách làm món ăn truyền thống gia đình"
+        "Cách làm món ăn truyền thống",
+        "Lịch trình đi du lịch nghỉ mát cuối tuần",
+        "Kế hoạch đi mua sắm tại siêu thị",
+        "Câu Điều kiện — Loại 3 (Third Conditional: If + Past Perfect, Would have + V3)"
       ],
       "correctAnswer": "Câu Điều kiện — Loại 3 (Third Conditional: If + Past Perfect, Would have + V3)",
-      "explanationVi": "Đoạn hội thoại mở đầu được thiết kế để minh họa trực tiếp cho chủ điểm ngữ pháp: \"Bài 49: Câu Điều kiện — Loại 3 (Third Conditional: If + Past Perfect, Would have + V3)\"."
+      "explanationVi": "Đoạn hội thoại được thiết kế để minh họa trực tiếp cho chủ điểm \"Bài 49: Câu Điều kiện — Loại 3 (Third Conditional: If + Past Perfect, Would have + V3)\"."
     },
     {
       "id": "ex-049-30",
       "type": "reading_comprehension",
-      "promptVi": "[Đọc hiểu đoạn văn 2] Đọc phần tiếp theo của đoạn hội thoại và chọn nhận định đúng:",
-      "passage": "Gabriel (Nam): \"She would have had to purchase a brand-new ticket at a very high price.\"\nNatalie (Nữ): \"If I had known about the severe highway construction, I would have warned her in advance.\"\nGabriel (Nam): \"If we had studied more thoroughly for last week's exam, we would have scored higher marks.\"\nNatalie (Nữ): \"If you had joined our weekend study group, you would have understood the difficult formulas.\"",
-      "question": "Nhận định nào sau đây là ĐÚNG với nội dung đoạn hội thoại trên?",
+      "promptVi": "[Đọc hiểu đoạn văn] Đọc đoạn đối thoại tiếp theo và chọn nhận định đúng:",
+      "passage": "Gabriel: \"She would have had to purchase a brand-new ticket at a very high price.\"\nNatalie: \"If I had known about the severe highway construction, I would have warned her in advance.\"\nGabriel: \"If we had studied more thoroughly for last week's exam, we would have scored higher marks.\"\nNatalie: \"If you had joined our weekend study group, you would have understood the difficult formulas.\"",
+      "question": "Nhận định nào sau đây là ĐÚNG về nội dung đoạn đối thoại?",
       "options": [
-        "Các câu hội thoại sử dụng đúng cấu trúc ngữ pháp \"Bài 49: Câu Điều kiện — Loại 3 (Third Conditional: If + Past Perfect, Would have + V3)\".",
-        "Các nhân vật không hiểu ý nhau và từ chối nói chuyện.",
-        "Đoạn hội thoại nói về việc chuyển nhà sang thành phố khác.",
-        "Cả hai nhân vật đều đang ở sân bay chuẩn bị lên máy bay."
+        "Cả hai nhân vật đang thảo luận về thời tiết ngày mai.",
+        "Cuộc trò chuyện diễn ra tại nhà ga xe lửa.",
+        "Các câu thoại sử dụng đúng cấu trúc \"Câu Điều kiện — Loại 3 (Third Conditional: If + Past Perfect, Would have + V3)\".",
+        "Hai nhân vật đang cãi nhau và không đồng ý hợp tác."
       ],
-      "correctAnswer": "Các câu hội thoại sử dụng đúng cấu trúc ngữ pháp \"Bài 49: Câu Điều kiện — Loại 3 (Third Conditional: If + Past Perfect, Would have + V3)\".",
-      "explanationVi": "Đoạn hội thoại thứ hai tiếp tục củng cố và ứng dụng các quy tắc ngữ pháp của \"Bài 49: Câu Điều kiện — Loại 3 (Third Conditional: If + Past Perfect, Would have + V3)\"."
+      "correctAnswer": "Các câu thoại sử dụng đúng cấu trúc \"Câu Điều kiện — Loại 3 (Third Conditional: If + Past Perfect, Would have + V3)\".",
+      "explanationVi": "Đoạn đối thoại ứng dụng chuẩn xác ngữ pháp của \"Bài 49: Câu Điều kiện — Loại 3 (Third Conditional: If + Past Perfect, Would have + V3)\"."
     }
   ]
 }

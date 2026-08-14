@@ -7,12 +7,12 @@
     {
       "id": "ex-001-01",
       "type": "multiple_choice",
-      "promptVi": "[Trắc nghiệm] Chọn từ/cụm từ đúng để hoàn thành câu (Tôi là một học sinh.):",
+      "promptVi": "[Trắc nghiệm ngữ pháp] Chọn từ đúng để hoàn thành câu (Tôi là một học sinh.):",
       "question": "I ___ a student.",
       "options": [
         "am",
-        "is",
         "are",
+        "is",
         "be"
       ],
       "correctAnswer": "am",
@@ -21,12 +21,12 @@
     {
       "id": "ex-001-02",
       "type": "multiple_choice",
-      "promptVi": "[Trắc nghiệm] Chọn từ/cụm từ đúng để hoàn thành câu (Bạn là một giáo viên.):",
+      "promptVi": "[Trắc nghiệm ngữ pháp] Chọn từ đúng để hoàn thành câu (Bạn là một giáo viên.):",
       "question": "You ___ a teacher.",
       "options": [
-        "am",
-        "is",
         "are",
+        "is",
+        "am",
         "be"
       ],
       "correctAnswer": "are",
@@ -35,13 +35,13 @@
     {
       "id": "ex-001-03",
       "type": "multiple_choice",
-      "promptVi": "[Trắc nghiệm] Chọn từ/cụm từ đúng để hoàn thành câu (Anh ấy đến từ Mỹ.):",
+      "promptVi": "[Trắc nghiệm ngữ pháp] Chọn từ đúng để hoàn thành câu (Anh ấy đến từ Mỹ.):",
       "question": "He ___ from America.",
       "options": [
-        "am",
         "is",
-        "are",
-        "was"
+        "was",
+        "am",
+        "are"
       ],
       "correctAnswer": "is",
       "explanationVi": "Chủ ngữ số ít 'He' đi với 'is'."
@@ -49,13 +49,13 @@
     {
       "id": "ex-001-04",
       "type": "multiple_choice",
-      "promptVi": "[Trắc nghiệm] Chọn từ/cụm từ đúng để hoàn thành câu (Hôm nay chúng tôi rất vui.):",
+      "promptVi": "[Trắc nghiệm ngữ pháp] Chọn từ đúng để hoàn thành câu (Hôm nay chúng tôi rất vui.):",
       "question": "We ___ happy today.",
       "options": [
-        "am",
-        "is",
         "are",
-        "be"
+        "am",
+        "be",
+        "is"
       ],
       "correctAnswer": "are",
       "explanationVi": "Chủ ngữ số nhiều 'We' đi với 'are'."
@@ -63,109 +63,111 @@
     {
       "id": "ex-001-05",
       "type": "multiple_choice",
-      "promptVi": "[Trắc nghiệm] Dịch câu sau sang tiếng Anh: \"Xin chào! Tên tôi là Alex. Tôi là một học sinh mới ở đây.\"",
-      "question": "Chọn bản dịch chuẩn xác cho câu: \"Xin chào! Tên tôi là Alex. Tôi là một học sinh mới ở đây.\"",
+      "promptVi": "[Phản xạ dịch thuật] Dịch câu sau sang tiếng Anh: \"Xin chào! Tên tôi là Alex. Tôi là một học sinh mới ở đây.\"",
+      "question": "Chọn bản dịch chuẩn xác nhất cho câu: \"Xin chào! Tên tôi là Alex. Tôi là một học sinh mới ở đây.\"",
       "options": [
         "Hello! My name is Alex. I am a new student here.",
         "Hello! My name be Alex. I am a new student here.",
-        "Hi Alex! I am Linh. Are you from America?",
-        "I want to go to the park now."
+        "We are studying English today.",
+        "Hi Alex! I am Linh. Are you from America?"
       ],
       "correctAnswer": "Hello! My name is Alex. I am a new student here.",
-      "explanationVi": "Câu đúng là \"Hello! My name is Alex. I am a new student here.\" (Xin chào! Tên tôi là Alex. Tôi là một học sinh mới ở đây.)."
+      "explanationVi": "Câu dịch chuẩn xác: \"Hello! My name is Alex. I am a new student here.\" (Xin chào! Tên tôi là Alex. Tôi là một học sinh mới ở đây.)."
     },
     {
       "id": "ex-001-06",
       "type": "multiple_choice",
-      "promptVi": "[Trắc nghiệm] Chọn câu trả lời hoặc cách diễn đạt phù hợp:",
-      "question": "Trong ngữ cảnh giao tiếp: \"Hello! My name is Alex. I am a new student here.\", câu phản hồi tự nhiên là gì?",
+      "promptVi": "[Ngữ cảnh giao tiếp] Chọn câu phản hồi tự nhiên và đúng ngữ pháp:",
+      "question": "Khi đối phương nói: \"Hello! My name is Alex. I am a new student here.\", câu phản hồi phù hợp là gì?",
       "options": [
         "Hi Alex! I am Linh. Are you from America?",
-        "No, it is yesterday morning.",
-        "Yes, I will eat apple.",
-        "They are not at the library."
+        "Yes, I will eat it.",
+        "They are not in the office.",
+        "No, it was yesterday."
       ],
       "correctAnswer": "Hi Alex! I am Linh. Are you from America?",
-      "explanationVi": "Phản hồi phù hợp: \"Hi Alex! I am Linh. Are you from America?\" (Chào Alex! Tôi là Linh. Bạn có phải đến từ Mỹ không?)."
+      "explanationVi": "Phản hồi phù hợp trong bài: \"Hi Alex! I am Linh. Are you from America?\" (Chào Alex! Tôi là Linh. Bạn có phải đến từ Mỹ không?)."
     },
     {
       "id": "ex-001-07",
       "type": "fill_blank",
-      "promptVi": "[Điền từ - (Dạng khẳng định)] Điền dạng đúng của động từ vào ô trống (Tôi là một học sinh.):",
+      "promptVi": "[Điền từ - Dạng KHẲNG ĐỊNH] Điền từ còn thiếu vào ô trống (Tôi là một học sinh.):",
       "question": "I ___ a student.",
       "correctAnswer": "am",
       "options": [
         "am",
         "is",
-        "are",
-        "be"
+        "be",
+        "are"
       ],
-      "explanationVi": "Đáp án chính xác: \"am\". Tôi là một học sinh.."
+      "explanationVi": "Đáp án đúng là \"am\". Câu hoàn chỉnh: \"I am a student.\" (Tôi là một học sinh.)."
     },
     {
       "id": "ex-001-08",
       "type": "fill_blank",
-      "promptVi": "[Điền từ - (Dạng khẳng định)] Điền dạng đúng của động từ vào ô trống (Bạn là một giáo viên.):",
+      "promptVi": "[Điền từ - Dạng KHẲNG ĐỊNH] Điền từ còn thiếu vào ô trống (Bạn là một giáo viên.):",
       "question": "You ___ a teacher.",
       "correctAnswer": "are",
       "options": [
         "am",
-        "is",
+        "be",
         "are",
-        "be"
+        "is"
       ],
-      "explanationVi": "Đáp án chính xác: \"are\". Bạn là một giáo viên.."
+      "explanationVi": "Đáp án đúng là \"are\". Câu hoàn chỉnh: \"You are a teacher.\" (Bạn là một giáo viên.)."
     },
     {
       "id": "ex-001-09",
       "type": "fill_blank",
-      "promptVi": "[Điền từ - (Dạng khẳng định)] Điền dạng đúng của động từ vào ô trống (Anh ấy đến từ Mỹ.):",
+      "promptVi": "[Điền từ - Dạng KHẲNG ĐỊNH] Điền từ còn thiếu vào ô trống (Anh ấy đến từ Mỹ.):",
       "question": "He ___ from America.",
       "correctAnswer": "is",
       "options": [
-        "am",
-        "is",
         "are",
+        "is",
+        "am",
         "was"
       ],
-      "explanationVi": "Đáp án chính xác: \"is\". Anh ấy đến từ Mỹ.."
+      "explanationVi": "Đáp án đúng là \"is\". Câu hoàn chỉnh: \"He is from America.\" (Anh ấy đến từ Mỹ.)."
     },
     {
       "id": "ex-001-10",
       "type": "fill_blank",
-      "promptVi": "[Điền từ - (Dạng khẳng định)] Điền dạng đúng của động từ vào ô trống (Hôm nay chúng tôi rất vui.):",
+      "promptVi": "[Điền từ - Dạng KHẲNG ĐỊNH] Điền từ còn thiếu vào ô trống (Hôm nay chúng tôi rất vui.):",
       "question": "We ___ happy today.",
       "correctAnswer": "are",
       "options": [
+        "are",
         "am",
         "is",
-        "are",
         "be"
       ],
-      "explanationVi": "Đáp án chính xác: \"are\". Hôm nay chúng tôi rất vui.."
+      "explanationVi": "Đáp án đúng là \"are\". Câu hoàn chỉnh: \"We are happy today.\" (Hôm nay chúng tôi rất vui.)."
     },
     {
       "id": "ex-001-11",
       "type": "fill_blank",
-      "promptVi": "[Điền từ - Dạng PHỦ ĐỊNH] Hoàn thành câu phủ định sau:",
-      "correctAnswer": "I am not a student.",
+      "promptVi": "[Điền từ - Dạng PHỦ ĐỊNH] Điền trợ động từ/động từ tobe phủ định vào chỗ trống:",
+      "question": "I _____ not a student.",
+      "correctAnswer": "am",
       "options": [
-        "I am not a student.",
-        "I am a student.",
-        "Not I am a student.",
-        "I am a student. no"
+        "is",
+        "do",
+        "am",
+        "are"
       ],
-      "explanationVi": "Dạng phủ định chuẩn: Thêm 'not' sau động từ chính."
+      "explanationVi": "Câu phủ định hoàn chỉnh: \"I am not a student.\"."
     },
     {
       "id": "ex-001-12",
       "type": "sentence_scramble",
-      "promptVi": "[Sắp xếp câu] Xếp các khối từ thành câu hoàn chỉnh mang nghĩa: \"Tôi là một học sinh.\"",
+      "promptVi": "[Sắp xếp câu] Ghép các khối từ thành câu hoàn chỉnh mang nghĩa: \"Tôi là một học sinh.\"",
+      "question": "Sắp xếp các từ để tạo thành câu đúng: \"Tôi là một học sinh.\"",
       "words": [
         "student.",
         "am",
-        "I",
-        "a"
+        "a",
+        "I"
       ],
       "correctSentence": "I am a student.",
       "hintVi": "Tôi là một học sinh.",
@@ -174,12 +176,13 @@
     {
       "id": "ex-001-13",
       "type": "sentence_scramble",
-      "promptVi": "[Sắp xếp câu] Xếp các khối từ thành câu hoàn chỉnh mang nghĩa: \"Bạn là một giáo viên.\"",
+      "promptVi": "[Sắp xếp câu] Ghép các khối từ thành câu hoàn chỉnh mang nghĩa: \"Bạn là một giáo viên.\"",
+      "question": "Sắp xếp các từ để tạo thành câu đúng: \"Bạn là một giáo viên.\"",
       "words": [
-        "a",
-        "are",
+        "teacher.",
         "You",
-        "teacher."
+        "a",
+        "are"
       ],
       "correctSentence": "You are a teacher.",
       "hintVi": "Bạn là một giáo viên.",
@@ -188,12 +191,13 @@
     {
       "id": "ex-001-14",
       "type": "sentence_scramble",
-      "promptVi": "[Sắp xếp câu] Xếp các khối từ thành câu hoàn chỉnh mang nghĩa: \"Anh ấy đến từ Mỹ.\"",
+      "promptVi": "[Sắp xếp câu] Ghép các khối từ thành câu hoàn chỉnh mang nghĩa: \"Anh ấy đến từ Mỹ.\"",
+      "question": "Sắp xếp các từ để tạo thành câu đúng: \"Anh ấy đến từ Mỹ.\"",
       "words": [
+        "He",
         "from",
         "America.",
-        "is",
-        "He"
+        "is"
       ],
       "correctSentence": "He is from America.",
       "hintVi": "Anh ấy đến từ Mỹ.",
@@ -202,12 +206,13 @@
     {
       "id": "ex-001-15",
       "type": "sentence_scramble",
-      "promptVi": "[Sắp xếp câu] Xếp các khối từ thành câu hoàn chỉnh mang nghĩa: \"Hôm nay chúng tôi rất vui.\"",
+      "promptVi": "[Sắp xếp câu] Ghép các khối từ thành câu hoàn chỉnh mang nghĩa: \"Hôm nay chúng tôi rất vui.\"",
+      "question": "Sắp xếp các từ để tạo thành câu đúng: \"Hôm nay chúng tôi rất vui.\"",
       "words": [
         "happy",
         "today.",
-        "are",
-        "We"
+        "We",
+        "are"
       ],
       "correctSentence": "We are happy today.",
       "hintVi": "Hôm nay chúng tôi rất vui.",
@@ -216,21 +221,22 @@
     {
       "id": "ex-001-16",
       "type": "sentence_scramble",
-      "promptVi": "[Sắp xếp câu] Xếp các từ thành câu hội thoại: \"Đúng vậy. Tôi đến từ New York. Bạn cũng là học sinh à?\"",
+      "promptVi": "[Sắp xếp câu] Ghép các từ thành câu hội thoại: \"Đúng vậy. Tôi đến từ New York. Bạn cũng là học sinh à?\"",
+      "question": "Sắp xếp các từ để tạo thành câu thoại: \"Đúng vậy. Tôi đến từ New York. Bạn cũng là học sinh à?\"",
       "words": [
+        "Are",
+        "I",
         "student",
+        "York",
+        "too",
+        "New",
+        "am",
         "a",
         "am",
-        "am",
-        "you",
-        "from",
-        "too",
-        "Are",
+        "I",
         "Yes",
-        "I",
-        "I",
-        "York",
-        "New"
+        "from",
+        "you"
       ],
       "correctSentence": "Yes, I am. I am from New York. Are you a student too?",
       "hintVi": "Đúng vậy. Tôi đến từ New York. Bạn cũng là học sinh à?",
@@ -239,70 +245,70 @@
     {
       "id": "ex-001-17",
       "type": "find_error",
-      "promptVi": "[Tìm lỗi sai & Chọn câu đúng] Câu nào dưới đây có cấu trúc ngữ pháp HOÀN TOÀN ĐÚNG?",
-      "question": "Chủ điểm \"Bài 1: Động từ To Be - I am / You are / He is (Cơ bản)\": Chọn câu CHÍNH XÁC:",
+      "promptVi": "[Nhận diện cấu trúc chuẩn] Chọn câu có cấu trúc ngữ pháp HOÀN TOÀN ĐÚNG:",
+      "question": "Dựa vào chủ điểm \"Bài 1: Động từ To Be - I am / You are / He is (Cơ bản)\", câu nào sau đây CHÍNH XÁC?",
       "options": [
         "I am a student.",
-        "I be a student.",
-        "I are not is a student.",
-        "student. a am I"
+        "is",
+        "student. a am I",
+        "I be a student."
       ],
       "correctAnswer": "I am a student.",
-      "explanationVi": "Câu chuẩn xác là: \"I am a student.\" (Tôi là một học sinh.)."
+      "explanationVi": "Cấu trúc chuẩn xác là: \"I am a student.\" (Tôi là một học sinh.)."
     },
     {
       "id": "ex-001-18",
       "type": "find_error",
-      "promptVi": "[Tìm lỗi sai & Chọn câu đúng] Câu nào dưới đây có cấu trúc ngữ pháp HOÀN TOÀN ĐÚNG?",
-      "question": "Chủ điểm \"Bài 1: Động từ To Be - I am / You are / He is (Cơ bản)\": Chọn câu CHÍNH XÁC:",
+      "promptVi": "[Nhận diện cấu trúc chuẩn] Chọn câu có cấu trúc ngữ pháp HOÀN TOÀN ĐÚNG:",
+      "question": "Dựa vào chủ điểm \"Bài 1: Động từ To Be - I am / You are / He is (Cơ bản)\", câu nào sau đây CHÍNH XÁC?",
       "options": [
-        "You are a teacher.",
         "You be a teacher.",
-        "You are not is a teacher.",
+        "You are a teacher.",
+        "is",
         "teacher. a are You"
       ],
       "correctAnswer": "You are a teacher.",
-      "explanationVi": "Câu chuẩn xác là: \"You are a teacher.\" (Bạn là một giáo viên.)."
+      "explanationVi": "Cấu trúc chuẩn xác là: \"You are a teacher.\" (Bạn là một giáo viên.)."
     },
     {
       "id": "ex-001-19",
       "type": "find_error",
-      "promptVi": "[Tìm lỗi sai & Chọn câu đúng] Câu nào dưới đây có cấu trúc ngữ pháp HOÀN TOÀN ĐÚNG?",
-      "question": "Chủ điểm \"Bài 1: Động từ To Be - I am / You are / He is (Cơ bản)\": Chọn câu CHÍNH XÁC:",
+      "promptVi": "[Nhận diện cấu trúc chuẩn] Chọn câu có cấu trúc ngữ pháp HOÀN TOÀN ĐÚNG:",
+      "question": "Dựa vào chủ điểm \"Bài 1: Động từ To Be - I am / You are / He is (Cơ bản)\", câu nào sau đây CHÍNH XÁC?",
       "options": [
-        "He is from America.",
         "He be from America.",
-        "He are not is from America.",
-        "America. from is He"
+        "America. from is He",
+        "He is from America.",
+        "is"
       ],
       "correctAnswer": "He is from America.",
-      "explanationVi": "Câu chuẩn xác là: \"He is from America.\" (Anh ấy đến từ Mỹ.)."
+      "explanationVi": "Cấu trúc chuẩn xác là: \"He is from America.\" (Anh ấy đến từ Mỹ.)."
     },
     {
       "id": "ex-001-20",
       "type": "find_error",
-      "promptVi": "[Tìm lỗi sai & Chọn câu đúng] Câu nào dưới đây có cấu trúc ngữ pháp HOÀN TOÀN ĐÚNG?",
-      "question": "Chủ điểm \"Bài 1: Động từ To Be - I am / You are / He is (Cơ bản)\": Chọn câu CHÍNH XÁC:",
+      "promptVi": "[Nhận diện cấu trúc chuẩn] Chọn câu có cấu trúc ngữ pháp HOÀN TOÀN ĐÚNG:",
+      "question": "Dựa vào chủ điểm \"Bài 1: Động từ To Be - I am / You are / He is (Cơ bản)\", câu nào sau đây CHÍNH XÁC?",
       "options": [
         "We are happy today.",
         "We be happy today.",
-        "We are not is happy today.",
-        "today. happy are We"
+        "today. happy are We",
+        "is"
       ],
       "correctAnswer": "We are happy today.",
-      "explanationVi": "Câu chuẩn xác là: \"We are happy today.\" (Hôm nay chúng tôi rất vui.)."
+      "explanationVi": "Cấu trúc chuẩn xác là: \"We are happy today.\" (Hôm nay chúng tôi rất vui.)."
     },
     {
       "id": "ex-001-21",
       "type": "listening_reflex",
-      "promptVi": "[Nghe phản xạ] Nghe câu phát âm tiếng Anh và chọn bản dịch tiếng Việt đúng nhất:",
+      "promptVi": "[Nghe phản xạ] Nghe câu phát âm tiếng Anh và chọn bản dịch tiếng Việt đúng:",
       "audioPrompt": "Hello! My name is Alex. I am a new student here.",
-      "question": "Nhấn nút '🔊 Nghe audio' để nghe câu thoại và chọn nghĩa đúng:",
+      "question": "Nhấn nút '🔊 Nghe audio' và chọn nghĩa tiếng Việt đúng:",
       "options": [
         "Xin chào! Tên tôi là Alex. Tôi là một học sinh mới ở đây.",
         "Chào Alex! Tôi là Linh. Bạn có phải đến từ Mỹ không?",
-        "Đúng vậy. Tôi đến từ New York. Bạn cũng là học sinh à?",
-        "Ngày mai trời sẽ mưa to."
+        "Hôm nay thời tiết rất đẹp.",
+        "Đúng vậy. Tôi đến từ New York. Bạn cũng là học sinh à?"
       ],
       "correctAnswer": "Xin chào! Tên tôi là Alex. Tôi là một học sinh mới ở đây.",
       "explanationVi": "Câu nghe được: \"Hello! My name is Alex. I am a new student here.\" có nghĩa là: \"Xin chào! Tên tôi là Alex. Tôi là một học sinh mới ở đây.\"."
@@ -310,14 +316,14 @@
     {
       "id": "ex-001-22",
       "type": "listening_reflex",
-      "promptVi": "[Nghe phản xạ] Nghe câu phát âm tiếng Anh và chọn bản dịch tiếng Việt đúng nhất:",
+      "promptVi": "[Nghe phản xạ] Nghe câu phát âm tiếng Anh và chọn bản dịch tiếng Việt đúng:",
       "audioPrompt": "Hi Alex! I am Linh. Are you from America?",
-      "question": "Nhấn nút '🔊 Nghe audio' để nghe câu thoại và chọn nghĩa đúng:",
+      "question": "Nhấn nút '🔊 Nghe audio' và chọn nghĩa tiếng Việt đúng:",
       "options": [
-        "Chào Alex! Tôi là Linh. Bạn có phải đến từ Mỹ không?",
         "Đúng vậy. Tôi đến từ New York. Bạn cũng là học sinh à?",
-        "Vâng, tôi là học sinh. Bây giờ chúng ta là bạn cùng lớp rồi!",
-        "Ngày mai trời sẽ mưa to."
+        "Chào Alex! Tôi là Linh. Bạn có phải đến từ Mỹ không?",
+        "Hôm nay thời tiết rất đẹp.",
+        "Vâng, tôi là học sinh. Bây giờ chúng ta là bạn cùng lớp rồi!"
       ],
       "correctAnswer": "Chào Alex! Tôi là Linh. Bạn có phải đến từ Mỹ không?",
       "explanationVi": "Câu nghe được: \"Hi Alex! I am Linh. Are you from America?\" có nghĩa là: \"Chào Alex! Tôi là Linh. Bạn có phải đến từ Mỹ không?\"."
@@ -325,14 +331,14 @@
     {
       "id": "ex-001-23",
       "type": "listening_reflex",
-      "promptVi": "[Nghe phản xạ] Nghe câu phát âm tiếng Anh và chọn bản dịch tiếng Việt đúng nhất:",
+      "promptVi": "[Nghe phản xạ] Nghe câu phát âm tiếng Anh và chọn bản dịch tiếng Việt đúng:",
       "audioPrompt": "Yes, I am. I am from New York. Are you a student too?",
-      "question": "Nhấn nút '🔊 Nghe audio' để nghe câu thoại và chọn nghĩa đúng:",
+      "question": "Nhấn nút '🔊 Nghe audio' và chọn nghĩa tiếng Việt đúng:",
       "options": [
         "Đúng vậy. Tôi đến từ New York. Bạn cũng là học sinh à?",
         "Vâng, tôi là học sinh. Bây giờ chúng ta là bạn cùng lớp rồi!",
         "Thật tuyệt vời! Tôi rất vui được gặp bạn.",
-        "Ngày mai trời sẽ mưa to."
+        "Hôm nay thời tiết rất đẹp."
       ],
       "correctAnswer": "Đúng vậy. Tôi đến từ New York. Bạn cũng là học sinh à?",
       "explanationVi": "Câu nghe được: \"Yes, I am. I am from New York. Are you a student too?\" có nghĩa là: \"Đúng vậy. Tôi đến từ New York. Bạn cũng là học sinh à?\"."
@@ -340,14 +346,14 @@
     {
       "id": "ex-001-24",
       "type": "listening_reflex",
-      "promptVi": "[Nghe phản xạ] Nghe câu phát âm tiếng Anh và chọn bản dịch tiếng Việt đúng nhất:",
+      "promptVi": "[Nghe phản xạ] Nghe câu phát âm tiếng Anh và chọn bản dịch tiếng Việt đúng:",
       "audioPrompt": "Yes, I am a student. We are classmates now!",
-      "question": "Nhấn nút '🔊 Nghe audio' để nghe câu thoại và chọn nghĩa đúng:",
+      "question": "Nhấn nút '🔊 Nghe audio' và chọn nghĩa tiếng Việt đúng:",
       "options": [
-        "Vâng, tôi là học sinh. Bây giờ chúng ta là bạn cùng lớp rồi!",
         "Thật tuyệt vời! Tôi rất vui được gặp bạn.",
+        "Vâng, tôi là học sinh. Bây giờ chúng ta là bạn cùng lớp rồi!",
         "Tôi cũng rất vui được gặp bạn, Alex!",
-        "Ngày mai trời sẽ mưa to."
+        "Hôm nay thời tiết rất đẹp."
       ],
       "correctAnswer": "Vâng, tôi là học sinh. Bây giờ chúng ta là bạn cùng lớp rồi!",
       "explanationVi": "Câu nghe được: \"Yes, I am a student. We are classmates now!\" có nghĩa là: \"Vâng, tôi là học sinh. Bây giờ chúng ta là bạn cùng lớp rồi!\"."
@@ -355,64 +361,68 @@
     {
       "id": "ex-001-25",
       "type": "speaking_practice",
-      "promptVi": "[Luyện nói qua Micro] Nhấn nút '🎙️ Bắt đầu nói' và đọc to, rõ ràng câu tiếng Anh sau:",
+      "promptVi": "[Luyện nói qua Micro] Nhấn nút 'Bấm để Nói ngay' và phát âm câu sau:",
+      "question": "Luyện phát âm chuẩn câu: \"I am a student.\" (Tôi là một học sinh.)",
       "targetSentence": "I am a student.",
       "hintVi": "Tôi là một học sinh.",
-      "explanationVi": "Câu mục tiêu: \"I am a student.\" (Tôi là một học sinh.). Luyện phát âm chuẩn xác từng âm tiết và ngữ điệu tự nhiên."
+      "explanationVi": "Mẫu câu chuẩn: \"I am a student.\" (Tôi là một học sinh.). Luyện phát âm rõ ràng từng từ."
     },
     {
       "id": "ex-001-26",
       "type": "speaking_practice",
-      "promptVi": "[Luyện nói qua Micro] Nhấn nút '🎙️ Bắt đầu nói' và đọc to, rõ ràng câu tiếng Anh sau:",
+      "promptVi": "[Luyện nói qua Micro] Nhấn nút 'Bấm để Nói ngay' và phát âm câu sau:",
+      "question": "Luyện phát âm chuẩn câu: \"You are a teacher.\" (Bạn là một giáo viên.)",
       "targetSentence": "You are a teacher.",
       "hintVi": "Bạn là một giáo viên.",
-      "explanationVi": "Câu mục tiêu: \"You are a teacher.\" (Bạn là một giáo viên.). Luyện phát âm chuẩn xác từng âm tiết và ngữ điệu tự nhiên."
+      "explanationVi": "Mẫu câu chuẩn: \"You are a teacher.\" (Bạn là một giáo viên.). Luyện phát âm rõ ràng từng từ."
     },
     {
       "id": "ex-001-27",
       "type": "speaking_practice",
-      "promptVi": "[Luyện nói qua Micro] Nhấn nút '🎙️ Bắt đầu nói' và đọc to, rõ ràng câu tiếng Anh sau:",
+      "promptVi": "[Luyện nói qua Micro] Nhấn nút 'Bấm để Nói ngay' và phát âm câu sau:",
+      "question": "Luyện phát âm chuẩn câu: \"He is from America.\" (Anh ấy đến từ Mỹ.)",
       "targetSentence": "He is from America.",
       "hintVi": "Anh ấy đến từ Mỹ.",
-      "explanationVi": "Câu mục tiêu: \"He is from America.\" (Anh ấy đến từ Mỹ.). Luyện phát âm chuẩn xác từng âm tiết và ngữ điệu tự nhiên."
+      "explanationVi": "Mẫu câu chuẩn: \"He is from America.\" (Anh ấy đến từ Mỹ.). Luyện phát âm rõ ràng từng từ."
     },
     {
       "id": "ex-001-28",
       "type": "speaking_practice",
-      "promptVi": "[Luyện nói qua Micro] Nhấn nút '🎙️ Bắt đầu nói' và đọc to, rõ ràng câu tiếng Anh sau:",
+      "promptVi": "[Luyện nói qua Micro] Nhấn nút 'Bấm để Nói ngay' và phát âm câu sau:",
+      "question": "Luyện phát âm chuẩn câu: \"We are happy today.\" (Hôm nay chúng tôi rất vui.)",
       "targetSentence": "We are happy today.",
       "hintVi": "Hôm nay chúng tôi rất vui.",
-      "explanationVi": "Câu mục tiêu: \"We are happy today.\" (Hôm nay chúng tôi rất vui.). Luyện phát âm chuẩn xác từng âm tiết và ngữ điệu tự nhiên."
+      "explanationVi": "Mẫu câu chuẩn: \"We are happy today.\" (Hôm nay chúng tôi rất vui.). Luyện phát âm rõ ràng từng từ."
     },
     {
       "id": "ex-001-29",
       "type": "reading_comprehension",
-      "promptVi": "[Đọc hiểu đoạn văn 1] Đọc đoạn hội thoại mở đầu sau và trả lời câu hỏi:",
-      "passage": "Alex (Nam): \"Hello! My name is Alex. I am a new student here.\"\nLinh (Nữ): \"Hi Alex! I am Linh. Are you from America?\"\nAlex (Nam): \"Yes, I am. I am from New York. Are you a student too?\"\nLinh (Nữ): \"Yes, I am a student. We are classmates now!\"",
-      "question": "Câu hỏi: Trong đoạn hội thoại trên, các nhân vật đang thảo luận về chủ đề gì?",
+      "promptVi": "[Đọc hiểu đoạn văn] Đọc đoạn hội thoại sau và trả lời câu hỏi:",
+      "passage": "Alex: \"Hello! My name is Alex. I am a new student here.\"\nLinh: \"Hi Alex! I am Linh. Are you from America?\"\nAlex: \"Yes, I am. I am from New York. Are you a student too?\"\nLinh: \"Yes, I am a student. We are classmates now!\"",
+      "question": "Chủ đề trọng tâm của đoạn hội thoại trên là gì?",
       "options": [
         "Động từ To Be - I am / You are / He is (Cơ bản)",
-        "Kế hoạch đi nghỉ dưỡng cuối tuần ở bãi biển",
-        "Mua sắm quần áo và đồ dùng thể thao",
-        "Cách làm món ăn truyền thống gia đình"
+        "Cách làm món ăn truyền thống",
+        "Kế hoạch đi mua sắm tại siêu thị",
+        "Lịch trình đi du lịch nghỉ mát cuối tuần"
       ],
       "correctAnswer": "Động từ To Be - I am / You are / He is (Cơ bản)",
-      "explanationVi": "Đoạn hội thoại mở đầu được thiết kế để minh họa trực tiếp cho chủ điểm ngữ pháp: \"Bài 1: Động từ To Be - I am / You are / He is (Cơ bản)\"."
+      "explanationVi": "Đoạn hội thoại được thiết kế để minh họa trực tiếp cho chủ điểm \"Bài 1: Động từ To Be - I am / You are / He is (Cơ bản)\"."
     },
     {
       "id": "ex-001-30",
       "type": "reading_comprehension",
-      "promptVi": "[Đọc hiểu đoạn văn 2] Đọc phần tiếp theo của đoạn hội thoại và chọn nhận định đúng:",
-      "passage": "Alex (Nam): \"That is great! I am very happy to meet you.\"\nLinh (Nữ): \"I am happy to meet you too, Alex!\"",
-      "question": "Nhận định nào sau đây là ĐÚNG với nội dung đoạn hội thoại trên?",
+      "promptVi": "[Đọc hiểu đoạn văn] Đọc đoạn đối thoại tiếp theo và chọn nhận định đúng:",
+      "passage": "Alex: \"That is great! I am very happy to meet you.\"\nLinh: \"I am happy to meet you too, Alex!\"",
+      "question": "Nhận định nào sau đây là ĐÚNG về nội dung đoạn đối thoại?",
       "options": [
-        "Các câu hội thoại sử dụng đúng cấu trúc ngữ pháp \"Bài 1: Động từ To Be - I am / You are / He is (Cơ bản)\".",
-        "Các nhân vật không hiểu ý nhau và từ chối nói chuyện.",
-        "Đoạn hội thoại nói về việc chuyển nhà sang thành phố khác.",
-        "Cả hai nhân vật đều đang ở sân bay chuẩn bị lên máy bay."
+        "Hai nhân vật đang cãi nhau và không đồng ý hợp tác.",
+        "Cả hai nhân vật đang thảo luận về thời tiết ngày mai.",
+        "Các câu thoại sử dụng đúng cấu trúc \"Động từ To Be - I am / You are / He is (Cơ bản)\".",
+        "Cuộc trò chuyện diễn ra tại nhà ga xe lửa."
       ],
-      "correctAnswer": "Các câu hội thoại sử dụng đúng cấu trúc ngữ pháp \"Bài 1: Động từ To Be - I am / You are / He is (Cơ bản)\".",
-      "explanationVi": "Đoạn hội thoại thứ hai tiếp tục củng cố và ứng dụng các quy tắc ngữ pháp của \"Bài 1: Động từ To Be - I am / You are / He is (Cơ bản)\"."
+      "correctAnswer": "Các câu thoại sử dụng đúng cấu trúc \"Động từ To Be - I am / You are / He is (Cơ bản)\".",
+      "explanationVi": "Đoạn đối thoại ứng dụng chuẩn xác ngữ pháp của \"Bài 1: Động từ To Be - I am / You are / He is (Cơ bản)\"."
     }
   ]
 }

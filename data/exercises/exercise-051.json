@@ -7,13 +7,13 @@
     {
       "id": "ex-051-01",
       "type": "multiple_choice",
-      "promptVi": "[Trắc nghiệm] Chọn từ/cụm từ đúng để hoàn thành câu (Tôi rất thích nghe nhạc acoustic.):",
+      "promptVi": "[Trắc nghiệm ngữ pháp] Chọn từ đúng để hoàn thành câu (Tôi rất thích nghe nhạc acoustic.):",
       "question": "I enjoy ___ to acoustic music.",
       "options": [
-        "listening",
+        "listened",
         "to listen",
-        "listen",
-        "listened"
+        "listening",
+        "listen"
       ],
       "correctAnswer": "listening",
       "explanationVi": "Sau động từ 'enjoy' luôn dùng V-ing (listening)."
@@ -21,13 +21,13 @@
     {
       "id": "ex-051-02",
       "type": "multiple_choice",
-      "promptVi": "[Trắc nghiệm] Chọn từ/cụm từ đúng để hoàn thành câu (Cô ấy đã quyết định đi du học vào năm tới.):",
+      "promptVi": "[Trắc nghiệm ngữ pháp] Chọn từ đúng để hoàn thành câu (Cô ấy đã quyết định đi du học vào năm tới.):",
       "question": "She decided ___ abroad next year.",
       "options": [
         "to study",
+        "studied",
         "studying",
-        "study",
-        "studied"
+        "study"
       ],
       "correctAnswer": "to study",
       "explanationVi": "Sau 'decide' dùng 'to + V-inf' (to study)."
@@ -35,13 +35,13 @@
     {
       "id": "ex-051-03",
       "type": "multiple_choice",
-      "promptVi": "[Trắc nghiệm] Chọn từ/cụm từ đúng để hoàn thành câu (Bạn có phiền đóng cửa sổ lại giúp tôi không?):",
+      "promptVi": "[Trắc nghiệm ngữ pháp] Chọn từ đúng để hoàn thành câu (Bạn có phiền đóng cửa sổ lại giúp tôi không?):",
       "question": "Would you mind ___ the window?",
       "options": [
-        "closing",
         "to close",
-        "close",
-        "closed"
+        "closing",
+        "closed",
+        "close"
       ],
       "correctAnswer": "closing",
       "explanationVi": "Sau 'Would you mind' dùng V-ing (closing)."
@@ -49,13 +49,13 @@
     {
       "id": "ex-051-04",
       "type": "multiple_choice",
-      "promptVi": "[Trắc nghiệm] Chọn từ/cụm từ đúng để hoàn thành câu (Hãy nhớ khóa cửa trước khi rời đi nhé.):",
+      "promptVi": "[Trắc nghiệm ngữ pháp] Chọn từ đúng để hoàn thành câu (Hãy nhớ khóa cửa trước khi rời đi nhé.):",
       "question": "Remember ___ the door before leaving.",
       "options": [
-        "to lock",
-        "locking",
+        "locked",
         "lock",
-        "locked"
+        "to lock",
+        "locking"
       ],
       "correctAnswer": "to lock",
       "explanationVi": "Nhắc nhở ai nhớ làm việc gì dùng 'Remember + to V'."
@@ -63,111 +63,113 @@
     {
       "id": "ex-051-05",
       "type": "multiple_choice",
-      "promptVi": "[Trắc nghiệm] Dịch câu sau sang tiếng Anh: \"Bạn thích làm gì trong thời gian rảnh rỗi vào cuối tuần vậy Chloe?\"",
-      "question": "Chọn bản dịch chuẩn xác cho câu: \"Bạn thích làm gì trong thời gian rảnh rỗi vào cuối tuần vậy Chloe?\"",
+      "promptVi": "[Phản xạ dịch thuật] Dịch câu sau sang tiếng Anh: \"Bạn thích làm gì trong thời gian rảnh rỗi vào cuối tuần vậy Chloe?\"",
+      "question": "Chọn bản dịch chuẩn xác nhất cho câu: \"Bạn thích làm gì trong thời gian rảnh rỗi vào cuối tuần vậy Chloe?\"",
       "options": [
-        "What do you enjoy doing during your free time on weekends, Chloe?",
-        "What be you enjoy doing during your free time on weekends, Chloe?",
         "I really enjoy painting landscapes and practicing acoustic guitar.",
-        "I want to go to the park now."
+        "What be you enjoy doing during your free time on weekends, Chloe?",
+        "What do you enjoy doing during your free time on weekends, Chloe?",
+        "We are studying English today."
       ],
       "correctAnswer": "What do you enjoy doing during your free time on weekends, Chloe?",
-      "explanationVi": "Câu đúng là \"What do you enjoy doing during your free time on weekends, Chloe?\" (Bạn thích làm gì trong thời gian rảnh rỗi vào cuối tuần vậy Chloe?)."
+      "explanationVi": "Câu dịch chuẩn xác: \"What do you enjoy doing during your free time on weekends, Chloe?\" (Bạn thích làm gì trong thời gian rảnh rỗi vào cuối tuần vậy Chloe?)."
     },
     {
       "id": "ex-051-06",
       "type": "multiple_choice",
-      "promptVi": "[Trắc nghiệm] Chọn câu trả lời hoặc cách diễn đạt phù hợp:",
-      "question": "Trong ngữ cảnh giao tiếp: \"What do you enjoy doing during your free time on weekends, Chloe?\", câu phản hồi tự nhiên là gì?",
+      "promptVi": "[Ngữ cảnh giao tiếp] Chọn câu phản hồi tự nhiên và đúng ngữ pháp:",
+      "question": "Khi đối phương nói: \"What do you enjoy doing during your free time on weekends, Chloe?\", câu phản hồi phù hợp là gì?",
       "options": [
         "I really enjoy painting landscapes and practicing acoustic guitar.",
-        "No, it is yesterday morning.",
-        "Yes, I will eat apple.",
-        "They are not at the library."
+        "No, it was yesterday.",
+        "They are not in the office.",
+        "Yes, I will eat it."
       ],
       "correctAnswer": "I really enjoy painting landscapes and practicing acoustic guitar.",
-      "explanationVi": "Phản hồi phù hợp: \"I really enjoy painting landscapes and practicing acoustic guitar.\" (Tôi thực sự rất thích vẽ tranh phong cảnh và luyện tập đàn guitar thùng.)."
+      "explanationVi": "Phản hồi phù hợp trong bài: \"I really enjoy painting landscapes and practicing acoustic guitar.\" (Tôi thực sự rất thích vẽ tranh phong cảnh và luyện tập đàn guitar thùng.)."
     },
     {
       "id": "ex-051-07",
       "type": "fill_blank",
-      "promptVi": "[Điền từ - (Dạng khẳng định)] Điền dạng đúng của động từ vào ô trống (Tôi rất thích nghe nhạc acoustic.):",
+      "promptVi": "[Điền từ - Dạng KHẲNG ĐỊNH] Điền từ còn thiếu vào ô trống (Tôi rất thích nghe nhạc acoustic.):",
       "question": "I enjoy ___ to acoustic music.",
       "correctAnswer": "listening",
       "options": [
-        "listening",
-        "to listen",
         "listen",
-        "listened"
+        "listened",
+        "listening",
+        "to listen"
       ],
-      "explanationVi": "Đáp án chính xác: \"listening\". Tôi rất thích nghe nhạc acoustic.."
+      "explanationVi": "Đáp án đúng là \"listening\". Câu hoàn chỉnh: \"I enjoy listening to acoustic music.\" (Tôi rất thích nghe nhạc acoustic.)."
     },
     {
       "id": "ex-051-08",
       "type": "fill_blank",
-      "promptVi": "[Điền từ - (Dạng khẳng định)] Điền dạng đúng của động từ vào ô trống (Cô ấy đã quyết định đi du học vào năm tới.):",
+      "promptVi": "[Điền từ - Dạng KHẲNG ĐỊNH] Điền từ còn thiếu vào ô trống (Cô ấy đã quyết định đi du học vào năm tới.):",
       "question": "She decided ___ abroad next year.",
       "correctAnswer": "to study",
       "options": [
-        "to study",
-        "studying",
         "study",
-        "studied"
+        "studied",
+        "to study",
+        "studying"
       ],
-      "explanationVi": "Đáp án chính xác: \"to study\". Cô ấy đã quyết định đi du học vào năm tới.."
+      "explanationVi": "Đáp án đúng là \"to study\". Câu hoàn chỉnh: \"She decided to study abroad next year.\" (Cô ấy đã quyết định đi du học vào năm tới.)."
     },
     {
       "id": "ex-051-09",
       "type": "fill_blank",
-      "promptVi": "[Điền từ - (Dạng khẳng định)] Điền dạng đúng của động từ vào ô trống (Bạn có phiền đóng cửa sổ lại giúp tôi không?):",
+      "promptVi": "[Điền từ - Dạng KHẲNG ĐỊNH] Điền từ còn thiếu vào ô trống (Bạn có phiền đóng cửa sổ lại giúp tôi không?):",
       "question": "Would you mind ___ the window?",
       "correctAnswer": "closing",
       "options": [
-        "closing",
         "to close",
         "close",
-        "closed"
+        "closed",
+        "closing"
       ],
-      "explanationVi": "Đáp án chính xác: \"closing\". Bạn có phiền đóng cửa sổ lại giúp tôi không?."
+      "explanationVi": "Đáp án đúng là \"closing\". Câu hoàn chỉnh: \"Would you mind closing the window?\" (Bạn có phiền đóng cửa sổ lại giúp tôi không?)."
     },
     {
       "id": "ex-051-10",
       "type": "fill_blank",
-      "promptVi": "[Điền từ - (Dạng khẳng định)] Điền dạng đúng của động từ vào ô trống (Hãy nhớ khóa cửa trước khi rời đi nhé.):",
+      "promptVi": "[Điền từ - Dạng KHẲNG ĐỊNH] Điền từ còn thiếu vào ô trống (Hãy nhớ khóa cửa trước khi rời đi nhé.):",
       "question": "Remember ___ the door before leaving.",
       "correctAnswer": "to lock",
       "options": [
+        "locked",
         "to lock",
-        "locking",
         "lock",
-        "locked"
+        "locking"
       ],
-      "explanationVi": "Đáp án chính xác: \"to lock\". Hãy nhớ khóa cửa trước khi rời đi nhé.."
+      "explanationVi": "Đáp án đúng là \"to lock\". Câu hoàn chỉnh: \"Remember to lock the door before leaving.\" (Hãy nhớ khóa cửa trước khi rời đi nhé.)."
     },
     {
       "id": "ex-051-11",
       "type": "fill_blank",
-      "promptVi": "[Điền từ - Dạng PHỦ ĐỊNH] Hoàn thành câu phủ định sau:",
-      "correctAnswer": "I enjoy listening to acoustic music.",
+      "promptVi": "[Điền từ - Dạng PHỦ ĐỊNH] Điền trợ động từ/động từ tobe phủ định vào chỗ trống:",
+      "question": "I _____ not listening to acoustic music.",
+      "correctAnswer": "enjoy",
       "options": [
-        "I enjoy listening to acoustic music.",
-        "I enjoy listening to acoustic music.",
-        "Not I enjoy listening to acoustic music.",
-        "I enjoy listening to acoustic music. no"
+        "am",
+        "are",
+        "is",
+        "enjoy"
       ],
-      "explanationVi": "Dạng phủ định chuẩn: Thêm 'not' sau động từ chính."
+      "explanationVi": "Câu phủ định hoàn chỉnh: \"I enjoy not listening to acoustic music.\"."
     },
     {
       "id": "ex-051-12",
       "type": "sentence_scramble",
-      "promptVi": "[Sắp xếp câu] Xếp các khối từ thành câu hoàn chỉnh mang nghĩa: \"Tôi rất thích nghe nhạc acoustic.\"",
+      "promptVi": "[Sắp xếp câu] Ghép các khối từ thành câu hoàn chỉnh mang nghĩa: \"Tôi rất thích nghe nhạc acoustic.\"",
+      "question": "Sắp xếp các từ để tạo thành câu đúng: \"Tôi rất thích nghe nhạc acoustic.\"",
       "words": [
-        "music.",
         "enjoy",
         "acoustic",
         "I",
         "to",
-        "listening"
+        "listening",
+        "music."
       ],
       "correctSentence": "I enjoy listening to acoustic music.",
       "hintVi": "Tôi rất thích nghe nhạc acoustic.",
@@ -176,15 +178,16 @@
     {
       "id": "ex-051-13",
       "type": "sentence_scramble",
-      "promptVi": "[Sắp xếp câu] Xếp các khối từ thành câu hoàn chỉnh mang nghĩa: \"Cô ấy đã quyết định đi du học vào năm tới.\"",
+      "promptVi": "[Sắp xếp câu] Ghép các khối từ thành câu hoàn chỉnh mang nghĩa: \"Cô ấy đã quyết định đi du học vào năm tới.\"",
+      "question": "Sắp xếp các từ để tạo thành câu đúng: \"Cô ấy đã quyết định đi du học vào năm tới.\"",
       "words": [
+        "abroad",
         "She",
-        "study",
         "year.",
         "decided",
         "next",
         "to",
-        "abroad"
+        "study"
       ],
       "correctSentence": "She decided to study abroad next year.",
       "hintVi": "Cô ấy đã quyết định đi du học vào năm tới.",
@@ -193,14 +196,15 @@
     {
       "id": "ex-051-14",
       "type": "sentence_scramble",
-      "promptVi": "[Sắp xếp câu] Xếp các khối từ thành câu hoàn chỉnh mang nghĩa: \"Bạn có phiền đóng cửa sổ lại giúp tôi không?\"",
+      "promptVi": "[Sắp xếp câu] Ghép các khối từ thành câu hoàn chỉnh mang nghĩa: \"Bạn có phiền đóng cửa sổ lại giúp tôi không?\"",
+      "question": "Sắp xếp các từ để tạo thành câu đúng: \"Bạn có phiền đóng cửa sổ lại giúp tôi không?\"",
       "words": [
-        "Would",
-        "mind",
-        "closing",
         "the",
+        "window?",
+        "closing",
+        "Would",
         "you",
-        "window?"
+        "mind"
       ],
       "correctSentence": "Would you mind closing the window?",
       "hintVi": "Bạn có phiền đóng cửa sổ lại giúp tôi không?",
@@ -209,15 +213,16 @@
     {
       "id": "ex-051-15",
       "type": "sentence_scramble",
-      "promptVi": "[Sắp xếp câu] Xếp các khối từ thành câu hoàn chỉnh mang nghĩa: \"Hãy nhớ khóa cửa trước khi rời đi nhé.\"",
+      "promptVi": "[Sắp xếp câu] Ghép các khối từ thành câu hoàn chỉnh mang nghĩa: \"Hãy nhớ khóa cửa trước khi rời đi nhé.\"",
+      "question": "Sắp xếp các từ để tạo thành câu đúng: \"Hãy nhớ khóa cửa trước khi rời đi nhé.\"",
       "words": [
-        "door",
-        "Remember",
-        "leaving.",
-        "before",
-        "lock",
         "the",
-        "to"
+        "before",
+        "to",
+        "door",
+        "lock",
+        "leaving.",
+        "Remember"
       ],
       "correctSentence": "Remember to lock the door before leaving.",
       "hintVi": "Hãy nhớ khóa cửa trước khi rời đi nhé.",
@@ -226,21 +231,22 @@
     {
       "id": "ex-051-16",
       "type": "sentence_scramble",
-      "promptVi": "[Sắp xếp câu] Xếp các từ thành câu hội thoại: \"Nghe thư giãn thật đấy! Bạn có lên kế hoạch tham gia cuộc thi mỹ thuật khu vực sắp tới không?\"",
+      "promptVi": "[Sắp xếp câu] Ghép các từ thành câu hội thoại: \"Nghe thư giãn thật đấy! Bạn có lên kế hoạch tham gia cuộc thi mỹ thuật khu vực sắp tới không?\"",
+      "question": "Sắp xếp các từ để tạo thành câu thoại: \"Nghe thư giãn thật đấy! Bạn có lên kế hoạch tham gia cuộc thi mỹ thuật khu vực sắp tới không?\"",
       "words": [
-        "relaxing",
-        "you",
-        "art",
-        "plan",
-        "sounds",
         "enter",
-        "competition",
-        "That",
-        "the",
+        "you",
+        "regional",
         "Do",
-        "upcoming",
+        "relaxing",
+        "art",
         "to",
-        "regional"
+        "competition",
+        "the",
+        "sounds",
+        "That",
+        "plan",
+        "upcoming"
       ],
       "correctSentence": "That sounds relaxing! Do you plan to enter the upcoming regional art competition?",
       "hintVi": "Nghe thư giãn thật đấy! Bạn có lên kế hoạch tham gia cuộc thi mỹ thuật khu vực sắp tới không?",
@@ -249,70 +255,70 @@
     {
       "id": "ex-051-17",
       "type": "find_error",
-      "promptVi": "[Tìm lỗi sai & Chọn câu đúng] Câu nào dưới đây có cấu trúc ngữ pháp HOÀN TOÀN ĐÚNG?",
-      "question": "Chủ điểm \"Bài 51: Dạng Nguyên Mẫu (To-V) & V-ing sau Động từ (Gerunds & Infinitives: Like / Enjoy / Want / Hope / Plan)\": Chọn câu CHÍNH XÁC:",
+      "promptVi": "[Nhận diện cấu trúc chuẩn] Chọn câu có cấu trúc ngữ pháp HOÀN TOÀN ĐÚNG:",
+      "question": "Dựa vào chủ điểm \"Bài 51: Dạng Nguyên Mẫu (To-V) & V-ing sau Động từ (Gerunds & Infinitives: Like / Enjoy / Want / Hope / Plan)\", câu nào sau đây CHÍNH XÁC?",
       "options": [
-        "I enjoy listening to acoustic music.",
         "music. acoustic to listening enjoy I",
-        "I enjoy listening to acoustic music. (sai)",
-        "I enjoy listening to acoustic music. (sai)"
+        "I enjoy listening at acoustic music.",
+        "I enjoy listening to acoustic music.",
+        "is"
       ],
       "correctAnswer": "I enjoy listening to acoustic music.",
-      "explanationVi": "Câu chuẩn xác là: \"I enjoy listening to acoustic music.\" (Tôi rất thích nghe nhạc acoustic.)."
+      "explanationVi": "Cấu trúc chuẩn xác là: \"I enjoy listening to acoustic music.\" (Tôi rất thích nghe nhạc acoustic.)."
     },
     {
       "id": "ex-051-18",
       "type": "find_error",
-      "promptVi": "[Tìm lỗi sai & Chọn câu đúng] Câu nào dưới đây có cấu trúc ngữ pháp HOÀN TOÀN ĐÚNG?",
-      "question": "Chủ điểm \"Bài 51: Dạng Nguyên Mẫu (To-V) & V-ing sau Động từ (Gerunds & Infinitives: Like / Enjoy / Want / Hope / Plan)\": Chọn câu CHÍNH XÁC:",
+      "promptVi": "[Nhận diện cấu trúc chuẩn] Chọn câu có cấu trúc ngữ pháp HOÀN TOÀN ĐÚNG:",
+      "question": "Dựa vào chủ điểm \"Bài 51: Dạng Nguyên Mẫu (To-V) & V-ing sau Động từ (Gerunds & Infinitives: Like / Enjoy / Want / Hope / Plan)\", câu nào sau đây CHÍNH XÁC?",
       "options": [
-        "She decided to study abroad next year.",
         "year. next abroad study to decided She",
-        "She decided to study abroad next year. (sai)",
-        "She decided to study abroad next year. (sai)"
+        "She decided to study abroad next year.",
+        "She decided at study abroad next year.",
+        "is"
       ],
       "correctAnswer": "She decided to study abroad next year.",
-      "explanationVi": "Câu chuẩn xác là: \"She decided to study abroad next year.\" (Cô ấy đã quyết định đi du học vào năm tới.)."
+      "explanationVi": "Cấu trúc chuẩn xác là: \"She decided to study abroad next year.\" (Cô ấy đã quyết định đi du học vào năm tới.)."
     },
     {
       "id": "ex-051-19",
       "type": "find_error",
-      "promptVi": "[Tìm lỗi sai & Chọn câu đúng] Câu nào dưới đây có cấu trúc ngữ pháp HOÀN TOÀN ĐÚNG?",
-      "question": "Chủ điểm \"Bài 51: Dạng Nguyên Mẫu (To-V) & V-ing sau Động từ (Gerunds & Infinitives: Like / Enjoy / Want / Hope / Plan)\": Chọn câu CHÍNH XÁC:",
+      "promptVi": "[Nhận diện cấu trúc chuẩn] Chọn câu có cấu trúc ngữ pháp HOÀN TOÀN ĐÚNG:",
+      "question": "Dựa vào chủ điểm \"Bài 51: Dạng Nguyên Mẫu (To-V) & V-ing sau Động từ (Gerunds & Infinitives: Like / Enjoy / Want / Hope / Plan)\", câu nào sau đây CHÍNH XÁC?",
       "options": [
+        "is",
         "Would you mind closing the window?",
-        "window? the closing mind you Would",
-        "Would you mind closing the window? (sai)",
-        "Would you mind closing the window? (sai)"
+        "are",
+        "window? the closing mind you Would"
       ],
       "correctAnswer": "Would you mind closing the window?",
-      "explanationVi": "Câu chuẩn xác là: \"Would you mind closing the window?\" (Bạn có phiền đóng cửa sổ lại giúp tôi không?)."
+      "explanationVi": "Cấu trúc chuẩn xác là: \"Would you mind closing the window?\" (Bạn có phiền đóng cửa sổ lại giúp tôi không?)."
     },
     {
       "id": "ex-051-20",
       "type": "find_error",
-      "promptVi": "[Tìm lỗi sai & Chọn câu đúng] Câu nào dưới đây có cấu trúc ngữ pháp HOÀN TOÀN ĐÚNG?",
-      "question": "Chủ điểm \"Bài 51: Dạng Nguyên Mẫu (To-V) & V-ing sau Động từ (Gerunds & Infinitives: Like / Enjoy / Want / Hope / Plan)\": Chọn câu CHÍNH XÁC:",
+      "promptVi": "[Nhận diện cấu trúc chuẩn] Chọn câu có cấu trúc ngữ pháp HOÀN TOÀN ĐÚNG:",
+      "question": "Dựa vào chủ điểm \"Bài 51: Dạng Nguyên Mẫu (To-V) & V-ing sau Động từ (Gerunds & Infinitives: Like / Enjoy / Want / Hope / Plan)\", câu nào sau đây CHÍNH XÁC?",
       "options": [
         "Remember to lock the door before leaving.",
+        "is",
         "leaving. before door the lock to Remember",
-        "Remember to lock the door before leaving. (sai)",
-        "Remember to lock the door before leaving. (sai)"
+        "Remember at lock the door before leaving."
       ],
       "correctAnswer": "Remember to lock the door before leaving.",
-      "explanationVi": "Câu chuẩn xác là: \"Remember to lock the door before leaving.\" (Hãy nhớ khóa cửa trước khi rời đi nhé.)."
+      "explanationVi": "Cấu trúc chuẩn xác là: \"Remember to lock the door before leaving.\" (Hãy nhớ khóa cửa trước khi rời đi nhé.)."
     },
     {
       "id": "ex-051-21",
       "type": "listening_reflex",
-      "promptVi": "[Nghe phản xạ] Nghe câu phát âm tiếng Anh và chọn bản dịch tiếng Việt đúng nhất:",
+      "promptVi": "[Nghe phản xạ] Nghe câu phát âm tiếng Anh và chọn bản dịch tiếng Việt đúng:",
       "audioPrompt": "What do you enjoy doing during your free time on weekends, Chloe?",
-      "question": "Nhấn nút '🔊 Nghe audio' để nghe câu thoại và chọn nghĩa đúng:",
+      "question": "Nhấn nút '🔊 Nghe audio' và chọn nghĩa tiếng Việt đúng:",
       "options": [
-        "Bạn thích làm gì trong thời gian rảnh rỗi vào cuối tuần vậy Chloe?",
-        "Tôi thực sự rất thích vẽ tranh phong cảnh và luyện tập đàn guitar thùng.",
+        "Hôm nay thời tiết rất đẹp.",
         "Nghe thư giãn thật đấy! Bạn có lên kế hoạch tham gia cuộc thi mỹ thuật khu vực sắp tới không?",
-        "Ngày mai trời sẽ mưa to."
+        "Tôi thực sự rất thích vẽ tranh phong cảnh và luyện tập đàn guitar thùng.",
+        "Bạn thích làm gì trong thời gian rảnh rỗi vào cuối tuần vậy Chloe?"
       ],
       "correctAnswer": "Bạn thích làm gì trong thời gian rảnh rỗi vào cuối tuần vậy Chloe?",
       "explanationVi": "Câu nghe được: \"What do you enjoy doing during your free time on weekends, Chloe?\" có nghĩa là: \"Bạn thích làm gì trong thời gian rảnh rỗi vào cuối tuần vậy Chloe?\"."
@@ -320,14 +326,14 @@
     {
       "id": "ex-051-22",
       "type": "listening_reflex",
-      "promptVi": "[Nghe phản xạ] Nghe câu phát âm tiếng Anh và chọn bản dịch tiếng Việt đúng nhất:",
+      "promptVi": "[Nghe phản xạ] Nghe câu phát âm tiếng Anh và chọn bản dịch tiếng Việt đúng:",
       "audioPrompt": "I really enjoy painting landscapes and practicing acoustic guitar.",
-      "question": "Nhấn nút '🔊 Nghe audio' để nghe câu thoại và chọn nghĩa đúng:",
+      "question": "Nhấn nút '🔊 Nghe audio' và chọn nghĩa tiếng Việt đúng:",
       "options": [
-        "Tôi thực sự rất thích vẽ tranh phong cảnh và luyện tập đàn guitar thùng.",
         "Nghe thư giãn thật đấy! Bạn có lên kế hoạch tham gia cuộc thi mỹ thuật khu vực sắp tới không?",
+        "Tôi thực sự rất thích vẽ tranh phong cảnh và luyện tập đàn guitar thùng.",
         "Có chứ, tôi đã quyết định gửi bức tranh sơn dầu mới nhất của mình trước thứ Sáu tuần tới.",
-        "Ngày mai trời sẽ mưa to."
+        "Hôm nay thời tiết rất đẹp."
       ],
       "correctAnswer": "Tôi thực sự rất thích vẽ tranh phong cảnh và luyện tập đàn guitar thùng.",
       "explanationVi": "Câu nghe được: \"I really enjoy painting landscapes and practicing acoustic guitar.\" có nghĩa là: \"Tôi thực sự rất thích vẽ tranh phong cảnh và luyện tập đàn guitar thùng.\"."
@@ -335,14 +341,14 @@
     {
       "id": "ex-051-23",
       "type": "listening_reflex",
-      "promptVi": "[Nghe phản xạ] Nghe câu phát âm tiếng Anh và chọn bản dịch tiếng Việt đúng nhất:",
+      "promptVi": "[Nghe phản xạ] Nghe câu phát âm tiếng Anh và chọn bản dịch tiếng Việt đúng:",
       "audioPrompt": "That sounds relaxing! Do you plan to enter the upcoming regional art competition?",
-      "question": "Nhấn nút '🔊 Nghe audio' để nghe câu thoại và chọn nghĩa đúng:",
+      "question": "Nhấn nút '🔊 Nghe audio' và chọn nghĩa tiếng Việt đúng:",
       "options": [
         "Nghe thư giãn thật đấy! Bạn có lên kế hoạch tham gia cuộc thi mỹ thuật khu vực sắp tới không?",
         "Có chứ, tôi đã quyết định gửi bức tranh sơn dầu mới nhất của mình trước thứ Sáu tuần tới.",
         "Tôi hy vọng cải thiện kỹ năng nhiếp ảnh, vì vậy tôi muốn tham gia một câu lạc bộ nhiếp ảnh buổi tối.",
-        "Ngày mai trời sẽ mưa to."
+        "Hôm nay thời tiết rất đẹp."
       ],
       "correctAnswer": "Nghe thư giãn thật đấy! Bạn có lên kế hoạch tham gia cuộc thi mỹ thuật khu vực sắp tới không?",
       "explanationVi": "Câu nghe được: \"That sounds relaxing! Do you plan to enter the upcoming regional art competition?\" có nghĩa là: \"Nghe thư giãn thật đấy! Bạn có lên kế hoạch tham gia cuộc thi mỹ thuật khu vực sắp tới không?\"."
@@ -350,14 +356,14 @@
     {
       "id": "ex-051-24",
       "type": "listening_reflex",
-      "promptVi": "[Nghe phản xạ] Nghe câu phát âm tiếng Anh và chọn bản dịch tiếng Việt đúng nhất:",
+      "promptVi": "[Nghe phản xạ] Nghe câu phát âm tiếng Anh và chọn bản dịch tiếng Việt đúng:",
       "audioPrompt": "Yes, I decided to submit my latest oil painting before next Friday.",
-      "question": "Nhấn nút '🔊 Nghe audio' để nghe câu thoại và chọn nghĩa đúng:",
+      "question": "Nhấn nút '🔊 Nghe audio' và chọn nghĩa tiếng Việt đúng:",
       "options": [
         "Có chứ, tôi đã quyết định gửi bức tranh sơn dầu mới nhất của mình trước thứ Sáu tuần tới.",
         "Tôi hy vọng cải thiện kỹ năng nhiếp ảnh, vì vậy tôi muốn tham gia một câu lạc bộ nhiếp ảnh buổi tối.",
-        "Bạn nên tránh chi tiêu quá nhiều tiền vào những ống kính đắt đỏ cho đến khi bạn nắm vững các nguyên tắc cơ bản.",
-        "Ngày mai trời sẽ mưa to."
+        "Hôm nay thời tiết rất đẹp.",
+        "Bạn nên tránh chi tiêu quá nhiều tiền vào những ống kính đắt đỏ cho đến khi bạn nắm vững các nguyên tắc cơ bản."
       ],
       "correctAnswer": "Có chứ, tôi đã quyết định gửi bức tranh sơn dầu mới nhất của mình trước thứ Sáu tuần tới.",
       "explanationVi": "Câu nghe được: \"Yes, I decided to submit my latest oil painting before next Friday.\" có nghĩa là: \"Có chứ, tôi đã quyết định gửi bức tranh sơn dầu mới nhất của mình trước thứ Sáu tuần tới.\"."
@@ -365,64 +371,68 @@
     {
       "id": "ex-051-25",
       "type": "speaking_practice",
-      "promptVi": "[Luyện nói qua Micro] Nhấn nút '🎙️ Bắt đầu nói' và đọc to, rõ ràng câu tiếng Anh sau:",
+      "promptVi": "[Luyện nói qua Micro] Nhấn nút 'Bấm để Nói ngay' và phát âm câu sau:",
+      "question": "Luyện phát âm chuẩn câu: \"I enjoy listening to acoustic music.\" (Tôi rất thích nghe nhạc acoustic.)",
       "targetSentence": "I enjoy listening to acoustic music.",
       "hintVi": "Tôi rất thích nghe nhạc acoustic.",
-      "explanationVi": "Câu mục tiêu: \"I enjoy listening to acoustic music.\" (Tôi rất thích nghe nhạc acoustic.). Luyện phát âm chuẩn xác từng âm tiết và ngữ điệu tự nhiên."
+      "explanationVi": "Mẫu câu chuẩn: \"I enjoy listening to acoustic music.\" (Tôi rất thích nghe nhạc acoustic.). Luyện phát âm rõ ràng từng từ."
     },
     {
       "id": "ex-051-26",
       "type": "speaking_practice",
-      "promptVi": "[Luyện nói qua Micro] Nhấn nút '🎙️ Bắt đầu nói' và đọc to, rõ ràng câu tiếng Anh sau:",
+      "promptVi": "[Luyện nói qua Micro] Nhấn nút 'Bấm để Nói ngay' và phát âm câu sau:",
+      "question": "Luyện phát âm chuẩn câu: \"She decided to study abroad next year.\" (Cô ấy đã quyết định đi du học vào năm tới.)",
       "targetSentence": "She decided to study abroad next year.",
       "hintVi": "Cô ấy đã quyết định đi du học vào năm tới.",
-      "explanationVi": "Câu mục tiêu: \"She decided to study abroad next year.\" (Cô ấy đã quyết định đi du học vào năm tới.). Luyện phát âm chuẩn xác từng âm tiết và ngữ điệu tự nhiên."
+      "explanationVi": "Mẫu câu chuẩn: \"She decided to study abroad next year.\" (Cô ấy đã quyết định đi du học vào năm tới.). Luyện phát âm rõ ràng từng từ."
     },
     {
       "id": "ex-051-27",
       "type": "speaking_practice",
-      "promptVi": "[Luyện nói qua Micro] Nhấn nút '🎙️ Bắt đầu nói' và đọc to, rõ ràng câu tiếng Anh sau:",
+      "promptVi": "[Luyện nói qua Micro] Nhấn nút 'Bấm để Nói ngay' và phát âm câu sau:",
+      "question": "Luyện phát âm chuẩn câu: \"Would you mind closing the window?\" (Bạn có phiền đóng cửa sổ lại giúp tôi không?)",
       "targetSentence": "Would you mind closing the window?",
       "hintVi": "Bạn có phiền đóng cửa sổ lại giúp tôi không?",
-      "explanationVi": "Câu mục tiêu: \"Would you mind closing the window?\" (Bạn có phiền đóng cửa sổ lại giúp tôi không?). Luyện phát âm chuẩn xác từng âm tiết và ngữ điệu tự nhiên."
+      "explanationVi": "Mẫu câu chuẩn: \"Would you mind closing the window?\" (Bạn có phiền đóng cửa sổ lại giúp tôi không?). Luyện phát âm rõ ràng từng từ."
     },
     {
       "id": "ex-051-28",
       "type": "speaking_practice",
-      "promptVi": "[Luyện nói qua Micro] Nhấn nút '🎙️ Bắt đầu nói' và đọc to, rõ ràng câu tiếng Anh sau:",
+      "promptVi": "[Luyện nói qua Micro] Nhấn nút 'Bấm để Nói ngay' và phát âm câu sau:",
+      "question": "Luyện phát âm chuẩn câu: \"Remember to lock the door before leaving.\" (Hãy nhớ khóa cửa trước khi rời đi nhé.)",
       "targetSentence": "Remember to lock the door before leaving.",
       "hintVi": "Hãy nhớ khóa cửa trước khi rời đi nhé.",
-      "explanationVi": "Câu mục tiêu: \"Remember to lock the door before leaving.\" (Hãy nhớ khóa cửa trước khi rời đi nhé.). Luyện phát âm chuẩn xác từng âm tiết và ngữ điệu tự nhiên."
+      "explanationVi": "Mẫu câu chuẩn: \"Remember to lock the door before leaving.\" (Hãy nhớ khóa cửa trước khi rời đi nhé.). Luyện phát âm rõ ràng từng từ."
     },
     {
       "id": "ex-051-29",
       "type": "reading_comprehension",
-      "promptVi": "[Đọc hiểu đoạn văn 1] Đọc đoạn hội thoại mở đầu sau và trả lời câu hỏi:",
-      "passage": "Daniel (Nam): \"What do you enjoy doing during your free time on weekends, Chloe?\"\nChloe (Nữ): \"I really enjoy painting landscapes and practicing acoustic guitar.\"\nDaniel (Nam): \"That sounds relaxing! Do you plan to enter the upcoming regional art competition?\"\nChloe (Nữ): \"Yes, I decided to submit my latest oil painting before next Friday.\"",
-      "question": "Câu hỏi: Trong đoạn hội thoại trên, các nhân vật đang thảo luận về chủ đề gì?",
+      "promptVi": "[Đọc hiểu đoạn văn] Đọc đoạn hội thoại sau và trả lời câu hỏi:",
+      "passage": "Daniel: \"What do you enjoy doing during your free time on weekends, Chloe?\"\nChloe: \"I really enjoy painting landscapes and practicing acoustic guitar.\"\nDaniel: \"That sounds relaxing! Do you plan to enter the upcoming regional art competition?\"\nChloe: \"Yes, I decided to submit my latest oil painting before next Friday.\"",
+      "question": "Chủ đề trọng tâm của đoạn hội thoại trên là gì?",
       "options": [
         "Dạng Nguyên Mẫu (To-V) & V-ing sau Động từ (Gerunds & Infinitives: Like / Enjoy / Want / Hope / Plan)",
-        "Kế hoạch đi nghỉ dưỡng cuối tuần ở bãi biển",
-        "Mua sắm quần áo và đồ dùng thể thao",
-        "Cách làm món ăn truyền thống gia đình"
+        "Kế hoạch đi mua sắm tại siêu thị",
+        "Lịch trình đi du lịch nghỉ mát cuối tuần",
+        "Cách làm món ăn truyền thống"
       ],
       "correctAnswer": "Dạng Nguyên Mẫu (To-V) & V-ing sau Động từ (Gerunds & Infinitives: Like / Enjoy / Want / Hope / Plan)",
-      "explanationVi": "Đoạn hội thoại mở đầu được thiết kế để minh họa trực tiếp cho chủ điểm ngữ pháp: \"Bài 51: Dạng Nguyên Mẫu (To-V) & V-ing sau Động từ (Gerunds & Infinitives: Like / Enjoy / Want / Hope / Plan)\"."
+      "explanationVi": "Đoạn hội thoại được thiết kế để minh họa trực tiếp cho chủ điểm \"Bài 51: Dạng Nguyên Mẫu (To-V) & V-ing sau Động từ (Gerunds & Infinitives: Like / Enjoy / Want / Hope / Plan)\"."
     },
     {
       "id": "ex-051-30",
       "type": "reading_comprehension",
-      "promptVi": "[Đọc hiểu đoạn văn 2] Đọc phần tiếp theo của đoạn hội thoại và chọn nhận định đúng:",
-      "passage": "Daniel (Nam): \"I hope to improve my photography skills, so I want to join an evening photography club.\"\nChloe (Nữ): \"You should avoid spending too much money on expensive lenses until you master the basics.\"\nDaniel (Nam): \"Thank you for the advice. Would you mind looking at some of my sample photos?\"\nChloe (Nữ): \"Not at all! I don't mind giving constructive feedback at any time.\"",
-      "question": "Nhận định nào sau đây là ĐÚNG với nội dung đoạn hội thoại trên?",
+      "promptVi": "[Đọc hiểu đoạn văn] Đọc đoạn đối thoại tiếp theo và chọn nhận định đúng:",
+      "passage": "Daniel: \"I hope to improve my photography skills, so I want to join an evening photography club.\"\nChloe: \"You should avoid spending too much money on expensive lenses until you master the basics.\"\nDaniel: \"Thank you for the advice. Would you mind looking at some of my sample photos?\"\nChloe: \"Not at all! I don't mind giving constructive feedback at any time.\"",
+      "question": "Nhận định nào sau đây là ĐÚNG về nội dung đoạn đối thoại?",
       "options": [
-        "Các câu hội thoại sử dụng đúng cấu trúc ngữ pháp \"Bài 51: Dạng Nguyên Mẫu (To-V) & V-ing sau Động từ (Gerunds & Infinitives: Like / Enjoy / Want / Hope / Plan)\".",
-        "Các nhân vật không hiểu ý nhau và từ chối nói chuyện.",
-        "Đoạn hội thoại nói về việc chuyển nhà sang thành phố khác.",
-        "Cả hai nhân vật đều đang ở sân bay chuẩn bị lên máy bay."
+        "Các câu thoại sử dụng đúng cấu trúc \"Dạng Nguyên Mẫu (To-V) & V-ing sau Động từ (Gerunds & Infinitives: Like / Enjoy / Want / Hope / Plan)\".",
+        "Cuộc trò chuyện diễn ra tại nhà ga xe lửa.",
+        "Hai nhân vật đang cãi nhau và không đồng ý hợp tác.",
+        "Cả hai nhân vật đang thảo luận về thời tiết ngày mai."
       ],
-      "correctAnswer": "Các câu hội thoại sử dụng đúng cấu trúc ngữ pháp \"Bài 51: Dạng Nguyên Mẫu (To-V) & V-ing sau Động từ (Gerunds & Infinitives: Like / Enjoy / Want / Hope / Plan)\".",
-      "explanationVi": "Đoạn hội thoại thứ hai tiếp tục củng cố và ứng dụng các quy tắc ngữ pháp của \"Bài 51: Dạng Nguyên Mẫu (To-V) & V-ing sau Động từ (Gerunds & Infinitives: Like / Enjoy / Want / Hope / Plan)\"."
+      "correctAnswer": "Các câu thoại sử dụng đúng cấu trúc \"Dạng Nguyên Mẫu (To-V) & V-ing sau Động từ (Gerunds & Infinitives: Like / Enjoy / Want / Hope / Plan)\".",
+      "explanationVi": "Đoạn đối thoại ứng dụng chuẩn xác ngữ pháp của \"Bài 51: Dạng Nguyên Mẫu (To-V) & V-ing sau Động từ (Gerunds & Infinitives: Like / Enjoy / Want / Hope / Plan)\"."
     }
   ]
 }

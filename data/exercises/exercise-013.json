@@ -7,13 +7,13 @@
     {
       "id": "ex-013-01",
       "type": "multiple_choice",
-      "promptVi": "[Trắc nghiệm] Chọn từ/cụm từ đúng để hoàn thành câu (Bạn có nói tiếng Anh mỗi ngày không?):",
+      "promptVi": "[Trắc nghiệm ngữ pháp] Chọn từ đúng để hoàn thành câu (Bạn có nói tiếng Anh mỗi ngày không?):",
       "question": "___ you speak English every day?",
       "options": [
         "Do",
+        "Is",
         "Does",
-        "Are",
-        "Is"
+        "Are"
       ],
       "correctAnswer": "Do",
       "explanationVi": "Chủ ngữ 'you' với động từ thường 'speak' dùng trợ động từ 'Do'."
@@ -21,12 +21,12 @@
     {
       "id": "ex-013-02",
       "type": "multiple_choice",
-      "promptVi": "[Trắc nghiệm] Chọn từ/cụm từ đúng để hoàn thành câu (Cô ấy có thích đồ ăn cay không?):",
+      "promptVi": "[Trắc nghiệm ngữ pháp] Chọn từ đúng để hoàn thành câu (Cô ấy có thích đồ ăn cay không?):",
       "question": "___ she like spicy food?",
       "options": [
         "Does",
-        "Do",
         "Is",
+        "Do",
         "Has"
       ],
       "correctAnswer": "Does",
@@ -35,13 +35,13 @@
     {
       "id": "ex-013-03",
       "type": "multiple_choice",
-      "promptVi": "[Trắc nghiệm] Chọn từ/cụm từ đúng để hoàn thành câu (Họ có làm việc trong tòa nhà này không?):",
+      "promptVi": "[Trắc nghiệm ngữ pháp] Chọn từ đúng để hoàn thành câu (Họ có làm việc trong tòa nhà này không?):",
       "question": "___ they work in this building?",
       "options": [
-        "Do",
         "Does",
-        "Are",
-        "Have"
+        "Have",
+        "Do",
+        "Are"
       ],
       "correctAnswer": "Do",
       "explanationVi": "Chủ ngữ số nhiều 'they' dùng 'Do' ở đầu câu hỏi."
@@ -49,13 +49,13 @@
     {
       "id": "ex-013-04",
       "type": "multiple_choice",
-      "promptVi": "[Trắc nghiệm] Chọn từ/cụm từ đúng để hoàn thành câu (Anh ấy có lái ô tô đi làm không?):",
+      "promptVi": "[Trắc nghiệm ngữ pháp] Chọn từ đúng để hoàn thành câu (Anh ấy có lái ô tô đi làm không?):",
       "question": "Does he ___ a car to work?",
       "options": [
+        "drove",
         "drive",
-        "drives",
         "driving",
-        "drove"
+        "drives"
       ],
       "correctAnswer": "drive",
       "explanationVi": "Sau trợ động từ 'Does', động từ chính luôn ở dạng nguyên mẫu 'drive'."
@@ -63,111 +63,113 @@
     {
       "id": "ex-013-05",
       "type": "multiple_choice",
-      "promptVi": "[Trắc nghiệm] Dịch câu sau sang tiếng Anh: \"Bạn có sống gần trung tâm thành phố không, Chloe?\"",
-      "question": "Chọn bản dịch chuẩn xác cho câu: \"Bạn có sống gần trung tâm thành phố không, Chloe?\"",
+      "promptVi": "[Phản xạ dịch thuật] Dịch câu sau sang tiếng Anh: \"Bạn có sống gần trung tâm thành phố không, Chloe?\"",
+      "question": "Chọn bản dịch chuẩn xác nhất cho câu: \"Bạn có sống gần trung tâm thành phố không, Chloe?\"",
       "options": [
+        "Yes, I do. I live only five minutes away from the main square.",
         "Do you live near the city center, Chloe?",
         "be you live near the city center, Chloe?",
-        "Yes, I do. I live only five minutes away from the main square.",
-        "I want to go to the park now."
+        "We are studying English today."
       ],
       "correctAnswer": "Do you live near the city center, Chloe?",
-      "explanationVi": "Câu đúng là \"Do you live near the city center, Chloe?\" (Bạn có sống gần trung tâm thành phố không, Chloe?)."
+      "explanationVi": "Câu dịch chuẩn xác: \"Do you live near the city center, Chloe?\" (Bạn có sống gần trung tâm thành phố không, Chloe?)."
     },
     {
       "id": "ex-013-06",
       "type": "multiple_choice",
-      "promptVi": "[Trắc nghiệm] Chọn câu trả lời hoặc cách diễn đạt phù hợp:",
-      "question": "Trong ngữ cảnh giao tiếp: \"Do you live near the city center, Chloe?\", câu phản hồi tự nhiên là gì?",
+      "promptVi": "[Ngữ cảnh giao tiếp] Chọn câu phản hồi tự nhiên và đúng ngữ pháp:",
+      "question": "Khi đối phương nói: \"Do you live near the city center, Chloe?\", câu phản hồi phù hợp là gì?",
       "options": [
+        "They are not in the office.",
         "Yes, I do. I live only five minutes away from the main square.",
-        "No, it is yesterday morning.",
-        "Yes, I will eat apple.",
-        "They are not at the library."
+        "No, it was yesterday.",
+        "Yes, I will eat it."
       ],
       "correctAnswer": "Yes, I do. I live only five minutes away from the main square.",
-      "explanationVi": "Phản hồi phù hợp: \"Yes, I do. I live only five minutes away from the main square.\" (Có, tôi có. Tôi chỉ sống cách quảng trường chính 5 phút.)."
+      "explanationVi": "Phản hồi phù hợp trong bài: \"Yes, I do. I live only five minutes away from the main square.\" (Có, tôi có. Tôi chỉ sống cách quảng trường chính 5 phút.)."
     },
     {
       "id": "ex-013-07",
       "type": "fill_blank",
-      "promptVi": "[Điền từ - (Dạng khẳng định)] Điền dạng đúng của động từ vào ô trống (Bạn có nói tiếng Anh mỗi ngày không?):",
+      "promptVi": "[Điền từ - Dạng KHẲNG ĐỊNH] Điền từ còn thiếu vào ô trống (Bạn có nói tiếng Anh mỗi ngày không?):",
       "question": "___ you speak English every day?",
       "correctAnswer": "Do",
       "options": [
         "Do",
-        "Does",
+        "Is",
         "Are",
-        "Is"
+        "Does"
       ],
-      "explanationVi": "Đáp án chính xác: \"Do\". Bạn có nói tiếng Anh mỗi ngày không?."
+      "explanationVi": "Đáp án đúng là \"Do\". Câu hoàn chỉnh: \"Do you speak English every day?\" (Bạn có nói tiếng Anh mỗi ngày không?)."
     },
     {
       "id": "ex-013-08",
       "type": "fill_blank",
-      "promptVi": "[Điền từ - (Dạng khẳng định)] Điền dạng đúng của động từ vào ô trống (Cô ấy có thích đồ ăn cay không?):",
+      "promptVi": "[Điền từ - Dạng KHẲNG ĐỊNH] Điền từ còn thiếu vào ô trống (Cô ấy có thích đồ ăn cay không?):",
       "question": "___ she like spicy food?",
       "correctAnswer": "Does",
       "options": [
-        "Does",
         "Do",
+        "Does",
         "Is",
         "Has"
       ],
-      "explanationVi": "Đáp án chính xác: \"Does\". Cô ấy có thích đồ ăn cay không?."
+      "explanationVi": "Đáp án đúng là \"Does\". Câu hoàn chỉnh: \"Does she like spicy food?\" (Cô ấy có thích đồ ăn cay không?)."
     },
     {
       "id": "ex-013-09",
       "type": "fill_blank",
-      "promptVi": "[Điền từ - (Dạng khẳng định)] Điền dạng đúng của động từ vào ô trống (Họ có làm việc trong tòa nhà này không?):",
+      "promptVi": "[Điền từ - Dạng KHẲNG ĐỊNH] Điền từ còn thiếu vào ô trống (Họ có làm việc trong tòa nhà này không?):",
       "question": "___ they work in this building?",
       "correctAnswer": "Do",
       "options": [
-        "Do",
-        "Does",
         "Are",
-        "Have"
+        "Have",
+        "Do",
+        "Does"
       ],
-      "explanationVi": "Đáp án chính xác: \"Do\". Họ có làm việc trong tòa nhà này không?."
+      "explanationVi": "Đáp án đúng là \"Do\". Câu hoàn chỉnh: \"Do they work in this building?\" (Họ có làm việc trong tòa nhà này không?)."
     },
     {
       "id": "ex-013-10",
       "type": "fill_blank",
-      "promptVi": "[Điền từ - (Dạng khẳng định)] Điền dạng đúng của động từ vào ô trống (Anh ấy có lái ô tô đi làm không?):",
+      "promptVi": "[Điền từ - Dạng KHẲNG ĐỊNH] Điền từ còn thiếu vào ô trống (Anh ấy có lái ô tô đi làm không?):",
       "question": "Does he ___ a car to work?",
       "correctAnswer": "drive",
       "options": [
-        "drive",
         "drives",
         "driving",
-        "drove"
+        "drove",
+        "drive"
       ],
-      "explanationVi": "Đáp án chính xác: \"drive\". Anh ấy có lái ô tô đi làm không?."
+      "explanationVi": "Đáp án đúng là \"drive\". Câu hoàn chỉnh: \"Does he drive a car to work?\" (Anh ấy có lái ô tô đi làm không?)."
     },
     {
       "id": "ex-013-11",
       "type": "fill_blank",
-      "promptVi": "[Điền từ - Dạng PHỦ ĐỊNH] Hoàn thành câu phủ định sau:",
-      "correctAnswer": "Do you speak English every day?",
+      "promptVi": "[Điền từ - Dạng PHỦ ĐỊNH] Điền trợ động từ/động từ tobe phủ định vào chỗ trống:",
+      "question": "Do _____ not speak English every day?",
+      "correctAnswer": "you",
       "options": [
-        "Do you speak English every day?",
-        "Do you speak English every day?",
-        "Not Do you speak English every day?",
-        "Do you speak English every day? no"
+        "you",
+        "is",
+        "am",
+        "are"
       ],
-      "explanationVi": "Dạng phủ định chuẩn: Thêm 'not' sau động từ chính."
+      "explanationVi": "Câu phủ định hoàn chỉnh: \"Do you not speak English every day?\"."
     },
     {
       "id": "ex-013-12",
       "type": "sentence_scramble",
-      "promptVi": "[Sắp xếp câu] Xếp các khối từ thành câu hoàn chỉnh mang nghĩa: \"Bạn có nói tiếng Anh mỗi ngày không?\"",
+      "promptVi": "[Sắp xếp câu] Ghép các khối từ thành câu hoàn chỉnh mang nghĩa: \"Bạn có nói tiếng Anh mỗi ngày không?\"",
+      "question": "Sắp xếp các từ để tạo thành câu đúng: \"Bạn có nói tiếng Anh mỗi ngày không?\"",
       "words": [
-        "Do",
-        "day?",
-        "English",
         "you",
         "speak",
-        "every"
+        "English",
+        "every",
+        "Do",
+        "day?"
       ],
       "correctSentence": "Do you speak English every day?",
       "hintVi": "Bạn có nói tiếng Anh mỗi ngày không?",
@@ -176,13 +178,14 @@
     {
       "id": "ex-013-13",
       "type": "sentence_scramble",
-      "promptVi": "[Sắp xếp câu] Xếp các khối từ thành câu hoàn chỉnh mang nghĩa: \"Cô ấy có thích đồ ăn cay không?\"",
+      "promptVi": "[Sắp xếp câu] Ghép các khối từ thành câu hoàn chỉnh mang nghĩa: \"Cô ấy có thích đồ ăn cay không?\"",
+      "question": "Sắp xếp các từ để tạo thành câu đúng: \"Cô ấy có thích đồ ăn cay không?\"",
       "words": [
-        "spicy",
-        "food?",
-        "like",
         "Does",
-        "she"
+        "food?",
+        "spicy",
+        "she",
+        "like"
       ],
       "correctSentence": "Does she like spicy food?",
       "hintVi": "Cô ấy có thích đồ ăn cay không?",
@@ -191,14 +194,15 @@
     {
       "id": "ex-013-14",
       "type": "sentence_scramble",
-      "promptVi": "[Sắp xếp câu] Xếp các khối từ thành câu hoàn chỉnh mang nghĩa: \"Họ có làm việc trong tòa nhà này không?\"",
+      "promptVi": "[Sắp xếp câu] Ghép các khối từ thành câu hoàn chỉnh mang nghĩa: \"Họ có làm việc trong tòa nhà này không?\"",
+      "question": "Sắp xếp các từ để tạo thành câu đúng: \"Họ có làm việc trong tòa nhà này không?\"",
       "words": [
+        "building?",
         "this",
         "in",
-        "building?",
-        "they",
         "work",
-        "Do"
+        "Do",
+        "they"
       ],
       "correctSentence": "Do they work in this building?",
       "hintVi": "Họ có làm việc trong tòa nhà này không?",
@@ -207,15 +211,16 @@
     {
       "id": "ex-013-15",
       "type": "sentence_scramble",
-      "promptVi": "[Sắp xếp câu] Xếp các khối từ thành câu hoàn chỉnh mang nghĩa: \"Anh ấy có lái ô tô đi làm không?\"",
+      "promptVi": "[Sắp xếp câu] Ghép các khối từ thành câu hoàn chỉnh mang nghĩa: \"Anh ấy có lái ô tô đi làm không?\"",
+      "question": "Sắp xếp các từ để tạo thành câu đúng: \"Anh ấy có lái ô tô đi làm không?\"",
       "words": [
-        "Does",
-        "car",
         "drive",
         "work?",
-        "to",
+        "he",
         "a",
-        "he"
+        "to",
+        "Does",
+        "car"
       ],
       "correctSentence": "Does he drive a car to work?",
       "hintVi": "Anh ấy có lái ô tô đi làm không?",
@@ -224,18 +229,19 @@
     {
       "id": "ex-013-16",
       "type": "sentence_scramble",
-      "promptVi": "[Sắp xếp câu] Xếp các từ thành câu hội thoại: \"Tuyệt quá! Bạn có đi bộ đi làm mỗi sáng không?\"",
+      "promptVi": "[Sắp xếp câu] Ghép các từ thành câu hội thoại: \"Tuyệt quá! Bạn có đi bộ đi làm mỗi sáng không?\"",
+      "question": "Sắp xếp các từ để tạo thành câu thoại: \"Tuyệt quá! Bạn có đi bộ đi làm mỗi sáng không?\"",
       "words": [
+        "to",
+        "Do",
+        "is",
+        "great",
         "morning",
         "That",
-        "Do",
-        "walk",
-        "work",
         "every",
+        "work",
         "you",
-        "to",
-        "is",
-        "great"
+        "walk"
       ],
       "correctSentence": "That is great! Do you walk to work every morning?",
       "hintVi": "Tuyệt quá! Bạn có đi bộ đi làm mỗi sáng không?",
@@ -244,70 +250,70 @@
     {
       "id": "ex-013-17",
       "type": "find_error",
-      "promptVi": "[Tìm lỗi sai & Chọn câu đúng] Câu nào dưới đây có cấu trúc ngữ pháp HOÀN TOÀN ĐÚNG?",
-      "question": "Chủ điểm \"Bài 13: Động từ Thường — Câu hỏi Yes/No (Do / Does...?) & Trả lời ngắn\": Chọn câu CHÍNH XÁC:",
+      "promptVi": "[Nhận diện cấu trúc chuẩn] Chọn câu có cấu trúc ngữ pháp HOÀN TOÀN ĐÚNG:",
+      "question": "Dựa vào chủ điểm \"Bài 13: Động từ Thường — Câu hỏi Yes/No (Do / Does...?) & Trả lời ngắn\", câu nào sau đây CHÍNH XÁC?",
       "options": [
         "Do you speak English every day?",
+        "are",
         "day? every English speak you Do",
-        "Do you speak English every day? (sai)",
-        "Do you speak English every day? (sai)"
+        "is"
       ],
       "correctAnswer": "Do you speak English every day?",
-      "explanationVi": "Câu chuẩn xác là: \"Do you speak English every day?\" (Bạn có nói tiếng Anh mỗi ngày không?)."
+      "explanationVi": "Cấu trúc chuẩn xác là: \"Do you speak English every day?\" (Bạn có nói tiếng Anh mỗi ngày không?)."
     },
     {
       "id": "ex-013-18",
       "type": "find_error",
-      "promptVi": "[Tìm lỗi sai & Chọn câu đúng] Câu nào dưới đây có cấu trúc ngữ pháp HOÀN TOÀN ĐÚNG?",
-      "question": "Chủ điểm \"Bài 13: Động từ Thường — Câu hỏi Yes/No (Do / Does...?) & Trả lời ngắn\": Chọn câu CHÍNH XÁC:",
+      "promptVi": "[Nhận diện cấu trúc chuẩn] Chọn câu có cấu trúc ngữ pháp HOÀN TOÀN ĐÚNG:",
+      "question": "Dựa vào chủ điểm \"Bài 13: Động từ Thường — Câu hỏi Yes/No (Do / Does...?) & Trả lời ngắn\", câu nào sau đây CHÍNH XÁC?",
       "options": [
-        "Does she like spicy food?",
+        "are",
         "food? spicy like she Does",
-        "Does she like spicy food? (sai)",
-        "Does she like spicy food? (sai)"
+        "Does she like spicy food?",
+        "is"
       ],
       "correctAnswer": "Does she like spicy food?",
-      "explanationVi": "Câu chuẩn xác là: \"Does she like spicy food?\" (Cô ấy có thích đồ ăn cay không?)."
+      "explanationVi": "Cấu trúc chuẩn xác là: \"Does she like spicy food?\" (Cô ấy có thích đồ ăn cay không?)."
     },
     {
       "id": "ex-013-19",
       "type": "find_error",
-      "promptVi": "[Tìm lỗi sai & Chọn câu đúng] Câu nào dưới đây có cấu trúc ngữ pháp HOÀN TOÀN ĐÚNG?",
-      "question": "Chủ điểm \"Bài 13: Động từ Thường — Câu hỏi Yes/No (Do / Does...?) & Trả lời ngắn\": Chọn câu CHÍNH XÁC:",
+      "promptVi": "[Nhận diện cấu trúc chuẩn] Chọn câu có cấu trúc ngữ pháp HOÀN TOÀN ĐÚNG:",
+      "question": "Dựa vào chủ điểm \"Bài 13: Động từ Thường — Câu hỏi Yes/No (Do / Does...?) & Trả lời ngắn\", câu nào sau đây CHÍNH XÁC?",
       "options": [
+        "Do they work at this building?",
         "Do they work in this building?",
         "building? this in work they Do",
-        "Do they work in this building? (sai)",
-        "Do they work in this building? (sai)"
+        "is"
       ],
       "correctAnswer": "Do they work in this building?",
-      "explanationVi": "Câu chuẩn xác là: \"Do they work in this building?\" (Họ có làm việc trong tòa nhà này không?)."
+      "explanationVi": "Cấu trúc chuẩn xác là: \"Do they work in this building?\" (Họ có làm việc trong tòa nhà này không?)."
     },
     {
       "id": "ex-013-20",
       "type": "find_error",
-      "promptVi": "[Tìm lỗi sai & Chọn câu đúng] Câu nào dưới đây có cấu trúc ngữ pháp HOÀN TOÀN ĐÚNG?",
-      "question": "Chủ điểm \"Bài 13: Động từ Thường — Câu hỏi Yes/No (Do / Does...?) & Trả lời ngắn\": Chọn câu CHÍNH XÁC:",
+      "promptVi": "[Nhận diện cấu trúc chuẩn] Chọn câu có cấu trúc ngữ pháp HOÀN TOÀN ĐÚNG:",
+      "question": "Dựa vào chủ điểm \"Bài 13: Động từ Thường — Câu hỏi Yes/No (Do / Does...?) & Trả lời ngắn\", câu nào sau đây CHÍNH XÁC?",
       "options": [
+        "Does he drive a car at work?",
+        "is",
         "Does he drive a car to work?",
-        "work? to car a drive he Does",
-        "Does he drive a car to work? (sai)",
-        "Does he drive a car to work? (sai)"
+        "work? to car a drive he Does"
       ],
       "correctAnswer": "Does he drive a car to work?",
-      "explanationVi": "Câu chuẩn xác là: \"Does he drive a car to work?\" (Anh ấy có lái ô tô đi làm không?)."
+      "explanationVi": "Cấu trúc chuẩn xác là: \"Does he drive a car to work?\" (Anh ấy có lái ô tô đi làm không?)."
     },
     {
       "id": "ex-013-21",
       "type": "listening_reflex",
-      "promptVi": "[Nghe phản xạ] Nghe câu phát âm tiếng Anh và chọn bản dịch tiếng Việt đúng nhất:",
+      "promptVi": "[Nghe phản xạ] Nghe câu phát âm tiếng Anh và chọn bản dịch tiếng Việt đúng:",
       "audioPrompt": "Do you live near the city center, Chloe?",
-      "question": "Nhấn nút '🔊 Nghe audio' để nghe câu thoại và chọn nghĩa đúng:",
+      "question": "Nhấn nút '🔊 Nghe audio' và chọn nghĩa tiếng Việt đúng:",
       "options": [
-        "Bạn có sống gần trung tâm thành phố không, Chloe?",
         "Có, tôi có. Tôi chỉ sống cách quảng trường chính 5 phút.",
-        "Tuyệt quá! Bạn có đi bộ đi làm mỗi sáng không?",
-        "Ngày mai trời sẽ mưa to."
+        "Hôm nay thời tiết rất đẹp.",
+        "Bạn có sống gần trung tâm thành phố không, Chloe?",
+        "Tuyệt quá! Bạn có đi bộ đi làm mỗi sáng không?"
       ],
       "correctAnswer": "Bạn có sống gần trung tâm thành phố không, Chloe?",
       "explanationVi": "Câu nghe được: \"Do you live near the city center, Chloe?\" có nghĩa là: \"Bạn có sống gần trung tâm thành phố không, Chloe?\"."
@@ -315,14 +321,14 @@
     {
       "id": "ex-013-22",
       "type": "listening_reflex",
-      "promptVi": "[Nghe phản xạ] Nghe câu phát âm tiếng Anh và chọn bản dịch tiếng Việt đúng nhất:",
+      "promptVi": "[Nghe phản xạ] Nghe câu phát âm tiếng Anh và chọn bản dịch tiếng Việt đúng:",
       "audioPrompt": "Yes, I do. I live only five minutes away from the main square.",
-      "question": "Nhấn nút '🔊 Nghe audio' để nghe câu thoại và chọn nghĩa đúng:",
+      "question": "Nhấn nút '🔊 Nghe audio' và chọn nghĩa tiếng Việt đúng:",
       "options": [
+        "Hôm nay thời tiết rất đẹp.",
         "Có, tôi có. Tôi chỉ sống cách quảng trường chính 5 phút.",
-        "Tuyệt quá! Bạn có đi bộ đi làm mỗi sáng không?",
         "Không, tôi không. Tôi thường đi xe đạp vì nó nhanh hơn.",
-        "Ngày mai trời sẽ mưa to."
+        "Tuyệt quá! Bạn có đi bộ đi làm mỗi sáng không?"
       ],
       "correctAnswer": "Có, tôi có. Tôi chỉ sống cách quảng trường chính 5 phút.",
       "explanationVi": "Câu nghe được: \"Yes, I do. I live only five minutes away from the main square.\" có nghĩa là: \"Có, tôi có. Tôi chỉ sống cách quảng trường chính 5 phút.\"."
@@ -330,14 +336,14 @@
     {
       "id": "ex-013-23",
       "type": "listening_reflex",
-      "promptVi": "[Nghe phản xạ] Nghe câu phát âm tiếng Anh và chọn bản dịch tiếng Việt đúng nhất:",
+      "promptVi": "[Nghe phản xạ] Nghe câu phát âm tiếng Anh và chọn bản dịch tiếng Việt đúng:",
       "audioPrompt": "That is great! Do you walk to work every morning?",
-      "question": "Nhấn nút '🔊 Nghe audio' để nghe câu thoại và chọn nghĩa đúng:",
+      "question": "Nhấn nút '🔊 Nghe audio' và chọn nghĩa tiếng Việt đúng:",
       "options": [
-        "Tuyệt quá! Bạn có đi bộ đi làm mỗi sáng không?",
         "Không, tôi không. Tôi thường đi xe đạp vì nó nhanh hơn.",
         "Anh trai bạn cũng thích đi xe đạp à?",
-        "Ngày mai trời sẽ mưa to."
+        "Tuyệt quá! Bạn có đi bộ đi làm mỗi sáng không?",
+        "Hôm nay thời tiết rất đẹp."
       ],
       "correctAnswer": "Tuyệt quá! Bạn có đi bộ đi làm mỗi sáng không?",
       "explanationVi": "Câu nghe được: \"That is great! Do you walk to work every morning?\" có nghĩa là: \"Tuyệt quá! Bạn có đi bộ đi làm mỗi sáng không?\"."
@@ -345,14 +351,14 @@
     {
       "id": "ex-013-24",
       "type": "listening_reflex",
-      "promptVi": "[Nghe phản xạ] Nghe câu phát âm tiếng Anh và chọn bản dịch tiếng Việt đúng nhất:",
+      "promptVi": "[Nghe phản xạ] Nghe câu phát âm tiếng Anh và chọn bản dịch tiếng Việt đúng:",
       "audioPrompt": "No, I don't. I usually ride my bicycle because it is faster.",
-      "question": "Nhấn nút '🔊 Nghe audio' để nghe câu thoại và chọn nghĩa đúng:",
+      "question": "Nhấn nút '🔊 Nghe audio' và chọn nghĩa tiếng Việt đúng:",
       "options": [
-        "Không, tôi không. Tôi thường đi xe đạp vì nó nhanh hơn.",
-        "Anh trai bạn cũng thích đi xe đạp à?",
+        "Hôm nay thời tiết rất đẹp.",
         "Có, anh ấy có. Anh ấy đạp xe vào mỗi dịp cuối tuần.",
-        "Ngày mai trời sẽ mưa to."
+        "Anh trai bạn cũng thích đi xe đạp à?",
+        "Không, tôi không. Tôi thường đi xe đạp vì nó nhanh hơn."
       ],
       "correctAnswer": "Không, tôi không. Tôi thường đi xe đạp vì nó nhanh hơn.",
       "explanationVi": "Câu nghe được: \"No, I don't. I usually ride my bicycle because it is faster.\" có nghĩa là: \"Không, tôi không. Tôi thường đi xe đạp vì nó nhanh hơn.\"."
@@ -360,64 +366,68 @@
     {
       "id": "ex-013-25",
       "type": "speaking_practice",
-      "promptVi": "[Luyện nói qua Micro] Nhấn nút '🎙️ Bắt đầu nói' và đọc to, rõ ràng câu tiếng Anh sau:",
+      "promptVi": "[Luyện nói qua Micro] Nhấn nút 'Bấm để Nói ngay' và phát âm câu sau:",
+      "question": "Luyện phát âm chuẩn câu: \"Do you speak English every day?\" (Bạn có nói tiếng Anh mỗi ngày không?)",
       "targetSentence": "Do you speak English every day?",
       "hintVi": "Bạn có nói tiếng Anh mỗi ngày không?",
-      "explanationVi": "Câu mục tiêu: \"Do you speak English every day?\" (Bạn có nói tiếng Anh mỗi ngày không?). Luyện phát âm chuẩn xác từng âm tiết và ngữ điệu tự nhiên."
+      "explanationVi": "Mẫu câu chuẩn: \"Do you speak English every day?\" (Bạn có nói tiếng Anh mỗi ngày không?). Luyện phát âm rõ ràng từng từ."
     },
     {
       "id": "ex-013-26",
       "type": "speaking_practice",
-      "promptVi": "[Luyện nói qua Micro] Nhấn nút '🎙️ Bắt đầu nói' và đọc to, rõ ràng câu tiếng Anh sau:",
+      "promptVi": "[Luyện nói qua Micro] Nhấn nút 'Bấm để Nói ngay' và phát âm câu sau:",
+      "question": "Luyện phát âm chuẩn câu: \"Does she like spicy food?\" (Cô ấy có thích đồ ăn cay không?)",
       "targetSentence": "Does she like spicy food?",
       "hintVi": "Cô ấy có thích đồ ăn cay không?",
-      "explanationVi": "Câu mục tiêu: \"Does she like spicy food?\" (Cô ấy có thích đồ ăn cay không?). Luyện phát âm chuẩn xác từng âm tiết và ngữ điệu tự nhiên."
+      "explanationVi": "Mẫu câu chuẩn: \"Does she like spicy food?\" (Cô ấy có thích đồ ăn cay không?). Luyện phát âm rõ ràng từng từ."
     },
     {
       "id": "ex-013-27",
       "type": "speaking_practice",
-      "promptVi": "[Luyện nói qua Micro] Nhấn nút '🎙️ Bắt đầu nói' và đọc to, rõ ràng câu tiếng Anh sau:",
+      "promptVi": "[Luyện nói qua Micro] Nhấn nút 'Bấm để Nói ngay' và phát âm câu sau:",
+      "question": "Luyện phát âm chuẩn câu: \"Do they work in this building?\" (Họ có làm việc trong tòa nhà này không?)",
       "targetSentence": "Do they work in this building?",
       "hintVi": "Họ có làm việc trong tòa nhà này không?",
-      "explanationVi": "Câu mục tiêu: \"Do they work in this building?\" (Họ có làm việc trong tòa nhà này không?). Luyện phát âm chuẩn xác từng âm tiết và ngữ điệu tự nhiên."
+      "explanationVi": "Mẫu câu chuẩn: \"Do they work in this building?\" (Họ có làm việc trong tòa nhà này không?). Luyện phát âm rõ ràng từng từ."
     },
     {
       "id": "ex-013-28",
       "type": "speaking_practice",
-      "promptVi": "[Luyện nói qua Micro] Nhấn nút '🎙️ Bắt đầu nói' và đọc to, rõ ràng câu tiếng Anh sau:",
+      "promptVi": "[Luyện nói qua Micro] Nhấn nút 'Bấm để Nói ngay' và phát âm câu sau:",
+      "question": "Luyện phát âm chuẩn câu: \"Does he drive a car to work?\" (Anh ấy có lái ô tô đi làm không?)",
       "targetSentence": "Does he drive a car to work?",
       "hintVi": "Anh ấy có lái ô tô đi làm không?",
-      "explanationVi": "Câu mục tiêu: \"Does he drive a car to work?\" (Anh ấy có lái ô tô đi làm không?). Luyện phát âm chuẩn xác từng âm tiết và ngữ điệu tự nhiên."
+      "explanationVi": "Mẫu câu chuẩn: \"Does he drive a car to work?\" (Anh ấy có lái ô tô đi làm không?). Luyện phát âm rõ ràng từng từ."
     },
     {
       "id": "ex-013-29",
       "type": "reading_comprehension",
-      "promptVi": "[Đọc hiểu đoạn văn 1] Đọc đoạn hội thoại mở đầu sau và trả lời câu hỏi:",
-      "passage": "Daniel (Nam): \"Do you live near the city center, Chloe?\"\nChloe (Nữ): \"Yes, I do. I live only five minutes away from the main square.\"\nDaniel (Nam): \"That is great! Do you walk to work every morning?\"\nChloe (Nữ): \"No, I don't. I usually ride my bicycle because it is faster.\"",
-      "question": "Câu hỏi: Trong đoạn hội thoại trên, các nhân vật đang thảo luận về chủ đề gì?",
+      "promptVi": "[Đọc hiểu đoạn văn] Đọc đoạn hội thoại sau và trả lời câu hỏi:",
+      "passage": "Daniel: \"Do you live near the city center, Chloe?\"\nChloe: \"Yes, I do. I live only five minutes away from the main square.\"\nDaniel: \"That is great! Do you walk to work every morning?\"\nChloe: \"No, I don't. I usually ride my bicycle because it is faster.\"",
+      "question": "Chủ đề trọng tâm của đoạn hội thoại trên là gì?",
       "options": [
+        "Lịch trình đi du lịch nghỉ mát cuối tuần",
         "Động từ Thường — Câu hỏi Yes/No (Do / Does...?) & Trả lời ngắn",
-        "Kế hoạch đi nghỉ dưỡng cuối tuần ở bãi biển",
-        "Mua sắm quần áo và đồ dùng thể thao",
-        "Cách làm món ăn truyền thống gia đình"
+        "Kế hoạch đi mua sắm tại siêu thị",
+        "Cách làm món ăn truyền thống"
       ],
       "correctAnswer": "Động từ Thường — Câu hỏi Yes/No (Do / Does...?) & Trả lời ngắn",
-      "explanationVi": "Đoạn hội thoại mở đầu được thiết kế để minh họa trực tiếp cho chủ điểm ngữ pháp: \"Bài 13: Động từ Thường — Câu hỏi Yes/No (Do / Does...?) & Trả lời ngắn\"."
+      "explanationVi": "Đoạn hội thoại được thiết kế để minh họa trực tiếp cho chủ điểm \"Bài 13: Động từ Thường — Câu hỏi Yes/No (Do / Does...?) & Trả lời ngắn\"."
     },
     {
       "id": "ex-013-30",
       "type": "reading_comprehension",
-      "promptVi": "[Đọc hiểu đoạn văn 2] Đọc phần tiếp theo của đoạn hội thoại và chọn nhận định đúng:",
-      "passage": "Daniel (Nam): \"Does your brother also like cycling?\"\nChloe (Nữ): \"Yes, he does. He rides his bike every single weekend.\"\nDaniel (Nam): \"Does he work in the same company as you?\"\nChloe (Nữ): \"No, he doesn't. He works for an international bank.\"",
-      "question": "Nhận định nào sau đây là ĐÚNG với nội dung đoạn hội thoại trên?",
+      "promptVi": "[Đọc hiểu đoạn văn] Đọc đoạn đối thoại tiếp theo và chọn nhận định đúng:",
+      "passage": "Daniel: \"Does your brother also like cycling?\"\nChloe: \"Yes, he does. He rides his bike every single weekend.\"\nDaniel: \"Does he work in the same company as you?\"\nChloe: \"No, he doesn't. He works for an international bank.\"",
+      "question": "Nhận định nào sau đây là ĐÚNG về nội dung đoạn đối thoại?",
       "options": [
-        "Các câu hội thoại sử dụng đúng cấu trúc ngữ pháp \"Bài 13: Động từ Thường — Câu hỏi Yes/No (Do / Does...?) & Trả lời ngắn\".",
-        "Các nhân vật không hiểu ý nhau và từ chối nói chuyện.",
-        "Đoạn hội thoại nói về việc chuyển nhà sang thành phố khác.",
-        "Cả hai nhân vật đều đang ở sân bay chuẩn bị lên máy bay."
+        "Các câu thoại sử dụng đúng cấu trúc \"Động từ Thường — Câu hỏi Yes/No (Do / Does...?) & Trả lời ngắn\".",
+        "Cả hai nhân vật đang thảo luận về thời tiết ngày mai.",
+        "Hai nhân vật đang cãi nhau và không đồng ý hợp tác.",
+        "Cuộc trò chuyện diễn ra tại nhà ga xe lửa."
       ],
-      "correctAnswer": "Các câu hội thoại sử dụng đúng cấu trúc ngữ pháp \"Bài 13: Động từ Thường — Câu hỏi Yes/No (Do / Does...?) & Trả lời ngắn\".",
-      "explanationVi": "Đoạn hội thoại thứ hai tiếp tục củng cố và ứng dụng các quy tắc ngữ pháp của \"Bài 13: Động từ Thường — Câu hỏi Yes/No (Do / Does...?) & Trả lời ngắn\"."
+      "correctAnswer": "Các câu thoại sử dụng đúng cấu trúc \"Động từ Thường — Câu hỏi Yes/No (Do / Does...?) & Trả lời ngắn\".",
+      "explanationVi": "Đoạn đối thoại ứng dụng chuẩn xác ngữ pháp của \"Bài 13: Động từ Thường — Câu hỏi Yes/No (Do / Does...?) & Trả lời ngắn\"."
     }
   ]
 }

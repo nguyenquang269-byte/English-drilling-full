@@ -7,13 +7,13 @@
     {
       "id": "ex-011-01",
       "type": "multiple_choice",
-      "promptVi": "[Trắc nghiệm] Chọn từ/cụm từ đúng để hoàn thành câu (Tôi sẽ không đi trễ vào sáng mai.):",
+      "promptVi": "[Trắc nghiệm ngữ pháp] Chọn từ đúng để hoàn thành câu (Tôi sẽ không đi trễ vào sáng mai.):",
       "question": "I ___ late tomorrow morning.",
       "options": [
         "won't be",
-        "wasn't",
         "am not",
-        "don't be"
+        "don't be",
+        "wasn't"
       ],
       "correctAnswer": "won't be",
       "explanationVi": "'Tomorrow morning' chỉ thời gian tương lai, dạng phủ định dùng 'won't be'."
@@ -21,12 +21,12 @@
     {
       "id": "ex-011-02",
       "type": "multiple_choice",
-      "promptVi": "[Trắc nghiệm] Chọn từ/cụm từ đúng để hoàn thành câu (Bạn có rảnh vào cuối tuần này không?):",
+      "promptVi": "[Trắc nghiệm ngữ pháp] Chọn từ đúng để hoàn thành câu (Bạn có rảnh vào cuối tuần này không?):",
       "question": "___ you be free this weekend?",
       "options": [
-        "Will",
         "Are",
         "Were",
+        "Will",
         "Do"
       ],
       "correctAnswer": "Will",
@@ -35,11 +35,11 @@
     {
       "id": "ex-011-03",
       "type": "multiple_choice",
-      "promptVi": "[Trắc nghiệm] Chọn từ/cụm từ đúng để hoàn thành câu (Bài thi sẽ không khó đâu.):",
+      "promptVi": "[Trắc nghiệm ngữ pháp] Chọn từ đúng để hoàn thành câu (Bài thi sẽ không khó đâu.):",
       "question": "The exam ___ difficult.",
       "options": [
-        "won't be",
         "isn't",
+        "won't be",
         "wasn't",
         "not be"
       ],
@@ -49,13 +49,13 @@
     {
       "id": "ex-011-04",
       "type": "multiple_choice",
-      "promptVi": "[Trắc nghiệm] Chọn từ/cụm từ đúng để hoàn thành câu (Tối nay cô ấy có ở bữa tiệc không?):",
+      "promptVi": "[Trắc nghiệm ngữ pháp] Chọn từ đúng để hoàn thành câu (Tối nay cô ấy có ở bữa tiệc không?):",
       "question": "___ she be at the party tonight?",
       "options": [
         "Will",
+        "Does",
         "Is",
-        "Was",
-        "Does"
+        "Was"
       ],
       "correctAnswer": "Will",
       "explanationVi": "Hỏi về sự việc tối nay ('tonight') dùng trợ động từ 'Will'."
@@ -63,111 +63,113 @@
     {
       "id": "ex-011-05",
       "type": "multiple_choice",
-      "promptVi": "[Trắc nghiệm] Dịch câu sau sang tiếng Anh: \"Thứ Bảy tuần này bạn có rảnh không, Tom?\"",
-      "question": "Chọn bản dịch chuẩn xác cho câu: \"Thứ Bảy tuần này bạn có rảnh không, Tom?\"",
+      "promptVi": "[Phản xạ dịch thuật] Dịch câu sau sang tiếng Anh: \"Thứ Bảy tuần này bạn có rảnh không, Tom?\"",
+      "question": "Chọn bản dịch chuẩn xác nhất cho câu: \"Thứ Bảy tuần này bạn có rảnh không, Tom?\"",
       "options": [
-        "Will you be free this Saturday evening, Tom?",
-        "be you be free this Saturday evening, Tom?",
         "No, I won't be free. I will be at my cousin's birthday party.",
-        "I want to go to the park now."
+        "We are studying English today.",
+        "Will you be free this Saturday evening, Tom?",
+        "be you be free this Saturday evening, Tom?"
       ],
       "correctAnswer": "Will you be free this Saturday evening, Tom?",
-      "explanationVi": "Câu đúng là \"Will you be free this Saturday evening, Tom?\" (Thứ Bảy tuần này bạn có rảnh không, Tom?)."
+      "explanationVi": "Câu dịch chuẩn xác: \"Will you be free this Saturday evening, Tom?\" (Thứ Bảy tuần này bạn có rảnh không, Tom?)."
     },
     {
       "id": "ex-011-06",
       "type": "multiple_choice",
-      "promptVi": "[Trắc nghiệm] Chọn câu trả lời hoặc cách diễn đạt phù hợp:",
-      "question": "Trong ngữ cảnh giao tiếp: \"Will you be free this Saturday evening, Tom?\", câu phản hồi tự nhiên là gì?",
+      "promptVi": "[Ngữ cảnh giao tiếp] Chọn câu phản hồi tự nhiên và đúng ngữ pháp:",
+      "question": "Khi đối phương nói: \"Will you be free this Saturday evening, Tom?\", câu phản hồi phù hợp là gì?",
       "options": [
         "No, I won't be free. I will be at my cousin's birthday party.",
-        "No, it is yesterday morning.",
-        "Yes, I will eat apple.",
-        "They are not at the library."
+        "They are not in the office.",
+        "Yes, I will eat it.",
+        "No, it was yesterday."
       ],
       "correctAnswer": "No, I won't be free. I will be at my cousin's birthday party.",
-      "explanationVi": "Phản hồi phù hợp: \"No, I won't be free. I will be at my cousin's birthday party.\" (Không, tôi sẽ không rảnh. Tôi sẽ ở tiệc sinh nhật người anh họ.)."
+      "explanationVi": "Phản hồi phù hợp trong bài: \"No, I won't be free. I will be at my cousin's birthday party.\" (Không, tôi sẽ không rảnh. Tôi sẽ ở tiệc sinh nhật người anh họ.)."
     },
     {
       "id": "ex-011-07",
       "type": "fill_blank",
-      "promptVi": "[Điền từ - (Dạng phủ định)] Điền dạng đúng của động từ vào ô trống (Tôi sẽ không đi trễ vào sáng mai.):",
+      "promptVi": "[Điền từ - Dạng PHỦ ĐỊNH] Điền từ còn thiếu vào ô trống (Tôi sẽ không đi trễ vào sáng mai.):",
       "question": "I ___ late tomorrow morning.",
       "correctAnswer": "won't be",
       "options": [
-        "won't be",
-        "wasn't",
         "am not",
-        "don't be"
+        "don't be",
+        "wasn't",
+        "won't be"
       ],
-      "explanationVi": "Đáp án chính xác: \"won't be\". Tôi sẽ không đi trễ vào sáng mai.."
+      "explanationVi": "Đáp án đúng là \"won't be\". Câu hoàn chỉnh: \"I won't be late tomorrow morning.\" (Tôi sẽ không đi trễ vào sáng mai.)."
     },
     {
       "id": "ex-011-08",
       "type": "fill_blank",
-      "promptVi": "[Điền từ - (Dạng khẳng định)] Điền dạng đúng của động từ vào ô trống (Bạn có rảnh vào cuối tuần này không?):",
+      "promptVi": "[Điền từ - Dạng KHẲNG ĐỊNH] Điền từ còn thiếu vào ô trống (Bạn có rảnh vào cuối tuần này không?):",
       "question": "___ you be free this weekend?",
       "correctAnswer": "Will",
       "options": [
         "Will",
-        "Are",
+        "Do",
         "Were",
-        "Do"
+        "Are"
       ],
-      "explanationVi": "Đáp án chính xác: \"Will\". Bạn có rảnh vào cuối tuần này không?."
+      "explanationVi": "Đáp án đúng là \"Will\". Câu hoàn chỉnh: \"Will you be free this weekend?\" (Bạn có rảnh vào cuối tuần này không?)."
     },
     {
       "id": "ex-011-09",
       "type": "fill_blank",
-      "promptVi": "[Điền từ - (Dạng phủ định)] Điền dạng đúng của động từ vào ô trống (Bài thi sẽ không khó đâu.):",
+      "promptVi": "[Điền từ - Dạng PHỦ ĐỊNH] Điền từ còn thiếu vào ô trống (Bài thi sẽ không khó đâu.):",
       "question": "The exam ___ difficult.",
       "correctAnswer": "won't be",
       "options": [
-        "won't be",
-        "isn't",
         "wasn't",
-        "not be"
+        "not be",
+        "won't be",
+        "isn't"
       ],
-      "explanationVi": "Đáp án chính xác: \"won't be\". Bài thi sẽ không khó đâu.."
+      "explanationVi": "Đáp án đúng là \"won't be\". Câu hoàn chỉnh: \"The exam won't be difficult.\" (Bài thi sẽ không khó đâu.)."
     },
     {
       "id": "ex-011-10",
       "type": "fill_blank",
-      "promptVi": "[Điền từ - (Dạng khẳng định)] Điền dạng đúng của động từ vào ô trống (Tối nay cô ấy có ở bữa tiệc không?):",
+      "promptVi": "[Điền từ - Dạng KHẲNG ĐỊNH] Điền từ còn thiếu vào ô trống (Tối nay cô ấy có ở bữa tiệc không?):",
       "question": "___ she be at the party tonight?",
       "correctAnswer": "Will",
       "options": [
+        "Does",
         "Will",
-        "Is",
         "Was",
-        "Does"
+        "Is"
       ],
-      "explanationVi": "Đáp án chính xác: \"Will\". Tối nay cô ấy có ở bữa tiệc không?."
+      "explanationVi": "Đáp án đúng là \"Will\". Câu hoàn chỉnh: \"Will she be at the party tonight?\" (Tối nay cô ấy có ở bữa tiệc không?)."
     },
     {
       "id": "ex-011-11",
       "type": "fill_blank",
-      "promptVi": "[Điền từ - Dạng PHỦ ĐỊNH] Hoàn thành câu phủ định sau:",
-      "correctAnswer": "I won't be late tomorrow morning.",
+      "promptVi": "[Điền từ - Dạng PHỦ ĐỊNH] Điền trợ động từ/động từ tobe phủ định vào chỗ trống:",
+      "question": "I _____ not be late tomorrow morning.",
+      "correctAnswer": "won't",
       "options": [
-        "I won't be late tomorrow morning.",
-        "I won't be late tomorrow morning.",
-        "Not I won't be late tomorrow morning.",
-        "I won't be late tomorrow morning. no"
+        "is",
+        "are",
+        "am",
+        "won't"
       ],
-      "explanationVi": "Dạng phủ định chuẩn: Thêm 'not' sau động từ chính."
+      "explanationVi": "Câu phủ định hoàn chỉnh: \"I won't not be late tomorrow morning.\"."
     },
     {
       "id": "ex-011-12",
       "type": "sentence_scramble",
-      "promptVi": "[Sắp xếp câu] Xếp các khối từ thành câu hoàn chỉnh mang nghĩa: \"Tôi sẽ không đi trễ vào sáng mai.\"",
+      "promptVi": "[Sắp xếp câu] Ghép các khối từ thành câu hoàn chỉnh mang nghĩa: \"Tôi sẽ không đi trễ vào sáng mai.\"",
+      "question": "Sắp xếp các từ để tạo thành câu đúng: \"Tôi sẽ không đi trễ vào sáng mai.\"",
       "words": [
-        "be",
-        "late",
         "won't",
+        "late",
         "tomorrow",
+        "I",
         "morning.",
-        "I"
+        "be"
       ],
       "correctSentence": "I won't be late tomorrow morning.",
       "hintVi": "Tôi sẽ không đi trễ vào sáng mai.",
@@ -176,14 +178,15 @@
     {
       "id": "ex-011-13",
       "type": "sentence_scramble",
-      "promptVi": "[Sắp xếp câu] Xếp các khối từ thành câu hoàn chỉnh mang nghĩa: \"Bạn có rảnh vào cuối tuần này không?\"",
+      "promptVi": "[Sắp xếp câu] Ghép các khối từ thành câu hoàn chỉnh mang nghĩa: \"Bạn có rảnh vào cuối tuần này không?\"",
+      "question": "Sắp xếp các từ để tạo thành câu đúng: \"Bạn có rảnh vào cuối tuần này không?\"",
       "words": [
-        "this",
-        "be",
+        "weekend?",
         "you",
+        "this",
         "Will",
-        "free",
-        "weekend?"
+        "be",
+        "free"
       ],
       "correctSentence": "Will you be free this weekend?",
       "hintVi": "Bạn có rảnh vào cuối tuần này không?",
@@ -192,13 +195,14 @@
     {
       "id": "ex-011-14",
       "type": "sentence_scramble",
-      "promptVi": "[Sắp xếp câu] Xếp các khối từ thành câu hoàn chỉnh mang nghĩa: \"Bài thi sẽ không khó đâu.\"",
+      "promptVi": "[Sắp xếp câu] Ghép các khối từ thành câu hoàn chỉnh mang nghĩa: \"Bài thi sẽ không khó đâu.\"",
+      "question": "Sắp xếp các từ để tạo thành câu đúng: \"Bài thi sẽ không khó đâu.\"",
       "words": [
         "The",
         "be",
+        "difficult.",
         "won't",
-        "exam",
-        "difficult."
+        "exam"
       ],
       "correctSentence": "The exam won't be difficult.",
       "hintVi": "Bài thi sẽ không khó đâu.",
@@ -207,15 +211,16 @@
     {
       "id": "ex-011-15",
       "type": "sentence_scramble",
-      "promptVi": "[Sắp xếp câu] Xếp các khối từ thành câu hoàn chỉnh mang nghĩa: \"Tối nay cô ấy có ở bữa tiệc không?\"",
+      "promptVi": "[Sắp xếp câu] Ghép các khối từ thành câu hoàn chỉnh mang nghĩa: \"Tối nay cô ấy có ở bữa tiệc không?\"",
+      "question": "Sắp xếp các từ để tạo thành câu đúng: \"Tối nay cô ấy có ở bữa tiệc không?\"",
       "words": [
-        "the",
-        "be",
-        "tonight?",
-        "party",
         "at",
+        "party",
         "she",
-        "Will"
+        "be",
+        "the",
+        "Will",
+        "tonight?"
       ],
       "correctSentence": "Will she be at the party tonight?",
       "hintVi": "Tối nay cô ấy có ở bữa tiệc không?",
@@ -224,13 +229,14 @@
     {
       "id": "ex-011-16",
       "type": "sentence_scramble",
-      "promptVi": "[Sắp xếp câu] Xếp các từ thành câu hội thoại: \"Bữa tiệc sẽ kéo dài muộn không?\"",
+      "promptVi": "[Sắp xếp câu] Ghép các từ thành câu hội thoại: \"Bữa tiệc sẽ kéo dài muộn không?\"",
+      "question": "Sắp xếp các từ để tạo thành câu thoại: \"Bữa tiệc sẽ kéo dài muộn không?\"",
       "words": [
         "be",
-        "the",
-        "party",
         "late",
-        "Will"
+        "the",
+        "Will",
+        "party"
       ],
       "correctSentence": "Will the party be late?",
       "hintVi": "Bữa tiệc sẽ kéo dài muộn không?",
@@ -239,70 +245,70 @@
     {
       "id": "ex-011-17",
       "type": "find_error",
-      "promptVi": "[Tìm lỗi sai & Chọn câu đúng] Câu nào dưới đây có cấu trúc ngữ pháp HOÀN TOÀN ĐÚNG?",
-      "question": "Chủ điểm \"Bài 11: Động từ To Be — Tương lai Đơn (Phủ định Won't be & Câu hỏi Will you be...?)\": Chọn câu CHÍNH XÁC:",
+      "promptVi": "[Nhận diện cấu trúc chuẩn] Chọn câu có cấu trúc ngữ pháp HOÀN TOÀN ĐÚNG:",
+      "question": "Dựa vào chủ điểm \"Bài 11: Động từ To Be — Tương lai Đơn (Phủ định Won't be & Câu hỏi Will you be...?)\", câu nào sau đây CHÍNH XÁC?",
       "options": [
-        "I won't be late tomorrow morning.",
         "morning. tomorrow late be won't I",
-        "I won't be late tomorrow morning. (sai)",
-        "I won't be late tomorrow morning. (sai)"
+        "is",
+        "I won't be late tomorrow morning.",
+        "are"
       ],
       "correctAnswer": "I won't be late tomorrow morning.",
-      "explanationVi": "Câu chuẩn xác là: \"I won't be late tomorrow morning.\" (Tôi sẽ không đi trễ vào sáng mai.)."
+      "explanationVi": "Cấu trúc chuẩn xác là: \"I won't be late tomorrow morning.\" (Tôi sẽ không đi trễ vào sáng mai.)."
     },
     {
       "id": "ex-011-18",
       "type": "find_error",
-      "promptVi": "[Tìm lỗi sai & Chọn câu đúng] Câu nào dưới đây có cấu trúc ngữ pháp HOÀN TOÀN ĐÚNG?",
-      "question": "Chủ điểm \"Bài 11: Động từ To Be — Tương lai Đơn (Phủ định Won't be & Câu hỏi Will you be...?)\": Chọn câu CHÍNH XÁC:",
+      "promptVi": "[Nhận diện cấu trúc chuẩn] Chọn câu có cấu trúc ngữ pháp HOÀN TOÀN ĐÚNG:",
+      "question": "Dựa vào chủ điểm \"Bài 11: Động từ To Be — Tương lai Đơn (Phủ định Won't be & Câu hỏi Will you be...?)\", câu nào sau đây CHÍNH XÁC?",
       "options": [
+        "is",
         "Will you be free this weekend?",
-        "weekend? this free be you Will",
-        "Will you be free this weekend? (sai)",
-        "Will you be free this weekend? (sai)"
+        "are",
+        "weekend? this free be you Will"
       ],
       "correctAnswer": "Will you be free this weekend?",
-      "explanationVi": "Câu chuẩn xác là: \"Will you be free this weekend?\" (Bạn có rảnh vào cuối tuần này không?)."
+      "explanationVi": "Cấu trúc chuẩn xác là: \"Will you be free this weekend?\" (Bạn có rảnh vào cuối tuần này không?)."
     },
     {
       "id": "ex-011-19",
       "type": "find_error",
-      "promptVi": "[Tìm lỗi sai & Chọn câu đúng] Câu nào dưới đây có cấu trúc ngữ pháp HOÀN TOÀN ĐÚNG?",
-      "question": "Chủ điểm \"Bài 11: Động từ To Be — Tương lai Đơn (Phủ định Won't be & Câu hỏi Will you be...?)\": Chọn câu CHÍNH XÁC:",
+      "promptVi": "[Nhận diện cấu trúc chuẩn] Chọn câu có cấu trúc ngữ pháp HOÀN TOÀN ĐÚNG:",
+      "question": "Dựa vào chủ điểm \"Bài 11: Động từ To Be — Tương lai Đơn (Phủ định Won't be & Câu hỏi Will you be...?)\", câu nào sau đây CHÍNH XÁC?",
       "options": [
         "The exam won't be difficult.",
+        "are",
         "difficult. be won't exam The",
-        "The exam won't be difficult. (sai)",
-        "The exam won't be difficult. (sai)"
+        "is"
       ],
       "correctAnswer": "The exam won't be difficult.",
-      "explanationVi": "Câu chuẩn xác là: \"The exam won't be difficult.\" (Bài thi sẽ không khó đâu.)."
+      "explanationVi": "Cấu trúc chuẩn xác là: \"The exam won't be difficult.\" (Bài thi sẽ không khó đâu.)."
     },
     {
       "id": "ex-011-20",
       "type": "find_error",
-      "promptVi": "[Tìm lỗi sai & Chọn câu đúng] Câu nào dưới đây có cấu trúc ngữ pháp HOÀN TOÀN ĐÚNG?",
-      "question": "Chủ điểm \"Bài 11: Động từ To Be — Tương lai Đơn (Phủ định Won't be & Câu hỏi Will you be...?)\": Chọn câu CHÍNH XÁC:",
+      "promptVi": "[Nhận diện cấu trúc chuẩn] Chọn câu có cấu trúc ngữ pháp HOÀN TOÀN ĐÚNG:",
+      "question": "Dựa vào chủ điểm \"Bài 11: Động từ To Be — Tương lai Đơn (Phủ định Won't be & Câu hỏi Will you be...?)\", câu nào sau đây CHÍNH XÁC?",
       "options": [
-        "Will she be at the party tonight?",
         "tonight? party the at be she Will",
-        "Will she be at the party tonight? (sai)",
-        "Will she be at the party tonight? (sai)"
+        "are",
+        "Will she be at the party tonight?",
+        "is"
       ],
       "correctAnswer": "Will she be at the party tonight?",
-      "explanationVi": "Câu chuẩn xác là: \"Will she be at the party tonight?\" (Tối nay cô ấy có ở bữa tiệc không?)."
+      "explanationVi": "Cấu trúc chuẩn xác là: \"Will she be at the party tonight?\" (Tối nay cô ấy có ở bữa tiệc không?)."
     },
     {
       "id": "ex-011-21",
       "type": "listening_reflex",
-      "promptVi": "[Nghe phản xạ] Nghe câu phát âm tiếng Anh và chọn bản dịch tiếng Việt đúng nhất:",
+      "promptVi": "[Nghe phản xạ] Nghe câu phát âm tiếng Anh và chọn bản dịch tiếng Việt đúng:",
       "audioPrompt": "Will you be free this Saturday evening, Tom?",
-      "question": "Nhấn nút '🔊 Nghe audio' để nghe câu thoại và chọn nghĩa đúng:",
+      "question": "Nhấn nút '🔊 Nghe audio' và chọn nghĩa tiếng Việt đúng:",
       "options": [
-        "Thứ Bảy tuần này bạn có rảnh không, Tom?",
-        "Không, tôi sẽ không rảnh. Tôi sẽ ở tiệc sinh nhật người anh họ.",
+        "Hôm nay thời tiết rất đẹp.",
         "Bữa tiệc sẽ kéo dài muộn không?",
-        "Ngày mai trời sẽ mưa to."
+        "Thứ Bảy tuần này bạn có rảnh không, Tom?",
+        "Không, tôi sẽ không rảnh. Tôi sẽ ở tiệc sinh nhật người anh họ."
       ],
       "correctAnswer": "Thứ Bảy tuần này bạn có rảnh không, Tom?",
       "explanationVi": "Câu nghe được: \"Will you be free this Saturday evening, Tom?\" có nghĩa là: \"Thứ Bảy tuần này bạn có rảnh không, Tom?\"."
@@ -310,14 +316,14 @@
     {
       "id": "ex-011-22",
       "type": "listening_reflex",
-      "promptVi": "[Nghe phản xạ] Nghe câu phát âm tiếng Anh và chọn bản dịch tiếng Việt đúng nhất:",
+      "promptVi": "[Nghe phản xạ] Nghe câu phát âm tiếng Anh và chọn bản dịch tiếng Việt đúng:",
       "audioPrompt": "No, I won't be free. I will be at my cousin's birthday party.",
-      "question": "Nhấn nút '🔊 Nghe audio' để nghe câu thoại và chọn nghĩa đúng:",
+      "question": "Nhấn nút '🔊 Nghe audio' và chọn nghĩa tiếng Việt đúng:",
       "options": [
-        "Không, tôi sẽ không rảnh. Tôi sẽ ở tiệc sinh nhật người anh họ.",
         "Bữa tiệc sẽ kéo dài muộn không?",
         "Sẽ không quá muộn đâu. Tôi sẽ về nhà trước 9 giờ tối.",
-        "Ngày mai trời sẽ mưa to."
+        "Hôm nay thời tiết rất đẹp.",
+        "Không, tôi sẽ không rảnh. Tôi sẽ ở tiệc sinh nhật người anh họ."
       ],
       "correctAnswer": "Không, tôi sẽ không rảnh. Tôi sẽ ở tiệc sinh nhật người anh họ.",
       "explanationVi": "Câu nghe được: \"No, I won't be free. I will be at my cousin's birthday party.\" có nghĩa là: \"Không, tôi sẽ không rảnh. Tôi sẽ ở tiệc sinh nhật người anh họ.\"."
@@ -325,14 +331,14 @@
     {
       "id": "ex-011-23",
       "type": "listening_reflex",
-      "promptVi": "[Nghe phản xạ] Nghe câu phát âm tiếng Anh và chọn bản dịch tiếng Việt đúng nhất:",
+      "promptVi": "[Nghe phản xạ] Nghe câu phát âm tiếng Anh và chọn bản dịch tiếng Việt đúng:",
       "audioPrompt": "Will the party be late?",
-      "question": "Nhấn nút '🔊 Nghe audio' để nghe câu thoại và chọn nghĩa đúng:",
+      "question": "Nhấn nút '🔊 Nghe audio' và chọn nghĩa tiếng Việt đúng:",
       "options": [
         "Bữa tiệc sẽ kéo dài muộn không?",
+        "Hôm nay thời tiết rất đẹp.",
         "Sẽ không quá muộn đâu. Tôi sẽ về nhà trước 9 giờ tối.",
-        "Tuyệt! Bạn sẽ sẵn sàng cho chuyến đi vào Chủ nhật chứ?",
-        "Ngày mai trời sẽ mưa to."
+        "Tuyệt! Bạn sẽ sẵn sàng cho chuyến đi vào Chủ nhật chứ?"
       ],
       "correctAnswer": "Bữa tiệc sẽ kéo dài muộn không?",
       "explanationVi": "Câu nghe được: \"Will the party be late?\" có nghĩa là: \"Bữa tiệc sẽ kéo dài muộn không?\"."
@@ -340,14 +346,14 @@
     {
       "id": "ex-011-24",
       "type": "listening_reflex",
-      "promptVi": "[Nghe phản xạ] Nghe câu phát âm tiếng Anh và chọn bản dịch tiếng Việt đúng nhất:",
+      "promptVi": "[Nghe phản xạ] Nghe câu phát âm tiếng Anh và chọn bản dịch tiếng Việt đúng:",
       "audioPrompt": "It won't be too late. I will be back home by nine PM.",
-      "question": "Nhấn nút '🔊 Nghe audio' để nghe câu thoại và chọn nghĩa đúng:",
+      "question": "Nhấn nút '🔊 Nghe audio' và chọn nghĩa tiếng Việt đúng:",
       "options": [
+        "Hôm nay thời tiết rất đẹp.",
         "Sẽ không quá muộn đâu. Tôi sẽ về nhà trước 9 giờ tối.",
         "Tuyệt! Bạn sẽ sẵn sàng cho chuyến đi vào Chủ nhật chứ?",
-        "Có, tôi sẽ sẵn sàng và rất hào hứng!",
-        "Ngày mai trời sẽ mưa to."
+        "Có, tôi sẽ sẵn sàng và rất hào hứng!"
       ],
       "correctAnswer": "Sẽ không quá muộn đâu. Tôi sẽ về nhà trước 9 giờ tối.",
       "explanationVi": "Câu nghe được: \"It won't be too late. I will be back home by nine PM.\" có nghĩa là: \"Sẽ không quá muộn đâu. Tôi sẽ về nhà trước 9 giờ tối.\"."
@@ -355,64 +361,68 @@
     {
       "id": "ex-011-25",
       "type": "speaking_practice",
-      "promptVi": "[Luyện nói qua Micro] Nhấn nút '🎙️ Bắt đầu nói' và đọc to, rõ ràng câu tiếng Anh sau:",
+      "promptVi": "[Luyện nói qua Micro] Nhấn nút 'Bấm để Nói ngay' và phát âm câu sau:",
+      "question": "Luyện phát âm chuẩn câu: \"I won't be late tomorrow morning.\" (Tôi sẽ không đi trễ vào sáng mai.)",
       "targetSentence": "I won't be late tomorrow morning.",
       "hintVi": "Tôi sẽ không đi trễ vào sáng mai.",
-      "explanationVi": "Câu mục tiêu: \"I won't be late tomorrow morning.\" (Tôi sẽ không đi trễ vào sáng mai.). Luyện phát âm chuẩn xác từng âm tiết và ngữ điệu tự nhiên."
+      "explanationVi": "Mẫu câu chuẩn: \"I won't be late tomorrow morning.\" (Tôi sẽ không đi trễ vào sáng mai.). Luyện phát âm rõ ràng từng từ."
     },
     {
       "id": "ex-011-26",
       "type": "speaking_practice",
-      "promptVi": "[Luyện nói qua Micro] Nhấn nút '🎙️ Bắt đầu nói' và đọc to, rõ ràng câu tiếng Anh sau:",
+      "promptVi": "[Luyện nói qua Micro] Nhấn nút 'Bấm để Nói ngay' và phát âm câu sau:",
+      "question": "Luyện phát âm chuẩn câu: \"Will you be free this weekend?\" (Bạn có rảnh vào cuối tuần này không?)",
       "targetSentence": "Will you be free this weekend?",
       "hintVi": "Bạn có rảnh vào cuối tuần này không?",
-      "explanationVi": "Câu mục tiêu: \"Will you be free this weekend?\" (Bạn có rảnh vào cuối tuần này không?). Luyện phát âm chuẩn xác từng âm tiết và ngữ điệu tự nhiên."
+      "explanationVi": "Mẫu câu chuẩn: \"Will you be free this weekend?\" (Bạn có rảnh vào cuối tuần này không?). Luyện phát âm rõ ràng từng từ."
     },
     {
       "id": "ex-011-27",
       "type": "speaking_practice",
-      "promptVi": "[Luyện nói qua Micro] Nhấn nút '🎙️ Bắt đầu nói' và đọc to, rõ ràng câu tiếng Anh sau:",
+      "promptVi": "[Luyện nói qua Micro] Nhấn nút 'Bấm để Nói ngay' và phát âm câu sau:",
+      "question": "Luyện phát âm chuẩn câu: \"The exam won't be difficult.\" (Bài thi sẽ không khó đâu.)",
       "targetSentence": "The exam won't be difficult.",
       "hintVi": "Bài thi sẽ không khó đâu.",
-      "explanationVi": "Câu mục tiêu: \"The exam won't be difficult.\" (Bài thi sẽ không khó đâu.). Luyện phát âm chuẩn xác từng âm tiết và ngữ điệu tự nhiên."
+      "explanationVi": "Mẫu câu chuẩn: \"The exam won't be difficult.\" (Bài thi sẽ không khó đâu.). Luyện phát âm rõ ràng từng từ."
     },
     {
       "id": "ex-011-28",
       "type": "speaking_practice",
-      "promptVi": "[Luyện nói qua Micro] Nhấn nút '🎙️ Bắt đầu nói' và đọc to, rõ ràng câu tiếng Anh sau:",
+      "promptVi": "[Luyện nói qua Micro] Nhấn nút 'Bấm để Nói ngay' và phát âm câu sau:",
+      "question": "Luyện phát âm chuẩn câu: \"Will she be at the party tonight?\" (Tối nay cô ấy có ở bữa tiệc không?)",
       "targetSentence": "Will she be at the party tonight?",
       "hintVi": "Tối nay cô ấy có ở bữa tiệc không?",
-      "explanationVi": "Câu mục tiêu: \"Will she be at the party tonight?\" (Tối nay cô ấy có ở bữa tiệc không?). Luyện phát âm chuẩn xác từng âm tiết và ngữ điệu tự nhiên."
+      "explanationVi": "Mẫu câu chuẩn: \"Will she be at the party tonight?\" (Tối nay cô ấy có ở bữa tiệc không?). Luyện phát âm rõ ràng từng từ."
     },
     {
       "id": "ex-011-29",
       "type": "reading_comprehension",
-      "promptVi": "[Đọc hiểu đoạn văn 1] Đọc đoạn hội thoại mở đầu sau và trả lời câu hỏi:",
-      "passage": "Lisa (Nữ): \"Will you be free this Saturday evening, Tom?\"\nTom (Nam): \"No, I won't be free. I will be at my cousin's birthday party.\"\nLisa (Nữ): \"Will the party be late?\"\nTom (Nam): \"It won't be too late. I will be back home by nine PM.\"",
-      "question": "Câu hỏi: Trong đoạn hội thoại trên, các nhân vật đang thảo luận về chủ đề gì?",
+      "promptVi": "[Đọc hiểu đoạn văn] Đọc đoạn hội thoại sau và trả lời câu hỏi:",
+      "passage": "Lisa: \"Will you be free this Saturday evening, Tom?\"\nTom: \"No, I won't be free. I will be at my cousin's birthday party.\"\nLisa: \"Will the party be late?\"\nTom: \"It won't be too late. I will be back home by nine PM.\"",
+      "question": "Chủ đề trọng tâm của đoạn hội thoại trên là gì?",
       "options": [
-        "Động từ To Be — Tương lai Đơn (Phủ định Won't be & Câu hỏi Will you be...?)",
-        "Kế hoạch đi nghỉ dưỡng cuối tuần ở bãi biển",
-        "Mua sắm quần áo và đồ dùng thể thao",
-        "Cách làm món ăn truyền thống gia đình"
+        "Cách làm món ăn truyền thống",
+        "Lịch trình đi du lịch nghỉ mát cuối tuần",
+        "Kế hoạch đi mua sắm tại siêu thị",
+        "Động từ To Be — Tương lai Đơn (Phủ định Won't be & Câu hỏi Will you be...?)"
       ],
       "correctAnswer": "Động từ To Be — Tương lai Đơn (Phủ định Won't be & Câu hỏi Will you be...?)",
-      "explanationVi": "Đoạn hội thoại mở đầu được thiết kế để minh họa trực tiếp cho chủ điểm ngữ pháp: \"Bài 11: Động từ To Be — Tương lai Đơn (Phủ định Won't be & Câu hỏi Will you be...?)\"."
+      "explanationVi": "Đoạn hội thoại được thiết kế để minh họa trực tiếp cho chủ điểm \"Bài 11: Động từ To Be — Tương lai Đơn (Phủ định Won't be & Câu hỏi Will you be...?)\"."
     },
     {
       "id": "ex-011-30",
       "type": "reading_comprehension",
-      "promptVi": "[Đọc hiểu đoạn văn 2] Đọc phần tiếp theo của đoạn hội thoại và chọn nhận định đúng:",
-      "passage": "Lisa (Nữ): \"Great! Will you be ready for our trip on Sunday?\"\nTom (Nam): \"Yes, I will be ready and excited!\"",
-      "question": "Nhận định nào sau đây là ĐÚNG với nội dung đoạn hội thoại trên?",
+      "promptVi": "[Đọc hiểu đoạn văn] Đọc đoạn đối thoại tiếp theo và chọn nhận định đúng:",
+      "passage": "Lisa: \"Great! Will you be ready for our trip on Sunday?\"\nTom: \"Yes, I will be ready and excited!\"",
+      "question": "Nhận định nào sau đây là ĐÚNG về nội dung đoạn đối thoại?",
       "options": [
-        "Các câu hội thoại sử dụng đúng cấu trúc ngữ pháp \"Bài 11: Động từ To Be — Tương lai Đơn (Phủ định Won't be & Câu hỏi Will you be...?)\".",
-        "Các nhân vật không hiểu ý nhau và từ chối nói chuyện.",
-        "Đoạn hội thoại nói về việc chuyển nhà sang thành phố khác.",
-        "Cả hai nhân vật đều đang ở sân bay chuẩn bị lên máy bay."
+        "Cả hai nhân vật đang thảo luận về thời tiết ngày mai.",
+        "Các câu thoại sử dụng đúng cấu trúc \"Động từ To Be — Tương lai Đơn (Phủ định Won't be & Câu hỏi Will you be...?)\".",
+        "Hai nhân vật đang cãi nhau và không đồng ý hợp tác.",
+        "Cuộc trò chuyện diễn ra tại nhà ga xe lửa."
       ],
-      "correctAnswer": "Các câu hội thoại sử dụng đúng cấu trúc ngữ pháp \"Bài 11: Động từ To Be — Tương lai Đơn (Phủ định Won't be & Câu hỏi Will you be...?)\".",
-      "explanationVi": "Đoạn hội thoại thứ hai tiếp tục củng cố và ứng dụng các quy tắc ngữ pháp của \"Bài 11: Động từ To Be — Tương lai Đơn (Phủ định Won't be & Câu hỏi Will you be...?)\"."
+      "correctAnswer": "Các câu thoại sử dụng đúng cấu trúc \"Động từ To Be — Tương lai Đơn (Phủ định Won't be & Câu hỏi Will you be...?)\".",
+      "explanationVi": "Đoạn đối thoại ứng dụng chuẩn xác ngữ pháp của \"Bài 11: Động từ To Be — Tương lai Đơn (Phủ định Won't be & Câu hỏi Will you be...?)\"."
     }
   ]
 }

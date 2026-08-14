@@ -7,13 +7,13 @@
     {
       "id": "ex-022-01",
       "type": "multiple_choice",
-      "promptVi": "[Trắc nghiệm] Chọn từ/cụm từ đúng để hoàn thành câu (Khách sạn này thoải mái hơn khách sạn kia.):",
+      "promptVi": "[Trắc nghiệm ngữ pháp] Chọn từ đúng để hoàn thành câu (Khách sạn này thoải mái hơn khách sạn kia.):",
       "question": "This hotel is ___ comfortable than that one.",
       "options": [
-        "more",
-        "most",
         "er",
-        "as"
+        "as",
+        "most",
+        "more"
       ],
       "correctAnswer": "more",
       "explanationVi": "'comfortable' là tính từ dài nên so sánh hơn dùng 'more'."
@@ -21,13 +21,13 @@
     {
       "id": "ex-022-02",
       "type": "multiple_choice",
-      "promptVi": "[Trắc nghiệm] Chọn từ/cụm từ đúng để hoàn thành câu (Tiếng Anh của cô ấy tốt hơn tiếng Anh của tôi.):",
+      "promptVi": "[Trắc nghiệm ngữ pháp] Chọn từ đúng để hoàn thành câu (Tiếng Anh của cô ấy tốt hơn tiếng Anh của tôi.):",
       "question": "Her English is ___ than mine.",
       "options": [
-        "better",
+        "best",
         "gooder",
         "more good",
-        "best"
+        "better"
       ],
       "correctAnswer": "better",
       "explanationVi": "'good' chuyển thành 'better' trong so sánh hơn."
@@ -35,13 +35,13 @@
     {
       "id": "ex-022-03",
       "type": "multiple_choice",
-      "promptVi": "[Trắc nghiệm] Chọn từ/cụm từ đúng để hoàn thành câu (Bộ phim này là bộ phim thú vị nhất trong tất cả.):",
+      "promptVi": "[Trắc nghiệm ngữ pháp] Chọn từ đúng để hoàn thành câu (Bộ phim này là bộ phim thú vị nhất trong tất cả.):",
       "question": "This movie is the ___ interesting of all.",
       "options": [
         "most",
+        "very",
         "more",
-        "best",
-        "very"
+        "best"
       ],
       "correctAnswer": "most",
       "explanationVi": "So sánh nhất với tính từ dài 'interesting' dùng 'the most'."
@@ -49,12 +49,12 @@
     {
       "id": "ex-022-04",
       "type": "multiple_choice",
-      "promptVi": "[Trắc nghiệm] Chọn từ/cụm từ đúng để hoàn thành câu (Giao thông hôm nay tệ hơn hôm qua.):",
+      "promptVi": "[Trắc nghiệm ngữ pháp] Chọn từ đúng để hoàn thành câu (Giao thông hôm nay tệ hơn hôm qua.):",
       "question": "Today's traffic is ___ than yesterday's.",
       "options": [
         "worse",
-        "badder",
         "more bad",
+        "badder",
         "worst"
       ],
       "correctAnswer": "worse",
@@ -63,113 +63,115 @@
     {
       "id": "ex-022-05",
       "type": "multiple_choice",
-      "promptVi": "[Trắc nghiệm] Dịch câu sau sang tiếng Anh: \"Chúng ta nên đặt khách sạn nào cho chuyến đi mùa hè của mình vậy Elena?\"",
-      "question": "Chọn bản dịch chuẩn xác cho câu: \"Chúng ta nên đặt khách sạn nào cho chuyến đi mùa hè của mình vậy Elena?\"",
+      "promptVi": "[Phản xạ dịch thuật] Dịch câu sau sang tiếng Anh: \"Chúng ta nên đặt khách sạn nào cho chuyến đi mùa hè của mình vậy Elena?\"",
+      "question": "Chọn bản dịch chuẩn xác nhất cho câu: \"Chúng ta nên đặt khách sạn nào cho chuyến đi mùa hè của mình vậy Elena?\"",
       "options": [
         "Which hotel should we book for our summer trip, Elena?",
-        "Which hotel should we book for our summer trip, Elena?",
         "The resort by the ocean is more expensive, but it is much more comfortable.",
-        "I want to go to the park now."
+        "We are studying English today.",
+        "is"
       ],
       "correctAnswer": "Which hotel should we book for our summer trip, Elena?",
-      "explanationVi": "Câu đúng là \"Which hotel should we book for our summer trip, Elena?\" (Chúng ta nên đặt khách sạn nào cho chuyến đi mùa hè của mình vậy Elena?)."
+      "explanationVi": "Câu dịch chuẩn xác: \"Which hotel should we book for our summer trip, Elena?\" (Chúng ta nên đặt khách sạn nào cho chuyến đi mùa hè của mình vậy Elena?)."
     },
     {
       "id": "ex-022-06",
       "type": "multiple_choice",
-      "promptVi": "[Trắc nghiệm] Chọn câu trả lời hoặc cách diễn đạt phù hợp:",
-      "question": "Trong ngữ cảnh giao tiếp: \"Which hotel should we book for our summer trip, Elena?\", câu phản hồi tự nhiên là gì?",
+      "promptVi": "[Ngữ cảnh giao tiếp] Chọn câu phản hồi tự nhiên và đúng ngữ pháp:",
+      "question": "Khi đối phương nói: \"Which hotel should we book for our summer trip, Elena?\", câu phản hồi phù hợp là gì?",
       "options": [
+        "No, it was yesterday.",
+        "They are not in the office.",
         "The resort by the ocean is more expensive, but it is much more comfortable.",
-        "No, it is yesterday morning.",
-        "Yes, I will eat apple.",
-        "They are not at the library."
+        "Yes, I will eat it."
       ],
       "correctAnswer": "The resort by the ocean is more expensive, but it is much more comfortable.",
-      "explanationVi": "Phản hồi phù hợp: \"The resort by the ocean is more expensive, but it is much more comfortable.\" (Khu nghỉ dưỡng cạnh bờ biển đắt hơn, nhưng nó thoải mái hơn rất nhiều.)."
+      "explanationVi": "Phản hồi phù hợp trong bài: \"The resort by the ocean is more expensive, but it is much more comfortable.\" (Khu nghỉ dưỡng cạnh bờ biển đắt hơn, nhưng nó thoải mái hơn rất nhiều.)."
     },
     {
       "id": "ex-022-07",
       "type": "fill_blank",
-      "promptVi": "[Điền từ - (Dạng khẳng định)] Điền dạng đúng của động từ vào ô trống (Khách sạn này thoải mái hơn khách sạn kia.):",
+      "promptVi": "[Điền từ - Dạng KHẲNG ĐỊNH] Điền từ còn thiếu vào ô trống (Khách sạn này thoải mái hơn khách sạn kia.):",
       "question": "This hotel is ___ comfortable than that one.",
       "correctAnswer": "more",
       "options": [
-        "more",
-        "most",
         "er",
-        "as"
+        "more",
+        "as",
+        "most"
       ],
-      "explanationVi": "Đáp án chính xác: \"more\". Khách sạn này thoải mái hơn khách sạn kia.."
+      "explanationVi": "Đáp án đúng là \"more\". Câu hoàn chỉnh: \"This hotel is more comfortable than that one.\" (Khách sạn này thoải mái hơn khách sạn kia.)."
     },
     {
       "id": "ex-022-08",
       "type": "fill_blank",
-      "promptVi": "[Điền từ - (Dạng khẳng định)] Điền dạng đúng của động từ vào ô trống (Tiếng Anh của cô ấy tốt hơn tiếng Anh của tôi.):",
+      "promptVi": "[Điền từ - Dạng KHẲNG ĐỊNH] Điền từ còn thiếu vào ô trống (Tiếng Anh của cô ấy tốt hơn tiếng Anh của tôi.):",
       "question": "Her English is ___ than mine.",
       "correctAnswer": "better",
       "options": [
+        "best",
         "better",
         "gooder",
-        "more good",
-        "best"
+        "more good"
       ],
-      "explanationVi": "Đáp án chính xác: \"better\". Tiếng Anh của cô ấy tốt hơn tiếng Anh của tôi.."
+      "explanationVi": "Đáp án đúng là \"better\". Câu hoàn chỉnh: \"Her English is better than mine.\" (Tiếng Anh của cô ấy tốt hơn tiếng Anh của tôi.)."
     },
     {
       "id": "ex-022-09",
       "type": "fill_blank",
-      "promptVi": "[Điền từ - (Dạng khẳng định)] Điền dạng đúng của động từ vào ô trống (Bộ phim này là bộ phim thú vị nhất trong tất cả.):",
+      "promptVi": "[Điền từ - Dạng KHẲNG ĐỊNH] Điền từ còn thiếu vào ô trống (Bộ phim này là bộ phim thú vị nhất trong tất cả.):",
       "question": "This movie is the ___ interesting of all.",
       "correctAnswer": "most",
       "options": [
-        "most",
         "more",
-        "best",
-        "very"
+        "very",
+        "most",
+        "best"
       ],
-      "explanationVi": "Đáp án chính xác: \"most\". Bộ phim này là bộ phim thú vị nhất trong tất cả.."
+      "explanationVi": "Đáp án đúng là \"most\". Câu hoàn chỉnh: \"This movie is the most interesting of all.\" (Bộ phim này là bộ phim thú vị nhất trong tất cả.)."
     },
     {
       "id": "ex-022-10",
       "type": "fill_blank",
-      "promptVi": "[Điền từ - (Dạng khẳng định)] Điền dạng đúng của động từ vào ô trống (Giao thông hôm nay tệ hơn hôm qua.):",
+      "promptVi": "[Điền từ - Dạng KHẲNG ĐỊNH] Điền từ còn thiếu vào ô trống (Giao thông hôm nay tệ hơn hôm qua.):",
       "question": "Today's traffic is ___ than yesterday's.",
       "correctAnswer": "worse",
       "options": [
-        "worse",
         "badder",
+        "worse",
         "more bad",
         "worst"
       ],
-      "explanationVi": "Đáp án chính xác: \"worse\". Giao thông hôm nay tệ hơn hôm qua.."
+      "explanationVi": "Đáp án đúng là \"worse\". Câu hoàn chỉnh: \"Today's traffic is worse than yesterday's.\" (Giao thông hôm nay tệ hơn hôm qua.)."
     },
     {
       "id": "ex-022-11",
       "type": "fill_blank",
-      "promptVi": "[Điền từ - Dạng PHỦ ĐỊNH] Hoàn thành câu phủ định sau:",
-      "correctAnswer": "This hotel is not more comfortable than that one.",
+      "promptVi": "[Điền từ - Dạng PHỦ ĐỊNH] Điền trợ động từ/động từ tobe phủ định vào chỗ trống:",
+      "question": "This _____ not is more comfortable than that one.",
+      "correctAnswer": "hotel",
       "options": [
-        "This hotel is not more comfortable than that one.",
-        "This hotel is more comfortable than that one.",
-        "Not This hotel is more comfortable than that one.",
-        "This hotel is more comfortable than that one. no"
+        "hotel",
+        "am",
+        "is",
+        "are"
       ],
-      "explanationVi": "Dạng phủ định chuẩn: Thêm 'not' sau động từ chính."
+      "explanationVi": "Câu phủ định hoàn chỉnh: \"This hotel not is more comfortable than that one.\"."
     },
     {
       "id": "ex-022-12",
       "type": "sentence_scramble",
-      "promptVi": "[Sắp xếp câu] Xếp các khối từ thành câu hoàn chỉnh mang nghĩa: \"Khách sạn này thoải mái hơn khách sạn kia.\"",
+      "promptVi": "[Sắp xếp câu] Ghép các khối từ thành câu hoàn chỉnh mang nghĩa: \"Khách sạn này thoải mái hơn khách sạn kia.\"",
+      "question": "Sắp xếp các từ để tạo thành câu đúng: \"Khách sạn này thoải mái hơn khách sạn kia.\"",
       "words": [
         "more",
-        "that",
-        "than",
-        "one.",
-        "hotel",
-        "This",
+        "comfortable",
         "is",
-        "comfortable"
+        "This",
+        "than",
+        "that",
+        "one.",
+        "hotel"
       ],
       "correctSentence": "This hotel is more comfortable than that one.",
       "hintVi": "Khách sạn này thoải mái hơn khách sạn kia.",
@@ -178,14 +180,15 @@
     {
       "id": "ex-022-13",
       "type": "sentence_scramble",
-      "promptVi": "[Sắp xếp câu] Xếp các khối từ thành câu hoàn chỉnh mang nghĩa: \"Tiếng Anh của cô ấy tốt hơn tiếng Anh của tôi.\"",
+      "promptVi": "[Sắp xếp câu] Ghép các khối từ thành câu hoàn chỉnh mang nghĩa: \"Tiếng Anh của cô ấy tốt hơn tiếng Anh của tôi.\"",
+      "question": "Sắp xếp các từ để tạo thành câu đúng: \"Tiếng Anh của cô ấy tốt hơn tiếng Anh của tôi.\"",
       "words": [
-        "is",
         "Her",
-        "better",
-        "mine.",
+        "is",
         "English",
-        "than"
+        "than",
+        "mine.",
+        "better"
       ],
       "correctSentence": "Her English is better than mine.",
       "hintVi": "Tiếng Anh của cô ấy tốt hơn tiếng Anh của tôi.",
@@ -194,16 +197,17 @@
     {
       "id": "ex-022-14",
       "type": "sentence_scramble",
-      "promptVi": "[Sắp xếp câu] Xếp các khối từ thành câu hoàn chỉnh mang nghĩa: \"Bộ phim này là bộ phim thú vị nhất trong tất cả.\"",
+      "promptVi": "[Sắp xếp câu] Ghép các khối từ thành câu hoàn chỉnh mang nghĩa: \"Bộ phim này là bộ phim thú vị nhất trong tất cả.\"",
+      "question": "Sắp xếp các từ để tạo thành câu đúng: \"Bộ phim này là bộ phim thú vị nhất trong tất cả.\"",
       "words": [
-        "all.",
-        "most",
-        "This",
-        "the",
         "is",
+        "interesting",
         "of",
-        "movie",
-        "interesting"
+        "This",
+        "all.",
+        "the",
+        "most",
+        "movie"
       ],
       "correctSentence": "This movie is the most interesting of all.",
       "hintVi": "Bộ phim này là bộ phim thú vị nhất trong tất cả.",
@@ -212,13 +216,14 @@
     {
       "id": "ex-022-15",
       "type": "sentence_scramble",
-      "promptVi": "[Sắp xếp câu] Xếp các khối từ thành câu hoàn chỉnh mang nghĩa: \"Giao thông hôm nay tệ hơn hôm qua.\"",
+      "promptVi": "[Sắp xếp câu] Ghép các khối từ thành câu hoàn chỉnh mang nghĩa: \"Giao thông hôm nay tệ hơn hôm qua.\"",
+      "question": "Sắp xếp các từ để tạo thành câu đúng: \"Giao thông hôm nay tệ hơn hôm qua.\"",
       "words": [
+        "yesterday's.",
         "than",
         "is",
-        "worse",
-        "yesterday's.",
         "traffic",
+        "worse",
         "Today's"
       ],
       "correctSentence": "Today's traffic is worse than yesterday's.",
@@ -228,17 +233,18 @@
     {
       "id": "ex-022-16",
       "type": "sentence_scramble",
-      "promptVi": "[Sắp xếp câu] Xếp các từ thành câu hội thoại: \"Khách sạn ở trung tâm có tốt hơn khách sạn boutique trên núi không?\"",
+      "promptVi": "[Sắp xếp câu] Ghép các từ thành câu hội thoại: \"Khách sạn ở trung tâm có tốt hơn khách sạn boutique trên núi không?\"",
+      "question": "Sắp xếp các từ để tạo thành câu thoại: \"Khách sạn ở trung tâm có tốt hơn khách sạn boutique trên núi không?\"",
       "words": [
-        "downtown",
-        "better",
-        "Is",
-        "boutique",
         "the",
         "mountain",
-        "the",
         "than",
+        "boutique",
+        "Is",
+        "the",
         "hotel",
+        "better",
+        "downtown",
         "hotel"
       ],
       "correctSentence": "Is the downtown hotel better than the mountain boutique hotel?",
@@ -248,70 +254,70 @@
     {
       "id": "ex-022-17",
       "type": "find_error",
-      "promptVi": "[Tìm lỗi sai & Chọn câu đúng] Câu nào dưới đây có cấu trúc ngữ pháp HOÀN TOÀN ĐÚNG?",
-      "question": "Chủ điểm \"Bài 22: So sánh Tính từ — Dài hơn & Dạng Bất quy tắc nâng cao\": Chọn câu CHÍNH XÁC:",
+      "promptVi": "[Nhận diện cấu trúc chuẩn] Chọn câu có cấu trúc ngữ pháp HOÀN TOÀN ĐÚNG:",
+      "question": "Dựa vào chủ điểm \"Bài 22: So sánh Tính từ — Dài hơn & Dạng Bất quy tắc nâng cao\", câu nào sau đây CHÍNH XÁC?",
       "options": [
+        "is",
         "This hotel is more comfortable than that one.",
-        "This hotel be more comfortable than that one.",
-        "This hotel are not is more comfortable than that one.",
-        "one. that than comfortable more is hotel This"
+        "one. that than comfortable more is hotel This",
+        "This hotel be more comfortable than that one."
       ],
       "correctAnswer": "This hotel is more comfortable than that one.",
-      "explanationVi": "Câu chuẩn xác là: \"This hotel is more comfortable than that one.\" (Khách sạn này thoải mái hơn khách sạn kia.)."
+      "explanationVi": "Cấu trúc chuẩn xác là: \"This hotel is more comfortable than that one.\" (Khách sạn này thoải mái hơn khách sạn kia.)."
     },
     {
       "id": "ex-022-18",
       "type": "find_error",
-      "promptVi": "[Tìm lỗi sai & Chọn câu đúng] Câu nào dưới đây có cấu trúc ngữ pháp HOÀN TOÀN ĐÚNG?",
-      "question": "Chủ điểm \"Bài 22: So sánh Tính từ — Dài hơn & Dạng Bất quy tắc nâng cao\": Chọn câu CHÍNH XÁC:",
+      "promptVi": "[Nhận diện cấu trúc chuẩn] Chọn câu có cấu trúc ngữ pháp HOÀN TOÀN ĐÚNG:",
+      "question": "Dựa vào chủ điểm \"Bài 22: So sánh Tính từ — Dài hơn & Dạng Bất quy tắc nâng cao\", câu nào sau đây CHÍNH XÁC?",
       "options": [
-        "Her English is better than mine.",
         "Her English be better than mine.",
-        "Her English are not is better than mine.",
-        "mine. than better is English Her"
+        "mine. than better is English Her",
+        "is",
+        "Her English is better than mine."
       ],
       "correctAnswer": "Her English is better than mine.",
-      "explanationVi": "Câu chuẩn xác là: \"Her English is better than mine.\" (Tiếng Anh của cô ấy tốt hơn tiếng Anh của tôi.)."
+      "explanationVi": "Cấu trúc chuẩn xác là: \"Her English is better than mine.\" (Tiếng Anh của cô ấy tốt hơn tiếng Anh của tôi.)."
     },
     {
       "id": "ex-022-19",
       "type": "find_error",
-      "promptVi": "[Tìm lỗi sai & Chọn câu đúng] Câu nào dưới đây có cấu trúc ngữ pháp HOÀN TOÀN ĐÚNG?",
-      "question": "Chủ điểm \"Bài 22: So sánh Tính từ — Dài hơn & Dạng Bất quy tắc nâng cao\": Chọn câu CHÍNH XÁC:",
+      "promptVi": "[Nhận diện cấu trúc chuẩn] Chọn câu có cấu trúc ngữ pháp HOÀN TOÀN ĐÚNG:",
+      "question": "Dựa vào chủ điểm \"Bài 22: So sánh Tính từ — Dài hơn & Dạng Bất quy tắc nâng cao\", câu nào sau đây CHÍNH XÁC?",
       "options": [
-        "This movie is the most interesting of all.",
+        "is",
         "This movie be the most interesting of all.",
-        "This movie are not is the most interesting of all.",
+        "This movie is the most interesting of all.",
         "all. of interesting most the is movie This"
       ],
       "correctAnswer": "This movie is the most interesting of all.",
-      "explanationVi": "Câu chuẩn xác là: \"This movie is the most interesting of all.\" (Bộ phim này là bộ phim thú vị nhất trong tất cả.)."
+      "explanationVi": "Cấu trúc chuẩn xác là: \"This movie is the most interesting of all.\" (Bộ phim này là bộ phim thú vị nhất trong tất cả.)."
     },
     {
       "id": "ex-022-20",
       "type": "find_error",
-      "promptVi": "[Tìm lỗi sai & Chọn câu đúng] Câu nào dưới đây có cấu trúc ngữ pháp HOÀN TOÀN ĐÚNG?",
-      "question": "Chủ điểm \"Bài 22: So sánh Tính từ — Dài hơn & Dạng Bất quy tắc nâng cao\": Chọn câu CHÍNH XÁC:",
+      "promptVi": "[Nhận diện cấu trúc chuẩn] Chọn câu có cấu trúc ngữ pháp HOÀN TOÀN ĐÚNG:",
+      "question": "Dựa vào chủ điểm \"Bài 22: So sánh Tính từ — Dài hơn & Dạng Bất quy tắc nâng cao\", câu nào sau đây CHÍNH XÁC?",
       "options": [
-        "Today's traffic is worse than yesterday's.",
         "Today's traffic be worse than yesterday's.",
-        "Today's traffic are not is worse than yesterday's.",
-        "yesterday's. than worse is traffic Today's"
+        "Today's traffic is worse than yesterday's.",
+        "yesterday's. than worse is traffic Today's",
+        "is"
       ],
       "correctAnswer": "Today's traffic is worse than yesterday's.",
-      "explanationVi": "Câu chuẩn xác là: \"Today's traffic is worse than yesterday's.\" (Giao thông hôm nay tệ hơn hôm qua.)."
+      "explanationVi": "Cấu trúc chuẩn xác là: \"Today's traffic is worse than yesterday's.\" (Giao thông hôm nay tệ hơn hôm qua.)."
     },
     {
       "id": "ex-022-21",
       "type": "listening_reflex",
-      "promptVi": "[Nghe phản xạ] Nghe câu phát âm tiếng Anh và chọn bản dịch tiếng Việt đúng nhất:",
+      "promptVi": "[Nghe phản xạ] Nghe câu phát âm tiếng Anh và chọn bản dịch tiếng Việt đúng:",
       "audioPrompt": "Which hotel should we book for our summer trip, Elena?",
-      "question": "Nhấn nút '🔊 Nghe audio' để nghe câu thoại và chọn nghĩa đúng:",
+      "question": "Nhấn nút '🔊 Nghe audio' và chọn nghĩa tiếng Việt đúng:",
       "options": [
-        "Chúng ta nên đặt khách sạn nào cho chuyến đi mùa hè của mình vậy Elena?",
-        "Khu nghỉ dưỡng cạnh bờ biển đắt hơn, nhưng nó thoải mái hơn rất nhiều.",
         "Khách sạn ở trung tâm có tốt hơn khách sạn boutique trên núi không?",
-        "Ngày mai trời sẽ mưa to."
+        "Hôm nay thời tiết rất đẹp.",
+        "Chúng ta nên đặt khách sạn nào cho chuyến đi mùa hè của mình vậy Elena?",
+        "Khu nghỉ dưỡng cạnh bờ biển đắt hơn, nhưng nó thoải mái hơn rất nhiều."
       ],
       "correctAnswer": "Chúng ta nên đặt khách sạn nào cho chuyến đi mùa hè của mình vậy Elena?",
       "explanationVi": "Câu nghe được: \"Which hotel should we book for our summer trip, Elena?\" có nghĩa là: \"Chúng ta nên đặt khách sạn nào cho chuyến đi mùa hè của mình vậy Elena?\"."
@@ -319,14 +325,14 @@
     {
       "id": "ex-022-22",
       "type": "listening_reflex",
-      "promptVi": "[Nghe phản xạ] Nghe câu phát âm tiếng Anh và chọn bản dịch tiếng Việt đúng nhất:",
+      "promptVi": "[Nghe phản xạ] Nghe câu phát âm tiếng Anh và chọn bản dịch tiếng Việt đúng:",
       "audioPrompt": "The resort by the ocean is more expensive, but it is much more comfortable.",
-      "question": "Nhấn nút '🔊 Nghe audio' để nghe câu thoại và chọn nghĩa đúng:",
+      "question": "Nhấn nút '🔊 Nghe audio' và chọn nghĩa tiếng Việt đúng:",
       "options": [
         "Khu nghỉ dưỡng cạnh bờ biển đắt hơn, nhưng nó thoải mái hơn rất nhiều.",
+        "Hôm nay thời tiết rất đẹp.",
         "Khách sạn ở trung tâm có tốt hơn khách sạn boutique trên núi không?",
-        "Khách sạn trung tâm có đánh giá của khách hàng tốt hơn và vị trí thuận tiện hơn.",
-        "Ngày mai trời sẽ mưa to."
+        "Khách sạn trung tâm có đánh giá của khách hàng tốt hơn và vị trí thuận tiện hơn."
       ],
       "correctAnswer": "Khu nghỉ dưỡng cạnh bờ biển đắt hơn, nhưng nó thoải mái hơn rất nhiều.",
       "explanationVi": "Câu nghe được: \"The resort by the ocean is more expensive, but it is much more comfortable.\" có nghĩa là: \"Khu nghỉ dưỡng cạnh bờ biển đắt hơn, nhưng nó thoải mái hơn rất nhiều.\"."
@@ -334,14 +340,14 @@
     {
       "id": "ex-022-23",
       "type": "listening_reflex",
-      "promptVi": "[Nghe phản xạ] Nghe câu phát âm tiếng Anh và chọn bản dịch tiếng Việt đúng nhất:",
+      "promptVi": "[Nghe phản xạ] Nghe câu phát âm tiếng Anh và chọn bản dịch tiếng Việt đúng:",
       "audioPrompt": "Is the downtown hotel better than the mountain boutique hotel?",
-      "question": "Nhấn nút '🔊 Nghe audio' để nghe câu thoại và chọn nghĩa đúng:",
+      "question": "Nhấn nút '🔊 Nghe audio' và chọn nghĩa tiếng Việt đúng:",
       "options": [
         "Khách sạn ở trung tâm có tốt hơn khách sạn boutique trên núi không?",
-        "Khách sạn trung tâm có đánh giá của khách hàng tốt hơn và vị trí thuận tiện hơn.",
         "Điểm đến đẹp nhất ở tỉnh ven biển này là gì?",
-        "Ngày mai trời sẽ mưa to."
+        "Hôm nay thời tiết rất đẹp.",
+        "Khách sạn trung tâm có đánh giá của khách hàng tốt hơn và vị trí thuận tiện hơn."
       ],
       "correctAnswer": "Khách sạn ở trung tâm có tốt hơn khách sạn boutique trên núi không?",
       "explanationVi": "Câu nghe được: \"Is the downtown hotel better than the mountain boutique hotel?\" có nghĩa là: \"Khách sạn ở trung tâm có tốt hơn khách sạn boutique trên núi không?\"."
@@ -349,14 +355,14 @@
     {
       "id": "ex-022-24",
       "type": "listening_reflex",
-      "promptVi": "[Nghe phản xạ] Nghe câu phát âm tiếng Anh và chọn bản dịch tiếng Việt đúng nhất:",
+      "promptVi": "[Nghe phản xạ] Nghe câu phát âm tiếng Anh và chọn bản dịch tiếng Việt đúng:",
       "audioPrompt": "The downtown hotel has better customer reviews and a more convenient location.",
-      "question": "Nhấn nút '🔊 Nghe audio' để nghe câu thoại và chọn nghĩa đúng:",
+      "question": "Nhấn nút '🔊 Nghe audio' và chọn nghĩa tiếng Việt đúng:",
       "options": [
-        "Khách sạn trung tâm có đánh giá của khách hàng tốt hơn và vị trí thuận tiện hơn.",
-        "Điểm đến đẹp nhất ở tỉnh ven biển này là gì?",
         "Vịnh Ngọc Bích chắc chắn là điểm đến đẹp nhất và được yêu thích nhất đối với du khách.",
-        "Ngày mai trời sẽ mưa to."
+        "Khách sạn trung tâm có đánh giá của khách hàng tốt hơn và vị trí thuận tiện hơn.",
+        "Hôm nay thời tiết rất đẹp.",
+        "Điểm đến đẹp nhất ở tỉnh ven biển này là gì?"
       ],
       "correctAnswer": "Khách sạn trung tâm có đánh giá của khách hàng tốt hơn và vị trí thuận tiện hơn.",
       "explanationVi": "Câu nghe được: \"The downtown hotel has better customer reviews and a more convenient location.\" có nghĩa là: \"Khách sạn trung tâm có đánh giá của khách hàng tốt hơn và vị trí thuận tiện hơn.\"."
@@ -364,64 +370,68 @@
     {
       "id": "ex-022-25",
       "type": "speaking_practice",
-      "promptVi": "[Luyện nói qua Micro] Nhấn nút '🎙️ Bắt đầu nói' và đọc to, rõ ràng câu tiếng Anh sau:",
+      "promptVi": "[Luyện nói qua Micro] Nhấn nút 'Bấm để Nói ngay' và phát âm câu sau:",
+      "question": "Luyện phát âm chuẩn câu: \"This hotel is more comfortable than that one.\" (Khách sạn này thoải mái hơn khách sạn kia.)",
       "targetSentence": "This hotel is more comfortable than that one.",
       "hintVi": "Khách sạn này thoải mái hơn khách sạn kia.",
-      "explanationVi": "Câu mục tiêu: \"This hotel is more comfortable than that one.\" (Khách sạn này thoải mái hơn khách sạn kia.). Luyện phát âm chuẩn xác từng âm tiết và ngữ điệu tự nhiên."
+      "explanationVi": "Mẫu câu chuẩn: \"This hotel is more comfortable than that one.\" (Khách sạn này thoải mái hơn khách sạn kia.). Luyện phát âm rõ ràng từng từ."
     },
     {
       "id": "ex-022-26",
       "type": "speaking_practice",
-      "promptVi": "[Luyện nói qua Micro] Nhấn nút '🎙️ Bắt đầu nói' và đọc to, rõ ràng câu tiếng Anh sau:",
+      "promptVi": "[Luyện nói qua Micro] Nhấn nút 'Bấm để Nói ngay' và phát âm câu sau:",
+      "question": "Luyện phát âm chuẩn câu: \"Her English is better than mine.\" (Tiếng Anh của cô ấy tốt hơn tiếng Anh của tôi.)",
       "targetSentence": "Her English is better than mine.",
       "hintVi": "Tiếng Anh của cô ấy tốt hơn tiếng Anh của tôi.",
-      "explanationVi": "Câu mục tiêu: \"Her English is better than mine.\" (Tiếng Anh của cô ấy tốt hơn tiếng Anh của tôi.). Luyện phát âm chuẩn xác từng âm tiết và ngữ điệu tự nhiên."
+      "explanationVi": "Mẫu câu chuẩn: \"Her English is better than mine.\" (Tiếng Anh của cô ấy tốt hơn tiếng Anh của tôi.). Luyện phát âm rõ ràng từng từ."
     },
     {
       "id": "ex-022-27",
       "type": "speaking_practice",
-      "promptVi": "[Luyện nói qua Micro] Nhấn nút '🎙️ Bắt đầu nói' và đọc to, rõ ràng câu tiếng Anh sau:",
+      "promptVi": "[Luyện nói qua Micro] Nhấn nút 'Bấm để Nói ngay' và phát âm câu sau:",
+      "question": "Luyện phát âm chuẩn câu: \"This movie is the most interesting of all.\" (Bộ phim này là bộ phim thú vị nhất trong tất cả.)",
       "targetSentence": "This movie is the most interesting of all.",
       "hintVi": "Bộ phim này là bộ phim thú vị nhất trong tất cả.",
-      "explanationVi": "Câu mục tiêu: \"This movie is the most interesting of all.\" (Bộ phim này là bộ phim thú vị nhất trong tất cả.). Luyện phát âm chuẩn xác từng âm tiết và ngữ điệu tự nhiên."
+      "explanationVi": "Mẫu câu chuẩn: \"This movie is the most interesting of all.\" (Bộ phim này là bộ phim thú vị nhất trong tất cả.). Luyện phát âm rõ ràng từng từ."
     },
     {
       "id": "ex-022-28",
       "type": "speaking_practice",
-      "promptVi": "[Luyện nói qua Micro] Nhấn nút '🎙️ Bắt đầu nói' và đọc to, rõ ràng câu tiếng Anh sau:",
+      "promptVi": "[Luyện nói qua Micro] Nhấn nút 'Bấm để Nói ngay' và phát âm câu sau:",
+      "question": "Luyện phát âm chuẩn câu: \"Today's traffic is worse than yesterday's.\" (Giao thông hôm nay tệ hơn hôm qua.)",
       "targetSentence": "Today's traffic is worse than yesterday's.",
       "hintVi": "Giao thông hôm nay tệ hơn hôm qua.",
-      "explanationVi": "Câu mục tiêu: \"Today's traffic is worse than yesterday's.\" (Giao thông hôm nay tệ hơn hôm qua.). Luyện phát âm chuẩn xác từng âm tiết và ngữ điệu tự nhiên."
+      "explanationVi": "Mẫu câu chuẩn: \"Today's traffic is worse than yesterday's.\" (Giao thông hôm nay tệ hơn hôm qua.). Luyện phát âm rõ ràng từng từ."
     },
     {
       "id": "ex-022-29",
       "type": "reading_comprehension",
-      "promptVi": "[Đọc hiểu đoạn văn 1] Đọc đoạn hội thoại mở đầu sau và trả lời câu hỏi:",
-      "passage": "Walter (Nam): \"Which hotel should we book for our summer trip, Elena?\"\nElena (Nữ): \"The resort by the ocean is more expensive, but it is much more comfortable.\"\nWalter (Nam): \"Is the downtown hotel better than the mountain boutique hotel?\"\nElena (Nữ): \"The downtown hotel has better customer reviews and a more convenient location.\"",
-      "question": "Câu hỏi: Trong đoạn hội thoại trên, các nhân vật đang thảo luận về chủ đề gì?",
+      "promptVi": "[Đọc hiểu đoạn văn] Đọc đoạn hội thoại sau và trả lời câu hỏi:",
+      "passage": "Walter: \"Which hotel should we book for our summer trip, Elena?\"\nElena: \"The resort by the ocean is more expensive, but it is much more comfortable.\"\nWalter: \"Is the downtown hotel better than the mountain boutique hotel?\"\nElena: \"The downtown hotel has better customer reviews and a more convenient location.\"",
+      "question": "Chủ đề trọng tâm của đoạn hội thoại trên là gì?",
       "options": [
+        "Lịch trình đi du lịch nghỉ mát cuối tuần",
+        "Kế hoạch đi mua sắm tại siêu thị",
         "So sánh Tính từ — Dài hơn & Dạng Bất quy tắc nâng cao",
-        "Kế hoạch đi nghỉ dưỡng cuối tuần ở bãi biển",
-        "Mua sắm quần áo và đồ dùng thể thao",
-        "Cách làm món ăn truyền thống gia đình"
+        "Cách làm món ăn truyền thống"
       ],
       "correctAnswer": "So sánh Tính từ — Dài hơn & Dạng Bất quy tắc nâng cao",
-      "explanationVi": "Đoạn hội thoại mở đầu được thiết kế để minh họa trực tiếp cho chủ điểm ngữ pháp: \"Bài 22: So sánh Tính từ — Dài hơn & Dạng Bất quy tắc nâng cao\"."
+      "explanationVi": "Đoạn hội thoại được thiết kế để minh họa trực tiếp cho chủ điểm \"Bài 22: So sánh Tính từ — Dài hơn & Dạng Bất quy tắc nâng cao\"."
     },
     {
       "id": "ex-022-30",
       "type": "reading_comprehension",
-      "promptVi": "[Đọc hiểu đoạn văn 2] Đọc phần tiếp theo của đoạn hội thoại và chọn nhận định đúng:",
-      "passage": "Walter (Nam): \"What is the most beautiful destination in this coastal province?\"\nElena (Nữ): \"Emerald Bay is definitely the most beautiful and popular spot for tourists.\"\nWalter (Nam): \"Was the traffic worse this year compared to last year?\"\nElena (Nữ): \"Yes, peak season traffic is worse than usual, but the new expressway helps.\"",
-      "question": "Nhận định nào sau đây là ĐÚNG với nội dung đoạn hội thoại trên?",
+      "promptVi": "[Đọc hiểu đoạn văn] Đọc đoạn đối thoại tiếp theo và chọn nhận định đúng:",
+      "passage": "Walter: \"What is the most beautiful destination in this coastal province?\"\nElena: \"Emerald Bay is definitely the most beautiful and popular spot for tourists.\"\nWalter: \"Was the traffic worse this year compared to last year?\"\nElena: \"Yes, peak season traffic is worse than usual, but the new expressway helps.\"",
+      "question": "Nhận định nào sau đây là ĐÚNG về nội dung đoạn đối thoại?",
       "options": [
-        "Các câu hội thoại sử dụng đúng cấu trúc ngữ pháp \"Bài 22: So sánh Tính từ — Dài hơn & Dạng Bất quy tắc nâng cao\".",
-        "Các nhân vật không hiểu ý nhau và từ chối nói chuyện.",
-        "Đoạn hội thoại nói về việc chuyển nhà sang thành phố khác.",
-        "Cả hai nhân vật đều đang ở sân bay chuẩn bị lên máy bay."
+        "Các câu thoại sử dụng đúng cấu trúc \"So sánh Tính từ — Dài hơn & Dạng Bất quy tắc nâng cao\".",
+        "Hai nhân vật đang cãi nhau và không đồng ý hợp tác.",
+        "Cả hai nhân vật đang thảo luận về thời tiết ngày mai.",
+        "Cuộc trò chuyện diễn ra tại nhà ga xe lửa."
       ],
-      "correctAnswer": "Các câu hội thoại sử dụng đúng cấu trúc ngữ pháp \"Bài 22: So sánh Tính từ — Dài hơn & Dạng Bất quy tắc nâng cao\".",
-      "explanationVi": "Đoạn hội thoại thứ hai tiếp tục củng cố và ứng dụng các quy tắc ngữ pháp của \"Bài 22: So sánh Tính từ — Dài hơn & Dạng Bất quy tắc nâng cao\"."
+      "correctAnswer": "Các câu thoại sử dụng đúng cấu trúc \"So sánh Tính từ — Dài hơn & Dạng Bất quy tắc nâng cao\".",
+      "explanationVi": "Đoạn đối thoại ứng dụng chuẩn xác ngữ pháp của \"Bài 22: So sánh Tính từ — Dài hơn & Dạng Bất quy tắc nâng cao\"."
     }
   ]
 }

@@ -7,13 +7,13 @@
     {
       "id": "ex-088-01",
       "type": "multiple_choice",
-      "promptVi": "[Trắc nghiệm] Chọn từ/cụm từ đúng để hoàn thành câu (Không có giải pháp đơn giản nào cho vấn đề phức tạp này.):",
+      "promptVi": "[Trắc nghiệm ngữ pháp] Chọn từ đúng để hoàn thành câu (Không có giải pháp đơn giản nào cho vấn đề phức tạp này.):",
       "question": "There is no simple solution ___ this complex problem.",
       "options": [
-        "to",
         "for",
-        "with",
-        "of"
+        "to",
+        "of",
+        "with"
       ],
       "correctAnswer": "to",
       "explanationVi": "Danh từ 'solution' luôn đi kèm với giới từ 'to'."
@@ -21,11 +21,11 @@
     {
       "id": "ex-088-02",
       "type": "multiple_choice",
-      "promptVi": "[Trắc nghiệm] Chọn từ/cụm từ đúng để hoàn thành câu (Tôi sẽ gặp bạn vào sáng thứ Hai tới.):",
+      "promptVi": "[Trắc nghiệm ngữ pháp] Chọn từ đúng để hoàn thành câu (Tôi sẽ gặp bạn vào sáng thứ Hai tới.):",
       "question": "I will see you ___ Monday morning.",
       "options": [
-        "next",
         "on next",
+        "next",
         "at next",
         "in next"
       ],
@@ -35,13 +35,13 @@
     {
       "id": "ex-088-03",
       "type": "multiple_choice",
-      "promptVi": "[Trắc nghiệm] Chọn từ/cụm từ đúng để hoàn thành câu (Chúng ta phải thảo luận kỹ lưỡng về bản đề xuất.):",
+      "promptVi": "[Trắc nghiệm ngữ pháp] Chọn từ đúng để hoàn thành câu (Chúng ta phải thảo luận kỹ lưỡng về bản đề xuất.):",
       "question": "We must discuss ___ the proposal thoroughly.",
       "options": [
-        "",
+        "must",
+        "on",
         "about",
-        "of",
-        "on"
+        "of"
       ],
       "correctAnswer": "must",
       "explanationVi": "'discuss' là ngoại động từ đi trực tiếp với tân ngữ, không dùng giới từ."
@@ -49,13 +49,13 @@
     {
       "id": "ex-088-04",
       "type": "multiple_choice",
-      "promptVi": "[Trắc nghiệm] Chọn từ/cụm từ đúng để hoàn thành câu (Cô ấy đã đến sân bay đúng giờ.):",
+      "promptVi": "[Trắc nghiệm ngữ pháp] Chọn từ đúng để hoàn thành câu (Cô ấy đã đến sân bay đúng giờ.):",
       "question": "She arrived ___ the airport on time.",
       "options": [
-        "at",
+        "on",
         "in",
-        "to",
-        "on"
+        "at",
+        "to"
       ],
       "correctAnswer": "at",
       "explanationVi": "Đến một địa điểm cụ thể (sân bay, nhà ga, trường học) dùng 'arrive at'."
@@ -63,114 +63,116 @@
     {
       "id": "ex-088-05",
       "type": "multiple_choice",
-      "promptVi": "[Trắc nghiệm] Dịch câu sau sang tiếng Anh: \"Chào buổi sáng Giám đốc Harris. Hãy cùng xác nhận lịch trình của ông cho Hội nghị Thượng đỉnh Trí tuệ Nhân tạo Thế giới vào thứ Hai tới. (next Monday - KHÔNG DÙNG ON)\"",
-      "question": "Chọn bản dịch chuẩn xác cho câu: \"Chào buổi sáng Giám đốc Harris. Hãy cùng xác nhận lịch trình của ông cho Hội nghị Thượng đỉnh Trí tuệ Nhân tạo Thế giới vào thứ Hai tới. (next Monday - KHÔNG DÙNG ON)\"",
+      "promptVi": "[Phản xạ dịch thuật] Dịch câu sau sang tiếng Anh: \"Chào buổi sáng Giám đốc Harris. Hãy cùng xác nhận lịch trình của ông cho Hội nghị Thượng đỉnh Trí tuệ Nhân tạo Thế giới vào thứ Hai tới. (next Monday - KHÔNG DÙNG ON)\"",
+      "question": "Chọn bản dịch chuẩn xác nhất cho câu: \"Chào buổi sáng Giám đốc Harris. Hãy cùng xác nhận lịch trình của ông cho Hội nghị Thượng đỉnh Trí tuệ Nhân tạo Thế giới vào thứ Hai tới. (next Monday - KHÔNG DÙNG ON)\"",
       "options": [
-        "Good morning, Director Harris. Let's confirm your itinerary for the World Artificial Intelligence Summit next Monday.",
-        "Good morning, Director Harris. Let's confirm your itinerary for the World Artificial Intelligence Summit next Monday.",
         "Thank you, Lisa. Are we arriving in Zurich at 9 AM on October 15th?",
-        "I want to go to the park now."
+        "is",
+        "Good morning, Director Harris. Let's confirm your itinerary for the World Artificial Intelligence Summit next Monday.",
+        "We are studying English today."
       ],
       "correctAnswer": "Good morning, Director Harris. Let's confirm your itinerary for the World Artificial Intelligence Summit next Monday.",
-      "explanationVi": "Câu đúng là \"Good morning, Director Harris. Let's confirm your itinerary for the World Artificial Intelligence Summit next Monday.\" (Chào buổi sáng Giám đốc Harris. Hãy cùng xác nhận lịch trình của ông cho Hội nghị Thượng đỉnh Trí tuệ Nhân tạo Thế giới vào thứ Hai tới. (next Monday - KHÔNG DÙNG ON))."
+      "explanationVi": "Câu dịch chuẩn xác: \"Good morning, Director Harris. Let's confirm your itinerary for the World Artificial Intelligence Summit next Monday.\" (Chào buổi sáng Giám đốc Harris. Hãy cùng xác nhận lịch trình của ông cho Hội nghị Thượng đỉnh Trí tuệ Nhân tạo Thế giới vào thứ Hai tới. (next Monday - KHÔNG DÙNG ON))."
     },
     {
       "id": "ex-088-06",
       "type": "multiple_choice",
-      "promptVi": "[Trắc nghiệm] Chọn câu trả lời hoặc cách diễn đạt phù hợp:",
-      "question": "Trong ngữ cảnh giao tiếp: \"Good morning, Director Harris. Let's confirm your itinerary for the World Artificial Intelligence Summit next Monday.\", câu phản hồi tự nhiên là gì?",
+      "promptVi": "[Ngữ cảnh giao tiếp] Chọn câu phản hồi tự nhiên và đúng ngữ pháp:",
+      "question": "Khi đối phương nói: \"Good morning, Director Harris. Let's confirm your itinerary for the World Artificial Intelligence Summit next Monday.\", câu phản hồi phù hợp là gì?",
       "options": [
         "Thank you, Lisa. Are we arriving in Zurich at 9 AM on October 15th?",
-        "No, it is yesterday morning.",
-        "Yes, I will eat apple.",
-        "They are not at the library."
+        "Yes, I will eat it.",
+        "They are not in the office.",
+        "No, it was yesterday."
       ],
       "correctAnswer": "Thank you, Lisa. Are we arriving in Zurich at 9 AM on October 15th?",
-      "explanationVi": "Phản hồi phù hợp: \"Thank you, Lisa. Are we arriving in Zurich at 9 AM on October 15th?\" (Cảm ơn Lisa. Chúng ta sẽ đến Zurich lúc 9 giờ sáng vào ngày 15 tháng Mười chứ? (arrive in + thành phố / at + giờ / on + ngày tháng))."
+      "explanationVi": "Phản hồi phù hợp trong bài: \"Thank you, Lisa. Are we arriving in Zurich at 9 AM on October 15th?\" (Cảm ơn Lisa. Chúng ta sẽ đến Zurich lúc 9 giờ sáng vào ngày 15 tháng Mười chứ? (arrive in + thành phố / at + giờ / on + ngày tháng))."
     },
     {
       "id": "ex-088-07",
       "type": "fill_blank",
-      "promptVi": "[Điền từ - (Dạng khẳng định)] Điền dạng đúng của động từ vào ô trống (Không có giải pháp đơn giản nào cho vấn đề phức tạp này.):",
+      "promptVi": "[Điền từ - Dạng KHẲNG ĐỊNH] Điền từ còn thiếu vào ô trống (Không có giải pháp đơn giản nào cho vấn đề phức tạp này.):",
       "question": "There is no simple solution ___ this complex problem.",
       "correctAnswer": "to",
       "options": [
+        "with",
         "to",
         "for",
-        "with",
         "of"
       ],
-      "explanationVi": "Đáp án chính xác: \"to\". Không có giải pháp đơn giản nào cho vấn đề phức tạp này.."
+      "explanationVi": "Đáp án đúng là \"to\". Câu hoàn chỉnh: \"There is no simple solution to this complex problem.\" (Không có giải pháp đơn giản nào cho vấn đề phức tạp này.)."
     },
     {
       "id": "ex-088-08",
       "type": "fill_blank",
-      "promptVi": "[Điền từ - (Dạng khẳng định)] Điền dạng đúng của động từ vào ô trống (Tôi sẽ gặp bạn vào sáng thứ Hai tới.):",
+      "promptVi": "[Điền từ - Dạng KHẲNG ĐỊNH] Điền từ còn thiếu vào ô trống (Tôi sẽ gặp bạn vào sáng thứ Hai tới.):",
       "question": "I will see you ___ Monday morning.",
       "correctAnswer": "next",
       "options": [
         "next",
         "on next",
-        "at next",
-        "in next"
+        "in next",
+        "at next"
       ],
-      "explanationVi": "Đáp án chính xác: \"next\". Tôi sẽ gặp bạn vào sáng thứ Hai tới.."
+      "explanationVi": "Đáp án đúng là \"next\". Câu hoàn chỉnh: \"I will see you next Monday morning.\" (Tôi sẽ gặp bạn vào sáng thứ Hai tới.)."
     },
     {
       "id": "ex-088-09",
       "type": "fill_blank",
-      "promptVi": "[Điền từ - (Dạng khẳng định)] Điền dạng đúng của động từ vào ô trống (Chúng ta phải thảo luận kỹ lưỡng về bản đề xuất.):",
+      "promptVi": "[Điền từ - Dạng KHẲNG ĐỊNH] Điền từ còn thiếu vào ô trống (Chúng ta phải thảo luận kỹ lưỡng về bản đề xuất.):",
       "question": "We must discuss ___ the proposal thoroughly.",
       "correctAnswer": "must",
       "options": [
-        "",
+        "on",
         "about",
-        "of",
-        "on"
+        "must",
+        "of"
       ],
-      "explanationVi": "Đáp án chính xác: \"must\". Chúng ta phải thảo luận kỹ lưỡng về bản đề xuất.."
+      "explanationVi": "Đáp án đúng là \"must\". Câu hoàn chỉnh: \"We must discuss the proposal thoroughly.\" (Chúng ta phải thảo luận kỹ lưỡng về bản đề xuất.)."
     },
     {
       "id": "ex-088-10",
       "type": "fill_blank",
-      "promptVi": "[Điền từ - (Dạng khẳng định)] Điền dạng đúng của động từ vào ô trống (Cô ấy đã đến sân bay đúng giờ.):",
+      "promptVi": "[Điền từ - Dạng KHẲNG ĐỊNH] Điền từ còn thiếu vào ô trống (Cô ấy đã đến sân bay đúng giờ.):",
       "question": "She arrived ___ the airport on time.",
       "correctAnswer": "at",
       "options": [
-        "at",
-        "in",
         "to",
-        "on"
+        "in",
+        "on",
+        "at"
       ],
-      "explanationVi": "Đáp án chính xác: \"at\". Cô ấy đã đến sân bay đúng giờ.."
+      "explanationVi": "Đáp án đúng là \"at\". Câu hoàn chỉnh: \"She arrived at the airport on time.\" (Cô ấy đã đến sân bay đúng giờ.)."
     },
     {
       "id": "ex-088-11",
       "type": "fill_blank",
-      "promptVi": "[Điền từ - Dạng PHỦ ĐỊNH] Hoàn thành câu phủ định sau:",
-      "correctAnswer": "There is not no simple solution to this complex problem.",
+      "promptVi": "[Điền từ - Dạng PHỦ ĐỊNH] Điền trợ động từ/động từ tobe phủ định vào chỗ trống:",
+      "question": "There _____ not no simple solution to this complex problem.",
+      "correctAnswer": "is",
       "options": [
-        "There is not no simple solution to this complex problem.",
-        "There is no simple solution to this complex problem.",
-        "Not There is no simple solution to this complex problem.",
-        "There is no simple solution to this complex problem. no"
+        "are",
+        "do",
+        "am",
+        "is"
       ],
-      "explanationVi": "Dạng phủ định chuẩn: Thêm 'not' sau động từ chính."
+      "explanationVi": "Câu phủ định hoàn chỉnh: \"There is not no simple solution to this complex problem.\"."
     },
     {
       "id": "ex-088-12",
       "type": "sentence_scramble",
-      "promptVi": "[Sắp xếp câu] Xếp các khối từ thành câu hoàn chỉnh mang nghĩa: \"Không có giải pháp đơn giản nào cho vấn đề phức tạp này.\"",
+      "promptVi": "[Sắp xếp câu] Ghép các khối từ thành câu hoàn chỉnh mang nghĩa: \"Không có giải pháp đơn giản nào cho vấn đề phức tạp này.\"",
+      "question": "Sắp xếp các từ để tạo thành câu đúng: \"Không có giải pháp đơn giản nào cho vấn đề phức tạp này.\"",
       "words": [
-        "to",
-        "no",
-        "this",
-        "complex",
-        "There",
-        "solution",
-        "is",
         "problem.",
-        "simple"
+        "complex",
+        "this",
+        "to",
+        "solution",
+        "simple",
+        "no",
+        "is",
+        "There"
       ],
       "correctSentence": "There is no simple solution to this complex problem.",
       "hintVi": "Không có giải pháp đơn giản nào cho vấn đề phức tạp này.",
@@ -179,15 +181,16 @@
     {
       "id": "ex-088-13",
       "type": "sentence_scramble",
-      "promptVi": "[Sắp xếp câu] Xếp các khối từ thành câu hoàn chỉnh mang nghĩa: \"Tôi sẽ gặp bạn vào sáng thứ Hai tới.\"",
+      "promptVi": "[Sắp xếp câu] Ghép các khối từ thành câu hoàn chỉnh mang nghĩa: \"Tôi sẽ gặp bạn vào sáng thứ Hai tới.\"",
+      "question": "Sắp xếp các từ để tạo thành câu đúng: \"Tôi sẽ gặp bạn vào sáng thứ Hai tới.\"",
       "words": [
         "morning.",
         "Monday",
-        "will",
-        "I",
+        "you",
         "next",
         "see",
-        "you"
+        "will",
+        "I"
       ],
       "correctSentence": "I will see you next Monday morning.",
       "hintVi": "Tôi sẽ gặp bạn vào sáng thứ Hai tới.",
@@ -196,14 +199,15 @@
     {
       "id": "ex-088-14",
       "type": "sentence_scramble",
-      "promptVi": "[Sắp xếp câu] Xếp các khối từ thành câu hoàn chỉnh mang nghĩa: \"Chúng ta phải thảo luận kỹ lưỡng về bản đề xuất.\"",
+      "promptVi": "[Sắp xếp câu] Ghép các khối từ thành câu hoàn chỉnh mang nghĩa: \"Chúng ta phải thảo luận kỹ lưỡng về bản đề xuất.\"",
+      "question": "Sắp xếp các từ để tạo thành câu đúng: \"Chúng ta phải thảo luận kỹ lưỡng về bản đề xuất.\"",
       "words": [
-        "proposal",
-        "thoroughly.",
-        "We",
         "the",
         "must",
-        "discuss"
+        "discuss",
+        "thoroughly.",
+        "proposal",
+        "We"
       ],
       "correctSentence": "We must discuss the proposal thoroughly.",
       "hintVi": "Chúng ta phải thảo luận kỹ lưỡng về bản đề xuất.",
@@ -212,15 +216,16 @@
     {
       "id": "ex-088-15",
       "type": "sentence_scramble",
-      "promptVi": "[Sắp xếp câu] Xếp các khối từ thành câu hoàn chỉnh mang nghĩa: \"Cô ấy đã đến sân bay đúng giờ.\"",
+      "promptVi": "[Sắp xếp câu] Ghép các khối từ thành câu hoàn chỉnh mang nghĩa: \"Cô ấy đã đến sân bay đúng giờ.\"",
+      "question": "Sắp xếp các từ để tạo thành câu đúng: \"Cô ấy đã đến sân bay đúng giờ.\"",
       "words": [
-        "She",
-        "on",
-        "the",
         "time.",
         "arrived",
         "airport",
-        "at"
+        "the",
+        "at",
+        "on",
+        "She"
       ],
       "correctSentence": "She arrived at the airport on time.",
       "hintVi": "Cô ấy đã đến sân bay đúng giờ.",
@@ -229,30 +234,31 @@
     {
       "id": "ex-088-16",
       "type": "sentence_scramble",
-      "promptVi": "[Sắp xếp câu] Xếp các từ thành câu hội thoại: \"Vâng thưa sếp. Và tài xế riêng sẽ đón ông tại sân bay và đưa ông về thẳng khách sạn. (at the airport / home - KHÔNG DÙNG TO)\"",
+      "promptVi": "[Sắp xếp câu] Ghép các từ thành câu hội thoại: \"Vâng thưa sếp. Và tài xế riêng sẽ đón ông tại sân bay và đưa ông về thẳng khách sạn. (at the airport / home - KHÔNG DÙNG TO)\"",
+      "question": "Sắp xếp các từ để tạo thành câu thoại: \"Vâng thưa sếp. Và tài xế riêng sẽ đón ông tại sân bay và đưa ông về thẳng khách sạn. (at the airport / home - KHÔNG DÙNG TO)\"",
       "words": [
-        "will",
-        "a",
-        "at",
-        "up",
-        "you",
-        "hotel",
-        "suite",
-        "the",
-        "directly",
-        "sir",
-        "home",
-        "airport",
-        "Yes",
-        "pick",
         "chauffeur",
-        "to",
-        "private",
+        "a",
         "And",
-        "you",
+        "home",
+        "your",
+        "hotel",
         "take",
         "and",
-        "your"
+        "sir",
+        "to",
+        "the",
+        "pick",
+        "will",
+        "Yes",
+        "up",
+        "private",
+        "at",
+        "you",
+        "you",
+        "airport",
+        "directly",
+        "suite"
       ],
       "correctSentence": "Yes, sir. And a private chauffeur will pick you up at the airport and take you directly home to your hotel suite.",
       "hintVi": "Vâng thưa sếp. Và tài xế riêng sẽ đón ông tại sân bay và đưa ông về thẳng khách sạn. (at the airport / home - KHÔNG DÙNG TO)",
@@ -261,70 +267,70 @@
     {
       "id": "ex-088-17",
       "type": "find_error",
-      "promptVi": "[Tìm lỗi sai & Chọn câu đúng] Câu nào dưới đây có cấu trúc ngữ pháp HOÀN TOÀN ĐÚNG?",
-      "question": "Chủ điểm \"Bài 88: Giới từ Toàn Diện — Các Trường Hợp Dễ Nhầm & Cố Định (Preposition Mastery: Time, Place, Collocations & Deletions)\": Chọn câu CHÍNH XÁC:",
+      "promptVi": "[Nhận diện cấu trúc chuẩn] Chọn câu có cấu trúc ngữ pháp HOÀN TOÀN ĐÚNG:",
+      "question": "Dựa vào chủ điểm \"Bài 88: Giới từ Toàn Diện — Các Trường Hợp Dễ Nhầm & Cố Định (Preposition Mastery: Time, Place, Collocations & Deletions)\", câu nào sau đây CHÍNH XÁC?",
       "options": [
         "There is no simple solution to this complex problem.",
         "There be no simple solution to this complex problem.",
-        "There are not is no simple solution to this complex problem.",
-        "problem. complex this to solution simple no is There"
+        "problem. complex this to solution simple no is There",
+        "There is no simple solution at this complex problem."
       ],
       "correctAnswer": "There is no simple solution to this complex problem.",
-      "explanationVi": "Câu chuẩn xác là: \"There is no simple solution to this complex problem.\" (Không có giải pháp đơn giản nào cho vấn đề phức tạp này.)."
+      "explanationVi": "Cấu trúc chuẩn xác là: \"There is no simple solution to this complex problem.\" (Không có giải pháp đơn giản nào cho vấn đề phức tạp này.)."
     },
     {
       "id": "ex-088-18",
       "type": "find_error",
-      "promptVi": "[Tìm lỗi sai & Chọn câu đúng] Câu nào dưới đây có cấu trúc ngữ pháp HOÀN TOÀN ĐÚNG?",
-      "question": "Chủ điểm \"Bài 88: Giới từ Toàn Diện — Các Trường Hợp Dễ Nhầm & Cố Định (Preposition Mastery: Time, Place, Collocations & Deletions)\": Chọn câu CHÍNH XÁC:",
+      "promptVi": "[Nhận diện cấu trúc chuẩn] Chọn câu có cấu trúc ngữ pháp HOÀN TOÀN ĐÚNG:",
+      "question": "Dựa vào chủ điểm \"Bài 88: Giới từ Toàn Diện — Các Trường Hợp Dễ Nhầm & Cố Định (Preposition Mastery: Time, Place, Collocations & Deletions)\", câu nào sau đây CHÍNH XÁC?",
       "options": [
+        "are",
         "I will see you next Monday morning.",
         "morning. Monday next you see will I",
-        "I will see you next Monday morning. (sai)",
-        "I will see you next Monday morning. (sai)"
+        "is"
       ],
       "correctAnswer": "I will see you next Monday morning.",
-      "explanationVi": "Câu chuẩn xác là: \"I will see you next Monday morning.\" (Tôi sẽ gặp bạn vào sáng thứ Hai tới.)."
+      "explanationVi": "Cấu trúc chuẩn xác là: \"I will see you next Monday morning.\" (Tôi sẽ gặp bạn vào sáng thứ Hai tới.)."
     },
     {
       "id": "ex-088-19",
       "type": "find_error",
-      "promptVi": "[Tìm lỗi sai & Chọn câu đúng] Câu nào dưới đây có cấu trúc ngữ pháp HOÀN TOÀN ĐÚNG?",
-      "question": "Chủ điểm \"Bài 88: Giới từ Toàn Diện — Các Trường Hợp Dễ Nhầm & Cố Định (Preposition Mastery: Time, Place, Collocations & Deletions)\": Chọn câu CHÍNH XÁC:",
+      "promptVi": "[Nhận diện cấu trúc chuẩn] Chọn câu có cấu trúc ngữ pháp HOÀN TOÀN ĐÚNG:",
+      "question": "Dựa vào chủ điểm \"Bài 88: Giới từ Toàn Diện — Các Trường Hợp Dễ Nhầm & Cố Định (Preposition Mastery: Time, Place, Collocations & Deletions)\", câu nào sau đây CHÍNH XÁC?",
       "options": [
         "We must discuss the proposal thoroughly.",
         "thoroughly. proposal the discuss must We",
-        "We must discuss the proposal thoroughly. (sai)",
-        "We must discuss the proposal thoroughly. (sai)"
+        "is",
+        "are"
       ],
       "correctAnswer": "We must discuss the proposal thoroughly.",
-      "explanationVi": "Câu chuẩn xác là: \"We must discuss the proposal thoroughly.\" (Chúng ta phải thảo luận kỹ lưỡng về bản đề xuất.)."
+      "explanationVi": "Cấu trúc chuẩn xác là: \"We must discuss the proposal thoroughly.\" (Chúng ta phải thảo luận kỹ lưỡng về bản đề xuất.)."
     },
     {
       "id": "ex-088-20",
       "type": "find_error",
-      "promptVi": "[Tìm lỗi sai & Chọn câu đúng] Câu nào dưới đây có cấu trúc ngữ pháp HOÀN TOÀN ĐÚNG?",
-      "question": "Chủ điểm \"Bài 88: Giới từ Toàn Diện — Các Trường Hợp Dễ Nhầm & Cố Định (Preposition Mastery: Time, Place, Collocations & Deletions)\": Chọn câu CHÍNH XÁC:",
+      "promptVi": "[Nhận diện cấu trúc chuẩn] Chọn câu có cấu trúc ngữ pháp HOÀN TOÀN ĐÚNG:",
+      "question": "Dựa vào chủ điểm \"Bài 88: Giới từ Toàn Diện — Các Trường Hợp Dễ Nhầm & Cố Định (Preposition Mastery: Time, Place, Collocations & Deletions)\", câu nào sau đây CHÍNH XÁC?",
       "options": [
-        "She arrived at the airport on time.",
         "time. on airport the at arrived She",
-        "She arrived at the airport on time. (sai)",
-        "She arrived at the airport on time. (sai)"
+        "She arrived at the airport on time.",
+        "is",
+        "are"
       ],
       "correctAnswer": "She arrived at the airport on time.",
-      "explanationVi": "Câu chuẩn xác là: \"She arrived at the airport on time.\" (Cô ấy đã đến sân bay đúng giờ.)."
+      "explanationVi": "Cấu trúc chuẩn xác là: \"She arrived at the airport on time.\" (Cô ấy đã đến sân bay đúng giờ.)."
     },
     {
       "id": "ex-088-21",
       "type": "listening_reflex",
-      "promptVi": "[Nghe phản xạ] Nghe câu phát âm tiếng Anh và chọn bản dịch tiếng Việt đúng nhất:",
+      "promptVi": "[Nghe phản xạ] Nghe câu phát âm tiếng Anh và chọn bản dịch tiếng Việt đúng:",
       "audioPrompt": "Good morning, Director Harris. Let's confirm your itinerary for the World Artificial Intelligence Summit next Monday.",
-      "question": "Nhấn nút '🔊 Nghe audio' để nghe câu thoại và chọn nghĩa đúng:",
+      "question": "Nhấn nút '🔊 Nghe audio' và chọn nghĩa tiếng Việt đúng:",
       "options": [
+        "Hôm nay thời tiết rất đẹp.",
         "Chào buổi sáng Giám đốc Harris. Hãy cùng xác nhận lịch trình của ông cho Hội nghị Thượng đỉnh Trí tuệ Nhân tạo Thế giới vào thứ Hai tới. (next Monday - KHÔNG DÙNG ON)",
-        "Cảm ơn Lisa. Chúng ta sẽ đến Zurich lúc 9 giờ sáng vào ngày 15 tháng Mười chứ? (arrive in + thành phố / at + giờ / on + ngày tháng)",
         "Vâng thưa sếp. Và tài xế riêng sẽ đón ông tại sân bay và đưa ông về thẳng khách sạn. (at the airport / home - KHÔNG DÙNG TO)",
-        "Ngày mai trời sẽ mưa to."
+        "Cảm ơn Lisa. Chúng ta sẽ đến Zurich lúc 9 giờ sáng vào ngày 15 tháng Mười chứ? (arrive in + thành phố / at + giờ / on + ngày tháng)"
       ],
       "correctAnswer": "Chào buổi sáng Giám đốc Harris. Hãy cùng xác nhận lịch trình của ông cho Hội nghị Thượng đỉnh Trí tuệ Nhân tạo Thế giới vào thứ Hai tới. (next Monday - KHÔNG DÙNG ON)",
       "explanationVi": "Câu nghe được: \"Good morning, Director Harris. Let's confirm your itinerary for the World Artificial Intelligence Summit next Monday.\" có nghĩa là: \"Chào buổi sáng Giám đốc Harris. Hãy cùng xác nhận lịch trình của ông cho Hội nghị Thượng đỉnh Trí tuệ Nhân tạo Thế giới vào thứ Hai tới. (next Monday - KHÔNG DÙNG ON)\"."
@@ -332,14 +338,14 @@
     {
       "id": "ex-088-22",
       "type": "listening_reflex",
-      "promptVi": "[Nghe phản xạ] Nghe câu phát âm tiếng Anh và chọn bản dịch tiếng Việt đúng nhất:",
+      "promptVi": "[Nghe phản xạ] Nghe câu phát âm tiếng Anh và chọn bản dịch tiếng Việt đúng:",
       "audioPrompt": "Thank you, Lisa. Are we arriving in Zurich at 9 AM on October 15th?",
-      "question": "Nhấn nút '🔊 Nghe audio' để nghe câu thoại và chọn nghĩa đúng:",
+      "question": "Nhấn nút '🔊 Nghe audio' và chọn nghĩa tiếng Việt đúng:",
       "options": [
-        "Cảm ơn Lisa. Chúng ta sẽ đến Zurich lúc 9 giờ sáng vào ngày 15 tháng Mười chứ? (arrive in + thành phố / at + giờ / on + ngày tháng)",
         "Vâng thưa sếp. Và tài xế riêng sẽ đón ông tại sân bay và đưa ông về thẳng khách sạn. (at the airport / home - KHÔNG DÙNG TO)",
+        "Hôm nay thời tiết rất đẹp.",
         "Hiện nay có nhu cầu toàn cầu tăng vọt về chip xử lý thần kinh bền vững không? (demand for)",
-        "Ngày mai trời sẽ mưa to."
+        "Cảm ơn Lisa. Chúng ta sẽ đến Zurich lúc 9 giờ sáng vào ngày 15 tháng Mười chứ? (arrive in + thành phố / at + giờ / on + ngày tháng)"
       ],
       "correctAnswer": "Cảm ơn Lisa. Chúng ta sẽ đến Zurich lúc 9 giờ sáng vào ngày 15 tháng Mười chứ? (arrive in + thành phố / at + giờ / on + ngày tháng)",
       "explanationVi": "Câu nghe được: \"Thank you, Lisa. Are we arriving in Zurich at 9 AM on October 15th?\" có nghĩa là: \"Cảm ơn Lisa. Chúng ta sẽ đến Zurich lúc 9 giờ sáng vào ngày 15 tháng Mười chứ? (arrive in + thành phố / at + giờ / on + ngày tháng)\"."
@@ -347,14 +353,14 @@
     {
       "id": "ex-088-23",
       "type": "listening_reflex",
-      "promptVi": "[Nghe phản xạ] Nghe câu phát âm tiếng Anh và chọn bản dịch tiếng Việt đúng nhất:",
+      "promptVi": "[Nghe phản xạ] Nghe câu phát âm tiếng Anh và chọn bản dịch tiếng Việt đúng:",
       "audioPrompt": "Yes, sir. And a private chauffeur will pick you up at the airport and take you directly home to your hotel suite.",
-      "question": "Nhấn nút '🔊 Nghe audio' để nghe câu thoại và chọn nghĩa đúng:",
+      "question": "Nhấn nút '🔊 Nghe audio' và chọn nghĩa tiếng Việt đúng:",
       "options": [
         "Vâng thưa sếp. Và tài xế riêng sẽ đón ông tại sân bay và đưa ông về thẳng khách sạn. (at the airport / home - KHÔNG DÙNG TO)",
         "Hiện nay có nhu cầu toàn cầu tăng vọt về chip xử lý thần kinh bền vững không? (demand for)",
         "Có ạ, nghiên cứu thị trường của chúng ta cho thấy sự gia tăng mạnh mẽ về các đơn hàng thương mại trong quý này. (increase in / this quarter - KHÔNG DÙNG IN)",
-        "Ngày mai trời sẽ mưa to."
+        "Hôm nay thời tiết rất đẹp."
       ],
       "correctAnswer": "Vâng thưa sếp. Và tài xế riêng sẽ đón ông tại sân bay và đưa ông về thẳng khách sạn. (at the airport / home - KHÔNG DÙNG TO)",
       "explanationVi": "Câu nghe được: \"Yes, sir. And a private chauffeur will pick you up at the airport and take you directly home to your hotel suite.\" có nghĩa là: \"Vâng thưa sếp. Và tài xế riêng sẽ đón ông tại sân bay và đưa ông về thẳng khách sạn. (at the airport / home - KHÔNG DÙNG TO)\"."
@@ -362,14 +368,14 @@
     {
       "id": "ex-088-24",
       "type": "listening_reflex",
-      "promptVi": "[Nghe phản xạ] Nghe câu phát âm tiếng Anh và chọn bản dịch tiếng Việt đúng nhất:",
+      "promptVi": "[Nghe phản xạ] Nghe câu phát âm tiếng Anh và chọn bản dịch tiếng Việt đúng:",
       "audioPrompt": "Is there a surging global demand for sustainable neural processing chips right now?",
-      "question": "Nhấn nút '🔊 Nghe audio' để nghe câu thoại và chọn nghĩa đúng:",
+      "question": "Nhấn nút '🔊 Nghe audio' và chọn nghĩa tiếng Việt đúng:",
       "options": [
         "Hiện nay có nhu cầu toàn cầu tăng vọt về chip xử lý thần kinh bền vững không? (demand for)",
-        "Có ạ, nghiên cứu thị trường của chúng ta cho thấy sự gia tăng mạnh mẽ về các đơn hàng thương mại trong quý này. (increase in / this quarter - KHÔNG DÙNG IN)",
+        "Hôm nay thời tiết rất đẹp.",
         "Giải pháp công nghệ khả thi nhất cho mức tiêu thụ điện năng cao trong siêu máy tính là gì? (solution to)",
-        "Ngày mai trời sẽ mưa to."
+        "Có ạ, nghiên cứu thị trường của chúng ta cho thấy sự gia tăng mạnh mẽ về các đơn hàng thương mại trong quý này. (increase in / this quarter - KHÔNG DÙNG IN)"
       ],
       "correctAnswer": "Hiện nay có nhu cầu toàn cầu tăng vọt về chip xử lý thần kinh bền vững không? (demand for)",
       "explanationVi": "Câu nghe được: \"Is there a surging global demand for sustainable neural processing chips right now?\" có nghĩa là: \"Hiện nay có nhu cầu toàn cầu tăng vọt về chip xử lý thần kinh bền vững không? (demand for)\"."
@@ -377,64 +383,68 @@
     {
       "id": "ex-088-25",
       "type": "speaking_practice",
-      "promptVi": "[Luyện nói qua Micro] Nhấn nút '🎙️ Bắt đầu nói' và đọc to, rõ ràng câu tiếng Anh sau:",
+      "promptVi": "[Luyện nói qua Micro] Nhấn nút 'Bấm để Nói ngay' và phát âm câu sau:",
+      "question": "Luyện phát âm chuẩn câu: \"There is no simple solution to this complex problem.\" (Không có giải pháp đơn giản nào cho vấn đề phức tạp này.)",
       "targetSentence": "There is no simple solution to this complex problem.",
       "hintVi": "Không có giải pháp đơn giản nào cho vấn đề phức tạp này.",
-      "explanationVi": "Câu mục tiêu: \"There is no simple solution to this complex problem.\" (Không có giải pháp đơn giản nào cho vấn đề phức tạp này.). Luyện phát âm chuẩn xác từng âm tiết và ngữ điệu tự nhiên."
+      "explanationVi": "Mẫu câu chuẩn: \"There is no simple solution to this complex problem.\" (Không có giải pháp đơn giản nào cho vấn đề phức tạp này.). Luyện phát âm rõ ràng từng từ."
     },
     {
       "id": "ex-088-26",
       "type": "speaking_practice",
-      "promptVi": "[Luyện nói qua Micro] Nhấn nút '🎙️ Bắt đầu nói' và đọc to, rõ ràng câu tiếng Anh sau:",
+      "promptVi": "[Luyện nói qua Micro] Nhấn nút 'Bấm để Nói ngay' và phát âm câu sau:",
+      "question": "Luyện phát âm chuẩn câu: \"I will see you next Monday morning.\" (Tôi sẽ gặp bạn vào sáng thứ Hai tới.)",
       "targetSentence": "I will see you next Monday morning.",
       "hintVi": "Tôi sẽ gặp bạn vào sáng thứ Hai tới.",
-      "explanationVi": "Câu mục tiêu: \"I will see you next Monday morning.\" (Tôi sẽ gặp bạn vào sáng thứ Hai tới.). Luyện phát âm chuẩn xác từng âm tiết và ngữ điệu tự nhiên."
+      "explanationVi": "Mẫu câu chuẩn: \"I will see you next Monday morning.\" (Tôi sẽ gặp bạn vào sáng thứ Hai tới.). Luyện phát âm rõ ràng từng từ."
     },
     {
       "id": "ex-088-27",
       "type": "speaking_practice",
-      "promptVi": "[Luyện nói qua Micro] Nhấn nút '🎙️ Bắt đầu nói' và đọc to, rõ ràng câu tiếng Anh sau:",
+      "promptVi": "[Luyện nói qua Micro] Nhấn nút 'Bấm để Nói ngay' và phát âm câu sau:",
+      "question": "Luyện phát âm chuẩn câu: \"We must discuss the proposal thoroughly.\" (Chúng ta phải thảo luận kỹ lưỡng về bản đề xuất.)",
       "targetSentence": "We must discuss the proposal thoroughly.",
       "hintVi": "Chúng ta phải thảo luận kỹ lưỡng về bản đề xuất.",
-      "explanationVi": "Câu mục tiêu: \"We must discuss the proposal thoroughly.\" (Chúng ta phải thảo luận kỹ lưỡng về bản đề xuất.). Luyện phát âm chuẩn xác từng âm tiết và ngữ điệu tự nhiên."
+      "explanationVi": "Mẫu câu chuẩn: \"We must discuss the proposal thoroughly.\" (Chúng ta phải thảo luận kỹ lưỡng về bản đề xuất.). Luyện phát âm rõ ràng từng từ."
     },
     {
       "id": "ex-088-28",
       "type": "speaking_practice",
-      "promptVi": "[Luyện nói qua Micro] Nhấn nút '🎙️ Bắt đầu nói' và đọc to, rõ ràng câu tiếng Anh sau:",
+      "promptVi": "[Luyện nói qua Micro] Nhấn nút 'Bấm để Nói ngay' và phát âm câu sau:",
+      "question": "Luyện phát âm chuẩn câu: \"She arrived at the airport on time.\" (Cô ấy đã đến sân bay đúng giờ.)",
       "targetSentence": "She arrived at the airport on time.",
       "hintVi": "Cô ấy đã đến sân bay đúng giờ.",
-      "explanationVi": "Câu mục tiêu: \"She arrived at the airport on time.\" (Cô ấy đã đến sân bay đúng giờ.). Luyện phát âm chuẩn xác từng âm tiết và ngữ điệu tự nhiên."
+      "explanationVi": "Mẫu câu chuẩn: \"She arrived at the airport on time.\" (Cô ấy đã đến sân bay đúng giờ.). Luyện phát âm rõ ràng từng từ."
     },
     {
       "id": "ex-088-29",
       "type": "reading_comprehension",
-      "promptVi": "[Đọc hiểu đoạn văn 1] Đọc đoạn hội thoại mở đầu sau và trả lời câu hỏi:",
-      "passage": "Executive Assistant (Nữ): \"Good morning, Director Harris. Let's confirm your itinerary for the World Artificial Intelligence Summit next Monday.\"\nDirector Harris (Nam): \"Thank you, Lisa. Are we arriving in Zurich at 9 AM on October 15th?\"\nExecutive Assistant (Nữ): \"Yes, sir. And a private chauffeur will pick you up at the airport and take you directly home to your hotel suite.\"\nDirector Harris (Nam): \"Is there a surging global demand for sustainable neural processing chips right now?\"",
-      "question": "Câu hỏi: Trong đoạn hội thoại trên, các nhân vật đang thảo luận về chủ đề gì?",
+      "promptVi": "[Đọc hiểu đoạn văn] Đọc đoạn hội thoại sau và trả lời câu hỏi:",
+      "passage": "Executive Assistant: \"Good morning, Director Harris. Let's confirm your itinerary for the World Artificial Intelligence Summit next Monday.\"\nDirector Harris: \"Thank you, Lisa. Are we arriving in Zurich at 9 AM on October 15th?\"\nExecutive Assistant: \"Yes, sir. And a private chauffeur will pick you up at the airport and take you directly home to your hotel suite.\"\nDirector Harris: \"Is there a surging global demand for sustainable neural processing chips right now?\"",
+      "question": "Chủ đề trọng tâm của đoạn hội thoại trên là gì?",
       "options": [
+        "Cách làm món ăn truyền thống",
+        "Kế hoạch đi mua sắm tại siêu thị",
         "Giới từ Toàn Diện — Các Trường Hợp Dễ Nhầm & Cố Định (Preposition Mastery: Time, Place, Collocations & Deletions)",
-        "Kế hoạch đi nghỉ dưỡng cuối tuần ở bãi biển",
-        "Mua sắm quần áo và đồ dùng thể thao",
-        "Cách làm món ăn truyền thống gia đình"
+        "Lịch trình đi du lịch nghỉ mát cuối tuần"
       ],
       "correctAnswer": "Giới từ Toàn Diện — Các Trường Hợp Dễ Nhầm & Cố Định (Preposition Mastery: Time, Place, Collocations & Deletions)",
-      "explanationVi": "Đoạn hội thoại mở đầu được thiết kế để minh họa trực tiếp cho chủ điểm ngữ pháp: \"Bài 88: Giới từ Toàn Diện — Các Trường Hợp Dễ Nhầm & Cố Định (Preposition Mastery: Time, Place, Collocations & Deletions)\"."
+      "explanationVi": "Đoạn hội thoại được thiết kế để minh họa trực tiếp cho chủ điểm \"Bài 88: Giới từ Toàn Diện — Các Trường Hợp Dễ Nhầm & Cố Định (Preposition Mastery: Time, Place, Collocations & Deletions)\"."
     },
     {
       "id": "ex-088-30",
       "type": "reading_comprehension",
-      "promptVi": "[Đọc hiểu đoạn văn 2] Đọc phần tiếp theo của đoạn hội thoại và chọn nhận định đúng:",
-      "passage": "Executive Assistant (Nữ): \"Yes, our market research shows a massive increase in commercial orders this quarter.\"\nDirector Harris (Nam): \"What is the most viable technological solution to high power consumption in supercomputers?\"\nExecutive Assistant (Nữ): \"Liquid immersion cooling provides the ideal answer to excessive thermal throttling.\"\nDirector Harris (Nam): \"When we enter the plenary auditorium, remember we must not discuss confidential patent details.\"",
-      "question": "Nhận định nào sau đây là ĐÚNG với nội dung đoạn hội thoại trên?",
+      "promptVi": "[Đọc hiểu đoạn văn] Đọc đoạn đối thoại tiếp theo và chọn nhận định đúng:",
+      "passage": "Executive Assistant: \"Yes, our market research shows a massive increase in commercial orders this quarter.\"\nDirector Harris: \"What is the most viable technological solution to high power consumption in supercomputers?\"\nExecutive Assistant: \"Liquid immersion cooling provides the ideal answer to excessive thermal throttling.\"\nDirector Harris: \"When we enter the plenary auditorium, remember we must not discuss confidential patent details.\"",
+      "question": "Nhận định nào sau đây là ĐÚNG về nội dung đoạn đối thoại?",
       "options": [
-        "Các câu hội thoại sử dụng đúng cấu trúc ngữ pháp \"Bài 88: Giới từ Toàn Diện — Các Trường Hợp Dễ Nhầm & Cố Định (Preposition Mastery: Time, Place, Collocations & Deletions)\".",
-        "Các nhân vật không hiểu ý nhau và từ chối nói chuyện.",
-        "Đoạn hội thoại nói về việc chuyển nhà sang thành phố khác.",
-        "Cả hai nhân vật đều đang ở sân bay chuẩn bị lên máy bay."
+        "Các câu thoại sử dụng đúng cấu trúc \"Giới từ Toàn Diện — Các Trường Hợp Dễ Nhầm & Cố Định (Preposition Mastery: Time, Place, Collocations & Deletions)\".",
+        "Cả hai nhân vật đang thảo luận về thời tiết ngày mai.",
+        "Hai nhân vật đang cãi nhau và không đồng ý hợp tác.",
+        "Cuộc trò chuyện diễn ra tại nhà ga xe lửa."
       ],
-      "correctAnswer": "Các câu hội thoại sử dụng đúng cấu trúc ngữ pháp \"Bài 88: Giới từ Toàn Diện — Các Trường Hợp Dễ Nhầm & Cố Định (Preposition Mastery: Time, Place, Collocations & Deletions)\".",
-      "explanationVi": "Đoạn hội thoại thứ hai tiếp tục củng cố và ứng dụng các quy tắc ngữ pháp của \"Bài 88: Giới từ Toàn Diện — Các Trường Hợp Dễ Nhầm & Cố Định (Preposition Mastery: Time, Place, Collocations & Deletions)\"."
+      "correctAnswer": "Các câu thoại sử dụng đúng cấu trúc \"Giới từ Toàn Diện — Các Trường Hợp Dễ Nhầm & Cố Định (Preposition Mastery: Time, Place, Collocations & Deletions)\".",
+      "explanationVi": "Đoạn đối thoại ứng dụng chuẩn xác ngữ pháp của \"Bài 88: Giới từ Toàn Diện — Các Trường Hợp Dễ Nhầm & Cố Định (Preposition Mastery: Time, Place, Collocations & Deletions)\"."
     }
   ]
 }

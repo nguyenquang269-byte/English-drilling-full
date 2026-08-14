@@ -1446,11 +1446,20 @@ function renderQuizQuestion() {
       </div>
     `;
   } else if (q.type === "fill_blank") {
+    const opts = q.options || [];
     container.innerHTML = `
-      <div style="display:flex; gap:10px; margin:16px 0; flex-wrap:wrap;">
-        <input type="text" id="quizFillInput" placeholder="Nhập câu trả lời..." style="flex:1; padding:12px; font-size:16px; border-radius:10px; border:2px solid var(--border); outline:none;" />
-        <button class="btn-primary" id="btnSubmitQuizFill" onclick="submitQuizFill()">Kiểm tra</button>
+      <div style="display:flex; gap:8px; margin:10px 0; flex-wrap:wrap;">
+        <input type="text" id="quizFillInput" placeholder="Gõ từ hoặc chọn từ gợi ý bên dưới..." style="flex:1; min-width:200px; padding:10px 14px; font-size:15px; border-radius:8px; border:2px solid var(--border); outline:none;" />
+        <button class="btn-primary" id="btnSubmitQuizFill" onclick="submitQuizFill()" style="padding:10px 18px;">Kiểm tra</button>
       </div>
+      ${opts.length > 0 ? `
+        <div style="font-size:12px; color:var(--muted); margin-bottom:6px;">💡 Gợi ý lựa chọn (nhấp vào để điền nhanh):</div>
+        <div class="chips-container" style="display:flex; gap:8px; flex-wrap:wrap; margin-bottom:8px;">
+          ${opts.map(opt => `
+            <button class="chip-btn" onclick="document.getElementById('quizFillInput').value = '${opt.replace(/'/g, "\\'")}'; submitQuizFill();" style="padding:6px 12px; font-size:13px;">${opt}</button>
+          `).join("")}
+        </div>
+      ` : ''}
     `;
   } else if (q.type === "sentence_scramble") {
     quizScrambleSelectedWords = [];

@@ -7,13 +7,13 @@
     {
       "id": "ex-073-01",
       "type": "multiple_choice",
-      "promptVi": "[Trắc nghiệm] Chọn từ/cụm từ đúng để hoàn thành câu (Bạn càng làm việc chăm chỉ, bạn sẽ càng thành công hơn.):",
+      "promptVi": "[Trắc nghiệm ngữ pháp] Chọn từ đúng để hoàn thành câu (Bạn càng làm việc chăm chỉ, bạn sẽ càng thành công hơn.):",
       "question": "The ___ you work, the more successful you will be.",
       "options": [
-        "harder",
         "hardest",
-        "hard",
-        "more hard"
+        "harder",
+        "more hard",
+        "hard"
       ],
       "correctAnswer": "harder",
       "explanationVi": "Cấu trúc so sánh kép dùng dạng so sánh hơn: The harder you work..."
@@ -21,12 +21,12 @@
     {
       "id": "ex-073-02",
       "type": "multiple_choice",
-      "promptVi": "[Trắc nghiệm] Chọn từ/cụm từ đúng để hoàn thành câu (Ngôi nhà này to gấp hai lần ngôi nhà của tôi.):",
+      "promptVi": "[Trắc nghiệm ngữ pháp] Chọn từ đúng để hoàn thành câu (Ngôi nhà này to gấp hai lần ngôi nhà của tôi.):",
       "question": "This house is ___ as big as mine.",
       "options": [
-        "twice",
         "two times",
         "double",
+        "twice",
         "second"
       ],
       "correctAnswer": "twice",
@@ -35,13 +35,13 @@
     {
       "id": "ex-073-03",
       "type": "multiple_choice",
-      "promptVi": "[Trắc nghiệm] Chọn từ/cụm từ đúng để hoàn thành câu (Bạn càng đọc nhiều, bạn càng thu nhận được nhiều kiến thức.):",
+      "promptVi": "[Trắc nghiệm ngữ pháp] Chọn từ đúng để hoàn thành câu (Bạn càng đọc nhiều, bạn càng thu nhận được nhiều kiến thức.):",
       "question": "The more you read, ___ knowledge you gain.",
       "options": [
-        "the more",
+        "much",
         "the most",
-        "more",
-        "much"
+        "the more",
+        "more"
       ],
       "correctAnswer": "the more",
       "explanationVi": "Cấu trúc tương quan: The more..., the more + Noun..."
@@ -49,11 +49,11 @@
     {
       "id": "ex-073-04",
       "type": "multiple_choice",
-      "promptVi": "[Trắc nghiệm] Chọn từ/cụm từ đúng để hoàn thành câu (Nhà máy mới của chúng tôi rộng gấp bốn lần so với nhà máy cũ.):",
+      "promptVi": "[Trắc nghiệm ngữ pháp] Chọn từ đúng để hoàn thành câu (Nhà máy mới của chúng tôi rộng gấp bốn lần so với nhà máy cũ.):",
       "question": "Our new factory is ___ larger than the old one.",
       "options": [
-        "four times",
         "four",
+        "four times",
         "fourth",
         "four time"
       ],
@@ -63,49 +63,49 @@
     {
       "id": "ex-073-05",
       "type": "multiple_choice",
-      "promptVi": "[Trắc nghiệm] Dịch câu sau sang tiếng Anh: \"Chào buổi sáng Diana. Bạn đã phân tích các số liệu sản xuất xe điện mới của chúng ta chưa?\"",
-      "question": "Chọn bản dịch chuẩn xác cho câu: \"Chào buổi sáng Diana. Bạn đã phân tích các số liệu sản xuất xe điện mới của chúng ta chưa?\"",
+      "promptVi": "[Phản xạ dịch thuật] Dịch câu sau sang tiếng Anh: \"Chào buổi sáng Diana. Bạn đã phân tích các số liệu sản xuất xe điện mới của chúng ta chưa?\"",
+      "question": "Chọn bản dịch chuẩn xác nhất cho câu: \"Chào buổi sáng Diana. Bạn đã phân tích các số liệu sản xuất xe điện mới của chúng ta chưa?\"",
       "options": [
         "Good morning, Diana. Have you analyzed our new electric vehicle production figures?",
         "Good morning, Diana. be you analyzed our new electric vehicle production figures?",
-        "Yes! The more we automate the assembly line, the faster our output becomes.",
-        "I want to go to the park now."
+        "We are studying English today.",
+        "Yes! The more we automate the assembly line, the faster our output becomes."
       ],
       "correctAnswer": "Good morning, Diana. Have you analyzed our new electric vehicle production figures?",
-      "explanationVi": "Câu đúng là \"Good morning, Diana. Have you analyzed our new electric vehicle production figures?\" (Chào buổi sáng Diana. Bạn đã phân tích các số liệu sản xuất xe điện mới của chúng ta chưa?)."
+      "explanationVi": "Câu dịch chuẩn xác: \"Good morning, Diana. Have you analyzed our new electric vehicle production figures?\" (Chào buổi sáng Diana. Bạn đã phân tích các số liệu sản xuất xe điện mới của chúng ta chưa?)."
     },
     {
       "id": "ex-073-06",
       "type": "multiple_choice",
-      "promptVi": "[Trắc nghiệm] Chọn câu trả lời hoặc cách diễn đạt phù hợp:",
-      "question": "Trong ngữ cảnh giao tiếp: \"Good morning, Diana. Have you analyzed our new electric vehicle production figures?\", câu phản hồi tự nhiên là gì?",
+      "promptVi": "[Ngữ cảnh giao tiếp] Chọn câu phản hồi tự nhiên và đúng ngữ pháp:",
+      "question": "Khi đối phương nói: \"Good morning, Diana. Have you analyzed our new electric vehicle production figures?\", câu phản hồi phù hợp là gì?",
       "options": [
         "Yes! The more we automate the assembly line, the faster our output becomes.",
-        "No, it is yesterday morning.",
-        "Yes, I will eat apple.",
-        "They are not at the library."
+        "They are not in the office.",
+        "No, it was yesterday.",
+        "Yes, I will eat it."
       ],
       "correctAnswer": "Yes! The more we automate the assembly line, the faster our output becomes.",
-      "explanationVi": "Phản hồi phù hợp: \"Yes! The more we automate the assembly line, the faster our output becomes.\" (Có chứ! Chúng ta càng tự động hóa dây chuyền lắp ráp, sản lượng của chúng ta càng trở nên nhanh hơn. (The more..., the faster...))."
+      "explanationVi": "Phản hồi phù hợp trong bài: \"Yes! The more we automate the assembly line, the faster our output becomes.\" (Có chứ! Chúng ta càng tự động hóa dây chuyền lắp ráp, sản lượng của chúng ta càng trở nên nhanh hơn. (The more..., the faster...))."
     },
     {
       "id": "ex-073-07",
       "type": "fill_blank",
-      "promptVi": "[Điền từ - (Dạng khẳng định)] Điền dạng đúng của động từ vào ô trống (Bạn càng làm việc chăm chỉ, bạn sẽ càng thành công hơn.):",
+      "promptVi": "[Điền từ - Dạng KHẲNG ĐỊNH] Điền từ còn thiếu vào ô trống (Bạn càng làm việc chăm chỉ, bạn sẽ càng thành công hơn.):",
       "question": "The ___ you work, the more successful you will be.",
       "correctAnswer": "harder",
       "options": [
-        "harder",
-        "hardest",
         "hard",
-        "more hard"
+        "hardest",
+        "more hard",
+        "harder"
       ],
-      "explanationVi": "Đáp án chính xác: \"harder\". Bạn càng làm việc chăm chỉ, bạn sẽ càng thành công hơn.."
+      "explanationVi": "Đáp án đúng là \"harder\". Câu hoàn chỉnh: \"The harder you work, the more successful you will be.\" (Bạn càng làm việc chăm chỉ, bạn sẽ càng thành công hơn.)."
     },
     {
       "id": "ex-073-08",
       "type": "fill_blank",
-      "promptVi": "[Điền từ - (Dạng khẳng định)] Điền dạng đúng của động từ vào ô trống (Ngôi nhà này to gấp hai lần ngôi nhà của tôi.):",
+      "promptVi": "[Điền từ - Dạng KHẲNG ĐỊNH] Điền từ còn thiếu vào ô trống (Ngôi nhà này to gấp hai lần ngôi nhà của tôi.):",
       "question": "This house is ___ as big as mine.",
       "correctAnswer": "twice",
       "options": [
@@ -114,64 +114,66 @@
         "double",
         "second"
       ],
-      "explanationVi": "Đáp án chính xác: \"twice\". Ngôi nhà này to gấp hai lần ngôi nhà của tôi.."
+      "explanationVi": "Đáp án đúng là \"twice\". Câu hoàn chỉnh: \"This house is twice as big as mine.\" (Ngôi nhà này to gấp hai lần ngôi nhà của tôi.)."
     },
     {
       "id": "ex-073-09",
       "type": "fill_blank",
-      "promptVi": "[Điền từ - (Dạng khẳng định)] Điền dạng đúng của động từ vào ô trống (Bạn càng đọc nhiều, bạn càng thu nhận được nhiều kiến thức.):",
+      "promptVi": "[Điền từ - Dạng KHẲNG ĐỊNH] Điền từ còn thiếu vào ô trống (Bạn càng đọc nhiều, bạn càng thu nhận được nhiều kiến thức.):",
       "question": "The more you read, ___ knowledge you gain.",
       "correctAnswer": "the more",
       "options": [
+        "much",
         "the more",
         "the most",
-        "more",
-        "much"
+        "more"
       ],
-      "explanationVi": "Đáp án chính xác: \"the more\". Bạn càng đọc nhiều, bạn càng thu nhận được nhiều kiến thức.."
+      "explanationVi": "Đáp án đúng là \"the more\". Câu hoàn chỉnh: \"The more you read, the more knowledge you gain.\" (Bạn càng đọc nhiều, bạn càng thu nhận được nhiều kiến thức.)."
     },
     {
       "id": "ex-073-10",
       "type": "fill_blank",
-      "promptVi": "[Điền từ - (Dạng khẳng định)] Điền dạng đúng của động từ vào ô trống (Nhà máy mới của chúng tôi rộng gấp bốn lần so với nhà máy cũ.):",
+      "promptVi": "[Điền từ - Dạng KHẲNG ĐỊNH] Điền từ còn thiếu vào ô trống (Nhà máy mới của chúng tôi rộng gấp bốn lần so với nhà máy cũ.):",
       "question": "Our new factory is ___ larger than the old one.",
       "correctAnswer": "four times",
       "options": [
         "four times",
         "four",
-        "fourth",
-        "four time"
+        "four time",
+        "fourth"
       ],
-      "explanationVi": "Đáp án chính xác: \"four times\". Nhà máy mới của chúng tôi rộng gấp bốn lần so với nhà máy cũ.."
+      "explanationVi": "Đáp án đúng là \"four times\". Câu hoàn chỉnh: \"Our new factory is four times larger than the old one.\" (Nhà máy mới của chúng tôi rộng gấp bốn lần so với nhà máy cũ.)."
     },
     {
       "id": "ex-073-11",
       "type": "fill_blank",
-      "promptVi": "[Điền từ - Dạng PHỦ ĐỊNH] Hoàn thành câu phủ định sau:",
-      "correctAnswer": "The harder you work, the more successful you will be.",
+      "promptVi": "[Điền từ - Dạng PHỦ ĐỊNH] Điền trợ động từ/động từ tobe phủ định vào chỗ trống:",
+      "question": "The _____ not you work, the more successful you will be.",
+      "correctAnswer": "harder",
       "options": [
-        "The harder you work, the more successful you will be.",
-        "The harder you work, the more successful you will be.",
-        "Not The harder you work, the more successful you will be.",
-        "The harder you work, the more successful you will be. no"
+        "am",
+        "harder",
+        "is",
+        "are"
       ],
-      "explanationVi": "Dạng phủ định chuẩn: Thêm 'not' sau động từ chính."
+      "explanationVi": "Câu phủ định hoàn chỉnh: \"The harder not you work, the more successful you will be.\"."
     },
     {
       "id": "ex-073-12",
       "type": "sentence_scramble",
-      "promptVi": "[Sắp xếp câu] Xếp các khối từ thành câu hoàn chỉnh mang nghĩa: \"Bạn càng làm việc chăm chỉ, bạn sẽ càng thành công hơn.\"",
+      "promptVi": "[Sắp xếp câu] Ghép các khối từ thành câu hoàn chỉnh mang nghĩa: \"Bạn càng làm việc chăm chỉ, bạn sẽ càng thành công hơn.\"",
+      "question": "Sắp xếp các từ để tạo thành câu đúng: \"Bạn càng làm việc chăm chỉ, bạn sẽ càng thành công hơn.\"",
       "words": [
-        "more",
-        "The",
         "you",
-        "be.",
-        "you",
-        "successful",
-        "will",
-        "work,",
         "the",
-        "harder"
+        "more",
+        "successful",
+        "you",
+        "harder",
+        "will",
+        "The",
+        "be.",
+        "work,"
       ],
       "correctSentence": "The harder you work, the more successful you will be.",
       "hintVi": "Bạn càng làm việc chăm chỉ, bạn sẽ càng thành công hơn.",
@@ -180,15 +182,16 @@
     {
       "id": "ex-073-13",
       "type": "sentence_scramble",
-      "promptVi": "[Sắp xếp câu] Xếp các khối từ thành câu hoàn chỉnh mang nghĩa: \"Ngôi nhà này to gấp hai lần ngôi nhà của tôi.\"",
+      "promptVi": "[Sắp xếp câu] Ghép các khối từ thành câu hoàn chỉnh mang nghĩa: \"Ngôi nhà này to gấp hai lần ngôi nhà của tôi.\"",
+      "question": "Sắp xếp các từ để tạo thành câu đúng: \"Ngôi nhà này to gấp hai lần ngôi nhà của tôi.\"",
       "words": [
+        "mine.",
         "as",
-        "is",
-        "This",
         "big",
         "as",
         "twice",
-        "mine.",
+        "This",
+        "is",
         "house"
       ],
       "correctSentence": "This house is twice as big as mine.",
@@ -198,16 +201,17 @@
     {
       "id": "ex-073-14",
       "type": "sentence_scramble",
-      "promptVi": "[Sắp xếp câu] Xếp các khối từ thành câu hoàn chỉnh mang nghĩa: \"Bạn càng đọc nhiều, bạn càng thu nhận được nhiều kiến thức.\"",
+      "promptVi": "[Sắp xếp câu] Ghép các khối từ thành câu hoàn chỉnh mang nghĩa: \"Bạn càng đọc nhiều, bạn càng thu nhận được nhiều kiến thức.\"",
+      "question": "Sắp xếp các từ để tạo thành câu đúng: \"Bạn càng đọc nhiều, bạn càng thu nhận được nhiều kiến thức.\"",
       "words": [
+        "gain.",
+        "the",
         "The",
         "you",
-        "you",
-        "the",
         "knowledge",
         "more",
-        "gain.",
         "more",
+        "you",
         "read,"
       ],
       "correctSentence": "The more you read, the more knowledge you gain.",
@@ -217,19 +221,20 @@
     {
       "id": "ex-073-15",
       "type": "sentence_scramble",
-      "promptVi": "[Sắp xếp câu] Xếp các khối từ thành câu hoàn chỉnh mang nghĩa: \"Nhà máy mới của chúng tôi rộng gấp bốn lần so với nhà máy cũ.\"",
+      "promptVi": "[Sắp xếp câu] Ghép các khối từ thành câu hoàn chỉnh mang nghĩa: \"Nhà máy mới của chúng tôi rộng gấp bốn lần so với nhà máy cũ.\"",
+      "question": "Sắp xếp các từ để tạo thành câu đúng: \"Nhà máy mới của chúng tôi rộng gấp bốn lần so với nhà máy cũ.\"",
       "words": [
-        "larger",
+        "old",
+        "factory",
+        "one.",
         "is",
-        "new",
+        "times",
         "than",
         "the",
         "four",
-        "factory",
+        "new",
         "Our",
-        "old",
-        "times",
-        "one."
+        "larger"
       ],
       "correctSentence": "Our new factory is four times larger than the old one.",
       "hintVi": "Nhà máy mới của chúng tôi rộng gấp bốn lần so với nhà máy cũ.",
@@ -238,22 +243,23 @@
     {
       "id": "ex-073-16",
       "type": "sentence_scramble",
-      "promptVi": "[Sắp xếp câu] Xếp các từ thành câu hội thoại: \"Có phải pin nhiên liệu mới đắt gấp ba lần so với mẫu thế hệ trước của chúng ta không? (three times as expensive as)\"",
+      "promptVi": "[Sắp xếp câu] Ghép các từ thành câu hội thoại: \"Có phải pin nhiên liệu mới đắt gấp ba lần so với mẫu thế hệ trước của chúng ta không? (three times as expensive as)\"",
+      "question": "Sắp xếp các từ để tạo thành câu thoại: \"Có phải pin nhiên liệu mới đắt gấp ba lần so với mẫu thế hệ trước của chúng ta không? (three times as expensive as)\"",
       "words": [
-        "cell",
-        "the",
-        "expensive",
-        "times",
-        "three",
-        "Is",
-        "new",
+        "as",
         "battery",
+        "previous",
+        "times",
+        "new",
+        "generation",
+        "three",
+        "the",
+        "model",
+        "cell",
         "as",
         "our",
-        "as",
-        "generation",
-        "previous",
-        "model"
+        "Is",
+        "expensive"
       ],
       "correctSentence": "Is the new battery cell three times as expensive as our previous generation model?",
       "hintVi": "Có phải pin nhiên liệu mới đắt gấp ba lần so với mẫu thế hệ trước của chúng ta không? (three times as expensive as)",
@@ -262,70 +268,70 @@
     {
       "id": "ex-073-17",
       "type": "find_error",
-      "promptVi": "[Tìm lỗi sai & Chọn câu đúng] Câu nào dưới đây có cấu trúc ngữ pháp HOÀN TOÀN ĐÚNG?",
-      "question": "Chủ điểm \"Bài 73: Cấu trúc So sánh Nâng cao — Càng...Càng & So sánh Gấp Bội (The...The... & Multiple Numbers)\": Chọn câu CHÍNH XÁC:",
+      "promptVi": "[Nhận diện cấu trúc chuẩn] Chọn câu có cấu trúc ngữ pháp HOÀN TOÀN ĐÚNG:",
+      "question": "Dựa vào chủ điểm \"Bài 73: Cấu trúc So sánh Nâng cao — Càng...Càng & So sánh Gấp Bội (The...The... & Multiple Numbers)\", câu nào sau đây CHÍNH XÁC?",
       "options": [
-        "The harder you work, the more successful you will be.",
+        "is",
         "be. will you successful more the work, you harder The",
-        "The harder you work, the more successful you will be. (sai)",
-        "The harder you work, the more successful you will be. (sai)"
+        "The harder you work, the more successful you will be.",
+        "are"
       ],
       "correctAnswer": "The harder you work, the more successful you will be.",
-      "explanationVi": "Câu chuẩn xác là: \"The harder you work, the more successful you will be.\" (Bạn càng làm việc chăm chỉ, bạn sẽ càng thành công hơn.)."
+      "explanationVi": "Cấu trúc chuẩn xác là: \"The harder you work, the more successful you will be.\" (Bạn càng làm việc chăm chỉ, bạn sẽ càng thành công hơn.)."
     },
     {
       "id": "ex-073-18",
       "type": "find_error",
-      "promptVi": "[Tìm lỗi sai & Chọn câu đúng] Câu nào dưới đây có cấu trúc ngữ pháp HOÀN TOÀN ĐÚNG?",
-      "question": "Chủ điểm \"Bài 73: Cấu trúc So sánh Nâng cao — Càng...Càng & So sánh Gấp Bội (The...The... & Multiple Numbers)\": Chọn câu CHÍNH XÁC:",
+      "promptVi": "[Nhận diện cấu trúc chuẩn] Chọn câu có cấu trúc ngữ pháp HOÀN TOÀN ĐÚNG:",
+      "question": "Dựa vào chủ điểm \"Bài 73: Cấu trúc So sánh Nâng cao — Càng...Càng & So sánh Gấp Bội (The...The... & Multiple Numbers)\", câu nào sau đây CHÍNH XÁC?",
       "options": [
-        "This house is twice as big as mine.",
         "This house be twice as big as mine.",
-        "This house are not is twice as big as mine.",
-        "mine. as big as twice is house This"
+        "This house is twice as big as mine.",
+        "mine. as big as twice is house This",
+        "is"
       ],
       "correctAnswer": "This house is twice as big as mine.",
-      "explanationVi": "Câu chuẩn xác là: \"This house is twice as big as mine.\" (Ngôi nhà này to gấp hai lần ngôi nhà của tôi.)."
+      "explanationVi": "Cấu trúc chuẩn xác là: \"This house is twice as big as mine.\" (Ngôi nhà này to gấp hai lần ngôi nhà của tôi.)."
     },
     {
       "id": "ex-073-19",
       "type": "find_error",
-      "promptVi": "[Tìm lỗi sai & Chọn câu đúng] Câu nào dưới đây có cấu trúc ngữ pháp HOÀN TOÀN ĐÚNG?",
-      "question": "Chủ điểm \"Bài 73: Cấu trúc So sánh Nâng cao — Càng...Càng & So sánh Gấp Bội (The...The... & Multiple Numbers)\": Chọn câu CHÍNH XÁC:",
+      "promptVi": "[Nhận diện cấu trúc chuẩn] Chọn câu có cấu trúc ngữ pháp HOÀN TOÀN ĐÚNG:",
+      "question": "Dựa vào chủ điểm \"Bài 73: Cấu trúc So sánh Nâng cao — Càng...Càng & So sánh Gấp Bội (The...The... & Multiple Numbers)\", câu nào sau đây CHÍNH XÁC?",
       "options": [
-        "The more you read, the more knowledge you gain.",
+        "is",
+        "are",
         "gain. you knowledge more the read, you more The",
-        "The more you read, the more knowledge you gain. (sai)",
-        "The more you read, the more knowledge you gain. (sai)"
+        "The more you read, the more knowledge you gain."
       ],
       "correctAnswer": "The more you read, the more knowledge you gain.",
-      "explanationVi": "Câu chuẩn xác là: \"The more you read, the more knowledge you gain.\" (Bạn càng đọc nhiều, bạn càng thu nhận được nhiều kiến thức.)."
+      "explanationVi": "Cấu trúc chuẩn xác là: \"The more you read, the more knowledge you gain.\" (Bạn càng đọc nhiều, bạn càng thu nhận được nhiều kiến thức.)."
     },
     {
       "id": "ex-073-20",
       "type": "find_error",
-      "promptVi": "[Tìm lỗi sai & Chọn câu đúng] Câu nào dưới đây có cấu trúc ngữ pháp HOÀN TOÀN ĐÚNG?",
-      "question": "Chủ điểm \"Bài 73: Cấu trúc So sánh Nâng cao — Càng...Càng & So sánh Gấp Bội (The...The... & Multiple Numbers)\": Chọn câu CHÍNH XÁC:",
+      "promptVi": "[Nhận diện cấu trúc chuẩn] Chọn câu có cấu trúc ngữ pháp HOÀN TOÀN ĐÚNG:",
+      "question": "Dựa vào chủ điểm \"Bài 73: Cấu trúc So sánh Nâng cao — Càng...Càng & So sánh Gấp Bội (The...The... & Multiple Numbers)\", câu nào sau đây CHÍNH XÁC?",
       "options": [
-        "Our new factory is four times larger than the old one.",
         "Our new factory be four times larger than the old one.",
-        "Our new factory are not is four times larger than the old one.",
+        "is",
+        "Our new factory is four times larger than the old one.",
         "one. old the than larger times four is factory new Our"
       ],
       "correctAnswer": "Our new factory is four times larger than the old one.",
-      "explanationVi": "Câu chuẩn xác là: \"Our new factory is four times larger than the old one.\" (Nhà máy mới của chúng tôi rộng gấp bốn lần so với nhà máy cũ.)."
+      "explanationVi": "Cấu trúc chuẩn xác là: \"Our new factory is four times larger than the old one.\" (Nhà máy mới của chúng tôi rộng gấp bốn lần so với nhà máy cũ.)."
     },
     {
       "id": "ex-073-21",
       "type": "listening_reflex",
-      "promptVi": "[Nghe phản xạ] Nghe câu phát âm tiếng Anh và chọn bản dịch tiếng Việt đúng nhất:",
+      "promptVi": "[Nghe phản xạ] Nghe câu phát âm tiếng Anh và chọn bản dịch tiếng Việt đúng:",
       "audioPrompt": "Good morning, Diana. Have you analyzed our new electric vehicle production figures?",
-      "question": "Nhấn nút '🔊 Nghe audio' để nghe câu thoại và chọn nghĩa đúng:",
+      "question": "Nhấn nút '🔊 Nghe audio' và chọn nghĩa tiếng Việt đúng:",
       "options": [
+        "Hôm nay thời tiết rất đẹp.",
         "Chào buổi sáng Diana. Bạn đã phân tích các số liệu sản xuất xe điện mới của chúng ta chưa?",
-        "Có chứ! Chúng ta càng tự động hóa dây chuyền lắp ráp, sản lượng của chúng ta càng trở nên nhanh hơn. (The more..., the faster...)",
         "Có phải pin nhiên liệu mới đắt gấp ba lần so với mẫu thế hệ trước của chúng ta không? (three times as expensive as)",
-        "Ngày mai trời sẽ mưa to."
+        "Có chứ! Chúng ta càng tự động hóa dây chuyền lắp ráp, sản lượng của chúng ta càng trở nên nhanh hơn. (The more..., the faster...)"
       ],
       "correctAnswer": "Chào buổi sáng Diana. Bạn đã phân tích các số liệu sản xuất xe điện mới của chúng ta chưa?",
       "explanationVi": "Câu nghe được: \"Good morning, Diana. Have you analyzed our new electric vehicle production figures?\" có nghĩa là: \"Chào buổi sáng Diana. Bạn đã phân tích các số liệu sản xuất xe điện mới của chúng ta chưa?\"."
@@ -333,14 +339,14 @@
     {
       "id": "ex-073-22",
       "type": "listening_reflex",
-      "promptVi": "[Nghe phản xạ] Nghe câu phát âm tiếng Anh và chọn bản dịch tiếng Việt đúng nhất:",
+      "promptVi": "[Nghe phản xạ] Nghe câu phát âm tiếng Anh và chọn bản dịch tiếng Việt đúng:",
       "audioPrompt": "Yes! The more we automate the assembly line, the faster our output becomes.",
-      "question": "Nhấn nút '🔊 Nghe audio' để nghe câu thoại và chọn nghĩa đúng:",
+      "question": "Nhấn nút '🔊 Nghe audio' và chọn nghĩa tiếng Việt đúng:",
       "options": [
-        "Có chứ! Chúng ta càng tự động hóa dây chuyền lắp ráp, sản lượng của chúng ta càng trở nên nhanh hơn. (The more..., the faster...)",
+        "Hôm nay thời tiết rất đẹp.",
         "Có phải pin nhiên liệu mới đắt gấp ba lần so với mẫu thế hệ trước của chúng ta không? (three times as expensive as)",
-        "Không, nó chỉ tốn gấp hai lần chi phí so với pin cũ, nhưng nó lưu trữ gấp ba lần năng lượng. (twice as much as / three times more)",
-        "Ngày mai trời sẽ mưa to."
+        "Có chứ! Chúng ta càng tự động hóa dây chuyền lắp ráp, sản lượng của chúng ta càng trở nên nhanh hơn. (The more..., the faster...)",
+        "Không, nó chỉ tốn gấp hai lần chi phí so với pin cũ, nhưng nó lưu trữ gấp ba lần năng lượng. (twice as much as / three times more)"
       ],
       "correctAnswer": "Có chứ! Chúng ta càng tự động hóa dây chuyền lắp ráp, sản lượng của chúng ta càng trở nên nhanh hơn. (The more..., the faster...)",
       "explanationVi": "Câu nghe được: \"Yes! The more we automate the assembly line, the faster our output becomes.\" có nghĩa là: \"Có chứ! Chúng ta càng tự động hóa dây chuyền lắp ráp, sản lượng của chúng ta càng trở nên nhanh hơn. (The more..., the faster...)\"."
@@ -348,14 +354,14 @@
     {
       "id": "ex-073-23",
       "type": "listening_reflex",
-      "promptVi": "[Nghe phản xạ] Nghe câu phát âm tiếng Anh và chọn bản dịch tiếng Việt đúng nhất:",
+      "promptVi": "[Nghe phản xạ] Nghe câu phát âm tiếng Anh và chọn bản dịch tiếng Việt đúng:",
       "audioPrompt": "Is the new battery cell three times as expensive as our previous generation model?",
-      "question": "Nhấn nút '🔊 Nghe audio' để nghe câu thoại và chọn nghĩa đúng:",
+      "question": "Nhấn nút '🔊 Nghe audio' và chọn nghĩa tiếng Việt đúng:",
       "options": [
-        "Có phải pin nhiên liệu mới đắt gấp ba lần so với mẫu thế hệ trước của chúng ta không? (three times as expensive as)",
         "Không, nó chỉ tốn gấp hai lần chi phí so với pin cũ, nhưng nó lưu trữ gấp ba lần năng lượng. (twice as much as / three times more)",
-        "Dung lượng pin càng cao thì khách hàng của chúng ta càng có thể di chuyển xa hơn trong một lần sạc. (The higher..., the farther...)",
-        "Ngày mai trời sẽ mưa to."
+        "Hôm nay thời tiết rất đẹp.",
+        "Có phải pin nhiên liệu mới đắt gấp ba lần so với mẫu thế hệ trước của chúng ta không? (three times as expensive as)",
+        "Dung lượng pin càng cao thì khách hàng của chúng ta càng có thể di chuyển xa hơn trong một lần sạc. (The higher..., the farther...)"
       ],
       "correctAnswer": "Có phải pin nhiên liệu mới đắt gấp ba lần so với mẫu thế hệ trước của chúng ta không? (three times as expensive as)",
       "explanationVi": "Câu nghe được: \"Is the new battery cell three times as expensive as our previous generation model?\" có nghĩa là: \"Có phải pin nhiên liệu mới đắt gấp ba lần so với mẫu thế hệ trước của chúng ta không? (three times as expensive as)\"."
@@ -363,14 +369,14 @@
     {
       "id": "ex-073-24",
       "type": "listening_reflex",
-      "promptVi": "[Nghe phản xạ] Nghe câu phát âm tiếng Anh và chọn bản dịch tiếng Việt đúng nhất:",
+      "promptVi": "[Nghe phản xạ] Nghe câu phát âm tiếng Anh và chọn bản dịch tiếng Việt đúng:",
       "audioPrompt": "No, it costs only twice as much as the old battery, but it stores three times more energy.",
-      "question": "Nhấn nút '🔊 Nghe audio' để nghe câu thoại và chọn nghĩa đúng:",
+      "question": "Nhấn nút '🔊 Nghe audio' và chọn nghĩa tiếng Việt đúng:",
       "options": [
+        "Hôm nay thời tiết rất đẹp.",
         "Không, nó chỉ tốn gấp hai lần chi phí so với pin cũ, nhưng nó lưu trữ gấp ba lần năng lượng. (twice as much as / three times more)",
         "Dung lượng pin càng cao thì khách hàng của chúng ta càng có thể di chuyển xa hơn trong một lần sạc. (The higher..., the farther...)",
-        "Chính xác. Chúng ta càng ra mắt mẫu xe này sớm ở thị trường quốc tế, lợi thế cạnh tranh của chúng ta sẽ càng lớn. (The earlier..., the greater...)",
-        "Ngày mai trời sẽ mưa to."
+        "Chính xác. Chúng ta càng ra mắt mẫu xe này sớm ở thị trường quốc tế, lợi thế cạnh tranh của chúng ta sẽ càng lớn. (The earlier..., the greater...)"
       ],
       "correctAnswer": "Không, nó chỉ tốn gấp hai lần chi phí so với pin cũ, nhưng nó lưu trữ gấp ba lần năng lượng. (twice as much as / three times more)",
       "explanationVi": "Câu nghe được: \"No, it costs only twice as much as the old battery, but it stores three times more energy.\" có nghĩa là: \"Không, nó chỉ tốn gấp hai lần chi phí so với pin cũ, nhưng nó lưu trữ gấp ba lần năng lượng. (twice as much as / three times more)\"."
@@ -378,64 +384,68 @@
     {
       "id": "ex-073-25",
       "type": "speaking_practice",
-      "promptVi": "[Luyện nói qua Micro] Nhấn nút '🎙️ Bắt đầu nói' và đọc to, rõ ràng câu tiếng Anh sau:",
+      "promptVi": "[Luyện nói qua Micro] Nhấn nút 'Bấm để Nói ngay' và phát âm câu sau:",
+      "question": "Luyện phát âm chuẩn câu: \"The harder you work, the more successful you will be.\" (Bạn càng làm việc chăm chỉ, bạn sẽ càng thành công hơn.)",
       "targetSentence": "The harder you work, the more successful you will be.",
       "hintVi": "Bạn càng làm việc chăm chỉ, bạn sẽ càng thành công hơn.",
-      "explanationVi": "Câu mục tiêu: \"The harder you work, the more successful you will be.\" (Bạn càng làm việc chăm chỉ, bạn sẽ càng thành công hơn.). Luyện phát âm chuẩn xác từng âm tiết và ngữ điệu tự nhiên."
+      "explanationVi": "Mẫu câu chuẩn: \"The harder you work, the more successful you will be.\" (Bạn càng làm việc chăm chỉ, bạn sẽ càng thành công hơn.). Luyện phát âm rõ ràng từng từ."
     },
     {
       "id": "ex-073-26",
       "type": "speaking_practice",
-      "promptVi": "[Luyện nói qua Micro] Nhấn nút '🎙️ Bắt đầu nói' và đọc to, rõ ràng câu tiếng Anh sau:",
+      "promptVi": "[Luyện nói qua Micro] Nhấn nút 'Bấm để Nói ngay' và phát âm câu sau:",
+      "question": "Luyện phát âm chuẩn câu: \"This house is twice as big as mine.\" (Ngôi nhà này to gấp hai lần ngôi nhà của tôi.)",
       "targetSentence": "This house is twice as big as mine.",
       "hintVi": "Ngôi nhà này to gấp hai lần ngôi nhà của tôi.",
-      "explanationVi": "Câu mục tiêu: \"This house is twice as big as mine.\" (Ngôi nhà này to gấp hai lần ngôi nhà của tôi.). Luyện phát âm chuẩn xác từng âm tiết và ngữ điệu tự nhiên."
+      "explanationVi": "Mẫu câu chuẩn: \"This house is twice as big as mine.\" (Ngôi nhà này to gấp hai lần ngôi nhà của tôi.). Luyện phát âm rõ ràng từng từ."
     },
     {
       "id": "ex-073-27",
       "type": "speaking_practice",
-      "promptVi": "[Luyện nói qua Micro] Nhấn nút '🎙️ Bắt đầu nói' và đọc to, rõ ràng câu tiếng Anh sau:",
+      "promptVi": "[Luyện nói qua Micro] Nhấn nút 'Bấm để Nói ngay' và phát âm câu sau:",
+      "question": "Luyện phát âm chuẩn câu: \"The more you read, the more knowledge you gain.\" (Bạn càng đọc nhiều, bạn càng thu nhận được nhiều kiến thức.)",
       "targetSentence": "The more you read, the more knowledge you gain.",
       "hintVi": "Bạn càng đọc nhiều, bạn càng thu nhận được nhiều kiến thức.",
-      "explanationVi": "Câu mục tiêu: \"The more you read, the more knowledge you gain.\" (Bạn càng đọc nhiều, bạn càng thu nhận được nhiều kiến thức.). Luyện phát âm chuẩn xác từng âm tiết và ngữ điệu tự nhiên."
+      "explanationVi": "Mẫu câu chuẩn: \"The more you read, the more knowledge you gain.\" (Bạn càng đọc nhiều, bạn càng thu nhận được nhiều kiến thức.). Luyện phát âm rõ ràng từng từ."
     },
     {
       "id": "ex-073-28",
       "type": "speaking_practice",
-      "promptVi": "[Luyện nói qua Micro] Nhấn nút '🎙️ Bắt đầu nói' và đọc to, rõ ràng câu tiếng Anh sau:",
+      "promptVi": "[Luyện nói qua Micro] Nhấn nút 'Bấm để Nói ngay' và phát âm câu sau:",
+      "question": "Luyện phát âm chuẩn câu: \"Our new factory is four times larger than the old one.\" (Nhà máy mới của chúng tôi rộng gấp bốn lần so với nhà máy cũ.)",
       "targetSentence": "Our new factory is four times larger than the old one.",
       "hintVi": "Nhà máy mới của chúng tôi rộng gấp bốn lần so với nhà máy cũ.",
-      "explanationVi": "Câu mục tiêu: \"Our new factory is four times larger than the old one.\" (Nhà máy mới của chúng tôi rộng gấp bốn lần so với nhà máy cũ.). Luyện phát âm chuẩn xác từng âm tiết và ngữ điệu tự nhiên."
+      "explanationVi": "Mẫu câu chuẩn: \"Our new factory is four times larger than the old one.\" (Nhà máy mới của chúng tôi rộng gấp bốn lần so với nhà máy cũ.). Luyện phát âm rõ ràng từng từ."
     },
     {
       "id": "ex-073-29",
       "type": "reading_comprehension",
-      "promptVi": "[Đọc hiểu đoạn văn 1] Đọc đoạn hội thoại mở đầu sau và trả lời câu hỏi:",
-      "passage": "Analyst Gabriel (Nam): \"Good morning, Diana. Have you analyzed our new electric vehicle production figures?\"\nDiana (Nữ): \"Yes! The more we automate the assembly line, the faster our output becomes.\"\nAnalyst Gabriel (Nam): \"Is the new battery cell three times as expensive as our previous generation model?\"\nDiana (Nữ): \"No, it costs only twice as much as the old battery, but it stores three times more energy.\"",
-      "question": "Câu hỏi: Trong đoạn hội thoại trên, các nhân vật đang thảo luận về chủ đề gì?",
+      "promptVi": "[Đọc hiểu đoạn văn] Đọc đoạn hội thoại sau và trả lời câu hỏi:",
+      "passage": "Analyst Gabriel: \"Good morning, Diana. Have you analyzed our new electric vehicle production figures?\"\nDiana: \"Yes! The more we automate the assembly line, the faster our output becomes.\"\nAnalyst Gabriel: \"Is the new battery cell three times as expensive as our previous generation model?\"\nDiana: \"No, it costs only twice as much as the old battery, but it stores three times more energy.\"",
+      "question": "Chủ đề trọng tâm của đoạn hội thoại trên là gì?",
       "options": [
+        "Kế hoạch đi mua sắm tại siêu thị",
         "Cấu trúc So sánh Nâng cao — Càng...Càng & So sánh Gấp Bội (The...The... & Multiple Numbers)",
-        "Kế hoạch đi nghỉ dưỡng cuối tuần ở bãi biển",
-        "Mua sắm quần áo và đồ dùng thể thao",
-        "Cách làm món ăn truyền thống gia đình"
+        "Cách làm món ăn truyền thống",
+        "Lịch trình đi du lịch nghỉ mát cuối tuần"
       ],
       "correctAnswer": "Cấu trúc So sánh Nâng cao — Càng...Càng & So sánh Gấp Bội (The...The... & Multiple Numbers)",
-      "explanationVi": "Đoạn hội thoại mở đầu được thiết kế để minh họa trực tiếp cho chủ điểm ngữ pháp: \"Bài 73: Cấu trúc So sánh Nâng cao — Càng...Càng & So sánh Gấp Bội (The...The... & Multiple Numbers)\"."
+      "explanationVi": "Đoạn hội thoại được thiết kế để minh họa trực tiếp cho chủ điểm \"Bài 73: Cấu trúc So sánh Nâng cao — Càng...Càng & So sánh Gấp Bội (The...The... & Multiple Numbers)\"."
     },
     {
       "id": "ex-073-30",
       "type": "reading_comprehension",
-      "promptVi": "[Đọc hiểu đoạn văn 2] Đọc phần tiếp theo của đoạn hội thoại và chọn nhận định đúng:",
-      "passage": "Analyst Gabriel (Nam): \"The higher the battery capacity is, the farther our customers can travel on a single charge.\"\nDiana (Nữ): \"Exactly. The earlier we launch this model in international markets, the greater our competitive edge will be.\"\nAnalyst Gabriel (Nam): \"Our latest manufacturing facility is four times larger than our original factory in Detroit.\"\nDiana (Nữ): \"The more experienced our robotics technicians are, the fewer manufacturing defects we observe.\"",
-      "question": "Nhận định nào sau đây là ĐÚNG với nội dung đoạn hội thoại trên?",
+      "promptVi": "[Đọc hiểu đoạn văn] Đọc đoạn đối thoại tiếp theo và chọn nhận định đúng:",
+      "passage": "Analyst Gabriel: \"The higher the battery capacity is, the farther our customers can travel on a single charge.\"\nDiana: \"Exactly. The earlier we launch this model in international markets, the greater our competitive edge will be.\"\nAnalyst Gabriel: \"Our latest manufacturing facility is four times larger than our original factory in Detroit.\"\nDiana: \"The more experienced our robotics technicians are, the fewer manufacturing defects we observe.\"",
+      "question": "Nhận định nào sau đây là ĐÚNG về nội dung đoạn đối thoại?",
       "options": [
-        "Các câu hội thoại sử dụng đúng cấu trúc ngữ pháp \"Bài 73: Cấu trúc So sánh Nâng cao — Càng...Càng & So sánh Gấp Bội (The...The... & Multiple Numbers)\".",
-        "Các nhân vật không hiểu ý nhau và từ chối nói chuyện.",
-        "Đoạn hội thoại nói về việc chuyển nhà sang thành phố khác.",
-        "Cả hai nhân vật đều đang ở sân bay chuẩn bị lên máy bay."
+        "Cả hai nhân vật đang thảo luận về thời tiết ngày mai.",
+        "Hai nhân vật đang cãi nhau và không đồng ý hợp tác.",
+        "Các câu thoại sử dụng đúng cấu trúc \"Cấu trúc So sánh Nâng cao — Càng...Càng & So sánh Gấp Bội (The...The... & Multiple Numbers)\".",
+        "Cuộc trò chuyện diễn ra tại nhà ga xe lửa."
       ],
-      "correctAnswer": "Các câu hội thoại sử dụng đúng cấu trúc ngữ pháp \"Bài 73: Cấu trúc So sánh Nâng cao — Càng...Càng & So sánh Gấp Bội (The...The... & Multiple Numbers)\".",
-      "explanationVi": "Đoạn hội thoại thứ hai tiếp tục củng cố và ứng dụng các quy tắc ngữ pháp của \"Bài 73: Cấu trúc So sánh Nâng cao — Càng...Càng & So sánh Gấp Bội (The...The... & Multiple Numbers)\"."
+      "correctAnswer": "Các câu thoại sử dụng đúng cấu trúc \"Cấu trúc So sánh Nâng cao — Càng...Càng & So sánh Gấp Bội (The...The... & Multiple Numbers)\".",
+      "explanationVi": "Đoạn đối thoại ứng dụng chuẩn xác ngữ pháp của \"Bài 73: Cấu trúc So sánh Nâng cao — Càng...Càng & So sánh Gấp Bội (The...The... & Multiple Numbers)\"."
     }
   ]
 }

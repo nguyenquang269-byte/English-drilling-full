@@ -7,12 +7,12 @@
     {
       "id": "ex-095-01",
       "type": "multiple_choice",
-      "promptVi": "[Trắc nghiệm] Chọn từ/cụm từ đúng để hoàn thành câu (Với ánh nắng mặt trời đang chiếu rọi rực rỡ, chúng tôi quyết định đi dã ngoại.):",
+      "promptVi": "[Trắc nghiệm ngữ pháp] Chọn từ đúng để hoàn thành câu (Với ánh nắng mặt trời đang chiếu rọi rực rỡ, chúng tôi quyết định đi dã ngoại.):",
       "question": "With the sun ___ brightly, we decided to go for a picnic.",
       "options": [
-        "shining",
         "shined",
         "shone",
+        "shining",
         "to shine"
       ],
       "correctAnswer": "shining",
@@ -21,12 +21,12 @@
     {
       "id": "ex-095-02",
       "type": "multiple_choice",
-      "promptVi": "[Trắc nghiệm] Chọn từ/cụm từ đúng để hoàn thành câu (Với tất cả nhiệm vụ đã được hoàn thành, chúng tôi đã về nhà sớm.):",
+      "promptVi": "[Trắc nghiệm ngữ pháp] Chọn từ đúng để hoàn thành câu (Với tất cả nhiệm vụ đã được hoàn thành, chúng tôi đã về nhà sớm.):",
       "question": "With all the tasks ___, we went home early.",
       "options": [
-        "completed",
         "completing",
         "complete",
+        "completed",
         "to complete"
       ],
       "correctAnswer": "completed",
@@ -35,13 +35,13 @@
     {
       "id": "ex-095-03",
       "type": "multiple_choice",
-      "promptVi": "[Trắc nghiệm] Chọn từ/cụm từ đúng để hoàn thành câu (Anh ấy đã phát biểu trước khán giả với chiếc micrô trên tay.):",
+      "promptVi": "[Trắc nghiệm ngữ pháp] Chọn từ đúng để hoàn thành câu (Anh ấy đã phát biểu trước khán giả với chiếc micrô trên tay.):",
       "question": "He spoke to the audience with a microphone ___ his hand.",
       "options": [
-        "in",
-        "on",
+        "with",
         "at",
-        "with"
+        "on",
+        "in"
       ],
       "correctAnswer": "in",
       "explanationVi": "Cụm vị trí 'in his hand' (trên tay của anh ấy)."
@@ -49,13 +49,13 @@
     {
       "id": "ex-095-04",
       "type": "multiple_choice",
-      "promptVi": "[Trắc nghiệm] Chọn từ/cụm từ đúng để hoàn thành câu (Mà không một ai để ý, tên trộm đã trốn thoát qua cửa sau.):",
+      "promptVi": "[Trắc nghiệm ngữ pháp] Chọn từ đúng để hoàn thành câu (Mà không một ai để ý, tên trộm đã trốn thoát qua cửa sau.):",
       "question": "Without anyone ___, the thief escaped through the back door.",
       "options": [
         "noticing",
         "noticed",
-        "notice",
-        "to notice"
+        "to notice",
+        "notice"
       ],
       "correctAnswer": "noticing",
       "explanationVi": "Cấu trúc tuyệt đối phủ định: Without + anyone + V-ing (noticing)."
@@ -63,117 +63,119 @@
     {
       "id": "ex-095-05",
       "type": "multiple_choice",
-      "promptVi": "[Trắc nghiệm] Dịch câu sau sang tiếng Anh: \"Chào buổi sáng Kỹ sư Lin. Với cơn bão cấp 4 đang tiến gần đến khu vực ven biển của chúng ta, chúng ta phải cố định các tuabin gió ngoài khơi. (With winds approaching)\"",
-      "question": "Chọn bản dịch chuẩn xác cho câu: \"Chào buổi sáng Kỹ sư Lin. Với cơn bão cấp 4 đang tiến gần đến khu vực ven biển của chúng ta, chúng ta phải cố định các tuabin gió ngoài khơi. (With winds approaching)\"",
+      "promptVi": "[Phản xạ dịch thuật] Dịch câu sau sang tiếng Anh: \"Chào buổi sáng Kỹ sư Lin. Với cơn bão cấp 4 đang tiến gần đến khu vực ven biển của chúng ta, chúng ta phải cố định các tuabin gió ngoài khơi. (With winds approaching)\"",
+      "question": "Chọn bản dịch chuẩn xác nhất cho câu: \"Chào buổi sáng Kỹ sư Lin. Với cơn bão cấp 4 đang tiến gần đến khu vực ven biển của chúng ta, chúng ta phải cố định các tuabin gió ngoài khơi. (With winds approaching)\"",
       "options": [
+        "is",
+        "We are studying English today.",
         "Good morning, Engineer Lin. With Category 4 storm winds approaching our coastal sector, we must secure the offshore wind turbines.",
-        "Good morning, Engineer Lin. With Category 4 storm winds approaching our coastal sector, we must secure the offshore wind turbines.",
-        "With all turbine blades locked into aerodynamic feathering positions, the risk of mechanical damage is minimized.",
-        "I want to go to the park now."
+        "With all turbine blades locked into aerodynamic feathering positions, the risk of mechanical damage is minimized."
       ],
       "correctAnswer": "Good morning, Engineer Lin. With Category 4 storm winds approaching our coastal sector, we must secure the offshore wind turbines.",
-      "explanationVi": "Câu đúng là \"Good morning, Engineer Lin. With Category 4 storm winds approaching our coastal sector, we must secure the offshore wind turbines.\" (Chào buổi sáng Kỹ sư Lin. Với cơn bão cấp 4 đang tiến gần đến khu vực ven biển của chúng ta, chúng ta phải cố định các tuabin gió ngoài khơi. (With winds approaching))."
+      "explanationVi": "Câu dịch chuẩn xác: \"Good morning, Engineer Lin. With Category 4 storm winds approaching our coastal sector, we must secure the offshore wind turbines.\" (Chào buổi sáng Kỹ sư Lin. Với cơn bão cấp 4 đang tiến gần đến khu vực ven biển của chúng ta, chúng ta phải cố định các tuabin gió ngoài khơi. (With winds approaching))."
     },
     {
       "id": "ex-095-06",
       "type": "multiple_choice",
-      "promptVi": "[Trắc nghiệm] Chọn câu trả lời hoặc cách diễn đạt phù hợp:",
-      "question": "Trong ngữ cảnh giao tiếp: \"Good morning, Engineer Lin. With Category 4 storm winds approaching our coastal sector, we must secure the offshore wind turbines.\", câu phản hồi tự nhiên là gì?",
+      "promptVi": "[Ngữ cảnh giao tiếp] Chọn câu phản hồi tự nhiên và đúng ngữ pháp:",
+      "question": "Khi đối phương nói: \"Good morning, Engineer Lin. With Category 4 storm winds approaching our coastal sector, we must secure the offshore wind turbines.\", câu phản hồi phù hợp là gì?",
       "options": [
+        "No, it was yesterday.",
+        "Yes, I will eat it.",
         "With all turbine blades locked into aerodynamic feathering positions, the risk of mechanical damage is minimized.",
-        "No, it is yesterday morning.",
-        "Yes, I will eat apple.",
-        "They are not at the library."
+        "They are not in the office."
       ],
       "correctAnswer": "With all turbine blades locked into aerodynamic feathering positions, the risk of mechanical damage is minimized.",
-      "explanationVi": "Phản hồi phù hợp: \"With all turbine blades locked into aerodynamic feathering positions, the risk of mechanical damage is minimized.\" (Với tất cả các cánh tuabin đã được khóa vào vị trí cản gió khí động học, nguy cơ hư hỏng cơ học được giảm thiểu tối đa. (With blades locked))."
+      "explanationVi": "Phản hồi phù hợp trong bài: \"With all turbine blades locked into aerodynamic feathering positions, the risk of mechanical damage is minimized.\" (Với tất cả các cánh tuabin đã được khóa vào vị trí cản gió khí động học, nguy cơ hư hỏng cơ học được giảm thiểu tối đa. (With blades locked))."
     },
     {
       "id": "ex-095-07",
       "type": "fill_blank",
-      "promptVi": "[Điền từ - (Dạng khẳng định)] Điền dạng đúng của động từ vào ô trống (Với ánh nắng mặt trời đang chiếu rọi rực rỡ, chúng tôi quyết định đi dã ngoại.):",
+      "promptVi": "[Điền từ - Dạng KHẲNG ĐỊNH] Điền từ còn thiếu vào ô trống (Với ánh nắng mặt trời đang chiếu rọi rực rỡ, chúng tôi quyết định đi dã ngoại.):",
       "question": "With the sun ___ brightly, we decided to go for a picnic.",
       "correctAnswer": "shining",
       "options": [
         "shining",
         "shined",
-        "shone",
-        "to shine"
+        "to shine",
+        "shone"
       ],
-      "explanationVi": "Đáp án chính xác: \"shining\". Với ánh nắng mặt trời đang chiếu rọi rực rỡ, chúng tôi quyết định đi dã ngoại.."
+      "explanationVi": "Đáp án đúng là \"shining\". Câu hoàn chỉnh: \"With the sun shining brightly, we decided to go for a picnic.\" (Với ánh nắng mặt trời đang chiếu rọi rực rỡ, chúng tôi quyết định đi dã ngoại.)."
     },
     {
       "id": "ex-095-08",
       "type": "fill_blank",
-      "promptVi": "[Điền từ - (Dạng khẳng định)] Điền dạng đúng của động từ vào ô trống (Với tất cả nhiệm vụ đã được hoàn thành, chúng tôi đã về nhà sớm.):",
+      "promptVi": "[Điền từ - Dạng KHẲNG ĐỊNH] Điền từ còn thiếu vào ô trống (Với tất cả nhiệm vụ đã được hoàn thành, chúng tôi đã về nhà sớm.):",
       "question": "With all the tasks ___, we went home early.",
       "correctAnswer": "completed",
       "options": [
-        "completed",
         "completing",
+        "completed",
         "complete",
         "to complete"
       ],
-      "explanationVi": "Đáp án chính xác: \"completed\". Với tất cả nhiệm vụ đã được hoàn thành, chúng tôi đã về nhà sớm.."
+      "explanationVi": "Đáp án đúng là \"completed\". Câu hoàn chỉnh: \"With all the tasks completed, we went home early.\" (Với tất cả nhiệm vụ đã được hoàn thành, chúng tôi đã về nhà sớm.)."
     },
     {
       "id": "ex-095-09",
       "type": "fill_blank",
-      "promptVi": "[Điền từ - (Dạng khẳng định)] Điền dạng đúng của động từ vào ô trống (Anh ấy đã phát biểu trước khán giả với chiếc micrô trên tay.):",
+      "promptVi": "[Điền từ - Dạng KHẲNG ĐỊNH] Điền từ còn thiếu vào ô trống (Anh ấy đã phát biểu trước khán giả với chiếc micrô trên tay.):",
       "question": "He spoke to the audience with a microphone ___ his hand.",
       "correctAnswer": "in",
       "options": [
-        "in",
         "on",
+        "in",
         "at",
         "with"
       ],
-      "explanationVi": "Đáp án chính xác: \"in\". Anh ấy đã phát biểu trước khán giả với chiếc micrô trên tay.."
+      "explanationVi": "Đáp án đúng là \"in\". Câu hoàn chỉnh: \"He spoke to the audience with a microphone in his hand.\" (Anh ấy đã phát biểu trước khán giả với chiếc micrô trên tay.)."
     },
     {
       "id": "ex-095-10",
       "type": "fill_blank",
-      "promptVi": "[Điền từ - (Dạng phủ định)] Điền dạng đúng của động từ vào ô trống (Mà không một ai để ý, tên trộm đã trốn thoát qua cửa sau.):",
+      "promptVi": "[Điền từ - Dạng PHỦ ĐỊNH] Điền từ còn thiếu vào ô trống (Mà không một ai để ý, tên trộm đã trốn thoát qua cửa sau.):",
       "question": "Without anyone ___, the thief escaped through the back door.",
       "correctAnswer": "noticing",
       "options": [
         "noticing",
-        "noticed",
         "notice",
+        "noticed",
         "to notice"
       ],
-      "explanationVi": "Đáp án chính xác: \"noticing\". Mà không một ai để ý, tên trộm đã trốn thoát qua cửa sau.."
+      "explanationVi": "Đáp án đúng là \"noticing\". Câu hoàn chỉnh: \"Without anyone noticing, the thief escaped through the back door.\" (Mà không một ai để ý, tên trộm đã trốn thoát qua cửa sau.)."
     },
     {
       "id": "ex-095-11",
       "type": "fill_blank",
-      "promptVi": "[Điền từ - Dạng PHỦ ĐỊNH] Hoàn thành câu phủ định sau:",
-      "correctAnswer": "With the sun shining brightly, we decided to go for a picnic.",
+      "promptVi": "[Điền từ - Dạng PHỦ ĐỊNH] Điền trợ động từ/động từ tobe phủ định vào chỗ trống:",
+      "question": "With _____ not sun shining brightly, we decided to go for a picnic.",
+      "correctAnswer": "the",
       "options": [
-        "With the sun shining brightly, we decided to go for a picnic.",
-        "With the sun shining brightly, we decided to go for a picnic.",
-        "Not With the sun shining brightly, we decided to go for a picnic.",
-        "With the sun shining brightly, we decided to go for a picnic. no"
+        "am",
+        "are",
+        "is",
+        "the"
       ],
-      "explanationVi": "Dạng phủ định chuẩn: Thêm 'not' sau động từ chính."
+      "explanationVi": "Câu phủ định hoàn chỉnh: \"With the not sun shining brightly, we decided to go for a picnic.\"."
     },
     {
       "id": "ex-095-12",
       "type": "sentence_scramble",
-      "promptVi": "[Sắp xếp câu] Xếp các khối từ thành câu hoàn chỉnh mang nghĩa: \"Với ánh nắng mặt trời đang chiếu rọi rực rỡ, chúng tôi quyết định đi dã ngoại.\"",
+      "promptVi": "[Sắp xếp câu] Ghép các khối từ thành câu hoàn chỉnh mang nghĩa: \"Với ánh nắng mặt trời đang chiếu rọi rực rỡ, chúng tôi quyết định đi dã ngoại.\"",
+      "question": "Sắp xếp các từ để tạo thành câu đúng: \"Với ánh nắng mặt trời đang chiếu rọi rực rỡ, chúng tôi quyết định đi dã ngoại.\"",
       "words": [
-        "With",
-        "the",
-        "shining",
-        "we",
         "to",
-        "sun",
-        "brightly,",
         "go",
-        "decided",
         "picnic.",
         "a",
-        "for"
+        "With",
+        "for",
+        "decided",
+        "brightly,",
+        "the",
+        "sun",
+        "shining",
+        "we"
       ],
       "correctSentence": "With the sun shining brightly, we decided to go for a picnic.",
       "hintVi": "Với ánh nắng mặt trời đang chiếu rọi rực rỡ, chúng tôi quyết định đi dã ngoại.",
@@ -182,17 +184,18 @@
     {
       "id": "ex-095-13",
       "type": "sentence_scramble",
-      "promptVi": "[Sắp xếp câu] Xếp các khối từ thành câu hoàn chỉnh mang nghĩa: \"Với tất cả nhiệm vụ đã được hoàn thành, chúng tôi đã về nhà sớm.\"",
+      "promptVi": "[Sắp xếp câu] Ghép các khối từ thành câu hoàn chỉnh mang nghĩa: \"Với tất cả nhiệm vụ đã được hoàn thành, chúng tôi đã về nhà sớm.\"",
+      "question": "Sắp xếp các từ để tạo thành câu đúng: \"Với tất cả nhiệm vụ đã được hoàn thành, chúng tôi đã về nhà sớm.\"",
       "words": [
-        "With",
         "completed,",
-        "tasks",
-        "we",
-        "went",
-        "home",
         "early.",
-        "all",
-        "the"
+        "With",
+        "home",
+        "went",
+        "the",
+        "we",
+        "tasks",
+        "all"
       ],
       "correctSentence": "With all the tasks completed, we went home early.",
       "hintVi": "Với tất cả nhiệm vụ đã được hoàn thành, chúng tôi đã về nhà sớm.",
@@ -201,19 +204,20 @@
     {
       "id": "ex-095-14",
       "type": "sentence_scramble",
-      "promptVi": "[Sắp xếp câu] Xếp các khối từ thành câu hoàn chỉnh mang nghĩa: \"Anh ấy đã phát biểu trước khán giả với chiếc micrô trên tay.\"",
+      "promptVi": "[Sắp xếp câu] Ghép các khối từ thành câu hoàn chỉnh mang nghĩa: \"Anh ấy đã phát biểu trước khán giả với chiếc micrô trên tay.\"",
+      "question": "Sắp xếp các từ để tạo thành câu đúng: \"Anh ấy đã phát biểu trước khán giả với chiếc micrô trên tay.\"",
       "words": [
-        "in",
-        "microphone",
-        "hand.",
-        "to",
-        "spoke",
-        "audience",
-        "his",
-        "the",
-        "a",
+        "with",
         "He",
-        "with"
+        "hand.",
+        "audience",
+        "to",
+        "a",
+        "microphone",
+        "his",
+        "spoke",
+        "the",
+        "in"
       ],
       "correctSentence": "He spoke to the audience with a microphone in his hand.",
       "hintVi": "Anh ấy đã phát biểu trước khán giả với chiếc micrô trên tay.",
@@ -222,18 +226,19 @@
     {
       "id": "ex-095-15",
       "type": "sentence_scramble",
-      "promptVi": "[Sắp xếp câu] Xếp các khối từ thành câu hoàn chỉnh mang nghĩa: \"Mà không một ai để ý, tên trộm đã trốn thoát qua cửa sau.\"",
+      "promptVi": "[Sắp xếp câu] Ghép các khối từ thành câu hoàn chỉnh mang nghĩa: \"Mà không một ai để ý, tên trộm đã trốn thoát qua cửa sau.\"",
+      "question": "Sắp xếp các từ để tạo thành câu đúng: \"Mà không một ai để ý, tên trộm đã trốn thoát qua cửa sau.\"",
       "words": [
-        "door.",
-        "through",
-        "escaped",
+        "the",
         "thief",
+        "escaped",
+        "through",
         "noticing,",
-        "back",
         "anyone",
+        "Without",
         "the",
-        "the",
-        "Without"
+        "back",
+        "door."
       ],
       "correctSentence": "Without anyone noticing, the thief escaped through the back door.",
       "hintVi": "Mà không một ai để ý, tên trộm đã trốn thoát qua cửa sau.",
@@ -242,20 +247,21 @@
     {
       "id": "ex-095-16",
       "type": "sentence_scramble",
-      "promptVi": "[Sắp xếp câu] Xếp các từ thành câu hội thoại: \"Các tàu lặn giám sát biển sâu của chúng ta có thể hoạt động mà không cần dây cáp buộc được cách điện đúng cách không? (without cables insulated)\"",
+      "promptVi": "[Sắp xếp câu] Ghép các từ thành câu hội thoại: \"Các tàu lặn giám sát biển sâu của chúng ta có thể hoạt động mà không cần dây cáp buộc được cách điện đúng cách không? (without cables insulated)\"",
+      "question": "Sắp xếp các từ để tạo thành câu thoại: \"Các tàu lặn giám sát biển sâu của chúng ta có thể hoạt động mà không cần dây cáp buộc được cách điện đúng cách không? (without cables insulated)\"",
       "words": [
-        "insulated",
         "deep-sea",
-        "tether",
         "our",
-        "cables",
-        "monitoring",
-        "properly",
+        "submersibles",
         "their",
+        "insulated",
+        "tether",
+        "monitoring",
+        "cables",
         "without",
         "Can",
-        "operate",
-        "submersibles"
+        "properly",
+        "operate"
       ],
       "correctSentence": "Can our deep-sea monitoring submersibles operate without their tether cables properly insulated?",
       "hintVi": "Các tàu lặn giám sát biển sâu của chúng ta có thể hoạt động mà không cần dây cáp buộc được cách điện đúng cách không? (without cables insulated)",
@@ -264,70 +270,70 @@
     {
       "id": "ex-095-17",
       "type": "find_error",
-      "promptVi": "[Tìm lỗi sai & Chọn câu đúng] Câu nào dưới đây có cấu trúc ngữ pháp HOÀN TOÀN ĐÚNG?",
-      "question": "Chủ điểm \"Bài 95: Cấu trúc Tuyệt Đối với With & Without (Absolute Constructions: With/Without + Noun + Participle/Adj/Prep)\": Chọn câu CHÍNH XÁC:",
+      "promptVi": "[Nhận diện cấu trúc chuẩn] Chọn câu có cấu trúc ngữ pháp HOÀN TOÀN ĐÚNG:",
+      "question": "Dựa vào chủ điểm \"Bài 95: Cấu trúc Tuyệt Đối với With & Without (Absolute Constructions: With/Without + Noun + Participle/Adj/Prep)\", câu nào sau đây CHÍNH XÁC?",
       "options": [
+        "at the sun shining brightly, we decided to go for a picnic.",
         "With the sun shining brightly, we decided to go for a picnic.",
         "picnic. a for go to decided we brightly, shining sun the With",
-        "With the sun shining brightly, we decided to go for a picnic. (sai)",
-        "With the sun shining brightly, we decided to go for a picnic. (sai)"
+        "is"
       ],
       "correctAnswer": "With the sun shining brightly, we decided to go for a picnic.",
-      "explanationVi": "Câu chuẩn xác là: \"With the sun shining brightly, we decided to go for a picnic.\" (Với ánh nắng mặt trời đang chiếu rọi rực rỡ, chúng tôi quyết định đi dã ngoại.)."
+      "explanationVi": "Cấu trúc chuẩn xác là: \"With the sun shining brightly, we decided to go for a picnic.\" (Với ánh nắng mặt trời đang chiếu rọi rực rỡ, chúng tôi quyết định đi dã ngoại.)."
     },
     {
       "id": "ex-095-18",
       "type": "find_error",
-      "promptVi": "[Tìm lỗi sai & Chọn câu đúng] Câu nào dưới đây có cấu trúc ngữ pháp HOÀN TOÀN ĐÚNG?",
-      "question": "Chủ điểm \"Bài 95: Cấu trúc Tuyệt Đối với With & Without (Absolute Constructions: With/Without + Noun + Participle/Adj/Prep)\": Chọn câu CHÍNH XÁC:",
+      "promptVi": "[Nhận diện cấu trúc chuẩn] Chọn câu có cấu trúc ngữ pháp HOÀN TOÀN ĐÚNG:",
+      "question": "Dựa vào chủ điểm \"Bài 95: Cấu trúc Tuyệt Đối với With & Without (Absolute Constructions: With/Without + Noun + Participle/Adj/Prep)\", câu nào sau đây CHÍNH XÁC?",
       "options": [
         "With all the tasks completed, we went home early.",
         "early. home went we completed, tasks the all With",
-        "With all the tasks completed, we went home early. (sai)",
-        "With all the tasks completed, we went home early. (sai)"
+        "is",
+        "at all the tasks completed, we went home early."
       ],
       "correctAnswer": "With all the tasks completed, we went home early.",
-      "explanationVi": "Câu chuẩn xác là: \"With all the tasks completed, we went home early.\" (Với tất cả nhiệm vụ đã được hoàn thành, chúng tôi đã về nhà sớm.)."
+      "explanationVi": "Cấu trúc chuẩn xác là: \"With all the tasks completed, we went home early.\" (Với tất cả nhiệm vụ đã được hoàn thành, chúng tôi đã về nhà sớm.)."
     },
     {
       "id": "ex-095-19",
       "type": "find_error",
-      "promptVi": "[Tìm lỗi sai & Chọn câu đúng] Câu nào dưới đây có cấu trúc ngữ pháp HOÀN TOÀN ĐÚNG?",
-      "question": "Chủ điểm \"Bài 95: Cấu trúc Tuyệt Đối với With & Without (Absolute Constructions: With/Without + Noun + Participle/Adj/Prep)\": Chọn câu CHÍNH XÁC:",
+      "promptVi": "[Nhận diện cấu trúc chuẩn] Chọn câu có cấu trúc ngữ pháp HOÀN TOÀN ĐÚNG:",
+      "question": "Dựa vào chủ điểm \"Bài 95: Cấu trúc Tuyệt Đối với With & Without (Absolute Constructions: With/Without + Noun + Participle/Adj/Prep)\", câu nào sau đây CHÍNH XÁC?",
       "options": [
-        "He spoke to the audience with a microphone in his hand.",
+        "is",
         "hand. his in microphone a with audience the to spoke He",
-        "He spoke to the audience with a microphone in his hand. (sai)",
-        "He spoke to the audience with a microphone in his hand. (sai)"
+        "He spoke at the audience with a microphone in his hand.",
+        "He spoke to the audience with a microphone in his hand."
       ],
       "correctAnswer": "He spoke to the audience with a microphone in his hand.",
-      "explanationVi": "Câu chuẩn xác là: \"He spoke to the audience with a microphone in his hand.\" (Anh ấy đã phát biểu trước khán giả với chiếc micrô trên tay.)."
+      "explanationVi": "Cấu trúc chuẩn xác là: \"He spoke to the audience with a microphone in his hand.\" (Anh ấy đã phát biểu trước khán giả với chiếc micrô trên tay.)."
     },
     {
       "id": "ex-095-20",
       "type": "find_error",
-      "promptVi": "[Tìm lỗi sai & Chọn câu đúng] Câu nào dưới đây có cấu trúc ngữ pháp HOÀN TOÀN ĐÚNG?",
-      "question": "Chủ điểm \"Bài 95: Cấu trúc Tuyệt Đối với With & Without (Absolute Constructions: With/Without + Noun + Participle/Adj/Prep)\": Chọn câu CHÍNH XÁC:",
+      "promptVi": "[Nhận diện cấu trúc chuẩn] Chọn câu có cấu trúc ngữ pháp HOÀN TOÀN ĐÚNG:",
+      "question": "Dựa vào chủ điểm \"Bài 95: Cấu trúc Tuyệt Đối với With & Without (Absolute Constructions: With/Without + Noun + Participle/Adj/Prep)\", câu nào sau đây CHÍNH XÁC?",
       "options": [
+        "is",
         "Without anyone noticing, the thief escaped through the back door.",
         "door. back the through escaped thief the noticing, anyone Without",
-        "Without anyone noticing, the thief escaped through the back door. (sai)",
-        "Without anyone noticing, the thief escaped through the back door. (sai)"
+        "are"
       ],
       "correctAnswer": "Without anyone noticing, the thief escaped through the back door.",
-      "explanationVi": "Câu chuẩn xác là: \"Without anyone noticing, the thief escaped through the back door.\" (Mà không một ai để ý, tên trộm đã trốn thoát qua cửa sau.)."
+      "explanationVi": "Cấu trúc chuẩn xác là: \"Without anyone noticing, the thief escaped through the back door.\" (Mà không một ai để ý, tên trộm đã trốn thoát qua cửa sau.)."
     },
     {
       "id": "ex-095-21",
       "type": "listening_reflex",
-      "promptVi": "[Nghe phản xạ] Nghe câu phát âm tiếng Anh và chọn bản dịch tiếng Việt đúng nhất:",
+      "promptVi": "[Nghe phản xạ] Nghe câu phát âm tiếng Anh và chọn bản dịch tiếng Việt đúng:",
       "audioPrompt": "Good morning, Engineer Lin. With Category 4 storm winds approaching our coastal sector, we must secure the offshore wind turbines.",
-      "question": "Nhấn nút '🔊 Nghe audio' để nghe câu thoại và chọn nghĩa đúng:",
+      "question": "Nhấn nút '🔊 Nghe audio' và chọn nghĩa tiếng Việt đúng:",
       "options": [
-        "Chào buổi sáng Kỹ sư Lin. Với cơn bão cấp 4 đang tiến gần đến khu vực ven biển của chúng ta, chúng ta phải cố định các tuabin gió ngoài khơi. (With winds approaching)",
+        "Hôm nay thời tiết rất đẹp.",
         "Với tất cả các cánh tuabin đã được khóa vào vị trí cản gió khí động học, nguy cơ hư hỏng cơ học được giảm thiểu tối đa. (With blades locked)",
-        "Các tàu lặn giám sát biển sâu của chúng ta có thể hoạt động mà không cần dây cáp buộc được cách điện đúng cách không? (without cables insulated)",
-        "Ngày mai trời sẽ mưa to."
+        "Chào buổi sáng Kỹ sư Lin. Với cơn bão cấp 4 đang tiến gần đến khu vực ven biển của chúng ta, chúng ta phải cố định các tuabin gió ngoài khơi. (With winds approaching)",
+        "Các tàu lặn giám sát biển sâu của chúng ta có thể hoạt động mà không cần dây cáp buộc được cách điện đúng cách không? (without cables insulated)"
       ],
       "correctAnswer": "Chào buổi sáng Kỹ sư Lin. Với cơn bão cấp 4 đang tiến gần đến khu vực ven biển của chúng ta, chúng ta phải cố định các tuabin gió ngoài khơi. (With winds approaching)",
       "explanationVi": "Câu nghe được: \"Good morning, Engineer Lin. With Category 4 storm winds approaching our coastal sector, we must secure the offshore wind turbines.\" có nghĩa là: \"Chào buổi sáng Kỹ sư Lin. Với cơn bão cấp 4 đang tiến gần đến khu vực ven biển của chúng ta, chúng ta phải cố định các tuabin gió ngoài khơi. (With winds approaching)\"."
@@ -335,14 +341,14 @@
     {
       "id": "ex-095-22",
       "type": "listening_reflex",
-      "promptVi": "[Nghe phản xạ] Nghe câu phát âm tiếng Anh và chọn bản dịch tiếng Việt đúng nhất:",
+      "promptVi": "[Nghe phản xạ] Nghe câu phát âm tiếng Anh và chọn bản dịch tiếng Việt đúng:",
       "audioPrompt": "With all turbine blades locked into aerodynamic feathering positions, the risk of mechanical damage is minimized.",
-      "question": "Nhấn nút '🔊 Nghe audio' để nghe câu thoại và chọn nghĩa đúng:",
+      "question": "Nhấn nút '🔊 Nghe audio' và chọn nghĩa tiếng Việt đúng:",
       "options": [
-        "Với tất cả các cánh tuabin đã được khóa vào vị trí cản gió khí động học, nguy cơ hư hỏng cơ học được giảm thiểu tối đa. (With blades locked)",
         "Các tàu lặn giám sát biển sâu của chúng ta có thể hoạt động mà không cần dây cáp buộc được cách điện đúng cách không? (without cables insulated)",
-        "Không, vận hành các thiết bị điện tử nhạy cảm trong nước mặn mà không có lớp niêm phong thích hợp là một thảm họa.",
-        "Ngày mai trời sẽ mưa to."
+        "Hôm nay thời tiết rất đẹp.",
+        "Với tất cả các cánh tuabin đã được khóa vào vị trí cản gió khí động học, nguy cơ hư hỏng cơ học được giảm thiểu tối đa. (With blades locked)",
+        "Không, vận hành các thiết bị điện tử nhạy cảm trong nước mặn mà không có lớp niêm phong thích hợp là một thảm họa."
       ],
       "correctAnswer": "Với tất cả các cánh tuabin đã được khóa vào vị trí cản gió khí động học, nguy cơ hư hỏng cơ học được giảm thiểu tối đa. (With blades locked)",
       "explanationVi": "Câu nghe được: \"With all turbine blades locked into aerodynamic feathering positions, the risk of mechanical damage is minimized.\" có nghĩa là: \"Với tất cả các cánh tuabin đã được khóa vào vị trí cản gió khí động học, nguy cơ hư hỏng cơ học được giảm thiểu tối đa. (With blades locked)\"."
@@ -350,14 +356,14 @@
     {
       "id": "ex-095-23",
       "type": "listening_reflex",
-      "promptVi": "[Nghe phản xạ] Nghe câu phát âm tiếng Anh và chọn bản dịch tiếng Việt đúng nhất:",
+      "promptVi": "[Nghe phản xạ] Nghe câu phát âm tiếng Anh và chọn bản dịch tiếng Việt đúng:",
       "audioPrompt": "Can our deep-sea monitoring submersibles operate without their tether cables properly insulated?",
-      "question": "Nhấn nút '🔊 Nghe audio' để nghe câu thoại và chọn nghĩa đúng:",
+      "question": "Nhấn nút '🔊 Nghe audio' và chọn nghĩa tiếng Việt đúng:",
       "options": [
         "Các tàu lặn giám sát biển sâu của chúng ta có thể hoạt động mà không cần dây cáp buộc được cách điện đúng cách không? (without cables insulated)",
         "Không, vận hành các thiết bị điện tử nhạy cảm trong nước mặn mà không có lớp niêm phong thích hợp là một thảm họa.",
-        "Với sóng biển dâng cao hơn tám mét, đội bảo trì của chúng ta đã ở lại bờ một cách an toàn. (With waves rising)",
-        "Ngày mai trời sẽ mưa to."
+        "Hôm nay thời tiết rất đẹp.",
+        "Với sóng biển dâng cao hơn tám mét, đội bảo trì của chúng ta đã ở lại bờ một cách an toàn. (With waves rising)"
       ],
       "correctAnswer": "Các tàu lặn giám sát biển sâu của chúng ta có thể hoạt động mà không cần dây cáp buộc được cách điện đúng cách không? (without cables insulated)",
       "explanationVi": "Câu nghe được: \"Can our deep-sea monitoring submersibles operate without their tether cables properly insulated?\" có nghĩa là: \"Các tàu lặn giám sát biển sâu của chúng ta có thể hoạt động mà không cần dây cáp buộc được cách điện đúng cách không? (without cables insulated)\"."
@@ -365,14 +371,14 @@
     {
       "id": "ex-095-24",
       "type": "listening_reflex",
-      "promptVi": "[Nghe phản xạ] Nghe câu phát âm tiếng Anh và chọn bản dịch tiếng Việt đúng nhất:",
+      "promptVi": "[Nghe phản xạ] Nghe câu phát âm tiếng Anh và chọn bản dịch tiếng Việt đúng:",
       "audioPrompt": "No, operating sensitive electronics in saltwater without adequate sealing is disastrous.",
-      "question": "Nhấn nút '🔊 Nghe audio' để nghe câu thoại và chọn nghĩa đúng:",
+      "question": "Nhấn nút '🔊 Nghe audio' và chọn nghĩa tiếng Việt đúng:",
       "options": [
-        "Không, vận hành các thiết bị điện tử nhạy cảm trong nước mặn mà không có lớp niêm phong thích hợp là một thảm họa.",
         "Với sóng biển dâng cao hơn tám mét, đội bảo trì của chúng ta đã ở lại bờ một cách an toàn. (With waves rising)",
-        "Với các máy phát điện diesel dự phòng đang ở chế độ chờ, phòng điều khiển trung tâm của chúng ta sẽ duy trì dữ liệu đo xa không bị gián đoạn. (With generators on standby)",
-        "Ngày mai trời sẽ mưa to."
+        "Hôm nay thời tiết rất đẹp.",
+        "Không, vận hành các thiết bị điện tử nhạy cảm trong nước mặn mà không có lớp niêm phong thích hợp là một thảm họa.",
+        "Với các máy phát điện diesel dự phòng đang ở chế độ chờ, phòng điều khiển trung tâm của chúng ta sẽ duy trì dữ liệu đo xa không bị gián đoạn. (With generators on standby)"
       ],
       "correctAnswer": "Không, vận hành các thiết bị điện tử nhạy cảm trong nước mặn mà không có lớp niêm phong thích hợp là một thảm họa.",
       "explanationVi": "Câu nghe được: \"No, operating sensitive electronics in saltwater without adequate sealing is disastrous.\" có nghĩa là: \"Không, vận hành các thiết bị điện tử nhạy cảm trong nước mặn mà không có lớp niêm phong thích hợp là một thảm họa.\"."
@@ -380,64 +386,68 @@
     {
       "id": "ex-095-25",
       "type": "speaking_practice",
-      "promptVi": "[Luyện nói qua Micro] Nhấn nút '🎙️ Bắt đầu nói' và đọc to, rõ ràng câu tiếng Anh sau:",
+      "promptVi": "[Luyện nói qua Micro] Nhấn nút 'Bấm để Nói ngay' và phát âm câu sau:",
+      "question": "Luyện phát âm chuẩn câu: \"With the sun shining brightly, we decided to go for a picnic.\" (Với ánh nắng mặt trời đang chiếu rọi rực rỡ, chúng tôi quyết định đi dã ngoại.)",
       "targetSentence": "With the sun shining brightly, we decided to go for a picnic.",
       "hintVi": "Với ánh nắng mặt trời đang chiếu rọi rực rỡ, chúng tôi quyết định đi dã ngoại.",
-      "explanationVi": "Câu mục tiêu: \"With the sun shining brightly, we decided to go for a picnic.\" (Với ánh nắng mặt trời đang chiếu rọi rực rỡ, chúng tôi quyết định đi dã ngoại.). Luyện phát âm chuẩn xác từng âm tiết và ngữ điệu tự nhiên."
+      "explanationVi": "Mẫu câu chuẩn: \"With the sun shining brightly, we decided to go for a picnic.\" (Với ánh nắng mặt trời đang chiếu rọi rực rỡ, chúng tôi quyết định đi dã ngoại.). Luyện phát âm rõ ràng từng từ."
     },
     {
       "id": "ex-095-26",
       "type": "speaking_practice",
-      "promptVi": "[Luyện nói qua Micro] Nhấn nút '🎙️ Bắt đầu nói' và đọc to, rõ ràng câu tiếng Anh sau:",
+      "promptVi": "[Luyện nói qua Micro] Nhấn nút 'Bấm để Nói ngay' và phát âm câu sau:",
+      "question": "Luyện phát âm chuẩn câu: \"With all the tasks completed, we went home early.\" (Với tất cả nhiệm vụ đã được hoàn thành, chúng tôi đã về nhà sớm.)",
       "targetSentence": "With all the tasks completed, we went home early.",
       "hintVi": "Với tất cả nhiệm vụ đã được hoàn thành, chúng tôi đã về nhà sớm.",
-      "explanationVi": "Câu mục tiêu: \"With all the tasks completed, we went home early.\" (Với tất cả nhiệm vụ đã được hoàn thành, chúng tôi đã về nhà sớm.). Luyện phát âm chuẩn xác từng âm tiết và ngữ điệu tự nhiên."
+      "explanationVi": "Mẫu câu chuẩn: \"With all the tasks completed, we went home early.\" (Với tất cả nhiệm vụ đã được hoàn thành, chúng tôi đã về nhà sớm.). Luyện phát âm rõ ràng từng từ."
     },
     {
       "id": "ex-095-27",
       "type": "speaking_practice",
-      "promptVi": "[Luyện nói qua Micro] Nhấn nút '🎙️ Bắt đầu nói' và đọc to, rõ ràng câu tiếng Anh sau:",
+      "promptVi": "[Luyện nói qua Micro] Nhấn nút 'Bấm để Nói ngay' và phát âm câu sau:",
+      "question": "Luyện phát âm chuẩn câu: \"He spoke to the audience with a microphone in his hand.\" (Anh ấy đã phát biểu trước khán giả với chiếc micrô trên tay.)",
       "targetSentence": "He spoke to the audience with a microphone in his hand.",
       "hintVi": "Anh ấy đã phát biểu trước khán giả với chiếc micrô trên tay.",
-      "explanationVi": "Câu mục tiêu: \"He spoke to the audience with a microphone in his hand.\" (Anh ấy đã phát biểu trước khán giả với chiếc micrô trên tay.). Luyện phát âm chuẩn xác từng âm tiết và ngữ điệu tự nhiên."
+      "explanationVi": "Mẫu câu chuẩn: \"He spoke to the audience with a microphone in his hand.\" (Anh ấy đã phát biểu trước khán giả với chiếc micrô trên tay.). Luyện phát âm rõ ràng từng từ."
     },
     {
       "id": "ex-095-28",
       "type": "speaking_practice",
-      "promptVi": "[Luyện nói qua Micro] Nhấn nút '🎙️ Bắt đầu nói' và đọc to, rõ ràng câu tiếng Anh sau:",
+      "promptVi": "[Luyện nói qua Micro] Nhấn nút 'Bấm để Nói ngay' và phát âm câu sau:",
+      "question": "Luyện phát âm chuẩn câu: \"Without anyone noticing, the thief escaped through the back door.\" (Mà không một ai để ý, tên trộm đã trốn thoát qua cửa sau.)",
       "targetSentence": "Without anyone noticing, the thief escaped through the back door.",
       "hintVi": "Mà không một ai để ý, tên trộm đã trốn thoát qua cửa sau.",
-      "explanationVi": "Câu mục tiêu: \"Without anyone noticing, the thief escaped through the back door.\" (Mà không một ai để ý, tên trộm đã trốn thoát qua cửa sau.). Luyện phát âm chuẩn xác từng âm tiết và ngữ điệu tự nhiên."
+      "explanationVi": "Mẫu câu chuẩn: \"Without anyone noticing, the thief escaped through the back door.\" (Mà không một ai để ý, tên trộm đã trốn thoát qua cửa sau.). Luyện phát âm rõ ràng từng từ."
     },
     {
       "id": "ex-095-29",
       "type": "reading_comprehension",
-      "promptVi": "[Đọc hiểu đoạn văn 1] Đọc đoạn hội thoại mở đầu sau và trả lời câu hỏi:",
-      "passage": "Operations Chief Marcus (Nam): \"Good morning, Engineer Lin. With Category 4 storm winds approaching our coastal sector, we must secure the offshore wind turbines.\"\nEngineer Lin (Nữ): \"With all turbine blades locked into aerodynamic feathering positions, the risk of mechanical damage is minimized.\"\nOperations Chief Marcus (Nam): \"Can our deep-sea monitoring submersibles operate without their tether cables properly insulated?\"\nEngineer Lin (Nữ): \"No, operating sensitive electronics in saltwater without adequate sealing is disastrous.\"",
-      "question": "Câu hỏi: Trong đoạn hội thoại trên, các nhân vật đang thảo luận về chủ đề gì?",
+      "promptVi": "[Đọc hiểu đoạn văn] Đọc đoạn hội thoại sau và trả lời câu hỏi:",
+      "passage": "Operations Chief Marcus: \"Good morning, Engineer Lin. With Category 4 storm winds approaching our coastal sector, we must secure the offshore wind turbines.\"\nEngineer Lin: \"With all turbine blades locked into aerodynamic feathering positions, the risk of mechanical damage is minimized.\"\nOperations Chief Marcus: \"Can our deep-sea monitoring submersibles operate without their tether cables properly insulated?\"\nEngineer Lin: \"No, operating sensitive electronics in saltwater without adequate sealing is disastrous.\"",
+      "question": "Chủ đề trọng tâm của đoạn hội thoại trên là gì?",
       "options": [
+        "Lịch trình đi du lịch nghỉ mát cuối tuần",
         "Cấu trúc Tuyệt Đối với With & Without (Absolute Constructions: With/Without + Noun + Participle/Adj/Prep)",
-        "Kế hoạch đi nghỉ dưỡng cuối tuần ở bãi biển",
-        "Mua sắm quần áo và đồ dùng thể thao",
-        "Cách làm món ăn truyền thống gia đình"
+        "Kế hoạch đi mua sắm tại siêu thị",
+        "Cách làm món ăn truyền thống"
       ],
       "correctAnswer": "Cấu trúc Tuyệt Đối với With & Without (Absolute Constructions: With/Without + Noun + Participle/Adj/Prep)",
-      "explanationVi": "Đoạn hội thoại mở đầu được thiết kế để minh họa trực tiếp cho chủ điểm ngữ pháp: \"Bài 95: Cấu trúc Tuyệt Đối với With & Without (Absolute Constructions: With/Without + Noun + Participle/Adj/Prep)\"."
+      "explanationVi": "Đoạn hội thoại được thiết kế để minh họa trực tiếp cho chủ điểm \"Bài 95: Cấu trúc Tuyệt Đối với With & Without (Absolute Constructions: With/Without + Noun + Participle/Adj/Prep)\"."
     },
     {
       "id": "ex-095-30",
       "type": "reading_comprehension",
-      "promptVi": "[Đọc hiểu đoạn văn 2] Đọc phần tiếp theo của đoạn hội thoại và chọn nhận định đúng:",
-      "passage": "Operations Chief Marcus (Nam): \"With sea waves rising over eight meters high, our maintenance crew stayed safely ashore.\"\nEngineer Lin (Nữ): \"With backup diesel generators on standby, our central control room will maintain uninterrupted telemetry.\"\nOperations Chief Marcus (Nam): \"He stood monitoring the radar display with his arms crossed calmly over his chest.\"\nEngineer Lin (Nữ): \"Without automated emergency brakes functioning instantly, the turbine rotors would have overspeeded.\"",
-      "question": "Nhận định nào sau đây là ĐÚNG với nội dung đoạn hội thoại trên?",
+      "promptVi": "[Đọc hiểu đoạn văn] Đọc đoạn đối thoại tiếp theo và chọn nhận định đúng:",
+      "passage": "Operations Chief Marcus: \"With sea waves rising over eight meters high, our maintenance crew stayed safely ashore.\"\nEngineer Lin: \"With backup diesel generators on standby, our central control room will maintain uninterrupted telemetry.\"\nOperations Chief Marcus: \"He stood monitoring the radar display with his arms crossed calmly over his chest.\"\nEngineer Lin: \"Without automated emergency brakes functioning instantly, the turbine rotors would have overspeeded.\"",
+      "question": "Nhận định nào sau đây là ĐÚNG về nội dung đoạn đối thoại?",
       "options": [
-        "Các câu hội thoại sử dụng đúng cấu trúc ngữ pháp \"Bài 95: Cấu trúc Tuyệt Đối với With & Without (Absolute Constructions: With/Without + Noun + Participle/Adj/Prep)\".",
-        "Các nhân vật không hiểu ý nhau và từ chối nói chuyện.",
-        "Đoạn hội thoại nói về việc chuyển nhà sang thành phố khác.",
-        "Cả hai nhân vật đều đang ở sân bay chuẩn bị lên máy bay."
+        "Hai nhân vật đang cãi nhau và không đồng ý hợp tác.",
+        "Các câu thoại sử dụng đúng cấu trúc \"Cấu trúc Tuyệt Đối với With & Without (Absolute Constructions: With/Without + Noun + Participle/Adj/Prep)\".",
+        "Cả hai nhân vật đang thảo luận về thời tiết ngày mai.",
+        "Cuộc trò chuyện diễn ra tại nhà ga xe lửa."
       ],
-      "correctAnswer": "Các câu hội thoại sử dụng đúng cấu trúc ngữ pháp \"Bài 95: Cấu trúc Tuyệt Đối với With & Without (Absolute Constructions: With/Without + Noun + Participle/Adj/Prep)\".",
-      "explanationVi": "Đoạn hội thoại thứ hai tiếp tục củng cố và ứng dụng các quy tắc ngữ pháp của \"Bài 95: Cấu trúc Tuyệt Đối với With & Without (Absolute Constructions: With/Without + Noun + Participle/Adj/Prep)\"."
+      "correctAnswer": "Các câu thoại sử dụng đúng cấu trúc \"Cấu trúc Tuyệt Đối với With & Without (Absolute Constructions: With/Without + Noun + Participle/Adj/Prep)\".",
+      "explanationVi": "Đoạn đối thoại ứng dụng chuẩn xác ngữ pháp của \"Bài 95: Cấu trúc Tuyệt Đối với With & Without (Absolute Constructions: With/Without + Noun + Participle/Adj/Prep)\"."
     }
   ]
 }

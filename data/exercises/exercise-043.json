@@ -7,13 +7,13 @@
     {
       "id": "ex-043-01",
       "type": "multiple_choice",
-      "promptVi": "[Trắc nghiệm] Chọn từ/cụm từ đúng để hoàn thành câu (Nếu ngày mai trời mưa, tôi sẽ ở nhà.):",
+      "promptVi": "[Trắc nghiệm ngữ pháp] Chọn từ đúng để hoàn thành câu (Nếu ngày mai trời mưa, tôi sẽ ở nhà.):",
       "question": "If it ___ tomorrow, I will stay at home.",
       "options": [
         "rains",
         "will rain",
-        "rained",
-        "raining"
+        "raining",
+        "rained"
       ],
       "correctAnswer": "rains",
       "explanationVi": "Trong mệnh đề IF loại 1, động từ chia thì hiện tại đơn (it rains)."
@@ -21,13 +21,13 @@
     {
       "id": "ex-043-02",
       "type": "multiple_choice",
-      "promptVi": "[Trắc nghiệm] Chọn từ/cụm từ đúng để hoàn thành câu (Nếu bạn học chăm chỉ, bạn sẽ thi đỗ.):",
+      "promptVi": "[Trắc nghiệm ngữ pháp] Chọn từ đúng để hoàn thành câu (Nếu bạn học chăm chỉ, bạn sẽ thi đỗ.):",
       "question": "If you study hard, you ___ pass the exam.",
       "options": [
         "will",
+        "do",
         "would",
-        "did",
-        "do"
+        "did"
       ],
       "correctAnswer": "will",
       "explanationVi": "Mệnh đề chính câu điều kiện loại 1 dùng 'will + V-inf'."
@@ -35,13 +35,13 @@
     {
       "id": "ex-043-03",
       "type": "multiple_choice",
-      "promptVi": "[Trắc nghiệm] Chọn từ/cụm từ đúng để hoàn thành câu (Nếu chúng ta không nhanh lên, chúng ta sẽ bị lỡ xe buýt.):",
+      "promptVi": "[Trắc nghiệm ngữ pháp] Chọn từ đúng để hoàn thành câu (Nếu chúng ta không nhanh lên, chúng ta sẽ bị lỡ xe buýt.):",
       "question": "If we ___ hurry, we will miss the bus.",
       "options": [
         "don't",
+        "aren't",
         "won't",
-        "didn't",
-        "aren't"
+        "didn't"
       ],
       "correctAnswer": "don't",
       "explanationVi": "Mệnh đề IF dùng hiện tại đơn phủ định với 'don't'."
@@ -49,13 +49,13 @@
     {
       "id": "ex-043-04",
       "type": "multiple_choice",
-      "promptVi": "[Trắc nghiệm] Chọn từ/cụm từ đúng để hoàn thành câu (Bạn sẽ làm gì nếu trời mưa?):",
+      "promptVi": "[Trắc nghiệm ngữ pháp] Chọn từ đúng để hoàn thành câu (Bạn sẽ làm gì nếu trời mưa?):",
       "question": "What will you do if it ___?",
       "options": [
         "rains",
+        "rained",
         "rain",
-        "will rain",
-        "rained"
+        "will rain"
       ],
       "correctAnswer": "rains",
       "explanationVi": "Chủ ngữ 'it' nên động từ chia 'rains' ở hiện tại đơn."
@@ -63,114 +63,116 @@
     {
       "id": "ex-043-05",
       "type": "multiple_choice",
-      "promptVi": "[Trắc nghiệm] Dịch câu sau sang tiếng Anh: \"Bạn có đang học tập chăm chỉ cho kỳ thi tiếp thị quốc tế sắp tới không, Grace?\"",
-      "question": "Chọn bản dịch chuẩn xác cho câu: \"Bạn có đang học tập chăm chỉ cho kỳ thi tiếp thị quốc tế sắp tới không, Grace?\"",
+      "promptVi": "[Phản xạ dịch thuật] Dịch câu sau sang tiếng Anh: \"Bạn có đang học tập chăm chỉ cho kỳ thi tiếp thị quốc tế sắp tới không, Grace?\"",
+      "question": "Chọn bản dịch chuẩn xác nhất cho câu: \"Bạn có đang học tập chăm chỉ cho kỳ thi tiếp thị quốc tế sắp tới không, Grace?\"",
       "options": [
         "Are you studying diligently for the upcoming international marketing exam, Grace?",
         "be you studying diligently for the upcoming international marketing exam, Grace?",
         "Yes, I am. If I study hard every single evening, I will pass with an excellent grade.",
-        "I want to go to the park now."
+        "We are studying English today."
       ],
       "correctAnswer": "Are you studying diligently for the upcoming international marketing exam, Grace?",
-      "explanationVi": "Câu đúng là \"Are you studying diligently for the upcoming international marketing exam, Grace?\" (Bạn có đang học tập chăm chỉ cho kỳ thi tiếp thị quốc tế sắp tới không, Grace?)."
+      "explanationVi": "Câu dịch chuẩn xác: \"Are you studying diligently for the upcoming international marketing exam, Grace?\" (Bạn có đang học tập chăm chỉ cho kỳ thi tiếp thị quốc tế sắp tới không, Grace?)."
     },
     {
       "id": "ex-043-06",
       "type": "multiple_choice",
-      "promptVi": "[Trắc nghiệm] Chọn câu trả lời hoặc cách diễn đạt phù hợp:",
-      "question": "Trong ngữ cảnh giao tiếp: \"Are you studying diligently for the upcoming international marketing exam, Grace?\", câu phản hồi tự nhiên là gì?",
+      "promptVi": "[Ngữ cảnh giao tiếp] Chọn câu phản hồi tự nhiên và đúng ngữ pháp:",
+      "question": "Khi đối phương nói: \"Are you studying diligently for the upcoming international marketing exam, Grace?\", câu phản hồi phù hợp là gì?",
       "options": [
         "Yes, I am. If I study hard every single evening, I will pass with an excellent grade.",
-        "No, it is yesterday morning.",
-        "Yes, I will eat apple.",
-        "They are not at the library."
+        "They are not in the office.",
+        "Yes, I will eat it.",
+        "No, it was yesterday."
       ],
       "correctAnswer": "Yes, I am. If I study hard every single evening, I will pass with an excellent grade.",
-      "explanationVi": "Phản hồi phù hợp: \"Yes, I am. If I study hard every single evening, I will pass with an excellent grade.\" (Có chứ. Nếu tôi học chăm chỉ mỗi buổi tối, tôi sẽ vượt qua với điểm số xuất sắc.)."
+      "explanationVi": "Phản hồi phù hợp trong bài: \"Yes, I am. If I study hard every single evening, I will pass with an excellent grade.\" (Có chứ. Nếu tôi học chăm chỉ mỗi buổi tối, tôi sẽ vượt qua với điểm số xuất sắc.)."
     },
     {
       "id": "ex-043-07",
       "type": "fill_blank",
-      "promptVi": "[Điền từ - (Dạng khẳng định)] Điền dạng đúng của động từ vào ô trống (Nếu ngày mai trời mưa, tôi sẽ ở nhà.):",
+      "promptVi": "[Điền từ - Dạng KHẲNG ĐỊNH] Điền từ còn thiếu vào ô trống (Nếu ngày mai trời mưa, tôi sẽ ở nhà.):",
       "question": "If it ___ tomorrow, I will stay at home.",
       "correctAnswer": "rains",
       "options": [
-        "rains",
         "will rain",
-        "rained",
-        "raining"
+        "raining",
+        "rains",
+        "rained"
       ],
-      "explanationVi": "Đáp án chính xác: \"rains\". Nếu ngày mai trời mưa, tôi sẽ ở nhà.."
+      "explanationVi": "Đáp án đúng là \"rains\". Câu hoàn chỉnh: \"If it rains tomorrow, I will stay at home.\" (Nếu ngày mai trời mưa, tôi sẽ ở nhà.)."
     },
     {
       "id": "ex-043-08",
       "type": "fill_blank",
-      "promptVi": "[Điền từ - (Dạng khẳng định)] Điền dạng đúng của động từ vào ô trống (Nếu bạn học chăm chỉ, bạn sẽ thi đỗ.):",
+      "promptVi": "[Điền từ - Dạng KHẲNG ĐỊNH] Điền từ còn thiếu vào ô trống (Nếu bạn học chăm chỉ, bạn sẽ thi đỗ.):",
       "question": "If you study hard, you ___ pass the exam.",
       "correctAnswer": "will",
       "options": [
-        "will",
+        "do",
         "would",
-        "did",
-        "do"
+        "will",
+        "did"
       ],
-      "explanationVi": "Đáp án chính xác: \"will\". Nếu bạn học chăm chỉ, bạn sẽ thi đỗ.."
+      "explanationVi": "Đáp án đúng là \"will\". Câu hoàn chỉnh: \"If you study hard, you will pass the exam.\" (Nếu bạn học chăm chỉ, bạn sẽ thi đỗ.)."
     },
     {
       "id": "ex-043-09",
       "type": "fill_blank",
-      "promptVi": "[Điền từ - (Dạng phủ định)] Điền dạng đúng của động từ vào ô trống (Nếu chúng ta không nhanh lên, chúng ta sẽ bị lỡ xe buýt.):",
+      "promptVi": "[Điền từ - Dạng PHỦ ĐỊNH] Điền từ còn thiếu vào ô trống (Nếu chúng ta không nhanh lên, chúng ta sẽ bị lỡ xe buýt.):",
       "question": "If we ___ hurry, we will miss the bus.",
       "correctAnswer": "don't",
       "options": [
         "don't",
-        "won't",
+        "aren't",
         "didn't",
-        "aren't"
+        "won't"
       ],
-      "explanationVi": "Đáp án chính xác: \"don't\". Nếu chúng ta không nhanh lên, chúng ta sẽ bị lỡ xe buýt.."
+      "explanationVi": "Đáp án đúng là \"don't\". Câu hoàn chỉnh: \"If we don't hurry, we will miss the bus.\" (Nếu chúng ta không nhanh lên, chúng ta sẽ bị lỡ xe buýt.)."
     },
     {
       "id": "ex-043-10",
       "type": "fill_blank",
-      "promptVi": "[Điền từ - (Dạng khẳng định)] Điền dạng đúng của động từ vào ô trống (Bạn sẽ làm gì nếu trời mưa?):",
+      "promptVi": "[Điền từ - Dạng KHẲNG ĐỊNH] Điền từ còn thiếu vào ô trống (Bạn sẽ làm gì nếu trời mưa?):",
       "question": "What will you do if it ___?",
       "correctAnswer": "rains",
       "options": [
-        "rains",
         "rain",
-        "will rain",
-        "rained"
+        "rains",
+        "rained",
+        "will rain"
       ],
-      "explanationVi": "Đáp án chính xác: \"rains\". Bạn sẽ làm gì nếu trời mưa?."
+      "explanationVi": "Đáp án đúng là \"rains\". Câu hoàn chỉnh: \"What will you do if it rains?\" (Bạn sẽ làm gì nếu trời mưa?)."
     },
     {
       "id": "ex-043-11",
       "type": "fill_blank",
-      "promptVi": "[Điền từ - Dạng PHỦ ĐỊNH] Hoàn thành câu phủ định sau:",
-      "correctAnswer": "If it rains tomorrow, I will stay at home.",
+      "promptVi": "[Điền từ - Dạng PHỦ ĐỊNH] Điền trợ động từ/động từ tobe phủ định vào chỗ trống:",
+      "question": "If _____ not rains tomorrow, I will stay at home.",
+      "correctAnswer": "it",
       "options": [
-        "If it rains tomorrow, I will stay at home.",
-        "If it rains tomorrow, I will stay at home.",
-        "Not If it rains tomorrow, I will stay at home.",
-        "If it rains tomorrow, I will stay at home. no"
+        "am",
+        "is",
+        "it",
+        "are"
       ],
-      "explanationVi": "Dạng phủ định chuẩn: Thêm 'not' sau động từ chính."
+      "explanationVi": "Câu phủ định hoàn chỉnh: \"If it not rains tomorrow, I will stay at home.\"."
     },
     {
       "id": "ex-043-12",
       "type": "sentence_scramble",
-      "promptVi": "[Sắp xếp câu] Xếp các khối từ thành câu hoàn chỉnh mang nghĩa: \"Nếu ngày mai trời mưa, tôi sẽ ở nhà.\"",
+      "promptVi": "[Sắp xếp câu] Ghép các khối từ thành câu hoàn chỉnh mang nghĩa: \"Nếu ngày mai trời mưa, tôi sẽ ở nhà.\"",
+      "question": "Sắp xếp các từ để tạo thành câu đúng: \"Nếu ngày mai trời mưa, tôi sẽ ở nhà.\"",
       "words": [
-        "tomorrow,",
-        "will",
-        "rains",
         "If",
-        "I",
-        "stay",
-        "at",
         "home.",
-        "it"
+        "rains",
+        "stay",
+        "tomorrow,",
+        "it",
+        "will",
+        "at",
+        "I"
       ],
       "correctSentence": "If it rains tomorrow, I will stay at home.",
       "hintVi": "Nếu ngày mai trời mưa, tôi sẽ ở nhà.",
@@ -179,17 +181,18 @@
     {
       "id": "ex-043-13",
       "type": "sentence_scramble",
-      "promptVi": "[Sắp xếp câu] Xếp các khối từ thành câu hoàn chỉnh mang nghĩa: \"Nếu bạn học chăm chỉ, bạn sẽ thi đỗ.\"",
+      "promptVi": "[Sắp xếp câu] Ghép các khối từ thành câu hoàn chỉnh mang nghĩa: \"Nếu bạn học chăm chỉ, bạn sẽ thi đỗ.\"",
+      "question": "Sắp xếp các từ để tạo thành câu đúng: \"Nếu bạn học chăm chỉ, bạn sẽ thi đỗ.\"",
       "words": [
-        "study",
-        "If",
-        "the",
         "exam.",
+        "the",
+        "If",
+        "will",
+        "hard,",
+        "you",
         "pass",
         "you",
-        "will",
-        "you",
-        "hard,"
+        "study"
       ],
       "correctSentence": "If you study hard, you will pass the exam.",
       "hintVi": "Nếu bạn học chăm chỉ, bạn sẽ thi đỗ.",
@@ -198,17 +201,18 @@
     {
       "id": "ex-043-14",
       "type": "sentence_scramble",
-      "promptVi": "[Sắp xếp câu] Xếp các khối từ thành câu hoàn chỉnh mang nghĩa: \"Nếu chúng ta không nhanh lên, chúng ta sẽ bị lỡ xe buýt.\"",
+      "promptVi": "[Sắp xếp câu] Ghép các khối từ thành câu hoàn chỉnh mang nghĩa: \"Nếu chúng ta không nhanh lên, chúng ta sẽ bị lỡ xe buýt.\"",
+      "question": "Sắp xếp các từ để tạo thành câu đúng: \"Nếu chúng ta không nhanh lên, chúng ta sẽ bị lỡ xe buýt.\"",
       "words": [
-        "will",
         "we",
+        "will",
         "don't",
-        "hurry,",
-        "If",
+        "we",
         "miss",
         "the",
         "bus.",
-        "we"
+        "If",
+        "hurry,"
       ],
       "correctSentence": "If we don't hurry, we will miss the bus.",
       "hintVi": "Nếu chúng ta không nhanh lên, chúng ta sẽ bị lỡ xe buýt.",
@@ -217,15 +221,16 @@
     {
       "id": "ex-043-15",
       "type": "sentence_scramble",
-      "promptVi": "[Sắp xếp câu] Xếp các khối từ thành câu hoàn chỉnh mang nghĩa: \"Bạn sẽ làm gì nếu trời mưa?\"",
+      "promptVi": "[Sắp xếp câu] Ghép các khối từ thành câu hoàn chỉnh mang nghĩa: \"Bạn sẽ làm gì nếu trời mưa?\"",
+      "question": "Sắp xếp các từ để tạo thành câu đúng: \"Bạn sẽ làm gì nếu trời mưa?\"",
       "words": [
-        "do",
-        "it",
+        "What",
+        "if",
+        "you",
         "will",
         "rains?",
-        "if",
-        "What",
-        "you"
+        "it",
+        "do"
       ],
       "correctSentence": "What will you do if it rains?",
       "hintVi": "Bạn sẽ làm gì nếu trời mưa?",
@@ -234,21 +239,22 @@
     {
       "id": "ex-043-16",
       "type": "sentence_scramble",
-      "promptVi": "[Sắp xếp câu] Xếp các từ thành câu hội thoại: \"Bạn sẽ làm gì nếu thời tiết nắng ráo và trong lành vào thứ Bảy này?\"",
+      "promptVi": "[Sắp xếp câu] Ghép các từ thành câu hội thoại: \"Bạn sẽ làm gì nếu thời tiết nắng ráo và trong lành vào thứ Bảy này?\"",
+      "question": "Sắp xếp các từ để tạo thành câu thoại: \"Bạn sẽ làm gì nếu thời tiết nắng ráo và trong lành vào thứ Bảy này?\"",
       "words": [
-        "is",
-        "if",
-        "the",
-        "and",
-        "What",
-        "sunny",
-        "this",
-        "will",
         "weather",
-        "Saturday",
+        "the",
         "clear",
+        "do",
         "you",
-        "do"
+        "this",
+        "and",
+        "sunny",
+        "will",
+        "if",
+        "is",
+        "What",
+        "Saturday"
       ],
       "correctSentence": "What will you do if the weather is sunny and clear this Saturday?",
       "hintVi": "Bạn sẽ làm gì nếu thời tiết nắng ráo và trong lành vào thứ Bảy này?",
@@ -257,70 +263,70 @@
     {
       "id": "ex-043-17",
       "type": "find_error",
-      "promptVi": "[Tìm lỗi sai & Chọn câu đúng] Câu nào dưới đây có cấu trúc ngữ pháp HOÀN TOÀN ĐÚNG?",
-      "question": "Chủ điểm \"Bài 43: Câu Điều kiện — Loại 1 (First Conditional: If + Present Simple, Will + V)\": Chọn câu CHÍNH XÁC:",
+      "promptVi": "[Nhận diện cấu trúc chuẩn] Chọn câu có cấu trúc ngữ pháp HOÀN TOÀN ĐÚNG:",
+      "question": "Dựa vào chủ điểm \"Bài 43: Câu Điều kiện — Loại 1 (First Conditional: If + Present Simple, Will + V)\", câu nào sau đây CHÍNH XÁC?",
       "options": [
+        "are",
         "If it rains tomorrow, I will stay at home.",
         "home. at stay will I tomorrow, rains it If",
-        "If it rains tomorrow, I will stay at home. (sai)",
-        "If it rains tomorrow, I will stay at home. (sai)"
+        "is"
       ],
       "correctAnswer": "If it rains tomorrow, I will stay at home.",
-      "explanationVi": "Câu chuẩn xác là: \"If it rains tomorrow, I will stay at home.\" (Nếu ngày mai trời mưa, tôi sẽ ở nhà.)."
+      "explanationVi": "Cấu trúc chuẩn xác là: \"If it rains tomorrow, I will stay at home.\" (Nếu ngày mai trời mưa, tôi sẽ ở nhà.)."
     },
     {
       "id": "ex-043-18",
       "type": "find_error",
-      "promptVi": "[Tìm lỗi sai & Chọn câu đúng] Câu nào dưới đây có cấu trúc ngữ pháp HOÀN TOÀN ĐÚNG?",
-      "question": "Chủ điểm \"Bài 43: Câu Điều kiện — Loại 1 (First Conditional: If + Present Simple, Will + V)\": Chọn câu CHÍNH XÁC:",
+      "promptVi": "[Nhận diện cấu trúc chuẩn] Chọn câu có cấu trúc ngữ pháp HOÀN TOÀN ĐÚNG:",
+      "question": "Dựa vào chủ điểm \"Bài 43: Câu Điều kiện — Loại 1 (First Conditional: If + Present Simple, Will + V)\", câu nào sau đây CHÍNH XÁC?",
       "options": [
+        "are",
         "If you study hard, you will pass the exam.",
-        "exam. the pass will you hard, study you If",
-        "If you study hard, you will pass the exam. (sai)",
-        "If you study hard, you will pass the exam. (sai)"
+        "is",
+        "exam. the pass will you hard, study you If"
       ],
       "correctAnswer": "If you study hard, you will pass the exam.",
-      "explanationVi": "Câu chuẩn xác là: \"If you study hard, you will pass the exam.\" (Nếu bạn học chăm chỉ, bạn sẽ thi đỗ.)."
+      "explanationVi": "Cấu trúc chuẩn xác là: \"If you study hard, you will pass the exam.\" (Nếu bạn học chăm chỉ, bạn sẽ thi đỗ.)."
     },
     {
       "id": "ex-043-19",
       "type": "find_error",
-      "promptVi": "[Tìm lỗi sai & Chọn câu đúng] Câu nào dưới đây có cấu trúc ngữ pháp HOÀN TOÀN ĐÚNG?",
-      "question": "Chủ điểm \"Bài 43: Câu Điều kiện — Loại 1 (First Conditional: If + Present Simple, Will + V)\": Chọn câu CHÍNH XÁC:",
+      "promptVi": "[Nhận diện cấu trúc chuẩn] Chọn câu có cấu trúc ngữ pháp HOÀN TOÀN ĐÚNG:",
+      "question": "Dựa vào chủ điểm \"Bài 43: Câu Điều kiện — Loại 1 (First Conditional: If + Present Simple, Will + V)\", câu nào sau đây CHÍNH XÁC?",
       "options": [
-        "If we don't hurry, we will miss the bus.",
         "bus. the miss will we hurry, don't we If",
-        "If we don't hurry, we will miss the bus. (sai)",
-        "If we don't hurry, we will miss the bus. (sai)"
+        "If we don't hurry, we will miss the bus.",
+        "are",
+        "is"
       ],
       "correctAnswer": "If we don't hurry, we will miss the bus.",
-      "explanationVi": "Câu chuẩn xác là: \"If we don't hurry, we will miss the bus.\" (Nếu chúng ta không nhanh lên, chúng ta sẽ bị lỡ xe buýt.)."
+      "explanationVi": "Cấu trúc chuẩn xác là: \"If we don't hurry, we will miss the bus.\" (Nếu chúng ta không nhanh lên, chúng ta sẽ bị lỡ xe buýt.)."
     },
     {
       "id": "ex-043-20",
       "type": "find_error",
-      "promptVi": "[Tìm lỗi sai & Chọn câu đúng] Câu nào dưới đây có cấu trúc ngữ pháp HOÀN TOÀN ĐÚNG?",
-      "question": "Chủ điểm \"Bài 43: Câu Điều kiện — Loại 1 (First Conditional: If + Present Simple, Will + V)\": Chọn câu CHÍNH XÁC:",
+      "promptVi": "[Nhận diện cấu trúc chuẩn] Chọn câu có cấu trúc ngữ pháp HOÀN TOÀN ĐÚNG:",
+      "question": "Dựa vào chủ điểm \"Bài 43: Câu Điều kiện — Loại 1 (First Conditional: If + Present Simple, Will + V)\", câu nào sau đây CHÍNH XÁC?",
       "options": [
-        "What will you do if it rains?",
         "rains? it if do you will What",
-        "What will you do if it rains? (sai)",
-        "What will you do if it rains? (sai)"
+        "are",
+        "What will you do if it rains?",
+        "is"
       ],
       "correctAnswer": "What will you do if it rains?",
-      "explanationVi": "Câu chuẩn xác là: \"What will you do if it rains?\" (Bạn sẽ làm gì nếu trời mưa?)."
+      "explanationVi": "Cấu trúc chuẩn xác là: \"What will you do if it rains?\" (Bạn sẽ làm gì nếu trời mưa?)."
     },
     {
       "id": "ex-043-21",
       "type": "listening_reflex",
-      "promptVi": "[Nghe phản xạ] Nghe câu phát âm tiếng Anh và chọn bản dịch tiếng Việt đúng nhất:",
+      "promptVi": "[Nghe phản xạ] Nghe câu phát âm tiếng Anh và chọn bản dịch tiếng Việt đúng:",
       "audioPrompt": "Are you studying diligently for the upcoming international marketing exam, Grace?",
-      "question": "Nhấn nút '🔊 Nghe audio' để nghe câu thoại và chọn nghĩa đúng:",
+      "question": "Nhấn nút '🔊 Nghe audio' và chọn nghĩa tiếng Việt đúng:",
       "options": [
-        "Bạn có đang học tập chăm chỉ cho kỳ thi tiếp thị quốc tế sắp tới không, Grace?",
-        "Có chứ. Nếu tôi học chăm chỉ mỗi buổi tối, tôi sẽ vượt qua với điểm số xuất sắc.",
         "Bạn sẽ làm gì nếu thời tiết nắng ráo và trong lành vào thứ Bảy này?",
-        "Ngày mai trời sẽ mưa to."
+        "Hôm nay thời tiết rất đẹp.",
+        "Bạn có đang học tập chăm chỉ cho kỳ thi tiếp thị quốc tế sắp tới không, Grace?",
+        "Có chứ. Nếu tôi học chăm chỉ mỗi buổi tối, tôi sẽ vượt qua với điểm số xuất sắc."
       ],
       "correctAnswer": "Bạn có đang học tập chăm chỉ cho kỳ thi tiếp thị quốc tế sắp tới không, Grace?",
       "explanationVi": "Câu nghe được: \"Are you studying diligently for the upcoming international marketing exam, Grace?\" có nghĩa là: \"Bạn có đang học tập chăm chỉ cho kỳ thi tiếp thị quốc tế sắp tới không, Grace?\"."
@@ -328,14 +334,14 @@
     {
       "id": "ex-043-22",
       "type": "listening_reflex",
-      "promptVi": "[Nghe phản xạ] Nghe câu phát âm tiếng Anh và chọn bản dịch tiếng Việt đúng nhất:",
+      "promptVi": "[Nghe phản xạ] Nghe câu phát âm tiếng Anh và chọn bản dịch tiếng Việt đúng:",
       "audioPrompt": "Yes, I am. If I study hard every single evening, I will pass with an excellent grade.",
-      "question": "Nhấn nút '🔊 Nghe audio' để nghe câu thoại và chọn nghĩa đúng:",
+      "question": "Nhấn nút '🔊 Nghe audio' và chọn nghĩa tiếng Việt đúng:",
       "options": [
-        "Có chứ. Nếu tôi học chăm chỉ mỗi buổi tối, tôi sẽ vượt qua với điểm số xuất sắc.",
         "Bạn sẽ làm gì nếu thời tiết nắng ráo và trong lành vào thứ Bảy này?",
-        "Nếu trời nắng, chúng ta sẽ đi đạp xe thư giãn quanh Hồ Tây.",
-        "Ngày mai trời sẽ mưa to."
+        "Có chứ. Nếu tôi học chăm chỉ mỗi buổi tối, tôi sẽ vượt qua với điểm số xuất sắc.",
+        "Hôm nay thời tiết rất đẹp.",
+        "Nếu trời nắng, chúng ta sẽ đi đạp xe thư giãn quanh Hồ Tây."
       ],
       "correctAnswer": "Có chứ. Nếu tôi học chăm chỉ mỗi buổi tối, tôi sẽ vượt qua với điểm số xuất sắc.",
       "explanationVi": "Câu nghe được: \"Yes, I am. If I study hard every single evening, I will pass with an excellent grade.\" có nghĩa là: \"Có chứ. Nếu tôi học chăm chỉ mỗi buổi tối, tôi sẽ vượt qua với điểm số xuất sắc.\"."
@@ -343,14 +349,14 @@
     {
       "id": "ex-043-23",
       "type": "listening_reflex",
-      "promptVi": "[Nghe phản xạ] Nghe câu phát âm tiếng Anh và chọn bản dịch tiếng Việt đúng nhất:",
+      "promptVi": "[Nghe phản xạ] Nghe câu phát âm tiếng Anh và chọn bản dịch tiếng Việt đúng:",
       "audioPrompt": "What will you do if the weather is sunny and clear this Saturday?",
-      "question": "Nhấn nút '🔊 Nghe audio' để nghe câu thoại và chọn nghĩa đúng:",
+      "question": "Nhấn nút '🔊 Nghe audio' và chọn nghĩa tiếng Việt đúng:",
       "options": [
-        "Bạn sẽ làm gì nếu thời tiết nắng ráo và trong lành vào thứ Bảy này?",
         "Nếu trời nắng, chúng ta sẽ đi đạp xe thư giãn quanh Hồ Tây.",
+        "Bạn sẽ làm gì nếu thời tiết nắng ráo và trong lành vào thứ Bảy này?",
         "Nếu bạn không thức dậy sớm vào Chủ Nhật, bạn sẽ bị lỡ chuyến tàu buổi sáng đến thủ đô đấy.",
-        "Ngày mai trời sẽ mưa to."
+        "Hôm nay thời tiết rất đẹp."
       ],
       "correctAnswer": "Bạn sẽ làm gì nếu thời tiết nắng ráo và trong lành vào thứ Bảy này?",
       "explanationVi": "Câu nghe được: \"What will you do if the weather is sunny and clear this Saturday?\" có nghĩa là: \"Bạn sẽ làm gì nếu thời tiết nắng ráo và trong lành vào thứ Bảy này?\"."
@@ -358,14 +364,14 @@
     {
       "id": "ex-043-24",
       "type": "listening_reflex",
-      "promptVi": "[Nghe phản xạ] Nghe câu phát âm tiếng Anh và chọn bản dịch tiếng Việt đúng nhất:",
+      "promptVi": "[Nghe phản xạ] Nghe câu phát âm tiếng Anh và chọn bản dịch tiếng Việt đúng:",
       "audioPrompt": "If it is sunny, we will go for a relaxing bicycle ride around the West Lake.",
-      "question": "Nhấn nút '🔊 Nghe audio' để nghe câu thoại và chọn nghĩa đúng:",
+      "question": "Nhấn nút '🔊 Nghe audio' và chọn nghĩa tiếng Việt đúng:",
       "options": [
-        "Nếu trời nắng, chúng ta sẽ đi đạp xe thư giãn quanh Hồ Tây.",
         "Nếu bạn không thức dậy sớm vào Chủ Nhật, bạn sẽ bị lỡ chuyến tàu buổi sáng đến thủ đô đấy.",
+        "Nếu trời nắng, chúng ta sẽ đi đạp xe thư giãn quanh Hồ Tây.",
         "Đừng lo! Nếu tôi cài hai chuông báo thức to, tôi chắc chắn sẽ thức dậy trước sáu giờ.",
-        "Ngày mai trời sẽ mưa to."
+        "Hôm nay thời tiết rất đẹp."
       ],
       "correctAnswer": "Nếu trời nắng, chúng ta sẽ đi đạp xe thư giãn quanh Hồ Tây.",
       "explanationVi": "Câu nghe được: \"If it is sunny, we will go for a relaxing bicycle ride around the West Lake.\" có nghĩa là: \"Nếu trời nắng, chúng ta sẽ đi đạp xe thư giãn quanh Hồ Tây.\"."
@@ -373,64 +379,68 @@
     {
       "id": "ex-043-25",
       "type": "speaking_practice",
-      "promptVi": "[Luyện nói qua Micro] Nhấn nút '🎙️ Bắt đầu nói' và đọc to, rõ ràng câu tiếng Anh sau:",
+      "promptVi": "[Luyện nói qua Micro] Nhấn nút 'Bấm để Nói ngay' và phát âm câu sau:",
+      "question": "Luyện phát âm chuẩn câu: \"If it rains tomorrow, I will stay at home.\" (Nếu ngày mai trời mưa, tôi sẽ ở nhà.)",
       "targetSentence": "If it rains tomorrow, I will stay at home.",
       "hintVi": "Nếu ngày mai trời mưa, tôi sẽ ở nhà.",
-      "explanationVi": "Câu mục tiêu: \"If it rains tomorrow, I will stay at home.\" (Nếu ngày mai trời mưa, tôi sẽ ở nhà.). Luyện phát âm chuẩn xác từng âm tiết và ngữ điệu tự nhiên."
+      "explanationVi": "Mẫu câu chuẩn: \"If it rains tomorrow, I will stay at home.\" (Nếu ngày mai trời mưa, tôi sẽ ở nhà.). Luyện phát âm rõ ràng từng từ."
     },
     {
       "id": "ex-043-26",
       "type": "speaking_practice",
-      "promptVi": "[Luyện nói qua Micro] Nhấn nút '🎙️ Bắt đầu nói' và đọc to, rõ ràng câu tiếng Anh sau:",
+      "promptVi": "[Luyện nói qua Micro] Nhấn nút 'Bấm để Nói ngay' và phát âm câu sau:",
+      "question": "Luyện phát âm chuẩn câu: \"If you study hard, you will pass the exam.\" (Nếu bạn học chăm chỉ, bạn sẽ thi đỗ.)",
       "targetSentence": "If you study hard, you will pass the exam.",
       "hintVi": "Nếu bạn học chăm chỉ, bạn sẽ thi đỗ.",
-      "explanationVi": "Câu mục tiêu: \"If you study hard, you will pass the exam.\" (Nếu bạn học chăm chỉ, bạn sẽ thi đỗ.). Luyện phát âm chuẩn xác từng âm tiết và ngữ điệu tự nhiên."
+      "explanationVi": "Mẫu câu chuẩn: \"If you study hard, you will pass the exam.\" (Nếu bạn học chăm chỉ, bạn sẽ thi đỗ.). Luyện phát âm rõ ràng từng từ."
     },
     {
       "id": "ex-043-27",
       "type": "speaking_practice",
-      "promptVi": "[Luyện nói qua Micro] Nhấn nút '🎙️ Bắt đầu nói' và đọc to, rõ ràng câu tiếng Anh sau:",
+      "promptVi": "[Luyện nói qua Micro] Nhấn nút 'Bấm để Nói ngay' và phát âm câu sau:",
+      "question": "Luyện phát âm chuẩn câu: \"If we don't hurry, we will miss the bus.\" (Nếu chúng ta không nhanh lên, chúng ta sẽ bị lỡ xe buýt.)",
       "targetSentence": "If we don't hurry, we will miss the bus.",
       "hintVi": "Nếu chúng ta không nhanh lên, chúng ta sẽ bị lỡ xe buýt.",
-      "explanationVi": "Câu mục tiêu: \"If we don't hurry, we will miss the bus.\" (Nếu chúng ta không nhanh lên, chúng ta sẽ bị lỡ xe buýt.). Luyện phát âm chuẩn xác từng âm tiết và ngữ điệu tự nhiên."
+      "explanationVi": "Mẫu câu chuẩn: \"If we don't hurry, we will miss the bus.\" (Nếu chúng ta không nhanh lên, chúng ta sẽ bị lỡ xe buýt.). Luyện phát âm rõ ràng từng từ."
     },
     {
       "id": "ex-043-28",
       "type": "speaking_practice",
-      "promptVi": "[Luyện nói qua Micro] Nhấn nút '🎙️ Bắt đầu nói' và đọc to, rõ ràng câu tiếng Anh sau:",
+      "promptVi": "[Luyện nói qua Micro] Nhấn nút 'Bấm để Nói ngay' và phát âm câu sau:",
+      "question": "Luyện phát âm chuẩn câu: \"What will you do if it rains?\" (Bạn sẽ làm gì nếu trời mưa?)",
       "targetSentence": "What will you do if it rains?",
       "hintVi": "Bạn sẽ làm gì nếu trời mưa?",
-      "explanationVi": "Câu mục tiêu: \"What will you do if it rains?\" (Bạn sẽ làm gì nếu trời mưa?). Luyện phát âm chuẩn xác từng âm tiết và ngữ điệu tự nhiên."
+      "explanationVi": "Mẫu câu chuẩn: \"What will you do if it rains?\" (Bạn sẽ làm gì nếu trời mưa?). Luyện phát âm rõ ràng từng từ."
     },
     {
       "id": "ex-043-29",
       "type": "reading_comprehension",
-      "promptVi": "[Đọc hiểu đoạn văn 1] Đọc đoạn hội thoại mở đầu sau và trả lời câu hỏi:",
-      "passage": "Kevin (Nam): \"Are you studying diligently for the upcoming international marketing exam, Grace?\"\nGrace (Nữ): \"Yes, I am. If I study hard every single evening, I will pass with an excellent grade.\"\nKevin (Nam): \"What will you do if the weather is sunny and clear this Saturday?\"\nGrace (Nữ): \"If it is sunny, we will go for a relaxing bicycle ride around the West Lake.\"",
-      "question": "Câu hỏi: Trong đoạn hội thoại trên, các nhân vật đang thảo luận về chủ đề gì?",
+      "promptVi": "[Đọc hiểu đoạn văn] Đọc đoạn hội thoại sau và trả lời câu hỏi:",
+      "passage": "Kevin: \"Are you studying diligently for the upcoming international marketing exam, Grace?\"\nGrace: \"Yes, I am. If I study hard every single evening, I will pass with an excellent grade.\"\nKevin: \"What will you do if the weather is sunny and clear this Saturday?\"\nGrace: \"If it is sunny, we will go for a relaxing bicycle ride around the West Lake.\"",
+      "question": "Chủ đề trọng tâm của đoạn hội thoại trên là gì?",
       "options": [
+        "Lịch trình đi du lịch nghỉ mát cuối tuần",
+        "Cách làm món ăn truyền thống",
         "Câu Điều kiện — Loại 1 (First Conditional: If + Present Simple, Will + V)",
-        "Kế hoạch đi nghỉ dưỡng cuối tuần ở bãi biển",
-        "Mua sắm quần áo và đồ dùng thể thao",
-        "Cách làm món ăn truyền thống gia đình"
+        "Kế hoạch đi mua sắm tại siêu thị"
       ],
       "correctAnswer": "Câu Điều kiện — Loại 1 (First Conditional: If + Present Simple, Will + V)",
-      "explanationVi": "Đoạn hội thoại mở đầu được thiết kế để minh họa trực tiếp cho chủ điểm ngữ pháp: \"Bài 43: Câu Điều kiện — Loại 1 (First Conditional: If + Present Simple, Will + V)\"."
+      "explanationVi": "Đoạn hội thoại được thiết kế để minh họa trực tiếp cho chủ điểm \"Bài 43: Câu Điều kiện — Loại 1 (First Conditional: If + Present Simple, Will + V)\"."
     },
     {
       "id": "ex-043-30",
       "type": "reading_comprehension",
-      "promptVi": "[Đọc hiểu đoạn văn 2] Đọc phần tiếp theo của đoạn hội thoại và chọn nhận định đúng:",
-      "passage": "Kevin (Nam): \"If you don't wake up early on Sunday, you will miss the morning train to the capital.\"\nGrace (Nữ): \"Don't worry! If I set two loud alarms, I will certainly wake up before six o'clock.\"\nKevin (Nam): \"What will happen if the company offers you the senior management position?\"\nGrace (Nữ): \"If they offer me the position, I will gladly accept it and relocate immediately.\"",
-      "question": "Nhận định nào sau đây là ĐÚNG với nội dung đoạn hội thoại trên?",
+      "promptVi": "[Đọc hiểu đoạn văn] Đọc đoạn đối thoại tiếp theo và chọn nhận định đúng:",
+      "passage": "Kevin: \"If you don't wake up early on Sunday, you will miss the morning train to the capital.\"\nGrace: \"Don't worry! If I set two loud alarms, I will certainly wake up before six o'clock.\"\nKevin: \"What will happen if the company offers you the senior management position?\"\nGrace: \"If they offer me the position, I will gladly accept it and relocate immediately.\"",
+      "question": "Nhận định nào sau đây là ĐÚNG về nội dung đoạn đối thoại?",
       "options": [
-        "Các câu hội thoại sử dụng đúng cấu trúc ngữ pháp \"Bài 43: Câu Điều kiện — Loại 1 (First Conditional: If + Present Simple, Will + V)\".",
-        "Các nhân vật không hiểu ý nhau và từ chối nói chuyện.",
-        "Đoạn hội thoại nói về việc chuyển nhà sang thành phố khác.",
-        "Cả hai nhân vật đều đang ở sân bay chuẩn bị lên máy bay."
+        "Các câu thoại sử dụng đúng cấu trúc \"Câu Điều kiện — Loại 1 (First Conditional: If + Present Simple, Will + V)\".",
+        "Cả hai nhân vật đang thảo luận về thời tiết ngày mai.",
+        "Hai nhân vật đang cãi nhau và không đồng ý hợp tác.",
+        "Cuộc trò chuyện diễn ra tại nhà ga xe lửa."
       ],
-      "correctAnswer": "Các câu hội thoại sử dụng đúng cấu trúc ngữ pháp \"Bài 43: Câu Điều kiện — Loại 1 (First Conditional: If + Present Simple, Will + V)\".",
-      "explanationVi": "Đoạn hội thoại thứ hai tiếp tục củng cố và ứng dụng các quy tắc ngữ pháp của \"Bài 43: Câu Điều kiện — Loại 1 (First Conditional: If + Present Simple, Will + V)\"."
+      "correctAnswer": "Các câu thoại sử dụng đúng cấu trúc \"Câu Điều kiện — Loại 1 (First Conditional: If + Present Simple, Will + V)\".",
+      "explanationVi": "Đoạn đối thoại ứng dụng chuẩn xác ngữ pháp của \"Bài 43: Câu Điều kiện — Loại 1 (First Conditional: If + Present Simple, Will + V)\"."
     }
   ]
 }

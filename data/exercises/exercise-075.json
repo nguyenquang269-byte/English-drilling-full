@@ -7,11 +7,11 @@
     {
       "id": "ex-075-01",
       "type": "multiple_choice",
-      "promptVi": "[Trắc nghiệm] Chọn từ/cụm từ đúng để hoàn thành câu (Dù trong bất kỳ hoàn cảnh nào bạn cũng không được chạm vào sợi dây này.):",
+      "promptVi": "[Trắc nghiệm ngữ pháp] Chọn từ đúng để hoàn thành câu (Dù trong bất kỳ hoàn cảnh nào bạn cũng không được chạm vào sợi dây này.):",
       "question": "Under no circumstances ___ you touch this wire.",
       "options": [
-        "should",
         "must",
+        "should",
         "you should",
         "do"
       ],
@@ -21,13 +21,13 @@
     {
       "id": "ex-075-02",
       "type": "multiple_choice",
-      "promptVi": "[Trắc nghiệm] Chọn từ/cụm từ đúng để hoàn thành câu (Tôi vừa mới về đến nhà thì trời đã bắt đầu mưa.):",
+      "promptVi": "[Trắc nghiệm ngữ pháp] Chọn từ đúng để hoàn thành câu (Tôi vừa mới về đến nhà thì trời đã bắt đầu mưa.):",
       "question": "No sooner had I arrived home ___ it started to rain.",
       "options": [
         "than",
+        "that",
         "when",
-        "then",
-        "that"
+        "then"
       ],
       "correctAnswer": "than",
       "explanationVi": "'No sooner' luôn đi kèm với liên từ 'than'."
@@ -35,11 +35,11 @@
     {
       "id": "ex-075-03",
       "type": "multiple_choice",
-      "promptVi": "[Trắc nghiệm] Chọn từ/cụm từ đúng để hoàn thành câu (Trên đỉnh ngọn đồi sừng sững một tòa lâu đài cổ kính.):",
+      "promptVi": "[Trắc nghiệm ngữ pháp] Chọn từ đúng để hoàn thành câu (Trên đỉnh ngọn đồi sừng sững một tòa lâu đài cổ kính.):",
       "question": "On the top of the hill ___ an ancient castle.",
       "options": [
-        "stands",
         "does stand",
+        "stands",
         "standing",
         "is standing"
       ],
@@ -49,13 +49,13 @@
     {
       "id": "ex-075-04",
       "type": "multiple_choice",
-      "promptVi": "[Trắc nghiệm] Chọn từ/cụm từ đúng để hoàn thành câu (Tôi thích nhạc cổ điển, và anh trai tôi cũng vậy.):",
+      "promptVi": "[Trắc nghiệm ngữ pháp] Chọn từ đúng để hoàn thành câu (Tôi thích nhạc cổ điển, và anh trai tôi cũng vậy.):",
       "question": "I like classical music, and so ___ my brother.",
       "options": [
-        "does",
-        "is",
         "do",
-        "likes"
+        "is",
+        "likes",
+        "does"
       ],
       "correctAnswer": "does",
       "explanationVi": "'like' là động từ thường hiện tại đơn, chủ ngữ 'my brother' số ít -> dùng 'does'."
@@ -63,112 +63,114 @@
     {
       "id": "ex-075-05",
       "type": "multiple_choice",
-      "promptVi": "[Trắc nghiệm] Dịch câu sau sang tiếng Anh: \"Kính thưa quý vị! Trong bất kỳ hoàn cảnh nào đội tàu ngầm của chúng tôi cũng không thỏa hiệp về an toàn của thủy thủ đoàn. (Under no circumstances did...)\"",
-      "question": "Chọn bản dịch chuẩn xác cho câu: \"Kính thưa quý vị! Trong bất kỳ hoàn cảnh nào đội tàu ngầm của chúng tôi cũng không thỏa hiệp về an toàn của thủy thủ đoàn. (Under no circumstances did...)\"",
+      "promptVi": "[Phản xạ dịch thuật] Dịch câu sau sang tiếng Anh: \"Kính thưa quý vị! Trong bất kỳ hoàn cảnh nào đội tàu ngầm của chúng tôi cũng không thỏa hiệp về an toàn của thủy thủ đoàn. (Under no circumstances did...)\"",
+      "question": "Chọn bản dịch chuẩn xác nhất cho câu: \"Kính thưa quý vị! Trong bất kỳ hoàn cảnh nào đội tàu ngầm của chúng tôi cũng không thỏa hiệp về an toàn của thủy thủ đoàn. (Under no circumstances did...)\"",
       "options": [
-        "Ladies and gentlemen! Under no circumstances did our submarine crew compromise on crew safety.",
-        "Ladies and gentlemen! Under no circumstances be our submarine crew compromise on crew safety.",
+        "We are studying English today.",
         "Seldom have marine biologists documented such astonishing bioluminescent species at five thousand meters.",
-        "I want to go to the park now."
+        "Ladies and gentlemen! Under no circumstances be our submarine crew compromise on crew safety.",
+        "Ladies and gentlemen! Under no circumstances did our submarine crew compromise on crew safety."
       ],
       "correctAnswer": "Ladies and gentlemen! Under no circumstances did our submarine crew compromise on crew safety.",
-      "explanationVi": "Câu đúng là \"Ladies and gentlemen! Under no circumstances did our submarine crew compromise on crew safety.\" (Kính thưa quý vị! Trong bất kỳ hoàn cảnh nào đội tàu ngầm của chúng tôi cũng không thỏa hiệp về an toàn của thủy thủ đoàn. (Under no circumstances did...))."
+      "explanationVi": "Câu dịch chuẩn xác: \"Ladies and gentlemen! Under no circumstances did our submarine crew compromise on crew safety.\" (Kính thưa quý vị! Trong bất kỳ hoàn cảnh nào đội tàu ngầm của chúng tôi cũng không thỏa hiệp về an toàn của thủy thủ đoàn. (Under no circumstances did...))."
     },
     {
       "id": "ex-075-06",
       "type": "multiple_choice",
-      "promptVi": "[Trắc nghiệm] Chọn câu trả lời hoặc cách diễn đạt phù hợp:",
-      "question": "Trong ngữ cảnh giao tiếp: \"Ladies and gentlemen! Under no circumstances did our submarine crew compromise on crew safety.\", câu phản hồi tự nhiên là gì?",
+      "promptVi": "[Ngữ cảnh giao tiếp] Chọn câu phản hồi tự nhiên và đúng ngữ pháp:",
+      "question": "Khi đối phương nói: \"Ladies and gentlemen! Under no circumstances did our submarine crew compromise on crew safety.\", câu phản hồi phù hợp là gì?",
       "options": [
-        "Seldom have marine biologists documented such astonishing bioluminescent species at five thousand meters.",
-        "No, it is yesterday morning.",
-        "Yes, I will eat apple.",
-        "They are not at the library."
+        "Yes, I will eat it.",
+        "No, it was yesterday.",
+        "They are not in the office.",
+        "Seldom have marine biologists documented such astonishing bioluminescent species at five thousand meters."
       ],
       "correctAnswer": "Seldom have marine biologists documented such astonishing bioluminescent species at five thousand meters.",
-      "explanationVi": "Phản hồi phù hợp: \"Seldom have marine biologists documented such astonishing bioluminescent species at five thousand meters.\" (Hiếm khi các nhà sinh vật học biển ghi nhận được những loài phát quang sinh học đáng kinh ngạc như vậy ở độ sâu năm nghìn mét. (Seldom have...))."
+      "explanationVi": "Phản hồi phù hợp trong bài: \"Seldom have marine biologists documented such astonishing bioluminescent species at five thousand meters.\" (Hiếm khi các nhà sinh vật học biển ghi nhận được những loài phát quang sinh học đáng kinh ngạc như vậy ở độ sâu năm nghìn mét. (Seldom have...))."
     },
     {
       "id": "ex-075-07",
       "type": "fill_blank",
-      "promptVi": "[Điền từ - (Dạng khẳng định)] Điền dạng đúng của động từ vào ô trống (Dù trong bất kỳ hoàn cảnh nào bạn cũng không được chạm vào sợi dây này.):",
+      "promptVi": "[Điền từ - Dạng KHẲNG ĐỊNH] Điền từ còn thiếu vào ô trống (Dù trong bất kỳ hoàn cảnh nào bạn cũng không được chạm vào sợi dây này.):",
       "question": "Under no circumstances ___ you touch this wire.",
       "correctAnswer": "should",
       "options": [
+        "do",
         "should",
         "must",
-        "you should",
-        "do"
+        "you should"
       ],
-      "explanationVi": "Đáp án chính xác: \"should\". Dù trong bất kỳ hoàn cảnh nào bạn cũng không được chạm vào sợi dây này.."
+      "explanationVi": "Đáp án đúng là \"should\". Câu hoàn chỉnh: \"Under no circumstances should you touch this wire.\" (Dù trong bất kỳ hoàn cảnh nào bạn cũng không được chạm vào sợi dây này.)."
     },
     {
       "id": "ex-075-08",
       "type": "fill_blank",
-      "promptVi": "[Điền từ - (Dạng khẳng định)] Điền dạng đúng của động từ vào ô trống (Tôi vừa mới về đến nhà thì trời đã bắt đầu mưa.):",
+      "promptVi": "[Điền từ - Dạng KHẲNG ĐỊNH] Điền từ còn thiếu vào ô trống (Tôi vừa mới về đến nhà thì trời đã bắt đầu mưa.):",
       "question": "No sooner had I arrived home ___ it started to rain.",
       "correctAnswer": "than",
       "options": [
-        "than",
-        "when",
+        "that",
         "then",
-        "that"
+        "when",
+        "than"
       ],
-      "explanationVi": "Đáp án chính xác: \"than\". Tôi vừa mới về đến nhà thì trời đã bắt đầu mưa.."
+      "explanationVi": "Đáp án đúng là \"than\". Câu hoàn chỉnh: \"No sooner had I arrived home than it started to rain.\" (Tôi vừa mới về đến nhà thì trời đã bắt đầu mưa.)."
     },
     {
       "id": "ex-075-09",
       "type": "fill_blank",
-      "promptVi": "[Điền từ - (Dạng khẳng định)] Điền dạng đúng của động từ vào ô trống (Trên đỉnh ngọn đồi sừng sững một tòa lâu đài cổ kính.):",
+      "promptVi": "[Điền từ - Dạng KHẲNG ĐỊNH] Điền từ còn thiếu vào ô trống (Trên đỉnh ngọn đồi sừng sững một tòa lâu đài cổ kính.):",
       "question": "On the top of the hill ___ an ancient castle.",
       "correctAnswer": "stands",
       "options": [
+        "is standing",
         "stands",
-        "does stand",
         "standing",
-        "is standing"
+        "does stand"
       ],
-      "explanationVi": "Đáp án chính xác: \"stands\". Trên đỉnh ngọn đồi sừng sững một tòa lâu đài cổ kính.."
+      "explanationVi": "Đáp án đúng là \"stands\". Câu hoàn chỉnh: \"On the top of the hill stands an ancient castle.\" (Trên đỉnh ngọn đồi sừng sững một tòa lâu đài cổ kính.)."
     },
     {
       "id": "ex-075-10",
       "type": "fill_blank",
-      "promptVi": "[Điền từ - (Dạng khẳng định)] Điền dạng đúng của động từ vào ô trống (Tôi thích nhạc cổ điển, và anh trai tôi cũng vậy.):",
+      "promptVi": "[Điền từ - Dạng KHẲNG ĐỊNH] Điền từ còn thiếu vào ô trống (Tôi thích nhạc cổ điển, và anh trai tôi cũng vậy.):",
       "question": "I like classical music, and so ___ my brother.",
       "correctAnswer": "does",
       "options": [
-        "does",
         "is",
-        "do",
-        "likes"
+        "likes",
+        "does",
+        "do"
       ],
-      "explanationVi": "Đáp án chính xác: \"does\". Tôi thích nhạc cổ điển, và anh trai tôi cũng vậy.."
+      "explanationVi": "Đáp án đúng là \"does\". Câu hoàn chỉnh: \"I like classical music, and so does my brother.\" (Tôi thích nhạc cổ điển, và anh trai tôi cũng vậy.)."
     },
     {
       "id": "ex-075-11",
       "type": "fill_blank",
-      "promptVi": "[Điền từ - Dạng PHỦ ĐỊNH] Hoàn thành câu phủ định sau:",
-      "correctAnswer": "Under no circumstances should you touch this wire.",
+      "promptVi": "[Điền từ - Dạng PHỦ ĐỊNH] Điền trợ động từ/động từ tobe phủ định vào chỗ trống:",
+      "question": "Under _____ not circumstances should you touch this wire.",
+      "correctAnswer": "no",
       "options": [
-        "Under no circumstances should you touch this wire.",
-        "Under no circumstances should you touch this wire.",
-        "Not Under no circumstances should you touch this wire.",
-        "Under no circumstances should you touch this wire. no"
+        "are",
+        "no",
+        "is",
+        "am"
       ],
-      "explanationVi": "Dạng phủ định chuẩn: Thêm 'not' sau động từ chính."
+      "explanationVi": "Câu phủ định hoàn chỉnh: \"Under no not circumstances should you touch this wire.\"."
     },
     {
       "id": "ex-075-12",
       "type": "sentence_scramble",
-      "promptVi": "[Sắp xếp câu] Xếp các khối từ thành câu hoàn chỉnh mang nghĩa: \"Dù trong bất kỳ hoàn cảnh nào bạn cũng không được chạm vào sợi dây này.\"",
+      "promptVi": "[Sắp xếp câu] Ghép các khối từ thành câu hoàn chỉnh mang nghĩa: \"Dù trong bất kỳ hoàn cảnh nào bạn cũng không được chạm vào sợi dây này.\"",
+      "question": "Sắp xếp các từ để tạo thành câu đúng: \"Dù trong bất kỳ hoàn cảnh nào bạn cũng không được chạm vào sợi dây này.\"",
       "words": [
-        "should",
-        "this",
-        "touch",
-        "circumstances",
         "you",
-        "wire.",
         "Under",
+        "circumstances",
+        "wire.",
+        "this",
+        "should",
+        "touch",
         "no"
       ],
       "correctSentence": "Under no circumstances should you touch this wire.",
@@ -178,19 +180,20 @@
     {
       "id": "ex-075-13",
       "type": "sentence_scramble",
-      "promptVi": "[Sắp xếp câu] Xếp các khối từ thành câu hoàn chỉnh mang nghĩa: \"Tôi vừa mới về đến nhà thì trời đã bắt đầu mưa.\"",
+      "promptVi": "[Sắp xếp câu] Ghép các khối từ thành câu hoàn chỉnh mang nghĩa: \"Tôi vừa mới về đến nhà thì trời đã bắt đầu mưa.\"",
+      "question": "Sắp xếp các từ để tạo thành câu đúng: \"Tôi vừa mới về đến nhà thì trời đã bắt đầu mưa.\"",
       "words": [
         "rain.",
+        "sooner",
         "I",
+        "to",
+        "arrived",
         "home",
         "it",
-        "No",
-        "to",
         "started",
-        "arrived",
-        "sooner",
         "than",
-        "had"
+        "had",
+        "No"
       ],
       "correctSentence": "No sooner had I arrived home than it started to rain.",
       "hintVi": "Tôi vừa mới về đến nhà thì trời đã bắt đầu mưa.",
@@ -199,18 +202,19 @@
     {
       "id": "ex-075-14",
       "type": "sentence_scramble",
-      "promptVi": "[Sắp xếp câu] Xếp các khối từ thành câu hoàn chỉnh mang nghĩa: \"Trên đỉnh ngọn đồi sừng sững một tòa lâu đài cổ kính.\"",
+      "promptVi": "[Sắp xếp câu] Ghép các khối từ thành câu hoàn chỉnh mang nghĩa: \"Trên đỉnh ngọn đồi sừng sững một tòa lâu đài cổ kính.\"",
+      "question": "Sắp xếp các từ để tạo thành câu đúng: \"Trên đỉnh ngọn đồi sừng sững một tòa lâu đài cổ kính.\"",
       "words": [
-        "stands",
-        "an",
-        "On",
-        "ancient",
-        "hill",
-        "the",
-        "of",
         "castle.",
+        "stands",
+        "ancient",
         "the",
-        "top"
+        "top",
+        "of",
+        "hill",
+        "On",
+        "the",
+        "an"
       ],
       "correctSentence": "On the top of the hill stands an ancient castle.",
       "hintVi": "Trên đỉnh ngọn đồi sừng sững một tòa lâu đài cổ kính.",
@@ -219,17 +223,18 @@
     {
       "id": "ex-075-15",
       "type": "sentence_scramble",
-      "promptVi": "[Sắp xếp câu] Xếp các khối từ thành câu hoàn chỉnh mang nghĩa: \"Tôi thích nhạc cổ điển, và anh trai tôi cũng vậy.\"",
+      "promptVi": "[Sắp xếp câu] Ghép các khối từ thành câu hoàn chỉnh mang nghĩa: \"Tôi thích nhạc cổ điển, và anh trai tôi cũng vậy.\"",
+      "question": "Sắp xếp các từ để tạo thành câu đúng: \"Tôi thích nhạc cổ điển, và anh trai tôi cũng vậy.\"",
       "words": [
-        "and",
         "like",
+        "and",
+        "does",
+        "I",
+        "music,",
+        "my",
         "so",
         "classical",
-        "my",
-        "brother.",
-        "music,",
-        "does",
-        "I"
+        "brother."
       ],
       "correctSentence": "I like classical music, and so does my brother.",
       "hintVi": "Tôi thích nhạc cổ điển, và anh trai tôi cũng vậy.",
@@ -238,21 +243,22 @@
     {
       "id": "ex-075-16",
       "type": "sentence_scramble",
-      "promptVi": "[Sắp xếp câu] Xếp các từ thành câu hội thoại: \"Cánh tay robot biển sâu vừa chạm vào miệng phun thủy nhiệt thì chuông báo cảm biến đã reo vang. (Hardly had... when...)\"",
+      "promptVi": "[Sắp xếp câu] Ghép các từ thành câu hội thoại: \"Cánh tay robot biển sâu vừa chạm vào miệng phun thủy nhiệt thì chuông báo cảm biến đã reo vang. (Hardly had... when...)\"",
+      "question": "Sắp xếp các từ để tạo thành câu thoại: \"Cánh tay robot biển sâu vừa chạm vào miệng phun thủy nhiệt thì chuông báo cảm biến đã reo vang. (Hardly had... when...)\"",
       "words": [
-        "when",
+        "touched",
+        "beeped",
         "the",
         "vent",
-        "the",
-        "arm",
-        "beeped",
-        "robotic",
-        "deep-sea",
-        "hydrothermal",
-        "touched",
-        "had",
         "Hardly",
+        "had",
+        "arm",
+        "robotic",
+        "hydrothermal",
+        "when",
         "sensor",
+        "deep-sea",
+        "the",
         "alarms"
       ],
       "correctSentence": "Hardly had the deep-sea robotic arm touched the hydrothermal vent when sensor alarms beeped.",
@@ -262,70 +268,70 @@
     {
       "id": "ex-075-17",
       "type": "find_error",
-      "promptVi": "[Tìm lỗi sai & Chọn câu đúng] Câu nào dưới đây có cấu trúc ngữ pháp HOÀN TOÀN ĐÚNG?",
-      "question": "Chủ điểm \"Bài 75: Cấu trúc Đảo ngữ Toàn Diện (Complete & Partial Inversions: Negative, Place, Conditionals, So/Neither)\": Chọn câu CHÍNH XÁC:",
+      "promptVi": "[Nhận diện cấu trúc chuẩn] Chọn câu có cấu trúc ngữ pháp HOÀN TOÀN ĐÚNG:",
+      "question": "Dựa vào chủ điểm \"Bài 75: Cấu trúc Đảo ngữ Toàn Diện (Complete & Partial Inversions: Negative, Place, Conditionals, So/Neither)\", câu nào sau đây CHÍNH XÁC?",
       "options": [
+        "are",
         "Under no circumstances should you touch this wire.",
         "wire. this touch you should circumstances no Under",
-        "Under no circumstances should you touch this wire. (sai)",
-        "Under no circumstances should you touch this wire. (sai)"
+        "is"
       ],
       "correctAnswer": "Under no circumstances should you touch this wire.",
-      "explanationVi": "Câu chuẩn xác là: \"Under no circumstances should you touch this wire.\" (Dù trong bất kỳ hoàn cảnh nào bạn cũng không được chạm vào sợi dây này.)."
+      "explanationVi": "Cấu trúc chuẩn xác là: \"Under no circumstances should you touch this wire.\" (Dù trong bất kỳ hoàn cảnh nào bạn cũng không được chạm vào sợi dây này.)."
     },
     {
       "id": "ex-075-18",
       "type": "find_error",
-      "promptVi": "[Tìm lỗi sai & Chọn câu đúng] Câu nào dưới đây có cấu trúc ngữ pháp HOÀN TOÀN ĐÚNG?",
-      "question": "Chủ điểm \"Bài 75: Cấu trúc Đảo ngữ Toàn Diện (Complete & Partial Inversions: Negative, Place, Conditionals, So/Neither)\": Chọn câu CHÍNH XÁC:",
+      "promptVi": "[Nhận diện cấu trúc chuẩn] Chọn câu có cấu trúc ngữ pháp HOÀN TOÀN ĐÚNG:",
+      "question": "Dựa vào chủ điểm \"Bài 75: Cấu trúc Đảo ngữ Toàn Diện (Complete & Partial Inversions: Negative, Place, Conditionals, So/Neither)\", câu nào sau đây CHÍNH XÁC?",
       "options": [
         "No sooner had I arrived home than it started to rain.",
         "rain. to started it than home arrived I had sooner No",
-        "No sooner had I arrived home than it started to rain. (sai)",
-        "No sooner had I arrived home than it started to rain. (sai)"
+        "No sooner had I arrived home than it started at rain.",
+        "is"
       ],
       "correctAnswer": "No sooner had I arrived home than it started to rain.",
-      "explanationVi": "Câu chuẩn xác là: \"No sooner had I arrived home than it started to rain.\" (Tôi vừa mới về đến nhà thì trời đã bắt đầu mưa.)."
+      "explanationVi": "Cấu trúc chuẩn xác là: \"No sooner had I arrived home than it started to rain.\" (Tôi vừa mới về đến nhà thì trời đã bắt đầu mưa.)."
     },
     {
       "id": "ex-075-19",
       "type": "find_error",
-      "promptVi": "[Tìm lỗi sai & Chọn câu đúng] Câu nào dưới đây có cấu trúc ngữ pháp HOÀN TOÀN ĐÚNG?",
-      "question": "Chủ điểm \"Bài 75: Cấu trúc Đảo ngữ Toàn Diện (Complete & Partial Inversions: Negative, Place, Conditionals, So/Neither)\": Chọn câu CHÍNH XÁC:",
+      "promptVi": "[Nhận diện cấu trúc chuẩn] Chọn câu có cấu trúc ngữ pháp HOÀN TOÀN ĐÚNG:",
+      "question": "Dựa vào chủ điểm \"Bài 75: Cấu trúc Đảo ngữ Toàn Diện (Complete & Partial Inversions: Negative, Place, Conditionals, So/Neither)\", câu nào sau đây CHÍNH XÁC?",
       "options": [
-        "On the top of the hill stands an ancient castle.",
+        "is",
         "castle. ancient an stands hill the of top the On",
-        "On the top of the hill stands an ancient castle. (sai)",
-        "On the top of the hill stands an ancient castle. (sai)"
+        "at the top of the hill stands an ancient castle.",
+        "On the top of the hill stands an ancient castle."
       ],
       "correctAnswer": "On the top of the hill stands an ancient castle.",
-      "explanationVi": "Câu chuẩn xác là: \"On the top of the hill stands an ancient castle.\" (Trên đỉnh ngọn đồi sừng sững một tòa lâu đài cổ kính.)."
+      "explanationVi": "Cấu trúc chuẩn xác là: \"On the top of the hill stands an ancient castle.\" (Trên đỉnh ngọn đồi sừng sững một tòa lâu đài cổ kính.)."
     },
     {
       "id": "ex-075-20",
       "type": "find_error",
-      "promptVi": "[Tìm lỗi sai & Chọn câu đúng] Câu nào dưới đây có cấu trúc ngữ pháp HOÀN TOÀN ĐÚNG?",
-      "question": "Chủ điểm \"Bài 75: Cấu trúc Đảo ngữ Toàn Diện (Complete & Partial Inversions: Negative, Place, Conditionals, So/Neither)\": Chọn câu CHÍNH XÁC:",
+      "promptVi": "[Nhận diện cấu trúc chuẩn] Chọn câu có cấu trúc ngữ pháp HOÀN TOÀN ĐÚNG:",
+      "question": "Dựa vào chủ điểm \"Bài 75: Cấu trúc Đảo ngữ Toàn Diện (Complete & Partial Inversions: Negative, Place, Conditionals, So/Neither)\", câu nào sau đây CHÍNH XÁC?",
       "options": [
+        "are",
         "I like classical music, and so does my brother.",
         "brother. my does so and music, classical like I",
-        "I like classical music, and so does my brother. (sai)",
-        "I like classical music, and so does my brother. (sai)"
+        "is"
       ],
       "correctAnswer": "I like classical music, and so does my brother.",
-      "explanationVi": "Câu chuẩn xác là: \"I like classical music, and so does my brother.\" (Tôi thích nhạc cổ điển, và anh trai tôi cũng vậy.)."
+      "explanationVi": "Cấu trúc chuẩn xác là: \"I like classical music, and so does my brother.\" (Tôi thích nhạc cổ điển, và anh trai tôi cũng vậy.)."
     },
     {
       "id": "ex-075-21",
       "type": "listening_reflex",
-      "promptVi": "[Nghe phản xạ] Nghe câu phát âm tiếng Anh và chọn bản dịch tiếng Việt đúng nhất:",
+      "promptVi": "[Nghe phản xạ] Nghe câu phát âm tiếng Anh và chọn bản dịch tiếng Việt đúng:",
       "audioPrompt": "Ladies and gentlemen! Under no circumstances did our submarine crew compromise on crew safety.",
-      "question": "Nhấn nút '🔊 Nghe audio' để nghe câu thoại và chọn nghĩa đúng:",
+      "question": "Nhấn nút '🔊 Nghe audio' và chọn nghĩa tiếng Việt đúng:",
       "options": [
-        "Kính thưa quý vị! Trong bất kỳ hoàn cảnh nào đội tàu ngầm của chúng tôi cũng không thỏa hiệp về an toàn của thủy thủ đoàn. (Under no circumstances did...)",
         "Hiếm khi các nhà sinh vật học biển ghi nhận được những loài phát quang sinh học đáng kinh ngạc như vậy ở độ sâu năm nghìn mét. (Seldom have...)",
-        "Cánh tay robot biển sâu vừa chạm vào miệng phun thủy nhiệt thì chuông báo cảm biến đã reo vang. (Hardly had... when...)",
-        "Ngày mai trời sẽ mưa to."
+        "Kính thưa quý vị! Trong bất kỳ hoàn cảnh nào đội tàu ngầm của chúng tôi cũng không thỏa hiệp về an toàn của thủy thủ đoàn. (Under no circumstances did...)",
+        "Hôm nay thời tiết rất đẹp.",
+        "Cánh tay robot biển sâu vừa chạm vào miệng phun thủy nhiệt thì chuông báo cảm biến đã reo vang. (Hardly had... when...)"
       ],
       "correctAnswer": "Kính thưa quý vị! Trong bất kỳ hoàn cảnh nào đội tàu ngầm của chúng tôi cũng không thỏa hiệp về an toàn của thủy thủ đoàn. (Under no circumstances did...)",
       "explanationVi": "Câu nghe được: \"Ladies and gentlemen! Under no circumstances did our submarine crew compromise on crew safety.\" có nghĩa là: \"Kính thưa quý vị! Trong bất kỳ hoàn cảnh nào đội tàu ngầm của chúng tôi cũng không thỏa hiệp về an toàn của thủy thủ đoàn. (Under no circumstances did...)\"."
@@ -333,14 +339,14 @@
     {
       "id": "ex-075-22",
       "type": "listening_reflex",
-      "promptVi": "[Nghe phản xạ] Nghe câu phát âm tiếng Anh và chọn bản dịch tiếng Việt đúng nhất:",
+      "promptVi": "[Nghe phản xạ] Nghe câu phát âm tiếng Anh và chọn bản dịch tiếng Việt đúng:",
       "audioPrompt": "Seldom have marine biologists documented such astonishing bioluminescent species at five thousand meters.",
-      "question": "Nhấn nút '🔊 Nghe audio' để nghe câu thoại và chọn nghĩa đúng:",
+      "question": "Nhấn nút '🔊 Nghe audio' và chọn nghĩa tiếng Việt đúng:",
       "options": [
-        "Hiếm khi các nhà sinh vật học biển ghi nhận được những loài phát quang sinh học đáng kinh ngạc như vậy ở độ sâu năm nghìn mét. (Seldom have...)",
         "Cánh tay robot biển sâu vừa chạm vào miệng phun thủy nhiệt thì chuông báo cảm biến đã reo vang. (Hardly had... when...)",
-        "Ngay khi máy quay robot vừa bắt đầu ghi hình thì một con mực trong suốt khổng lồ đã bơi ngang qua. (No sooner had... than...)",
-        "Ngày mai trời sẽ mưa to."
+        "Hôm nay thời tiết rất đẹp.",
+        "Hiếm khi các nhà sinh vật học biển ghi nhận được những loài phát quang sinh học đáng kinh ngạc như vậy ở độ sâu năm nghìn mét. (Seldom have...)",
+        "Ngay khi máy quay robot vừa bắt đầu ghi hình thì một con mực trong suốt khổng lồ đã bơi ngang qua. (No sooner had... than...)"
       ],
       "correctAnswer": "Hiếm khi các nhà sinh vật học biển ghi nhận được những loài phát quang sinh học đáng kinh ngạc như vậy ở độ sâu năm nghìn mét. (Seldom have...)",
       "explanationVi": "Câu nghe được: \"Seldom have marine biologists documented such astonishing bioluminescent species at five thousand meters.\" có nghĩa là: \"Hiếm khi các nhà sinh vật học biển ghi nhận được những loài phát quang sinh học đáng kinh ngạc như vậy ở độ sâu năm nghìn mét. (Seldom have...)\"."
@@ -348,14 +354,14 @@
     {
       "id": "ex-075-23",
       "type": "listening_reflex",
-      "promptVi": "[Nghe phản xạ] Nghe câu phát âm tiếng Anh và chọn bản dịch tiếng Việt đúng nhất:",
+      "promptVi": "[Nghe phản xạ] Nghe câu phát âm tiếng Anh và chọn bản dịch tiếng Việt đúng:",
       "audioPrompt": "Hardly had the deep-sea robotic arm touched the hydrothermal vent when sensor alarms beeped.",
-      "question": "Nhấn nút '🔊 Nghe audio' để nghe câu thoại và chọn nghĩa đúng:",
+      "question": "Nhấn nút '🔊 Nghe audio' và chọn nghĩa tiếng Việt đúng:",
       "options": [
-        "Cánh tay robot biển sâu vừa chạm vào miệng phun thủy nhiệt thì chuông báo cảm biến đã reo vang. (Hardly had... when...)",
+        "Hôm nay thời tiết rất đẹp.",
         "Ngay khi máy quay robot vừa bắt đầu ghi hình thì một con mực trong suốt khổng lồ đã bơi ngang qua. (No sooner had... than...)",
-        "Lặn sâu xuống rãnh biển tối tăm là con tàu titan của chúng tôi, bất chấp áp suất thủy tĩnh dữ dội. (Đảo ngữ toàn bộ: Down into... descended our vessel)",
-        "Ngày mai trời sẽ mưa to."
+        "Cánh tay robot biển sâu vừa chạm vào miệng phun thủy nhiệt thì chuông báo cảm biến đã reo vang. (Hardly had... when...)",
+        "Lặn sâu xuống rãnh biển tối tăm là con tàu titan của chúng tôi, bất chấp áp suất thủy tĩnh dữ dội. (Đảo ngữ toàn bộ: Down into... descended our vessel)"
       ],
       "correctAnswer": "Cánh tay robot biển sâu vừa chạm vào miệng phun thủy nhiệt thì chuông báo cảm biến đã reo vang. (Hardly had... when...)",
       "explanationVi": "Câu nghe được: \"Hardly had the deep-sea robotic arm touched the hydrothermal vent when sensor alarms beeped.\" có nghĩa là: \"Cánh tay robot biển sâu vừa chạm vào miệng phun thủy nhiệt thì chuông báo cảm biến đã reo vang. (Hardly had... when...)\"."
@@ -363,14 +369,14 @@
     {
       "id": "ex-075-24",
       "type": "listening_reflex",
-      "promptVi": "[Nghe phản xạ] Nghe câu phát âm tiếng Anh và chọn bản dịch tiếng Việt đúng nhất:",
+      "promptVi": "[Nghe phản xạ] Nghe câu phát âm tiếng Anh và chọn bản dịch tiếng Việt đúng:",
       "audioPrompt": "No sooner had the robotic camera begun recording than a giant transparent squid swam by.",
-      "question": "Nhấn nút '🔊 Nghe audio' để nghe câu thoại và chọn nghĩa đúng:",
+      "question": "Nhấn nút '🔊 Nghe audio' và chọn nghĩa tiếng Việt đúng:",
       "options": [
+        "Nếu trường đại học chúng ta không tài trợ cho chuyến thám hiểm này, những bí mật đại dương sâu sắc này đã mãi bị che giấu. (Had... not funded = If not funded)",
         "Ngay khi máy quay robot vừa bắt đầu ghi hình thì một con mực trong suốt khổng lồ đã bơi ngang qua. (No sooner had... than...)",
         "Lặn sâu xuống rãnh biển tối tăm là con tàu titan của chúng tôi, bất chấp áp suất thủy tĩnh dữ dội. (Đảo ngữ toàn bộ: Down into... descended our vessel)",
-        "Nếu trường đại học chúng ta không tài trợ cho chuyến thám hiểm này, những bí mật đại dương sâu sắc này đã mãi bị che giấu. (Had... not funded = If not funded)",
-        "Ngày mai trời sẽ mưa to."
+        "Hôm nay thời tiết rất đẹp."
       ],
       "correctAnswer": "Ngay khi máy quay robot vừa bắt đầu ghi hình thì một con mực trong suốt khổng lồ đã bơi ngang qua. (No sooner had... than...)",
       "explanationVi": "Câu nghe được: \"No sooner had the robotic camera begun recording than a giant transparent squid swam by.\" có nghĩa là: \"Ngay khi máy quay robot vừa bắt đầu ghi hình thì một con mực trong suốt khổng lồ đã bơi ngang qua. (No sooner had... than...)\"."
@@ -378,64 +384,68 @@
     {
       "id": "ex-075-25",
       "type": "speaking_practice",
-      "promptVi": "[Luyện nói qua Micro] Nhấn nút '🎙️ Bắt đầu nói' và đọc to, rõ ràng câu tiếng Anh sau:",
+      "promptVi": "[Luyện nói qua Micro] Nhấn nút 'Bấm để Nói ngay' và phát âm câu sau:",
+      "question": "Luyện phát âm chuẩn câu: \"Under no circumstances should you touch this wire.\" (Dù trong bất kỳ hoàn cảnh nào bạn cũng không được chạm vào sợi dây này.)",
       "targetSentence": "Under no circumstances should you touch this wire.",
       "hintVi": "Dù trong bất kỳ hoàn cảnh nào bạn cũng không được chạm vào sợi dây này.",
-      "explanationVi": "Câu mục tiêu: \"Under no circumstances should you touch this wire.\" (Dù trong bất kỳ hoàn cảnh nào bạn cũng không được chạm vào sợi dây này.). Luyện phát âm chuẩn xác từng âm tiết và ngữ điệu tự nhiên."
+      "explanationVi": "Mẫu câu chuẩn: \"Under no circumstances should you touch this wire.\" (Dù trong bất kỳ hoàn cảnh nào bạn cũng không được chạm vào sợi dây này.). Luyện phát âm rõ ràng từng từ."
     },
     {
       "id": "ex-075-26",
       "type": "speaking_practice",
-      "promptVi": "[Luyện nói qua Micro] Nhấn nút '🎙️ Bắt đầu nói' và đọc to, rõ ràng câu tiếng Anh sau:",
+      "promptVi": "[Luyện nói qua Micro] Nhấn nút 'Bấm để Nói ngay' và phát âm câu sau:",
+      "question": "Luyện phát âm chuẩn câu: \"No sooner had I arrived home than it started to rain.\" (Tôi vừa mới về đến nhà thì trời đã bắt đầu mưa.)",
       "targetSentence": "No sooner had I arrived home than it started to rain.",
       "hintVi": "Tôi vừa mới về đến nhà thì trời đã bắt đầu mưa.",
-      "explanationVi": "Câu mục tiêu: \"No sooner had I arrived home than it started to rain.\" (Tôi vừa mới về đến nhà thì trời đã bắt đầu mưa.). Luyện phát âm chuẩn xác từng âm tiết và ngữ điệu tự nhiên."
+      "explanationVi": "Mẫu câu chuẩn: \"No sooner had I arrived home than it started to rain.\" (Tôi vừa mới về đến nhà thì trời đã bắt đầu mưa.). Luyện phát âm rõ ràng từng từ."
     },
     {
       "id": "ex-075-27",
       "type": "speaking_practice",
-      "promptVi": "[Luyện nói qua Micro] Nhấn nút '🎙️ Bắt đầu nói' và đọc to, rõ ràng câu tiếng Anh sau:",
+      "promptVi": "[Luyện nói qua Micro] Nhấn nút 'Bấm để Nói ngay' và phát âm câu sau:",
+      "question": "Luyện phát âm chuẩn câu: \"On the top of the hill stands an ancient castle.\" (Trên đỉnh ngọn đồi sừng sững một tòa lâu đài cổ kính.)",
       "targetSentence": "On the top of the hill stands an ancient castle.",
       "hintVi": "Trên đỉnh ngọn đồi sừng sững một tòa lâu đài cổ kính.",
-      "explanationVi": "Câu mục tiêu: \"On the top of the hill stands an ancient castle.\" (Trên đỉnh ngọn đồi sừng sững một tòa lâu đài cổ kính.). Luyện phát âm chuẩn xác từng âm tiết và ngữ điệu tự nhiên."
+      "explanationVi": "Mẫu câu chuẩn: \"On the top of the hill stands an ancient castle.\" (Trên đỉnh ngọn đồi sừng sững một tòa lâu đài cổ kính.). Luyện phát âm rõ ràng từng từ."
     },
     {
       "id": "ex-075-28",
       "type": "speaking_practice",
-      "promptVi": "[Luyện nói qua Micro] Nhấn nút '🎙️ Bắt đầu nói' và đọc to, rõ ràng câu tiếng Anh sau:",
+      "promptVi": "[Luyện nói qua Micro] Nhấn nút 'Bấm để Nói ngay' và phát âm câu sau:",
+      "question": "Luyện phát âm chuẩn câu: \"I like classical music, and so does my brother.\" (Tôi thích nhạc cổ điển, và anh trai tôi cũng vậy.)",
       "targetSentence": "I like classical music, and so does my brother.",
       "hintVi": "Tôi thích nhạc cổ điển, và anh trai tôi cũng vậy.",
-      "explanationVi": "Câu mục tiêu: \"I like classical music, and so does my brother.\" (Tôi thích nhạc cổ điển, và anh trai tôi cũng vậy.). Luyện phát âm chuẩn xác từng âm tiết và ngữ điệu tự nhiên."
+      "explanationVi": "Mẫu câu chuẩn: \"I like classical music, and so does my brother.\" (Tôi thích nhạc cổ điển, và anh trai tôi cũng vậy.). Luyện phát âm rõ ràng từng từ."
     },
     {
       "id": "ex-075-29",
       "type": "reading_comprehension",
-      "promptVi": "[Đọc hiểu đoạn văn 1] Đọc đoạn hội thoại mở đầu sau và trả lời câu hỏi:",
-      "passage": "Expedition Leader (Nam): \"Ladies and gentlemen! Under no circumstances did our submarine crew compromise on crew safety.\"\nJournalist Elena (Nữ): \"Seldom have marine biologists documented such astonishing bioluminescent species at five thousand meters.\"\nExpedition Leader (Nam): \"Hardly had the deep-sea robotic arm touched the hydrothermal vent when sensor alarms beeped.\"\nJournalist Elena (Nữ): \"No sooner had the robotic camera begun recording than a giant transparent squid swam by.\"",
-      "question": "Câu hỏi: Trong đoạn hội thoại trên, các nhân vật đang thảo luận về chủ đề gì?",
+      "promptVi": "[Đọc hiểu đoạn văn] Đọc đoạn hội thoại sau và trả lời câu hỏi:",
+      "passage": "Expedition Leader: \"Ladies and gentlemen! Under no circumstances did our submarine crew compromise on crew safety.\"\nJournalist Elena: \"Seldom have marine biologists documented such astonishing bioluminescent species at five thousand meters.\"\nExpedition Leader: \"Hardly had the deep-sea robotic arm touched the hydrothermal vent when sensor alarms beeped.\"\nJournalist Elena: \"No sooner had the robotic camera begun recording than a giant transparent squid swam by.\"",
+      "question": "Chủ đề trọng tâm của đoạn hội thoại trên là gì?",
       "options": [
         "Cấu trúc Đảo ngữ Toàn Diện (Complete & Partial Inversions: Negative, Place, Conditionals, So/Neither)",
-        "Kế hoạch đi nghỉ dưỡng cuối tuần ở bãi biển",
-        "Mua sắm quần áo và đồ dùng thể thao",
-        "Cách làm món ăn truyền thống gia đình"
+        "Kế hoạch đi mua sắm tại siêu thị",
+        "Lịch trình đi du lịch nghỉ mát cuối tuần",
+        "Cách làm món ăn truyền thống"
       ],
       "correctAnswer": "Cấu trúc Đảo ngữ Toàn Diện (Complete & Partial Inversions: Negative, Place, Conditionals, So/Neither)",
-      "explanationVi": "Đoạn hội thoại mở đầu được thiết kế để minh họa trực tiếp cho chủ điểm ngữ pháp: \"Bài 75: Cấu trúc Đảo ngữ Toàn Diện (Complete & Partial Inversions: Negative, Place, Conditionals, So/Neither)\"."
+      "explanationVi": "Đoạn hội thoại được thiết kế để minh họa trực tiếp cho chủ điểm \"Bài 75: Cấu trúc Đảo ngữ Toàn Diện (Complete & Partial Inversions: Negative, Place, Conditionals, So/Neither)\"."
     },
     {
       "id": "ex-075-30",
       "type": "reading_comprehension",
-      "promptVi": "[Đọc hiểu đoạn văn 2] Đọc phần tiếp theo của đoạn hội thoại và chọn nhận định đúng:",
-      "passage": "Expedition Leader (Nam): \"Down into the dark trench descended our titanium vessel, braving intense hydrostatic pressures.\"\nJournalist Elena (Nữ): \"Had our university not funded this expedition, these profound oceanic secrets would have remained hidden.\"\nExpedition Leader (Nam): \"Only after analyzing the water mineral samples did we realize the abundance of rare elements.\"\nJournalist Elena (Nữ): \"Dr. Miller was deeply thrilled with the results, and so were all the research fellows.\"",
-      "question": "Nhận định nào sau đây là ĐÚNG với nội dung đoạn hội thoại trên?",
+      "promptVi": "[Đọc hiểu đoạn văn] Đọc đoạn đối thoại tiếp theo và chọn nhận định đúng:",
+      "passage": "Expedition Leader: \"Down into the dark trench descended our titanium vessel, braving intense hydrostatic pressures.\"\nJournalist Elena: \"Had our university not funded this expedition, these profound oceanic secrets would have remained hidden.\"\nExpedition Leader: \"Only after analyzing the water mineral samples did we realize the abundance of rare elements.\"\nJournalist Elena: \"Dr. Miller was deeply thrilled with the results, and so were all the research fellows.\"",
+      "question": "Nhận định nào sau đây là ĐÚNG về nội dung đoạn đối thoại?",
       "options": [
-        "Các câu hội thoại sử dụng đúng cấu trúc ngữ pháp \"Bài 75: Cấu trúc Đảo ngữ Toàn Diện (Complete & Partial Inversions: Negative, Place, Conditionals, So/Neither)\".",
-        "Các nhân vật không hiểu ý nhau và từ chối nói chuyện.",
-        "Đoạn hội thoại nói về việc chuyển nhà sang thành phố khác.",
-        "Cả hai nhân vật đều đang ở sân bay chuẩn bị lên máy bay."
+        "Cả hai nhân vật đang thảo luận về thời tiết ngày mai.",
+        "Các câu thoại sử dụng đúng cấu trúc \"Cấu trúc Đảo ngữ Toàn Diện (Complete & Partial Inversions: Negative, Place, Conditionals, So/Neither)\".",
+        "Hai nhân vật đang cãi nhau và không đồng ý hợp tác.",
+        "Cuộc trò chuyện diễn ra tại nhà ga xe lửa."
       ],
-      "correctAnswer": "Các câu hội thoại sử dụng đúng cấu trúc ngữ pháp \"Bài 75: Cấu trúc Đảo ngữ Toàn Diện (Complete & Partial Inversions: Negative, Place, Conditionals, So/Neither)\".",
-      "explanationVi": "Đoạn hội thoại thứ hai tiếp tục củng cố và ứng dụng các quy tắc ngữ pháp của \"Bài 75: Cấu trúc Đảo ngữ Toàn Diện (Complete & Partial Inversions: Negative, Place, Conditionals, So/Neither)\"."
+      "correctAnswer": "Các câu thoại sử dụng đúng cấu trúc \"Cấu trúc Đảo ngữ Toàn Diện (Complete & Partial Inversions: Negative, Place, Conditionals, So/Neither)\".",
+      "explanationVi": "Đoạn đối thoại ứng dụng chuẩn xác ngữ pháp của \"Bài 75: Cấu trúc Đảo ngữ Toàn Diện (Complete & Partial Inversions: Negative, Place, Conditionals, So/Neither)\"."
     }
   ]
 }

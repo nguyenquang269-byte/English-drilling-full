@@ -7,13 +7,13 @@
     {
       "id": "ex-008-01",
       "type": "multiple_choice",
-      "promptVi": "[Trắc nghiệm] Chọn từ/cụm từ đúng để hoàn thành câu (Tôi đã ở nhà ngày hôm qua.):",
+      "promptVi": "[Trắc nghiệm ngữ pháp] Chọn từ đúng để hoàn thành câu (Tôi đã ở nhà ngày hôm qua.):",
       "question": "I ___ at home yesterday.",
       "options": [
-        "was",
         "were",
-        "am",
-        "be"
+        "was",
+        "be",
+        "am"
       ],
       "correctAnswer": "was",
       "explanationVi": "Chủ ngữ 'I' ở thời quá khứ đi với động từ 'was'."
@@ -21,13 +21,13 @@
     {
       "id": "ex-008-02",
       "type": "multiple_choice",
-      "promptVi": "[Trắc nghiệm] Chọn từ/cụm từ đúng để hoàn thành câu (Cô ấy đã rất vui tối qua.):",
+      "promptVi": "[Trắc nghiệm ngữ pháp] Chọn từ đúng để hoàn thành câu (Cô ấy đã rất vui tối qua.):",
       "question": "She ___ very happy last night.",
       "options": [
-        "was",
-        "were",
         "is",
-        "been"
+        "been",
+        "were",
+        "was"
       ],
       "correctAnswer": "was",
       "explanationVi": "Chủ ngữ số ít 'She' ở quá khứ dùng 'was'."
@@ -35,13 +35,13 @@
     {
       "id": "ex-008-03",
       "type": "multiple_choice",
-      "promptVi": "[Trắc nghiệm] Chọn từ/cụm từ đúng để hoàn thành câu (Họ đã bị trễ học.):",
+      "promptVi": "[Trắc nghiệm ngữ pháp] Chọn từ đúng để hoàn thành câu (Họ đã bị trễ học.):",
       "question": "They ___ late for school.",
       "options": [
-        "were",
+        "be",
         "was",
         "are",
-        "be"
+        "were"
       ],
       "correctAnswer": "were",
       "explanationVi": "Chủ ngữ số nhiều 'They' ở quá khứ đi với 'were'."
@@ -49,11 +49,11 @@
     {
       "id": "ex-008-04",
       "type": "multiple_choice",
-      "promptVi": "[Trắc nghiệm] Chọn từ/cụm từ đúng để hoàn thành câu (Thời tiết đã rất đẹp tuần trước.):",
+      "promptVi": "[Trắc nghiệm ngữ pháp] Chọn từ đúng để hoàn thành câu (Thời tiết đã rất đẹp tuần trước.):",
       "question": "The weather ___ beautiful last week.",
       "options": [
-        "was",
         "were",
+        "was",
         "is",
         "are"
       ],
@@ -63,49 +63,49 @@
     {
       "id": "ex-008-05",
       "type": "multiple_choice",
-      "promptVi": "[Trắc nghiệm] Dịch câu sau sang tiếng Anh: \"Chào Elena! Chiều qua bạn đã ở đâu vậy?\"",
-      "question": "Chọn bản dịch chuẩn xác cho câu: \"Chào Elena! Chiều qua bạn đã ở đâu vậy?\"",
+      "promptVi": "[Phản xạ dịch thuật] Dịch câu sau sang tiếng Anh: \"Chào Elena! Chiều qua bạn đã ở đâu vậy?\"",
+      "question": "Chọn bản dịch chuẩn xác nhất cho câu: \"Chào Elena! Chiều qua bạn đã ở đâu vậy?\"",
       "options": [
-        "Hi Elena! Where were you yesterday afternoon?",
         "Hi Elena! Where be you yesterday afternoon?",
+        "Hi Elena! Where were you yesterday afternoon?",
         "I was at the library with my friends.",
-        "I want to go to the park now."
+        "We are studying English today."
       ],
       "correctAnswer": "Hi Elena! Where were you yesterday afternoon?",
-      "explanationVi": "Câu đúng là \"Hi Elena! Where were you yesterday afternoon?\" (Chào Elena! Chiều qua bạn đã ở đâu vậy?)."
+      "explanationVi": "Câu dịch chuẩn xác: \"Hi Elena! Where were you yesterday afternoon?\" (Chào Elena! Chiều qua bạn đã ở đâu vậy?)."
     },
     {
       "id": "ex-008-06",
       "type": "multiple_choice",
-      "promptVi": "[Trắc nghiệm] Chọn câu trả lời hoặc cách diễn đạt phù hợp:",
-      "question": "Trong ngữ cảnh giao tiếp: \"Hi Elena! Where were you yesterday afternoon?\", câu phản hồi tự nhiên là gì?",
+      "promptVi": "[Ngữ cảnh giao tiếp] Chọn câu phản hồi tự nhiên và đúng ngữ pháp:",
+      "question": "Khi đối phương nói: \"Hi Elena! Where were you yesterday afternoon?\", câu phản hồi phù hợp là gì?",
       "options": [
+        "No, it was yesterday.",
+        "They are not in the office.",
         "I was at the library with my friends.",
-        "No, it is yesterday morning.",
-        "Yes, I will eat apple.",
-        "They are not at the library."
+        "Yes, I will eat it."
       ],
       "correctAnswer": "I was at the library with my friends.",
-      "explanationVi": "Phản hồi phù hợp: \"I was at the library with my friends.\" (Tôi đã ở thư viện cùng với các bạn của tôi.)."
+      "explanationVi": "Phản hồi phù hợp trong bài: \"I was at the library with my friends.\" (Tôi đã ở thư viện cùng với các bạn của tôi.)."
     },
     {
       "id": "ex-008-07",
       "type": "fill_blank",
-      "promptVi": "[Điền từ - (Dạng khẳng định)] Điền dạng đúng của động từ vào ô trống (Tôi đã ở nhà ngày hôm qua.):",
+      "promptVi": "[Điền từ - Dạng KHẲNG ĐỊNH] Điền từ còn thiếu vào ô trống (Tôi đã ở nhà ngày hôm qua.):",
       "question": "I ___ at home yesterday.",
       "correctAnswer": "was",
       "options": [
         "was",
-        "were",
+        "be",
         "am",
-        "be"
+        "were"
       ],
-      "explanationVi": "Đáp án chính xác: \"was\". Tôi đã ở nhà ngày hôm qua.."
+      "explanationVi": "Đáp án đúng là \"was\". Câu hoàn chỉnh: \"I was at home yesterday.\" (Tôi đã ở nhà ngày hôm qua.)."
     },
     {
       "id": "ex-008-08",
       "type": "fill_blank",
-      "promptVi": "[Điền từ - (Dạng khẳng định)] Điền dạng đúng của động từ vào ô trống (Cô ấy đã rất vui tối qua.):",
+      "promptVi": "[Điền từ - Dạng KHẲNG ĐỊNH] Điền từ còn thiếu vào ô trống (Cô ấy đã rất vui tối qua.):",
       "question": "She ___ very happy last night.",
       "correctAnswer": "was",
       "options": [
@@ -114,59 +114,61 @@
         "is",
         "been"
       ],
-      "explanationVi": "Đáp án chính xác: \"was\". Cô ấy đã rất vui tối qua.."
+      "explanationVi": "Đáp án đúng là \"was\". Câu hoàn chỉnh: \"She was very happy last night.\" (Cô ấy đã rất vui tối qua.)."
     },
     {
       "id": "ex-008-09",
       "type": "fill_blank",
-      "promptVi": "[Điền từ - (Dạng khẳng định)] Điền dạng đúng của động từ vào ô trống (Họ đã bị trễ học.):",
+      "promptVi": "[Điền từ - Dạng KHẲNG ĐỊNH] Điền từ còn thiếu vào ô trống (Họ đã bị trễ học.):",
       "question": "They ___ late for school.",
       "correctAnswer": "were",
       "options": [
-        "were",
         "was",
         "are",
-        "be"
+        "be",
+        "were"
       ],
-      "explanationVi": "Đáp án chính xác: \"were\". Họ đã bị trễ học.."
+      "explanationVi": "Đáp án đúng là \"were\". Câu hoàn chỉnh: \"They were late for school.\" (Họ đã bị trễ học.)."
     },
     {
       "id": "ex-008-10",
       "type": "fill_blank",
-      "promptVi": "[Điền từ - (Dạng khẳng định)] Điền dạng đúng của động từ vào ô trống (Thời tiết đã rất đẹp tuần trước.):",
+      "promptVi": "[Điền từ - Dạng KHẲNG ĐỊNH] Điền từ còn thiếu vào ô trống (Thời tiết đã rất đẹp tuần trước.):",
       "question": "The weather ___ beautiful last week.",
       "correctAnswer": "was",
       "options": [
+        "are",
         "was",
         "were",
-        "is",
-        "are"
+        "is"
       ],
-      "explanationVi": "Đáp án chính xác: \"was\". Thời tiết đã rất đẹp tuần trước.."
+      "explanationVi": "Đáp án đúng là \"was\". Câu hoàn chỉnh: \"The weather was beautiful last week.\" (Thời tiết đã rất đẹp tuần trước.)."
     },
     {
       "id": "ex-008-11",
       "type": "fill_blank",
-      "promptVi": "[Điền từ - Dạng PHỦ ĐỊNH] Hoàn thành câu phủ định sau:",
-      "correctAnswer": "I was not at home yesterday.",
+      "promptVi": "[Điền từ - Dạng PHỦ ĐỊNH] Điền trợ động từ/động từ tobe phủ định vào chỗ trống:",
+      "question": "I _____ not at home yesterday.",
+      "correctAnswer": "was",
       "options": [
-        "I was not at home yesterday.",
-        "I was at home yesterday.",
-        "Not I was at home yesterday.",
-        "I was at home yesterday. no"
+        "are",
+        "is",
+        "am",
+        "was"
       ],
-      "explanationVi": "Dạng phủ định chuẩn: Thêm 'not' sau động từ chính."
+      "explanationVi": "Câu phủ định hoàn chỉnh: \"I was not at home yesterday.\"."
     },
     {
       "id": "ex-008-12",
       "type": "sentence_scramble",
-      "promptVi": "[Sắp xếp câu] Xếp các khối từ thành câu hoàn chỉnh mang nghĩa: \"Tôi đã ở nhà ngày hôm qua.\"",
+      "promptVi": "[Sắp xếp câu] Ghép các khối từ thành câu hoàn chỉnh mang nghĩa: \"Tôi đã ở nhà ngày hôm qua.\"",
+      "question": "Sắp xếp các từ để tạo thành câu đúng: \"Tôi đã ở nhà ngày hôm qua.\"",
       "words": [
-        "at",
-        "home",
         "was",
         "yesterday.",
-        "I"
+        "at",
+        "I",
+        "home"
       ],
       "correctSentence": "I was at home yesterday.",
       "hintVi": "Tôi đã ở nhà ngày hôm qua.",
@@ -175,14 +177,15 @@
     {
       "id": "ex-008-13",
       "type": "sentence_scramble",
-      "promptVi": "[Sắp xếp câu] Xếp các khối từ thành câu hoàn chỉnh mang nghĩa: \"Cô ấy đã rất vui tối qua.\"",
+      "promptVi": "[Sắp xếp câu] Ghép các khối từ thành câu hoàn chỉnh mang nghĩa: \"Cô ấy đã rất vui tối qua.\"",
+      "question": "Sắp xếp các từ để tạo thành câu đúng: \"Cô ấy đã rất vui tối qua.\"",
       "words": [
-        "last",
-        "happy",
-        "She",
-        "very",
         "was",
-        "night."
+        "very",
+        "night.",
+        "last",
+        "She",
+        "happy"
       ],
       "correctSentence": "She was very happy last night.",
       "hintVi": "Cô ấy đã rất vui tối qua.",
@@ -191,13 +194,14 @@
     {
       "id": "ex-008-14",
       "type": "sentence_scramble",
-      "promptVi": "[Sắp xếp câu] Xếp các khối từ thành câu hoàn chỉnh mang nghĩa: \"Họ đã bị trễ học.\"",
+      "promptVi": "[Sắp xếp câu] Ghép các khối từ thành câu hoàn chỉnh mang nghĩa: \"Họ đã bị trễ học.\"",
+      "question": "Sắp xếp các từ để tạo thành câu đúng: \"Họ đã bị trễ học.\"",
       "words": [
-        "school.",
-        "late",
         "were",
         "They",
-        "for"
+        "school.",
+        "for",
+        "late"
       ],
       "correctSentence": "They were late for school.",
       "hintVi": "Họ đã bị trễ học.",
@@ -206,14 +210,15 @@
     {
       "id": "ex-008-15",
       "type": "sentence_scramble",
-      "promptVi": "[Sắp xếp câu] Xếp các khối từ thành câu hoàn chỉnh mang nghĩa: \"Thời tiết đã rất đẹp tuần trước.\"",
+      "promptVi": "[Sắp xếp câu] Ghép các khối từ thành câu hoàn chỉnh mang nghĩa: \"Thời tiết đã rất đẹp tuần trước.\"",
+      "question": "Sắp xếp các từ để tạo thành câu đúng: \"Thời tiết đã rất đẹp tuần trước.\"",
       "words": [
-        "last",
+        "beautiful",
+        "was",
         "The",
         "week.",
-        "weather",
-        "beautiful",
-        "was"
+        "last",
+        "weather"
       ],
       "correctSentence": "The weather was beautiful last week.",
       "hintVi": "Thời tiết đã rất đẹp tuần trước.",
@@ -222,14 +227,15 @@
     {
       "id": "ex-008-16",
       "type": "sentence_scramble",
-      "promptVi": "[Sắp xếp câu] Xếp các từ thành câu hội thoại: \"Thư viện có yên tĩnh và thoải mái không?\"",
+      "promptVi": "[Sắp xếp câu] Ghép các từ thành câu hội thoại: \"Thư viện có yên tĩnh và thoải mái không?\"",
+      "question": "Sắp xếp các từ để tạo thành câu thoại: \"Thư viện có yên tĩnh và thoải mái không?\"",
       "words": [
-        "the",
-        "comfortable",
-        "and",
         "library",
+        "comfortable",
         "quiet",
-        "Was"
+        "Was",
+        "the",
+        "and"
       ],
       "correctSentence": "Was the library quiet and comfortable?",
       "hintVi": "Thư viện có yên tĩnh và thoải mái không?",
@@ -238,70 +244,70 @@
     {
       "id": "ex-008-17",
       "type": "find_error",
-      "promptVi": "[Tìm lỗi sai & Chọn câu đúng] Câu nào dưới đây có cấu trúc ngữ pháp HOÀN TOÀN ĐÚNG?",
-      "question": "Chủ điểm \"Bài 8: Động từ To Be — Quá khứ Đơn (Was / Were - Trạng thái & Vị trí quá khứ)\": Chọn câu CHÍNH XÁC:",
+      "promptVi": "[Nhận diện cấu trúc chuẩn] Chọn câu có cấu trúc ngữ pháp HOÀN TOÀN ĐÚNG:",
+      "question": "Dựa vào chủ điểm \"Bài 8: Động từ To Be — Quá khứ Đơn (Was / Were - Trạng thái & Vị trí quá khứ)\", câu nào sau đây CHÍNH XÁC?",
       "options": [
         "I was at home yesterday.",
         "I be at home yesterday.",
-        "I are not is at home yesterday.",
-        "yesterday. home at was I"
+        "yesterday. home at was I",
+        "is"
       ],
       "correctAnswer": "I was at home yesterday.",
-      "explanationVi": "Câu chuẩn xác là: \"I was at home yesterday.\" (Tôi đã ở nhà ngày hôm qua.)."
+      "explanationVi": "Cấu trúc chuẩn xác là: \"I was at home yesterday.\" (Tôi đã ở nhà ngày hôm qua.)."
     },
     {
       "id": "ex-008-18",
       "type": "find_error",
-      "promptVi": "[Tìm lỗi sai & Chọn câu đúng] Câu nào dưới đây có cấu trúc ngữ pháp HOÀN TOÀN ĐÚNG?",
-      "question": "Chủ điểm \"Bài 8: Động từ To Be — Quá khứ Đơn (Was / Were - Trạng thái & Vị trí quá khứ)\": Chọn câu CHÍNH XÁC:",
+      "promptVi": "[Nhận diện cấu trúc chuẩn] Chọn câu có cấu trúc ngữ pháp HOÀN TOÀN ĐÚNG:",
+      "question": "Dựa vào chủ điểm \"Bài 8: Động từ To Be — Quá khứ Đơn (Was / Were - Trạng thái & Vị trí quá khứ)\", câu nào sau đây CHÍNH XÁC?",
       "options": [
-        "She was very happy last night.",
+        "is",
+        "night. last happy very was She",
         "She be very happy last night.",
-        "She are not is very happy last night.",
-        "night. last happy very was She"
+        "She was very happy last night."
       ],
       "correctAnswer": "She was very happy last night.",
-      "explanationVi": "Câu chuẩn xác là: \"She was very happy last night.\" (Cô ấy đã rất vui tối qua.)."
+      "explanationVi": "Cấu trúc chuẩn xác là: \"She was very happy last night.\" (Cô ấy đã rất vui tối qua.)."
     },
     {
       "id": "ex-008-19",
       "type": "find_error",
-      "promptVi": "[Tìm lỗi sai & Chọn câu đúng] Câu nào dưới đây có cấu trúc ngữ pháp HOÀN TOÀN ĐÚNG?",
-      "question": "Chủ điểm \"Bài 8: Động từ To Be — Quá khứ Đơn (Was / Were - Trạng thái & Vị trí quá khứ)\": Chọn câu CHÍNH XÁC:",
+      "promptVi": "[Nhận diện cấu trúc chuẩn] Chọn câu có cấu trúc ngữ pháp HOÀN TOÀN ĐÚNG:",
+      "question": "Dựa vào chủ điểm \"Bài 8: Động từ To Be — Quá khứ Đơn (Was / Were - Trạng thái & Vị trí quá khứ)\", câu nào sau đây CHÍNH XÁC?",
       "options": [
         "They were late for school.",
-        "They be late for school.",
-        "They are not is late for school.",
-        "school. for late were They"
+        "school. for late were They",
+        "They were late at school.",
+        "They be late for school."
       ],
       "correctAnswer": "They were late for school.",
-      "explanationVi": "Câu chuẩn xác là: \"They were late for school.\" (Họ đã bị trễ học.)."
+      "explanationVi": "Cấu trúc chuẩn xác là: \"They were late for school.\" (Họ đã bị trễ học.)."
     },
     {
       "id": "ex-008-20",
       "type": "find_error",
-      "promptVi": "[Tìm lỗi sai & Chọn câu đúng] Câu nào dưới đây có cấu trúc ngữ pháp HOÀN TOÀN ĐÚNG?",
-      "question": "Chủ điểm \"Bài 8: Động từ To Be — Quá khứ Đơn (Was / Were - Trạng thái & Vị trí quá khứ)\": Chọn câu CHÍNH XÁC:",
+      "promptVi": "[Nhận diện cấu trúc chuẩn] Chọn câu có cấu trúc ngữ pháp HOÀN TOÀN ĐÚNG:",
+      "question": "Dựa vào chủ điểm \"Bài 8: Động từ To Be — Quá khứ Đơn (Was / Were - Trạng thái & Vị trí quá khứ)\", câu nào sau đây CHÍNH XÁC?",
       "options": [
-        "The weather was beautiful last week.",
         "The weather be beautiful last week.",
-        "The weather are not is beautiful last week.",
+        "is",
+        "The weather was beautiful last week.",
         "week. last beautiful was weather The"
       ],
       "correctAnswer": "The weather was beautiful last week.",
-      "explanationVi": "Câu chuẩn xác là: \"The weather was beautiful last week.\" (Thời tiết đã rất đẹp tuần trước.)."
+      "explanationVi": "Cấu trúc chuẩn xác là: \"The weather was beautiful last week.\" (Thời tiết đã rất đẹp tuần trước.)."
     },
     {
       "id": "ex-008-21",
       "type": "listening_reflex",
-      "promptVi": "[Nghe phản xạ] Nghe câu phát âm tiếng Anh và chọn bản dịch tiếng Việt đúng nhất:",
+      "promptVi": "[Nghe phản xạ] Nghe câu phát âm tiếng Anh và chọn bản dịch tiếng Việt đúng:",
       "audioPrompt": "Hi Elena! Where were you yesterday afternoon?",
-      "question": "Nhấn nút '🔊 Nghe audio' để nghe câu thoại và chọn nghĩa đúng:",
+      "question": "Nhấn nút '🔊 Nghe audio' và chọn nghĩa tiếng Việt đúng:",
       "options": [
-        "Chào Elena! Chiều qua bạn đã ở đâu vậy?",
         "Tôi đã ở thư viện cùng với các bạn của tôi.",
+        "Chào Elena! Chiều qua bạn đã ở đâu vậy?",
         "Thư viện có yên tĩnh và thoải mái không?",
-        "Ngày mai trời sẽ mưa to."
+        "Hôm nay thời tiết rất đẹp."
       ],
       "correctAnswer": "Chào Elena! Chiều qua bạn đã ở đâu vậy?",
       "explanationVi": "Câu nghe được: \"Hi Elena! Where were you yesterday afternoon?\" có nghĩa là: \"Chào Elena! Chiều qua bạn đã ở đâu vậy?\"."
@@ -309,14 +315,14 @@
     {
       "id": "ex-008-22",
       "type": "listening_reflex",
-      "promptVi": "[Nghe phản xạ] Nghe câu phát âm tiếng Anh và chọn bản dịch tiếng Việt đúng nhất:",
+      "promptVi": "[Nghe phản xạ] Nghe câu phát âm tiếng Anh và chọn bản dịch tiếng Việt đúng:",
       "audioPrompt": "I was at the library with my friends.",
-      "question": "Nhấn nút '🔊 Nghe audio' để nghe câu thoại và chọn nghĩa đúng:",
+      "question": "Nhấn nút '🔊 Nghe audio' và chọn nghĩa tiếng Việt đúng:",
       "options": [
-        "Tôi đã ở thư viện cùng với các bạn của tôi.",
         "Thư viện có yên tĩnh và thoải mái không?",
         "Có, nó rất yên tĩnh. Chúng tôi đã ở đó trong ba tiếng đồng hồ.",
-        "Ngày mai trời sẽ mưa to."
+        "Tôi đã ở thư viện cùng với các bạn của tôi.",
+        "Hôm nay thời tiết rất đẹp."
       ],
       "correctAnswer": "Tôi đã ở thư viện cùng với các bạn của tôi.",
       "explanationVi": "Câu nghe được: \"I was at the library with my friends.\" có nghĩa là: \"Tôi đã ở thư viện cùng với các bạn của tôi.\"."
@@ -324,14 +330,14 @@
     {
       "id": "ex-008-23",
       "type": "listening_reflex",
-      "promptVi": "[Nghe phản xạ] Nghe câu phát âm tiếng Anh và chọn bản dịch tiếng Việt đúng nhất:",
+      "promptVi": "[Nghe phản xạ] Nghe câu phát âm tiếng Anh và chọn bản dịch tiếng Việt đúng:",
       "audioPrompt": "Was the library quiet and comfortable?",
-      "question": "Nhấn nút '🔊 Nghe audio' để nghe câu thoại và chọn nghĩa đúng:",
+      "question": "Nhấn nút '🔊 Nghe audio' và chọn nghĩa tiếng Việt đúng:",
       "options": [
-        "Thư viện có yên tĩnh và thoải mái không?",
-        "Có, nó rất yên tĩnh. Chúng tôi đã ở đó trong ba tiếng đồng hồ.",
         "Bạn có mệt sau khi học không?",
-        "Ngày mai trời sẽ mưa to."
+        "Có, nó rất yên tĩnh. Chúng tôi đã ở đó trong ba tiếng đồng hồ.",
+        "Thư viện có yên tĩnh và thoải mái không?",
+        "Hôm nay thời tiết rất đẹp."
       ],
       "correctAnswer": "Thư viện có yên tĩnh và thoải mái không?",
       "explanationVi": "Câu nghe được: \"Was the library quiet and comfortable?\" có nghĩa là: \"Thư viện có yên tĩnh và thoải mái không?\"."
@@ -339,14 +345,14 @@
     {
       "id": "ex-008-24",
       "type": "listening_reflex",
-      "promptVi": "[Nghe phản xạ] Nghe câu phát âm tiếng Anh và chọn bản dịch tiếng Việt đúng nhất:",
+      "promptVi": "[Nghe phản xạ] Nghe câu phát âm tiếng Anh và chọn bản dịch tiếng Việt đúng:",
       "audioPrompt": "Yes, it was very quiet. We were there for three hours.",
-      "question": "Nhấn nút '🔊 Nghe audio' để nghe câu thoại và chọn nghĩa đúng:",
+      "question": "Nhấn nút '🔊 Nghe audio' và chọn nghĩa tiếng Việt đúng:",
       "options": [
-        "Có, nó rất yên tĩnh. Chúng tôi đã ở đó trong ba tiếng đồng hồ.",
-        "Bạn có mệt sau khi học không?",
+        "Hôm nay thời tiết rất đẹp.",
         "Không, tôi không mệt. Tôi đã rất vui!",
-        "Ngày mai trời sẽ mưa to."
+        "Có, nó rất yên tĩnh. Chúng tôi đã ở đó trong ba tiếng đồng hồ.",
+        "Bạn có mệt sau khi học không?"
       ],
       "correctAnswer": "Có, nó rất yên tĩnh. Chúng tôi đã ở đó trong ba tiếng đồng hồ.",
       "explanationVi": "Câu nghe được: \"Yes, it was very quiet. We were there for three hours.\" có nghĩa là: \"Có, nó rất yên tĩnh. Chúng tôi đã ở đó trong ba tiếng đồng hồ.\"."
@@ -354,64 +360,68 @@
     {
       "id": "ex-008-25",
       "type": "speaking_practice",
-      "promptVi": "[Luyện nói qua Micro] Nhấn nút '🎙️ Bắt đầu nói' và đọc to, rõ ràng câu tiếng Anh sau:",
+      "promptVi": "[Luyện nói qua Micro] Nhấn nút 'Bấm để Nói ngay' và phát âm câu sau:",
+      "question": "Luyện phát âm chuẩn câu: \"I was at home yesterday.\" (Tôi đã ở nhà ngày hôm qua.)",
       "targetSentence": "I was at home yesterday.",
       "hintVi": "Tôi đã ở nhà ngày hôm qua.",
-      "explanationVi": "Câu mục tiêu: \"I was at home yesterday.\" (Tôi đã ở nhà ngày hôm qua.). Luyện phát âm chuẩn xác từng âm tiết và ngữ điệu tự nhiên."
+      "explanationVi": "Mẫu câu chuẩn: \"I was at home yesterday.\" (Tôi đã ở nhà ngày hôm qua.). Luyện phát âm rõ ràng từng từ."
     },
     {
       "id": "ex-008-26",
       "type": "speaking_practice",
-      "promptVi": "[Luyện nói qua Micro] Nhấn nút '🎙️ Bắt đầu nói' và đọc to, rõ ràng câu tiếng Anh sau:",
+      "promptVi": "[Luyện nói qua Micro] Nhấn nút 'Bấm để Nói ngay' và phát âm câu sau:",
+      "question": "Luyện phát âm chuẩn câu: \"She was very happy last night.\" (Cô ấy đã rất vui tối qua.)",
       "targetSentence": "She was very happy last night.",
       "hintVi": "Cô ấy đã rất vui tối qua.",
-      "explanationVi": "Câu mục tiêu: \"She was very happy last night.\" (Cô ấy đã rất vui tối qua.). Luyện phát âm chuẩn xác từng âm tiết và ngữ điệu tự nhiên."
+      "explanationVi": "Mẫu câu chuẩn: \"She was very happy last night.\" (Cô ấy đã rất vui tối qua.). Luyện phát âm rõ ràng từng từ."
     },
     {
       "id": "ex-008-27",
       "type": "speaking_practice",
-      "promptVi": "[Luyện nói qua Micro] Nhấn nút '🎙️ Bắt đầu nói' và đọc to, rõ ràng câu tiếng Anh sau:",
+      "promptVi": "[Luyện nói qua Micro] Nhấn nút 'Bấm để Nói ngay' và phát âm câu sau:",
+      "question": "Luyện phát âm chuẩn câu: \"They were late for school.\" (Họ đã bị trễ học.)",
       "targetSentence": "They were late for school.",
       "hintVi": "Họ đã bị trễ học.",
-      "explanationVi": "Câu mục tiêu: \"They were late for school.\" (Họ đã bị trễ học.). Luyện phát âm chuẩn xác từng âm tiết và ngữ điệu tự nhiên."
+      "explanationVi": "Mẫu câu chuẩn: \"They were late for school.\" (Họ đã bị trễ học.). Luyện phát âm rõ ràng từng từ."
     },
     {
       "id": "ex-008-28",
       "type": "speaking_practice",
-      "promptVi": "[Luyện nói qua Micro] Nhấn nút '🎙️ Bắt đầu nói' và đọc to, rõ ràng câu tiếng Anh sau:",
+      "promptVi": "[Luyện nói qua Micro] Nhấn nút 'Bấm để Nói ngay' và phát âm câu sau:",
+      "question": "Luyện phát âm chuẩn câu: \"The weather was beautiful last week.\" (Thời tiết đã rất đẹp tuần trước.)",
       "targetSentence": "The weather was beautiful last week.",
       "hintVi": "Thời tiết đã rất đẹp tuần trước.",
-      "explanationVi": "Câu mục tiêu: \"The weather was beautiful last week.\" (Thời tiết đã rất đẹp tuần trước.). Luyện phát âm chuẩn xác từng âm tiết và ngữ điệu tự nhiên."
+      "explanationVi": "Mẫu câu chuẩn: \"The weather was beautiful last week.\" (Thời tiết đã rất đẹp tuần trước.). Luyện phát âm rõ ràng từng từ."
     },
     {
       "id": "ex-008-29",
       "type": "reading_comprehension",
-      "promptVi": "[Đọc hiểu đoạn văn 1] Đọc đoạn hội thoại mở đầu sau và trả lời câu hỏi:",
-      "passage": "Nam (Nam): \"Hi Elena! Where were you yesterday afternoon?\"\nElena (Nữ): \"I was at the library with my friends.\"\nNam (Nam): \"Was the library quiet and comfortable?\"\nElena (Nữ): \"Yes, it was very quiet. We were there for three hours.\"",
-      "question": "Câu hỏi: Trong đoạn hội thoại trên, các nhân vật đang thảo luận về chủ đề gì?",
+      "promptVi": "[Đọc hiểu đoạn văn] Đọc đoạn hội thoại sau và trả lời câu hỏi:",
+      "passage": "Nam: \"Hi Elena! Where were you yesterday afternoon?\"\nElena: \"I was at the library with my friends.\"\nNam: \"Was the library quiet and comfortable?\"\nElena: \"Yes, it was very quiet. We were there for three hours.\"",
+      "question": "Chủ đề trọng tâm của đoạn hội thoại trên là gì?",
       "options": [
         "Động từ To Be — Quá khứ Đơn (Was / Were - Trạng thái & Vị trí quá khứ)",
-        "Kế hoạch đi nghỉ dưỡng cuối tuần ở bãi biển",
-        "Mua sắm quần áo và đồ dùng thể thao",
-        "Cách làm món ăn truyền thống gia đình"
+        "Cách làm món ăn truyền thống",
+        "Kế hoạch đi mua sắm tại siêu thị",
+        "Lịch trình đi du lịch nghỉ mát cuối tuần"
       ],
       "correctAnswer": "Động từ To Be — Quá khứ Đơn (Was / Were - Trạng thái & Vị trí quá khứ)",
-      "explanationVi": "Đoạn hội thoại mở đầu được thiết kế để minh họa trực tiếp cho chủ điểm ngữ pháp: \"Bài 8: Động từ To Be — Quá khứ Đơn (Was / Were - Trạng thái & Vị trí quá khứ)\"."
+      "explanationVi": "Đoạn hội thoại được thiết kế để minh họa trực tiếp cho chủ điểm \"Bài 8: Động từ To Be — Quá khứ Đơn (Was / Were - Trạng thái & Vị trí quá khứ)\"."
     },
     {
       "id": "ex-008-30",
       "type": "reading_comprehension",
-      "promptVi": "[Đọc hiểu đoạn văn 2] Đọc phần tiếp theo của đoạn hội thoại và chọn nhận định đúng:",
-      "passage": "Nam (Nam): \"Were you tired after studying?\"\nElena (Nữ): \"No, I was not tired. I was very happy!\"",
-      "question": "Nhận định nào sau đây là ĐÚNG với nội dung đoạn hội thoại trên?",
+      "promptVi": "[Đọc hiểu đoạn văn] Đọc đoạn đối thoại tiếp theo và chọn nhận định đúng:",
+      "passage": "Nam: \"Were you tired after studying?\"\nElena: \"No, I was not tired. I was very happy!\"",
+      "question": "Nhận định nào sau đây là ĐÚNG về nội dung đoạn đối thoại?",
       "options": [
-        "Các câu hội thoại sử dụng đúng cấu trúc ngữ pháp \"Bài 8: Động từ To Be — Quá khứ Đơn (Was / Were - Trạng thái & Vị trí quá khứ)\".",
-        "Các nhân vật không hiểu ý nhau và từ chối nói chuyện.",
-        "Đoạn hội thoại nói về việc chuyển nhà sang thành phố khác.",
-        "Cả hai nhân vật đều đang ở sân bay chuẩn bị lên máy bay."
+        "Các câu thoại sử dụng đúng cấu trúc \"Động từ To Be — Quá khứ Đơn (Was / Were - Trạng thái & Vị trí quá khứ)\".",
+        "Hai nhân vật đang cãi nhau và không đồng ý hợp tác.",
+        "Cả hai nhân vật đang thảo luận về thời tiết ngày mai.",
+        "Cuộc trò chuyện diễn ra tại nhà ga xe lửa."
       ],
-      "correctAnswer": "Các câu hội thoại sử dụng đúng cấu trúc ngữ pháp \"Bài 8: Động từ To Be — Quá khứ Đơn (Was / Were - Trạng thái & Vị trí quá khứ)\".",
-      "explanationVi": "Đoạn hội thoại thứ hai tiếp tục củng cố và ứng dụng các quy tắc ngữ pháp của \"Bài 8: Động từ To Be — Quá khứ Đơn (Was / Were - Trạng thái & Vị trí quá khứ)\"."
+      "correctAnswer": "Các câu thoại sử dụng đúng cấu trúc \"Động từ To Be — Quá khứ Đơn (Was / Were - Trạng thái & Vị trí quá khứ)\".",
+      "explanationVi": "Đoạn đối thoại ứng dụng chuẩn xác ngữ pháp của \"Bài 8: Động từ To Be — Quá khứ Đơn (Was / Were - Trạng thái & Vị trí quá khứ)\"."
     }
   ]
 }

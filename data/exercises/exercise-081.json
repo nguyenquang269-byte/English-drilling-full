@@ -7,13 +7,13 @@
     {
       "id": "ex-081-01",
       "type": "multiple_choice",
-      "promptVi": "[Trắc nghiệm] Chọn từ/cụm từ đúng để hoàn thành câu (Nếu tôi đã nghe lời khuyên của anh ấy, thì bây giờ tôi đã thành công rồi.):",
+      "promptVi": "[Trắc nghiệm ngữ pháp] Chọn từ đúng để hoàn thành câu (Nếu tôi đã nghe lời khuyên của anh ấy, thì bây giờ tôi đã thành công rồi.):",
       "question": "If I had taken his advice, I ___ successful now.",
       "options": [
-        "would be",
-        "would have been",
         "will be",
-        "am"
+        "am",
+        "would have been",
+        "would be"
       ],
       "correctAnswer": "would be",
       "explanationVi": "Kết quả có 'now' ở hiện tại nên dùng 'would + V-inf' (would be)."
@@ -21,13 +21,13 @@
     {
       "id": "ex-081-02",
       "type": "multiple_choice",
-      "promptVi": "[Trắc nghiệm] Chọn từ/cụm từ đúng để hoàn thành câu (Nếu cô ấy biết nói tiếng Anh, hôm qua cô ấy đã nhận được công việc đó rồi.):",
+      "promptVi": "[Trắc nghiệm ngữ pháp] Chọn từ đúng để hoàn thành câu (Nếu cô ấy biết nói tiếng Anh, hôm qua cô ấy đã nhận được công việc đó rồi.):",
       "question": "If she ___ English, she would have got the job yesterday.",
       "options": [
-        "spoke",
-        "had spoken",
         "speaks",
-        "speaking"
+        "speaking",
+        "had spoken",
+        "spoke"
       ],
       "correctAnswer": "spoke",
       "explanationVi": "Diễn tả khả năng chung ở hiện tại dùng Quá khứ đơn 'spoke'."
@@ -35,13 +35,13 @@
     {
       "id": "ex-081-03",
       "type": "multiple_choice",
-      "promptVi": "[Trắc nghiệm] Chọn từ/cụm từ đúng để hoàn thành câu (Nếu chúng ta đã không lỡ chuyến tàu, chúng ta đã không phải đứng đây dưới mưa lúc này.):",
+      "promptVi": "[Trắc nghiệm ngữ pháp] Chọn từ đúng để hoàn thành câu (Nếu chúng ta đã không lỡ chuyến tàu, chúng ta đã không phải đứng đây dưới mưa lúc này.):",
       "question": "If we ___ the train, we wouldn't be standing here in the rain.",
       "options": [
-        "hadn't missed",
         "didn't miss",
         "weren't missing",
-        "don't miss"
+        "don't miss",
+        "hadn't missed"
       ],
       "correctAnswer": "hadn't missed",
       "explanationVi": "Hành động lỡ tàu xảy ra trong quá khứ nên dùng 'hadn't missed'."
@@ -49,13 +49,13 @@
     {
       "id": "ex-081-04",
       "type": "multiple_choice",
-      "promptVi": "[Trắc nghiệm] Chọn từ/cụm từ đúng để hoàn thành câu (Nếu anh ấy là người cẩn thận hơn, anh ấy đã không mắc phải sai lầm đó.):",
+      "promptVi": "[Trắc nghiệm ngữ pháp] Chọn từ đúng để hoàn thành câu (Nếu anh ấy là người cẩn thận hơn, anh ấy đã không mắc phải sai lầm đó.):",
       "question": "If he were more careful, he ___ that mistake.",
       "options": [
-        "wouldn't have made",
-        "won't make",
         "wouldn't make",
-        "didn't make"
+        "wouldn't have made",
+        "didn't make",
+        "won't make"
       ],
       "correctAnswer": "wouldn't have made",
       "explanationVi": "Sai lầm đã xảy ra trong quá khứ nên kết quả dùng 'wouldn't have + V3'."
@@ -63,116 +63,118 @@
     {
       "id": "ex-081-05",
       "type": "multiple_choice",
-      "promptVi": "[Trắc nghiệm] Dịch câu sau sang tiếng Anh: \"Chào buổi sáng Elena. Bạn thích nghi thế nào với vai trò mới là giám đốc danh mục đầu tư cấp cao?\"",
-      "question": "Chọn bản dịch chuẩn xác cho câu: \"Chào buổi sáng Elena. Bạn thích nghi thế nào với vai trò mới là giám đốc danh mục đầu tư cấp cao?\"",
+      "promptVi": "[Phản xạ dịch thuật] Dịch câu sau sang tiếng Anh: \"Chào buổi sáng Elena. Bạn thích nghi thế nào với vai trò mới là giám đốc danh mục đầu tư cấp cao?\"",
+      "question": "Chọn bản dịch chuẩn xác nhất cho câu: \"Chào buổi sáng Elena. Bạn thích nghi thế nào với vai trò mới là giám đốc danh mục đầu tư cấp cao?\"",
       "options": [
-        "Good morning, Elena. How are you adapting to your new role as senior portfolio manager?",
         "Good morning, Elena. How be you adapting to your new role as senior portfolio manager?",
-        "It is challenging! If I had accepted that overseas banking fellowship last year, I would be working in London now.",
-        "I want to go to the park now."
+        "Good morning, Elena. How are you adapting to your new role as senior portfolio manager?",
+        "We are studying English today.",
+        "It is challenging! If I had accepted that overseas banking fellowship last year, I would be working in London now."
       ],
       "correctAnswer": "Good morning, Elena. How are you adapting to your new role as senior portfolio manager?",
-      "explanationVi": "Câu đúng là \"Good morning, Elena. How are you adapting to your new role as senior portfolio manager?\" (Chào buổi sáng Elena. Bạn thích nghi thế nào với vai trò mới là giám đốc danh mục đầu tư cấp cao?)."
+      "explanationVi": "Câu dịch chuẩn xác: \"Good morning, Elena. How are you adapting to your new role as senior portfolio manager?\" (Chào buổi sáng Elena. Bạn thích nghi thế nào với vai trò mới là giám đốc danh mục đầu tư cấp cao?)."
     },
     {
       "id": "ex-081-06",
       "type": "multiple_choice",
-      "promptVi": "[Trắc nghiệm] Chọn câu trả lời hoặc cách diễn đạt phù hợp:",
-      "question": "Trong ngữ cảnh giao tiếp: \"Good morning, Elena. How are you adapting to your new role as senior portfolio manager?\", câu phản hồi tự nhiên là gì?",
+      "promptVi": "[Ngữ cảnh giao tiếp] Chọn câu phản hồi tự nhiên và đúng ngữ pháp:",
+      "question": "Khi đối phương nói: \"Good morning, Elena. How are you adapting to your new role as senior portfolio manager?\", câu phản hồi phù hợp là gì?",
       "options": [
+        "Yes, I will eat it.",
         "It is challenging! If I had accepted that overseas banking fellowship last year, I would be working in London now.",
-        "No, it is yesterday morning.",
-        "Yes, I will eat apple.",
-        "They are not at the library."
+        "No, it was yesterday.",
+        "They are not in the office."
       ],
       "correctAnswer": "It is challenging! If I had accepted that overseas banking fellowship last year, I would be working in London now.",
-      "explanationVi": "Phản hồi phù hợp: \"It is challenging! If I had accepted that overseas banking fellowship last year, I would be working in London now.\" (Rất nhiều thử thách! Nếu năm ngoái tôi chấp nhận học bổng ngân hàng ở nước ngoài đó, thì bây giờ tôi đang làm việc ở Luân Đôn rồi. (If had accepted -> would be working now))."
+      "explanationVi": "Phản hồi phù hợp trong bài: \"It is challenging! If I had accepted that overseas banking fellowship last year, I would be working in London now.\" (Rất nhiều thử thách! Nếu năm ngoái tôi chấp nhận học bổng ngân hàng ở nước ngoài đó, thì bây giờ tôi đang làm việc ở Luân Đôn rồi. (If had accepted -> would be working now))."
     },
     {
       "id": "ex-081-07",
       "type": "fill_blank",
-      "promptVi": "[Điền từ - (Dạng khẳng định)] Điền dạng đúng của động từ vào ô trống (Nếu tôi đã nghe lời khuyên của anh ấy, thì bây giờ tôi đã thành công rồi.):",
+      "promptVi": "[Điền từ - Dạng KHẲNG ĐỊNH] Điền từ còn thiếu vào ô trống (Nếu tôi đã nghe lời khuyên của anh ấy, thì bây giờ tôi đã thành công rồi.):",
       "question": "If I had taken his advice, I ___ successful now.",
       "correctAnswer": "would be",
       "options": [
         "would be",
         "would have been",
-        "will be",
-        "am"
+        "am",
+        "will be"
       ],
-      "explanationVi": "Đáp án chính xác: \"would be\". Nếu tôi đã nghe lời khuyên của anh ấy, thì bây giờ tôi đã thành công rồi.."
+      "explanationVi": "Đáp án đúng là \"would be\". Câu hoàn chỉnh: \"If I had taken his advice, I would be successful now.\" (Nếu tôi đã nghe lời khuyên của anh ấy, thì bây giờ tôi đã thành công rồi.)."
     },
     {
       "id": "ex-081-08",
       "type": "fill_blank",
-      "promptVi": "[Điền từ - (Dạng khẳng định)] Điền dạng đúng của động từ vào ô trống (Nếu cô ấy biết nói tiếng Anh, hôm qua cô ấy đã nhận được công việc đó rồi.):",
+      "promptVi": "[Điền từ - Dạng KHẲNG ĐỊNH] Điền từ còn thiếu vào ô trống (Nếu cô ấy biết nói tiếng Anh, hôm qua cô ấy đã nhận được công việc đó rồi.):",
       "question": "If she ___ English, she would have got the job yesterday.",
       "correctAnswer": "spoke",
       "options": [
-        "spoke",
         "had spoken",
+        "spoke",
         "speaks",
         "speaking"
       ],
-      "explanationVi": "Đáp án chính xác: \"spoke\". Nếu cô ấy biết nói tiếng Anh, hôm qua cô ấy đã nhận được công việc đó rồi.."
+      "explanationVi": "Đáp án đúng là \"spoke\". Câu hoàn chỉnh: \"If she spoke English, she would have got the job yesterday.\" (Nếu cô ấy biết nói tiếng Anh, hôm qua cô ấy đã nhận được công việc đó rồi.)."
     },
     {
       "id": "ex-081-09",
       "type": "fill_blank",
-      "promptVi": "[Điền từ - (Dạng phủ định)] Điền dạng đúng của động từ vào ô trống (Nếu chúng ta đã không lỡ chuyến tàu, chúng ta đã không phải đứng đây dưới mưa lúc này.):",
+      "promptVi": "[Điền từ - Dạng PHỦ ĐỊNH] Điền từ còn thiếu vào ô trống (Nếu chúng ta đã không lỡ chuyến tàu, chúng ta đã không phải đứng đây dưới mưa lúc này.):",
       "question": "If we ___ the train, we wouldn't be standing here in the rain.",
       "correctAnswer": "hadn't missed",
       "options": [
-        "hadn't missed",
+        "don't miss",
         "didn't miss",
-        "weren't missing",
-        "don't miss"
+        "hadn't missed",
+        "weren't missing"
       ],
-      "explanationVi": "Đáp án chính xác: \"hadn't missed\". Nếu chúng ta đã không lỡ chuyến tàu, chúng ta đã không phải đứng đây dưới mưa lúc này.."
+      "explanationVi": "Đáp án đúng là \"hadn't missed\". Câu hoàn chỉnh: \"If we hadn't missed the train, we wouldn't be standing here in the rain.\" (Nếu chúng ta đã không lỡ chuyến tàu, chúng ta đã không phải đứng đây dưới mưa lúc này.)."
     },
     {
       "id": "ex-081-10",
       "type": "fill_blank",
-      "promptVi": "[Điền từ - (Dạng phủ định)] Điền dạng đúng của động từ vào ô trống (Nếu anh ấy là người cẩn thận hơn, anh ấy đã không mắc phải sai lầm đó.):",
+      "promptVi": "[Điền từ - Dạng PHỦ ĐỊNH] Điền từ còn thiếu vào ô trống (Nếu anh ấy là người cẩn thận hơn, anh ấy đã không mắc phải sai lầm đó.):",
       "question": "If he were more careful, he ___ that mistake.",
       "correctAnswer": "wouldn't have made",
       "options": [
         "wouldn't have made",
+        "didn't make",
         "won't make",
-        "wouldn't make",
-        "didn't make"
+        "wouldn't make"
       ],
-      "explanationVi": "Đáp án chính xác: \"wouldn't have made\". Nếu anh ấy là người cẩn thận hơn, anh ấy đã không mắc phải sai lầm đó.."
+      "explanationVi": "Đáp án đúng là \"wouldn't have made\". Câu hoàn chỉnh: \"If he were more careful, he wouldn't have made that mistake.\" (Nếu anh ấy là người cẩn thận hơn, anh ấy đã không mắc phải sai lầm đó.)."
     },
     {
       "id": "ex-081-11",
       "type": "fill_blank",
-      "promptVi": "[Điền từ - Dạng PHỦ ĐỊNH] Hoàn thành câu phủ định sau:",
-      "correctAnswer": "If I had taken his advice, I would be successful now.",
+      "promptVi": "[Điền từ - Dạng PHỦ ĐỊNH] Điền trợ động từ/động từ tobe phủ định vào chỗ trống:",
+      "question": "_____ notf I had taken his advice, I would be successful now.",
+      "correctAnswer": "I",
       "options": [
-        "If I had taken his advice, I would be successful now.",
-        "If I had taken his advice, I would be successful now.",
-        "Not If I had taken his advice, I would be successful now.",
-        "If I had taken his advice, I would be successful now. no"
+        "are",
+        "is",
+        "am",
+        "I"
       ],
-      "explanationVi": "Dạng phủ định chuẩn: Thêm 'not' sau động từ chính."
+      "explanationVi": "Câu phủ định hoàn chỉnh: \"I notf I had taken his advice, I would be successful now.\"."
     },
     {
       "id": "ex-081-12",
       "type": "sentence_scramble",
-      "promptVi": "[Sắp xếp câu] Xếp các khối từ thành câu hoàn chỉnh mang nghĩa: \"Nếu tôi đã nghe lời khuyên của anh ấy, thì bây giờ tôi đã thành công rồi.\"",
+      "promptVi": "[Sắp xếp câu] Ghép các khối từ thành câu hoàn chỉnh mang nghĩa: \"Nếu tôi đã nghe lời khuyên của anh ấy, thì bây giờ tôi đã thành công rồi.\"",
+      "question": "Sắp xếp các từ để tạo thành câu đúng: \"Nếu tôi đã nghe lời khuyên của anh ấy, thì bây giờ tôi đã thành công rồi.\"",
       "words": [
-        "be",
-        "If",
+        "taken",
         "now.",
-        "advice,",
-        "I",
-        "his",
+        "If",
+        "successful",
         "would",
         "I",
-        "successful",
-        "taken",
-        "had"
+        "be",
+        "I",
+        "advice,",
+        "had",
+        "his"
       ],
       "correctSentence": "If I had taken his advice, I would be successful now.",
       "hintVi": "Nếu tôi đã nghe lời khuyên của anh ấy, thì bây giờ tôi đã thành công rồi.",
@@ -181,19 +183,20 @@
     {
       "id": "ex-081-13",
       "type": "sentence_scramble",
-      "promptVi": "[Sắp xếp câu] Xếp các khối từ thành câu hoàn chỉnh mang nghĩa: \"Nếu cô ấy biết nói tiếng Anh, hôm qua cô ấy đã nhận được công việc đó rồi.\"",
+      "promptVi": "[Sắp xếp câu] Ghép các khối từ thành câu hoàn chỉnh mang nghĩa: \"Nếu cô ấy biết nói tiếng Anh, hôm qua cô ấy đã nhận được công việc đó rồi.\"",
+      "question": "Sắp xếp các từ để tạo thành câu đúng: \"Nếu cô ấy biết nói tiếng Anh, hôm qua cô ấy đã nhận được công việc đó rồi.\"",
       "words": [
-        "got",
         "If",
-        "job",
-        "English,",
-        "yesterday.",
         "spoke",
-        "she",
+        "job",
         "would",
+        "yesterday.",
+        "she",
+        "got",
         "she",
         "have",
-        "the"
+        "the",
+        "English,"
       ],
       "correctSentence": "If she spoke English, she would have got the job yesterday.",
       "hintVi": "Nếu cô ấy biết nói tiếng Anh, hôm qua cô ấy đã nhận được công việc đó rồi.",
@@ -202,22 +205,23 @@
     {
       "id": "ex-081-14",
       "type": "sentence_scramble",
-      "promptVi": "[Sắp xếp câu] Xếp các khối từ thành câu hoàn chỉnh mang nghĩa: \"Nếu chúng ta đã không lỡ chuyến tàu, chúng ta đã không phải đứng đây dưới mưa lúc này.\"",
+      "promptVi": "[Sắp xếp câu] Ghép các khối từ thành câu hoàn chỉnh mang nghĩa: \"Nếu chúng ta đã không lỡ chuyến tàu, chúng ta đã không phải đứng đây dưới mưa lúc này.\"",
+      "question": "Sắp xếp các từ để tạo thành câu đúng: \"Nếu chúng ta đã không lỡ chuyến tàu, chúng ta đã không phải đứng đây dưới mưa lúc này.\"",
       "words": [
-        "be",
-        "If",
-        "we",
-        "rain.",
-        "train,",
-        "the",
-        "we",
-        "missed",
-        "the",
         "in",
-        "wouldn't",
+        "we",
         "hadn't",
+        "be",
         "standing",
-        "here"
+        "we",
+        "If",
+        "the",
+        "rain.",
+        "here",
+        "the",
+        "missed",
+        "train,",
+        "wouldn't"
       ],
       "correctSentence": "If we hadn't missed the train, we wouldn't be standing here in the rain.",
       "hintVi": "Nếu chúng ta đã không lỡ chuyến tàu, chúng ta đã không phải đứng đây dưới mưa lúc này.",
@@ -226,19 +230,20 @@
     {
       "id": "ex-081-15",
       "type": "sentence_scramble",
-      "promptVi": "[Sắp xếp câu] Xếp các khối từ thành câu hoàn chỉnh mang nghĩa: \"Nếu anh ấy là người cẩn thận hơn, anh ấy đã không mắc phải sai lầm đó.\"",
+      "promptVi": "[Sắp xếp câu] Ghép các khối từ thành câu hoàn chỉnh mang nghĩa: \"Nếu anh ấy là người cẩn thận hơn, anh ấy đã không mắc phải sai lầm đó.\"",
+      "question": "Sắp xếp các từ để tạo thành câu đúng: \"Nếu anh ấy là người cẩn thận hơn, anh ấy đã không mắc phải sai lầm đó.\"",
       "words": [
-        "more",
-        "that",
-        "If",
-        "were",
-        "mistake.",
-        "made",
-        "have",
         "he",
-        "careful,",
         "wouldn't",
-        "he"
+        "mistake.",
+        "that",
+        "were",
+        "more",
+        "If",
+        "made",
+        "careful,",
+        "he",
+        "have"
       ],
       "correctSentence": "If he were more careful, he wouldn't have made that mistake.",
       "hintVi": "Nếu anh ấy là người cẩn thận hơn, anh ấy đã không mắc phải sai lầm đó.",
@@ -247,25 +252,26 @@
     {
       "id": "ex-081-16",
       "type": "sentence_scramble",
-      "promptVi": "[Sắp xếp câu] Xếp các từ thành câu hội thoại: \"Nếu bạn không quá tài năng về phân tích dữ liệu như hiện tại, thì hội đồng quản trị đã không thăng chức cho bạn vào tháng trước rồi. (If weren't talented -> wouldn't have promoted)\"",
+      "promptVi": "[Sắp xếp câu] Ghép các từ thành câu hội thoại: \"Nếu bạn không quá tài năng về phân tích dữ liệu như hiện tại, thì hội đồng quản trị đã không thăng chức cho bạn vào tháng trước rồi. (If weren't talented -> wouldn't have promoted)\"",
+      "question": "Sắp xếp các từ để tạo thành câu thoại: \"Nếu bạn không quá tài năng về phân tích dữ liệu như hiện tại, thì hội đồng quản trị đã không thăng chức cho bạn vào tháng trước rồi. (If weren't talented -> wouldn't have promoted)\"",
       "words": [
-        "last",
-        "If",
+        "data",
         "wouldn't",
+        "weren't",
         "you",
-        "you",
-        "exceptionally",
+        "If",
+        "the",
+        "so",
+        "month",
         "have",
+        "exceptionally",
         "board",
         "promoted",
-        "in",
-        "data",
-        "weren't",
-        "month",
         "talented",
         "analytics",
-        "so",
-        "the"
+        "in",
+        "last",
+        "you"
       ],
       "correctSentence": "If you weren't so exceptionally talented in data analytics, the board wouldn't have promoted you last month.",
       "hintVi": "Nếu bạn không quá tài năng về phân tích dữ liệu như hiện tại, thì hội đồng quản trị đã không thăng chức cho bạn vào tháng trước rồi. (If weren't talented -> wouldn't have promoted)",
@@ -274,70 +280,70 @@
     {
       "id": "ex-081-17",
       "type": "find_error",
-      "promptVi": "[Tìm lỗi sai & Chọn câu đúng] Câu nào dưới đây có cấu trúc ngữ pháp HOÀN TOÀN ĐÚNG?",
-      "question": "Chủ điểm \"Bài 81: Câu Điều kiện Hỗn hợp (Mixed Conditionals: Past & Present Combinations)\": Chọn câu CHÍNH XÁC:",
+      "promptVi": "[Nhận diện cấu trúc chuẩn] Chọn câu có cấu trúc ngữ pháp HOÀN TOÀN ĐÚNG:",
+      "question": "Dựa vào chủ điểm \"Bài 81: Câu Điều kiện Hỗn hợp (Mixed Conditionals: Past & Present Combinations)\", câu nào sau đây CHÍNH XÁC?",
       "options": [
         "If I had taken his advice, I would be successful now.",
         "now. successful be would I advice, his taken had I If",
-        "If I had taken his advice, I would be successful now. (sai)",
-        "If I had taken his advice, I would be successful now. (sai)"
+        "are",
+        "is"
       ],
       "correctAnswer": "If I had taken his advice, I would be successful now.",
-      "explanationVi": "Câu chuẩn xác là: \"If I had taken his advice, I would be successful now.\" (Nếu tôi đã nghe lời khuyên của anh ấy, thì bây giờ tôi đã thành công rồi.)."
+      "explanationVi": "Cấu trúc chuẩn xác là: \"If I had taken his advice, I would be successful now.\" (Nếu tôi đã nghe lời khuyên của anh ấy, thì bây giờ tôi đã thành công rồi.)."
     },
     {
       "id": "ex-081-18",
       "type": "find_error",
-      "promptVi": "[Tìm lỗi sai & Chọn câu đúng] Câu nào dưới đây có cấu trúc ngữ pháp HOÀN TOÀN ĐÚNG?",
-      "question": "Chủ điểm \"Bài 81: Câu Điều kiện Hỗn hợp (Mixed Conditionals: Past & Present Combinations)\": Chọn câu CHÍNH XÁC:",
+      "promptVi": "[Nhận diện cấu trúc chuẩn] Chọn câu có cấu trúc ngữ pháp HOÀN TOÀN ĐÚNG:",
+      "question": "Dựa vào chủ điểm \"Bài 81: Câu Điều kiện Hỗn hợp (Mixed Conditionals: Past & Present Combinations)\", câu nào sau đây CHÍNH XÁC?",
       "options": [
+        "are",
         "If she spoke English, she would have got the job yesterday.",
         "yesterday. job the got have would she English, spoke she If",
-        "If she spoke English, she would have got the job yesterday. (sai)",
-        "If she spoke English, she would have got the job yesterday. (sai)"
+        "is"
       ],
       "correctAnswer": "If she spoke English, she would have got the job yesterday.",
-      "explanationVi": "Câu chuẩn xác là: \"If she spoke English, she would have got the job yesterday.\" (Nếu cô ấy biết nói tiếng Anh, hôm qua cô ấy đã nhận được công việc đó rồi.)."
+      "explanationVi": "Cấu trúc chuẩn xác là: \"If she spoke English, she would have got the job yesterday.\" (Nếu cô ấy biết nói tiếng Anh, hôm qua cô ấy đã nhận được công việc đó rồi.)."
     },
     {
       "id": "ex-081-19",
       "type": "find_error",
-      "promptVi": "[Tìm lỗi sai & Chọn câu đúng] Câu nào dưới đây có cấu trúc ngữ pháp HOÀN TOÀN ĐÚNG?",
-      "question": "Chủ điểm \"Bài 81: Câu Điều kiện Hỗn hợp (Mixed Conditionals: Past & Present Combinations)\": Chọn câu CHÍNH XÁC:",
+      "promptVi": "[Nhận diện cấu trúc chuẩn] Chọn câu có cấu trúc ngữ pháp HOÀN TOÀN ĐÚNG:",
+      "question": "Dựa vào chủ điểm \"Bài 81: Câu Điều kiện Hỗn hợp (Mixed Conditionals: Past & Present Combinations)\", câu nào sau đây CHÍNH XÁC?",
       "options": [
         "If we hadn't missed the train, we wouldn't be standing here in the rain.",
+        "is",
         "rain. the in here standing be wouldn't we train, the missed hadn't we If",
-        "If we hadn't missed the train, we wouldn't be standing here in the rain. (sai)",
-        "If we hadn't missed the train, we wouldn't be standing here in the rain. (sai)"
+        "If we hadn't missed the train, we wouldn't be standing here at the rain."
       ],
       "correctAnswer": "If we hadn't missed the train, we wouldn't be standing here in the rain.",
-      "explanationVi": "Câu chuẩn xác là: \"If we hadn't missed the train, we wouldn't be standing here in the rain.\" (Nếu chúng ta đã không lỡ chuyến tàu, chúng ta đã không phải đứng đây dưới mưa lúc này.)."
+      "explanationVi": "Cấu trúc chuẩn xác là: \"If we hadn't missed the train, we wouldn't be standing here in the rain.\" (Nếu chúng ta đã không lỡ chuyến tàu, chúng ta đã không phải đứng đây dưới mưa lúc này.)."
     },
     {
       "id": "ex-081-20",
       "type": "find_error",
-      "promptVi": "[Tìm lỗi sai & Chọn câu đúng] Câu nào dưới đây có cấu trúc ngữ pháp HOÀN TOÀN ĐÚNG?",
-      "question": "Chủ điểm \"Bài 81: Câu Điều kiện Hỗn hợp (Mixed Conditionals: Past & Present Combinations)\": Chọn câu CHÍNH XÁC:",
+      "promptVi": "[Nhận diện cấu trúc chuẩn] Chọn câu có cấu trúc ngữ pháp HOÀN TOÀN ĐÚNG:",
+      "question": "Dựa vào chủ điểm \"Bài 81: Câu Điều kiện Hỗn hợp (Mixed Conditionals: Past & Present Combinations)\", câu nào sau đây CHÍNH XÁC?",
       "options": [
-        "If he were more careful, he wouldn't have made that mistake.",
+        "is",
         "If he be more careful, he wouldn't have made that mistake.",
-        "If he are not is more careful, he wouldn't have made that mistake.",
-        "mistake. that made have wouldn't he careful, more were he If"
+        "mistake. that made have wouldn't he careful, more were he If",
+        "If he were more careful, he wouldn't have made that mistake."
       ],
       "correctAnswer": "If he were more careful, he wouldn't have made that mistake.",
-      "explanationVi": "Câu chuẩn xác là: \"If he were more careful, he wouldn't have made that mistake.\" (Nếu anh ấy là người cẩn thận hơn, anh ấy đã không mắc phải sai lầm đó.)."
+      "explanationVi": "Cấu trúc chuẩn xác là: \"If he were more careful, he wouldn't have made that mistake.\" (Nếu anh ấy là người cẩn thận hơn, anh ấy đã không mắc phải sai lầm đó.)."
     },
     {
       "id": "ex-081-21",
       "type": "listening_reflex",
-      "promptVi": "[Nghe phản xạ] Nghe câu phát âm tiếng Anh và chọn bản dịch tiếng Việt đúng nhất:",
+      "promptVi": "[Nghe phản xạ] Nghe câu phát âm tiếng Anh và chọn bản dịch tiếng Việt đúng:",
       "audioPrompt": "Good morning, Elena. How are you adapting to your new role as senior portfolio manager?",
-      "question": "Nhấn nút '🔊 Nghe audio' để nghe câu thoại và chọn nghĩa đúng:",
+      "question": "Nhấn nút '🔊 Nghe audio' và chọn nghĩa tiếng Việt đúng:",
       "options": [
-        "Chào buổi sáng Elena. Bạn thích nghi thế nào với vai trò mới là giám đốc danh mục đầu tư cấp cao?",
         "Rất nhiều thử thách! Nếu năm ngoái tôi chấp nhận học bổng ngân hàng ở nước ngoài đó, thì bây giờ tôi đang làm việc ở Luân Đôn rồi. (If had accepted -> would be working now)",
         "Nếu bạn không quá tài năng về phân tích dữ liệu như hiện tại, thì hội đồng quản trị đã không thăng chức cho bạn vào tháng trước rồi. (If weren't talented -> wouldn't have promoted)",
-        "Ngày mai trời sẽ mưa to."
+        "Hôm nay thời tiết rất đẹp.",
+        "Chào buổi sáng Elena. Bạn thích nghi thế nào với vai trò mới là giám đốc danh mục đầu tư cấp cao?"
       ],
       "correctAnswer": "Chào buổi sáng Elena. Bạn thích nghi thế nào với vai trò mới là giám đốc danh mục đầu tư cấp cao?",
       "explanationVi": "Câu nghe được: \"Good morning, Elena. How are you adapting to your new role as senior portfolio manager?\" có nghĩa là: \"Chào buổi sáng Elena. Bạn thích nghi thế nào với vai trò mới là giám đốc danh mục đầu tư cấp cao?\"."
@@ -345,14 +351,14 @@
     {
       "id": "ex-081-22",
       "type": "listening_reflex",
-      "promptVi": "[Nghe phản xạ] Nghe câu phát âm tiếng Anh và chọn bản dịch tiếng Việt đúng nhất:",
+      "promptVi": "[Nghe phản xạ] Nghe câu phát âm tiếng Anh và chọn bản dịch tiếng Việt đúng:",
       "audioPrompt": "It is challenging! If I had accepted that overseas banking fellowship last year, I would be working in London now.",
-      "question": "Nhấn nút '🔊 Nghe audio' để nghe câu thoại và chọn nghĩa đúng:",
+      "question": "Nhấn nút '🔊 Nghe audio' và chọn nghĩa tiếng Việt đúng:",
       "options": [
-        "Rất nhiều thử thách! Nếu năm ngoái tôi chấp nhận học bổng ngân hàng ở nước ngoài đó, thì bây giờ tôi đang làm việc ở Luân Đôn rồi. (If had accepted -> would be working now)",
         "Nếu bạn không quá tài năng về phân tích dữ liệu như hiện tại, thì hội đồng quản trị đã không thăng chức cho bạn vào tháng trước rồi. (If weren't talented -> wouldn't have promoted)",
         "Cảm ơn Arthur. Nếu đội ngũ phân tích của chúng ta không phát hiện sớm đợt sụp đổ thị trường, thì hôm nay chúng ta đã phá sản rồi. (If hadn't detected -> would be bankrupt today)",
-        "Ngày mai trời sẽ mưa to."
+        "Rất nhiều thử thách! Nếu năm ngoái tôi chấp nhận học bổng ngân hàng ở nước ngoài đó, thì bây giờ tôi đang làm việc ở Luân Đôn rồi. (If had accepted -> would be working now)",
+        "Hôm nay thời tiết rất đẹp."
       ],
       "correctAnswer": "Rất nhiều thử thách! Nếu năm ngoái tôi chấp nhận học bổng ngân hàng ở nước ngoài đó, thì bây giờ tôi đang làm việc ở Luân Đôn rồi. (If had accepted -> would be working now)",
       "explanationVi": "Câu nghe được: \"It is challenging! If I had accepted that overseas banking fellowship last year, I would be working in London now.\" có nghĩa là: \"Rất nhiều thử thách! Nếu năm ngoái tôi chấp nhận học bổng ngân hàng ở nước ngoài đó, thì bây giờ tôi đang làm việc ở Luân Đôn rồi. (If had accepted -> would be working now)\"."
@@ -360,14 +366,14 @@
     {
       "id": "ex-081-23",
       "type": "listening_reflex",
-      "promptVi": "[Nghe phản xạ] Nghe câu phát âm tiếng Anh và chọn bản dịch tiếng Việt đúng nhất:",
+      "promptVi": "[Nghe phản xạ] Nghe câu phát âm tiếng Anh và chọn bản dịch tiếng Việt đúng:",
       "audioPrompt": "If you weren't so exceptionally talented in data analytics, the board wouldn't have promoted you last month.",
-      "question": "Nhấn nút '🔊 Nghe audio' để nghe câu thoại và chọn nghĩa đúng:",
+      "question": "Nhấn nút '🔊 Nghe audio' và chọn nghĩa tiếng Việt đúng:",
       "options": [
         "Nếu bạn không quá tài năng về phân tích dữ liệu như hiện tại, thì hội đồng quản trị đã không thăng chức cho bạn vào tháng trước rồi. (If weren't talented -> wouldn't have promoted)",
-        "Cảm ơn Arthur. Nếu đội ngũ phân tích của chúng ta không phát hiện sớm đợt sụp đổ thị trường, thì hôm nay chúng ta đã phá sản rồi. (If hadn't detected -> would be bankrupt today)",
         "Nếu công ty chúng ta có quy mô lớn hơn (thực tế hiện tại không lớn), chúng ta đã thâu tóm ba công ty khởi nghiệp công nghệ tài chính đối thủ vào quý trước rồi. (If were -> would have acquired)",
-        "Ngày mai trời sẽ mưa to."
+        "Hôm nay thời tiết rất đẹp.",
+        "Cảm ơn Arthur. Nếu đội ngũ phân tích của chúng ta không phát hiện sớm đợt sụp đổ thị trường, thì hôm nay chúng ta đã phá sản rồi. (If hadn't detected -> would be bankrupt today)"
       ],
       "correctAnswer": "Nếu bạn không quá tài năng về phân tích dữ liệu như hiện tại, thì hội đồng quản trị đã không thăng chức cho bạn vào tháng trước rồi. (If weren't talented -> wouldn't have promoted)",
       "explanationVi": "Câu nghe được: \"If you weren't so exceptionally talented in data analytics, the board wouldn't have promoted you last month.\" có nghĩa là: \"Nếu bạn không quá tài năng về phân tích dữ liệu như hiện tại, thì hội đồng quản trị đã không thăng chức cho bạn vào tháng trước rồi. (If weren't talented -> wouldn't have promoted)\"."
@@ -375,14 +381,14 @@
     {
       "id": "ex-081-24",
       "type": "listening_reflex",
-      "promptVi": "[Nghe phản xạ] Nghe câu phát âm tiếng Anh và chọn bản dịch tiếng Việt đúng nhất:",
+      "promptVi": "[Nghe phản xạ] Nghe câu phát âm tiếng Anh và chọn bản dịch tiếng Việt đúng:",
       "audioPrompt": "Thank you, Arthur. If our analytics team hadn't detected the market crash early, we would be bankrupt today.",
-      "question": "Nhấn nút '🔊 Nghe audio' để nghe câu thoại và chọn nghĩa đúng:",
+      "question": "Nhấn nút '🔊 Nghe audio' và chọn nghĩa tiếng Việt đúng:",
       "options": [
-        "Cảm ơn Arthur. Nếu đội ngũ phân tích của chúng ta không phát hiện sớm đợt sụp đổ thị trường, thì hôm nay chúng ta đã phá sản rồi. (If hadn't detected -> would be bankrupt today)",
+        "Hôm nay thời tiết rất đẹp.",
         "Nếu công ty chúng ta có quy mô lớn hơn (thực tế hiện tại không lớn), chúng ta đã thâu tóm ba công ty khởi nghiệp công nghệ tài chính đối thủ vào quý trước rồi. (If were -> would have acquired)",
         "Nếu tối qua tôi ngủ ngon hơn, tôi đã không cảm thấy kiệt sức đến thế trong buổi kiểm toán tài chính sáng nay. (If had slept -> wouldn't feel exhausted)",
-        "Ngày mai trời sẽ mưa to."
+        "Cảm ơn Arthur. Nếu đội ngũ phân tích của chúng ta không phát hiện sớm đợt sụp đổ thị trường, thì hôm nay chúng ta đã phá sản rồi. (If hadn't detected -> would be bankrupt today)"
       ],
       "correctAnswer": "Cảm ơn Arthur. Nếu đội ngũ phân tích của chúng ta không phát hiện sớm đợt sụp đổ thị trường, thì hôm nay chúng ta đã phá sản rồi. (If hadn't detected -> would be bankrupt today)",
       "explanationVi": "Câu nghe được: \"Thank you, Arthur. If our analytics team hadn't detected the market crash early, we would be bankrupt today.\" có nghĩa là: \"Cảm ơn Arthur. Nếu đội ngũ phân tích của chúng ta không phát hiện sớm đợt sụp đổ thị trường, thì hôm nay chúng ta đã phá sản rồi. (If hadn't detected -> would be bankrupt today)\"."
@@ -390,64 +396,68 @@
     {
       "id": "ex-081-25",
       "type": "speaking_practice",
-      "promptVi": "[Luyện nói qua Micro] Nhấn nút '🎙️ Bắt đầu nói' và đọc to, rõ ràng câu tiếng Anh sau:",
+      "promptVi": "[Luyện nói qua Micro] Nhấn nút 'Bấm để Nói ngay' và phát âm câu sau:",
+      "question": "Luyện phát âm chuẩn câu: \"If I had taken his advice, I would be successful now.\" (Nếu tôi đã nghe lời khuyên của anh ấy, thì bây giờ tôi đã thành công rồi.)",
       "targetSentence": "If I had taken his advice, I would be successful now.",
       "hintVi": "Nếu tôi đã nghe lời khuyên của anh ấy, thì bây giờ tôi đã thành công rồi.",
-      "explanationVi": "Câu mục tiêu: \"If I had taken his advice, I would be successful now.\" (Nếu tôi đã nghe lời khuyên của anh ấy, thì bây giờ tôi đã thành công rồi.). Luyện phát âm chuẩn xác từng âm tiết và ngữ điệu tự nhiên."
+      "explanationVi": "Mẫu câu chuẩn: \"If I had taken his advice, I would be successful now.\" (Nếu tôi đã nghe lời khuyên của anh ấy, thì bây giờ tôi đã thành công rồi.). Luyện phát âm rõ ràng từng từ."
     },
     {
       "id": "ex-081-26",
       "type": "speaking_practice",
-      "promptVi": "[Luyện nói qua Micro] Nhấn nút '🎙️ Bắt đầu nói' và đọc to, rõ ràng câu tiếng Anh sau:",
+      "promptVi": "[Luyện nói qua Micro] Nhấn nút 'Bấm để Nói ngay' và phát âm câu sau:",
+      "question": "Luyện phát âm chuẩn câu: \"If she spoke English, she would have got the job yesterday.\" (Nếu cô ấy biết nói tiếng Anh, hôm qua cô ấy đã nhận được công việc đó rồi.)",
       "targetSentence": "If she spoke English, she would have got the job yesterday.",
       "hintVi": "Nếu cô ấy biết nói tiếng Anh, hôm qua cô ấy đã nhận được công việc đó rồi.",
-      "explanationVi": "Câu mục tiêu: \"If she spoke English, she would have got the job yesterday.\" (Nếu cô ấy biết nói tiếng Anh, hôm qua cô ấy đã nhận được công việc đó rồi.). Luyện phát âm chuẩn xác từng âm tiết và ngữ điệu tự nhiên."
+      "explanationVi": "Mẫu câu chuẩn: \"If she spoke English, she would have got the job yesterday.\" (Nếu cô ấy biết nói tiếng Anh, hôm qua cô ấy đã nhận được công việc đó rồi.). Luyện phát âm rõ ràng từng từ."
     },
     {
       "id": "ex-081-27",
       "type": "speaking_practice",
-      "promptVi": "[Luyện nói qua Micro] Nhấn nút '🎙️ Bắt đầu nói' và đọc to, rõ ràng câu tiếng Anh sau:",
+      "promptVi": "[Luyện nói qua Micro] Nhấn nút 'Bấm để Nói ngay' và phát âm câu sau:",
+      "question": "Luyện phát âm chuẩn câu: \"If we hadn't missed the train, we wouldn't be standing here in the rain.\" (Nếu chúng ta đã không lỡ chuyến tàu, chúng ta đã không phải đứng đây dưới mưa lúc này.)",
       "targetSentence": "If we hadn't missed the train, we wouldn't be standing here in the rain.",
       "hintVi": "Nếu chúng ta đã không lỡ chuyến tàu, chúng ta đã không phải đứng đây dưới mưa lúc này.",
-      "explanationVi": "Câu mục tiêu: \"If we hadn't missed the train, we wouldn't be standing here in the rain.\" (Nếu chúng ta đã không lỡ chuyến tàu, chúng ta đã không phải đứng đây dưới mưa lúc này.). Luyện phát âm chuẩn xác từng âm tiết và ngữ điệu tự nhiên."
+      "explanationVi": "Mẫu câu chuẩn: \"If we hadn't missed the train, we wouldn't be standing here in the rain.\" (Nếu chúng ta đã không lỡ chuyến tàu, chúng ta đã không phải đứng đây dưới mưa lúc này.). Luyện phát âm rõ ràng từng từ."
     },
     {
       "id": "ex-081-28",
       "type": "speaking_practice",
-      "promptVi": "[Luyện nói qua Micro] Nhấn nút '🎙️ Bắt đầu nói' và đọc to, rõ ràng câu tiếng Anh sau:",
+      "promptVi": "[Luyện nói qua Micro] Nhấn nút 'Bấm để Nói ngay' và phát âm câu sau:",
+      "question": "Luyện phát âm chuẩn câu: \"If he were more careful, he wouldn't have made that mistake.\" (Nếu anh ấy là người cẩn thận hơn, anh ấy đã không mắc phải sai lầm đó.)",
       "targetSentence": "If he were more careful, he wouldn't have made that mistake.",
       "hintVi": "Nếu anh ấy là người cẩn thận hơn, anh ấy đã không mắc phải sai lầm đó.",
-      "explanationVi": "Câu mục tiêu: \"If he were more careful, he wouldn't have made that mistake.\" (Nếu anh ấy là người cẩn thận hơn, anh ấy đã không mắc phải sai lầm đó.). Luyện phát âm chuẩn xác từng âm tiết và ngữ điệu tự nhiên."
+      "explanationVi": "Mẫu câu chuẩn: \"If he were more careful, he wouldn't have made that mistake.\" (Nếu anh ấy là người cẩn thận hơn, anh ấy đã không mắc phải sai lầm đó.). Luyện phát âm rõ ràng từng từ."
     },
     {
       "id": "ex-081-29",
       "type": "reading_comprehension",
-      "promptVi": "[Đọc hiểu đoạn văn 1] Đọc đoạn hội thoại mở đầu sau và trả lời câu hỏi:",
-      "passage": "Arthur (Nam): \"Good morning, Elena. How are you adapting to your new role as senior portfolio manager?\"\nElena (Nữ): \"It is challenging! If I had accepted that overseas banking fellowship last year, I would be working in London now.\"\nArthur (Nam): \"If you weren't so exceptionally talented in data analytics, the board wouldn't have promoted you last month.\"\nElena (Nữ): \"Thank you, Arthur. If our analytics team hadn't detected the market crash early, we would be bankrupt today.\"",
-      "question": "Câu hỏi: Trong đoạn hội thoại trên, các nhân vật đang thảo luận về chủ đề gì?",
+      "promptVi": "[Đọc hiểu đoạn văn] Đọc đoạn hội thoại sau và trả lời câu hỏi:",
+      "passage": "Arthur: \"Good morning, Elena. How are you adapting to your new role as senior portfolio manager?\"\nElena: \"It is challenging! If I had accepted that overseas banking fellowship last year, I would be working in London now.\"\nArthur: \"If you weren't so exceptionally talented in data analytics, the board wouldn't have promoted you last month.\"\nElena: \"Thank you, Arthur. If our analytics team hadn't detected the market crash early, we would be bankrupt today.\"",
+      "question": "Chủ đề trọng tâm của đoạn hội thoại trên là gì?",
       "options": [
+        "Cách làm món ăn truyền thống",
+        "Lịch trình đi du lịch nghỉ mát cuối tuần",
         "Câu Điều kiện Hỗn hợp (Mixed Conditionals: Past & Present Combinations)",
-        "Kế hoạch đi nghỉ dưỡng cuối tuần ở bãi biển",
-        "Mua sắm quần áo và đồ dùng thể thao",
-        "Cách làm món ăn truyền thống gia đình"
+        "Kế hoạch đi mua sắm tại siêu thị"
       ],
       "correctAnswer": "Câu Điều kiện Hỗn hợp (Mixed Conditionals: Past & Present Combinations)",
-      "explanationVi": "Đoạn hội thoại mở đầu được thiết kế để minh họa trực tiếp cho chủ điểm ngữ pháp: \"Bài 81: Câu Điều kiện Hỗn hợp (Mixed Conditionals: Past & Present Combinations)\"."
+      "explanationVi": "Đoạn hội thoại được thiết kế để minh họa trực tiếp cho chủ điểm \"Bài 81: Câu Điều kiện Hỗn hợp (Mixed Conditionals: Past & Present Combinations)\"."
     },
     {
       "id": "ex-081-30",
       "type": "reading_comprehension",
-      "promptVi": "[Đọc hiểu đoạn văn 2] Đọc phần tiếp theo của đoạn hội thoại và chọn nhận định đúng:",
-      "passage": "Arthur (Nam): \"If our company were larger, we would have acquired three competing fintech startups last quarter.\"\nElena (Nữ): \"If I had slept better last night, I wouldn't feel so exhausted during this morning's financial audit.\"\nArthur (Nam): \"Did you take any refresher courses in algorithmic trading strategies?\"\nElena (Nữ): \"If I didn't love financial technology so much, I wouldn't have enrolled in that rigorous master's program.\"",
-      "question": "Nhận định nào sau đây là ĐÚNG với nội dung đoạn hội thoại trên?",
+      "promptVi": "[Đọc hiểu đoạn văn] Đọc đoạn đối thoại tiếp theo và chọn nhận định đúng:",
+      "passage": "Arthur: \"If our company were larger, we would have acquired three competing fintech startups last quarter.\"\nElena: \"If I had slept better last night, I wouldn't feel so exhausted during this morning's financial audit.\"\nArthur: \"Did you take any refresher courses in algorithmic trading strategies?\"\nElena: \"If I didn't love financial technology so much, I wouldn't have enrolled in that rigorous master's program.\"",
+      "question": "Nhận định nào sau đây là ĐÚNG về nội dung đoạn đối thoại?",
       "options": [
-        "Các câu hội thoại sử dụng đúng cấu trúc ngữ pháp \"Bài 81: Câu Điều kiện Hỗn hợp (Mixed Conditionals: Past & Present Combinations)\".",
-        "Các nhân vật không hiểu ý nhau và từ chối nói chuyện.",
-        "Đoạn hội thoại nói về việc chuyển nhà sang thành phố khác.",
-        "Cả hai nhân vật đều đang ở sân bay chuẩn bị lên máy bay."
+        "Các câu thoại sử dụng đúng cấu trúc \"Câu Điều kiện Hỗn hợp (Mixed Conditionals: Past & Present Combinations)\".",
+        "Hai nhân vật đang cãi nhau và không đồng ý hợp tác.",
+        "Cuộc trò chuyện diễn ra tại nhà ga xe lửa.",
+        "Cả hai nhân vật đang thảo luận về thời tiết ngày mai."
       ],
-      "correctAnswer": "Các câu hội thoại sử dụng đúng cấu trúc ngữ pháp \"Bài 81: Câu Điều kiện Hỗn hợp (Mixed Conditionals: Past & Present Combinations)\".",
-      "explanationVi": "Đoạn hội thoại thứ hai tiếp tục củng cố và ứng dụng các quy tắc ngữ pháp của \"Bài 81: Câu Điều kiện Hỗn hợp (Mixed Conditionals: Past & Present Combinations)\"."
+      "correctAnswer": "Các câu thoại sử dụng đúng cấu trúc \"Câu Điều kiện Hỗn hợp (Mixed Conditionals: Past & Present Combinations)\".",
+      "explanationVi": "Đoạn đối thoại ứng dụng chuẩn xác ngữ pháp của \"Bài 81: Câu Điều kiện Hỗn hợp (Mixed Conditionals: Past & Present Combinations)\"."
     }
   ]
 }

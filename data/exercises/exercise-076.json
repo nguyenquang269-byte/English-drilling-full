@@ -7,13 +7,13 @@
     {
       "id": "ex-076-01",
       "type": "multiple_choice",
-      "promptVi": "[Trắc nghiệm] Chọn từ/cụm từ đúng để hoàn thành câu (Chính là mẹ tôi - người đã dạy tôi cách nấu ăn.):",
+      "promptVi": "[Trắc nghiệm ngữ pháp] Chọn từ đúng để hoàn thành câu (Chính là mẹ tôi - người đã dạy tôi cách nấu ăn.):",
       "question": "___ my mother who taught me how to cook.",
       "options": [
-        "It was",
-        "It is",
         "She was",
-        "That was"
+        "That was",
+        "It was",
+        "It is"
       ],
       "correctAnswer": "It was",
       "explanationVi": "'taught' ở quá khứ nên dùng 'It was'."
@@ -21,13 +21,13 @@
     {
       "id": "ex-076-02",
       "type": "multiple_choice",
-      "promptVi": "[Trắc nghiệm] Chọn từ/cụm từ đúng để hoàn thành câu (Tôi thực sự đã gọi cho bạn hôm qua, nhưng bạn không nghe máy.):",
+      "promptVi": "[Trắc nghiệm ngữ pháp] Chọn từ đúng để hoàn thành câu (Tôi thực sự đã gọi cho bạn hôm qua, nhưng bạn không nghe máy.):",
       "question": "I ___ call you yesterday, but you didn't answer.",
       "options": [
+        "had",
         "did",
         "do",
-        "have",
-        "had"
+        "have"
       ],
       "correctAnswer": "did",
       "explanationVi": "Dùng 'did + V-inf' (did call) để nhấn mạnh sự việc đã xảy ra trong quá khứ."
@@ -35,13 +35,13 @@
     {
       "id": "ex-076-03",
       "type": "multiple_choice",
-      "promptVi": "[Trắc nghiệm] Chọn từ/cụm từ đúng để hoàn thành câu (Điều mà tôi thực sự cần chính là một giấc ngủ ngon.):",
+      "promptVi": "[Trắc nghiệm ngữ pháp] Chọn từ đúng để hoàn thành câu (Điều mà tôi thực sự cần chính là một giấc ngủ ngon.):",
       "question": "___ I really need is a good night's sleep.",
       "options": [
-        "What",
         "That",
-        "Which",
-        "Who"
+        "Who",
+        "What",
+        "Which"
       ],
       "correctAnswer": "What",
       "explanationVi": "Mệnh đề danh ngữ nhấn mạnh bắt đầu bằng 'What'."
@@ -49,7 +49,7 @@
     {
       "id": "ex-076-04",
       "type": "multiple_choice",
-      "promptVi": "[Trắc nghiệm] Chọn từ/cụm từ đúng để hoàn thành câu (Xin mời bạn hãy vào nhà và ngồi xuống!):",
+      "promptVi": "[Trắc nghiệm ngữ pháp] Chọn từ đúng để hoàn thành câu (Xin mời bạn hãy vào nhà và ngồi xuống!):",
       "question": "___ come in and have a seat!",
       "options": [
         "Do",
@@ -63,115 +63,117 @@
     {
       "id": "ex-076-05",
       "type": "multiple_choice",
-      "promptVi": "[Trắc nghiệm] Dịch câu sau sang tiếng Anh: \"Chào buổi sáng các nhà báo! Hôm nay, chúng ta tôn vinh một đột phá vĩ đại trong công nghệ sinh học tim mạch.\"",
-      "question": "Chọn bản dịch chuẩn xác cho câu: \"Chào buổi sáng các nhà báo! Hôm nay, chúng ta tôn vinh một đột phá vĩ đại trong công nghệ sinh học tim mạch.\"",
+      "promptVi": "[Phản xạ dịch thuật] Dịch câu sau sang tiếng Anh: \"Chào buổi sáng các nhà báo! Hôm nay, chúng ta tôn vinh một đột phá vĩ đại trong công nghệ sinh học tim mạch.\"",
+      "question": "Chọn bản dịch chuẩn xác nhất cho câu: \"Chào buổi sáng các nhà báo! Hôm nay, chúng ta tôn vinh một đột phá vĩ đại trong công nghệ sinh học tim mạch.\"",
       "options": [
         "Good morning, journalists! Today, we celebrate a monumental breakthrough in cardiovascular biotechnology.",
-        "Good morning, journalists! Today, we celebrate a monumental breakthrough in cardiovascular biotechnology.",
+        "is",
         "It was Dr. Emily Watson who discovered the miraculous cardiac cell regeneration protein.",
-        "I want to go to the park now."
+        "We are studying English today."
       ],
       "correctAnswer": "Good morning, journalists! Today, we celebrate a monumental breakthrough in cardiovascular biotechnology.",
-      "explanationVi": "Câu đúng là \"Good morning, journalists! Today, we celebrate a monumental breakthrough in cardiovascular biotechnology.\" (Chào buổi sáng các nhà báo! Hôm nay, chúng ta tôn vinh một đột phá vĩ đại trong công nghệ sinh học tim mạch.)."
+      "explanationVi": "Câu dịch chuẩn xác: \"Good morning, journalists! Today, we celebrate a monumental breakthrough in cardiovascular biotechnology.\" (Chào buổi sáng các nhà báo! Hôm nay, chúng ta tôn vinh một đột phá vĩ đại trong công nghệ sinh học tim mạch.)."
     },
     {
       "id": "ex-076-06",
       "type": "multiple_choice",
-      "promptVi": "[Trắc nghiệm] Chọn câu trả lời hoặc cách diễn đạt phù hợp:",
-      "question": "Trong ngữ cảnh giao tiếp: \"Good morning, journalists! Today, we celebrate a monumental breakthrough in cardiovascular biotechnology.\", câu phản hồi tự nhiên là gì?",
+      "promptVi": "[Ngữ cảnh giao tiếp] Chọn câu phản hồi tự nhiên và đúng ngữ pháp:",
+      "question": "Khi đối phương nói: \"Good morning, journalists! Today, we celebrate a monumental breakthrough in cardiovascular biotechnology.\", câu phản hồi phù hợp là gì?",
       "options": [
+        "Yes, I will eat it.",
+        "They are not in the office.",
         "It was Dr. Emily Watson who discovered the miraculous cardiac cell regeneration protein.",
-        "No, it is yesterday morning.",
-        "Yes, I will eat apple.",
-        "They are not at the library."
+        "No, it was yesterday."
       ],
       "correctAnswer": "It was Dr. Emily Watson who discovered the miraculous cardiac cell regeneration protein.",
-      "explanationVi": "Phản hồi phù hợp: \"It was Dr. Emily Watson who discovered the miraculous cardiac cell regeneration protein.\" (Chính là Tiến sĩ Emily Watson - người đã phát hiện ra loại protein tái tạo tế bào tim kỳ diệu này. (It was... who...))."
+      "explanationVi": "Phản hồi phù hợp trong bài: \"It was Dr. Emily Watson who discovered the miraculous cardiac cell regeneration protein.\" (Chính là Tiến sĩ Emily Watson - người đã phát hiện ra loại protein tái tạo tế bào tim kỳ diệu này. (It was... who...))."
     },
     {
       "id": "ex-076-07",
       "type": "fill_blank",
-      "promptVi": "[Điền từ - (Dạng khẳng định)] Điền dạng đúng của động từ vào ô trống (Chính là mẹ tôi - người đã dạy tôi cách nấu ăn.):",
+      "promptVi": "[Điền từ - Dạng KHẲNG ĐỊNH] Điền từ còn thiếu vào ô trống (Chính là mẹ tôi - người đã dạy tôi cách nấu ăn.):",
       "question": "___ my mother who taught me how to cook.",
       "correctAnswer": "It was",
       "options": [
-        "It was",
-        "It is",
+        "That was",
         "She was",
-        "That was"
+        "It is",
+        "It was"
       ],
-      "explanationVi": "Đáp án chính xác: \"It was\". Chính là mẹ tôi - người đã dạy tôi cách nấu ăn.."
+      "explanationVi": "Đáp án đúng là \"It was\". Câu hoàn chỉnh: \"It was my mother who taught me how to cook.\" (Chính là mẹ tôi - người đã dạy tôi cách nấu ăn.)."
     },
     {
       "id": "ex-076-08",
       "type": "fill_blank",
-      "promptVi": "[Điền từ - (Dạng phủ định)] Điền dạng đúng của động từ vào ô trống (Tôi thực sự đã gọi cho bạn hôm qua, nhưng bạn không nghe máy.):",
+      "promptVi": "[Điền từ - Dạng PHỦ ĐỊNH] Điền từ còn thiếu vào ô trống (Tôi thực sự đã gọi cho bạn hôm qua, nhưng bạn không nghe máy.):",
       "question": "I ___ call you yesterday, but you didn't answer.",
       "correctAnswer": "did",
       "options": [
-        "did",
         "do",
-        "have",
-        "had"
+        "did",
+        "had",
+        "have"
       ],
-      "explanationVi": "Đáp án chính xác: \"did\". Tôi thực sự đã gọi cho bạn hôm qua, nhưng bạn không nghe máy.."
+      "explanationVi": "Đáp án đúng là \"did\". Câu hoàn chỉnh: \"I did call you yesterday, but you didn't answer.\" (Tôi thực sự đã gọi cho bạn hôm qua, nhưng bạn không nghe máy.)."
     },
     {
       "id": "ex-076-09",
       "type": "fill_blank",
-      "promptVi": "[Điền từ - (Dạng khẳng định)] Điền dạng đúng của động từ vào ô trống (Điều mà tôi thực sự cần chính là một giấc ngủ ngon.):",
+      "promptVi": "[Điền từ - Dạng KHẲNG ĐỊNH] Điền từ còn thiếu vào ô trống (Điều mà tôi thực sự cần chính là một giấc ngủ ngon.):",
       "question": "___ I really need is a good night's sleep.",
       "correctAnswer": "What",
       "options": [
-        "What",
         "That",
-        "Which",
-        "Who"
+        "What",
+        "Who",
+        "Which"
       ],
-      "explanationVi": "Đáp án chính xác: \"What\". Điều mà tôi thực sự cần chính là một giấc ngủ ngon.."
+      "explanationVi": "Đáp án đúng là \"What\". Câu hoàn chỉnh: \"What I really need is a good night's sleep.\" (Điều mà tôi thực sự cần chính là một giấc ngủ ngon.)."
     },
     {
       "id": "ex-076-10",
       "type": "fill_blank",
-      "promptVi": "[Điền từ - (Dạng khẳng định)] Điền dạng đúng của động từ vào ô trống (Xin mời bạn hãy vào nhà và ngồi xuống!):",
+      "promptVi": "[Điền từ - Dạng KHẲNG ĐỊNH] Điền từ còn thiếu vào ô trống (Xin mời bạn hãy vào nhà và ngồi xuống!):",
       "question": "___ come in and have a seat!",
       "correctAnswer": "Do",
       "options": [
-        "Do",
-        "Did",
         "Does",
+        "Did",
+        "Do",
         "Please to"
       ],
-      "explanationVi": "Đáp án chính xác: \"Do\". Xin mời bạn hãy vào nhà và ngồi xuống!."
+      "explanationVi": "Đáp án đúng là \"Do\". Câu hoàn chỉnh: \"Do come in and have a seat!\" (Xin mời bạn hãy vào nhà và ngồi xuống!)."
     },
     {
       "id": "ex-076-11",
       "type": "fill_blank",
-      "promptVi": "[Điền từ - Dạng PHỦ ĐỊNH] Hoàn thành câu phủ định sau:",
-      "correctAnswer": "It was not my mother who taught me how to cook.",
+      "promptVi": "[Điền từ - Dạng PHỦ ĐỊNH] Điền trợ động từ/động từ tobe phủ định vào chỗ trống:",
+      "question": "It _____ not my mother who taught me how to cook.",
+      "correctAnswer": "was",
       "options": [
-        "It was not my mother who taught me how to cook.",
-        "It was my mother who taught me how to cook.",
-        "Not It was my mother who taught me how to cook.",
-        "It was my mother who taught me how to cook. no"
+        "was",
+        "am",
+        "are",
+        "is"
       ],
-      "explanationVi": "Dạng phủ định chuẩn: Thêm 'not' sau động từ chính."
+      "explanationVi": "Câu phủ định hoàn chỉnh: \"It was not my mother who taught me how to cook.\"."
     },
     {
       "id": "ex-076-12",
       "type": "sentence_scramble",
-      "promptVi": "[Sắp xếp câu] Xếp các khối từ thành câu hoàn chỉnh mang nghĩa: \"Chính là mẹ tôi - người đã dạy tôi cách nấu ăn.\"",
+      "promptVi": "[Sắp xếp câu] Ghép các khối từ thành câu hoàn chỉnh mang nghĩa: \"Chính là mẹ tôi - người đã dạy tôi cách nấu ăn.\"",
+      "question": "Sắp xếp các từ để tạo thành câu đúng: \"Chính là mẹ tôi - người đã dạy tôi cách nấu ăn.\"",
       "words": [
-        "how",
-        "It",
-        "my",
-        "to",
-        "mother",
-        "taught",
-        "cook.",
         "who",
+        "taught",
+        "mother",
         "me",
-        "was"
+        "It",
+        "to",
+        "my",
+        "how",
+        "was",
+        "cook."
       ],
       "correctSentence": "It was my mother who taught me how to cook.",
       "hintVi": "Chính là mẹ tôi - người đã dạy tôi cách nấu ăn.",
@@ -180,17 +182,18 @@
     {
       "id": "ex-076-13",
       "type": "sentence_scramble",
-      "promptVi": "[Sắp xếp câu] Xếp các khối từ thành câu hoàn chỉnh mang nghĩa: \"Tôi thực sự đã gọi cho bạn hôm qua, nhưng bạn không nghe máy.\"",
+      "promptVi": "[Sắp xếp câu] Ghép các khối từ thành câu hoàn chỉnh mang nghĩa: \"Tôi thực sự đã gọi cho bạn hôm qua, nhưng bạn không nghe máy.\"",
+      "question": "Sắp xếp các từ để tạo thành câu đúng: \"Tôi thực sự đã gọi cho bạn hôm qua, nhưng bạn không nghe máy.\"",
       "words": [
         "you",
-        "I",
-        "yesterday,",
-        "you",
-        "did",
         "didn't",
-        "call",
+        "I",
+        "you",
+        "answer.",
         "but",
-        "answer."
+        "call",
+        "yesterday,",
+        "did"
       ],
       "correctSentence": "I did call you yesterday, but you didn't answer.",
       "hintVi": "Tôi thực sự đã gọi cho bạn hôm qua, nhưng bạn không nghe máy.",
@@ -199,17 +202,18 @@
     {
       "id": "ex-076-14",
       "type": "sentence_scramble",
-      "promptVi": "[Sắp xếp câu] Xếp các khối từ thành câu hoàn chỉnh mang nghĩa: \"Điều mà tôi thực sự cần chính là một giấc ngủ ngon.\"",
+      "promptVi": "[Sắp xếp câu] Ghép các khối từ thành câu hoàn chỉnh mang nghĩa: \"Điều mà tôi thực sự cần chính là một giấc ngủ ngon.\"",
+      "question": "Sắp xếp các từ để tạo thành câu đúng: \"Điều mà tôi thực sự cần chính là một giấc ngủ ngon.\"",
       "words": [
-        "I",
         "sleep.",
+        "really",
+        "is",
         "night's",
+        "I",
         "need",
-        "a",
         "good",
         "What",
-        "really",
-        "is"
+        "a"
       ],
       "correctSentence": "What I really need is a good night's sleep.",
       "hintVi": "Điều mà tôi thực sự cần chính là một giấc ngủ ngon.",
@@ -218,15 +222,16 @@
     {
       "id": "ex-076-15",
       "type": "sentence_scramble",
-      "promptVi": "[Sắp xếp câu] Xếp các khối từ thành câu hoàn chỉnh mang nghĩa: \"Xin mời bạn hãy vào nhà và ngồi xuống!\"",
+      "promptVi": "[Sắp xếp câu] Ghép các khối từ thành câu hoàn chỉnh mang nghĩa: \"Xin mời bạn hãy vào nhà và ngồi xuống!\"",
+      "question": "Sắp xếp các từ để tạo thành câu đúng: \"Xin mời bạn hãy vào nhà và ngồi xuống!\"",
       "words": [
-        "a",
-        "have",
-        "and",
         "come",
+        "and",
+        "have",
         "Do",
-        "seat!",
-        "in"
+        "in",
+        "a",
+        "seat!"
       ],
       "correctSentence": "Do come in and have a seat!",
       "hintVi": "Xin mời bạn hãy vào nhà và ngồi xuống!",
@@ -235,23 +240,24 @@
     {
       "id": "ex-076-16",
       "type": "sentence_scramble",
-      "promptVi": "[Sắp xếp câu] Xếp các từ thành câu hội thoại: \"Phòng thí nghiệm của các vị có gặp phải sự phản đối dữ dội khi lần đầu công bố bài báo thử nghiệm lâm sàng ban đầu không?\"",
+      "promptVi": "[Sắp xếp câu] Ghép các từ thành câu hội thoại: \"Phòng thí nghiệm của các vị có gặp phải sự phản đối dữ dội khi lần đầu công bố bài báo thử nghiệm lâm sàng ban đầu không?\"",
+      "question": "Sắp xếp các từ để tạo thành câu thoại: \"Phòng thí nghiệm của các vị có gặp phải sự phản đối dữ dội khi lần đầu công bố bài báo thử nghiệm lâm sàng ban đầu không?\"",
       "words": [
-        "first",
-        "your",
         "opposition",
-        "you",
-        "laboratory",
-        "initial",
-        "the",
         "published",
-        "fierce",
-        "clinical",
-        "Did",
-        "when",
-        "paper",
+        "you",
+        "the",
+        "initial",
         "encounter",
-        "trial"
+        "Did",
+        "first",
+        "clinical",
+        "paper",
+        "when",
+        "trial",
+        "fierce",
+        "laboratory",
+        "your"
       ],
       "correctSentence": "Did your laboratory encounter fierce opposition when you first published the initial clinical trial paper?",
       "hintVi": "Phòng thí nghiệm của các vị có gặp phải sự phản đối dữ dội khi lần đầu công bố bài báo thử nghiệm lâm sàng ban đầu không?",
@@ -260,70 +266,70 @@
     {
       "id": "ex-076-17",
       "type": "find_error",
-      "promptVi": "[Tìm lỗi sai & Chọn câu đúng] Câu nào dưới đây có cấu trúc ngữ pháp HOÀN TOÀN ĐÚNG?",
-      "question": "Chủ điểm \"Bài 76: Cấu trúc Nhấn Mạnh Toàn Diện (Emphasis: Cleft It is...that, Emphatic Do/Does/Did & What-Clauses)\": Chọn câu CHÍNH XÁC:",
+      "promptVi": "[Nhận diện cấu trúc chuẩn] Chọn câu có cấu trúc ngữ pháp HOÀN TOÀN ĐÚNG:",
+      "question": "Dựa vào chủ điểm \"Bài 76: Cấu trúc Nhấn Mạnh Toàn Diện (Emphasis: Cleft It is...that, Emphatic Do/Does/Did & What-Clauses)\", câu nào sau đây CHÍNH XÁC?",
       "options": [
         "It was my mother who taught me how to cook.",
         "It be my mother who taught me how to cook.",
-        "It are not is my mother who taught me how to cook.",
+        "It was my mother who taught me how at cook.",
         "cook. to how me taught who mother my was It"
       ],
       "correctAnswer": "It was my mother who taught me how to cook.",
-      "explanationVi": "Câu chuẩn xác là: \"It was my mother who taught me how to cook.\" (Chính là mẹ tôi - người đã dạy tôi cách nấu ăn.)."
+      "explanationVi": "Cấu trúc chuẩn xác là: \"It was my mother who taught me how to cook.\" (Chính là mẹ tôi - người đã dạy tôi cách nấu ăn.)."
     },
     {
       "id": "ex-076-18",
       "type": "find_error",
-      "promptVi": "[Tìm lỗi sai & Chọn câu đúng] Câu nào dưới đây có cấu trúc ngữ pháp HOÀN TOÀN ĐÚNG?",
-      "question": "Chủ điểm \"Bài 76: Cấu trúc Nhấn Mạnh Toàn Diện (Emphasis: Cleft It is...that, Emphatic Do/Does/Did & What-Clauses)\": Chọn câu CHÍNH XÁC:",
+      "promptVi": "[Nhận diện cấu trúc chuẩn] Chọn câu có cấu trúc ngữ pháp HOÀN TOÀN ĐÚNG:",
+      "question": "Dựa vào chủ điểm \"Bài 76: Cấu trúc Nhấn Mạnh Toàn Diện (Emphasis: Cleft It is...that, Emphatic Do/Does/Did & What-Clauses)\", câu nào sau đây CHÍNH XÁC?",
       "options": [
-        "I did call you yesterday, but you didn't answer.",
+        "is",
         "answer. didn't you but yesterday, you call did I",
-        "I did call you yesterday, but you didn't answer. (sai)",
-        "I did call you yesterday, but you didn't answer. (sai)"
+        "are",
+        "I did call you yesterday, but you didn't answer."
       ],
       "correctAnswer": "I did call you yesterday, but you didn't answer.",
-      "explanationVi": "Câu chuẩn xác là: \"I did call you yesterday, but you didn't answer.\" (Tôi thực sự đã gọi cho bạn hôm qua, nhưng bạn không nghe máy.)."
+      "explanationVi": "Cấu trúc chuẩn xác là: \"I did call you yesterday, but you didn't answer.\" (Tôi thực sự đã gọi cho bạn hôm qua, nhưng bạn không nghe máy.)."
     },
     {
       "id": "ex-076-19",
       "type": "find_error",
-      "promptVi": "[Tìm lỗi sai & Chọn câu đúng] Câu nào dưới đây có cấu trúc ngữ pháp HOÀN TOÀN ĐÚNG?",
-      "question": "Chủ điểm \"Bài 76: Cấu trúc Nhấn Mạnh Toàn Diện (Emphasis: Cleft It is...that, Emphatic Do/Does/Did & What-Clauses)\": Chọn câu CHÍNH XÁC:",
+      "promptVi": "[Nhận diện cấu trúc chuẩn] Chọn câu có cấu trúc ngữ pháp HOÀN TOÀN ĐÚNG:",
+      "question": "Dựa vào chủ điểm \"Bài 76: Cấu trúc Nhấn Mạnh Toàn Diện (Emphasis: Cleft It is...that, Emphatic Do/Does/Did & What-Clauses)\", câu nào sau đây CHÍNH XÁC?",
       "options": [
-        "What I really need is a good night's sleep.",
         "What I really need be a good night's sleep.",
-        "What I really need are not is a good night's sleep.",
-        "sleep. night's good a is need really I What"
+        "What I really need is a good night's sleep.",
+        "sleep. night's good a is need really I What",
+        "is"
       ],
       "correctAnswer": "What I really need is a good night's sleep.",
-      "explanationVi": "Câu chuẩn xác là: \"What I really need is a good night's sleep.\" (Điều mà tôi thực sự cần chính là một giấc ngủ ngon.)."
+      "explanationVi": "Cấu trúc chuẩn xác là: \"What I really need is a good night's sleep.\" (Điều mà tôi thực sự cần chính là một giấc ngủ ngon.)."
     },
     {
       "id": "ex-076-20",
       "type": "find_error",
-      "promptVi": "[Tìm lỗi sai & Chọn câu đúng] Câu nào dưới đây có cấu trúc ngữ pháp HOÀN TOÀN ĐÚNG?",
-      "question": "Chủ điểm \"Bài 76: Cấu trúc Nhấn Mạnh Toàn Diện (Emphasis: Cleft It is...that, Emphatic Do/Does/Did & What-Clauses)\": Chọn câu CHÍNH XÁC:",
+      "promptVi": "[Nhận diện cấu trúc chuẩn] Chọn câu có cấu trúc ngữ pháp HOÀN TOÀN ĐÚNG:",
+      "question": "Dựa vào chủ điểm \"Bài 76: Cấu trúc Nhấn Mạnh Toàn Diện (Emphasis: Cleft It is...that, Emphatic Do/Does/Did & What-Clauses)\", câu nào sau đây CHÍNH XÁC?",
       "options": [
-        "Do come in and have a seat!",
+        "is",
         "seat! a have and in come Do",
-        "Do come in and have a seat! (sai)",
-        "Do come in and have a seat! (sai)"
+        "Do come at and have a seat!",
+        "Do come in and have a seat!"
       ],
       "correctAnswer": "Do come in and have a seat!",
-      "explanationVi": "Câu chuẩn xác là: \"Do come in and have a seat!\" (Xin mời bạn hãy vào nhà và ngồi xuống!)."
+      "explanationVi": "Cấu trúc chuẩn xác là: \"Do come in and have a seat!\" (Xin mời bạn hãy vào nhà và ngồi xuống!)."
     },
     {
       "id": "ex-076-21",
       "type": "listening_reflex",
-      "promptVi": "[Nghe phản xạ] Nghe câu phát âm tiếng Anh và chọn bản dịch tiếng Việt đúng nhất:",
+      "promptVi": "[Nghe phản xạ] Nghe câu phát âm tiếng Anh và chọn bản dịch tiếng Việt đúng:",
       "audioPrompt": "Good morning, journalists! Today, we celebrate a monumental breakthrough in cardiovascular biotechnology.",
-      "question": "Nhấn nút '🔊 Nghe audio' để nghe câu thoại và chọn nghĩa đúng:",
+      "question": "Nhấn nút '🔊 Nghe audio' và chọn nghĩa tiếng Việt đúng:",
       "options": [
-        "Chào buổi sáng các nhà báo! Hôm nay, chúng ta tôn vinh một đột phá vĩ đại trong công nghệ sinh học tim mạch.",
-        "Chính là Tiến sĩ Emily Watson - người đã phát hiện ra loại protein tái tạo tế bào tim kỳ diệu này. (It was... who...)",
         "Phòng thí nghiệm của các vị có gặp phải sự phản đối dữ dội khi lần đầu công bố bài báo thử nghiệm lâm sàng ban đầu không?",
-        "Ngày mai trời sẽ mưa to."
+        "Hôm nay thời tiết rất đẹp.",
+        "Chính là Tiến sĩ Emily Watson - người đã phát hiện ra loại protein tái tạo tế bào tim kỳ diệu này. (It was... who...)",
+        "Chào buổi sáng các nhà báo! Hôm nay, chúng ta tôn vinh một đột phá vĩ đại trong công nghệ sinh học tim mạch."
       ],
       "correctAnswer": "Chào buổi sáng các nhà báo! Hôm nay, chúng ta tôn vinh một đột phá vĩ đại trong công nghệ sinh học tim mạch.",
       "explanationVi": "Câu nghe được: \"Good morning, journalists! Today, we celebrate a monumental breakthrough in cardiovascular biotechnology.\" có nghĩa là: \"Chào buổi sáng các nhà báo! Hôm nay, chúng ta tôn vinh một đột phá vĩ đại trong công nghệ sinh học tim mạch.\"."
@@ -331,14 +337,14 @@
     {
       "id": "ex-076-22",
       "type": "listening_reflex",
-      "promptVi": "[Nghe phản xạ] Nghe câu phát âm tiếng Anh và chọn bản dịch tiếng Việt đúng nhất:",
+      "promptVi": "[Nghe phản xạ] Nghe câu phát âm tiếng Anh và chọn bản dịch tiếng Việt đúng:",
       "audioPrompt": "It was Dr. Emily Watson who discovered the miraculous cardiac cell regeneration protein.",
-      "question": "Nhấn nút '🔊 Nghe audio' để nghe câu thoại và chọn nghĩa đúng:",
+      "question": "Nhấn nút '🔊 Nghe audio' và chọn nghĩa tiếng Việt đúng:",
       "options": [
-        "Chính là Tiến sĩ Emily Watson - người đã phát hiện ra loại protein tái tạo tế bào tim kỳ diệu này. (It was... who...)",
+        "Hôm nay thời tiết rất đẹp.",
         "Phòng thí nghiệm của các vị có gặp phải sự phản đối dữ dội khi lần đầu công bố bài báo thử nghiệm lâm sàng ban đầu không?",
         "Chúng tôi thực sự đã đối mặt với sự hoài nghi nặng nề, nhưng dữ liệu thực nghiệm của chúng tôi thực sự đã chứng minh giả thuyết vượt trên mọi hoài nghi! (did face / did prove)",
-        "Ngày mai trời sẽ mưa to."
+        "Chính là Tiến sĩ Emily Watson - người đã phát hiện ra loại protein tái tạo tế bào tim kỳ diệu này. (It was... who...)"
       ],
       "correctAnswer": "Chính là Tiến sĩ Emily Watson - người đã phát hiện ra loại protein tái tạo tế bào tim kỳ diệu này. (It was... who...)",
       "explanationVi": "Câu nghe được: \"It was Dr. Emily Watson who discovered the miraculous cardiac cell regeneration protein.\" có nghĩa là: \"Chính là Tiến sĩ Emily Watson - người đã phát hiện ra loại protein tái tạo tế bào tim kỳ diệu này. (It was... who...)\"."
@@ -346,14 +352,14 @@
     {
       "id": "ex-076-23",
       "type": "listening_reflex",
-      "promptVi": "[Nghe phản xạ] Nghe câu phát âm tiếng Anh và chọn bản dịch tiếng Việt đúng nhất:",
+      "promptVi": "[Nghe phản xạ] Nghe câu phát âm tiếng Anh và chọn bản dịch tiếng Việt đúng:",
       "audioPrompt": "Did your laboratory encounter fierce opposition when you first published the initial clinical trial paper?",
-      "question": "Nhấn nút '🔊 Nghe audio' để nghe câu thoại và chọn nghĩa đúng:",
+      "question": "Nhấn nút '🔊 Nghe audio' và chọn nghĩa tiếng Việt đúng:",
       "options": [
         "Phòng thí nghiệm của các vị có gặp phải sự phản đối dữ dội khi lần đầu công bố bài báo thử nghiệm lâm sàng ban đầu không?",
-        "Chúng tôi thực sự đã đối mặt với sự hoài nghi nặng nề, nhưng dữ liệu thực nghiệm của chúng tôi thực sự đã chứng minh giả thuyết vượt trên mọi hoài nghi! (did face / did prove)",
+        "Hôm nay thời tiết rất đẹp.",
         "Chính tại chính phòng thí nghiệm này là nơi nhóm tổng hợp hóa sinh của chúng ta đã trải qua vô số đêm không ngủ. (It was in this very laboratory that...)",
-        "Ngày mai trời sẽ mưa to."
+        "Chúng tôi thực sự đã đối mặt với sự hoài nghi nặng nề, nhưng dữ liệu thực nghiệm của chúng tôi thực sự đã chứng minh giả thuyết vượt trên mọi hoài nghi! (did face / did prove)"
       ],
       "correctAnswer": "Phòng thí nghiệm của các vị có gặp phải sự phản đối dữ dội khi lần đầu công bố bài báo thử nghiệm lâm sàng ban đầu không?",
       "explanationVi": "Câu nghe được: \"Did your laboratory encounter fierce opposition when you first published the initial clinical trial paper?\" có nghĩa là: \"Phòng thí nghiệm của các vị có gặp phải sự phản đối dữ dội khi lần đầu công bố bài báo thử nghiệm lâm sàng ban đầu không?\"."
@@ -361,14 +367,14 @@
     {
       "id": "ex-076-24",
       "type": "listening_reflex",
-      "promptVi": "[Nghe phản xạ] Nghe câu phát âm tiếng Anh và chọn bản dịch tiếng Việt đúng nhất:",
+      "promptVi": "[Nghe phản xạ] Nghe câu phát âm tiếng Anh và chọn bản dịch tiếng Việt đúng:",
       "audioPrompt": "We did face severe skepticism, but our empirical data did prove our theoretical hypothesis beyond doubt!",
-      "question": "Nhấn nút '🔊 Nghe audio' để nghe câu thoại và chọn nghĩa đúng:",
+      "question": "Nhấn nút '🔊 Nghe audio' và chọn nghĩa tiếng Việt đúng:",
       "options": [
-        "Chúng tôi thực sự đã đối mặt với sự hoài nghi nặng nề, nhưng dữ liệu thực nghiệm của chúng tôi thực sự đã chứng minh giả thuyết vượt trên mọi hoài nghi! (did face / did prove)",
-        "Chính tại chính phòng thí nghiệm này là nơi nhóm tổng hợp hóa sinh của chúng ta đã trải qua vô số đêm không ngủ. (It was in this very laboratory that...)",
         "Điều mà chúng tôi thực sự quan tâm là làm cho thuốc trợ tim giá cả phải chăng đến được với các bệnh nhân trên toàn thế giới. (What we truly care about is...)",
-        "Ngày mai trời sẽ mưa to."
+        "Hôm nay thời tiết rất đẹp.",
+        "Chính tại chính phòng thí nghiệm này là nơi nhóm tổng hợp hóa sinh của chúng ta đã trải qua vô số đêm không ngủ. (It was in this very laboratory that...)",
+        "Chúng tôi thực sự đã đối mặt với sự hoài nghi nặng nề, nhưng dữ liệu thực nghiệm của chúng tôi thực sự đã chứng minh giả thuyết vượt trên mọi hoài nghi! (did face / did prove)"
       ],
       "correctAnswer": "Chúng tôi thực sự đã đối mặt với sự hoài nghi nặng nề, nhưng dữ liệu thực nghiệm của chúng tôi thực sự đã chứng minh giả thuyết vượt trên mọi hoài nghi! (did face / did prove)",
       "explanationVi": "Câu nghe được: \"We did face severe skepticism, but our empirical data did prove our theoretical hypothesis beyond doubt!\" có nghĩa là: \"Chúng tôi thực sự đã đối mặt với sự hoài nghi nặng nề, nhưng dữ liệu thực nghiệm của chúng tôi thực sự đã chứng minh giả thuyết vượt trên mọi hoài nghi! (did face / did prove)\"."
@@ -376,64 +382,68 @@
     {
       "id": "ex-076-25",
       "type": "speaking_practice",
-      "promptVi": "[Luyện nói qua Micro] Nhấn nút '🎙️ Bắt đầu nói' và đọc to, rõ ràng câu tiếng Anh sau:",
+      "promptVi": "[Luyện nói qua Micro] Nhấn nút 'Bấm để Nói ngay' và phát âm câu sau:",
+      "question": "Luyện phát âm chuẩn câu: \"It was my mother who taught me how to cook.\" (Chính là mẹ tôi - người đã dạy tôi cách nấu ăn.)",
       "targetSentence": "It was my mother who taught me how to cook.",
       "hintVi": "Chính là mẹ tôi - người đã dạy tôi cách nấu ăn.",
-      "explanationVi": "Câu mục tiêu: \"It was my mother who taught me how to cook.\" (Chính là mẹ tôi - người đã dạy tôi cách nấu ăn.). Luyện phát âm chuẩn xác từng âm tiết và ngữ điệu tự nhiên."
+      "explanationVi": "Mẫu câu chuẩn: \"It was my mother who taught me how to cook.\" (Chính là mẹ tôi - người đã dạy tôi cách nấu ăn.). Luyện phát âm rõ ràng từng từ."
     },
     {
       "id": "ex-076-26",
       "type": "speaking_practice",
-      "promptVi": "[Luyện nói qua Micro] Nhấn nút '🎙️ Bắt đầu nói' và đọc to, rõ ràng câu tiếng Anh sau:",
+      "promptVi": "[Luyện nói qua Micro] Nhấn nút 'Bấm để Nói ngay' và phát âm câu sau:",
+      "question": "Luyện phát âm chuẩn câu: \"I did call you yesterday, but you didn't answer.\" (Tôi thực sự đã gọi cho bạn hôm qua, nhưng bạn không nghe máy.)",
       "targetSentence": "I did call you yesterday, but you didn't answer.",
       "hintVi": "Tôi thực sự đã gọi cho bạn hôm qua, nhưng bạn không nghe máy.",
-      "explanationVi": "Câu mục tiêu: \"I did call you yesterday, but you didn't answer.\" (Tôi thực sự đã gọi cho bạn hôm qua, nhưng bạn không nghe máy.). Luyện phát âm chuẩn xác từng âm tiết và ngữ điệu tự nhiên."
+      "explanationVi": "Mẫu câu chuẩn: \"I did call you yesterday, but you didn't answer.\" (Tôi thực sự đã gọi cho bạn hôm qua, nhưng bạn không nghe máy.). Luyện phát âm rõ ràng từng từ."
     },
     {
       "id": "ex-076-27",
       "type": "speaking_practice",
-      "promptVi": "[Luyện nói qua Micro] Nhấn nút '🎙️ Bắt đầu nói' và đọc to, rõ ràng câu tiếng Anh sau:",
+      "promptVi": "[Luyện nói qua Micro] Nhấn nút 'Bấm để Nói ngay' và phát âm câu sau:",
+      "question": "Luyện phát âm chuẩn câu: \"What I really need is a good night's sleep.\" (Điều mà tôi thực sự cần chính là một giấc ngủ ngon.)",
       "targetSentence": "What I really need is a good night's sleep.",
       "hintVi": "Điều mà tôi thực sự cần chính là một giấc ngủ ngon.",
-      "explanationVi": "Câu mục tiêu: \"What I really need is a good night's sleep.\" (Điều mà tôi thực sự cần chính là một giấc ngủ ngon.). Luyện phát âm chuẩn xác từng âm tiết và ngữ điệu tự nhiên."
+      "explanationVi": "Mẫu câu chuẩn: \"What I really need is a good night's sleep.\" (Điều mà tôi thực sự cần chính là một giấc ngủ ngon.). Luyện phát âm rõ ràng từng từ."
     },
     {
       "id": "ex-076-28",
       "type": "speaking_practice",
-      "promptVi": "[Luyện nói qua Micro] Nhấn nút '🎙️ Bắt đầu nói' và đọc to, rõ ràng câu tiếng Anh sau:",
+      "promptVi": "[Luyện nói qua Micro] Nhấn nút 'Bấm để Nói ngay' và phát âm câu sau:",
+      "question": "Luyện phát âm chuẩn câu: \"Do come in and have a seat!\" (Xin mời bạn hãy vào nhà và ngồi xuống!)",
       "targetSentence": "Do come in and have a seat!",
       "hintVi": "Xin mời bạn hãy vào nhà và ngồi xuống!",
-      "explanationVi": "Câu mục tiêu: \"Do come in and have a seat!\" (Xin mời bạn hãy vào nhà và ngồi xuống!). Luyện phát âm chuẩn xác từng âm tiết và ngữ điệu tự nhiên."
+      "explanationVi": "Mẫu câu chuẩn: \"Do come in and have a seat!\" (Xin mời bạn hãy vào nhà và ngồi xuống!). Luyện phát âm rõ ràng từng từ."
     },
     {
       "id": "ex-076-29",
       "type": "reading_comprehension",
-      "promptVi": "[Đọc hiểu đoạn văn 1] Đọc đoạn hội thoại mở đầu sau và trả lời câu hỏi:",
-      "passage": "Host Katherine (Nữ): \"Good morning, journalists! Today, we celebrate a monumental breakthrough in cardiovascular biotechnology.\"\nLead Scientist Dr. Chen (Nam): \"It was Dr. Emily Watson who discovered the miraculous cardiac cell regeneration protein.\"\nJournalist Liam (Nam): \"Did your laboratory encounter fierce opposition when you first published the initial clinical trial paper?\"\nDr. Chen (Nam): \"We did face severe skepticism, but our empirical data did prove our theoretical hypothesis beyond doubt!\"",
-      "question": "Câu hỏi: Trong đoạn hội thoại trên, các nhân vật đang thảo luận về chủ đề gì?",
+      "promptVi": "[Đọc hiểu đoạn văn] Đọc đoạn hội thoại sau và trả lời câu hỏi:",
+      "passage": "Host Katherine: \"Good morning, journalists! Today, we celebrate a monumental breakthrough in cardiovascular biotechnology.\"\nLead Scientist Dr. Chen: \"It was Dr. Emily Watson who discovered the miraculous cardiac cell regeneration protein.\"\nJournalist Liam: \"Did your laboratory encounter fierce opposition when you first published the initial clinical trial paper?\"\nDr. Chen: \"We did face severe skepticism, but our empirical data did prove our theoretical hypothesis beyond doubt!\"",
+      "question": "Chủ đề trọng tâm của đoạn hội thoại trên là gì?",
       "options": [
+        "Cách làm món ăn truyền thống",
         "Cấu trúc Nhấn Mạnh Toàn Diện (Emphasis: Cleft It is...that, Emphatic Do/Does/Did & What-Clauses)",
-        "Kế hoạch đi nghỉ dưỡng cuối tuần ở bãi biển",
-        "Mua sắm quần áo và đồ dùng thể thao",
-        "Cách làm món ăn truyền thống gia đình"
+        "Kế hoạch đi mua sắm tại siêu thị",
+        "Lịch trình đi du lịch nghỉ mát cuối tuần"
       ],
       "correctAnswer": "Cấu trúc Nhấn Mạnh Toàn Diện (Emphasis: Cleft It is...that, Emphatic Do/Does/Did & What-Clauses)",
-      "explanationVi": "Đoạn hội thoại mở đầu được thiết kế để minh họa trực tiếp cho chủ điểm ngữ pháp: \"Bài 76: Cấu trúc Nhấn Mạnh Toàn Diện (Emphasis: Cleft It is...that, Emphatic Do/Does/Did & What-Clauses)\"."
+      "explanationVi": "Đoạn hội thoại được thiết kế để minh họa trực tiếp cho chủ điểm \"Bài 76: Cấu trúc Nhấn Mạnh Toàn Diện (Emphasis: Cleft It is...that, Emphatic Do/Does/Did & What-Clauses)\"."
     },
     {
       "id": "ex-076-30",
       "type": "reading_comprehension",
-      "promptVi": "[Đọc hiểu đoạn văn 2] Đọc phần tiếp theo của đoạn hội thoại và chọn nhận định đúng:",
-      "passage": "Host Katherine (Nữ): \"It was in this very laboratory that our biochemical synthesis team spent countless sleepless nights.\"\nDr. Chen (Nam): \"What we truly care about is making affordable heart medicine accessible to patients worldwide.\"\nJournalist Liam (Nam): \"Do examine the patent licensing terms carefully, and our international medical consortium will assist you.\"\nDr. Chen (Nam): \"I do hope that global healthcare regulators will expedite the final approval process.\"",
-      "question": "Nhận định nào sau đây là ĐÚNG với nội dung đoạn hội thoại trên?",
+      "promptVi": "[Đọc hiểu đoạn văn] Đọc đoạn đối thoại tiếp theo và chọn nhận định đúng:",
+      "passage": "Host Katherine: \"It was in this very laboratory that our biochemical synthesis team spent countless sleepless nights.\"\nDr. Chen: \"What we truly care about is making affordable heart medicine accessible to patients worldwide.\"\nJournalist Liam: \"Do examine the patent licensing terms carefully, and our international medical consortium will assist you.\"\nDr. Chen: \"I do hope that global healthcare regulators will expedite the final approval process.\"",
+      "question": "Nhận định nào sau đây là ĐÚNG về nội dung đoạn đối thoại?",
       "options": [
-        "Các câu hội thoại sử dụng đúng cấu trúc ngữ pháp \"Bài 76: Cấu trúc Nhấn Mạnh Toàn Diện (Emphasis: Cleft It is...that, Emphatic Do/Does/Did & What-Clauses)\".",
-        "Các nhân vật không hiểu ý nhau và từ chối nói chuyện.",
-        "Đoạn hội thoại nói về việc chuyển nhà sang thành phố khác.",
-        "Cả hai nhân vật đều đang ở sân bay chuẩn bị lên máy bay."
+        "Cả hai nhân vật đang thảo luận về thời tiết ngày mai.",
+        "Cuộc trò chuyện diễn ra tại nhà ga xe lửa.",
+        "Hai nhân vật đang cãi nhau và không đồng ý hợp tác.",
+        "Các câu thoại sử dụng đúng cấu trúc \"Cấu trúc Nhấn Mạnh Toàn Diện (Emphasis: Cleft It is...that, Emphatic Do/Does/Did & What-Clauses)\"."
       ],
-      "correctAnswer": "Các câu hội thoại sử dụng đúng cấu trúc ngữ pháp \"Bài 76: Cấu trúc Nhấn Mạnh Toàn Diện (Emphasis: Cleft It is...that, Emphatic Do/Does/Did & What-Clauses)\".",
-      "explanationVi": "Đoạn hội thoại thứ hai tiếp tục củng cố và ứng dụng các quy tắc ngữ pháp của \"Bài 76: Cấu trúc Nhấn Mạnh Toàn Diện (Emphasis: Cleft It is...that, Emphatic Do/Does/Did & What-Clauses)\"."
+      "correctAnswer": "Các câu thoại sử dụng đúng cấu trúc \"Cấu trúc Nhấn Mạnh Toàn Diện (Emphasis: Cleft It is...that, Emphatic Do/Does/Did & What-Clauses)\".",
+      "explanationVi": "Đoạn đối thoại ứng dụng chuẩn xác ngữ pháp của \"Bài 76: Cấu trúc Nhấn Mạnh Toàn Diện (Emphasis: Cleft It is...that, Emphatic Do/Does/Did & What-Clauses)\"."
     }
   ]
 }

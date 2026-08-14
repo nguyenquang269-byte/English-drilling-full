@@ -7,13 +7,13 @@
     {
       "id": "ex-072-01",
       "type": "multiple_choice",
-      "promptVi": "[Trắc nghiệm] Chọn từ/cụm từ đúng để hoàn thành câu (Tôi rất thích thú với việc đọc sách lịch sử.):",
+      "promptVi": "[Trắc nghiệm ngữ pháp] Chọn từ đúng để hoàn thành câu (Tôi rất thích thú với việc đọc sách lịch sử.):",
       "question": "I am ___ in reading history books.",
       "options": [
-        "interested",
-        "interesting",
+        "interests",
         "interest",
-        "interests"
+        "interesting",
+        "interested"
       ],
       "correctAnswer": "interested",
       "explanationVi": "Diễn tả cảm xúc của bản thân dùng tính từ đuôi -ed 'interested'."
@@ -21,12 +21,12 @@
     {
       "id": "ex-072-02",
       "type": "multiple_choice",
-      "promptVi": "[Trắc nghiệm] Chọn từ/cụm từ đúng để hoàn thành câu (Bộ phim tẻ nhạt đến nỗi tôi đã ngủ thiếp đi.):",
+      "promptVi": "[Trắc nghiệm ngữ pháp] Chọn từ đúng để hoàn thành câu (Bộ phim tẻ nhạt đến nỗi tôi đã ngủ thiếp đi.):",
       "question": "The movie was so ___ that I fell asleep.",
       "options": [
         "boring",
-        "bored",
         "boredom",
+        "bored",
         "bore"
       ],
       "correctAnswer": "boring",
@@ -35,12 +35,12 @@
     {
       "id": "ex-072-03",
       "type": "multiple_choice",
-      "promptVi": "[Trắc nghiệm] Chọn từ/cụm từ đúng để hoàn thành câu (Tôi đã kiệt sức sau một ngày làm việc mệt mỏi.):",
+      "promptVi": "[Trắc nghiệm ngữ pháp] Chọn từ đúng để hoàn thành câu (Tôi đã kiệt sức sau một ngày làm việc mệt mỏi.):",
       "question": "I was exhausted after a ___ working day.",
       "options": [
-        "tiring",
         "tired",
         "tire",
+        "tiring",
         "tiredly"
       ],
       "correctAnswer": "tiring",
@@ -49,13 +49,13 @@
     {
       "id": "ex-072-04",
       "type": "multiple_choice",
-      "promptVi": "[Trắc nghiệm] Chọn từ/cụm từ đúng để hoàn thành câu (Trận đấu bóng đá thực sự rất hào hứng và kịch tính khi xem.):",
+      "promptVi": "[Trắc nghiệm ngữ pháp] Chọn từ đúng để hoàn thành câu (Trận đấu bóng đá thực sự rất hào hứng và kịch tính khi xem.):",
       "question": "The football match was really ___ to watch.",
       "options": [
-        "exciting",
         "excited",
-        "excite",
-        "excitement"
+        "excitement",
+        "exciting",
+        "excite"
       ],
       "correctAnswer": "exciting",
       "explanationVi": "Chỉ tính chất của 'The football match' dùng 'exciting'."
@@ -63,112 +63,114 @@
     {
       "id": "ex-072-05",
       "type": "multiple_choice",
-      "promptVi": "[Trắc nghiệm] Dịch câu sau sang tiếng Anh: \"Tối qua bạn có xem bộ phim tài liệu thiên văn học không gian sâu mang tính đột phá đó không Serena?\"",
-      "question": "Chọn bản dịch chuẩn xác cho câu: \"Tối qua bạn có xem bộ phim tài liệu thiên văn học không gian sâu mang tính đột phá đó không Serena?\"",
+      "promptVi": "[Phản xạ dịch thuật] Dịch câu sau sang tiếng Anh: \"Tối qua bạn có xem bộ phim tài liệu thiên văn học không gian sâu mang tính đột phá đó không Serena?\"",
+      "question": "Chọn bản dịch chuẩn xác nhất cho câu: \"Tối qua bạn có xem bộ phim tài liệu thiên văn học không gian sâu mang tính đột phá đó không Serena?\"",
       "options": [
-        "Did you watch that groundbreaking deep-space astronomy documentary last night, Serena?",
-        "be you watch that groundbreaking deep-space astronomy documentary last night, Serena?",
         "Yes, I did! The computer simulations of supernovas were absolutely fascinating.",
-        "I want to go to the park now."
+        "We are studying English today.",
+        "Did you watch that groundbreaking deep-space astronomy documentary last night, Serena?",
+        "be you watch that groundbreaking deep-space astronomy documentary last night, Serena?"
       ],
       "correctAnswer": "Did you watch that groundbreaking deep-space astronomy documentary last night, Serena?",
-      "explanationVi": "Câu đúng là \"Did you watch that groundbreaking deep-space astronomy documentary last night, Serena?\" (Tối qua bạn có xem bộ phim tài liệu thiên văn học không gian sâu mang tính đột phá đó không Serena?)."
+      "explanationVi": "Câu dịch chuẩn xác: \"Did you watch that groundbreaking deep-space astronomy documentary last night, Serena?\" (Tối qua bạn có xem bộ phim tài liệu thiên văn học không gian sâu mang tính đột phá đó không Serena?)."
     },
     {
       "id": "ex-072-06",
       "type": "multiple_choice",
-      "promptVi": "[Trắc nghiệm] Chọn câu trả lời hoặc cách diễn đạt phù hợp:",
-      "question": "Trong ngữ cảnh giao tiếp: \"Did you watch that groundbreaking deep-space astronomy documentary last night, Serena?\", câu phản hồi tự nhiên là gì?",
+      "promptVi": "[Ngữ cảnh giao tiếp] Chọn câu phản hồi tự nhiên và đúng ngữ pháp:",
+      "question": "Khi đối phương nói: \"Did you watch that groundbreaking deep-space astronomy documentary last night, Serena?\", câu phản hồi phù hợp là gì?",
       "options": [
+        "No, it was yesterday.",
         "Yes, I did! The computer simulations of supernovas were absolutely fascinating.",
-        "No, it is yesterday morning.",
-        "Yes, I will eat apple.",
-        "They are not at the library."
+        "They are not in the office.",
+        "Yes, I will eat it."
       ],
       "correctAnswer": "Yes, I did! The computer simulations of supernovas were absolutely fascinating.",
-      "explanationVi": "Phản hồi phù hợp: \"Yes, I did! The computer simulations of supernovas were absolutely fascinating.\" (Có chứ! Các mô phỏng máy tính về các vụ nổ siêu tân tinh hoàn toàn lôi cuốn và hấp dẫn. (fascinating = tính chất))."
+      "explanationVi": "Phản hồi phù hợp trong bài: \"Yes, I did! The computer simulations of supernovas were absolutely fascinating.\" (Có chứ! Các mô phỏng máy tính về các vụ nổ siêu tân tinh hoàn toàn lôi cuốn và hấp dẫn. (fascinating = tính chất))."
     },
     {
       "id": "ex-072-07",
       "type": "fill_blank",
-      "promptVi": "[Điền từ - (Dạng khẳng định)] Điền dạng đúng của động từ vào ô trống (Tôi rất thích thú với việc đọc sách lịch sử.):",
+      "promptVi": "[Điền từ - Dạng KHẲNG ĐỊNH] Điền từ còn thiếu vào ô trống (Tôi rất thích thú với việc đọc sách lịch sử.):",
       "question": "I am ___ in reading history books.",
       "correctAnswer": "interested",
       "options": [
-        "interested",
-        "interesting",
+        "interests",
         "interest",
-        "interests"
+        "interesting",
+        "interested"
       ],
-      "explanationVi": "Đáp án chính xác: \"interested\". Tôi rất thích thú với việc đọc sách lịch sử.."
+      "explanationVi": "Đáp án đúng là \"interested\". Câu hoàn chỉnh: \"I am interested in reading history books.\" (Tôi rất thích thú với việc đọc sách lịch sử.)."
     },
     {
       "id": "ex-072-08",
       "type": "fill_blank",
-      "promptVi": "[Điền từ - (Dạng khẳng định)] Điền dạng đúng của động từ vào ô trống (Bộ phim tẻ nhạt đến nỗi tôi đã ngủ thiếp đi.):",
+      "promptVi": "[Điền từ - Dạng KHẲNG ĐỊNH] Điền từ còn thiếu vào ô trống (Bộ phim tẻ nhạt đến nỗi tôi đã ngủ thiếp đi.):",
       "question": "The movie was so ___ that I fell asleep.",
       "correctAnswer": "boring",
       "options": [
-        "boring",
         "bored",
-        "boredom",
-        "bore"
+        "boring",
+        "bore",
+        "boredom"
       ],
-      "explanationVi": "Đáp án chính xác: \"boring\". Bộ phim tẻ nhạt đến nỗi tôi đã ngủ thiếp đi.."
+      "explanationVi": "Đáp án đúng là \"boring\". Câu hoàn chỉnh: \"The movie was so boring that I fell asleep.\" (Bộ phim tẻ nhạt đến nỗi tôi đã ngủ thiếp đi.)."
     },
     {
       "id": "ex-072-09",
       "type": "fill_blank",
-      "promptVi": "[Điền từ - (Dạng khẳng định)] Điền dạng đúng của động từ vào ô trống (Tôi đã kiệt sức sau một ngày làm việc mệt mỏi.):",
+      "promptVi": "[Điền từ - Dạng KHẲNG ĐỊNH] Điền từ còn thiếu vào ô trống (Tôi đã kiệt sức sau một ngày làm việc mệt mỏi.):",
       "question": "I was exhausted after a ___ working day.",
       "correctAnswer": "tiring",
       "options": [
-        "tiring",
-        "tired",
         "tire",
-        "tiredly"
+        "tiring",
+        "tiredly",
+        "tired"
       ],
-      "explanationVi": "Đáp án chính xác: \"tiring\". Tôi đã kiệt sức sau một ngày làm việc mệt mỏi.."
+      "explanationVi": "Đáp án đúng là \"tiring\". Câu hoàn chỉnh: \"I was exhausted after a tiring working day.\" (Tôi đã kiệt sức sau một ngày làm việc mệt mỏi.)."
     },
     {
       "id": "ex-072-10",
       "type": "fill_blank",
-      "promptVi": "[Điền từ - (Dạng khẳng định)] Điền dạng đúng của động từ vào ô trống (Trận đấu bóng đá thực sự rất hào hứng và kịch tính khi xem.):",
+      "promptVi": "[Điền từ - Dạng KHẲNG ĐỊNH] Điền từ còn thiếu vào ô trống (Trận đấu bóng đá thực sự rất hào hứng và kịch tính khi xem.):",
       "question": "The football match was really ___ to watch.",
       "correctAnswer": "exciting",
       "options": [
-        "exciting",
-        "excited",
         "excite",
-        "excitement"
+        "exciting",
+        "excitement",
+        "excited"
       ],
-      "explanationVi": "Đáp án chính xác: \"exciting\". Trận đấu bóng đá thực sự rất hào hứng và kịch tính khi xem.."
+      "explanationVi": "Đáp án đúng là \"exciting\". Câu hoàn chỉnh: \"The football match was really exciting to watch.\" (Trận đấu bóng đá thực sự rất hào hứng và kịch tính khi xem.)."
     },
     {
       "id": "ex-072-11",
       "type": "fill_blank",
-      "promptVi": "[Điền từ - Dạng PHỦ ĐỊNH] Hoàn thành câu phủ định sau:",
-      "correctAnswer": "I am not interested in reading history books.",
+      "promptVi": "[Điền từ - Dạng PHỦ ĐỊNH] Điền trợ động từ/động từ tobe phủ định vào chỗ trống:",
+      "question": "I _____ not interested in reading history books.",
+      "correctAnswer": "am",
       "options": [
-        "I am not interested in reading history books.",
-        "I am interested in reading history books.",
-        "Not I am interested in reading history books.",
-        "I am interested in reading history books. no"
+        "do",
+        "am",
+        "are",
+        "is"
       ],
-      "explanationVi": "Dạng phủ định chuẩn: Thêm 'not' sau động từ chính."
+      "explanationVi": "Câu phủ định hoàn chỉnh: \"I am not interested in reading history books.\"."
     },
     {
       "id": "ex-072-12",
       "type": "sentence_scramble",
-      "promptVi": "[Sắp xếp câu] Xếp các khối từ thành câu hoàn chỉnh mang nghĩa: \"Tôi rất thích thú với việc đọc sách lịch sử.\"",
+      "promptVi": "[Sắp xếp câu] Ghép các khối từ thành câu hoàn chỉnh mang nghĩa: \"Tôi rất thích thú với việc đọc sách lịch sử.\"",
+      "question": "Sắp xếp các từ để tạo thành câu đúng: \"Tôi rất thích thú với việc đọc sách lịch sử.\"",
       "words": [
-        "books.",
-        "in",
-        "reading",
-        "history",
         "I",
+        "interested",
+        "reading",
+        "in",
         "am",
-        "interested"
+        "books.",
+        "history"
       ],
       "correctSentence": "I am interested in reading history books.",
       "hintVi": "Tôi rất thích thú với việc đọc sách lịch sử.",
@@ -177,17 +179,18 @@
     {
       "id": "ex-072-13",
       "type": "sentence_scramble",
-      "promptVi": "[Sắp xếp câu] Xếp các khối từ thành câu hoàn chỉnh mang nghĩa: \"Bộ phim tẻ nhạt đến nỗi tôi đã ngủ thiếp đi.\"",
+      "promptVi": "[Sắp xếp câu] Ghép các khối từ thành câu hoàn chỉnh mang nghĩa: \"Bộ phim tẻ nhạt đến nỗi tôi đã ngủ thiếp đi.\"",
+      "question": "Sắp xếp các từ để tạo thành câu đúng: \"Bộ phim tẻ nhạt đến nỗi tôi đã ngủ thiếp đi.\"",
       "words": [
-        "I",
-        "fell",
-        "movie",
-        "boring",
-        "The",
-        "asleep.",
-        "so",
         "that",
-        "was"
+        "so",
+        "movie",
+        "was",
+        "The",
+        "boring",
+        "asleep.",
+        "fell",
+        "I"
       ],
       "correctSentence": "The movie was so boring that I fell asleep.",
       "hintVi": "Bộ phim tẻ nhạt đến nỗi tôi đã ngủ thiếp đi.",
@@ -196,15 +199,16 @@
     {
       "id": "ex-072-14",
       "type": "sentence_scramble",
-      "promptVi": "[Sắp xếp câu] Xếp các khối từ thành câu hoàn chỉnh mang nghĩa: \"Tôi đã kiệt sức sau một ngày làm việc mệt mỏi.\"",
+      "promptVi": "[Sắp xếp câu] Ghép các khối từ thành câu hoàn chỉnh mang nghĩa: \"Tôi đã kiệt sức sau một ngày làm việc mệt mỏi.\"",
+      "question": "Sắp xếp các từ để tạo thành câu đúng: \"Tôi đã kiệt sức sau một ngày làm việc mệt mỏi.\"",
       "words": [
-        "tiring",
-        "a",
-        "working",
         "was",
-        "after",
+        "a",
         "I",
         "exhausted",
+        "tiring",
+        "after",
+        "working",
         "day."
       ],
       "correctSentence": "I was exhausted after a tiring working day.",
@@ -214,16 +218,17 @@
     {
       "id": "ex-072-15",
       "type": "sentence_scramble",
-      "promptVi": "[Sắp xếp câu] Xếp các khối từ thành câu hoàn chỉnh mang nghĩa: \"Trận đấu bóng đá thực sự rất hào hứng và kịch tính khi xem.\"",
+      "promptVi": "[Sắp xếp câu] Ghép các khối từ thành câu hoàn chỉnh mang nghĩa: \"Trận đấu bóng đá thực sự rất hào hứng và kịch tính khi xem.\"",
+      "question": "Sắp xếp các từ để tạo thành câu đúng: \"Trận đấu bóng đá thực sự rất hào hứng và kịch tính khi xem.\"",
       "words": [
         "really",
-        "exciting",
-        "football",
         "The",
-        "was",
+        "football",
+        "exciting",
         "to",
+        "watch.",
         "match",
-        "watch."
+        "was"
       ],
       "correctSentence": "The football match was really exciting to watch.",
       "hintVi": "Trận đấu bóng đá thực sự rất hào hứng và kịch tính khi xem.",
@@ -232,18 +237,19 @@
     {
       "id": "ex-072-16",
       "type": "sentence_scramble",
-      "promptVi": "[Sắp xếp câu] Xếp các từ thành câu hội thoại: \"Bạn có cảm thấy buồn chán trong các phần tính toán vật lý thiên văn dài hai tiếng không? (bored = cảm xúc)\"",
+      "promptVi": "[Sắp xếp câu] Ghép các từ thành câu hội thoại: \"Bạn có cảm thấy buồn chán trong các phần tính toán vật lý thiên văn dài hai tiếng không? (bored = cảm xúc)\"",
+      "question": "Sắp xếp các từ để tạo thành câu thoại: \"Bạn có cảm thấy buồn chán trong các phần tính toán vật lý thiên văn dài hai tiếng không? (bored = cảm xúc)\"",
       "words": [
         "lengthy",
-        "astrophysics",
-        "the",
+        "you",
         "calculation",
+        "Were",
         "two-hour",
         "during",
-        "segments",
         "bored",
-        "you",
-        "Were"
+        "segments",
+        "astrophysics",
+        "the"
       ],
       "correctSentence": "Were you bored during the lengthy two-hour astrophysics calculation segments?",
       "hintVi": "Bạn có cảm thấy buồn chán trong các phần tính toán vật lý thiên văn dài hai tiếng không? (bored = cảm xúc)",
@@ -252,70 +258,70 @@
     {
       "id": "ex-072-17",
       "type": "find_error",
-      "promptVi": "[Tìm lỗi sai & Chọn câu đúng] Câu nào dưới đây có cấu trúc ngữ pháp HOÀN TOÀN ĐÚNG?",
-      "question": "Chủ điểm \"Bài 72: Tính từ Đuôi -ED và -ING (Participle Adjectives: Feeling vs. Characteristic)\": Chọn câu CHÍNH XÁC:",
+      "promptVi": "[Nhận diện cấu trúc chuẩn] Chọn câu có cấu trúc ngữ pháp HOÀN TOÀN ĐÚNG:",
+      "question": "Dựa vào chủ điểm \"Bài 72: Tính từ Đuôi -ED và -ING (Participle Adjectives: Feeling vs. Characteristic)\", câu nào sau đây CHÍNH XÁC?",
       "options": [
         "I am interested in reading history books.",
         "I be interested in reading history books.",
-        "I are not is interested in reading history books.",
+        "I am interested at reading history books.",
         "books. history reading in interested am I"
       ],
       "correctAnswer": "I am interested in reading history books.",
-      "explanationVi": "Câu chuẩn xác là: \"I am interested in reading history books.\" (Tôi rất thích thú với việc đọc sách lịch sử.)."
+      "explanationVi": "Cấu trúc chuẩn xác là: \"I am interested in reading history books.\" (Tôi rất thích thú với việc đọc sách lịch sử.)."
     },
     {
       "id": "ex-072-18",
       "type": "find_error",
-      "promptVi": "[Tìm lỗi sai & Chọn câu đúng] Câu nào dưới đây có cấu trúc ngữ pháp HOÀN TOÀN ĐÚNG?",
-      "question": "Chủ điểm \"Bài 72: Tính từ Đuôi -ED và -ING (Participle Adjectives: Feeling vs. Characteristic)\": Chọn câu CHÍNH XÁC:",
+      "promptVi": "[Nhận diện cấu trúc chuẩn] Chọn câu có cấu trúc ngữ pháp HOÀN TOÀN ĐÚNG:",
+      "question": "Dựa vào chủ điểm \"Bài 72: Tính từ Đuôi -ED và -ING (Participle Adjectives: Feeling vs. Characteristic)\", câu nào sau đây CHÍNH XÁC?",
       "options": [
         "The movie was so boring that I fell asleep.",
+        "asleep. fell I that boring so was movie The",
         "The movie be so boring that I fell asleep.",
-        "The movie are not is so boring that I fell asleep.",
-        "asleep. fell I that boring so was movie The"
+        "is"
       ],
       "correctAnswer": "The movie was so boring that I fell asleep.",
-      "explanationVi": "Câu chuẩn xác là: \"The movie was so boring that I fell asleep.\" (Bộ phim tẻ nhạt đến nỗi tôi đã ngủ thiếp đi.)."
+      "explanationVi": "Cấu trúc chuẩn xác là: \"The movie was so boring that I fell asleep.\" (Bộ phim tẻ nhạt đến nỗi tôi đã ngủ thiếp đi.)."
     },
     {
       "id": "ex-072-19",
       "type": "find_error",
-      "promptVi": "[Tìm lỗi sai & Chọn câu đúng] Câu nào dưới đây có cấu trúc ngữ pháp HOÀN TOÀN ĐÚNG?",
-      "question": "Chủ điểm \"Bài 72: Tính từ Đuôi -ED và -ING (Participle Adjectives: Feeling vs. Characteristic)\": Chọn câu CHÍNH XÁC:",
+      "promptVi": "[Nhận diện cấu trúc chuẩn] Chọn câu có cấu trúc ngữ pháp HOÀN TOÀN ĐÚNG:",
+      "question": "Dựa vào chủ điểm \"Bài 72: Tính từ Đuôi -ED và -ING (Participle Adjectives: Feeling vs. Characteristic)\", câu nào sau đây CHÍNH XÁC?",
       "options": [
         "I was exhausted after a tiring working day.",
-        "I be exhausted after a tiring working day.",
-        "I are not is exhausted after a tiring working day.",
-        "day. working tiring a after exhausted was I"
+        "day. working tiring a after exhausted was I",
+        "is",
+        "I be exhausted after a tiring working day."
       ],
       "correctAnswer": "I was exhausted after a tiring working day.",
-      "explanationVi": "Câu chuẩn xác là: \"I was exhausted after a tiring working day.\" (Tôi đã kiệt sức sau một ngày làm việc mệt mỏi.)."
+      "explanationVi": "Cấu trúc chuẩn xác là: \"I was exhausted after a tiring working day.\" (Tôi đã kiệt sức sau một ngày làm việc mệt mỏi.)."
     },
     {
       "id": "ex-072-20",
       "type": "find_error",
-      "promptVi": "[Tìm lỗi sai & Chọn câu đúng] Câu nào dưới đây có cấu trúc ngữ pháp HOÀN TOÀN ĐÚNG?",
-      "question": "Chủ điểm \"Bài 72: Tính từ Đuôi -ED và -ING (Participle Adjectives: Feeling vs. Characteristic)\": Chọn câu CHÍNH XÁC:",
+      "promptVi": "[Nhận diện cấu trúc chuẩn] Chọn câu có cấu trúc ngữ pháp HOÀN TOÀN ĐÚNG:",
+      "question": "Dựa vào chủ điểm \"Bài 72: Tính từ Đuôi -ED và -ING (Participle Adjectives: Feeling vs. Characteristic)\", câu nào sau đây CHÍNH XÁC?",
       "options": [
-        "The football match was really exciting to watch.",
+        "watch. to exciting really was match football The",
+        "The football match was really exciting at watch.",
         "The football match be really exciting to watch.",
-        "The football match are not is really exciting to watch.",
-        "watch. to exciting really was match football The"
+        "The football match was really exciting to watch."
       ],
       "correctAnswer": "The football match was really exciting to watch.",
-      "explanationVi": "Câu chuẩn xác là: \"The football match was really exciting to watch.\" (Trận đấu bóng đá thực sự rất hào hứng và kịch tính khi xem.)."
+      "explanationVi": "Cấu trúc chuẩn xác là: \"The football match was really exciting to watch.\" (Trận đấu bóng đá thực sự rất hào hứng và kịch tính khi xem.)."
     },
     {
       "id": "ex-072-21",
       "type": "listening_reflex",
-      "promptVi": "[Nghe phản xạ] Nghe câu phát âm tiếng Anh và chọn bản dịch tiếng Việt đúng nhất:",
+      "promptVi": "[Nghe phản xạ] Nghe câu phát âm tiếng Anh và chọn bản dịch tiếng Việt đúng:",
       "audioPrompt": "Did you watch that groundbreaking deep-space astronomy documentary last night, Serena?",
-      "question": "Nhấn nút '🔊 Nghe audio' để nghe câu thoại và chọn nghĩa đúng:",
+      "question": "Nhấn nút '🔊 Nghe audio' và chọn nghĩa tiếng Việt đúng:",
       "options": [
-        "Tối qua bạn có xem bộ phim tài liệu thiên văn học không gian sâu mang tính đột phá đó không Serena?",
+        "Hôm nay thời tiết rất đẹp.",
         "Có chứ! Các mô phỏng máy tính về các vụ nổ siêu tân tinh hoàn toàn lôi cuốn và hấp dẫn. (fascinating = tính chất)",
         "Bạn có cảm thấy buồn chán trong các phần tính toán vật lý thiên văn dài hai tiếng không? (bored = cảm xúc)",
-        "Ngày mai trời sẽ mưa to."
+        "Tối qua bạn có xem bộ phim tài liệu thiên văn học không gian sâu mang tính đột phá đó không Serena?"
       ],
       "correctAnswer": "Tối qua bạn có xem bộ phim tài liệu thiên văn học không gian sâu mang tính đột phá đó không Serena?",
       "explanationVi": "Câu nghe được: \"Did you watch that groundbreaking deep-space astronomy documentary last night, Serena?\" có nghĩa là: \"Tối qua bạn có xem bộ phim tài liệu thiên văn học không gian sâu mang tính đột phá đó không Serena?\"."
@@ -323,14 +329,14 @@
     {
       "id": "ex-072-22",
       "type": "listening_reflex",
-      "promptVi": "[Nghe phản xạ] Nghe câu phát âm tiếng Anh và chọn bản dịch tiếng Việt đúng nhất:",
+      "promptVi": "[Nghe phản xạ] Nghe câu phát âm tiếng Anh và chọn bản dịch tiếng Việt đúng:",
       "audioPrompt": "Yes, I did! The computer simulations of supernovas were absolutely fascinating.",
-      "question": "Nhấn nút '🔊 Nghe audio' để nghe câu thoại và chọn nghĩa đúng:",
+      "question": "Nhấn nút '🔊 Nghe audio' và chọn nghĩa tiếng Việt đúng:",
       "options": [
-        "Có chứ! Các mô phỏng máy tính về các vụ nổ siêu tân tinh hoàn toàn lôi cuốn và hấp dẫn. (fascinating = tính chất)",
-        "Bạn có cảm thấy buồn chán trong các phần tính toán vật lý thiên văn dài hai tiếng không? (bored = cảm xúc)",
+        "Hôm nay thời tiết rất đẹp.",
         "Không hề buồn chán chút nào! Tôi rất thích thú vì các lời giải thích cực kỳ sáng rõ và thu hút. (interested = cảm xúc, engaging = tính chất)",
-        "Ngày mai trời sẽ mưa to."
+        "Bạn có cảm thấy buồn chán trong các phần tính toán vật lý thiên văn dài hai tiếng không? (bored = cảm xúc)",
+        "Có chứ! Các mô phỏng máy tính về các vụ nổ siêu tân tinh hoàn toàn lôi cuốn và hấp dẫn. (fascinating = tính chất)"
       ],
       "correctAnswer": "Có chứ! Các mô phỏng máy tính về các vụ nổ siêu tân tinh hoàn toàn lôi cuốn và hấp dẫn. (fascinating = tính chất)",
       "explanationVi": "Câu nghe được: \"Yes, I did! The computer simulations of supernovas were absolutely fascinating.\" có nghĩa là: \"Có chứ! Các mô phỏng máy tính về các vụ nổ siêu tân tinh hoàn toàn lôi cuốn và hấp dẫn. (fascinating = tính chất)\"."
@@ -338,14 +344,14 @@
     {
       "id": "ex-072-23",
       "type": "listening_reflex",
-      "promptVi": "[Nghe phản xạ] Nghe câu phát âm tiếng Anh và chọn bản dịch tiếng Việt đúng nhất:",
+      "promptVi": "[Nghe phản xạ] Nghe câu phát âm tiếng Anh và chọn bản dịch tiếng Việt đúng:",
       "audioPrompt": "Were you bored during the lengthy two-hour astrophysics calculation segments?",
-      "question": "Nhấn nút '🔊 Nghe audio' để nghe câu thoại và chọn nghĩa đúng:",
+      "question": "Nhấn nút '🔊 Nghe audio' và chọn nghĩa tiếng Việt đúng:",
       "options": [
         "Bạn có cảm thấy buồn chán trong các phần tính toán vật lý thiên văn dài hai tiếng không? (bored = cảm xúc)",
         "Không hề buồn chán chút nào! Tôi rất thích thú vì các lời giải thích cực kỳ sáng rõ và thu hút. (interested = cảm xúc, engaging = tính chất)",
         "Tôi hoàn toàn kinh ngạc trước quy mô khổng lồ của các hố đen được phát hiện ở các thiên hà xa xôi. (amazed = cảm xúc)",
-        "Ngày mai trời sẽ mưa to."
+        "Hôm nay thời tiết rất đẹp."
       ],
       "correctAnswer": "Bạn có cảm thấy buồn chán trong các phần tính toán vật lý thiên văn dài hai tiếng không? (bored = cảm xúc)",
       "explanationVi": "Câu nghe được: \"Were you bored during the lengthy two-hour astrophysics calculation segments?\" có nghĩa là: \"Bạn có cảm thấy buồn chán trong các phần tính toán vật lý thiên văn dài hai tiếng không? (bored = cảm xúc)\"."
@@ -353,14 +359,14 @@
     {
       "id": "ex-072-24",
       "type": "listening_reflex",
-      "promptVi": "[Nghe phản xạ] Nghe câu phát âm tiếng Anh và chọn bản dịch tiếng Việt đúng nhất:",
+      "promptVi": "[Nghe phản xạ] Nghe câu phát âm tiếng Anh và chọn bản dịch tiếng Việt đúng:",
       "audioPrompt": "Not at all! I was deeply interested because the explanations were crystal clear and engaging.",
-      "question": "Nhấn nút '🔊 Nghe audio' để nghe câu thoại và chọn nghĩa đúng:",
+      "question": "Nhấn nút '🔊 Nghe audio' và chọn nghĩa tiếng Việt đúng:",
       "options": [
-        "Không hề buồn chán chút nào! Tôi rất thích thú vì các lời giải thích cực kỳ sáng rõ và thu hút. (interested = cảm xúc, engaging = tính chất)",
         "Tôi hoàn toàn kinh ngạc trước quy mô khổng lồ của các hố đen được phát hiện ở các thiên hà xa xôi. (amazed = cảm xúc)",
+        "Hôm nay thời tiết rất đẹp.",
         "Thật sự đáng kinh ngạc khi nhận ra hệ mặt trời của chúng ta nhỏ bé đến nhường nào so với vũ trụ. (astonishing = tính chất)",
-        "Ngày mai trời sẽ mưa to."
+        "Không hề buồn chán chút nào! Tôi rất thích thú vì các lời giải thích cực kỳ sáng rõ và thu hút. (interested = cảm xúc, engaging = tính chất)"
       ],
       "correctAnswer": "Không hề buồn chán chút nào! Tôi rất thích thú vì các lời giải thích cực kỳ sáng rõ và thu hút. (interested = cảm xúc, engaging = tính chất)",
       "explanationVi": "Câu nghe được: \"Not at all! I was deeply interested because the explanations were crystal clear and engaging.\" có nghĩa là: \"Không hề buồn chán chút nào! Tôi rất thích thú vì các lời giải thích cực kỳ sáng rõ và thu hút. (interested = cảm xúc, engaging = tính chất)\"."
@@ -368,64 +374,68 @@
     {
       "id": "ex-072-25",
       "type": "speaking_practice",
-      "promptVi": "[Luyện nói qua Micro] Nhấn nút '🎙️ Bắt đầu nói' và đọc to, rõ ràng câu tiếng Anh sau:",
+      "promptVi": "[Luyện nói qua Micro] Nhấn nút 'Bấm để Nói ngay' và phát âm câu sau:",
+      "question": "Luyện phát âm chuẩn câu: \"I am interested in reading history books.\" (Tôi rất thích thú với việc đọc sách lịch sử.)",
       "targetSentence": "I am interested in reading history books.",
       "hintVi": "Tôi rất thích thú với việc đọc sách lịch sử.",
-      "explanationVi": "Câu mục tiêu: \"I am interested in reading history books.\" (Tôi rất thích thú với việc đọc sách lịch sử.). Luyện phát âm chuẩn xác từng âm tiết và ngữ điệu tự nhiên."
+      "explanationVi": "Mẫu câu chuẩn: \"I am interested in reading history books.\" (Tôi rất thích thú với việc đọc sách lịch sử.). Luyện phát âm rõ ràng từng từ."
     },
     {
       "id": "ex-072-26",
       "type": "speaking_practice",
-      "promptVi": "[Luyện nói qua Micro] Nhấn nút '🎙️ Bắt đầu nói' và đọc to, rõ ràng câu tiếng Anh sau:",
+      "promptVi": "[Luyện nói qua Micro] Nhấn nút 'Bấm để Nói ngay' và phát âm câu sau:",
+      "question": "Luyện phát âm chuẩn câu: \"The movie was so boring that I fell asleep.\" (Bộ phim tẻ nhạt đến nỗi tôi đã ngủ thiếp đi.)",
       "targetSentence": "The movie was so boring that I fell asleep.",
       "hintVi": "Bộ phim tẻ nhạt đến nỗi tôi đã ngủ thiếp đi.",
-      "explanationVi": "Câu mục tiêu: \"The movie was so boring that I fell asleep.\" (Bộ phim tẻ nhạt đến nỗi tôi đã ngủ thiếp đi.). Luyện phát âm chuẩn xác từng âm tiết và ngữ điệu tự nhiên."
+      "explanationVi": "Mẫu câu chuẩn: \"The movie was so boring that I fell asleep.\" (Bộ phim tẻ nhạt đến nỗi tôi đã ngủ thiếp đi.). Luyện phát âm rõ ràng từng từ."
     },
     {
       "id": "ex-072-27",
       "type": "speaking_practice",
-      "promptVi": "[Luyện nói qua Micro] Nhấn nút '🎙️ Bắt đầu nói' và đọc to, rõ ràng câu tiếng Anh sau:",
+      "promptVi": "[Luyện nói qua Micro] Nhấn nút 'Bấm để Nói ngay' và phát âm câu sau:",
+      "question": "Luyện phát âm chuẩn câu: \"I was exhausted after a tiring working day.\" (Tôi đã kiệt sức sau một ngày làm việc mệt mỏi.)",
       "targetSentence": "I was exhausted after a tiring working day.",
       "hintVi": "Tôi đã kiệt sức sau một ngày làm việc mệt mỏi.",
-      "explanationVi": "Câu mục tiêu: \"I was exhausted after a tiring working day.\" (Tôi đã kiệt sức sau một ngày làm việc mệt mỏi.). Luyện phát âm chuẩn xác từng âm tiết và ngữ điệu tự nhiên."
+      "explanationVi": "Mẫu câu chuẩn: \"I was exhausted after a tiring working day.\" (Tôi đã kiệt sức sau một ngày làm việc mệt mỏi.). Luyện phát âm rõ ràng từng từ."
     },
     {
       "id": "ex-072-28",
       "type": "speaking_practice",
-      "promptVi": "[Luyện nói qua Micro] Nhấn nút '🎙️ Bắt đầu nói' và đọc to, rõ ràng câu tiếng Anh sau:",
+      "promptVi": "[Luyện nói qua Micro] Nhấn nút 'Bấm để Nói ngay' và phát âm câu sau:",
+      "question": "Luyện phát âm chuẩn câu: \"The football match was really exciting to watch.\" (Trận đấu bóng đá thực sự rất hào hứng và kịch tính khi xem.)",
       "targetSentence": "The football match was really exciting to watch.",
       "hintVi": "Trận đấu bóng đá thực sự rất hào hứng và kịch tính khi xem.",
-      "explanationVi": "Câu mục tiêu: \"The football match was really exciting to watch.\" (Trận đấu bóng đá thực sự rất hào hứng và kịch tính khi xem.). Luyện phát âm chuẩn xác từng âm tiết và ngữ điệu tự nhiên."
+      "explanationVi": "Mẫu câu chuẩn: \"The football match was really exciting to watch.\" (Trận đấu bóng đá thực sự rất hào hứng và kịch tính khi xem.). Luyện phát âm rõ ràng từng từ."
     },
     {
       "id": "ex-072-29",
       "type": "reading_comprehension",
-      "promptVi": "[Đọc hiểu đoạn văn 1] Đọc đoạn hội thoại mở đầu sau và trả lời câu hỏi:",
-      "passage": "Julian (Nam): \"Did you watch that groundbreaking deep-space astronomy documentary last night, Serena?\"\nSerena (Nữ): \"Yes, I did! The computer simulations of supernovas were absolutely fascinating.\"\nJulian (Nam): \"Were you bored during the lengthy two-hour astrophysics calculation segments?\"\nSerena (Nữ): \"Not at all! I was deeply interested because the explanations were crystal clear and engaging.\"",
-      "question": "Câu hỏi: Trong đoạn hội thoại trên, các nhân vật đang thảo luận về chủ đề gì?",
+      "promptVi": "[Đọc hiểu đoạn văn] Đọc đoạn hội thoại sau và trả lời câu hỏi:",
+      "passage": "Julian: \"Did you watch that groundbreaking deep-space astronomy documentary last night, Serena?\"\nSerena: \"Yes, I did! The computer simulations of supernovas were absolutely fascinating.\"\nJulian: \"Were you bored during the lengthy two-hour astrophysics calculation segments?\"\nSerena: \"Not at all! I was deeply interested because the explanations were crystal clear and engaging.\"",
+      "question": "Chủ đề trọng tâm của đoạn hội thoại trên là gì?",
       "options": [
+        "Lịch trình đi du lịch nghỉ mát cuối tuần",
+        "Kế hoạch đi mua sắm tại siêu thị",
         "Tính từ Đuôi -ED và -ING (Participle Adjectives: Feeling vs. Characteristic)",
-        "Kế hoạch đi nghỉ dưỡng cuối tuần ở bãi biển",
-        "Mua sắm quần áo và đồ dùng thể thao",
-        "Cách làm món ăn truyền thống gia đình"
+        "Cách làm món ăn truyền thống"
       ],
       "correctAnswer": "Tính từ Đuôi -ED và -ING (Participle Adjectives: Feeling vs. Characteristic)",
-      "explanationVi": "Đoạn hội thoại mở đầu được thiết kế để minh họa trực tiếp cho chủ điểm ngữ pháp: \"Bài 72: Tính từ Đuôi -ED và -ING (Participle Adjectives: Feeling vs. Characteristic)\"."
+      "explanationVi": "Đoạn hội thoại được thiết kế để minh họa trực tiếp cho chủ điểm \"Bài 72: Tính từ Đuôi -ED và -ING (Participle Adjectives: Feeling vs. Characteristic)\"."
     },
     {
       "id": "ex-072-30",
       "type": "reading_comprehension",
-      "promptVi": "[Đọc hiểu đoạn văn 2] Đọc phần tiếp theo của đoạn hội thoại và chọn nhận định đúng:",
-      "passage": "Julian (Nam): \"I was utterly amazed by the immense scale of black holes discovered in distant galaxies.\"\nSerena (Nữ): \"It was truly astonishing to realize how tiny our solar system is compared to the universe.\"\nJulian (Nam): \"My little brother watched it too, but he felt exhausted after the tiring school week.\"\nSerena (Nữ): \"Was he disappointed with the lack of alien life theories presented by the scientists?\"",
-      "question": "Nhận định nào sau đây là ĐÚNG với nội dung đoạn hội thoại trên?",
+      "promptVi": "[Đọc hiểu đoạn văn] Đọc đoạn đối thoại tiếp theo và chọn nhận định đúng:",
+      "passage": "Julian: \"I was utterly amazed by the immense scale of black holes discovered in distant galaxies.\"\nSerena: \"It was truly astonishing to realize how tiny our solar system is compared to the universe.\"\nJulian: \"My little brother watched it too, but he felt exhausted after the tiring school week.\"\nSerena: \"Was he disappointed with the lack of alien life theories presented by the scientists?\"",
+      "question": "Nhận định nào sau đây là ĐÚNG về nội dung đoạn đối thoại?",
       "options": [
-        "Các câu hội thoại sử dụng đúng cấu trúc ngữ pháp \"Bài 72: Tính từ Đuôi -ED và -ING (Participle Adjectives: Feeling vs. Characteristic)\".",
-        "Các nhân vật không hiểu ý nhau và từ chối nói chuyện.",
-        "Đoạn hội thoại nói về việc chuyển nhà sang thành phố khác.",
-        "Cả hai nhân vật đều đang ở sân bay chuẩn bị lên máy bay."
+        "Hai nhân vật đang cãi nhau và không đồng ý hợp tác.",
+        "Các câu thoại sử dụng đúng cấu trúc \"Tính từ Đuôi -ED và -ING (Participle Adjectives: Feeling vs. Characteristic)\".",
+        "Cuộc trò chuyện diễn ra tại nhà ga xe lửa.",
+        "Cả hai nhân vật đang thảo luận về thời tiết ngày mai."
       ],
-      "correctAnswer": "Các câu hội thoại sử dụng đúng cấu trúc ngữ pháp \"Bài 72: Tính từ Đuôi -ED và -ING (Participle Adjectives: Feeling vs. Characteristic)\".",
-      "explanationVi": "Đoạn hội thoại thứ hai tiếp tục củng cố và ứng dụng các quy tắc ngữ pháp của \"Bài 72: Tính từ Đuôi -ED và -ING (Participle Adjectives: Feeling vs. Characteristic)\"."
+      "correctAnswer": "Các câu thoại sử dụng đúng cấu trúc \"Tính từ Đuôi -ED và -ING (Participle Adjectives: Feeling vs. Characteristic)\".",
+      "explanationVi": "Đoạn đối thoại ứng dụng chuẩn xác ngữ pháp của \"Bài 72: Tính từ Đuôi -ED và -ING (Participle Adjectives: Feeling vs. Characteristic)\"."
     }
   ]
 }

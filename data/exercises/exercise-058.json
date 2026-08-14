@@ -7,13 +7,13 @@
     {
       "id": "ex-058-01",
       "type": "multiple_choice",
-      "promptVi": "[Trắc nghiệm] Chọn từ/cụm từ đúng để hoàn thành câu (Anh ấy đã nói rằng anh ấy rất mệt.):",
+      "promptVi": "[Trắc nghiệm ngữ pháp] Chọn từ đúng để hoàn thành câu (Anh ấy đã nói rằng anh ấy rất mệt.):",
       "question": "He said that he ___ very tired.",
       "options": [
-        "was",
         "is",
-        "am",
-        "be"
+        "was",
+        "be",
+        "am"
       ],
       "correctAnswer": "was",
       "explanationVi": "Động từ tường thuật 'said' ở quá khứ nên 'am' lùi thì thành 'was'."
@@ -21,13 +21,13 @@
     {
       "id": "ex-058-02",
       "type": "multiple_choice",
-      "promptVi": "[Trắc nghiệm] Chọn từ/cụm từ đúng để hoàn thành câu (Cô ấy đã nói với tôi rằng cô ấy đã mua một chiếc máy tính xách tay mới.):",
+      "promptVi": "[Trắc nghiệm ngữ pháp] Chọn từ đúng để hoàn thành câu (Cô ấy đã nói với tôi rằng cô ấy đã mua một chiếc máy tính xách tay mới.):",
       "question": "She ___ me that she had bought a new laptop.",
       "options": [
-        "told",
         "said",
-        "spoke",
-        "talked"
+        "told",
+        "talked",
+        "spoke"
       ],
       "correctAnswer": "told",
       "explanationVi": "Có tân ngữ chỉ người 'me' nên dùng 'told'."
@@ -35,13 +35,13 @@
     {
       "id": "ex-058-03",
       "type": "multiple_choice",
-      "promptVi": "[Trắc nghiệm] Chọn từ/cụm từ đúng để hoàn thành câu (Họ đã nói rằng họ sẽ đến thăm chúng tôi vào ngày hôm sau.):",
+      "promptVi": "[Trắc nghiệm ngữ pháp] Chọn từ đúng để hoàn thành câu (Họ đã nói rằng họ sẽ đến thăm chúng tôi vào ngày hôm sau.):",
       "question": "They said that they ___ visit us the next day.",
       "options": [
-        "would",
-        "will",
+        "shall",
         "can",
-        "shall"
+        "would",
+        "will"
       ],
       "correctAnswer": "would",
       "explanationVi": "'will' lùi thì thành 'would' trong câu tường thuật."
@@ -49,13 +49,13 @@
     {
       "id": "ex-058-04",
       "type": "multiple_choice",
-      "promptVi": "[Trắc nghiệm] Chọn từ/cụm từ đúng để hoàn thành câu (David đã nói rằng anh ấy phải hoàn thành báo cáo của mình.):",
+      "promptVi": "[Trắc nghiệm ngữ pháp] Chọn từ đúng để hoàn thành câu (David đã nói rằng anh ấy phải hoàn thành báo cáo của mình.):",
       "question": "David said that he ___ to finish his report.",
       "options": [
-        "had",
-        "has",
         "have",
-        "must"
+        "must",
+        "has",
+        "had"
       ],
       "correctAnswer": "had",
       "explanationVi": "'must' lùi thì thành 'had to'."
@@ -63,112 +63,114 @@
     {
       "id": "ex-058-05",
       "type": "multiple_choice",
-      "promptVi": "[Trắc nghiệm] Dịch câu sau sang tiếng Anh: \"Chào buổi tối quý công dân. Đầu ngày hôm nay, Thị trưởng Harrison cho biết thành phố sẽ nâng cấp mạng lưới giao thông công cộng.\"",
-      "question": "Chọn bản dịch chuẩn xác cho câu: \"Chào buổi tối quý công dân. Đầu ngày hôm nay, Thị trưởng Harrison cho biết thành phố sẽ nâng cấp mạng lưới giao thông công cộng.\"",
+      "promptVi": "[Phản xạ dịch thuật] Dịch câu sau sang tiếng Anh: \"Chào buổi tối quý công dân. Đầu ngày hôm nay, Thị trưởng Harrison cho biết thành phố sẽ nâng cấp mạng lưới giao thông công cộng.\"",
+      "question": "Chọn bản dịch chuẩn xác nhất cho câu: \"Chào buổi tối quý công dân. Đầu ngày hôm nay, Thị trưởng Harrison cho biết thành phố sẽ nâng cấp mạng lưới giao thông công cộng.\"",
       "options": [
-        "Good evening, citizens. Earlier today, Mayor Harrison said that the city would upgrade the public transit network.",
-        "Good evening, citizens. Earlier today, Mayor Harrison said that the city would upgrade the public transit network.",
+        "We are studying English today.",
         "He also told reporters that construction crews had already completed thirty kilometers of new bicycle lanes.",
-        "I want to go to the park now."
+        "is",
+        "Good evening, citizens. Earlier today, Mayor Harrison said that the city would upgrade the public transit network."
       ],
       "correctAnswer": "Good evening, citizens. Earlier today, Mayor Harrison said that the city would upgrade the public transit network.",
-      "explanationVi": "Câu đúng là \"Good evening, citizens. Earlier today, Mayor Harrison said that the city would upgrade the public transit network.\" (Chào buổi tối quý công dân. Đầu ngày hôm nay, Thị trưởng Harrison cho biết thành phố sẽ nâng cấp mạng lưới giao thông công cộng.)."
+      "explanationVi": "Câu dịch chuẩn xác: \"Good evening, citizens. Earlier today, Mayor Harrison said that the city would upgrade the public transit network.\" (Chào buổi tối quý công dân. Đầu ngày hôm nay, Thị trưởng Harrison cho biết thành phố sẽ nâng cấp mạng lưới giao thông công cộng.)."
     },
     {
       "id": "ex-058-06",
       "type": "multiple_choice",
-      "promptVi": "[Trắc nghiệm] Chọn câu trả lời hoặc cách diễn đạt phù hợp:",
-      "question": "Trong ngữ cảnh giao tiếp: \"Good evening, citizens. Earlier today, Mayor Harrison said that the city would upgrade the public transit network.\", câu phản hồi tự nhiên là gì?",
+      "promptVi": "[Ngữ cảnh giao tiếp] Chọn câu phản hồi tự nhiên và đúng ngữ pháp:",
+      "question": "Khi đối phương nói: \"Good evening, citizens. Earlier today, Mayor Harrison said that the city would upgrade the public transit network.\", câu phản hồi phù hợp là gì?",
       "options": [
         "He also told reporters that construction crews had already completed thirty kilometers of new bicycle lanes.",
-        "No, it is yesterday morning.",
-        "Yes, I will eat apple.",
-        "They are not at the library."
+        "No, it was yesterday.",
+        "They are not in the office.",
+        "Yes, I will eat it."
       ],
       "correctAnswer": "He also told reporters that construction crews had already completed thirty kilometers of new bicycle lanes.",
-      "explanationVi": "Phản hồi phù hợp: \"He also told reporters that construction crews had already completed thirty kilometers of new bicycle lanes.\" (Ông ấy cũng nói với các phóng viên rằng các đội thi công đã hoàn thành ba mươi kilomet làn đường xe đạp mới rồi.)."
+      "explanationVi": "Phản hồi phù hợp trong bài: \"He also told reporters that construction crews had already completed thirty kilometers of new bicycle lanes.\" (Ông ấy cũng nói với các phóng viên rằng các đội thi công đã hoàn thành ba mươi kilomet làn đường xe đạp mới rồi.)."
     },
     {
       "id": "ex-058-07",
       "type": "fill_blank",
-      "promptVi": "[Điền từ - (Dạng khẳng định)] Điền dạng đúng của động từ vào ô trống (Anh ấy đã nói rằng anh ấy rất mệt.):",
+      "promptVi": "[Điền từ - Dạng KHẲNG ĐỊNH] Điền từ còn thiếu vào ô trống (Anh ấy đã nói rằng anh ấy rất mệt.):",
       "question": "He said that he ___ very tired.",
       "correctAnswer": "was",
       "options": [
-        "was",
         "is",
-        "am",
-        "be"
+        "be",
+        "was",
+        "am"
       ],
-      "explanationVi": "Đáp án chính xác: \"was\". Anh ấy đã nói rằng anh ấy rất mệt.."
+      "explanationVi": "Đáp án đúng là \"was\". Câu hoàn chỉnh: \"He said that he was very tired.\" (Anh ấy đã nói rằng anh ấy rất mệt.)."
     },
     {
       "id": "ex-058-08",
       "type": "fill_blank",
-      "promptVi": "[Điền từ - (Dạng khẳng định)] Điền dạng đúng của động từ vào ô trống (Cô ấy đã nói với tôi rằng cô ấy đã mua một chiếc máy tính xách tay mới.):",
+      "promptVi": "[Điền từ - Dạng KHẲNG ĐỊNH] Điền từ còn thiếu vào ô trống (Cô ấy đã nói với tôi rằng cô ấy đã mua một chiếc máy tính xách tay mới.):",
       "question": "She ___ me that she had bought a new laptop.",
       "correctAnswer": "told",
       "options": [
         "told",
+        "talked",
         "said",
-        "spoke",
-        "talked"
+        "spoke"
       ],
-      "explanationVi": "Đáp án chính xác: \"told\". Cô ấy đã nói với tôi rằng cô ấy đã mua một chiếc máy tính xách tay mới.."
+      "explanationVi": "Đáp án đúng là \"told\". Câu hoàn chỉnh: \"She told me that she had bought a new laptop.\" (Cô ấy đã nói với tôi rằng cô ấy đã mua một chiếc máy tính xách tay mới.)."
     },
     {
       "id": "ex-058-09",
       "type": "fill_blank",
-      "promptVi": "[Điền từ - (Dạng khẳng định)] Điền dạng đúng của động từ vào ô trống (Họ đã nói rằng họ sẽ đến thăm chúng tôi vào ngày hôm sau.):",
+      "promptVi": "[Điền từ - Dạng KHẲNG ĐỊNH] Điền từ còn thiếu vào ô trống (Họ đã nói rằng họ sẽ đến thăm chúng tôi vào ngày hôm sau.):",
       "question": "They said that they ___ visit us the next day.",
       "correctAnswer": "would",
       "options": [
         "would",
+        "shall",
         "will",
-        "can",
-        "shall"
+        "can"
       ],
-      "explanationVi": "Đáp án chính xác: \"would\". Họ đã nói rằng họ sẽ đến thăm chúng tôi vào ngày hôm sau.."
+      "explanationVi": "Đáp án đúng là \"would\". Câu hoàn chỉnh: \"They said that they would visit us the next day.\" (Họ đã nói rằng họ sẽ đến thăm chúng tôi vào ngày hôm sau.)."
     },
     {
       "id": "ex-058-10",
       "type": "fill_blank",
-      "promptVi": "[Điền từ - (Dạng khẳng định)] Điền dạng đúng của động từ vào ô trống (David đã nói rằng anh ấy phải hoàn thành báo cáo của mình.):",
+      "promptVi": "[Điền từ - Dạng KHẲNG ĐỊNH] Điền từ còn thiếu vào ô trống (David đã nói rằng anh ấy phải hoàn thành báo cáo của mình.):",
       "question": "David said that he ___ to finish his report.",
       "correctAnswer": "had",
       "options": [
-        "had",
+        "must",
         "has",
-        "have",
-        "must"
+        "had",
+        "have"
       ],
-      "explanationVi": "Đáp án chính xác: \"had\". David đã nói rằng anh ấy phải hoàn thành báo cáo của mình.."
+      "explanationVi": "Đáp án đúng là \"had\". Câu hoàn chỉnh: \"David said that he had to finish his report.\" (David đã nói rằng anh ấy phải hoàn thành báo cáo của mình.)."
     },
     {
       "id": "ex-058-11",
       "type": "fill_blank",
-      "promptVi": "[Điền từ - Dạng PHỦ ĐỊNH] Hoàn thành câu phủ định sau:",
-      "correctAnswer": "He said that he was not very tired.",
+      "promptVi": "[Điền từ - Dạng PHỦ ĐỊNH] Điền trợ động từ/động từ tobe phủ định vào chỗ trống:",
+      "question": "He _____ not that he was very tired.",
+      "correctAnswer": "said",
       "options": [
-        "He said that he was not very tired.",
-        "He said that he was very tired.",
-        "Not He said that he was very tired.",
-        "He said that he was very tired. no"
+        "are",
+        "am",
+        "is",
+        "said"
       ],
-      "explanationVi": "Dạng phủ định chuẩn: Thêm 'not' sau động từ chính."
+      "explanationVi": "Câu phủ định hoàn chỉnh: \"He said not that he was very tired.\"."
     },
     {
       "id": "ex-058-12",
       "type": "sentence_scramble",
-      "promptVi": "[Sắp xếp câu] Xếp các khối từ thành câu hoàn chỉnh mang nghĩa: \"Anh ấy đã nói rằng anh ấy rất mệt.\"",
+      "promptVi": "[Sắp xếp câu] Ghép các khối từ thành câu hoàn chỉnh mang nghĩa: \"Anh ấy đã nói rằng anh ấy rất mệt.\"",
+      "question": "Sắp xếp các từ để tạo thành câu đúng: \"Anh ấy đã nói rằng anh ấy rất mệt.\"",
       "words": [
-        "very",
         "tired.",
-        "He",
-        "he",
+        "very",
+        "said",
         "that",
         "was",
-        "said"
+        "he",
+        "He"
       ],
       "correctSentence": "He said that he was very tired.",
       "hintVi": "Anh ấy đã nói rằng anh ấy rất mệt.",
@@ -177,16 +179,17 @@
     {
       "id": "ex-058-13",
       "type": "sentence_scramble",
-      "promptVi": "[Sắp xếp câu] Xếp các khối từ thành câu hoàn chỉnh mang nghĩa: \"Cô ấy đã nói với tôi rằng cô ấy đã mua một chiếc máy tính xách tay mới.\"",
+      "promptVi": "[Sắp xếp câu] Ghép các khối từ thành câu hoàn chỉnh mang nghĩa: \"Cô ấy đã nói với tôi rằng cô ấy đã mua một chiếc máy tính xách tay mới.\"",
+      "question": "Sắp xếp các từ để tạo thành câu đúng: \"Cô ấy đã nói với tôi rằng cô ấy đã mua một chiếc máy tính xách tay mới.\"",
       "words": [
-        "new",
+        "told",
         "me",
+        "laptop.",
+        "She",
+        "new",
         "she",
         "a",
-        "She",
-        "laptop.",
         "bought",
-        "told",
         "had",
         "that"
       ],
@@ -197,18 +200,19 @@
     {
       "id": "ex-058-14",
       "type": "sentence_scramble",
-      "promptVi": "[Sắp xếp câu] Xếp các khối từ thành câu hoàn chỉnh mang nghĩa: \"Họ đã nói rằng họ sẽ đến thăm chúng tôi vào ngày hôm sau.\"",
+      "promptVi": "[Sắp xếp câu] Ghép các khối từ thành câu hoàn chỉnh mang nghĩa: \"Họ đã nói rằng họ sẽ đến thăm chúng tôi vào ngày hôm sau.\"",
+      "question": "Sắp xếp các từ để tạo thành câu đúng: \"Họ đã nói rằng họ sẽ đến thăm chúng tôi vào ngày hôm sau.\"",
       "words": [
-        "that",
+        "would",
+        "they",
+        "us",
+        "said",
         "visit",
         "day.",
         "next",
-        "said",
         "They",
-        "the",
-        "us",
-        "they",
-        "would"
+        "that",
+        "the"
       ],
       "correctSentence": "They said that they would visit us the next day.",
       "hintVi": "Họ đã nói rằng họ sẽ đến thăm chúng tôi vào ngày hôm sau.",
@@ -217,17 +221,18 @@
     {
       "id": "ex-058-15",
       "type": "sentence_scramble",
-      "promptVi": "[Sắp xếp câu] Xếp các khối từ thành câu hoàn chỉnh mang nghĩa: \"David đã nói rằng anh ấy phải hoàn thành báo cáo của mình.\"",
+      "promptVi": "[Sắp xếp câu] Ghép các khối từ thành câu hoàn chỉnh mang nghĩa: \"David đã nói rằng anh ấy phải hoàn thành báo cáo của mình.\"",
+      "question": "Sắp xếp các từ để tạo thành câu đúng: \"David đã nói rằng anh ấy phải hoàn thành báo cáo của mình.\"",
       "words": [
-        "report.",
-        "his",
+        "said",
         "that",
-        "finish",
-        "to",
-        "David",
-        "had",
         "he",
-        "said"
+        "to",
+        "finish",
+        "his",
+        "report.",
+        "had",
+        "David"
       ],
       "correctSentence": "David said that he had to finish his report.",
       "hintVi": "David đã nói rằng anh ấy phải hoàn thành báo cáo của mình.",
@@ -236,18 +241,19 @@
     {
       "id": "ex-058-16",
       "type": "sentence_scramble",
-      "promptVi": "[Sắp xếp câu] Xếp các từ thành câu hội thoại: \"Tổng giám đốc khí tượng có đề cập điều gì về cơn bão tuyết được dự báo vào ngày mai không?\"",
+      "promptVi": "[Sắp xếp câu] Ghép các từ thành câu hội thoại: \"Tổng giám đốc khí tượng có đề cập điều gì về cơn bão tuyết được dự báo vào ngày mai không?\"",
+      "question": "Sắp xếp các từ để tạo thành câu thoại: \"Tổng giám đốc khí tượng có đề cập điều gì về cơn bão tuyết được dự báo vào ngày mai không?\"",
       "words": [
-        "meteorologist",
         "snowstorm",
-        "anything",
-        "chief",
-        "forecasted",
-        "about",
-        "the",
         "tomorrow's",
+        "about",
         "Did",
-        "mention"
+        "meteorologist",
+        "forecasted",
+        "the",
+        "chief",
+        "mention",
+        "anything"
       ],
       "correctSentence": "Did the chief meteorologist mention anything about tomorrow's forecasted snowstorm?",
       "hintVi": "Tổng giám đốc khí tượng có đề cập điều gì về cơn bão tuyết được dự báo vào ngày mai không?",
@@ -256,70 +262,70 @@
     {
       "id": "ex-058-17",
       "type": "find_error",
-      "promptVi": "[Tìm lỗi sai & Chọn câu đúng] Câu nào dưới đây có cấu trúc ngữ pháp HOÀN TOÀN ĐÚNG?",
-      "question": "Chủ điểm \"Bài 58: Câu Tường thuật — Câu Kể (Reported Statements: Say / Tell & Tense Backshift Rules)\": Chọn câu CHÍNH XÁC:",
+      "promptVi": "[Nhận diện cấu trúc chuẩn] Chọn câu có cấu trúc ngữ pháp HOÀN TOÀN ĐÚNG:",
+      "question": "Dựa vào chủ điểm \"Bài 58: Câu Tường thuật — Câu Kể (Reported Statements: Say / Tell & Tense Backshift Rules)\", câu nào sau đây CHÍNH XÁC?",
       "options": [
+        "tired. very was he that said He",
         "He said that he was very tired.",
         "He said that he be very tired.",
-        "He said that he are not is very tired.",
-        "tired. very was he that said He"
+        "is"
       ],
       "correctAnswer": "He said that he was very tired.",
-      "explanationVi": "Câu chuẩn xác là: \"He said that he was very tired.\" (Anh ấy đã nói rằng anh ấy rất mệt.)."
+      "explanationVi": "Cấu trúc chuẩn xác là: \"He said that he was very tired.\" (Anh ấy đã nói rằng anh ấy rất mệt.)."
     },
     {
       "id": "ex-058-18",
       "type": "find_error",
-      "promptVi": "[Tìm lỗi sai & Chọn câu đúng] Câu nào dưới đây có cấu trúc ngữ pháp HOÀN TOÀN ĐÚNG?",
-      "question": "Chủ điểm \"Bài 58: Câu Tường thuật — Câu Kể (Reported Statements: Say / Tell & Tense Backshift Rules)\": Chọn câu CHÍNH XÁC:",
+      "promptVi": "[Nhận diện cấu trúc chuẩn] Chọn câu có cấu trúc ngữ pháp HOÀN TOÀN ĐÚNG:",
+      "question": "Dựa vào chủ điểm \"Bài 58: Câu Tường thuật — Câu Kể (Reported Statements: Say / Tell & Tense Backshift Rules)\", câu nào sau đây CHÍNH XÁC?",
       "options": [
-        "She told me that she had bought a new laptop.",
+        "is",
         "laptop. new a bought had she that me told She",
-        "She told me that she had bought a new laptop. (sai)",
-        "She told me that she had bought a new laptop. (sai)"
+        "She told me that she had bought a new laptop.",
+        "are"
       ],
       "correctAnswer": "She told me that she had bought a new laptop.",
-      "explanationVi": "Câu chuẩn xác là: \"She told me that she had bought a new laptop.\" (Cô ấy đã nói với tôi rằng cô ấy đã mua một chiếc máy tính xách tay mới.)."
+      "explanationVi": "Cấu trúc chuẩn xác là: \"She told me that she had bought a new laptop.\" (Cô ấy đã nói với tôi rằng cô ấy đã mua một chiếc máy tính xách tay mới.)."
     },
     {
       "id": "ex-058-19",
       "type": "find_error",
-      "promptVi": "[Tìm lỗi sai & Chọn câu đúng] Câu nào dưới đây có cấu trúc ngữ pháp HOÀN TOÀN ĐÚNG?",
-      "question": "Chủ điểm \"Bài 58: Câu Tường thuật — Câu Kể (Reported Statements: Say / Tell & Tense Backshift Rules)\": Chọn câu CHÍNH XÁC:",
+      "promptVi": "[Nhận diện cấu trúc chuẩn] Chọn câu có cấu trúc ngữ pháp HOÀN TOÀN ĐÚNG:",
+      "question": "Dựa vào chủ điểm \"Bài 58: Câu Tường thuật — Câu Kể (Reported Statements: Say / Tell & Tense Backshift Rules)\", câu nào sau đây CHÍNH XÁC?",
       "options": [
-        "They said that they would visit us the next day.",
+        "are",
         "day. next the us visit would they that said They",
-        "They said that they would visit us the next day. (sai)",
-        "They said that they would visit us the next day. (sai)"
+        "is",
+        "They said that they would visit us the next day."
       ],
       "correctAnswer": "They said that they would visit us the next day.",
-      "explanationVi": "Câu chuẩn xác là: \"They said that they would visit us the next day.\" (Họ đã nói rằng họ sẽ đến thăm chúng tôi vào ngày hôm sau.)."
+      "explanationVi": "Cấu trúc chuẩn xác là: \"They said that they would visit us the next day.\" (Họ đã nói rằng họ sẽ đến thăm chúng tôi vào ngày hôm sau.)."
     },
     {
       "id": "ex-058-20",
       "type": "find_error",
-      "promptVi": "[Tìm lỗi sai & Chọn câu đúng] Câu nào dưới đây có cấu trúc ngữ pháp HOÀN TOÀN ĐÚNG?",
-      "question": "Chủ điểm \"Bài 58: Câu Tường thuật — Câu Kể (Reported Statements: Say / Tell & Tense Backshift Rules)\": Chọn câu CHÍNH XÁC:",
+      "promptVi": "[Nhận diện cấu trúc chuẩn] Chọn câu có cấu trúc ngữ pháp HOÀN TOÀN ĐÚNG:",
+      "question": "Dựa vào chủ điểm \"Bài 58: Câu Tường thuật — Câu Kể (Reported Statements: Say / Tell & Tense Backshift Rules)\", câu nào sau đây CHÍNH XÁC?",
       "options": [
         "David said that he had to finish his report.",
+        "David said that he had at finish his report.",
         "report. his finish to had he that said David",
-        "David said that he had to finish his report. (sai)",
-        "David said that he had to finish his report. (sai)"
+        "is"
       ],
       "correctAnswer": "David said that he had to finish his report.",
-      "explanationVi": "Câu chuẩn xác là: \"David said that he had to finish his report.\" (David đã nói rằng anh ấy phải hoàn thành báo cáo của mình.)."
+      "explanationVi": "Cấu trúc chuẩn xác là: \"David said that he had to finish his report.\" (David đã nói rằng anh ấy phải hoàn thành báo cáo của mình.)."
     },
     {
       "id": "ex-058-21",
       "type": "listening_reflex",
-      "promptVi": "[Nghe phản xạ] Nghe câu phát âm tiếng Anh và chọn bản dịch tiếng Việt đúng nhất:",
+      "promptVi": "[Nghe phản xạ] Nghe câu phát âm tiếng Anh và chọn bản dịch tiếng Việt đúng:",
       "audioPrompt": "Good evening, citizens. Earlier today, Mayor Harrison said that the city would upgrade the public transit network.",
-      "question": "Nhấn nút '🔊 Nghe audio' để nghe câu thoại và chọn nghĩa đúng:",
+      "question": "Nhấn nút '🔊 Nghe audio' và chọn nghĩa tiếng Việt đúng:",
       "options": [
-        "Chào buổi tối quý công dân. Đầu ngày hôm nay, Thị trưởng Harrison cho biết thành phố sẽ nâng cấp mạng lưới giao thông công cộng.",
         "Ông ấy cũng nói với các phóng viên rằng các đội thi công đã hoàn thành ba mươi kilomet làn đường xe đạp mới rồi.",
-        "Tổng giám đốc khí tượng có đề cập điều gì về cơn bão tuyết được dự báo vào ngày mai không?",
-        "Ngày mai trời sẽ mưa to."
+        "Hôm nay thời tiết rất đẹp.",
+        "Chào buổi tối quý công dân. Đầu ngày hôm nay, Thị trưởng Harrison cho biết thành phố sẽ nâng cấp mạng lưới giao thông công cộng.",
+        "Tổng giám đốc khí tượng có đề cập điều gì về cơn bão tuyết được dự báo vào ngày mai không?"
       ],
       "correctAnswer": "Chào buổi tối quý công dân. Đầu ngày hôm nay, Thị trưởng Harrison cho biết thành phố sẽ nâng cấp mạng lưới giao thông công cộng.",
       "explanationVi": "Câu nghe được: \"Good evening, citizens. Earlier today, Mayor Harrison said that the city would upgrade the public transit network.\" có nghĩa là: \"Chào buổi tối quý công dân. Đầu ngày hôm nay, Thị trưởng Harrison cho biết thành phố sẽ nâng cấp mạng lưới giao thông công cộng.\"."
@@ -327,14 +333,14 @@
     {
       "id": "ex-058-22",
       "type": "listening_reflex",
-      "promptVi": "[Nghe phản xạ] Nghe câu phát âm tiếng Anh và chọn bản dịch tiếng Việt đúng nhất:",
+      "promptVi": "[Nghe phản xạ] Nghe câu phát âm tiếng Anh và chọn bản dịch tiếng Việt đúng:",
       "audioPrompt": "He also told reporters that construction crews had already completed thirty kilometers of new bicycle lanes.",
-      "question": "Nhấn nút '🔊 Nghe audio' để nghe câu thoại và chọn nghĩa đúng:",
+      "question": "Nhấn nút '🔊 Nghe audio' và chọn nghĩa tiếng Việt đúng:",
       "options": [
         "Ông ấy cũng nói với các phóng viên rằng các đội thi công đã hoàn thành ba mươi kilomet làn đường xe đạp mới rồi.",
         "Tổng giám đốc khí tượng có đề cập điều gì về cơn bão tuyết được dự báo vào ngày mai không?",
-        "Bà ấy phát biểu rằng một khối không khí lạnh Bắc Cực khổng lồ đang di chuyển nhanh chóng về phía bang của chúng ta.",
-        "Ngày mai trời sẽ mưa to."
+        "Hôm nay thời tiết rất đẹp.",
+        "Bà ấy phát biểu rằng một khối không khí lạnh Bắc Cực khổng lồ đang di chuyển nhanh chóng về phía bang của chúng ta."
       ],
       "correctAnswer": "Ông ấy cũng nói với các phóng viên rằng các đội thi công đã hoàn thành ba mươi kilomet làn đường xe đạp mới rồi.",
       "explanationVi": "Câu nghe được: \"He also told reporters that construction crews had already completed thirty kilometers of new bicycle lanes.\" có nghĩa là: \"Ông ấy cũng nói với các phóng viên rằng các đội thi công đã hoàn thành ba mươi kilomet làn đường xe đạp mới rồi.\"."
@@ -342,14 +348,14 @@
     {
       "id": "ex-058-23",
       "type": "listening_reflex",
-      "promptVi": "[Nghe phản xạ] Nghe câu phát âm tiếng Anh và chọn bản dịch tiếng Việt đúng nhất:",
+      "promptVi": "[Nghe phản xạ] Nghe câu phát âm tiếng Anh và chọn bản dịch tiếng Việt đúng:",
       "audioPrompt": "Did the chief meteorologist mention anything about tomorrow's forecasted snowstorm?",
-      "question": "Nhấn nút '🔊 Nghe audio' để nghe câu thoại và chọn nghĩa đúng:",
+      "question": "Nhấn nút '🔊 Nghe audio' và chọn nghĩa tiếng Việt đúng:",
       "options": [
         "Tổng giám đốc khí tượng có đề cập điều gì về cơn bão tuyết được dự báo vào ngày mai không?",
         "Bà ấy phát biểu rằng một khối không khí lạnh Bắc Cực khổng lồ đang di chuyển nhanh chóng về phía bang của chúng ta.",
-        "Các quan chức dịch vụ khẩn cấp cho biết tất cả các trường học và công sở sẽ đóng cửa vào ngày mai.",
-        "Ngày mai trời sẽ mưa to."
+        "Hôm nay thời tiết rất đẹp.",
+        "Các quan chức dịch vụ khẩn cấp cho biết tất cả các trường học và công sở sẽ đóng cửa vào ngày mai."
       ],
       "correctAnswer": "Tổng giám đốc khí tượng có đề cập điều gì về cơn bão tuyết được dự báo vào ngày mai không?",
       "explanationVi": "Câu nghe được: \"Did the chief meteorologist mention anything about tomorrow's forecasted snowstorm?\" có nghĩa là: \"Tổng giám đốc khí tượng có đề cập điều gì về cơn bão tuyết được dự báo vào ngày mai không?\"."
@@ -357,14 +363,14 @@
     {
       "id": "ex-058-24",
       "type": "listening_reflex",
-      "promptVi": "[Nghe phản xạ] Nghe câu phát âm tiếng Anh và chọn bản dịch tiếng Việt đúng nhất:",
+      "promptVi": "[Nghe phản xạ] Nghe câu phát âm tiếng Anh và chọn bản dịch tiếng Việt đúng:",
       "audioPrompt": "She stated that a massive arctic cold front was moving rapidly toward our state.",
-      "question": "Nhấn nút '🔊 Nghe audio' để nghe câu thoại và chọn nghĩa đúng:",
+      "question": "Nhấn nút '🔊 Nghe audio' và chọn nghĩa tiếng Việt đúng:",
       "options": [
-        "Bà ấy phát biểu rằng một khối không khí lạnh Bắc Cực khổng lồ đang di chuyển nhanh chóng về phía bang của chúng ta.",
-        "Các quan chức dịch vụ khẩn cấp cho biết tất cả các trường học và công sở sẽ đóng cửa vào ngày mai.",
         "Cảnh sát trưởng đã nói với chúng tôi rằng người dân phải tránh việc di chuyển không cần thiết trên cao tốc trong trận bão tuyết.",
-        "Ngày mai trời sẽ mưa to."
+        "Hôm nay thời tiết rất đẹp.",
+        "Bà ấy phát biểu rằng một khối không khí lạnh Bắc Cực khổng lồ đang di chuyển nhanh chóng về phía bang của chúng ta.",
+        "Các quan chức dịch vụ khẩn cấp cho biết tất cả các trường học và công sở sẽ đóng cửa vào ngày mai."
       ],
       "correctAnswer": "Bà ấy phát biểu rằng một khối không khí lạnh Bắc Cực khổng lồ đang di chuyển nhanh chóng về phía bang của chúng ta.",
       "explanationVi": "Câu nghe được: \"She stated that a massive arctic cold front was moving rapidly toward our state.\" có nghĩa là: \"Bà ấy phát biểu rằng một khối không khí lạnh Bắc Cực khổng lồ đang di chuyển nhanh chóng về phía bang của chúng ta.\"."
@@ -372,64 +378,68 @@
     {
       "id": "ex-058-25",
       "type": "speaking_practice",
-      "promptVi": "[Luyện nói qua Micro] Nhấn nút '🎙️ Bắt đầu nói' và đọc to, rõ ràng câu tiếng Anh sau:",
+      "promptVi": "[Luyện nói qua Micro] Nhấn nút 'Bấm để Nói ngay' và phát âm câu sau:",
+      "question": "Luyện phát âm chuẩn câu: \"He said that he was very tired.\" (Anh ấy đã nói rằng anh ấy rất mệt.)",
       "targetSentence": "He said that he was very tired.",
       "hintVi": "Anh ấy đã nói rằng anh ấy rất mệt.",
-      "explanationVi": "Câu mục tiêu: \"He said that he was very tired.\" (Anh ấy đã nói rằng anh ấy rất mệt.). Luyện phát âm chuẩn xác từng âm tiết và ngữ điệu tự nhiên."
+      "explanationVi": "Mẫu câu chuẩn: \"He said that he was very tired.\" (Anh ấy đã nói rằng anh ấy rất mệt.). Luyện phát âm rõ ràng từng từ."
     },
     {
       "id": "ex-058-26",
       "type": "speaking_practice",
-      "promptVi": "[Luyện nói qua Micro] Nhấn nút '🎙️ Bắt đầu nói' và đọc to, rõ ràng câu tiếng Anh sau:",
+      "promptVi": "[Luyện nói qua Micro] Nhấn nút 'Bấm để Nói ngay' và phát âm câu sau:",
+      "question": "Luyện phát âm chuẩn câu: \"She told me that she had bought a new laptop.\" (Cô ấy đã nói với tôi rằng cô ấy đã mua một chiếc máy tính xách tay mới.)",
       "targetSentence": "She told me that she had bought a new laptop.",
       "hintVi": "Cô ấy đã nói với tôi rằng cô ấy đã mua một chiếc máy tính xách tay mới.",
-      "explanationVi": "Câu mục tiêu: \"She told me that she had bought a new laptop.\" (Cô ấy đã nói với tôi rằng cô ấy đã mua một chiếc máy tính xách tay mới.). Luyện phát âm chuẩn xác từng âm tiết và ngữ điệu tự nhiên."
+      "explanationVi": "Mẫu câu chuẩn: \"She told me that she had bought a new laptop.\" (Cô ấy đã nói với tôi rằng cô ấy đã mua một chiếc máy tính xách tay mới.). Luyện phát âm rõ ràng từng từ."
     },
     {
       "id": "ex-058-27",
       "type": "speaking_practice",
-      "promptVi": "[Luyện nói qua Micro] Nhấn nút '🎙️ Bắt đầu nói' và đọc to, rõ ràng câu tiếng Anh sau:",
+      "promptVi": "[Luyện nói qua Micro] Nhấn nút 'Bấm để Nói ngay' và phát âm câu sau:",
+      "question": "Luyện phát âm chuẩn câu: \"They said that they would visit us the next day.\" (Họ đã nói rằng họ sẽ đến thăm chúng tôi vào ngày hôm sau.)",
       "targetSentence": "They said that they would visit us the next day.",
       "hintVi": "Họ đã nói rằng họ sẽ đến thăm chúng tôi vào ngày hôm sau.",
-      "explanationVi": "Câu mục tiêu: \"They said that they would visit us the next day.\" (Họ đã nói rằng họ sẽ đến thăm chúng tôi vào ngày hôm sau.). Luyện phát âm chuẩn xác từng âm tiết và ngữ điệu tự nhiên."
+      "explanationVi": "Mẫu câu chuẩn: \"They said that they would visit us the next day.\" (Họ đã nói rằng họ sẽ đến thăm chúng tôi vào ngày hôm sau.). Luyện phát âm rõ ràng từng từ."
     },
     {
       "id": "ex-058-28",
       "type": "speaking_practice",
-      "promptVi": "[Luyện nói qua Micro] Nhấn nút '🎙️ Bắt đầu nói' và đọc to, rõ ràng câu tiếng Anh sau:",
+      "promptVi": "[Luyện nói qua Micro] Nhấn nút 'Bấm để Nói ngay' và phát âm câu sau:",
+      "question": "Luyện phát âm chuẩn câu: \"David said that he had to finish his report.\" (David đã nói rằng anh ấy phải hoàn thành báo cáo của mình.)",
       "targetSentence": "David said that he had to finish his report.",
       "hintVi": "David đã nói rằng anh ấy phải hoàn thành báo cáo của mình.",
-      "explanationVi": "Câu mục tiêu: \"David said that he had to finish his report.\" (David đã nói rằng anh ấy phải hoàn thành báo cáo của mình.). Luyện phát âm chuẩn xác từng âm tiết và ngữ điệu tự nhiên."
+      "explanationVi": "Mẫu câu chuẩn: \"David said that he had to finish his report.\" (David đã nói rằng anh ấy phải hoàn thành báo cáo của mình.). Luyện phát âm rõ ràng từng từ."
     },
     {
       "id": "ex-058-29",
       "type": "reading_comprehension",
-      "promptVi": "[Đọc hiểu đoạn văn 1] Đọc đoạn hội thoại mở đầu sau và trả lời câu hỏi:",
-      "passage": "Anchor James (Nam): \"Good evening, citizens. Earlier today, Mayor Harrison said that the city would upgrade the public transit network.\"\nReporter Lisa (Nữ): \"He also told reporters that construction crews had already completed thirty kilometers of new bicycle lanes.\"\nAnchor James (Nam): \"Did the chief meteorologist mention anything about tomorrow's forecasted snowstorm?\"\nReporter Lisa (Nữ): \"She stated that a massive arctic cold front was moving rapidly toward our state.\"",
-      "question": "Câu hỏi: Trong đoạn hội thoại trên, các nhân vật đang thảo luận về chủ đề gì?",
+      "promptVi": "[Đọc hiểu đoạn văn] Đọc đoạn hội thoại sau và trả lời câu hỏi:",
+      "passage": "Anchor James: \"Good evening, citizens. Earlier today, Mayor Harrison said that the city would upgrade the public transit network.\"\nReporter Lisa: \"He also told reporters that construction crews had already completed thirty kilometers of new bicycle lanes.\"\nAnchor James: \"Did the chief meteorologist mention anything about tomorrow's forecasted snowstorm?\"\nReporter Lisa: \"She stated that a massive arctic cold front was moving rapidly toward our state.\"",
+      "question": "Chủ đề trọng tâm của đoạn hội thoại trên là gì?",
       "options": [
-        "Câu Tường thuật — Câu Kể (Reported Statements: Say / Tell & Tense Backshift Rules)",
-        "Kế hoạch đi nghỉ dưỡng cuối tuần ở bãi biển",
-        "Mua sắm quần áo và đồ dùng thể thao",
-        "Cách làm món ăn truyền thống gia đình"
+        "Lịch trình đi du lịch nghỉ mát cuối tuần",
+        "Cách làm món ăn truyền thống",
+        "Kế hoạch đi mua sắm tại siêu thị",
+        "Câu Tường thuật — Câu Kể (Reported Statements: Say / Tell & Tense Backshift Rules)"
       ],
       "correctAnswer": "Câu Tường thuật — Câu Kể (Reported Statements: Say / Tell & Tense Backshift Rules)",
-      "explanationVi": "Đoạn hội thoại mở đầu được thiết kế để minh họa trực tiếp cho chủ điểm ngữ pháp: \"Bài 58: Câu Tường thuật — Câu Kể (Reported Statements: Say / Tell & Tense Backshift Rules)\"."
+      "explanationVi": "Đoạn hội thoại được thiết kế để minh họa trực tiếp cho chủ điểm \"Bài 58: Câu Tường thuật — Câu Kể (Reported Statements: Say / Tell & Tense Backshift Rules)\"."
     },
     {
       "id": "ex-058-30",
       "type": "reading_comprehension",
-      "promptVi": "[Đọc hiểu đoạn văn 2] Đọc phần tiếp theo của đoạn hội thoại và chọn nhận định đúng:",
-      "passage": "Anchor James (Nam): \"Emergency service officials said that all schools and public offices would remain closed tomorrow.\"\nReporter Lisa (Nữ): \"The police chief told us that citizens must avoid unnecessary highway travel during the blizzard.\"\nAnchor James (Nam): \"My neighbor told me that he had already purchased enough emergency groceries and water bottles.\"\nReporter Lisa (Nữ): \"The power utility company announced that repair technicians were standing by twenty-four seven.\"",
-      "question": "Nhận định nào sau đây là ĐÚNG với nội dung đoạn hội thoại trên?",
+      "promptVi": "[Đọc hiểu đoạn văn] Đọc đoạn đối thoại tiếp theo và chọn nhận định đúng:",
+      "passage": "Anchor James: \"Emergency service officials said that all schools and public offices would remain closed tomorrow.\"\nReporter Lisa: \"The police chief told us that citizens must avoid unnecessary highway travel during the blizzard.\"\nAnchor James: \"My neighbor told me that he had already purchased enough emergency groceries and water bottles.\"\nReporter Lisa: \"The power utility company announced that repair technicians were standing by twenty-four seven.\"",
+      "question": "Nhận định nào sau đây là ĐÚNG về nội dung đoạn đối thoại?",
       "options": [
-        "Các câu hội thoại sử dụng đúng cấu trúc ngữ pháp \"Bài 58: Câu Tường thuật — Câu Kể (Reported Statements: Say / Tell & Tense Backshift Rules)\".",
-        "Các nhân vật không hiểu ý nhau và từ chối nói chuyện.",
-        "Đoạn hội thoại nói về việc chuyển nhà sang thành phố khác.",
-        "Cả hai nhân vật đều đang ở sân bay chuẩn bị lên máy bay."
+        "Các câu thoại sử dụng đúng cấu trúc \"Câu Tường thuật — Câu Kể (Reported Statements: Say / Tell & Tense Backshift Rules)\".",
+        "Hai nhân vật đang cãi nhau và không đồng ý hợp tác.",
+        "Cả hai nhân vật đang thảo luận về thời tiết ngày mai.",
+        "Cuộc trò chuyện diễn ra tại nhà ga xe lửa."
       ],
-      "correctAnswer": "Các câu hội thoại sử dụng đúng cấu trúc ngữ pháp \"Bài 58: Câu Tường thuật — Câu Kể (Reported Statements: Say / Tell & Tense Backshift Rules)\".",
-      "explanationVi": "Đoạn hội thoại thứ hai tiếp tục củng cố và ứng dụng các quy tắc ngữ pháp của \"Bài 58: Câu Tường thuật — Câu Kể (Reported Statements: Say / Tell & Tense Backshift Rules)\"."
+      "correctAnswer": "Các câu thoại sử dụng đúng cấu trúc \"Câu Tường thuật — Câu Kể (Reported Statements: Say / Tell & Tense Backshift Rules)\".",
+      "explanationVi": "Đoạn đối thoại ứng dụng chuẩn xác ngữ pháp của \"Bài 58: Câu Tường thuật — Câu Kể (Reported Statements: Say / Tell & Tense Backshift Rules)\"."
     }
   ]
 }
