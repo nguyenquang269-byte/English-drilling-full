@@ -215,8 +215,11 @@ app.get('/api/review-pool', (req, res) => {
   }
 });
 
-// Fallback to index.html for any unhandled routes
-app.use((req, res) => {
+// Fallback to index.html ONLY for navigation routes (never for static assets)
+app.get('*', (req, res, next) => {
+  if (req.path.startsWith('/api') || req.path.includes('.') || req.xhr) {
+    return next();
+  }
   res.sendFile(path.join(__dirname, 'index.html'));
 });
 

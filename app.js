@@ -588,24 +588,51 @@ function stopRecording() {
   stopWaveVisualizer();
 }
 
-function startWaveVisualizer(canvasId) {
+let persistentMediaStream = null;
+let persistentAudioContext = null;
+let persistentAnalyser = null;
+let waveAnimFrameId = null;
+
+async function getPersistentMicStream() {
+  if (persistentMediaStream && persistentMediaStream.active) {
+    return persistentMediaStream;
+  }
+  try {
+    persistentMediaStream = await navigator.mediaDevices.getUserMedia({ audio: true });
+    return persistentMediaStream;
+  } catch (err) {
+    console.warn("Microphone access permission error:", err);
+    return null;
+  }
+}
+
+async function startWaveVisualizer(canvasId) {
   const canvas = document.getElementById(canvasId);
   if (!canvas) return;
   const ctx = canvas.getContext("2d");
 
-  navigator.mediaDevices?.getUserMedia({ audio: true }).then((stream) => {
-    mediaStream = stream;
-    audioContext = new (window.AudioContext || window.webkitAudioContext)();
-    analyser = audioContext.createAnalyser();
-    const source = audioContext.createMediaStreamSource(stream);
-    source.connect(analyser);
-    analyser.fftSize = 64;
+  const stream = await getPersistentMicStream();
+  if (!stream) return;
 
-    const dataArray = new Uint8Array(analyser.frequencyBinCount);
+  try {
+    if (!persistentAudioContext || persistentAudioContext.state === "closed") {
+      persistentAudioContext = new (window.AudioContext || window.webkitAudioContext)();
+      persistentAnalyser = persistentAudioContext.createAnalyser();
+      const source = persistentAudioContext.createMediaStreamSource(stream);
+      source.connect(persistentAnalyser);
+      persistentAnalyser.fftSize = 64;
+    } else if (persistentAudioContext.state === "suspended") {
+      persistentAudioContext.resume();
+    }
+
+    const dataArray = new Uint8Array(persistentAnalyser.frequencyBinCount);
     function draw() {
-      if (!isRecording && !quizIsRecordingSpeaking) return;
-      requestAnimationFrame(draw);
-      analyser.getByteFrequencyData(dataArray);
+      if (!isRecording && !quizIsRecordingSpeaking) {
+        ctx.clearRect(0, 0, canvas.width, canvas.height);
+        return;
+      }
+      waveAnimFrameId = requestAnimationFrame(draw);
+      persistentAnalyser.getByteFrequencyData(dataArray);
 
       ctx.clearRect(0, 0, canvas.width, canvas.height);
       const barWidth = (canvas.width / dataArray.length) * 1.5;
@@ -619,17 +646,15 @@ function startWaveVisualizer(canvasId) {
       }
     }
     draw();
-  }).catch(() => {});
+  } catch (e) {
+    console.warn("Visualizer draw error:", e);
+  }
 }
 
 function stopWaveVisualizer() {
-  if (mediaStream) {
-    mediaStream.getTracks().forEach(t => t.stop());
-    mediaStream = null;
-  }
-  if (audioContext && audioContext.state !== "closed") {
-    audioContext.close();
-    audioContext = null;
+  if (waveAnimFrameId) {
+    cancelAnimationFrame(waveAnimFrameId);
+    waveAnimFrameId = null;
   }
 }
 
