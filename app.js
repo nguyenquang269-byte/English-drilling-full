@@ -701,6 +701,7 @@ function loadSelectedLesson() {
     return;
   }
 
+  const base = window.location.pathname.endsWith('/') ? window.location.pathname : window.location.pathname.substring(0, window.location.pathname.lastIndexOf('/') + 1);
   const tryFetch = (url) => {
     return fetch(url).then(r => {
       if (!r.ok) throw new Error(`HTTP ${r.status}`);
@@ -708,8 +709,9 @@ function loadSelectedLesson() {
     });
   };
 
-  tryFetch(`/data/${fileName}`)
+  tryFetch(`${base}data/${fileName}`)
     .catch(() => tryFetch(`./data/${fileName}`))
+    .catch(() => tryFetch(`/data/${fileName}`))
     .catch(() => tryFetch(`data/${fileName}`))
     .then(data => {
       lessonData = data;
@@ -1118,11 +1120,13 @@ function startReviewQuiz() {
 }
 
 function fallbackLoadReviewPool(lessonFiles, count) {
+  const base = window.location.pathname.endsWith('/') ? window.location.pathname : window.location.pathname.substring(0, window.location.pathname.lastIndexOf('/') + 1);
   const promises = lessonFiles.slice(0, 20).map(fn => {
     const pad = fn.replace(".json", "").replace("lesson-", "");
     const tryFetchEx = (url) => fetch(url).then(r => r.ok ? r.json() : Promise.reject());
-    return tryFetchEx(`/data/exercises/exercise-${pad}.json`)
+    return tryFetchEx(`${base}data/exercises/exercise-${pad}.json`)
       .catch(() => tryFetchEx(`./data/exercises/exercise-${pad}.json`))
+      .catch(() => tryFetchEx(`/data/exercises/exercise-${pad}.json`))
       .catch(() => tryFetchEx(`data/exercises/exercise-${pad}.json`))
       .catch(() => null);
   });
@@ -1643,5 +1647,9 @@ function bindEvents() {
   });
 }
 
-// Start app on DOMContentLoaded
-window.addEventListener("DOMContentLoaded", init);
+// Start app safely on DOM ready or immediate
+if (document.readyState === "loading") {
+  document.addEventListener("DOMContentLoaded", init);
+} else {
+  init();
+}
