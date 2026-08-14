@@ -444,7 +444,6 @@ let dialogueCurrentIdx = 0;
 let dialogueSafetyTimer = null;
 
 function speakSingle(text, lang = "en-US", gender = "male", callback) {
-  stopAllAudio();
   const cleanText = text.replace(/<[^>]*>/g, '').trim();
   if (!cleanText) {
     if (callback) callback();
@@ -456,43 +455,48 @@ function speakSingle(text, lang = "en-US", gender = "male", callback) {
     return;
   }
 
+  isDialoguePlaying = false;
+  if (el.btnPlayFullDialogue) el.btnPlayFullDialogue.textContent = "▶ Nghe toàn bộ hội thoại";
+
   try {
     window.speechSynthesis.cancel();
     window.speechSynthesis.resume();
   } catch (e) {}
 
-  const u = new SpeechSynthesisUtterance(cleanText);
-  window.__currentUtterance = u;
-  u.lang = lang.startsWith("vi") ? "vi-VN" : "en-US";
-  u.rate = currentSpeechRate || 1.0;
-  u.pitch = (gender === "female") ? 1.25 : 0.95;
+  setTimeout(() => {
+    const u = new SpeechSynthesisUtterance(cleanText);
+    window.__currentUtterance = u;
+    u.lang = lang.startsWith("vi") ? "vi-VN" : "en-US";
+    u.rate = currentSpeechRate || 1.0;
+    u.pitch = (gender === "female") ? 1.25 : 0.95;
 
-  if (lang.startsWith("en")) {
-    const voice = getVoiceForGender(gender);
-    if (voice) u.voice = voice;
-  } else if (lang.startsWith("vi")) {
-    const voices = getAvailableVoices();
-    const viVoice = voices.find(v => v.lang && (v.lang.includes("vi") || v.lang.includes("VI")));
-    if (viVoice) u.voice = viVoice;
-  }
+    if (lang.startsWith("en")) {
+      const voice = getVoiceForGender(gender);
+      if (voice) u.voice = voice;
+    } else if (lang.startsWith("vi")) {
+      const voices = getAvailableVoices();
+      const viVoice = voices.find(v => v.lang && (v.lang.includes("vi") || v.lang.includes("VI")));
+      if (viVoice) u.voice = viVoice;
+    }
 
-  let done = false;
-  const finish = () => {
-    if (done) return;
-    done = true;
-    setAudioBadge(false);
-    if (callback) callback();
-  };
+    let done = false;
+    const finish = () => {
+      if (done) return;
+      done = true;
+      setAudioBadge(false);
+      if (callback) callback();
+    };
 
-  u.onend = finish;
-  u.onerror = finish;
+    u.onend = finish;
+    u.onerror = finish;
 
-  setAudioBadge(true);
-  try {
-    window.speechSynthesis.speak(u);
-  } catch (e) {
-    finish();
-  }
+    setAudioBadge(true);
+    try {
+      window.speechSynthesis.speak(u);
+    } catch (e) {
+      finish();
+    }
+  }, 50);
 }
 
 function speakVi(text, callback) {
@@ -935,10 +939,14 @@ function playFullDialogue() {
     return;
   }
 
-  stopAllAudio();
   isDialoguePlaying = true;
   dialogueCurrentIdx = 0;
   if (el.btnPlayFullDialogue) el.btnPlayFullDialogue.textContent = "⏹ Dừng phát hội thoại";
+
+  try {
+    window.speechSynthesis.cancel();
+    window.speechSynthesis.resume();
+  } catch (e) {}
 
   function playStep(idx) {
     if (!isDialoguePlaying || idx >= lines.length) {
@@ -984,16 +992,21 @@ function playFullDialogue() {
         dialogueSafetyTimer = null;
       }
       if (!isDialoguePlaying) return;
-      setTimeout(() => playStep(idx + 1), 300);
+      setTimeout(() => playStep(idx + 1), 350);
     };
 
     u.onend = nextStep;
-    u.onerror = nextStep;
+    u.onerror = (e) => {
+      console.warn("Dialogue line event:", e);
+      if (e.error !== 'interrupted' && e.error !== 'canceled') {
+        nextStep();
+      }
+    };
 
     const wordCount = cleanText.split(/\s+/).length;
-    const maxWait = Math.max(3000, (wordCount / 2) * 1000 + 2000);
+    const maxWait = Math.max(3500, (wordCount / 2) * 1000 + 2500);
     dialogueSafetyTimer = setTimeout(() => {
-      if (!stepFinished) {
+      if (!stepFinished && isDialoguePlaying) {
         console.warn("Dialogue watchdog moving to next sentence");
         nextStep();
       }
@@ -1007,7 +1020,12 @@ function playFullDialogue() {
     }
   }
 
-  playStep(0);
+  // 60ms delay after cancel() ensures Chromium's audio queue is completely fresh
+  setTimeout(() => {
+    if (isDialoguePlaying) {
+      playStep(0);
+    }
+  }, 60);
 }
 
 function getTargetData() {
