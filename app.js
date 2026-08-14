@@ -695,13 +695,15 @@ function renderRecognitionHistory() {
 // 5. LESSON DRILLING LOGIC (TABS 1)
 // ==========================================
 function loadSelectedLesson() {
-  let fileName = el.lessonSelector.value;
-  if (!fileName) {
+  const sel = document.getElementById("lessonSelector") || (el && el.lessonSelector);
+  let fileName = (sel && sel.value) ? sel.value : "lesson-001.json";
+  if (!fileName || fileName.trim() === "") {
     fileName = "lesson-001.json";
-    el.lessonSelector.value = fileName;
   }
+  if (sel) sel.value = fileName;
 
-  const primaryUrl = new URL(`data/${fileName}`, window.location.href).href;
+  const pad = fileName.replace(".json", "");
+  const numOnly = pad.replace("lesson-", "");
 
   const tryFetch = (url) => {
     return fetch(url).then(r => {
@@ -710,10 +712,22 @@ function loadSelectedLesson() {
     });
   };
 
-  tryFetch(primaryUrl)
-    .catch(() => tryFetch(`./data/${fileName}`))
-    .catch(() => tryFetch(`/data/${fileName}`))
-    .catch(() => tryFetch(`data/${fileName}`))
+  const sources = [
+    `./data/${fileName}`,
+    `/data/${fileName}`,
+    `data/${fileName}`,
+    `/api/lesson/${pad}`,
+    `/api/lesson/${numOnly}`,
+    `./api/lesson/${pad}`,
+    new URL(`data/${fileName}`, window.location.href).href
+  ];
+
+  let chain = tryFetch(sources[0]);
+  for (let i = 1; i < sources.length; i++) {
+    chain = chain.catch(() => tryFetch(sources[i]));
+  }
+
+  chain
     .then(data => {
       if (!data || !data.title) throw new Error("Invalid lesson data payload");
       lessonData = data;
@@ -726,9 +740,67 @@ function loadSelectedLesson() {
     })
     .catch(err => {
       console.error("Error loading lesson:", err);
-      alert("Không thể tải tệp dữ liệu bài học (" + fileName + "). Vui lòng kiểm tra kết nối mạng!");
+      alert(`Không thể tải tệp dữ liệu bài học (${fileName}). Vui lòng kiểm tra lại kết nối!`);
     });
 }
+
+window.loadSelectedLesson = loadSelectedLesson;
+window.switchMainTab = switchMainTab;
+window.toggleCurrentLessonCompleted = toggleCurrentLessonCompleted;
+window.goToDrills = function() {
+  stopAllAudio();
+  showStep("drill");
+  renderCurrentDrill();
+};
+window.playFullDialogue = playFullDialogue;
+window.readGrammar = function() {
+  if (lessonData && lessonData.grammarRules) {
+    const rules = lessonData.grammarRules;
+    const text = `${rules.summaryVi || ''} ${(rules.points || []).map(p => `${p.subject || ''}: ${p.toBe || p.rule || p.structure || ''}`).join('. ')}`;
+    speakVi(text);
+  }
+};
+window.backToSelect = function() {
+  stopAllAudio();
+  showStep("select");
+};
+window.startReviewQuiz = startReviewQuiz;
+window.nextDrillMode = nextDrillMode;
+window.prevDrillMode = prevDrillMode;
+window.nextQuizQuestion = nextQuizQuestion;
+window.quitReviewQuiz = function() {
+  if (confirm("Bạn có chắc chắn muốn dừng bài ôn tập hiện tại?")) {
+    clearInterval(quizTimerInterval);
+    const activeView = document.getElementById("reviewQuizActiveView") || el.reviewQuizActiveView;
+    const setupView = document.getElementById("reviewSetupView") || el.reviewSetupView;
+    if (activeView) activeView.style.display = "none";
+    if (setupView) setupView.style.display = "block";
+  }
+};
+window.restartNewQuiz = function() {
+  const resultView = document.getElementById("reviewResultView") || el.reviewResultView;
+  const setupView = document.getElementById("reviewSetupView") || el.reviewSetupView;
+  if (resultView) resultView.style.display = "none";
+  if (setupView) setupView.style.display = "block";
+};
+window.restartCurrentLesson = function() {
+  currentTargetIndex = 0;
+  currentMode = 1;
+  resetLessonTimer();
+  showStep("drill");
+  renderCurrentDrill();
+};
+window.nextLesson = function() {
+  const sel = document.getElementById("lessonSelector") || el.lessonSelector;
+  const currentVal = sel ? sel.value : "";
+  const currIdx = LESSON_LIST.findIndex(item => item.file === currentVal);
+  if (currIdx !== -1 && currIdx < LESSON_LIST.length - 1) {
+    if (sel) sel.value = LESSON_LIST[currIdx + 1].file;
+    loadSelectedLesson();
+  } else {
+    alert("Bạn đã học đến bài cuối cùng của khóa học!");
+  }
+};
 
 function resetLessonTimer() {
   clearInterval(timerInterval);

@@ -226,7 +226,7 @@
           <span style="font-size:13px; font-weight:normal; color:var(--muted);">Dữ liệu chuẩn 100 bài học</span>
         </div>
         <p style="color:var(--muted); font-size:14px; margin-bottom:12px;">Mỗi bài học bao gồm: Hội thoại mở đầu 1 nam 1 nữ (12 câu) → Giảng giải ngữ pháp chi tiết → Luyện 5 Cấp độ Drilling (Nghe, Điền từ, Sắp xếp câu, Biến đổi câu, Ngữ cảnh mới).</p>
-        <select id="lessonSelector">
+        <select id="lessonSelector" onchange="loadSelectedLesson()">
 <option value="">-- Vui lòng chọn bài học (1 - 100) --</option>
           <option value="lesson-001.json">[Bài 1] Bài 1: ToBe - I am / You are (Cơ bản)</option>
           <option value="lesson-002.json">[Bài 2] Bài 2: ToBe - Hiện tại Đơn (Nghề nghiệp & Tính chất)</option>
@@ -330,8 +330,8 @@
           <option value="lesson-100.json">[Bài 100] Bài 100: Tổng hợp Ngữ pháp Toàn Diện - Bản đồ Tinh hoa & Bài Kiểm tra Tổng kết</option>
         </select>
         <div style="text-align:center; margin-top:16px; display:flex; justify-content:center; gap:10px; flex-wrap:wrap;">
-          <button class="btn-primary" id="btnLoadLesson" style="font-size:16px; padding:12px 28px;">▶ Bắt đầu bài học ngay</button>
-          <button class="btn-secondary" id="btnJumpToReviewFromLesson" style="font-size:15px; padding:12px 20px;">🎯 Sang Tab Ôn Luyện Đề</button>
+          <button class="btn-primary" id="btnLoadLesson" onclick="loadSelectedLesson()" style="font-size:16px; padding:12px 28px;">▶ Bắt đầu bài học ngay</button>
+          <button class="btn-secondary" id="btnJumpToReviewFromLesson" onclick="switchMainTab('review')" style="font-size:15px; padding:12px 20px;">🎯 Sang Tab Ôn Tập</button>
         </div>
       </div>
     </div>
@@ -341,7 +341,7 @@
       <div class="card">
         <div class="card-title">
           <span id="dialogueSectionTitle">🎙️ Hội thoại mở đầu (12 câu Nam & Nữ)</span>
-          <button class="btn-outline-en" id="btnPlayFullDialogue">▶ Nghe toàn bộ hội thoại</button>
+          <button class="btn-outline-en" id="btnPlayFullDialogue" onclick="playFullDialogue()">▶ Nghe toàn bộ hội thoại</button>
         </div>
         <p style="color:var(--muted); font-size:14px;">Nghe kĩ câu tiếng Anh + Nhấn nút 🔊 Việt để nghe giảng nghĩa chuẩn:</p>
 
@@ -350,14 +350,14 @@
         <div class="grammar-box" id="grammarBox">
           <div style="font-weight:700; font-size:16px; margin-bottom:6px; color:#1e3a8a; display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:8px;">
             <span id="grammarBoxHeaderTitle">💡 Quy tắc ngữ pháp trọng tâm</span>
-            <button class="btn-outline-vi" id="btnReadGrammar" style="font-size:12px; padding:4px 8px;">🔊 Đọc giảng bài</button>
+            <button class="btn-outline-vi" id="btnReadGrammar" onclick="readGrammar()" style="font-size:12px; padding:4px 8px;">🔊 Đọc giảng bài</button>
           </div>
           <div id="grammarContent"></div>
         </div>
 
         <div style="display:flex; justify-content:space-between; align-items:center; margin-top:16px; flex-wrap:wrap; gap:10px;">
-          <button class="btn-secondary" id="btnBackToSelectFromDialogue">← Chọn bài khác</button>
-          <button class="btn-primary" id="btnGoToDrills">Chuyển sang Luyện tập Drilling (5 Cấp độ) →</button>
+          <button class="btn-secondary" id="btnBackToSelectFromDialogue" onclick="backToSelect()">← Chọn bài khác</button>
+          <button class="btn-primary" id="btnGoToDrills" onclick="goToDrills()">Chuyển sang Luyện tập Drilling (5 Cấp độ) →</button>
         </div>
       </div>
     </div>
@@ -480,9 +480,9 @@
         <p style="font-size:16px; color:var(--muted); margin-bottom:24px;" id="finalScoreText"></p>
         
         <div style="display:flex; justify-content:center; gap:12px; flex-wrap:wrap;">
-          <button class="btn-secondary" id="btnRestartCurrentLesson">🔁 Học lại bài này</button>
-          <button class="btn-primary" id="btnNextLesson">Bài học tiếp theo →</button>
-          <button class="btn-success" id="btnGoToReviewAfterDone">🎯 Làm bài ôn luyện 20 câu</button>
+          <button class="btn-secondary" id="btnRestartCurrentLesson" onclick="restartCurrentLesson()">🔁 Học lại bài này</button>
+          <button class="btn-primary" id="btnNextLesson" onclick="nextLesson()">Bài học tiếp theo →</button>
+          <button class="btn-success" id="btnGoToReviewAfterDone" onclick="switchMainTab('review')">🎯 Làm bài ôn luyện 20 câu</button>
         </div>
       </div>
     </div>
@@ -531,7 +531,7 @@
       </div>
 
       <div style="text-align:center;">
-        <button class="btn-primary" id="btnStartReviewQuiz" style="font-size:16px; padding:12px 32px;">
+        <button class="btn-primary" id="btnStartReviewQuiz" onclick="startReviewQuiz()" style="font-size:16px; padding:12px 32px;">
           🚀 Bắt đầu làm bài thi ôn tập ngay
         </button>
       </div>
@@ -593,8 +593,8 @@
 
         <!-- Quiz Nav Actions -->
         <div style="display:flex; justify-content:space-between; align-items:center; margin-top:20px; border-top:1px solid var(--border); padding-top:14px;">
-          <button class="btn-secondary" id="btnQuitReviewQuiz" style="font-size:13px;">✕ Dừng bài thi</button>
-          <button class="btn-primary" id="btnNextQuizQuestion" style="display:none;">Câu tiếp theo →</button>
+          <button class="btn-secondary" id="btnQuitReviewQuiz" onclick="quitReviewQuiz()" style="font-size:13px;">✕ Dừng bài thi</button>
+          <button class="btn-primary" id="btnNextQuizQuestion" onclick="nextQuizQuestion()" style="display:none;">Câu tiếp theo →</button>
         </div>
       </div>
     </div>
@@ -624,8 +624,8 @@
       </div>
 
       <div style="display:flex; justify-content:center; gap:12px; margin:20px 0; flex-wrap:wrap;">
-        <button class="btn-primary" id="btnRestartNewQuiz">🔄 Tạo đề 20 câu mới</button>
-        <button class="btn-secondary" id="btnBackToLessonTab">📖 Về học tiếp bài mới</button>
+        <button class="btn-primary" id="btnRestartNewQuiz" onclick="restartNewQuiz()">🔄 Tạo đề 20 câu mới</button>
+        <button class="btn-secondary" id="btnBackToLessonTab" onclick="switchMainTab('lessons')">📖 Về học tiếp bài mới</button>
       </div>
 
       <!-- Detailed Review List -->

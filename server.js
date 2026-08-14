@@ -145,6 +145,18 @@ app.get('/api/lessons', (req, res) => {
   ]);
 });
 
+// API route to get a lesson file
+app.get('/api/lesson/:id', (req, res) => {
+  const lessonId = req.params.id.replace(/[^a-zA-Z0-9_-]/g, '');
+  const baseName = lessonId.startsWith('lesson-') ? lessonId : `lesson-${lessonId.padStart(3, '0')}`;
+  const filePath = path.join(__dirname, 'data', `${baseName}.json`);
+  if (fs.existsSync(filePath)) {
+    res.sendFile(filePath);
+  } else {
+    res.status(404).json({ error: 'Lesson not found' });
+  }
+});
+
 // API route to get an exercise file
 app.get('/api/exercise/:id', (req, res) => {
   const exId = req.params.id.replace(/[^a-zA-Z0-9_-]/g, '');
