@@ -406,17 +406,27 @@ function initVoices() {
   }
 }
 
+function getAvailableVoices() {
+  if (!availableVoices || !availableVoices.length) {
+    if ("speechSynthesis" in window) {
+      availableVoices = window.speechSynthesis.getVoices();
+    }
+  }
+  return availableVoices || [];
+}
+
 function getVoiceForGender(gender) {
-  if (!availableVoices.length) return null;
-  const enVoices = availableVoices.filter(v => v.lang.startsWith("en"));
-  if (!enVoices.length) return null;
+  const voices = getAvailableVoices();
+  if (!voices.length) return null;
+  const enVoices = voices.filter(v => v.lang && (v.lang.startsWith("en") || v.lang.startsWith("EN")));
+  if (!enVoices.length) return voices[0];
 
   if (gender === "male") {
-    const male = enVoices.find(v => /male|david|george|james|guy|alex/i.test(v.name));
+    const male = enVoices.find(v => /male|david|george|james|guy|alex|mark|daniel/i.test(v.name));
     return male || enVoices[0];
   } else {
-    const female = enVoices.find(v => /female|zira|samantha|victoria|susan|karen/i.test(v.name));
-    return female || enVoices[enVoices.length - 1];
+    const female = enVoices.find(v => /female|zira|samantha|victoria|susan|karen|catherine|jenny/i.test(v.name));
+    return female || (enVoices.length > 1 ? enVoices[enVoices.length - 1] : enVoices[0]);
   }
 }
 
@@ -440,7 +450,7 @@ function startSpeechKeepAlive() {
     } else {
       clearSpeechKeepAlive();
     }
-  }, 5000);
+  }, 4000);
 }
 
 function speakUtterance(text, lang = "en-US", gender = "male", callback, isPartOfSequence = false) {
@@ -449,14 +459,15 @@ function speakUtterance(text, lang = "en-US", gender = "male", callback, isPartO
     return;
   }
 
-  // Cancel previous speech if this is a single trigger
+  // Cancel any lingering utterance and unclog browser audio queue
+  window.speechSynthesis.cancel();
+  window.speechSynthesis.resume();
+  clearSpeechKeepAlive();
+
   if (!isPartOfSequence) {
-    window.speechSynthesis.cancel();
     isDialoguePlaying = false;
     if (el.btnPlayFullDialogue) el.btnPlayFullDialogue.textContent = "▶ Nghe toàn bộ hội thoại";
   }
-
-  clearSpeechKeepAlive();
 
   const cleanText = text.replace(/<[^>]*>/g, '').trim();
   if (!cleanText) {
@@ -465,22 +476,30 @@ function speakUtterance(text, lang = "en-US", gender = "male", callback, isPartO
   }
 
   const u = new SpeechSynthesisUtterance(cleanText);
-  activeSpeechUtterance = u; // Keep global reference so Chrome GC won't kill it
+  activeSpeechUtterance = u; // Strong global reference prevents Chrome GC bug
   u.lang = lang;
   u.rate = currentSpeechRate || 1.0;
+  u.pitch = (gender === "female") ? 1.25 : 0.95; // Distinct pitch for Male vs Female
 
   if (lang.startsWith("en")) {
     const voice = getVoiceForGender(gender);
     if (voice) u.voice = voice;
   } else if (lang.startsWith("vi")) {
-    const viVoice = availableVoices.find(v => v.lang.includes("vi") || v.lang.includes("VI"));
+    const voices = getAvailableVoices();
+    const viVoice = voices.find(v => v.lang && (v.lang.includes("vi") || v.lang.includes("VI")));
     if (viVoice) u.voice = viVoice;
   }
 
   let hasEnded = false;
+  let watchdogTimer = null;
+
   const finish = () => {
     if (hasEnded) return;
     hasEnded = true;
+    if (watchdogTimer) {
+      clearTimeout(watchdogTimer);
+      watchdogTimer = null;
+    }
     clearSpeechKeepAlive();
     setAudioBadge(false);
     activeSpeechUtterance = null;
@@ -493,13 +512,28 @@ function speakUtterance(text, lang = "en-US", gender = "male", callback, isPartO
     finish();
   };
 
+  // Safety watchdog: In case Chromium fails to fire onend event between utterances
+  const wordCount = cleanText.split(/\s+/).length;
+  const maxWaitMs = Math.max(3500, (wordCount / 2.2) * 1000 + 2500);
+  watchdogTimer = setTimeout(() => {
+    if (!hasEnded) {
+      console.warn("Watchdog proceeding to next sentence");
+      finish();
+    }
+  }, maxWaitMs);
+
   setAudioBadge(true);
   startSpeechKeepAlive();
 
-  // Small timeout to ensure reliable speech trigger on all browsers
+  // Small delay to ensure smooth speech trigger in Chromium
   setTimeout(() => {
-    window.speechSynthesis.speak(u);
-  }, 25);
+    try {
+      window.speechSynthesis.speak(u);
+    } catch (err) {
+      console.warn("speak error:", err);
+      finish();
+    }
+  }, 40);
 }
 
 function speakVi(text, callback) {
