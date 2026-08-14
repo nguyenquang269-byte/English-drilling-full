@@ -895,6 +895,10 @@ function loadSelectedLesson() {
     });
 }
 
+function playFullDialogue() {
+  toggleFullDialoguePlayback();
+}
+
 window.loadSelectedLesson = loadSelectedLesson;
 window.switchMainTab = switchMainTab;
 window.toggleCurrentLessonCompleted = toggleCurrentLessonCompleted;
@@ -904,6 +908,7 @@ window.goToDrills = function() {
   renderCurrentDrill();
 };
 window.playFullDialogue = playFullDialogue;
+window.toggleFullDialoguePlayback = toggleFullDialoguePlayback;
 window.readGrammar = function() {
   if (lessonData && lessonData.grammarRules) {
     const rules = lessonData.grammarRules;
@@ -1164,6 +1169,13 @@ window.removeScrambleWord = function(idx) {
   if (item && item.btn) item.btn.style.visibility = "visible";
   renderScrambleTarget();
 };
+
+function resetScramble() {
+  const target = getTargetData();
+  if (target && target.drills && target.drills.mode3_scramble) {
+    initScrambleWords(target.drills.mode3_scramble.words);
+  }
+}
 
 function checkScramble() {
   const target = getTargetData();
@@ -1751,7 +1763,7 @@ function bindEvents() {
   if (el.btnJumpToReviewFromLesson) el.btnJumpToReviewFromLesson.onclick = () => switchMainTab("review");
   if (el.btnGoToReviewAfterDone) el.btnGoToReviewAfterDone.onclick = () => switchMainTab("review");
   if (el.btnBackToLessonTab) el.btnBackToLessonTab.onclick = () => switchMainTab("lessons");
-  if (el.btnToggleCompletion) el.btnToggleCompletion.onclick = toggleCurrentLessonCompleted;
+  if (el.btnToggleCurrentCompleted) el.btnToggleCurrentCompleted.onclick = toggleCurrentLessonCompleted;
   if (el.lessonSelector) {
     el.lessonSelector.onchange = () => {
       updateOverallProgressUI();
