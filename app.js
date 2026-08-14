@@ -72,6 +72,7 @@ const el = {
   grammarBox: document.getElementById("grammarBox"),
   grammarBoxHeaderTitle: document.getElementById("grammarBoxHeaderTitle"),
   grammarContent: document.getElementById("grammarContent"),
+  btnPlayFullDialogue: document.getElementById("btnPlayFullDialogue"),
   btnReadGrammar: document.getElementById("btnReadGrammar"),
   btnGoToDrills: document.getElementById("btnGoToDrills"),
   btnBackToSelectFromDialogue: document.getElementById("btnBackToSelectFromDialogue"),
@@ -507,13 +508,132 @@ function speakEn(text, gender = "male", callback) {
   speakSingle(text, "en-US", gender, callback);
 }
 
+function toggleFullDialoguePlayback() {
+  if (isDialoguePlaying) {
+    stopAllAudio();
+  } else {
+    playFullDialogueSequence();
+  }
+}
+
 function stopAllAudio() {
+  isDialoguePlaying = false;
+  if (dialogueSafetyTimer) {
+    clearTimeout(dialogueSafetyTimer);
+    dialogueSafetyTimer = null;
+  }
   if ("speechSynthesis" in window) {
     try {
       window.speechSynthesis.cancel();
     } catch (e) {}
   }
   setAudioBadge(false);
+  const btn = document.getElementById("btnPlayFullDialogue");
+  if (btn) btn.textContent = "▶ Nghe toàn bộ hội thoại";
+  document.querySelectorAll(".dialogue-item").forEach(d => d.classList.remove("playing"));
+}
+
+function playFullDialogueSequence() {
+  if (!lessonData || !lessonData.openingDialogue) return;
+  const lines = lessonData.openingDialogue.lines;
+  if (!lines || !lines.length) return;
+
+  stopAllAudio();
+  isDialoguePlaying = true;
+  dialogueCurrentIdx = 0;
+  const btn = document.getElementById("btnPlayFullDialogue");
+  if (btn) btn.textContent = "⏹ Dừng phát hội thoại";
+
+  if ("speechSynthesis" in window) {
+    try {
+      window.speechSynthesis.resume();
+    } catch (e) {}
+  }
+
+  function playStep(idx) {
+    if (!isDialoguePlaying || idx >= lines.length) {
+      stopAllAudio();
+      return;
+    }
+
+    dialogueCurrentIdx = idx;
+
+    // Highlight card
+    document.querySelectorAll(".dialogue-item").forEach(d => d.classList.remove("playing"));
+    const card = document.getElementById(`dialogue-line-${idx}`);
+    if (card) {
+      card.classList.add("playing");
+      card.scrollIntoView({ behavior: "smooth", block: "nearest" });
+    }
+
+    const currentLine = lines[idx];
+    const isMale = currentLine.gender === "male";
+    const cleanText = (currentLine.en || '').replace(/<[^>]*>/g, '').trim();
+
+    if (!("speechSynthesis" in window) || !cleanText) {
+      if (isDialoguePlaying) setTimeout(() => playStep(idx + 1), 350);
+      return;
+    }
+
+    try {
+      window.speechSynthesis.resume();
+    } catch (e) {}
+
+    const u = new SpeechSynthesisUtterance(cleanText);
+    window.__activeUtterance = u;
+    u.lang = "en-US";
+    u.rate = currentSpeechRate || 1.0;
+
+    // Distinct Voice & Pitch for Male vs Female
+    if (isMale) {
+      u.pitch = 0.85; // Deep male pitch
+      const maleVoice = getVoiceForGender("male");
+      if (maleVoice) u.voice = maleVoice;
+    } else {
+      u.pitch = 1.30; // Bright female pitch
+      const femaleVoice = getVoiceForGender("female");
+      if (femaleVoice) u.voice = femaleVoice;
+    }
+
+    let finished = false;
+    const next = () => {
+      if (finished) return;
+      finished = true;
+      if (dialogueSafetyTimer) {
+        clearTimeout(dialogueSafetyTimer);
+        dialogueSafetyTimer = null;
+      }
+      if (!isDialoguePlaying) return;
+      setTimeout(() => playStep(idx + 1), 250);
+    };
+
+    u.onend = next;
+    u.onerror = (e) => {
+      console.warn("Dialogue line audio event:", e);
+      if (e.error !== 'interrupted' && e.error !== 'canceled') {
+        next();
+      }
+    };
+
+    const wordCount = cleanText.split(/\s+/).length;
+    const maxWait = Math.max(3000, (wordCount / 2) * 1000 + 2000);
+    dialogueSafetyTimer = setTimeout(() => {
+      if (!finished && isDialoguePlaying) {
+        console.warn("Dialogue watchdog moving to next sentence");
+        next();
+      }
+    }, maxWait);
+
+    setAudioBadge(true);
+    try {
+      window.speechSynthesis.speak(u);
+    } catch (e) {
+      next();
+    }
+  }
+
+  // Play immediately within user click gesture
+  playStep(0);
 }
 
 function setAudioBadge(isPlaying) {
@@ -1744,6 +1864,9 @@ function bindEvents() {
     else startRecording("waveCanvasRepeat");
   });
 
+  // Dialogue player
+  if (el.btnPlayFullDialogue) el.btnPlayFullDialogue.onclick = toggleFullDialoguePlayback;
+
   // Review / Quiz Tab Events (Direct single handlers prevent double firing)
   if (el.btnStartReviewQuiz) el.btnStartReviewQuiz.onclick = startReviewQuiz;
   if (el.btnNextQuizQuestion) el.btnNextQuizQuestion.onclick = nextQuizQuestion;
@@ -1763,6 +1886,38 @@ function bindEvents() {
     };
   }
 }
+
+// Global window exports
+window.switchMainTab = switchMainTab;
+window.loadSelectedLesson = loadSelectedLesson;
+window.toggleFullDialoguePlayback = toggleFullDialoguePlayback;
+window.startReviewQuiz = startReviewQuiz;
+window.nextQuizQuestion = nextQuizQuestion;
+window.speakVi = speakVi;
+window.speakEn = speakEn;
+window.readGrammar = () => {
+  if (lessonData && lessonData.grammarRules) {
+    const rules = lessonData.grammarRules;
+    const text = `${rules.summaryVi || ''} ${(rules.points || []).map(p => `${p.subject || ''}: ${p.toBe || p.rule || p.structure || ''}`).join('. ')}`;
+    speakVi(text);
+  }
+};
+window.toggleCurrentLessonCompleted = toggleCurrentLessonCompleted;
+window.checkFillOption = checkFillOption;
+window.selectScrambleWord = selectScrambleWord;
+window.removeScrambleWord = removeScrambleWord;
+window.resetScramble = resetScramble;
+window.checkScramble = checkScramble;
+window.checkTransform = checkTransform;
+window.checkContext = checkContext;
+window.submitQuizFill = submitQuizFill;
+window.selectQuizChoice = selectQuizChoice;
+window.selectQuizScrambleWord = selectQuizScrambleWord;
+window.removeQuizScrambleWord = removeQuizScrambleWord;
+window.resetQuizScramble = resetQuizScramble;
+window.submitQuizScramble = submitQuizScramble;
+window.toggleQuizSpeakingRecording = toggleQuizSpeakingRecording;
+window.submitQuizSpeakingFallback = submitQuizSpeakingFallback;
 
 // Start app safely on DOM ready or immediate
 if (document.readyState === "loading") {
