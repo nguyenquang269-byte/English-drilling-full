@@ -1,0 +1,259 @@
+{
+  "lessonId": "lesson-055",
+  "title": "Bài 55: Câu Hỏi Đuôi — Các Trường Hợp Đặc Biệt (Advanced Tag Questions: Nobody / Never / Little / Imperatives)",
+  "estimatedTimeMinutes": 35,
+  "openingDialogue": {
+    "title": "Hội thoại mở đầu: Cuộc họp giải quyết sự cố công nghệ khẩn cấp (Emergency Tech Incident Debrief)",
+    "description": "Luyện nghe & thực hành các Câu hỏi đuôi nâng cao và trường hợp ngoại lệ: Đại từ bất định (everyone, nobody -> they), từ mang nghĩa bán phủ định (never, rarely, seldom, hardly, little, few -> đuôi khẳng định), câu mệnh lệnh (will you? won't you?) và 'I am' (aren't I?)",
+    "lines": [
+      {
+        "speaker": "Chief Engineer",
+        "gender": "male",
+        "en": "Everyone is present in the emergency conference room, aren't they?",
+        "vi": "Mọi người đều có mặt trong phòng họp khẩn cấp rồi, phải không? (everyone -> they, are -> aren't)"
+      },
+      {
+        "speaker": "Lead Developer",
+        "gender": "female",
+        "en": "Yes, they are. Nobody left the office before inspecting the database logs, did they?",
+        "vi": "Vâng, đủ cả rồi. Không ai rời văn phòng trước khi kiểm tra nhật ký cơ sở dữ liệu, đúng không? (nobody -> phủ định, did they?)"
+      },
+      {
+        "speaker": "Chief Engineer",
+        "gender": "male",
+        "en": "Correct. We rarely encounter this kind of server malfunction, do we?",
+        "vi": "Chính xác. Chúng ta hiếm khi gặp loại sự cố máy chủ này, đúng không nhỉ? (rarely -> mang nghĩa phủ định, đuôi 'do we?')"
+      },
+      {
+        "speaker": "Lead Developer",
+        "gender": "female",
+        "en": "Almost never. There is little damage to our users' encrypted data, is there?",
+        "vi": "Hầu như không bao giờ. Có rất ít tổn hại đối với dữ liệu mã hóa của người dùng, đúng không? (little -> bán phủ định, is there?)"
+      },
+      {
+        "speaker": "Chief Engineer",
+        "gender": "male",
+        "en": "Fortunately, nothing was permanently lost during the power outage, was it?",
+        "vi": "May mắn thay, không có gì bị mất vĩnh viễn trong lúc mất điện, phải không? (nothing -> đại từ 'it', was it?)"
+      },
+      {
+        "speaker": "Lead Developer",
+        "gender": "female",
+        "en": "Nothing at all! Someone backed up the whole system yesterday evening, didn't they?",
+        "vi": "Không mất gì cả! Có ai đó đã sao lưu toàn bộ hệ thống vào tối qua, đúng không? (someone -> they, didn't they?)"
+      },
+      {
+        "speaker": "Chief Engineer",
+        "gender": "male",
+        "en": "Yes, our automated script did. I am responsible for signing off on the security report, aren't I?",
+        "vi": "Có, đoạn mã tự động đã làm. Tôi là người chịu trách nhiệm ký duyệt báo cáo an ninh, phải không? (I am -> aren't I?)"
+      },
+      {
+        "speaker": "Lead Developer",
+        "gender": "female",
+        "en": "Yes, sir. Please send the final audit summary to the executive board, will you?",
+        "vi": "Vâng, thưa sếp. Xin vui lòng gửi bản tóm tắt kiểm toán cuối cùng tới hội đồng quản trị nhé? (Câu mệnh lệnh -> will you?)"
+      },
+      {
+        "speaker": "Chief Engineer",
+        "gender": "male",
+        "en": "I will do it immediately. Don't forget to restart the backup cooling servers, will you?",
+        "vi": "Tôi sẽ làm ngay. Đừng quên khởi động lại các máy chủ làm mát dự phòng nhé? (Don't + V -> will you?)"
+      },
+      {
+        "speaker": "Lead Developer",
+        "gender": "female",
+        "en": "I won't forget. Let's run a complete system diagnostic now, shall we?",
+        "vi": "Tôi sẽ không quên đâu. Bây giờ chúng ta cùng chạy chẩn đoán toàn bộ hệ thống nhé?"
+      },
+      {
+        "speaker": "Chief Engineer",
+        "gender": "male",
+        "en": "Let's do that right away! That was a quick and effective recovery, wasn't it?",
+        "vi": "Hãy làm điều đó ngay thôi! Đó quả là một sự phục hồi nhanh chóng và hiệu quả, phải không?"
+      },
+      {
+        "speaker": "Lead Developer",
+        "gender": "female",
+        "en": "Indeed! Our team's preparation made all the difference.",
+        "vi": "Thực sự vậy! Sự chuẩn bị của nhóm chúng ta đã tạo nên mọi sự khác biệt."
+      }
+    ]
+  },
+  "grammarRules": {
+    "title": "Quy tắc ngữ pháp: Các Trường Hợp Đặc Biệt của Câu Hỏi Đuôi",
+    "summaryVi": "Nắm vững các trường hợp ngoại lệ trong câu hỏi đuôi liên quan đến **Đại từ Bất định**, **Từ mang nghĩa Phủ định ngầm (Never, Seldom, Little...)**, và **Câu Mệnh lệnh**.",
+    "points": [
+      {
+        "subject": "1. Đại từ Bất định chỉ Người vs. chỉ Vật",
+        "toBe": "- Everyone / Everybody / Someone / Nobody / Anyone -> Đổi thành đại từ 'THEY' (Lưu ý: chia động từ số nhiều ở đuôi)\n- Everything / Something / Nothing / Anything -> Đổi thành đại từ 'IT'",
+        "example": "Everyone is here, aren't they? / Somebody called, didn't they? / Nobody came, did they? / Nothing happened, did it?",
+        "negative": "Khi chủ ngữ là Nobody/No one/Nothing -> Mệnh đề mang nghĩa phủ định, nên đuôi phải ở dạng KHẲNG ĐỊNH."
+      },
+      {
+        "subject": "2. Câu chứa Trạng từ Bán Phủ định (Never, Seldom, Rarely, Hardly, Little, Few)",
+        "toBe": "Các từ này làm cho câu mang nghĩa phủ định -> Đuôi phải là KHẲNG ĐỊNH (+)",
+        "example": "She never drinks coffee, does she? / He has few friends, does he? / There is little water left, is there?",
+        "negative": "Tránh nhầm lẫn 'a few' / 'a little' (mang nghĩa khẳng định: một vài/chút ít) với 'few' / 'little' (hầu như không có)."
+      },
+      {
+        "subject": "3. Câu Mệnh lệnh & Lời mời",
+        "toBe": "- Mệnh lệnh khẳng định (Do it) -> will you? / won't you?\n- Mệnh lệnh phủ định (Don't do it) -> will you?\n- Let's + V -> shall we?\n- Let us / Let me + V -> will you?",
+        "example": "Open the window, will you? / Don't be late, will you? / Let's go swimming, shall we?",
+        "negative": "I am... -> aren't I? (nhưng I am not... -> am I?)."
+      }
+    ],
+    "forms": [
+      "Everyone/Somebody -> ..., aren't they? / didn't they?",
+      "Nobody/Nothing -> ..., did they? / did it? (đuôi khẳng định)",
+      "Never/Rarely/Little/Few -> ..., Aux + Pronoun? (đuôi khẳng định)",
+      "Mệnh lệnh: Open the door, will you? / Don't talk, will you?"
+    ]
+  },
+  "drillingTargets": [
+    {
+      "id": "target-5501",
+      "baseEn": "Everyone is ready for the meeting, aren't they?",
+      "baseVi": "Mọi người đều sẵn sàng cho cuộc họp rồi, phải không?",
+      "drills": {
+        "mode1_repeat": {
+          "promptVi": "Cấp độ 1: Nghe và nhắc lại câu hỏi đuôi với 'Everyone -> aren't they'",
+          "targetEn": "Everyone is ready for the meeting, aren't they?",
+          "hintVi": "'Everyone is...' -> đuôi đổi thành 'aren't they?'"
+        },
+        "mode2_fill": {
+          "promptVi": "Cấp độ 2: Điền đuôi hỏi phù hợp cho 'Everyone is'",
+          "sentenceWithBlank": "Everyone is ready for the meeting, ___?",
+          "correctAnswer": "aren't they",
+          "options": ["aren't they", "isn't he", "isn't everyone", "don't they"],
+          "explanationVi": "'Everyone' làm chủ ngữ thì đại từ ở đuôi là 'they', to be tương ứng ở hiện tại là 'aren't they'."
+        },
+        "mode3_scramble": {
+          "promptVi": "Cấp độ 3: Sắp xếp các từ thành câu hoàn chỉnh",
+          "words": ["they?", "aren't", "meeting,", "the", "for", "ready", "is", "Everyone"],
+          "correctSentence": "Everyone is ready for the meeting, aren't they?"
+        },
+        "mode4_transform": {
+          "promptVi": "Cấp độ 4: Chuyển sang 'Somebody called you' (Ai đó đã gọi cho bạn, phải không?)",
+          "instructionVi": "Dùng 'Somebody called you, didn't they?'",
+          "targetEn": "Somebody called you, didn't they?",
+          "hintVi": "Ai đó đã gọi cho bạn, phải không?"
+        },
+        "mode5_context": {
+          "promptVi": "Cấp độ 5: Chuyển sang 'Nobody' (Không ai biết câu trả lời, đúng không?)",
+          "instructionVi": "Dùng 'Nobody knows the answer, do they?'",
+          "targetEn": "Nobody knows the answer, do they?",
+          "hintVi": "Không ai biết câu trả lời, đúng không? (Nobody mang nghĩa phủ định -> đuôi 'do they?')."
+        }
+      }
+    },
+    {
+      "id": "target-5502",
+      "baseEn": "Nothing was damaged during the storm, was it?",
+      "baseVi": "Không có thứ gì bị hư hại trong cơn bão, phải không?",
+      "drills": {
+        "mode1_repeat": {
+          "promptVi": "Cấp độ 1: Nghe và nhắc lại câu với 'Nothing -> was it'",
+          "targetEn": "Nothing was damaged during the storm, was it?",
+          "hintVi": "'Nothing' mang nghĩa phủ định, đại từ thay thế là 'it' -> đuôi khẳng định 'was it?'"
+        },
+        "mode2_fill": {
+          "promptVi": "Cấp độ 2: Điền đuôi hỏi cho chủ ngữ 'Nothing was'",
+          "sentenceWithBlank": "Nothing was damaged during the storm, ___?",
+          "correctAnswer": "was it",
+          "options": ["was it", "wasn't it", "were they", "didn't it"],
+          "explanationVi": "'Nothing' mang nghĩa phủ định, nên đuôi dùng khẳng định 'was it'."
+        },
+        "mode3_scramble": {
+          "promptVi": "Cấp độ 3: Sắp xếp các từ thành câu đúng",
+          "words": ["it?", "was", "storm,", "the", "during", "damaged", "was", "Nothing"],
+          "correctSentence": "Nothing was damaged during the storm, was it?"
+        },
+        "mode4_transform": {
+          "promptVi": "Cấp độ 4: Thay 'damaged during the storm' bằng 'left in the room' (Không có gì còn sót lại trong phòng, đúng không?)",
+          "instructionVi": "Dùng 'Nothing was left in the room, was it?'",
+          "targetEn": "Nothing was left in the room, was it?",
+          "hintVi": "Không có gì còn sót lại trong phòng, đúng không?"
+        },
+        "mode5_context": {
+          "promptVi": "Cấp độ 5: Chuyển sang 'Everything is fine' (Mọi thứ đều ổn, phải không?)",
+          "instructionVi": "Dùng 'Everything is fine, isn't it?'",
+          "targetEn": "Everything is fine, isn't it?",
+          "hintVi": "Mọi thứ đều ổn, phải không? (Everything -> it, khẳng định -> isn't it)."
+        }
+      }
+    },
+    {
+      "id": "target-5503",
+      "baseEn": "She never tells lies, does she?",
+      "baseVi": "Cô ấy không bao giờ nói dối, đúng không?",
+      "drills": {
+        "mode1_repeat": {
+          "promptVi": "Cấp độ 1: Nghe và nhắc lại câu chứa từ phủ định ngầm 'never'",
+          "targetEn": "She never tells lies, does she?",
+          "hintVi": "'never' mang nghĩa phủ định -> đuôi dùng 'does she?'"
+        },
+        "mode2_fill": {
+          "promptVi": "Cấp độ 2: Điền đuôi hỏi cho câu chứa 'never'",
+          "sentenceWithBlank": "She never tells lies, ___?",
+          "correctAnswer": "does she",
+          "options": ["does she", "doesn't she", "is she", "isn't she"],
+          "explanationVi": "'never' làm cho vế đầu mang nghĩa phủ định nên đuôi phải là khẳng định 'does she'."
+        },
+        "mode3_scramble": {
+          "promptVi": "Cấp độ 3: Sắp xếp các từ xáo trộn",
+          "words": ["she?", "does", "lies,", "tells", "never", "She"],
+          "correctSentence": "She never tells lies, does she?"
+        },
+        "mode4_transform": {
+          "promptVi": "Cấp độ 4: Thay 'never tells lies' bằng 'rarely eats fast food' (Cô ấy hiếm khi ăn đồ ăn nhanh, đúng không?)",
+          "instructionVi": "Dùng 'She rarely eats fast food, does she?'",
+          "targetEn": "She rarely eats fast food, does she?",
+          "hintVi": "Cô ấy hiếm khi ăn đồ ăn nhanh, đúng không?"
+        },
+        "mode5_context": {
+          "promptVi": "Cấp độ 5: Chuyển sang ngôi 'He' và dùng 'seldom travels' (Anh ấy ít khi đi du lịch, phải không?)",
+          "instructionVi": "Dùng 'He seldom travels abroad, does he?'",
+          "targetEn": "He seldom travels abroad, does he?",
+          "hintVi": "Anh ấy ít khi đi du lịch nước ngoài, phải không?"
+        }
+      }
+    },
+    {
+      "id": "target-5504",
+      "baseEn": "Don't be late for the interview, will you?",
+      "baseVi": "Đừng đến muộn buổi phỏng vấn nhé, được không?",
+      "drills": {
+        "mode1_repeat": {
+          "promptVi": "Cấp độ 1: Nghe và nhắc lại câu mệnh lệnh với đuôi 'will you'",
+          "targetEn": "Don't be late for the interview, will you?",
+          "hintVi": "Câu mệnh lệnh phủ định 'Don't...' có đuôi là 'will you?'"
+        },
+        "mode2_fill": {
+          "promptVi": "Cấp độ 2: Điền đuôi hỏi cho câu mệnh lệnh",
+          "sentenceWithBlank": "Don't be late for the interview, ___?",
+          "correctAnswer": "will you",
+          "options": ["will you", "shall you", "do you", "don't you"],
+          "explanationVi": "Câu mệnh lệnh 'Don't + V' luôn có đuôi là 'will you'."
+        },
+        "mode3_scramble": {
+          "promptVi": "Cấp độ 3: Sắp xếp từ xáo trộn",
+          "words": ["you?", "will", "interview,", "the", "for", "late", "be", "Don't"],
+          "correctSentence": "Don't be late for the interview, will you?"
+        },
+        "mode4_transform": {
+          "promptVi": "Cấp độ 4: Chuyển sang mệnh lệnh khẳng định (Hãy đóng cửa sổ lại giúp tôi nhé, được không?)",
+          "instructionVi": "Dùng 'Close the window, will you?'",
+          "targetEn": "Close the window, will you?",
+          "hintVi": "Hãy đóng cửa sổ lại giúp tôi nhé, được không?"
+        },
+        "mode5_context": {
+          "promptVi": "Cấp độ 5: Chuyển sang 'Turn off the lights' (Hãy tắt đèn trước khi đi nhé?)",
+          "instructionVi": "Dùng 'Turn off the lights before leaving, will you?'",
+          "targetEn": "Turn off the lights before leaving, will you?",
+          "hintVi": "Hãy tắt đèn trước khi rời đi nhé?"
+        }
+      }
+    }
+  ]
+}

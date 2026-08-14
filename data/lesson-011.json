@@ -1,0 +1,216 @@
+{
+  "lessonId": "lesson-011",
+  "title": "Bài 11: Động từ To Be — Tương lai Đơn (Phủ định Won't be & Câu hỏi Will you be...?)",
+  "estimatedTimeMinutes": 30,
+  "openingDialogue": {
+    "title": "Hội thoại mở đầu: Cuộc hẹn hò tối thứ Bảy (Saturday Evening Plans)",
+    "description": "Luyện nghe & phát âm hội thoại sử dụng dạng phủ định Won't be và câu hỏi nghi vấn Will you be...?",
+    "lines": [
+      {
+        "speaker": "Lisa",
+        "gender": "female",
+        "en": "Will you be free this Saturday evening, Tom?",
+        "vi": "Thứ Bảy tuần này bạn có rảnh không, Tom?"
+      },
+      {
+        "speaker": "Tom",
+        "gender": "male",
+        "en": "No, I won't be free. I will be at my cousin's birthday party.",
+        "vi": "Không, tôi sẽ không rảnh. Tôi sẽ ở tiệc sinh nhật người anh họ."
+      },
+      {
+        "speaker": "Lisa",
+        "gender": "female",
+        "en": "Will the party be late?",
+        "vi": "Bữa tiệc sẽ kéo dài muộn không?"
+      },
+      {
+        "speaker": "Tom",
+        "gender": "male",
+        "en": "It won't be too late. I will be back home by nine PM.",
+        "vi": "Sẽ không quá muộn đâu. Tôi sẽ về nhà trước 9 giờ tối."
+      },
+      {
+        "speaker": "Lisa",
+        "gender": "female",
+        "en": "Great! Will you be ready for our trip on Sunday?",
+        "vi": "Tuyệt! Bạn sẽ sẵn sàng cho chuyến đi vào Chủ nhật chứ?"
+      },
+      {
+        "speaker": "Tom",
+        "gender": "male",
+        "en": "Yes, I will be ready and excited!",
+        "vi": "Có, tôi sẽ sẵn sàng và rất hào hứng!"
+      }
+    ]
+  },
+  "grammarRules": {
+    "title": "Quy tắc ngữ pháp: Dạng Phủ định (Won't be) & Câu hỏi với Will",
+    "summaryVi": "Hình thức phủ định của **will be** là **will not be** hay viết tắt là **won't be**. Đặt **Will** đầu câu khi hỏi.",
+    "points": [
+      {
+        "subject": "Phủ định (Negative)",
+        "toBe": "won't be (will not be)",
+        "example": "I won't be late. / She won't be at home.",
+        "negative": "S + won't be + Adj/N/Place"
+      },
+      {
+        "subject": "Nghi vấn (Questions)",
+        "toBe": "Will + S + be...?",
+        "example": "Will you be ready? / Will they be happy?",
+        "negative": "Trả lời: Yes, S + will. / No, S + won't."
+      }
+    ],
+    "forms": [
+      "Phủ định: S + won't be + Adj/N/Place",
+      "Nghi vấn: Will + S + be + Adj/N/Place?",
+      "Trợ động từ Will đứng trước chủ ngữ, 'be' đứng sau chủ ngữ."
+    ]
+  },
+  "drillingTargets": [
+    {
+      "id": "target-801",
+      "baseEn": "I won't be late tomorrow morning.",
+      "baseVi": "Tôi sẽ không đi trễ vào sáng mai.",
+      "drills": {
+        "mode1_repeat": {
+          "promptVi": "Cấp độ 1: Nghe và nhắc lại theo mẫu",
+          "targetEn": "I won't be late tomorrow morning.",
+          "hintVi": "Chú ý phát âm 'won't' /woʊnt/"
+        },
+        "mode2_fill": {
+          "promptVi": "Cấp độ 2: Điền dạng phủ định tương lai đơn",
+          "sentenceWithBlank": "I ___ late tomorrow morning.",
+          "correctAnswer": "won't be",
+          "options": ["won't be", "wasn't", "am not", "don't be"],
+          "explanationVi": "'Tomorrow morning' chỉ thời gian tương lai, dạng phủ định dùng 'won't be'."
+        },
+        "mode3_scramble": {
+          "promptVi": "Cấp độ 3: Sắp xếp các từ thành câu đúng",
+          "words": ["morning.", "tomorrow", "late", "be", "won't", "I"],
+          "correctSentence": "I won't be late tomorrow morning."
+        },
+        "mode4_transform": {
+          "promptVi": "Cấp độ 4: Chuyển câu sang dạng KHẲNG ĐỊNH",
+          "instructionVi": "Đổi 'won't be' thành 'will be'",
+          "targetEn": "I will be late tomorrow morning.",
+          "hintVi": "Tôi sẽ bị trễ vào sáng mai."
+        },
+        "mode5_context": {
+          "promptVi": "Cấp độ 5: Chuyển sang chủ ngữ 'He' (Anh ấy sẽ không đi trễ vào sáng mai)",
+          "instructionVi": "Thay 'I' bằng 'He'",
+          "targetEn": "He won't be late tomorrow morning.",
+          "hintVi": "Anh ấy sẽ không đi trễ vào sáng mai."
+        }
+      }
+    },
+    {
+      "id": "target-802",
+      "baseEn": "Will you be free this weekend?",
+      "baseVi": "Bạn có rảnh vào cuối tuần này không?",
+      "drills": {
+        "mode1_repeat": {
+          "promptVi": "Cấp độ 1: Nghe và nhắc lại câu hỏi mẫu",
+          "targetEn": "Will you be free this weekend?",
+          "hintVi": "Lên giọng nhẹ ở cuối câu hỏi 'Will you be free...?'"
+        },
+        "mode2_fill": {
+          "promptVi": "Cấp độ 2: Điền từ nghi vấn tương lai đơn",
+          "sentenceWithBlank": "___ you be free this weekend?",
+          "correctAnswer": "Will",
+          "options": ["Will", "Are", "Were", "Do"],
+          "explanationVi": "Hỏi về thời gian tương lai 'this weekend' đưa 'Will' lên đầu câu."
+        },
+        "mode3_scramble": {
+          "promptVi": "Cấp độ 3: Sắp xếp từ xáo trộn thành câu hỏi",
+          "words": ["weekend?", "this", "free", "be", "you", "Will"],
+          "correctSentence": "Will you be free this weekend?"
+        },
+        "mode4_transform": {
+          "promptVi": "Cấp độ 4: Chuyển thành câu TRẢ LỜI KHẲNG ĐỊNH (Tôi sẽ rảnh vào cuối tuần này)",
+          "instructionVi": "Viết lại thành câu khẳng định: I will be free this weekend.",
+          "targetEn": "I will be free this weekend.",
+          "hintVi": "Tôi sẽ rảnh vào cuối tuần này."
+        },
+        "mode5_context": {
+          "promptVi": "Cấp độ 5: Chuyển câu hỏi sang ngôi 'they' (Họ có rảnh vào cuối tuần này không?)",
+          "instructionVi": "Thay 'you' bằng 'they'",
+          "targetEn": "Will they be free this weekend?",
+          "hintVi": "Họ có rảnh vào cuối tuần này không?"
+        }
+      }
+    },
+    {
+      "id": "target-803",
+      "baseEn": "The exam won't be difficult.",
+      "baseVi": "Bài thi sẽ không khó đâu.",
+      "drills": {
+        "mode1_repeat": {
+          "promptVi": "Cấp độ 1: Nghe và nhắc lại câu mẫu",
+          "targetEn": "The exam won't be difficult.",
+          "hintVi": "Chú ý từ 'difficult' /ˈdɪfɪkəlt/"
+        },
+        "mode2_fill": {
+          "promptVi": "Cấp độ 2: Điền dạng phủ định tương lai của To Be",
+          "sentenceWithBlank": "The exam ___ difficult.",
+          "correctAnswer": "won't be",
+          "options": ["won't be", "isn't", "wasn't", "not be"],
+          "explanationVi": "Phủ định thì tương lai đơn dùng 'won't be'."
+        },
+        "mode3_scramble": {
+          "promptVi": "Cấp độ 3: Sắp xếp các từ thành câu đúng",
+          "words": ["difficult.", "be", "won't", "exam", "The"],
+          "correctSentence": "The exam won't be difficult."
+        },
+        "mode4_transform": {
+          "promptVi": "Cấp độ 4: Chuyển câu sang dạng KHẲNG ĐỊNH",
+          "instructionVi": "Đổi 'won't be' thành 'will be'",
+          "targetEn": "The exam will be difficult.",
+          "hintVi": "Bài thi sẽ khó đấy."
+        },
+        "mode5_context": {
+          "promptVi": "Cấp độ 5: Thay 'difficult' bằng 'easy' (Bài thi sẽ không dễ đâu)",
+          "instructionVi": "Thay 'difficult' bằng 'easy'",
+          "targetEn": "The exam won't be easy.",
+          "hintVi": "Bài thi sẽ không dễ đâu."
+        }
+      }
+    },
+    {
+      "id": "target-804",
+      "baseEn": "Will she be at the party tonight?",
+      "baseVi": "Tối nay cô ấy có ở bữa tiệc không?",
+      "drills": {
+        "mode1_repeat": {
+          "promptVi": "Cấp độ 1: Nghe và nhắc lại câu hỏi",
+          "targetEn": "Will she be at the party tonight?",
+          "hintVi": "Phát âm rõ 'party tonight'"
+        },
+        "mode2_fill": {
+          "promptVi": "Cấp độ 2: Điền từ mở đầu câu hỏi tương lai",
+          "sentenceWithBlank": "___ she be at the party tonight?",
+          "correctAnswer": "Will",
+          "options": ["Will", "Is", "Was", "Does"],
+          "explanationVi": "Hỏi về sự việc tối nay ('tonight') dùng trợ động từ 'Will'."
+        },
+        "mode3_scramble": {
+          "promptVi": "Cấp độ 3: Sắp xếp từ xáo trộn thành câu hỏi",
+          "words": ["tonight?", "party", "the", "at", "be", "she", "Will"],
+          "correctSentence": "Will she be at the party tonight?"
+        },
+        "mode4_transform": {
+          "promptVi": "Cấp độ 4: Chuyển thành câu TRẢ LỜI PHỦ ĐỊNH (Cô ấy sẽ không ở bữa tiệc tối nay)",
+          "instructionVi": "Viết câu phủ định với 'won't be'",
+          "targetEn": "She won't be at the party tonight.",
+          "hintVi": "Tối nay cô ấy sẽ không ở bữa tiệc."
+        },
+        "mode5_context": {
+          "promptVi": "Cấp độ 5: Chuyển câu hỏi sang chủ ngữ 'he' (Tối nay anh ấy có ở bữa tiệc không?)",
+          "instructionVi": "Thay 'she' bằng 'he'",
+          "targetEn": "Will he be at the party tonight?",
+          "hintVi": "Tối nay anh ấy có ở bữa tiệc không?"
+        }
+      }
+    }
+  ]
+}

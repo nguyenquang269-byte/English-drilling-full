@@ -1,0 +1,259 @@
+{
+  "lessonId": "lesson-084",
+  "title": "Bài 84: Cấu trúc Thì trong Mệnh đề Thời gian & Điều kiện (Present Tenses for Future in Time & If-Clauses)",
+  "estimatedTimeMinutes": 35,
+  "openingDialogue": {
+    "title": "Hội thoại mở đầu: Điều phối phóng tàu thám hiểm không gian (Space Launch Countdown & Protocol)",
+    "description": "Luyện nghe & thực hành Quy tắc Vàng: Dùng thì Hiện tại đơn / Hiện tại hoàn thành thay cho Tương lai trong các mệnh đề trạng ngữ chỉ thời gian và điều kiện (When, As soon as, Until, Before, After, By the time, If, Unless, Provided that...)",
+    "lines": [
+      {
+        "speaker": "Flight Director",
+        "gender": "male",
+        "en": "Attention, launch crew! As soon as the automated cryogenic propellant tank is fully pressurized, we will begin the final countdown.",
+        "vi": "Xin toàn đội chú ý! Ngay khi bình nhiên liệu đông lạnh tự động được nạp đầy áp suất, chúng ta sẽ bắt đầu đếm ngược cuối cùng. (As soon as is pressurized -> will begin)"
+      },
+      {
+        "speaker": "Telemetry Officer",
+        "gender": "female",
+        "en": "Understood, sir. When the rocket clears the launch tower, telemetry computers will lock onto orbital coordinates.",
+        "vi": "Rõ, thưa sếp. Khi tên lửa vượt qua tháp phóng, các máy tính đo xa sẽ khóa vào tọa độ quỹ đạo. (When clears -> will lock)"
+      },
+      {
+        "speaker": "Flight Director",
+        "gender": "male",
+        "en": "Do not initiate the booster separation until the ground radar team has confirmed stable orbital velocity.",
+        "vi": "Không được kích hoạt việc tách tầng đẩy cho đến khi đội radar mặt đất đã xác nhận vận tốc quỹ đạo ổn định. (until has confirmed)"
+      },
+      {
+        "speaker": "Telemetry Officer",
+        "gender": "female",
+        "en": "We will maintain radio silence while the spacecraft passes through the upper ionosphere.",
+        "vi": "Chúng ta sẽ duy trì sự im lặng vô tuyến trong khi tàu vũ trụ bay qua tầng điện ly phía trên. (while passes)"
+      },
+      {
+        "speaker": "Flight Director",
+        "gender": "male",
+        "en": "If atmospheric turbulence exceeds safety parameters, will the flight guidance system abort automatically?",
+        "vi": "Nếu sự nhiễu loạn khí quyển vượt quá các thông số an toàn, hệ thống dẫn đường bay sẽ tự động hủy bỏ chứ? (If exceeds -> will abort)"
+      },
+      {
+        "speaker": "Telemetry Officer",
+        "gender": "female",
+        "en": "Yes, unless the mission commander overrides the computer sequence manually.",
+        "vi": "Vâng, trừ phi chỉ huy sứ mệnh ghi đè chuỗi lệnh máy tính bằng tay. (unless overrides)"
+      },
+      {
+        "speaker": "Flight Director",
+        "gender": "male",
+        "en": "By the time the secondary capsule docks with the international space station, the astronauts will have rested.",
+        "vi": "Vào lúc khoang phụ ghép nối với trạm vũ trụ quốc tế, các phi hành gia sẽ được nghỉ ngơi xong. (By the time docks -> will have rested)"
+      },
+      {
+        "speaker": "Telemetry Officer",
+        "gender": "female",
+        "en": "We will dispatch recovery naval vessels before the return capsule splashes down in the Pacific.",
+        "vi": "Chúng ta sẽ điều động các tàu hải quân cứu hộ trước khi khoang quay trở lại đáp xuống Thái Bình Dương. (before splashes down)"
+      },
+      {
+        "speaker": "Flight Director",
+        "gender": "male",
+        "en": "As long as solar panels deploy successfully, onboard life-support systems will run smoothly for months.",
+        "vi": "Miễn là các tấm pin mặt trời mở ra thành công, hệ thống duy trì sự sống trên tàu sẽ vận hành êm ả trong nhiều tháng. (As long as deploy -> will run)"
+      },
+      {
+        "speaker": "Telemetry Officer",
+        "gender": "female",
+        "en": "Once ground controllers receive the first live telemetry feed, we will broadcast it to the world.",
+        "vi": "Một khi các kiểm soát viên mặt đất nhận được luồng dữ liệu đo xa trực tiếp đầu tiên, chúng ta sẽ phát sóng nó tới thế giới. (Once receive -> will broadcast)"
+      },
+      {
+        "speaker": "Flight Director",
+        "gender": "male",
+        "en": "Strict adherence to these grammatical timeline rules ensures precision in technical execution.",
+        "vi": "Sự tuân thủ nghiêm ngặt các quy tắc dòng thời gian ngữ pháp này đảm bảo tính chính xác trong việc thực thi kỹ thuật."
+      },
+      {
+        "speaker": "Telemetry Officer",
+        "gender": "female",
+        "en": "All systems are green for a flawless orbital mission launch!",
+        "vi": "Tất cả các hệ thống đều báo xanh cho một vụ phóng sứ mệnh quỹ đạo hoàn hảo!"
+      }
+    ]
+  },
+  "grammarRules": {
+    "title": "Quy tắc ngữ pháp: Thì trong Mệnh đề Thời gian & Mệnh đề Điều kiện",
+    "summaryVi": "**QUY TẮC VÀNG TRONG TIẾNG ANH**: Trong các **Mệnh đề Trạng ngữ chỉ Thời gian** (Time Clauses) và **Mệnh đề Điều kiện** (Condition Clauses), **TUYỆT ĐỐI KHÔNG DÙNG THÌ TƯƠNG LAI (WILL / SHALL)**. Ta phải dùng thì **Hiện tại đơn (Present Simple)** hoặc **Hiện tại hoàn thành (Present Perfect)** để thay thế.",
+    "points": [
+      {
+        "subject": "1. Các Liên từ Chỉ Thời Gian & Điều Kiện Bắt Buộc Dùng Hiện Tại",
+        "toBe": "- Chỉ thời gian: When (khi), As soon as (ngay khi), Until / Till (cho đến khi), Before (trước khi), After (sau khi), While (trong khi), By the time (vào lúc), Once (một khi)\n- Chỉ điều kiện: If (nếu), Unless (trừ phi), As long as / Provided that (miễn là), In case (phòng khi)",
+        "example": "I will call you when I ARRIVE. (NOT: when I will arrive)\nWe will leave as soon as it STOPS raining. (NOT: as soon as it will stop)",
+        "negative": "Lỗi sai phổ biến nhất của người học là chèn 'will' vào sau các liên từ này."
+      },
+      {
+        "subject": "2. Dùng Hiện Tại Hoàn Thành (Present Perfect) Nhấn Mạnh Sự Hoàn Tất",
+        "toBe": "Khi muốn nhấn mạnh một hành động PHẢI XONG TRƯỚC RỒI HÀNH ĐỘNG KIA MỚI XẢY RA trong tương lai:\n- S + will + V-inf + WHEN / AFTER / AS SOON AS + S + HAVE / HAS + V3/ed",
+        "example": "I will go to bed after I have finished my homework. (Làm xong xuôi bài tập rồi mới đi ngủ)\nYou can watch TV as soon as you have cleaned your room.",
+        "negative": "Thay thế cho 'will have + V3' trong mệnh đề phụ."
+      },
+      {
+        "subject": "3. Cấu trúc Mệnh Lệnh Thức đi với Mệnh đề Thời gian",
+        "toBe": "Động từ mệnh lệnh (V-inf / Don't V) + WHEN / BEFORE / AS SOON AS + S + V(hiện tại đơn)",
+        "example": "Call me when you get home! / Turn off the lights before you leave! / Don't start until I tell you!",
+        "negative": "Vế chính là câu mệnh lệnh thì vế phụ vẫn tuân theo quy tắc chia ở Hiện tại đơn."
+      }
+    ],
+    "forms": [
+      "Quy tắc vàng: WHEN / AS SOON AS / UNTIL / IF + S + V(hiện tại đơn), S + will + V-inf",
+      "Nhấn mạnh xong: S + will + V + AFTER / AS SOON AS + S + have/has + V3/ed",
+      "By the time + S + V(hiện tại đơn), S + will have + V3/ed",
+      "Mệnh lệnh: V-inf! + BEFORE / WHEN + S + V(hiện tại đơn)"
+    ]
+  },
+  "drillingTargets": [
+    {
+      "id": "target-8401",
+      "baseEn": "I will call you as soon as I arrive in Tokyo.",
+      "baseVi": "Tôi sẽ gọi cho bạn ngay khi tôi đến Tokyo.",
+      "drills": {
+        "mode1_repeat": {
+          "promptVi": "Cấp độ 1: Nghe và nhắc lại câu với 'as soon as I arrive' (hiện tại thay cho tương lai)",
+          "targetEn": "I will call you as soon as I arrive in Tokyo.",
+          "hintVi": "'as soon as + S + V(hiện tại)'"
+        },
+        "mode2_fill": {
+          "promptVi": "Cấp độ 2: Điền dạng động từ hiện tại đơn 'arrive' sau liên từ 'as soon as'",
+          "sentenceWithBlank": "I will call you as soon as I ___ in Tokyo.",
+          "correctAnswer": "arrive",
+          "options": ["arrive", "will arrive", "arrived", "am arriving"],
+          "explanationVi": "Sau liên từ chỉ thời gian 'as soon as' dùng thì Hiện tại đơn (arrive) thay cho tương lai."
+        },
+        "mode3_scramble": {
+          "promptVi": "Cấp độ 3: Sắp xếp các từ thành câu hoàn chỉnh",
+          "words": ["Tokyo.", "in", "arrive", "I", "as", "soon", "as", "you", "call", "will", "I"],
+          "correctSentence": "I will call you as soon as I arrive in Tokyo."
+        },
+        "mode4_transform": {
+          "promptVi": "Cấp độ 4: Dùng 'when' thay cho 'as soon as' (Tôi sẽ gọi cho bạn khi tôi đến Tokyo)",
+          "instructionVi": "Dùng 'I will call you when I arrive in Tokyo.'",
+          "targetEn": "I will call you when I arrive in Tokyo.",
+          "hintVi": "Tôi sẽ gọi cho bạn khi tôi đến Tokyo."
+        },
+        "mode5_context": {
+          "promptVi": "Cấp độ 5: Thay 'call you' bằng 'send an email' và 'get home' (Tôi sẽ gửi email ngay khi tôi về đến nhà)",
+          "instructionVi": "Dùng 'I will send an email as soon as I get home.'",
+          "targetEn": "I will send an email as soon as I get home.",
+          "hintVi": "Tôi sẽ gửi email ngay khi tôi về đến nhà."
+        }
+      }
+    },
+    {
+      "id": "target-8402",
+      "baseEn": "We will wait here until it stops raining.",
+      "baseVi": "Chúng ta sẽ đợi ở đây cho đến khi trời tạnh mưa.",
+      "drills": {
+        "mode1_repeat": {
+          "promptVi": "Cấp độ 1: Nghe và nhắc lại câu với 'until it stops raining'",
+          "targetEn": "We will wait here until it stops raining.",
+          "hintVi": "'until it stops' (hiện tại đơn)"
+        },
+        "mode2_fill": {
+          "promptVi": "Cấp độ 2: Điền dạng động từ 'stops' sau liên từ 'until'",
+          "sentenceWithBlank": "We will wait here until it ___ raining.",
+          "correctAnswer": "stops",
+          "options": ["stops", "will stop", "stopped", "stop"],
+          "explanationVi": "Sau 'until' dùng hiện tại đơn ngôi thứ 3 số ít 'stops'."
+        },
+        "mode3_scramble": {
+          "promptVi": "Cấp độ 3: Sắp xếp các từ thành câu đúng",
+          "words": ["raining.", "stops", "it", "until", "here", "wait", "will", "We"],
+          "correctSentence": "We will wait here until it stops raining."
+        },
+        "mode4_transform": {
+          "promptVi": "Cấp độ 4: Thay 'it stops raining' bằng 'the bus comes' (Chúng tôi sẽ đợi ở đây cho đến khi xe buýt đến)",
+          "instructionVi": "Dùng 'We will wait here until the bus comes.'",
+          "targetEn": "We will wait here until the bus comes.",
+          "hintVi": "Chúng tôi sẽ đợi ở đây cho đến khi xe buýt đến."
+        },
+        "mode5_context": {
+          "promptVi": "Cấp độ 5: Chuyển sang dạng mệnh lệnh (Đừng rời đi cho đến khi tôi quay lại: Don't leave until I come back)",
+          "instructionVi": "Dùng 'Don't leave until I come back.'",
+          "targetEn": "Don't leave until I come back.",
+          "hintVi": "Đừng rời đi cho đến khi tôi quay lại."
+        }
+      }
+    },
+    {
+      "id": "target-8403",
+      "baseEn": "Please turn off the lights before you leave.",
+      "baseVi": "Xin vui lòng tắt đèn trước khi bạn rời đi.",
+      "drills": {
+        "mode1_repeat": {
+          "promptVi": "Cấp độ 1: Nghe và nhắc lại câu mệnh lệnh với 'before you leave'",
+          "targetEn": "Please turn off the lights before you leave.",
+          "hintVi": "'before you leave' (hiện tại đơn)"
+        },
+        "mode2_fill": {
+          "promptVi": "Cấp độ 2: Điền dạng động từ 'leave' sau liên từ 'before'",
+          "sentenceWithBlank": "Please turn off the lights before you ___.",
+          "correctAnswer": "leave",
+          "options": ["leave", "will leave", "left", "are leaving"],
+          "explanationVi": "Sau 'before' dùng hiện tại đơn 'leave'."
+        },
+        "mode3_scramble": {
+          "promptVi": "Cấp độ 3: Sắp xếp các từ xáo trộn",
+          "words": ["leave.", "you", "before", "lights", "the", "off", "turn", "Please"],
+          "correctSentence": "Please turn off the lights before you leave."
+        },
+        "mode4_transform": {
+          "promptVi": "Cấp độ 4: Thay 'turn off the lights' bằng 'lock the front door' (Xin vui lòng khóa cửa trước khi rời đi)",
+          "instructionVi": "Dùng 'Please lock the front door before you leave.'",
+          "targetEn": "Please lock the front door before you leave.",
+          "hintVi": "Xin vui lòng khóa cửa chính trước khi bạn rời đi."
+        },
+        "mode5_context": {
+          "promptVi": "Cấp độ 5: Dùng 'as soon as you have finished' (Hãy đi ngủ ngay khi bạn đã hoàn thành bài tập)",
+          "instructionVi": "Dùng 'Go to bed as soon as you have finished your homework.'",
+          "targetEn": "Go to bed as soon as you have finished your homework.",
+          "hintVi": "Hãy đi ngủ ngay khi bạn đã hoàn thành bài tập về nhà."
+        }
+      }
+    },
+    {
+      "id": "target-8404",
+      "baseEn": "We will go for a picnic if the weather is fine tomorrow.",
+      "baseVi": "Chúng tôi sẽ đi dã ngoại nếu thời tiết đẹp vào ngày mai.",
+      "drills": {
+        "mode1_repeat": {
+          "promptVi": "Cấp độ 1: Nghe và nhắc lại câu điều kiện loại 1 với 'if the weather is fine'",
+          "targetEn": "We will go for a picnic if the weather is fine tomorrow.",
+          "hintVi": "'if the weather is fine' (dù có tomorrow vẫn dùng is)"
+        },
+        "mode2_fill": {
+          "promptVi": "Cấp độ 2: Điền động từ ToBe 'is' trong mệnh đề If",
+          "sentenceWithBlank": "We will go for a picnic if the weather ___ fine tomorrow.",
+          "correctAnswer": "is",
+          "options": ["is", "will be", "was", "be"],
+          "explanationVi": "Trong mệnh đề IF loại 1, động từ chia ở Hiện tại đơn (is) kể cả khi có 'tomorrow'."
+        },
+        "mode3_scramble": {
+          "promptVi": "Cấp độ 3: Sắp xếp từ xáo trộn",
+          "words": ["tomorrow.", "fine", "is", "weather", "the", "if", "picnic", "a", "for", "go", "will", "We"],
+          "correctSentence": "We will go for a picnic if the weather is fine tomorrow."
+        },
+        "mode4_transform": {
+          "promptVi": "Cấp độ 4: Dùng liên từ 'provided that' thay cho 'if' (Chúng tôi sẽ đi dã ngoại miễn là thời tiết đẹp)",
+          "instructionVi": "Dùng 'We will go for a picnic provided that the weather is fine.'",
+          "targetEn": "We will go for a picnic provided that the weather is fine.",
+          "hintVi": "Chúng tôi sẽ đi dã ngoại miễn là thời tiết đẹp."
+        },
+        "mode5_context": {
+          "promptVi": "Cấp độ 5: Chuyển sang 'Unless it rains' (Chúng tôi sẽ đi chơi trừ phi trời mưa: We will go out unless it rains)",
+          "instructionVi": "Dùng 'We will go out unless it rains.'",
+          "targetEn": "We will go out unless it rains.",
+          "hintVi": "Chúng tôi sẽ đi chơi trừ phi trời mưa (unless + hiện tại đơn)."
+        }
+      }
+    }
+  ]
+}

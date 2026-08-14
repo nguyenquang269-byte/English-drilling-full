@@ -1,0 +1,222 @@
+{
+  "lessonId": "lesson-001",
+  "title": "Bài 1: Động từ To Be - I am / You are / He is (Cơ bản)",
+  "estimatedTimeMinutes": 30,
+  "openingDialogue": {
+    "title": "Hội thoại mở đầu: Gặp gỡ bạn mới ở trường (Meeting a New Friend)",
+    "description": "Luyện nghe & phát âm đoạn hội thoại mẫu khoảng 30 giây sử dụng Động từ To Be",
+    "lines": [
+      {
+        "speaker": "Alex",
+        "gender": "male",
+        "en": "Hello! My name is Alex. I am a new student here.",
+        "vi": "Xin chào! Tên tôi là Alex. Tôi là một học sinh mới ở đây."
+      },
+      {
+        "speaker": "Linh",
+        "gender": "female",
+        "en": "Hi Alex! I am Linh. Are you from America?",
+        "vi": "Chào Alex! Tôi là Linh. Bạn có phải đến từ Mỹ không?"
+      },
+      {
+        "speaker": "Alex",
+        "gender": "male",
+        "en": "Yes, I am. I am from New York. Are you a student too?",
+        "vi": "Đúng vậy. Tôi đến từ New York. Bạn cũng là học sinh à?"
+      },
+      {
+        "speaker": "Linh",
+        "gender": "female",
+        "en": "Yes, I am a student. We are classmates now!",
+        "vi": "Vâng, tôi là học sinh. Bây giờ chúng ta là bạn cùng lớp rồi!"
+      },
+      {
+        "speaker": "Alex",
+        "gender": "male",
+        "en": "That is great! I am very happy to meet you.",
+        "vi": "Thật tuyệt vời! Tôi rất vui được gặp bạn."
+      },
+      {
+        "speaker": "Linh",
+        "gender": "female",
+        "en": "I am happy to meet you too, Alex!",
+        "vi": "Tôi cũng rất vui được gặp bạn, Alex!"
+      }
+    ]
+  },
+  "grammarRules": {
+    "title": "Quy tắc ngữ pháp: Động từ To Be ở Thì Hiện Tại",
+    "summaryVi": "Động từ **To Be** có 3 dạng chính ở hiện tại: **am / is / are** tùy thuộc vào Chủ ngữ (Subject).",
+    "points": [
+      {
+        "subject": "I",
+        "toBe": "am",
+        "example": "I am a student. (Tôi là một học sinh)",
+        "negative": "I am not..."
+      },
+      {
+        "subject": "You / We / They",
+        "toBe": "are",
+        "example": "You are a teacher. / We are happy.",
+        "negative": "You are not..."
+      },
+      {
+        "subject": "He / She / It",
+        "toBe": "is",
+        "example": "He is from America. / She is happy.",
+        "negative": "He is not..."
+      }
+    ],
+    "forms": [
+      "Khẳng định (Affirmative): S + am/is/are + N/Adj",
+      "Phủ định (Negative): S + am/is/are + NOT + N/Adj",
+      "Nghi vấn (Question): Am/Is/Are + S + N/Adj?"
+    ]
+  },
+  "drillingTargets": [
+    {
+      "id": "target-101",
+      "baseEn": "I am a student.",
+      "baseVi": "Tôi là một học sinh.",
+      "drills": {
+        "mode1_repeat": {
+          "promptVi": "Cấp độ 1: Nghe và nhắc lại ngay theo mẫu",
+          "targetEn": "I am a student.",
+          "hintVi": "Nói rõ từng từ: I - am - a - student"
+        },
+        "mode2_fill": {
+          "promptVi": "Cấp độ 2: Điền động từ To Be còn thiếu vào chỗ trống",
+          "sentenceWithBlank": "I ___ a student.",
+          "correctAnswer": "am",
+          "options": ["am", "is", "are", "be"],
+          "explanationVi": "Chủ ngữ 'I' luôn đi với động từ To Be 'am'."
+        },
+        "mode3_scramble": {
+          "promptVi": "Cấp độ 3: Sắp xếp các từ xáo trộn thành câu hoàn chỉnh",
+          "words": ["student.", "a", "am", "I"],
+          "correctSentence": "I am a student."
+        },
+        "mode4_transform": {
+          "promptVi": "Cấp độ 4: Biến đổi câu khẳng định thành PHỦ ĐỊNH",
+          "instructionVi": "Thêm 'not' sau động từ 'am' để tạo câu phủ định",
+          "targetEn": "I am not a student.",
+          "hintVi": "Tôi không phải là một học sinh."
+        },
+        "mode5_context": {
+          "promptVi": "Cấp độ 5: Biến đổi câu với ngôi thứ ba số ít 'She' (Cô ấy)",
+          "instructionVi": "Thay chủ ngữ 'I am' bằng 'She is'",
+          "targetEn": "She is a student.",
+          "hintVi": "Cô ấy là một học sinh."
+        }
+      }
+    },
+    {
+      "id": "target-102",
+      "baseEn": "You are a teacher.",
+      "baseVi": "Bạn là một giáo viên.",
+      "drills": {
+        "mode1_repeat": {
+          "promptVi": "Cấp độ 1: Nghe và nhắc lại ngay theo mẫu",
+          "targetEn": "You are a teacher.",
+          "hintVi": "Nhắc lại chính xác câu tiếng Anh"
+        },
+        "mode2_fill": {
+          "promptVi": "Cấp độ 2: Điền từ còn thiếu vào chỗ trống",
+          "sentenceWithBlank": "You ___ a teacher.",
+          "correctAnswer": "are",
+          "options": ["am", "is", "are", "be"],
+          "explanationVi": "Chủ ngữ 'You' đi với động từ To Be 'are'."
+        },
+        "mode3_scramble": {
+          "promptVi": "Cấp độ 3: Sắp xếp các từ thành câu đúng",
+          "words": ["teacher.", "a", "are", "You"],
+          "correctSentence": "You are a teacher."
+        },
+        "mode4_transform": {
+          "promptVi": "Cấp độ 4: Biến đổi câu sang dạng CÂU HỎI (Nghi vấn)",
+          "instructionVi": "Đảo động từ 'Are' lên trước chủ ngữ 'you'",
+          "targetEn": "Are you a teacher?",
+          "hintVi": "Bạn có phải là giáo viên không?"
+        },
+        "mode5_context": {
+          "promptVi": "Cấp độ 5: Biến đổi câu với ngôi 'He' (Anh ấy)",
+          "instructionVi": "Thay chủ ngữ 'You are' bằng 'He is'",
+          "targetEn": "He is a teacher.",
+          "hintVi": "Anh ấy là một giáo viên."
+        }
+      }
+    },
+    {
+      "id": "target-103",
+      "baseEn": "He is from America.",
+      "baseVi": "Anh ấy đến từ Mỹ.",
+      "drills": {
+        "mode1_repeat": {
+          "promptVi": "Cấp độ 1: Nghe và nhắc lại câu",
+          "targetEn": "He is from America.",
+          "hintVi": "Phát âm rõ 'from America'"
+        },
+        "mode2_fill": {
+          "promptVi": "Cấp độ 2: Điền động từ To Be thích hợp",
+          "sentenceWithBlank": "He ___ from America.",
+          "correctAnswer": "is",
+          "options": ["am", "is", "are", "was"],
+          "explanationVi": "Chủ ngữ số ít 'He' đi với 'is'."
+        },
+        "mode3_scramble": {
+          "promptVi": "Cấp độ 3: Sắp xếp lại từ xáo trộn",
+          "words": ["America.", "from", "is", "He"],
+          "correctSentence": "He is from America."
+        },
+        "mode4_transform": {
+          "promptVi": "Cấp độ 4: Chuyển câu sang dạng PHỦ ĐỊNH",
+          "instructionVi": "Thêm 'not' vào sau 'is' (is not)",
+          "targetEn": "He is not from America.",
+          "hintVi": "Anh ấy không đến từ Mỹ."
+        },
+        "mode5_context": {
+          "promptVi": "Cấp độ 5: Chuyển câu sang ngôi số nhiều 'We' (Chúng tôi)",
+          "instructionVi": "Thay 'He is' bằng 'We are'",
+          "targetEn": "We are from America.",
+          "hintVi": "Chúng tôi đến từ Mỹ."
+        }
+      }
+    },
+    {
+      "id": "target-104",
+      "baseEn": "We are happy today.",
+      "baseVi": "Hôm nay chúng tôi rất vui.",
+      "drills": {
+        "mode1_repeat": {
+          "promptVi": "Cấp độ 1: Nghe và nhắc lại câu",
+          "targetEn": "We are happy today.",
+          "hintVi": "Luyện âm 'happy' và 'today'"
+        },
+        "mode2_fill": {
+          "promptVi": "Cấp độ 2: Điền từ còn thiếu vào chỗ trống",
+          "sentenceWithBlank": "We ___ happy today.",
+          "correctAnswer": "are",
+          "options": ["am", "is", "are", "be"],
+          "explanationVi": "Chủ ngữ số nhiều 'We' đi với 'are'."
+        },
+        "mode3_scramble": {
+          "promptVi": "Cấp độ 3: Sắp xếp từ thành câu chuẩn",
+          "words": ["today.", "happy", "are", "We"],
+          "correctSentence": "We are happy today."
+        },
+        "mode4_transform": {
+          "promptVi": "Cấp độ 4: Chuyển câu sang dạng CÂU HỎI",
+          "instructionVi": "Đảo 'Are' ra trước chủ ngữ 'we'",
+          "targetEn": "Are we happy today?",
+          "hintVi": "Hôm nay chúng ta có vui không?"
+        },
+        "mode5_context": {
+          "promptVi": "Cấp độ 5: Chuyển câu sang ngôi thứ nhất số ít 'I'",
+          "instructionVi": "Thay 'We are' bằng 'I am'",
+          "targetEn": "I am happy today.",
+          "hintVi": "Hôm nay tôi rất vui."
+        }
+      }
+    }
+  ]
+}

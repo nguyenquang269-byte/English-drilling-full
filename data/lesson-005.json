@@ -1,0 +1,221 @@
+{
+  "lessonId": "lesson-005",
+  "title": "Bài 5: Động từ To Be — Hiện tại Đơn (Câu hỏi Wh- Word: Where / Who / How / What)",
+  "estimatedTimeMinutes": 30,
+  "openingDialogue": {
+    "title": "Hội thoại mở đầu: Gặp gỡ bạn bè (Meeting a Friend)",
+    "description": "Luyện nghe & phát âm hội thoại hỏi thông tin dùng từ để hỏi (Wh- Words) kết hợp Động từ To Be",
+    "lines": [
+      {
+        "speaker": "Daniel",
+        "gender": "male",
+        "en": "Hello Susan! Where are you right now?",
+        "vi": "Chào Susan! Bây giờ bạn đang ở đâu thế?"
+      },
+      {
+        "speaker": "Susan",
+        "gender": "female",
+        "en": "I am at the bookstore near the central park.",
+        "vi": "Tôi đang ở hiệu sách gần công viên trung tâm."
+      },
+      {
+        "speaker": "Daniel",
+        "gender": "male",
+        "en": "Who is that girl next to you?",
+        "vi": "Cô gái bên cạnh bạn là ai vậy?"
+      },
+      {
+        "speaker": "Susan",
+        "gender": "female",
+        "en": "She is my classmate, Mary. She is very friendly.",
+        "vi": "Cô ấy là bạn cùng lớp của tôi, Mary. Cô ấy rất thân thiện."
+      },
+      {
+        "speaker": "Daniel",
+        "gender": "male",
+        "en": "How is the atmosphere at the bookstore?",
+        "vi": "Không khí ở hiệu sách thế nào?"
+      },
+      {
+        "speaker": "Susan",
+        "gender": "female",
+        "en": "It is very quiet and peaceful!",
+        "vi": "Nó rất yên tĩnh và bình yên!"
+      }
+    ]
+  },
+  "grammarRules": {
+    "title": "Quy tắc ngữ pháp: Câu hỏi Wh- với Động từ To Be",
+    "summaryVi": "Để hỏi thông tin cụ thể (Nơi chốn, Con người, Tính chất, Khái niệm), ta đặt từ để hỏi **Wh-** trước **am/is/are**.",
+    "points": [
+      {
+        "subject": "WHERE (Ở đâu)",
+        "toBe": "Where + am/is/are + S?",
+        "example": "Where are you? / Where is the station?",
+        "negative": "Hỏi về vị trí, địa điểm."
+      },
+      {
+        "subject": "WHO (Ai)",
+        "toBe": "Who + am/is/are + S?",
+        "example": "Who is he? / Who are those people?",
+        "negative": "Hỏi về danh tính người nào đó."
+      },
+      {
+        "subject": "HOW (Thế nào) & WHAT (Cái gì/Là gì)",
+        "toBe": "How / What + am/is/are + S?",
+        "example": "How is the food? / What is your name?",
+        "negative": "Hỏi trạng thái, tính chất hoặc thông tin."
+      }
+    ],
+    "forms": [
+      "Cấu trúc chung: Từ để hỏi (Where/Who/How/What) + am / is / are + S?",
+      "Trả lời: Trả lời trực tiếp bằng câu khẳng định S + am/is/are..."
+    ]
+  },
+  "drillingTargets": [
+    {
+      "id": "target-501",
+      "baseEn": "Where are you now?",
+      "baseVi": "Bây giờ bạn đang ở đâu?",
+      "drills": {
+        "mode1_repeat": {
+          "promptVi": "Cấp độ 1: Nghe và nhắc lại câu hỏi mẫu",
+          "targetEn": "Where are you now?",
+          "hintVi": "Chú ý hạ giọng ở cuối câu hỏi Wh-"
+        },
+        "mode2_fill": {
+          "promptVi": "Cấp độ 2: Điền từ để hỏi nơi chốn",
+          "sentenceWithBlank": "___ are you now?",
+          "correctAnswer": "Where",
+          "options": ["Where", "Who", "What", "How"],
+          "explanationVi": "Hỏi về vị trí 'ở đâu' dùng từ để hỏi 'Where'."
+        },
+        "mode3_scramble": {
+          "promptVi": "Cấp độ 3: Sắp xếp các từ thành câu hỏi đúng",
+          "words": ["now?", "you", "are", "Where"],
+          "correctSentence": "Where are you now?"
+        },
+        "mode4_transform": {
+          "promptVi": "Cấp độ 4: Viết câu TRẢ LỜI MẪU (Tôi đang ở nhà)",
+          "instructionVi": "Viết câu trả lời: I am at home.",
+          "targetEn": "I am at home.",
+          "hintVi": "Tôi đang ở nhà."
+        },
+        "mode5_context": {
+          "promptVi": "Cấp độ 5: Chuyển câu hỏi sang ngôi 'he' (Bây giờ anh ấy đang ở đâu?)",
+          "instructionVi": "Thay 'are you' bằng 'is he'",
+          "targetEn": "Where is he now?",
+          "hintVi": "Bây giờ anh ấy đang ở đâu?"
+        }
+      }
+    },
+    {
+      "id": "target-502",
+      "baseEn": "Who is that young man?",
+      "baseVi": "Người thanh niên kia là ai?",
+      "drills": {
+        "mode1_repeat": {
+          "promptVi": "Cấp độ 1: Nghe và nhắc lại theo mẫu",
+          "targetEn": "Who is that young man?",
+          "hintVi": "Chú ý phát âm 'young man'"
+        },
+        "mode2_fill": {
+          "promptVi": "Cấp độ 2: Điền từ để hỏi về con người",
+          "sentenceWithBlank": "___ is that young man?",
+          "correctAnswer": "Who",
+          "options": ["Who", "Where", "What", "How"],
+          "explanationVi": "Hỏi về danh tính người nào đó dùng 'Who'."
+        },
+        "mode3_scramble": {
+          "promptVi": "Cấp độ 3: Sắp xếp các từ thành câu hỏi hoàn chỉnh",
+          "words": ["man?", "young", "that", "is", "Who"],
+          "correctSentence": "Who is that young man?"
+        },
+        "mode4_transform": {
+          "promptVi": "Cấp độ 4: Viết câu TRẢ LỜI MẪU (Anh ấy là thầy giáo của tôi)",
+          "instructionVi": "Viết câu trả lời: He is my teacher.",
+          "targetEn": "He is my teacher.",
+          "hintVi": "Anh ấy là thầy giáo của tôi."
+        },
+        "mode5_context": {
+          "promptVi": "Cấp độ 5: Chuyển câu hỏi sang người nữ (Người phụ nữ trẻ kia là ai?)",
+          "instructionVi": "Thay 'young man' bằng 'young woman'",
+          "targetEn": "Who is that young woman?",
+          "hintVi": "Người phụ nữ trẻ kia là ai?"
+        }
+      }
+    },
+    {
+      "id": "target-503",
+      "baseEn": "How is the weather today?",
+      "baseVi": "Thời tiết hôm nay thế nào?",
+      "drills": {
+        "mode1_repeat": {
+          "promptVi": "Cấp độ 1: Nghe và nhắc lại câu hỏi",
+          "targetEn": "How is the weather today?",
+          "hintVi": "Chú ý phát âm 'weather today'"
+        },
+        "mode2_fill": {
+          "promptVi": "Cấp độ 2: Điền từ để hỏi tính chất/trạng thái",
+          "sentenceWithBlank": "___ is the weather today?",
+          "correctAnswer": "How",
+          "options": ["How", "Who", "Where", "Which"],
+          "explanationVi": "Hỏi trạng thái/thời tiết thế nào dùng 'How'."
+        },
+        "mode3_scramble": {
+          "promptVi": "Cấp độ 3: Sắp xếp từ xáo trộn thành câu đúng",
+          "words": ["today?", "weather", "the", "is", "How"],
+          "correctSentence": "How is the weather today?"
+        },
+        "mode4_transform": {
+          "promptVi": "Cấp độ 4: Viết câu TRẢ LỜI MẪU (Thời tiết hôm nay rất đẹp)",
+          "instructionVi": "Viết câu trả lời: The weather is very nice today.",
+          "targetEn": "The weather is very nice today.",
+          "hintVi": "Thời tiết hôm nay rất đẹp."
+        },
+        "mode5_context": {
+          "promptVi": "Cấp độ 5: Thay 'the weather' bằng 'your job' (Công việc của bạn dạo này thế nào?)",
+          "instructionVi": "Thay 'the weather today' bằng 'your job'",
+          "targetEn": "How is your job?",
+          "hintVi": "Công việc của bạn thế nào?"
+        }
+      }
+    },
+    {
+      "id": "target-504",
+      "baseEn": "What is your email address?",
+      "baseVi": "Địa chỉ email của bạn là gì?",
+      "drills": {
+        "mode1_repeat": {
+          "promptVi": "Cấp độ 1: Nghe và nhắc lại câu hỏi",
+          "targetEn": "What is your email address?",
+          "hintVi": "Phát âm rõ 'email address'"
+        },
+        "mode2_fill": {
+          "promptVi": "Cấp độ 2: Điền từ để hỏi thông tin",
+          "sentenceWithBlank": "___ is your email address?",
+          "correctAnswer": "What",
+          "options": ["What", "Where", "Who", "How"],
+          "explanationVi": "Hỏi thông tin 'là gì' dùng từ để hỏi 'What'."
+        },
+        "mode3_scramble": {
+          "promptVi": "Cấp độ 3: Sắp xếp các từ thành câu đúng",
+          "words": ["address?", "email", "your", "is", "What"],
+          "correctSentence": "What is your email address?"
+        },
+        "mode4_transform": {
+          "promptVi": "Cấp độ 4: Thay 'email address' bằng 'phone number' (Số điện thoại của bạn là gì?)",
+          "instructionVi": "Thay 'email address' bằng 'phone number'",
+          "targetEn": "What is your phone number?",
+          "hintVi": "Số điện thoại của bạn là gì?"
+        },
+        "mode5_context": {
+          "promptVi": "Cấp độ 5: Thay 'your' bằng 'her' (Địa chỉ email của cô ấy là gì?)",
+          "instructionVi": "Thay 'your' bằng 'her'",
+          "targetEn": "What is her email address?",
+          "hintVi": "Địa chỉ email của cô ấy là gì?"
+        }
+      }
+    }
+  ]
+}

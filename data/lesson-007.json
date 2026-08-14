@@ -1,0 +1,216 @@
+{
+  "lessonId": "lesson-007",
+  "title": "Bài 7: Động từ Thường — Ngôi thứ ba số ít (He / She / It & Does / Doesn't)",
+  "estimatedTimeMinutes": 35,
+  "openingDialogue": {
+    "title": "Hội thoại mở đầu: Thói quen của đồng nghiệp (Colleague's Routine)",
+    "description": "Luyện nghe & phát âm hội thoại về ngôi thứ ba số ít (He/She) với đuôi -s/es và trợ động từ does/doesn't",
+    "lines": [
+      {
+        "speaker": "Minh",
+        "gender": "male",
+        "en": "Does Sarah work in our department?",
+        "vi": "Sarah có làm việc ở phòng ban của chúng ta không?"
+      },
+      {
+        "speaker": "Lan",
+        "gender": "female",
+        "en": "Yes, she works as a marketing specialist.",
+        "vi": "Có, cô ấy làm việc ở vị trí chuyên viên chuyên tiếp thị."
+      },
+      {
+        "speaker": "Minh",
+        "gender": "male",
+        "en": "What time does she start work?",
+        "vi": "Cô ấy bắt đầu làm việc lúc mấy giờ?"
+      },
+      {
+        "speaker": "Lan",
+        "gender": "female",
+        "en": "She starts work at eight thirty AM. She drinks coffee before starting.",
+        "vi": "Cô ấy bắt đầu công việc lúc 8 giờ 30 sáng. Cô ấy uống cà phê trước khi bắt đầu."
+      },
+      {
+        "speaker": "Minh",
+        "gender": "male",
+        "en": "Does she drive to work every day?",
+        "vi": "Cô ấy có lái xe đi làm mỗi ngày không?"
+      },
+      {
+        "speaker": "Lan",
+        "gender": "female",
+        "en": "No, she doesn't drive. She takes the subway.",
+        "vi": "Không, cô ấy không lái xe. Cô ấy đi tàu điện ngầm."
+      }
+    ]
+  },
+  "grammarRules": {
+    "title": "Quy tắc ngữ pháp: Ngôi thứ 3 số ít (He / She / It)",
+    "summaryVi": "Với các chủ ngữ **He, She, It, Danh từ số ít**, động từ thường phải thêm **-s** hoặc **-es** ở dạng khẳng định.",
+    "points": [
+      {
+        "subject": "He / She / It (Khẳng định)",
+        "toBe": "+ Verb-s / Verb-es",
+        "example": "He works late. / She drinks coffee. / It starts at 8 AM.",
+        "negative": "Thêm 'es' cho động từ tận cùng ch, sh, x, s, z, o (watches, goes, fixes)."
+      },
+      {
+        "subject": "Phủ định & Nghi vấn",
+        "toBe": "does not (doesn't) / Does + S + Verb-inf",
+        "example": "She doesn't drive. / Does he work here? - Yes, he does.",
+        "negative": "Khi dùng 'does/doesn't', động từ chính trở về dạng NGUYÊN MẪU (không còn -s/es)."
+      }
+    ],
+    "forms": [
+      "Khẳng định: S (He/She/It) + Verb-s/es",
+      "Phủ định: S (He/She/It) + doesn't + Verb (nguyên mẫu)",
+      "Nghi vấn: Does + S (He/She/It) + Verb (nguyên mẫu)?"
+    ]
+  },
+  "drillingTargets": [
+    {
+      "id": "target-401",
+      "baseEn": "She works in marketing.",
+      "baseVi": "Cô ấy làm việc trong ngành tiếp thị.",
+      "drills": {
+        "mode1_repeat": {
+          "promptVi": "Cấp độ 1: Nghe và nhắc lại theo mẫu",
+          "targetEn": "She works in marketing.",
+          "hintVi": "Chú ý âm đuôi -s trong 'works'"
+        },
+        "mode2_fill": {
+          "promptVi": "Cấp độ 2: Điền dạng đúng của động từ",
+          "sentenceWithBlank": "She ___ in marketing.",
+          "correctAnswer": "works",
+          "options": ["works", "work", "working", "worked"],
+          "explanationVi": "Chủ ngữ 'She' thuộc ngôi thứ ba số ít nên động từ 'work' phải thêm 's' -> 'works'."
+        },
+        "mode3_scramble": {
+          "promptVi": "Cấp độ 3: Sắp xếp các từ thành câu đúng",
+          "words": ["marketing.", "in", "works", "She"],
+          "correctSentence": "She works in marketing."
+        },
+        "mode4_transform": {
+          "promptVi": "Cấp độ 4: Chuyển câu sang dạng PHỦ ĐỊNH",
+          "instructionVi": "Thêm 'doesn't' và trả động từ 'works' về nguyên mẫu 'work'",
+          "targetEn": "She doesn't work in marketing.",
+          "hintVi": "Cô ấy không làm việc trong ngành tiếp thị."
+        },
+        "mode5_context": {
+          "promptVi": "Cấp độ 5: Thay chủ ngữ bằng 'He' (Anh ấy làm việc trong ngành tiếp thị)",
+          "instructionVi": "Thay 'She' bằng 'He'",
+          "targetEn": "He works in marketing.",
+          "hintVi": "Anh ấy làm việc ở bộ phận tiếp thị."
+        }
+      }
+    },
+    {
+      "id": "target-402",
+      "baseEn": "He drinks coffee every morning.",
+      "baseVi": "Anh ấy uống cà phê mỗi sáng.",
+      "drills": {
+        "mode1_repeat": {
+          "promptVi": "Cấp độ 1: Nghe và nhắc lại câu mẫu",
+          "targetEn": "He drinks coffee every morning.",
+          "hintVi": "Chú ý phát âm 'drinks coffee'"
+        },
+        "mode2_fill": {
+          "promptVi": "Cấp độ 2: Điền động từ đúng vào chỗ trống",
+          "sentenceWithBlank": "He ___ coffee every morning.",
+          "correctAnswer": "drinks",
+          "options": ["drinks", "drink", "drinking", "drank"],
+          "explanationVi": "Chủ ngữ 'He' yêu cầu động từ thêm 's' -> 'drinks'."
+        },
+        "mode3_scramble": {
+          "promptVi": "Cấp độ 3: Sắp xếp các từ thành câu hoàn chỉnh",
+          "words": ["morning.", "every", "coffee", "drinks", "He"],
+          "correctSentence": "He drinks coffee every morning."
+        },
+        "mode4_transform": {
+          "promptVi": "Cấp độ 4: Chuyển câu sang dạng CÂU HỎI (Nghi vấn)",
+          "instructionVi": "Đưa 'Does' lên đầu câu và dùng động từ nguyên mẫu 'drink'",
+          "targetEn": "Does he drink coffee every morning?",
+          "hintVi": "Anh ấy có uống cà phê mỗi sáng không?"
+        },
+        "mode5_context": {
+          "promptVi": "Cấp độ 5: Chuyển sang ngôi 'She' (Cô ấy uống cà phê mỗi sáng)",
+          "instructionVi": "Thay chủ ngữ 'He' bằng 'She'",
+          "targetEn": "She drinks coffee every morning.",
+          "hintVi": "Cô ấy uống cà phê mỗi sáng."
+        }
+      }
+    },
+    {
+      "id": "target-403",
+      "baseEn": "Sarah watches English videos.",
+      "baseVi": "Sarah xem các video tiếng Anh.",
+      "drills": {
+        "mode1_repeat": {
+          "promptVi": "Cấp độ 1: Nghe và nhắc lại câu",
+          "targetEn": "Sarah watches English videos.",
+          "hintVi": "Chú ý phát âm đuôi -es 'watches' /wɒtʃɪz/"
+        },
+        "mode2_fill": {
+          "promptVi": "Cấp độ 2: Chọn hình thức đúng của động từ 'watch'",
+          "sentenceWithBlank": "Sarah ___ English videos.",
+          "correctAnswer": "watches",
+          "options": ["watches", "watch", "watchs", "watching"],
+          "explanationVi": "Động từ kết thúc bằng 'ch' nên khi đi với tên riêng số ít (Sarah) ta thêm 'es' thành 'watches'."
+        },
+        "mode3_scramble": {
+          "promptVi": "Cấp độ 3: Sắp xếp lại từ xáo trộn",
+          "words": ["videos.", "English", "watches", "Sarah"],
+          "correctSentence": "Sarah watches English videos."
+        },
+        "mode4_transform": {
+          "promptVi": "Cấp độ 4: Chuyển câu sang dạng PHỦ ĐỊNH",
+          "instructionVi": "Thêm 'doesn't' và đổi 'watches' thành nguyên mẫu 'watch'",
+          "targetEn": "Sarah doesn't watch English videos.",
+          "hintVi": "Sarah không xem video tiếng Anh."
+        },
+        "mode5_context": {
+          "promptVi": "Cấp độ 5: Chuyển sang chủ ngữ 'He' (Anh ấy xem video tiếng Anh)",
+          "instructionVi": "Thay 'Sarah' bằng 'He'",
+          "targetEn": "He watches English videos.",
+          "hintVi": "Anh ấy xem các video tiếng Anh."
+        }
+      }
+    },
+    {
+      "id": "target-404",
+      "baseEn": "He takes the subway to work.",
+      "baseVi": "Anh ấy đi tàu điện ngầm đi làm.",
+      "drills": {
+        "mode1_repeat": {
+          "promptVi": "Cấp độ 1: Nghe và nhắc lại câu mẫu",
+          "targetEn": "He takes the subway to work.",
+          "hintVi": "Chú ý phát âm 'takes the subway'"
+        },
+        "mode2_fill": {
+          "promptVi": "Cấp độ 2: Điền từ thích hợp vào chỗ trống",
+          "sentenceWithBlank": "He ___ the subway to work.",
+          "correctAnswer": "takes",
+          "options": ["takes", "take", "taking", "took"],
+          "explanationVi": "Chủ ngữ 'He' + động từ thêm 's' -> 'takes'."
+        },
+        "mode3_scramble": {
+          "promptVi": "Cấp độ 3: Sắp xếp các từ thành câu đúng",
+          "words": ["work.", "to", "subway", "the", "takes", "He"],
+          "correctSentence": "He takes the subway to work."
+        },
+        "mode4_transform": {
+          "promptVi": "Cấp độ 4: Chuyển sang dạng CÂU HỎI (Nghi vấn)",
+          "instructionVi": "Dùng 'Does' ở đầu câu và 'take' nguyên mẫu",
+          "targetEn": "Does he take the subway to work?",
+          "hintVi": "Anh ấy có đi tàu điện ngầm đi làm không?"
+        },
+        "mode5_context": {
+          "promptVi": "Cấp độ 5: Chuyển sang ngôi 'She' (Cô ấy đi tàu điện ngầm đi làm)",
+          "instructionVi": "Thay 'He' bằng 'She'",
+          "targetEn": "She takes the subway to work.",
+          "hintVi": "Cô ấy đi tàu điện ngầm đi làm."
+        }
+      }
+    }
+  ]
+}

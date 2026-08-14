@@ -1,0 +1,222 @@
+{
+  "lessonId": "lesson-003",
+  "title": "Bài 3: Động từ To Be — Hiện tại Đơn (Cấu trúc Phủ định: Am not / Isn't / Aren't)",
+  "estimatedTimeMinutes": 30,
+  "openingDialogue": {
+    "title": "Hội thoại mở đầu: Sự nhầm lẫn nhỏ (A Small Misunderstanding)",
+    "description": "Luyện nghe & phát âm hội thoại sử dụng dạng phủ định của To Be ở thì hiện tại đơn",
+    "lines": [
+      {
+        "speaker": "Lisa",
+        "gender": "female",
+        "en": "Are you busy right now, Alex?",
+        "vi": "Bây giờ bạn có bận không, Alex?"
+      },
+      {
+        "speaker": "Alex",
+        "gender": "male",
+        "en": "No, I am not busy at all. What is up?",
+        "vi": "Không, tôi hoàn toàn không bận. Có chuyện gì vậy?"
+      },
+      {
+        "speaker": "Lisa",
+        "gender": "female",
+        "en": "Is the new manager in her office?",
+        "vi": "Quản lý mới có ở trong văn phòng không?"
+      },
+      {
+        "speaker": "Alex",
+        "gender": "male",
+        "en": "No, she isn't in her office. She is in a meeting.",
+        "vi": "Không, cô ấy không ở trong văn phòng. Cô ấy đang ở họp."
+      },
+      {
+        "speaker": "Lisa",
+        "gender": "female",
+        "en": "Oh, I see. We aren't late for our presentation, right?",
+        "vi": "Ồ, tôi hiểu rồi. Chúng ta không bị muộn bài thuyết trình chứ?"
+      },
+      {
+        "speaker": "Alex",
+        "gender": "male",
+        "en": "Don't worry, we aren't late! We have ten minutes.",
+        "vi": "Đừng lo, chúng ta không bị muộn đâu! Chúng ta còn 10 phút."
+      }
+    ]
+  },
+  "grammarRules": {
+    "title": "Quy tắc ngữ pháp: Dạng Phủ định của To Be (Hiện tại Đơn)",
+    "summaryVi": "Để nói ai đó/cái gì **không phải, không ở, không như thế nào**, ta thêm **NOT** sau am/is/are.",
+    "points": [
+      {
+        "subject": "I",
+        "toBe": "AM NOT ('m not)",
+        "example": "I am not tired. / I'm not a student.",
+        "negative": "Không viết tắt 'amn't', chỉ dùng 'I'm not'."
+      },
+      {
+        "subject": "He / She / It / Danh từ số ít",
+        "toBe": "IS NOT (isn't)",
+        "example": "He isn't here. / She isn't cold.",
+        "negative": "is not = isn't"
+      },
+      {
+        "subject": "You / We / They / Danh từ số nhiều",
+        "toBe": "ARE NOT (aren't)",
+        "example": "We aren't ready. / They aren't late.",
+        "negative": "are not = aren't"
+      }
+    ],
+    "forms": [
+      "I + am not + Adj/N/Place",
+      "He / She / It + isn't + Adj/N/Place",
+      "You / We / They + aren't + Adj/N/Place"
+    ]
+  },
+  "drillingTargets": [
+    {
+      "id": "target-301",
+      "baseEn": "I am not tired today.",
+      "baseVi": "Hôm nay tôi không mệt.",
+      "drills": {
+        "mode1_repeat": {
+          "promptVi": "Cấp độ 1: Nghe và nhắc lại theo mẫu",
+          "targetEn": "I am not tired today.",
+          "hintVi": "Luyện phát âm rõ 'am not tired'"
+        },
+        "mode2_fill": {
+          "promptVi": "Cấp độ 2: Điền dạng phủ định của To Be với ngôi 'I'",
+          "sentenceWithBlank": "I ___ tired today.",
+          "correctAnswer": "am not",
+          "options": ["am not", "isn't", "aren't", "not"],
+          "explanationVi": "Ngôi 'I' ở dạng phủ định dùng 'am not'."
+        },
+        "mode3_scramble": {
+          "promptVi": "Cấp độ 3: Sắp xếp các từ thành câu đúng",
+          "words": ["today.", "tired", "not", "am", "I"],
+          "correctSentence": "I am not tired today."
+        },
+        "mode4_transform": {
+          "promptVi": "Cấp độ 4: Chuyển câu sang dạng KHẲNG ĐỊNH",
+          "instructionVi": "Bỏ 'not' để biến thành câu khẳng định",
+          "targetEn": "I am tired today.",
+          "hintVi": "Hôm nay tôi mệt."
+        },
+        "mode5_context": {
+          "promptVi": "Cấp độ 5: Chuyển sang ngôi 'He' (Hôm nay anh ấy không mệt)",
+          "instructionVi": "Thay 'I am not' bằng 'He isn't'",
+          "targetEn": "He isn't tired today.",
+          "hintVi": "Hôm nay anh ấy không mệt."
+        }
+      }
+    },
+    {
+      "id": "target-302",
+      "baseEn": "She isn't at home now.",
+      "baseVi": "Bây giờ cô ấy không ở nhà.",
+      "drills": {
+        "mode1_repeat": {
+          "promptVi": "Cấp độ 1: Nghe và nhắc lại câu mẫu",
+          "targetEn": "She isn't at home now.",
+          "hintVi": "Chú ý phát âm 'isn't' /ˈɪznt/"
+        },
+        "mode2_fill": {
+          "promptVi": "Cấp độ 2: Điền dạng phủ định viết tắt của 'is not'",
+          "sentenceWithBlank": "She ___ at home now.",
+          "correctAnswer": "isn't",
+          "options": ["isn't", "aren't", "am not", "don't"],
+          "explanationVi": "Chủ ngữ 'She' đi với dạng phủ định 'isn't'."
+        },
+        "mode3_scramble": {
+          "promptVi": "Cấp độ 3: Sắp xếp từ xáo trộn thành câu đúng",
+          "words": ["now.", "home", "at", "isn't", "She"],
+          "correctSentence": "She isn't at home now."
+        },
+        "mode4_transform": {
+          "promptVi": "Cấp độ 4: Chuyển câu sang dạng KHẲNG ĐỊNH",
+          "instructionVi": "Đổi 'isn't' thành 'is'",
+          "targetEn": "She is at home now.",
+          "hintVi": "Bây giờ cô ấy đang ở nhà."
+        },
+        "mode5_context": {
+          "promptVi": "Cấp độ 5: Chuyển sang ngôi 'They' (Bây giờ họ không ở nhà)",
+          "instructionVi": "Thay 'She isn't' bằng 'They aren't'",
+          "targetEn": "They aren't at home now.",
+          "hintVi": "Bây giờ họ không ở nhà."
+        }
+      }
+    },
+    {
+      "id": "target-303",
+      "baseEn": "They aren't late for work.",
+      "baseVi": "Họ không bị trễ giờ làm.",
+      "drills": {
+        "mode1_repeat": {
+          "promptVi": "Cấp độ 1: Nghe và nhắc lại câu mẫu",
+          "targetEn": "They aren't late for work.",
+          "hintVi": "Chú ý phát âm 'aren't' /ɑːnt/"
+        },
+        "mode2_fill": {
+          "promptVi": "Cấp độ 2: Điền dạng phủ định với chủ ngữ số nhiều",
+          "sentenceWithBlank": "They ___ late for work.",
+          "correctAnswer": "aren't",
+          "options": ["aren't", "isn't", "am not", "doesn't"],
+          "explanationVi": "Chủ ngữ số nhiều 'They' đi với 'aren't'."
+        },
+        "mode3_scramble": {
+          "promptVi": "Cấp độ 3: Sắp xếp các từ thành câu hoàn chỉnh",
+          "words": ["work.", "for", "late", "aren't", "They"],
+          "correctSentence": "They aren't late for work."
+        },
+        "mode4_transform": {
+          "promptVi": "Cấp độ 4: Chuyển câu sang dạng CÂU HỎI (Nghi vấn)",
+          "instructionVi": "Đưa 'Are' lên đầu câu: Are they late for work?",
+          "targetEn": "Are they late for work?",
+          "hintVi": "Họ có bị trễ giờ làm không?"
+        },
+        "mode5_context": {
+          "promptVi": "Cấp độ 5: Chuyển sang ngôi 'We' (Chúng tôi không bị trễ giờ làm)",
+          "instructionVi": "Thay 'They' bằng 'We'",
+          "targetEn": "We aren't late for work.",
+          "hintVi": "Chúng tôi không bị trễ giờ làm."
+        }
+      }
+    },
+    {
+      "id": "target-304",
+      "baseEn": "He isn't a strict teacher.",
+      "baseVi": "Thầy ấy không phải là một giáo viên nghiêm khắc.",
+      "drills": {
+        "mode1_repeat": {
+          "promptVi": "Cấp độ 1: Nghe và nhắc lại câu",
+          "targetEn": "He isn't a strict teacher.",
+          "hintVi": "Chú ý từ 'strict' /strɪkt/"
+        },
+        "mode2_fill": {
+          "promptVi": "Cấp độ 2: Điền từ thích hợp vào chỗ trống",
+          "sentenceWithBlank": "He ___ a strict teacher.",
+          "correctAnswer": "isn't",
+          "options": ["isn't", "aren't", "am not", "not"],
+          "explanationVi": "'He' đi với 'isn't' trong câu phủ định thì hiện tại đơn."
+        },
+        "mode3_scramble": {
+          "promptVi": "Cấp độ 3: Sắp xếp các từ thành câu đúng",
+          "words": ["teacher.", "strict", "a", "isn't", "He"],
+          "correctSentence": "He isn't a strict teacher."
+        },
+        "mode4_transform": {
+          "promptVi": "Cấp độ 4: Chuyển sang dạng KHẲNG ĐỊNH",
+          "instructionVi": "Đổi 'isn't' thành 'is'",
+          "targetEn": "He is a strict teacher.",
+          "hintVi": "Thầy ấy là một giáo viên nghiêm khắc."
+        },
+        "mode5_context": {
+          "promptVi": "Cấp độ 5: Chuyển sang chủ ngữ 'She' (Cô ấy không phải là một giáo viên nghiêm khắc)",
+          "instructionVi": "Thay 'He' bằng 'She'",
+          "targetEn": "She isn't a strict teacher.",
+          "hintVi": "Cô ấy không phải là một giáo viên nghiêm khắc."
+        }
+      }
+    }
+  ]
+}

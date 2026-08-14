@@ -1,0 +1,259 @@
+{
+  "lessonId": "lesson-063",
+  "title": "Bài 63: Câu Ghép & Câu Phức — Liên từ Đối lập & Nguyên nhân - Kết quả (Contrast & Cause-Effect Conjunctions)",
+  "estimatedTimeMinutes": 35,
+  "openingDialogue": {
+    "title": "Hội thoại mở đầu: Đánh giá dự án khởi nghiệp công nghệ xanh (Green Tech Startup Feasibility Review)",
+    "description": "Luyện nghe & thực hành Liên từ chỉ sự tương phản (Although, Even though, However, But, In spite of) và Liên từ chỉ Nguyên nhân - Kết quả (Because, Since, As, So, Therefore, Consequently)",
+    "lines": [
+      {
+        "speaker": "Investor Harrison",
+        "gender": "male",
+        "en": "Good afternoon, Megan. Although initial production costs are quite high, your solar battery prototype is fascinating.",
+        "vi": "Chào buổi chiều Megan. Mặc dù chi phí sản xuất ban đầu khá cao, nguyên mẫu pin mặt trời của bạn rất hấp dẫn. (Although + clause)"
+      },
+      {
+        "speaker": "Megan",
+        "gender": "female",
+        "en": "Thank you, sir. Because the global demand for clean energy is surging, we expect unit costs to drop quickly.",
+        "vi": "Cảm ơn ông. Bởi vì nhu cầu toàn cầu về năng lượng sạch đang tăng vọt, chúng tôi kỳ vọng giá thành mỗi đơn vị sẽ giảm nhanh. (Because + clause)"
+      },
+      {
+        "speaker": "Investor Harrison",
+        "gender": "male",
+        "en": "The prototype performed well during laboratory stress tests; however, real-world weather conditions are harsher.",
+        "vi": "Nguyên mẫu hoạt động tốt trong các bài thử nghiệm phòng lab; tuy nhiên, điều kiện thời tiết thực tế khắc nghiệt hơn. (however)"
+      },
+      {
+        "speaker": "Megan",
+        "gender": "female",
+        "en": "Even though winter temperatures drop below freezing, our patented ceramic insulation prevents energy loss.",
+        "vi": "Mặc dù nhiệt độ mùa đông giảm xuống dưới mức đóng băng, lớp cách nhiệt gốm đã đăng ký bản quyền của chúng tôi ngăn ngừa thất thoát năng lượng. (Even though)"
+      },
+      {
+        "speaker": "Investor Harrison",
+        "gender": "male",
+        "en": "Since your team holds three international patents, competitors cannot duplicate your design easily.",
+        "vi": "Vì nhóm của bạn nắm giữ ba bằng sáng chế quốc tế, các đối thủ cạnh tranh không thể sao chép thiết kế của bạn dễ dàng. (Since = Because)"
+      },
+      {
+        "speaker": "Megan",
+        "gender": "female",
+        "en": "In spite of supply chain disruptions last month, we successfully manufactured fifty test units.",
+        "vi": "Mặc dù có những gián đoạn chuỗi cung ứng vào tháng trước, chúng tôi đã sản xuất thành công năm mươi đơn vị thử nghiệm. (In spite of + Noun)"
+      },
+      {
+        "speaker": "Investor Harrison",
+        "gender": "male",
+        "en": "Your marketing strategy is compelling; therefore, our investment committee has decided to fund your expansion.",
+        "vi": "Chiến lược tiếp thị của bạn rất thuyết phục; do đó, hội đồng đầu tư của chúng tôi đã quyết định tài trợ cho việc mở rộng của bạn. (therefore)"
+      },
+      {
+        "speaker": "Megan",
+        "gender": "female",
+        "en": "We wanted to scale up operations rapidly, so this substantial venture funding is vital.",
+        "vi": "Chúng tôi muốn mở rộng quy mô hoạt động nhanh chóng, vì vậy khoản tài trợ mạo hiểm đáng kể này mang tính sống còn. (so)"
+      },
+      {
+        "speaker": "Investor Harrison",
+        "gender": "male",
+        "en": "As raw material prices are stabilizing, your profit margins should increase by next quarter.",
+        "vi": "Khi mà giá nguyên liệu thô đang dần ổn định, tỷ suất lợi nhuận của bạn sẽ tăng lên vào quý tới. (As = Since/Because)"
+      },
+      {
+        "speaker": "Megan",
+        "gender": "female",
+        "en": "We worked late nights, but our engineering team never compromised on build quality.",
+        "vi": "Chúng tôi đã làm việc thâu đêm, nhưng đội ngũ kỹ thuật của chúng tôi chưa bao giờ thỏa hiệp về chất lượng sản phẩm. (but)"
+      },
+      {
+        "speaker": "Investor Harrison",
+        "gender": "male",
+        "en": "That sheer determination is exactly what transforms ambitious startups into global industry leaders.",
+        "vi": "Chính sự quyết tâm sắt đá đó là điều biến các công ty khởi nghiệp hoài bão thành những người dẫn đầu ngành toàn cầu."
+      },
+      {
+        "speaker": "Megan",
+        "gender": "female",
+        "en": "We are truly honored and eager to begin building our new automated production line!",
+        "vi": "Chúng tôi thực sự vinh dự và nóng lòng bắt đầu xây dựng dây chuyền sản xuất tự động mới của mình!"
+      }
+    ]
+  },
+  "grammarRules": {
+    "title": "Quy tắc ngữ pháp: Liên từ Chỉ Tương phản & Nguyên nhân - Kết quả",
+    "summaryVi": "Phân biệt cách sử dụng và vị trí dấu câu giữa **Liên từ phụ thuộc (Subordinating Conjunctions)** đi liền với mệnh đề, **Liên từ đẳng lập (Coordinating Conjunctions)** và **Trạng từ liên kết (Conjunctive Adverbs)**.",
+    "points": [
+      {
+        "subject": "1. Liên từ Chỉ Sự Tương Phản (Contrast)",
+        "toBe": "- Although / Even though / Though + S + V, S + V (Mặc dù... nhưng... KHÔNG dùng but ở vế sau)\n- In spite of / Despite + Noun / V-ing, S + V\n- S + V. However, S + V / S + V; however, S + V (Tuy nhiên)\n- S + V, but S + V (Nhưng - có dấu phẩy trước but)",
+        "example": "Although it rained heavily, we went out. / Despite the heavy rain, we went out. / He worked hard; however, he failed.",
+        "negative": "Trong tiếng Anh: Đã dùng Although thì KHÔNG dùng But trong cùng một câu."
+      },
+      {
+        "subject": "2. Liên từ Chỉ Nguyên Nhân (Cause / Reason)",
+        "toBe": "- Because / Since / As + S + V, S + V (Bởi vì/Do...)\n- Because of / Due to / Owing to + Noun / V-ing, S + V",
+        "example": "Because he was tired, he went to bed early. / Due to the bad weather, the flight was delayed.",
+        "negative": "Because + mệnh đề (S+V) vs. Because of + danh từ/V-ing."
+      },
+      {
+        "subject": "3. Liên từ Chỉ Kết Quả (Result / Effect)",
+        "toBe": "- S + V, SO + S + V (Vì vậy/Cho nên - liên từ kết hợp)\n- S + V. THEREFORE / AS A RESULT, S + V (Do đó - trạng từ liên kết)",
+        "example": "It was raining, so I took an umbrella. / He didn't study; therefore, he failed the exam.",
+        "negative": "Không đặt 'Because' và 'So' cùng trong một câu ghép."
+      }
+    ],
+    "forms": [
+      "Tương phản: Although / Even though + S + V, S + V",
+      "Tương phản: Despite / In spite of + Noun / V-ing, S + V",
+      "Nguyên nhân: Because / Since / As + S + V, S + V",
+      "Kết quả: S + V, so + S + V  |  S + V. Therefore, S + V"
+    ]
+  },
+  "drillingTargets": [
+    {
+      "id": "target-6301",
+      "baseEn": "Although it was raining heavily, we went for a walk.",
+      "baseVi": "Mặc dù trời đang mưa to, chúng tôi vẫn đi dạo.",
+      "drills": {
+        "mode1_repeat": {
+          "promptVi": "Cấp độ 1: Nghe và nhắc lại câu với 'Although + clause'",
+          "targetEn": "Although it was raining heavily, we went for a walk.",
+          "hintVi": "'Although + S + V' (mặc dù...)"
+        },
+        "mode2_fill": {
+          "promptVi": "Cấp độ 2: Điền liên từ chỉ sự tương phản",
+          "sentenceWithBlank": "___ it was raining heavily, we went for a walk.",
+          "correctAnswer": "Although",
+          "options": ["Although", "Because", "Despite", "However"],
+          "explanationVi": "Sau liên từ là một mệnh đề 'it was raining heavily' nên dùng 'Although'."
+        },
+        "mode3_scramble": {
+          "promptVi": "Cấp độ 3: Sắp xếp các từ thành câu hoàn chỉnh",
+          "words": ["walk.", "a", "for", "went", "we", "heavily,", "raining", "was", "it", "Although"],
+          "correctSentence": "Although it was raining heavily, we went for a walk."
+        },
+        "mode4_transform": {
+          "promptVi": "Cấp độ 4: Dùng 'Despite the heavy rain' (Mặc dù mưa to, chúng tôi vẫn đi dạo)",
+          "instructionVi": "Dùng 'Despite the heavy rain, we went for a walk.'",
+          "targetEn": "Despite the heavy rain, we went for a walk.",
+          "hintVi": "Despite the heavy rain, we went for a walk."
+        },
+        "mode5_context": {
+          "promptVi": "Cấp độ 5: Thay 'raining heavily' bằng 'he was tired' (Mặc dù mệt, anh ấy vẫn hoàn thành công việc)",
+          "instructionVi": "Dùng 'Although he was tired, he finished his work.'",
+          "targetEn": "Although he was tired, he finished his work.",
+          "hintVi": "Mặc dù mệt, anh ấy vẫn hoàn thành công việc của mình."
+        }
+      }
+    },
+    {
+      "id": "target-6302",
+      "baseEn": "He studied very hard; however, he didn't pass the exam.",
+      "baseVi": "Anh ấy đã học rất chăm chỉ; tuy nhiên, anh ấy đã không vượt qua kỳ thi.",
+      "drills": {
+        "mode1_repeat": {
+          "promptVi": "Cấp độ 1: Nghe và nhắc lại câu với trạng từ liên kết 'however'",
+          "targetEn": "He studied very hard; however, he didn't pass the exam.",
+          "hintVi": "'; however,' (tuy nhiên)"
+        },
+        "mode2_fill": {
+          "promptVi": "Cấp độ 2: Điền từ liên kết thích hợp sau dấu chấm phẩy",
+          "sentenceWithBlank": "He studied very hard; ___, he didn't pass the exam.",
+          "correctAnswer": "however",
+          "options": ["however", "although", "because", "so"],
+          "explanationVi": "Đứng giữa dấu chấm phẩy và dấu phẩy để chỉ sự tương phản dùng 'however'."
+        },
+        "mode3_scramble": {
+          "promptVi": "Cấp độ 3: Sắp xếp các từ thành câu đúng",
+          "words": ["exam.", "the", "pass", "didn't", "he", "however,", "hard;", "very", "studied", "He"],
+          "correctSentence": "He studied very hard; however, he didn't pass the exam."
+        },
+        "mode4_transform": {
+          "promptVi": "Cấp độ 4: Dùng liên từ 'but' (Anh ấy học rất chăm chỉ nhưng đã không đỗ kỳ thi)",
+          "instructionVi": "Dùng 'He studied very hard, but he didn't pass the exam.'",
+          "targetEn": "He studied very hard, but he didn't pass the exam.",
+          "hintVi": "He studied very hard, but he didn't pass the exam."
+        },
+        "mode5_context": {
+          "promptVi": "Cấp độ 5: Thay bằng 'She was ill; however, she went to work' (Cô ấy bị ốm; tuy nhiên, cô ấy vẫn đi làm)",
+          "instructionVi": "Dùng 'She was ill; however, she went to work.'",
+          "targetEn": "She was ill; however, she went to work.",
+          "hintVi": "Cô ấy bị ốm; tuy nhiên, cô ấy vẫn đi làm."
+        }
+      }
+    },
+    {
+      "id": "target-6303",
+      "baseEn": "Because the weather was cold, we stayed indoors.",
+      "baseVi": "Bởi vì thời tiết lạnh, chúng tôi đã ở trong nhà.",
+      "drills": {
+        "mode1_repeat": {
+          "promptVi": "Cấp độ 1: Nghe và nhắc lại câu chỉ nguyên nhân với 'Because'",
+          "targetEn": "Because the weather was cold, we stayed indoors.",
+          "hintVi": "'Because + S + V' (bởi vì...)"
+        },
+        "mode2_fill": {
+          "promptVi": "Cấp độ 2: Điền liên từ chỉ nguyên nhân",
+          "sentenceWithBlank": "___ the weather was cold, we stayed indoors.",
+          "correctAnswer": "Because",
+          "options": ["Because", "Although", "So", "Therefore"],
+          "explanationVi": "Chỉ lý do/nguyên nhân đi kèm mệnh đề dùng 'Because' (hoặc Since/As)."
+        },
+        "mode3_scramble": {
+          "promptVi": "Cấp độ 3: Sắp xếp các từ xáo trộn",
+          "words": ["indoors.", "stayed", "we", "cold,", "was", "weather", "the", "Because"],
+          "correctSentence": "Because the weather was cold, we stayed indoors."
+        },
+        "mode4_transform": {
+          "promptVi": "Cấp độ 4: Dùng 'Because of the cold weather' (Do thời tiết lạnh, chúng tôi ở trong nhà)",
+          "instructionVi": "Dùng 'Because of the cold weather, we stayed indoors.'",
+          "targetEn": "Because of the cold weather, we stayed indoors.",
+          "hintVi": "Because of the cold weather, we stayed indoors."
+        },
+        "mode5_context": {
+          "promptVi": "Cấp độ 5: Dùng liên từ 'Since' (Vì tôi bận, tôi không thể tham gia bữa tiệc)",
+          "instructionVi": "Dùng 'Since I was busy, I couldn't attend the party.'",
+          "targetEn": "Since I was busy, I couldn't attend the party.",
+          "hintVi": "Vì tôi bận, tôi không thể tham gia bữa tiệc."
+        }
+      }
+    },
+    {
+      "id": "target-6304",
+      "baseEn": "He didn't set the alarm, so he woke up late.",
+      "baseVi": "Anh ấy đã không đặt báo thức, cho nên anh ấy thức dậy muộn.",
+      "drills": {
+        "mode1_repeat": {
+          "promptVi": "Cấp độ 1: Nghe và nhắc lại câu chỉ kết quả với 'so'",
+          "targetEn": "He didn't set the alarm, so he woke up late.",
+          "hintVi": "', so' (cho nên / vì vậy)"
+        },
+        "mode2_fill": {
+          "promptVi": "Cấp độ 2: Điền liên từ chỉ kết quả nối hai mệnh đề",
+          "sentenceWithBlank": "He didn't set the alarm, ___ he woke up late.",
+          "correctAnswer": "so",
+          "options": ["so", "because", "although", "but"],
+          "explanationVi": "Nối mệnh đề nguyên nhân với mệnh đề kết quả dùng liên từ 'so'."
+        },
+        "mode3_scramble": {
+          "promptVi": "Cấp độ 3: Sắp xếp từ xáo trộn",
+          "words": ["late.", "up", "woke", "he", "so", "alarm,", "the", "set", "didn't", "He"],
+          "correctSentence": "He didn't set the alarm, so he woke up late."
+        },
+        "mode4_transform": {
+          "promptVi": "Cấp độ 4: Dùng 'Therefore' (Anh ấy không đặt báo thức; do đó, anh ấy dậy muộn)",
+          "instructionVi": "Dùng 'He didn't set the alarm; therefore, he woke up late.'",
+          "targetEn": "He didn't set the alarm; therefore, he woke up late.",
+          "hintVi": "He didn't set the alarm; therefore, he woke up late."
+        },
+        "mode5_context": {
+          "promptVi": "Cấp độ 5: Thay bằng 'She missed the train, so she took a taxi' (Cô ấy bị lỡ tàu, vì vậy cô ấy đã bắt taxi)",
+          "instructionVi": "Dùng 'She missed the train, so she took a taxi.'",
+          "targetEn": "She missed the train, so she took a taxi.",
+          "hintVi": "Cô ấy bị lỡ tàu, vì vậy cô ấy đã bắt taxi."
+        }
+      }
+    }
+  ]
+}

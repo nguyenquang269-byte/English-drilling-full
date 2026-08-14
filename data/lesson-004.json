@@ -1,0 +1,222 @@
+{
+  "lessonId": "lesson-004",
+  "title": "Bài 4: Động từ To Be — Hiện tại Đơn (Câu hỏi Yes/No & Trả lời ngắn)",
+  "estimatedTimeMinutes": 30,
+  "openingDialogue": {
+    "title": "Hội thoại mở đầu: Hỏi đáp tại văn phòng (Asking Questions at Office)",
+    "description": "Luyện nghe & phát âm dạng câu hỏi Yes/No với To Be và cách trả lời ngắn trong thực tế",
+    "lines": [
+      {
+        "speaker": "Kevin",
+        "gender": "male",
+        "en": "Are you ready for the presentation, Emma?",
+        "vi": "Bạn đã sẵn sàng cho bài thuyết trình chưa, Emma?"
+      },
+      {
+        "speaker": "Emma",
+        "gender": "female",
+        "en": "Yes, I am! Everything is prepared.",
+        "vi": "Tôi sẵn sàng rồi! Mọi thứ đã được chuẩn bị xong."
+      },
+      {
+        "speaker": "Kevin",
+        "gender": "male",
+        "en": "Is Mr. John in his office right now?",
+        "vi": "Thầy John có ở trong văn phòng lúc này không?"
+      },
+      {
+        "speaker": "Emma",
+        "gender": "female",
+        "en": "No, he isn't. He is at a lunch meeting.",
+        "vi": "Không, thầy ấy không có ở đó. Thầy ấy đang ở cuộc họp ăn trưa."
+      },
+      {
+        "speaker": "Kevin",
+        "gender": "male",
+        "en": "Are the meeting slides clear and easy to read?",
+        "vi": "Các trang slide cuộc họp có rõ ràng và dễ đọc không?"
+      },
+      {
+        "speaker": "Emma",
+        "gender": "female",
+        "en": "Yes, they are very clear!",
+        "vi": "Có, chúng rất rõ ràng!"
+      }
+    ]
+  },
+  "grammarRules": {
+    "title": "Quy tắc ngữ pháp: Câu hỏi Yes/No với Động từ To Be",
+    "summaryVi": "Để đặt câu hỏi Có/Không với **To Be**, ta chuyển **Am / Is / Are** lên trước Chủ ngữ (S).",
+    "points": [
+      {
+        "subject": "Am I ...?",
+        "toBe": "Am + I + Adj/N/Place?",
+        "example": "Am I late? - Yes, you are. / No, you aren't.",
+        "negative": "Hỏi bản thân hoặc nhờ người khác xác nhận."
+      },
+      {
+        "subject": "Is he / she / it ...?",
+        "toBe": "Is + S(số ít) + Adj/N/Place?",
+        "example": "Is she a doctor? - Yes, she is. / No, she isn't.",
+        "negative": "Dùng cho ngôi thứ 3 số ít."
+      },
+      {
+        "subject": "Are you / we / they ...?",
+        "toBe": "Are + S(số nhiều/you) + Adj/N/Place?",
+        "example": "Are you hungry? - Yes, I am. / No, I'm not.",
+        "negative": "Dùng cho 'You' và các chủ ngữ số nhiều."
+      }
+    ],
+    "forms": [
+      "Câu hỏi: Am / Is / Are + S + Adj/N/Place?",
+      "Trả lời khẳng định: Yes, S + am/is/are.",
+      "Trả lời phủ định: No, S + 'm not / isn't / aren't."
+    ]
+  },
+  "drillingTargets": [
+    {
+      "id": "target-401",
+      "baseEn": "Are you ready for the exam?",
+      "baseVi": "Bạn đã sẵn sàng cho kỳ thi chưa?",
+      "drills": {
+        "mode1_repeat": {
+          "promptVi": "Cấp độ 1: Nghe và nhắc lại câu hỏi mẫu",
+          "targetEn": "Are you ready for the exam?",
+          "hintVi": "Chú ý lên giọng ở cuối câu hỏi 'Are you ready...?'"
+        },
+        "mode2_fill": {
+          "promptVi": "Cấp độ 2: Điền từ nghi vấn To Be đứng đầu câu",
+          "sentenceWithBlank": "___ you ready for the exam?",
+          "correctAnswer": "Are",
+          "options": ["Are", "Is", "Am", "Do"],
+          "explanationVi": "Chủ ngữ 'you' yêu cầu động từ 'Are' ở đầu câu hỏi."
+        },
+        "mode3_scramble": {
+          "promptVi": "Cấp độ 3: Sắp xếp từ xáo trộn thành câu hỏi đúng",
+          "words": ["exam?", "the", "for", "ready", "you", "Are"],
+          "correctSentence": "Are you ready for the exam?"
+        },
+        "mode4_transform": {
+          "promptVi": "Cấp độ 4: Viết câu TRẢ LỜI KHẲNG ĐỊNH ngắn (Có, tôi sẵn sàng rồi)",
+          "instructionVi": "Viết câu trả lời: Yes, I am.",
+          "targetEn": "Yes, I am.",
+          "hintVi": "Có, tôi đã sẵn sàng."
+        },
+        "mode5_context": {
+          "promptVi": "Cấp độ 5: Chuyển câu hỏi sang ngôi 'he' (Anh ấy đã sẵn sàng cho kỳ thi chưa?)",
+          "instructionVi": "Thay 'Are you' bằng 'Is he'",
+          "targetEn": "Is he ready for the exam?",
+          "hintVi": "Anh ấy đã sẵn sàng cho kỳ thi chưa?"
+        }
+      }
+    },
+    {
+      "id": "target-402",
+      "baseEn": "Is she a new staff member?",
+      "baseVi": "Cô ấy có phải là nhân viên mới không?",
+      "drills": {
+        "mode1_repeat": {
+          "promptVi": "Cấp độ 1: Nghe và nhắc lại theo mẫu",
+          "targetEn": "Is she a new staff member?",
+          "hintVi": "Phát âm rõ 'new staff member'"
+        },
+        "mode2_fill": {
+          "promptVi": "Cấp độ 2: Điền động từ To Be thích hợp",
+          "sentenceWithBlank": "___ she a new staff member?",
+          "correctAnswer": "Is",
+          "options": ["Is", "Are", "Am", "Does"],
+          "explanationVi": "Chủ ngữ 'she' đi với 'Is' ở đầu câu hỏi."
+        },
+        "mode3_scramble": {
+          "promptVi": "Cấp độ 3: Sắp xếp các từ thành câu hỏi hoàn chỉnh",
+          "words": ["member?", "staff", "new", "a", "she", "Is"],
+          "correctSentence": "Is she a new staff member?"
+        },
+        "mode4_transform": {
+          "promptVi": "Cấp độ 4: Viết câu TRẢ LỜI PHỦ ĐỊNH ngắn (Không, cô ấy không phải)",
+          "instructionVi": "Viết câu trả lời: No, she isn't.",
+          "targetEn": "No, she isn't.",
+          "hintVi": "Không, cô ấy không phải."
+        },
+        "mode5_context": {
+          "promptVi": "Cấp độ 5: Chuyển sang ngôi 'he' (Anh ấy có phải là nhân viên mới không?)",
+          "instructionVi": "Thay 'she' bằng 'he'",
+          "targetEn": "Is he a new staff member?",
+          "hintVi": "Anh ấy có phải là nhân viên mới không?"
+        }
+      }
+    },
+    {
+      "id": "target-403",
+      "baseEn": "Are they in the meeting room?",
+      "baseVi": "Họ có ở trong phòng họp không?",
+      "drills": {
+        "mode1_repeat": {
+          "promptVi": "Cấp độ 1: Nghe và nhắc lại câu mẫu",
+          "targetEn": "Are they in the meeting room?",
+          "hintVi": "Chú ý phát âm 'meeting room'"
+        },
+        "mode2_fill": {
+          "promptVi": "Cấp độ 2: Điền động từ To Be đầu câu",
+          "sentenceWithBlank": "___ they in the meeting room?",
+          "correctAnswer": "Are",
+          "options": ["Are", "Is", "Am", "Do"],
+          "explanationVi": "Chủ ngữ số nhiều 'they' dùng 'Are' ở đầu câu hỏi."
+        },
+        "mode3_scramble": {
+          "promptVi": "Cấp độ 3: Sắp xếp từ xáo trộn thành câu hỏi",
+          "words": ["room?", "meeting", "the", "in", "they", "Are"],
+          "correctSentence": "Are they in the meeting room?"
+        },
+        "mode4_transform": {
+          "promptVi": "Cấp độ 4: Chuyển thành câu KHẲNG ĐỊNH (Họ đang ở trong phòng họp)",
+          "instructionVi": "Đưa 'they' lên trước 'are': They are in the meeting room.",
+          "targetEn": "They are in the meeting room.",
+          "hintVi": "Họ đang ở trong phòng họp."
+        },
+        "mode5_context": {
+          "promptVi": "Cấp độ 5: Chuyển sang ngôi 'we' (Chúng ta có ở trong phòng họp không?)",
+          "instructionVi": "Thay 'they' bằng 'we'",
+          "targetEn": "Are we in the meeting room?",
+          "hintVi": "Chúng ta có ở trong phòng họp không?"
+        }
+      }
+    },
+    {
+      "id": "target-404",
+      "baseEn": "Is it cold outside today?",
+      "baseVi": "Hôm nay ngoài trời có lạnh không?",
+      "drills": {
+        "mode1_repeat": {
+          "promptVi": "Cấp độ 1: Nghe và nhắc lại câu hỏi",
+          "targetEn": "Is it cold outside today?",
+          "hintVi": "Chú ý âm nối 'Is it' /ˈɪz ɪt/"
+        },
+        "mode2_fill": {
+          "promptVi": "Cấp độ 2: Điền động từ To Be phù hợp",
+          "sentenceWithBlank": "___ it cold outside today?",
+          "correctAnswer": "Is",
+          "options": ["Is", "Are", "Am", "Does"],
+          "explanationVi": "Chủ ngữ 'it' dùng 'Is' ở đầu câu hỏi."
+        },
+        "mode3_scramble": {
+          "promptVi": "Cấp độ 3: Sắp xếp các từ thành câu đúng",
+          "words": ["today?", "outside", "cold", "it", "Is"],
+          "correctSentence": "Is it cold outside today?"
+        },
+        "mode4_transform": {
+          "promptVi": "Cấp độ 4: Chuyển thành câu TRẢ LỜI KHẲNG ĐỊNH (Có, thời tiết lạnh)",
+          "instructionVi": "Viết câu trả lời: Yes, it is.",
+          "targetEn": "Yes, it is.",
+          "hintVi": "Có, trời lạnh."
+        },
+        "mode5_context": {
+          "promptVi": "Cấp độ 5: Thay 'cold' bằng 'hot' (Hôm nay ngoài trời có nóng không?)",
+          "instructionVi": "Thay 'cold' bằng 'hot'",
+          "targetEn": "Is it hot outside today?",
+          "hintVi": "Hôm nay ngoài trời có nóng không?"
+        }
+      }
+    }
+  ]
+}

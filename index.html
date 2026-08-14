@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>HocDrill — Luyện Nói & Khoan Sâu Tiếng Anh (To Be)</title>
+  <style>
+    :root {
+      --primary: #2563eb;
+      --primary-hover: #1d4ed8;
+      --bg: #f8fafc;
+      --card-bg: #ffffff;
+      --text: #0f172a;
+      --muted: #64748b;
+      --border: #e2e8f0;
+      --success: #16a34a;
+      --warning: #d97706;
+      --danger: #dc2626;
+      --accent: #eff6ff;
+    }
+
+    * { box-sizing: border-box; margin: 0; padding: 0; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, sans-serif; }
+    body { background: var(--bg); color: var(--text); max-width: 920px; margin: 0 auto; padding: 16px; line-height: 1.5; }
+
+    /* Header & Nav */
+    header { text-align: center; margin-bottom: 20px; padding: 16px; background: var(--card-bg); border-radius: 16px; border: 1px solid var(--border); box-shadow: 0 4px 12px rgba(0,0,0,0.03); }
+    h1 { font-size: 24px; color: var(--primary); font-weight: 700; margin-bottom: 4px; display: flex; align-items: center; justify-content: center; gap: 8px; }
+    .subtitle { font-size: 14px; color: var(--muted); }
+
+    /* Control Bar & Speed Selector */
+    .control-bar { display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center; background: #ffffff; border: 1px solid var(--border); border-radius: 12px; padding: 12px 16px; margin-bottom: 16px; gap: 12px; }
+    .speed-control { display: flex; align-items: center; gap: 8px; font-size: 14px; font-weight: 500; }
+    .speed-btn { padding: 4px 10px; font-size: 13px; border-radius: 6px; border: 1px solid var(--border); background: #f1f5f9; cursor: pointer; transition: all 0.2s; }
+    .speed-btn.active { background: var(--primary); color: white; border-color: var(--primary); font-weight: 600; }
+    .timer-badge { font-weight: 600; font-size: 15px; color: #334155; background: #f1f5f9; padding: 6px 14px; border-radius: 20px; border: 1px solid var(--border); }
+    .audio-badge { display: none; font-size: 13px; font-weight: 600; color: var(--primary); background: #dbeafe; padding: 4px 12px; border-radius: 20px; animation: pulse 1s infinite alternate; }
+
+    /* Progress bar */
+    .progress-container { margin-bottom: 20px; }
+    .progress-bar { height: 10px; background: #e2e8f0; border-radius: 6px; overflow: hidden; }
+    .progress-fill { height: 100%; background: var(--primary); width: 0%; transition: width 0.3s ease; }
+
+    /* Steps */
+    .step { display: none; }
+    .step.active { display: block; }
+
+    /* Card styling */
+    .card { background: var(--card-bg); border-radius: 16px; padding: 24px; margin-bottom: 16px; border: 1px solid var(--border); box-shadow: 0 4px 12px rgba(0,0,0,0.03); }
+    .card-title { font-size: 18px; font-weight: 700; margin-bottom: 12px; color: var(--text); display: flex; align-items: center; justify-content: space-between; }
+
+    /* Dialogue */
+    .dialogue-list { display: flex; flex-direction: column; gap: 12px; margin: 16px 0; }
+    .dialogue-item { background: #f8fafc; border: 1px solid var(--border); border-radius: 12px; padding: 14px; transition: all 0.2s; position: relative; }
+    .dialogue-item.speaker-male-card { border-left: 5px solid #2563eb; background: #f8faff; }
+    .dialogue-item.speaker-female-card { border-left: 5px solid #db2777; background: #fffafc; }
+    .dialogue-item.playing { border-color: var(--primary); background: #eff6ff; box-shadow: 0 0 0 2px rgba(37, 99, 235, 0.2); }
+    .speaker-badge { font-size: 12px; font-weight: 700; padding: 3px 10px; border-radius: 20px; text-transform: uppercase; margin-bottom: 6px; display: inline-flex; align-items: center; gap: 4px; }
+    .speaker-badge.speaker-male { background: #dbeafe; color: #1e40af; border: 1px solid #bfdbfe; }
+    .speaker-badge.speaker-female { background: #fce7f3; color: #9d174d; border: 1px solid #fbcfe8; }
+    .dialogue-en { font-size: 17px; font-weight: 600; color: #0f172a; margin-bottom: 4px; }
+    .dialogue-vi { font-size: 14px; color: var(--muted); }
+    .dialogue-actions { display: flex; gap: 8px; margin-top: 8px; flex-wrap: wrap; }
+
+    /* Grammar card */
+    .grammar-box { background: #eff6ff; border: 1px solid #bfdbfe; border-radius: 12px; padding: 16px; margin: 16px 0; font-size: 14px; }
+    .grammar-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 12px; margin-top: 12px; }
+    .grammar-item { background: white; border: 1px solid #dbeafe; padding: 12px; border-radius: 8px; }
+
+    /* Drilling Steps Badge */
+    .drill-stepper { display: flex; overflow-x: auto; gap: 8px; padding-bottom: 8px; margin-bottom: 16px; border-bottom: 1px solid var(--border); }
+    .drill-step-pill { flex: 1; min-width: 130px; text-align: center; padding: 8px; font-size: 12px; font-weight: 600; border-radius: 8px; background: #f1f5f9; color: #64748b; border: 1px solid var(--border); white-space: nowrap; }
+    .drill-step-pill.active { background: var(--primary); color: white; border-color: var(--primary); }
+    .drill-step-pill.completed { background: #dcfce7; color: #166534; border-color: #86efac; }
+
+    /* Target Banner */
+    .target-banner { background: #f1f5f9; border-left: 4px solid var(--primary); padding: 12px 16px; border-radius: 0 8px 8px 0; margin-bottom: 16px; }
+    .target-en { font-size: 18px; font-weight: 700; color: #1e293b; }
+    .target-vi { font-size: 14px; color: var(--muted); }
+
+    /* Interactive Elements for Drilling Modes */
+    .blank-sentence { font-size: 20px; font-weight: 700; text-align: center; margin: 20px 0; color: #1e293b; }
+    .blank-input { font-size: 20px; font-weight: 700; border: 2px dashed var(--primary); border-radius: 8px; padding: 4px 12px; width: 120px; text-align: center; background: #eff6ff; color: var(--primary); outline: none; }
+    
+    .options-grid { display: flex; justify-content: center; flex-wrap: wrap; gap: 10px; margin: 16px 0; }
+    .chip-btn { padding: 10px 18px; font-size: 16px; font-weight: 600; border: 2px solid var(--border); border-radius: 10px; background: white; cursor: pointer; transition: all 0.15s; }
+    .chip-btn:hover { border-color: var(--primary); background: #eff6ff; color: var(--primary); }
+
+    /* Word puzzle scramble blocks */
+    .scramble-pool, .scramble-target { display: flex; flex-wrap: wrap; gap: 8px; min-height: 52px; padding: 10px; border-radius: 12px; margin-bottom: 12px; align-items: center; justify-content: center; }
+    .scramble-target { background: #f8fafc; border: 2px dashed #cbd5e1; }
+    .scramble-pool { background: #f1f5f9; border: 1px solid var(--border); }
+    .word-block { padding: 8px 14px; font-size: 16px; font-weight: 600; background: white; border: 1px solid #cbd5e1; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.05); cursor: pointer; user-select: none; transition: transform 0.1s; }
+    .word-block:active { transform: scale(0.95); }
+
+    /* Buttons */
+    button { padding: 10px 18px; font-size: 15px; border: none; border-radius: 8px; cursor: pointer; font-weight: 600; transition: all 0.2s; display: inline-flex; align-items: center; justify-content: center; gap: 6px; }
+    .btn-primary { background: var(--primary); color: white; }
+    .btn-primary:hover { background: var(--primary-hover); }
+    .btn-secondary { background: #e2e8f0; color: #334155; }
+    .btn-secondary:hover { background: #cbd5e1; }
+    .btn-success { background: var(--success); color: white; }
+    .btn-outline-en { background: #eff6ff; color: var(--primary); border: 1px solid #bfdbfe; }
+    .btn-outline-en:hover { background: #dbeafe; }
+    .btn-outline-vi { background: #fef3c7; color: #92400e; border: 1px solid #fde68a; }
+    .btn-outline-vi:hover { background: #fef3c7; }
+    button.recording { background: var(--danger) !important; color: white !important; animation: pulse 0.5s infinite alternate; }
+
+    /* Feedback message */
+    .feedback-msg { padding: 12px; border-radius: 8px; font-weight: 600; text-align: center; margin: 12px 0; display: none; }
+    .feedback-msg.success { background: #dcfce7; color: #15803d; border: 1px solid #86efac; display: block; }
+    .feedback-msg.error { background: #fee2e2; color: #b91c1c; border: 1px solid #fca5a5; display: block; }
+
+    /* Canvas visualizer */
+    .wave-canvas { width: 100%; height: 70px; background: #f1f5f9; border-radius: 8px; margin: 12px 0; }
+
+    /* History & status */
+    .history-box { max-height: 180px; overflow-y: auto; margin-top: 10px; padding: 10px; background: #f8fafc; border-radius: 8px; border: 1px solid var(--border); font-size: 13px; }
+    .history-item { padding: 6px 0; border-bottom: 1px solid var(--border); color: #334155; }
+    .history-item .time { color: var(--muted); font-size: 11px; margin-right: 6px; }
+
+    /* Select input */
+    select { padding: 12px; font-size: 16px; width: 100%; margin: 12px 0; border-radius: 10px; border: 1px solid var(--border); background: white; outline: none; }
+
+    @keyframes pulse { from { box-shadow: 0 0 0 rgba(220,38,38,0.4); } to { box-shadow: 0 0 16px rgba(220,38,38,0.7); } }
+  </style>
+</head>
+<body>
+
+  <!-- Header -->
+  <header>
+    <h1>📖 HocDrill — Luyện Nói & Khoan Sâu (To Be)</h1>
+    <p class="subtitle" id="lessonTitle">Luyện phát âm chuẩn & Phản xạ tiếng Anh tự nhiên</p>
+  </header>
+
+  <!-- Control Bar: Timer, Speed, Audio Status -->
+  <div class="control-bar">
+    <div class="timer-badge">⏱️ Còn lại: <span id="timeLeft">30:00</span></div>
+    
+    <div class="speed-control">
+      <span>🔊 Tốc độ đọc:</span>
+      <button class="speed-btn" data-speed="0.5">🐢 0.5x</button>
+      <button class="speed-btn active" data-speed="0.65">🐢 0.65x (Chậm)</button>
+      <button class="speed-btn" data-speed="0.85">⚡ 0.85x</button>
+      <button class="speed-btn" data-speed="1.0">🚀 1.0x</button>
+    </div>
+
+    <div class="audio-badge" id="audioStatusBadge">🔊 Đang phát...</div>
+  </div>
+
+  <!-- Progress Bar -->
+  <div class="progress-container">
+    <div class="progress-bar"><div class="progress-fill" id="progressFill"></div></div>
+  </div>
+
+  <!-- STEP 0: Select Lesson -->
+  <div id="stepSelect" class="step active">
+    <div class="card">
+      <div class="card-title">📋 Chọn bài học Luyện tập</div>
+      <p style="color:var(--muted); font-size:14px; margin-bottom:12px;">Mỗi bài học bao gồm: Hội thoại mở đầu (~30s) → Quy tắc ngữ pháp → Bài tập lặp 5 Cấp độ Drilling (Nghe, Điền từ, Sắp xếp câu, Biến đổi câu, Đổi ngữ cảnh).</p>
+      <select id="lessonSelector">
+        <option value="">-- Vui lòng chọn bài học --</option>
+      </select>
+      <div style="text-align:center; margin-top:16px;">
+        <button class="btn-primary" id="btnLoadLesson" style="font-size:16px; padding:12px 28px;">▶ Bắt đầu bài học ngay</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- STEP 1: Opening Dialogue & Grammar Explanation -->
+  <div id="stepDialogue" class="step">
+    <div class="card">
+      <div class="card-title">
+        <span id="dialogueSectionTitle">🎙️ Hội thoại mở đầu (~30s)</span>
+        <button class="btn-outline-en" id="btnPlayFullDialogue">▶ Nghe toàn bộ hội thoại (2 giọng Nam & Nữ)</button>
+      </div>
+      <p style="color:var(--muted); font-size:14px;">Nghe kĩ câu tiếng Anh + Nhấn nút 🔊 Việt để nghe giảng nghĩa chuẩn:</p>
+
+      <div class="dialogue-list" id="dialogueList"></div>
+
+      <div class="grammar-box" id="grammarBox">
+        <div style="font-weight:700; font-size:16px; margin-bottom:6px; color:#1e3a8a; display:flex; justify-content:space-between; align-items:center;">
+          <span>💡 Quy tắc ngữ pháp Động từ To Be</span>
+          <button class="btn-outline-vi" id="btnReadGrammar" style="font-size:12px; padding:4px 8px;">🔊 Đọc giảng bài</button>
+        </div>
+        <div id="grammarContent"></div>
+      </div>
+
+      <div style="text-align:right; margin-top:16px;">
+        <button class="btn-primary" id="btnGoToDrills">Chuyển sang Luyện tập Drilling (5 Cấp độ) →</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- STEP 2: 5-Level Drilling Practice -->
+  <div id="stepDrill" class="step">
+    <div class="card">
+      <!-- Target Sentence Overview Banner -->
+      <div class="target-banner">
+        <div style="font-size:12px; text-transform:uppercase; color:var(--primary); font-weight:700;">Mẫu câu mục tiêu <span id="targetCounter">1/4</span></div>
+        <div class="target-en" id="targetEnText">I am a student.</div>
+        <div class="target-vi" id="targetViText">Tôi là một học sinh.</div>
+      </div>
+
+      <!-- 5 Stepper Pills -->
+      <div class="drill-stepper">
+        <div class="drill-step-pill" id="pill-mode1">1. Nghe & Nhắc lại</div>
+        <div class="drill-step-pill" id="pill-mode2">2. Điền chỗ trống</div>
+        <div class="drill-step-pill" id="pill-mode3">3. Sắp xếp câu</div>
+        <div class="drill-step-pill" id="pill-mode4">4. Biến đổi câu</div>
+        <div class="drill-step-pill" id="pill-mode5">5. Ngữ cảnh mới</div>
+      </div>
+
+      <!-- Mode Display Area -->
+      <div id="drillArea">
+        <h3 id="modeTitle" style="font-size:16px; margin-bottom:8px; color:var(--text);">Cấp độ 1: Nghe và nhắc lại</h3>
+        <p id="modePrompt" style="font-size:14px; color:var(--muted); margin-bottom:12px;"></p>
+
+        <!-- Mode 1 Container (Listen & Speak) -->
+        <div id="containerMode1" class="mode-container">
+          <canvas id="waveCanvasRepeat" class="wave-canvas" width="600" height="70"></canvas>
+          
+          <div id="liveSpeechStatus" style="text-align:center; font-size:14px; font-weight:600; color:var(--primary); min-height:24px; margin-bottom:8px;">
+            🎙️ Nhấn "Nói ngay" và phát âm câu mẫu
+          </div>
+
+          <div style="display:flex; justify-content:center; gap:10px; margin-bottom:12px; flex-wrap:wrap;">
+            <button class="btn-outline-en" id="btnAudioRepeat">🔊 Nghe câu mẫu (EN)</button>
+            <button class="btn-outline-vi" id="btnAudioRepeatVi">🔊 Dịch nghĩa (VI)</button>
+            <button class="btn-primary" id="btnMicRepeat">🎤 Nói ngay</button>
+          </div>
+
+          <div style="text-align:center; font-size:14px; margin-bottom:12px;">
+            Độ chính xác: <span id="repeatScore" style="font-weight:700;">—</span>
+          </div>
+
+          <!-- Fallback Text Input Row for Mode 1 if SpeechRec mishears or fails -->
+          <div id="repeatTextInputRow" style="background:#f8fafc; border:1px dashed var(--border); padding:10px 12px; border-radius:10px; margin-top:8px;">
+            <div style="font-size:12px; color:var(--muted); margin-bottom:6px;">💡 Nếu Micro không nhận diện được hoặc chưa có thiết bị thu âm, bạn có thể nhập bằng bàn phím tại đây:</div>
+            <div style="display:flex; gap:8px;">
+              <input type="text" id="repeatInputFallback" placeholder="Nhập câu tiếng Anh bạn vừa phát âm..." style="flex:1; padding:8px 12px; font-size:14px; border-radius:8px; border:1px solid var(--border); outline:none;" />
+              <button class="btn-primary" id="btnCheckRepeatText" style="font-size:14px; padding:8px 16px;">Kiểm tra</button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Mode 2 Container (Fill Blank) -->
+        <div id="containerMode2" class="mode-container" style="display:none;">
+          <div class="blank-sentence" id="fillSentenceDisplay">I <span class="blank-input">___</span> a student.</div>
+          <div class="options-grid" id="fillOptionsGrid"></div>
+        </div>
+
+        <!-- Mode 3 Container (Word Scramble) -->
+        <div id="containerMode3" class="mode-container" style="display:none;">
+          <p style="text-align:center; font-size:13px; color:var(--muted); margin-bottom:8px;">Nhấn vào các từ bên dưới theo thứ tự đúng để ghép thành câu hoàn chỉnh:</p>
+          <div class="scramble-target" id="scrambleTarget"></div>
+          <div class="scramble-pool" id="scramblePool"></div>
+          <div style="text-align:center; margin-top:8px;">
+            <button class="btn-secondary" id="btnResetScramble" style="font-size:13px;">🔄 Làm lại</button>
+            <button class="btn-primary" id="btnCheckScramble">✔️ Kiểm tra</button>
+          </div>
+        </div>
+
+        <!-- Mode 4 Container (Sentence Transform) -->
+        <div id="containerMode4" class="mode-container" style="display:none;">
+          <div style="background:#f1f5f9; padding:12px; border-radius:8px; font-size:15px; margin-bottom:12px;" id="transformInstruction"></div>
+          <div style="display:flex; gap:8px; margin-bottom:12px;">
+            <input type="text" id="transformInput" placeholder="Nhập câu đã biến đổi tiếng Anh..." style="flex:1; padding:10px; font-size:15px; border-radius:8px; border:1px solid var(--border); outline:none;" />
+            <button class="btn-primary" id="btnCheckTransform">Kiểm tra</button>
+            <button class="btn-secondary" id="btnMicTransform">🎤 Nói</button>
+          </div>
+        </div>
+
+        <!-- Mode 5 Container (Context Shift) -->
+        <div id="containerMode5" class="mode-container" style="display:none;">
+          <div style="background:#f1f5f9; padding:12px; border-radius:8px; font-size:15px; margin-bottom:12px;" id="contextInstruction"></div>
+          <div style="display:flex; gap:8px; margin-bottom:12px;">
+            <input type="text" id="contextInput" placeholder="Nhập câu đổi ngôi/ngữ cảnh..." style="flex:1; padding:10px; font-size:15px; border-radius:8px; border:1px solid var(--border); outline:none;" />
+            <button class="btn-primary" id="btnCheckContext">Kiểm tra</button>
+            <button class="btn-secondary" id="btnMicContext">🎤 Nói</button>
+          </div>
+        </div>
+
+        <!-- Feedback Message -->
+        <div class="feedback-msg" id="feedbackMsg"></div>
+
+        <!-- Controls -->
+        <div style="display:flex; justify-content:space-between; align-items:center; margin-top:20px; border-top:1px solid var(--border); padding-top:16px;">
+          <button class="btn-secondary" id="btnPrevDrillMode">← Cấp độ trước</button>
+          <button class="btn-primary" id="btnNextDrillMode" style="display:none;">Tiếp theo →</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Recognition History Card -->
+  <div class="card">
+    <div style="font-weight:700; font-size:14px; margin-bottom:6px; color:var(--muted);">📋 Lịch sử nói & Nhận diện giọng nói</div>
+    <div id="recognitionHistory" class="history-box">
+      <div class="history-item"><span class="time">--:--:--</span> Chưa có nội dung nói</div>
+    </div>
+  </div>
+
+  <!-- STEP 3: Complete / Summary -->
+  <div id="stepDone" class="step">
+    <div class="card" style="text-align:center; padding:36px 20px;">
+      <h2 style="font-size:28px; color:var(--primary); margin-bottom:8px;">🎉 Chúc mừng! Bạn đã hoàn thành xuất sắc bài học</h2>
+      <p style="font-size:16px; color:var(--muted); margin-bottom:20px;" id="finalScoreText"></p>
+      
+      <div style="display:flex; justify-content:center; gap:12px; flex-wrap:wrap;">
+        <button class="btn-secondary" onclick="location.reload()">🔁 Học lại bài này</button>
+        <button class="btn-primary" id="btnNextLesson">Bài học tiếp theo →</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>

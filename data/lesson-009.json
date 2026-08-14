@@ -1,0 +1,216 @@
+{
+  "lessonId": "lesson-009",
+  "title": "Bài 9: Động từ To Be — Quá khứ Đơn (Phủ định Wasn't/Weren't & Câu hỏi Was/Were)",
+  "estimatedTimeMinutes": 30,
+  "openingDialogue": {
+    "title": "Hội thoại mở đầu: Cuộc họp ngày hôm qua (Yesterday's Meeting)",
+    "description": "Luyện nghe & phát âm hội thoại về dạng phủ định và nghi vấn của To Be ở Quá khứ đơn",
+    "lines": [
+      {
+        "speaker": "John",
+        "gender": "male",
+        "en": "Were you at the meeting yesterday morning?",
+        "vi": "Bạn có ở cuộc họp sáng qua không?"
+      },
+      {
+        "speaker": "Anna",
+        "gender": "female",
+        "en": "No, I wasn't at the meeting. I was busy in my office.",
+        "vi": "Không, tôi đã không ở cuộc họp. Tôi đã bận trong văn phòng."
+      },
+      {
+        "speaker": "John",
+        "gender": "male",
+        "en": "Was the manager angry because you were absent?",
+        "vi": "Trưởng phòng có giận vì bạn vắng mặt không?"
+      },
+      {
+        "speaker": "Anna",
+        "gender": "female",
+        "en": "No, he wasn't. He was very understanding.",
+        "vi": "Không, ông ấy không giận. Ông ấy rất thông cảm."
+      },
+      {
+        "speaker": "John",
+        "gender": "male",
+        "en": "Were the client presentations successful?",
+        "vi": "Các bài thuyết trình cho khách hàng có thành công không?"
+      },
+      {
+        "speaker": "Anna",
+        "gender": "female",
+        "en": "Yes, they were excellent!",
+        "vi": "Có, chúng đã rất xuất sắc!"
+      }
+    ]
+  },
+  "grammarRules": {
+    "title": "Quy tắc ngữ pháp: Dạng Phủ định & Nghi vấn của To Be Quá khứ",
+    "summaryVi": "Dạng viết tắt phổ biến: **was not = wasn't** và **were not = weren't**. Đặt Was/Were lên đầu câu cho câu hỏi Có/Không.",
+    "points": [
+      {
+        "subject": "Phủ định (Negative)",
+        "toBe": "wasn't / weren't",
+        "example": "I wasn't sick. / They weren't ready.",
+        "negative": "S + wasn't/weren't + Adj/N/Place"
+      },
+      {
+        "subject": "Nghi vấn (Questions)",
+        "toBe": "Was / Were...?",
+        "example": "Was he at home? / Were you tired?",
+        "negative": "Trả lời: Yes, I was. / No, I wasn't. | Yes, we were. / No, we weren't."
+      }
+    ],
+    "forms": [
+      "I / He / She / It + wasn't (was not)",
+      "You / We / They + weren't (were not)",
+      "Was + I/he/she/it + ...? | Were + you/we/they + ...?"
+    ]
+  },
+  "drillingTargets": [
+    {
+      "id": "target-601",
+      "baseEn": "I wasn't ready for the test.",
+      "baseVi": "Tôi đã không sẵn sàng cho bài kiểm tra.",
+      "drills": {
+        "mode1_repeat": {
+          "promptVi": "Cấp độ 1: Nghe và nhắc lại câu mẫu",
+          "targetEn": "I wasn't ready for the test.",
+          "hintVi": "Chú ý phát âm 'wasn't' /ˈwɒznt/"
+        },
+        "mode2_fill": {
+          "promptVi": "Cấp độ 2: Điền dạng phủ định của To Be quá khứ",
+          "sentenceWithBlank": "I ___ ready for the test.",
+          "correctAnswer": "wasn't",
+          "options": ["wasn't", "weren't", "am not", "don't"],
+          "explanationVi": "Chủ ngữ 'I' ở quá khứ phủ định dùng 'wasn't'."
+        },
+        "mode3_scramble": {
+          "promptVi": "Cấp độ 3: Sắp xếp các từ thành câu hoàn chỉnh",
+          "words": ["test.", "the", "for", "ready", "wasn't", "I"],
+          "correctSentence": "I wasn't ready for the test."
+        },
+        "mode4_transform": {
+          "promptVi": "Cấp độ 4: Chuyển câu sang dạng KHẲNG ĐỊNH",
+          "instructionVi": "Bỏ 'not' (đổi 'wasn't' thành 'was')",
+          "targetEn": "I was ready for the test.",
+          "hintVi": "Tôi đã sẵn sàng cho bài kiểm tra."
+        },
+        "mode5_context": {
+          "promptVi": "Cấp độ 5: Chuyển sang ngôi 'They' (Họ đã không sẵn sàng cho bài kiểm tra)",
+          "instructionVi": "Thay 'I wasn't' bằng 'They weren't'",
+          "targetEn": "They weren't ready for the test.",
+          "hintVi": "Họ đã không sẵn sàng cho bài kiểm tra."
+        }
+      }
+    },
+    {
+      "id": "target-602",
+      "baseEn": "Were you at the office yesterday?",
+      "baseVi": "Bạn có ở văn phòng ngày hôm qua không?",
+      "drills": {
+        "mode1_repeat": {
+          "promptVi": "Cấp độ 1: Nghe và nhắc lại câu hỏi mẫu",
+          "targetEn": "Were you at the office yesterday?",
+          "hintVi": "Lên giọng nhẹ ở cuối câu hỏi Yes/No"
+        },
+        "mode2_fill": {
+          "promptVi": "Cấp độ 2: Điền từ nghi vấn To Be quá khứ",
+          "sentenceWithBlank": "___ you at the office yesterday?",
+          "correctAnswer": "Were",
+          "options": ["Were", "Was", "Are", "Did"],
+          "explanationVi": "Câu hỏi với chủ ngữ 'you' ở quá khứ cần đưa 'Were' lên đầu câu."
+        },
+        "mode3_scramble": {
+          "promptVi": "Cấp độ 3: Sắp xếp các từ xáo trộn thành câu hỏi",
+          "words": ["yesterday?", "office", "the", "at", "you", "Were"],
+          "correctSentence": "Were you at the office yesterday?"
+        },
+        "mode4_transform": {
+          "promptVi": "Cấp độ 4: Chuyển thành câu TRẢ LỜI KHẲNG ĐỊNH (Tôi đã ở văn phòng ngày hôm qua)",
+          "instructionVi": "Đổi sang câu khẳng định với chủ ngữ 'I'",
+          "targetEn": "I was at the office yesterday.",
+          "hintVi": "Tôi đã ở văn phòng ngày hôm qua."
+        },
+        "mode5_context": {
+          "promptVi": "Cấp độ 5: Chuyển câu hỏi sang ngôi 'he' (Anh ấy có ở văn phòng ngày hôm qua không?)",
+          "instructionVi": "Thay 'Were you' bằng 'Was he'",
+          "targetEn": "Was he at the office yesterday?",
+          "hintVi": "Anh ấy có ở văn phòng ngày hôm qua không?"
+        }
+      }
+    },
+    {
+      "id": "target-603",
+      "baseEn": "We weren't hungry after lunch.",
+      "baseVi": "Chúng tôi đã không đói sau bữa trưa.",
+      "drills": {
+        "mode1_repeat": {
+          "promptVi": "Cấp độ 1: Nghe và nhắc lại theo mẫu",
+          "targetEn": "We weren't hungry after lunch.",
+          "hintVi": "Chú ý phát âm 'weren't' /ˈwɜːnt/"
+        },
+        "mode2_fill": {
+          "promptVi": "Cấp độ 2: Điền dạng phủ định thích hợp",
+          "sentenceWithBlank": "We ___ hungry after lunch.",
+          "correctAnswer": "weren't",
+          "options": ["weren't", "wasn't", "aren't", "don't"],
+          "explanationVi": "Chủ ngữ số nhiều 'We' đi với 'weren't' ở thì quá khứ đơn."
+        },
+        "mode3_scramble": {
+          "promptVi": "Cấp độ 3: Sắp xếp các từ thành câu đúng",
+          "words": ["lunch.", "after", "hungry", "weren't", "We"],
+          "correctSentence": "We weren't hungry after lunch."
+        },
+        "mode4_transform": {
+          "promptVi": "Cấp độ 4: Chuyển câu sang dạng KHẲNG ĐỊNH",
+          "instructionVi": "Đổi 'weren't' thành 'were'",
+          "targetEn": "We were hungry after lunch.",
+          "hintVi": "Chúng tôi đã đói sau bữa trưa."
+        },
+        "mode5_context": {
+          "promptVi": "Cấp độ 5: Thay 'We' bằng 'She' (Cô ấy đã không đói sau bữa trưa)",
+          "instructionVi": "Thay 'We weren't' bằng 'She wasn't'",
+          "targetEn": "She wasn't hungry after lunch.",
+          "hintVi": "Cô ấy đã không đói sau bữa trưa."
+        }
+      }
+    },
+    {
+      "id": "target-604",
+      "baseEn": "Was the movie interesting?",
+      "baseVi": "Bộ phim có hay không?",
+      "drills": {
+        "mode1_repeat": {
+          "promptVi": "Cấp độ 1: Nghe và nhắc lại câu hỏi",
+          "targetEn": "Was the movie interesting?",
+          "hintVi": "Chú ý từ 'interesting' /ˈɪntrəstɪŋ/"
+        },
+        "mode2_fill": {
+          "promptVi": "Cấp độ 2: Điền động từ nghi vấn To Be",
+          "sentenceWithBlank": "___ the movie interesting?",
+          "correctAnswer": "Was",
+          "options": ["Was", "Were", "Is", "Does"],
+          "explanationVi": "'The movie' là danh từ số ít nên dùng 'Was' ở đầu câu hỏi quá khứ."
+        },
+        "mode3_scramble": {
+          "promptVi": "Cấp độ 3: Sắp xếp từ xáo trộn",
+          "words": ["interesting?", "movie", "the", "Was"],
+          "correctSentence": "Was the movie interesting?"
+        },
+        "mode4_transform": {
+          "promptVi": "Cấp độ 4: Chuyển câu sang dạng TRẢ LỜI KHẲNG ĐỊNH (Bộ phim đã rất hay)",
+          "instructionVi": "Chuyển thành câu khẳng định: The movie was interesting.",
+          "targetEn": "The movie was interesting.",
+          "hintVi": "Bộ phim đã rất hay."
+        },
+        "mode5_context": {
+          "promptVi": "Cấp độ 5: Chuyển sang dạng TRẢ LỜI PHỦ ĐỊNH (Bộ phim đã không hay)",
+          "instructionVi": "Thêm 'not' vào câu: The movie was not interesting.",
+          "targetEn": "The movie was not interesting.",
+          "hintVi": "Bộ phim đã không hay."
+        }
+      }
+    }
+  ]
+}

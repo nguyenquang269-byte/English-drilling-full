@@ -1,0 +1,216 @@
+{
+  "lessonId": "lesson-008",
+  "title": "Bài 8: Động từ To Be — Quá khứ Đơn (Was / Were - Trạng thái & Vị trí quá khứ)",
+  "estimatedTimeMinutes": 30,
+  "openingDialogue": {
+    "title": "Hội thoại mở đầu: Kể về chuyến đi ngày hôm qua (Yesterday's Trip)",
+    "description": "Luyện nghe & phát âm hội thoại về quá khứ sử dụng động từ To Be (Was / Were)",
+    "lines": [
+      {
+        "speaker": "Nam",
+        "gender": "male",
+        "en": "Hi Elena! Where were you yesterday afternoon?",
+        "vi": "Chào Elena! Chiều qua bạn đã ở đâu vậy?"
+      },
+      {
+        "speaker": "Elena",
+        "gender": "female",
+        "en": "I was at the library with my friends.",
+        "vi": "Tôi đã ở thư viện cùng với các bạn của tôi."
+      },
+      {
+        "speaker": "Nam",
+        "gender": "male",
+        "en": "Was the library quiet and comfortable?",
+        "vi": "Thư viện có yên tĩnh và thoải mái không?"
+      },
+      {
+        "speaker": "Elena",
+        "gender": "female",
+        "en": "Yes, it was very quiet. We were there for three hours.",
+        "vi": "Có, nó rất yên tĩnh. Chúng tôi đã ở đó trong ba tiếng đồng hồ."
+      },
+      {
+        "speaker": "Nam",
+        "gender": "male",
+        "en": "Were you tired after studying?",
+        "vi": "Bạn có mệt sau khi học không?"
+      },
+      {
+        "speaker": "Elena",
+        "gender": "female",
+        "en": "No, I was not tired. I was very happy!",
+        "vi": "Không, tôi không mệt. Tôi đã rất vui!"
+      }
+    ]
+  },
+  "grammarRules": {
+    "title": "Quy tắc ngữ pháp: Động từ To Be ở Quá khứ Đơn (Was / Were)",
+    "summaryVi": "Ở quá khứ đơn, động từ **To Be** chuyển thành **WAS** (cho số ít) và **WERE** (cho số nhiều).",
+    "points": [
+      {
+        "subject": "I / He / She / It / Danh từ số ít",
+        "toBe": "WAS",
+        "example": "I was at home. / She was happy yesterday.",
+        "negative": "Phủ định: WAS NOT (wasn't)"
+      },
+      {
+        "subject": "You / We / They / Danh từ số nhiều",
+        "toBe": "WERE",
+        "example": "You were late. / We were at the library.",
+        "negative": "Phủ định: WERE NOT (weren't)"
+      }
+    ],
+    "forms": [
+      "Khẳng định: S + was/were + Adj/N/Place",
+      "Phủ định: S + was/were + NOT + Adj/N/Place",
+      "Nghi vấn: Was/Were + S + Adj/N/Place?"
+    ]
+  },
+  "drillingTargets": [
+    {
+      "id": "target-501",
+      "baseEn": "I was at home yesterday.",
+      "baseVi": "Tôi đã ở nhà ngày hôm qua.",
+      "drills": {
+        "mode1_repeat": {
+          "promptVi": "Cấp độ 1: Nghe và nhắc lại theo mẫu",
+          "targetEn": "I was at home yesterday.",
+          "hintVi": "Chú ý âm 'was' /wɒz/ và từ 'yesterday'"
+        },
+        "mode2_fill": {
+          "promptVi": "Cấp độ 2: Điền dạng quá khứ của To Be",
+          "sentenceWithBlank": "I ___ at home yesterday.",
+          "correctAnswer": "was",
+          "options": ["was", "were", "am", "be"],
+          "explanationVi": "Chủ ngữ 'I' ở thời quá khứ đi với động từ 'was'."
+        },
+        "mode3_scramble": {
+          "promptVi": "Cấp độ 3: Sắp xếp các từ thành câu đúng",
+          "words": ["yesterday.", "home", "at", "was", "I"],
+          "correctSentence": "I was at home yesterday."
+        },
+        "mode4_transform": {
+          "promptVi": "Cấp độ 4: Chuyển câu sang dạng PHỦ ĐỊNH",
+          "instructionVi": "Thêm 'not' vào sau 'was' (was not / wasn't)",
+          "targetEn": "I was not at home yesterday.",
+          "hintVi": "Tôi đã không ở nhà ngày hôm qua."
+        },
+        "mode5_context": {
+          "promptVi": "Cấp độ 5: Chuyển sang ngôi số nhiều 'We' (Chúng tôi đã ở nhà ngày hôm qua)",
+          "instructionVi": "Thay 'I was' bằng 'We were'",
+          "targetEn": "We were at home yesterday.",
+          "hintVi": "Chúng tôi đã ở nhà ngày hôm qua."
+        }
+      }
+    },
+    {
+      "id": "target-502",
+      "baseEn": "She was very happy last night.",
+      "baseVi": "Cô ấy đã rất vui tối qua.",
+      "drills": {
+        "mode1_repeat": {
+          "promptVi": "Cấp độ 1: Nghe và nhắc lại câu mẫu",
+          "targetEn": "She was very happy last night.",
+          "hintVi": "Phát âm rõ 'last night'"
+        },
+        "mode2_fill": {
+          "promptVi": "Cấp độ 2: Điền từ thích hợp vào chỗ trống",
+          "sentenceWithBlank": "She ___ very happy last night.",
+          "correctAnswer": "was",
+          "options": ["was", "were", "is", "been"],
+          "explanationVi": "Chủ ngữ số ít 'She' ở quá khứ dùng 'was'."
+        },
+        "mode3_scramble": {
+          "promptVi": "Cấp độ 3: Sắp xếp các từ thành câu hoàn chỉnh",
+          "words": ["night.", "last", "happy", "very", "was", "She"],
+          "correctSentence": "She was very happy last night."
+        },
+        "mode4_transform": {
+          "promptVi": "Cấp độ 4: Chuyển câu sang dạng CÂU HỎI (Nghi vấn)",
+          "instructionVi": "Đảo 'Was' lên trước chủ ngữ 'she'",
+          "targetEn": "Was she very happy last night?",
+          "hintVi": "Tối qua cô ấy có rất vui không?"
+        },
+        "mode5_context": {
+          "promptVi": "Cấp độ 5: Chuyển câu sang ngôi 'They' (Họ đã rất vui tối qua)",
+          "instructionVi": "Thay 'She was' bằng 'They were'",
+          "targetEn": "They were very happy last night.",
+          "hintVi": "Tối qua họ đã rất vui."
+        }
+      }
+    },
+    {
+      "id": "target-503",
+      "baseEn": "They were late for school.",
+      "baseVi": "Họ đã bị trễ học.",
+      "drills": {
+        "mode1_repeat": {
+          "promptVi": "Cấp độ 1: Nghe và nhắc lại câu",
+          "targetEn": "They were late for school.",
+          "hintVi": "Chú ý phát âm 'were' /wɜːr/"
+        },
+        "mode2_fill": {
+          "promptVi": "Cấp độ 2: Điền động từ To Be thích hợp",
+          "sentenceWithBlank": "They ___ late for school.",
+          "correctAnswer": "were",
+          "options": ["were", "was", "are", "be"],
+          "explanationVi": "Chủ ngữ số nhiều 'They' ở quá khứ đi với 'were'."
+        },
+        "mode3_scramble": {
+          "promptVi": "Cấp độ 3: Sắp xếp từ xáo trộn",
+          "words": ["school.", "for", "late", "were", "They"],
+          "correctSentence": "They were late for school."
+        },
+        "mode4_transform": {
+          "promptVi": "Cấp độ 4: Chuyển câu sang dạng PHỦ ĐỊNH",
+          "instructionVi": "Thêm 'not' vào sau 'were' (were not / weren't)",
+          "targetEn": "They were not late for school.",
+          "hintVi": "Họ đã không bị trễ học."
+        },
+        "mode5_context": {
+          "promptVi": "Cấp độ 5: Chuyển sang ngôi 'He' (Anh ấy đã bị trễ học)",
+          "instructionVi": "Thay 'They were' bằng 'He was'",
+          "targetEn": "He was late for school.",
+          "hintVi": "Anh ấy đã bị trễ học."
+        }
+      }
+    },
+    {
+      "id": "target-504",
+      "baseEn": "The weather was beautiful last week.",
+      "baseVi": "Thời tiết đã rất đẹp tuần trước.",
+      "drills": {
+        "mode1_repeat": {
+          "promptVi": "Cấp độ 1: Nghe và nhắc lại câu mẫu",
+          "targetEn": "The weather was beautiful last week.",
+          "hintVi": "Luyện âm 'beautiful last week'"
+        },
+        "mode2_fill": {
+          "promptVi": "Cấp độ 2: Điền động từ To Be thích hợp",
+          "sentenceWithBlank": "The weather ___ beautiful last week.",
+          "correctAnswer": "was",
+          "options": ["was", "were", "is", "are"],
+          "explanationVi": "'The weather' là danh từ không đếm được (số ít) nên ở quá khứ dùng 'was'."
+        },
+        "mode3_scramble": {
+          "promptVi": "Cấp độ 3: Sắp xếp từ xáo trộn thành câu đúng",
+          "words": ["week.", "last", "beautiful", "was", "weather", "The"],
+          "correctSentence": "The weather was beautiful last week."
+        },
+        "mode4_transform": {
+          "promptVi": "Cấp độ 4: Chuyển câu sang CÂU HỎI (Nghi vấn)",
+          "instructionVi": "Đưa 'Was' lên trước 'the weather'",
+          "targetEn": "Was the weather beautiful last week?",
+          "hintVi": "Tuần trước thời tiết có đẹp không?"
+        },
+        "mode5_context": {
+          "promptVi": "Cấp độ 5: Đổi trạng ngữ chỉ thời gian thành 'yesterday' (Thời tiết đã rất đẹp ngày hôm qua)",
+          "instructionVi": "Thay 'last week' bằng 'yesterday'",
+          "targetEn": "The weather was beautiful yesterday.",
+          "hintVi": "Thời tiết đã rất đẹp ngày hôm qua."
+        }
+      }
+    }
+  ]
+}

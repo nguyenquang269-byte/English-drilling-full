@@ -1,0 +1,16 @@
+{
+  "name": "hocdrill",
+  "version": "1.0.0",
+  "description": "Ứng dụng luyện nói tiếng Anh với động từ ToBe",
+  "scripts": {
+    "dev": "node server.js",
+    "start": "node server.js",
+    "build": "mkdir -p dist && cp -r index.html app.js data dist/ 2>/dev/null || true"
+  },
+  "keywords": ["english", "learning", "speaking"],
+  "author": "nguyenquang269-byte",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^5.2.1"
+  }
+}

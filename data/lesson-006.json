@@ -1,0 +1,216 @@
+{
+  "lessonId": "lesson-006",
+  "title": "Bài 6: Động từ Thường — Thì Hiện tại Đơn (Thói quen hàng ngày)",
+  "estimatedTimeMinutes": 30,
+  "openingDialogue": {
+    "title": "Hội thoại mở đầu: Thói quen hàng ngày (Daily Routine)",
+    "description": "Luyện nghe & phát âm hội thoại mẫu khoảng 30 giây dùng Động từ Thường với các ngôi I, You, We, They",
+    "lines": [
+      {
+        "speaker": "David",
+        "gender": "male",
+        "en": "Good morning, Mai! What time do you wake up every day?",
+        "vi": "Chào buổi sáng, Mai! Bạn thức dậy lúc mấy giờ mỗi ngày?"
+      },
+      {
+        "speaker": "Mai",
+        "gender": "female",
+        "en": "I wake up at six o'clock every morning.",
+        "vi": "Tôi thức dậy lúc 6 giờ mỗi sáng."
+      },
+      {
+        "speaker": "David",
+        "gender": "male",
+        "en": "Do you drink coffee or tea in the morning?",
+        "vi": "Bạn uống cà phê hay trà vào buổi sáng?"
+      },
+      {
+        "speaker": "Mai",
+        "gender": "female",
+        "en": "I drink green tea. I read the news and eat breakfast.",
+        "vi": "Tôi uống trà xanh. Tôi đọc tin tức và ăn sáng."
+      },
+      {
+        "speaker": "David",
+        "gender": "male",
+        "en": "We go to work by bus at seven thirty, right?",
+        "vi": "Chúng ta đi làm bằng xe buýt lúc 7 giờ 30, đúng không?"
+      },
+      {
+        "speaker": "Mai",
+        "gender": "female",
+        "en": "Yes, we always take the bus together!",
+        "vi": "Đúng rồi, chúng ta luôn đi xe buýt cùng nhau!"
+      }
+    ]
+  },
+  "grammarRules": {
+    "title": "Quy tắc ngữ pháp: Động từ Thường với I / You / We / They",
+    "summaryVi": "Ở Thì Hiện tại Đơn, với các chủ ngữ **I, You, We, They**, động từ giữ nguyên mẫu (Verb in infinitive).",
+    "points": [
+      {
+        "subject": "I / You / We / They",
+        "toBe": "+ Verb (giữ nguyên)",
+        "example": "I wake up at 6 AM. / We eat breakfast together.",
+        "negative": "Phủ định dùng 'do not' (don't) + Verb: I don't drink coffee."
+      },
+      {
+        "subject": "Câu hỏi (Nghi vấn)",
+        "toBe": "Do + S + Verb...?",
+        "example": "Do you like green tea? - Yes, I do. / No, I don't.",
+        "negative": "Dùng 'Do' làm trợ động từ đứng trước chủ ngữ."
+      }
+    ],
+    "forms": [
+      "Khẳng định: S (I/You/We/They) + Verb (nguyên mẫu)",
+      "Phủ định: S (I/You/We/They) + don't + Verb (nguyên mẫu)",
+      "Nghi vấn: Do + S (I/You/We/They) + Verb (nguyên mẫu)?"
+    ]
+  },
+  "drillingTargets": [
+    {
+      "id": "target-301",
+      "baseEn": "I wake up early every morning.",
+      "baseVi": "Tôi thức dậy sớm mỗi sáng.",
+      "drills": {
+        "mode1_repeat": {
+          "promptVi": "Cấp độ 1: Nghe và nhắc lại theo mẫu",
+          "targetEn": "I wake up early every morning.",
+          "hintVi": "Chú ý phát âm rõ cụm 'wake up early'"
+        },
+        "mode2_fill": {
+          "promptVi": "Cấp độ 2: Điền động từ còn thiếu vào chỗ trống",
+          "sentenceWithBlank": "I ___ up early every morning.",
+          "correctAnswer": "wake",
+          "options": ["wake", "wakes", "waking", "waked"],
+          "explanationVi": "Chủ ngữ 'I' đi với động từ nguyên mẫu 'wake'."
+        },
+        "mode3_scramble": {
+          "promptVi": "Cấp độ 3: Sắp xếp các từ thành câu đúng",
+          "words": ["morning.", "every", "early", "up", "wake", "I"],
+          "correctSentence": "I wake up early every morning."
+        },
+        "mode4_transform": {
+          "promptVi": "Cấp độ 4: Chuyển câu sang dạng PHỦ ĐỊNH",
+          "instructionVi": "Thêm 'don't' vào trước động từ 'wake'",
+          "targetEn": "I don't wake up early every morning.",
+          "hintVi": "Tôi không thức dậy sớm mỗi sáng."
+        },
+        "mode5_context": {
+          "promptVi": "Cấp độ 5: Chuyển sang ngôi 'We' (Chúng tôi thức dậy sớm mỗi sáng)",
+          "instructionVi": "Thay chủ ngữ 'I' bằng 'We'",
+          "targetEn": "We wake up early every morning.",
+          "hintVi": "Chúng tôi thức dậy sớm mỗi sáng."
+        }
+      }
+    },
+    {
+      "id": "target-302",
+      "baseEn": "You drink green tea.",
+      "baseVi": "Bạn uống trà xanh.",
+      "drills": {
+        "mode1_repeat": {
+          "promptVi": "Cấp độ 1: Nghe và nhắc lại câu mẫu",
+          "targetEn": "You drink green tea.",
+          "hintVi": "Luyện phát âm 'green tea'"
+        },
+        "mode2_fill": {
+          "promptVi": "Cấp độ 2: Điền động từ còn thiếu vào chỗ trống",
+          "sentenceWithBlank": "You ___ green tea.",
+          "correctAnswer": "drink",
+          "options": ["drink", "drinks", "drinking", "drank"],
+          "explanationVi": "Chủ ngữ 'You' đi với động từ nguyên mẫu 'drink'."
+        },
+        "mode3_scramble": {
+          "promptVi": "Cấp độ 3: Sắp xếp từ xáo trộn thành câu hoàn chỉnh",
+          "words": ["tea.", "green", "drink", "You"],
+          "correctSentence": "You drink green tea."
+        },
+        "mode4_transform": {
+          "promptVi": "Cấp độ 4: Chuyển sang dạng CÂU HỎI (Nghi vấn)",
+          "instructionVi": "Thêm trợ động từ 'Do' lên trước chủ ngữ 'you'",
+          "targetEn": "Do you drink green tea?",
+          "hintVi": "Bạn có uống trà xanh không?"
+        },
+        "mode5_context": {
+          "promptVi": "Cấp độ 5: Chuyển sang ngôi số nhiều 'They' (Họ uống trà xanh)",
+          "instructionVi": "Thay chủ ngữ 'You' bằng 'They'",
+          "targetEn": "They drink green tea.",
+          "hintVi": "Họ uống trà xanh."
+        }
+      }
+    },
+    {
+      "id": "target-303",
+      "baseEn": "We eat breakfast together.",
+      "baseVi": "Chúng tôi ăn sáng cùng nhau.",
+      "drills": {
+        "mode1_repeat": {
+          "promptVi": "Cấp độ 1: Nghe và nhắc lại câu",
+          "targetEn": "We eat breakfast together.",
+          "hintVi": "Phát âm rõ 'breakfast together'"
+        },
+        "mode2_fill": {
+          "promptVi": "Cấp độ 2: Điền động từ còn thiếu",
+          "sentenceWithBlank": "We ___ breakfast together.",
+          "correctAnswer": "eat",
+          "options": ["eat", "eats", "eating", "ate"],
+          "explanationVi": "Chủ ngữ 'We' đi với động từ dạng nguyên mẫu 'eat'."
+        },
+        "mode3_scramble": {
+          "promptVi": "Cấp độ 3: Sắp xếp lại các từ",
+          "words": ["together.", "breakfast", "eat", "We"],
+          "correctSentence": "We eat breakfast together."
+        },
+        "mode4_transform": {
+          "promptVi": "Cấp độ 4: Chuyển câu sang PHỦ ĐỊNH",
+          "instructionVi": "Thêm 'don't' vào trước 'eat'",
+          "targetEn": "We don't eat breakfast together.",
+          "hintVi": "Chúng tôi không ăn sáng cùng nhau."
+        },
+        "mode5_context": {
+          "promptVi": "Cấp độ 5: Chuyển câu sang ngôi 'I' (Tôi ăn sáng cùng nhau / Tôi ăn sáng)",
+          "instructionVi": "Thay 'We' bằng 'I'",
+          "targetEn": "I eat breakfast together.",
+          "hintVi": "Tôi ăn sáng cùng nhau."
+        }
+      }
+    },
+    {
+      "id": "target-304",
+      "baseEn": "They take the bus to work.",
+      "baseVi": "Họ đi xe buýt đến nơi làm việc.",
+      "drills": {
+        "mode1_repeat": {
+          "promptVi": "Cấp độ 1: Nghe và nhắc lại câu",
+          "targetEn": "They take the bus to work.",
+          "hintVi": "Chú ý cụm 'take the bus'"
+        },
+        "mode2_fill": {
+          "promptVi": "Cấp độ 2: Điền động từ thích hợp",
+          "sentenceWithBlank": "They ___ the bus to work.",
+          "correctAnswer": "take",
+          "options": ["take", "takes", "taking", "took"],
+          "explanationVi": "Chủ ngữ 'They' đi với động từ nguyên mẫu 'take'."
+        },
+        "mode3_scramble": {
+          "promptVi": "Cấp độ 3: Sắp xếp các từ thành câu đúng",
+          "words": ["work.", "to", "bus", "the", "take", "They"],
+          "correctSentence": "They take the bus to work."
+        },
+        "mode4_transform": {
+          "promptVi": "Cấp độ 4: Chuyển câu sang dạng CÂU HỎI (Nghi vấn)",
+          "instructionVi": "Thêm 'Do' vào trước chủ ngữ 'they'",
+          "targetEn": "Do they take the bus to work?",
+          "hintVi": "Họ có đi xe buýt đến nơi làm việc không?"
+        },
+        "mode5_context": {
+          "promptVi": "Cấp độ 5: Chuyển sang ngôi 'You' (Bạn đi xe buýt đến nơi làm việc)",
+          "instructionVi": "Thay 'They' bằng 'You'",
+          "targetEn": "You take the bus to work.",
+          "hintVi": "Bạn đi xe buýt đến chỗ làm."
+        }
+      }
+    }
+  ]
+}

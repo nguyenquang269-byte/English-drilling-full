@@ -1,0 +1,259 @@
+{
+  "lessonId": "lesson-075",
+  "title": "Bài 75: Cấu trúc Đảo ngữ Toàn Diện (Complete & Partial Inversions: Negative, Place, Conditionals, So/Neither)",
+  "estimatedTimeMinutes": 35,
+  "openingDialogue": {
+    "title": "Hội thoại mở đầu: Hội nghị báo chí quốc tế về thành tựu thám hiểm đại dương (Deep-Sea Exploration Press Briefing)",
+    "description": "Luyện nghe & thực hành Cấu trúc Đảo ngữ toàn bộ (Full Inversion: giới từ/nơi chốn đứng đầu câu + V + S) và Đảo ngữ bộ phận (Partial Inversion: trạng từ phủ định, điều kiện bỏ If, so/neither, no sooner... than) trong văn phong trang trọng và học thuật",
+    "lines": [
+      {
+        "speaker": "Expedition Leader",
+        "gender": "male",
+        "en": "Ladies and gentlemen! Under no circumstances did our submarine crew compromise on crew safety.",
+        "vi": "Kính thưa quý vị! Trong bất kỳ hoàn cảnh nào đội tàu ngầm của chúng tôi cũng không thỏa hiệp về an toàn của thủy thủ đoàn. (Under no circumstances did...)"
+      },
+      {
+        "speaker": "Journalist Elena",
+        "gender": "female",
+        "en": "Seldom have marine biologists documented such astonishing bioluminescent species at five thousand meters.",
+        "vi": "Hiếm khi các nhà sinh vật học biển ghi nhận được những loài phát quang sinh học đáng kinh ngạc như vậy ở độ sâu năm nghìn mét. (Seldom have...)"
+      },
+      {
+        "speaker": "Expedition Leader",
+        "gender": "male",
+        "en": "Hardly had the deep-sea robotic arm touched the hydrothermal vent when sensor alarms beeped.",
+        "vi": "Cánh tay robot biển sâu vừa chạm vào miệng phun thủy nhiệt thì chuông báo cảm biến đã reo vang. (Hardly had... when...)"
+      },
+      {
+        "speaker": "Journalist Elena",
+        "gender": "female",
+        "en": "No sooner had the robotic camera begun recording than a giant transparent squid swam by.",
+        "vi": "Ngay khi máy quay robot vừa bắt đầu ghi hình thì một con mực trong suốt khổng lồ đã bơi ngang qua. (No sooner had... than...)"
+      },
+      {
+        "speaker": "Expedition Leader",
+        "gender": "male",
+        "en": "Down into the dark trench descended our titanium vessel, braving intense hydrostatic pressures.",
+        "vi": "Lặn sâu xuống rãnh biển tối tăm là con tàu titan của chúng tôi, bất chấp áp suất thủy tĩnh dữ dội. (Đảo ngữ toàn bộ: Down into... descended our vessel)"
+      },
+      {
+        "speaker": "Journalist Elena",
+        "gender": "female",
+        "en": "Had our university not funded this expedition, these profound oceanic secrets would have remained hidden.",
+        "vi": "Nếu trường đại học chúng ta không tài trợ cho chuyến thám hiểm này, những bí mật đại dương sâu sắc này đã mãi bị che giấu. (Had... not funded = If not funded)"
+      },
+      {
+        "speaker": "Expedition Leader",
+        "gender": "male",
+        "en": "Only after analyzing the water mineral samples did we realize the abundance of rare elements.",
+        "vi": "Chỉ sau khi phân tích các mẫu khoáng chất trong nước chúng tôi mới nhận ra sự dồi dào của các nguyên tố hiếm. (Only after... did we...)"
+      },
+      {
+        "speaker": "Journalist Elena",
+        "gender": "female",
+        "en": "Dr. Miller was deeply thrilled with the results, and so were all the research fellows.",
+        "vi": "Tiến sĩ Miller vô cùng vui mừng với các kết quả, và tất cả các nghiên cứu sinh cũng vậy. (and so were all...)"
+      },
+      {
+        "speaker": "Expedition Leader",
+        "gender": "male",
+        "en": "Neither do we plan to halt our scientific exploration, nor will we commercialize sensitive ecosystems.",
+        "vi": "Chúng tôi không có kế hoạch dừng việc khám phá khoa học, và chúng tôi cũng sẽ không thương mại hóa các hệ sinh thái nhạy cảm. (Neither do we...)"
+      },
+      {
+        "speaker": "Journalist Elena",
+        "gender": "female",
+        "en": "Should you organize another ocean voyage next summer, I would love to report live on board.",
+        "vi": "Nếu quý vị tổ chức một chuyến hải trình đại dương khác vào mùa hè tới, tôi rất muốn được đưa tin trực tiếp trên tàu. (Should you organize = If you organize)"
+      },
+      {
+        "speaker": "Expedition Leader",
+        "gender": "male",
+        "en": "We will gladly welcome international science journalists to document our next frontier voyage.",
+        "vi": "Chúng tôi sẽ rất vui mừng chào đón các nhà báo khoa học quốc tế ghi lại chuyến hải trình tiền tuyến tiếp theo của chúng tôi."
+      },
+      {
+        "speaker": "Journalist Elena",
+        "gender": "female",
+        "en": "Congratulations to the whole team on this monumental scientific triumph!",
+        "vi": "Xin chúc mừng toàn thể đội ngũ vì thắng lợi khoa học vĩ đại này!"
+      }
+    ]
+  },
+  "grammarRules": {
+    "title": "Quy tắc ngữ pháp: Đầy Đủ Các Trường Hợp Đảo Ngữ (Complete & Partial Inversions)",
+    "summaryVi": "**Đảo ngữ (Inversion)** là hiện tượng đưa **Trợ động từ (Đảo ngữ bộ phận)** hoặc **Toàn bộ Động từ chính (Đảo ngữ toàn bộ)** ra đứng trước Chủ ngữ nhằm mục đích nhấn mạnh hoặc tạo sắc thái trang trọng, văn chương.",
+    "points": [
+      {
+        "subject": "1. Đảo ngữ Bộ phận với Cụm từ Phủ định & Bán phủ định",
+        "toBe": "Trạng từ phủ định đứng đầu câu + TRỢ ĐỘNG TỪ + S + V-inf\n- Never / Rarely / Seldom / Little\n- Under no circumstances (Dù trong hoàn cảnh nào cũng không)\n- At no time (Không bao giờ)\n- No sooner + had + S + V3... THAN + S + V2 (Vừa mới... thì đã...)\n- Hardly / Scarcely + had + S + V3... WHEN + S + V2\n- Only after / Only by / Only when + Clause/V-ing + TRỢ ĐỘNG TỪ + S + V",
+        "example": "Under no circumstances should you open the door. / No sooner had I arrived than it rained. / Only then did I understand.",
+        "negative": "Nhớ cặp liên từ: NO SOONER đi với THAN; HARDLY/SCARCELY đi với WHEN."
+      },
+      {
+        "subject": "2. Đảo ngữ Toàn bộ với Cụm chỉ Nơi chốn / Phương hướng",
+        "toBe": "Cụm Trạng ngữ chỉ Nơi chốn / Phương hướng đứng đầu câu + ĐỘNG TỪ CHÍNH + CHỦ NGỮ\n(Down came the rain, On the hill stands an ancient castle, Here comes the bus)",
+        "example": "On the table lay an old letter. / Here comes the train!",
+        "negative": "Nếu chủ ngữ là ĐẠI TỪ NHÂN XƯNG (he, she, it, they), KHÔNG đảo ngữ (Here he comes, NOT Here comes he)."
+      },
+      {
+        "subject": "3. Đảo ngữ Câu Điều Kiện & So / Neither",
+        "toBe": "- Loại 1: SHOULD + S + V-inf, S + will + V\n- Loại 2: WERE + S + to V / WERE + S..., S + would + V\n- Loại 3: HAD + S + V3/ed, S + would have + V3\n- Đồng tình: SO + Aux + S (khẳng định) / NEITHER + Aux + S (phủ định)",
+        "example": "Had I known, I would have helped. / I am happy and so is she. / I don't like coffee, neither does he.",
+        "negative": "Đảo ngữ câu điều kiện không còn từ 'IF'."
+      }
+    ],
+    "forms": [
+      "Phủ định: NEVER / RARELY / UNDER NO CIRCUMSTANCES + Aux + S + V",
+      "Vừa mới... thì: NO SOONER had S V3 THAN S V2  |  HARDLY had S V3 WHEN S V2",
+      "Nơi chốn: Prepositional phrase + Main Verb + Noun Subject (On the hill stands a tower)",
+      "Đảo điều kiện: Should S V... / Were S... / Had S V3..."
+    ]
+  },
+  "drillingTargets": [
+    {
+      "id": "target-7501",
+      "baseEn": "Under no circumstances should you touch this wire.",
+      "baseVi": "Dù trong bất kỳ hoàn cảnh nào bạn cũng không được chạm vào sợi dây này.",
+      "drills": {
+        "mode1_repeat": {
+          "promptVi": "Cấp độ 1: Nghe và nhắc lại câu đảo ngữ với 'Under no circumstances'",
+          "targetEn": "Under no circumstances should you touch this wire.",
+          "hintVi": "'Under no circumstances should you...'"
+        },
+        "mode2_fill": {
+          "promptVi": "Cấp độ 2: Điền trợ động từ 'should' đảo ra trước chủ ngữ",
+          "sentenceWithBlank": "Under no circumstances ___ you touch this wire.",
+          "correctAnswer": "should",
+          "options": ["should", "must", "you should", "do"],
+          "explanationVi": "Đảo modal verb 'should' lên trước 'you' sau cụm 'Under no circumstances'."
+        },
+        "mode3_scramble": {
+          "promptVi": "Cấp độ 3: Sắp xếp các từ thành câu hoàn chỉnh",
+          "words": ["wire.", "this", "touch", "you", "should", "circumstances", "no", "Under"],
+          "correctSentence": "Under no circumstances should you touch this wire."
+        },
+        "mode4_transform": {
+          "promptVi": "Cấp độ 4: Thay 'touch this wire' bằng 'open this door' (Dù trong hoàn cảnh nào bạn cũng không được mở cánh cửa này)",
+          "instructionVi": "Dùng 'Under no circumstances should you open this door.'",
+          "targetEn": "Under no circumstances should you open this door.",
+          "hintVi": "Dù trong hoàn cảnh nào bạn cũng không được mở cánh cửa này."
+        },
+        "mode5_context": {
+          "promptVi": "Cấp độ 5: Chuyển sang 'At no time did he suspect the truth' (Không lúc nào anh ấy từng nghi ngờ sự thật)",
+          "instructionVi": "Dùng 'At no time did he suspect the truth.'",
+          "targetEn": "At no time did he suspect the truth.",
+          "hintVi": "Không lúc nào anh ấy từng nghi ngờ sự thật."
+        }
+      }
+    },
+    {
+      "id": "target-7502",
+      "baseEn": "No sooner had I arrived home than it started to rain.",
+      "baseVi": "Tôi vừa mới về đến nhà thì trời đã bắt đầu mưa.",
+      "drills": {
+        "mode1_repeat": {
+          "promptVi": "Cấp độ 1: Nghe và nhắc lại cấu trúc 'No sooner had... than...'",
+          "targetEn": "No sooner had I arrived home than it started to rain.",
+          "hintVi": "'No sooner had + S + V3 THAN S + V2'"
+        },
+        "mode2_fill": {
+          "promptVi": "Cấp độ 2: Điền liên từ 'than' đi kèm với 'No sooner'",
+          "sentenceWithBlank": "No sooner had I arrived home ___ it started to rain.",
+          "correctAnswer": "than",
+          "options": ["than", "when", "then", "that"],
+          "explanationVi": "'No sooner' luôn đi kèm với liên từ 'than'."
+        },
+        "mode3_scramble": {
+          "promptVi": "Cấp độ 3: Sắp xếp các từ thành câu đúng",
+          "words": ["rain.", "to", "started", "it", "than", "home", "arrived", "I", "had", "sooner", "No"],
+          "correctSentence": "No sooner had I arrived home than it started to rain."
+        },
+        "mode4_transform": {
+          "promptVi": "Cấp độ 4: Viết lại dùng 'Hardly had I arrived home when it started to rain'",
+          "instructionVi": "Dùng 'Hardly had I arrived home when it started to rain.'",
+          "targetEn": "Hardly had I arrived home when it started to rain.",
+          "hintVi": "Hardly had I arrived home when it started to rain."
+        },
+        "mode5_context": {
+          "promptVi": "Cấp độ 5: Thay 'arrived home' bằng 'closed my eyes' và 'the alarm rang' (Tôi vừa mới nhắm mắt thì chuông báo thức reo)",
+          "instructionVi": "Dùng 'No sooner had I closed my eyes than the alarm rang.'",
+          "targetEn": "No sooner had I closed my eyes than the alarm rang.",
+          "hintVi": "Tôi vừa mới nhắm mắt thì chuông báo thức reo."
+        }
+      }
+    },
+    {
+      "id": "target-7503",
+      "baseEn": "On the top of the hill stands an ancient castle.",
+      "baseVi": "Trên đỉnh ngọn đồi sừng sững một tòa lâu đài cổ kính.",
+      "drills": {
+        "mode1_repeat": {
+          "promptVi": "Cấp độ 1: Nghe và nhắc lại câu đảo ngữ toàn bộ chỉ nơi chốn",
+          "targetEn": "On the top of the hill stands an ancient castle.",
+          "hintVi": "'On the top of the hill stands an ancient castle.' (Động từ stands đứng trước chủ ngữ castle)"
+        },
+        "mode2_fill": {
+          "promptVi": "Cấp độ 2: Điền động từ 'stands' trực tiếp trước chủ ngữ",
+          "sentenceWithBlank": "On the top of the hill ___ an ancient castle.",
+          "correctAnswer": "stands",
+          "options": ["stands", "does stand", "standing", "is standing"],
+          "explanationVi": "Đảo ngữ toàn bộ đưa động từ chính 'stands' ra trước danh từ chủ ngữ."
+        },
+        "mode3_scramble": {
+          "promptVi": "Cấp độ 3: Sắp xếp các từ xáo trộn",
+          "words": ["castle.", "ancient", "an", "stands", "hill", "the", "of", "top", "the", "On"],
+          "correctSentence": "On the top of the hill stands an ancient castle."
+        },
+        "mode4_transform": {
+          "promptVi": "Cấp độ 4: Dùng câu đảo ngữ thông dụng với 'Here comes the bus!' (Xe buýt đến rồi kìa!)",
+          "instructionVi": "Dùng 'Here comes the bus!'",
+          "targetEn": "Here comes the bus!",
+          "hintVi": "Xe buýt đến rồi kìa!"
+        },
+        "mode5_context": {
+          "promptVi": "Cấp độ 5: Thay bằng 'Down came the rain' (Cơn mưa trút xuống ào ào)",
+          "instructionVi": "Dùng 'Down came the rain.'",
+          "targetEn": "Down came the rain.",
+          "hintVi": "Cơn mưa rào trút xuống ào ào."
+        }
+      }
+    },
+    {
+      "id": "target-7504",
+      "baseEn": "I like classical music, and so does my brother.",
+      "baseVi": "Tôi thích nhạc cổ điển, và anh trai tôi cũng vậy.",
+      "drills": {
+        "mode1_repeat": {
+          "promptVi": "Cấp độ 1: Nghe và nhắc lại câu đồng tình khẳng định với 'so does'",
+          "targetEn": "I like classical music, and so does my brother.",
+          "hintVi": "'and so does my brother'"
+        },
+        "mode2_fill": {
+          "promptVi": "Cấp độ 2: Điền trợ động từ 'does' sau 'so'",
+          "sentenceWithBlank": "I like classical music, and so ___ my brother.",
+          "correctAnswer": "does",
+          "options": ["does", "is", "do", "likes"],
+          "explanationVi": "'like' là động từ thường hiện tại đơn, chủ ngữ 'my brother' số ít -> dùng 'does'."
+        },
+        "mode3_scramble": {
+          "promptVi": "Cấp độ 3: Sắp xếp từ xáo trộn",
+          "words": ["brother.", "my", "does", "so", "and", "music,", "classical", "like", "I"],
+          "correctSentence": "I like classical music, and so does my brother."
+        },
+        "mode4_transform": {
+          "promptVi": "Cấp độ 4: Chuyển sang đồng tình PHỦ ĐỊNH với 'neither' (Tôi không thích cà phê, và anh trai tôi cũng không)",
+          "instructionVi": "Dùng 'I don't like coffee, and neither does my brother.'",
+          "targetEn": "I don't like coffee, and neither does my brother.",
+          "hintVi": "Tôi không thích cà phê, và anh trai tôi cũng không."
+        },
+        "mode5_context": {
+          "promptVi": "Cấp độ 5: Chuyển sang ToBe 'I am tired and so is she' (Tôi mệt và cô ấy cũng vậy)",
+          "instructionVi": "Dùng 'I am tired, and so is she.'",
+          "targetEn": "I am tired, and so is she.",
+          "hintVi": "Tôi mệt và cô ấy cũng vậy."
+        }
+      }
+    }
+  ]
+}

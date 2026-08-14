@@ -1,0 +1,222 @@
+{
+  "lessonId": "lesson-002",
+  "title": "Bài 2: Động từ To Be — Hiện tại Đơn (Nghề nghiệp & Tính chất)",
+  "estimatedTimeMinutes": 30,
+  "openingDialogue": {
+    "title": "Hội thoại mở đầu: Hỏi thăm về gia đình & nghề nghiệp (Family & Professions)",
+    "description": "Luyện nghe & phát âm hội thoại mẫu dùng To Be chỉ nghề nghiệp và tính chất",
+    "lines": [
+      {
+        "speaker": "Minh",
+        "gender": "male",
+        "en": "Is your brother a doctor, Sarah?",
+        "vi": "Anh trai của bạn có phải là bác sĩ không, Sarah?"
+      },
+      {
+        "speaker": "Sarah",
+        "gender": "female",
+        "en": "No, he is not. He is an engineer.",
+        "vi": "Không, anh ấy không phải. Anh ấy là một kỹ sư."
+      },
+      {
+        "speaker": "Minh",
+        "gender": "male",
+        "en": "Is your sister an engineer too?",
+        "vi": "Chị gái bạn cũng là kỹ sư à?"
+      },
+      {
+        "speaker": "Sarah",
+        "gender": "female",
+        "en": "No, she is a singer. She is very famous!",
+        "vi": "Không, chị ấy là ca sĩ. Chị ấy rất nổi tiếng!"
+      },
+      {
+        "speaker": "Minh",
+        "gender": "male",
+        "en": "That is wonderful! Are your parents teachers?",
+        "vi": "Thật tuyệt vời! Bố mẹ bạn có phải là giáo viên không?"
+      },
+      {
+        "speaker": "Sarah",
+        "gender": "female",
+        "en": "Yes, they are teachers. They are very kind and patient.",
+        "vi": "Đúng vậy, họ là giáo viên. Họ rất tốt bụng và nhẫn nại."
+      },
+      {
+        "speaker": "Minh",
+        "gender": "male",
+        "en": "You are a lucky family!",
+        "vi": "Gia đình bạn thật may mắn!"
+      }
+    ]
+  },
+  "grammarRules": {
+    "title": "Quy tắc ngữ pháp: To Be chỉ Nghề nghiệp & Mạo từ a/an",
+    "summaryVi": "Dùng **To Be + a/an + Danh từ nghề nghiệp** ở số ít, và **To Be + Danh từ số nhiều (s/es)** khi nói về nhóm người.",
+    "points": [
+      {
+        "subject": "He / She",
+        "toBe": "is + a/an",
+        "example": "He is a doctor. / She is an engineer.",
+        "negative": "Dùng 'an' trước danh từ bắt đầu bằng nguyên âm (a, e, i, o, u)."
+      },
+      {
+        "subject": "They / We",
+        "toBe": "are + danh từ số nhiều",
+        "example": "They are teachers. / We are students.",
+        "negative": "Không dùng 'a/an' với danh từ số nhiều."
+      }
+    ],
+    "forms": [
+      "Khẳng định: S + am/is/are + (a/an) + Profession/Adjective",
+      "Phủ định: S + am/is/are + NOT + (a/an) + Profession/Adjective",
+      "Nghi vấn: Am/Is/Are + S + (a/an) + Profession/Adjective?"
+    ]
+  },
+  "drillingTargets": [
+    {
+      "id": "target-201",
+      "baseEn": "She is an engineer.",
+      "baseVi": "Cô ấy là một kỹ sư.",
+      "drills": {
+        "mode1_repeat": {
+          "promptVi": "Cấp độ 1: Nghe và nhắc lại ngay theo mẫu",
+          "targetEn": "She is an engineer.",
+          "hintVi": "Chú ý mạo từ 'an' đi trước 'engineer'"
+        },
+        "mode2_fill": {
+          "promptVi": "Cấp độ 2: Điền động từ To Be thích hợp",
+          "sentenceWithBlank": "She ___ an engineer.",
+          "correctAnswer": "is",
+          "options": ["am", "is", "are", "be"],
+          "explanationVi": "Chủ ngữ số ít 'She' đi với 'is'."
+        },
+        "mode3_scramble": {
+          "promptVi": "Cấp độ 3: Sắp xếp các từ thành câu đúng",
+          "words": ["engineer.", "an", "is", "She"],
+          "correctSentence": "She is an engineer."
+        },
+        "mode4_transform": {
+          "promptVi": "Cấp độ 4: Chuyển câu sang dạng PHỦ ĐỊNH",
+          "instructionVi": "Thêm 'not' vào sau động từ 'is'",
+          "targetEn": "She is not an engineer.",
+          "hintVi": "Cô ấy không phải là một kỹ sư."
+        },
+        "mode5_context": {
+          "promptVi": "Cấp độ 5: Chuyển sang ngôi số nhiều 'They' (Họ là những kỹ sư)",
+          "instructionVi": "Thay 'She is an' bằng 'They are' và bỏ 'an', thêm 's' vào engineer",
+          "targetEn": "They are engineers.",
+          "hintVi": "Họ là những kỹ sư."
+        }
+      }
+    },
+    {
+      "id": "target-202",
+      "baseEn": "He is a famous singer.",
+      "baseVi": "Anh ấy là một ca sĩ nổi tiếng.",
+      "drills": {
+        "mode1_repeat": {
+          "promptVi": "Cấp độ 1: Nghe và nhắc lại câu mẫu",
+          "targetEn": "He is a famous singer.",
+          "hintVi": "Luyện âm 'famous singer'"
+        },
+        "mode2_fill": {
+          "promptVi": "Cấp độ 2: Điền từ còn thiếu vào chỗ trống",
+          "sentenceWithBlank": "He ___ a famous singer.",
+          "correctAnswer": "is",
+          "options": ["am", "is", "are", "were"],
+          "explanationVi": "Chủ ngữ 'He' đi với 'is'."
+        },
+        "mode3_scramble": {
+          "promptVi": "Cấp độ 3: Sắp xếp các từ xáo trộn",
+          "words": ["singer.", "famous", "a", "is", "He"],
+          "correctSentence": "He is a famous singer."
+        },
+        "mode4_transform": {
+          "promptVi": "Cấp độ 4: Chuyển câu sang dạng CÂU HỎI (Nghi vấn)",
+          "instructionVi": "Đảo động từ 'Is' lên trước chủ ngữ 'he'",
+          "targetEn": "Is he a famous singer?",
+          "hintVi": "Anh ấy có phải là ca sĩ nổi tiếng không?"
+        },
+        "mode5_context": {
+          "promptVi": "Cấp độ 5: Chuyển câu sang ngôi 'I' (Tôi là một ca sĩ nổi tiếng)",
+          "instructionVi": "Thay 'He is' bằng 'I am'",
+          "targetEn": "I am a famous singer.",
+          "hintVi": "Tôi là một ca sĩ nổi tiếng."
+        }
+      }
+    },
+    {
+      "id": "target-203",
+      "baseEn": "They are friendly doctors.",
+      "baseVi": "Họ là những bác sĩ thân thiện.",
+      "drills": {
+        "mode1_repeat": {
+          "promptVi": "Cấp độ 1: Nghe và nhắc lại câu mẫu",
+          "targetEn": "They are friendly doctors.",
+          "hintVi": "Phát âm rõ 'friendly doctors'"
+        },
+        "mode2_fill": {
+          "promptVi": "Cấp độ 2: Điền động từ To Be thích hợp",
+          "sentenceWithBlank": "They ___ friendly doctors.",
+          "correctAnswer": "are",
+          "options": ["am", "is", "are", "be"],
+          "explanationVi": "Chủ ngữ số nhiều 'They' đi với 'are'."
+        },
+        "mode3_scramble": {
+          "promptVi": "Cấp độ 3: Sắp xếp các từ thành câu chuẩn",
+          "words": ["doctors.", "friendly", "are", "They"],
+          "correctSentence": "They are friendly doctors."
+        },
+        "mode4_transform": {
+          "promptVi": "Cấp độ 4: Chuyển câu sang dạng PHỦ ĐỊNH",
+          "instructionVi": "Thêm 'not' vào sau 'are'",
+          "targetEn": "They are not friendly doctors.",
+          "hintVi": "Họ không phải là những bác sĩ thân thiện."
+        },
+        "mode5_context": {
+          "promptVi": "Cấp độ 5: Chuyển sang ngôi thứ ba số ít 'He' (Anh ấy là một bác sĩ thân thiện)",
+          "instructionVi": "Thay 'They are' bằng 'He is a' và đổi 'doctors' thành số ít 'doctor'",
+          "targetEn": "He is a friendly doctor.",
+          "hintVi": "Anh ấy là một bác sĩ thân thiện."
+        }
+      }
+    },
+    {
+      "id": "target-204",
+      "baseEn": "We are ready for the lesson.",
+      "baseVi": "Chúng tôi đã sẵn sàng cho bài học.",
+      "drills": {
+        "mode1_repeat": {
+          "promptVi": "Cấp độ 1: Nghe và nhắc lại câu mẫu",
+          "targetEn": "We are ready for the lesson.",
+          "hintVi": "Chú ý phát âm cụm 'ready for'"
+        },
+        "mode2_fill": {
+          "promptVi": "Cấp độ 2: Điền từ còn thiếu vào chỗ trống",
+          "sentenceWithBlank": "We ___ ready for the lesson.",
+          "correctAnswer": "are",
+          "options": ["am", "is", "are", "be"],
+          "explanationVi": "Chủ ngữ 'We' đi với động từ 'are'."
+        },
+        "mode3_scramble": {
+          "promptVi": "Cấp độ 3: Sắp xếp các từ thành câu đúng",
+          "words": ["lesson.", "the", "for", "ready", "are", "We"],
+          "correctSentence": "We are ready for the lesson."
+        },
+        "mode4_transform": {
+          "promptVi": "Cấp độ 4: Chuyển câu sang dạng CÂU HỎI (Nghi vấn)",
+          "instructionVi": "Đảo 'Are' ra trước 'we'",
+          "targetEn": "Are we ready for the lesson?",
+          "hintVi": "Chúng ta đã sẵn sàng cho bài học chưa?"
+        },
+        "mode5_context": {
+          "promptVi": "Cấp độ 5: Chuyển sang ngôi thứ nhất số ít 'I' (Tôi đã sẵn sàng cho bài học)",
+          "instructionVi": "Thay 'We are' bằng 'I am'",
+          "targetEn": "I am ready for the lesson.",
+          "hintVi": "Tôi đã sẵn sàng cho bài học."
+        }
+      }
+    }
+  ]
+}

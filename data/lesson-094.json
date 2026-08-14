@@ -1,0 +1,259 @@
+{
+  "lessonId": "lesson-094",
+  "title": "Bài 94: Cấu trúc Giả định & Khuyên nhủ (Unreal Past & Recommendations: It's time / Would rather / Had better)",
+  "estimatedTimeMinutes": 35,
+  "openingDialogue": {
+    "title": "Hội thoại mở đầu: Tái cơ cấu dự án phần mềm và quản lý rủi ro hạn chót (Software Sprint Retrospective & Deadline Crunch)",
+    "description": "Luyện nghe & thực hành Cấu trúc Giả định ở quá khứ giả định (Unreal Past Subjunctive): It's time / It's high time S + V2/ed; Would rather + V-inf vs. Would rather S + V2/ed; Had better + V-inf (Had better not V)",
+    "lines": [
+      {
+        "speaker": "Scrum Master Leo",
+        "gender": "male",
+        "en": "Good morning, developers! It's high time we overhauled our outdated codebase.",
+        "vi": "Chào buổi sáng các lập trình viên! Đã đến lúc chúng ta phải đại tu lại toàn bộ cơ sở mã lỗi thời của mình rồi. (It's high time we overhauled)"
+      },
+      {
+        "speaker": "Lead Engineer Zoe",
+        "gender": "female",
+        "en": "I agree. We had better migrate our microservices to containerized clusters before the peak traffic season begins.",
+        "vi": "Tôi đồng ý. Chúng ta nên chuyển các dịch vụ vi mô sang các cụm container trước khi mùa lưu lượng truy cập cao điểm bắt đầu. (had better migrate)"
+      },
+      {
+        "speaker": "Scrum Master Leo",
+        "gender": "male",
+        "en": "Would you rather deploy the payment upgrade tonight or wait until the weekend maintenance window?",
+        "vi": "Bạn muốn triển khai bản nâng cấp thanh toán vào tối nay hay đợi đến khung bảo trì cuối tuần hơn? (Would you rather deploy... or wait)"
+      },
+      {
+        "speaker": "Lead Engineer Zoe",
+        "gender": "female",
+        "en": "I would rather we scheduled the production deployment for Sunday midnight to minimize user disruption.",
+        "vi": "Tôi muốn chúng ta lên lịch triển khai sản phẩm vào nửa đêm Chủ Nhật hơn để giảm thiểu gián đoạn cho người dùng. (would rather we scheduled)"
+      },
+      {
+        "speaker": "Scrum Master Leo",
+        "gender": "male",
+        "en": "It's about time our quality assurance engineers automated all unit integration test pipelines.",
+        "vi": "Đã đến lúc các kỹ sư đảm bảo chất lượng của chúng ta tự động hóa tất cả các quy trình kiểm thử tích hợp đơn vị rồi. (It's about time engineers automated)"
+      },
+      {
+        "speaker": "Lead Engineer Zoe",
+        "gender": "female",
+        "en": "Junior programmers had better not push unverified commits directly to the main release branch.",
+        "vi": "Các lập trình viên cấp dưới tốt hơn hết là không nên đẩy các đoạn mã chưa xác minh trực tiếp lên nhánh phát hành chính. (had better not push)"
+      },
+      {
+        "speaker": "Scrum Master Leo",
+        "gender": "male",
+        "en": "Would you rather write extensive API documentation yourself or delegate it to the technical writing team?",
+        "vi": "Bạn muốn tự mình viết tài liệu API phong phú hay giao việc đó cho đội ngũ viết kỹ thuật? (Would you rather write... or delegate)"
+      },
+      {
+        "speaker": "Lead Engineer Zoe",
+        "gender": "female",
+        "en": "I would rather write the core architecture guides myself, but I would rather the technical writers formatted the guides.",
+        "vi": "Tôi muốn tự mình viết các hướng dẫn kiến trúc cốt lõi, nhưng tôi muốn các cộng tác viên viết kỹ thuật định dạng các tài liệu đó. (would rather write / would rather writers formatted)"
+      },
+      {
+        "speaker": "Scrum Master Leo",
+        "gender": "male",
+        "en": "It's time to start our daily stand-up meeting and review outstanding pull requests.",
+        "vi": "Đã đến lúc bắt đầu cuộc họp đứng hàng ngày của chúng ta và xem xét các yêu cầu kéo mã còn tồn đọng. (It's time to start)"
+      },
+      {
+        "speaker": "Lead Engineer Zoe",
+        "gender": "female",
+        "en": "We had better finish our code reviews before the noon sprint review session.",
+        "vi": "Tốt hơn hết chúng ta nên hoàn thành việc đánh giá mã trước buổi họp đánh giá sprint lúc buổi trưa."
+      },
+      {
+        "speaker": "Scrum Master Leo",
+        "gender": "male",
+        "en": "Mastering these subjunctive recommendation patterns sharpens professional technical alignment.",
+        "vi": "Làm chủ các mẫu câu giả định khuyên nhủ này giúp nâng cao tính gắn kết chuyên môn kỹ thuật."
+      },
+      {
+        "speaker": "Lead Engineer Zoe",
+        "gender": "female",
+        "en": "Let's optimize our sprint velocity and deliver a rock-solid software build!",
+        "vi": "Chúng ta hãy tối ưu hóa tốc độ sprint và cung cấp một bản dựng phần mềm vững như bàn thạch!"
+      }
+    ]
+  },
+  "grammarRules": {
+    "title": "Quy tắc ngữ pháp: Cấu trúc Giả định IT'S TIME, WOULD RATHER & Lời Khuyên HAD BETTER",
+    "summaryVi": "Ba cấu trúc ngữ pháp cực kỳ phổ biến trong giao tiếp và công việc: **IT'S (HIGH/ABOUT) TIME (đã đến lúc phải làm)**, **WOULD RATHER (thích làm gì hơn)** và **HAD BETTER (tốt hơn hết là nên làm)**.",
+    "points": [
+      {
+        "subject": "1. Cấu trúc IT'S TIME / IT'S HIGH TIME / IT'S ABOUT TIME",
+        "toBe": "- Đi với mệnh đề giả định: IT'S (HIGH/ABOUT) TIME + S + V2/ed (Đã đến lúc ai đó PHẢI LÀM GÌ - mang sắc thái phê bình nhẹ vì làm muộn)\n- Đi với To-V (chỉ thời điểm): IT'S TIME + (FOR SB) + TO + V-inf (Đã đến giờ làm gì)",
+        "example": "It's time we went home. (Đã đến lúc chúng ta phải về nhà rồi)\nIt's time to go home. (Đến giờ về nhà rồi) / It's high time you cleaned your room.",
+        "negative": "Trong cấu trúc 'It's time + S + V', động từ BẮT BUỘC chia ở QUÁ KHỨ ĐƠN (V2/ed / were)."
+      },
+      {
+        "subject": "2. Cấu trúc WOULD RATHER (Thích hơn / Muốn hơn)",
+        "toBe": "- Cùng 1 chủ ngữ: S + WOULD RATHER + V-inf (THAN + V-inf) (I would rather stay home than go out)\n- Phủ định: S + WOULD RATHER + NOT + V-inf\n- Hai chủ ngữ khác nhau (ở hiện tại/tương lai): S1 + WOULD RATHER + S2 + V2/ed (I would rather you didn't smoke here)\n- Hai chủ ngữ khác nhau (ở quá khứ): S1 + WOULD RATHER + S2 + HAD + V3/ed (I would rather you had told me the truth yesterday)",
+        "example": "I'd rather drink coffee. / I'd rather you came tomorrow.",
+        "negative": "Sau 'would rather + V' dùng động từ nguyên mẫu không TO; nếu có 2 chủ ngữ thì lùi thì."
+      },
+      {
+        "subject": "3. Cấu trúc HAD BETTER (Tốt hơn hết nên làm - Lời khuyên mạnh mẽ / Cảnh báo)",
+        "toBe": "- Khẳng định: S + HAD BETTER ('d better) + V-inf\n- Phủ định: S + HAD BETTER NOT ('d better not) + V-inf\n- Mang sắc thái khuyên mạnh hơn 'should', cảnh báo nếu không làm sẽ có hậu quả xấu.",
+        "example": "You had better leave now or you will miss the train. / You had better not be late tomorrow!",
+        "negative": "Phủ định là 'had better NOT', KHÔNG ĐƯỢC DÙNG 'hadn't better'."
+      }
+    ],
+    "forms": [
+      "It's (high) time + S + V2/ed  |  It's time to + V-inf",
+      "S + would rather + V-inf (than V)  |  S + would rather not + V",
+      "S1 + would rather + S2 + V2/ed (I'd rather you stayed)",
+      "S + had better + V-inf  |  S + had better NOT + V-inf"
+    ]
+  },
+  "drillingTargets": [
+    {
+      "id": "target-9401",
+      "baseEn": "It is high time you started studying for the exam.",
+      "baseVi": "Đã đến lúc bạn phải bắt đầu ôn thi rồi.",
+      "drills": {
+        "mode1_repeat": {
+          "promptVi": "Cấp độ 1: Nghe và nhắc lại câu giả định với 'It is high time you started'",
+          "targetEn": "It is high time you started studying for the exam.",
+          "hintVi": "'It is high time + S + V2/ed'"
+        },
+        "mode2_fill": {
+          "promptVi": "Cấp độ 2: Điền dạng quá khứ đơn 'started' sau cấu trúc 'It is high time you'",
+          "sentenceWithBlank": "It is high time you ___ studying for the exam.",
+          "correctAnswer": "started",
+          "options": ["started", "start", "to start", "starting"],
+          "explanationVi": "Sau cấu trúc 'It is high time + S' động từ chia ở Quá khứ đơn 'started'."
+        },
+        "mode3_scramble": {
+          "promptVi": "Cấp độ 3: Sắp xếp các từ thành câu hoàn chỉnh",
+          "words": ["exam.", "the", "for", "studying", "started", "you", "time", "high", "is", "It"],
+          "correctSentence": "It is high time you started studying for the exam."
+        },
+        "mode4_transform": {
+          "promptVi": "Cấp độ 4: Thay 'studying' bằng 'went to bed' (Đã đến lúc bạn phải đi ngủ rồi: It's time you went to bed)",
+          "instructionVi": "Dùng 'It is time you went to bed.'",
+          "targetEn": "It is time you went to bed.",
+          "hintVi": "Đã đến lúc bạn phải đi ngủ rồi."
+        },
+        "mode5_context": {
+          "promptVi": "Cấp độ 5: Chuyển sang dạng 'It is time to go home' (Đến giờ phải về nhà rồi)",
+          "instructionVi": "Dùng 'It is time to go home.'",
+          "targetEn": "It is time to go home.",
+          "hintVi": "Đến giờ phải về nhà rồi (It's time to V)."
+        }
+      }
+    },
+    {
+      "id": "target-9402",
+      "baseEn": "I would rather stay at home tonight than go to the cinema.",
+      "baseVi": "Tối nay tôi thích ở nhà hơn là đi đến rạp chiếu phim.",
+      "drills": {
+        "mode1_repeat": {
+          "promptVi": "Cấp độ 1: Nghe và nhắc lại câu với 'would rather stay... than go'",
+          "targetEn": "I would rather stay at home tonight than go to the cinema.",
+          "hintVi": "'would rather + V-inf... than + V-inf'"
+        },
+        "mode2_fill": {
+          "promptVi": "Cấp độ 2: Điền dạng động từ nguyên mẫu 'stay' sau 'would rather'",
+          "sentenceWithBlank": "I would rather ___ at home tonight than go to the cinema.",
+          "correctAnswer": "stay",
+          "options": ["stay", "to stay", "staying", "stayed"],
+          "explanationVi": "Sau 'would rather' dùng động từ nguyên mẫu không to 'stay'."
+        },
+        "mode3_scramble": {
+          "promptVi": "Cấp độ 3: Sắp xếp các từ thành câu đúng",
+          "words": ["cinema.", "the", "to", "go", "than", "tonight", "home", "at", "stay", "rather", "would", "I"],
+          "correctSentence": "I would rather stay at home tonight than go to the cinema."
+        },
+        "mode4_transform": {
+          "promptVi": "Cấp độ 4: Chuyển sang 2 chủ ngữ khác nhau 'I would rather you didn't smoke here' (Tôi muốn bạn không hút thuốc ở đây hơn)",
+          "instructionVi": "Dùng 'I would rather you didn't smoke here.'",
+          "targetEn": "I would rather you didn't smoke here.",
+          "hintVi": "Tôi muốn bạn không hút thuốc ở đây (would rather S + V2/ed)."
+        },
+        "mode5_context": {
+          "promptVi": "Cấp độ 5: Thay bằng 'I'd rather you told me the truth' (Tôi muốn bạn nói sự thật cho tôi hơn)",
+          "instructionVi": "Dùng 'I would rather you told me the truth.'",
+          "targetEn": "I would rather you told me the truth.",
+          "hintVi": "Tôi muốn bạn nói sự thật cho tôi biết."
+        }
+      }
+    },
+    {
+      "id": "target-9403",
+      "baseEn": "You had better take an umbrella with you.",
+      "baseVi": "Tốt hơn hết bạn nên mang theo một chiếc ô bên mình.",
+      "drills": {
+        "mode1_repeat": {
+          "promptVi": "Cấp độ 1: Nghe và nhắc lại câu khuyên nhủ mạnh mẽ với 'had better take'",
+          "targetEn": "You had better take an umbrella with you.",
+          "hintVi": "'had better + V-inf'"
+        },
+        "mode2_fill": {
+          "promptVi": "Cấp độ 2: Điền dạng nguyên mẫu 'take' sau cụm 'had better'",
+          "sentenceWithBlank": "You had better ___ an umbrella with you.",
+          "correctAnswer": "take",
+          "options": ["take", "to take", "taking", "took"],
+          "explanationVi": "Sau 'had better' dùng động từ nguyên mẫu không to 'take'."
+        },
+        "mode3_scramble": {
+          "promptVi": "Cấp độ 3: Sắp xếp các từ xáo trộn",
+          "words": ["you.", "with", "umbrella", "an", "take", "better", "had", "You"],
+          "correctSentence": "You had better take an umbrella with you."
+        },
+        "mode4_transform": {
+          "promptVi": "Cấp độ 4: Thay 'take an umbrella' bằng 'see a doctor' (Tốt hơn hết bạn nên đi khám bác sĩ ngay)",
+          "instructionVi": "Dùng 'You had better see a doctor right away.'",
+          "targetEn": "You had better see a doctor right away.",
+          "hintVi": "Tốt hơn hết bạn nên đi khám bác sĩ ngay lập tức."
+        },
+        "mode5_context": {
+          "promptVi": "Cấp độ 5: Chuyển sang phủ định 'had better not' (Tốt hơn hết bạn không nên đến muộn vào ngày mai)",
+          "instructionVi": "Dùng 'You had better not be late tomorrow.'",
+          "targetEn": "You had better not be late tomorrow.",
+          "hintVi": "Tốt hơn hết bạn không nên đến muộn ngày mai (had better not)."
+        }
+      }
+    },
+    {
+      "id": "target-9404",
+      "baseEn": "You had better not drink that expired milk.",
+      "baseVi": "Tốt hơn hết bạn không nên uống hộp sữa đã hết hạn đó.",
+      "drills": {
+        "mode1_repeat": {
+          "promptVi": "Cấp độ 1: Nghe và nhắc lại câu cảnh báo phủ định với 'had better not drink'",
+          "targetEn": "You had better not drink that expired milk.",
+          "hintVi": "'had better not drink'"
+        },
+        "mode2_fill": {
+          "promptVi": "Cấp độ 2: Điền từ phủ định 'not' sau 'had better'",
+          "sentenceWithBlank": "You had better ___ drink that expired milk.",
+          "correctAnswer": "not",
+          "options": ["not", "don't", "no", "to not"],
+          "explanationVi": "Dạng phủ định của 'had better' là 'had better not + V-inf'."
+        },
+        "mode3_scramble": {
+          "promptVi": "Cấp độ 3: Sắp xếp từ xáo trộn",
+          "words": ["milk.", "expired", "that", "drink", "not", "better", "had", "You"],
+          "correctSentence": "You had better not drink that expired milk."
+        },
+        "mode4_transform": {
+          "promptVi": "Cấp độ 4: Thay bằng 'touch that hot stove' (Tốt hơn hết bạn không nên chạm vào chiếc bếp đang nóng đó)",
+          "instructionVi": "Dùng 'You had better not touch that hot stove.'",
+          "targetEn": "You had better not touch that hot stove.",
+          "hintVi": "Tốt hơn hết bạn không nên chạm vào chiếc bếp đang nóng đó."
+        },
+        "mode5_context": {
+          "promptVi": "Cấp độ 5: Thay bằng 'drive so fast in this heavy rain' (Tốt hơn hết bạn không nên lái xe nhanh như vậy trong cơn mưa to này)",
+          "instructionVi": "Dùng 'You had better not drive so fast in the rain.'",
+          "targetEn": "You had better not drive so fast in the rain.",
+          "hintVi": "Tốt hơn hết bạn không nên lái xe nhanh dưới trời mưa."
+        }
+      }
+    }
+  ]
+}
