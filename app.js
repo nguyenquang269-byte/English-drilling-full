@@ -430,124 +430,113 @@ function getVoiceForGender(gender) {
   }
 }
 
-// Global utterance reference to prevent Chromium Garbage Collection bug
+let currentPlayingAudio = null;
 let activeSpeechUtterance = null;
-let speechKeepAliveTimer = null;
 
-function clearSpeechKeepAlive() {
-  if (speechKeepAliveTimer) {
-    clearInterval(speechKeepAliveTimer);
-    speechKeepAliveTimer = null;
+function playAudioStream(text, lang = "en", gender = "male", callback, isPartOfSequence = false) {
+  if (!isPartOfSequence) {
+    stopAllAudio();
+  }
+
+  setAudioBadge(true);
+
+  const cleanText = text.replace(/<[^>]*>/g, '').trim();
+  if (!cleanText) {
+    setAudioBadge(false);
+    if (callback) callback();
+    return;
+  }
+
+  let isFinished = false;
+  const onDone = () => {
+    if (isFinished) return;
+    isFinished = true;
+    currentPlayingAudio = null;
+    setAudioBadge(false);
+    if (callback) callback();
+  };
+
+  // 1. Try Google Studio TTS audio stream (HTML5 Audio object - 100% reliable continuous sequence)
+  const ttsLang = lang.startsWith("vi") ? "vi" : "en";
+  const ttsUrl = `https://translate.google.com/translate_tts?ie=UTF-8&tl=${ttsLang}&client=tw-ob&q=${encodeURIComponent(cleanText)}`;
+  
+  const audio = new Audio();
+  currentPlayingAudio = audio;
+  audio.playbackRate = currentSpeechRate || 1.0;
+  audio.src = ttsUrl;
+
+  audio.onended = onDone;
+  audio.onerror = () => {
+    // 2. Fallback to Web Speech Synthesis if audio stream network blocked
+    speakWithWebSpeech(cleanText, lang, gender, onDone);
+  };
+
+  const playPromise = audio.play();
+  if (playPromise !== undefined) {
+    playPromise.catch((err) => {
+      console.warn("Audio stream playback failed, falling back to Web Speech:", err);
+      speakWithWebSpeech(cleanText, lang, gender, onDone);
+    });
   }
 }
 
-function startSpeechKeepAlive() {
-  clearSpeechKeepAlive();
-  speechKeepAliveTimer = setInterval(() => {
-    if (window.speechSynthesis && window.speechSynthesis.speaking) {
-      window.speechSynthesis.pause();
-      window.speechSynthesis.resume();
-    } else {
-      clearSpeechKeepAlive();
-    }
-  }, 4000);
-}
-
-function speakUtterance(text, lang = "en-US", gender = "male", callback, isPartOfSequence = false) {
+function speakWithWebSpeech(text, lang = "en-US", gender = "male", callback) {
   if (!("speechSynthesis" in window)) {
     if (callback) callback();
     return;
   }
 
-  // Cancel any lingering utterance and unclog browser audio queue
-  window.speechSynthesis.cancel();
-  window.speechSynthesis.resume();
-  clearSpeechKeepAlive();
+  try {
+    window.speechSynthesis.cancel();
+    window.speechSynthesis.resume();
+  } catch (e) {}
 
-  if (!isPartOfSequence) {
-    isDialoguePlaying = false;
-    if (el.btnPlayFullDialogue) el.btnPlayFullDialogue.textContent = "▶ Nghe toàn bộ hội thoại";
-  }
-
-  const cleanText = text.replace(/<[^>]*>/g, '').trim();
-  if (!cleanText) {
-    if (callback) callback();
-    return;
-  }
-
-  const u = new SpeechSynthesisUtterance(cleanText);
-  activeSpeechUtterance = u; // Strong global reference prevents Chrome GC bug
-  u.lang = lang;
+  const u = new SpeechSynthesisUtterance(text);
+  activeSpeechUtterance = u;
+  u.lang = lang.startsWith("vi") ? "vi-VN" : "en-US";
   u.rate = currentSpeechRate || 1.0;
-  u.pitch = (gender === "female") ? 1.25 : 0.95; // Distinct pitch for Male vs Female
+  u.pitch = (gender === "female") ? 1.25 : 0.95;
 
-  if (lang.startsWith("en")) {
-    const voice = getVoiceForGender(gender);
-    if (voice) u.voice = voice;
-  } else if (lang.startsWith("vi")) {
-    const voices = getAvailableVoices();
-    const viVoice = voices.find(v => v.lang && (v.lang.includes("vi") || v.lang.includes("VI")));
-    if (viVoice) u.voice = viVoice;
-  }
-
-  let hasEnded = false;
-  let watchdogTimer = null;
-
+  let ended = false;
   const finish = () => {
-    if (hasEnded) return;
-    hasEnded = true;
-    if (watchdogTimer) {
-      clearTimeout(watchdogTimer);
-      watchdogTimer = null;
-    }
-    clearSpeechKeepAlive();
-    setAudioBadge(false);
+    if (ended) return;
+    ended = true;
     activeSpeechUtterance = null;
     if (callback) callback();
   };
 
   u.onend = finish;
-  u.onerror = (e) => {
-    console.warn("SpeechSynthesis event:", e);
-    finish();
-  };
+  u.onerror = finish;
 
-  // Safety watchdog: In case Chromium fails to fire onend event between utterances
-  const wordCount = cleanText.split(/\s+/).length;
-  const maxWaitMs = Math.max(3500, (wordCount / 2.2) * 1000 + 2500);
-  watchdogTimer = setTimeout(() => {
-    if (!hasEnded) {
-      console.warn("Watchdog proceeding to next sentence");
-      finish();
-    }
-  }, maxWaitMs);
-
-  setAudioBadge(true);
-  startSpeechKeepAlive();
-
-  // Small delay to ensure smooth speech trigger in Chromium
   setTimeout(() => {
     try {
       window.speechSynthesis.speak(u);
-    } catch (err) {
-      console.warn("speak error:", err);
+    } catch (e) {
       finish();
     }
-  }, 40);
+  }, 20);
 }
 
 function speakVi(text, callback) {
-  speakUtterance(text, "vi-VN", "female", callback, false);
+  playAudioStream(text, "vi", "female", callback, false);
 }
 
 function speakEn(text, gender = "male", callback) {
-  speakUtterance(text, "en-US", gender, callback, false);
+  playAudioStream(text, "en", gender, callback, false);
 }
 
 function stopAllAudio() {
-  clearSpeechKeepAlive();
+  if (currentPlayingAudio) {
+    try {
+      currentPlayingAudio.pause();
+      currentPlayingAudio.currentTime = 0;
+    } catch (e) {}
+    currentPlayingAudio = null;
+  }
   if ("speechSynthesis" in window) {
-    window.speechSynthesis.cancel();
+    try {
+      window.speechSynthesis.cancel();
+    } catch (e) {}
   }
   setAudioBadge(false);
   activeSpeechUtterance = null;
@@ -990,10 +979,10 @@ function playFullDialogue() {
     }
 
     const currentLine = lines[dialoguePlaybackIndex];
-    speakUtterance(currentLine.en, "en-US", currentLine.gender, () => {
+    playAudioStream(currentLine.en, "en", currentLine.gender, () => {
       if (!isDialoguePlaying) return;
       dialoguePlaybackIndex++;
-      setTimeout(playNextLine, 500);
+      setTimeout(playNextLine, 350);
     }, true);
   }
 
