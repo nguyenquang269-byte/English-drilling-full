@@ -702,6 +702,20 @@ function loadSelectedLesson() {
   }
   if (sel) sel.value = fileName;
 
+  // 1. Instant Offline / In-Memory Bundle Check (Zero CORS & Zero Network Dependency)
+  if (window.HOCDRILL_LESSONS && window.HOCDRILL_LESSONS[fileName]) {
+    const data = window.HOCDRILL_LESSONS[fileName];
+    lessonData = data;
+    currentTargetIndex = 0;
+    currentMode = 1;
+    resetLessonTimer();
+    renderDialogueStep();
+    showStep("dialogue");
+    updateOverallProgressUI();
+    return;
+  }
+
+  // 2. Network / Server Fallback
   const pad = fileName.replace(".json", "");
   const numOnly = pad.replace("lesson-", "");
 
@@ -1205,6 +1219,24 @@ function startReviewQuiz() {
 }
 
 function fallbackLoadReviewPool(lessonFiles, count) {
+  // 1. Instant Offline / In-Memory Bundle Check
+  if (window.HOCDRILL_EXERCISES) {
+    let pool = [];
+    lessonFiles.forEach(fn => {
+      const pad = fn.replace(".json", "").replace("lesson-", "");
+      const exKey = `exercise-${pad}.json`;
+      if (window.HOCDRILL_EXERCISES[exKey] && window.HOCDRILL_EXERCISES[exKey].questions) {
+        pool.push(...window.HOCDRILL_EXERCISES[exKey].questions);
+      }
+    });
+    if (pool.length > 0) {
+      pool.sort(() => Math.random() - 0.5);
+      initQuizState(pool.slice(0, count), count);
+      return;
+    }
+  }
+
+  // 2. Network Fallback
   const base = window.location.pathname.endsWith('/') ? window.location.pathname : window.location.pathname.substring(0, window.location.pathname.lastIndexOf('/') + 1);
   const promises = lessonFiles.slice(0, 20).map(fn => {
     const pad = fn.replace(".json", "").replace("lesson-", "");

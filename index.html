@@ -22,8 +22,13 @@
     * { box-sizing: border-box; margin: 0; padding: 0; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, sans-serif; }
     body { background: var(--bg); color: var(--text); max-width: 960px; margin: 0 auto; padding: 16px; line-height: 1.5; }
 
+    /* Dr.Q Corner Logo */
+    .drq-corner-logo { position: fixed; top: 10px; left: 12px; z-index: 9999; }
+    .drq-badge { display: inline-flex; align-items: center; gap: 4px; background: #0f172a; color: #ffffff; padding: 4px 10px; border-radius: 12px; font-size: 12px; font-weight: 800; border: 1px solid rgba(255,255,255,0.2); box-shadow: 0 2px 8px rgba(0,0,0,0.15); letter-spacing: 0.5px; user-select: none; }
+    .drq-text { color: #60a5fa; font-weight: 900; }
+
     /* Header & Nav */
-    header { text-align: center; margin-bottom: 16px; padding: 16px; background: var(--card-bg); border-radius: 16px; border: 1px solid var(--border); box-shadow: 0 4px 12px rgba(0,0,0,0.03); }
+    header { text-align: center; margin-bottom: 16px; padding: 16px; background: var(--card-bg); border-radius: 16px; border: 1px solid var(--border); box-shadow: 0 4px 12px rgba(0,0,0,0.03); margin-top: 10px; }
     h1 { font-size: 24px; color: var(--primary); font-weight: 700; margin-bottom: 4px; display: flex; align-items: center; justify-content: center; gap: 8px; }
     .subtitle { font-size: 14px; color: var(--muted); }
 
@@ -162,6 +167,13 @@
   </style>
 </head>
 <body>
+
+  <!-- Small Dr.Q Corner Logo -->
+  <div class="drq-corner-logo">
+    <div class="drq-badge">
+      <span>🎓</span> <span class="drq-text">Dr.Q</span>
+    </div>
+  </div>
 
   <!-- Header -->
   <header>
@@ -637,6 +649,7 @@
 
   </div>
 
+  <script src="data/lessons-bundle.js"></script>
   <script src="app.js"></script>
 </body>
 </html>

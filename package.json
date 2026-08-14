@@ -5,7 +5,7 @@
   "scripts": {
     "dev": "node server.js",
     "start": "node server.js",
-    "build": "node scripts/build_exercises.js"
+    "build": "node scripts/build_exercises.js && node scripts/build_bundle.js"
   },
   "keywords": ["english", "learning", "speaking"],
   "author": "nguyenquang269-byte",
