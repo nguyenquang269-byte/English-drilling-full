@@ -10,10 +10,10 @@
       "promptVi": "[Trắc nghiệm ngữ pháp] Chọn từ đúng để hoàn thành câu (Tôi có thể nói tiếng Anh một cách lưu loát.):",
       "question": "I ___ speak English fluently.",
       "options": [
-        "do",
-        "can",
         "have",
-        "am"
+        "can",
+        "am",
+        "do"
       ],
       "correctAnswer": "can",
       "explanationVi": "Diễn tả khả năng 'có thể' dùng modal verb 'can'."
@@ -25,9 +25,9 @@
       "question": "Can you ___ across the river?",
       "options": [
         "swim",
-        "swimming",
+        "swam",
         "swims",
-        "swam"
+        "swimming"
       ],
       "correctAnswer": "swim",
       "explanationVi": "Sau 'Can' luôn dùng động từ nguyên mẫu không to (swim)."
@@ -38,10 +38,10 @@
       "promptVi": "[Trắc nghiệm ngữ pháp] Chọn từ đúng để hoàn thành câu (Tôi có thể mượn bút của bạn được không, làm ơn?):",
       "question": "Can I ___ your pen, please?",
       "options": [
+        "borrow",
         "borrows",
         "lend",
-        "borrowing",
-        "borrow"
+        "borrowing"
       ],
       "correctAnswer": "borrow",
       "explanationVi": "'borrow' (mượn) ở dạng nguyên mẫu sau 'Can I'."
@@ -53,9 +53,9 @@
       "question": "He ___ drive a car yet.",
       "options": [
         "hasn't",
-        "can't",
+        "isn't",
         "doesn't",
-        "isn't"
+        "can't"
       ],
       "correctAnswer": "can't",
       "explanationVi": "Phủ định năng lực dùng 'can't'."
@@ -68,8 +68,8 @@
       "options": [
         "Can you speak Japanese or French, Penelope?",
         "I can speak conversational Japanese fluently, but I can't speak French.",
-        "We are studying English today.",
-        "is"
+        "is",
+        "We are studying English today."
       ],
       "correctAnswer": "Can you speak Japanese or French, Penelope?",
       "explanationVi": "Câu dịch chuẩn xác: \"Can you speak Japanese or French, Penelope?\" (Bạn có thể nói tiếng Nhật hay tiếng Pháp không, Penelope?)."
@@ -81,9 +81,9 @@
       "question": "Khi đối phương nói: \"Can you speak Japanese or French, Penelope?\", câu phản hồi phù hợp là gì?",
       "options": [
         "Yes, I will eat it.",
+        "No, it was yesterday.",
         "I can speak conversational Japanese fluently, but I can't speak French.",
-        "They are not in the office.",
-        "No, it was yesterday."
+        "They are not in the office."
       ],
       "correctAnswer": "I can speak conversational Japanese fluently, but I can't speak French.",
       "explanationVi": "Phản hồi phù hợp trong bài: \"I can speak conversational Japanese fluently, but I can't speak French.\" (Tôi có thể nói tiếng Nhật giao tiếp lưu loát, nhưng tôi không thể nói tiếng Pháp.)."
@@ -95,9 +95,9 @@
       "question": "I ___ speak English fluently.",
       "correctAnswer": "can",
       "options": [
-        "have",
         "can",
         "am",
+        "have",
         "do"
       ],
       "explanationVi": "Đáp án đúng là \"can\". Câu hoàn chỉnh: \"I can speak English fluently.\" (Tôi có thể nói tiếng Anh một cách lưu loát.)."
@@ -109,10 +109,10 @@
       "question": "Can you ___ across the river?",
       "correctAnswer": "swim",
       "options": [
-        "swimming",
-        "swims",
         "swam",
-        "swim"
+        "swimming",
+        "swim",
+        "swims"
       ],
       "explanationVi": "Đáp án đúng là \"swim\". Câu hoàn chỉnh: \"Can you swim across the river?\" (Bạn có thể bơi qua sông không?)."
     },
@@ -123,10 +123,10 @@
       "question": "Can I ___ your pen, please?",
       "correctAnswer": "borrow",
       "options": [
-        "borrows",
+        "borrow",
         "borrowing",
         "lend",
-        "borrow"
+        "borrows"
       ],
       "explanationVi": "Đáp án đúng là \"borrow\". Câu hoàn chỉnh: \"Can I borrow your pen, please?\" (Tôi có thể mượn bút của bạn được không, làm ơn?)."
     },
@@ -137,9 +137,9 @@
       "question": "He ___ drive a car yet.",
       "correctAnswer": "can't",
       "options": [
-        "doesn't",
         "can't",
         "hasn't",
+        "doesn't",
         "isn't"
       ],
       "explanationVi": "Đáp án đúng là \"can't\". Câu hoàn chỉnh: \"He can't drive a car yet.\" (Anh ấy vẫn chưa biết lái xe ô tô.)."
@@ -151,10 +151,10 @@
       "question": "I _____ not speak English fluently.",
       "correctAnswer": "can",
       "options": [
-        "are",
-        "can",
         "am",
-        "is"
+        "are",
+        "is",
+        "can"
       ],
       "explanationVi": "Câu phủ định hoàn chỉnh: \"I can not speak English fluently.\"."
     },
@@ -165,10 +165,10 @@
       "question": "Sắp xếp các từ để tạo thành câu đúng: \"Tôi có thể nói tiếng Anh một cách lưu loát.\"",
       "words": [
         "can",
-        "English",
-        "I",
         "fluently.",
-        "speak"
+        "speak",
+        "I",
+        "English"
       ],
       "correctSentence": "I can speak English fluently.",
       "hintVi": "Tôi có thể nói tiếng Anh một cách lưu loát.",
@@ -180,12 +180,12 @@
       "promptVi": "[Sắp xếp câu] Ghép các khối từ thành câu hoàn chỉnh mang nghĩa: \"Bạn có thể bơi qua sông không?\"",
       "question": "Sắp xếp các từ để tạo thành câu đúng: \"Bạn có thể bơi qua sông không?\"",
       "words": [
-        "river?",
-        "Can",
-        "the",
-        "across",
         "swim",
-        "you"
+        "river?",
+        "the",
+        "Can",
+        "you",
+        "across"
       ],
       "correctSentence": "Can you swim across the river?",
       "hintVi": "Bạn có thể bơi qua sông không?",
@@ -198,10 +198,10 @@
       "question": "Sắp xếp các từ để tạo thành câu đúng: \"Tôi có thể mượn bút của bạn được không, làm ơn?\"",
       "words": [
         "please?",
-        "pen,",
-        "borrow",
-        "I",
         "your",
+        "I",
+        "borrow",
+        "pen,",
         "Can"
       ],
       "correctSentence": "Can I borrow your pen, please?",
@@ -214,12 +214,12 @@
       "promptVi": "[Sắp xếp câu] Ghép các khối từ thành câu hoàn chỉnh mang nghĩa: \"Anh ấy vẫn chưa biết lái xe ô tô.\"",
       "question": "Sắp xếp các từ để tạo thành câu đúng: \"Anh ấy vẫn chưa biết lái xe ô tô.\"",
       "words": [
-        "He",
-        "a",
-        "drive",
-        "can't",
         "yet.",
-        "car"
+        "car",
+        "drive",
+        "a",
+        "He",
+        "can't"
       ],
       "correctSentence": "He can't drive a car yet.",
       "hintVi": "Anh ấy vẫn chưa biết lái xe ô tô.",
@@ -231,16 +231,16 @@
       "promptVi": "[Sắp xếp câu] Ghép các từ thành câu hội thoại: \"Thật ấn tượng! Bạn cũng có thể viết chữ Hán Kanji tiếng Nhật chứ?\"",
       "question": "Sắp xếp các từ để tạo thành câu thoại: \"Thật ấn tượng! Bạn cũng có thể viết chữ Hán Kanji tiếng Nhật chứ?\"",
       "words": [
-        "also",
-        "Kanji",
         "Can",
-        "That",
-        "is",
-        "you",
         "impressive",
+        "characters",
+        "Kanji",
+        "you",
+        "is",
         "write",
-        "Japanese",
-        "characters"
+        "That",
+        "also",
+        "Japanese"
       ],
       "correctSentence": "That is impressive! Can you also write Japanese Kanji characters?",
       "hintVi": "Thật ấn tượng! Bạn cũng có thể viết chữ Hán Kanji tiếng Nhật chứ?",
@@ -252,10 +252,10 @@
       "promptVi": "[Nhận diện cấu trúc chuẩn] Chọn câu có cấu trúc ngữ pháp HOÀN TOÀN ĐÚNG:",
       "question": "Dựa vào chủ điểm \"Bài 34: Động từ Khuyết thiếu — Can / Can’t (Khả năng & Xin phép)\", câu nào sau đây CHÍNH XÁC?",
       "options": [
-        "are",
         "is",
+        "fluently. English speak can I",
         "I can speak English fluently.",
-        "fluently. English speak can I"
+        "are"
       ],
       "correctAnswer": "I can speak English fluently.",
       "explanationVi": "Cấu trúc chuẩn xác là: \"I can speak English fluently.\" (Tôi có thể nói tiếng Anh một cách lưu loát.)."
@@ -266,10 +266,10 @@
       "promptVi": "[Nhận diện cấu trúc chuẩn] Chọn câu có cấu trúc ngữ pháp HOÀN TOÀN ĐÚNG:",
       "question": "Dựa vào chủ điểm \"Bài 34: Động từ Khuyết thiếu — Can / Can’t (Khả năng & Xin phép)\", câu nào sau đây CHÍNH XÁC?",
       "options": [
-        "river? the across swim you Can",
+        "is",
         "are",
-        "Can you swim across the river?",
-        "is"
+        "river? the across swim you Can",
+        "Can you swim across the river?"
       ],
       "correctAnswer": "Can you swim across the river?",
       "explanationVi": "Cấu trúc chuẩn xác là: \"Can you swim across the river?\" (Bạn có thể bơi qua sông không?)."
@@ -280,10 +280,10 @@
       "promptVi": "[Nhận diện cấu trúc chuẩn] Chọn câu có cấu trúc ngữ pháp HOÀN TOÀN ĐÚNG:",
       "question": "Dựa vào chủ điểm \"Bài 34: Động từ Khuyết thiếu — Can / Can’t (Khả năng & Xin phép)\", câu nào sau đây CHÍNH XÁC?",
       "options": [
-        "Can I borrow your pen, please?",
-        "please? pen, your borrow I Can",
         "are",
-        "is"
+        "is",
+        "please? pen, your borrow I Can",
+        "Can I borrow your pen, please?"
       ],
       "correctAnswer": "Can I borrow your pen, please?",
       "explanationVi": "Cấu trúc chuẩn xác là: \"Can I borrow your pen, please?\" (Tôi có thể mượn bút của bạn được không, làm ơn?)."
@@ -294,10 +294,10 @@
       "promptVi": "[Nhận diện cấu trúc chuẩn] Chọn câu có cấu trúc ngữ pháp HOÀN TOÀN ĐÚNG:",
       "question": "Dựa vào chủ điểm \"Bài 34: Động từ Khuyết thiếu — Can / Can’t (Khả năng & Xin phép)\", câu nào sau đây CHÍNH XÁC?",
       "options": [
-        "He can't drive a car yet.",
-        "yet. car a drive can't He",
         "is",
-        "are"
+        "are",
+        "yet. car a drive can't He",
+        "He can't drive a car yet."
       ],
       "correctAnswer": "He can't drive a car yet.",
       "explanationVi": "Cấu trúc chuẩn xác là: \"He can't drive a car yet.\" (Anh ấy vẫn chưa biết lái xe ô tô.)."
@@ -309,10 +309,10 @@
       "audioPrompt": "Can you speak Japanese or French, Penelope?",
       "question": "Nhấn nút '🔊 Nghe audio' và chọn nghĩa tiếng Việt đúng:",
       "options": [
+        "Thật ấn tượng! Bạn cũng có thể viết chữ Hán Kanji tiếng Nhật chứ?",
         "Hôm nay thời tiết rất đẹp.",
-        "Tôi có thể nói tiếng Nhật giao tiếp lưu loát, nhưng tôi không thể nói tiếng Pháp.",
         "Bạn có thể nói tiếng Nhật hay tiếng Pháp không, Penelope?",
-        "Thật ấn tượng! Bạn cũng có thể viết chữ Hán Kanji tiếng Nhật chứ?"
+        "Tôi có thể nói tiếng Nhật giao tiếp lưu loát, nhưng tôi không thể nói tiếng Pháp."
       ],
       "correctAnswer": "Bạn có thể nói tiếng Nhật hay tiếng Pháp không, Penelope?",
       "explanationVi": "Câu nghe được: \"Can you speak Japanese or French, Penelope?\" có nghĩa là: \"Bạn có thể nói tiếng Nhật hay tiếng Pháp không, Penelope?\"."
@@ -324,10 +324,10 @@
       "audioPrompt": "I can speak conversational Japanese fluently, but I can't speak French.",
       "question": "Nhấn nút '🔊 Nghe audio' và chọn nghĩa tiếng Việt đúng:",
       "options": [
-        "Thật ấn tượng! Bạn cũng có thể viết chữ Hán Kanji tiếng Nhật chứ?",
-        "Hôm nay thời tiết rất đẹp.",
         "Có, tôi có thể viết các ký tự cơ bản, nhưng tôi không thể đọc tác phẩm văn học khó.",
-        "Tôi có thể nói tiếng Nhật giao tiếp lưu loát, nhưng tôi không thể nói tiếng Pháp."
+        "Thật ấn tượng! Bạn cũng có thể viết chữ Hán Kanji tiếng Nhật chứ?",
+        "Tôi có thể nói tiếng Nhật giao tiếp lưu loát, nhưng tôi không thể nói tiếng Pháp.",
+        "Hôm nay thời tiết rất đẹp."
       ],
       "correctAnswer": "Tôi có thể nói tiếng Nhật giao tiếp lưu loát, nhưng tôi không thể nói tiếng Pháp.",
       "explanationVi": "Câu nghe được: \"I can speak conversational Japanese fluently, but I can't speak French.\" có nghĩa là: \"Tôi có thể nói tiếng Nhật giao tiếp lưu loát, nhưng tôi không thể nói tiếng Pháp.\"."
@@ -339,10 +339,10 @@
       "audioPrompt": "That is impressive! Can you also write Japanese Kanji characters?",
       "question": "Nhấn nút '🔊 Nghe audio' và chọn nghĩa tiếng Việt đúng:",
       "options": [
+        "Bạn có thể bơi qua hồ bơi Olympic rộng lớn này không?",
         "Hôm nay thời tiết rất đẹp.",
-        "Thật ấn tượng! Bạn cũng có thể viết chữ Hán Kanji tiếng Nhật chứ?",
         "Có, tôi có thể viết các ký tự cơ bản, nhưng tôi không thể đọc tác phẩm văn học khó.",
-        "Bạn có thể bơi qua hồ bơi Olympic rộng lớn này không?"
+        "Thật ấn tượng! Bạn cũng có thể viết chữ Hán Kanji tiếng Nhật chứ?"
       ],
       "correctAnswer": "Thật ấn tượng! Bạn cũng có thể viết chữ Hán Kanji tiếng Nhật chứ?",
       "explanationVi": "Câu nghe được: \"That is impressive! Can you also write Japanese Kanji characters?\" có nghĩa là: \"Thật ấn tượng! Bạn cũng có thể viết chữ Hán Kanji tiếng Nhật chứ?\"."
@@ -355,8 +355,8 @@
       "question": "Nhấn nút '🔊 Nghe audio' và chọn nghĩa tiếng Việt đúng:",
       "options": [
         "Hôm nay thời tiết rất đẹp.",
-        "Bạn có thể bơi qua hồ bơi Olympic rộng lớn này không?",
         "Không, tôi không thể bơi giỏi lắm vì tôi sợ nước sâu.",
+        "Bạn có thể bơi qua hồ bơi Olympic rộng lớn này không?",
         "Có, tôi có thể viết các ký tự cơ bản, nhưng tôi không thể đọc tác phẩm văn học khó."
       ],
       "correctAnswer": "Có, tôi có thể viết các ký tự cơ bản, nhưng tôi không thể đọc tác phẩm văn học khó.",
@@ -406,9 +406,9 @@
       "question": "Dựa vào đoạn đối thoại trên, thông tin nào sau đây là CHÍNH XÁC về nội dung câu nói của Oscar?",
       "options": [
         "Oscar chia sẻ thông tin: \"Bạn có thể nói tiếng Nhật hay tiếng Pháp không, Penelope?\"",
-        "Oscar muốn mượn tiền để mua vé máy bay gấp.",
+        "Oscar từ chối trả lời và yêu cầu hủy cuộc hẹn.",
         "Oscar phàn nàn rằng thời tiết hôm nay quá xấu.",
-        "Oscar từ chối trả lời và yêu cầu hủy cuộc hẹn."
+        "Oscar muốn mượn tiền để mua vé máy bay gấp."
       ],
       "correctAnswer": "Oscar chia sẻ thông tin: \"Bạn có thể nói tiếng Nhật hay tiếng Pháp không, Penelope?\"",
       "explanationVi": "Trong đoạn hội thoại, Oscar đã nói: \"Can you speak Japanese or French, Penelope?\" (nghĩa là: \"Bạn có thể nói tiếng Nhật hay tiếng Pháp không, Penelope?\")."
@@ -420,9 +420,9 @@
       "passage": "Oscar: \"Can you swim across this wide Olympic swimming pool?\"\nPenelope: \"No, I can't swim very well because I am afraid of deep water.\"\nOscar: \"Can I borrow your acoustic guitar for the talent show tonight?\"\nPenelope: \"Sure, you can take it! Can you play classical songs on the guitar?\"",
       "question": "Trong đoạn hội thoại trên, câu nói \"Sure, you can take it! Can you play classical songs on the guitar?\" của Penelope mang ý nghĩa gì?",
       "options": [
-        "Phản hồi: \"Chắc chắn rồi, bạn có thể lấy nó! Bạn có thể chơi các bài hát cổ điển trên đàn ghi-ta không?\"",
         "Phản hồi: \"Yêu cầu cung cấp hóa đơn thanh toán tiền mặt\"",
         "Phản hồi: \"Hoàn toàn không đồng ý và muốn rời khỏi phòng ngay lập tức\"",
+        "Phản hồi: \"Chắc chắn rồi, bạn có thể lấy nó! Bạn có thể chơi các bài hát cổ điển trên đàn ghi-ta không?\"",
         "Phản hồi: \"Hẹn gặp lại vào cuối tuần sau tại sân bay quốc tế\""
       ],
       "correctAnswer": "Phản hồi: \"Chắc chắn rồi, bạn có thể lấy nó! Bạn có thể chơi các bài hát cổ điển trên đàn ghi-ta không?\"",

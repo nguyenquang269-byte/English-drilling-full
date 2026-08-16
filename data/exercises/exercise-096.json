@@ -24,10 +24,10 @@
       "promptVi": "[Trắc nghiệm ngữ pháp] Chọn từ đúng để hoàn thành câu (Ủy ban đang điều tra nguyên nhân của vụ tai nạn.):",
       "question": "The committee is looking ___ the cause of the accident.",
       "options": [
-        "after",
-        "into",
         "at",
-        "for"
+        "after",
+        "for",
+        "into"
       ],
       "correctAnswer": "into",
       "explanationVi": "'look into' mang nghĩa điều tra, nghiên cứu một vụ việc."
@@ -38,8 +38,8 @@
       "promptVi": "[Trắc nghiệm ngữ pháp] Chọn từ đúng để hoàn thành câu (Bạn phải kiên trì bám sát kế hoạch ban đầu.):",
       "question": "You must stick ___ the original plan.",
       "options": [
-        "with",
         "at",
+        "with",
         "on",
         "to"
       ],
@@ -52,10 +52,10 @@
       "promptVi": "[Trắc nghiệm ngữ pháp] Chọn từ đúng để hoàn thành câu (Một cuộc tranh cãi nhỏ đã biến thành một cuộc xung đột lớn.):",
       "question": "A small argument turned ___ a big conflict.",
       "options": [
-        "on",
-        "up",
         "into",
-        "off"
+        "on",
+        "off",
+        "up"
       ],
       "correctAnswer": "into",
       "explanationVi": "'turn into' có nghĩa là biến hóa, chuyển hóa thành cái gì."
@@ -66,10 +66,10 @@
       "promptVi": "[Phản xạ dịch thuật] Dịch câu sau sang tiếng Anh: \"Chào buổi sáng Maya. Hãy cùng khởi động buổi họp phân tích pháp y kỹ thuật số khẩn cấp liên quan đến vụ xâm nhập tường lửa đêm qua. (kick off = bắt đầu/khởi động)\"",
       "question": "Chọn bản dịch chuẩn xác nhất cho câu: \"Chào buổi sáng Maya. Hãy cùng khởi động buổi họp phân tích pháp y kỹ thuật số khẩn cấp liên quan đến vụ xâm nhập tường lửa đêm qua. (kick off = bắt đầu/khởi động)\"",
       "options": [
-        "Our cybersecurity team is looking into the server access logs to figure out how the malware broke in.",
-        "Good morning, Maya. Let's kick off our emergency forensic debrief regarding last night's firewall breach.",
         "is",
-        "We are studying English today."
+        "We are studying English today.",
+        "Our cybersecurity team is looking into the server access logs to figure out how the malware broke in.",
+        "Good morning, Maya. Let's kick off our emergency forensic debrief regarding last night's firewall breach."
       ],
       "correctAnswer": "Good morning, Maya. Let's kick off our emergency forensic debrief regarding last night's firewall breach.",
       "explanationVi": "Câu dịch chuẩn xác: \"Good morning, Maya. Let's kick off our emergency forensic debrief regarding last night's firewall breach.\" (Chào buổi sáng Maya. Hãy cùng khởi động buổi họp phân tích pháp y kỹ thuật số khẩn cấp liên quan đến vụ xâm nhập tường lửa đêm qua. (kick off = bắt đầu/khởi động))."
@@ -80,10 +80,10 @@
       "promptVi": "[Ngữ cảnh giao tiếp] Chọn câu phản hồi tự nhiên và đúng ngữ pháp:",
       "question": "Khi đối phương nói: \"Good morning, Maya. Let's kick off our emergency forensic debrief regarding last night's firewall breach.\", câu phản hồi phù hợp là gì?",
       "options": [
+        "They are not in the office.",
         "Yes, I will eat it.",
-        "Our cybersecurity team is looking into the server access logs to figure out how the malware broke in.",
         "No, it was yesterday.",
-        "They are not in the office."
+        "Our cybersecurity team is looking into the server access logs to figure out how the malware broke in."
       ],
       "correctAnswer": "Our cybersecurity team is looking into the server access logs to figure out how the malware broke in.",
       "explanationVi": "Phản hồi phù hợp trong bài: \"Our cybersecurity team is looking into the server access logs to figure out how the malware broke in.\" (Đội ngũ an ninh mạng của chúng tôi đang điều tra các nhật ký truy cập máy chủ để tìm ra cách thức phần mềm độc hại đã đột nhập. (look into / figure out / break in))."
@@ -95,10 +95,10 @@
       "question": "The meeting will kick ___ at nine o'clock tomorrow morning.",
       "correctAnswer": "off",
       "options": [
-        "up",
         "off",
+        "out",
         "on",
-        "out"
+        "up"
       ],
       "explanationVi": "Đáp án đúng là \"off\". Câu hoàn chỉnh: \"The meeting will kick off at nine o'clock tomorrow morning.\" (Cuộc họp sẽ bắt đầu lúc chín giờ sáng mai.)."
     },
@@ -109,10 +109,10 @@
       "question": "The committee is looking ___ the cause of the accident.",
       "correctAnswer": "into",
       "options": [
-        "into",
-        "at",
+        "after",
         "for",
-        "after"
+        "at",
+        "into"
       ],
       "explanationVi": "Đáp án đúng là \"into\". Câu hoàn chỉnh: \"The committee is looking into the cause of the accident.\" (Ủy ban đang điều tra nguyên nhân của vụ tai nạn.)."
     },
@@ -123,10 +123,10 @@
       "question": "You must stick ___ the original plan.",
       "correctAnswer": "to",
       "options": [
-        "on",
-        "to",
+        "at",
         "with",
-        "at"
+        "on",
+        "to"
       ],
       "explanationVi": "Đáp án đúng là \"to\". Câu hoàn chỉnh: \"You must stick to the original plan.\" (Bạn phải kiên trì bám sát kế hoạch ban đầu.)."
     },
@@ -138,8 +138,8 @@
       "correctAnswer": "into",
       "options": [
         "up",
-        "on",
         "into",
+        "on",
         "off"
       ],
       "explanationVi": "Đáp án đúng là \"into\". Câu hoàn chỉnh: \"A small argument turned into a big conflict.\" (Một cuộc tranh cãi nhỏ đã biến thành một cuộc xung đột lớn.)."
@@ -151,9 +151,9 @@
       "question": "The _____ not will kick off at nine o'clock tomorrow morning.",
       "correctAnswer": "meeting",
       "options": [
+        "meeting",
         "am",
         "is",
-        "meeting",
         "are"
       ],
       "explanationVi": "Câu phủ định hoàn chỉnh: \"The meeting not will kick off at nine o'clock tomorrow morning.\"."
@@ -164,16 +164,16 @@
       "promptVi": "[Sắp xếp câu] Ghép các khối từ thành câu hoàn chỉnh mang nghĩa: \"Cuộc họp sẽ bắt đầu lúc chín giờ sáng mai.\"",
       "question": "Sắp xếp các từ để tạo thành câu đúng: \"Cuộc họp sẽ bắt đầu lúc chín giờ sáng mai.\"",
       "words": [
-        "The",
-        "morning.",
-        "tomorrow",
-        "o'clock",
-        "nine",
-        "will",
-        "at",
-        "off",
         "kick",
-        "meeting"
+        "meeting",
+        "morning.",
+        "off",
+        "nine",
+        "at",
+        "will",
+        "The",
+        "tomorrow",
+        "o'clock"
       ],
       "correctSentence": "The meeting will kick off at nine o'clock tomorrow morning.",
       "hintVi": "Cuộc họp sẽ bắt đầu lúc chín giờ sáng mai.",
@@ -185,16 +185,16 @@
       "promptVi": "[Sắp xếp câu] Ghép các khối từ thành câu hoàn chỉnh mang nghĩa: \"Ủy ban đang điều tra nguyên nhân của vụ tai nạn.\"",
       "question": "Sắp xếp các từ để tạo thành câu đúng: \"Ủy ban đang điều tra nguyên nhân của vụ tai nạn.\"",
       "words": [
-        "accident.",
         "is",
-        "the",
-        "the",
-        "of",
+        "cause",
         "committee",
-        "looking",
+        "of",
+        "the",
+        "the",
+        "accident.",
         "into",
         "The",
-        "cause"
+        "looking"
       ],
       "correctSentence": "The committee is looking into the cause of the accident.",
       "hintVi": "Ủy ban đang điều tra nguyên nhân của vụ tai nạn.",
@@ -206,13 +206,13 @@
       "promptVi": "[Sắp xếp câu] Ghép các khối từ thành câu hoàn chỉnh mang nghĩa: \"Bạn phải kiên trì bám sát kế hoạch ban đầu.\"",
       "question": "Sắp xếp các từ để tạo thành câu đúng: \"Bạn phải kiên trì bám sát kế hoạch ban đầu.\"",
       "words": [
-        "the",
-        "to",
-        "You",
         "must",
-        "plan.",
+        "the",
+        "original",
         "stick",
-        "original"
+        "plan.",
+        "to",
+        "You"
       ],
       "correctSentence": "You must stick to the original plan.",
       "hintVi": "Bạn phải kiên trì bám sát kế hoạch ban đầu.",
@@ -224,13 +224,13 @@
       "promptVi": "[Sắp xếp câu] Ghép các khối từ thành câu hoàn chỉnh mang nghĩa: \"Một cuộc tranh cãi nhỏ đã biến thành một cuộc xung đột lớn.\"",
       "question": "Sắp xếp các từ để tạo thành câu đúng: \"Một cuộc tranh cãi nhỏ đã biến thành một cuộc xung đột lớn.\"",
       "words": [
-        "A",
+        "into",
         "small",
         "a",
-        "conflict.",
-        "into",
-        "turned",
         "big",
+        "conflict.",
+        "turned",
+        "A",
         "argument"
       ],
       "correctSentence": "A small argument turned into a big conflict.",
@@ -243,21 +243,21 @@
       "promptVi": "[Sắp xếp câu] Ghép các từ thành câu hội thoại: \"Hệ thống phát hiện xâm nhập tự động có kích hoạt còi báo động âm thanh tại trung tâm điều hành mạng không? (set off = kích hoạt/phát nổ)\"",
       "question": "Sắp xếp các từ để tạo thành câu thoại: \"Hệ thống phát hiện xâm nhập tự động có kích hoạt còi báo động âm thanh tại trung tâm điều hành mạng không? (set off = kích hoạt/phát nổ)\"",
       "words": [
-        "Did",
-        "in",
-        "set",
-        "the",
-        "automated",
         "intrusion",
-        "off",
-        "audio",
+        "automated",
         "the",
-        "alarms",
-        "detection",
-        "system",
-        "center",
         "network",
-        "operations"
+        "detection",
+        "off",
+        "Did",
+        "operations",
+        "the",
+        "audio",
+        "center",
+        "set",
+        "in",
+        "system",
+        "alarms"
       ],
       "correctSentence": "Did the automated intrusion detection system set off audio alarms in the network operations center?",
       "hintVi": "Hệ thống phát hiện xâm nhập tự động có kích hoạt còi báo động âm thanh tại trung tâm điều hành mạng không? (set off = kích hoạt/phát nổ)",
@@ -269,10 +269,10 @@
       "promptVi": "[Nhận diện cấu trúc chuẩn] Chọn câu có cấu trúc ngữ pháp HOÀN TOÀN ĐÚNG:",
       "question": "Dựa vào chủ điểm \"Bài 96: Cụm Động từ Theo Cụm Chủ Đề Ngữ Nghĩa (Thematic Phrasal Verbs: Begin / End / Continue / Investigate / Change)\", câu nào sau đây CHÍNH XÁC?",
       "options": [
-        "The meeting will kick off at nine o'clock tomorrow morning.",
         "are",
+        "is",
         "morning. tomorrow o'clock nine at off kick will meeting The",
-        "is"
+        "The meeting will kick off at nine o'clock tomorrow morning."
       ],
       "correctAnswer": "The meeting will kick off at nine o'clock tomorrow morning.",
       "explanationVi": "Cấu trúc chuẩn xác là: \"The meeting will kick off at nine o'clock tomorrow morning.\" (Cuộc họp sẽ bắt đầu lúc chín giờ sáng mai.)."
@@ -283,9 +283,9 @@
       "promptVi": "[Nhận diện cấu trúc chuẩn] Chọn câu có cấu trúc ngữ pháp HOÀN TOÀN ĐÚNG:",
       "question": "Dựa vào chủ điểm \"Bài 96: Cụm Động từ Theo Cụm Chủ Đề Ngữ Nghĩa (Thematic Phrasal Verbs: Begin / End / Continue / Investigate / Change)\", câu nào sau đây CHÍNH XÁC?",
       "options": [
+        "The committee is looking into the cause of the accident.",
         "The committee be looking into the cause of the accident.",
         "accident. the of cause the into looking is committee The",
-        "The committee is looking into the cause of the accident.",
         "is"
       ],
       "correctAnswer": "The committee is looking into the cause of the accident.",
@@ -297,10 +297,10 @@
       "promptVi": "[Nhận diện cấu trúc chuẩn] Chọn câu có cấu trúc ngữ pháp HOÀN TOÀN ĐÚNG:",
       "question": "Dựa vào chủ điểm \"Bài 96: Cụm Động từ Theo Cụm Chủ Đề Ngữ Nghĩa (Thematic Phrasal Verbs: Begin / End / Continue / Investigate / Change)\", câu nào sau đây CHÍNH XÁC?",
       "options": [
-        "is",
-        "You must stick at the original plan.",
         "plan. original the to stick must You",
-        "You must stick to the original plan."
+        "You must stick at the original plan.",
+        "You must stick to the original plan.",
+        "is"
       ],
       "correctAnswer": "You must stick to the original plan.",
       "explanationVi": "Cấu trúc chuẩn xác là: \"You must stick to the original plan.\" (Bạn phải kiên trì bám sát kế hoạch ban đầu.)."
@@ -311,9 +311,9 @@
       "promptVi": "[Nhận diện cấu trúc chuẩn] Chọn câu có cấu trúc ngữ pháp HOÀN TOÀN ĐÚNG:",
       "question": "Dựa vào chủ điểm \"Bài 96: Cụm Động từ Theo Cụm Chủ Đề Ngữ Nghĩa (Thematic Phrasal Verbs: Begin / End / Continue / Investigate / Change)\", câu nào sau đây CHÍNH XÁC?",
       "options": [
-        "is",
-        "conflict. big a into turned argument small A",
         "A small argument turned into a big conflict.",
+        "conflict. big a into turned argument small A",
+        "is",
         "are"
       ],
       "correctAnswer": "A small argument turned into a big conflict.",
@@ -326,10 +326,10 @@
       "audioPrompt": "Good morning, Maya. Let's kick off our emergency forensic debrief regarding last night's firewall breach.",
       "question": "Nhấn nút '🔊 Nghe audio' và chọn nghĩa tiếng Việt đúng:",
       "options": [
-        "Hệ thống phát hiện xâm nhập tự động có kích hoạt còi báo động âm thanh tại trung tâm điều hành mạng không? (set off = kích hoạt/phát nổ)",
+        "Đội ngũ an ninh mạng của chúng tôi đang điều tra các nhật ký truy cập máy chủ để tìm ra cách thức phần mềm độc hại đã đột nhập. (look into / figure out / break in)",
         "Hôm nay thời tiết rất đẹp.",
-        "Chào buổi sáng Maya. Hãy cùng khởi động buổi họp phân tích pháp y kỹ thuật số khẩn cấp liên quan đến vụ xâm nhập tường lửa đêm qua. (kick off = bắt đầu/khởi động)",
-        "Đội ngũ an ninh mạng của chúng tôi đang điều tra các nhật ký truy cập máy chủ để tìm ra cách thức phần mềm độc hại đã đột nhập. (look into / figure out / break in)"
+        "Hệ thống phát hiện xâm nhập tự động có kích hoạt còi báo động âm thanh tại trung tâm điều hành mạng không? (set off = kích hoạt/phát nổ)",
+        "Chào buổi sáng Maya. Hãy cùng khởi động buổi họp phân tích pháp y kỹ thuật số khẩn cấp liên quan đến vụ xâm nhập tường lửa đêm qua. (kick off = bắt đầu/khởi động)"
       ],
       "correctAnswer": "Chào buổi sáng Maya. Hãy cùng khởi động buổi họp phân tích pháp y kỹ thuật số khẩn cấp liên quan đến vụ xâm nhập tường lửa đêm qua. (kick off = bắt đầu/khởi động)",
       "explanationVi": "Câu nghe được: \"Good morning, Maya. Let's kick off our emergency forensic debrief regarding last night's firewall breach.\" có nghĩa là: \"Chào buổi sáng Maya. Hãy cùng khởi động buổi họp phân tích pháp y kỹ thuật số khẩn cấp liên quan đến vụ xâm nhập tường lửa đêm qua. (kick off = bắt đầu/khởi động)\"."
@@ -341,10 +341,10 @@
       "audioPrompt": "Our cybersecurity team is looking into the server access logs to figure out how the malware broke in.",
       "question": "Nhấn nút '🔊 Nghe audio' và chọn nghĩa tiếng Việt đúng:",
       "options": [
-        "Hệ thống phát hiện xâm nhập tự động có kích hoạt còi báo động âm thanh tại trung tâm điều hành mạng không? (set off = kích hoạt/phát nổ)",
         "Đội ngũ an ninh mạng của chúng tôi đang điều tra các nhật ký truy cập máy chủ để tìm ra cách thức phần mềm độc hại đã đột nhập. (look into / figure out / break in)",
         "Hôm nay thời tiết rất đẹp.",
-        "Có, và các kỹ sư đã lập tức hủy bỏ tất cả các phiên VPN bên ngoài để cô lập các mạng con bị xâm phạm. (call off = hủy bỏ)"
+        "Có, và các kỹ sư đã lập tức hủy bỏ tất cả các phiên VPN bên ngoài để cô lập các mạng con bị xâm phạm. (call off = hủy bỏ)",
+        "Hệ thống phát hiện xâm nhập tự động có kích hoạt còi báo động âm thanh tại trung tâm điều hành mạng không? (set off = kích hoạt/phát nổ)"
       ],
       "correctAnswer": "Đội ngũ an ninh mạng của chúng tôi đang điều tra các nhật ký truy cập máy chủ để tìm ra cách thức phần mềm độc hại đã đột nhập. (look into / figure out / break in)",
       "explanationVi": "Câu nghe được: \"Our cybersecurity team is looking into the server access logs to figure out how the malware broke in.\" có nghĩa là: \"Đội ngũ an ninh mạng của chúng tôi đang điều tra các nhật ký truy cập máy chủ để tìm ra cách thức phần mềm độc hại đã đột nhập. (look into / figure out / break in)\"."
@@ -357,9 +357,9 @@
       "question": "Nhấn nút '🔊 Nghe audio' và chọn nghĩa tiếng Việt đúng:",
       "options": [
         "Có, và các kỹ sư đã lập tức hủy bỏ tất cả các phiên VPN bên ngoài để cô lập các mạng con bị xâm phạm. (call off = hủy bỏ)",
-        "Hôm nay thời tiết rất đẹp.",
+        "Hệ thống phát hiện xâm nhập tự động có kích hoạt còi báo động âm thanh tại trung tâm điều hành mạng không? (set off = kích hoạt/phát nổ)",
         "Nếu chúng ta tiếp tục áp dụng các giao thức zero-trust trên mọi điểm cuối, hệ thống phòng thủ doanh nghiệp của chúng ta sẽ không thể bị chọc thủng. (carry on = tiếp tục)",
-        "Hệ thống phát hiện xâm nhập tự động có kích hoạt còi báo động âm thanh tại trung tâm điều hành mạng không? (set off = kích hoạt/phát nổ)"
+        "Hôm nay thời tiết rất đẹp."
       ],
       "correctAnswer": "Hệ thống phát hiện xâm nhập tự động có kích hoạt còi báo động âm thanh tại trung tâm điều hành mạng không? (set off = kích hoạt/phát nổ)",
       "explanationVi": "Câu nghe được: \"Did the automated intrusion detection system set off audio alarms in the network operations center?\" có nghĩa là: \"Hệ thống phát hiện xâm nhập tự động có kích hoạt còi báo động âm thanh tại trung tâm điều hành mạng không? (set off = kích hoạt/phát nổ)\"."
@@ -371,10 +371,10 @@
       "audioPrompt": "Yes, and engineers immediately called off all external VPN sessions to isolate compromised subnets.",
       "question": "Nhấn nút '🔊 Nghe audio' và chọn nghĩa tiếng Việt đúng:",
       "options": [
-        "Có, và các kỹ sư đã lập tức hủy bỏ tất cả các phiên VPN bên ngoài để cô lập các mạng con bị xâm phạm. (call off = hủy bỏ)",
-        "Nếu chúng ta tiếp tục áp dụng các giao thức zero-trust trên mọi điểm cuối, hệ thống phòng thủ doanh nghiệp của chúng ta sẽ không thể bị chọc thủng. (carry on = tiếp tục)",
         "Hôm nay thời tiết rất đẹp.",
-        "Chúng ta phải kiên trì bám sát cẩm nang ứng phó sự cố và không lệch khỏi các quy trình vận hành tiêu chuẩn. (stick to = kiên trì tuân thủ)"
+        "Chúng ta phải kiên trì bám sát cẩm nang ứng phó sự cố và không lệch khỏi các quy trình vận hành tiêu chuẩn. (stick to = kiên trì tuân thủ)",
+        "Nếu chúng ta tiếp tục áp dụng các giao thức zero-trust trên mọi điểm cuối, hệ thống phòng thủ doanh nghiệp của chúng ta sẽ không thể bị chọc thủng. (carry on = tiếp tục)",
+        "Có, và các kỹ sư đã lập tức hủy bỏ tất cả các phiên VPN bên ngoài để cô lập các mạng con bị xâm phạm. (call off = hủy bỏ)"
       ],
       "correctAnswer": "Có, và các kỹ sư đã lập tức hủy bỏ tất cả các phiên VPN bên ngoài để cô lập các mạng con bị xâm phạm. (call off = hủy bỏ)",
       "explanationVi": "Câu nghe được: \"Yes, and engineers immediately called off all external VPN sessions to isolate compromised subnets.\" có nghĩa là: \"Có, và các kỹ sư đã lập tức hủy bỏ tất cả các phiên VPN bên ngoài để cô lập các mạng con bị xâm phạm. (call off = hủy bỏ)\"."
@@ -422,10 +422,10 @@
       "passage": "Security Director Sean: \"Good morning, Maya. Let's kick off our emergency forensic debrief regarding last night's firewall breach.\"\nMaya: \"Our cybersecurity team is looking into the server access logs to figure out how the malware broke in.\"\nSecurity Director Sean: \"Did the automated intrusion detection system set off audio alarms in the network operations center?\"\nMaya: \"Yes, and engineers immediately called off all external VPN sessions to isolate compromised subnets.\"",
       "question": "Dựa vào đoạn đối thoại trên, thông tin nào sau đây là CHÍNH XÁC về nội dung câu nói của Security Director Sean?",
       "options": [
-        "Security Director Sean phàn nàn rằng thời tiết hôm nay quá xấu.",
-        "Security Director Sean từ chối trả lời và yêu cầu hủy cuộc hẹn.",
         "Security Director Sean chia sẻ thông tin: \"Chào buổi sáng Maya. Hãy cùng khởi động buổi họp phân tích pháp y kỹ thuật số khẩn cấp liên quan đến vụ xâm nhập tường lửa đêm qua. (kick off = bắt đầu/khởi động)\"",
-        "Security Director Sean muốn mượn tiền để mua vé máy bay gấp."
+        "Security Director Sean phàn nàn rằng thời tiết hôm nay quá xấu.",
+        "Security Director Sean muốn mượn tiền để mua vé máy bay gấp.",
+        "Security Director Sean từ chối trả lời và yêu cầu hủy cuộc hẹn."
       ],
       "correctAnswer": "Security Director Sean chia sẻ thông tin: \"Chào buổi sáng Maya. Hãy cùng khởi động buổi họp phân tích pháp y kỹ thuật số khẩn cấp liên quan đến vụ xâm nhập tường lửa đêm qua. (kick off = bắt đầu/khởi động)\"",
       "explanationVi": "Trong đoạn hội thoại, Security Director Sean đã nói: \"Good morning, Maya. Let's kick off our emergency forensic debrief regarding last night's firewall breach.\" (nghĩa là: \"Chào buổi sáng Maya. Hãy cùng khởi động buổi họp phân tích pháp y kỹ thuật số khẩn cấp liên quan đến vụ xâm nhập tường lửa đêm qua. (kick off = bắt đầu/khởi động)\")."
@@ -437,10 +437,10 @@
       "passage": "Security Director Sean: \"If we carry on applying zero-trust protocols across all endpoints, our corporate defenses will remain unbreachable.\"\nMaya: \"We must stick to our incident response playbook and not deviate from standard operating procedures.\"\nSecurity Director Sean: \"How did the malicious phishing email turn into a company-wide ransomware threat so quickly?\"\nMaya: \"An employee clicked on an unverified link, which ended up executing an encrypted payload in the background.\"",
       "question": "Trong đoạn hội thoại trên, câu nói \"An employee clicked on an unverified link, which ended up executing an encrypted payload in the background.\" của Maya mang ý nghĩa gì?",
       "options": [
-        "Phản hồi: \"Yêu cầu cung cấp hóa đơn thanh toán tiền mặt\"",
         "Phản hồi: \"Hẹn gặp lại vào cuối tuần sau tại sân bay quốc tế\"",
+        "Phản hồi: \"Hoàn toàn không đồng ý và muốn rời khỏi phòng ngay lập tức\"",
         "Phản hồi: \"Một nhân viên đã nhấp vào liên kết chưa xác minh, kết cục là đã thực thi một mã độc mã hóa ngầm dưới nền hệ thống. (end up = kết cục là)\"",
-        "Phản hồi: \"Hoàn toàn không đồng ý và muốn rời khỏi phòng ngay lập tức\""
+        "Phản hồi: \"Yêu cầu cung cấp hóa đơn thanh toán tiền mặt\""
       ],
       "correctAnswer": "Phản hồi: \"Một nhân viên đã nhấp vào liên kết chưa xác minh, kết cục là đã thực thi một mã độc mã hóa ngầm dưới nền hệ thống. (end up = kết cục là)\"",
       "explanationVi": "Maya nói: \"An employee clicked on an unverified link, which ended up executing an encrypted payload in the background.\" có nghĩa là: \"Một nhân viên đã nhấp vào liên kết chưa xác minh, kết cục là đã thực thi một mã độc mã hóa ngầm dưới nền hệ thống. (end up = kết cục là)\"."

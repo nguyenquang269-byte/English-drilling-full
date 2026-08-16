@@ -24,9 +24,9 @@
       "promptVi": "[Trắc nghiệm ngữ pháp] Chọn từ đúng để hoàn thành câu (Chúng tôi sẽ có một bài kiểm tra vào thứ Sáu.):",
       "question": "We will have a test ___ Friday.",
       "options": [
-        "in",
         "by",
         "at",
+        "in",
         "on"
       ],
       "correctAnswer": "on",
@@ -38,8 +38,8 @@
       "promptVi": "[Trắc nghiệm ngữ pháp] Chọn từ đúng để hoàn thành câu (Anh ấy sống ở Hà Nội cùng gia đình.):",
       "question": "He lives ___ Hanoi with his family.",
       "options": [
-        "to",
         "in",
+        "to",
         "at",
         "on"
       ],
@@ -52,9 +52,9 @@
       "promptVi": "[Trắc nghiệm ngữ pháp] Chọn từ đúng để hoàn thành câu (Tôi đang đợi bạn tại trạm xe buýt.):",
       "question": "I am waiting for you ___ the bus stop.",
       "options": [
-        "on",
-        "with",
         "at",
+        "with",
+        "on",
         "in"
       ],
       "correctAnswer": "at",
@@ -66,8 +66,8 @@
       "promptVi": "[Phản xạ dịch thuật] Dịch câu sau sang tiếng Anh: \"Chúng ta vẫn gặp nhau lúc 8 giờ sáng mai chứ, Vanessa?\"",
       "question": "Chọn bản dịch chuẩn xác nhất cho câu: \"Chúng ta vẫn gặp nhau lúc 8 giờ sáng mai chứ, Vanessa?\"",
       "options": [
-        "Are we still meeting at eight AM tomorrow morning, Vanessa?",
         "Yes! Let's meet at the cozy coffee shop on Nguyen Hue street.",
+        "Are we still meeting at eight AM tomorrow morning, Vanessa?",
         "be we still meeting at eight AM tomorrow morning, Vanessa?",
         "We are studying English today."
       ],
@@ -80,10 +80,10 @@
       "promptVi": "[Ngữ cảnh giao tiếp] Chọn câu phản hồi tự nhiên và đúng ngữ pháp:",
       "question": "Khi đối phương nói: \"Are we still meeting at eight AM tomorrow morning, Vanessa?\", câu phản hồi phù hợp là gì?",
       "options": [
-        "Yes! Let's meet at the cozy coffee shop on Nguyen Hue street.",
-        "They are not in the office.",
+        "Yes, I will eat it.",
         "No, it was yesterday.",
-        "Yes, I will eat it."
+        "They are not in the office.",
+        "Yes! Let's meet at the cozy coffee shop on Nguyen Hue street."
       ],
       "correctAnswer": "Yes! Let's meet at the cozy coffee shop on Nguyen Hue street.",
       "explanationVi": "Phản hồi phù hợp trong bài: \"Yes! Let's meet at the cozy coffee shop on Nguyen Hue street.\" (Vâng! Hãy gặp nhau ở quán cà phê ấm cúng trên đường Nguyễn Huệ nhé.)."
@@ -96,9 +96,9 @@
       "correctAnswer": "at",
       "options": [
         "in",
-        "at",
         "on",
-        "to"
+        "to",
+        "at"
       ],
       "explanationVi": "Đáp án đúng là \"at\". Câu hoàn chỉnh: \"The meeting starts at eight AM.\" (Cuộc họp bắt đầu lúc 8 giờ sáng.)."
     },
@@ -109,10 +109,10 @@
       "question": "We will have a test ___ Friday.",
       "correctAnswer": "on",
       "options": [
-        "in",
-        "by",
         "at",
-        "on"
+        "in",
+        "on",
+        "by"
       ],
       "explanationVi": "Đáp án đúng là \"on\". Câu hoàn chỉnh: \"We will have a test on Friday.\" (Chúng tôi sẽ có một bài kiểm tra vào thứ Sáu.)."
     },
@@ -123,10 +123,10 @@
       "question": "He lives ___ Hanoi with his family.",
       "correctAnswer": "in",
       "options": [
-        "in",
-        "at",
         "to",
-        "on"
+        "in",
+        "on",
+        "at"
       ],
       "explanationVi": "Đáp án đúng là \"in\". Câu hoàn chỉnh: \"He lives in Hanoi with his family.\" (Anh ấy sống ở Hà Nội cùng gia đình.)."
     },
@@ -137,10 +137,10 @@
       "question": "I am waiting for you ___ the bus stop.",
       "correctAnswer": "at",
       "options": [
-        "on",
         "with",
-        "at",
-        "in"
+        "on",
+        "in",
+        "at"
       ],
       "explanationVi": "Đáp án đúng là \"at\". Câu hoàn chỉnh: \"I am waiting for you at the bus stop.\" (Tôi đang đợi bạn tại trạm xe buýt.)."
     },
@@ -151,10 +151,10 @@
       "question": "The _____ not starts at eight AM.",
       "correctAnswer": "meeting",
       "options": [
-        "is",
-        "are",
         "meeting",
-        "am"
+        "am",
+        "is",
+        "are"
       ],
       "explanationVi": "Câu phủ định hoàn chỉnh: \"The meeting not starts at eight AM.\"."
     },
@@ -165,10 +165,10 @@
       "question": "Sắp xếp các từ để tạo thành câu đúng: \"Cuộc họp bắt đầu lúc 8 giờ sáng.\"",
       "words": [
         "starts",
+        "at",
         "eight",
         "AM.",
         "meeting",
-        "at",
         "The"
       ],
       "correctSentence": "The meeting starts at eight AM.",
@@ -181,13 +181,13 @@
       "promptVi": "[Sắp xếp câu] Ghép các khối từ thành câu hoàn chỉnh mang nghĩa: \"Chúng tôi sẽ có một bài kiểm tra vào thứ Sáu.\"",
       "question": "Sắp xếp các từ để tạo thành câu đúng: \"Chúng tôi sẽ có một bài kiểm tra vào thứ Sáu.\"",
       "words": [
-        "have",
-        "We",
-        "Friday.",
-        "test",
         "on",
+        "will",
+        "Friday.",
+        "have",
+        "test",
         "a",
-        "will"
+        "We"
       ],
       "correctSentence": "We will have a test on Friday.",
       "hintVi": "Chúng tôi sẽ có một bài kiểm tra vào thứ Sáu.",
@@ -200,12 +200,12 @@
       "question": "Sắp xếp các từ để tạo thành câu đúng: \"Anh ấy sống ở Hà Nội cùng gia đình.\"",
       "words": [
         "in",
-        "family.",
         "He",
+        "family.",
         "lives",
-        "Hanoi",
+        "his",
         "with",
-        "his"
+        "Hanoi"
       ],
       "correctSentence": "He lives in Hanoi with his family.",
       "hintVi": "Anh ấy sống ở Hà Nội cùng gia đình.",
@@ -217,15 +217,15 @@
       "promptVi": "[Sắp xếp câu] Ghép các khối từ thành câu hoàn chỉnh mang nghĩa: \"Tôi đang đợi bạn tại trạm xe buýt.\"",
       "question": "Sắp xếp các từ để tạo thành câu đúng: \"Tôi đang đợi bạn tại trạm xe buýt.\"",
       "words": [
+        "am",
         "at",
         "you",
-        "the",
-        "waiting",
-        "am",
+        "stop.",
         "I",
         "bus",
-        "stop.",
-        "for"
+        "the",
+        "for",
+        "waiting"
       ],
       "correctSentence": "I am waiting for you at the bus stop.",
       "hintVi": "Tôi đang đợi bạn tại trạm xe buýt.",
@@ -237,18 +237,18 @@
       "promptVi": "[Sắp xếp câu] Ghép các từ thành câu hội thoại: \"Quán cà phê nằm ở quận 1 hay ở quận 3 vậy?\"",
       "question": "Sắp xếp các từ để tạo thành câu thoại: \"Quán cà phê nằm ở quận 1 hay ở quận 3 vậy?\"",
       "words": [
-        "one",
         "shop",
-        "coffee",
-        "or",
-        "in",
-        "district",
-        "the",
-        "in",
+        "three",
         "located",
+        "coffee",
+        "in",
         "Is",
         "district",
-        "three"
+        "or",
+        "the",
+        "one",
+        "in",
+        "district"
       ],
       "correctSentence": "Is the coffee shop located in district one or in district three?",
       "hintVi": "Quán cà phê nằm ở quận 1 hay ở quận 3 vậy?",
@@ -260,10 +260,10 @@
       "promptVi": "[Nhận diện cấu trúc chuẩn] Chọn câu có cấu trúc ngữ pháp HOÀN TOÀN ĐÚNG:",
       "question": "Dựa vào chủ điểm \"Bài 24: Giới từ Thời gian & Nơi chốn (In / On / At) — Quy tắc cơ bản\", câu nào sau đây CHÍNH XÁC?",
       "options": [
-        "The meeting starts at eight AM.",
-        "The meeting starts at eight be.",
         "AM. eight at starts meeting The",
-        "is"
+        "is",
+        "The meeting starts at eight be.",
+        "The meeting starts at eight AM."
       ],
       "correctAnswer": "The meeting starts at eight AM.",
       "explanationVi": "Cấu trúc chuẩn xác là: \"The meeting starts at eight AM.\" (Cuộc họp bắt đầu lúc 8 giờ sáng.)."
@@ -274,10 +274,10 @@
       "promptVi": "[Nhận diện cấu trúc chuẩn] Chọn câu có cấu trúc ngữ pháp HOÀN TOÀN ĐÚNG:",
       "question": "Dựa vào chủ điểm \"Bài 24: Giới từ Thời gian & Nơi chốn (In / On / At) — Quy tắc cơ bản\", câu nào sau đây CHÍNH XÁC?",
       "options": [
-        "We will have a test on Friday.",
         "is",
-        "Friday. on test a have will We",
-        "We will have a test at Friday."
+        "We will have a test on Friday.",
+        "We will have a test at Friday.",
+        "Friday. on test a have will We"
       ],
       "correctAnswer": "We will have a test on Friday.",
       "explanationVi": "Cấu trúc chuẩn xác là: \"We will have a test on Friday.\" (Chúng tôi sẽ có một bài kiểm tra vào thứ Sáu.)."
@@ -288,10 +288,10 @@
       "promptVi": "[Nhận diện cấu trúc chuẩn] Chọn câu có cấu trúc ngữ pháp HOÀN TOÀN ĐÚNG:",
       "question": "Dựa vào chủ điểm \"Bài 24: Giới từ Thời gian & Nơi chốn (In / On / At) — Quy tắc cơ bản\", câu nào sau đây CHÍNH XÁC?",
       "options": [
-        "He lives in Hanoi with his family.",
-        "family. his with Hanoi in lives He",
         "is",
-        "He lives at Hanoi with his family."
+        "family. his with Hanoi in lives He",
+        "He lives at Hanoi with his family.",
+        "He lives in Hanoi with his family."
       ],
       "correctAnswer": "He lives in Hanoi with his family.",
       "explanationVi": "Cấu trúc chuẩn xác là: \"He lives in Hanoi with his family.\" (Anh ấy sống ở Hà Nội cùng gia đình.)."
@@ -302,9 +302,9 @@
       "promptVi": "[Nhận diện cấu trúc chuẩn] Chọn câu có cấu trúc ngữ pháp HOÀN TOÀN ĐÚNG:",
       "question": "Dựa vào chủ điểm \"Bài 24: Giới từ Thời gian & Nơi chốn (In / On / At) — Quy tắc cơ bản\", câu nào sau đây CHÍNH XÁC?",
       "options": [
-        "stop. bus the at you for waiting am I",
-        "I am waiting at you at the bus stop.",
         "I am waiting for you at the bus stop.",
+        "I am waiting at you at the bus stop.",
+        "stop. bus the at you for waiting am I",
         "I be waiting for you at the bus stop."
       ],
       "correctAnswer": "I am waiting for you at the bus stop.",
@@ -318,9 +318,9 @@
       "question": "Nhấn nút '🔊 Nghe audio' và chọn nghĩa tiếng Việt đúng:",
       "options": [
         "Hôm nay thời tiết rất đẹp.",
-        "Vâng! Hãy gặp nhau ở quán cà phê ấm cúng trên đường Nguyễn Huệ nhé.",
         "Quán cà phê nằm ở quận 1 hay ở quận 3 vậy?",
-        "Chúng ta vẫn gặp nhau lúc 8 giờ sáng mai chứ, Vanessa?"
+        "Chúng ta vẫn gặp nhau lúc 8 giờ sáng mai chứ, Vanessa?",
+        "Vâng! Hãy gặp nhau ở quán cà phê ấm cúng trên đường Nguyễn Huệ nhé."
       ],
       "correctAnswer": "Chúng ta vẫn gặp nhau lúc 8 giờ sáng mai chứ, Vanessa?",
       "explanationVi": "Câu nghe được: \"Are we still meeting at eight AM tomorrow morning, Vanessa?\" có nghĩa là: \"Chúng ta vẫn gặp nhau lúc 8 giờ sáng mai chứ, Vanessa?\"."
@@ -332,10 +332,10 @@
       "audioPrompt": "Yes! Let's meet at the cozy coffee shop on Nguyen Hue street.",
       "question": "Nhấn nút '🔊 Nghe audio' và chọn nghĩa tiếng Việt đúng:",
       "options": [
+        "Vâng! Hãy gặp nhau ở quán cà phê ấm cúng trên đường Nguyễn Huệ nhé.",
         "Hôm nay thời tiết rất đẹp.",
         "Quán cà phê nằm ở quận 1 hay ở quận 3 vậy?",
-        "Nó ở quận 1, ngay góc phố đi bộ.",
-        "Vâng! Hãy gặp nhau ở quán cà phê ấm cúng trên đường Nguyễn Huệ nhé."
+        "Nó ở quận 1, ngay góc phố đi bộ."
       ],
       "correctAnswer": "Vâng! Hãy gặp nhau ở quán cà phê ấm cúng trên đường Nguyễn Huệ nhé.",
       "explanationVi": "Câu nghe được: \"Yes! Let's meet at the cozy coffee shop on Nguyen Hue street.\" có nghĩa là: \"Vâng! Hãy gặp nhau ở quán cà phê ấm cúng trên đường Nguyễn Huệ nhé.\"."
@@ -348,9 +348,9 @@
       "question": "Nhấn nút '🔊 Nghe audio' và chọn nghĩa tiếng Việt đúng:",
       "options": [
         "Quán cà phê nằm ở quận 1 hay ở quận 3 vậy?",
-        "Nó ở quận 1, ngay góc phố đi bộ.",
         "Vị khách quốc tế của chúng ta sẽ đến Việt Nam vào tháng 10 hay tháng 11?",
-        "Hôm nay thời tiết rất đẹp."
+        "Hôm nay thời tiết rất đẹp.",
+        "Nó ở quận 1, ngay góc phố đi bộ."
       ],
       "correctAnswer": "Quán cà phê nằm ở quận 1 hay ở quận 3 vậy?",
       "explanationVi": "Câu nghe được: \"Is the coffee shop located in district one or in district three?\" có nghĩa là: \"Quán cà phê nằm ở quận 1 hay ở quận 3 vậy?\"."
@@ -363,9 +363,9 @@
       "question": "Nhấn nút '🔊 Nghe audio' và chọn nghĩa tiếng Việt đúng:",
       "options": [
         "Nó ở quận 1, ngay góc phố đi bộ.",
-        "Hôm nay thời tiết rất đẹp.",
         "Vị khách quốc tế của chúng ta sẽ đến Việt Nam vào tháng 10 hay tháng 11?",
-        "Ông ấy sẽ hạ cánh tại sân bay Tân Sơn Nhất vào ngày 15 tháng 10."
+        "Ông ấy sẽ hạ cánh tại sân bay Tân Sơn Nhất vào ngày 15 tháng 10.",
+        "Hôm nay thời tiết rất đẹp."
       ],
       "correctAnswer": "Nó ở quận 1, ngay góc phố đi bộ.",
       "explanationVi": "Câu nghe được: \"It is in district one, right on the corner of the pedestrian street.\" có nghĩa là: \"Nó ở quận 1, ngay góc phố đi bộ.\"."
@@ -413,10 +413,10 @@
       "passage": "Julian: \"Are we still meeting at eight AM tomorrow morning, Vanessa?\"\nVanessa: \"Yes! Let's meet at the cozy coffee shop on Nguyen Hue street.\"\nJulian: \"Is the coffee shop located in district one or in district three?\"\nVanessa: \"It is in district one, right on the corner of the pedestrian street.\"",
       "question": "Dựa vào đoạn đối thoại trên, thông tin nào sau đây là CHÍNH XÁC về nội dung câu nói của Julian?",
       "options": [
-        "Julian phàn nàn rằng thời tiết hôm nay quá xấu.",
         "Julian chia sẻ thông tin: \"Chúng ta vẫn gặp nhau lúc 8 giờ sáng mai chứ, Vanessa?\"",
-        "Julian từ chối trả lời và yêu cầu hủy cuộc hẹn.",
-        "Julian muốn mượn tiền để mua vé máy bay gấp."
+        "Julian phàn nàn rằng thời tiết hôm nay quá xấu.",
+        "Julian muốn mượn tiền để mua vé máy bay gấp.",
+        "Julian từ chối trả lời và yêu cầu hủy cuộc hẹn."
       ],
       "correctAnswer": "Julian chia sẻ thông tin: \"Chúng ta vẫn gặp nhau lúc 8 giờ sáng mai chứ, Vanessa?\"",
       "explanationVi": "Trong đoạn hội thoại, Julian đã nói: \"Are we still meeting at eight AM tomorrow morning, Vanessa?\" (nghĩa là: \"Chúng ta vẫn gặp nhau lúc 8 giờ sáng mai chứ, Vanessa?\")."
@@ -428,10 +428,10 @@
       "passage": "Julian: \"Will our international guest arrive in Vietnam in October or in November?\"\nVanessa: \"He will land at Tan Son Nhat airport on October fifteenth.\"\nJulian: \"Do we have a special conference scheduled on Friday afternoon?\"\nVanessa: \"Yes, the conference begins at two PM in the grand hall.\"",
       "question": "Trong đoạn hội thoại trên, câu nói \"Yes, the conference begins at two PM in the grand hall.\" của Vanessa mang ý nghĩa gì?",
       "options": [
-        "Phản hồi: \"Có, hội nghị bắt đầu lúc 2 giờ chiều trong hội trường lớn.\"",
-        "Phản hồi: \"Hoàn toàn không đồng ý và muốn rời khỏi phòng ngay lập tức\"",
+        "Phản hồi: \"Hẹn gặp lại vào cuối tuần sau tại sân bay quốc tế\"",
         "Phản hồi: \"Yêu cầu cung cấp hóa đơn thanh toán tiền mặt\"",
-        "Phản hồi: \"Hẹn gặp lại vào cuối tuần sau tại sân bay quốc tế\""
+        "Phản hồi: \"Hoàn toàn không đồng ý và muốn rời khỏi phòng ngay lập tức\"",
+        "Phản hồi: \"Có, hội nghị bắt đầu lúc 2 giờ chiều trong hội trường lớn.\""
       ],
       "correctAnswer": "Phản hồi: \"Có, hội nghị bắt đầu lúc 2 giờ chiều trong hội trường lớn.\"",
       "explanationVi": "Vanessa nói: \"Yes, the conference begins at two PM in the grand hall.\" có nghĩa là: \"Có, hội nghị bắt đầu lúc 2 giờ chiều trong hội trường lớn.\"."

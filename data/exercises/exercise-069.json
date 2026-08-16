@@ -10,10 +10,10 @@
       "promptVi": "[Trắc nghiệm ngữ pháp] Chọn từ đúng để hoàn thành câu (Điều đó phụ thuộc vào thời tiết.):",
       "question": "It depends ___ the weather.",
       "options": [
-        "at",
         "on",
         "in",
-        "to"
+        "to",
+        "at"
       ],
       "correctAnswer": "on",
       "explanationVi": "Động từ 'depend' luôn đi kèm giới từ 'on'."
@@ -24,9 +24,9 @@
       "promptVi": "[Trắc nghiệm ngữ pháp] Chọn từ đúng để hoàn thành câu (Tôi đang chờ xe buýt.):",
       "question": "I am waiting ___ the bus.",
       "options": [
-        "for",
-        "at",
         "to",
+        "at",
+        "for",
         "on"
       ],
       "correctAnswer": "for",
@@ -38,10 +38,10 @@
       "promptVi": "[Trắc nghiệm ngữ pháp] Chọn từ đúng để hoàn thành câu (Tôi luôn luôn tin tưởng vào bạn.):",
       "question": "I always believe ___ you.",
       "options": [
-        "at",
+        "in",
         "on",
-        "to",
-        "in"
+        "at",
+        "to"
       ],
       "correctAnswer": "in",
       "explanationVi": "'believe in' mang nghĩa tin tưởng vào ai/cái gì."
@@ -52,10 +52,10 @@
       "promptVi": "[Trắc nghiệm ngữ pháp] Chọn từ đúng để hoàn thành câu (Bạn đang suy nghĩ về điều gì vậy?):",
       "question": "What are you thinking ___?",
       "options": [
-        "about",
+        "to",
         "of",
-        "for",
-        "to"
+        "about",
+        "for"
       ],
       "correctAnswer": "about",
       "explanationVi": "'thinking about sth' nghĩa là đang suy ngẫm về điều gì."
@@ -66,10 +66,10 @@
       "promptVi": "[Phản xạ dịch thuật] Dịch câu sau sang tiếng Anh: \"Chào buổi chiều Victoria. Bạn dựa vào những nguyên tắc cốt lõi nào khi dẫn dắt các dự án doanh nghiệp chịu áp lực cao? (rely on)\"",
       "question": "Chọn bản dịch chuẩn xác nhất cho câu: \"Chào buổi chiều Victoria. Bạn dựa vào những nguyên tắc cốt lõi nào khi dẫn dắt các dự án doanh nghiệp chịu áp lực cao? (rely on)\"",
       "options": [
-        "Good afternoon, Victoria. What core principles do you rely on when leading high-pressure corporate projects?",
-        "Good afternoon, Victoria. What core principles be you rely on when leading high-pressure corporate projects?",
         "We are studying English today.",
-        "Our ultimate project success depends on transparent team communication and mutual accountability."
+        "Our ultimate project success depends on transparent team communication and mutual accountability.",
+        "Good afternoon, Victoria. What core principles be you rely on when leading high-pressure corporate projects?",
+        "Good afternoon, Victoria. What core principles do you rely on when leading high-pressure corporate projects?"
       ],
       "correctAnswer": "Good afternoon, Victoria. What core principles do you rely on when leading high-pressure corporate projects?",
       "explanationVi": "Câu dịch chuẩn xác: \"Good afternoon, Victoria. What core principles do you rely on when leading high-pressure corporate projects?\" (Chào buổi chiều Victoria. Bạn dựa vào những nguyên tắc cốt lõi nào khi dẫn dắt các dự án doanh nghiệp chịu áp lực cao? (rely on))."
@@ -80,10 +80,10 @@
       "promptVi": "[Ngữ cảnh giao tiếp] Chọn câu phản hồi tự nhiên và đúng ngữ pháp:",
       "question": "Khi đối phương nói: \"Good afternoon, Victoria. What core principles do you rely on when leading high-pressure corporate projects?\", câu phản hồi phù hợp là gì?",
       "options": [
+        "They are not in the office.",
         "Yes, I will eat it.",
-        "Our ultimate project success depends on transparent team communication and mutual accountability.",
         "No, it was yesterday.",
-        "They are not in the office."
+        "Our ultimate project success depends on transparent team communication and mutual accountability."
       ],
       "correctAnswer": "Our ultimate project success depends on transparent team communication and mutual accountability.",
       "explanationVi": "Phản hồi phù hợp trong bài: \"Our ultimate project success depends on transparent team communication and mutual accountability.\" (Thành công cuối cùng của dự án chúng tôi phụ thuộc vào sự giao tiếp minh bạch trong nhóm và trách nhiệm giải trình lẫn nhau. (depends on))."
@@ -109,10 +109,10 @@
       "question": "I am waiting ___ the bus.",
       "correctAnswer": "for",
       "options": [
-        "on",
         "for",
+        "to",
         "at",
-        "to"
+        "on"
       ],
       "explanationVi": "Đáp án đúng là \"for\". Câu hoàn chỉnh: \"I am waiting for the bus.\" (Tôi đang chờ xe buýt.)."
     },
@@ -123,10 +123,10 @@
       "question": "I always believe ___ you.",
       "correctAnswer": "in",
       "options": [
+        "to",
         "at",
-        "in",
         "on",
-        "to"
+        "in"
       ],
       "explanationVi": "Đáp án đúng là \"in\". Câu hoàn chỉnh: \"I always believe in you.\" (Tôi luôn luôn tin tưởng vào bạn.)."
     },
@@ -137,10 +137,10 @@
       "question": "What are you thinking ___?",
       "correctAnswer": "about",
       "options": [
-        "about",
-        "of",
         "for",
-        "to"
+        "to",
+        "of",
+        "about"
       ],
       "explanationVi": "Đáp án đúng là \"about\". Câu hoàn chỉnh: \"What are you thinking about?\" (Bạn đang suy nghĩ về điều gì vậy?)."
     },
@@ -151,10 +151,10 @@
       "question": "It _____ not on the weather.",
       "correctAnswer": "depends",
       "options": [
+        "depends",
         "am",
         "is",
-        "are",
-        "depends"
+        "are"
       ],
       "explanationVi": "Câu phủ định hoàn chỉnh: \"It depends not on the weather.\"."
     },
@@ -164,9 +164,9 @@
       "promptVi": "[Sắp xếp câu] Ghép các khối từ thành câu hoàn chỉnh mang nghĩa: \"Điều đó phụ thuộc vào thời tiết.\"",
       "question": "Sắp xếp các từ để tạo thành câu đúng: \"Điều đó phụ thuộc vào thời tiết.\"",
       "words": [
-        "It",
         "weather.",
         "the",
+        "It",
         "on",
         "depends"
       ],
@@ -180,12 +180,12 @@
       "promptVi": "[Sắp xếp câu] Ghép các khối từ thành câu hoàn chỉnh mang nghĩa: \"Tôi đang chờ xe buýt.\"",
       "question": "Sắp xếp các từ để tạo thành câu đúng: \"Tôi đang chờ xe buýt.\"",
       "words": [
-        "bus.",
-        "I",
-        "waiting",
         "the",
         "for",
-        "am"
+        "waiting",
+        "am",
+        "bus.",
+        "I"
       ],
       "correctSentence": "I am waiting for the bus.",
       "hintVi": "Tôi đang chờ xe buýt.",
@@ -197,11 +197,11 @@
       "promptVi": "[Sắp xếp câu] Ghép các khối từ thành câu hoàn chỉnh mang nghĩa: \"Tôi luôn luôn tin tưởng vào bạn.\"",
       "question": "Sắp xếp các từ để tạo thành câu đúng: \"Tôi luôn luôn tin tưởng vào bạn.\"",
       "words": [
-        "in",
-        "you.",
         "believe",
+        "in",
+        "I",
         "always",
-        "I"
+        "you."
       ],
       "correctSentence": "I always believe in you.",
       "hintVi": "Tôi luôn luôn tin tưởng vào bạn.",
@@ -213,11 +213,11 @@
       "promptVi": "[Sắp xếp câu] Ghép các khối từ thành câu hoàn chỉnh mang nghĩa: \"Bạn đang suy nghĩ về điều gì vậy?\"",
       "question": "Sắp xếp các từ để tạo thành câu đúng: \"Bạn đang suy nghĩ về điều gì vậy?\"",
       "words": [
-        "you",
-        "about?",
-        "thinking",
         "What",
-        "are"
+        "are",
+        "you",
+        "thinking",
+        "about?"
       ],
       "correctSentence": "What are you thinking about?",
       "hintVi": "Bạn đang suy nghĩ về điều gì vậy?",
@@ -229,21 +229,21 @@
       "promptVi": "[Sắp xếp câu] Ghép các từ thành câu hội thoại: \"Một nhà lãnh đạo tuyệt vời phải luôn luôn lắng nghe phản hồi của nhân viên với một tâm thế cởi mở và khiêm tốn. (listen to)\"",
       "question": "Sắp xếp các từ để tạo thành câu thoại: \"Một nhà lãnh đạo tuyệt vời phải luôn luôn lắng nghe phản hồi của nhân viên với một tâm thế cởi mở và khiêm tốn. (listen to)\"",
       "words": [
-        "mind",
-        "and",
-        "an",
-        "to",
-        "humble",
-        "A",
         "feedback",
-        "leader",
-        "must",
         "open",
-        "great",
-        "listen",
+        "to",
+        "and",
         "employee",
+        "must",
+        "leader",
+        "great",
+        "mind",
+        "always",
         "with",
-        "always"
+        "listen",
+        "an",
+        "A",
+        "humble"
       ],
       "correctSentence": "A great leader must always listen to employee feedback with an open and humble mind.",
       "hintVi": "Một nhà lãnh đạo tuyệt vời phải luôn luôn lắng nghe phản hồi của nhân viên với một tâm thế cởi mở và khiêm tốn. (listen to)",
@@ -255,10 +255,10 @@
       "promptVi": "[Nhận diện cấu trúc chuẩn] Chọn câu có cấu trúc ngữ pháp HOÀN TOÀN ĐÚNG:",
       "question": "Dựa vào chủ điểm \"Bài 69: Động từ đi kèm Giới từ Cố định (Dependent Prepositions: Depend on / Listen to / Wait for / Believe in)\", câu nào sau đây CHÍNH XÁC?",
       "options": [
-        "weather. the on depends It",
         "is",
+        "It depends at the weather.",
         "It depends on the weather.",
-        "It depends at the weather."
+        "weather. the on depends It"
       ],
       "correctAnswer": "It depends on the weather.",
       "explanationVi": "Cấu trúc chuẩn xác là: \"It depends on the weather.\" (Điều đó phụ thuộc vào thời tiết.)."
@@ -270,8 +270,8 @@
       "question": "Dựa vào chủ điểm \"Bài 69: Động từ đi kèm Giới từ Cố định (Dependent Prepositions: Depend on / Listen to / Wait for / Believe in)\", câu nào sau đây CHÍNH XÁC?",
       "options": [
         "bus. the for waiting am I",
-        "I am waiting for the bus.",
         "I be waiting for the bus.",
+        "I am waiting for the bus.",
         "I am waiting at the bus."
       ],
       "correctAnswer": "I am waiting for the bus.",
@@ -283,10 +283,10 @@
       "promptVi": "[Nhận diện cấu trúc chuẩn] Chọn câu có cấu trúc ngữ pháp HOÀN TOÀN ĐÚNG:",
       "question": "Dựa vào chủ điểm \"Bài 69: Động từ đi kèm Giới từ Cố định (Dependent Prepositions: Depend on / Listen to / Wait for / Believe in)\", câu nào sau đây CHÍNH XÁC?",
       "options": [
-        "I always believe in you.",
         "is",
-        "I always believe at you.",
-        "you. in believe always I"
+        "I always believe in you.",
+        "you. in believe always I",
+        "I always believe at you."
       ],
       "correctAnswer": "I always believe in you.",
       "explanationVi": "Cấu trúc chuẩn xác là: \"I always believe in you.\" (Tôi luôn luôn tin tưởng vào bạn.)."
@@ -297,10 +297,10 @@
       "promptVi": "[Nhận diện cấu trúc chuẩn] Chọn câu có cấu trúc ngữ pháp HOÀN TOÀN ĐÚNG:",
       "question": "Dựa vào chủ điểm \"Bài 69: Động từ đi kèm Giới từ Cố định (Dependent Prepositions: Depend on / Listen to / Wait for / Believe in)\", câu nào sau đây CHÍNH XÁC?",
       "options": [
-        "What be you thinking about?",
-        "about? thinking you are What",
         "What are you thinking about?",
-        "is"
+        "is",
+        "about? thinking you are What",
+        "What be you thinking about?"
       ],
       "correctAnswer": "What are you thinking about?",
       "explanationVi": "Cấu trúc chuẩn xác là: \"What are you thinking about?\" (Bạn đang suy nghĩ về điều gì vậy?)."
@@ -312,10 +312,10 @@
       "audioPrompt": "Good afternoon, Victoria. What core principles do you rely on when leading high-pressure corporate projects?",
       "question": "Nhấn nút '🔊 Nghe audio' và chọn nghĩa tiếng Việt đúng:",
       "options": [
-        "Chào buổi chiều Victoria. Bạn dựa vào những nguyên tắc cốt lõi nào khi dẫn dắt các dự án doanh nghiệp chịu áp lực cao? (rely on)",
-        "Một nhà lãnh đạo tuyệt vời phải luôn luôn lắng nghe phản hồi của nhân viên với một tâm thế cởi mở và khiêm tốn. (listen to)",
         "Hôm nay thời tiết rất đẹp.",
-        "Thành công cuối cùng của dự án chúng tôi phụ thuộc vào sự giao tiếp minh bạch trong nhóm và trách nhiệm giải trình lẫn nhau. (depends on)"
+        "Một nhà lãnh đạo tuyệt vời phải luôn luôn lắng nghe phản hồi của nhân viên với một tâm thế cởi mở và khiêm tốn. (listen to)",
+        "Thành công cuối cùng của dự án chúng tôi phụ thuộc vào sự giao tiếp minh bạch trong nhóm và trách nhiệm giải trình lẫn nhau. (depends on)",
+        "Chào buổi chiều Victoria. Bạn dựa vào những nguyên tắc cốt lõi nào khi dẫn dắt các dự án doanh nghiệp chịu áp lực cao? (rely on)"
       ],
       "correctAnswer": "Chào buổi chiều Victoria. Bạn dựa vào những nguyên tắc cốt lõi nào khi dẫn dắt các dự án doanh nghiệp chịu áp lực cao? (rely on)",
       "explanationVi": "Câu nghe được: \"Good afternoon, Victoria. What core principles do you rely on when leading high-pressure corporate projects?\" có nghĩa là: \"Chào buổi chiều Victoria. Bạn dựa vào những nguyên tắc cốt lõi nào khi dẫn dắt các dự án doanh nghiệp chịu áp lực cao? (rely on)\"."
@@ -328,9 +328,9 @@
       "question": "Nhấn nút '🔊 Nghe audio' và chọn nghĩa tiếng Việt đúng:",
       "options": [
         "Một nhà lãnh đạo tuyệt vời phải luôn luôn lắng nghe phản hồi của nhân viên với một tâm thế cởi mở và khiêm tốn. (listen to)",
+        "Hôm nay thời tiết rất đẹp.",
         "Tôi luôn khuyến khích các thành viên trong nhóm tin tưởng vào tiềm năng giải quyết vấn đề sáng tạo của họ. (believe in)",
-        "Thành công cuối cùng của dự án chúng tôi phụ thuộc vào sự giao tiếp minh bạch trong nhóm và trách nhiệm giải trình lẫn nhau. (depends on)",
-        "Hôm nay thời tiết rất đẹp."
+        "Thành công cuối cùng của dự án chúng tôi phụ thuộc vào sự giao tiếp minh bạch trong nhóm và trách nhiệm giải trình lẫn nhau. (depends on)"
       ],
       "correctAnswer": "Thành công cuối cùng của dự án chúng tôi phụ thuộc vào sự giao tiếp minh bạch trong nhóm và trách nhiệm giải trình lẫn nhau. (depends on)",
       "explanationVi": "Câu nghe được: \"Our ultimate project success depends on transparent team communication and mutual accountability.\" có nghĩa là: \"Thành công cuối cùng của dự án chúng tôi phụ thuộc vào sự giao tiếp minh bạch trong nhóm và trách nhiệm giải trình lẫn nhau. (depends on)\"."
@@ -342,10 +342,10 @@
       "audioPrompt": "A great leader must always listen to employee feedback with an open and humble mind.",
       "question": "Nhấn nút '🔊 Nghe audio' và chọn nghĩa tiếng Việt đúng:",
       "options": [
-        "Bạn xử lý các sự cố kỹ thuật bất ngờ như thế nào khi khách hàng đang chờ đợi các sản phẩm bàn giao? (wait for)",
+        "Một nhà lãnh đạo tuyệt vời phải luôn luôn lắng nghe phản hồi của nhân viên với một tâm thế cởi mở và khiêm tốn. (listen to)",
         "Hôm nay thời tiết rất đẹp.",
-        "Tôi luôn khuyến khích các thành viên trong nhóm tin tưởng vào tiềm năng giải quyết vấn đề sáng tạo của họ. (believe in)",
-        "Một nhà lãnh đạo tuyệt vời phải luôn luôn lắng nghe phản hồi của nhân viên với một tâm thế cởi mở và khiêm tốn. (listen to)"
+        "Bạn xử lý các sự cố kỹ thuật bất ngờ như thế nào khi khách hàng đang chờ đợi các sản phẩm bàn giao? (wait for)",
+        "Tôi luôn khuyến khích các thành viên trong nhóm tin tưởng vào tiềm năng giải quyết vấn đề sáng tạo của họ. (believe in)"
       ],
       "correctAnswer": "Một nhà lãnh đạo tuyệt vời phải luôn luôn lắng nghe phản hồi của nhân viên với một tâm thế cởi mở và khiêm tốn. (listen to)",
       "explanationVi": "Câu nghe được: \"A great leader must always listen to employee feedback with an open and humble mind.\" có nghĩa là: \"Một nhà lãnh đạo tuyệt vời phải luôn luôn lắng nghe phản hồi của nhân viên với một tâm thế cởi mở và khiêm tốn. (listen to)\"."
@@ -357,10 +357,10 @@
       "audioPrompt": "I always encourage my team members to believe in their innovative problem-solving potential.",
       "question": "Nhấn nút '🔊 Nghe audio' và chọn nghĩa tiếng Việt đúng:",
       "options": [
-        "Chúng tôi không bao giờ xin lỗi vì sự kỹ lưỡng, nhưng chúng tôi giải thích tình hình kịp thời và tập trung vào giải pháp. (focus on / apologize for)",
-        "Hôm nay thời tiết rất đẹp.",
+        "Tôi luôn khuyến khích các thành viên trong nhóm tin tưởng vào tiềm năng giải quyết vấn đề sáng tạo của họ. (believe in)",
         "Bạn xử lý các sự cố kỹ thuật bất ngờ như thế nào khi khách hàng đang chờ đợi các sản phẩm bàn giao? (wait for)",
-        "Tôi luôn khuyến khích các thành viên trong nhóm tin tưởng vào tiềm năng giải quyết vấn đề sáng tạo của họ. (believe in)"
+        "Chúng tôi không bao giờ xin lỗi vì sự kỹ lưỡng, nhưng chúng tôi giải thích tình hình kịp thời và tập trung vào giải pháp. (focus on / apologize for)",
+        "Hôm nay thời tiết rất đẹp."
       ],
       "correctAnswer": "Tôi luôn khuyến khích các thành viên trong nhóm tin tưởng vào tiềm năng giải quyết vấn đề sáng tạo của họ. (believe in)",
       "explanationVi": "Câu nghe được: \"I always encourage my team members to believe in their innovative problem-solving potential.\" có nghĩa là: \"Tôi luôn khuyến khích các thành viên trong nhóm tin tưởng vào tiềm năng giải quyết vấn đề sáng tạo của họ. (believe in)\"."
@@ -408,9 +408,9 @@
       "passage": "Mentor Charles: \"Good afternoon, Victoria. What core principles do you rely on when leading high-pressure corporate projects?\"\nVictoria: \"Our ultimate project success depends on transparent team communication and mutual accountability.\"\nMentor Charles: \"A great leader must always listen to employee feedback with an open and humble mind.\"\nVictoria: \"I always encourage my team members to believe in their innovative problem-solving potential.\"",
       "question": "Dựa vào đoạn đối thoại trên, thông tin nào sau đây là CHÍNH XÁC về nội dung câu nói của Mentor Charles?",
       "options": [
+        "Mentor Charles từ chối trả lời và yêu cầu hủy cuộc hẹn.",
         "Mentor Charles phàn nàn rằng thời tiết hôm nay quá xấu.",
         "Mentor Charles chia sẻ thông tin: \"Chào buổi chiều Victoria. Bạn dựa vào những nguyên tắc cốt lõi nào khi dẫn dắt các dự án doanh nghiệp chịu áp lực cao? (rely on)\"",
-        "Mentor Charles từ chối trả lời và yêu cầu hủy cuộc hẹn.",
         "Mentor Charles muốn mượn tiền để mua vé máy bay gấp."
       ],
       "correctAnswer": "Mentor Charles chia sẻ thông tin: \"Chào buổi chiều Victoria. Bạn dựa vào những nguyên tắc cốt lõi nào khi dẫn dắt các dự án doanh nghiệp chịu áp lực cao? (rely on)\"",
@@ -423,9 +423,9 @@
       "passage": "Mentor Charles: \"How do you handle unforeseen technical setbacks when clients are waiting for deliverables?\"\nVictoria: \"We never apologize for being thorough, but we promptly explain the situation and focus on solutions.\"\nMentor Charles: \"Do you often think about expanding your department into international emerging markets?\"\nVictoria: \"Yes, we are looking at several regional hubs that belong to rapidly growing economies.\"",
       "question": "Trong đoạn hội thoại trên, câu nói \"Yes, we are looking at several regional hubs that belong to rapidly growing economies.\" của Victoria mang ý nghĩa gì?",
       "options": [
+        "Phản hồi: \"Hoàn toàn không đồng ý và muốn rời khỏi phòng ngay lập tức\"",
         "Phản hồi: \"Yêu cầu cung cấp hóa đơn thanh toán tiền mặt\"",
         "Phản hồi: \"Có chứ, chúng tôi đang xem xét một vài trung tâm khu vực thuộc về các nền kinh tế đang phát triển nhanh chóng. (look at / belong to)\"",
-        "Phản hồi: \"Hoàn toàn không đồng ý và muốn rời khỏi phòng ngay lập tức\"",
         "Phản hồi: \"Hẹn gặp lại vào cuối tuần sau tại sân bay quốc tế\""
       ],
       "correctAnswer": "Phản hồi: \"Có chứ, chúng tôi đang xem xét một vài trung tâm khu vực thuộc về các nền kinh tế đang phát triển nhanh chóng. (look at / belong to)\"",

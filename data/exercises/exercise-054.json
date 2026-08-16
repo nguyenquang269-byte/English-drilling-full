@@ -11,9 +11,9 @@
       "question": "You are a student, ___?",
       "options": [
         "aren't you",
+        "are you",
         "don't you",
-        "isn't it",
-        "are you"
+        "isn't it"
       ],
       "correctAnswer": "aren't you",
       "explanationVi": "Mệnh đề khẳng định 'You are' có đuôi phủ định là 'aren't you'."
@@ -24,10 +24,10 @@
       "promptVi": "[Trắc nghiệm ngữ pháp] Chọn từ đúng để hoàn thành câu (Cô ấy sống ở Hà Nội, phải không?):",
       "question": "She lives in Hanoi, ___?",
       "options": [
-        "isn't she",
-        "didn't she",
         "doesn't she",
-        "does she"
+        "isn't she",
+        "does she",
+        "didn't she"
       ],
       "correctAnswer": "doesn't she",
       "explanationVi": "'lives' là động từ thường số ít hiện tại đơn -> đuôi dùng 'doesn't she'."
@@ -38,10 +38,10 @@
       "promptVi": "[Trắc nghiệm ngữ pháp] Chọn từ đúng để hoàn thành câu (Bạn có thể nói tiếng Anh, phải không?):",
       "question": "You can speak English, ___?",
       "options": [
-        "don't you",
-        "can't you",
         "can you",
-        "aren't you"
+        "aren't you",
+        "don't you",
+        "can't you"
       ],
       "correctAnswer": "can't you",
       "explanationVi": "Mệnh đề có 'can' khẳng định -> đuôi dùng 'can't you'."
@@ -52,10 +52,10 @@
       "promptVi": "[Trắc nghiệm ngữ pháp] Chọn từ đúng để hoàn thành câu (Chúng ta cùng đi xem phim nhé, được không?):",
       "question": "Let's go to the cinema, ___?",
       "options": [
-        "will we",
+        "aren't we",
         "don't we",
-        "shall we",
-        "aren't we"
+        "will we",
+        "shall we"
       ],
       "correctAnswer": "shall we",
       "explanationVi": "Sau lời đề nghị 'Let's + V' thì đuôi luôn là 'shall we'."
@@ -68,8 +68,8 @@
       "options": [
         "It is a wonderful sunny afternoon today, isn't it?",
         "It be a wonderful sunny afternoon today, isn't it?",
-        "We are studying English today.",
-        "It certainly is! You love iced caramel macchiato, don't you?"
+        "It certainly is! You love iced caramel macchiato, don't you?",
+        "We are studying English today."
       ],
       "correctAnswer": "It is a wonderful sunny afternoon today, isn't it?",
       "explanationVi": "Câu dịch chuẩn xác: \"It is a wonderful sunny afternoon today, isn't it?\" (Hôm nay là một buổi chiều nắng thật tuyệt vời, phải không?)."
@@ -80,10 +80,10 @@
       "promptVi": "[Ngữ cảnh giao tiếp] Chọn câu phản hồi tự nhiên và đúng ngữ pháp:",
       "question": "Khi đối phương nói: \"It is a wonderful sunny afternoon today, isn't it?\", câu phản hồi phù hợp là gì?",
       "options": [
-        "Yes, I will eat it.",
-        "It certainly is! You love iced caramel macchiato, don't you?",
         "They are not in the office.",
-        "No, it was yesterday."
+        "Yes, I will eat it.",
+        "No, it was yesterday.",
+        "It certainly is! You love iced caramel macchiato, don't you?"
       ],
       "correctAnswer": "It certainly is! You love iced caramel macchiato, don't you?",
       "explanationVi": "Phản hồi phù hợp trong bài: \"It certainly is! You love iced caramel macchiato, don't you?\" (Chắc chắn rồi! Bạn rất thích cà phê caramel macchiato đá, đúng không nào?)."
@@ -95,10 +95,10 @@
       "question": "You are a student, ___?",
       "correctAnswer": "aren't you",
       "options": [
+        "are you",
         "aren't you",
         "isn't it",
-        "don't you",
-        "are you"
+        "don't you"
       ],
       "explanationVi": "Đáp án đúng là \"aren't you\". Câu hoàn chỉnh: \"You are a student, aren't you?\" (Bạn là học sinh, phải không?)."
     },
@@ -110,9 +110,9 @@
       "correctAnswer": "doesn't she",
       "options": [
         "doesn't she",
+        "isn't she",
         "does she",
-        "didn't she",
-        "isn't she"
+        "didn't she"
       ],
       "explanationVi": "Đáp án đúng là \"doesn't she\". Câu hoàn chỉnh: \"She lives in Hanoi, doesn't she?\" (Cô ấy sống ở Hà Nội, phải không?)."
     },
@@ -123,10 +123,10 @@
       "question": "You can speak English, ___?",
       "correctAnswer": "can't you",
       "options": [
-        "don't you",
         "aren't you",
-        "can't you",
-        "can you"
+        "can you",
+        "don't you",
+        "can't you"
       ],
       "explanationVi": "Đáp án đúng là \"can't you\". Câu hoàn chỉnh: \"You can speak English, can't you?\" (Bạn có thể nói tiếng Anh, phải không?)."
     },
@@ -139,8 +139,8 @@
       "options": [
         "shall we",
         "will we",
-        "aren't we",
-        "don't we"
+        "don't we",
+        "aren't we"
       ],
       "explanationVi": "Đáp án đúng là \"shall we\". Câu hoàn chỉnh: \"Let's go to the cinema, shall we?\" (Chúng ta cùng đi xem phim nhé, được không?)."
     },
@@ -151,10 +151,10 @@
       "question": "You _____ not a student, aren't you?",
       "correctAnswer": "are",
       "options": [
-        "do",
         "are",
-        "am",
-        "is"
+        "do",
+        "is",
+        "am"
       ],
       "explanationVi": "Câu phủ định hoàn chỉnh: \"You are not a student, aren't you?\"."
     },
@@ -164,11 +164,11 @@
       "promptVi": "[Sắp xếp câu] Ghép các khối từ thành câu hoàn chỉnh mang nghĩa: \"Bạn là học sinh, phải không?\"",
       "question": "Sắp xếp các từ để tạo thành câu đúng: \"Bạn là học sinh, phải không?\"",
       "words": [
-        "aren't",
         "you?",
-        "student,",
         "are",
+        "student,",
         "a",
+        "aren't",
         "You"
       ],
       "correctSentence": "You are a student, aren't you?",
@@ -183,9 +183,9 @@
       "words": [
         "in",
         "she?",
-        "lives",
-        "doesn't",
         "Hanoi,",
+        "doesn't",
+        "lives",
         "She"
       ],
       "correctSentence": "She lives in Hanoi, doesn't she?",
@@ -198,12 +198,12 @@
       "promptVi": "[Sắp xếp câu] Ghép các khối từ thành câu hoàn chỉnh mang nghĩa: \"Bạn có thể nói tiếng Anh, phải không?\"",
       "question": "Sắp xếp các từ để tạo thành câu đúng: \"Bạn có thể nói tiếng Anh, phải không?\"",
       "words": [
-        "you?",
+        "can",
         "You",
-        "speak",
-        "English,",
+        "you?",
         "can't",
-        "can"
+        "English,",
+        "speak"
       ],
       "correctSentence": "You can speak English, can't you?",
       "hintVi": "Bạn có thể nói tiếng Anh, phải không?",
@@ -215,13 +215,13 @@
       "promptVi": "[Sắp xếp câu] Ghép các khối từ thành câu hoàn chỉnh mang nghĩa: \"Chúng ta cùng đi xem phim nhé, được không?\"",
       "question": "Sắp xếp các từ để tạo thành câu đúng: \"Chúng ta cùng đi xem phim nhé, được không?\"",
       "words": [
-        "cinema,",
-        "go",
-        "the",
-        "to",
         "Let's",
+        "go",
         "we?",
-        "shall"
+        "shall",
+        "to",
+        "cinema,",
+        "the"
       ],
       "correctSentence": "Let's go to the cinema, shall we?",
       "hintVi": "Chúng ta cùng đi xem phim nhé, được không?",
@@ -233,21 +233,21 @@
       "promptVi": "[Sắp xếp câu] Ghép các từ thành câu hội thoại: \"Đúng vậy, đó là món đồ uống ưa thích nhất của tôi. Bạn không cho đường vào latte của mình, phải không?\"",
       "question": "Sắp xếp các từ để tạo thành câu thoại: \"Đúng vậy, đó là món đồ uống ưa thích nhất của tôi. Bạn không cho đường vào latte của mình, phải không?\"",
       "words": [
-        "your",
-        "Yes",
-        "you",
-        "that",
-        "in",
-        "don't",
-        "sugar",
-        "is",
         "my",
-        "take",
-        "do",
-        "absolute",
         "You",
+        "take",
+        "don't",
         "drink",
         "favorite",
+        "absolute",
+        "that",
+        "you",
+        "Yes",
+        "sugar",
+        "your",
+        "do",
+        "in",
+        "is",
         "latte"
       ],
       "correctSentence": "Yes, that is my absolute favorite drink. You don't take sugar in your latte, do you?",
@@ -260,10 +260,10 @@
       "promptVi": "[Nhận diện cấu trúc chuẩn] Chọn câu có cấu trúc ngữ pháp HOÀN TOÀN ĐÚNG:",
       "question": "Dựa vào chủ điểm \"Bài 54: Câu Hỏi Đuôi — Cơ bản (Tag Questions: Isn't it? Aren't you? Doesn't she? Didn't you?)\", câu nào sau đây CHÍNH XÁC?",
       "options": [
-        "You be a student, aren't you?",
         "You are a student, aren't you?",
-        "you? aren't student, a are You",
-        "is"
+        "You be a student, aren't you?",
+        "is",
+        "you? aren't student, a are You"
       ],
       "correctAnswer": "You are a student, aren't you?",
       "explanationVi": "Cấu trúc chuẩn xác là: \"You are a student, aren't you?\" (Bạn là học sinh, phải không?)."
@@ -274,8 +274,8 @@
       "promptVi": "[Nhận diện cấu trúc chuẩn] Chọn câu có cấu trúc ngữ pháp HOÀN TOÀN ĐÚNG:",
       "question": "Dựa vào chủ điểm \"Bài 54: Câu Hỏi Đuôi — Cơ bản (Tag Questions: Isn't it? Aren't you? Doesn't she? Didn't you?)\", câu nào sau đây CHÍNH XÁC?",
       "options": [
-        "is",
         "She lives in Hanoi, doesn't she?",
+        "is",
         "She lives at Hanoi, doesn't she?",
         "she? doesn't Hanoi, in lives She"
       ],
@@ -288,10 +288,10 @@
       "promptVi": "[Nhận diện cấu trúc chuẩn] Chọn câu có cấu trúc ngữ pháp HOÀN TOÀN ĐÚNG:",
       "question": "Dựa vào chủ điểm \"Bài 54: Câu Hỏi Đuôi — Cơ bản (Tag Questions: Isn't it? Aren't you? Doesn't she? Didn't you?)\", câu nào sau đây CHÍNH XÁC?",
       "options": [
-        "You can speak English, can't you?",
         "are",
+        "is",
         "you? can't English, speak can You",
-        "is"
+        "You can speak English, can't you?"
       ],
       "correctAnswer": "You can speak English, can't you?",
       "explanationVi": "Cấu trúc chuẩn xác là: \"You can speak English, can't you?\" (Bạn có thể nói tiếng Anh, phải không?)."
@@ -302,10 +302,10 @@
       "promptVi": "[Nhận diện cấu trúc chuẩn] Chọn câu có cấu trúc ngữ pháp HOÀN TOÀN ĐÚNG:",
       "question": "Dựa vào chủ điểm \"Bài 54: Câu Hỏi Đuôi — Cơ bản (Tag Questions: Isn't it? Aren't you? Doesn't she? Didn't you?)\", câu nào sau đây CHÍNH XÁC?",
       "options": [
-        "is",
         "Let's go to the cinema, shall we?",
+        "Let's go at the cinema, shall we?",
         "we? shall cinema, the to go Let's",
-        "Let's go at the cinema, shall we?"
+        "is"
       ],
       "correctAnswer": "Let's go to the cinema, shall we?",
       "explanationVi": "Cấu trúc chuẩn xác là: \"Let's go to the cinema, shall we?\" (Chúng ta cùng đi xem phim nhé, được không?)."
@@ -317,10 +317,10 @@
       "audioPrompt": "It is a wonderful sunny afternoon today, isn't it?",
       "question": "Nhấn nút '🔊 Nghe audio' và chọn nghĩa tiếng Việt đúng:",
       "options": [
-        "Hôm nay thời tiết rất đẹp.",
+        "Hôm nay là một buổi chiều nắng thật tuyệt vời, phải không?",
         "Đúng vậy, đó là món đồ uống ưa thích nhất của tôi. Bạn không cho đường vào latte của mình, phải không?",
         "Chắc chắn rồi! Bạn rất thích cà phê caramel macchiato đá, đúng không nào?",
-        "Hôm nay là một buổi chiều nắng thật tuyệt vời, phải không?"
+        "Hôm nay thời tiết rất đẹp."
       ],
       "correctAnswer": "Hôm nay là một buổi chiều nắng thật tuyệt vời, phải không?",
       "explanationVi": "Câu nghe được: \"It is a wonderful sunny afternoon today, isn't it?\" có nghĩa là: \"Hôm nay là một buổi chiều nắng thật tuyệt vời, phải không?\"."
@@ -334,8 +334,8 @@
       "options": [
         "Chắc chắn rồi! Bạn rất thích cà phê caramel macchiato đá, đúng không nào?",
         "Đúng vậy, đó là món đồ uống ưa thích nhất của tôi. Bạn không cho đường vào latte của mình, phải không?",
-        "Hôm nay thời tiết rất đẹp.",
-        "Không, tôi không dùng đường. Chúng ta đã không gặp nhau kể từ lễ tốt nghiệp tháng trước rồi, đúng không nhỉ?"
+        "Không, tôi không dùng đường. Chúng ta đã không gặp nhau kể từ lễ tốt nghiệp tháng trước rồi, đúng không nhỉ?",
+        "Hôm nay thời tiết rất đẹp."
       ],
       "correctAnswer": "Chắc chắn rồi! Bạn rất thích cà phê caramel macchiato đá, đúng không nào?",
       "explanationVi": "Câu nghe được: \"It certainly is! You love iced caramel macchiato, don't you?\" có nghĩa là: \"Chắc chắn rồi! Bạn rất thích cà phê caramel macchiato đá, đúng không nào?\"."
@@ -347,10 +347,10 @@
       "audioPrompt": "Yes, that is my absolute favorite drink. You don't take sugar in your latte, do you?",
       "question": "Nhấn nút '🔊 Nghe audio' và chọn nghĩa tiếng Việt đúng:",
       "options": [
-        "Đúng vậy, đó là món đồ uống ưa thích nhất của tôi. Bạn không cho đường vào latte của mình, phải không?",
-        "Không, tôi không dùng đường. Chúng ta đã không gặp nhau kể từ lễ tốt nghiệp tháng trước rồi, đúng không nhỉ?",
         "Thời gian trôi nhanh thật đấy! Công việc thiết kế đồ họa mới của bạn đang tiến triển rất suôn sẻ, phải không?",
-        "Hôm nay thời tiết rất đẹp."
+        "Hôm nay thời tiết rất đẹp.",
+        "Đúng vậy, đó là món đồ uống ưa thích nhất của tôi. Bạn không cho đường vào latte của mình, phải không?",
+        "Không, tôi không dùng đường. Chúng ta đã không gặp nhau kể từ lễ tốt nghiệp tháng trước rồi, đúng không nhỉ?"
       ],
       "correctAnswer": "Đúng vậy, đó là món đồ uống ưa thích nhất của tôi. Bạn không cho đường vào latte của mình, phải không?",
       "explanationVi": "Câu nghe được: \"Yes, that is my absolute favorite drink. You don't take sugar in your latte, do you?\" có nghĩa là: \"Đúng vậy, đó là món đồ uống ưa thích nhất của tôi. Bạn không cho đường vào latte của mình, phải không?\"."
@@ -363,9 +363,9 @@
       "question": "Nhấn nút '🔊 Nghe audio' và chọn nghĩa tiếng Việt đúng:",
       "options": [
         "Hôm nay thời tiết rất đẹp.",
-        "Không, tôi không dùng đường. Chúng ta đã không gặp nhau kể từ lễ tốt nghiệp tháng trước rồi, đúng không nhỉ?",
+        "Vâng, các đồng nghiệp của tôi rất thân thiện, họ là những người hướng dẫn tuyệt vời đúng không nào?",
         "Thời gian trôi nhanh thật đấy! Công việc thiết kế đồ họa mới của bạn đang tiến triển rất suôn sẻ, phải không?",
-        "Vâng, các đồng nghiệp của tôi rất thân thiện, họ là những người hướng dẫn tuyệt vời đúng không nào?"
+        "Không, tôi không dùng đường. Chúng ta đã không gặp nhau kể từ lễ tốt nghiệp tháng trước rồi, đúng không nhỉ?"
       ],
       "correctAnswer": "Không, tôi không dùng đường. Chúng ta đã không gặp nhau kể từ lễ tốt nghiệp tháng trước rồi, đúng không nhỉ?",
       "explanationVi": "Câu nghe được: \"No, I don't. We haven't seen each other since last month's graduation, have we?\" có nghĩa là: \"Không, tôi không dùng đường. Chúng ta đã không gặp nhau kể từ lễ tốt nghiệp tháng trước rồi, đúng không nhỉ?\"."
@@ -413,8 +413,8 @@
       "passage": "Brandon: \"It is a wonderful sunny afternoon today, isn't it?\"\nHannah: \"It certainly is! You love iced caramel macchiato, don't you?\"\nBrandon: \"Yes, that is my absolute favorite drink. You don't take sugar in your latte, do you?\"\nHannah: \"No, I don't. We haven't seen each other since last month's graduation, have we?\"",
       "question": "Dựa vào đoạn đối thoại trên, thông tin nào sau đây là CHÍNH XÁC về nội dung câu nói của Brandon?",
       "options": [
-        "Brandon muốn mượn tiền để mua vé máy bay gấp.",
         "Brandon phàn nàn rằng thời tiết hôm nay quá xấu.",
+        "Brandon muốn mượn tiền để mua vé máy bay gấp.",
         "Brandon từ chối trả lời và yêu cầu hủy cuộc hẹn.",
         "Brandon chia sẻ thông tin: \"Hôm nay là một buổi chiều nắng thật tuyệt vời, phải không?\""
       ],
@@ -428,10 +428,10 @@
       "passage": "Brandon: \"Time flies so quickly! Your new graphic design job is going very smoothly, isn't it?\"\nHannah: \"Yes, my colleagues are friendly, aren't they amazing mentors?\"\nBrandon: \"You finished designing the mobile app interface yesterday, didn't you?\"\nHannah: \"I did! Our manager was impressed with the creative color palette.\"",
       "question": "Trong đoạn hội thoại trên, câu nói \"I did! Our manager was impressed with the creative color palette.\" của Hannah mang ý nghĩa gì?",
       "options": [
-        "Phản hồi: \"Tôi đã xong rồi! Người quản lý của chúng tôi rất ấn tượng với bảng màu sáng tạo đó.\"",
-        "Phản hồi: \"Hoàn toàn không đồng ý và muốn rời khỏi phòng ngay lập tức\"",
         "Phản hồi: \"Yêu cầu cung cấp hóa đơn thanh toán tiền mặt\"",
-        "Phản hồi: \"Hẹn gặp lại vào cuối tuần sau tại sân bay quốc tế\""
+        "Phản hồi: \"Hẹn gặp lại vào cuối tuần sau tại sân bay quốc tế\"",
+        "Phản hồi: \"Hoàn toàn không đồng ý và muốn rời khỏi phòng ngay lập tức\"",
+        "Phản hồi: \"Tôi đã xong rồi! Người quản lý của chúng tôi rất ấn tượng với bảng màu sáng tạo đó.\""
       ],
       "correctAnswer": "Phản hồi: \"Tôi đã xong rồi! Người quản lý của chúng tôi rất ấn tượng với bảng màu sáng tạo đó.\"",
       "explanationVi": "Hannah nói: \"I did! Our manager was impressed with the creative color palette.\" có nghĩa là: \"Tôi đã xong rồi! Người quản lý của chúng tôi rất ấn tượng với bảng màu sáng tạo đó.\"."

@@ -25,9 +25,9 @@
       "question": "She speaks English ___ fluently than me.",
       "options": [
         "more",
-        "as",
         "most",
-        "much"
+        "much",
+        "as"
       ],
       "correctAnswer": "more",
       "explanationVi": "Trạng từ đuôi -ly dùng 'more + Adv' trong so sánh hơn."
@@ -38,10 +38,10 @@
       "promptVi": "[Trắc nghiệm ngữ pháp] Chọn từ đúng để hoàn thành câu (Anh ấy chơi quần vợt giỏi hơn bất kỳ ai khác.):",
       "question": "He plays tennis ___ than anyone else.",
       "options": [
+        "more well",
         "best",
         "gooder",
-        "better",
-        "more well"
+        "better"
       ],
       "correctAnswer": "better",
       "explanationVi": "Trạng từ 'well' chuyển thành 'better' trong so sánh hơn."
@@ -52,10 +52,10 @@
       "promptVi": "[Trắc nghiệm ngữ pháp] Chọn từ đúng để hoàn thành câu (Hôm nay ai đã đến văn phòng sớm nhất vậy?):",
       "question": "Who arrived ___ at the office today?",
       "options": [
-        "earlier",
         "earliest",
-        "early",
-        "most early"
+        "most early",
+        "earlier",
+        "early"
       ],
       "correctAnswer": "earliest",
       "explanationVi": "Trạng từ 'early' đổi y thành i rồi thêm -est -> 'earliest'."
@@ -68,8 +68,8 @@
       "options": [
         "is",
         "We are studying English today.",
-        "Good morning team! Let's evaluate our quarterly sprint performance metrics.",
-        "Our engineering department worked more efficiently than ever before to deliver the feature."
+        "Our engineering department worked more efficiently than ever before to deliver the feature.",
+        "Good morning team! Let's evaluate our quarterly sprint performance metrics."
       ],
       "correctAnswer": "Good morning team! Let's evaluate our quarterly sprint performance metrics.",
       "explanationVi": "Câu dịch chuẩn xác: \"Good morning team! Let's evaluate our quarterly sprint performance metrics.\" (Chào buổi sáng cả nhóm! Hãy cùng đánh giá các chỉ số hiệu suất trong giai đoạn quý vừa qua.)."
@@ -82,8 +82,8 @@
       "options": [
         "Our engineering department worked more efficiently than ever before to deliver the feature.",
         "No, it was yesterday.",
-        "They are not in the office.",
-        "Yes, I will eat it."
+        "Yes, I will eat it.",
+        "They are not in the office."
       ],
       "correctAnswer": "Our engineering department worked more efficiently than ever before to deliver the feature.",
       "explanationVi": "Phản hồi phù hợp trong bài: \"Our engineering department worked more efficiently than ever before to deliver the feature.\" (Phòng kỹ thuật của chúng ta đã làm việc hiệu quả hơn bao giờ hết để bàn giao tính năng.)."
@@ -95,8 +95,8 @@
       "question": "He runs ___ than his brother.",
       "correctAnswer": "faster",
       "options": [
-        "fastest",
         "fastly",
+        "fastest",
         "more fast",
         "faster"
       ],
@@ -109,9 +109,9 @@
       "question": "She speaks English ___ fluently than me.",
       "correctAnswer": "more",
       "options": [
+        "more",
         "most",
         "much",
-        "more",
         "as"
       ],
       "explanationVi": "Đáp án đúng là \"more\". Câu hoàn chỉnh: \"She speaks English more fluently than me.\" (Cô ấy nói tiếng Anh trôi chảy hơn tôi.)."
@@ -124,9 +124,9 @@
       "correctAnswer": "better",
       "options": [
         "best",
-        "better",
         "more well",
-        "gooder"
+        "gooder",
+        "better"
       ],
       "explanationVi": "Đáp án đúng là \"better\". Câu hoàn chỉnh: \"He plays tennis better than anyone else.\" (Anh ấy chơi quần vợt giỏi hơn bất kỳ ai khác.)."
     },
@@ -165,11 +165,11 @@
       "question": "Sắp xếp các từ để tạo thành câu đúng: \"Anh ấy chạy nhanh hơn anh trai mình.\"",
       "words": [
         "brother.",
-        "faster",
+        "his",
         "runs",
-        "than",
         "He",
-        "his"
+        "than",
+        "faster"
       ],
       "correctSentence": "He runs faster than his brother.",
       "hintVi": "Anh ấy chạy nhanh hơn anh trai mình.",
@@ -181,13 +181,13 @@
       "promptVi": "[Sắp xếp câu] Ghép các khối từ thành câu hoàn chỉnh mang nghĩa: \"Cô ấy nói tiếng Anh trôi chảy hơn tôi.\"",
       "question": "Sắp xếp các từ để tạo thành câu đúng: \"Cô ấy nói tiếng Anh trôi chảy hơn tôi.\"",
       "words": [
-        "me.",
-        "fluently",
-        "She",
         "more",
         "English",
+        "fluently",
+        "speaks",
+        "She",
         "than",
-        "speaks"
+        "me."
       ],
       "correctSentence": "She speaks English more fluently than me.",
       "hintVi": "Cô ấy nói tiếng Anh trôi chảy hơn tôi.",
@@ -199,13 +199,13 @@
       "promptVi": "[Sắp xếp câu] Ghép các khối từ thành câu hoàn chỉnh mang nghĩa: \"Anh ấy chơi quần vợt giỏi hơn bất kỳ ai khác.\"",
       "question": "Sắp xếp các từ để tạo thành câu đúng: \"Anh ấy chơi quần vợt giỏi hơn bất kỳ ai khác.\"",
       "words": [
-        "else.",
         "tennis",
-        "plays",
+        "else.",
+        "anyone",
         "than",
         "better",
-        "He",
-        "anyone"
+        "plays",
+        "He"
       ],
       "correctSentence": "He plays tennis better than anyone else.",
       "hintVi": "Anh ấy chơi quần vợt giỏi hơn bất kỳ ai khác.",
@@ -217,12 +217,12 @@
       "promptVi": "[Sắp xếp câu] Ghép các khối từ thành câu hoàn chỉnh mang nghĩa: \"Hôm nay ai đã đến văn phòng sớm nhất vậy?\"",
       "question": "Sắp xếp các từ để tạo thành câu đúng: \"Hôm nay ai đã đến văn phòng sớm nhất vậy?\"",
       "words": [
+        "today?",
+        "office",
+        "arrived",
         "the",
         "at",
-        "office",
         "Who",
-        "arrived",
-        "today?",
         "earliest"
       ],
       "correctSentence": "Who arrived earliest at the office today?",
@@ -235,18 +235,18 @@
       "promptVi": "[Sắp xếp câu] Ghép các từ thành câu hội thoại: \"Ai đã xử lý các thắc mắc của khách hàng nhanh nhất trong các giờ cao điểm kỳ nghỉ?\"",
       "question": "Sắp xếp các từ để tạo thành câu thoại: \"Ai đã xử lý các thắc mắc của khách hàng nhanh nhất trong các giờ cao điểm kỳ nghỉ?\"",
       "words": [
-        "the",
-        "hours",
-        "managed",
         "fastest",
-        "resolve",
-        "Who",
-        "to",
-        "inquiries",
+        "peak",
         "holiday",
-        "during",
         "customer",
-        "peak"
+        "hours",
+        "resolve",
+        "during",
+        "inquiries",
+        "to",
+        "managed",
+        "the",
+        "Who"
       ],
       "correctSentence": "Who managed to resolve customer inquiries the fastest during peak holiday hours?",
       "hintVi": "Ai đã xử lý các thắc mắc của khách hàng nhanh nhất trong các giờ cao điểm kỳ nghỉ?",
@@ -260,8 +260,8 @@
       "options": [
         "brother. his than faster runs He",
         "are",
-        "is",
-        "He runs faster than his brother."
+        "He runs faster than his brother.",
+        "is"
       ],
       "correctAnswer": "He runs faster than his brother.",
       "explanationVi": "Cấu trúc chuẩn xác là: \"He runs faster than his brother.\" (Anh ấy chạy nhanh hơn anh trai mình.)."
@@ -272,10 +272,10 @@
       "promptVi": "[Nhận diện cấu trúc chuẩn] Chọn câu có cấu trúc ngữ pháp HOÀN TOÀN ĐÚNG:",
       "question": "Dựa vào chủ điểm \"Bài 53: Trạng từ — So sánh hơn & So sánh nhất (Comparative & Superlative Adverbs: More / Most / Faster / Best)\", câu nào sau đây CHÍNH XÁC?",
       "options": [
-        "She speaks English more fluently than me.",
-        "is",
         "me. than fluently more English speaks She",
-        "are"
+        "She speaks English more fluently than me.",
+        "are",
+        "is"
       ],
       "correctAnswer": "She speaks English more fluently than me.",
       "explanationVi": "Cấu trúc chuẩn xác là: \"She speaks English more fluently than me.\" (Cô ấy nói tiếng Anh trôi chảy hơn tôi.)."
@@ -286,10 +286,10 @@
       "promptVi": "[Nhận diện cấu trúc chuẩn] Chọn câu có cấu trúc ngữ pháp HOÀN TOÀN ĐÚNG:",
       "question": "Dựa vào chủ điểm \"Bài 53: Trạng từ — So sánh hơn & So sánh nhất (Comparative & Superlative Adverbs: More / Most / Faster / Best)\", câu nào sau đây CHÍNH XÁC?",
       "options": [
-        "else. anyone than better tennis plays He",
+        "He plays tennis better than anyone else.",
         "are",
-        "is",
-        "He plays tennis better than anyone else."
+        "else. anyone than better tennis plays He",
+        "is"
       ],
       "correctAnswer": "He plays tennis better than anyone else.",
       "explanationVi": "Cấu trúc chuẩn xác là: \"He plays tennis better than anyone else.\" (Anh ấy chơi quần vợt giỏi hơn bất kỳ ai khác.)."
@@ -300,10 +300,10 @@
       "promptVi": "[Nhận diện cấu trúc chuẩn] Chọn câu có cấu trúc ngữ pháp HOÀN TOÀN ĐÚNG:",
       "question": "Dựa vào chủ điểm \"Bài 53: Trạng từ — So sánh hơn & So sánh nhất (Comparative & Superlative Adverbs: More / Most / Faster / Best)\", câu nào sau đây CHÍNH XÁC?",
       "options": [
-        "Who arrived earliest at the office today?",
         "today? office the at earliest arrived Who",
         "are",
-        "is"
+        "is",
+        "Who arrived earliest at the office today?"
       ],
       "correctAnswer": "Who arrived earliest at the office today?",
       "explanationVi": "Cấu trúc chuẩn xác là: \"Who arrived earliest at the office today?\" (Hôm nay ai đã đến văn phòng sớm nhất vậy?)."
@@ -331,9 +331,9 @@
       "question": "Nhấn nút '🔊 Nghe audio' và chọn nghĩa tiếng Việt đúng:",
       "options": [
         "Hôm nay thời tiết rất đẹp.",
-        "Phòng kỹ thuật của chúng ta đã làm việc hiệu quả hơn bao giờ hết để bàn giao tính năng.",
+        "David đã phản hồi nhanh hơn bất kỳ ai, nhưng Sophia đã xử lý các khiếu nại phức tạp một cách kiên nhẫn nhất.",
         "Ai đã xử lý các thắc mắc của khách hàng nhanh nhất trong các giờ cao điểm kỳ nghỉ?",
-        "David đã phản hồi nhanh hơn bất kỳ ai, nhưng Sophia đã xử lý các khiếu nại phức tạp một cách kiên nhẫn nhất."
+        "Phòng kỹ thuật của chúng ta đã làm việc hiệu quả hơn bao giờ hết để bàn giao tính năng."
       ],
       "correctAnswer": "Phòng kỹ thuật của chúng ta đã làm việc hiệu quả hơn bao giờ hết để bàn giao tính năng.",
       "explanationVi": "Câu nghe được: \"Our engineering department worked more efficiently than ever before to deliver the feature.\" có nghĩa là: \"Phòng kỹ thuật của chúng ta đã làm việc hiệu quả hơn bao giờ hết để bàn giao tính năng.\"."
@@ -345,10 +345,10 @@
       "audioPrompt": "Who managed to resolve customer inquiries the fastest during peak holiday hours?",
       "question": "Nhấn nút '🔊 Nghe audio' và chọn nghĩa tiếng Việt đúng:",
       "options": [
-        "Hôm nay thời tiết rất đẹp.",
         "Ai đã xử lý các thắc mắc của khách hàng nhanh nhất trong các giờ cao điểm kỳ nghỉ?",
+        "David đã phản hồi nhanh hơn bất kỳ ai, nhưng Sophia đã xử lý các khiếu nại phức tạp một cách kiên nhẫn nhất.",
         "Ai đã đến sớm nhất tại hội nghị công nghệ quốc tế ở Singapore?",
-        "David đã phản hồi nhanh hơn bất kỳ ai, nhưng Sophia đã xử lý các khiếu nại phức tạp một cách kiên nhẫn nhất."
+        "Hôm nay thời tiết rất đẹp."
       ],
       "correctAnswer": "Ai đã xử lý các thắc mắc của khách hàng nhanh nhất trong các giờ cao điểm kỳ nghỉ?",
       "explanationVi": "Câu nghe được: \"Who managed to resolve customer inquiries the fastest during peak holiday hours?\" có nghĩa là: \"Ai đã xử lý các thắc mắc của khách hàng nhanh nhất trong các giờ cao điểm kỳ nghỉ?\"."
@@ -360,8 +360,8 @@
       "audioPrompt": "David responded faster than anyone else, but Sophia handled complicated complaints the most patiently.",
       "question": "Nhấn nút '🔊 Nghe audio' và chọn nghĩa tiếng Việt đúng:",
       "options": [
-        "David đã phản hồi nhanh hơn bất kỳ ai, nhưng Sophia đã xử lý các khiếu nại phức tạp một cách kiên nhẫn nhất.",
         "Hôm nay thời tiết rất đẹp.",
+        "David đã phản hồi nhanh hơn bất kỳ ai, nhưng Sophia đã xử lý các khiếu nại phức tạp một cách kiên nhẫn nhất.",
         "Ai đã đến sớm nhất tại hội nghị công nghệ quốc tế ở Singapore?",
         "Alex đã đến sớm hơn các diễn giả chính và chuẩn bị sân khấu trình diễn một cách tỉ mỉ."
       ],
@@ -412,8 +412,8 @@
       "question": "Dựa vào đoạn đối thoại trên, thông tin nào sau đây là CHÍNH XÁC về nội dung câu nói của Team Lead Marcus?",
       "options": [
         "Team Lead Marcus muốn mượn tiền để mua vé máy bay gấp.",
-        "Team Lead Marcus phàn nàn rằng thời tiết hôm nay quá xấu.",
         "Team Lead Marcus chia sẻ thông tin: \"Chào buổi sáng cả nhóm! Hãy cùng đánh giá các chỉ số hiệu suất trong giai đoạn quý vừa qua.\"",
+        "Team Lead Marcus phàn nàn rằng thời tiết hôm nay quá xấu.",
         "Team Lead Marcus từ chối trả lời và yêu cầu hủy cuộc hẹn."
       ],
       "correctAnswer": "Team Lead Marcus chia sẻ thông tin: \"Chào buổi sáng cả nhóm! Hãy cùng đánh giá các chỉ số hiệu suất trong giai đoạn quý vừa qua.\"",
@@ -426,9 +426,9 @@
       "passage": "Team Lead Marcus: \"Who arrived earliest at the international technology conference in Singapore?\"\nElena: \"Alex arrived earlier than the keynote speakers and prepared the demonstration stage meticulously.\"\nTeam Lead Marcus: \"Did the new algorithm process large database queries better than the previous version?\"\nElena: \"Yes, it performed much better and calculated complex analytics the most accurately.\"",
       "question": "Trong đoạn hội thoại trên, câu nói \"Yes, it performed much better and calculated complex analytics the most accurately.\" của Elena mang ý nghĩa gì?",
       "options": [
-        "Phản hồi: \"Hẹn gặp lại vào cuối tuần sau tại sân bay quốc tế\"",
-        "Phản hồi: \"Hoàn toàn không đồng ý và muốn rời khỏi phòng ngay lập tức\"",
         "Phản hồi: \"Có chứ, nó hoạt động tốt hơn nhiều và tính toán các phân tích phức tạp một cách chính xác nhất.\"",
+        "Phản hồi: \"Hoàn toàn không đồng ý và muốn rời khỏi phòng ngay lập tức\"",
+        "Phản hồi: \"Hẹn gặp lại vào cuối tuần sau tại sân bay quốc tế\"",
         "Phản hồi: \"Yêu cầu cung cấp hóa đơn thanh toán tiền mặt\""
       ],
       "correctAnswer": "Phản hồi: \"Có chứ, nó hoạt động tốt hơn nhiều và tính toán các phân tích phức tạp một cách chính xác nhất.\"",

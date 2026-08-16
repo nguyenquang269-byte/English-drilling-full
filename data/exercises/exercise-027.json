@@ -10,10 +10,10 @@
       "promptVi": "[Trắc nghiệm ngữ pháp] Chọn từ đúng để hoàn thành câu (Bạn đã từng đến thăm Nhật Bản bao giờ chưa?):",
       "question": "Have you ___ visited Japan?",
       "options": [
+        "yet",
         "already",
         "never",
-        "ever",
-        "yet"
+        "ever"
       ],
       "correctAnswer": "ever",
       "explanationVi": "Trong câu hỏi trải nghiệm dùng 'ever'."
@@ -24,9 +24,9 @@
       "promptVi": "[Trắc nghiệm ngữ pháp] Chọn từ đúng để hoàn thành câu (Tôi chưa bao giờ ăn cá sống.):",
       "question": "I have ___ eaten raw fish.",
       "options": [
-        "never",
         "ever",
         "already",
+        "never",
         "yet"
       ],
       "correctAnswer": "never",
@@ -40,8 +40,8 @@
       "options": [
         "already",
         "yet",
-        "never",
-        "ever"
+        "ever",
+        "never"
       ],
       "correctAnswer": "already",
       "explanationVi": "'already' dùng trong câu khẳng định thể hiện hành động đã xong."
@@ -52,9 +52,9 @@
       "promptVi": "[Trắc nghiệm ngữ pháp] Chọn từ đúng để hoàn thành câu (Bạn đã đi khám bác sĩ chưa?):",
       "question": "Have you seen the doctor ___?",
       "options": [
+        "never",
         "ever",
         "already",
-        "never",
         "yet"
       ],
       "correctAnswer": "yet",
@@ -68,8 +68,8 @@
       "options": [
         "Have you ever tried traditional Italian gelato, Fiona?",
         "be you ever tried traditional Italian gelato, Fiona?",
-        "We are studying English today.",
-        "Yes, I have already tasted it many times. It is absolutely heavenly!"
+        "Yes, I have already tasted it many times. It is absolutely heavenly!",
+        "We are studying English today."
       ],
       "correctAnswer": "Have you ever tried traditional Italian gelato, Fiona?",
       "explanationVi": "Câu dịch chuẩn xác: \"Have you ever tried traditional Italian gelato, Fiona?\" (Bạn đã bao giờ nếm thử món kem gelato truyền thống của Ý chưa, Fiona?)."
@@ -80,9 +80,9 @@
       "promptVi": "[Ngữ cảnh giao tiếp] Chọn câu phản hồi tự nhiên và đúng ngữ pháp:",
       "question": "Khi đối phương nói: \"Have you ever tried traditional Italian gelato, Fiona?\", câu phản hồi phù hợp là gì?",
       "options": [
-        "They are not in the office.",
         "Yes, I will eat it.",
         "No, it was yesterday.",
+        "They are not in the office.",
         "Yes, I have already tasted it many times. It is absolutely heavenly!"
       ],
       "correctAnswer": "Yes, I have already tasted it many times. It is absolutely heavenly!",
@@ -96,8 +96,8 @@
       "correctAnswer": "ever",
       "options": [
         "already",
-        "never",
         "ever",
+        "never",
         "yet"
       ],
       "explanationVi": "Đáp án đúng là \"ever\". Câu hoàn chỉnh: \"Have you ever visited Japan?\" (Bạn đã từng đến thăm Nhật Bản bao giờ chưa?)."
@@ -139,8 +139,8 @@
       "options": [
         "ever",
         "already",
-        "yet",
-        "never"
+        "never",
+        "yet"
       ],
       "explanationVi": "Đáp án đúng là \"yet\". Câu hoàn chỉnh: \"Have you seen the doctor yet?\" (Bạn đã đi khám bác sĩ chưa?)."
     },
@@ -151,10 +151,10 @@
       "question": "Have _____ not ever visited Japan?",
       "correctAnswer": "you",
       "options": [
-        "is",
+        "am",
         "you",
-        "are",
-        "am"
+        "is",
+        "are"
       ],
       "explanationVi": "Câu phủ định hoàn chỉnh: \"Have you not ever visited Japan?\"."
     },
@@ -164,10 +164,10 @@
       "promptVi": "[Sắp xếp câu] Ghép các khối từ thành câu hoàn chỉnh mang nghĩa: \"Bạn đã từng đến thăm Nhật Bản bao giờ chưa?\"",
       "question": "Sắp xếp các từ để tạo thành câu đúng: \"Bạn đã từng đến thăm Nhật Bản bao giờ chưa?\"",
       "words": [
-        "you",
-        "ever",
-        "visited",
         "Japan?",
+        "ever",
+        "you",
+        "visited",
         "Have"
       ],
       "correctSentence": "Have you ever visited Japan?",
@@ -180,12 +180,12 @@
       "promptVi": "[Sắp xếp câu] Ghép các khối từ thành câu hoàn chỉnh mang nghĩa: \"Tôi chưa bao giờ ăn cá sống.\"",
       "question": "Sắp xếp các từ để tạo thành câu đúng: \"Tôi chưa bao giờ ăn cá sống.\"",
       "words": [
-        "never",
+        "eaten",
         "raw",
+        "I",
         "have",
         "fish.",
-        "eaten",
-        "I"
+        "never"
       ],
       "correctSentence": "I have never eaten raw fish.",
       "hintVi": "Tôi chưa bao giờ ăn cá sống.",
@@ -197,12 +197,12 @@
       "promptVi": "[Sắp xếp câu] Ghép các khối từ thành câu hoàn chỉnh mang nghĩa: \"Tôi đã ăn xong bữa sáng của mình rồi.\"",
       "question": "Sắp xếp các từ để tạo thành câu đúng: \"Tôi đã ăn xong bữa sáng của mình rồi.\"",
       "words": [
-        "finished",
-        "breakfast.",
         "I",
-        "have",
+        "breakfast.",
         "my",
-        "already"
+        "finished",
+        "already",
+        "have"
       ],
       "correctSentence": "I have already finished my breakfast.",
       "hintVi": "Tôi đã ăn xong bữa sáng của mình rồi.",
@@ -214,12 +214,12 @@
       "promptVi": "[Sắp xếp câu] Ghép các khối từ thành câu hoàn chỉnh mang nghĩa: \"Bạn đã đi khám bác sĩ chưa?\"",
       "question": "Sắp xếp các từ để tạo thành câu đúng: \"Bạn đã đi khám bác sĩ chưa?\"",
       "words": [
-        "yet?",
-        "seen",
-        "you",
         "the",
+        "Have",
+        "you",
         "doctor",
-        "Have"
+        "yet?",
+        "seen"
       ],
       "correctSentence": "Have you seen the doctor yet?",
       "hintVi": "Bạn đã đi khám bác sĩ chưa?",
@@ -231,15 +231,15 @@
       "promptVi": "[Sắp xếp câu] Ghép các từ thành câu hội thoại: \"Bạn đã từng đến thăm Rome hay Florence ở Ý bao giờ chưa?\"",
       "question": "Sắp xếp các từ để tạo thành câu thoại: \"Bạn đã từng đến thăm Rome hay Florence ở Ý bao giờ chưa?\"",
       "words": [
+        "in",
+        "or",
+        "Rome",
+        "visited",
         "Italy",
         "ever",
-        "or",
-        "Florence",
         "you",
         "Have",
-        "visited",
-        "in",
-        "Rome"
+        "Florence"
       ],
       "correctSentence": "Have you ever visited Rome or Florence in Italy?",
       "hintVi": "Bạn đã từng đến thăm Rome hay Florence ở Ý bao giờ chưa?",
@@ -251,8 +251,8 @@
       "promptVi": "[Nhận diện cấu trúc chuẩn] Chọn câu có cấu trúc ngữ pháp HOÀN TOÀN ĐÚNG:",
       "question": "Dựa vào chủ điểm \"Bài 27: Hiện tại Hoàn thành — Kết hợp Ever / Never / Already / Yet\", câu nào sau đây CHÍNH XÁC?",
       "options": [
-        "are",
         "Have you ever visited Japan?",
+        "are",
         "Japan? visited ever you Have",
         "is"
       ],
@@ -266,9 +266,9 @@
       "question": "Dựa vào chủ điểm \"Bài 27: Hiện tại Hoàn thành — Kết hợp Ever / Never / Already / Yet\", câu nào sau đây CHÍNH XÁC?",
       "options": [
         "are",
-        "I have never eaten raw fish.",
+        "is",
         "fish. raw eaten never have I",
-        "is"
+        "I have never eaten raw fish."
       ],
       "correctAnswer": "I have never eaten raw fish.",
       "explanationVi": "Cấu trúc chuẩn xác là: \"I have never eaten raw fish.\" (Tôi chưa bao giờ ăn cá sống.)."
@@ -279,9 +279,9 @@
       "promptVi": "[Nhận diện cấu trúc chuẩn] Chọn câu có cấu trúc ngữ pháp HOÀN TOÀN ĐÚNG:",
       "question": "Dựa vào chủ điểm \"Bài 27: Hiện tại Hoàn thành — Kết hợp Ever / Never / Already / Yet\", câu nào sau đây CHÍNH XÁC?",
       "options": [
+        "are",
         "I have already finished my breakfast.",
         "breakfast. my finished already have I",
-        "are",
         "is"
       ],
       "correctAnswer": "I have already finished my breakfast.",
@@ -310,8 +310,8 @@
       "options": [
         "Hôm nay thời tiết rất đẹp.",
         "Bạn đã bao giờ nếm thử món kem gelato truyền thống của Ý chưa, Fiona?",
-        "Bạn đã từng đến thăm Rome hay Florence ở Ý bao giờ chưa?",
-        "Rồi, tôi đã từng thưởng thức nhiều lần rồi. Nó thực sự rất tuyệt vời!"
+        "Rồi, tôi đã từng thưởng thức nhiều lần rồi. Nó thực sự rất tuyệt vời!",
+        "Bạn đã từng đến thăm Rome hay Florence ở Ý bao giờ chưa?"
       ],
       "correctAnswer": "Bạn đã bao giờ nếm thử món kem gelato truyền thống của Ý chưa, Fiona?",
       "explanationVi": "Câu nghe được: \"Have you ever tried traditional Italian gelato, Fiona?\" có nghĩa là: \"Bạn đã bao giờ nếm thử món kem gelato truyền thống của Ý chưa, Fiona?\"."
@@ -323,10 +323,10 @@
       "audioPrompt": "Yes, I have already tasted it many times. It is absolutely heavenly!",
       "question": "Nhấn nút '🔊 Nghe audio' và chọn nghĩa tiếng Việt đúng:",
       "options": [
+        "Rồi, tôi đã từng thưởng thức nhiều lần rồi. Nó thực sự rất tuyệt vời!",
         "Bạn đã từng đến thăm Rome hay Florence ở Ý bao giờ chưa?",
-        "Hôm nay thời tiết rất đẹp.",
         "Chưa, tôi chưa từng đến châu Âu, nhưng tôi đã lên kế hoạch cho kỳ nghỉ ở đó rồi.",
-        "Rồi, tôi đã từng thưởng thức nhiều lần rồi. Nó thực sự rất tuyệt vời!"
+        "Hôm nay thời tiết rất đẹp."
       ],
       "correctAnswer": "Rồi, tôi đã từng thưởng thức nhiều lần rồi. Nó thực sự rất tuyệt vời!",
       "explanationVi": "Câu nghe được: \"Yes, I have already tasted it many times. It is absolutely heavenly!\" có nghĩa là: \"Rồi, tôi đã từng thưởng thức nhiều lần rồi. Nó thực sự rất tuyệt vời!\"."
@@ -338,10 +338,10 @@
       "audioPrompt": "Have you ever visited Rome or Florence in Italy?",
       "question": "Nhấn nút '🔊 Nghe audio' và chọn nghĩa tiếng Việt đúng:",
       "options": [
-        "Bạn đã đặt vé máy bay chưa?",
         "Bạn đã từng đến thăm Rome hay Florence ở Ý bao giờ chưa?",
         "Hôm nay thời tiết rất đẹp.",
-        "Chưa, tôi chưa từng đến châu Âu, nhưng tôi đã lên kế hoạch cho kỳ nghỉ ở đó rồi."
+        "Chưa, tôi chưa từng đến châu Âu, nhưng tôi đã lên kế hoạch cho kỳ nghỉ ở đó rồi.",
+        "Bạn đã đặt vé máy bay chưa?"
       ],
       "correctAnswer": "Bạn đã từng đến thăm Rome hay Florence ở Ý bao giờ chưa?",
       "explanationVi": "Câu nghe được: \"Have you ever visited Rome or Florence in Italy?\" có nghĩa là: \"Bạn đã từng đến thăm Rome hay Florence ở Ý bao giờ chưa?\"."
@@ -354,9 +354,9 @@
       "question": "Nhấn nút '🔊 Nghe audio' và chọn nghĩa tiếng Việt đúng:",
       "options": [
         "Bạn đã đặt vé máy bay chưa?",
-        "Hôm nay thời tiết rất đẹp.",
+        "Chưa, tôi chưa đặt vé máy bay vì tôi đang chờ đợi các đợt giảm giá.",
         "Chưa, tôi chưa từng đến châu Âu, nhưng tôi đã lên kế hoạch cho kỳ nghỉ ở đó rồi.",
-        "Chưa, tôi chưa đặt vé máy bay vì tôi đang chờ đợi các đợt giảm giá."
+        "Hôm nay thời tiết rất đẹp."
       ],
       "correctAnswer": "Chưa, tôi chưa từng đến châu Âu, nhưng tôi đã lên kế hoạch cho kỳ nghỉ ở đó rồi.",
       "explanationVi": "Câu nghe được: \"No, I have never been to Europe, but I have already planned a vacation there.\" có nghĩa là: \"Chưa, tôi chưa từng đến châu Âu, nhưng tôi đã lên kế hoạch cho kỳ nghỉ ở đó rồi.\"."
@@ -405,9 +405,9 @@
       "question": "Dựa vào đoạn đối thoại trên, thông tin nào sau đây là CHÍNH XÁC về nội dung câu nói của Brandon?",
       "options": [
         "Brandon muốn mượn tiền để mua vé máy bay gấp.",
+        "Brandon chia sẻ thông tin: \"Bạn đã bao giờ nếm thử món kem gelato truyền thống của Ý chưa, Fiona?\"",
         "Brandon phàn nàn rằng thời tiết hôm nay quá xấu.",
-        "Brandon từ chối trả lời và yêu cầu hủy cuộc hẹn.",
-        "Brandon chia sẻ thông tin: \"Bạn đã bao giờ nếm thử món kem gelato truyền thống của Ý chưa, Fiona?\""
+        "Brandon từ chối trả lời và yêu cầu hủy cuộc hẹn."
       ],
       "correctAnswer": "Brandon chia sẻ thông tin: \"Bạn đã bao giờ nếm thử món kem gelato truyền thống của Ý chưa, Fiona?\"",
       "explanationVi": "Trong đoạn hội thoại, Brandon đã nói: \"Have you ever tried traditional Italian gelato, Fiona?\" (nghĩa là: \"Bạn đã bao giờ nếm thử món kem gelato truyền thống của Ý chưa, Fiona?\")."
@@ -419,8 +419,8 @@
       "passage": "Brandon: \"Have you booked your airplane tickets yet?\"\nFiona: \"No, I haven't booked the flights yet because I am waiting for discount deals.\"\nBrandon: \"My colleague has already visited France and Switzerland twice.\"\nFiona: \"Has he ever climbed the Alps mountains in Switzerland?\"",
       "question": "Trong đoạn hội thoại trên, câu nói \"Has he ever climbed the Alps mountains in Switzerland?\" của Fiona mang ý nghĩa gì?",
       "options": [
-        "Phản hồi: \"Hoàn toàn không đồng ý và muốn rời khỏi phòng ngay lập tức\"",
         "Phản hồi: \"Anh ấy đã bao giờ leo lên dãy núi Alps ở Thụy Sĩ chưa?\"",
+        "Phản hồi: \"Hoàn toàn không đồng ý và muốn rời khỏi phòng ngay lập tức\"",
         "Phản hồi: \"Hẹn gặp lại vào cuối tuần sau tại sân bay quốc tế\"",
         "Phản hồi: \"Yêu cầu cung cấp hóa đơn thanh toán tiền mặt\""
       ],

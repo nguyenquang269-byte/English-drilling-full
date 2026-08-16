@@ -11,9 +11,9 @@
       "question": "___ you speak English every day?",
       "options": [
         "Do",
+        "Does",
         "Is",
-        "Are",
-        "Does"
+        "Are"
       ],
       "correctAnswer": "Do",
       "explanationVi": "Chủ ngữ 'you' với động từ thường 'speak' dùng trợ động từ 'Do'."
@@ -24,10 +24,10 @@
       "promptVi": "[Trắc nghiệm ngữ pháp] Chọn từ đúng để hoàn thành câu (Cô ấy có thích đồ ăn cay không?):",
       "question": "___ she like spicy food?",
       "options": [
-        "Has",
+        "Do",
         "Does",
         "Is",
-        "Do"
+        "Has"
       ],
       "correctAnswer": "Does",
       "explanationVi": "Chủ ngữ 'she' đi với trợ động từ 'Does' trong câu hỏi."
@@ -38,9 +38,9 @@
       "promptVi": "[Trắc nghiệm ngữ pháp] Chọn từ đúng để hoàn thành câu (Họ có làm việc trong tòa nhà này không?):",
       "question": "___ they work in this building?",
       "options": [
-        "Does",
         "Have",
         "Are",
+        "Does",
         "Do"
       ],
       "correctAnswer": "Do",
@@ -52,10 +52,10 @@
       "promptVi": "[Trắc nghiệm ngữ pháp] Chọn từ đúng để hoàn thành câu (Anh ấy có lái ô tô đi làm không?):",
       "question": "Does he ___ a car to work?",
       "options": [
-        "drive",
+        "driving",
         "drives",
-        "drove",
-        "driving"
+        "drive",
+        "drove"
       ],
       "correctAnswer": "drive",
       "explanationVi": "Sau trợ động từ 'Does', động từ chính luôn ở dạng nguyên mẫu 'drive'."
@@ -67,9 +67,9 @@
       "question": "Chọn bản dịch chuẩn xác nhất cho câu: \"Bạn có sống gần trung tâm thành phố không, Chloe?\"",
       "options": [
         "Yes, I do. I live only five minutes away from the main square.",
+        "We are studying English today.",
         "Do you live near the city center, Chloe?",
-        "be you live near the city center, Chloe?",
-        "We are studying English today."
+        "be you live near the city center, Chloe?"
       ],
       "correctAnswer": "Do you live near the city center, Chloe?",
       "explanationVi": "Câu dịch chuẩn xác: \"Do you live near the city center, Chloe?\" (Bạn có sống gần trung tâm thành phố không, Chloe?)."
@@ -80,9 +80,9 @@
       "promptVi": "[Ngữ cảnh giao tiếp] Chọn câu phản hồi tự nhiên và đúng ngữ pháp:",
       "question": "Khi đối phương nói: \"Do you live near the city center, Chloe?\", câu phản hồi phù hợp là gì?",
       "options": [
-        "No, it was yesterday.",
         "They are not in the office.",
         "Yes, I will eat it.",
+        "No, it was yesterday.",
         "Yes, I do. I live only five minutes away from the main square."
       ],
       "correctAnswer": "Yes, I do. I live only five minutes away from the main square.",
@@ -95,10 +95,10 @@
       "question": "___ you speak English every day?",
       "correctAnswer": "Do",
       "options": [
+        "Are",
         "Is",
-        "Do",
         "Does",
-        "Are"
+        "Do"
       ],
       "explanationVi": "Đáp án đúng là \"Do\". Câu hoàn chỉnh: \"Do you speak English every day?\" (Bạn có nói tiếng Anh mỗi ngày không?)."
     },
@@ -109,10 +109,10 @@
       "question": "___ she like spicy food?",
       "correctAnswer": "Does",
       "options": [
-        "Do",
-        "Has",
         "Is",
-        "Does"
+        "Do",
+        "Does",
+        "Has"
       ],
       "explanationVi": "Đáp án đúng là \"Does\". Câu hoàn chỉnh: \"Does she like spicy food?\" (Cô ấy có thích đồ ăn cay không?)."
     },
@@ -124,9 +124,9 @@
       "correctAnswer": "Do",
       "options": [
         "Have",
+        "Are",
         "Does",
-        "Do",
-        "Are"
+        "Do"
       ],
       "explanationVi": "Đáp án đúng là \"Do\". Câu hoàn chỉnh: \"Do they work in this building?\" (Họ có làm việc trong tòa nhà này không?)."
     },
@@ -138,9 +138,9 @@
       "correctAnswer": "drive",
       "options": [
         "drove",
+        "driving",
         "drives",
-        "drive",
-        "driving"
+        "drive"
       ],
       "explanationVi": "Đáp án đúng là \"drive\". Câu hoàn chỉnh: \"Does he drive a car to work?\" (Anh ấy có lái ô tô đi làm không?)."
     },
@@ -151,10 +151,10 @@
       "question": "Do _____ not speak English every day?",
       "correctAnswer": "you",
       "options": [
-        "am",
-        "is",
         "you",
-        "are"
+        "are",
+        "is",
+        "am"
       ],
       "explanationVi": "Câu phủ định hoàn chỉnh: \"Do you not speak English every day?\"."
     },
@@ -164,12 +164,12 @@
       "promptVi": "[Sắp xếp câu] Ghép các khối từ thành câu hoàn chỉnh mang nghĩa: \"Bạn có nói tiếng Anh mỗi ngày không?\"",
       "question": "Sắp xếp các từ để tạo thành câu đúng: \"Bạn có nói tiếng Anh mỗi ngày không?\"",
       "words": [
-        "day?",
-        "speak",
         "English",
         "Do",
         "every",
-        "you"
+        "speak",
+        "you",
+        "day?"
       ],
       "correctSentence": "Do you speak English every day?",
       "hintVi": "Bạn có nói tiếng Anh mỗi ngày không?",
@@ -181,11 +181,11 @@
       "promptVi": "[Sắp xếp câu] Ghép các khối từ thành câu hoàn chỉnh mang nghĩa: \"Cô ấy có thích đồ ăn cay không?\"",
       "question": "Sắp xếp các từ để tạo thành câu đúng: \"Cô ấy có thích đồ ăn cay không?\"",
       "words": [
-        "she",
-        "food?",
         "Does",
+        "she",
+        "like",
         "spicy",
-        "like"
+        "food?"
       ],
       "correctSentence": "Does she like spicy food?",
       "hintVi": "Cô ấy có thích đồ ăn cay không?",
@@ -197,12 +197,12 @@
       "promptVi": "[Sắp xếp câu] Ghép các khối từ thành câu hoàn chỉnh mang nghĩa: \"Họ có làm việc trong tòa nhà này không?\"",
       "question": "Sắp xếp các từ để tạo thành câu đúng: \"Họ có làm việc trong tòa nhà này không?\"",
       "words": [
-        "work",
-        "in",
-        "they",
+        "building?",
         "this",
-        "Do",
-        "building?"
+        "in",
+        "work",
+        "they",
+        "Do"
       ],
       "correctSentence": "Do they work in this building?",
       "hintVi": "Họ có làm việc trong tòa nhà này không?",
@@ -215,12 +215,12 @@
       "question": "Sắp xếp các từ để tạo thành câu đúng: \"Anh ấy có lái ô tô đi làm không?\"",
       "words": [
         "a",
+        "he",
         "car",
-        "Does",
         "to",
-        "drive",
         "work?",
-        "he"
+        "drive",
+        "Does"
       ],
       "correctSentence": "Does he drive a car to work?",
       "hintVi": "Anh ấy có lái ô tô đi làm không?",
@@ -232,16 +232,16 @@
       "promptVi": "[Sắp xếp câu] Ghép các từ thành câu hội thoại: \"Tuyệt quá! Bạn có đi bộ đi làm mỗi sáng không?\"",
       "question": "Sắp xếp các từ để tạo thành câu thoại: \"Tuyệt quá! Bạn có đi bộ đi làm mỗi sáng không?\"",
       "words": [
-        "you",
-        "work",
-        "every",
         "morning",
-        "That",
-        "walk",
-        "is",
+        "every",
+        "work",
         "to",
+        "walk",
+        "you",
+        "Do",
         "great",
-        "Do"
+        "is",
+        "That"
       ],
       "correctSentence": "That is great! Do you walk to work every morning?",
       "hintVi": "Tuyệt quá! Bạn có đi bộ đi làm mỗi sáng không?",
@@ -253,10 +253,10 @@
       "promptVi": "[Nhận diện cấu trúc chuẩn] Chọn câu có cấu trúc ngữ pháp HOÀN TOÀN ĐÚNG:",
       "question": "Dựa vào chủ điểm \"Bài 13: Động từ Thường — Câu hỏi Yes/No (Do / Does...?) & Trả lời ngắn\", câu nào sau đây CHÍNH XÁC?",
       "options": [
-        "is",
-        "Do you speak English every day?",
         "are",
-        "day? every English speak you Do"
+        "Do you speak English every day?",
+        "day? every English speak you Do",
+        "is"
       ],
       "correctAnswer": "Do you speak English every day?",
       "explanationVi": "Cấu trúc chuẩn xác là: \"Do you speak English every day?\" (Bạn có nói tiếng Anh mỗi ngày không?)."
@@ -267,10 +267,10 @@
       "promptVi": "[Nhận diện cấu trúc chuẩn] Chọn câu có cấu trúc ngữ pháp HOÀN TOÀN ĐÚNG:",
       "question": "Dựa vào chủ điểm \"Bài 13: Động từ Thường — Câu hỏi Yes/No (Do / Does...?) & Trả lời ngắn\", câu nào sau đây CHÍNH XÁC?",
       "options": [
-        "is",
-        "are",
         "food? spicy like she Does",
-        "Does she like spicy food?"
+        "are",
+        "Does she like spicy food?",
+        "is"
       ],
       "correctAnswer": "Does she like spicy food?",
       "explanationVi": "Cấu trúc chuẩn xác là: \"Does she like spicy food?\" (Cô ấy có thích đồ ăn cay không?)."
@@ -281,9 +281,9 @@
       "promptVi": "[Nhận diện cấu trúc chuẩn] Chọn câu có cấu trúc ngữ pháp HOÀN TOÀN ĐÚNG:",
       "question": "Dựa vào chủ điểm \"Bài 13: Động từ Thường — Câu hỏi Yes/No (Do / Does...?) & Trả lời ngắn\", câu nào sau đây CHÍNH XÁC?",
       "options": [
-        "Do they work at this building?",
-        "building? this in work they Do",
         "is",
+        "building? this in work they Do",
+        "Do they work at this building?",
         "Do they work in this building?"
       ],
       "correctAnswer": "Do they work in this building?",
@@ -296,9 +296,9 @@
       "question": "Dựa vào chủ điểm \"Bài 13: Động từ Thường — Câu hỏi Yes/No (Do / Does...?) & Trả lời ngắn\", câu nào sau đây CHÍNH XÁC?",
       "options": [
         "Does he drive a car to work?",
+        "Does he drive a car at work?",
         "work? to car a drive he Does",
-        "is",
-        "Does he drive a car at work?"
+        "is"
       ],
       "correctAnswer": "Does he drive a car to work?",
       "explanationVi": "Cấu trúc chuẩn xác là: \"Does he drive a car to work?\" (Anh ấy có lái ô tô đi làm không?)."
@@ -310,10 +310,10 @@
       "audioPrompt": "Do you live near the city center, Chloe?",
       "question": "Nhấn nút '🔊 Nghe audio' và chọn nghĩa tiếng Việt đúng:",
       "options": [
-        "Có, tôi có. Tôi chỉ sống cách quảng trường chính 5 phút.",
+        "Hôm nay thời tiết rất đẹp.",
         "Tuyệt quá! Bạn có đi bộ đi làm mỗi sáng không?",
-        "Bạn có sống gần trung tâm thành phố không, Chloe?",
-        "Hôm nay thời tiết rất đẹp."
+        "Có, tôi có. Tôi chỉ sống cách quảng trường chính 5 phút.",
+        "Bạn có sống gần trung tâm thành phố không, Chloe?"
       ],
       "correctAnswer": "Bạn có sống gần trung tâm thành phố không, Chloe?",
       "explanationVi": "Câu nghe được: \"Do you live near the city center, Chloe?\" có nghĩa là: \"Bạn có sống gần trung tâm thành phố không, Chloe?\"."
@@ -325,10 +325,10 @@
       "audioPrompt": "Yes, I do. I live only five minutes away from the main square.",
       "question": "Nhấn nút '🔊 Nghe audio' và chọn nghĩa tiếng Việt đúng:",
       "options": [
-        "Có, tôi có. Tôi chỉ sống cách quảng trường chính 5 phút.",
-        "Tuyệt quá! Bạn có đi bộ đi làm mỗi sáng không?",
+        "Hôm nay thời tiết rất đẹp.",
         "Không, tôi không. Tôi thường đi xe đạp vì nó nhanh hơn.",
-        "Hôm nay thời tiết rất đẹp."
+        "Tuyệt quá! Bạn có đi bộ đi làm mỗi sáng không?",
+        "Có, tôi có. Tôi chỉ sống cách quảng trường chính 5 phút."
       ],
       "correctAnswer": "Có, tôi có. Tôi chỉ sống cách quảng trường chính 5 phút.",
       "explanationVi": "Câu nghe được: \"Yes, I do. I live only five minutes away from the main square.\" có nghĩa là: \"Có, tôi có. Tôi chỉ sống cách quảng trường chính 5 phút.\"."
@@ -340,10 +340,10 @@
       "audioPrompt": "That is great! Do you walk to work every morning?",
       "question": "Nhấn nút '🔊 Nghe audio' và chọn nghĩa tiếng Việt đúng:",
       "options": [
+        "Anh trai bạn cũng thích đi xe đạp à?",
         "Không, tôi không. Tôi thường đi xe đạp vì nó nhanh hơn.",
         "Hôm nay thời tiết rất đẹp.",
-        "Tuyệt quá! Bạn có đi bộ đi làm mỗi sáng không?",
-        "Anh trai bạn cũng thích đi xe đạp à?"
+        "Tuyệt quá! Bạn có đi bộ đi làm mỗi sáng không?"
       ],
       "correctAnswer": "Tuyệt quá! Bạn có đi bộ đi làm mỗi sáng không?",
       "explanationVi": "Câu nghe được: \"That is great! Do you walk to work every morning?\" có nghĩa là: \"Tuyệt quá! Bạn có đi bộ đi làm mỗi sáng không?\"."
@@ -356,9 +356,9 @@
       "question": "Nhấn nút '🔊 Nghe audio' và chọn nghĩa tiếng Việt đúng:",
       "options": [
         "Không, tôi không. Tôi thường đi xe đạp vì nó nhanh hơn.",
+        "Anh trai bạn cũng thích đi xe đạp à?",
         "Có, anh ấy có. Anh ấy đạp xe vào mỗi dịp cuối tuần.",
-        "Hôm nay thời tiết rất đẹp.",
-        "Anh trai bạn cũng thích đi xe đạp à?"
+        "Hôm nay thời tiết rất đẹp."
       ],
       "correctAnswer": "Không, tôi không. Tôi thường đi xe đạp vì nó nhanh hơn.",
       "explanationVi": "Câu nghe được: \"No, I don't. I usually ride my bicycle because it is faster.\" có nghĩa là: \"Không, tôi không. Tôi thường đi xe đạp vì nó nhanh hơn.\"."
@@ -406,10 +406,10 @@
       "passage": "Daniel: \"Do you live near the city center, Chloe?\"\nChloe: \"Yes, I do. I live only five minutes away from the main square.\"\nDaniel: \"That is great! Do you walk to work every morning?\"\nChloe: \"No, I don't. I usually ride my bicycle because it is faster.\"",
       "question": "Dựa vào đoạn đối thoại trên, thông tin nào sau đây là CHÍNH XÁC về nội dung câu nói của Daniel?",
       "options": [
-        "Daniel muốn mượn tiền để mua vé máy bay gấp.",
-        "Daniel phàn nàn rằng thời tiết hôm nay quá xấu.",
         "Daniel chia sẻ thông tin: \"Bạn có sống gần trung tâm thành phố không, Chloe?\"",
-        "Daniel từ chối trả lời và yêu cầu hủy cuộc hẹn."
+        "Daniel phàn nàn rằng thời tiết hôm nay quá xấu.",
+        "Daniel từ chối trả lời và yêu cầu hủy cuộc hẹn.",
+        "Daniel muốn mượn tiền để mua vé máy bay gấp."
       ],
       "correctAnswer": "Daniel chia sẻ thông tin: \"Bạn có sống gần trung tâm thành phố không, Chloe?\"",
       "explanationVi": "Trong đoạn hội thoại, Daniel đã nói: \"Do you live near the city center, Chloe?\" (nghĩa là: \"Bạn có sống gần trung tâm thành phố không, Chloe?\")."
@@ -421,10 +421,10 @@
       "passage": "Daniel: \"Does your brother also like cycling?\"\nChloe: \"Yes, he does. He rides his bike every single weekend.\"\nDaniel: \"Does he work in the same company as you?\"\nChloe: \"No, he doesn't. He works for an international bank.\"",
       "question": "Trong đoạn hội thoại trên, câu nói \"No, he doesn't. He works for an international bank.\" của Chloe mang ý nghĩa gì?",
       "options": [
-        "Phản hồi: \"Yêu cầu cung cấp hóa đơn thanh toán tiền mặt\"",
         "Phản hồi: \"Không, anh ấy không. Anh ấy làm việc cho một ngân hàng quốc tế.\"",
         "Phản hồi: \"Hoàn toàn không đồng ý và muốn rời khỏi phòng ngay lập tức\"",
-        "Phản hồi: \"Hẹn gặp lại vào cuối tuần sau tại sân bay quốc tế\""
+        "Phản hồi: \"Hẹn gặp lại vào cuối tuần sau tại sân bay quốc tế\"",
+        "Phản hồi: \"Yêu cầu cung cấp hóa đơn thanh toán tiền mặt\""
       ],
       "correctAnswer": "Phản hồi: \"Không, anh ấy không. Anh ấy làm việc cho một ngân hàng quốc tế.\"",
       "explanationVi": "Chloe nói: \"No, he doesn't. He works for an international bank.\" có nghĩa là: \"Không, anh ấy không. Anh ấy làm việc cho một ngân hàng quốc tế.\"."

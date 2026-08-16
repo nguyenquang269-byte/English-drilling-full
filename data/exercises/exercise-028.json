@@ -10,10 +10,10 @@
       "promptVi": "[Trắc nghiệm ngữ pháp] Chọn từ đúng để hoàn thành câu (Tôi đang học bài lúc 8 giờ tối hôm qua.):",
       "question": "I ___ studying at eight PM yesterday.",
       "options": [
-        "is",
         "was",
+        "were",
         "am",
-        "were"
+        "is"
       ],
       "correctAnswer": "was",
       "explanationVi": "Chủ ngữ 'I' đi với 'was' trong thì Quá khứ Tiếp diễn."
@@ -24,10 +24,10 @@
       "promptVi": "[Trắc nghiệm ngữ pháp] Chọn từ đúng để hoàn thành câu (Bạn có đang ngủ lúc tôi gọi không?):",
       "question": "___ you sleeping when I called?",
       "options": [
-        "Were",
+        "Did",
         "Was",
-        "Are",
-        "Did"
+        "Were",
+        "Are"
       ],
       "correctAnswer": "Were",
       "explanationVi": "Chủ ngữ 'you' đi với 'Were'."
@@ -39,9 +39,9 @@
       "question": "He ___ watching television at that time.",
       "options": [
         "isn't",
-        "wasn't",
         "didn't",
-        "weren't"
+        "weren't",
+        "wasn't"
       ],
       "correctAnswer": "wasn't",
       "explanationVi": "Ngôi 'He' đi với 'wasn't'."
@@ -53,8 +53,8 @@
       "question": "They ___ playing football in the park.",
       "options": [
         "have",
-        "was",
         "are",
+        "was",
         "were"
       ],
       "correctAnswer": "were",
@@ -66,10 +66,10 @@
       "promptVi": "[Phản xạ dịch thuật] Dịch câu sau sang tiếng Anh: \"Bạn đang làm gì lúc 8 giờ tối hôm qua vậy, Grace?\"",
       "question": "Chọn bản dịch chuẩn xác nhất cho câu: \"Bạn đang làm gì lúc 8 giờ tối hôm qua vậy, Grace?\"",
       "options": [
-        "What be you doing at eight PM yesterday evening, Grace?",
         "We are studying English today.",
-        "What were you doing at eight PM yesterday evening, Grace?",
-        "I was studying for my final biology examination in my room."
+        "I was studying for my final biology examination in my room.",
+        "What be you doing at eight PM yesterday evening, Grace?",
+        "What were you doing at eight PM yesterday evening, Grace?"
       ],
       "correctAnswer": "What were you doing at eight PM yesterday evening, Grace?",
       "explanationVi": "Câu dịch chuẩn xác: \"What were you doing at eight PM yesterday evening, Grace?\" (Bạn đang làm gì lúc 8 giờ tối hôm qua vậy, Grace?)."
@@ -80,10 +80,10 @@
       "promptVi": "[Ngữ cảnh giao tiếp] Chọn câu phản hồi tự nhiên và đúng ngữ pháp:",
       "question": "Khi đối phương nói: \"What were you doing at eight PM yesterday evening, Grace?\", câu phản hồi phù hợp là gì?",
       "options": [
-        "I was studying for my final biology examination in my room.",
         "No, it was yesterday.",
         "Yes, I will eat it.",
-        "They are not in the office."
+        "They are not in the office.",
+        "I was studying for my final biology examination in my room."
       ],
       "correctAnswer": "I was studying for my final biology examination in my room.",
       "explanationVi": "Phản hồi phù hợp trong bài: \"I was studying for my final biology examination in my room.\" (Tôi đang ôn thi môn sinh học cuối kỳ trong phòng của mình.)."
@@ -96,9 +96,9 @@
       "correctAnswer": "was",
       "options": [
         "is",
+        "am",
         "were",
-        "was",
-        "am"
+        "was"
       ],
       "explanationVi": "Đáp án đúng là \"was\". Câu hoàn chỉnh: \"I was studying at eight PM yesterday.\" (Tôi đang học bài lúc 8 giờ tối hôm qua.)."
     },
@@ -109,9 +109,9 @@
       "question": "___ you sleeping when I called?",
       "correctAnswer": "Were",
       "options": [
+        "Were",
         "Was",
         "Did",
-        "Were",
         "Are"
       ],
       "explanationVi": "Đáp án đúng là \"Were\". Câu hoàn chỉnh: \"Were you sleeping when I called?\" (Bạn có đang ngủ lúc tôi gọi không?)."
@@ -123,10 +123,10 @@
       "question": "He ___ watching television at that time.",
       "correctAnswer": "wasn't",
       "options": [
-        "isn't",
-        "didn't",
+        "weren't",
         "wasn't",
-        "weren't"
+        "didn't",
+        "isn't"
       ],
       "explanationVi": "Đáp án đúng là \"wasn't\". Câu hoàn chỉnh: \"He wasn't watching television at that time.\" (Anh ấy không đang xem tivi vào lúc đó.)."
     },
@@ -137,10 +137,10 @@
       "question": "They ___ playing football in the park.",
       "correctAnswer": "were",
       "options": [
-        "are",
         "have",
         "were",
-        "was"
+        "was",
+        "are"
       ],
       "explanationVi": "Đáp án đúng là \"were\". Câu hoàn chỉnh: \"They were playing football in the park.\" (Họ đang chơi bóng đá trong công viên.)."
     },
@@ -151,10 +151,10 @@
       "question": "I _____ not studying at eight PM yesterday.",
       "correctAnswer": "was",
       "options": [
-        "was",
-        "is",
+        "are",
         "am",
-        "are"
+        "is",
+        "was"
       ],
       "explanationVi": "Câu phủ định hoàn chỉnh: \"I was not studying at eight PM yesterday.\"."
     },
@@ -164,13 +164,13 @@
       "promptVi": "[Sắp xếp câu] Ghép các khối từ thành câu hoàn chỉnh mang nghĩa: \"Tôi đang học bài lúc 8 giờ tối hôm qua.\"",
       "question": "Sắp xếp các từ để tạo thành câu đúng: \"Tôi đang học bài lúc 8 giờ tối hôm qua.\"",
       "words": [
-        "at",
-        "PM",
         "was",
-        "I",
-        "studying",
+        "eight",
+        "PM",
+        "at",
         "yesterday.",
-        "eight"
+        "studying",
+        "I"
       ],
       "correctSentence": "I was studying at eight PM yesterday.",
       "hintVi": "Tôi đang học bài lúc 8 giờ tối hôm qua.",
@@ -182,12 +182,12 @@
       "promptVi": "[Sắp xếp câu] Ghép các khối từ thành câu hoàn chỉnh mang nghĩa: \"Bạn có đang ngủ lúc tôi gọi không?\"",
       "question": "Sắp xếp các từ để tạo thành câu đúng: \"Bạn có đang ngủ lúc tôi gọi không?\"",
       "words": [
-        "I",
+        "sleeping",
+        "called?",
         "Were",
         "you",
-        "sleeping",
-        "when",
-        "called?"
+        "I",
+        "when"
       ],
       "correctSentence": "Were you sleeping when I called?",
       "hintVi": "Bạn có đang ngủ lúc tôi gọi không?",
@@ -199,12 +199,12 @@
       "promptVi": "[Sắp xếp câu] Ghép các khối từ thành câu hoàn chỉnh mang nghĩa: \"Anh ấy không đang xem tivi vào lúc đó.\"",
       "question": "Sắp xếp các từ để tạo thành câu đúng: \"Anh ấy không đang xem tivi vào lúc đó.\"",
       "words": [
-        "time.",
         "wasn't",
+        "watching",
+        "time.",
+        "that",
         "at",
         "television",
-        "that",
-        "watching",
         "He"
       ],
       "correctSentence": "He wasn't watching television at that time.",
@@ -217,13 +217,13 @@
       "promptVi": "[Sắp xếp câu] Ghép các khối từ thành câu hoàn chỉnh mang nghĩa: \"Họ đang chơi bóng đá trong công viên.\"",
       "question": "Sắp xếp các từ để tạo thành câu đúng: \"Họ đang chơi bóng đá trong công viên.\"",
       "words": [
-        "in",
-        "the",
-        "They",
-        "football",
-        "playing",
         "park.",
-        "were"
+        "were",
+        "the",
+        "in",
+        "football",
+        "They",
+        "playing"
       ],
       "correctSentence": "They were playing football in the park.",
       "hintVi": "Họ đang chơi bóng đá trong công viên.",
@@ -235,18 +235,18 @@
       "promptVi": "[Sắp xếp câu] Ghép các từ thành câu hội thoại: \"Em trai bạn lúc đó cũng đang học trong phòng khách à?\"",
       "question": "Sắp xếp các từ để tạo thành câu thoại: \"Em trai bạn lúc đó cũng đang học trong phòng khách à?\"",
       "words": [
+        "in",
         "brother",
+        "living",
+        "also",
+        "at",
         "your",
         "Was",
-        "that",
-        "in",
         "the",
-        "time",
         "studying",
-        "also",
-        "room",
-        "living",
-        "at"
+        "that",
+        "time",
+        "room"
       ],
       "correctSentence": "Was your brother also studying in the living room at that time?",
       "hintVi": "Em trai bạn lúc đó cũng đang học trong phòng khách à?",
@@ -258,8 +258,8 @@
       "promptVi": "[Nhận diện cấu trúc chuẩn] Chọn câu có cấu trúc ngữ pháp HOÀN TOÀN ĐÚNG:",
       "question": "Dựa vào chủ điểm \"Bài 28: Quá khứ Tiếp diễn — Cơ bản (Was / Were + V-ing)\", câu nào sau đây CHÍNH XÁC?",
       "options": [
-        "I be studying at eight PM yesterday.",
         "I was studying at eight PM yesterday.",
+        "I be studying at eight PM yesterday.",
         "is",
         "yesterday. PM eight at studying was I"
       ],
@@ -272,10 +272,10 @@
       "promptVi": "[Nhận diện cấu trúc chuẩn] Chọn câu có cấu trúc ngữ pháp HOÀN TOÀN ĐÚNG:",
       "question": "Dựa vào chủ điểm \"Bài 28: Quá khứ Tiếp diễn — Cơ bản (Was / Were + V-ing)\", câu nào sau đây CHÍNH XÁC?",
       "options": [
-        "be you sleeping when I called?",
-        "Were you sleeping when I called?",
+        "is",
         "called? I when sleeping you Were",
-        "is"
+        "be you sleeping when I called?",
+        "Were you sleeping when I called?"
       ],
       "correctAnswer": "Were you sleeping when I called?",
       "explanationVi": "Cấu trúc chuẩn xác là: \"Were you sleeping when I called?\" (Bạn có đang ngủ lúc tôi gọi không?)."
@@ -286,10 +286,10 @@
       "promptVi": "[Nhận diện cấu trúc chuẩn] Chọn câu có cấu trúc ngữ pháp HOÀN TOÀN ĐÚNG:",
       "question": "Dựa vào chủ điểm \"Bài 28: Quá khứ Tiếp diễn — Cơ bản (Was / Were + V-ing)\", câu nào sau đây CHÍNH XÁC?",
       "options": [
+        "is",
         "are",
-        "He wasn't watching television at that time.",
         "time. that at television watching wasn't He",
-        "is"
+        "He wasn't watching television at that time."
       ],
       "correctAnswer": "He wasn't watching television at that time.",
       "explanationVi": "Cấu trúc chuẩn xác là: \"He wasn't watching television at that time.\" (Anh ấy không đang xem tivi vào lúc đó.)."
@@ -300,9 +300,9 @@
       "promptVi": "[Nhận diện cấu trúc chuẩn] Chọn câu có cấu trúc ngữ pháp HOÀN TOÀN ĐÚNG:",
       "question": "Dựa vào chủ điểm \"Bài 28: Quá khứ Tiếp diễn — Cơ bản (Was / Were + V-ing)\", câu nào sau đây CHÍNH XÁC?",
       "options": [
+        "They were playing football in the park.",
         "They be playing football in the park.",
         "They were playing football at the park.",
-        "They were playing football in the park.",
         "park. the in football playing were They"
       ],
       "correctAnswer": "They were playing football in the park.",
@@ -315,10 +315,10 @@
       "audioPrompt": "What were you doing at eight PM yesterday evening, Grace?",
       "question": "Nhấn nút '🔊 Nghe audio' và chọn nghĩa tiếng Việt đúng:",
       "options": [
-        "Tôi đang ôn thi môn sinh học cuối kỳ trong phòng của mình.",
         "Hôm nay thời tiết rất đẹp.",
-        "Bạn đang làm gì lúc 8 giờ tối hôm qua vậy, Grace?",
-        "Em trai bạn lúc đó cũng đang học trong phòng khách à?"
+        "Em trai bạn lúc đó cũng đang học trong phòng khách à?",
+        "Tôi đang ôn thi môn sinh học cuối kỳ trong phòng của mình.",
+        "Bạn đang làm gì lúc 8 giờ tối hôm qua vậy, Grace?"
       ],
       "correctAnswer": "Bạn đang làm gì lúc 8 giờ tối hôm qua vậy, Grace?",
       "explanationVi": "Câu nghe được: \"What were you doing at eight PM yesterday evening, Grace?\" có nghĩa là: \"Bạn đang làm gì lúc 8 giờ tối hôm qua vậy, Grace?\"."
@@ -330,10 +330,10 @@
       "audioPrompt": "I was studying for my final biology examination in my room.",
       "question": "Nhấn nút '🔊 Nghe audio' và chọn nghĩa tiếng Việt đúng:",
       "options": [
-        "Tôi đang ôn thi môn sinh học cuối kỳ trong phòng của mình.",
+        "Hôm nay thời tiết rất đẹp.",
         "Em trai bạn lúc đó cũng đang học trong phòng khách à?",
         "Không, em ấy không học. Em ấy đang xem một trận bóng đá trên tivi.",
-        "Hôm nay thời tiết rất đẹp."
+        "Tôi đang ôn thi môn sinh học cuối kỳ trong phòng của mình."
       ],
       "correctAnswer": "Tôi đang ôn thi môn sinh học cuối kỳ trong phòng của mình.",
       "explanationVi": "Câu nghe được: \"I was studying for my final biology examination in my room.\" có nghĩa là: \"Tôi đang ôn thi môn sinh học cuối kỳ trong phòng của mình.\"."
@@ -345,9 +345,9 @@
       "audioPrompt": "Was your brother also studying in the living room at that time?",
       "question": "Nhấn nút '🔊 Nghe audio' và chọn nghĩa tiếng Việt đúng:",
       "options": [
-        "Hôm nay thời tiết rất đẹp.",
-        "Không, em ấy không học. Em ấy đang xem một trận bóng đá trên tivi.",
         "Em trai bạn lúc đó cũng đang học trong phòng khách à?",
+        "Không, em ấy không học. Em ấy đang xem một trận bóng đá trên tivi.",
+        "Hôm nay thời tiết rất đẹp.",
         "Bố mẹ bạn có đang nấu bữa tối trong bếp vào khoảng thời gian đó không?"
       ],
       "correctAnswer": "Em trai bạn lúc đó cũng đang học trong phòng khách à?",
@@ -361,9 +361,9 @@
       "question": "Nhấn nút '🔊 Nghe audio' và chọn nghĩa tiếng Việt đúng:",
       "options": [
         "Hôm nay thời tiết rất đẹp.",
-        "Bố mẹ bạn có đang nấu bữa tối trong bếp vào khoảng thời gian đó không?",
         "Có, họ đang cùng nhau nướng bánh mì tươi và chuẩn bị gà quay.",
-        "Không, em ấy không học. Em ấy đang xem một trận bóng đá trên tivi."
+        "Không, em ấy không học. Em ấy đang xem một trận bóng đá trên tivi.",
+        "Bố mẹ bạn có đang nấu bữa tối trong bếp vào khoảng thời gian đó không?"
       ],
       "correctAnswer": "Không, em ấy không học. Em ấy đang xem một trận bóng đá trên tivi.",
       "explanationVi": "Câu nghe được: \"No, he wasn't studying. He was watching a football match on television.\" có nghĩa là: \"Không, em ấy không học. Em ấy đang xem một trận bóng đá trên tivi.\"."
@@ -411,10 +411,10 @@
       "passage": "Colin: \"What were you doing at eight PM yesterday evening, Grace?\"\nGrace: \"I was studying for my final biology examination in my room.\"\nColin: \"Was your brother also studying in the living room at that time?\"\nGrace: \"No, he wasn't studying. He was watching a football match on television.\"",
       "question": "Dựa vào đoạn đối thoại trên, thông tin nào sau đây là CHÍNH XÁC về nội dung câu nói của Colin?",
       "options": [
-        "Colin chia sẻ thông tin: \"Bạn đang làm gì lúc 8 giờ tối hôm qua vậy, Grace?\"",
-        "Colin phàn nàn rằng thời tiết hôm nay quá xấu.",
         "Colin muốn mượn tiền để mua vé máy bay gấp.",
-        "Colin từ chối trả lời và yêu cầu hủy cuộc hẹn."
+        "Colin từ chối trả lời và yêu cầu hủy cuộc hẹn.",
+        "Colin phàn nàn rằng thời tiết hôm nay quá xấu.",
+        "Colin chia sẻ thông tin: \"Bạn đang làm gì lúc 8 giờ tối hôm qua vậy, Grace?\""
       ],
       "correctAnswer": "Colin chia sẻ thông tin: \"Bạn đang làm gì lúc 8 giờ tối hôm qua vậy, Grace?\"",
       "explanationVi": "Trong đoạn hội thoại, Colin đã nói: \"What were you doing at eight PM yesterday evening, Grace?\" (nghĩa là: \"Bạn đang làm gì lúc 8 giờ tối hôm qua vậy, Grace?\")."
@@ -426,10 +426,10 @@
       "passage": "Colin: \"Were your parents cooking dinner in the kitchen around that hour?\"\nGrace: \"Yes, they were baking fresh bread and preparing roast chicken together.\"\nColin: \"I called you several times, but the phone line was always busy.\"\nGrace: \"Sorry! My sister was using the landline phone to talk with her teacher.\"",
       "question": "Trong đoạn hội thoại trên, câu nói \"Sorry! My sister was using the landline phone to talk with her teacher.\" của Grace mang ý nghĩa gì?",
       "options": [
-        "Phản hồi: \"Hoàn toàn không đồng ý và muốn rời khỏi phòng ngay lập tức\"",
         "Phản hồi: \"Hẹn gặp lại vào cuối tuần sau tại sân bay quốc tế\"",
-        "Phản hồi: \"Xin lỗi nhé! Chị gái tôi đang dùng điện thoại bàn để nói chuyện với cô giáo.\"",
-        "Phản hồi: \"Yêu cầu cung cấp hóa đơn thanh toán tiền mặt\""
+        "Phản hồi: \"Hoàn toàn không đồng ý và muốn rời khỏi phòng ngay lập tức\"",
+        "Phản hồi: \"Yêu cầu cung cấp hóa đơn thanh toán tiền mặt\"",
+        "Phản hồi: \"Xin lỗi nhé! Chị gái tôi đang dùng điện thoại bàn để nói chuyện với cô giáo.\""
       ],
       "correctAnswer": "Phản hồi: \"Xin lỗi nhé! Chị gái tôi đang dùng điện thoại bàn để nói chuyện với cô giáo.\"",
       "explanationVi": "Grace nói: \"Sorry! My sister was using the landline phone to talk with her teacher.\" có nghĩa là: \"Xin lỗi nhé! Chị gái tôi đang dùng điện thoại bàn để nói chuyện với cô giáo.\"."

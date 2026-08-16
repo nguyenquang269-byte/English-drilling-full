@@ -10,10 +10,10 @@
       "promptVi": "[Trắc nghiệm ngữ pháp] Chọn từ đúng để hoàn thành câu (Tôi thức dậy sớm mỗi sáng.):",
       "question": "I ___ up early every morning.",
       "options": [
-        "wakes",
-        "wake",
+        "waking",
         "waked",
-        "waking"
+        "wakes",
+        "wake"
       ],
       "correctAnswer": "wake",
       "explanationVi": "Chủ ngữ 'I' đi với động từ nguyên mẫu 'wake'."
@@ -26,8 +26,8 @@
       "options": [
         "drinking",
         "drink",
-        "drank",
-        "drinks"
+        "drinks",
+        "drank"
       ],
       "correctAnswer": "drink",
       "explanationVi": "Chủ ngữ 'You' đi với động từ nguyên mẫu 'drink'."
@@ -38,10 +38,10 @@
       "promptVi": "[Trắc nghiệm ngữ pháp] Chọn từ đúng để hoàn thành câu (Chúng tôi ăn sáng cùng nhau.):",
       "question": "We ___ breakfast together.",
       "options": [
-        "eat",
-        "eats",
+        "ate",
         "eating",
-        "ate"
+        "eats",
+        "eat"
       ],
       "correctAnswer": "eat",
       "explanationVi": "Chủ ngữ 'We' đi với động từ dạng nguyên mẫu 'eat'."
@@ -52,10 +52,10 @@
       "promptVi": "[Trắc nghiệm ngữ pháp] Chọn từ đúng để hoàn thành câu (Họ đi xe buýt đến nơi làm việc.):",
       "question": "They ___ the bus to work.",
       "options": [
-        "taking",
-        "take",
         "took",
-        "takes"
+        "taking",
+        "takes",
+        "take"
       ],
       "correctAnswer": "take",
       "explanationVi": "Chủ ngữ 'They' đi với động từ nguyên mẫu 'take'."
@@ -66,10 +66,10 @@
       "promptVi": "[Phản xạ dịch thuật] Dịch câu sau sang tiếng Anh: \"Chào buổi sáng, Mai! Bạn thức dậy lúc mấy giờ mỗi ngày?\"",
       "question": "Chọn bản dịch chuẩn xác nhất cho câu: \"Chào buổi sáng, Mai! Bạn thức dậy lúc mấy giờ mỗi ngày?\"",
       "options": [
-        "Good morning, Mai! What time be you wake up every day?",
-        "Good morning, Mai! What time do you wake up every day?",
+        "We are studying English today.",
         "I wake up at six o'clock every morning.",
-        "We are studying English today."
+        "Good morning, Mai! What time be you wake up every day?",
+        "Good morning, Mai! What time do you wake up every day?"
       ],
       "correctAnswer": "Good morning, Mai! What time do you wake up every day?",
       "explanationVi": "Câu dịch chuẩn xác: \"Good morning, Mai! What time do you wake up every day?\" (Chào buổi sáng, Mai! Bạn thức dậy lúc mấy giờ mỗi ngày?)."
@@ -80,10 +80,10 @@
       "promptVi": "[Ngữ cảnh giao tiếp] Chọn câu phản hồi tự nhiên và đúng ngữ pháp:",
       "question": "Khi đối phương nói: \"Good morning, Mai! What time do you wake up every day?\", câu phản hồi phù hợp là gì?",
       "options": [
-        "Yes, I will eat it.",
         "No, it was yesterday.",
-        "They are not in the office.",
-        "I wake up at six o'clock every morning."
+        "I wake up at six o'clock every morning.",
+        "Yes, I will eat it.",
+        "They are not in the office."
       ],
       "correctAnswer": "I wake up at six o'clock every morning.",
       "explanationVi": "Phản hồi phù hợp trong bài: \"I wake up at six o'clock every morning.\" (Tôi thức dậy lúc 6 giờ mỗi sáng.)."
@@ -95,10 +95,10 @@
       "question": "I ___ up early every morning.",
       "correctAnswer": "wake",
       "options": [
-        "wakes",
-        "waked",
         "wake",
-        "waking"
+        "wakes",
+        "waking",
+        "waked"
       ],
       "explanationVi": "Đáp án đúng là \"wake\". Câu hoàn chỉnh: \"I wake up early every morning.\" (Tôi thức dậy sớm mỗi sáng.)."
     },
@@ -109,10 +109,10 @@
       "question": "You ___ green tea.",
       "correctAnswer": "drink",
       "options": [
-        "drinks",
         "drank",
         "drink",
-        "drinking"
+        "drinking",
+        "drinks"
       ],
       "explanationVi": "Đáp án đúng là \"drink\". Câu hoàn chỉnh: \"You drink green tea.\" (Bạn uống trà xanh.)."
     },
@@ -123,10 +123,10 @@
       "question": "We ___ breakfast together.",
       "correctAnswer": "eat",
       "options": [
-        "eat",
         "ate",
-        "eating",
-        "eats"
+        "eats",
+        "eat",
+        "eating"
       ],
       "explanationVi": "Đáp án đúng là \"eat\". Câu hoàn chỉnh: \"We eat breakfast together.\" (Chúng tôi ăn sáng cùng nhau.)."
     },
@@ -137,10 +137,10 @@
       "question": "They ___ the bus to work.",
       "correctAnswer": "take",
       "options": [
-        "taking",
         "took",
-        "take",
-        "takes"
+        "taking",
+        "takes",
+        "take"
       ],
       "explanationVi": "Đáp án đúng là \"take\". Câu hoàn chỉnh: \"They take the bus to work.\" (Họ đi xe buýt đến nơi làm việc.)."
     },
@@ -151,10 +151,10 @@
       "question": "I _____ not up early every morning.",
       "correctAnswer": "wake",
       "options": [
-        "wake",
-        "is",
         "am",
-        "are"
+        "are",
+        "is",
+        "wake"
       ],
       "explanationVi": "Câu phủ định hoàn chỉnh: \"I wake not up early every morning.\"."
     },
@@ -166,10 +166,10 @@
       "words": [
         "morning.",
         "I",
-        "wake",
         "up",
-        "early",
-        "every"
+        "every",
+        "wake",
+        "early"
       ],
       "correctSentence": "I wake up early every morning.",
       "hintVi": "Tôi thức dậy sớm mỗi sáng.",
@@ -181,10 +181,10 @@
       "promptVi": "[Sắp xếp câu] Ghép các khối từ thành câu hoàn chỉnh mang nghĩa: \"Bạn uống trà xanh.\"",
       "question": "Sắp xếp các từ để tạo thành câu đúng: \"Bạn uống trà xanh.\"",
       "words": [
-        "green",
+        "tea.",
         "drink",
         "You",
-        "tea."
+        "green"
       ],
       "correctSentence": "You drink green tea.",
       "hintVi": "Bạn uống trà xanh.",
@@ -196,10 +196,10 @@
       "promptVi": "[Sắp xếp câu] Ghép các khối từ thành câu hoàn chỉnh mang nghĩa: \"Chúng tôi ăn sáng cùng nhau.\"",
       "question": "Sắp xếp các từ để tạo thành câu đúng: \"Chúng tôi ăn sáng cùng nhau.\"",
       "words": [
-        "eat",
-        "breakfast",
+        "We",
         "together.",
-        "We"
+        "eat",
+        "breakfast"
       ],
       "correctSentence": "We eat breakfast together.",
       "hintVi": "Chúng tôi ăn sáng cùng nhau.",
@@ -211,12 +211,12 @@
       "promptVi": "[Sắp xếp câu] Ghép các khối từ thành câu hoàn chỉnh mang nghĩa: \"Họ đi xe buýt đến nơi làm việc.\"",
       "question": "Sắp xếp các từ để tạo thành câu đúng: \"Họ đi xe buýt đến nơi làm việc.\"",
       "words": [
-        "to",
-        "bus",
-        "the",
         "work.",
+        "take",
+        "to",
         "They",
-        "take"
+        "the",
+        "bus"
       ],
       "correctSentence": "They take the bus to work.",
       "hintVi": "Họ đi xe buýt đến nơi làm việc.",
@@ -228,15 +228,15 @@
       "promptVi": "[Sắp xếp câu] Ghép các từ thành câu hội thoại: \"Bạn uống cà phê hay trà vào buổi sáng?\"",
       "question": "Sắp xếp các từ để tạo thành câu thoại: \"Bạn uống cà phê hay trà vào buổi sáng?\"",
       "words": [
-        "you",
-        "Do",
         "drink",
+        "morning",
         "or",
         "in",
-        "coffee",
-        "the",
         "tea",
-        "morning"
+        "you",
+        "Do",
+        "coffee",
+        "the"
       ],
       "correctSentence": "Do you drink coffee or tea in the morning?",
       "hintVi": "Bạn uống cà phê hay trà vào buổi sáng?",
@@ -248,10 +248,10 @@
       "promptVi": "[Nhận diện cấu trúc chuẩn] Chọn câu có cấu trúc ngữ pháp HOÀN TOÀN ĐÚNG:",
       "question": "Dựa vào chủ điểm \"Bài 6: Động từ Thường — Thì Hiện tại Đơn (Thói quen hàng ngày)\", câu nào sau đây CHÍNH XÁC?",
       "options": [
-        "I wake up early every morning.",
-        "morning. every early up wake I",
+        "are",
         "is",
-        "are"
+        "morning. every early up wake I",
+        "I wake up early every morning."
       ],
       "correctAnswer": "I wake up early every morning.",
       "explanationVi": "Cấu trúc chuẩn xác là: \"I wake up early every morning.\" (Tôi thức dậy sớm mỗi sáng.)."
@@ -263,9 +263,9 @@
       "question": "Dựa vào chủ điểm \"Bài 6: Động từ Thường — Thì Hiện tại Đơn (Thói quen hàng ngày)\", câu nào sau đây CHÍNH XÁC?",
       "options": [
         "You drink green tea.",
-        "are",
         "tea. green drink You",
-        "is"
+        "is",
+        "are"
       ],
       "correctAnswer": "You drink green tea.",
       "explanationVi": "Cấu trúc chuẩn xác là: \"You drink green tea.\" (Bạn uống trà xanh.)."
@@ -276,9 +276,9 @@
       "promptVi": "[Nhận diện cấu trúc chuẩn] Chọn câu có cấu trúc ngữ pháp HOÀN TOÀN ĐÚNG:",
       "question": "Dựa vào chủ điểm \"Bài 6: Động từ Thường — Thì Hiện tại Đơn (Thói quen hàng ngày)\", câu nào sau đây CHÍNH XÁC?",
       "options": [
-        "We eat breakfast together.",
         "is",
         "together. breakfast eat We",
+        "We eat breakfast together.",
         "are"
       ],
       "correctAnswer": "We eat breakfast together.",
@@ -290,10 +290,10 @@
       "promptVi": "[Nhận diện cấu trúc chuẩn] Chọn câu có cấu trúc ngữ pháp HOÀN TOÀN ĐÚNG:",
       "question": "Dựa vào chủ điểm \"Bài 6: Động từ Thường — Thì Hiện tại Đơn (Thói quen hàng ngày)\", câu nào sau đây CHÍNH XÁC?",
       "options": [
-        "is",
         "They take the bus to work.",
         "They take the bus at work.",
-        "work. to bus the take They"
+        "work. to bus the take They",
+        "is"
       ],
       "correctAnswer": "They take the bus to work.",
       "explanationVi": "Cấu trúc chuẩn xác là: \"They take the bus to work.\" (Họ đi xe buýt đến nơi làm việc.)."
@@ -306,9 +306,9 @@
       "question": "Nhấn nút '🔊 Nghe audio' và chọn nghĩa tiếng Việt đúng:",
       "options": [
         "Chào buổi sáng, Mai! Bạn thức dậy lúc mấy giờ mỗi ngày?",
+        "Tôi thức dậy lúc 6 giờ mỗi sáng.",
         "Hôm nay thời tiết rất đẹp.",
-        "Bạn uống cà phê hay trà vào buổi sáng?",
-        "Tôi thức dậy lúc 6 giờ mỗi sáng."
+        "Bạn uống cà phê hay trà vào buổi sáng?"
       ],
       "correctAnswer": "Chào buổi sáng, Mai! Bạn thức dậy lúc mấy giờ mỗi ngày?",
       "explanationVi": "Câu nghe được: \"Good morning, Mai! What time do you wake up every day?\" có nghĩa là: \"Chào buổi sáng, Mai! Bạn thức dậy lúc mấy giờ mỗi ngày?\"."
@@ -321,9 +321,9 @@
       "question": "Nhấn nút '🔊 Nghe audio' và chọn nghĩa tiếng Việt đúng:",
       "options": [
         "Hôm nay thời tiết rất đẹp.",
-        "Tôi uống trà xanh. Tôi đọc tin tức và ăn sáng.",
         "Bạn uống cà phê hay trà vào buổi sáng?",
-        "Tôi thức dậy lúc 6 giờ mỗi sáng."
+        "Tôi thức dậy lúc 6 giờ mỗi sáng.",
+        "Tôi uống trà xanh. Tôi đọc tin tức và ăn sáng."
       ],
       "correctAnswer": "Tôi thức dậy lúc 6 giờ mỗi sáng.",
       "explanationVi": "Câu nghe được: \"I wake up at six o'clock every morning.\" có nghĩa là: \"Tôi thức dậy lúc 6 giờ mỗi sáng.\"."
@@ -335,10 +335,10 @@
       "audioPrompt": "Do you drink coffee or tea in the morning?",
       "question": "Nhấn nút '🔊 Nghe audio' và chọn nghĩa tiếng Việt đúng:",
       "options": [
-        "Chúng ta đi làm bằng xe buýt lúc 7 giờ 30, đúng không?",
-        "Tôi uống trà xanh. Tôi đọc tin tức và ăn sáng.",
         "Hôm nay thời tiết rất đẹp.",
-        "Bạn uống cà phê hay trà vào buổi sáng?"
+        "Tôi uống trà xanh. Tôi đọc tin tức và ăn sáng.",
+        "Bạn uống cà phê hay trà vào buổi sáng?",
+        "Chúng ta đi làm bằng xe buýt lúc 7 giờ 30, đúng không?"
       ],
       "correctAnswer": "Bạn uống cà phê hay trà vào buổi sáng?",
       "explanationVi": "Câu nghe được: \"Do you drink coffee or tea in the morning?\" có nghĩa là: \"Bạn uống cà phê hay trà vào buổi sáng?\"."
@@ -352,8 +352,8 @@
       "options": [
         "Tôi uống trà xanh. Tôi đọc tin tức và ăn sáng.",
         "Chúng ta đi làm bằng xe buýt lúc 7 giờ 30, đúng không?",
-        "Hôm nay thời tiết rất đẹp.",
-        "Đúng rồi, chúng ta luôn đi xe buýt cùng nhau!"
+        "Đúng rồi, chúng ta luôn đi xe buýt cùng nhau!",
+        "Hôm nay thời tiết rất đẹp."
       ],
       "correctAnswer": "Tôi uống trà xanh. Tôi đọc tin tức và ăn sáng.",
       "explanationVi": "Câu nghe được: \"I drink green tea. I read the news and eat breakfast.\" có nghĩa là: \"Tôi uống trà xanh. Tôi đọc tin tức và ăn sáng.\"."
@@ -402,9 +402,9 @@
       "question": "Dựa vào đoạn đối thoại trên, thông tin nào sau đây là CHÍNH XÁC về nội dung câu nói của David?",
       "options": [
         "David chia sẻ thông tin: \"Chào buổi sáng, Mai! Bạn thức dậy lúc mấy giờ mỗi ngày?\"",
-        "David muốn mượn tiền để mua vé máy bay gấp.",
         "David phàn nàn rằng thời tiết hôm nay quá xấu.",
-        "David từ chối trả lời và yêu cầu hủy cuộc hẹn."
+        "David từ chối trả lời và yêu cầu hủy cuộc hẹn.",
+        "David muốn mượn tiền để mua vé máy bay gấp."
       ],
       "correctAnswer": "David chia sẻ thông tin: \"Chào buổi sáng, Mai! Bạn thức dậy lúc mấy giờ mỗi ngày?\"",
       "explanationVi": "Trong đoạn hội thoại, David đã nói: \"Good morning, Mai! What time do you wake up every day?\" (nghĩa là: \"Chào buổi sáng, Mai! Bạn thức dậy lúc mấy giờ mỗi ngày?\")."
@@ -418,8 +418,8 @@
       "options": [
         "Phản hồi: \"Hoàn toàn không đồng ý và muốn rời khỏi phòng ngay lập tức\"",
         "Phản hồi: \"Đúng rồi, chúng ta luôn đi xe buýt cùng nhau!\"",
-        "Phản hồi: \"Yêu cầu cung cấp hóa đơn thanh toán tiền mặt\"",
-        "Phản hồi: \"Hẹn gặp lại vào cuối tuần sau tại sân bay quốc tế\""
+        "Phản hồi: \"Hẹn gặp lại vào cuối tuần sau tại sân bay quốc tế\"",
+        "Phản hồi: \"Yêu cầu cung cấp hóa đơn thanh toán tiền mặt\""
       ],
       "correctAnswer": "Phản hồi: \"Đúng rồi, chúng ta luôn đi xe buýt cùng nhau!\"",
       "explanationVi": "Mai nói: \"Yes, we always take the bus together!\" có nghĩa là: \"Đúng rồi, chúng ta luôn đi xe buýt cùng nhau!\"."

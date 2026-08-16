@@ -10,10 +10,10 @@
       "promptVi": "[Trắc nghiệm ngữ pháp] Chọn từ đúng để hoàn thành câu (Hôm nay tôi không mệt.):",
       "question": "I ___ tired today.",
       "options": [
-        "isn't",
-        "not",
         "am not",
-        "aren't"
+        "aren't",
+        "isn't",
+        "not"
       ],
       "correctAnswer": "am not",
       "explanationVi": "Ngôi 'I' ở dạng phủ định dùng 'am not'."
@@ -24,10 +24,10 @@
       "promptVi": "[Trắc nghiệm ngữ pháp] Chọn từ đúng để hoàn thành câu (Bây giờ cô ấy không ở nhà.):",
       "question": "She ___ at home now.",
       "options": [
-        "don't",
         "aren't",
-        "am not",
-        "isn't"
+        "isn't",
+        "don't",
+        "am not"
       ],
       "correctAnswer": "isn't",
       "explanationVi": "Chủ ngữ 'She' đi với dạng phủ định 'isn't'."
@@ -39,9 +39,9 @@
       "question": "They ___ late for work.",
       "options": [
         "aren't",
-        "doesn't",
         "isn't",
-        "am not"
+        "am not",
+        "doesn't"
       ],
       "correctAnswer": "aren't",
       "explanationVi": "Chủ ngữ số nhiều 'They' đi với 'aren't'."
@@ -52,8 +52,8 @@
       "promptVi": "[Trắc nghiệm ngữ pháp] Chọn từ đúng để hoàn thành câu (Thầy ấy không phải là một giáo viên nghiêm khắc.):",
       "question": "He ___ a strict teacher.",
       "options": [
-        "am not",
         "not",
+        "am not",
         "aren't",
         "isn't"
       ],
@@ -66,10 +66,10 @@
       "promptVi": "[Phản xạ dịch thuật] Dịch câu sau sang tiếng Anh: \"Bây giờ bạn có bận không, Alex?\"",
       "question": "Chọn bản dịch chuẩn xác nhất cho câu: \"Bây giờ bạn có bận không, Alex?\"",
       "options": [
-        "Are you busy right now, Alex?",
-        "be you busy right now, Alex?",
+        "No, I am not busy at all. What is up?",
         "We are studying English today.",
-        "No, I am not busy at all. What is up?"
+        "be you busy right now, Alex?",
+        "Are you busy right now, Alex?"
       ],
       "correctAnswer": "Are you busy right now, Alex?",
       "explanationVi": "Câu dịch chuẩn xác: \"Are you busy right now, Alex?\" (Bây giờ bạn có bận không, Alex?)."
@@ -80,10 +80,10 @@
       "promptVi": "[Ngữ cảnh giao tiếp] Chọn câu phản hồi tự nhiên và đúng ngữ pháp:",
       "question": "Khi đối phương nói: \"Are you busy right now, Alex?\", câu phản hồi phù hợp là gì?",
       "options": [
-        "They are not in the office.",
-        "Yes, I will eat it.",
+        "No, I am not busy at all. What is up?",
         "No, it was yesterday.",
-        "No, I am not busy at all. What is up?"
+        "Yes, I will eat it.",
+        "They are not in the office."
       ],
       "correctAnswer": "No, I am not busy at all. What is up?",
       "explanationVi": "Phản hồi phù hợp trong bài: \"No, I am not busy at all. What is up?\" (Không, tôi hoàn toàn không bận. Có chuyện gì vậy?)."
@@ -95,10 +95,10 @@
       "question": "I ___ tired today.",
       "correctAnswer": "am not",
       "options": [
+        "not",
         "am not",
         "isn't",
-        "aren't",
-        "not"
+        "aren't"
       ],
       "explanationVi": "Đáp án đúng là \"am not\". Câu hoàn chỉnh: \"I am not tired today.\" (Hôm nay tôi không mệt.)."
     },
@@ -110,9 +110,9 @@
       "correctAnswer": "isn't",
       "options": [
         "don't",
+        "am not",
         "aren't",
-        "isn't",
-        "am not"
+        "isn't"
       ],
       "explanationVi": "Đáp án đúng là \"isn't\". Câu hoàn chỉnh: \"She isn't at home now.\" (Bây giờ cô ấy không ở nhà.)."
     },
@@ -123,10 +123,10 @@
       "question": "They ___ late for work.",
       "correctAnswer": "aren't",
       "options": [
-        "aren't",
+        "doesn't",
         "am not",
         "isn't",
-        "doesn't"
+        "aren't"
       ],
       "explanationVi": "Đáp án đúng là \"aren't\". Câu hoàn chỉnh: \"They aren't late for work.\" (Họ không bị trễ giờ làm.)."
     },
@@ -137,9 +137,9 @@
       "question": "He ___ a strict teacher.",
       "correctAnswer": "isn't",
       "options": [
-        "isn't",
         "not",
         "aren't",
+        "isn't",
         "am not"
       ],
       "explanationVi": "Đáp án đúng là \"isn't\". Câu hoàn chỉnh: \"He isn't a strict teacher.\" (Thầy ấy không phải là một giáo viên nghiêm khắc.)."
@@ -151,10 +151,10 @@
       "question": "I _____ not not tired today.",
       "correctAnswer": "am",
       "options": [
-        "are",
         "am",
-        "do",
-        "is"
+        "is",
+        "are",
+        "do"
       ],
       "explanationVi": "Câu phủ định hoàn chỉnh: \"I am not tired today.\"."
     },
@@ -164,10 +164,10 @@
       "promptVi": "[Sắp xếp câu] Ghép các khối từ thành câu hoàn chỉnh mang nghĩa: \"Hôm nay tôi không mệt.\"",
       "question": "Sắp xếp các từ để tạo thành câu đúng: \"Hôm nay tôi không mệt.\"",
       "words": [
-        "I",
-        "tired",
         "today.",
+        "tired",
         "not",
+        "I",
         "am"
       ],
       "correctSentence": "I am not tired today.",
@@ -180,11 +180,11 @@
       "promptVi": "[Sắp xếp câu] Ghép các khối từ thành câu hoàn chỉnh mang nghĩa: \"Bây giờ cô ấy không ở nhà.\"",
       "question": "Sắp xếp các từ để tạo thành câu đúng: \"Bây giờ cô ấy không ở nhà.\"",
       "words": [
-        "at",
         "isn't",
+        "She",
         "home",
         "now.",
-        "She"
+        "at"
       ],
       "correctSentence": "She isn't at home now.",
       "hintVi": "Bây giờ cô ấy không ở nhà.",
@@ -196,11 +196,11 @@
       "promptVi": "[Sắp xếp câu] Ghép các khối từ thành câu hoàn chỉnh mang nghĩa: \"Họ không bị trễ giờ làm.\"",
       "question": "Sắp xếp các từ để tạo thành câu đúng: \"Họ không bị trễ giờ làm.\"",
       "words": [
-        "for",
         "work.",
+        "for",
         "late",
-        "They",
-        "aren't"
+        "aren't",
+        "They"
       ],
       "correctSentence": "They aren't late for work.",
       "hintVi": "Họ không bị trễ giờ làm.",
@@ -212,11 +212,11 @@
       "promptVi": "[Sắp xếp câu] Ghép các khối từ thành câu hoàn chỉnh mang nghĩa: \"Thầy ấy không phải là một giáo viên nghiêm khắc.\"",
       "question": "Sắp xếp các từ để tạo thành câu đúng: \"Thầy ấy không phải là một giáo viên nghiêm khắc.\"",
       "words": [
-        "strict",
-        "teacher.",
         "He",
         "a",
-        "isn't"
+        "strict",
+        "isn't",
+        "teacher."
       ],
       "correctSentence": "He isn't a strict teacher.",
       "hintVi": "Thầy ấy không phải là một giáo viên nghiêm khắc.",
@@ -229,12 +229,12 @@
       "question": "Sắp xếp các từ để tạo thành câu thoại: \"Quản lý mới có ở trong văn phòng không?\"",
       "words": [
         "the",
-        "office",
         "in",
         "new",
-        "manager",
+        "her",
         "Is",
-        "her"
+        "office",
+        "manager"
       ],
       "correctSentence": "Is the new manager in her office?",
       "hintVi": "Quản lý mới có ở trong văn phòng không?",
@@ -246,10 +246,10 @@
       "promptVi": "[Nhận diện cấu trúc chuẩn] Chọn câu có cấu trúc ngữ pháp HOÀN TOÀN ĐÚNG:",
       "question": "Dựa vào chủ điểm \"Bài 3: Động từ To Be — Hiện tại Đơn (Cấu trúc Phủ định: Am not / Isn't / Aren't)\", câu nào sau đây CHÍNH XÁC?",
       "options": [
-        "is",
-        "I am not tired today.",
         "I be not tired today.",
-        "today. tired not am I"
+        "I am not tired today.",
+        "today. tired not am I",
+        "is"
       ],
       "correctAnswer": "I am not tired today.",
       "explanationVi": "Cấu trúc chuẩn xác là: \"I am not tired today.\" (Hôm nay tôi không mệt.)."
@@ -260,10 +260,10 @@
       "promptVi": "[Nhận diện cấu trúc chuẩn] Chọn câu có cấu trúc ngữ pháp HOÀN TOÀN ĐÚNG:",
       "question": "Dựa vào chủ điểm \"Bài 3: Động từ To Be — Hiện tại Đơn (Cấu trúc Phủ định: Am not / Isn't / Aren't)\", câu nào sau đây CHÍNH XÁC?",
       "options": [
-        "now. home at isn't She",
+        "are",
         "is",
-        "She isn't at home now.",
-        "are"
+        "now. home at isn't She",
+        "She isn't at home now."
       ],
       "correctAnswer": "She isn't at home now.",
       "explanationVi": "Cấu trúc chuẩn xác là: \"She isn't at home now.\" (Bây giờ cô ấy không ở nhà.)."
@@ -276,8 +276,8 @@
       "options": [
         "work. for late aren't They",
         "They aren't late at work.",
-        "is",
-        "They aren't late for work."
+        "They aren't late for work.",
+        "is"
       ],
       "correctAnswer": "They aren't late for work.",
       "explanationVi": "Cấu trúc chuẩn xác là: \"They aren't late for work.\" (Họ không bị trễ giờ làm.)."
@@ -288,10 +288,10 @@
       "promptVi": "[Nhận diện cấu trúc chuẩn] Chọn câu có cấu trúc ngữ pháp HOÀN TOÀN ĐÚNG:",
       "question": "Dựa vào chủ điểm \"Bài 3: Động từ To Be — Hiện tại Đơn (Cấu trúc Phủ định: Am not / Isn't / Aren't)\", câu nào sau đây CHÍNH XÁC?",
       "options": [
-        "He isn't a strict teacher.",
         "are",
+        "is",
         "teacher. strict a isn't He",
-        "is"
+        "He isn't a strict teacher."
       ],
       "correctAnswer": "He isn't a strict teacher.",
       "explanationVi": "Cấu trúc chuẩn xác là: \"He isn't a strict teacher.\" (Thầy ấy không phải là một giáo viên nghiêm khắc.)."
@@ -304,9 +304,9 @@
       "question": "Nhấn nút '🔊 Nghe audio' và chọn nghĩa tiếng Việt đúng:",
       "options": [
         "Hôm nay thời tiết rất đẹp.",
+        "Quản lý mới có ở trong văn phòng không?",
         "Không, tôi hoàn toàn không bận. Có chuyện gì vậy?",
-        "Bây giờ bạn có bận không, Alex?",
-        "Quản lý mới có ở trong văn phòng không?"
+        "Bây giờ bạn có bận không, Alex?"
       ],
       "correctAnswer": "Bây giờ bạn có bận không, Alex?",
       "explanationVi": "Câu nghe được: \"Are you busy right now, Alex?\" có nghĩa là: \"Bây giờ bạn có bận không, Alex?\"."
@@ -318,10 +318,10 @@
       "audioPrompt": "No, I am not busy at all. What is up?",
       "question": "Nhấn nút '🔊 Nghe audio' và chọn nghĩa tiếng Việt đúng:",
       "options": [
-        "Hôm nay thời tiết rất đẹp.",
         "Không, tôi hoàn toàn không bận. Có chuyện gì vậy?",
         "Quản lý mới có ở trong văn phòng không?",
-        "Không, cô ấy không ở trong văn phòng. Cô ấy đang ở họp."
+        "Không, cô ấy không ở trong văn phòng. Cô ấy đang ở họp.",
+        "Hôm nay thời tiết rất đẹp."
       ],
       "correctAnswer": "Không, tôi hoàn toàn không bận. Có chuyện gì vậy?",
       "explanationVi": "Câu nghe được: \"No, I am not busy at all. What is up?\" có nghĩa là: \"Không, tôi hoàn toàn không bận. Có chuyện gì vậy?\"."
@@ -334,8 +334,8 @@
       "question": "Nhấn nút '🔊 Nghe audio' và chọn nghĩa tiếng Việt đúng:",
       "options": [
         "Quản lý mới có ở trong văn phòng không?",
-        "Không, cô ấy không ở trong văn phòng. Cô ấy đang ở họp.",
         "Hôm nay thời tiết rất đẹp.",
+        "Không, cô ấy không ở trong văn phòng. Cô ấy đang ở họp.",
         "Ồ, tôi hiểu rồi. Chúng ta không bị muộn bài thuyết trình chứ?"
       ],
       "correctAnswer": "Quản lý mới có ở trong văn phòng không?",
@@ -348,10 +348,10 @@
       "audioPrompt": "No, she isn't in her office. She is in a meeting.",
       "question": "Nhấn nút '🔊 Nghe audio' và chọn nghĩa tiếng Việt đúng:",
       "options": [
-        "Không, cô ấy không ở trong văn phòng. Cô ấy đang ở họp.",
-        "Hôm nay thời tiết rất đẹp.",
+        "Ồ, tôi hiểu rồi. Chúng ta không bị muộn bài thuyết trình chứ?",
         "Đừng lo, chúng ta không bị muộn đâu! Chúng ta còn 10 phút.",
-        "Ồ, tôi hiểu rồi. Chúng ta không bị muộn bài thuyết trình chứ?"
+        "Không, cô ấy không ở trong văn phòng. Cô ấy đang ở họp.",
+        "Hôm nay thời tiết rất đẹp."
       ],
       "correctAnswer": "Không, cô ấy không ở trong văn phòng. Cô ấy đang ở họp.",
       "explanationVi": "Câu nghe được: \"No, she isn't in her office. She is in a meeting.\" có nghĩa là: \"Không, cô ấy không ở trong văn phòng. Cô ấy đang ở họp.\"."
@@ -401,8 +401,8 @@
       "options": [
         "Lisa phàn nàn rằng thời tiết hôm nay quá xấu.",
         "Lisa chia sẻ thông tin: \"Bây giờ bạn có bận không, Alex?\"",
-        "Lisa muốn mượn tiền để mua vé máy bay gấp.",
-        "Lisa từ chối trả lời và yêu cầu hủy cuộc hẹn."
+        "Lisa từ chối trả lời và yêu cầu hủy cuộc hẹn.",
+        "Lisa muốn mượn tiền để mua vé máy bay gấp."
       ],
       "correctAnswer": "Lisa chia sẻ thông tin: \"Bây giờ bạn có bận không, Alex?\"",
       "explanationVi": "Trong đoạn hội thoại, Lisa đã nói: \"Are you busy right now, Alex?\" (nghĩa là: \"Bây giờ bạn có bận không, Alex?\")."
@@ -414,10 +414,10 @@
       "passage": "Lisa: \"Is the new manager in her office?\"\nAlex: \"No, she isn't in her office. She is in a meeting.\"\nLisa: \"Oh, I see. We aren't late for our presentation, right?\"\nAlex: \"Don't worry, we aren't late! We have ten minutes.\"",
       "question": "Trong đoạn hội thoại trên, câu nói \"Don't worry, we aren't late! We have ten minutes.\" của Alex mang ý nghĩa gì?",
       "options": [
-        "Phản hồi: \"Đừng lo, chúng ta không bị muộn đâu! Chúng ta còn 10 phút.\"",
-        "Phản hồi: \"Hoàn toàn không đồng ý và muốn rời khỏi phòng ngay lập tức\"",
         "Phản hồi: \"Hẹn gặp lại vào cuối tuần sau tại sân bay quốc tế\"",
-        "Phản hồi: \"Yêu cầu cung cấp hóa đơn thanh toán tiền mặt\""
+        "Phản hồi: \"Yêu cầu cung cấp hóa đơn thanh toán tiền mặt\"",
+        "Phản hồi: \"Hoàn toàn không đồng ý và muốn rời khỏi phòng ngay lập tức\"",
+        "Phản hồi: \"Đừng lo, chúng ta không bị muộn đâu! Chúng ta còn 10 phút.\""
       ],
       "correctAnswer": "Phản hồi: \"Đừng lo, chúng ta không bị muộn đâu! Chúng ta còn 10 phút.\"",
       "explanationVi": "Alex nói: \"Don't worry, we aren't late! We have ten minutes.\" có nghĩa là: \"Đừng lo, chúng ta không bị muộn đâu! Chúng ta còn 10 phút.\"."

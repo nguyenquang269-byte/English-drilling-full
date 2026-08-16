@@ -11,9 +11,9 @@
       "question": "___ my mother who taught me how to cook.",
       "options": [
         "It was",
-        "That was",
+        "It is",
         "She was",
-        "It is"
+        "That was"
       ],
       "correctAnswer": "It was",
       "explanationVi": "'taught' ở quá khứ nên dùng 'It was'."
@@ -24,9 +24,9 @@
       "promptVi": "[Trắc nghiệm ngữ pháp] Chọn từ đúng để hoàn thành câu (Tôi thực sự đã gọi cho bạn hôm qua, nhưng bạn không nghe máy.):",
       "question": "I ___ call you yesterday, but you didn't answer.",
       "options": [
-        "have",
-        "do",
         "did",
+        "do",
+        "have",
         "had"
       ],
       "correctAnswer": "did",
@@ -38,10 +38,10 @@
       "promptVi": "[Trắc nghiệm ngữ pháp] Chọn từ đúng để hoàn thành câu (Điều mà tôi thực sự cần chính là một giấc ngủ ngon.):",
       "question": "___ I really need is a good night's sleep.",
       "options": [
-        "That",
         "What",
-        "Which",
-        "Who"
+        "Who",
+        "That",
+        "Which"
       ],
       "correctAnswer": "What",
       "explanationVi": "Mệnh đề danh ngữ nhấn mạnh bắt đầu bằng 'What'."
@@ -52,10 +52,10 @@
       "promptVi": "[Trắc nghiệm ngữ pháp] Chọn từ đúng để hoàn thành câu (Xin mời bạn hãy vào nhà và ngồi xuống!):",
       "question": "___ come in and have a seat!",
       "options": [
-        "Do",
-        "Did",
+        "Does",
         "Please to",
-        "Does"
+        "Did",
+        "Do"
       ],
       "correctAnswer": "Do",
       "explanationVi": "Đặt 'Do' trước động từ mệnh lệnh để nhấn mạnh lời mời nồng nhiệt."
@@ -68,8 +68,8 @@
       "options": [
         "is",
         "We are studying English today.",
-        "Good morning, journalists! Today, we celebrate a monumental breakthrough in cardiovascular biotechnology.",
-        "It was Dr. Emily Watson who discovered the miraculous cardiac cell regeneration protein."
+        "It was Dr. Emily Watson who discovered the miraculous cardiac cell regeneration protein.",
+        "Good morning, journalists! Today, we celebrate a monumental breakthrough in cardiovascular biotechnology."
       ],
       "correctAnswer": "Good morning, journalists! Today, we celebrate a monumental breakthrough in cardiovascular biotechnology.",
       "explanationVi": "Câu dịch chuẩn xác: \"Good morning, journalists! Today, we celebrate a monumental breakthrough in cardiovascular biotechnology.\" (Chào buổi sáng các nhà báo! Hôm nay, chúng ta tôn vinh một đột phá vĩ đại trong công nghệ sinh học tim mạch.)."
@@ -80,9 +80,9 @@
       "promptVi": "[Ngữ cảnh giao tiếp] Chọn câu phản hồi tự nhiên và đúng ngữ pháp:",
       "question": "Khi đối phương nói: \"Good morning, journalists! Today, we celebrate a monumental breakthrough in cardiovascular biotechnology.\", câu phản hồi phù hợp là gì?",
       "options": [
-        "They are not in the office.",
         "No, it was yesterday.",
         "It was Dr. Emily Watson who discovered the miraculous cardiac cell regeneration protein.",
+        "They are not in the office.",
         "Yes, I will eat it."
       ],
       "correctAnswer": "It was Dr. Emily Watson who discovered the miraculous cardiac cell regeneration protein.",
@@ -95,10 +95,10 @@
       "question": "___ my mother who taught me how to cook.",
       "correctAnswer": "It was",
       "options": [
-        "That was",
+        "It was",
         "It is",
         "She was",
-        "It was"
+        "That was"
       ],
       "explanationVi": "Đáp án đúng là \"It was\". Câu hoàn chỉnh: \"It was my mother who taught me how to cook.\" (Chính là mẹ tôi - người đã dạy tôi cách nấu ăn.)."
     },
@@ -124,9 +124,9 @@
       "correctAnswer": "What",
       "options": [
         "That",
+        "What",
         "Which",
-        "Who",
-        "What"
+        "Who"
       ],
       "explanationVi": "Đáp án đúng là \"What\". Câu hoàn chỉnh: \"What I really need is a good night's sleep.\" (Điều mà tôi thực sự cần chính là một giấc ngủ ngon.)."
     },
@@ -137,10 +137,10 @@
       "question": "___ come in and have a seat!",
       "correctAnswer": "Do",
       "options": [
-        "Do",
         "Did",
         "Please to",
-        "Does"
+        "Does",
+        "Do"
       ],
       "explanationVi": "Đáp án đúng là \"Do\". Câu hoàn chỉnh: \"Do come in and have a seat!\" (Xin mời bạn hãy vào nhà và ngồi xuống!)."
     },
@@ -151,10 +151,10 @@
       "question": "It _____ not my mother who taught me how to cook.",
       "correctAnswer": "was",
       "options": [
-        "is",
-        "are",
         "was",
-        "am"
+        "is",
+        "am",
+        "are"
       ],
       "explanationVi": "Câu phủ định hoàn chỉnh: \"It was not my mother who taught me how to cook.\"."
     },
@@ -164,15 +164,15 @@
       "promptVi": "[Sắp xếp câu] Ghép các khối từ thành câu hoàn chỉnh mang nghĩa: \"Chính là mẹ tôi - người đã dạy tôi cách nấu ăn.\"",
       "question": "Sắp xếp các từ để tạo thành câu đúng: \"Chính là mẹ tôi - người đã dạy tôi cách nấu ăn.\"",
       "words": [
-        "mother",
         "taught",
-        "who",
-        "my",
-        "was",
         "me",
+        "was",
+        "who",
+        "It",
         "how",
         "to",
-        "It",
+        "my",
+        "mother",
         "cook."
       ],
       "correctSentence": "It was my mother who taught me how to cook.",
@@ -185,15 +185,15 @@
       "promptVi": "[Sắp xếp câu] Ghép các khối từ thành câu hoàn chỉnh mang nghĩa: \"Tôi thực sự đã gọi cho bạn hôm qua, nhưng bạn không nghe máy.\"",
       "question": "Sắp xếp các từ để tạo thành câu đúng: \"Tôi thực sự đã gọi cho bạn hôm qua, nhưng bạn không nghe máy.\"",
       "words": [
-        "you",
-        "you",
-        "answer.",
-        "I",
-        "didn't",
-        "but",
         "call",
         "did",
-        "yesterday,"
+        "I",
+        "answer.",
+        "didn't",
+        "you",
+        "but",
+        "yesterday,",
+        "you"
       ],
       "correctSentence": "I did call you yesterday, but you didn't answer.",
       "hintVi": "Tôi thực sự đã gọi cho bạn hôm qua, nhưng bạn không nghe máy.",
@@ -205,15 +205,15 @@
       "promptVi": "[Sắp xếp câu] Ghép các khối từ thành câu hoàn chỉnh mang nghĩa: \"Điều mà tôi thực sự cần chính là một giấc ngủ ngon.\"",
       "question": "Sắp xếp các từ để tạo thành câu đúng: \"Điều mà tôi thực sự cần chính là một giấc ngủ ngon.\"",
       "words": [
-        "sleep.",
-        "is",
-        "night's",
-        "I",
         "really",
+        "I",
+        "is",
+        "sleep.",
+        "night's",
         "good",
-        "need",
         "What",
-        "a"
+        "a",
+        "need"
       ],
       "correctSentence": "What I really need is a good night's sleep.",
       "hintVi": "Điều mà tôi thực sự cần chính là một giấc ngủ ngon.",
@@ -227,11 +227,11 @@
       "words": [
         "seat!",
         "and",
+        "a",
+        "Do",
         "in",
         "come",
-        "a",
-        "have",
-        "Do"
+        "have"
       ],
       "correctSentence": "Do come in and have a seat!",
       "hintVi": "Xin mời bạn hãy vào nhà và ngồi xuống!",
@@ -243,21 +243,21 @@
       "promptVi": "[Sắp xếp câu] Ghép các từ thành câu hội thoại: \"Phòng thí nghiệm của các vị có gặp phải sự phản đối dữ dội khi lần đầu công bố bài báo thử nghiệm lâm sàng ban đầu không?\"",
       "question": "Sắp xếp các từ để tạo thành câu thoại: \"Phòng thí nghiệm của các vị có gặp phải sự phản đối dữ dội khi lần đầu công bố bài báo thử nghiệm lâm sàng ban đầu không?\"",
       "words": [
-        "first",
-        "fierce",
-        "when",
-        "clinical",
-        "encounter",
-        "laboratory",
-        "your",
         "you",
-        "paper",
+        "Did",
         "trial",
-        "published",
-        "initial",
         "opposition",
+        "initial",
+        "first",
+        "your",
+        "clinical",
+        "fierce",
+        "laboratory",
+        "paper",
+        "published",
         "the",
-        "Did"
+        "encounter",
+        "when"
       ],
       "correctSentence": "Did your laboratory encounter fierce opposition when you first published the initial clinical trial paper?",
       "hintVi": "Phòng thí nghiệm của các vị có gặp phải sự phản đối dữ dội khi lần đầu công bố bài báo thử nghiệm lâm sàng ban đầu không?",
@@ -283,10 +283,10 @@
       "promptVi": "[Nhận diện cấu trúc chuẩn] Chọn câu có cấu trúc ngữ pháp HOÀN TOÀN ĐÚNG:",
       "question": "Dựa vào chủ điểm \"Bài 76: Cấu trúc Nhấn Mạnh Toàn Diện (Emphasis: Cleft It is...that, Emphatic Do/Does/Did & What-Clauses)\", câu nào sau đây CHÍNH XÁC?",
       "options": [
-        "I did call you yesterday, but you didn't answer.",
+        "are",
         "is",
         "answer. didn't you but yesterday, you call did I",
-        "are"
+        "I did call you yesterday, but you didn't answer."
       ],
       "correctAnswer": "I did call you yesterday, but you didn't answer.",
       "explanationVi": "Cấu trúc chuẩn xác là: \"I did call you yesterday, but you didn't answer.\" (Tôi thực sự đã gọi cho bạn hôm qua, nhưng bạn không nghe máy.)."
@@ -311,10 +311,10 @@
       "promptVi": "[Nhận diện cấu trúc chuẩn] Chọn câu có cấu trúc ngữ pháp HOÀN TOÀN ĐÚNG:",
       "question": "Dựa vào chủ điểm \"Bài 76: Cấu trúc Nhấn Mạnh Toàn Diện (Emphasis: Cleft It is...that, Emphatic Do/Does/Did & What-Clauses)\", câu nào sau đây CHÍNH XÁC?",
       "options": [
-        "is",
+        "Do come in and have a seat!",
         "Do come at and have a seat!",
         "seat! a have and in come Do",
-        "Do come in and have a seat!"
+        "is"
       ],
       "correctAnswer": "Do come in and have a seat!",
       "explanationVi": "Cấu trúc chuẩn xác là: \"Do come in and have a seat!\" (Xin mời bạn hãy vào nhà và ngồi xuống!)."
@@ -326,10 +326,10 @@
       "audioPrompt": "Good morning, journalists! Today, we celebrate a monumental breakthrough in cardiovascular biotechnology.",
       "question": "Nhấn nút '🔊 Nghe audio' và chọn nghĩa tiếng Việt đúng:",
       "options": [
-        "Phòng thí nghiệm của các vị có gặp phải sự phản đối dữ dội khi lần đầu công bố bài báo thử nghiệm lâm sàng ban đầu không?",
-        "Chính là Tiến sĩ Emily Watson - người đã phát hiện ra loại protein tái tạo tế bào tim kỳ diệu này. (It was... who...)",
         "Chào buổi sáng các nhà báo! Hôm nay, chúng ta tôn vinh một đột phá vĩ đại trong công nghệ sinh học tim mạch.",
-        "Hôm nay thời tiết rất đẹp."
+        "Chính là Tiến sĩ Emily Watson - người đã phát hiện ra loại protein tái tạo tế bào tim kỳ diệu này. (It was... who...)",
+        "Hôm nay thời tiết rất đẹp.",
+        "Phòng thí nghiệm của các vị có gặp phải sự phản đối dữ dội khi lần đầu công bố bài báo thử nghiệm lâm sàng ban đầu không?"
       ],
       "correctAnswer": "Chào buổi sáng các nhà báo! Hôm nay, chúng ta tôn vinh một đột phá vĩ đại trong công nghệ sinh học tim mạch.",
       "explanationVi": "Câu nghe được: \"Good morning, journalists! Today, we celebrate a monumental breakthrough in cardiovascular biotechnology.\" có nghĩa là: \"Chào buổi sáng các nhà báo! Hôm nay, chúng ta tôn vinh một đột phá vĩ đại trong công nghệ sinh học tim mạch.\"."
@@ -341,10 +341,10 @@
       "audioPrompt": "It was Dr. Emily Watson who discovered the miraculous cardiac cell regeneration protein.",
       "question": "Nhấn nút '🔊 Nghe audio' và chọn nghĩa tiếng Việt đúng:",
       "options": [
-        "Chính là Tiến sĩ Emily Watson - người đã phát hiện ra loại protein tái tạo tế bào tim kỳ diệu này. (It was... who...)",
+        "Hôm nay thời tiết rất đẹp.",
         "Chúng tôi thực sự đã đối mặt với sự hoài nghi nặng nề, nhưng dữ liệu thực nghiệm của chúng tôi thực sự đã chứng minh giả thuyết vượt trên mọi hoài nghi! (did face / did prove)",
         "Phòng thí nghiệm của các vị có gặp phải sự phản đối dữ dội khi lần đầu công bố bài báo thử nghiệm lâm sàng ban đầu không?",
-        "Hôm nay thời tiết rất đẹp."
+        "Chính là Tiến sĩ Emily Watson - người đã phát hiện ra loại protein tái tạo tế bào tim kỳ diệu này. (It was... who...)"
       ],
       "correctAnswer": "Chính là Tiến sĩ Emily Watson - người đã phát hiện ra loại protein tái tạo tế bào tim kỳ diệu này. (It was... who...)",
       "explanationVi": "Câu nghe được: \"It was Dr. Emily Watson who discovered the miraculous cardiac cell regeneration protein.\" có nghĩa là: \"Chính là Tiến sĩ Emily Watson - người đã phát hiện ra loại protein tái tạo tế bào tim kỳ diệu này. (It was... who...)\"."
@@ -357,9 +357,9 @@
       "question": "Nhấn nút '🔊 Nghe audio' và chọn nghĩa tiếng Việt đúng:",
       "options": [
         "Phòng thí nghiệm của các vị có gặp phải sự phản đối dữ dội khi lần đầu công bố bài báo thử nghiệm lâm sàng ban đầu không?",
-        "Hôm nay thời tiết rất đẹp.",
         "Chúng tôi thực sự đã đối mặt với sự hoài nghi nặng nề, nhưng dữ liệu thực nghiệm của chúng tôi thực sự đã chứng minh giả thuyết vượt trên mọi hoài nghi! (did face / did prove)",
-        "Chính tại chính phòng thí nghiệm này là nơi nhóm tổng hợp hóa sinh của chúng ta đã trải qua vô số đêm không ngủ. (It was in this very laboratory that...)"
+        "Chính tại chính phòng thí nghiệm này là nơi nhóm tổng hợp hóa sinh của chúng ta đã trải qua vô số đêm không ngủ. (It was in this very laboratory that...)",
+        "Hôm nay thời tiết rất đẹp."
       ],
       "correctAnswer": "Phòng thí nghiệm của các vị có gặp phải sự phản đối dữ dội khi lần đầu công bố bài báo thử nghiệm lâm sàng ban đầu không?",
       "explanationVi": "Câu nghe được: \"Did your laboratory encounter fierce opposition when you first published the initial clinical trial paper?\" có nghĩa là: \"Phòng thí nghiệm của các vị có gặp phải sự phản đối dữ dội khi lần đầu công bố bài báo thử nghiệm lâm sàng ban đầu không?\"."
@@ -372,9 +372,9 @@
       "question": "Nhấn nút '🔊 Nghe audio' và chọn nghĩa tiếng Việt đúng:",
       "options": [
         "Điều mà chúng tôi thực sự quan tâm là làm cho thuốc trợ tim giá cả phải chăng đến được với các bệnh nhân trên toàn thế giới. (What we truly care about is...)",
-        "Hôm nay thời tiết rất đẹp.",
         "Chính tại chính phòng thí nghiệm này là nơi nhóm tổng hợp hóa sinh của chúng ta đã trải qua vô số đêm không ngủ. (It was in this very laboratory that...)",
-        "Chúng tôi thực sự đã đối mặt với sự hoài nghi nặng nề, nhưng dữ liệu thực nghiệm của chúng tôi thực sự đã chứng minh giả thuyết vượt trên mọi hoài nghi! (did face / did prove)"
+        "Chúng tôi thực sự đã đối mặt với sự hoài nghi nặng nề, nhưng dữ liệu thực nghiệm của chúng tôi thực sự đã chứng minh giả thuyết vượt trên mọi hoài nghi! (did face / did prove)",
+        "Hôm nay thời tiết rất đẹp."
       ],
       "correctAnswer": "Chúng tôi thực sự đã đối mặt với sự hoài nghi nặng nề, nhưng dữ liệu thực nghiệm của chúng tôi thực sự đã chứng minh giả thuyết vượt trên mọi hoài nghi! (did face / did prove)",
       "explanationVi": "Câu nghe được: \"We did face severe skepticism, but our empirical data did prove our theoretical hypothesis beyond doubt!\" có nghĩa là: \"Chúng tôi thực sự đã đối mặt với sự hoài nghi nặng nề, nhưng dữ liệu thực nghiệm của chúng tôi thực sự đã chứng minh giả thuyết vượt trên mọi hoài nghi! (did face / did prove)\"."
@@ -424,8 +424,8 @@
       "options": [
         "Host Katherine phàn nàn rằng thời tiết hôm nay quá xấu.",
         "Host Katherine chia sẻ thông tin: \"Chào buổi sáng các nhà báo! Hôm nay, chúng ta tôn vinh một đột phá vĩ đại trong công nghệ sinh học tim mạch.\"",
-        "Host Katherine từ chối trả lời và yêu cầu hủy cuộc hẹn.",
-        "Host Katherine muốn mượn tiền để mua vé máy bay gấp."
+        "Host Katherine muốn mượn tiền để mua vé máy bay gấp.",
+        "Host Katherine từ chối trả lời và yêu cầu hủy cuộc hẹn."
       ],
       "correctAnswer": "Host Katherine chia sẻ thông tin: \"Chào buổi sáng các nhà báo! Hôm nay, chúng ta tôn vinh một đột phá vĩ đại trong công nghệ sinh học tim mạch.\"",
       "explanationVi": "Trong đoạn hội thoại, Host Katherine đã nói: \"Good morning, journalists! Today, we celebrate a monumental breakthrough in cardiovascular biotechnology.\" (nghĩa là: \"Chào buổi sáng các nhà báo! Hôm nay, chúng ta tôn vinh một đột phá vĩ đại trong công nghệ sinh học tim mạch.\")."
@@ -437,10 +437,10 @@
       "passage": "Host Katherine: \"It was in this very laboratory that our biochemical synthesis team spent countless sleepless nights.\"\nDr. Chen: \"What we truly care about is making affordable heart medicine accessible to patients worldwide.\"\nJournalist Liam: \"Do examine the patent licensing terms carefully, and our international medical consortium will assist you.\"\nDr. Chen: \"I do hope that global healthcare regulators will expedite the final approval process.\"",
       "question": "Trong đoạn hội thoại trên, câu nói \"I do hope that global healthcare regulators will expedite the final approval process.\" của Dr. Chen mang ý nghĩa gì?",
       "options": [
-        "Phản hồi: \"Yêu cầu cung cấp hóa đơn thanh toán tiền mặt\"",
-        "Phản hồi: \"Hẹn gặp lại vào cuối tuần sau tại sân bay quốc tế\"",
+        "Phản hồi: \"Tôi thực sự rất hy vọng rằng các cơ quan quản lý y tế toàn cầu sẽ đẩy nhanh tiến trình phê duyệt cuối cùng. (I do hope that...)\"",
         "Phản hồi: \"Hoàn toàn không đồng ý và muốn rời khỏi phòng ngay lập tức\"",
-        "Phản hồi: \"Tôi thực sự rất hy vọng rằng các cơ quan quản lý y tế toàn cầu sẽ đẩy nhanh tiến trình phê duyệt cuối cùng. (I do hope that...)\""
+        "Phản hồi: \"Hẹn gặp lại vào cuối tuần sau tại sân bay quốc tế\"",
+        "Phản hồi: \"Yêu cầu cung cấp hóa đơn thanh toán tiền mặt\""
       ],
       "correctAnswer": "Phản hồi: \"Tôi thực sự rất hy vọng rằng các cơ quan quản lý y tế toàn cầu sẽ đẩy nhanh tiến trình phê duyệt cuối cùng. (I do hope that...)\"",
       "explanationVi": "Dr. Chen nói: \"I do hope that global healthcare regulators will expedite the final approval process.\" có nghĩa là: \"Tôi thực sự rất hy vọng rằng các cơ quan quản lý y tế toàn cầu sẽ đẩy nhanh tiến trình phê duyệt cuối cùng. (I do hope that...)\"."

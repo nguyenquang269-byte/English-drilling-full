@@ -24,8 +24,8 @@
       "promptVi": "[Trắc nghiệm ngữ pháp] Chọn từ đúng để hoàn thành câu (Tất cả những gì bạn phải làm chỉ là nhấn vào chiếc nút này.):",
       "question": "All you have to do is ___ this button.",
       "options": [
-        "pressing",
         "press",
+        "pressing",
         "pressed",
         "to pressed"
       ],
@@ -38,10 +38,10 @@
       "promptVi": "[Trắc nghiệm ngữ pháp] Chọn từ đúng để hoàn thành câu (Người đã giúp đỡ tôi nhiều nhất chính là giáo viên của tôi.):",
       "question": "The person ___ helped me the most was my teacher.",
       "options": [
-        "whose",
         "which",
-        "who",
-        "whom"
+        "whose",
+        "whom",
+        "who"
       ],
       "correctAnswer": "who",
       "explanationVi": "Bổ nghĩa cho 'The person' làm chủ ngữ dùng 'who'."
@@ -52,10 +52,10 @@
       "promptVi": "[Trắc nghiệm ngữ pháp] Chọn từ đúng để hoàn thành câu (Lý do tại sao tôi gọi cho bạn chính là vì tôi cần sự giúp đỡ của bạn.):",
       "question": "The reason why I called you is ___ I need your help.",
       "options": [
-        "that",
         "because",
-        "which",
-        "why"
+        "why",
+        "that",
+        "which"
       ],
       "correctAnswer": "that",
       "explanationVi": "Trong văn phong chuẩn tắc: The reason why... is THAT..."
@@ -66,10 +66,10 @@
       "promptVi": "[Phản xạ dịch thuật] Dịch câu sau sang tiếng Anh: \"Chào buổi sáng Maya. Hãy cùng thống nhất các ưu tiên trải nghiệm người dùng cốt lõi cho bản phát hành ứng dụng tiếp theo.\"",
       "question": "Chọn bản dịch chuẩn xác nhất cho câu: \"Chào buổi sáng Maya. Hãy cùng thống nhất các ưu tiên trải nghiệm người dùng cốt lõi cho bản phát hành ứng dụng tiếp theo.\"",
       "options": [
-        "What our users really care about is lightning-fast checkout and seamless biometric authentication.",
-        "Good morning, Maya. Let's align on our core user experience priorities for the next app release.",
+        "is",
         "We are studying English today.",
-        "is"
+        "What our users really care about is lightning-fast checkout and seamless biometric authentication.",
+        "Good morning, Maya. Let's align on our core user experience priorities for the next app release."
       ],
       "correctAnswer": "Good morning, Maya. Let's align on our core user experience priorities for the next app release.",
       "explanationVi": "Câu dịch chuẩn xác: \"Good morning, Maya. Let's align on our core user experience priorities for the next app release.\" (Chào buổi sáng Maya. Hãy cùng thống nhất các ưu tiên trải nghiệm người dùng cốt lõi cho bản phát hành ứng dụng tiếp theo.)."
@@ -80,10 +80,10 @@
       "promptVi": "[Ngữ cảnh giao tiếp] Chọn câu phản hồi tự nhiên và đúng ngữ pháp:",
       "question": "Khi đối phương nói: \"Good morning, Maya. Let's align on our core user experience priorities for the next app release.\", câu phản hồi phù hợp là gì?",
       "options": [
-        "What our users really care about is lightning-fast checkout and seamless biometric authentication.",
-        "No, it was yesterday.",
         "Yes, I will eat it.",
-        "They are not in the office."
+        "What our users really care about is lightning-fast checkout and seamless biometric authentication.",
+        "They are not in the office.",
+        "No, it was yesterday."
       ],
       "correctAnswer": "What our users really care about is lightning-fast checkout and seamless biometric authentication.",
       "explanationVi": "Phản hồi phù hợp trong bài: \"What our users really care about is lightning-fast checkout and seamless biometric authentication.\" (Điều mà người dùng của chúng ta thực sự quan tâm chính là thanh toán nhanh như chớp và xác thực sinh trắc học mượt mà. (What our users really care about is...))."
@@ -95,10 +95,10 @@
       "question": "___ I really need is a good cup of coffee.",
       "correctAnswer": "What",
       "options": [
-        "All",
+        "What",
         "That",
         "Which",
-        "What"
+        "All"
       ],
       "explanationVi": "Đáp án đúng là \"What\". Câu hoàn chỉnh: \"What I really need is a good cup of coffee.\" (Điều mà tôi thực sự cần chính là một tách cà phê ngon.)."
     },
@@ -110,9 +110,9 @@
       "correctAnswer": "press",
       "options": [
         "to pressed",
+        "pressed",
         "pressing",
-        "press",
-        "pressed"
+        "press"
       ],
       "explanationVi": "Đáp án đúng là \"press\". Câu hoàn chỉnh: \"All you have to do is press this button.\" (Tất cả những gì bạn phải làm chỉ là nhấn vào chiếc nút này.)."
     },
@@ -123,10 +123,10 @@
       "question": "The person ___ helped me the most was my teacher.",
       "correctAnswer": "who",
       "options": [
-        "whom",
+        "who",
         "which",
         "whose",
-        "who"
+        "whom"
       ],
       "explanationVi": "Đáp án đúng là \"who\". Câu hoàn chỉnh: \"The person who helped me the most was my teacher.\" (Người đã giúp đỡ tôi nhiều nhất chính là giáo viên của tôi.)."
     },
@@ -137,9 +137,9 @@
       "question": "The reason why I called you is ___ I need your help.",
       "correctAnswer": "that",
       "options": [
-        "because",
-        "that",
         "which",
+        "that",
+        "because",
         "why"
       ],
       "explanationVi": "Đáp án đúng là \"that\". Câu hoàn chỉnh: \"The reason why I called you is that I need your help.\" (Lý do tại sao tôi gọi cho bạn chính là vì tôi cần sự giúp đỡ của bạn.)."
@@ -151,10 +151,10 @@
       "question": "What _____ not really need is a good cup of coffee.",
       "correctAnswer": "I",
       "options": [
-        "is",
         "am",
-        "I",
-        "are"
+        "are",
+        "is",
+        "I"
       ],
       "explanationVi": "Câu phủ định hoàn chỉnh: \"What I not really need is a good cup of coffee.\"."
     },
@@ -164,16 +164,16 @@
       "promptVi": "[Sắp xếp câu] Ghép các khối từ thành câu hoàn chỉnh mang nghĩa: \"Điều mà tôi thực sự cần chính là một tách cà phê ngon.\"",
       "question": "Sắp xếp các từ để tạo thành câu đúng: \"Điều mà tôi thực sự cần chính là một tách cà phê ngon.\"",
       "words": [
-        "need",
-        "What",
-        "coffee.",
-        "of",
-        "is",
         "cup",
         "good",
-        "I",
+        "What",
+        "is",
+        "need",
         "really",
-        "a"
+        "of",
+        "I",
+        "a",
+        "coffee."
       ],
       "correctSentence": "What I really need is a good cup of coffee.",
       "hintVi": "Điều mà tôi thực sự cần chính là một tách cà phê ngon.",
@@ -185,15 +185,15 @@
       "promptVi": "[Sắp xếp câu] Ghép các khối từ thành câu hoàn chỉnh mang nghĩa: \"Tất cả những gì bạn phải làm chỉ là nhấn vào chiếc nút này.\"",
       "question": "Sắp xếp các từ để tạo thành câu đúng: \"Tất cả những gì bạn phải làm chỉ là nhấn vào chiếc nút này.\"",
       "words": [
-        "button.",
-        "do",
-        "to",
-        "this",
-        "you",
         "is",
-        "All",
         "press",
-        "have"
+        "do",
+        "All",
+        "this",
+        "to",
+        "have",
+        "you",
+        "button."
       ],
       "correctSentence": "All you have to do is press this button.",
       "hintVi": "Tất cả những gì bạn phải làm chỉ là nhấn vào chiếc nút này.",
@@ -205,16 +205,16 @@
       "promptVi": "[Sắp xếp câu] Ghép các khối từ thành câu hoàn chỉnh mang nghĩa: \"Người đã giúp đỡ tôi nhiều nhất chính là giáo viên của tôi.\"",
       "question": "Sắp xếp các từ để tạo thành câu đúng: \"Người đã giúp đỡ tôi nhiều nhất chính là giáo viên của tôi.\"",
       "words": [
-        "most",
-        "was",
-        "The",
-        "person",
-        "my",
-        "teacher.",
         "the",
-        "who",
         "me",
-        "helped"
+        "who",
+        "most",
+        "helped",
+        "person",
+        "was",
+        "teacher.",
+        "my",
+        "The"
       ],
       "correctSentence": "The person who helped me the most was my teacher.",
       "hintVi": "Người đã giúp đỡ tôi nhiều nhất chính là giáo viên của tôi.",
@@ -227,17 +227,17 @@
       "question": "Sắp xếp các từ để tạo thành câu đúng: \"Lý do tại sao tôi gọi cho bạn chính là vì tôi cần sự giúp đỡ của bạn.\"",
       "words": [
         "called",
-        "is",
-        "why",
-        "you",
         "help.",
-        "that",
         "your",
-        "I",
-        "I",
-        "The",
         "need",
-        "reason"
+        "I",
+        "reason",
+        "The",
+        "I",
+        "why",
+        "is",
+        "that",
+        "you"
       ],
       "correctSentence": "The reason why I called you is that I need your help.",
       "hintVi": "Lý do tại sao tôi gọi cho bạn chính là vì tôi cần sự giúp đỡ của bạn.",
@@ -249,20 +249,20 @@
       "promptVi": "[Sắp xếp câu] Ghép các từ thành câu hội thoại: \"Tất cả những gì tôi muốn là một cổng thanh toán không có lỗi và không bao giờ bị sập trong các đợt mở bán chớp nhoáng. (All I want is...)\"",
       "question": "Sắp xếp các từ để tạo thành câu thoại: \"Tất cả những gì tôi muốn là một cổng thanh toán không có lỗi và không bao giờ bị sập trong các đợt mở bán chớp nhoáng. (All I want is...)\"",
       "words": [
-        "gateway",
-        "a",
-        "that",
-        "never",
-        "sales",
-        "All",
-        "glitch-free",
+        "crashes",
         "I",
         "is",
-        "during",
+        "sales",
         "want",
+        "glitch-free",
+        "a",
+        "flash",
+        "that",
+        "gateway",
+        "never",
         "payment",
-        "crashes",
-        "flash"
+        "All",
+        "during"
       ],
       "correctSentence": "All I want is a glitch-free payment gateway that never crashes during flash sales.",
       "hintVi": "Tất cả những gì tôi muốn là một cổng thanh toán không có lỗi và không bao giờ bị sập trong các đợt mở bán chớp nhoáng. (All I want is...)",
@@ -274,10 +274,10 @@
       "promptVi": "[Nhận diện cấu trúc chuẩn] Chọn câu có cấu trúc ngữ pháp HOÀN TOÀN ĐÚNG:",
       "question": "Dựa vào chủ điểm \"Bài 89: Cấu trúc Nhấn mạnh với What / All / Wh- (Pseudo-Cleft & Wh- Emphasis Patterns)\", câu nào sau đây CHÍNH XÁC?",
       "options": [
-        "What I really need be a good cup of coffee.",
-        "is",
         "What I really need is a good cup of coffee.",
-        "coffee. of cup good a is need really I What"
+        "coffee. of cup good a is need really I What",
+        "What I really need be a good cup of coffee.",
+        "is"
       ],
       "correctAnswer": "What I really need is a good cup of coffee.",
       "explanationVi": "Cấu trúc chuẩn xác là: \"What I really need is a good cup of coffee.\" (Điều mà tôi thực sự cần chính là một tách cà phê ngon.)."
@@ -288,10 +288,10 @@
       "promptVi": "[Nhận diện cấu trúc chuẩn] Chọn câu có cấu trúc ngữ pháp HOÀN TOÀN ĐÚNG:",
       "question": "Dựa vào chủ điểm \"Bài 89: Cấu trúc Nhấn mạnh với What / All / Wh- (Pseudo-Cleft & Wh- Emphasis Patterns)\", câu nào sau đây CHÍNH XÁC?",
       "options": [
+        "All you have to do is press this button.",
         "All you have at do is press this button.",
         "All you have to do be press this button.",
-        "button. this press is do to have you All",
-        "All you have to do is press this button."
+        "button. this press is do to have you All"
       ],
       "correctAnswer": "All you have to do is press this button.",
       "explanationVi": "Cấu trúc chuẩn xác là: \"All you have to do is press this button.\" (Tất cả những gì bạn phải làm chỉ là nhấn vào chiếc nút này.)."
@@ -302,10 +302,10 @@
       "promptVi": "[Nhận diện cấu trúc chuẩn] Chọn câu có cấu trúc ngữ pháp HOÀN TOÀN ĐÚNG:",
       "question": "Dựa vào chủ điểm \"Bài 89: Cấu trúc Nhấn mạnh với What / All / Wh- (Pseudo-Cleft & Wh- Emphasis Patterns)\", câu nào sau đây CHÍNH XÁC?",
       "options": [
-        "The person who helped me the most was my teacher.",
-        "teacher. my was most the me helped who person The",
         "is",
-        "The person who helped me the most be my teacher."
+        "teacher. my was most the me helped who person The",
+        "The person who helped me the most be my teacher.",
+        "The person who helped me the most was my teacher."
       ],
       "correctAnswer": "The person who helped me the most was my teacher.",
       "explanationVi": "Cấu trúc chuẩn xác là: \"The person who helped me the most was my teacher.\" (Người đã giúp đỡ tôi nhiều nhất chính là giáo viên của tôi.)."
@@ -316,10 +316,10 @@
       "promptVi": "[Nhận diện cấu trúc chuẩn] Chọn câu có cấu trúc ngữ pháp HOÀN TOÀN ĐÚNG:",
       "question": "Dựa vào chủ điểm \"Bài 89: Cấu trúc Nhấn mạnh với What / All / Wh- (Pseudo-Cleft & Wh- Emphasis Patterns)\", câu nào sau đây CHÍNH XÁC?",
       "options": [
-        "help. your need I that is you called I why reason The",
-        "is",
+        "The reason why I called you is that I need your help.",
         "The reason why I called you be that I need your help.",
-        "The reason why I called you is that I need your help."
+        "help. your need I that is you called I why reason The",
+        "is"
       ],
       "correctAnswer": "The reason why I called you is that I need your help.",
       "explanationVi": "Cấu trúc chuẩn xác là: \"The reason why I called you is that I need your help.\" (Lý do tại sao tôi gọi cho bạn chính là vì tôi cần sự giúp đỡ của bạn.)."
@@ -331,10 +331,10 @@
       "audioPrompt": "Good morning, Maya. Let's align on our core user experience priorities for the next app release.",
       "question": "Nhấn nút '🔊 Nghe audio' và chọn nghĩa tiếng Việt đúng:",
       "options": [
-        "Chào buổi sáng Maya. Hãy cùng thống nhất các ưu tiên trải nghiệm người dùng cốt lõi cho bản phát hành ứng dụng tiếp theo.",
         "Điều mà người dùng của chúng ta thực sự quan tâm chính là thanh toán nhanh như chớp và xác thực sinh trắc học mượt mà. (What our users really care about is...)",
-        "Tất cả những gì tôi muốn là một cổng thanh toán không có lỗi và không bao giờ bị sập trong các đợt mở bán chớp nhoáng. (All I want is...)",
-        "Hôm nay thời tiết rất đẹp."
+        "Hôm nay thời tiết rất đẹp.",
+        "Chào buổi sáng Maya. Hãy cùng thống nhất các ưu tiên trải nghiệm người dùng cốt lõi cho bản phát hành ứng dụng tiếp theo.",
+        "Tất cả những gì tôi muốn là một cổng thanh toán không có lỗi và không bao giờ bị sập trong các đợt mở bán chớp nhoáng. (All I want is...)"
       ],
       "correctAnswer": "Chào buổi sáng Maya. Hãy cùng thống nhất các ưu tiên trải nghiệm người dùng cốt lõi cho bản phát hành ứng dụng tiếp theo.",
       "explanationVi": "Câu nghe được: \"Good morning, Maya. Let's align on our core user experience priorities for the next app release.\" có nghĩa là: \"Chào buổi sáng Maya. Hãy cùng thống nhất các ưu tiên trải nghiệm người dùng cốt lõi cho bản phát hành ứng dụng tiếp theo.\"."
@@ -346,10 +346,10 @@
       "audioPrompt": "What our users really care about is lightning-fast checkout and seamless biometric authentication.",
       "question": "Nhấn nút '🔊 Nghe audio' và chọn nghĩa tiếng Việt đúng:",
       "options": [
-        "Tất cả những gì tôi muốn là một cổng thanh toán không có lỗi và không bao giờ bị sập trong các đợt mở bán chớp nhoáng. (All I want is...)",
+        "Những gì đã xảy ra trong chiến dịch trước là thời gian phản hồi của máy chủ đã tăng gấp đôi một cách bất ngờ. (What happened was that...)",
         "Điều mà người dùng của chúng ta thực sự quan tâm chính là thanh toán nhanh như chớp và xác thực sinh trắc học mượt mà. (What our users really care about is...)",
         "Hôm nay thời tiết rất đẹp.",
-        "Những gì đã xảy ra trong chiến dịch trước là thời gian phản hồi của máy chủ đã tăng gấp đôi một cách bất ngờ. (What happened was that...)"
+        "Tất cả những gì tôi muốn là một cổng thanh toán không có lỗi và không bao giờ bị sập trong các đợt mở bán chớp nhoáng. (All I want is...)"
       ],
       "correctAnswer": "Điều mà người dùng của chúng ta thực sự quan tâm chính là thanh toán nhanh như chớp và xác thực sinh trắc học mượt mà. (What our users really care about is...)",
       "explanationVi": "Câu nghe được: \"What our users really care about is lightning-fast checkout and seamless biometric authentication.\" có nghĩa là: \"Điều mà người dùng của chúng ta thực sự quan tâm chính là thanh toán nhanh như chớp và xác thực sinh trắc học mượt mà. (What our users really care about is...)\"."
@@ -363,8 +363,8 @@
       "options": [
         "Hôm nay thời tiết rất đẹp.",
         "Lý do tại sao cơ sở dữ liệu của chúng ta bị quá tải là do hàng triệu yêu cầu đồng thời đổ về cùng một lúc. (The reason why... was that...)",
-        "Tất cả những gì tôi muốn là một cổng thanh toán không có lỗi và không bao giờ bị sập trong các đợt mở bán chớp nhoáng. (All I want is...)",
-        "Những gì đã xảy ra trong chiến dịch trước là thời gian phản hồi của máy chủ đã tăng gấp đôi một cách bất ngờ. (What happened was that...)"
+        "Những gì đã xảy ra trong chiến dịch trước là thời gian phản hồi của máy chủ đã tăng gấp đôi một cách bất ngờ. (What happened was that...)",
+        "Tất cả những gì tôi muốn là một cổng thanh toán không có lỗi và không bao giờ bị sập trong các đợt mở bán chớp nhoáng. (All I want is...)"
       ],
       "correctAnswer": "Tất cả những gì tôi muốn là một cổng thanh toán không có lỗi và không bao giờ bị sập trong các đợt mở bán chớp nhoáng. (All I want is...)",
       "explanationVi": "Câu nghe được: \"All I want is a glitch-free payment gateway that never crashes during flash sales.\" có nghĩa là: \"Tất cả những gì tôi muốn là một cổng thanh toán không có lỗi và không bao giờ bị sập trong các đợt mở bán chớp nhoáng. (All I want is...)\"."
@@ -376,9 +376,9 @@
       "audioPrompt": "What happened during the previous campaign was that server response times doubled unexpectedly.",
       "question": "Nhấn nút '🔊 Nghe audio' và chọn nghĩa tiếng Việt đúng:",
       "options": [
-        "Lý do tại sao cơ sở dữ liệu của chúng ta bị quá tải là do hàng triệu yêu cầu đồng thời đổ về cùng một lúc. (The reason why... was that...)",
         "Hôm nay thời tiết rất đẹp.",
         "Những gì đã xảy ra trong chiến dịch trước là thời gian phản hồi của máy chủ đã tăng gấp đôi một cách bất ngờ. (What happened was that...)",
+        "Lý do tại sao cơ sở dữ liệu của chúng ta bị quá tải là do hàng triệu yêu cầu đồng thời đổ về cùng một lúc. (The reason why... was that...)",
         "Người đã giải quyết điểm nghẽn cổ chai đó chính là kiến trúc sư trưởng cơ sở dữ liệu của chúng ta, David. (The person who... was...)"
       ],
       "correctAnswer": "Những gì đã xảy ra trong chiến dịch trước là thời gian phản hồi của máy chủ đã tăng gấp đôi một cách bất ngờ. (What happened was that...)",
@@ -428,9 +428,9 @@
       "question": "Dựa vào đoạn đối thoại trên, thông tin nào sau đây là CHÍNH XÁC về nội dung câu nói của Product Lead Julian?",
       "options": [
         "Product Lead Julian phàn nàn rằng thời tiết hôm nay quá xấu.",
+        "Product Lead Julian từ chối trả lời và yêu cầu hủy cuộc hẹn.",
         "Product Lead Julian muốn mượn tiền để mua vé máy bay gấp.",
-        "Product Lead Julian chia sẻ thông tin: \"Chào buổi sáng Maya. Hãy cùng thống nhất các ưu tiên trải nghiệm người dùng cốt lõi cho bản phát hành ứng dụng tiếp theo.\"",
-        "Product Lead Julian từ chối trả lời và yêu cầu hủy cuộc hẹn."
+        "Product Lead Julian chia sẻ thông tin: \"Chào buổi sáng Maya. Hãy cùng thống nhất các ưu tiên trải nghiệm người dùng cốt lõi cho bản phát hành ứng dụng tiếp theo.\""
       ],
       "correctAnswer": "Product Lead Julian chia sẻ thông tin: \"Chào buổi sáng Maya. Hãy cùng thống nhất các ưu tiên trải nghiệm người dùng cốt lõi cho bản phát hành ứng dụng tiếp theo.\"",
       "explanationVi": "Trong đoạn hội thoại, Product Lead Julian đã nói: \"Good morning, Maya. Let's align on our core user experience priorities for the next app release.\" (nghĩa là: \"Chào buổi sáng Maya. Hãy cùng thống nhất các ưu tiên trải nghiệm người dùng cốt lõi cho bản phát hành ứng dụng tiếp theo.\")."
@@ -443,9 +443,9 @@
       "question": "Trong đoạn hội thoại trên, câu nói \"All you need to do is approve the cloud infrastructure expansion budget by 3 PM.\" của Maya mang ý nghĩa gì?",
       "options": [
         "Phản hồi: \"Hẹn gặp lại vào cuối tuần sau tại sân bay quốc tế\"",
-        "Phản hồi: \"Hoàn toàn không đồng ý và muốn rời khỏi phòng ngay lập tức\"",
         "Phản hồi: \"Yêu cầu cung cấp hóa đơn thanh toán tiền mặt\"",
-        "Phản hồi: \"Tất cả những gì anh cần làm là phê duyệt ngân sách mở rộng cơ sở hạ tầng đám mây trước 3 giờ chiều. (All you need to do is approve...)\""
+        "Phản hồi: \"Tất cả những gì anh cần làm là phê duyệt ngân sách mở rộng cơ sở hạ tầng đám mây trước 3 giờ chiều. (All you need to do is approve...)\"",
+        "Phản hồi: \"Hoàn toàn không đồng ý và muốn rời khỏi phòng ngay lập tức\""
       ],
       "correctAnswer": "Phản hồi: \"Tất cả những gì anh cần làm là phê duyệt ngân sách mở rộng cơ sở hạ tầng đám mây trước 3 giờ chiều. (All you need to do is approve...)\"",
       "explanationVi": "Maya nói: \"All you need to do is approve the cloud infrastructure expansion budget by 3 PM.\" có nghĩa là: \"Tất cả những gì anh cần làm là phê duyệt ngân sách mở rộng cơ sở hạ tầng đám mây trước 3 giờ chiều. (All you need to do is approve...)\"."

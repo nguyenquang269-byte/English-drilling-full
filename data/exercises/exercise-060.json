@@ -10,10 +10,10 @@
       "promptVi": "[Trắc nghiệm ngữ pháp] Chọn từ đúng để hoàn thành câu (Chính là John - người đã làm vỡ cửa sổ.):",
       "question": "___ John that broke the window.",
       "options": [
-        "It is",
-        "It was",
         "That was",
-        "He was"
+        "He was",
+        "It is",
+        "It was"
       ],
       "correctAnswer": "It was",
       "explanationVi": "'broke' ở quá khứ nên dùng 'It was John that...'."
@@ -24,9 +24,9 @@
       "promptVi": "[Trắc nghiệm ngữ pháp] Chọn từ đúng để hoàn thành câu (Chưa bao giờ tôi từng thấy một hoàng hôn đẹp đến thế.):",
       "question": "Never ___ I seen such a beautiful sunset.",
       "options": [
-        "was",
-        "have",
         "had",
+        "have",
+        "was",
         "did"
       ],
       "correctAnswer": "have",
@@ -38,10 +38,10 @@
       "promptVi": "[Trắc nghiệm ngữ pháp] Chọn từ đúng để hoàn thành câu (Không những anh ấy đã vượt qua kỳ thi, mà anh ấy còn đạt điểm số cao nhất.):",
       "question": "Not only ___ he pass the exam, but he also got the top score.",
       "options": [
-        "was",
         "did",
         "does",
-        "had"
+        "had",
+        "was"
       ],
       "correctAnswer": "did",
       "explanationVi": "Đảo ngữ thì quá khứ đơn dùng trợ động từ 'did'."
@@ -52,10 +52,10 @@
       "promptVi": "[Trắc nghiệm ngữ pháp] Chọn từ đúng để hoàn thành câu (Chỉ bằng cách luyện tập mỗi ngày bạn mới có thể nói tiếng Anh trôi chảy.):",
       "question": "Only by practicing every day ___ you speak English fluently.",
       "options": [
-        "will",
-        "are",
         "can",
-        "do"
+        "are",
+        "do",
+        "will"
       ],
       "correctAnswer": "can",
       "explanationVi": "Đảo modal verb 'can' ra trước chủ ngữ 'you' sau cụm 'Only by...'."
@@ -80,10 +80,10 @@
       "promptVi": "[Ngữ cảnh giao tiếp] Chọn câu phản hồi tự nhiên và đúng ngữ pháp:",
       "question": "Khi đối phương nói: \"Ladies and gentlemen! It was Dr. Edward Vance who founded our global clean energy initiative twenty years ago.\", câu phản hồi phù hợp là gì?",
       "options": [
-        "It is his unyielding perseverance that inspired thousands of young scientists across the globe.",
-        "Yes, I will eat it.",
         "They are not in the office.",
-        "No, it was yesterday."
+        "Yes, I will eat it.",
+        "No, it was yesterday.",
+        "It is his unyielding perseverance that inspired thousands of young scientists across the globe."
       ],
       "correctAnswer": "It is his unyielding perseverance that inspired thousands of young scientists across the globe.",
       "explanationVi": "Phản hồi phù hợp trong bài: \"It is his unyielding perseverance that inspired thousands of young scientists across the globe.\" (Chính sự kiên trì không lay chuyển của ông là điều đã truyền cảm hứng cho hàng ngàn nhà khoa học trẻ trên khắp thế giới. (It is... that...))."
@@ -95,10 +95,10 @@
       "question": "___ John that broke the window.",
       "correctAnswer": "It was",
       "options": [
-        "It is",
-        "It was",
         "That was",
-        "He was"
+        "He was",
+        "It is",
+        "It was"
       ],
       "explanationVi": "Đáp án đúng là \"It was\". Câu hoàn chỉnh: \"It was John that broke the window.\" (Chính là John - người đã làm vỡ cửa sổ.)."
     },
@@ -109,10 +109,10 @@
       "question": "Never ___ I seen such a beautiful sunset.",
       "correctAnswer": "have",
       "options": [
-        "did",
-        "have",
+        "was",
         "had",
-        "was"
+        "did",
+        "have"
       ],
       "explanationVi": "Đáp án đúng là \"have\". Câu hoàn chỉnh: \"Never have I seen such a beautiful sunset.\" (Chưa bao giờ tôi từng thấy một hoàng hôn đẹp đến thế.)."
     },
@@ -123,10 +123,10 @@
       "question": "Not only ___ he pass the exam, but he also got the top score.",
       "correctAnswer": "did",
       "options": [
-        "had",
-        "was",
+        "did",
         "does",
-        "did"
+        "had",
+        "was"
       ],
       "explanationVi": "Đáp án đúng là \"did\". Câu hoàn chỉnh: \"Not only did he pass the exam, but he also got the top score.\" (Không những anh ấy đã vượt qua kỳ thi, mà anh ấy còn đạt điểm số cao nhất.)."
     },
@@ -137,10 +137,10 @@
       "question": "Only by practicing every day ___ you speak English fluently.",
       "correctAnswer": "can",
       "options": [
+        "will",
         "are",
-        "do",
         "can",
-        "will"
+        "do"
       ],
       "explanationVi": "Đáp án đúng là \"can\". Câu hoàn chỉnh: \"Only by practicing every day can you speak English fluently.\" (Chỉ bằng cách luyện tập mỗi ngày bạn mới có thể nói tiếng Anh trôi chảy.)."
     },
@@ -151,8 +151,8 @@
       "question": "It _____ not John that broke the window.",
       "correctAnswer": "was",
       "options": [
-        "am",
         "is",
+        "am",
         "are",
         "was"
       ],
@@ -164,13 +164,13 @@
       "promptVi": "[Sắp xếp câu] Ghép các khối từ thành câu hoàn chỉnh mang nghĩa: \"Chính là John - người đã làm vỡ cửa sổ.\"",
       "question": "Sắp xếp các từ để tạo thành câu đúng: \"Chính là John - người đã làm vỡ cửa sổ.\"",
       "words": [
+        "It",
+        "window.",
+        "was",
+        "the",
         "broke",
         "that",
-        "window.",
-        "the",
-        "John",
-        "was",
-        "It"
+        "John"
       ],
       "correctSentence": "It was John that broke the window.",
       "hintVi": "Chính là John - người đã làm vỡ cửa sổ.",
@@ -182,14 +182,14 @@
       "promptVi": "[Sắp xếp câu] Ghép các khối từ thành câu hoàn chỉnh mang nghĩa: \"Chưa bao giờ tôi từng thấy một hoàng hôn đẹp đến thế.\"",
       "question": "Sắp xếp các từ để tạo thành câu đúng: \"Chưa bao giờ tôi từng thấy một hoàng hôn đẹp đến thế.\"",
       "words": [
-        "such",
         "sunset.",
-        "Never",
-        "beautiful",
-        "seen",
+        "such",
         "I",
-        "have",
-        "a"
+        "beautiful",
+        "a",
+        "seen",
+        "Never",
+        "have"
       ],
       "correctSentence": "Never have I seen such a beautiful sunset.",
       "hintVi": "Chưa bao giờ tôi từng thấy một hoàng hôn đẹp đến thế.",
@@ -202,19 +202,19 @@
       "question": "Sắp xếp các từ để tạo thành câu đúng: \"Không những anh ấy đã vượt qua kỳ thi, mà anh ấy còn đạt điểm số cao nhất.\"",
       "words": [
         "he",
-        "the",
-        "he",
-        "got",
         "exam,",
-        "pass",
-        "top",
+        "he",
         "only",
+        "but",
         "the",
         "did",
-        "but",
         "Not",
+        "top",
         "score.",
-        "also"
+        "also",
+        "pass",
+        "got",
+        "the"
       ],
       "correctSentence": "Not only did he pass the exam, but he also got the top score.",
       "hintVi": "Không những anh ấy đã vượt qua kỳ thi, mà anh ấy còn đạt điểm số cao nhất.",
@@ -226,16 +226,16 @@
       "promptVi": "[Sắp xếp câu] Ghép các khối từ thành câu hoàn chỉnh mang nghĩa: \"Chỉ bằng cách luyện tập mỗi ngày bạn mới có thể nói tiếng Anh trôi chảy.\"",
       "question": "Sắp xếp các từ để tạo thành câu đúng: \"Chỉ bằng cách luyện tập mỗi ngày bạn mới có thể nói tiếng Anh trôi chảy.\"",
       "words": [
-        "by",
-        "practicing",
+        "Only",
+        "speak",
+        "day",
+        "English",
         "can",
+        "you",
+        "practicing",
         "every",
         "fluently.",
-        "day",
-        "you",
-        "English",
-        "Only",
-        "speak"
+        "by"
       ],
       "correctSentence": "Only by practicing every day can you speak English fluently.",
       "hintVi": "Chỉ bằng cách luyện tập mỗi ngày bạn mới có thể nói tiếng Anh trôi chảy.",
@@ -247,23 +247,23 @@
       "promptVi": "[Sắp xếp câu] Ghép các từ thành câu hội thoại: \"Xin chân thành cảm ơn quý vị! Chưa bao giờ trong những giấc mơ hoang đường nhất tôi từng tưởng tượng mình được đứng trên sân khấu danh giá này tối nay. (Never did I imagine...)\"",
       "question": "Sắp xếp các từ để tạo thành câu thoại: \"Xin chân thành cảm ơn quý vị! Chưa bao giờ trong những giấc mơ hoang đường nhất tôi từng tưởng tượng mình được đứng trên sân khấu danh giá này tối nay. (Never did I imagine...)\"",
       "words": [
-        "on",
         "Never",
-        "did",
-        "Thank",
         "prestigious",
-        "I",
-        "my",
+        "on",
+        "wildest",
         "imagine",
-        "in",
-        "stage",
-        "tonight",
-        "deeply",
-        "standing",
-        "dreams",
-        "this",
+        "did",
         "you",
-        "wildest"
+        "standing",
+        "my",
+        "tonight",
+        "dreams",
+        "Thank",
+        "I",
+        "stage",
+        "in",
+        "this",
+        "deeply"
       ],
       "correctSentence": "Thank you deeply! Never in my wildest dreams did I imagine standing on this prestigious stage tonight.",
       "hintVi": "Xin chân thành cảm ơn quý vị! Chưa bao giờ trong những giấc mơ hoang đường nhất tôi từng tưởng tượng mình được đứng trên sân khấu danh giá này tối nay. (Never did I imagine...)",
@@ -276,8 +276,8 @@
       "question": "Dựa vào chủ điểm \"Bài 60: Cấu trúc Nhấn mạnh & Đảo ngữ Cơ bản (Cleft Sentences: It is/was... that & Negative Inversion)\", câu nào sau đây CHÍNH XÁC?",
       "options": [
         "It was John that broke the window.",
-        "It be John that broke the window.",
         "is",
+        "It be John that broke the window.",
         "window. the broke that John was It"
       ],
       "correctAnswer": "It was John that broke the window.",
@@ -289,10 +289,10 @@
       "promptVi": "[Nhận diện cấu trúc chuẩn] Chọn câu có cấu trúc ngữ pháp HOÀN TOÀN ĐÚNG:",
       "question": "Dựa vào chủ điểm \"Bài 60: Cấu trúc Nhấn mạnh & Đảo ngữ Cơ bản (Cleft Sentences: It is/was... that & Negative Inversion)\", câu nào sau đây CHÍNH XÁC?",
       "options": [
-        "sunset. beautiful a such seen I have Never",
-        "Never have I seen such a beautiful sunset.",
+        "is",
         "are",
-        "is"
+        "sunset. beautiful a such seen I have Never",
+        "Never have I seen such a beautiful sunset."
       ],
       "correctAnswer": "Never have I seen such a beautiful sunset.",
       "explanationVi": "Cấu trúc chuẩn xác là: \"Never have I seen such a beautiful sunset.\" (Chưa bao giờ tôi từng thấy một hoàng hôn đẹp đến thế.)."
@@ -303,10 +303,10 @@
       "promptVi": "[Nhận diện cấu trúc chuẩn] Chọn câu có cấu trúc ngữ pháp HOÀN TOÀN ĐÚNG:",
       "question": "Dựa vào chủ điểm \"Bài 60: Cấu trúc Nhấn mạnh & Đảo ngữ Cơ bản (Cleft Sentences: It is/was... that & Negative Inversion)\", câu nào sau đây CHÍNH XÁC?",
       "options": [
-        "Not only did he pass the exam, but he also got the top score.",
-        "is",
         "score. top the got also he but exam, the pass he did only Not",
-        "are"
+        "are",
+        "is",
+        "Not only did he pass the exam, but he also got the top score."
       ],
       "correctAnswer": "Not only did he pass the exam, but he also got the top score.",
       "explanationVi": "Cấu trúc chuẩn xác là: \"Not only did he pass the exam, but he also got the top score.\" (Không những anh ấy đã vượt qua kỳ thi, mà anh ấy còn đạt điểm số cao nhất.)."
@@ -317,10 +317,10 @@
       "promptVi": "[Nhận diện cấu trúc chuẩn] Chọn câu có cấu trúc ngữ pháp HOÀN TOÀN ĐÚNG:",
       "question": "Dựa vào chủ điểm \"Bài 60: Cấu trúc Nhấn mạnh & Đảo ngữ Cơ bản (Cleft Sentences: It is/was... that & Negative Inversion)\", câu nào sau đây CHÍNH XÁC?",
       "options": [
-        "Only at practicing every day can you speak English fluently.",
         "is",
+        "fluently. English speak you can day every practicing by Only",
         "Only by practicing every day can you speak English fluently.",
-        "fluently. English speak you can day every practicing by Only"
+        "Only at practicing every day can you speak English fluently."
       ],
       "correctAnswer": "Only by practicing every day can you speak English fluently.",
       "explanationVi": "Cấu trúc chuẩn xác là: \"Only by practicing every day can you speak English fluently.\" (Chỉ bằng cách luyện tập mỗi ngày bạn mới có thể nói tiếng Anh trôi chảy.)."
@@ -332,10 +332,10 @@
       "audioPrompt": "Ladies and gentlemen! It was Dr. Edward Vance who founded our global clean energy initiative twenty years ago.",
       "question": "Nhấn nút '🔊 Nghe audio' và chọn nghĩa tiếng Việt đúng:",
       "options": [
-        "Xin chân thành cảm ơn quý vị! Chưa bao giờ trong những giấc mơ hoang đường nhất tôi từng tưởng tượng mình được đứng trên sân khấu danh giá này tối nay. (Never did I imagine...)",
-        "Hôm nay thời tiết rất đẹp.",
+        "Kính thưa quý vị! Chính Tiến sĩ Edward Vance là người đã sáng lập sáng kiến năng lượng sạch toàn cầu của chúng ta hai mươi năm trước. (It was... who...)",
         "Chính sự kiên trì không lay chuyển của ông là điều đã truyền cảm hứng cho hàng ngàn nhà khoa học trẻ trên khắp thế giới. (It is... that...)",
-        "Kính thưa quý vị! Chính Tiến sĩ Edward Vance là người đã sáng lập sáng kiến năng lượng sạch toàn cầu của chúng ta hai mươi năm trước. (It was... who...)"
+        "Xin chân thành cảm ơn quý vị! Chưa bao giờ trong những giấc mơ hoang đường nhất tôi từng tưởng tượng mình được đứng trên sân khấu danh giá này tối nay. (Never did I imagine...)",
+        "Hôm nay thời tiết rất đẹp."
       ],
       "correctAnswer": "Kính thưa quý vị! Chính Tiến sĩ Edward Vance là người đã sáng lập sáng kiến năng lượng sạch toàn cầu của chúng ta hai mươi năm trước. (It was... who...)",
       "explanationVi": "Câu nghe được: \"Ladies and gentlemen! It was Dr. Edward Vance who founded our global clean energy initiative twenty years ago.\" có nghĩa là: \"Kính thưa quý vị! Chính Tiến sĩ Edward Vance là người đã sáng lập sáng kiến năng lượng sạch toàn cầu của chúng ta hai mươi năm trước. (It was... who...)\"."
@@ -347,10 +347,10 @@
       "audioPrompt": "It is his unyielding perseverance that inspired thousands of young scientists across the globe.",
       "question": "Nhấn nút '🔊 Nghe audio' và chọn nghĩa tiếng Việt đúng:",
       "options": [
-        "Xin chân thành cảm ơn quý vị! Chưa bao giờ trong những giấc mơ hoang đường nhất tôi từng tưởng tượng mình được đứng trên sân khấu danh giá này tối nay. (Never did I imagine...)",
-        "Chính sự kiên trì không lay chuyển của ông là điều đã truyền cảm hứng cho hàng ngàn nhà khoa học trẻ trên khắp thế giới. (It is... that...)",
+        "Hôm nay thời tiết rất đẹp.",
         "Hiếm khi chúng ta được gặp một nhà lãnh đạo có các dự án tầm nhìn làm thay đổi toàn bộ các châu lục một cách tích cực đến vậy. (Rarely do we encounter...)",
-        "Hôm nay thời tiết rất đẹp."
+        "Xin chân thành cảm ơn quý vị! Chưa bao giờ trong những giấc mơ hoang đường nhất tôi từng tưởng tượng mình được đứng trên sân khấu danh giá này tối nay. (Never did I imagine...)",
+        "Chính sự kiên trì không lay chuyển của ông là điều đã truyền cảm hứng cho hàng ngàn nhà khoa học trẻ trên khắp thế giới. (It is... that...)"
       ],
       "correctAnswer": "Chính sự kiên trì không lay chuyển của ông là điều đã truyền cảm hứng cho hàng ngàn nhà khoa học trẻ trên khắp thế giới. (It is... that...)",
       "explanationVi": "Câu nghe được: \"It is his unyielding perseverance that inspired thousands of young scientists across the globe.\" có nghĩa là: \"Chính sự kiên trì không lay chuyển của ông là điều đã truyền cảm hứng cho hàng ngàn nhà khoa học trẻ trên khắp thế giới. (It is... that...)\"."
@@ -362,10 +362,10 @@
       "audioPrompt": "Thank you deeply! Never in my wildest dreams did I imagine standing on this prestigious stage tonight.",
       "question": "Nhấn nút '🔊 Nghe audio' và chọn nghĩa tiếng Việt đúng:",
       "options": [
-        "Hiếm khi chúng ta được gặp một nhà lãnh đạo có các dự án tầm nhìn làm thay đổi toàn bộ các châu lục một cách tích cực đến vậy. (Rarely do we encounter...)",
         "Hôm nay thời tiết rất đẹp.",
         "Xin chân thành cảm ơn quý vị! Chưa bao giờ trong những giấc mơ hoang đường nhất tôi từng tưởng tượng mình được đứng trên sân khấu danh giá này tối nay. (Never did I imagine...)",
-        "Không những đội ngũ nghiên cứu tận tâm của chúng tôi chế tạo các tấm pin mặt trời giá cả phải chăng, mà họ còn cung cấp nước sạch cho các ngôi làng vùng sâu vùng xa. (Not only did... but also...)"
+        "Không những đội ngũ nghiên cứu tận tâm của chúng tôi chế tạo các tấm pin mặt trời giá cả phải chăng, mà họ còn cung cấp nước sạch cho các ngôi làng vùng sâu vùng xa. (Not only did... but also...)",
+        "Hiếm khi chúng ta được gặp một nhà lãnh đạo có các dự án tầm nhìn làm thay đổi toàn bộ các châu lục một cách tích cực đến vậy. (Rarely do we encounter...)"
       ],
       "correctAnswer": "Xin chân thành cảm ơn quý vị! Chưa bao giờ trong những giấc mơ hoang đường nhất tôi từng tưởng tượng mình được đứng trên sân khấu danh giá này tối nay. (Never did I imagine...)",
       "explanationVi": "Câu nghe được: \"Thank you deeply! Never in my wildest dreams did I imagine standing on this prestigious stage tonight.\" có nghĩa là: \"Xin chân thành cảm ơn quý vị! Chưa bao giờ trong những giấc mơ hoang đường nhất tôi từng tưởng tượng mình được đứng trên sân khấu danh giá này tối nay. (Never did I imagine...)\"."
@@ -377,10 +377,10 @@
       "audioPrompt": "Rarely do we encounter a leader whose visionary projects transform entire continents so positively.",
       "question": "Nhấn nút '🔊 Nghe audio' và chọn nghĩa tiếng Việt đúng:",
       "options": [
-        "Hôm nay thời tiết rất đẹp.",
         "Hiếm khi chúng ta được gặp một nhà lãnh đạo có các dự án tầm nhìn làm thay đổi toàn bộ các châu lục một cách tích cực đến vậy. (Rarely do we encounter...)",
         "Không những đội ngũ nghiên cứu tận tâm của chúng tôi chế tạo các tấm pin mặt trời giá cả phải chăng, mà họ còn cung cấp nước sạch cho các ngôi làng vùng sâu vùng xa. (Not only did... but also...)",
-        "Ít khi có bất kỳ dự án khoa học nào đạt được những đột phá sinh thái vĩ đại như vậy trong một khoảng thời gian ngắn ngủi. (Seldom has...)"
+        "Ít khi có bất kỳ dự án khoa học nào đạt được những đột phá sinh thái vĩ đại như vậy trong một khoảng thời gian ngắn ngủi. (Seldom has...)",
+        "Hôm nay thời tiết rất đẹp."
       ],
       "correctAnswer": "Hiếm khi chúng ta được gặp một nhà lãnh đạo có các dự án tầm nhìn làm thay đổi toàn bộ các châu lục một cách tích cực đến vậy. (Rarely do we encounter...)",
       "explanationVi": "Câu nghe được: \"Rarely do we encounter a leader whose visionary projects transform entire continents so positively.\" có nghĩa là: \"Hiếm khi chúng ta được gặp một nhà lãnh đạo có các dự án tầm nhìn làm thay đổi toàn bộ các châu lục một cách tích cực đến vậy. (Rarely do we encounter...)\"."
@@ -428,10 +428,10 @@
       "passage": "Host Katherine: \"Ladies and gentlemen! It was Dr. Edward Vance who founded our global clean energy initiative twenty years ago.\"\nCo-Host Julian: \"It is his unyielding perseverance that inspired thousands of young scientists across the globe.\"\nDr. Vance: \"Thank you deeply! Never in my wildest dreams did I imagine standing on this prestigious stage tonight.\"\nHost Katherine: \"Rarely do we encounter a leader whose visionary projects transform entire continents so positively.\"",
       "question": "Dựa vào đoạn đối thoại trên, thông tin nào sau đây là CHÍNH XÁC về nội dung câu nói của Host Katherine?",
       "options": [
-        "Host Katherine từ chối trả lời và yêu cầu hủy cuộc hẹn.",
         "Host Katherine chia sẻ thông tin: \"Kính thưa quý vị! Chính Tiến sĩ Edward Vance là người đã sáng lập sáng kiến năng lượng sạch toàn cầu của chúng ta hai mươi năm trước. (It was... who...)\"",
-        "Host Katherine muốn mượn tiền để mua vé máy bay gấp.",
-        "Host Katherine phàn nàn rằng thời tiết hôm nay quá xấu."
+        "Host Katherine phàn nàn rằng thời tiết hôm nay quá xấu.",
+        "Host Katherine từ chối trả lời và yêu cầu hủy cuộc hẹn.",
+        "Host Katherine muốn mượn tiền để mua vé máy bay gấp."
       ],
       "correctAnswer": "Host Katherine chia sẻ thông tin: \"Kính thưa quý vị! Chính Tiến sĩ Edward Vance là người đã sáng lập sáng kiến năng lượng sạch toàn cầu của chúng ta hai mươi năm trước. (It was... who...)\"",
       "explanationVi": "Trong đoạn hội thoại, Host Katherine đã nói: \"Ladies and gentlemen! It was Dr. Edward Vance who founded our global clean energy initiative twenty years ago.\" (nghĩa là: \"Kính thưa quý vị! Chính Tiến sĩ Edward Vance là người đã sáng lập sáng kiến năng lượng sạch toàn cầu của chúng ta hai mươi năm trước. (It was... who...)\")."
@@ -443,9 +443,9 @@
       "passage": "Dr. Vance: \"Not only did our dedicated research team build affordable solar panels, but they also provided clean water to remote villages.\"\nCo-Host Julian: \"Seldom has any scientific venture achieved such monumental ecological breakthroughs in so short a time.\"\nDr. Vance: \"It was in the face of immense initial skepticism that our team discovered our most potent formulas.\"\nHost Katherine: \"Hardly had the announcement been made when international partners pledged millions in sustainable funding.\"",
       "question": "Trong đoạn hội thoại trên, câu nói \"Hardly had the announcement been made when international partners pledged millions in sustainable funding.\" của Host Katherine mang ý nghĩa gì?",
       "options": [
-        "Phản hồi: \"Hẹn gặp lại vào cuối tuần sau tại sân bay quốc tế\"",
-        "Phản hồi: \"Hoàn toàn không đồng ý và muốn rời khỏi phòng ngay lập tức\"",
         "Phản hồi: \"Yêu cầu cung cấp hóa đơn thanh toán tiền mặt\"",
+        "Phản hồi: \"Hoàn toàn không đồng ý và muốn rời khỏi phòng ngay lập tức\"",
+        "Phản hồi: \"Hẹn gặp lại vào cuối tuần sau tại sân bay quốc tế\"",
         "Phản hồi: \"Ngay khi thông báo vừa được đưa ra thì các đối tác quốc tế đã cam kết tài trợ hàng triệu đô la cho sự phát triển bền vững. (Hardly had... when...)\""
       ],
       "correctAnswer": "Phản hồi: \"Ngay khi thông báo vừa được đưa ra thì các đối tác quốc tế đã cam kết tài trợ hàng triệu đô la cho sự phát triển bền vững. (Hardly had... when...)\"",

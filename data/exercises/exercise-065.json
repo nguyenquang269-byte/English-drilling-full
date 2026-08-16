@@ -10,10 +10,10 @@
       "promptVi": "[Trắc nghiệm ngữ pháp] Chọn từ đúng để hoàn thành câu (Trước 9 giờ tối, tôi đã hoàn thành tất cả bài tập về nhà của mình.):",
       "question": "By 9 PM, I ___ finished all my homework.",
       "options": [
+        "had",
         "have",
-        "did",
         "was",
-        "had"
+        "did"
       ],
       "correctAnswer": "had",
       "explanationVi": "Trước một thời điểm quá khứ (By 9 PM) dùng thì Quá khứ hoàn thành 'had + V3'."
@@ -25,9 +25,9 @@
       "question": "The train had already ___ when we arrived.",
       "options": [
         "leaves",
-        "leaving",
         "left",
-        "leave"
+        "leave",
+        "leaving"
       ],
       "correctAnswer": "left",
       "explanationVi": "Sau 'had already' dùng dạng V3 là 'left'."
@@ -38,8 +38,8 @@
       "promptVi": "[Trắc nghiệm ngữ pháp] Chọn từ đúng để hoàn thành câu (Bạn đã ăn tối trước khi đi ra ngoài chưa?):",
       "question": "___ you eaten dinner before you went out?",
       "options": [
-        "Had",
         "Were",
+        "Had",
         "Have",
         "Did"
       ],
@@ -66,10 +66,10 @@
       "promptVi": "[Phản xạ dịch thuật] Dịch câu sau sang tiếng Anh: \"Chào buổi sáng Sĩ quan Lee. Bạn đã đến bảo tàng trung tâm thành phố lúc mấy giờ vào tối hôm qua?\"",
       "question": "Chọn bản dịch chuẩn xác nhất cho câu: \"Chào buổi sáng Sĩ quan Lee. Bạn đã đến bảo tàng trung tâm thành phố lúc mấy giờ vào tối hôm qua?\"",
       "options": [
-        "We are studying English today.",
-        "I arrived at 9 PM, but the security guard had already locked all the exterior gates.",
         "Good morning, Officer Lee. What time be you arrive at the downtown museum yesterday evening?",
-        "Good morning, Officer Lee. What time did you arrive at the downtown museum yesterday evening?"
+        "We are studying English today.",
+        "Good morning, Officer Lee. What time did you arrive at the downtown museum yesterday evening?",
+        "I arrived at 9 PM, but the security guard had already locked all the exterior gates."
       ],
       "correctAnswer": "Good morning, Officer Lee. What time did you arrive at the downtown museum yesterday evening?",
       "explanationVi": "Câu dịch chuẩn xác: \"Good morning, Officer Lee. What time did you arrive at the downtown museum yesterday evening?\" (Chào buổi sáng Sĩ quan Lee. Bạn đã đến bảo tàng trung tâm thành phố lúc mấy giờ vào tối hôm qua?)."
@@ -80,10 +80,10 @@
       "promptVi": "[Ngữ cảnh giao tiếp] Chọn câu phản hồi tự nhiên và đúng ngữ pháp:",
       "question": "Khi đối phương nói: \"Good morning, Officer Lee. What time did you arrive at the downtown museum yesterday evening?\", câu phản hồi phù hợp là gì?",
       "options": [
-        "No, it was yesterday.",
+        "Yes, I will eat it.",
         "They are not in the office.",
-        "I arrived at 9 PM, but the security guard had already locked all the exterior gates.",
-        "Yes, I will eat it."
+        "No, it was yesterday.",
+        "I arrived at 9 PM, but the security guard had already locked all the exterior gates."
       ],
       "correctAnswer": "I arrived at 9 PM, but the security guard had already locked all the exterior gates.",
       "explanationVi": "Phản hồi phù hợp trong bài: \"I arrived at 9 PM, but the security guard had already locked all the exterior gates.\" (Tôi đã đến lúc 9 giờ tối, nhưng nhân viên bảo vệ đã khóa tất cả các cổng bên ngoài từ trước đó rồi. (had already locked))."
@@ -110,9 +110,9 @@
       "correctAnswer": "left",
       "options": [
         "leave",
-        "leaving",
         "leaves",
-        "left"
+        "left",
+        "leaving"
       ],
       "explanationVi": "Đáp án đúng là \"left\". Câu hoàn chỉnh: \"The train had already left when we arrived.\" (Chuyến tàu đã rời đi rồi khi chúng tôi đến nơi.)."
     },
@@ -125,8 +125,8 @@
       "options": [
         "Had",
         "Have",
-        "Were",
-        "Did"
+        "Did",
+        "Were"
       ],
       "explanationVi": "Đáp án đúng là \"Had\". Câu hoàn chỉnh: \"Had you eaten dinner before you went out?\" (Bạn đã ăn tối trước khi đi ra ngoài chưa?)."
     },
@@ -137,10 +137,10 @@
       "question": "I had ___ visited London before last summer.",
       "correctAnswer": "never",
       "options": [
-        "rare",
-        "not yet",
+        "never",
         "no",
-        "never"
+        "rare",
+        "not yet"
       ],
       "explanationVi": "Đáp án đúng là \"never\". Câu hoàn chỉnh: \"I had never visited London before last summer.\" (Tôi chưa từng đến thăm Luân Đôn trước mùa hè năm ngoái.)."
     },
@@ -153,8 +153,8 @@
       "options": [
         "9",
         "is",
-        "am",
-        "are"
+        "are",
+        "am"
       ],
       "explanationVi": "Câu phủ định hoàn chỉnh: \"By 9 not PM, I had finished all my homework.\"."
     },
@@ -164,15 +164,15 @@
       "promptVi": "[Sắp xếp câu] Ghép các khối từ thành câu hoàn chỉnh mang nghĩa: \"Trước 9 giờ tối, tôi đã hoàn thành tất cả bài tập về nhà của mình.\"",
       "question": "Sắp xếp các từ để tạo thành câu đúng: \"Trước 9 giờ tối, tôi đã hoàn thành tất cả bài tập về nhà của mình.\"",
       "words": [
+        "homework.",
         "finished",
         "I",
-        "homework.",
+        "By",
         "PM,",
         "9",
+        "had",
         "my",
-        "By",
-        "all",
-        "had"
+        "all"
       ],
       "correctSentence": "By 9 PM, I had finished all my homework.",
       "hintVi": "Trước 9 giờ tối, tôi đã hoàn thành tất cả bài tập về nhà của mình.",
@@ -184,14 +184,14 @@
       "promptVi": "[Sắp xếp câu] Ghép các khối từ thành câu hoàn chỉnh mang nghĩa: \"Chuyến tàu đã rời đi rồi khi chúng tôi đến nơi.\"",
       "question": "Sắp xếp các từ để tạo thành câu đúng: \"Chuyến tàu đã rời đi rồi khi chúng tôi đến nơi.\"",
       "words": [
-        "train",
-        "arrived.",
-        "when",
-        "had",
         "already",
-        "left",
+        "had",
+        "The",
+        "arrived.",
+        "train",
+        "when",
         "we",
-        "The"
+        "left"
       ],
       "correctSentence": "The train had already left when we arrived.",
       "hintVi": "Chuyến tàu đã rời đi rồi khi chúng tôi đến nơi.",
@@ -203,14 +203,14 @@
       "promptVi": "[Sắp xếp câu] Ghép các khối từ thành câu hoàn chỉnh mang nghĩa: \"Bạn đã ăn tối trước khi đi ra ngoài chưa?\"",
       "question": "Sắp xếp các từ để tạo thành câu đúng: \"Bạn đã ăn tối trước khi đi ra ngoài chưa?\"",
       "words": [
-        "before",
-        "you",
-        "eaten",
-        "you",
         "Had",
         "out?",
+        "eaten",
+        "before",
         "went",
-        "dinner"
+        "dinner",
+        "you",
+        "you"
       ],
       "correctSentence": "Had you eaten dinner before you went out?",
       "hintVi": "Bạn đã ăn tối trước khi đi ra ngoài chưa?",
@@ -222,14 +222,14 @@
       "promptVi": "[Sắp xếp câu] Ghép các khối từ thành câu hoàn chỉnh mang nghĩa: \"Tôi chưa từng đến thăm Luân Đôn trước mùa hè năm ngoái.\"",
       "question": "Sắp xếp các từ để tạo thành câu đúng: \"Tôi chưa từng đến thăm Luân Đôn trước mùa hè năm ngoái.\"",
       "words": [
+        "summer.",
+        "last",
+        "had",
+        "before",
         "visited",
         "London",
-        "never",
-        "before",
-        "last",
         "I",
-        "summer.",
-        "had"
+        "never"
       ],
       "correctSentence": "I had never visited London before last summer.",
       "hintVi": "Tôi chưa từng đến thăm Luân Đôn trước mùa hè năm ngoái.",
@@ -241,19 +241,19 @@
       "promptVi": "[Sắp xếp câu] Ghép các từ thành câu hội thoại: \"Nhân viên bảo tàng có nhận thấy điều gì khả nghi trước khi chuông báo động chính reo lên không? (Had the staff noticed)\"",
       "question": "Sắp xếp các từ để tạo thành câu thoại: \"Nhân viên bảo tàng có nhận thấy điều gì khả nghi trước khi chuông báo động chính reo lên không? (Had the staff noticed)\"",
       "words": [
-        "alarm",
         "museum",
-        "anything",
-        "before",
-        "the",
-        "went",
-        "suspicious",
         "main",
+        "suspicious",
+        "anything",
         "the",
         "noticed",
-        "staff",
+        "before",
         "Had",
-        "off"
+        "went",
+        "off",
+        "alarm",
+        "the",
+        "staff"
       ],
       "correctSentence": "Had the museum staff noticed anything suspicious before the main alarm went off?",
       "hintVi": "Nhân viên bảo tàng có nhận thấy điều gì khả nghi trước khi chuông báo động chính reo lên không? (Had the staff noticed)",
@@ -265,10 +265,10 @@
       "promptVi": "[Nhận diện cấu trúc chuẩn] Chọn câu có cấu trúc ngữ pháp HOÀN TOÀN ĐÚNG:",
       "question": "Dựa vào chủ điểm \"Bài 65: Quá khứ Hoàn thành — Cơ bản (Past Perfect Simple: Had + V3/ed)\", câu nào sau đây CHÍNH XÁC?",
       "options": [
-        "is",
         "By 9 PM, I had finished all my homework.",
         "homework. my all finished had I PM, 9 By",
-        "at 9 PM, I had finished all my homework."
+        "at 9 PM, I had finished all my homework.",
+        "is"
       ],
       "correctAnswer": "By 9 PM, I had finished all my homework.",
       "explanationVi": "Cấu trúc chuẩn xác là: \"By 9 PM, I had finished all my homework.\" (Trước 9 giờ tối, tôi đã hoàn thành tất cả bài tập về nhà của mình.)."
@@ -279,10 +279,10 @@
       "promptVi": "[Nhận diện cấu trúc chuẩn] Chọn câu có cấu trúc ngữ pháp HOÀN TOÀN ĐÚNG:",
       "question": "Dựa vào chủ điểm \"Bài 65: Quá khứ Hoàn thành — Cơ bản (Past Perfect Simple: Had + V3/ed)\", câu nào sau đây CHÍNH XÁC?",
       "options": [
-        "arrived. we when left already had train The",
+        "is",
         "are",
         "The train had already left when we arrived.",
-        "is"
+        "arrived. we when left already had train The"
       ],
       "correctAnswer": "The train had already left when we arrived.",
       "explanationVi": "Cấu trúc chuẩn xác là: \"The train had already left when we arrived.\" (Chuyến tàu đã rời đi rồi khi chúng tôi đến nơi.)."
@@ -294,9 +294,9 @@
       "question": "Dựa vào chủ điểm \"Bài 65: Quá khứ Hoàn thành — Cơ bản (Past Perfect Simple: Had + V3/ed)\", câu nào sau đây CHÍNH XÁC?",
       "options": [
         "Had you eaten dinner before you went out?",
+        "out? went you before dinner eaten you Had",
         "is",
-        "are",
-        "out? went you before dinner eaten you Had"
+        "are"
       ],
       "correctAnswer": "Had you eaten dinner before you went out?",
       "explanationVi": "Cấu trúc chuẩn xác là: \"Had you eaten dinner before you went out?\" (Bạn đã ăn tối trước khi đi ra ngoài chưa?)."
@@ -307,10 +307,10 @@
       "promptVi": "[Nhận diện cấu trúc chuẩn] Chọn câu có cấu trúc ngữ pháp HOÀN TOÀN ĐÚNG:",
       "question": "Dựa vào chủ điểm \"Bài 65: Quá khứ Hoàn thành — Cơ bản (Past Perfect Simple: Had + V3/ed)\", câu nào sau đây CHÍNH XÁC?",
       "options": [
-        "are",
-        "I had never visited London before last summer.",
         "summer. last before London visited never had I",
-        "is"
+        "is",
+        "I had never visited London before last summer.",
+        "are"
       ],
       "correctAnswer": "I had never visited London before last summer.",
       "explanationVi": "Cấu trúc chuẩn xác là: \"I had never visited London before last summer.\" (Tôi chưa từng đến thăm Luân Đôn trước mùa hè năm ngoái.)."
@@ -322,9 +322,9 @@
       "audioPrompt": "Good morning, Officer Lee. What time did you arrive at the downtown museum yesterday evening?",
       "question": "Nhấn nút '🔊 Nghe audio' và chọn nghĩa tiếng Việt đúng:",
       "options": [
-        "Nhân viên bảo tàng có nhận thấy điều gì khả nghi trước khi chuông báo động chính reo lên không? (Had the staff noticed)",
         "Chào buổi sáng Sĩ quan Lee. Bạn đã đến bảo tàng trung tâm thành phố lúc mấy giờ vào tối hôm qua?",
         "Tôi đã đến lúc 9 giờ tối, nhưng nhân viên bảo vệ đã khóa tất cả các cổng bên ngoài từ trước đó rồi. (had already locked)",
+        "Nhân viên bảo tàng có nhận thấy điều gì khả nghi trước khi chuông báo động chính reo lên không? (Had the staff noticed)",
         "Hôm nay thời tiết rất đẹp."
       ],
       "correctAnswer": "Chào buổi sáng Sĩ quan Lee. Bạn đã đến bảo tàng trung tâm thành phố lúc mấy giờ vào tối hôm qua?",
@@ -337,10 +337,10 @@
       "audioPrompt": "I arrived at 9 PM, but the security guard had already locked all the exterior gates.",
       "question": "Nhấn nút '🔊 Nghe audio' và chọn nghĩa tiếng Việt đúng:",
       "options": [
+        "Hôm nay thời tiết rất đẹp.",
         "Nhân viên bảo tàng có nhận thấy điều gì khả nghi trước khi chuông báo động chính reo lên không? (Had the staff noticed)",
         "Tôi đã đến lúc 9 giờ tối, nhưng nhân viên bảo vệ đã khóa tất cả các cổng bên ngoài từ trước đó rồi. (had already locked)",
-        "Không, họ đã không nhìn thấy bất kỳ ai khác thường trong phòng trưng bày cổ vật. (had not seen)",
-        "Hôm nay thời tiết rất đẹp."
+        "Không, họ đã không nhìn thấy bất kỳ ai khác thường trong phòng trưng bày cổ vật. (had not seen)"
       ],
       "correctAnswer": "Tôi đã đến lúc 9 giờ tối, nhưng nhân viên bảo vệ đã khóa tất cả các cổng bên ngoài từ trước đó rồi. (had already locked)",
       "explanationVi": "Câu nghe được: \"I arrived at 9 PM, but the security guard had already locked all the exterior gates.\" có nghĩa là: \"Tôi đã đến lúc 9 giờ tối, nhưng nhân viên bảo vệ đã khóa tất cả các cổng bên ngoài từ trước đó rồi. (had already locked)\"."
@@ -352,10 +352,10 @@
       "audioPrompt": "Had the museum staff noticed anything suspicious before the main alarm went off?",
       "question": "Nhấn nút '🔊 Nghe audio' và chọn nghĩa tiếng Việt đúng:",
       "options": [
-        "Trước 8 giờ 30 tối, bức tranh thời Phục hưng vô giá đã biến mất một cách bí ẩn khỏi bức tường. (had vanished)",
-        "Hôm nay thời tiết rất đẹp.",
         "Nhân viên bảo tàng có nhận thấy điều gì khả nghi trước khi chuông báo động chính reo lên không? (Had the staff noticed)",
-        "Không, họ đã không nhìn thấy bất kỳ ai khác thường trong phòng trưng bày cổ vật. (had not seen)"
+        "Trước 8 giờ 30 tối, bức tranh thời Phục hưng vô giá đã biến mất một cách bí ẩn khỏi bức tường. (had vanished)",
+        "Không, họ đã không nhìn thấy bất kỳ ai khác thường trong phòng trưng bày cổ vật. (had not seen)",
+        "Hôm nay thời tiết rất đẹp."
       ],
       "correctAnswer": "Nhân viên bảo tàng có nhận thấy điều gì khả nghi trước khi chuông báo động chính reo lên không? (Had the staff noticed)",
       "explanationVi": "Câu nghe được: \"Had the museum staff noticed anything suspicious before the main alarm went off?\" có nghĩa là: \"Nhân viên bảo tàng có nhận thấy điều gì khả nghi trước khi chuông báo động chính reo lên không? (Had the staff noticed)\"."
@@ -367,10 +367,10 @@
       "audioPrompt": "No, they had not seen anyone unusual in the antique exhibition gallery.",
       "question": "Nhấn nút '🔊 Nghe audio' và chọn nghĩa tiếng Việt đúng:",
       "options": [
+        "Hôm nay thời tiết rất đẹp.",
         "Kẻ đột nhập đã vô hiệu hóa các máy quay giám sát trước khi bước vào căn hầm trung tâm. (had disabled)",
-        "Không, họ đã không nhìn thấy bất kỳ ai khác thường trong phòng trưng bày cổ vật. (had not seen)",
         "Trước 8 giờ 30 tối, bức tranh thời Phục hưng vô giá đã biến mất một cách bí ẩn khỏi bức tường. (had vanished)",
-        "Hôm nay thời tiết rất đẹp."
+        "Không, họ đã không nhìn thấy bất kỳ ai khác thường trong phòng trưng bày cổ vật. (had not seen)"
       ],
       "correctAnswer": "Không, họ đã không nhìn thấy bất kỳ ai khác thường trong phòng trưng bày cổ vật. (had not seen)",
       "explanationVi": "Câu nghe được: \"No, they had not seen anyone unusual in the antique exhibition gallery.\" có nghĩa là: \"Không, họ đã không nhìn thấy bất kỳ ai khác thường trong phòng trưng bày cổ vật. (had not seen)\"."
@@ -420,8 +420,8 @@
       "options": [
         "Detective Vance chia sẻ thông tin: \"Chào buổi sáng Sĩ quan Lee. Bạn đã đến bảo tàng trung tâm thành phố lúc mấy giờ vào tối hôm qua?\"",
         "Detective Vance muốn mượn tiền để mua vé máy bay gấp.",
-        "Detective Vance phàn nàn rằng thời tiết hôm nay quá xấu.",
-        "Detective Vance từ chối trả lời và yêu cầu hủy cuộc hẹn."
+        "Detective Vance từ chối trả lời và yêu cầu hủy cuộc hẹn.",
+        "Detective Vance phàn nàn rằng thời tiết hôm nay quá xấu."
       ],
       "correctAnswer": "Detective Vance chia sẻ thông tin: \"Chào buổi sáng Sĩ quan Lee. Bạn đã đến bảo tàng trung tâm thành phố lúc mấy giờ vào tối hôm qua?\"",
       "explanationVi": "Trong đoạn hội thoại, Detective Vance đã nói: \"Good morning, Officer Lee. What time did you arrive at the downtown museum yesterday evening?\" (nghĩa là: \"Chào buổi sáng Sĩ quan Lee. Bạn đã đến bảo tàng trung tâm thành phố lúc mấy giờ vào tối hôm qua?\")."
@@ -433,10 +433,10 @@
       "passage": "Detective Vance: \"By 8:30 PM, the priceless Renaissance painting had mysteriously vanished from the wall.\"\nOfficer Lee: \"The intruders had disabled the surveillance cameras before entering the central vault.\"\nDetective Vance: \"Had anyone touched the glass display case before our forensic investigators arrived?\"\nOfficer Lee: \"No, sir. We had cordoned off the entire perimeter before anyone could enter.\"",
       "question": "Trong đoạn hội thoại trên, câu nói \"No, sir. We had cordoned off the entire perimeter before anyone could enter.\" của Officer Lee mang ý nghĩa gì?",
       "options": [
-        "Phản hồi: \"Yêu cầu cung cấp hóa đơn thanh toán tiền mặt\"",
+        "Phản hồi: \"Không, thưa sếp. Chúng tôi đã phong tỏa toàn bộ khu vực xung quanh trước khi bất kỳ ai có thể bước vào.\"",
         "Phản hồi: \"Hoàn toàn không đồng ý và muốn rời khỏi phòng ngay lập tức\"",
         "Phản hồi: \"Hẹn gặp lại vào cuối tuần sau tại sân bay quốc tế\"",
-        "Phản hồi: \"Không, thưa sếp. Chúng tôi đã phong tỏa toàn bộ khu vực xung quanh trước khi bất kỳ ai có thể bước vào.\""
+        "Phản hồi: \"Yêu cầu cung cấp hóa đơn thanh toán tiền mặt\""
       ],
       "correctAnswer": "Phản hồi: \"Không, thưa sếp. Chúng tôi đã phong tỏa toàn bộ khu vực xung quanh trước khi bất kỳ ai có thể bước vào.\"",
       "explanationVi": "Officer Lee nói: \"No, sir. We had cordoned off the entire perimeter before anyone could enter.\" có nghĩa là: \"Không, thưa sếp. Chúng tôi đã phong tỏa toàn bộ khu vực xung quanh trước khi bất kỳ ai có thể bước vào.\"."

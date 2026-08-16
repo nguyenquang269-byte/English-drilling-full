@@ -10,10 +10,10 @@
       "promptVi": "[Trắc nghiệm ngữ pháp] Chọn từ đúng để hoàn thành câu (Mọi người đều sẵn sàng cho cuộc họp rồi, phải không?):",
       "question": "Everyone is ready for the meeting, ___?",
       "options": [
-        "isn't he",
-        "aren't they",
         "isn't everyone",
-        "don't they"
+        "aren't they",
+        "don't they",
+        "isn't he"
       ],
       "correctAnswer": "aren't they",
       "explanationVi": "'Everyone' làm chủ ngữ thì đại từ ở đuôi là 'they', to be tương ứng ở hiện tại là 'aren't they'."
@@ -24,9 +24,9 @@
       "promptVi": "[Trắc nghiệm ngữ pháp] Chọn từ đúng để hoàn thành câu (Không có thứ gì bị hư hại trong cơn bão, phải không?):",
       "question": "Nothing was damaged during the storm, ___?",
       "options": [
-        "didn't it",
         "was it",
         "wasn't it",
+        "didn't it",
         "were they"
       ],
       "correctAnswer": "was it",
@@ -38,10 +38,10 @@
       "promptVi": "[Trắc nghiệm ngữ pháp] Chọn từ đúng để hoàn thành câu (Cô ấy không bao giờ nói dối, đúng không?):",
       "question": "She never tells lies, ___?",
       "options": [
+        "isn't she",
         "is she",
         "doesn't she",
-        "does she",
-        "isn't she"
+        "does she"
       ],
       "correctAnswer": "does she",
       "explanationVi": "'never' làm cho vế đầu mang nghĩa phủ định nên đuôi phải là khẳng định 'does she'."
@@ -52,10 +52,10 @@
       "promptVi": "[Trắc nghiệm ngữ pháp] Chọn từ đúng để hoàn thành câu (Đừng đến muộn buổi phỏng vấn nhé, được không?):",
       "question": "Don't be late for the interview, ___?",
       "options": [
+        "do you",
         "will you",
-        "shall you",
         "don't you",
-        "do you"
+        "shall you"
       ],
       "correctAnswer": "will you",
       "explanationVi": "Câu mệnh lệnh 'Don't + V' luôn có đuôi là 'will you'."
@@ -66,10 +66,10 @@
       "promptVi": "[Phản xạ dịch thuật] Dịch câu sau sang tiếng Anh: \"Mọi người đều có mặt trong phòng họp khẩn cấp rồi, phải không? (everyone -> they, are -> aren't)\"",
       "question": "Chọn bản dịch chuẩn xác nhất cho câu: \"Mọi người đều có mặt trong phòng họp khẩn cấp rồi, phải không? (everyone -> they, are -> aren't)\"",
       "options": [
-        "Everyone is present in the emergency conference room, aren't they?",
         "Yes, they are. Nobody left the office before inspecting the database logs, did they?",
         "We are studying English today.",
-        "Everyone be present in the emergency conference room, aren't they?"
+        "Everyone be present in the emergency conference room, aren't they?",
+        "Everyone is present in the emergency conference room, aren't they?"
       ],
       "correctAnswer": "Everyone is present in the emergency conference room, aren't they?",
       "explanationVi": "Câu dịch chuẩn xác: \"Everyone is present in the emergency conference room, aren't they?\" (Mọi người đều có mặt trong phòng họp khẩn cấp rồi, phải không? (everyone -> they, are -> aren't))."
@@ -80,10 +80,10 @@
       "promptVi": "[Ngữ cảnh giao tiếp] Chọn câu phản hồi tự nhiên và đúng ngữ pháp:",
       "question": "Khi đối phương nói: \"Everyone is present in the emergency conference room, aren't they?\", câu phản hồi phù hợp là gì?",
       "options": [
+        "Yes, they are. Nobody left the office before inspecting the database logs, did they?",
         "No, it was yesterday.",
-        "They are not in the office.",
         "Yes, I will eat it.",
-        "Yes, they are. Nobody left the office before inspecting the database logs, did they?"
+        "They are not in the office."
       ],
       "correctAnswer": "Yes, they are. Nobody left the office before inspecting the database logs, did they?",
       "explanationVi": "Phản hồi phù hợp trong bài: \"Yes, they are. Nobody left the office before inspecting the database logs, did they?\" (Vâng, đủ cả rồi. Không ai rời văn phòng trước khi kiểm tra nhật ký cơ sở dữ liệu, đúng không? (nobody -> phủ định, did they?))."
@@ -95,9 +95,9 @@
       "question": "Everyone is ready for the meeting, ___?",
       "correctAnswer": "aren't they",
       "options": [
-        "aren't they",
         "isn't he",
         "isn't everyone",
+        "aren't they",
         "don't they"
       ],
       "explanationVi": "Đáp án đúng là \"aren't they\". Câu hoàn chỉnh: \"Everyone is ready for the meeting, aren't they?\" (Mọi người đều sẵn sàng cho cuộc họp rồi, phải không?)."
@@ -111,8 +111,8 @@
       "options": [
         "didn't it",
         "were they",
-        "was it",
-        "wasn't it"
+        "wasn't it",
+        "was it"
       ],
       "explanationVi": "Đáp án đúng là \"was it\". Câu hoàn chỉnh: \"Nothing was damaged during the storm, was it?\" (Không có thứ gì bị hư hại trong cơn bão, phải không?)."
     },
@@ -123,9 +123,9 @@
       "question": "She never tells lies, ___?",
       "correctAnswer": "does she",
       "options": [
+        "isn't she",
         "doesn't she",
         "does she",
-        "isn't she",
         "is she"
       ],
       "explanationVi": "Đáp án đúng là \"does she\". Câu hoàn chỉnh: \"She never tells lies, does she?\" (Cô ấy không bao giờ nói dối, đúng không?)."
@@ -137,10 +137,10 @@
       "question": "Don't be late for the interview, ___?",
       "correctAnswer": "will you",
       "options": [
-        "don't you",
-        "do you",
         "will you",
-        "shall you"
+        "shall you",
+        "do you",
+        "don't you"
       ],
       "explanationVi": "Đáp án đúng là \"will you\". Câu hoàn chỉnh: \"Don't be late for the interview, will you?\" (Đừng đến muộn buổi phỏng vấn nhé, được không?)."
     },
@@ -151,10 +151,10 @@
       "question": "Everyone _____ not ready for the meeting, aren't they?",
       "correctAnswer": "is",
       "options": [
-        "are",
         "is",
-        "am",
-        "do"
+        "are",
+        "do",
+        "am"
       ],
       "explanationVi": "Câu phủ định hoàn chỉnh: \"Everyone is not ready for the meeting, aren't they?\"."
     },
@@ -164,14 +164,14 @@
       "promptVi": "[Sắp xếp câu] Ghép các khối từ thành câu hoàn chỉnh mang nghĩa: \"Mọi người đều sẵn sàng cho cuộc họp rồi, phải không?\"",
       "question": "Sắp xếp các từ để tạo thành câu đúng: \"Mọi người đều sẵn sàng cho cuộc họp rồi, phải không?\"",
       "words": [
-        "meeting,",
-        "for",
-        "is",
-        "Everyone",
-        "ready",
-        "the",
+        "they?",
         "aren't",
-        "they?"
+        "meeting,",
+        "the",
+        "for",
+        "ready",
+        "is",
+        "Everyone"
       ],
       "correctSentence": "Everyone is ready for the meeting, aren't they?",
       "hintVi": "Mọi người đều sẵn sàng cho cuộc họp rồi, phải không?",
@@ -183,14 +183,14 @@
       "promptVi": "[Sắp xếp câu] Ghép các khối từ thành câu hoàn chỉnh mang nghĩa: \"Không có thứ gì bị hư hại trong cơn bão, phải không?\"",
       "question": "Sắp xếp các từ để tạo thành câu đúng: \"Không có thứ gì bị hư hại trong cơn bão, phải không?\"",
       "words": [
-        "damaged",
-        "was",
         "Nothing",
-        "storm,",
+        "it?",
         "was",
         "the",
-        "it?",
-        "during"
+        "storm,",
+        "during",
+        "damaged",
+        "was"
       ],
       "correctSentence": "Nothing was damaged during the storm, was it?",
       "hintVi": "Không có thứ gì bị hư hại trong cơn bão, phải không?",
@@ -202,12 +202,12 @@
       "promptVi": "[Sắp xếp câu] Ghép các khối từ thành câu hoàn chỉnh mang nghĩa: \"Cô ấy không bao giờ nói dối, đúng không?\"",
       "question": "Sắp xếp các từ để tạo thành câu đúng: \"Cô ấy không bao giờ nói dối, đúng không?\"",
       "words": [
-        "she?",
         "does",
-        "lies,",
-        "never",
         "She",
-        "tells"
+        "tells",
+        "never",
+        "she?",
+        "lies,"
       ],
       "correctSentence": "She never tells lies, does she?",
       "hintVi": "Cô ấy không bao giờ nói dối, đúng không?",
@@ -219,14 +219,14 @@
       "promptVi": "[Sắp xếp câu] Ghép các khối từ thành câu hoàn chỉnh mang nghĩa: \"Đừng đến muộn buổi phỏng vấn nhé, được không?\"",
       "question": "Sắp xếp các từ để tạo thành câu đúng: \"Đừng đến muộn buổi phỏng vấn nhé, được không?\"",
       "words": [
-        "interview,",
-        "will",
-        "late",
-        "Don't",
-        "for",
-        "be",
         "you?",
-        "the"
+        "late",
+        "the",
+        "for",
+        "Don't",
+        "will",
+        "interview,",
+        "be"
       ],
       "correctSentence": "Don't be late for the interview, will you?",
       "hintVi": "Đừng đến muộn buổi phỏng vấn nhé, được không?",
@@ -238,17 +238,17 @@
       "promptVi": "[Sắp xếp câu] Ghép các từ thành câu hội thoại: \"Chính xác. Chúng ta hiếm khi gặp loại sự cố máy chủ này, đúng không nhỉ? (rarely -> mang nghĩa phủ định, đuôi 'do we?')\"",
       "question": "Sắp xếp các từ để tạo thành câu thoại: \"Chính xác. Chúng ta hiếm khi gặp loại sự cố máy chủ này, đúng không nhỉ? (rarely -> mang nghĩa phủ định, đuôi 'do we?')\"",
       "words": [
-        "rarely",
-        "We",
-        "server",
-        "this",
         "of",
+        "we",
         "encounter",
         "do",
-        "Correct",
-        "kind",
         "malfunction",
-        "we"
+        "Correct",
+        "this",
+        "We",
+        "rarely",
+        "kind",
+        "server"
       ],
       "correctSentence": "Correct. We rarely encounter this kind of server malfunction, do we?",
       "hintVi": "Chính xác. Chúng ta hiếm khi gặp loại sự cố máy chủ này, đúng không nhỉ? (rarely -> mang nghĩa phủ định, đuôi 'do we?')",
@@ -260,10 +260,10 @@
       "promptVi": "[Nhận diện cấu trúc chuẩn] Chọn câu có cấu trúc ngữ pháp HOÀN TOÀN ĐÚNG:",
       "question": "Dựa vào chủ điểm \"Bài 55: Câu Hỏi Đuôi — Các Trường Hợp Đặc Biệt (Advanced Tag Questions: Nobody / Never / Little / Imperatives)\", câu nào sau đây CHÍNH XÁC?",
       "options": [
-        "Everyone be ready for the meeting, aren't they?",
+        "Everyone is ready at the meeting, aren't they?",
         "Everyone is ready for the meeting, aren't they?",
-        "they? aren't meeting, the for ready is Everyone",
-        "Everyone is ready at the meeting, aren't they?"
+        "Everyone be ready for the meeting, aren't they?",
+        "they? aren't meeting, the for ready is Everyone"
       ],
       "correctAnswer": "Everyone is ready for the meeting, aren't they?",
       "explanationVi": "Cấu trúc chuẩn xác là: \"Everyone is ready for the meeting, aren't they?\" (Mọi người đều sẵn sàng cho cuộc họp rồi, phải không?)."
@@ -274,10 +274,10 @@
       "promptVi": "[Nhận diện cấu trúc chuẩn] Chọn câu có cấu trúc ngữ pháp HOÀN TOÀN ĐÚNG:",
       "question": "Dựa vào chủ điểm \"Bài 55: Câu Hỏi Đuôi — Các Trường Hợp Đặc Biệt (Advanced Tag Questions: Nobody / Never / Little / Imperatives)\", câu nào sau đây CHÍNH XÁC?",
       "options": [
-        "is",
-        "Nothing be damaged during the storm, was it?",
         "Nothing was damaged during the storm, was it?",
-        "it? was storm, the during damaged was Nothing"
+        "it? was storm, the during damaged was Nothing",
+        "Nothing be damaged during the storm, was it?",
+        "is"
       ],
       "correctAnswer": "Nothing was damaged during the storm, was it?",
       "explanationVi": "Cấu trúc chuẩn xác là: \"Nothing was damaged during the storm, was it?\" (Không có thứ gì bị hư hại trong cơn bão, phải không?)."
@@ -289,9 +289,9 @@
       "question": "Dựa vào chủ điểm \"Bài 55: Câu Hỏi Đuôi — Các Trường Hợp Đặc Biệt (Advanced Tag Questions: Nobody / Never / Little / Imperatives)\", câu nào sau đây CHÍNH XÁC?",
       "options": [
         "she? does lies, tells never She",
-        "She never tells lies, does she?",
         "are",
-        "is"
+        "is",
+        "She never tells lies, does she?"
       ],
       "correctAnswer": "She never tells lies, does she?",
       "explanationVi": "Cấu trúc chuẩn xác là: \"She never tells lies, does she?\" (Cô ấy không bao giờ nói dối, đúng không?)."
@@ -303,9 +303,9 @@
       "question": "Dựa vào chủ điểm \"Bài 55: Câu Hỏi Đuôi — Các Trường Hợp Đặc Biệt (Advanced Tag Questions: Nobody / Never / Little / Imperatives)\", câu nào sau đây CHÍNH XÁC?",
       "options": [
         "is",
-        "Don't be late for the interview, will you?",
+        "you? will interview, the for late be Don't",
         "Don't be late at the interview, will you?",
-        "you? will interview, the for late be Don't"
+        "Don't be late for the interview, will you?"
       ],
       "correctAnswer": "Don't be late for the interview, will you?",
       "explanationVi": "Cấu trúc chuẩn xác là: \"Don't be late for the interview, will you?\" (Đừng đến muộn buổi phỏng vấn nhé, được không?)."
@@ -317,10 +317,10 @@
       "audioPrompt": "Everyone is present in the emergency conference room, aren't they?",
       "question": "Nhấn nút '🔊 Nghe audio' và chọn nghĩa tiếng Việt đúng:",
       "options": [
-        "Chính xác. Chúng ta hiếm khi gặp loại sự cố máy chủ này, đúng không nhỉ? (rarely -> mang nghĩa phủ định, đuôi 'do we?')",
-        "Hôm nay thời tiết rất đẹp.",
+        "Mọi người đều có mặt trong phòng họp khẩn cấp rồi, phải không? (everyone -> they, are -> aren't)",
         "Vâng, đủ cả rồi. Không ai rời văn phòng trước khi kiểm tra nhật ký cơ sở dữ liệu, đúng không? (nobody -> phủ định, did they?)",
-        "Mọi người đều có mặt trong phòng họp khẩn cấp rồi, phải không? (everyone -> they, are -> aren't)"
+        "Chính xác. Chúng ta hiếm khi gặp loại sự cố máy chủ này, đúng không nhỉ? (rarely -> mang nghĩa phủ định, đuôi 'do we?')",
+        "Hôm nay thời tiết rất đẹp."
       ],
       "correctAnswer": "Mọi người đều có mặt trong phòng họp khẩn cấp rồi, phải không? (everyone -> they, are -> aren't)",
       "explanationVi": "Câu nghe được: \"Everyone is present in the emergency conference room, aren't they?\" có nghĩa là: \"Mọi người đều có mặt trong phòng họp khẩn cấp rồi, phải không? (everyone -> they, are -> aren't)\"."
@@ -332,10 +332,10 @@
       "audioPrompt": "Yes, they are. Nobody left the office before inspecting the database logs, did they?",
       "question": "Nhấn nút '🔊 Nghe audio' và chọn nghĩa tiếng Việt đúng:",
       "options": [
+        "Chính xác. Chúng ta hiếm khi gặp loại sự cố máy chủ này, đúng không nhỉ? (rarely -> mang nghĩa phủ định, đuôi 'do we?')",
         "Hôm nay thời tiết rất đẹp.",
         "Hầu như không bao giờ. Có rất ít tổn hại đối với dữ liệu mã hóa của người dùng, đúng không? (little -> bán phủ định, is there?)",
-        "Vâng, đủ cả rồi. Không ai rời văn phòng trước khi kiểm tra nhật ký cơ sở dữ liệu, đúng không? (nobody -> phủ định, did they?)",
-        "Chính xác. Chúng ta hiếm khi gặp loại sự cố máy chủ này, đúng không nhỉ? (rarely -> mang nghĩa phủ định, đuôi 'do we?')"
+        "Vâng, đủ cả rồi. Không ai rời văn phòng trước khi kiểm tra nhật ký cơ sở dữ liệu, đúng không? (nobody -> phủ định, did they?)"
       ],
       "correctAnswer": "Vâng, đủ cả rồi. Không ai rời văn phòng trước khi kiểm tra nhật ký cơ sở dữ liệu, đúng không? (nobody -> phủ định, did they?)",
       "explanationVi": "Câu nghe được: \"Yes, they are. Nobody left the office before inspecting the database logs, did they?\" có nghĩa là: \"Vâng, đủ cả rồi. Không ai rời văn phòng trước khi kiểm tra nhật ký cơ sở dữ liệu, đúng không? (nobody -> phủ định, did they?)\"."
@@ -347,10 +347,10 @@
       "audioPrompt": "Correct. We rarely encounter this kind of server malfunction, do we?",
       "question": "Nhấn nút '🔊 Nghe audio' và chọn nghĩa tiếng Việt đúng:",
       "options": [
-        "Hầu như không bao giờ. Có rất ít tổn hại đối với dữ liệu mã hóa của người dùng, đúng không? (little -> bán phủ định, is there?)",
-        "Chính xác. Chúng ta hiếm khi gặp loại sự cố máy chủ này, đúng không nhỉ? (rarely -> mang nghĩa phủ định, đuôi 'do we?')",
         "Hôm nay thời tiết rất đẹp.",
-        "May mắn thay, không có gì bị mất vĩnh viễn trong lúc mất điện, phải không? (nothing -> đại từ 'it', was it?)"
+        "May mắn thay, không có gì bị mất vĩnh viễn trong lúc mất điện, phải không? (nothing -> đại từ 'it', was it?)",
+        "Hầu như không bao giờ. Có rất ít tổn hại đối với dữ liệu mã hóa của người dùng, đúng không? (little -> bán phủ định, is there?)",
+        "Chính xác. Chúng ta hiếm khi gặp loại sự cố máy chủ này, đúng không nhỉ? (rarely -> mang nghĩa phủ định, đuôi 'do we?')"
       ],
       "correctAnswer": "Chính xác. Chúng ta hiếm khi gặp loại sự cố máy chủ này, đúng không nhỉ? (rarely -> mang nghĩa phủ định, đuôi 'do we?')",
       "explanationVi": "Câu nghe được: \"Correct. We rarely encounter this kind of server malfunction, do we?\" có nghĩa là: \"Chính xác. Chúng ta hiếm khi gặp loại sự cố máy chủ này, đúng không nhỉ? (rarely -> mang nghĩa phủ định, đuôi 'do we?')\"."
@@ -362,9 +362,9 @@
       "audioPrompt": "Almost never. There is little damage to our users' encrypted data, is there?",
       "question": "Nhấn nút '🔊 Nghe audio' và chọn nghĩa tiếng Việt đúng:",
       "options": [
-        "May mắn thay, không có gì bị mất vĩnh viễn trong lúc mất điện, phải không? (nothing -> đại từ 'it', was it?)",
-        "Không mất gì cả! Có ai đó đã sao lưu toàn bộ hệ thống vào tối qua, đúng không? (someone -> they, didn't they?)",
         "Hôm nay thời tiết rất đẹp.",
+        "Không mất gì cả! Có ai đó đã sao lưu toàn bộ hệ thống vào tối qua, đúng không? (someone -> they, didn't they?)",
+        "May mắn thay, không có gì bị mất vĩnh viễn trong lúc mất điện, phải không? (nothing -> đại từ 'it', was it?)",
         "Hầu như không bao giờ. Có rất ít tổn hại đối với dữ liệu mã hóa của người dùng, đúng không? (little -> bán phủ định, is there?)"
       ],
       "correctAnswer": "Hầu như không bao giờ. Có rất ít tổn hại đối với dữ liệu mã hóa của người dùng, đúng không? (little -> bán phủ định, is there?)",
@@ -413,9 +413,9 @@
       "passage": "Chief Engineer: \"Everyone is present in the emergency conference room, aren't they?\"\nLead Developer: \"Yes, they are. Nobody left the office before inspecting the database logs, did they?\"\nChief Engineer: \"Correct. We rarely encounter this kind of server malfunction, do we?\"\nLead Developer: \"Almost never. There is little damage to our users' encrypted data, is there?\"",
       "question": "Dựa vào đoạn đối thoại trên, thông tin nào sau đây là CHÍNH XÁC về nội dung câu nói của Chief Engineer?",
       "options": [
+        "Chief Engineer từ chối trả lời và yêu cầu hủy cuộc hẹn.",
         "Chief Engineer chia sẻ thông tin: \"Mọi người đều có mặt trong phòng họp khẩn cấp rồi, phải không? (everyone -> they, are -> aren't)\"",
         "Chief Engineer phàn nàn rằng thời tiết hôm nay quá xấu.",
-        "Chief Engineer từ chối trả lời và yêu cầu hủy cuộc hẹn.",
         "Chief Engineer muốn mượn tiền để mua vé máy bay gấp."
       ],
       "correctAnswer": "Chief Engineer chia sẻ thông tin: \"Mọi người đều có mặt trong phòng họp khẩn cấp rồi, phải không? (everyone -> they, are -> aren't)\"",
@@ -428,10 +428,10 @@
       "passage": "Chief Engineer: \"Fortunately, nothing was permanently lost during the power outage, was it?\"\nLead Developer: \"Nothing at all! Someone backed up the whole system yesterday evening, didn't they?\"\nChief Engineer: \"Yes, our automated script did. I am responsible for signing off on the security report, aren't I?\"\nLead Developer: \"Yes, sir. Please send the final audit summary to the executive board, will you?\"",
       "question": "Trong đoạn hội thoại trên, câu nói \"Yes, sir. Please send the final audit summary to the executive board, will you?\" của Lead Developer mang ý nghĩa gì?",
       "options": [
-        "Phản hồi: \"Vâng, thưa sếp. Xin vui lòng gửi bản tóm tắt kiểm toán cuối cùng tới hội đồng quản trị nhé? (Câu mệnh lệnh -> will you?)\"",
-        "Phản hồi: \"Yêu cầu cung cấp hóa đơn thanh toán tiền mặt\"",
         "Phản hồi: \"Hẹn gặp lại vào cuối tuần sau tại sân bay quốc tế\"",
-        "Phản hồi: \"Hoàn toàn không đồng ý và muốn rời khỏi phòng ngay lập tức\""
+        "Phản hồi: \"Yêu cầu cung cấp hóa đơn thanh toán tiền mặt\"",
+        "Phản hồi: \"Hoàn toàn không đồng ý và muốn rời khỏi phòng ngay lập tức\"",
+        "Phản hồi: \"Vâng, thưa sếp. Xin vui lòng gửi bản tóm tắt kiểm toán cuối cùng tới hội đồng quản trị nhé? (Câu mệnh lệnh -> will you?)\""
       ],
       "correctAnswer": "Phản hồi: \"Vâng, thưa sếp. Xin vui lòng gửi bản tóm tắt kiểm toán cuối cùng tới hội đồng quản trị nhé? (Câu mệnh lệnh -> will you?)\"",
       "explanationVi": "Lead Developer nói: \"Yes, sir. Please send the final audit summary to the executive board, will you?\" có nghĩa là: \"Vâng, thưa sếp. Xin vui lòng gửi bản tóm tắt kiểm toán cuối cùng tới hội đồng quản trị nhé? (Câu mệnh lệnh -> will you?)\"."

@@ -10,9 +10,9 @@
       "promptVi": "[Trắc nghiệm ngữ pháp] Chọn từ đúng để hoàn thành câu (Dù trong bất kỳ hoàn cảnh nào bạn cũng không được chạm vào sợi dây này.):",
       "question": "Under no circumstances ___ you touch this wire.",
       "options": [
-        "should",
         "you should",
         "must",
+        "should",
         "do"
       ],
       "correctAnswer": "should",
@@ -24,10 +24,10 @@
       "promptVi": "[Trắc nghiệm ngữ pháp] Chọn từ đúng để hoàn thành câu (Tôi vừa mới về đến nhà thì trời đã bắt đầu mưa.):",
       "question": "No sooner had I arrived home ___ it started to rain.",
       "options": [
-        "that",
-        "than",
         "then",
-        "when"
+        "when",
+        "that",
+        "than"
       ],
       "correctAnswer": "than",
       "explanationVi": "'No sooner' luôn đi kèm với liên từ 'than'."
@@ -38,10 +38,10 @@
       "promptVi": "[Trắc nghiệm ngữ pháp] Chọn từ đúng để hoàn thành câu (Trên đỉnh ngọn đồi sừng sững một tòa lâu đài cổ kính.):",
       "question": "On the top of the hill ___ an ancient castle.",
       "options": [
-        "does stand",
+        "standing",
         "stands",
-        "is standing",
-        "standing"
+        "does stand",
+        "is standing"
       ],
       "correctAnswer": "stands",
       "explanationVi": "Đảo ngữ toàn bộ đưa động từ chính 'stands' ra trước danh từ chủ ngữ."
@@ -52,10 +52,10 @@
       "promptVi": "[Trắc nghiệm ngữ pháp] Chọn từ đúng để hoàn thành câu (Tôi thích nhạc cổ điển, và anh trai tôi cũng vậy.):",
       "question": "I like classical music, and so ___ my brother.",
       "options": [
-        "likes",
         "does",
+        "is",
         "do",
-        "is"
+        "likes"
       ],
       "correctAnswer": "does",
       "explanationVi": "'like' là động từ thường hiện tại đơn, chủ ngữ 'my brother' số ít -> dùng 'does'."
@@ -66,10 +66,10 @@
       "promptVi": "[Phản xạ dịch thuật] Dịch câu sau sang tiếng Anh: \"Kính thưa quý vị! Trong bất kỳ hoàn cảnh nào đội tàu ngầm của chúng tôi cũng không thỏa hiệp về an toàn của thủy thủ đoàn. (Under no circumstances did...)\"",
       "question": "Chọn bản dịch chuẩn xác nhất cho câu: \"Kính thưa quý vị! Trong bất kỳ hoàn cảnh nào đội tàu ngầm của chúng tôi cũng không thỏa hiệp về an toàn của thủy thủ đoàn. (Under no circumstances did...)\"",
       "options": [
-        "Seldom have marine biologists documented such astonishing bioluminescent species at five thousand meters.",
+        "We are studying English today.",
         "Ladies and gentlemen! Under no circumstances be our submarine crew compromise on crew safety.",
-        "Ladies and gentlemen! Under no circumstances did our submarine crew compromise on crew safety.",
-        "We are studying English today."
+        "Seldom have marine biologists documented such astonishing bioluminescent species at five thousand meters.",
+        "Ladies and gentlemen! Under no circumstances did our submarine crew compromise on crew safety."
       ],
       "correctAnswer": "Ladies and gentlemen! Under no circumstances did our submarine crew compromise on crew safety.",
       "explanationVi": "Câu dịch chuẩn xác: \"Ladies and gentlemen! Under no circumstances did our submarine crew compromise on crew safety.\" (Kính thưa quý vị! Trong bất kỳ hoàn cảnh nào đội tàu ngầm của chúng tôi cũng không thỏa hiệp về an toàn của thủy thủ đoàn. (Under no circumstances did...))."
@@ -95,10 +95,10 @@
       "question": "Under no circumstances ___ you touch this wire.",
       "correctAnswer": "should",
       "options": [
+        "should",
         "must",
-        "you should",
         "do",
-        "should"
+        "you should"
       ],
       "explanationVi": "Đáp án đúng là \"should\". Câu hoàn chỉnh: \"Under no circumstances should you touch this wire.\" (Dù trong bất kỳ hoàn cảnh nào bạn cũng không được chạm vào sợi dây này.)."
     },
@@ -109,10 +109,10 @@
       "question": "No sooner had I arrived home ___ it started to rain.",
       "correctAnswer": "than",
       "options": [
+        "then",
         "when",
-        "that",
         "than",
-        "then"
+        "that"
       ],
       "explanationVi": "Đáp án đúng là \"than\". Câu hoàn chỉnh: \"No sooner had I arrived home than it started to rain.\" (Tôi vừa mới về đến nhà thì trời đã bắt đầu mưa.)."
     },
@@ -125,8 +125,8 @@
       "options": [
         "is standing",
         "stands",
-        "standing",
-        "does stand"
+        "does stand",
+        "standing"
       ],
       "explanationVi": "Đáp án đúng là \"stands\". Câu hoàn chỉnh: \"On the top of the hill stands an ancient castle.\" (Trên đỉnh ngọn đồi sừng sững một tòa lâu đài cổ kính.)."
     },
@@ -137,10 +137,10 @@
       "question": "I like classical music, and so ___ my brother.",
       "correctAnswer": "does",
       "options": [
-        "likes",
+        "do",
         "is",
-        "does",
-        "do"
+        "likes",
+        "does"
       ],
       "explanationVi": "Đáp án đúng là \"does\". Câu hoàn chỉnh: \"I like classical music, and so does my brother.\" (Tôi thích nhạc cổ điển, và anh trai tôi cũng vậy.)."
     },
@@ -151,10 +151,10 @@
       "question": "Under _____ not circumstances should you touch this wire.",
       "correctAnswer": "no",
       "options": [
-        "no",
-        "am",
         "is",
-        "are"
+        "am",
+        "are",
+        "no"
       ],
       "explanationVi": "Câu phủ định hoàn chỉnh: \"Under no not circumstances should you touch this wire.\"."
     },
@@ -164,14 +164,14 @@
       "promptVi": "[Sắp xếp câu] Ghép các khối từ thành câu hoàn chỉnh mang nghĩa: \"Dù trong bất kỳ hoàn cảnh nào bạn cũng không được chạm vào sợi dây này.\"",
       "question": "Sắp xếp các từ để tạo thành câu đúng: \"Dù trong bất kỳ hoàn cảnh nào bạn cũng không được chạm vào sợi dây này.\"",
       "words": [
-        "you",
         "touch",
-        "this",
-        "should",
-        "circumstances",
         "Under",
         "wire.",
-        "no"
+        "should",
+        "you",
+        "no",
+        "circumstances",
+        "this"
       ],
       "correctSentence": "Under no circumstances should you touch this wire.",
       "hintVi": "Dù trong bất kỳ hoàn cảnh nào bạn cũng không được chạm vào sợi dây này.",
@@ -183,17 +183,17 @@
       "promptVi": "[Sắp xếp câu] Ghép các khối từ thành câu hoàn chỉnh mang nghĩa: \"Tôi vừa mới về đến nhà thì trời đã bắt đầu mưa.\"",
       "question": "Sắp xếp các từ để tạo thành câu đúng: \"Tôi vừa mới về đến nhà thì trời đã bắt đầu mưa.\"",
       "words": [
-        "home",
-        "arrived",
-        "rain.",
-        "to",
-        "sooner",
-        "had",
         "started",
         "it",
+        "sooner",
+        "to",
         "No",
+        "home",
+        "rain.",
+        "had",
         "than",
-        "I"
+        "I",
+        "arrived"
       ],
       "correctSentence": "No sooner had I arrived home than it started to rain.",
       "hintVi": "Tôi vừa mới về đến nhà thì trời đã bắt đầu mưa.",
@@ -205,16 +205,16 @@
       "promptVi": "[Sắp xếp câu] Ghép các khối từ thành câu hoàn chỉnh mang nghĩa: \"Trên đỉnh ngọn đồi sừng sững một tòa lâu đài cổ kính.\"",
       "question": "Sắp xếp các từ để tạo thành câu đúng: \"Trên đỉnh ngọn đồi sừng sững một tòa lâu đài cổ kính.\"",
       "words": [
-        "the",
-        "of",
-        "stands",
+        "top",
         "castle.",
         "ancient",
-        "hill",
         "the",
+        "hill",
+        "of",
         "an",
+        "the",
         "On",
-        "top"
+        "stands"
       ],
       "correctSentence": "On the top of the hill stands an ancient castle.",
       "hintVi": "Trên đỉnh ngọn đồi sừng sững một tòa lâu đài cổ kính.",
@@ -226,15 +226,15 @@
       "promptVi": "[Sắp xếp câu] Ghép các khối từ thành câu hoàn chỉnh mang nghĩa: \"Tôi thích nhạc cổ điển, và anh trai tôi cũng vậy.\"",
       "question": "Sắp xếp các từ để tạo thành câu đúng: \"Tôi thích nhạc cổ điển, và anh trai tôi cũng vậy.\"",
       "words": [
-        "brother.",
-        "and",
-        "music,",
-        "like",
-        "my",
+        "classical",
         "so",
-        "does",
         "I",
-        "classical"
+        "music,",
+        "does",
+        "like",
+        "and",
+        "my",
+        "brother."
       ],
       "correctSentence": "I like classical music, and so does my brother.",
       "hintVi": "Tôi thích nhạc cổ điển, và anh trai tôi cũng vậy.",
@@ -246,20 +246,20 @@
       "promptVi": "[Sắp xếp câu] Ghép các từ thành câu hội thoại: \"Cánh tay robot biển sâu vừa chạm vào miệng phun thủy nhiệt thì chuông báo cảm biến đã reo vang. (Hardly had... when...)\"",
       "question": "Sắp xếp các từ để tạo thành câu thoại: \"Cánh tay robot biển sâu vừa chạm vào miệng phun thủy nhiệt thì chuông báo cảm biến đã reo vang. (Hardly had... when...)\"",
       "words": [
-        "sensor",
         "robotic",
+        "Hardly",
         "deep-sea",
-        "vent",
-        "touched",
-        "when",
-        "the",
         "hydrothermal",
         "the",
         "had",
-        "alarms",
         "beeped",
-        "Hardly",
-        "arm"
+        "alarms",
+        "arm",
+        "vent",
+        "sensor",
+        "the",
+        "touched",
+        "when"
       ],
       "correctSentence": "Hardly had the deep-sea robotic arm touched the hydrothermal vent when sensor alarms beeped.",
       "hintVi": "Cánh tay robot biển sâu vừa chạm vào miệng phun thủy nhiệt thì chuông báo cảm biến đã reo vang. (Hardly had... when...)",
@@ -271,10 +271,10 @@
       "promptVi": "[Nhận diện cấu trúc chuẩn] Chọn câu có cấu trúc ngữ pháp HOÀN TOÀN ĐÚNG:",
       "question": "Dựa vào chủ điểm \"Bài 75: Cấu trúc Đảo ngữ Toàn Diện (Complete & Partial Inversions: Negative, Place, Conditionals, So/Neither)\", câu nào sau đây CHÍNH XÁC?",
       "options": [
-        "Under no circumstances should you touch this wire.",
+        "is",
         "wire. this touch you should circumstances no Under",
         "are",
-        "is"
+        "Under no circumstances should you touch this wire."
       ],
       "correctAnswer": "Under no circumstances should you touch this wire.",
       "explanationVi": "Cấu trúc chuẩn xác là: \"Under no circumstances should you touch this wire.\" (Dù trong bất kỳ hoàn cảnh nào bạn cũng không được chạm vào sợi dây này.)."
@@ -285,9 +285,9 @@
       "promptVi": "[Nhận diện cấu trúc chuẩn] Chọn câu có cấu trúc ngữ pháp HOÀN TOÀN ĐÚNG:",
       "question": "Dựa vào chủ điểm \"Bài 75: Cấu trúc Đảo ngữ Toàn Diện (Complete & Partial Inversions: Negative, Place, Conditionals, So/Neither)\", câu nào sau đây CHÍNH XÁC?",
       "options": [
+        "No sooner had I arrived home than it started at rain.",
         "No sooner had I arrived home than it started to rain.",
         "is",
-        "No sooner had I arrived home than it started at rain.",
         "rain. to started it than home arrived I had sooner No"
       ],
       "correctAnswer": "No sooner had I arrived home than it started to rain.",
@@ -299,10 +299,10 @@
       "promptVi": "[Nhận diện cấu trúc chuẩn] Chọn câu có cấu trúc ngữ pháp HOÀN TOÀN ĐÚNG:",
       "question": "Dựa vào chủ điểm \"Bài 75: Cấu trúc Đảo ngữ Toàn Diện (Complete & Partial Inversions: Negative, Place, Conditionals, So/Neither)\", câu nào sau đây CHÍNH XÁC?",
       "options": [
-        "is",
-        "at the top of the hill stands an ancient castle.",
+        "castle. ancient an stands hill the of top the On",
         "On the top of the hill stands an ancient castle.",
-        "castle. ancient an stands hill the of top the On"
+        "is",
+        "at the top of the hill stands an ancient castle."
       ],
       "correctAnswer": "On the top of the hill stands an ancient castle.",
       "explanationVi": "Cấu trúc chuẩn xác là: \"On the top of the hill stands an ancient castle.\" (Trên đỉnh ngọn đồi sừng sững một tòa lâu đài cổ kính.)."
@@ -313,8 +313,8 @@
       "promptVi": "[Nhận diện cấu trúc chuẩn] Chọn câu có cấu trúc ngữ pháp HOÀN TOÀN ĐÚNG:",
       "question": "Dựa vào chủ điểm \"Bài 75: Cấu trúc Đảo ngữ Toàn Diện (Complete & Partial Inversions: Negative, Place, Conditionals, So/Neither)\", câu nào sau đây CHÍNH XÁC?",
       "options": [
-        "brother. my does so and music, classical like I",
         "I like classical music, and so does my brother.",
+        "brother. my does so and music, classical like I",
         "is",
         "are"
       ],
@@ -328,10 +328,10 @@
       "audioPrompt": "Ladies and gentlemen! Under no circumstances did our submarine crew compromise on crew safety.",
       "question": "Nhấn nút '🔊 Nghe audio' và chọn nghĩa tiếng Việt đúng:",
       "options": [
-        "Hiếm khi các nhà sinh vật học biển ghi nhận được những loài phát quang sinh học đáng kinh ngạc như vậy ở độ sâu năm nghìn mét. (Seldom have...)",
         "Hôm nay thời tiết rất đẹp.",
-        "Kính thưa quý vị! Trong bất kỳ hoàn cảnh nào đội tàu ngầm của chúng tôi cũng không thỏa hiệp về an toàn của thủy thủ đoàn. (Under no circumstances did...)",
-        "Cánh tay robot biển sâu vừa chạm vào miệng phun thủy nhiệt thì chuông báo cảm biến đã reo vang. (Hardly had... when...)"
+        "Cánh tay robot biển sâu vừa chạm vào miệng phun thủy nhiệt thì chuông báo cảm biến đã reo vang. (Hardly had... when...)",
+        "Hiếm khi các nhà sinh vật học biển ghi nhận được những loài phát quang sinh học đáng kinh ngạc như vậy ở độ sâu năm nghìn mét. (Seldom have...)",
+        "Kính thưa quý vị! Trong bất kỳ hoàn cảnh nào đội tàu ngầm của chúng tôi cũng không thỏa hiệp về an toàn của thủy thủ đoàn. (Under no circumstances did...)"
       ],
       "correctAnswer": "Kính thưa quý vị! Trong bất kỳ hoàn cảnh nào đội tàu ngầm của chúng tôi cũng không thỏa hiệp về an toàn của thủy thủ đoàn. (Under no circumstances did...)",
       "explanationVi": "Câu nghe được: \"Ladies and gentlemen! Under no circumstances did our submarine crew compromise on crew safety.\" có nghĩa là: \"Kính thưa quý vị! Trong bất kỳ hoàn cảnh nào đội tàu ngầm của chúng tôi cũng không thỏa hiệp về an toàn của thủy thủ đoàn. (Under no circumstances did...)\"."
@@ -343,10 +343,10 @@
       "audioPrompt": "Seldom have marine biologists documented such astonishing bioluminescent species at five thousand meters.",
       "question": "Nhấn nút '🔊 Nghe audio' và chọn nghĩa tiếng Việt đúng:",
       "options": [
-        "Hiếm khi các nhà sinh vật học biển ghi nhận được những loài phát quang sinh học đáng kinh ngạc như vậy ở độ sâu năm nghìn mét. (Seldom have...)",
         "Hôm nay thời tiết rất đẹp.",
         "Ngay khi máy quay robot vừa bắt đầu ghi hình thì một con mực trong suốt khổng lồ đã bơi ngang qua. (No sooner had... than...)",
-        "Cánh tay robot biển sâu vừa chạm vào miệng phun thủy nhiệt thì chuông báo cảm biến đã reo vang. (Hardly had... when...)"
+        "Cánh tay robot biển sâu vừa chạm vào miệng phun thủy nhiệt thì chuông báo cảm biến đã reo vang. (Hardly had... when...)",
+        "Hiếm khi các nhà sinh vật học biển ghi nhận được những loài phát quang sinh học đáng kinh ngạc như vậy ở độ sâu năm nghìn mét. (Seldom have...)"
       ],
       "correctAnswer": "Hiếm khi các nhà sinh vật học biển ghi nhận được những loài phát quang sinh học đáng kinh ngạc như vậy ở độ sâu năm nghìn mét. (Seldom have...)",
       "explanationVi": "Câu nghe được: \"Seldom have marine biologists documented such astonishing bioluminescent species at five thousand meters.\" có nghĩa là: \"Hiếm khi các nhà sinh vật học biển ghi nhận được những loài phát quang sinh học đáng kinh ngạc như vậy ở độ sâu năm nghìn mét. (Seldom have...)\"."
@@ -358,10 +358,10 @@
       "audioPrompt": "Hardly had the deep-sea robotic arm touched the hydrothermal vent when sensor alarms beeped.",
       "question": "Nhấn nút '🔊 Nghe audio' và chọn nghĩa tiếng Việt đúng:",
       "options": [
+        "Cánh tay robot biển sâu vừa chạm vào miệng phun thủy nhiệt thì chuông báo cảm biến đã reo vang. (Hardly had... when...)",
         "Hôm nay thời tiết rất đẹp.",
         "Lặn sâu xuống rãnh biển tối tăm là con tàu titan của chúng tôi, bất chấp áp suất thủy tĩnh dữ dội. (Đảo ngữ toàn bộ: Down into... descended our vessel)",
-        "Ngay khi máy quay robot vừa bắt đầu ghi hình thì một con mực trong suốt khổng lồ đã bơi ngang qua. (No sooner had... than...)",
-        "Cánh tay robot biển sâu vừa chạm vào miệng phun thủy nhiệt thì chuông báo cảm biến đã reo vang. (Hardly had... when...)"
+        "Ngay khi máy quay robot vừa bắt đầu ghi hình thì một con mực trong suốt khổng lồ đã bơi ngang qua. (No sooner had... than...)"
       ],
       "correctAnswer": "Cánh tay robot biển sâu vừa chạm vào miệng phun thủy nhiệt thì chuông báo cảm biến đã reo vang. (Hardly had... when...)",
       "explanationVi": "Câu nghe được: \"Hardly had the deep-sea robotic arm touched the hydrothermal vent when sensor alarms beeped.\" có nghĩa là: \"Cánh tay robot biển sâu vừa chạm vào miệng phun thủy nhiệt thì chuông báo cảm biến đã reo vang. (Hardly had... when...)\"."
@@ -424,10 +424,10 @@
       "passage": "Expedition Leader: \"Ladies and gentlemen! Under no circumstances did our submarine crew compromise on crew safety.\"\nJournalist Elena: \"Seldom have marine biologists documented such astonishing bioluminescent species at five thousand meters.\"\nExpedition Leader: \"Hardly had the deep-sea robotic arm touched the hydrothermal vent when sensor alarms beeped.\"\nJournalist Elena: \"No sooner had the robotic camera begun recording than a giant transparent squid swam by.\"",
       "question": "Dựa vào đoạn đối thoại trên, thông tin nào sau đây là CHÍNH XÁC về nội dung câu nói của Expedition Leader?",
       "options": [
-        "Expedition Leader chia sẻ thông tin: \"Kính thưa quý vị! Trong bất kỳ hoàn cảnh nào đội tàu ngầm của chúng tôi cũng không thỏa hiệp về an toàn của thủy thủ đoàn. (Under no circumstances did...)\"",
+        "Expedition Leader muốn mượn tiền để mua vé máy bay gấp.",
         "Expedition Leader phàn nàn rằng thời tiết hôm nay quá xấu.",
-        "Expedition Leader từ chối trả lời và yêu cầu hủy cuộc hẹn.",
-        "Expedition Leader muốn mượn tiền để mua vé máy bay gấp."
+        "Expedition Leader chia sẻ thông tin: \"Kính thưa quý vị! Trong bất kỳ hoàn cảnh nào đội tàu ngầm của chúng tôi cũng không thỏa hiệp về an toàn của thủy thủ đoàn. (Under no circumstances did...)\"",
+        "Expedition Leader từ chối trả lời và yêu cầu hủy cuộc hẹn."
       ],
       "correctAnswer": "Expedition Leader chia sẻ thông tin: \"Kính thưa quý vị! Trong bất kỳ hoàn cảnh nào đội tàu ngầm của chúng tôi cũng không thỏa hiệp về an toàn của thủy thủ đoàn. (Under no circumstances did...)\"",
       "explanationVi": "Trong đoạn hội thoại, Expedition Leader đã nói: \"Ladies and gentlemen! Under no circumstances did our submarine crew compromise on crew safety.\" (nghĩa là: \"Kính thưa quý vị! Trong bất kỳ hoàn cảnh nào đội tàu ngầm của chúng tôi cũng không thỏa hiệp về an toàn của thủy thủ đoàn. (Under no circumstances did...)\")."

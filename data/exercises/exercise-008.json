@@ -10,10 +10,10 @@
       "promptVi": "[Trắc nghiệm ngữ pháp] Chọn từ đúng để hoàn thành câu (Tôi đã ở nhà ngày hôm qua.):",
       "question": "I ___ at home yesterday.",
       "options": [
-        "was",
         "be",
+        "am",
         "were",
-        "am"
+        "was"
       ],
       "correctAnswer": "was",
       "explanationVi": "Chủ ngữ 'I' ở thời quá khứ đi với động từ 'was'."
@@ -24,9 +24,9 @@
       "promptVi": "[Trắc nghiệm ngữ pháp] Chọn từ đúng để hoàn thành câu (Cô ấy đã rất vui tối qua.):",
       "question": "She ___ very happy last night.",
       "options": [
+        "been",
         "was",
         "were",
-        "been",
         "is"
       ],
       "correctAnswer": "was",
@@ -40,8 +40,8 @@
       "options": [
         "are",
         "be",
-        "were",
-        "was"
+        "was",
+        "were"
       ],
       "correctAnswer": "were",
       "explanationVi": "Chủ ngữ số nhiều 'They' ở quá khứ đi với 'were'."
@@ -66,10 +66,10 @@
       "promptVi": "[Phản xạ dịch thuật] Dịch câu sau sang tiếng Anh: \"Chào Elena! Chiều qua bạn đã ở đâu vậy?\"",
       "question": "Chọn bản dịch chuẩn xác nhất cho câu: \"Chào Elena! Chiều qua bạn đã ở đâu vậy?\"",
       "options": [
-        "Hi Elena! Where be you yesterday afternoon?",
         "We are studying English today.",
-        "Hi Elena! Where were you yesterday afternoon?",
-        "I was at the library with my friends."
+        "I was at the library with my friends.",
+        "Hi Elena! Where be you yesterday afternoon?",
+        "Hi Elena! Where were you yesterday afternoon?"
       ],
       "correctAnswer": "Hi Elena! Where were you yesterday afternoon?",
       "explanationVi": "Câu dịch chuẩn xác: \"Hi Elena! Where were you yesterday afternoon?\" (Chào Elena! Chiều qua bạn đã ở đâu vậy?)."
@@ -80,10 +80,10 @@
       "promptVi": "[Ngữ cảnh giao tiếp] Chọn câu phản hồi tự nhiên và đúng ngữ pháp:",
       "question": "Khi đối phương nói: \"Hi Elena! Where were you yesterday afternoon?\", câu phản hồi phù hợp là gì?",
       "options": [
-        "No, it was yesterday.",
         "I was at the library with my friends.",
-        "Yes, I will eat it.",
-        "They are not in the office."
+        "They are not in the office.",
+        "No, it was yesterday.",
+        "Yes, I will eat it."
       ],
       "correctAnswer": "I was at the library with my friends.",
       "explanationVi": "Phản hồi phù hợp trong bài: \"I was at the library with my friends.\" (Tôi đã ở thư viện cùng với các bạn của tôi.)."
@@ -95,10 +95,10 @@
       "question": "I ___ at home yesterday.",
       "correctAnswer": "was",
       "options": [
-        "were",
-        "am",
         "be",
-        "was"
+        "was",
+        "were",
+        "am"
       ],
       "explanationVi": "Đáp án đúng là \"was\". Câu hoàn chỉnh: \"I was at home yesterday.\" (Tôi đã ở nhà ngày hôm qua.)."
     },
@@ -109,10 +109,10 @@
       "question": "She ___ very happy last night.",
       "correctAnswer": "was",
       "options": [
-        "is",
-        "were",
         "been",
-        "was"
+        "is",
+        "was",
+        "were"
       ],
       "explanationVi": "Đáp án đúng là \"was\". Câu hoàn chỉnh: \"She was very happy last night.\" (Cô ấy đã rất vui tối qua.)."
     },
@@ -123,8 +123,8 @@
       "question": "They ___ late for school.",
       "correctAnswer": "were",
       "options": [
-        "was",
         "were",
+        "was",
         "be",
         "are"
       ],
@@ -137,10 +137,10 @@
       "question": "The weather ___ beautiful last week.",
       "correctAnswer": "was",
       "options": [
-        "was",
-        "were",
         "are",
-        "is"
+        "is",
+        "were",
+        "was"
       ],
       "explanationVi": "Đáp án đúng là \"was\". Câu hoàn chỉnh: \"The weather was beautiful last week.\" (Thời tiết đã rất đẹp tuần trước.)."
     },
@@ -151,10 +151,10 @@
       "question": "I _____ not at home yesterday.",
       "correctAnswer": "was",
       "options": [
+        "am",
         "are",
-        "was",
         "is",
-        "am"
+        "was"
       ],
       "explanationVi": "Câu phủ định hoàn chỉnh: \"I was not at home yesterday.\"."
     },
@@ -164,11 +164,11 @@
       "promptVi": "[Sắp xếp câu] Ghép các khối từ thành câu hoàn chỉnh mang nghĩa: \"Tôi đã ở nhà ngày hôm qua.\"",
       "question": "Sắp xếp các từ để tạo thành câu đúng: \"Tôi đã ở nhà ngày hôm qua.\"",
       "words": [
-        "home",
         "at",
         "I",
+        "was",
         "yesterday.",
-        "was"
+        "home"
       ],
       "correctSentence": "I was at home yesterday.",
       "hintVi": "Tôi đã ở nhà ngày hôm qua.",
@@ -180,12 +180,12 @@
       "promptVi": "[Sắp xếp câu] Ghép các khối từ thành câu hoàn chỉnh mang nghĩa: \"Cô ấy đã rất vui tối qua.\"",
       "question": "Sắp xếp các từ để tạo thành câu đúng: \"Cô ấy đã rất vui tối qua.\"",
       "words": [
+        "happy",
         "night.",
-        "very",
         "last",
         "was",
-        "She",
-        "happy"
+        "very",
+        "She"
       ],
       "correctSentence": "She was very happy last night.",
       "hintVi": "Cô ấy đã rất vui tối qua.",
@@ -197,11 +197,11 @@
       "promptVi": "[Sắp xếp câu] Ghép các khối từ thành câu hoàn chỉnh mang nghĩa: \"Họ đã bị trễ học.\"",
       "question": "Sắp xếp các từ để tạo thành câu đúng: \"Họ đã bị trễ học.\"",
       "words": [
-        "for",
         "school.",
-        "were",
+        "for",
         "They",
-        "late"
+        "late",
+        "were"
       ],
       "correctSentence": "They were late for school.",
       "hintVi": "Họ đã bị trễ học.",
@@ -215,9 +215,9 @@
       "words": [
         "last",
         "week.",
-        "weather",
         "was",
         "beautiful",
+        "weather",
         "The"
       ],
       "correctSentence": "The weather was beautiful last week.",
@@ -230,12 +230,12 @@
       "promptVi": "[Sắp xếp câu] Ghép các từ thành câu hội thoại: \"Thư viện có yên tĩnh và thoải mái không?\"",
       "question": "Sắp xếp các từ để tạo thành câu thoại: \"Thư viện có yên tĩnh và thoải mái không?\"",
       "words": [
-        "comfortable",
-        "library",
-        "Was",
         "and",
+        "quiet",
+        "library",
         "the",
-        "quiet"
+        "Was",
+        "comfortable"
       ],
       "correctSentence": "Was the library quiet and comfortable?",
       "hintVi": "Thư viện có yên tĩnh và thoải mái không?",
@@ -249,8 +249,8 @@
       "options": [
         "is",
         "I be at home yesterday.",
-        "I was at home yesterday.",
-        "yesterday. home at was I"
+        "yesterday. home at was I",
+        "I was at home yesterday."
       ],
       "correctAnswer": "I was at home yesterday.",
       "explanationVi": "Cấu trúc chuẩn xác là: \"I was at home yesterday.\" (Tôi đã ở nhà ngày hôm qua.)."
@@ -261,10 +261,10 @@
       "promptVi": "[Nhận diện cấu trúc chuẩn] Chọn câu có cấu trúc ngữ pháp HOÀN TOÀN ĐÚNG:",
       "question": "Dựa vào chủ điểm \"Bài 8: Động từ To Be — Quá khứ Đơn (Was / Were - Trạng thái & Vị trí quá khứ)\", câu nào sau đây CHÍNH XÁC?",
       "options": [
-        "She was very happy last night.",
         "night. last happy very was She",
+        "is",
         "She be very happy last night.",
-        "is"
+        "She was very happy last night."
       ],
       "correctAnswer": "She was very happy last night.",
       "explanationVi": "Cấu trúc chuẩn xác là: \"She was very happy last night.\" (Cô ấy đã rất vui tối qua.)."
@@ -275,10 +275,10 @@
       "promptVi": "[Nhận diện cấu trúc chuẩn] Chọn câu có cấu trúc ngữ pháp HOÀN TOÀN ĐÚNG:",
       "question": "Dựa vào chủ điểm \"Bài 8: Động từ To Be — Quá khứ Đơn (Was / Were - Trạng thái & Vị trí quá khứ)\", câu nào sau đây CHÍNH XÁC?",
       "options": [
-        "They be late for school.",
         "They were late for school.",
-        "They were late at school.",
-        "school. for late were They"
+        "They be late for school.",
+        "school. for late were They",
+        "They were late at school."
       ],
       "correctAnswer": "They were late for school.",
       "explanationVi": "Cấu trúc chuẩn xác là: \"They were late for school.\" (Họ đã bị trễ học.)."
@@ -290,9 +290,9 @@
       "question": "Dựa vào chủ điểm \"Bài 8: Động từ To Be — Quá khứ Đơn (Was / Were - Trạng thái & Vị trí quá khứ)\", câu nào sau đây CHÍNH XÁC?",
       "options": [
         "The weather be beautiful last week.",
-        "week. last beautiful was weather The",
         "is",
-        "The weather was beautiful last week."
+        "The weather was beautiful last week.",
+        "week. last beautiful was weather The"
       ],
       "correctAnswer": "The weather was beautiful last week.",
       "explanationVi": "Cấu trúc chuẩn xác là: \"The weather was beautiful last week.\" (Thời tiết đã rất đẹp tuần trước.)."
@@ -304,10 +304,10 @@
       "audioPrompt": "Hi Elena! Where were you yesterday afternoon?",
       "question": "Nhấn nút '🔊 Nghe audio' và chọn nghĩa tiếng Việt đúng:",
       "options": [
-        "Tôi đã ở thư viện cùng với các bạn của tôi.",
+        "Chào Elena! Chiều qua bạn đã ở đâu vậy?",
         "Thư viện có yên tĩnh và thoải mái không?",
         "Hôm nay thời tiết rất đẹp.",
-        "Chào Elena! Chiều qua bạn đã ở đâu vậy?"
+        "Tôi đã ở thư viện cùng với các bạn của tôi."
       ],
       "correctAnswer": "Chào Elena! Chiều qua bạn đã ở đâu vậy?",
       "explanationVi": "Câu nghe được: \"Hi Elena! Where were you yesterday afternoon?\" có nghĩa là: \"Chào Elena! Chiều qua bạn đã ở đâu vậy?\"."
@@ -319,10 +319,10 @@
       "audioPrompt": "I was at the library with my friends.",
       "question": "Nhấn nút '🔊 Nghe audio' và chọn nghĩa tiếng Việt đúng:",
       "options": [
-        "Tôi đã ở thư viện cùng với các bạn của tôi.",
-        "Thư viện có yên tĩnh và thoải mái không?",
         "Hôm nay thời tiết rất đẹp.",
-        "Có, nó rất yên tĩnh. Chúng tôi đã ở đó trong ba tiếng đồng hồ."
+        "Có, nó rất yên tĩnh. Chúng tôi đã ở đó trong ba tiếng đồng hồ.",
+        "Thư viện có yên tĩnh và thoải mái không?",
+        "Tôi đã ở thư viện cùng với các bạn của tôi."
       ],
       "correctAnswer": "Tôi đã ở thư viện cùng với các bạn của tôi.",
       "explanationVi": "Câu nghe được: \"I was at the library with my friends.\" có nghĩa là: \"Tôi đã ở thư viện cùng với các bạn của tôi.\"."
@@ -334,10 +334,10 @@
       "audioPrompt": "Was the library quiet and comfortable?",
       "question": "Nhấn nút '🔊 Nghe audio' và chọn nghĩa tiếng Việt đúng:",
       "options": [
-        "Thư viện có yên tĩnh và thoải mái không?",
-        "Có, nó rất yên tĩnh. Chúng tôi đã ở đó trong ba tiếng đồng hồ.",
         "Bạn có mệt sau khi học không?",
-        "Hôm nay thời tiết rất đẹp."
+        "Hôm nay thời tiết rất đẹp.",
+        "Thư viện có yên tĩnh và thoải mái không?",
+        "Có, nó rất yên tĩnh. Chúng tôi đã ở đó trong ba tiếng đồng hồ."
       ],
       "correctAnswer": "Thư viện có yên tĩnh và thoải mái không?",
       "explanationVi": "Câu nghe được: \"Was the library quiet and comfortable?\" có nghĩa là: \"Thư viện có yên tĩnh và thoải mái không?\"."
@@ -349,9 +349,9 @@
       "audioPrompt": "Yes, it was very quiet. We were there for three hours.",
       "question": "Nhấn nút '🔊 Nghe audio' và chọn nghĩa tiếng Việt đúng:",
       "options": [
+        "Bạn có mệt sau khi học không?",
         "Hôm nay thời tiết rất đẹp.",
         "Có, nó rất yên tĩnh. Chúng tôi đã ở đó trong ba tiếng đồng hồ.",
-        "Bạn có mệt sau khi học không?",
         "Không, tôi không mệt. Tôi đã rất vui!"
       ],
       "correctAnswer": "Có, nó rất yên tĩnh. Chúng tôi đã ở đó trong ba tiếng đồng hồ.",
@@ -401,9 +401,9 @@
       "question": "Dựa vào đoạn đối thoại trên, thông tin nào sau đây là CHÍNH XÁC về nội dung câu nói của Nam?",
       "options": [
         "Nam chia sẻ thông tin: \"Chào Elena! Chiều qua bạn đã ở đâu vậy?\"",
-        "Nam muốn mượn tiền để mua vé máy bay gấp.",
         "Nam phàn nàn rằng thời tiết hôm nay quá xấu.",
-        "Nam từ chối trả lời và yêu cầu hủy cuộc hẹn."
+        "Nam từ chối trả lời và yêu cầu hủy cuộc hẹn.",
+        "Nam muốn mượn tiền để mua vé máy bay gấp."
       ],
       "correctAnswer": "Nam chia sẻ thông tin: \"Chào Elena! Chiều qua bạn đã ở đâu vậy?\"",
       "explanationVi": "Trong đoạn hội thoại, Nam đã nói: \"Hi Elena! Where were you yesterday afternoon?\" (nghĩa là: \"Chào Elena! Chiều qua bạn đã ở đâu vậy?\")."
@@ -415,10 +415,10 @@
       "passage": "Nam: \"Was the library quiet and comfortable?\"\nElena: \"Yes, it was very quiet. We were there for three hours.\"\nNam: \"Were you tired after studying?\"\nElena: \"No, I was not tired. I was very happy!\"",
       "question": "Trong đoạn hội thoại trên, câu nói \"No, I was not tired. I was very happy!\" của Elena mang ý nghĩa gì?",
       "options": [
-        "Phản hồi: \"Không, tôi không mệt. Tôi đã rất vui!\"",
         "Phản hồi: \"Hoàn toàn không đồng ý và muốn rời khỏi phòng ngay lập tức\"",
+        "Phản hồi: \"Yêu cầu cung cấp hóa đơn thanh toán tiền mặt\"",
         "Phản hồi: \"Hẹn gặp lại vào cuối tuần sau tại sân bay quốc tế\"",
-        "Phản hồi: \"Yêu cầu cung cấp hóa đơn thanh toán tiền mặt\""
+        "Phản hồi: \"Không, tôi không mệt. Tôi đã rất vui!\""
       ],
       "correctAnswer": "Phản hồi: \"Không, tôi không mệt. Tôi đã rất vui!\"",
       "explanationVi": "Elena nói: \"No, I was not tired. I was very happy!\" có nghĩa là: \"Không, tôi không mệt. Tôi đã rất vui!\"."

@@ -25,9 +25,9 @@
       "question": "___ you listening to me?",
       "options": [
         "Have",
-        "Are",
+        "Is",
         "Do",
-        "Is"
+        "Are"
       ],
       "correctAnswer": "Are",
       "explanationVi": "Chủ ngữ 'you' với 'listening' dùng 'Are'."
@@ -38,10 +38,10 @@
       "promptVi": "[Trắc nghiệm ngữ pháp] Chọn từ đúng để hoàn thành câu (Bạn đang làm gì vào thời điểm này vậy?):",
       "question": "___ are you doing at the moment?",
       "options": [
-        "What",
-        "Who",
+        "Where",
         "When",
-        "Where"
+        "Who",
+        "What"
       ],
       "correctAnswer": "What",
       "explanationVi": "Hỏi hành động 'đang làm gì' dùng 'What'."
@@ -52,9 +52,9 @@
       "promptVi": "[Trắc nghiệm ngữ pháp] Chọn từ đúng để hoàn thành câu (Cô ấy đang đi đâu ngay lúc này?):",
       "question": "Where ___ she going right now?",
       "options": [
+        "am",
         "is",
         "are",
-        "am",
         "does"
       ],
       "correctAnswer": "is",
@@ -66,9 +66,9 @@
       "promptVi": "[Phản xạ dịch thuật] Dịch câu sau sang tiếng Anh: \"Chào Claire, bạn có đang làm việc trên dự án thiết kế lúc này không?\"",
       "question": "Chọn bản dịch chuẩn xác nhất cho câu: \"Chào Claire, bạn có đang làm việc trên dự án thiết kế lúc này không?\"",
       "options": [
-        "No, I am not working on design. I am checking customer emails.",
         "Hello Claire, are you working on the design project right now?",
         "Hello Claire, be you working on the design project right now?",
+        "No, I am not working on design. I am checking customer emails.",
         "We are studying English today."
       ],
       "correctAnswer": "Hello Claire, are you working on the design project right now?",
@@ -82,8 +82,8 @@
       "options": [
         "Yes, I will eat it.",
         "No, it was yesterday.",
-        "They are not in the office.",
-        "No, I am not working on design. I am checking customer emails."
+        "No, I am not working on design. I am checking customer emails.",
+        "They are not in the office."
       ],
       "correctAnswer": "No, I am not working on design. I am checking customer emails.",
       "explanationVi": "Phản hồi phù hợp trong bài: \"No, I am not working on design. I am checking customer emails.\" (Không, tôi không làm thiết kế. Tôi đang kiểm tra email của khách hàng.)."
@@ -95,9 +95,9 @@
       "question": "He ___ sleeping right now.",
       "correctAnswer": "isn't",
       "options": [
+        "not",
         "isn't",
         "doesn't",
-        "not",
         "aren't"
       ],
       "explanationVi": "Đáp án đúng là \"isn't\". Câu hoàn chỉnh: \"He isn't sleeping right now.\" (Anh ấy không đang ngủ lúc này.)."
@@ -123,10 +123,10 @@
       "question": "___ are you doing at the moment?",
       "correctAnswer": "What",
       "options": [
-        "Who",
         "Where",
         "When",
-        "What"
+        "What",
+        "Who"
       ],
       "explanationVi": "Đáp án đúng là \"What\". Câu hoàn chỉnh: \"What are you doing at the moment?\" (Bạn đang làm gì vào thời điểm này vậy?)."
     },
@@ -137,9 +137,9 @@
       "question": "Where ___ she going right now?",
       "correctAnswer": "is",
       "options": [
+        "is",
         "are",
         "am",
-        "is",
         "does"
       ],
       "explanationVi": "Đáp án đúng là \"is\". Câu hoàn chỉnh: \"Where is she going right now?\" (Cô ấy đang đi đâu ngay lúc này?)."
@@ -151,10 +151,10 @@
       "question": "He _____ not sleeping right now.",
       "correctAnswer": "isn't",
       "options": [
-        "is",
         "am",
+        "isn't",
         "are",
-        "isn't"
+        "is"
       ],
       "explanationVi": "Câu phủ định hoàn chỉnh: \"He isn't not sleeping right now.\"."
     },
@@ -164,11 +164,11 @@
       "promptVi": "[Sắp xếp câu] Ghép các khối từ thành câu hoàn chỉnh mang nghĩa: \"Anh ấy không đang ngủ lúc này.\"",
       "question": "Sắp xếp các từ để tạo thành câu đúng: \"Anh ấy không đang ngủ lúc này.\"",
       "words": [
-        "now.",
         "isn't",
-        "He",
         "sleeping",
-        "right"
+        "right",
+        "He",
+        "now."
       ],
       "correctSentence": "He isn't sleeping right now.",
       "hintVi": "Anh ấy không đang ngủ lúc này.",
@@ -180,11 +180,11 @@
       "promptVi": "[Sắp xếp câu] Ghép các khối từ thành câu hoàn chỉnh mang nghĩa: \"Bạn có đang lắng nghe tôi không?\"",
       "question": "Sắp xếp các từ để tạo thành câu đúng: \"Bạn có đang lắng nghe tôi không?\"",
       "words": [
-        "listening",
         "me?",
-        "Are",
+        "to",
         "you",
-        "to"
+        "Are",
+        "listening"
       ],
       "correctSentence": "Are you listening to me?",
       "hintVi": "Bạn có đang lắng nghe tôi không?",
@@ -196,13 +196,13 @@
       "promptVi": "[Sắp xếp câu] Ghép các khối từ thành câu hoàn chỉnh mang nghĩa: \"Bạn đang làm gì vào thời điểm này vậy?\"",
       "question": "Sắp xếp các từ để tạo thành câu đúng: \"Bạn đang làm gì vào thời điểm này vậy?\"",
       "words": [
-        "you",
-        "the",
-        "are",
-        "doing",
         "moment?",
+        "doing",
+        "the",
+        "at",
+        "you",
         "What",
-        "at"
+        "are"
       ],
       "correctSentence": "What are you doing at the moment?",
       "hintVi": "Bạn đang làm gì vào thời điểm này vậy?",
@@ -214,12 +214,12 @@
       "promptVi": "[Sắp xếp câu] Ghép các khối từ thành câu hoàn chỉnh mang nghĩa: \"Cô ấy đang đi đâu ngay lúc này?\"",
       "question": "Sắp xếp các từ để tạo thành câu đúng: \"Cô ấy đang đi đâu ngay lúc này?\"",
       "words": [
-        "now?",
-        "is",
-        "right",
         "she",
-        "Where",
-        "going"
+        "right",
+        "is",
+        "now?",
+        "going",
+        "Where"
       ],
       "correctSentence": "Where is she going right now?",
       "hintVi": "Cô ấy đang đi đâu ngay lúc này?",
@@ -231,16 +231,16 @@
       "promptVi": "[Sắp xếp câu] Ghép các từ thành câu hội thoại: \"Kevin có đang chuẩn bị slide thuyết trình trong phòng họp không?\"",
       "question": "Sắp xếp các từ để tạo thành câu thoại: \"Kevin có đang chuẩn bị slide thuyết trình trong phòng họp không?\"",
       "words": [
-        "room",
-        "preparing",
-        "the",
+        "Is",
         "slides",
+        "Kevin",
+        "room",
+        "presentation",
+        "conference",
+        "the",
         "the",
         "in",
-        "conference",
-        "presentation",
-        "Kevin",
-        "Is"
+        "preparing"
       ],
       "correctSentence": "Is Kevin preparing the presentation slides in the conference room?",
       "hintVi": "Kevin có đang chuẩn bị slide thuyết trình trong phòng họp không?",
@@ -252,9 +252,9 @@
       "promptVi": "[Nhận diện cấu trúc chuẩn] Chọn câu có cấu trúc ngữ pháp HOÀN TOÀN ĐÚNG:",
       "question": "Dựa vào chủ điểm \"Bài 18: Hiện tại Tiếp diễn — Phủ định, Câu hỏi Yes/No & Wh-\", câu nào sau đây CHÍNH XÁC?",
       "options": [
+        "He isn't sleeping right now.",
         "are",
         "now. right sleeping isn't He",
-        "He isn't sleeping right now.",
         "is"
       ],
       "correctAnswer": "He isn't sleeping right now.",
@@ -266,9 +266,9 @@
       "promptVi": "[Nhận diện cấu trúc chuẩn] Chọn câu có cấu trúc ngữ pháp HOÀN TOÀN ĐÚNG:",
       "question": "Dựa vào chủ điểm \"Bài 18: Hiện tại Tiếp diễn — Phủ định, Câu hỏi Yes/No & Wh-\", câu nào sau đây CHÍNH XÁC?",
       "options": [
-        "be you listening to me?",
         "Are you listening to me?",
         "Are you listening at me?",
+        "be you listening to me?",
         "me? to listening you Are"
       ],
       "correctAnswer": "Are you listening to me?",
@@ -280,10 +280,10 @@
       "promptVi": "[Nhận diện cấu trúc chuẩn] Chọn câu có cấu trúc ngữ pháp HOÀN TOÀN ĐÚNG:",
       "question": "Dựa vào chủ điểm \"Bài 18: Hiện tại Tiếp diễn — Phủ định, Câu hỏi Yes/No & Wh-\", câu nào sau đây CHÍNH XÁC?",
       "options": [
+        "What are you doing at the moment?",
         "What be you doing at the moment?",
         "moment? the at doing you are What",
-        "is",
-        "What are you doing at the moment?"
+        "is"
       ],
       "correctAnswer": "What are you doing at the moment?",
       "explanationVi": "Cấu trúc chuẩn xác là: \"What are you doing at the moment?\" (Bạn đang làm gì vào thời điểm này vậy?)."
@@ -295,9 +295,9 @@
       "question": "Dựa vào chủ điểm \"Bài 18: Hiện tại Tiếp diễn — Phủ định, Câu hỏi Yes/No & Wh-\", câu nào sau đây CHÍNH XÁC?",
       "options": [
         "is",
-        "now? right going she is Where",
+        "Where be she going right now?",
         "Where is she going right now?",
-        "Where be she going right now?"
+        "now? right going she is Where"
       ],
       "correctAnswer": "Where is she going right now?",
       "explanationVi": "Cấu trúc chuẩn xác là: \"Where is she going right now?\" (Cô ấy đang đi đâu ngay lúc này?)."
@@ -309,10 +309,10 @@
       "audioPrompt": "Hello Claire, are you working on the design project right now?",
       "question": "Nhấn nút '🔊 Nghe audio' và chọn nghĩa tiếng Việt đúng:",
       "options": [
-        "Kevin có đang chuẩn bị slide thuyết trình trong phòng họp không?",
-        "Hôm nay thời tiết rất đẹp.",
         "Chào Claire, bạn có đang làm việc trên dự án thiết kế lúc này không?",
-        "Không, tôi không làm thiết kế. Tôi đang kiểm tra email của khách hàng."
+        "Không, tôi không làm thiết kế. Tôi đang kiểm tra email của khách hàng.",
+        "Kevin có đang chuẩn bị slide thuyết trình trong phòng họp không?",
+        "Hôm nay thời tiết rất đẹp."
       ],
       "correctAnswer": "Chào Claire, bạn có đang làm việc trên dự án thiết kế lúc này không?",
       "explanationVi": "Câu nghe được: \"Hello Claire, are you working on the design project right now?\" có nghĩa là: \"Chào Claire, bạn có đang làm việc trên dự án thiết kế lúc này không?\"."
@@ -324,10 +324,10 @@
       "audioPrompt": "No, I am not working on design. I am checking customer emails.",
       "question": "Nhấn nút '🔊 Nghe audio' và chọn nghĩa tiếng Việt đúng:",
       "options": [
+        "Không, tôi không làm thiết kế. Tôi đang kiểm tra email của khách hàng.",
         "Kevin có đang chuẩn bị slide thuyết trình trong phòng họp không?",
         "Không, anh ấy không chuẩn bị slide. Anh ấy đang nói chuyện điện thoại với khách hàng mới.",
-        "Hôm nay thời tiết rất đẹp.",
-        "Không, tôi không làm thiết kế. Tôi đang kiểm tra email của khách hàng."
+        "Hôm nay thời tiết rất đẹp."
       ],
       "correctAnswer": "Không, tôi không làm thiết kế. Tôi đang kiểm tra email của khách hàng.",
       "explanationVi": "Câu nghe được: \"No, I am not working on design. I am checking customer emails.\" có nghĩa là: \"Không, tôi không làm thiết kế. Tôi đang kiểm tra email của khách hàng.\"."
@@ -339,10 +339,10 @@
       "audioPrompt": "Is Kevin preparing the presentation slides in the conference room?",
       "question": "Nhấn nút '🔊 Nghe audio' và chọn nghĩa tiếng Việt đúng:",
       "options": [
-        "Không, anh ấy không chuẩn bị slide. Anh ấy đang nói chuyện điện thoại với khách hàng mới.",
+        "Hôm nay thời tiết rất đẹp.",
         "Các thành viên nhóm tiếp thị đang làm gì vào thời điểm này vậy?",
-        "Kevin có đang chuẩn bị slide thuyết trình trong phòng họp không?",
-        "Hôm nay thời tiết rất đẹp."
+        "Không, anh ấy không chuẩn bị slide. Anh ấy đang nói chuyện điện thoại với khách hàng mới.",
+        "Kevin có đang chuẩn bị slide thuyết trình trong phòng họp không?"
       ],
       "correctAnswer": "Kevin có đang chuẩn bị slide thuyết trình trong phòng họp không?",
       "explanationVi": "Câu nghe được: \"Is Kevin preparing the presentation slides in the conference room?\" có nghĩa là: \"Kevin có đang chuẩn bị slide thuyết trình trong phòng họp không?\"."
@@ -355,9 +355,9 @@
       "question": "Nhấn nút '🔊 Nghe audio' và chọn nghĩa tiếng Việt đúng:",
       "options": [
         "Các thành viên nhóm tiếp thị đang làm gì vào thời điểm này vậy?",
-        "Họ đang phân tích lưu lượng truy cập trang web cho đợt ra mắt sản phẩm mới nhất.",
         "Không, anh ấy không chuẩn bị slide. Anh ấy đang nói chuyện điện thoại với khách hàng mới.",
-        "Hôm nay thời tiết rất đẹp."
+        "Hôm nay thời tiết rất đẹp.",
+        "Họ đang phân tích lưu lượng truy cập trang web cho đợt ra mắt sản phẩm mới nhất."
       ],
       "correctAnswer": "Không, anh ấy không chuẩn bị slide. Anh ấy đang nói chuyện điện thoại với khách hàng mới.",
       "explanationVi": "Câu nghe được: \"No, he isn't preparing slides. He is speaking with our new client on the phone.\" có nghĩa là: \"Không, anh ấy không chuẩn bị slide. Anh ấy đang nói chuyện điện thoại với khách hàng mới.\"."
@@ -405,10 +405,10 @@
       "passage": "Marcus: \"Hello Claire, are you working on the design project right now?\"\nClaire: \"No, I am not working on design. I am checking customer emails.\"\nMarcus: \"Is Kevin preparing the presentation slides in the conference room?\"\nClaire: \"No, he isn't preparing slides. He is speaking with our new client on the phone.\"",
       "question": "Dựa vào đoạn đối thoại trên, thông tin nào sau đây là CHÍNH XÁC về nội dung câu nói của Marcus?",
       "options": [
-        "Marcus muốn mượn tiền để mua vé máy bay gấp.",
-        "Marcus phàn nàn rằng thời tiết hôm nay quá xấu.",
         "Marcus chia sẻ thông tin: \"Chào Claire, bạn có đang làm việc trên dự án thiết kế lúc này không?\"",
-        "Marcus từ chối trả lời và yêu cầu hủy cuộc hẹn."
+        "Marcus phàn nàn rằng thời tiết hôm nay quá xấu.",
+        "Marcus từ chối trả lời và yêu cầu hủy cuộc hẹn.",
+        "Marcus muốn mượn tiền để mua vé máy bay gấp."
       ],
       "correctAnswer": "Marcus chia sẻ thông tin: \"Chào Claire, bạn có đang làm việc trên dự án thiết kế lúc này không?\"",
       "explanationVi": "Trong đoạn hội thoại, Marcus đã nói: \"Hello Claire, are you working on the design project right now?\" (nghĩa là: \"Chào Claire, bạn có đang làm việc trên dự án thiết kế lúc này không?\")."
@@ -421,9 +421,9 @@
       "question": "Trong đoạn hội thoại trên, câu nói \"She is going to the director's office on the third floor.\" của Claire mang ý nghĩa gì?",
       "options": [
         "Phản hồi: \"Yêu cầu cung cấp hóa đơn thanh toán tiền mặt\"",
+        "Phản hồi: \"Hoàn toàn không đồng ý và muốn rời khỏi phòng ngay lập tức\"",
         "Phản hồi: \"Cô ấy đang lên văn phòng giám đốc ở tầng ba.\"",
-        "Phản hồi: \"Hẹn gặp lại vào cuối tuần sau tại sân bay quốc tế\"",
-        "Phản hồi: \"Hoàn toàn không đồng ý và muốn rời khỏi phòng ngay lập tức\""
+        "Phản hồi: \"Hẹn gặp lại vào cuối tuần sau tại sân bay quốc tế\""
       ],
       "correctAnswer": "Phản hồi: \"Cô ấy đang lên văn phòng giám đốc ở tầng ba.\"",
       "explanationVi": "Claire nói: \"She is going to the director's office on the third floor.\" có nghĩa là: \"Cô ấy đang lên văn phòng giám đốc ở tầng ba.\"."

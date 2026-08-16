@@ -10,10 +10,10 @@
       "promptVi": "[Trắc nghiệm ngữ pháp] Chọn từ đúng để hoàn thành câu (Tôi đang nấu bữa tối thì chuông điện thoại reo.):",
       "question": "I was cooking dinner when the phone ___.",
       "options": [
-        "rang",
+        "was ringing",
         "rung",
-        "rings",
-        "was ringing"
+        "rang",
+        "rings"
       ],
       "correctAnswer": "rang",
       "explanationVi": "Hành động xen vào sau 'when' chia ở thì Quá khứ Đơn (rang)."
@@ -24,10 +24,10 @@
       "promptVi": "[Trắc nghiệm ngữ pháp] Chọn từ đúng để hoàn thành câu (Trong khi anh ấy đang lái xe về nhà, anh ấy đã nhìn thấy một vụ tai nạn.):",
       "question": "While he ___ home, he saw an accident.",
       "options": [
-        "was driving",
-        "is driving",
         "drove",
-        "drives"
+        "drives",
+        "was driving",
+        "is driving"
       ],
       "correctAnswer": "was driving",
       "explanationVi": "Sau 'While' diễn tả hành động đang diễn ra trong quá khứ dùng 'was driving'."
@@ -38,10 +38,10 @@
       "promptVi": "[Trắc nghiệm ngữ pháp] Chọn từ đúng để hoàn thành câu (Trời bắt đầu mưa trong khi chúng tôi đang đi dạo trong công viên.):",
       "question": "It started to rain while we were ___ in the park.",
       "options": [
-        "walking",
-        "walks",
+        "walk",
         "walked",
-        "walk"
+        "walking",
+        "walks"
       ],
       "correctAnswer": "walking",
       "explanationVi": "Sau 'were' dùng 'walking' trong thì Quá khứ Tiếp diễn."
@@ -53,9 +53,9 @@
       "question": "What ___ you doing when the power went out?",
       "options": [
         "were",
-        "are",
         "did",
-        "was"
+        "was",
+        "are"
       ],
       "correctAnswer": "were",
       "explanationVi": "Chủ ngữ 'you' đi với 'were' trong câu hỏi Quá khứ Tiếp diễn."
@@ -66,8 +66,8 @@
       "promptVi": "[Phản xạ dịch thuật] Dịch câu sau sang tiếng Anh: \"Tại sao bạn lại quấn băng trên cánh tay vậy Hannah?\"",
       "question": "Chọn bản dịch chuẩn xác nhất cho câu: \"Tại sao bạn lại quấn băng trên cánh tay vậy Hannah?\"",
       "options": [
-        "I fell off my bicycle while I was riding to the university yesterday.",
         "We are studying English today.",
+        "I fell off my bicycle while I was riding to the university yesterday.",
         "Why be you wearing a bandage on your arm, Hannah?",
         "Why are you wearing a bandage on your arm, Hannah?"
       ],
@@ -81,8 +81,8 @@
       "question": "Khi đối phương nói: \"Why are you wearing a bandage on your arm, Hannah?\", câu phản hồi phù hợp là gì?",
       "options": [
         "No, it was yesterday.",
-        "They are not in the office.",
         "Yes, I will eat it.",
+        "They are not in the office.",
         "I fell off my bicycle while I was riding to the university yesterday."
       ],
       "correctAnswer": "I fell off my bicycle while I was riding to the university yesterday.",
@@ -95,10 +95,10 @@
       "question": "I was cooking dinner when the phone ___.",
       "correctAnswer": "rang",
       "options": [
-        "rung",
-        "rang",
         "was ringing",
-        "rings"
+        "rings",
+        "rung",
+        "rang"
       ],
       "explanationVi": "Đáp án đúng là \"rang\". Câu hoàn chỉnh: \"I was cooking dinner when the phone rang.\" (Tôi đang nấu bữa tối thì chuông điện thoại reo.)."
     },
@@ -123,10 +123,10 @@
       "question": "It started to rain while we were ___ in the park.",
       "correctAnswer": "walking",
       "options": [
-        "walked",
         "walking",
-        "walks",
-        "walk"
+        "walked",
+        "walk",
+        "walks"
       ],
       "explanationVi": "Đáp án đúng là \"walking\". Câu hoàn chỉnh: \"It started to rain while we were walking in the park.\" (Trời bắt đầu mưa trong khi chúng tôi đang đi dạo trong công viên.)."
     },
@@ -137,10 +137,10 @@
       "question": "What ___ you doing when the power went out?",
       "correctAnswer": "were",
       "options": [
-        "are",
+        "was",
         "did",
         "were",
-        "was"
+        "are"
       ],
       "explanationVi": "Đáp án đúng là \"were\". Câu hoàn chỉnh: \"What were you doing when the power went out?\" (Bạn đang làm gì khi bị cúp điện?)."
     },
@@ -151,10 +151,10 @@
       "question": "I _____ not cooking dinner when the phone rang.",
       "correctAnswer": "was",
       "options": [
-        "is",
-        "was",
+        "am",
         "are",
-        "am"
+        "is",
+        "was"
       ],
       "explanationVi": "Câu phủ định hoàn chỉnh: \"I was not cooking dinner when the phone rang.\"."
     },
@@ -164,14 +164,14 @@
       "promptVi": "[Sắp xếp câu] Ghép các khối từ thành câu hoàn chỉnh mang nghĩa: \"Tôi đang nấu bữa tối thì chuông điện thoại reo.\"",
       "question": "Sắp xếp các từ để tạo thành câu đúng: \"Tôi đang nấu bữa tối thì chuông điện thoại reo.\"",
       "words": [
-        "rang.",
-        "the",
-        "cooking",
-        "when",
         "I",
-        "phone",
         "dinner",
-        "was"
+        "when",
+        "cooking",
+        "rang.",
+        "phone",
+        "was",
+        "the"
       ],
       "correctSentence": "I was cooking dinner when the phone rang.",
       "hintVi": "Tôi đang nấu bữa tối thì chuông điện thoại reo.",
@@ -183,15 +183,15 @@
       "promptVi": "[Sắp xếp câu] Ghép các khối từ thành câu hoàn chỉnh mang nghĩa: \"Trong khi anh ấy đang lái xe về nhà, anh ấy đã nhìn thấy một vụ tai nạn.\"",
       "question": "Sắp xếp các từ để tạo thành câu đúng: \"Trong khi anh ấy đang lái xe về nhà, anh ấy đã nhìn thấy một vụ tai nạn.\"",
       "words": [
-        "home,",
-        "saw",
-        "an",
-        "he",
+        "driving",
         "he",
         "accident.",
-        "was",
+        "home,",
+        "an",
+        "saw",
         "While",
-        "driving"
+        "he",
+        "was"
       ],
       "correctSentence": "While he was driving home, he saw an accident.",
       "hintVi": "Trong khi anh ấy đang lái xe về nhà, anh ấy đã nhìn thấy một vụ tai nạn.",
@@ -203,17 +203,17 @@
       "promptVi": "[Sắp xếp câu] Ghép các khối từ thành câu hoàn chỉnh mang nghĩa: \"Trời bắt đầu mưa trong khi chúng tôi đang đi dạo trong công viên.\"",
       "question": "Sắp xếp các từ để tạo thành câu đúng: \"Trời bắt đầu mưa trong khi chúng tôi đang đi dạo trong công viên.\"",
       "words": [
-        "while",
-        "were",
-        "park.",
-        "walking",
+        "we",
         "rain",
-        "the",
-        "It",
-        "to",
-        "started",
+        "were",
+        "walking",
+        "while",
         "in",
-        "we"
+        "started",
+        "to",
+        "the",
+        "park.",
+        "It"
       ],
       "correctSentence": "It started to rain while we were walking in the park.",
       "hintVi": "Trời bắt đầu mưa trong khi chúng tôi đang đi dạo trong công viên.",
@@ -225,15 +225,15 @@
       "promptVi": "[Sắp xếp câu] Ghép các khối từ thành câu hoàn chỉnh mang nghĩa: \"Bạn đang làm gì khi bị cúp điện?\"",
       "question": "Sắp xếp các từ để tạo thành câu đúng: \"Bạn đang làm gì khi bị cúp điện?\"",
       "words": [
+        "power",
         "out?",
         "What",
-        "doing",
-        "the",
-        "were",
-        "went",
-        "you",
         "when",
-        "power"
+        "went",
+        "doing",
+        "were",
+        "the",
+        "you"
       ],
       "correctSentence": "What were you doing when the power went out?",
       "hintVi": "Bạn đang làm gì khi bị cúp điện?",
@@ -245,18 +245,18 @@
       "promptVi": "[Sắp xếp câu] Ghép các từ thành câu hội thoại: \"Ôi không! Chuyện gì đã xảy ra vậy? Bạn có đang đi quá nhanh dọc theo con phố không?\"",
       "question": "Sắp xếp các từ để tạo thành câu thoại: \"Ôi không! Chuyện gì đã xảy ra vậy? Bạn có đang đi quá nhanh dọc theo con phố không?\"",
       "words": [
-        "no",
+        "too",
         "happened",
         "Were",
-        "Oh",
+        "you",
         "What",
+        "street",
+        "no",
         "riding",
         "fast",
-        "along",
-        "too",
-        "street",
         "the",
-        "you"
+        "Oh",
+        "along"
       ],
       "correctSentence": "Oh no! What happened? Were you riding too fast along the street?",
       "hintVi": "Ôi không! Chuyện gì đã xảy ra vậy? Bạn có đang đi quá nhanh dọc theo con phố không?",
@@ -268,10 +268,10 @@
       "promptVi": "[Nhận diện cấu trúc chuẩn] Chọn câu có cấu trúc ngữ pháp HOÀN TOÀN ĐÚNG:",
       "question": "Dựa vào chủ điểm \"Bài 29: Quá khứ Tiếp diễn — Kết hợp với Quá khứ Đơn (When / While)\", câu nào sau đây CHÍNH XÁC?",
       "options": [
-        "rang. phone the when dinner cooking was I",
-        "I be cooking dinner when the phone rang.",
         "I was cooking dinner when the phone rang.",
-        "is"
+        "I be cooking dinner when the phone rang.",
+        "is",
+        "rang. phone the when dinner cooking was I"
       ],
       "correctAnswer": "I was cooking dinner when the phone rang.",
       "explanationVi": "Cấu trúc chuẩn xác là: \"I was cooking dinner when the phone rang.\" (Tôi đang nấu bữa tối thì chuông điện thoại reo.)."
@@ -282,10 +282,10 @@
       "promptVi": "[Nhận diện cấu trúc chuẩn] Chọn câu có cấu trúc ngữ pháp HOÀN TOÀN ĐÚNG:",
       "question": "Dựa vào chủ điểm \"Bài 29: Quá khứ Tiếp diễn — Kết hợp với Quá khứ Đơn (When / While)\", câu nào sau đây CHÍNH XÁC?",
       "options": [
-        "While he was driving home, he saw an accident.",
-        "While he be driving home, he saw an accident.",
         "accident. an saw he home, driving was he While",
-        "is"
+        "While he be driving home, he saw an accident.",
+        "is",
+        "While he was driving home, he saw an accident."
       ],
       "correctAnswer": "While he was driving home, he saw an accident.",
       "explanationVi": "Cấu trúc chuẩn xác là: \"While he was driving home, he saw an accident.\" (Trong khi anh ấy đang lái xe về nhà, anh ấy đã nhìn thấy một vụ tai nạn.)."
@@ -296,10 +296,10 @@
       "promptVi": "[Nhận diện cấu trúc chuẩn] Chọn câu có cấu trúc ngữ pháp HOÀN TOÀN ĐÚNG:",
       "question": "Dựa vào chủ điểm \"Bài 29: Quá khứ Tiếp diễn — Kết hợp với Quá khứ Đơn (When / While)\", câu nào sau đây CHÍNH XÁC?",
       "options": [
-        "It started to rain while we were walking in the park.",
-        "It started at rain while we were walking in the park.",
         "park. the in walking were we while rain to started It",
-        "It started to rain while we be walking in the park."
+        "It started to rain while we be walking in the park.",
+        "It started to rain while we were walking in the park.",
+        "It started at rain while we were walking in the park."
       ],
       "correctAnswer": "It started to rain while we were walking in the park.",
       "explanationVi": "Cấu trúc chuẩn xác là: \"It started to rain while we were walking in the park.\" (Trời bắt đầu mưa trong khi chúng tôi đang đi dạo trong công viên.)."
@@ -310,10 +310,10 @@
       "promptVi": "[Nhận diện cấu trúc chuẩn] Chọn câu có cấu trúc ngữ pháp HOÀN TOÀN ĐÚNG:",
       "question": "Dựa vào chủ điểm \"Bài 29: Quá khứ Tiếp diễn — Kết hợp với Quá khứ Đơn (When / While)\", câu nào sau đây CHÍNH XÁC?",
       "options": [
-        "out? went power the when doing you were What",
-        "What were you doing when the power went out?",
         "What be you doing when the power went out?",
-        "is"
+        "What were you doing when the power went out?",
+        "is",
+        "out? went power the when doing you were What"
       ],
       "correctAnswer": "What were you doing when the power went out?",
       "explanationVi": "Cấu trúc chuẩn xác là: \"What were you doing when the power went out?\" (Bạn đang làm gì khi bị cúp điện?)."
@@ -325,10 +325,10 @@
       "audioPrompt": "Why are you wearing a bandage on your arm, Hannah?",
       "question": "Nhấn nút '🔊 Nghe audio' và chọn nghĩa tiếng Việt đúng:",
       "options": [
-        "Tôi bị ngã xe đạp trong khi đang đạp xe đến trường đại học hôm qua.",
+        "Ôi không! Chuyện gì đã xảy ra vậy? Bạn có đang đi quá nhanh dọc theo con phố không?",
         "Tại sao bạn lại quấn băng trên cánh tay vậy Hannah?",
-        "Hôm nay thời tiết rất đẹp.",
-        "Ôi không! Chuyện gì đã xảy ra vậy? Bạn có đang đi quá nhanh dọc theo con phố không?"
+        "Tôi bị ngã xe đạp trong khi đang đạp xe đến trường đại học hôm qua.",
+        "Hôm nay thời tiết rất đẹp."
       ],
       "correctAnswer": "Tại sao bạn lại quấn băng trên cánh tay vậy Hannah?",
       "explanationVi": "Câu nghe được: \"Why are you wearing a bandage on your arm, Hannah?\" có nghĩa là: \"Tại sao bạn lại quấn băng trên cánh tay vậy Hannah?\"."
@@ -340,10 +340,10 @@
       "audioPrompt": "I fell off my bicycle while I was riding to the university yesterday.",
       "question": "Nhấn nút '🔊 Nghe audio' và chọn nghĩa tiếng Việt đúng:",
       "options": [
-        "Tôi bị ngã xe đạp trong khi đang đạp xe đến trường đại học hôm qua.",
-        "Hôm nay thời tiết rất đẹp.",
         "Không, trong khi tôi đang băng qua ngã tư, một chú chó hoang đột nhiên chạy vụt qua.",
-        "Ôi không! Chuyện gì đã xảy ra vậy? Bạn có đang đi quá nhanh dọc theo con phố không?"
+        "Ôi không! Chuyện gì đã xảy ra vậy? Bạn có đang đi quá nhanh dọc theo con phố không?",
+        "Hôm nay thời tiết rất đẹp.",
+        "Tôi bị ngã xe đạp trong khi đang đạp xe đến trường đại học hôm qua."
       ],
       "correctAnswer": "Tôi bị ngã xe đạp trong khi đang đạp xe đến trường đại học hôm qua.",
       "explanationVi": "Câu nghe được: \"I fell off my bicycle while I was riding to the university yesterday.\" có nghĩa là: \"Tôi bị ngã xe đạp trong khi đang đạp xe đến trường đại học hôm qua.\"."
@@ -355,10 +355,10 @@
       "audioPrompt": "Oh no! What happened? Were you riding too fast along the street?",
       "question": "Nhấn nút '🔊 Nghe audio' và chọn nghĩa tiếng Việt đúng:",
       "options": [
-        "Khi con chó xuất hiện, bạn có phanh lại ngay lập tức không?",
         "Hôm nay thời tiết rất đẹp.",
         "Ôi không! Chuyện gì đã xảy ra vậy? Bạn có đang đi quá nhanh dọc theo con phố không?",
-        "Không, trong khi tôi đang băng qua ngã tư, một chú chó hoang đột nhiên chạy vụt qua."
+        "Không, trong khi tôi đang băng qua ngã tư, một chú chó hoang đột nhiên chạy vụt qua.",
+        "Khi con chó xuất hiện, bạn có phanh lại ngay lập tức không?"
       ],
       "correctAnswer": "Ôi không! Chuyện gì đã xảy ra vậy? Bạn có đang đi quá nhanh dọc theo con phố không?",
       "explanationVi": "Câu nghe được: \"Oh no! What happened? Were you riding too fast along the street?\" có nghĩa là: \"Ôi không! Chuyện gì đã xảy ra vậy? Bạn có đang đi quá nhanh dọc theo con phố không?\"."
@@ -370,10 +370,10 @@
       "audioPrompt": "No, while I was crossing the intersection, a stray dog suddenly ran across.",
       "question": "Nhấn nút '🔊 Nghe audio' và chọn nghĩa tiếng Việt đúng:",
       "options": [
-        "Hôm nay thời tiết rất đẹp.",
+        "Không, trong khi tôi đang băng qua ngã tư, một chú chó hoang đột nhiên chạy vụt qua.",
         "Khi con chó xuất hiện, bạn có phanh lại ngay lập tức không?",
         "Có, tôi dừng lại rất nhanh, nhưng đường trơn vì lúc đó trời đang mưa.",
-        "Không, trong khi tôi đang băng qua ngã tư, một chú chó hoang đột nhiên chạy vụt qua."
+        "Hôm nay thời tiết rất đẹp."
       ],
       "correctAnswer": "Không, trong khi tôi đang băng qua ngã tư, một chú chó hoang đột nhiên chạy vụt qua.",
       "explanationVi": "Câu nghe được: \"No, while I was crossing the intersection, a stray dog suddenly ran across.\" có nghĩa là: \"Không, trong khi tôi đang băng qua ngã tư, một chú chó hoang đột nhiên chạy vụt qua.\"."
@@ -421,10 +421,10 @@
       "passage": "Trevor: \"Why are you wearing a bandage on your arm, Hannah?\"\nHannah: \"I fell off my bicycle while I was riding to the university yesterday.\"\nTrevor: \"Oh no! What happened? Were you riding too fast along the street?\"\nHannah: \"No, while I was crossing the intersection, a stray dog suddenly ran across.\"",
       "question": "Dựa vào đoạn đối thoại trên, thông tin nào sau đây là CHÍNH XÁC về nội dung câu nói của Trevor?",
       "options": [
+        "Trevor chia sẻ thông tin: \"Tại sao bạn lại quấn băng trên cánh tay vậy Hannah?\"",
         "Trevor phàn nàn rằng thời tiết hôm nay quá xấu.",
         "Trevor từ chối trả lời và yêu cầu hủy cuộc hẹn.",
-        "Trevor muốn mượn tiền để mua vé máy bay gấp.",
-        "Trevor chia sẻ thông tin: \"Tại sao bạn lại quấn băng trên cánh tay vậy Hannah?\""
+        "Trevor muốn mượn tiền để mua vé máy bay gấp."
       ],
       "correctAnswer": "Trevor chia sẻ thông tin: \"Tại sao bạn lại quấn băng trên cánh tay vậy Hannah?\"",
       "explanationVi": "Trong đoạn hội thoại, Trevor đã nói: \"Why are you wearing a bandage on your arm, Hannah?\" (nghĩa là: \"Tại sao bạn lại quấn băng trên cánh tay vậy Hannah?\")."
@@ -436,10 +436,10 @@
       "passage": "Trevor: \"When the dog appeared, did you brake immediately?\"\nHannah: \"Yes, I stopped quickly, but the road was slippery because it was raining.\"\nTrevor: \"Who helped you when you fell on the wet pavement?\"\nHannah: \"A kind police officer arrived while I was trying to stand up.\"",
       "question": "Trong đoạn hội thoại trên, câu nói \"A kind police officer arrived while I was trying to stand up.\" của Hannah mang ý nghĩa gì?",
       "options": [
-        "Phản hồi: \"Yêu cầu cung cấp hóa đơn thanh toán tiền mặt\"",
         "Phản hồi: \"Một viên cảnh sát tốt bụng đã đến trong khi tôi đang cố gắng đứng dậy.\"",
+        "Phản hồi: \"Hoàn toàn không đồng ý và muốn rời khỏi phòng ngay lập tức\"",
         "Phản hồi: \"Hẹn gặp lại vào cuối tuần sau tại sân bay quốc tế\"",
-        "Phản hồi: \"Hoàn toàn không đồng ý và muốn rời khỏi phòng ngay lập tức\""
+        "Phản hồi: \"Yêu cầu cung cấp hóa đơn thanh toán tiền mặt\""
       ],
       "correctAnswer": "Phản hồi: \"Một viên cảnh sát tốt bụng đã đến trong khi tôi đang cố gắng đứng dậy.\"",
       "explanationVi": "Hannah nói: \"A kind police officer arrived while I was trying to stand up.\" có nghĩa là: \"Một viên cảnh sát tốt bụng đã đến trong khi tôi đang cố gắng đứng dậy.\"."
