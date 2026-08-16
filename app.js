@@ -58,6 +58,7 @@ const el = {
   timeLeft: document.getElementById("timeLeft"),
   progressFill: document.getElementById("progressFill"),
   audioStatusBadge: document.getElementById("audioStatusBadge"),
+  micStatusBadge: document.getElementById("micStatusBadge"),
 
   // Steps in Lesson Tab
   stepSelect: document.getElementById("stepSelect"),
@@ -654,6 +655,7 @@ function initSpeechRecognition() {
 
     recognition.onstart = () => {
       isRecording = true;
+      setMicStatusBadge("listening", "🎤 Mic: Đang nghe");
       if (el.btnMicRepeat) el.btnMicRepeat.classList.add("recording");
       if (el.btnMicTransform) el.btnMicTransform.classList.add("recording");
       if (el.btnMicContext) el.btnMicContext.classList.add("recording");
@@ -668,7 +670,27 @@ function initSpeechRecognition() {
     recognition.onerror = (e) => {
       console.warn("Speech recognition error:", e.error);
       stopRecording();
-      if (el.liveSpeechStatus) el.liveSpeechStatus.textContent = "⚠️ Không nhận diện được hoặc Micro bị chặn. Bạn có thể gõ văn bản dự phòng bên dưới.";
+      if (e.error === "not-allowed" || e.error === "service-not-allowed") {
+        updateMicStatusMessage(
+          "⚠️ Microphone bị chặn. Hãy cho phép quyền micro trong cài đặt trình duyệt.",
+          "blocked",
+          "🎤 Mic: Bị chặn quyền"
+        );
+        return;
+      }
+      if (e.error === "audio-capture") {
+        updateMicStatusMessage(
+          "⚠️ Không lấy được âm thanh từ microphone. Vui lòng kiểm tra quyền micro.",
+          "error",
+          "🎤 Mic: Lỗi âm thanh"
+        );
+        return;
+      }
+      updateMicStatusMessage(
+        "⚠️ Không nhận diện được giọng nói. Bạn có thể gõ văn bản dự phòng bên dưới.",
+        "error",
+        "🎤 Mic: Không nhận diện"
+      );
     };
 
     recognition.onend = () => {
@@ -677,17 +699,65 @@ function initSpeechRecognition() {
   }
 }
 
-function startRecording(canvasId) {
+async function startRecording(canvasId) {
   stopAllAudio();
-  if (recognition) {
-    try {
-      recognition.start();
-    } catch (err) {}
+  const micReady = await ensureMicrophoneReady();
+  if (!micReady) {
+    stopRecording();
+    return;
   }
-  startWaveVisualizer(canvasId);
+
+  if (!recognition) {
+    updateMicStatusMessage(
+      "⚠️ Trình duyệt này chưa hỗ trợ nhận diện giọng nói. Hãy dùng Safari/Chrome mới nhất hoặc nhập văn bản dự phòng.",
+      "unsupported",
+      "🎤 Mic: Không hỗ trợ nhận diện"
+    );
+    startWaveVisualizer(canvasId);
+    return;
+  }
+
+  let started = false;
+  try {
+    recognition.start();
+    started = true;
+  } catch (err) {
+    if (err && err.name === "InvalidStateError") {
+      try {
+        recognition.stop();
+        recognition.start();
+        started = true;
+      } catch (retryErr) {
+        console.warn("Speech recognition restart error:", retryErr);
+      }
+    } else {
+      console.warn("Speech recognition start error:", err);
+    }
+  }
+
+  if (!started) {
+    updateMicStatusMessage(
+      "⚠️ Không thể bắt đầu ghi âm. Hãy thử lại sau vài giây hoặc tải lại trang.",
+      "error",
+      "🎤 Mic: Không khởi động"
+    );
+    stopRecording();
+    return;
+  }
+
+  try {
+    startWaveVisualizer(canvasId);
+  } catch (e) {
+    console.warn("Wave visualizer start error:", e);
+  }
 }
 
 function stopRecording() {
+  if (recognition) {
+    try {
+      recognition.stop();
+    } catch (err) {}
+  }
   isRecording = false;
   quizIsRecordingSpeaking = false;
   if (el.btnMicRepeat) el.btnMicRepeat.classList.remove("recording");
@@ -697,6 +767,10 @@ function stopRecording() {
   const quizMicBtn = document.getElementById("btnQuizSpeakingMic");
   if (quizMicBtn) quizMicBtn.classList.remove("recording");
 
+  if (el.micStatusBadge && el.micStatusBadge.textContent && el.micStatusBadge.textContent.includes("Đang nghe")) {
+    setMicStatusBadge("ready", "🎤 Mic: Sẵn sàng");
+  }
+
   stopWaveVisualizer();
 }
 
@@ -704,17 +778,120 @@ let persistentMediaStream = null;
 let persistentAudioContext = null;
 let persistentAnalyser = null;
 let waveAnimFrameId = null;
+let lastMicPermissionError = null;
+
+function setMicStatusBadge(state, label) {
+  if (!el.micStatusBadge) return;
+  const safeState = state || "checking";
+  el.micStatusBadge.className = `mic-status-badge mic-state-${safeState}`;
+  if (label) el.micStatusBadge.textContent = label;
+}
+
+function updateMicStatusMessage(message, badgeState, badgeLabel) {
+  if (el.liveSpeechStatus) el.liveSpeechStatus.textContent = message;
+  const quizStatus = document.getElementById("quizSpeakingLiveText");
+  if (quizStatus) quizStatus.textContent = message;
+  if (badgeState) setMicStatusBadge(badgeState, badgeLabel);
+}
+
+function buildMicErrorMessage(err) {
+  const secureHint = window.isSecureContext ? "" : " Hãy mở webapp bằng HTTPS hoặc localhost để bật quyền micro trên điện thoại.";
+  if (!err) return `⚠️ Không thể truy cập microphone.${secureHint}`;
+  if (err.name === "NotAllowedError" || err.name === "SecurityError") {
+    return `⚠️ Bạn chưa cấp quyền microphone.${secureHint}`;
+  }
+  if (err.name === "NotFoundError" || err.name === "DevicesNotFoundError") {
+    return "⚠️ Không tìm thấy microphone trên thiết bị.";
+  }
+  if (err.name === "NotReadableError" || err.name === "TrackStartError") {
+    return "⚠️ Microphone đang được ứng dụng khác sử dụng. Hãy tắt ứng dụng đó rồi thử lại.";
+  }
+  return `⚠️ Không thể truy cập microphone (${err.name || "UnknownError"}).${secureHint}`;
+}
 
 async function getPersistentMicStream() {
   if (persistentMediaStream && persistentMediaStream.active) {
+    setMicStatusBadge("ready", "🎤 Mic: Sẵn sàng");
     return persistentMediaStream;
+  }
+  if (!navigator.mediaDevices || typeof navigator.mediaDevices.getUserMedia !== "function") {
+    lastMicPermissionError = new Error("MicrophoneAPIUnsupported");
+    lastMicPermissionError.name = "MicrophoneAPIUnsupported";
+    console.warn("navigator.mediaDevices.getUserMedia is not supported on this browser.");
+    setMicStatusBadge("unsupported", "🎤 Mic: Không hỗ trợ");
+    return null;
   }
   try {
     persistentMediaStream = await navigator.mediaDevices.getUserMedia({ audio: true });
+    lastMicPermissionError = null;
+    setMicStatusBadge("ready", "🎤 Mic: Đã kết nối");
     return persistentMediaStream;
   } catch (err) {
+    lastMicPermissionError = err;
     console.warn("Microphone access permission error:", err);
+    if (err.name === "NotAllowedError" || err.name === "SecurityError") {
+      setMicStatusBadge("blocked", "🎤 Mic: Bị chặn quyền");
+    } else {
+      setMicStatusBadge("error", "🎤 Mic: Lỗi truy cập");
+    }
     return null;
+  }
+}
+
+async function ensureMicrophoneReady() {
+  setMicStatusBadge("checking", "🎤 Mic: Đang xin quyền...");
+  const stream = await getPersistentMicStream();
+  if (!stream) {
+    if (lastMicPermissionError && lastMicPermissionError.name === "MicrophoneAPIUnsupported") {
+      updateMicStatusMessage(
+        "⚠️ Trình duyệt điện thoại chưa hỗ trợ microphone API. Hãy dùng Safari/Chrome mới nhất.",
+        "unsupported",
+        "🎤 Mic: Không hỗ trợ"
+      );
+    } else {
+      const blocked = lastMicPermissionError && (lastMicPermissionError.name === "NotAllowedError" || lastMicPermissionError.name === "SecurityError");
+      updateMicStatusMessage(
+        buildMicErrorMessage(lastMicPermissionError),
+        blocked ? "blocked" : "error",
+        blocked ? "🎤 Mic: Bị chặn quyền" : "🎤 Mic: Lỗi truy cập"
+      );
+    }
+    return false;
+  }
+  setMicStatusBadge("ready", "🎤 Mic: Sẵn sàng");
+  return true;
+}
+
+function applyPermissionStateToBadge(state) {
+  if (state === "granted") {
+    setMicStatusBadge("ready", "🎤 Mic: Đã cấp quyền");
+  } else if (state === "denied") {
+    setMicStatusBadge("blocked", "🎤 Mic: Bị chặn quyền");
+  } else {
+    setMicStatusBadge("checking", "🎤 Mic: Chưa cấp quyền");
+  }
+}
+
+async function initMicrophoneStatusBadge() {
+  if (!el.micStatusBadge) return;
+  if (!navigator.mediaDevices || typeof navigator.mediaDevices.getUserMedia !== "function") {
+    setMicStatusBadge("unsupported", "🎤 Mic: Không hỗ trợ");
+    return;
+  }
+  if (!window.isSecureContext) {
+    setMicStatusBadge("blocked", "🎤 Mic: Cần HTTPS");
+    return;
+  }
+
+  setMicStatusBadge("checking", "🎤 Mic: Chưa cấp quyền");
+  if (navigator.permissions && typeof navigator.permissions.query === "function") {
+    try {
+      const permissionStatus = await navigator.permissions.query({ name: "microphone" });
+      applyPermissionStateToBadge(permissionStatus.state);
+      permissionStatus.onchange = () => applyPermissionStateToBadge(permissionStatus.state);
+    } catch (err) {
+      console.warn("Microphone permission query is not supported on this browser:", err);
+    }
   }
 }
 
@@ -1755,6 +1932,7 @@ function showQuizResults() {
 // ==========================================
 function init() {
   initVoices();
+  initMicrophoneStatusBadge();
   populateLessonSelector(true);
   updateOverallProgressUI();
   initSpeechRecognition();

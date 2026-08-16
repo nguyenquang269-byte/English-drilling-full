@@ -10,10 +10,10 @@
       "promptVi": "[Trắc nghiệm ngữ pháp] Chọn từ đúng để hoàn thành câu (Cô ấy là một kỹ sư.):",
       "question": "She ___ an engineer.",
       "options": [
-        "be",
+        "is",
         "am",
         "are",
-        "is"
+        "be"
       ],
       "correctAnswer": "is",
       "explanationVi": "Chủ ngữ số ít 'She' đi với 'is'."
@@ -24,9 +24,9 @@
       "promptVi": "[Trắc nghiệm ngữ pháp] Chọn từ đúng để hoàn thành câu (Anh ấy là một ca sĩ nổi tiếng.):",
       "question": "He ___ a famous singer.",
       "options": [
-        "is",
-        "were",
         "am",
+        "were",
+        "is",
         "are"
       ],
       "correctAnswer": "is",
@@ -38,10 +38,10 @@
       "promptVi": "[Trắc nghiệm ngữ pháp] Chọn từ đúng để hoàn thành câu (Họ là những bác sĩ thân thiện.):",
       "question": "They ___ friendly doctors.",
       "options": [
-        "am",
-        "are",
         "be",
-        "is"
+        "is",
+        "am",
+        "are"
       ],
       "correctAnswer": "are",
       "explanationVi": "Chủ ngữ số nhiều 'They' đi với 'are'."
@@ -52,10 +52,10 @@
       "promptVi": "[Trắc nghiệm ngữ pháp] Chọn từ đúng để hoàn thành câu (Chúng tôi đã sẵn sàng cho bài học.):",
       "question": "We ___ ready for the lesson.",
       "options": [
-        "are",
         "be",
-        "is",
-        "am"
+        "are",
+        "am",
+        "is"
       ],
       "correctAnswer": "are",
       "explanationVi": "Chủ ngữ 'We' đi với động từ 'are'."
@@ -66,10 +66,10 @@
       "promptVi": "[Phản xạ dịch thuật] Dịch câu sau sang tiếng Anh: \"Anh trai của bạn có phải là bác sĩ không, Sarah?\"",
       "question": "Chọn bản dịch chuẩn xác nhất cho câu: \"Anh trai của bạn có phải là bác sĩ không, Sarah?\"",
       "options": [
-        "No, he is not. He is an engineer.",
+        "Is your brother a doctor, Sarah?",
         "be your brother a doctor, Sarah?",
-        "We are studying English today.",
-        "Is your brother a doctor, Sarah?"
+        "No, he is not. He is an engineer.",
+        "We are studying English today."
       ],
       "correctAnswer": "Is your brother a doctor, Sarah?",
       "explanationVi": "Câu dịch chuẩn xác: \"Is your brother a doctor, Sarah?\" (Anh trai của bạn có phải là bác sĩ không, Sarah?)."
@@ -80,10 +80,10 @@
       "promptVi": "[Ngữ cảnh giao tiếp] Chọn câu phản hồi tự nhiên và đúng ngữ pháp:",
       "question": "Khi đối phương nói: \"Is your brother a doctor, Sarah?\", câu phản hồi phù hợp là gì?",
       "options": [
-        "No, it was yesterday.",
+        "They are not in the office.",
         "No, he is not. He is an engineer.",
-        "Yes, I will eat it.",
-        "They are not in the office."
+        "No, it was yesterday.",
+        "Yes, I will eat it."
       ],
       "correctAnswer": "No, he is not. He is an engineer.",
       "explanationVi": "Phản hồi phù hợp trong bài: \"No, he is not. He is an engineer.\" (Không, anh ấy không phải. Anh ấy là một kỹ sư.)."
@@ -95,8 +95,8 @@
       "question": "She ___ an engineer.",
       "correctAnswer": "is",
       "options": [
-        "am",
         "is",
+        "am",
         "are",
         "be"
       ],
@@ -109,10 +109,10 @@
       "question": "He ___ a famous singer.",
       "correctAnswer": "is",
       "options": [
+        "are",
         "am",
-        "is",
         "were",
-        "are"
+        "is"
       ],
       "explanationVi": "Đáp án đúng là \"is\". Câu hoàn chỉnh: \"He is a famous singer.\" (Anh ấy là một ca sĩ nổi tiếng.)."
     },
@@ -124,9 +124,9 @@
       "correctAnswer": "are",
       "options": [
         "are",
-        "be",
         "am",
-        "is"
+        "is",
+        "be"
       ],
       "explanationVi": "Đáp án đúng là \"are\". Câu hoàn chỉnh: \"They are friendly doctors.\" (Họ là những bác sĩ thân thiện.)."
     },
@@ -137,10 +137,10 @@
       "question": "We ___ ready for the lesson.",
       "correctAnswer": "are",
       "options": [
+        "is",
         "are",
         "am",
-        "be",
-        "is"
+        "be"
       ],
       "explanationVi": "Đáp án đúng là \"are\". Câu hoàn chỉnh: \"We are ready for the lesson.\" (Chúng tôi đã sẵn sàng cho bài học.)."
     },
@@ -152,9 +152,9 @@
       "correctAnswer": "is",
       "options": [
         "do",
+        "am",
         "are",
-        "is",
-        "am"
+        "is"
       ],
       "explanationVi": "Câu phủ định hoàn chỉnh: \"She is not an engineer.\"."
     },
@@ -164,10 +164,10 @@
       "promptVi": "[Sắp xếp câu] Ghép các khối từ thành câu hoàn chỉnh mang nghĩa: \"Cô ấy là một kỹ sư.\"",
       "question": "Sắp xếp các từ để tạo thành câu đúng: \"Cô ấy là một kỹ sư.\"",
       "words": [
-        "is",
+        "engineer.",
         "an",
         "She",
-        "engineer."
+        "is"
       ],
       "correctSentence": "She is an engineer.",
       "hintVi": "Cô ấy là một kỹ sư.",
@@ -179,11 +179,11 @@
       "promptVi": "[Sắp xếp câu] Ghép các khối từ thành câu hoàn chỉnh mang nghĩa: \"Anh ấy là một ca sĩ nổi tiếng.\"",
       "question": "Sắp xếp các từ để tạo thành câu đúng: \"Anh ấy là một ca sĩ nổi tiếng.\"",
       "words": [
-        "a",
         "singer.",
-        "famous",
+        "a",
+        "is",
         "He",
-        "is"
+        "famous"
       ],
       "correctSentence": "He is a famous singer.",
       "hintVi": "Anh ấy là một ca sĩ nổi tiếng.",
@@ -196,9 +196,9 @@
       "question": "Sắp xếp các từ để tạo thành câu đúng: \"Họ là những bác sĩ thân thiện.\"",
       "words": [
         "doctors.",
-        "They",
         "friendly",
-        "are"
+        "are",
+        "They"
       ],
       "correctSentence": "They are friendly doctors.",
       "hintVi": "Họ là những bác sĩ thân thiện.",
@@ -210,12 +210,12 @@
       "promptVi": "[Sắp xếp câu] Ghép các khối từ thành câu hoàn chỉnh mang nghĩa: \"Chúng tôi đã sẵn sàng cho bài học.\"",
       "question": "Sắp xếp các từ để tạo thành câu đúng: \"Chúng tôi đã sẵn sàng cho bài học.\"",
       "words": [
+        "for",
         "ready",
         "are",
-        "for",
-        "We",
         "lesson.",
-        "the"
+        "the",
+        "We"
       ],
       "correctSentence": "We are ready for the lesson.",
       "hintVi": "Chúng tôi đã sẵn sàng cho bài học.",
@@ -227,12 +227,12 @@
       "promptVi": "[Sắp xếp câu] Ghép các từ thành câu hội thoại: \"Chị gái bạn cũng là kỹ sư à?\"",
       "question": "Sắp xếp các từ để tạo thành câu thoại: \"Chị gái bạn cũng là kỹ sư à?\"",
       "words": [
-        "an",
-        "your",
-        "too",
-        "engineer",
         "sister",
-        "Is"
+        "too",
+        "your",
+        "Is",
+        "engineer",
+        "an"
       ],
       "correctSentence": "Is your sister an engineer too?",
       "hintVi": "Chị gái bạn cũng là kỹ sư à?",
@@ -244,10 +244,10 @@
       "promptVi": "[Nhận diện cấu trúc chuẩn] Chọn câu có cấu trúc ngữ pháp HOÀN TOÀN ĐÚNG:",
       "question": "Dựa vào chủ điểm \"Bài 2: Động từ To Be — Hiện tại Đơn (Nghề nghiệp & Tính chất)\", câu nào sau đây CHÍNH XÁC?",
       "options": [
-        "engineer. an is She",
+        "is",
         "She is an engineer.",
         "She be an engineer.",
-        "is"
+        "engineer. an is She"
       ],
       "correctAnswer": "She is an engineer.",
       "explanationVi": "Cấu trúc chuẩn xác là: \"She is an engineer.\" (Cô ấy là một kỹ sư.)."
@@ -258,10 +258,10 @@
       "promptVi": "[Nhận diện cấu trúc chuẩn] Chọn câu có cấu trúc ngữ pháp HOÀN TOÀN ĐÚNG:",
       "question": "Dựa vào chủ điểm \"Bài 2: Động từ To Be — Hiện tại Đơn (Nghề nghiệp & Tính chất)\", câu nào sau đây CHÍNH XÁC?",
       "options": [
-        "He is a famous singer.",
         "is",
         "singer. famous a is He",
-        "He be a famous singer."
+        "He be a famous singer.",
+        "He is a famous singer."
       ],
       "correctAnswer": "He is a famous singer.",
       "explanationVi": "Cấu trúc chuẩn xác là: \"He is a famous singer.\" (Anh ấy là một ca sĩ nổi tiếng.)."
@@ -272,10 +272,10 @@
       "promptVi": "[Nhận diện cấu trúc chuẩn] Chọn câu có cấu trúc ngữ pháp HOÀN TOÀN ĐÚNG:",
       "question": "Dựa vào chủ điểm \"Bài 2: Động từ To Be — Hiện tại Đơn (Nghề nghiệp & Tính chất)\", câu nào sau đây CHÍNH XÁC?",
       "options": [
-        "They are friendly doctors.",
-        "They be friendly doctors.",
+        "is",
         "doctors. friendly are They",
-        "is"
+        "They be friendly doctors.",
+        "They are friendly doctors."
       ],
       "correctAnswer": "They are friendly doctors.",
       "explanationVi": "Cấu trúc chuẩn xác là: \"They are friendly doctors.\" (Họ là những bác sĩ thân thiện.)."
@@ -302,8 +302,8 @@
       "question": "Nhấn nút '🔊 Nghe audio' và chọn nghĩa tiếng Việt đúng:",
       "options": [
         "Anh trai của bạn có phải là bác sĩ không, Sarah?",
-        "Hôm nay thời tiết rất đẹp.",
         "Không, anh ấy không phải. Anh ấy là một kỹ sư.",
+        "Hôm nay thời tiết rất đẹp.",
         "Chị gái bạn cũng là kỹ sư à?"
       ],
       "correctAnswer": "Anh trai của bạn có phải là bác sĩ không, Sarah?",
@@ -316,9 +316,9 @@
       "audioPrompt": "No, he is not. He is an engineer.",
       "question": "Nhấn nút '🔊 Nghe audio' và chọn nghĩa tiếng Việt đúng:",
       "options": [
+        "Không, anh ấy không phải. Anh ấy là một kỹ sư.",
         "Chị gái bạn cũng là kỹ sư à?",
         "Hôm nay thời tiết rất đẹp.",
-        "Không, anh ấy không phải. Anh ấy là một kỹ sư.",
         "Không, chị ấy là ca sĩ. Chị ấy rất nổi tiếng!"
       ],
       "correctAnswer": "Không, anh ấy không phải. Anh ấy là một kỹ sư.",
@@ -331,10 +331,10 @@
       "audioPrompt": "Is your sister an engineer too?",
       "question": "Nhấn nút '🔊 Nghe audio' và chọn nghĩa tiếng Việt đúng:",
       "options": [
+        "Chị gái bạn cũng là kỹ sư à?",
         "Không, chị ấy là ca sĩ. Chị ấy rất nổi tiếng!",
-        "Hôm nay thời tiết rất đẹp.",
         "Thật tuyệt vời! Bố mẹ bạn có phải là giáo viên không?",
-        "Chị gái bạn cũng là kỹ sư à?"
+        "Hôm nay thời tiết rất đẹp."
       ],
       "correctAnswer": "Chị gái bạn cũng là kỹ sư à?",
       "explanationVi": "Câu nghe được: \"Is your sister an engineer too?\" có nghĩa là: \"Chị gái bạn cũng là kỹ sư à?\"."
@@ -346,10 +346,10 @@
       "audioPrompt": "No, she is a singer. She is very famous!",
       "question": "Nhấn nút '🔊 Nghe audio' và chọn nghĩa tiếng Việt đúng:",
       "options": [
-        "Hôm nay thời tiết rất đẹp.",
         "Không, chị ấy là ca sĩ. Chị ấy rất nổi tiếng!",
-        "Thật tuyệt vời! Bố mẹ bạn có phải là giáo viên không?",
-        "Đúng vậy, họ là giáo viên. Họ rất tốt bụng và nhẫn nại."
+        "Hôm nay thời tiết rất đẹp.",
+        "Đúng vậy, họ là giáo viên. Họ rất tốt bụng và nhẫn nại.",
+        "Thật tuyệt vời! Bố mẹ bạn có phải là giáo viên không?"
       ],
       "correctAnswer": "Không, chị ấy là ca sĩ. Chị ấy rất nổi tiếng!",
       "explanationVi": "Câu nghe được: \"No, she is a singer. She is very famous!\" có nghĩa là: \"Không, chị ấy là ca sĩ. Chị ấy rất nổi tiếng!\"."
@@ -397,10 +397,10 @@
       "passage": "Minh: \"Is your brother a doctor, Sarah?\"\nSarah: \"No, he is not. He is an engineer.\"\nMinh: \"Is your sister an engineer too?\"\nSarah: \"No, she is a singer. She is very famous!\"",
       "question": "Dựa vào đoạn đối thoại trên, thông tin nào sau đây là CHÍNH XÁC về nội dung câu nói của Minh?",
       "options": [
-        "Minh phàn nàn rằng thời tiết hôm nay quá xấu.",
-        "Minh muốn mượn tiền để mua vé máy bay gấp.",
         "Minh từ chối trả lời và yêu cầu hủy cuộc hẹn.",
-        "Minh chia sẻ thông tin: \"Anh trai của bạn có phải là bác sĩ không, Sarah?\""
+        "Minh phàn nàn rằng thời tiết hôm nay quá xấu.",
+        "Minh chia sẻ thông tin: \"Anh trai của bạn có phải là bác sĩ không, Sarah?\"",
+        "Minh muốn mượn tiền để mua vé máy bay gấp."
       ],
       "correctAnswer": "Minh chia sẻ thông tin: \"Anh trai của bạn có phải là bác sĩ không, Sarah?\"",
       "explanationVi": "Trong đoạn hội thoại, Minh đã nói: \"Is your brother a doctor, Sarah?\" (nghĩa là: \"Anh trai của bạn có phải là bác sĩ không, Sarah?\")."
@@ -412,10 +412,10 @@
       "passage": "Sarah: \"No, she is a singer. She is very famous!\"\nMinh: \"That is wonderful! Are your parents teachers?\"\nSarah: \"Yes, they are teachers. They are very kind and patient.\"\nMinh: \"You are a lucky family!\"",
       "question": "Trong đoạn hội thoại trên, câu nói \"You are a lucky family!\" của Minh mang ý nghĩa gì?",
       "options": [
-        "Phản hồi: \"Yêu cầu cung cấp hóa đơn thanh toán tiền mặt\"",
-        "Phản hồi: \"Hoàn toàn không đồng ý và muốn rời khỏi phòng ngay lập tức\"",
         "Phản hồi: \"Gia đình bạn thật may mắn!\"",
-        "Phản hồi: \"Hẹn gặp lại vào cuối tuần sau tại sân bay quốc tế\""
+        "Phản hồi: \"Hẹn gặp lại vào cuối tuần sau tại sân bay quốc tế\"",
+        "Phản hồi: \"Hoàn toàn không đồng ý và muốn rời khỏi phòng ngay lập tức\"",
+        "Phản hồi: \"Yêu cầu cung cấp hóa đơn thanh toán tiền mặt\""
       ],
       "correctAnswer": "Phản hồi: \"Gia đình bạn thật may mắn!\"",
       "explanationVi": "Minh nói: \"You are a lucky family!\" có nghĩa là: \"Gia đình bạn thật may mắn!\"."

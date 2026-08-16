@@ -10,10 +10,10 @@
       "promptVi": "[Trắc nghiệm ngữ pháp] Chọn từ đúng để hoàn thành câu (Bạn sống ở đâu tại Hà Nội?):",
       "question": "___ do you live in Hanoi?",
       "options": [
+        "When",
         "Who",
         "Where",
-        "What",
-        "When"
+        "What"
       ],
       "correctAnswer": "Where",
       "explanationVi": "Hỏi về nơi sống 'ở đâu' dùng từ hỏi 'Where'."
@@ -25,8 +25,8 @@
       "question": "What time ___ he wake up?",
       "options": [
         "is",
-        "do",
         "has",
+        "do",
         "does"
       ],
       "correctAnswer": "does",
@@ -40,8 +40,8 @@
       "options": [
         "Where",
         "How",
-        "When",
-        "What"
+        "What",
+        "When"
       ],
       "correctAnswer": "How",
       "explanationVi": "Hỏi về phương thức/phương tiện đi lại dùng 'How'."
@@ -52,10 +52,10 @@
       "promptVi": "[Trắc nghiệm ngữ pháp] Chọn từ đúng để hoàn thành câu (Khi nào họ có các cuộc họp?):",
       "question": "___ do they have meetings?",
       "options": [
-        "When",
         "Who",
         "What",
-        "Where"
+        "Where",
+        "When"
       ],
       "correctAnswer": "When",
       "explanationVi": "Hỏi về thời điểm/thời gian xảy ra dùng 'When'."
@@ -66,9 +66,9 @@
       "promptVi": "[Phản xạ dịch thuật] Dịch câu sau sang tiếng Anh: \"Hiện tại bạn đang làm việc ở đâu vậy Natalie?\"",
       "question": "Chọn bản dịch chuẩn xác nhất cho câu: \"Hiện tại bạn đang làm việc ở đâu vậy Natalie?\"",
       "options": [
-        "Where be you work currently, Natalie?",
-        "I work at a software design company in district one.",
         "Where do you work currently, Natalie?",
+        "I work at a software design company in district one.",
+        "Where be you work currently, Natalie?",
         "We are studying English today."
       ],
       "correctAnswer": "Where do you work currently, Natalie?",
@@ -80,9 +80,9 @@
       "promptVi": "[Ngữ cảnh giao tiếp] Chọn câu phản hồi tự nhiên và đúng ngữ pháp:",
       "question": "Khi đối phương nói: \"Where do you work currently, Natalie?\", câu phản hồi phù hợp là gì?",
       "options": [
+        "They are not in the office.",
         "I work at a software design company in district one.",
         "No, it was yesterday.",
-        "They are not in the office.",
         "Yes, I will eat it."
       ],
       "correctAnswer": "I work at a software design company in district one.",
@@ -95,8 +95,8 @@
       "question": "___ do you live in Hanoi?",
       "correctAnswer": "Where",
       "options": [
-        "What",
         "Where",
+        "What",
         "When",
         "Who"
       ],
@@ -110,9 +110,9 @@
       "correctAnswer": "does",
       "options": [
         "does",
-        "has",
         "do",
-        "is"
+        "is",
+        "has"
       ],
       "explanationVi": "Đáp án đúng là \"does\". Câu hoàn chỉnh: \"What time does he wake up?\" (Anh ấy thức dậy lúc mấy giờ?)."
     },
@@ -124,9 +124,9 @@
       "correctAnswer": "How",
       "options": [
         "What",
-        "Where",
+        "How",
         "When",
-        "How"
+        "Where"
       ],
       "explanationVi": "Đáp án đúng là \"How\". Câu hoàn chỉnh: \"How do you go to work every day?\" (Bạn đi làm bằng phương tiện gì mỗi ngày?)."
     },
@@ -137,9 +137,9 @@
       "question": "___ do they have meetings?",
       "correctAnswer": "When",
       "options": [
-        "Where",
         "When",
         "Who",
+        "Where",
         "What"
       ],
       "explanationVi": "Đáp án đúng là \"When\". Câu hoàn chỉnh: \"When do they have meetings?\" (Khi nào họ có các cuộc họp?)."
@@ -151,10 +151,10 @@
       "question": "Where _____ not you live in Hanoi?",
       "correctAnswer": "do",
       "options": [
-        "are",
-        "is",
         "am",
-        "do"
+        "do",
+        "is",
+        "are"
       ],
       "explanationVi": "Câu phủ định hoàn chỉnh: \"Where do not you live in Hanoi?\"."
     },
@@ -164,12 +164,12 @@
       "promptVi": "[Sắp xếp câu] Ghép các khối từ thành câu hoàn chỉnh mang nghĩa: \"Bạn sống ở đâu tại Hà Nội?\"",
       "question": "Sắp xếp các từ để tạo thành câu đúng: \"Bạn sống ở đâu tại Hà Nội?\"",
       "words": [
+        "Where",
         "Hanoi?",
+        "you",
         "in",
         "do",
-        "live",
-        "Where",
-        "you"
+        "live"
       ],
       "correctSentence": "Where do you live in Hanoi?",
       "hintVi": "Bạn sống ở đâu tại Hà Nội?",
@@ -181,12 +181,12 @@
       "promptVi": "[Sắp xếp câu] Ghép các khối từ thành câu hoàn chỉnh mang nghĩa: \"Anh ấy thức dậy lúc mấy giờ?\"",
       "question": "Sắp xếp các từ để tạo thành câu đúng: \"Anh ấy thức dậy lúc mấy giờ?\"",
       "words": [
-        "he",
-        "does",
         "up?",
-        "time",
+        "wake",
         "What",
-        "wake"
+        "time",
+        "he",
+        "does"
       ],
       "correctSentence": "What time does he wake up?",
       "hintVi": "Anh ấy thức dậy lúc mấy giờ?",
@@ -198,14 +198,14 @@
       "promptVi": "[Sắp xếp câu] Ghép các khối từ thành câu hoàn chỉnh mang nghĩa: \"Bạn đi làm bằng phương tiện gì mỗi ngày?\"",
       "question": "Sắp xếp các từ để tạo thành câu đúng: \"Bạn đi làm bằng phương tiện gì mỗi ngày?\"",
       "words": [
-        "to",
-        "day?",
-        "every",
         "How",
+        "day?",
         "you",
-        "work",
+        "to",
         "go",
-        "do"
+        "do",
+        "every",
+        "work"
       ],
       "correctSentence": "How do you go to work every day?",
       "hintVi": "Bạn đi làm bằng phương tiện gì mỗi ngày?",
@@ -218,10 +218,10 @@
       "question": "Sắp xếp các từ để tạo thành câu đúng: \"Khi nào họ có các cuộc họp?\"",
       "words": [
         "meetings?",
-        "have",
         "do",
-        "When",
-        "they"
+        "have",
+        "they",
+        "When"
       ],
       "correctSentence": "When do they have meetings?",
       "hintVi": "Khi nào họ có các cuộc họp?",
@@ -234,12 +234,12 @@
       "question": "Sắp xếp các từ để tạo thành câu thoại: \"Bạn làm công việc gì ở đó mỗi ngày?\"",
       "words": [
         "What",
-        "do",
         "every",
         "do",
-        "you",
         "there",
-        "day"
+        "you",
+        "day",
+        "do"
       ],
       "correctSentence": "What do you do there every day?",
       "hintVi": "Bạn làm công việc gì ở đó mỗi ngày?",
@@ -251,9 +251,9 @@
       "promptVi": "[Nhận diện cấu trúc chuẩn] Chọn câu có cấu trúc ngữ pháp HOÀN TOÀN ĐÚNG:",
       "question": "Dựa vào chủ điểm \"Bài 14: Động từ Thường — Câu hỏi Wh- (What / Where / Who / When + Do/Does)\", câu nào sau đây CHÍNH XÁC?",
       "options": [
-        "Where do you live in Hanoi?",
-        "is",
         "Where do you live at Hanoi?",
+        "is",
+        "Where do you live in Hanoi?",
         "Hanoi? in live you do Where"
       ],
       "correctAnswer": "Where do you live in Hanoi?",
@@ -265,8 +265,8 @@
       "promptVi": "[Nhận diện cấu trúc chuẩn] Chọn câu có cấu trúc ngữ pháp HOÀN TOÀN ĐÚNG:",
       "question": "Dựa vào chủ điểm \"Bài 14: Động từ Thường — Câu hỏi Wh- (What / Where / Who / When + Do/Does)\", câu nào sau đây CHÍNH XÁC?",
       "options": [
-        "up? wake he does time What",
         "What time does he wake up?",
+        "up? wake he does time What",
         "is",
         "are"
       ],
@@ -279,10 +279,10 @@
       "promptVi": "[Nhận diện cấu trúc chuẩn] Chọn câu có cấu trúc ngữ pháp HOÀN TOÀN ĐÚNG:",
       "question": "Dựa vào chủ điểm \"Bài 14: Động từ Thường — Câu hỏi Wh- (What / Where / Who / When + Do/Does)\", câu nào sau đây CHÍNH XÁC?",
       "options": [
-        "is",
-        "How do you go at work every day?",
         "How do you go to work every day?",
-        "day? every work to go you do How"
+        "day? every work to go you do How",
+        "How do you go at work every day?",
+        "is"
       ],
       "correctAnswer": "How do you go to work every day?",
       "explanationVi": "Cấu trúc chuẩn xác là: \"How do you go to work every day?\" (Bạn đi làm bằng phương tiện gì mỗi ngày?)."
@@ -294,9 +294,9 @@
       "question": "Dựa vào chủ điểm \"Bài 14: Động từ Thường — Câu hỏi Wh- (What / Where / Who / When + Do/Does)\", câu nào sau đây CHÍNH XÁC?",
       "options": [
         "are",
+        "When do they have meetings?",
         "meetings? have they do When",
-        "is",
-        "When do they have meetings?"
+        "is"
       ],
       "correctAnswer": "When do they have meetings?",
       "explanationVi": "Cấu trúc chuẩn xác là: \"When do they have meetings?\" (Khi nào họ có các cuộc họp?)."
@@ -308,10 +308,10 @@
       "audioPrompt": "Where do you work currently, Natalie?",
       "question": "Nhấn nút '🔊 Nghe audio' và chọn nghĩa tiếng Việt đúng:",
       "options": [
-        "Bạn làm công việc gì ở đó mỗi ngày?",
-        "Hiện tại bạn đang làm việc ở đâu vậy Natalie?",
         "Hôm nay thời tiết rất đẹp.",
-        "Tôi làm việc tại một công ty thiết kế phần mềm ở quận 1."
+        "Bạn làm công việc gì ở đó mỗi ngày?",
+        "Tôi làm việc tại một công ty thiết kế phần mềm ở quận 1.",
+        "Hiện tại bạn đang làm việc ở đâu vậy Natalie?"
       ],
       "correctAnswer": "Hiện tại bạn đang làm việc ở đâu vậy Natalie?",
       "explanationVi": "Câu nghe được: \"Where do you work currently, Natalie?\" có nghĩa là: \"Hiện tại bạn đang làm việc ở đâu vậy Natalie?\"."
@@ -323,9 +323,9 @@
       "audioPrompt": "I work at a software design company in district one.",
       "question": "Nhấn nút '🔊 Nghe audio' và chọn nghĩa tiếng Việt đúng:",
       "options": [
-        "Tôi làm việc tại một công ty thiết kế phần mềm ở quận 1.",
         "Tôi thiết kế giao diện người dùng và tạo bản mẫu ứng dụng di động.",
         "Hôm nay thời tiết rất đẹp.",
+        "Tôi làm việc tại một công ty thiết kế phần mềm ở quận 1.",
         "Bạn làm công việc gì ở đó mỗi ngày?"
       ],
       "correctAnswer": "Tôi làm việc tại một công ty thiết kế phần mềm ở quận 1.",
@@ -338,10 +338,10 @@
       "audioPrompt": "What do you do there every day?",
       "question": "Nhấn nút '🔊 Nghe audio' và chọn nghĩa tiếng Việt đúng:",
       "options": [
+        "Hôm nay thời tiết rất đẹp.",
         "Ngày làm việc của bạn thường bắt đầu khi nào?",
         "Tôi thiết kế giao diện người dùng và tạo bản mẫu ứng dụng di động.",
-        "Bạn làm công việc gì ở đó mỗi ngày?",
-        "Hôm nay thời tiết rất đẹp."
+        "Bạn làm công việc gì ở đó mỗi ngày?"
       ],
       "correctAnswer": "Bạn làm công việc gì ở đó mỗi ngày?",
       "explanationVi": "Câu nghe được: \"What do you do there every day?\" có nghĩa là: \"Bạn làm công việc gì ở đó mỗi ngày?\"."
@@ -353,10 +353,10 @@
       "audioPrompt": "I design user interfaces and create mobile app mockups.",
       "question": "Nhấn nút '🔊 Nghe audio' và chọn nghĩa tiếng Việt đúng:",
       "options": [
-        "Hôm nay thời tiết rất đẹp.",
-        "Ngày làm việc của tôi bắt đầu lúc 9 giờ sáng và kết thúc lúc 6 giờ chiều.",
         "Ngày làm việc của bạn thường bắt đầu khi nào?",
-        "Tôi thiết kế giao diện người dùng và tạo bản mẫu ứng dụng di động."
+        "Tôi thiết kế giao diện người dùng và tạo bản mẫu ứng dụng di động.",
+        "Ngày làm việc của tôi bắt đầu lúc 9 giờ sáng và kết thúc lúc 6 giờ chiều.",
+        "Hôm nay thời tiết rất đẹp."
       ],
       "correctAnswer": "Tôi thiết kế giao diện người dùng và tạo bản mẫu ứng dụng di động.",
       "explanationVi": "Câu nghe được: \"I design user interfaces and create mobile app mockups.\" có nghĩa là: \"Tôi thiết kế giao diện người dùng và tạo bản mẫu ứng dụng di động.\"."
@@ -405,9 +405,9 @@
       "question": "Dựa vào đoạn đối thoại trên, thông tin nào sau đây là CHÍNH XÁC về nội dung câu nói của Liam?",
       "options": [
         "Liam từ chối trả lời và yêu cầu hủy cuộc hẹn.",
+        "Liam chia sẻ thông tin: \"Hiện tại bạn đang làm việc ở đâu vậy Natalie?\"",
         "Liam phàn nàn rằng thời tiết hôm nay quá xấu.",
-        "Liam muốn mượn tiền để mua vé máy bay gấp.",
-        "Liam chia sẻ thông tin: \"Hiện tại bạn đang làm việc ở đâu vậy Natalie?\""
+        "Liam muốn mượn tiền để mua vé máy bay gấp."
       ],
       "correctAnswer": "Liam chia sẻ thông tin: \"Hiện tại bạn đang làm việc ở đâu vậy Natalie?\"",
       "explanationVi": "Trong đoạn hội thoại, Liam đã nói: \"Where do you work currently, Natalie?\" (nghĩa là: \"Hiện tại bạn đang làm việc ở đâu vậy Natalie?\")."
@@ -419,9 +419,9 @@
       "passage": "Liam: \"When does your workday usually begin?\"\nNatalie: \"My workday begins at nine AM and finishes at six PM.\"\nLiam: \"How do you go to your office every morning?\"\nNatalie: \"I take the electric bus because it is very convenient.\"",
       "question": "Trong đoạn hội thoại trên, câu nói \"I take the electric bus because it is very convenient.\" của Natalie mang ý nghĩa gì?",
       "options": [
+        "Phản hồi: \"Yêu cầu cung cấp hóa đơn thanh toán tiền mặt\"",
         "Phản hồi: \"Hẹn gặp lại vào cuối tuần sau tại sân bay quốc tế\"",
         "Phản hồi: \"Hoàn toàn không đồng ý và muốn rời khỏi phòng ngay lập tức\"",
-        "Phản hồi: \"Yêu cầu cung cấp hóa đơn thanh toán tiền mặt\"",
         "Phản hồi: \"Tôi đi xe buýt điện vì nó rất tiện lợi.\""
       ],
       "correctAnswer": "Phản hồi: \"Tôi đi xe buýt điện vì nó rất tiện lợi.\"",

@@ -10,10 +10,10 @@
       "promptVi": "[Trắc nghiệm ngữ pháp] Chọn từ đúng để hoàn thành câu (Tôi đã không sẵn sàng cho bài kiểm tra.):",
       "question": "I ___ ready for the test.",
       "options": [
-        "wasn't",
+        "am not",
         "weren't",
         "don't",
-        "am not"
+        "wasn't"
       ],
       "correctAnswer": "wasn't",
       "explanationVi": "Chủ ngữ 'I' ở quá khứ phủ định dùng 'wasn't'."
@@ -24,10 +24,10 @@
       "promptVi": "[Trắc nghiệm ngữ pháp] Chọn từ đúng để hoàn thành câu (Bạn có ở văn phòng ngày hôm qua không?):",
       "question": "___ you at the office yesterday?",
       "options": [
+        "Are",
         "Was",
         "Were",
-        "Did",
-        "Are"
+        "Did"
       ],
       "correctAnswer": "Were",
       "explanationVi": "Câu hỏi với chủ ngữ 'you' ở quá khứ cần đưa 'Were' lên đầu câu."
@@ -38,10 +38,10 @@
       "promptVi": "[Trắc nghiệm ngữ pháp] Chọn từ đúng để hoàn thành câu (Chúng tôi đã không đói sau bữa trưa.):",
       "question": "We ___ hungry after lunch.",
       "options": [
+        "aren't",
         "wasn't",
-        "weren't",
         "don't",
-        "aren't"
+        "weren't"
       ],
       "correctAnswer": "weren't",
       "explanationVi": "Chủ ngữ số nhiều 'We' đi với 'weren't' ở thì quá khứ đơn."
@@ -52,10 +52,10 @@
       "promptVi": "[Trắc nghiệm ngữ pháp] Chọn từ đúng để hoàn thành câu (Bộ phim có hay không?):",
       "question": "___ the movie interesting?",
       "options": [
-        "Were",
-        "Was",
         "Does",
-        "Is"
+        "Was",
+        "Is",
+        "Were"
       ],
       "correctAnswer": "Was",
       "explanationVi": "'The movie' là danh từ số ít nên dùng 'Was' ở đầu câu hỏi quá khứ."
@@ -67,9 +67,9 @@
       "question": "Chọn bản dịch chuẩn xác nhất cho câu: \"Bạn có ở cuộc họp sáng qua không?\"",
       "options": [
         "We are studying English today.",
-        "Were you at the meeting yesterday morning?",
+        "No, I wasn't at the meeting. I was busy in my office.",
         "be you at the meeting yesterday morning?",
-        "No, I wasn't at the meeting. I was busy in my office."
+        "Were you at the meeting yesterday morning?"
       ],
       "correctAnswer": "Were you at the meeting yesterday morning?",
       "explanationVi": "Câu dịch chuẩn xác: \"Were you at the meeting yesterday morning?\" (Bạn có ở cuộc họp sáng qua không?)."
@@ -80,10 +80,10 @@
       "promptVi": "[Ngữ cảnh giao tiếp] Chọn câu phản hồi tự nhiên và đúng ngữ pháp:",
       "question": "Khi đối phương nói: \"Were you at the meeting yesterday morning?\", câu phản hồi phù hợp là gì?",
       "options": [
-        "They are not in the office.",
-        "No, it was yesterday.",
         "Yes, I will eat it.",
-        "No, I wasn't at the meeting. I was busy in my office."
+        "They are not in the office.",
+        "No, I wasn't at the meeting. I was busy in my office.",
+        "No, it was yesterday."
       ],
       "correctAnswer": "No, I wasn't at the meeting. I was busy in my office.",
       "explanationVi": "Phản hồi phù hợp trong bài: \"No, I wasn't at the meeting. I was busy in my office.\" (Không, tôi đã không ở cuộc họp. Tôi đã bận trong văn phòng.)."
@@ -95,10 +95,10 @@
       "question": "I ___ ready for the test.",
       "correctAnswer": "wasn't",
       "options": [
-        "wasn't",
         "don't",
-        "weren't",
-        "am not"
+        "wasn't",
+        "am not",
+        "weren't"
       ],
       "explanationVi": "Đáp án đúng là \"wasn't\". Câu hoàn chỉnh: \"I wasn't ready for the test.\" (Tôi đã không sẵn sàng cho bài kiểm tra.)."
     },
@@ -111,8 +111,8 @@
       "options": [
         "Were",
         "Was",
-        "Did",
-        "Are"
+        "Are",
+        "Did"
       ],
       "explanationVi": "Đáp án đúng là \"Were\". Câu hoàn chỉnh: \"Were you at the office yesterday?\" (Bạn có ở văn phòng ngày hôm qua không?)."
     },
@@ -124,9 +124,9 @@
       "correctAnswer": "weren't",
       "options": [
         "don't",
+        "aren't",
         "wasn't",
-        "weren't",
-        "aren't"
+        "weren't"
       ],
       "explanationVi": "Đáp án đúng là \"weren't\". Câu hoàn chỉnh: \"We weren't hungry after lunch.\" (Chúng tôi đã không đói sau bữa trưa.)."
     },
@@ -137,10 +137,10 @@
       "question": "___ the movie interesting?",
       "correctAnswer": "Was",
       "options": [
-        "Were",
         "Is",
-        "Was",
-        "Does"
+        "Does",
+        "Were",
+        "Was"
       ],
       "explanationVi": "Đáp án đúng là \"Was\". Câu hoàn chỉnh: \"Was the movie interesting?\" (Bộ phim có hay không?)."
     },
@@ -151,8 +151,8 @@
       "question": "I _____ not ready for the test.",
       "correctAnswer": "wasn't",
       "options": [
-        "am",
         "is",
+        "am",
         "wasn't",
         "are"
       ],
@@ -164,12 +164,12 @@
       "promptVi": "[Sắp xếp câu] Ghép các khối từ thành câu hoàn chỉnh mang nghĩa: \"Tôi đã không sẵn sàng cho bài kiểm tra.\"",
       "question": "Sắp xếp các từ để tạo thành câu đúng: \"Tôi đã không sẵn sàng cho bài kiểm tra.\"",
       "words": [
-        "I",
-        "for",
-        "the",
         "test.",
+        "the",
         "wasn't",
-        "ready"
+        "ready",
+        "I",
+        "for"
       ],
       "correctSentence": "I wasn't ready for the test.",
       "hintVi": "Tôi đã không sẵn sàng cho bài kiểm tra.",
@@ -181,12 +181,12 @@
       "promptVi": "[Sắp xếp câu] Ghép các khối từ thành câu hoàn chỉnh mang nghĩa: \"Bạn có ở văn phòng ngày hôm qua không?\"",
       "question": "Sắp xếp các từ để tạo thành câu đúng: \"Bạn có ở văn phòng ngày hôm qua không?\"",
       "words": [
-        "yesterday?",
-        "you",
         "at",
+        "yesterday?",
+        "Were",
         "office",
         "the",
-        "Were"
+        "you"
       ],
       "correctSentence": "Were you at the office yesterday?",
       "hintVi": "Bạn có ở văn phòng ngày hôm qua không?",
@@ -198,11 +198,11 @@
       "promptVi": "[Sắp xếp câu] Ghép các khối từ thành câu hoàn chỉnh mang nghĩa: \"Chúng tôi đã không đói sau bữa trưa.\"",
       "question": "Sắp xếp các từ để tạo thành câu đúng: \"Chúng tôi đã không đói sau bữa trưa.\"",
       "words": [
-        "hungry",
+        "weren't",
+        "We",
         "lunch.",
         "after",
-        "weren't",
-        "We"
+        "hungry"
       ],
       "correctSentence": "We weren't hungry after lunch.",
       "hintVi": "Chúng tôi đã không đói sau bữa trưa.",
@@ -214,10 +214,10 @@
       "promptVi": "[Sắp xếp câu] Ghép các khối từ thành câu hoàn chỉnh mang nghĩa: \"Bộ phim có hay không?\"",
       "question": "Sắp xếp các từ để tạo thành câu đúng: \"Bộ phim có hay không?\"",
       "words": [
-        "movie",
-        "the",
         "interesting?",
-        "Was"
+        "Was",
+        "movie",
+        "the"
       ],
       "correctSentence": "Was the movie interesting?",
       "hintVi": "Bộ phim có hay không?",
@@ -229,14 +229,14 @@
       "promptVi": "[Sắp xếp câu] Ghép các từ thành câu hội thoại: \"Trưởng phòng có giận vì bạn vắng mặt không?\"",
       "question": "Sắp xếp các từ để tạo thành câu thoại: \"Trưởng phòng có giận vì bạn vắng mặt không?\"",
       "words": [
+        "Was",
+        "were",
+        "you",
         "absent",
         "angry",
-        "manager",
-        "because",
         "the",
-        "you",
-        "Was",
-        "were"
+        "manager",
+        "because"
       ],
       "correctSentence": "Was the manager angry because you were absent?",
       "hintVi": "Trưởng phòng có giận vì bạn vắng mặt không?",
@@ -248,8 +248,8 @@
       "promptVi": "[Nhận diện cấu trúc chuẩn] Chọn câu có cấu trúc ngữ pháp HOÀN TOÀN ĐÚNG:",
       "question": "Dựa vào chủ điểm \"Bài 9: Động từ To Be — Quá khứ Đơn (Phủ định Wasn't/Weren't & Câu hỏi Was/Were)\", câu nào sau đây CHÍNH XÁC?",
       "options": [
-        "I wasn't ready for the test.",
         "is",
+        "I wasn't ready for the test.",
         "I wasn't ready at the test.",
         "test. the for ready wasn't I"
       ],
@@ -262,10 +262,10 @@
       "promptVi": "[Nhận diện cấu trúc chuẩn] Chọn câu có cấu trúc ngữ pháp HOÀN TOÀN ĐÚNG:",
       "question": "Dựa vào chủ điểm \"Bài 9: Động từ To Be — Quá khứ Đơn (Phủ định Wasn't/Weren't & Câu hỏi Was/Were)\", câu nào sau đây CHÍNH XÁC?",
       "options": [
-        "be you at the office yesterday?",
+        "Were you at the office yesterday?",
         "is",
-        "yesterday? office the at you Were",
-        "Were you at the office yesterday?"
+        "be you at the office yesterday?",
+        "yesterday? office the at you Were"
       ],
       "correctAnswer": "Were you at the office yesterday?",
       "explanationVi": "Cấu trúc chuẩn xác là: \"Were you at the office yesterday?\" (Bạn có ở văn phòng ngày hôm qua không?)."
@@ -276,10 +276,10 @@
       "promptVi": "[Nhận diện cấu trúc chuẩn] Chọn câu có cấu trúc ngữ pháp HOÀN TOÀN ĐÚNG:",
       "question": "Dựa vào chủ điểm \"Bài 9: Động từ To Be — Quá khứ Đơn (Phủ định Wasn't/Weren't & Câu hỏi Was/Were)\", câu nào sau đây CHÍNH XÁC?",
       "options": [
-        "are",
+        "is",
         "lunch. after hungry weren't We",
         "We weren't hungry after lunch.",
-        "is"
+        "are"
       ],
       "correctAnswer": "We weren't hungry after lunch.",
       "explanationVi": "Cấu trúc chuẩn xác là: \"We weren't hungry after lunch.\" (Chúng tôi đã không đói sau bữa trưa.)."
@@ -290,10 +290,10 @@
       "promptVi": "[Nhận diện cấu trúc chuẩn] Chọn câu có cấu trúc ngữ pháp HOÀN TOÀN ĐÚNG:",
       "question": "Dựa vào chủ điểm \"Bài 9: Động từ To Be — Quá khứ Đơn (Phủ định Wasn't/Weren't & Câu hỏi Was/Were)\", câu nào sau đây CHÍNH XÁC?",
       "options": [
+        "interesting? movie the Was",
         "be the movie interesting?",
         "Was the movie interesting?",
-        "is",
-        "interesting? movie the Was"
+        "is"
       ],
       "correctAnswer": "Was the movie interesting?",
       "explanationVi": "Cấu trúc chuẩn xác là: \"Was the movie interesting?\" (Bộ phim có hay không?)."
@@ -305,10 +305,10 @@
       "audioPrompt": "Were you at the meeting yesterday morning?",
       "question": "Nhấn nút '🔊 Nghe audio' và chọn nghĩa tiếng Việt đúng:",
       "options": [
-        "Trưởng phòng có giận vì bạn vắng mặt không?",
-        "Không, tôi đã không ở cuộc họp. Tôi đã bận trong văn phòng.",
         "Hôm nay thời tiết rất đẹp.",
-        "Bạn có ở cuộc họp sáng qua không?"
+        "Bạn có ở cuộc họp sáng qua không?",
+        "Không, tôi đã không ở cuộc họp. Tôi đã bận trong văn phòng.",
+        "Trưởng phòng có giận vì bạn vắng mặt không?"
       ],
       "correctAnswer": "Bạn có ở cuộc họp sáng qua không?",
       "explanationVi": "Câu nghe được: \"Were you at the meeting yesterday morning?\" có nghĩa là: \"Bạn có ở cuộc họp sáng qua không?\"."
@@ -321,8 +321,8 @@
       "question": "Nhấn nút '🔊 Nghe audio' và chọn nghĩa tiếng Việt đúng:",
       "options": [
         "Không, ông ấy không giận. Ông ấy rất thông cảm.",
-        "Hôm nay thời tiết rất đẹp.",
         "Trưởng phòng có giận vì bạn vắng mặt không?",
+        "Hôm nay thời tiết rất đẹp.",
         "Không, tôi đã không ở cuộc họp. Tôi đã bận trong văn phòng."
       ],
       "correctAnswer": "Không, tôi đã không ở cuộc họp. Tôi đã bận trong văn phòng.",
@@ -335,9 +335,9 @@
       "audioPrompt": "Was the manager angry because you were absent?",
       "question": "Nhấn nút '🔊 Nghe audio' và chọn nghĩa tiếng Việt đúng:",
       "options": [
-        "Hôm nay thời tiết rất đẹp.",
         "Các bài thuyết trình cho khách hàng có thành công không?",
         "Trưởng phòng có giận vì bạn vắng mặt không?",
+        "Hôm nay thời tiết rất đẹp.",
         "Không, ông ấy không giận. Ông ấy rất thông cảm."
       ],
       "correctAnswer": "Trưởng phòng có giận vì bạn vắng mặt không?",
@@ -350,10 +350,10 @@
       "audioPrompt": "No, he wasn't. He was very understanding.",
       "question": "Nhấn nút '🔊 Nghe audio' và chọn nghĩa tiếng Việt đúng:",
       "options": [
-        "Các bài thuyết trình cho khách hàng có thành công không?",
+        "Không, ông ấy không giận. Ông ấy rất thông cảm.",
         "Có, chúng đã rất xuất sắc!",
-        "Hôm nay thời tiết rất đẹp.",
-        "Không, ông ấy không giận. Ông ấy rất thông cảm."
+        "Các bài thuyết trình cho khách hàng có thành công không?",
+        "Hôm nay thời tiết rất đẹp."
       ],
       "correctAnswer": "Không, ông ấy không giận. Ông ấy rất thông cảm.",
       "explanationVi": "Câu nghe được: \"No, he wasn't. He was very understanding.\" có nghĩa là: \"Không, ông ấy không giận. Ông ấy rất thông cảm.\"."
@@ -401,10 +401,10 @@
       "passage": "John: \"Were you at the meeting yesterday morning?\"\nAnna: \"No, I wasn't at the meeting. I was busy in my office.\"\nJohn: \"Was the manager angry because you were absent?\"\nAnna: \"No, he wasn't. He was very understanding.\"",
       "question": "Dựa vào đoạn đối thoại trên, thông tin nào sau đây là CHÍNH XÁC về nội dung câu nói của John?",
       "options": [
-        "John phàn nàn rằng thời tiết hôm nay quá xấu.",
-        "John muốn mượn tiền để mua vé máy bay gấp.",
         "John từ chối trả lời và yêu cầu hủy cuộc hẹn.",
-        "John chia sẻ thông tin: \"Bạn có ở cuộc họp sáng qua không?\""
+        "John chia sẻ thông tin: \"Bạn có ở cuộc họp sáng qua không?\"",
+        "John phàn nàn rằng thời tiết hôm nay quá xấu.",
+        "John muốn mượn tiền để mua vé máy bay gấp."
       ],
       "correctAnswer": "John chia sẻ thông tin: \"Bạn có ở cuộc họp sáng qua không?\"",
       "explanationVi": "Trong đoạn hội thoại, John đã nói: \"Were you at the meeting yesterday morning?\" (nghĩa là: \"Bạn có ở cuộc họp sáng qua không?\")."
@@ -416,10 +416,10 @@
       "passage": "John: \"Was the manager angry because you were absent?\"\nAnna: \"No, he wasn't. He was very understanding.\"\nJohn: \"Were the client presentations successful?\"\nAnna: \"Yes, they were excellent!\"",
       "question": "Trong đoạn hội thoại trên, câu nói \"Yes, they were excellent!\" của Anna mang ý nghĩa gì?",
       "options": [
-        "Phản hồi: \"Có, chúng đã rất xuất sắc!\"",
-        "Phản hồi: \"Yêu cầu cung cấp hóa đơn thanh toán tiền mặt\"",
+        "Phản hồi: \"Hẹn gặp lại vào cuối tuần sau tại sân bay quốc tế\"",
         "Phản hồi: \"Hoàn toàn không đồng ý và muốn rời khỏi phòng ngay lập tức\"",
-        "Phản hồi: \"Hẹn gặp lại vào cuối tuần sau tại sân bay quốc tế\""
+        "Phản hồi: \"Yêu cầu cung cấp hóa đơn thanh toán tiền mặt\"",
+        "Phản hồi: \"Có, chúng đã rất xuất sắc!\""
       ],
       "correctAnswer": "Phản hồi: \"Có, chúng đã rất xuất sắc!\"",
       "explanationVi": "Anna nói: \"Yes, they were excellent!\" có nghĩa là: \"Có, chúng đã rất xuất sắc!\"."

@@ -10,10 +10,10 @@
       "promptVi": "[Trắc nghiệm ngữ pháp] Chọn từ đúng để hoàn thành câu (Tôi có hai cuốn sách và ba cây bút.):",
       "question": "I have two books and three ___.",
       "options": [
-        "pen",
-        "penes",
         "penies",
-        "pens"
+        "pens",
+        "pen",
+        "penes"
       ],
       "correctAnswer": "pens",
       "explanationVi": "Sau số đếm 'three' dùng danh từ số nhiều 'pens'."
@@ -24,10 +24,10 @@
       "promptVi": "[Trắc nghiệm ngữ pháp] Chọn từ đúng để hoàn thành câu (Có nhiều trẻ em ở trong công viên.):",
       "question": "There are many ___ in the park.",
       "options": [
+        "childs",
         "children",
         "child",
-        "childrens",
-        "childs"
+        "childrens"
       ],
       "correctAnswer": "children",
       "explanationVi": "Số nhiều của 'child' là 'children' (bất quy tắc)."
@@ -38,10 +38,10 @@
       "promptVi": "[Trắc nghiệm ngữ pháp] Chọn từ đúng để hoàn thành câu (Cô ấy đã mua ba hộp táo.):",
       "question": "She bought three ___ of apples.",
       "options": [
-        "boxs",
-        "boxes",
         "box",
-        "boxies"
+        "boxies",
+        "boxs",
+        "boxes"
       ],
       "correctAnswer": "boxes",
       "explanationVi": "Danh từ kết thúc bằng đuôi -x thêm -es -> boxes."
@@ -52,10 +52,10 @@
       "promptVi": "[Trắc nghiệm ngữ pháp] Chọn từ đúng để hoàn thành câu (Những người đàn ông đó làm việc trong nhà máy.):",
       "question": "Those ___ work in the factory.",
       "options": [
+        "manes",
         "men",
-        "mens",
         "mans",
-        "manes"
+        "mens"
       ],
       "correctAnswer": "men",
       "explanationVi": "Số nhiều của 'man' là 'men'."
@@ -66,10 +66,10 @@
       "promptVi": "[Phản xạ dịch thuật] Dịch câu sau sang tiếng Anh: \"Chào buổi sáng! Chúng ta cần bao nhiêu quyển vở và cây bút cho học sinh của mình?\"",
       "question": "Chọn bản dịch chuẩn xác nhất cho câu: \"Chào buổi sáng! Chúng ta cần bao nhiêu quyển vở và cây bút cho học sinh của mình?\"",
       "options": [
-        "We need twenty notebooks, forty blue pens, and three large boxes of crayons.",
-        "Good morning! How many notebooks and pens be we need for our students?",
+        "Good morning! How many notebooks and pens do we need for our students?",
         "We are studying English today.",
-        "Good morning! How many notebooks and pens do we need for our students?"
+        "Good morning! How many notebooks and pens be we need for our students?",
+        "We need twenty notebooks, forty blue pens, and three large boxes of crayons."
       ],
       "correctAnswer": "Good morning! How many notebooks and pens do we need for our students?",
       "explanationVi": "Câu dịch chuẩn xác: \"Good morning! How many notebooks and pens do we need for our students?\" (Chào buổi sáng! Chúng ta cần bao nhiêu quyển vở và cây bút cho học sinh của mình?)."
@@ -81,9 +81,9 @@
       "question": "Khi đối phương nói: \"Good morning! How many notebooks and pens do we need for our students?\", câu phản hồi phù hợp là gì?",
       "options": [
         "Yes, I will eat it.",
-        "They are not in the office.",
         "We need twenty notebooks, forty blue pens, and three large boxes of crayons.",
-        "No, it was yesterday."
+        "No, it was yesterday.",
+        "They are not in the office."
       ],
       "correctAnswer": "We need twenty notebooks, forty blue pens, and three large boxes of crayons.",
       "explanationVi": "Phản hồi phù hợp trong bài: \"We need twenty notebooks, forty blue pens, and three large boxes of crayons.\" (Chúng ta cần hai mươi quyển vở, bốn mươi cây bút bi xanh, và ba hộp sáp màu lớn.)."
@@ -95,10 +95,10 @@
       "question": "I have two books and three ___.",
       "correctAnswer": "pens",
       "options": [
-        "penes",
         "penies",
-        "pens",
-        "pen"
+        "penes",
+        "pen",
+        "pens"
       ],
       "explanationVi": "Đáp án đúng là \"pens\". Câu hoàn chỉnh: \"I have two books and three pens.\" (Tôi có hai cuốn sách và ba cây bút.)."
     },
@@ -109,10 +109,10 @@
       "question": "There are many ___ in the park.",
       "correctAnswer": "children",
       "options": [
-        "child",
         "children",
-        "childs",
-        "childrens"
+        "child",
+        "childrens",
+        "childs"
       ],
       "explanationVi": "Đáp án đúng là \"children\". Câu hoàn chỉnh: \"There are many children in the park.\" (Có nhiều trẻ em ở trong công viên.)."
     },
@@ -123,10 +123,10 @@
       "question": "She bought three ___ of apples.",
       "correctAnswer": "boxes",
       "options": [
-        "boxies",
+        "boxes",
         "boxs",
-        "box",
-        "boxes"
+        "boxies",
+        "box"
       ],
       "explanationVi": "Đáp án đúng là \"boxes\". Câu hoàn chỉnh: \"She bought three boxes of apples.\" (Cô ấy đã mua ba hộp táo.)."
     },
@@ -137,10 +137,10 @@
       "question": "Those ___ work in the factory.",
       "correctAnswer": "men",
       "options": [
+        "men",
         "mans",
         "mens",
-        "manes",
-        "men"
+        "manes"
       ],
       "explanationVi": "Đáp án đúng là \"men\". Câu hoàn chỉnh: \"Those men work in the factory.\" (Những người đàn ông đó làm việc trong nhà máy.)."
     },
@@ -151,8 +151,8 @@
       "question": "I _____ not two books and three pens.",
       "correctAnswer": "have",
       "options": [
-        "have",
         "am",
+        "have",
         "is",
         "are"
       ],
@@ -164,13 +164,13 @@
       "promptVi": "[Sắp xếp câu] Ghép các khối từ thành câu hoàn chỉnh mang nghĩa: \"Tôi có hai cuốn sách và ba cây bút.\"",
       "question": "Sắp xếp các từ để tạo thành câu đúng: \"Tôi có hai cuốn sách và ba cây bút.\"",
       "words": [
-        "and",
-        "three",
         "I",
-        "books",
-        "have",
         "pens.",
-        "two"
+        "books",
+        "two",
+        "have",
+        "and",
+        "three"
       ],
       "correctSentence": "I have two books and three pens.",
       "hintVi": "Tôi có hai cuốn sách và ba cây bút.",
@@ -182,13 +182,13 @@
       "promptVi": "[Sắp xếp câu] Ghép các khối từ thành câu hoàn chỉnh mang nghĩa: \"Có nhiều trẻ em ở trong công viên.\"",
       "question": "Sắp xếp các từ để tạo thành câu đúng: \"Có nhiều trẻ em ở trong công viên.\"",
       "words": [
-        "in",
-        "park.",
-        "many",
+        "There",
         "are",
         "children",
-        "There",
-        "the"
+        "park.",
+        "the",
+        "in",
+        "many"
       ],
       "correctSentence": "There are many children in the park.",
       "hintVi": "Có nhiều trẻ em ở trong công viên.",
@@ -200,12 +200,12 @@
       "promptVi": "[Sắp xếp câu] Ghép các khối từ thành câu hoàn chỉnh mang nghĩa: \"Cô ấy đã mua ba hộp táo.\"",
       "question": "Sắp xếp các từ để tạo thành câu đúng: \"Cô ấy đã mua ba hộp táo.\"",
       "words": [
-        "bought",
         "boxes",
-        "She",
         "three",
+        "She",
         "apples.",
-        "of"
+        "of",
+        "bought"
       ],
       "correctSentence": "She bought three boxes of apples.",
       "hintVi": "Cô ấy đã mua ba hộp táo.",
@@ -217,12 +217,12 @@
       "promptVi": "[Sắp xếp câu] Ghép các khối từ thành câu hoàn chỉnh mang nghĩa: \"Những người đàn ông đó làm việc trong nhà máy.\"",
       "question": "Sắp xếp các từ để tạo thành câu đúng: \"Những người đàn ông đó làm việc trong nhà máy.\"",
       "words": [
-        "factory.",
-        "work",
-        "in",
-        "Those",
         "the",
-        "men"
+        "factory.",
+        "in",
+        "men",
+        "Those",
+        "work"
       ],
       "correctSentence": "Those men work in the factory.",
       "hintVi": "Những người đàn ông đó làm việc trong nhà máy.",
@@ -234,17 +234,17 @@
       "promptVi": "[Sắp xếp câu] Ghép các từ thành câu hội thoại: \"Chúng ta có nên mua hai cuốn từ điển mới và năm cuốn truyện tiếng Anh nữa không?\"",
       "question": "Sắp xếp các từ để tạo thành câu thoại: \"Chúng ta có nên mua hai cuốn từ điển mới và năm cuốn truyện tiếng Anh nữa không?\"",
       "words": [
+        "dictionaries",
         "Should",
         "five",
-        "two",
-        "storybooks",
-        "and",
-        "also",
         "we",
+        "and",
+        "storybooks",
         "new",
+        "also",
         "buy",
-        "english",
-        "dictionaries"
+        "two",
+        "english"
       ],
       "correctSentence": "Should we also buy two new dictionaries and five english storybooks?",
       "hintVi": "Chúng ta có nên mua hai cuốn từ điển mới và năm cuốn truyện tiếng Anh nữa không?",
@@ -257,9 +257,9 @@
       "question": "Dựa vào chủ điểm \"Bài 39: Danh từ Đếm được — Số ít & Số nhiều (Quy tắc thêm -s / -es & Bất quy tắc)\", câu nào sau đây CHÍNH XÁC?",
       "options": [
         "are",
-        "pens. three and books two have I",
         "is",
-        "I have two books and three pens."
+        "I have two books and three pens.",
+        "pens. three and books two have I"
       ],
       "correctAnswer": "I have two books and three pens.",
       "explanationVi": "Cấu trúc chuẩn xác là: \"I have two books and three pens.\" (Tôi có hai cuốn sách và ba cây bút.)."
@@ -270,10 +270,10 @@
       "promptVi": "[Nhận diện cấu trúc chuẩn] Chọn câu có cấu trúc ngữ pháp HOÀN TOÀN ĐÚNG:",
       "question": "Dựa vào chủ điểm \"Bài 39: Danh từ Đếm được — Số ít & Số nhiều (Quy tắc thêm -s / -es & Bất quy tắc)\", câu nào sau đây CHÍNH XÁC?",
       "options": [
-        "There are many children at the park.",
-        "park. the in children many are There",
+        "There are many children in the park.",
         "There be many children in the park.",
-        "There are many children in the park."
+        "There are many children at the park.",
+        "park. the in children many are There"
       ],
       "correctAnswer": "There are many children in the park.",
       "explanationVi": "Cấu trúc chuẩn xác là: \"There are many children in the park.\" (Có nhiều trẻ em ở trong công viên.)."
@@ -284,10 +284,10 @@
       "promptVi": "[Nhận diện cấu trúc chuẩn] Chọn câu có cấu trúc ngữ pháp HOÀN TOÀN ĐÚNG:",
       "question": "Dựa vào chủ điểm \"Bài 39: Danh từ Đếm được — Số ít & Số nhiều (Quy tắc thêm -s / -es & Bất quy tắc)\", câu nào sau đây CHÍNH XÁC?",
       "options": [
-        "is",
+        "She bought three boxes of apples.",
         "apples. of boxes three bought She",
-        "are",
-        "She bought three boxes of apples."
+        "is",
+        "are"
       ],
       "correctAnswer": "She bought three boxes of apples.",
       "explanationVi": "Cấu trúc chuẩn xác là: \"She bought three boxes of apples.\" (Cô ấy đã mua ba hộp táo.)."
@@ -298,10 +298,10 @@
       "promptVi": "[Nhận diện cấu trúc chuẩn] Chọn câu có cấu trúc ngữ pháp HOÀN TOÀN ĐÚNG:",
       "question": "Dựa vào chủ điểm \"Bài 39: Danh từ Đếm được — Số ít & Số nhiều (Quy tắc thêm -s / -es & Bất quy tắc)\", câu nào sau đây CHÍNH XÁC?",
       "options": [
-        "factory. the in work men Those",
         "is",
         "Those men work in the factory.",
-        "Those men work at the factory."
+        "Those men work at the factory.",
+        "factory. the in work men Those"
       ],
       "correctAnswer": "Those men work in the factory.",
       "explanationVi": "Cấu trúc chuẩn xác là: \"Those men work in the factory.\" (Những người đàn ông đó làm việc trong nhà máy.)."
@@ -313,10 +313,10 @@
       "audioPrompt": "Good morning! How many notebooks and pens do we need for our students?",
       "question": "Nhấn nút '🔊 Nghe audio' và chọn nghĩa tiếng Việt đúng:",
       "options": [
-        "Chúng ta cần hai mươi quyển vở, bốn mươi cây bút bi xanh, và ba hộp sáp màu lớn.",
         "Chào buổi sáng! Chúng ta cần bao nhiêu quyển vở và cây bút cho học sinh của mình?",
-        "Hôm nay thời tiết rất đẹp.",
-        "Chúng ta có nên mua hai cuốn từ điển mới và năm cuốn truyện tiếng Anh nữa không?"
+        "Chúng ta cần hai mươi quyển vở, bốn mươi cây bút bi xanh, và ba hộp sáp màu lớn.",
+        "Chúng ta có nên mua hai cuốn từ điển mới và năm cuốn truyện tiếng Anh nữa không?",
+        "Hôm nay thời tiết rất đẹp."
       ],
       "correctAnswer": "Chào buổi sáng! Chúng ta cần bao nhiêu quyển vở và cây bút cho học sinh của mình?",
       "explanationVi": "Câu nghe được: \"Good morning! How many notebooks and pens do we need for our students?\" có nghĩa là: \"Chào buổi sáng! Chúng ta cần bao nhiêu quyển vở và cây bút cho học sinh của mình?\"."
@@ -328,10 +328,10 @@
       "audioPrompt": "We need twenty notebooks, forty blue pens, and three large boxes of crayons.",
       "question": "Nhấn nút '🔊 Nghe audio' và chọn nghĩa tiếng Việt đúng:",
       "options": [
-        "Hôm nay thời tiết rất đẹp.",
-        "Chúng ta cần hai mươi quyển vở, bốn mươi cây bút bi xanh, và ba hộp sáp màu lớn.",
         "Chúng ta có nên mua hai cuốn từ điển mới và năm cuốn truyện tiếng Anh nữa không?",
-        "Có chứ! Trẻ em trong lớp rất thích đọc những câu chuyện đầy màu sắc về những con vật thân thiện."
+        "Có chứ! Trẻ em trong lớp rất thích đọc những câu chuyện đầy màu sắc về những con vật thân thiện.",
+        "Hôm nay thời tiết rất đẹp.",
+        "Chúng ta cần hai mươi quyển vở, bốn mươi cây bút bi xanh, và ba hộp sáp màu lớn."
       ],
       "correctAnswer": "Chúng ta cần hai mươi quyển vở, bốn mươi cây bút bi xanh, và ba hộp sáp màu lớn.",
       "explanationVi": "Câu nghe được: \"We need twenty notebooks, forty blue pens, and three large boxes of crayons.\" có nghĩa là: \"Chúng ta cần hai mươi quyển vở, bốn mươi cây bút bi xanh, và ba hộp sáp màu lớn.\"."
@@ -343,10 +343,10 @@
       "audioPrompt": "Should we also buy two new dictionaries and five english storybooks?",
       "question": "Nhấn nút '🔊 Nghe audio' và chọn nghĩa tiếng Việt đúng:",
       "options": [
-        "Chúng ta có nên mua hai cuốn từ điển mới và năm cuốn truyện tiếng Anh nữa không?",
+        "Nhìn những chiếc kệ gỗ này xem. Chúng chứa nhiều chai thủy tinh và những chiếc kéo sắc.",
         "Có chứ! Trẻ em trong lớp rất thích đọc những câu chuyện đầy màu sắc về những con vật thân thiện.",
         "Hôm nay thời tiết rất đẹp.",
-        "Nhìn những chiếc kệ gỗ này xem. Chúng chứa nhiều chai thủy tinh và những chiếc kéo sắc."
+        "Chúng ta có nên mua hai cuốn từ điển mới và năm cuốn truyện tiếng Anh nữa không?"
       ],
       "correctAnswer": "Chúng ta có nên mua hai cuốn từ điển mới và năm cuốn truyện tiếng Anh nữa không?",
       "explanationVi": "Câu nghe được: \"Should we also buy two new dictionaries and five english storybooks?\" có nghĩa là: \"Chúng ta có nên mua hai cuốn từ điển mới và năm cuốn truyện tiếng Anh nữa không?\"."
@@ -358,10 +358,10 @@
       "audioPrompt": "Yes! The children in class love reading colorful stories about friendly animals.",
       "question": "Nhấn nút '🔊 Nghe audio' và chọn nghĩa tiếng Việt đúng:",
       "options": [
-        "Hãy cẩn thận với những con dao và đồ thủy tinh đó; chúng khá dễ vỡ đấy.",
-        "Nhìn những chiếc kệ gỗ này xem. Chúng chứa nhiều chai thủy tinh và những chiếc kéo sắc.",
         "Có chứ! Trẻ em trong lớp rất thích đọc những câu chuyện đầy màu sắc về những con vật thân thiện.",
-        "Hôm nay thời tiết rất đẹp."
+        "Hôm nay thời tiết rất đẹp.",
+        "Hãy cẩn thận với những con dao và đồ thủy tinh đó; chúng khá dễ vỡ đấy.",
+        "Nhìn những chiếc kệ gỗ này xem. Chúng chứa nhiều chai thủy tinh và những chiếc kéo sắc."
       ],
       "correctAnswer": "Có chứ! Trẻ em trong lớp rất thích đọc những câu chuyện đầy màu sắc về những con vật thân thiện.",
       "explanationVi": "Câu nghe được: \"Yes! The children in class love reading colorful stories about friendly animals.\" có nghĩa là: \"Có chứ! Trẻ em trong lớp rất thích đọc những câu chuyện đầy màu sắc về những con vật thân thiện.\"."
@@ -409,10 +409,10 @@
       "passage": "Liam: \"Good morning! How many notebooks and pens do we need for our students?\"\nSophia: \"We need twenty notebooks, forty blue pens, and three large boxes of crayons.\"\nLiam: \"Should we also buy two new dictionaries and five english storybooks?\"\nSophia: \"Yes! The children in class love reading colorful stories about friendly animals.\"",
       "question": "Dựa vào đoạn đối thoại trên, thông tin nào sau đây là CHÍNH XÁC về nội dung câu nói của Liam?",
       "options": [
-        "Liam muốn mượn tiền để mua vé máy bay gấp.",
-        "Liam chia sẻ thông tin: \"Chào buổi sáng! Chúng ta cần bao nhiêu quyển vở và cây bút cho học sinh của mình?\"",
+        "Liam từ chối trả lời và yêu cầu hủy cuộc hẹn.",
         "Liam phàn nàn rằng thời tiết hôm nay quá xấu.",
-        "Liam từ chối trả lời và yêu cầu hủy cuộc hẹn."
+        "Liam muốn mượn tiền để mua vé máy bay gấp.",
+        "Liam chia sẻ thông tin: \"Chào buổi sáng! Chúng ta cần bao nhiêu quyển vở và cây bút cho học sinh của mình?\""
       ],
       "correctAnswer": "Liam chia sẻ thông tin: \"Chào buổi sáng! Chúng ta cần bao nhiêu quyển vở và cây bút cho học sinh của mình?\"",
       "explanationVi": "Trong đoạn hội thoại, Liam đã nói: \"Good morning! How many notebooks and pens do we need for our students?\" (nghĩa là: \"Chào buổi sáng! Chúng ta cần bao nhiêu quyển vở và cây bút cho học sinh của mình?\")."
@@ -424,9 +424,9 @@
       "passage": "Liam: \"Look at these wooden shelves. They hold many glass bottles and sharp scissors.\"\nSophia: \"Be careful with those knives and glass items; they are quite fragile.\"\nLiam: \"How many people are coming to the charity workshop on Friday?\"\nSophia: \"About thirty men and forty women have already registered their names.\"",
       "question": "Trong đoạn hội thoại trên, câu nói \"About thirty men and forty women have already registered their names.\" của Sophia mang ý nghĩa gì?",
       "options": [
+        "Phản hồi: \"Hoàn toàn không đồng ý và muốn rời khỏi phòng ngay lập tức\"",
         "Phản hồi: \"Yêu cầu cung cấp hóa đơn thanh toán tiền mặt\"",
         "Phản hồi: \"Khoảng ba mươi người đàn ông và bốn mươi phụ nữ đã đăng ký tên của họ rồi.\"",
-        "Phản hồi: \"Hoàn toàn không đồng ý và muốn rời khỏi phòng ngay lập tức\"",
         "Phản hồi: \"Hẹn gặp lại vào cuối tuần sau tại sân bay quốc tế\""
       ],
       "correctAnswer": "Phản hồi: \"Khoảng ba mươi người đàn ông và bốn mươi phụ nữ đã đăng ký tên của họ rồi.\"",

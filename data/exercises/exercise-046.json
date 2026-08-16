@@ -11,9 +11,9 @@
       "question": "This house ___ built in 1990.",
       "options": [
         "is",
-        "was",
         "were",
-        "did"
+        "did",
+        "was"
       ],
       "correctAnswer": "was",
       "explanationVi": "'This house' là số ít, thời gian '1990' trong quá khứ nên dùng 'was built'."
@@ -24,9 +24,9 @@
       "promptVi": "[Trắc nghiệm ngữ pháp] Chọn từ đúng để hoàn thành câu (Điện thoại được phát minh bởi Alexander Bell.):",
       "question": "The telephone was invented ___ Alexander Bell.",
       "options": [
+        "for",
         "with",
         "from",
-        "for",
         "by"
       ],
       "correctAnswer": "by",
@@ -38,10 +38,10 @@
       "promptVi": "[Trắc nghiệm ngữ pháp] Chọn từ đúng để hoàn thành câu (Những lá thư này đã được gửi đi ngày hôm qua.):",
       "question": "These letters ___ sent yesterday.",
       "options": [
+        "were",
         "was",
         "have",
-        "are",
-        "were"
+        "are"
       ],
       "correctAnswer": "were",
       "explanationVi": "'These letters' là danh từ số nhiều ở quá khứ nên dùng 'were sent'."
@@ -53,9 +53,9 @@
       "question": "The window was ___ by the children.",
       "options": [
         "broken",
-        "breaking",
+        "broke",
         "breaked",
-        "broke"
+        "breaking"
       ],
       "correctAnswer": "broken",
       "explanationVi": "Phân từ hai (V3) của 'break' là 'broken'."
@@ -66,9 +66,9 @@
       "promptVi": "[Phản xạ dịch thuật] Dịch câu sau sang tiếng Anh: \"Chào mừng bạn đến với Bảo tàng Lịch sử Quốc gia! Tòa lâu đài bằng đá cổ kính này được xây dựng khi nào?\"",
       "question": "Chọn bản dịch chuẩn xác nhất cho câu: \"Chào mừng bạn đến với Bảo tàng Lịch sử Quốc gia! Tòa lâu đài bằng đá cổ kính này được xây dựng khi nào?\"",
       "options": [
-        "Welcome to the National History Museum! When be this ancient stone castle built?",
         "We are studying English today.",
         "Welcome to the National History Museum! When was this ancient stone castle built?",
+        "Welcome to the National History Museum! When be this ancient stone castle built?",
         "This historic castle was built in the fourteenth century by royal stonemasons."
       ],
       "correctAnswer": "Welcome to the National History Museum! When was this ancient stone castle built?",
@@ -80,10 +80,10 @@
       "promptVi": "[Ngữ cảnh giao tiếp] Chọn câu phản hồi tự nhiên và đúng ngữ pháp:",
       "question": "Khi đối phương nói: \"Welcome to the National History Museum! When was this ancient stone castle built?\", câu phản hồi phù hợp là gì?",
       "options": [
-        "No, it was yesterday.",
-        "They are not in the office.",
         "This historic castle was built in the fourteenth century by royal stonemasons.",
-        "Yes, I will eat it."
+        "No, it was yesterday.",
+        "Yes, I will eat it.",
+        "They are not in the office."
       ],
       "correctAnswer": "This historic castle was built in the fourteenth century by royal stonemasons.",
       "explanationVi": "Phản hồi phù hợp trong bài: \"This historic castle was built in the fourteenth century by royal stonemasons.\" (Tòa lâu đài lịch sử này được xây dựng vào thế kỷ thứ mười bốn bởi các thợ đá hoàng gia.)."
@@ -95,10 +95,10 @@
       "question": "This house ___ built in 1990.",
       "correctAnswer": "was",
       "options": [
-        "is",
-        "was",
         "did",
-        "were"
+        "was",
+        "were",
+        "is"
       ],
       "explanationVi": "Đáp án đúng là \"was\". Câu hoàn chỉnh: \"This house was built in 1990.\" (Ngôi nhà này được xây dựng vào năm 1990.)."
     },
@@ -109,10 +109,10 @@
       "question": "The telephone was invented ___ Alexander Bell.",
       "correctAnswer": "by",
       "options": [
-        "with",
         "by",
-        "from",
-        "for"
+        "for",
+        "with",
+        "from"
       ],
       "explanationVi": "Đáp án đúng là \"by\". Câu hoàn chỉnh: \"The telephone was invented by Alexander Bell.\" (Điện thoại được phát minh bởi Alexander Bell.)."
     },
@@ -123,8 +123,8 @@
       "question": "These letters ___ sent yesterday.",
       "correctAnswer": "were",
       "options": [
-        "have",
         "was",
+        "have",
         "were",
         "are"
       ],
@@ -137,10 +137,10 @@
       "question": "The window was ___ by the children.",
       "correctAnswer": "broken",
       "options": [
-        "breaked",
-        "broke",
         "breaking",
-        "broken"
+        "broken",
+        "broke",
+        "breaked"
       ],
       "explanationVi": "Đáp án đúng là \"broken\". Câu hoàn chỉnh: \"The window was broken by the children.\" (Cửa sổ đã bị làm vỡ bởi những đứa trẻ.)."
     },
@@ -151,10 +151,10 @@
       "question": "This _____ not was built in 1990.",
       "correctAnswer": "house",
       "options": [
-        "house",
+        "am",
         "are",
         "is",
-        "am"
+        "house"
       ],
       "explanationVi": "Câu phủ định hoàn chỉnh: \"This house not was built in 1990.\"."
     },
@@ -164,12 +164,12 @@
       "promptVi": "[Sắp xếp câu] Ghép các khối từ thành câu hoàn chỉnh mang nghĩa: \"Ngôi nhà này được xây dựng vào năm 1990.\"",
       "question": "Sắp xếp các từ để tạo thành câu đúng: \"Ngôi nhà này được xây dựng vào năm 1990.\"",
       "words": [
-        "This",
-        "was",
         "house",
-        "1990.",
+        "was",
+        "built",
         "in",
-        "built"
+        "1990.",
+        "This"
       ],
       "correctSentence": "This house was built in 1990.",
       "hintVi": "Ngôi nhà này được xây dựng vào năm 1990.",
@@ -182,12 +182,12 @@
       "question": "Sắp xếp các từ để tạo thành câu đúng: \"Điện thoại được phát minh bởi Alexander Bell.\"",
       "words": [
         "invented",
-        "Bell.",
-        "was",
-        "The",
-        "telephone",
         "by",
-        "Alexander"
+        "telephone",
+        "The",
+        "Alexander",
+        "Bell.",
+        "was"
       ],
       "correctSentence": "The telephone was invented by Alexander Bell.",
       "hintVi": "Điện thoại được phát minh bởi Alexander Bell.",
@@ -199,10 +199,10 @@
       "promptVi": "[Sắp xếp câu] Ghép các khối từ thành câu hoàn chỉnh mang nghĩa: \"Những lá thư này đã được gửi đi ngày hôm qua.\"",
       "question": "Sắp xếp các từ để tạo thành câu đúng: \"Những lá thư này đã được gửi đi ngày hôm qua.\"",
       "words": [
-        "letters",
         "were",
-        "These",
         "yesterday.",
+        "letters",
+        "These",
         "sent"
       ],
       "correctSentence": "These letters were sent yesterday.",
@@ -215,11 +215,11 @@
       "promptVi": "[Sắp xếp câu] Ghép các khối từ thành câu hoàn chỉnh mang nghĩa: \"Cửa sổ đã bị làm vỡ bởi những đứa trẻ.\"",
       "question": "Sắp xếp các từ để tạo thành câu đúng: \"Cửa sổ đã bị làm vỡ bởi những đứa trẻ.\"",
       "words": [
+        "was",
+        "by",
+        "The",
         "window",
         "children.",
-        "The",
-        "by",
-        "was",
         "broken",
         "the"
       ],
@@ -233,18 +233,18 @@
       "promptVi": "[Sắp xếp câu] Ghép các từ thành câu hội thoại: \"Bức tranh nổi tiếng Mona Lisa có phải được vẽ bởi Leonardo da Vinci ở Ý không?\"",
       "question": "Sắp xếp các từ để tạo thành câu thoại: \"Bức tranh nổi tiếng Mona Lisa có phải được vẽ bởi Leonardo da Vinci ở Ý không?\"",
       "words": [
+        "Was",
         "the",
         "Mona",
-        "Was",
-        "in",
         "famous",
-        "Italy",
-        "da",
-        "Vinci",
-        "Leonardo",
-        "Lisa",
         "by",
-        "painted"
+        "Italy",
+        "Lisa",
+        "painted",
+        "Vinci",
+        "da",
+        "Leonardo",
+        "in"
       ],
       "correctSentence": "Was the famous Mona Lisa painted by Leonardo da Vinci in Italy?",
       "hintVi": "Bức tranh nổi tiếng Mona Lisa có phải được vẽ bởi Leonardo da Vinci ở Ý không?",
@@ -256,10 +256,10 @@
       "promptVi": "[Nhận diện cấu trúc chuẩn] Chọn câu có cấu trúc ngữ pháp HOÀN TOÀN ĐÚNG:",
       "question": "Dựa vào chủ điểm \"Bài 46: Câu Bị động — Quá khứ Đơn (Past Simple Passive: Was / Were + V3/ed)\", câu nào sau đây CHÍNH XÁC?",
       "options": [
-        "This house was built in 1990.",
-        "1990. in built was house This",
         "This house was built at 1990.",
-        "This house be built in 1990."
+        "This house be built in 1990.",
+        "1990. in built was house This",
+        "This house was built in 1990."
       ],
       "correctAnswer": "This house was built in 1990.",
       "explanationVi": "Cấu trúc chuẩn xác là: \"This house was built in 1990.\" (Ngôi nhà này được xây dựng vào năm 1990.)."
@@ -270,10 +270,10 @@
       "promptVi": "[Nhận diện cấu trúc chuẩn] Chọn câu có cấu trúc ngữ pháp HOÀN TOÀN ĐÚNG:",
       "question": "Dựa vào chủ điểm \"Bài 46: Câu Bị động — Quá khứ Đơn (Past Simple Passive: Was / Were + V3/ed)\", câu nào sau đây CHÍNH XÁC?",
       "options": [
-        "The telephone was invented by Alexander Bell.",
-        "Bell. Alexander by invented was telephone The",
         "The telephone be invented by Alexander Bell.",
-        "The telephone was invented at Alexander Bell."
+        "The telephone was invented by Alexander Bell.",
+        "The telephone was invented at Alexander Bell.",
+        "Bell. Alexander by invented was telephone The"
       ],
       "correctAnswer": "The telephone was invented by Alexander Bell.",
       "explanationVi": "Cấu trúc chuẩn xác là: \"The telephone was invented by Alexander Bell.\" (Điện thoại được phát minh bởi Alexander Bell.)."
@@ -284,9 +284,9 @@
       "promptVi": "[Nhận diện cấu trúc chuẩn] Chọn câu có cấu trúc ngữ pháp HOÀN TOÀN ĐÚNG:",
       "question": "Dựa vào chủ điểm \"Bài 46: Câu Bị động — Quá khứ Đơn (Past Simple Passive: Was / Were + V3/ed)\", câu nào sau đây CHÍNH XÁC?",
       "options": [
-        "yesterday. sent were letters These",
         "These letters were sent yesterday.",
         "is",
+        "yesterday. sent were letters These",
         "These letters be sent yesterday."
       ],
       "correctAnswer": "These letters were sent yesterday.",
@@ -300,8 +300,8 @@
       "options": [
         "children. the by broken was window The",
         "The window be broken by the children.",
-        "The window was broken at the children.",
-        "The window was broken by the children."
+        "The window was broken by the children.",
+        "The window was broken at the children."
       ],
       "correctAnswer": "The window was broken by the children.",
       "explanationVi": "Cấu trúc chuẩn xác là: \"The window was broken by the children.\" (Cửa sổ đã bị làm vỡ bởi những đứa trẻ.)."
@@ -313,10 +313,10 @@
       "audioPrompt": "Welcome to the National History Museum! When was this ancient stone castle built?",
       "question": "Nhấn nút '🔊 Nghe audio' và chọn nghĩa tiếng Việt đúng:",
       "options": [
+        "Tòa lâu đài lịch sử này được xây dựng vào thế kỷ thứ mười bốn bởi các thợ đá hoàng gia.",
         "Chào mừng bạn đến với Bảo tàng Lịch sử Quốc gia! Tòa lâu đài bằng đá cổ kính này được xây dựng khi nào?",
         "Bức tranh nổi tiếng Mona Lisa có phải được vẽ bởi Leonardo da Vinci ở Ý không?",
-        "Hôm nay thời tiết rất đẹp.",
-        "Tòa lâu đài lịch sử này được xây dựng vào thế kỷ thứ mười bốn bởi các thợ đá hoàng gia."
+        "Hôm nay thời tiết rất đẹp."
       ],
       "correctAnswer": "Chào mừng bạn đến với Bảo tàng Lịch sử Quốc gia! Tòa lâu đài bằng đá cổ kính này được xây dựng khi nào?",
       "explanationVi": "Câu nghe được: \"Welcome to the National History Museum! When was this ancient stone castle built?\" có nghĩa là: \"Chào mừng bạn đến với Bảo tàng Lịch sử Quốc gia! Tòa lâu đài bằng đá cổ kính này được xây dựng khi nào?\"."
@@ -328,9 +328,9 @@
       "audioPrompt": "This historic castle was built in the fourteenth century by royal stonemasons.",
       "question": "Nhấn nút '🔊 Nghe audio' và chọn nghĩa tiếng Việt đúng:",
       "options": [
+        "Tòa lâu đài lịch sử này được xây dựng vào thế kỷ thứ mười bốn bởi các thợ đá hoàng gia.",
         "Bức tranh nổi tiếng Mona Lisa có phải được vẽ bởi Leonardo da Vinci ở Ý không?",
         "Vâng, nó được vẽ trong khoảng từ năm 1503 đến năm 1519.",
-        "Tòa lâu đài lịch sử này được xây dựng vào thế kỷ thứ mười bốn bởi các thợ đá hoàng gia.",
         "Hôm nay thời tiết rất đẹp."
       ],
       "correctAnswer": "Tòa lâu đài lịch sử này được xây dựng vào thế kỷ thứ mười bốn bởi các thợ đá hoàng gia.",
@@ -343,8 +343,8 @@
       "audioPrompt": "Was the famous Mona Lisa painted by Leonardo da Vinci in Italy?",
       "question": "Nhấn nút '🔊 Nghe audio' và chọn nghĩa tiếng Việt đúng:",
       "options": [
-        "Những đồng tiền vàng quý hiếm này có được phát hiện trong một xác tàu đắm dưới nước không?",
         "Bức tranh nổi tiếng Mona Lisa có phải được vẽ bởi Leonardo da Vinci ở Ý không?",
+        "Những đồng tiền vàng quý hiếm này có được phát hiện trong một xác tàu đắm dưới nước không?",
         "Vâng, nó được vẽ trong khoảng từ năm 1503 đến năm 1519.",
         "Hôm nay thời tiết rất đẹp."
       ],
@@ -359,8 +359,8 @@
       "question": "Nhấn nút '🔊 Nghe audio' và chọn nghĩa tiếng Việt đúng:",
       "options": [
         "Những đồng tiền vàng quý hiếm này có được phát hiện trong một xác tàu đắm dưới nước không?",
-        "Vâng, nó được vẽ trong khoảng từ năm 1503 đến năm 1519.",
         "Hôm nay thời tiết rất đẹp.",
+        "Vâng, nó được vẽ trong khoảng từ năm 1503 đến năm 1519.",
         "Đúng vậy! Chúng được tìm thấy bởi các thợ lặn biển sâu gần bờ biển Tây Ban Nha vào năm 1990."
       ],
       "correctAnswer": "Vâng, nó được vẽ trong khoảng từ năm 1503 đến năm 1519.",
@@ -411,8 +411,8 @@
       "options": [
         "Alexander chia sẻ thông tin: \"Chào mừng bạn đến với Bảo tàng Lịch sử Quốc gia! Tòa lâu đài bằng đá cổ kính này được xây dựng khi nào?\"",
         "Alexander phàn nàn rằng thời tiết hôm nay quá xấu.",
-        "Alexander muốn mượn tiền để mua vé máy bay gấp.",
-        "Alexander từ chối trả lời và yêu cầu hủy cuộc hẹn."
+        "Alexander từ chối trả lời và yêu cầu hủy cuộc hẹn.",
+        "Alexander muốn mượn tiền để mua vé máy bay gấp."
       ],
       "correctAnswer": "Alexander chia sẻ thông tin: \"Chào mừng bạn đến với Bảo tàng Lịch sử Quốc gia! Tòa lâu đài bằng đá cổ kính này được xây dựng khi nào?\"",
       "explanationVi": "Trong đoạn hội thoại, Alexander đã nói: \"Welcome to the National History Museum! When was this ancient stone castle built?\" (nghĩa là: \"Chào mừng bạn đến với Bảo tàng Lịch sử Quốc gia! Tòa lâu đài bằng đá cổ kính này được xây dựng khi nào?\")."
@@ -424,10 +424,10 @@
       "passage": "Alexander: \"Were these rare gold coins discovered in an underwater shipwreck?\"\nClara: \"Indeed! They were found by deep-sea divers near the coast of Spain in nineteen ninety.\"\nAlexander: \"When was the modern telephone invented and introduced to the public?\"\nClara: \"The telephone was invented by Alexander Graham Bell in eighteen seventy-six.\"",
       "question": "Trong đoạn hội thoại trên, câu nói \"The telephone was invented by Alexander Graham Bell in eighteen seventy-six.\" của Clara mang ý nghĩa gì?",
       "options": [
-        "Phản hồi: \"Điện thoại được phát minh bởi Alexander Graham Bell vào năm 1876.\"",
-        "Phản hồi: \"Hoàn toàn không đồng ý và muốn rời khỏi phòng ngay lập tức\"",
+        "Phản hồi: \"Yêu cầu cung cấp hóa đơn thanh toán tiền mặt\"",
         "Phản hồi: \"Hẹn gặp lại vào cuối tuần sau tại sân bay quốc tế\"",
-        "Phản hồi: \"Yêu cầu cung cấp hóa đơn thanh toán tiền mặt\""
+        "Phản hồi: \"Hoàn toàn không đồng ý và muốn rời khỏi phòng ngay lập tức\"",
+        "Phản hồi: \"Điện thoại được phát minh bởi Alexander Graham Bell vào năm 1876.\""
       ],
       "correctAnswer": "Phản hồi: \"Điện thoại được phát minh bởi Alexander Graham Bell vào năm 1876.\"",
       "explanationVi": "Clara nói: \"The telephone was invented by Alexander Graham Bell in eighteen seventy-six.\" có nghĩa là: \"Điện thoại được phát minh bởi Alexander Graham Bell vào năm 1876.\"."

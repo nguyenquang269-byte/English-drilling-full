@@ -10,10 +10,10 @@
       "promptVi": "[Trắc nghiệm ngữ pháp] Chọn từ đúng để hoàn thành câu (Hôm qua tôi đã xem một bộ phim thú vị.):",
       "question": "I ___ an interesting movie yesterday.",
       "options": [
-        "watching",
-        "watched",
         "watches",
-        "watch"
+        "watch",
+        "watched",
+        "watching"
       ],
       "correctAnswer": "watched",
       "explanationVi": "Có từ chỉ thời gian quá khứ 'yesterday' nên dùng V-ed 'watched'."
@@ -24,10 +24,10 @@
       "promptVi": "[Trắc nghiệm ngữ pháp] Chọn từ đúng để hoàn thành câu (Cuối tuần trước bạn có về thăm ông bà không?):",
       "question": "___ you visit your grandparents last weekend?",
       "options": [
-        "Do",
         "Did",
-        "Were",
-        "Does"
+        "Do",
+        "Does",
+        "Were"
       ],
       "correctAnswer": "Did",
       "explanationVi": "Hành động trong quá khứ 'last weekend' dùng trợ động từ 'Did' ở đầu câu hỏi."
@@ -38,10 +38,10 @@
       "promptVi": "[Trắc nghiệm ngữ pháp] Chọn từ đúng để hoàn thành câu (Thứ Hai tuần trước họ đã không đi làm.):",
       "question": "They didn't ___ to work last Monday.",
       "options": [
-        "going",
-        "goes",
+        "go",
         "went",
-        "go"
+        "goes",
+        "going"
       ],
       "correctAnswer": "go",
       "explanationVi": "Sau trợ động từ phủ định 'didn't', động từ chính luôn ở dạng nguyên mẫu 'go'."
@@ -54,8 +54,8 @@
       "options": [
         "bought",
         "buy",
-        "buyed",
-        "buys"
+        "buys",
+        "buyed"
       ],
       "correctAnswer": "bought",
       "explanationVi": "'Bought' là dạng quá khứ bất quy tắc của 'buy'."
@@ -66,8 +66,8 @@
       "promptVi": "[Phản xạ dịch thuật] Dịch câu sau sang tiếng Anh: \"Bạn có tận hưởng chuyến đi cuối tuần vừa rồi không, Grace?\"",
       "question": "Chọn bản dịch chuẩn xác nhất cho câu: \"Bạn có tận hưởng chuyến đi cuối tuần vừa rồi không, Grace?\"",
       "options": [
-        "be you enjoy your weekend trip, Grace?",
         "Did you enjoy your weekend trip, Grace?",
+        "be you enjoy your weekend trip, Grace?",
         "Yes, I did! I visited my grandparents in the countryside.",
         "We are studying English today."
       ],
@@ -81,9 +81,9 @@
       "question": "Khi đối phương nói: \"Did you enjoy your weekend trip, Grace?\", câu phản hồi phù hợp là gì?",
       "options": [
         "Yes, I will eat it.",
-        "Yes, I did! I visited my grandparents in the countryside.",
+        "No, it was yesterday.",
         "They are not in the office.",
-        "No, it was yesterday."
+        "Yes, I did! I visited my grandparents in the countryside."
       ],
       "correctAnswer": "Yes, I did! I visited my grandparents in the countryside.",
       "explanationVi": "Phản hồi phù hợp trong bài: \"Yes, I did! I visited my grandparents in the countryside.\" (Có chứ! Tôi đã về thăm ông bà ở vùng quê.)."
@@ -97,8 +97,8 @@
       "options": [
         "watch",
         "watched",
-        "watches",
-        "watching"
+        "watching",
+        "watches"
       ],
       "explanationVi": "Đáp án đúng là \"watched\". Câu hoàn chỉnh: \"I watched an interesting movie yesterday.\" (Hôm qua tôi đã xem một bộ phim thú vị.)."
     },
@@ -109,10 +109,10 @@
       "question": "___ you visit your grandparents last weekend?",
       "correctAnswer": "Did",
       "options": [
-        "Did",
         "Do",
-        "Does",
-        "Were"
+        "Were",
+        "Did",
+        "Does"
       ],
       "explanationVi": "Đáp án đúng là \"Did\". Câu hoàn chỉnh: \"Did you visit your grandparents last weekend?\" (Cuối tuần trước bạn có về thăm ông bà không?)."
     },
@@ -123,10 +123,10 @@
       "question": "They didn't ___ to work last Monday.",
       "correctAnswer": "go",
       "options": [
-        "goes",
-        "going",
         "go",
-        "went"
+        "went",
+        "going",
+        "goes"
       ],
       "explanationVi": "Đáp án đúng là \"go\". Câu hoàn chỉnh: \"They didn't go to work last Monday.\" (Thứ Hai tuần trước họ đã không đi làm.)."
     },
@@ -137,10 +137,10 @@
       "question": "She ___ a new laptop two days ago.",
       "correctAnswer": "bought",
       "options": [
-        "buy",
+        "bought",
         "buys",
-        "buyed",
-        "bought"
+        "buy",
+        "buyed"
       ],
       "explanationVi": "Đáp án đúng là \"bought\". Câu hoàn chỉnh: \"She bought a new laptop two days ago.\" (Cô ấy đã mua một chiếc máy tính xách tay mới hai ngày trước.)."
     },
@@ -152,9 +152,9 @@
       "correctAnswer": "watched",
       "options": [
         "are",
+        "am",
         "is",
-        "watched",
-        "am"
+        "watched"
       ],
       "explanationVi": "Câu phủ định hoàn chỉnh: \"I watched not an interesting movie yesterday.\"."
     },
@@ -164,10 +164,10 @@
       "promptVi": "[Sắp xếp câu] Ghép các khối từ thành câu hoàn chỉnh mang nghĩa: \"Hôm qua tôi đã xem một bộ phim thú vị.\"",
       "question": "Sắp xếp các từ để tạo thành câu đúng: \"Hôm qua tôi đã xem một bộ phim thú vị.\"",
       "words": [
-        "an",
         "I",
         "yesterday.",
         "movie",
+        "an",
         "watched",
         "interesting"
       ],
@@ -181,13 +181,13 @@
       "promptVi": "[Sắp xếp câu] Ghép các khối từ thành câu hoàn chỉnh mang nghĩa: \"Cuối tuần trước bạn có về thăm ông bà không?\"",
       "question": "Sắp xếp các từ để tạo thành câu đúng: \"Cuối tuần trước bạn có về thăm ông bà không?\"",
       "words": [
+        "you",
         "visit",
+        "your",
+        "Did",
         "grandparents",
         "last",
-        "you",
-        "weekend?",
-        "your",
-        "Did"
+        "weekend?"
       ],
       "correctSentence": "Did you visit your grandparents last weekend?",
       "hintVi": "Cuối tuần trước bạn có về thăm ông bà không?",
@@ -200,11 +200,11 @@
       "question": "Sắp xếp các từ để tạo thành câu đúng: \"Thứ Hai tuần trước họ đã không đi làm.\"",
       "words": [
         "last",
-        "to",
-        "Monday.",
-        "didn't",
         "They",
+        "didn't",
         "go",
+        "Monday.",
+        "to",
         "work"
       ],
       "correctSentence": "They didn't go to work last Monday.",
@@ -218,13 +218,13 @@
       "question": "Sắp xếp các từ để tạo thành câu đúng: \"Cô ấy đã mua một chiếc máy tính xách tay mới hai ngày trước.\"",
       "words": [
         "new",
-        "bought",
-        "a",
-        "She",
-        "laptop",
-        "two",
         "days",
-        "ago."
+        "two",
+        "She",
+        "a",
+        "bought",
+        "ago.",
+        "laptop"
       ],
       "correctSentence": "She bought a new laptop two days ago.",
       "hintVi": "Cô ấy đã mua một chiếc máy tính xách tay mới hai ngày trước.",
@@ -236,14 +236,14 @@
       "promptVi": "[Sắp xếp câu] Ghép các từ thành câu hội thoại: \"Bạn đã làm những gì ở đó cùng với gia đình?\"",
       "question": "Sắp xếp các từ để tạo thành câu thoại: \"Bạn đã làm những gì ở đó cùng với gia đình?\"",
       "words": [
-        "your",
         "What",
-        "with",
         "did",
+        "with",
         "family",
-        "do",
         "there",
-        "you"
+        "you",
+        "your",
+        "do"
       ],
       "correctSentence": "What did you do there with your family?",
       "hintVi": "Bạn đã làm những gì ở đó cùng với gia đình?",
@@ -255,10 +255,10 @@
       "promptVi": "[Nhận diện cấu trúc chuẩn] Chọn câu có cấu trúc ngữ pháp HOÀN TOÀN ĐÚNG:",
       "question": "Dựa vào chủ điểm \"Bài 15: Động từ Thường — Quá khứ Đơn (Did / Didn't + động từ nguyên mẫu)\", câu nào sau đây CHÍNH XÁC?",
       "options": [
-        "are",
         "is",
-        "yesterday. movie interesting an watched I",
-        "I watched an interesting movie yesterday."
+        "I watched an interesting movie yesterday.",
+        "are",
+        "yesterday. movie interesting an watched I"
       ],
       "correctAnswer": "I watched an interesting movie yesterday.",
       "explanationVi": "Cấu trúc chuẩn xác là: \"I watched an interesting movie yesterday.\" (Hôm qua tôi đã xem một bộ phim thú vị.)."
@@ -269,10 +269,10 @@
       "promptVi": "[Nhận diện cấu trúc chuẩn] Chọn câu có cấu trúc ngữ pháp HOÀN TOÀN ĐÚNG:",
       "question": "Dựa vào chủ điểm \"Bài 15: Động từ Thường — Quá khứ Đơn (Did / Didn't + động từ nguyên mẫu)\", câu nào sau đây CHÍNH XÁC?",
       "options": [
-        "is",
         "are",
         "Did you visit your grandparents last weekend?",
-        "weekend? last grandparents your visit you Did"
+        "weekend? last grandparents your visit you Did",
+        "is"
       ],
       "correctAnswer": "Did you visit your grandparents last weekend?",
       "explanationVi": "Cấu trúc chuẩn xác là: \"Did you visit your grandparents last weekend?\" (Cuối tuần trước bạn có về thăm ông bà không?)."
@@ -283,9 +283,9 @@
       "promptVi": "[Nhận diện cấu trúc chuẩn] Chọn câu có cấu trúc ngữ pháp HOÀN TOÀN ĐÚNG:",
       "question": "Dựa vào chủ điểm \"Bài 15: Động từ Thường — Quá khứ Đơn (Did / Didn't + động từ nguyên mẫu)\", câu nào sau đây CHÍNH XÁC?",
       "options": [
-        "They didn't go at work last Monday.",
-        "They didn't go to work last Monday.",
         "Monday. last work to go didn't They",
+        "They didn't go to work last Monday.",
+        "They didn't go at work last Monday.",
         "is"
       ],
       "correctAnswer": "They didn't go to work last Monday.",
@@ -297,10 +297,10 @@
       "promptVi": "[Nhận diện cấu trúc chuẩn] Chọn câu có cấu trúc ngữ pháp HOÀN TOÀN ĐÚNG:",
       "question": "Dựa vào chủ điểm \"Bài 15: Động từ Thường — Quá khứ Đơn (Did / Didn't + động từ nguyên mẫu)\", câu nào sau đây CHÍNH XÁC?",
       "options": [
-        "are",
-        "She bought a new laptop two days ago.",
+        "is",
         "ago. days two laptop new a bought She",
-        "is"
+        "are",
+        "She bought a new laptop two days ago."
       ],
       "correctAnswer": "She bought a new laptop two days ago.",
       "explanationVi": "Cấu trúc chuẩn xác là: \"She bought a new laptop two days ago.\" (Cô ấy đã mua một chiếc máy tính xách tay mới hai ngày trước.)."
@@ -312,10 +312,10 @@
       "audioPrompt": "Did you enjoy your weekend trip, Grace?",
       "question": "Nhấn nút '🔊 Nghe audio' và chọn nghĩa tiếng Việt đúng:",
       "options": [
-        "Bạn có tận hưởng chuyến đi cuối tuần vừa rồi không, Grace?",
-        "Có chứ! Tôi đã về thăm ông bà ở vùng quê.",
         "Hôm nay thời tiết rất đẹp.",
-        "Bạn đã làm những gì ở đó cùng với gia đình?"
+        "Bạn đã làm những gì ở đó cùng với gia đình?",
+        "Có chứ! Tôi đã về thăm ông bà ở vùng quê.",
+        "Bạn có tận hưởng chuyến đi cuối tuần vừa rồi không, Grace?"
       ],
       "correctAnswer": "Bạn có tận hưởng chuyến đi cuối tuần vừa rồi không, Grace?",
       "explanationVi": "Câu nghe được: \"Did you enjoy your weekend trip, Grace?\" có nghĩa là: \"Bạn có tận hưởng chuyến đi cuối tuần vừa rồi không, Grace?\"."
@@ -327,10 +327,10 @@
       "audioPrompt": "Yes, I did! I visited my grandparents in the countryside.",
       "question": "Nhấn nút '🔊 Nghe audio' và chọn nghĩa tiếng Việt đúng:",
       "options": [
-        "Chúng tôi đã đi dạo trong vườn cây xanh và nấu một bữa tối thịnh soạn.",
         "Hôm nay thời tiết rất đẹp.",
         "Bạn đã làm những gì ở đó cùng với gia đình?",
-        "Có chứ! Tôi đã về thăm ông bà ở vùng quê."
+        "Có chứ! Tôi đã về thăm ông bà ở vùng quê.",
+        "Chúng tôi đã đi dạo trong vườn cây xanh và nấu một bữa tối thịnh soạn."
       ],
       "correctAnswer": "Có chứ! Tôi đã về thăm ông bà ở vùng quê.",
       "explanationVi": "Câu nghe được: \"Yes, I did! I visited my grandparents in the countryside.\" có nghĩa là: \"Có chứ! Tôi đã về thăm ông bà ở vùng quê.\"."
@@ -342,10 +342,10 @@
       "audioPrompt": "What did you do there with your family?",
       "question": "Nhấn nút '🔊 Nghe audio' và chọn nghĩa tiếng Việt đúng:",
       "options": [
-        "Bạn đã làm những gì ở đó cùng với gia đình?",
+        "Chúng tôi đã đi dạo trong vườn cây xanh và nấu một bữa tối thịnh soạn.",
         "Hôm nay thời tiết rất đẹp.",
-        "Bạn có đi câu cá ở con sông gần nhà ông bà không?",
-        "Chúng tôi đã đi dạo trong vườn cây xanh và nấu một bữa tối thịnh soạn."
+        "Bạn đã làm những gì ở đó cùng với gia đình?",
+        "Bạn có đi câu cá ở con sông gần nhà ông bà không?"
       ],
       "correctAnswer": "Bạn đã làm những gì ở đó cùng với gia đình?",
       "explanationVi": "Câu nghe được: \"What did you do there with your family?\" có nghĩa là: \"Bạn đã làm những gì ở đó cùng với gia đình?\"."
@@ -357,10 +357,10 @@
       "audioPrompt": "We walked in the green garden and cooked a big dinner.",
       "question": "Nhấn nút '🔊 Nghe audio' và chọn nghĩa tiếng Việt đúng:",
       "options": [
+        "Hôm nay thời tiết rất đẹp.",
         "Không, chúng tôi đã không đi câu cá vì trời đã mưa vào chiều Chủ nhật.",
         "Bạn có đi câu cá ở con sông gần nhà ông bà không?",
-        "Chúng tôi đã đi dạo trong vườn cây xanh và nấu một bữa tối thịnh soạn.",
-        "Hôm nay thời tiết rất đẹp."
+        "Chúng tôi đã đi dạo trong vườn cây xanh và nấu một bữa tối thịnh soạn."
       ],
       "correctAnswer": "Chúng tôi đã đi dạo trong vườn cây xanh và nấu một bữa tối thịnh soạn.",
       "explanationVi": "Câu nghe được: \"We walked in the green garden and cooked a big dinner.\" có nghĩa là: \"Chúng tôi đã đi dạo trong vườn cây xanh và nấu một bữa tối thịnh soạn.\"."
@@ -410,8 +410,8 @@
       "options": [
         "Eric phàn nàn rằng thời tiết hôm nay quá xấu.",
         "Eric chia sẻ thông tin: \"Bạn có tận hưởng chuyến đi cuối tuần vừa rồi không, Grace?\"",
-        "Eric từ chối trả lời và yêu cầu hủy cuộc hẹn.",
-        "Eric muốn mượn tiền để mua vé máy bay gấp."
+        "Eric muốn mượn tiền để mua vé máy bay gấp.",
+        "Eric từ chối trả lời và yêu cầu hủy cuộc hẹn."
       ],
       "correctAnswer": "Eric chia sẻ thông tin: \"Bạn có tận hưởng chuyến đi cuối tuần vừa rồi không, Grace?\"",
       "explanationVi": "Trong đoạn hội thoại, Eric đã nói: \"Did you enjoy your weekend trip, Grace?\" (nghĩa là: \"Bạn có tận hưởng chuyến đi cuối tuần vừa rồi không, Grace?\")."
@@ -423,10 +423,10 @@
       "passage": "Eric: \"Did you go fishing in the river near their house?\"\nGrace: \"No, we didn't go fishing because it rained on Sunday afternoon.\"\nEric: \"Did you buy any fresh fruits to bring back?\"\nGrace: \"Yes, my grandmother gave me a big basket of organic mangoes.\"",
       "question": "Trong đoạn hội thoại trên, câu nói \"Yes, my grandmother gave me a big basket of organic mangoes.\" của Grace mang ý nghĩa gì?",
       "options": [
-        "Phản hồi: \"Hẹn gặp lại vào cuối tuần sau tại sân bay quốc tế\"",
-        "Phản hồi: \"Hoàn toàn không đồng ý và muốn rời khỏi phòng ngay lập tức\"",
         "Phản hồi: \"Yêu cầu cung cấp hóa đơn thanh toán tiền mặt\"",
-        "Phản hồi: \"Có, bà tôi đã cho tôi một giỏ lớn xoài hữu cơ.\""
+        "Phản hồi: \"Có, bà tôi đã cho tôi một giỏ lớn xoài hữu cơ.\"",
+        "Phản hồi: \"Hoàn toàn không đồng ý và muốn rời khỏi phòng ngay lập tức\"",
+        "Phản hồi: \"Hẹn gặp lại vào cuối tuần sau tại sân bay quốc tế\""
       ],
       "correctAnswer": "Phản hồi: \"Có, bà tôi đã cho tôi một giỏ lớn xoài hữu cơ.\"",
       "explanationVi": "Grace nói: \"Yes, my grandmother gave me a big basket of organic mangoes.\" có nghĩa là: \"Có, bà tôi đã cho tôi một giỏ lớn xoài hữu cơ.\"."

@@ -10,10 +10,10 @@
       "promptVi": "[Trắc nghiệm ngữ pháp] Chọn từ đúng để hoàn thành câu (Tôi luôn luôn thức dậy sớm lúc 6 giờ sáng.):",
       "question": "I ___ wake up early at six AM.",
       "options": [
-        "always",
-        "never",
         "sometimes",
-        "rarely"
+        "rarely",
+        "always",
+        "never"
       ],
       "correctAnswer": "always",
       "explanationVi": "'Always' diễn tả hành động luôn luôn xảy ra (100%)."
@@ -25,8 +25,8 @@
       "question": "He is ___ late for work.",
       "options": [
         "never",
-        "always",
         "usually",
+        "always",
         "often"
       ],
       "correctAnswer": "never",
@@ -38,10 +38,10 @@
       "promptVi": "[Trắc nghiệm ngữ pháp] Chọn từ đúng để hoàn thành câu (Họ thường chơi quần vợt vào cuối tuần.):",
       "question": "They ___ play tennis on weekends.",
       "options": [
+        "never",
         "always",
         "often",
-        "rarely",
-        "never"
+        "rarely"
       ],
       "correctAnswer": "often",
       "explanationVi": "'often' nghĩa là thường xuyên."
@@ -52,10 +52,10 @@
       "promptVi": "[Trắc nghiệm ngữ pháp] Chọn từ đúng để hoàn thành câu (Đôi khi cô ấy cảm thấy mệt mỏi sau một ngày dài.):",
       "question": "She is ___ tired after a long day.",
       "options": [
-        "never",
-        "sometimes",
+        "rarely",
         "always",
-        "rarely"
+        "never",
+        "sometimes"
       ],
       "correctAnswer": "sometimes",
       "explanationVi": "'sometimes' có nghĩa là đôi khi, thỉnh thoảng (khoảng 40-50%)."
@@ -66,10 +66,10 @@
       "promptVi": "[Phản xạ dịch thuật] Dịch câu sau sang tiếng Anh: \"Làm thế nào mà bạn luôn luôn tràn đầy năng lượng và tập trung vào mỗi buổi sáng vậy Hannah?\"",
       "question": "Chọn bản dịch chuẩn xác nhất cho câu: \"Làm thế nào mà bạn luôn luôn tràn đầy năng lượng và tập trung vào mỗi buổi sáng vậy Hannah?\"",
       "options": [
+        "I always wake up early at six AM and drink a large glass of warm water.",
         "We are studying English today.",
-        "How do you always stay so energetic and focused every morning, Hannah?",
         "How be you always stay so energetic and focused every morning, Hannah?",
-        "I always wake up early at six AM and drink a large glass of warm water."
+        "How do you always stay so energetic and focused every morning, Hannah?"
       ],
       "correctAnswer": "How do you always stay so energetic and focused every morning, Hannah?",
       "explanationVi": "Câu dịch chuẩn xác: \"How do you always stay so energetic and focused every morning, Hannah?\" (Làm thế nào mà bạn luôn luôn tràn đầy năng lượng và tập trung vào mỗi buổi sáng vậy Hannah?)."
@@ -80,9 +80,9 @@
       "promptVi": "[Ngữ cảnh giao tiếp] Chọn câu phản hồi tự nhiên và đúng ngữ pháp:",
       "question": "Khi đối phương nói: \"How do you always stay so energetic and focused every morning, Hannah?\", câu phản hồi phù hợp là gì?",
       "options": [
-        "They are not in the office.",
-        "No, it was yesterday.",
         "I always wake up early at six AM and drink a large glass of warm water.",
+        "No, it was yesterday.",
+        "They are not in the office.",
         "Yes, I will eat it."
       ],
       "correctAnswer": "I always wake up early at six AM and drink a large glass of warm water.",
@@ -96,9 +96,9 @@
       "correctAnswer": "always",
       "options": [
         "never",
-        "rarely",
+        "sometimes",
         "always",
-        "sometimes"
+        "rarely"
       ],
       "explanationVi": "Đáp án đúng là \"always\". Câu hoàn chỉnh: \"I always wake up early at six AM.\" (Tôi luôn luôn thức dậy sớm lúc 6 giờ sáng.)."
     },
@@ -109,10 +109,10 @@
       "question": "He is ___ late for work.",
       "correctAnswer": "never",
       "options": [
-        "usually",
         "never",
+        "often",
         "always",
-        "often"
+        "usually"
       ],
       "explanationVi": "Đáp án đúng là \"never\". Câu hoàn chỉnh: \"He is never late for work.\" (Anh ấy không bao giờ đi làm muộn.)."
     },
@@ -124,9 +124,9 @@
       "correctAnswer": "often",
       "options": [
         "rarely",
-        "often",
+        "never",
         "always",
-        "never"
+        "often"
       ],
       "explanationVi": "Đáp án đúng là \"often\". Câu hoàn chỉnh: \"They often play tennis on weekends.\" (Họ thường chơi quần vợt vào cuối tuần.)."
     },
@@ -137,10 +137,10 @@
       "question": "She is ___ tired after a long day.",
       "correctAnswer": "sometimes",
       "options": [
-        "never",
-        "rarely",
         "sometimes",
-        "always"
+        "never",
+        "always",
+        "rarely"
       ],
       "explanationVi": "Đáp án đúng là \"sometimes\". Câu hoàn chỉnh: \"She is sometimes tired after a long day.\" (Đôi khi cô ấy cảm thấy mệt mỏi sau một ngày dài.)."
     },
@@ -151,10 +151,10 @@
       "question": "I _____ not wake up early at six AM.",
       "correctAnswer": "always",
       "options": [
-        "am",
-        "is",
+        "are",
         "always",
-        "are"
+        "am",
+        "is"
       ],
       "explanationVi": "Câu phủ định hoàn chỉnh: \"I always not wake up early at six AM.\"."
     },
@@ -164,12 +164,12 @@
       "promptVi": "[Sắp xếp câu] Ghép các khối từ thành câu hoàn chỉnh mang nghĩa: \"Tôi luôn luôn thức dậy sớm lúc 6 giờ sáng.\"",
       "question": "Sắp xếp các từ để tạo thành câu đúng: \"Tôi luôn luôn thức dậy sớm lúc 6 giờ sáng.\"",
       "words": [
-        "wake",
         "AM.",
         "six",
-        "early",
-        "up",
         "at",
+        "early",
+        "wake",
+        "up",
         "I",
         "always"
       ],
@@ -183,12 +183,12 @@
       "promptVi": "[Sắp xếp câu] Ghép các khối từ thành câu hoàn chỉnh mang nghĩa: \"Anh ấy không bao giờ đi làm muộn.\"",
       "question": "Sắp xếp các từ để tạo thành câu đúng: \"Anh ấy không bao giờ đi làm muộn.\"",
       "words": [
-        "late",
-        "is",
         "for",
-        "He",
         "never",
-        "work."
+        "He",
+        "is",
+        "work.",
+        "late"
       ],
       "correctSentence": "He is never late for work.",
       "hintVi": "Anh ấy không bao giờ đi làm muộn.",
@@ -202,10 +202,10 @@
       "words": [
         "tennis",
         "They",
-        "often",
         "on",
         "weekends.",
-        "play"
+        "play",
+        "often"
       ],
       "correctSentence": "They often play tennis on weekends.",
       "hintVi": "Họ thường chơi quần vợt vào cuối tuần.",
@@ -218,13 +218,13 @@
       "question": "Sắp xếp các từ để tạo thành câu đúng: \"Đôi khi cô ấy cảm thấy mệt mỏi sau một ngày dài.\"",
       "words": [
         "day.",
-        "is",
-        "long",
         "She",
-        "tired",
+        "sometimes",
+        "long",
         "after",
+        "tired",
         "a",
-        "sometimes"
+        "is"
       ],
       "correctSentence": "She is sometimes tired after a long day.",
       "hintVi": "Đôi khi cô ấy cảm thấy mệt mỏi sau một ngày dài.",
@@ -236,16 +236,16 @@
       "promptVi": "[Sắp xếp câu] Ghép các từ thành câu hội thoại: \"Bạn có thường đúng giờ cho buổi tập yoga buổi sáng không?\"",
       "question": "Sắp xếp các từ để tạo thành câu thoại: \"Bạn có thường đúng giờ cho buổi tập yoga buổi sáng không?\"",
       "words": [
-        "for",
-        "morning",
-        "your",
-        "on",
         "usually",
         "workout",
-        "yoga",
+        "on",
+        "morning",
         "time",
+        "yoga",
         "you",
-        "Are"
+        "your",
+        "Are",
+        "for"
       ],
       "correctSentence": "Are you usually on time for your morning yoga workout?",
       "hintVi": "Bạn có thường đúng giờ cho buổi tập yoga buổi sáng không?",
@@ -257,10 +257,10 @@
       "promptVi": "[Nhận diện cấu trúc chuẩn] Chọn câu có cấu trúc ngữ pháp HOÀN TOÀN ĐÚNG:",
       "question": "Dựa vào chủ điểm \"Bài 23: Trạng từ Tần suất — Vị trí & Cách phối hợp\", câu nào sau đây CHÍNH XÁC?",
       "options": [
-        "I always wake up early at six be.",
         "AM. six at early up wake always I",
+        "is",
         "I always wake up early at six AM.",
-        "is"
+        "I always wake up early at six be."
       ],
       "correctAnswer": "I always wake up early at six AM.",
       "explanationVi": "Cấu trúc chuẩn xác là: \"I always wake up early at six AM.\" (Tôi luôn luôn thức dậy sớm lúc 6 giờ sáng.)."
@@ -286,8 +286,8 @@
       "question": "Dựa vào chủ điểm \"Bài 23: Trạng từ Tần suất — Vị trí & Cách phối hợp\", câu nào sau đây CHÍNH XÁC?",
       "options": [
         "They often play tennis on weekends.",
-        "They often play tennis at weekends.",
         "is",
+        "They often play tennis at weekends.",
         "weekends. on tennis play often They"
       ],
       "correctAnswer": "They often play tennis on weekends.",
@@ -314,9 +314,9 @@
       "audioPrompt": "How do you always stay so energetic and focused every morning, Hannah?",
       "question": "Nhấn nút '🔊 Nghe audio' và chọn nghĩa tiếng Việt đúng:",
       "options": [
+        "Hôm nay thời tiết rất đẹp.",
         "Bạn có thường đúng giờ cho buổi tập yoga buổi sáng không?",
         "Tôi luôn luôn thức dậy sớm lúc 6 giờ sáng và uống một ly nước ấm lớn.",
-        "Hôm nay thời tiết rất đẹp.",
         "Làm thế nào mà bạn luôn luôn tràn đầy năng lượng và tập trung vào mỗi buổi sáng vậy Hannah?"
       ],
       "correctAnswer": "Làm thế nào mà bạn luôn luôn tràn đầy năng lượng và tập trung vào mỗi buổi sáng vậy Hannah?",
@@ -330,9 +330,9 @@
       "question": "Nhấn nút '🔊 Nghe audio' và chọn nghĩa tiếng Việt đúng:",
       "options": [
         "Hôm nay thời tiết rất đẹp.",
-        "Bạn có thường đúng giờ cho buổi tập yoga buổi sáng không?",
         "Có, tôi luôn đúng giờ. Tôi không bao giờ đi muộn các lớp tập thể dục.",
-        "Tôi luôn luôn thức dậy sớm lúc 6 giờ sáng và uống một ly nước ấm lớn."
+        "Tôi luôn luôn thức dậy sớm lúc 6 giờ sáng và uống một ly nước ấm lớn.",
+        "Bạn có thường đúng giờ cho buổi tập yoga buổi sáng không?"
       ],
       "correctAnswer": "Tôi luôn luôn thức dậy sớm lúc 6 giờ sáng và uống một ly nước ấm lớn.",
       "explanationVi": "Câu nghe được: \"I always wake up early at six AM and drink a large glass of warm water.\" có nghĩa là: \"Tôi luôn luôn thức dậy sớm lúc 6 giờ sáng và uống một ly nước ấm lớn.\"."
@@ -345,9 +345,9 @@
       "question": "Nhấn nút '🔊 Nghe audio' và chọn nghĩa tiếng Việt đúng:",
       "options": [
         "Bạn có thường đúng giờ cho buổi tập yoga buổi sáng không?",
-        "Có, tôi luôn đúng giờ. Tôi không bao giờ đi muộn các lớp tập thể dục.",
         "Bạn có thường xuyên chạy bộ ngoài trời hay tập luyện trong phòng gym?",
-        "Hôm nay thời tiết rất đẹp."
+        "Hôm nay thời tiết rất đẹp.",
+        "Có, tôi luôn đúng giờ. Tôi không bao giờ đi muộn các lớp tập thể dục."
       ],
       "correctAnswer": "Bạn có thường đúng giờ cho buổi tập yoga buổi sáng không?",
       "explanationVi": "Câu nghe được: \"Are you usually on time for your morning yoga workout?\" có nghĩa là: \"Bạn có thường đúng giờ cho buổi tập yoga buổi sáng không?\"."
@@ -359,8 +359,8 @@
       "audioPrompt": "Yes, I am always punctual. I am never late for fitness classes.",
       "question": "Nhấn nút '🔊 Nghe audio' và chọn nghĩa tiếng Việt đúng:",
       "options": [
-        "Tôi thường chạy bộ trong công viên, nhưng đôi khi tôi tập ở phòng gym vào những ngày mưa.",
         "Hôm nay thời tiết rất đẹp.",
+        "Tôi thường chạy bộ trong công viên, nhưng đôi khi tôi tập ở phòng gym vào những ngày mưa.",
         "Bạn có thường xuyên chạy bộ ngoài trời hay tập luyện trong phòng gym?",
         "Có, tôi luôn đúng giờ. Tôi không bao giờ đi muộn các lớp tập thể dục."
       ],
@@ -410,8 +410,8 @@
       "passage": "Gabriel: \"How do you always stay so energetic and focused every morning, Hannah?\"\nHannah: \"I always wake up early at six AM and drink a large glass of warm water.\"\nGabriel: \"Are you usually on time for your morning yoga workout?\"\nHannah: \"Yes, I am always punctual. I am never late for fitness classes.\"",
       "question": "Dựa vào đoạn đối thoại trên, thông tin nào sau đây là CHÍNH XÁC về nội dung câu nói của Gabriel?",
       "options": [
-        "Gabriel phàn nàn rằng thời tiết hôm nay quá xấu.",
         "Gabriel chia sẻ thông tin: \"Làm thế nào mà bạn luôn luôn tràn đầy năng lượng và tập trung vào mỗi buổi sáng vậy Hannah?\"",
+        "Gabriel phàn nàn rằng thời tiết hôm nay quá xấu.",
         "Gabriel từ chối trả lời và yêu cầu hủy cuộc hẹn.",
         "Gabriel muốn mượn tiền để mua vé máy bay gấp."
       ],
@@ -425,10 +425,10 @@
       "passage": "Gabriel: \"Do you often jog outdoors or exercise indoors at the gym?\"\nHannah: \"I usually jog in the park, but I sometimes exercise at the gym on rainy days.\"\nGabriel: \"Do you ever eat sugary snacks or junk food at work?\"\nHannah: \"No, I rarely eat junk food. I almost never drink carbonated soda.\"",
       "question": "Trong đoạn hội thoại trên, câu nói \"No, I rarely eat junk food. I almost never drink carbonated soda.\" của Hannah mang ý nghĩa gì?",
       "options": [
-        "Phản hồi: \"Hoàn toàn không đồng ý và muốn rời khỏi phòng ngay lập tức\"",
         "Phản hồi: \"Yêu cầu cung cấp hóa đơn thanh toán tiền mặt\"",
+        "Phản hồi: \"Hẹn gặp lại vào cuối tuần sau tại sân bay quốc tế\"",
         "Phản hồi: \"Không, tôi hiếm khi ăn đồ ăn vặt. Tôi hầu như không bao giờ uống nước ngọt có ga.\"",
-        "Phản hồi: \"Hẹn gặp lại vào cuối tuần sau tại sân bay quốc tế\""
+        "Phản hồi: \"Hoàn toàn không đồng ý và muốn rời khỏi phòng ngay lập tức\""
       ],
       "correctAnswer": "Phản hồi: \"Không, tôi hiếm khi ăn đồ ăn vặt. Tôi hầu như không bao giờ uống nước ngọt có ga.\"",
       "explanationVi": "Hannah nói: \"No, I rarely eat junk food. I almost never drink carbonated soda.\" có nghĩa là: \"Không, tôi hiếm khi ăn đồ ăn vặt. Tôi hầu như không bao giờ uống nước ngọt có ga.\"."

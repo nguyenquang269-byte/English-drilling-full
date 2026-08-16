@@ -11,9 +11,9 @@
       "question": "It is high time you ___ studying for the exam.",
       "options": [
         "starting",
-        "to start",
+        "started",
         "start",
-        "started"
+        "to start"
       ],
       "correctAnswer": "started",
       "explanationVi": "Sau cấu trúc 'It is high time + S' động từ chia ở Quá khứ đơn 'started'."
@@ -25,9 +25,9 @@
       "question": "I would rather ___ at home tonight than go to the cinema.",
       "options": [
         "stayed",
-        "stay",
+        "staying",
         "to stay",
-        "staying"
+        "stay"
       ],
       "correctAnswer": "stay",
       "explanationVi": "Sau 'would rather' dùng động từ nguyên mẫu không to 'stay'."
@@ -38,10 +38,10 @@
       "promptVi": "[Trắc nghiệm ngữ pháp] Chọn từ đúng để hoàn thành câu (Tốt hơn hết bạn nên mang theo một chiếc ô bên mình.):",
       "question": "You had better ___ an umbrella with you.",
       "options": [
+        "taking",
         "to take",
-        "take",
         "took",
-        "taking"
+        "take"
       ],
       "correctAnswer": "take",
       "explanationVi": "Sau 'had better' dùng động từ nguyên mẫu không to 'take'."
@@ -53,9 +53,9 @@
       "question": "You had better ___ drink that expired milk.",
       "options": [
         "to not",
-        "don't",
         "not",
-        "no"
+        "no",
+        "don't"
       ],
       "correctAnswer": "not",
       "explanationVi": "Dạng phủ định của 'had better' là 'had better not + V-inf'."
@@ -66,10 +66,10 @@
       "promptVi": "[Phản xạ dịch thuật] Dịch câu sau sang tiếng Anh: \"Chào buổi sáng các lập trình viên! Đã đến lúc chúng ta phải đại tu lại toàn bộ cơ sở mã lỗi thời của mình rồi. (It's high time we overhauled)\"",
       "question": "Chọn bản dịch chuẩn xác nhất cho câu: \"Chào buổi sáng các lập trình viên! Đã đến lúc chúng ta phải đại tu lại toàn bộ cơ sở mã lỗi thời của mình rồi. (It's high time we overhauled)\"",
       "options": [
-        "Good morning, developers! It's high time we overhauled our outdated codebase.",
-        "is",
+        "We are studying English today.",
         "I agree. We had better migrate our microservices to containerized clusters before the peak traffic season begins.",
-        "We are studying English today."
+        "Good morning, developers! It's high time we overhauled our outdated codebase.",
+        "is"
       ],
       "correctAnswer": "Good morning, developers! It's high time we overhauled our outdated codebase.",
       "explanationVi": "Câu dịch chuẩn xác: \"Good morning, developers! It's high time we overhauled our outdated codebase.\" (Chào buổi sáng các lập trình viên! Đã đến lúc chúng ta phải đại tu lại toàn bộ cơ sở mã lỗi thời của mình rồi. (It's high time we overhauled))."
@@ -81,9 +81,9 @@
       "question": "Khi đối phương nói: \"Good morning, developers! It's high time we overhauled our outdated codebase.\", câu phản hồi phù hợp là gì?",
       "options": [
         "Yes, I will eat it.",
-        "No, it was yesterday.",
         "I agree. We had better migrate our microservices to containerized clusters before the peak traffic season begins.",
-        "They are not in the office."
+        "They are not in the office.",
+        "No, it was yesterday."
       ],
       "correctAnswer": "I agree. We had better migrate our microservices to containerized clusters before the peak traffic season begins.",
       "explanationVi": "Phản hồi phù hợp trong bài: \"I agree. We had better migrate our microservices to containerized clusters before the peak traffic season begins.\" (Tôi đồng ý. Chúng ta nên chuyển các dịch vụ vi mô sang các cụm container trước khi mùa lưu lượng truy cập cao điểm bắt đầu. (had better migrate))."
@@ -96,8 +96,8 @@
       "correctAnswer": "started",
       "options": [
         "to start",
-        "started",
         "start",
+        "started",
         "starting"
       ],
       "explanationVi": "Đáp án đúng là \"started\". Câu hoàn chỉnh: \"It is high time you started studying for the exam.\" (Đã đến lúc bạn phải bắt đầu ôn thi rồi.)."
@@ -109,10 +109,10 @@
       "question": "I would rather ___ at home tonight than go to the cinema.",
       "correctAnswer": "stay",
       "options": [
-        "staying",
-        "stay",
+        "stayed",
         "to stay",
-        "stayed"
+        "stay",
+        "staying"
       ],
       "explanationVi": "Đáp án đúng là \"stay\". Câu hoàn chỉnh: \"I would rather stay at home tonight than go to the cinema.\" (Tối nay tôi thích ở nhà hơn là đi đến rạp chiếu phim.)."
     },
@@ -124,9 +124,9 @@
       "correctAnswer": "take",
       "options": [
         "take",
-        "took",
+        "to take",
         "taking",
-        "to take"
+        "took"
       ],
       "explanationVi": "Đáp án đúng là \"take\". Câu hoàn chỉnh: \"You had better take an umbrella with you.\" (Tốt hơn hết bạn nên mang theo một chiếc ô bên mình.)."
     },
@@ -137,10 +137,10 @@
       "question": "You had better ___ drink that expired milk.",
       "correctAnswer": "not",
       "options": [
-        "not",
         "to not",
         "no",
-        "don't"
+        "don't",
+        "not"
       ],
       "explanationVi": "Đáp án đúng là \"not\". Câu hoàn chỉnh: \"You had better not drink that expired milk.\" (Tốt hơn hết bạn không nên uống hộp sữa đã hết hạn đó.)."
     },
@@ -151,10 +151,10 @@
       "question": "It _____ not high time you started studying for the exam.",
       "correctAnswer": "is",
       "options": [
-        "is",
-        "are",
         "do",
-        "am"
+        "am",
+        "are",
+        "is"
       ],
       "explanationVi": "Câu phủ định hoàn chỉnh: \"It is not high time you started studying for the exam.\"."
     },
@@ -164,16 +164,16 @@
       "promptVi": "[Sắp xếp câu] Ghép các khối từ thành câu hoàn chỉnh mang nghĩa: \"Đã đến lúc bạn phải bắt đầu ôn thi rồi.\"",
       "question": "Sắp xếp các từ để tạo thành câu đúng: \"Đã đến lúc bạn phải bắt đầu ôn thi rồi.\"",
       "words": [
-        "exam.",
+        "time",
         "started",
-        "It",
-        "for",
-        "high",
-        "studying",
+        "exam.",
         "the",
+        "high",
+        "It",
         "you",
-        "is",
-        "time"
+        "for",
+        "studying",
+        "is"
       ],
       "correctSentence": "It is high time you started studying for the exam.",
       "hintVi": "Đã đến lúc bạn phải bắt đầu ôn thi rồi.",
@@ -185,18 +185,18 @@
       "promptVi": "[Sắp xếp câu] Ghép các khối từ thành câu hoàn chỉnh mang nghĩa: \"Tối nay tôi thích ở nhà hơn là đi đến rạp chiếu phim.\"",
       "question": "Sắp xếp các từ để tạo thành câu đúng: \"Tối nay tôi thích ở nhà hơn là đi đến rạp chiếu phim.\"",
       "words": [
-        "I",
-        "at",
+        "the",
+        "than",
+        "cinema.",
         "go",
         "to",
-        "home",
+        "I",
         "rather",
-        "tonight",
         "stay",
-        "than",
+        "tonight",
         "would",
-        "the",
-        "cinema."
+        "home",
+        "at"
       ],
       "correctSentence": "I would rather stay at home tonight than go to the cinema.",
       "hintVi": "Tối nay tôi thích ở nhà hơn là đi đến rạp chiếu phim.",
@@ -208,14 +208,14 @@
       "promptVi": "[Sắp xếp câu] Ghép các khối từ thành câu hoàn chỉnh mang nghĩa: \"Tốt hơn hết bạn nên mang theo một chiếc ô bên mình.\"",
       "question": "Sắp xếp các từ để tạo thành câu đúng: \"Tốt hơn hết bạn nên mang theo một chiếc ô bên mình.\"",
       "words": [
-        "You",
-        "with",
+        "had",
         "better",
-        "an",
+        "with",
+        "You",
         "take",
-        "umbrella",
+        "an",
         "you.",
-        "had"
+        "umbrella"
       ],
       "correctSentence": "You had better take an umbrella with you.",
       "hintVi": "Tốt hơn hết bạn nên mang theo một chiếc ô bên mình.",
@@ -227,14 +227,14 @@
       "promptVi": "[Sắp xếp câu] Ghép các khối từ thành câu hoàn chỉnh mang nghĩa: \"Tốt hơn hết bạn không nên uống hộp sữa đã hết hạn đó.\"",
       "question": "Sắp xếp các từ để tạo thành câu đúng: \"Tốt hơn hết bạn không nên uống hộp sữa đã hết hạn đó.\"",
       "words": [
+        "better",
+        "that",
         "milk.",
         "expired",
-        "that",
-        "drink",
-        "better",
         "not",
-        "You",
-        "had"
+        "drink",
+        "had",
+        "You"
       ],
       "correctSentence": "You had better not drink that expired milk.",
       "hintVi": "Tốt hơn hết bạn không nên uống hộp sữa đã hết hạn đó.",
@@ -246,21 +246,21 @@
       "promptVi": "[Sắp xếp câu] Ghép các từ thành câu hội thoại: \"Bạn muốn triển khai bản nâng cấp thanh toán vào tối nay hay đợi đến khung bảo trì cuối tuần hơn? (Would you rather deploy... or wait)\"",
       "question": "Sắp xếp các từ để tạo thành câu thoại: \"Bạn muốn triển khai bản nâng cấp thanh toán vào tối nay hay đợi đến khung bảo trì cuối tuần hơn? (Would you rather deploy... or wait)\"",
       "words": [
-        "window",
-        "rather",
-        "deploy",
-        "weekend",
-        "you",
-        "or",
-        "Would",
-        "until",
-        "upgrade",
-        "tonight",
-        "the",
         "wait",
+        "window",
         "payment",
-        "maintenance",
-        "the"
+        "tonight",
+        "Would",
+        "rather",
+        "upgrade",
+        "you",
+        "deploy",
+        "the",
+        "the",
+        "until",
+        "or",
+        "weekend",
+        "maintenance"
       ],
       "correctSentence": "Would you rather deploy the payment upgrade tonight or wait until the weekend maintenance window?",
       "hintVi": "Bạn muốn triển khai bản nâng cấp thanh toán vào tối nay hay đợi đến khung bảo trì cuối tuần hơn? (Would you rather deploy... or wait)",
@@ -273,9 +273,9 @@
       "question": "Dựa vào chủ điểm \"Bài 94: Cấu trúc Giả định & Khuyên nhủ (Unreal Past & Recommendations: It's time / Would rather / Had better)\", câu nào sau đây CHÍNH XÁC?",
       "options": [
         "It is high time you started studying at the exam.",
-        "It is high time you started studying for the exam.",
+        "exam. the for studying started you time high is It",
         "It be high time you started studying for the exam.",
-        "exam. the for studying started you time high is It"
+        "It is high time you started studying for the exam."
       ],
       "correctAnswer": "It is high time you started studying for the exam.",
       "explanationVi": "Cấu trúc chuẩn xác là: \"It is high time you started studying for the exam.\" (Đã đến lúc bạn phải bắt đầu ôn thi rồi.)."
@@ -286,9 +286,9 @@
       "promptVi": "[Nhận diện cấu trúc chuẩn] Chọn câu có cấu trúc ngữ pháp HOÀN TOÀN ĐÚNG:",
       "question": "Dựa vào chủ điểm \"Bài 94: Cấu trúc Giả định & Khuyên nhủ (Unreal Past & Recommendations: It's time / Would rather / Had better)\", câu nào sau đây CHÍNH XÁC?",
       "options": [
-        "cinema. the to go than tonight home at stay rather would I",
         "are",
         "is",
+        "cinema. the to go than tonight home at stay rather would I",
         "I would rather stay at home tonight than go to the cinema."
       ],
       "correctAnswer": "I would rather stay at home tonight than go to the cinema.",
@@ -301,9 +301,9 @@
       "question": "Dựa vào chủ điểm \"Bài 94: Cấu trúc Giả định & Khuyên nhủ (Unreal Past & Recommendations: It's time / Would rather / Had better)\", câu nào sau đây CHÍNH XÁC?",
       "options": [
         "is",
+        "you. with umbrella an take better had You",
         "You had better take an umbrella at you.",
-        "You had better take an umbrella with you.",
-        "you. with umbrella an take better had You"
+        "You had better take an umbrella with you."
       ],
       "correctAnswer": "You had better take an umbrella with you.",
       "explanationVi": "Cấu trúc chuẩn xác là: \"You had better take an umbrella with you.\" (Tốt hơn hết bạn nên mang theo một chiếc ô bên mình.)."
@@ -314,10 +314,10 @@
       "promptVi": "[Nhận diện cấu trúc chuẩn] Chọn câu có cấu trúc ngữ pháp HOÀN TOÀN ĐÚNG:",
       "question": "Dựa vào chủ điểm \"Bài 94: Cấu trúc Giả định & Khuyên nhủ (Unreal Past & Recommendations: It's time / Would rather / Had better)\", câu nào sau đây CHÍNH XÁC?",
       "options": [
+        "is",
         "are",
         "milk. expired that drink not better had You",
-        "You had better not drink that expired milk.",
-        "is"
+        "You had better not drink that expired milk."
       ],
       "correctAnswer": "You had better not drink that expired milk.",
       "explanationVi": "Cấu trúc chuẩn xác là: \"You had better not drink that expired milk.\" (Tốt hơn hết bạn không nên uống hộp sữa đã hết hạn đó.)."
@@ -330,9 +330,9 @@
       "question": "Nhấn nút '🔊 Nghe audio' và chọn nghĩa tiếng Việt đúng:",
       "options": [
         "Hôm nay thời tiết rất đẹp.",
-        "Bạn muốn triển khai bản nâng cấp thanh toán vào tối nay hay đợi đến khung bảo trì cuối tuần hơn? (Would you rather deploy... or wait)",
         "Chào buổi sáng các lập trình viên! Đã đến lúc chúng ta phải đại tu lại toàn bộ cơ sở mã lỗi thời của mình rồi. (It's high time we overhauled)",
-        "Tôi đồng ý. Chúng ta nên chuyển các dịch vụ vi mô sang các cụm container trước khi mùa lưu lượng truy cập cao điểm bắt đầu. (had better migrate)"
+        "Tôi đồng ý. Chúng ta nên chuyển các dịch vụ vi mô sang các cụm container trước khi mùa lưu lượng truy cập cao điểm bắt đầu. (had better migrate)",
+        "Bạn muốn triển khai bản nâng cấp thanh toán vào tối nay hay đợi đến khung bảo trì cuối tuần hơn? (Would you rather deploy... or wait)"
       ],
       "correctAnswer": "Chào buổi sáng các lập trình viên! Đã đến lúc chúng ta phải đại tu lại toàn bộ cơ sở mã lỗi thời của mình rồi. (It's high time we overhauled)",
       "explanationVi": "Câu nghe được: \"Good morning, developers! It's high time we overhauled our outdated codebase.\" có nghĩa là: \"Chào buổi sáng các lập trình viên! Đã đến lúc chúng ta phải đại tu lại toàn bộ cơ sở mã lỗi thời của mình rồi. (It's high time we overhauled)\"."
@@ -344,10 +344,10 @@
       "audioPrompt": "I agree. We had better migrate our microservices to containerized clusters before the peak traffic season begins.",
       "question": "Nhấn nút '🔊 Nghe audio' và chọn nghĩa tiếng Việt đúng:",
       "options": [
+        "Hôm nay thời tiết rất đẹp.",
         "Tôi đồng ý. Chúng ta nên chuyển các dịch vụ vi mô sang các cụm container trước khi mùa lưu lượng truy cập cao điểm bắt đầu. (had better migrate)",
         "Tôi muốn chúng ta lên lịch triển khai sản phẩm vào nửa đêm Chủ Nhật hơn để giảm thiểu gián đoạn cho người dùng. (would rather we scheduled)",
-        "Bạn muốn triển khai bản nâng cấp thanh toán vào tối nay hay đợi đến khung bảo trì cuối tuần hơn? (Would you rather deploy... or wait)",
-        "Hôm nay thời tiết rất đẹp."
+        "Bạn muốn triển khai bản nâng cấp thanh toán vào tối nay hay đợi đến khung bảo trì cuối tuần hơn? (Would you rather deploy... or wait)"
       ],
       "correctAnswer": "Tôi đồng ý. Chúng ta nên chuyển các dịch vụ vi mô sang các cụm container trước khi mùa lưu lượng truy cập cao điểm bắt đầu. (had better migrate)",
       "explanationVi": "Câu nghe được: \"I agree. We had better migrate our microservices to containerized clusters before the peak traffic season begins.\" có nghĩa là: \"Tôi đồng ý. Chúng ta nên chuyển các dịch vụ vi mô sang các cụm container trước khi mùa lưu lượng truy cập cao điểm bắt đầu. (had better migrate)\"."
@@ -359,10 +359,10 @@
       "audioPrompt": "Would you rather deploy the payment upgrade tonight or wait until the weekend maintenance window?",
       "question": "Nhấn nút '🔊 Nghe audio' và chọn nghĩa tiếng Việt đúng:",
       "options": [
-        "Đã đến lúc các kỹ sư đảm bảo chất lượng của chúng ta tự động hóa tất cả các quy trình kiểm thử tích hợp đơn vị rồi. (It's about time engineers automated)",
         "Tôi muốn chúng ta lên lịch triển khai sản phẩm vào nửa đêm Chủ Nhật hơn để giảm thiểu gián đoạn cho người dùng. (would rather we scheduled)",
         "Hôm nay thời tiết rất đẹp.",
-        "Bạn muốn triển khai bản nâng cấp thanh toán vào tối nay hay đợi đến khung bảo trì cuối tuần hơn? (Would you rather deploy... or wait)"
+        "Bạn muốn triển khai bản nâng cấp thanh toán vào tối nay hay đợi đến khung bảo trì cuối tuần hơn? (Would you rather deploy... or wait)",
+        "Đã đến lúc các kỹ sư đảm bảo chất lượng của chúng ta tự động hóa tất cả các quy trình kiểm thử tích hợp đơn vị rồi. (It's about time engineers automated)"
       ],
       "correctAnswer": "Bạn muốn triển khai bản nâng cấp thanh toán vào tối nay hay đợi đến khung bảo trì cuối tuần hơn? (Would you rather deploy... or wait)",
       "explanationVi": "Câu nghe được: \"Would you rather deploy the payment upgrade tonight or wait until the weekend maintenance window?\" có nghĩa là: \"Bạn muốn triển khai bản nâng cấp thanh toán vào tối nay hay đợi đến khung bảo trì cuối tuần hơn? (Would you rather deploy... or wait)\"."
@@ -374,10 +374,10 @@
       "audioPrompt": "I would rather we scheduled the production deployment for Sunday midnight to minimize user disruption.",
       "question": "Nhấn nút '🔊 Nghe audio' và chọn nghĩa tiếng Việt đúng:",
       "options": [
-        "Tôi muốn chúng ta lên lịch triển khai sản phẩm vào nửa đêm Chủ Nhật hơn để giảm thiểu gián đoạn cho người dùng. (would rather we scheduled)",
-        "Đã đến lúc các kỹ sư đảm bảo chất lượng của chúng ta tự động hóa tất cả các quy trình kiểm thử tích hợp đơn vị rồi. (It's about time engineers automated)",
         "Các lập trình viên cấp dưới tốt hơn hết là không nên đẩy các đoạn mã chưa xác minh trực tiếp lên nhánh phát hành chính. (had better not push)",
-        "Hôm nay thời tiết rất đẹp."
+        "Đã đến lúc các kỹ sư đảm bảo chất lượng của chúng ta tự động hóa tất cả các quy trình kiểm thử tích hợp đơn vị rồi. (It's about time engineers automated)",
+        "Hôm nay thời tiết rất đẹp.",
+        "Tôi muốn chúng ta lên lịch triển khai sản phẩm vào nửa đêm Chủ Nhật hơn để giảm thiểu gián đoạn cho người dùng. (would rather we scheduled)"
       ],
       "correctAnswer": "Tôi muốn chúng ta lên lịch triển khai sản phẩm vào nửa đêm Chủ Nhật hơn để giảm thiểu gián đoạn cho người dùng. (would rather we scheduled)",
       "explanationVi": "Câu nghe được: \"I would rather we scheduled the production deployment for Sunday midnight to minimize user disruption.\" có nghĩa là: \"Tôi muốn chúng ta lên lịch triển khai sản phẩm vào nửa đêm Chủ Nhật hơn để giảm thiểu gián đoạn cho người dùng. (would rather we scheduled)\"."
@@ -425,9 +425,9 @@
       "passage": "Scrum Master Leo: \"Good morning, developers! It's high time we overhauled our outdated codebase.\"\nLead Engineer Zoe: \"I agree. We had better migrate our microservices to containerized clusters before the peak traffic season begins.\"\nScrum Master Leo: \"Would you rather deploy the payment upgrade tonight or wait until the weekend maintenance window?\"\nLead Engineer Zoe: \"I would rather we scheduled the production deployment for Sunday midnight to minimize user disruption.\"",
       "question": "Dựa vào đoạn đối thoại trên, thông tin nào sau đây là CHÍNH XÁC về nội dung câu nói của Scrum Master Leo?",
       "options": [
-        "Scrum Master Leo phàn nàn rằng thời tiết hôm nay quá xấu.",
         "Scrum Master Leo muốn mượn tiền để mua vé máy bay gấp.",
         "Scrum Master Leo từ chối trả lời và yêu cầu hủy cuộc hẹn.",
+        "Scrum Master Leo phàn nàn rằng thời tiết hôm nay quá xấu.",
         "Scrum Master Leo chia sẻ thông tin: \"Chào buổi sáng các lập trình viên! Đã đến lúc chúng ta phải đại tu lại toàn bộ cơ sở mã lỗi thời của mình rồi. (It's high time we overhauled)\""
       ],
       "correctAnswer": "Scrum Master Leo chia sẻ thông tin: \"Chào buổi sáng các lập trình viên! Đã đến lúc chúng ta phải đại tu lại toàn bộ cơ sở mã lỗi thời của mình rồi. (It's high time we overhauled)\"",
@@ -440,10 +440,10 @@
       "passage": "Scrum Master Leo: \"It's about time our quality assurance engineers automated all unit integration test pipelines.\"\nLead Engineer Zoe: \"Junior programmers had better not push unverified commits directly to the main release branch.\"\nScrum Master Leo: \"Would you rather write extensive API documentation yourself or delegate it to the technical writing team?\"\nLead Engineer Zoe: \"I would rather write the core architecture guides myself, but I would rather the technical writers formatted the guides.\"",
       "question": "Trong đoạn hội thoại trên, câu nói \"I would rather write the core architecture guides myself, but I would rather the technical writers formatted the guides.\" của Lead Engineer Zoe mang ý nghĩa gì?",
       "options": [
+        "Phản hồi: \"Hẹn gặp lại vào cuối tuần sau tại sân bay quốc tế\"",
         "Phản hồi: \"Yêu cầu cung cấp hóa đơn thanh toán tiền mặt\"",
-        "Phản hồi: \"Tôi muốn tự mình viết các hướng dẫn kiến trúc cốt lõi, nhưng tôi muốn các cộng tác viên viết kỹ thuật định dạng các tài liệu đó. (would rather write / would rather writers formatted)\"",
         "Phản hồi: \"Hoàn toàn không đồng ý và muốn rời khỏi phòng ngay lập tức\"",
-        "Phản hồi: \"Hẹn gặp lại vào cuối tuần sau tại sân bay quốc tế\""
+        "Phản hồi: \"Tôi muốn tự mình viết các hướng dẫn kiến trúc cốt lõi, nhưng tôi muốn các cộng tác viên viết kỹ thuật định dạng các tài liệu đó. (would rather write / would rather writers formatted)\""
       ],
       "correctAnswer": "Phản hồi: \"Tôi muốn tự mình viết các hướng dẫn kiến trúc cốt lõi, nhưng tôi muốn các cộng tác viên viết kỹ thuật định dạng các tài liệu đó. (would rather write / would rather writers formatted)\"",
       "explanationVi": "Lead Engineer Zoe nói: \"I would rather write the core architecture guides myself, but I would rather the technical writers formatted the guides.\" có nghĩa là: \"Tôi muốn tự mình viết các hướng dẫn kiến trúc cốt lõi, nhưng tôi muốn các cộng tác viên viết kỹ thuật định dạng các tài liệu đó. (would rather write / would rather writers formatted)\"."

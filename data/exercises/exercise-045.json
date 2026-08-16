@@ -10,10 +10,10 @@
       "promptVi": "[Trắc nghiệm ngữ pháp] Chọn từ đúng để hoàn thành câu (Tiếng Anh được nói trên toàn thế giới.):",
       "question": "English is ___ all over the world.",
       "options": [
+        "spoke",
         "spoken",
         "speaking",
-        "speaks",
-        "spoke"
+        "speaks"
       ],
       "correctAnswer": "spoken",
       "explanationVi": "Bị động thì hiện tại đơn dùng 'is + V3 (spoken)'."
@@ -25,9 +25,9 @@
       "question": "This room ___ cleaned every morning.",
       "options": [
         "is",
-        "was",
         "does",
-        "are"
+        "are",
+        "was"
       ],
       "correctAnswer": "is",
       "explanationVi": "'This room' là số ít nên dùng 'is cleaned'."
@@ -38,10 +38,10 @@
       "promptVi": "[Trắc nghiệm ngữ pháp] Chọn từ đúng để hoàn thành câu (Cà phê được trồng ở Việt Nam.):",
       "question": "Coffee is ___ in Vietnam.",
       "options": [
-        "grown",
-        "growed",
         "grew",
-        "grow"
+        "grown",
+        "grow",
+        "growed"
       ],
       "correctAnswer": "grown",
       "explanationVi": "Phân từ hai (V3) của 'grow' là 'grown'."
@@ -53,8 +53,8 @@
       "question": "___ these cars made in Japan?",
       "options": [
         "Is",
-        "Are",
         "Have",
+        "Are",
         "Do"
       ],
       "correctAnswer": "Are",
@@ -66,10 +66,10 @@
       "promptVi": "[Phản xạ dịch thuật] Dịch câu sau sang tiếng Anh: \"Chào mừng bạn đến với nhà máy chế biến cà phê hữu cơ của chúng tôi! Tiếng Anh được nói bởi tất cả các hướng dẫn viên quốc tế của chúng tôi.\"",
       "question": "Chọn bản dịch chuẩn xác nhất cho câu: \"Chào mừng bạn đến với nhà máy chế biến cà phê hữu cơ của chúng tôi! Tiếng Anh được nói bởi tất cả các hướng dẫn viên quốc tế của chúng tôi.\"",
       "options": [
-        "We are studying English today.",
         "Thank you! Where are these premium Arabica coffee beans grown and harvested?",
-        "Welcome to our organic coffee processing plant! English is spoken by all our international guides.",
-        "Welcome to our organic coffee processing plant! English be spoken by all our international guides."
+        "Welcome to our organic coffee processing plant! English be spoken by all our international guides.",
+        "We are studying English today.",
+        "Welcome to our organic coffee processing plant! English is spoken by all our international guides."
       ],
       "correctAnswer": "Welcome to our organic coffee processing plant! English is spoken by all our international guides.",
       "explanationVi": "Câu dịch chuẩn xác: \"Welcome to our organic coffee processing plant! English is spoken by all our international guides.\" (Chào mừng bạn đến với nhà máy chế biến cà phê hữu cơ của chúng tôi! Tiếng Anh được nói bởi tất cả các hướng dẫn viên quốc tế của chúng tôi.)."
@@ -80,10 +80,10 @@
       "promptVi": "[Ngữ cảnh giao tiếp] Chọn câu phản hồi tự nhiên và đúng ngữ pháp:",
       "question": "Khi đối phương nói: \"Welcome to our organic coffee processing plant! English is spoken by all our international guides.\", câu phản hồi phù hợp là gì?",
       "options": [
-        "No, it was yesterday.",
+        "Thank you! Where are these premium Arabica coffee beans grown and harvested?",
         "They are not in the office.",
-        "Yes, I will eat it.",
-        "Thank you! Where are these premium Arabica coffee beans grown and harvested?"
+        "No, it was yesterday.",
+        "Yes, I will eat it."
       ],
       "correctAnswer": "Thank you! Where are these premium Arabica coffee beans grown and harvested?",
       "explanationVi": "Phản hồi phù hợp trong bài: \"Thank you! Where are these premium Arabica coffee beans grown and harvested?\" (Cảm ơn bạn! Những hạt cà phê Arabica thượng hạng này được trồng và thu hoạch ở đâu?)."
@@ -109,10 +109,10 @@
       "question": "This room ___ cleaned every morning.",
       "correctAnswer": "is",
       "options": [
-        "are",
-        "was",
         "is",
-        "does"
+        "does",
+        "are",
+        "was"
       ],
       "explanationVi": "Đáp án đúng là \"is\". Câu hoàn chỉnh: \"This room is cleaned every morning.\" (Căn phòng này được dọn dẹp mỗi buổi sáng.)."
     },
@@ -123,9 +123,9 @@
       "question": "Coffee is ___ in Vietnam.",
       "correctAnswer": "grown",
       "options": [
+        "grown",
         "grew",
         "grow",
-        "grown",
         "growed"
       ],
       "explanationVi": "Đáp án đúng là \"grown\". Câu hoàn chỉnh: \"Coffee is grown in Vietnam.\" (Cà phê được trồng ở Việt Nam.)."
@@ -137,10 +137,10 @@
       "question": "___ these cars made in Japan?",
       "correctAnswer": "Are",
       "options": [
+        "Is",
         "Are",
         "Have",
-        "Do",
-        "Is"
+        "Do"
       ],
       "explanationVi": "Đáp án đúng là \"Are\". Câu hoàn chỉnh: \"Are these cars made in Japan?\" (Những chiếc xe hơi này có được sản xuất ở Nhật Bản không?)."
     },
@@ -152,9 +152,9 @@
       "correctAnswer": "is",
       "options": [
         "are",
+        "am",
         "do",
-        "is",
-        "am"
+        "is"
       ],
       "explanationVi": "Câu phủ định hoàn chỉnh: \"Englis noth is spoken all over the world.\"."
     },
@@ -164,13 +164,13 @@
       "promptVi": "[Sắp xếp câu] Ghép các khối từ thành câu hoàn chỉnh mang nghĩa: \"Tiếng Anh được nói trên toàn thế giới.\"",
       "question": "Sắp xếp các từ để tạo thành câu đúng: \"Tiếng Anh được nói trên toàn thế giới.\"",
       "words": [
-        "world.",
+        "English",
+        "is",
         "all",
         "over",
-        "is",
         "the",
         "spoken",
-        "English"
+        "world."
       ],
       "correctSentence": "English is spoken all over the world.",
       "hintVi": "Tiếng Anh được nói trên toàn thế giới.",
@@ -182,12 +182,12 @@
       "promptVi": "[Sắp xếp câu] Ghép các khối từ thành câu hoàn chỉnh mang nghĩa: \"Căn phòng này được dọn dẹp mỗi buổi sáng.\"",
       "question": "Sắp xếp các từ để tạo thành câu đúng: \"Căn phòng này được dọn dẹp mỗi buổi sáng.\"",
       "words": [
-        "morning.",
-        "is",
-        "cleaned",
-        "This",
         "room",
-        "every"
+        "is",
+        "This",
+        "every",
+        "cleaned",
+        "morning."
       ],
       "correctSentence": "This room is cleaned every morning.",
       "hintVi": "Căn phòng này được dọn dẹp mỗi buổi sáng.",
@@ -199,10 +199,10 @@
       "promptVi": "[Sắp xếp câu] Ghép các khối từ thành câu hoàn chỉnh mang nghĩa: \"Cà phê được trồng ở Việt Nam.\"",
       "question": "Sắp xếp các từ để tạo thành câu đúng: \"Cà phê được trồng ở Việt Nam.\"",
       "words": [
-        "is",
-        "Coffee",
-        "in",
         "Vietnam.",
+        "in",
+        "Coffee",
+        "is",
         "grown"
       ],
       "correctSentence": "Coffee is grown in Vietnam.",
@@ -215,12 +215,12 @@
       "promptVi": "[Sắp xếp câu] Ghép các khối từ thành câu hoàn chỉnh mang nghĩa: \"Những chiếc xe hơi này có được sản xuất ở Nhật Bản không?\"",
       "question": "Sắp xếp các từ để tạo thành câu đúng: \"Những chiếc xe hơi này có được sản xuất ở Nhật Bản không?\"",
       "words": [
-        "Japan?",
-        "made",
+        "Are",
         "these",
-        "in",
         "cars",
-        "Are"
+        "made",
+        "in",
+        "Japan?"
       ],
       "correctSentence": "Are these cars made in Japan?",
       "hintVi": "Những chiếc xe hơi này có được sản xuất ở Nhật Bản không?",
@@ -232,20 +232,20 @@
       "promptVi": "[Sắp xếp câu] Ghép các từ thành câu hội thoại: \"Hạt cà phê được trồng trên các cao nguyên vùng núi cao tại Tây Nguyên Việt Nam.\"",
       "question": "Sắp xếp các từ để tạo thành câu thoại: \"Hạt cà phê được trồng trên các cao nguyên vùng núi cao tại Tây Nguyên Việt Nam.\"",
       "words": [
-        "are",
         "of",
-        "mountainous",
-        "Highlands",
-        "plateaus",
-        "grown",
-        "Central",
-        "in",
-        "Vietnam",
         "beans",
+        "mountainous",
+        "the",
         "The",
         "on",
+        "are",
+        "Vietnam",
+        "Central",
+        "grown",
+        "Highlands",
         "high",
-        "the"
+        "in",
+        "plateaus"
       ],
       "correctSentence": "The beans are grown on high mountainous plateaus in the Central Highlands of Vietnam.",
       "hintVi": "Hạt cà phê được trồng trên các cao nguyên vùng núi cao tại Tây Nguyên Việt Nam.",
@@ -257,9 +257,9 @@
       "promptVi": "[Nhận diện cấu trúc chuẩn] Chọn câu có cấu trúc ngữ pháp HOÀN TOÀN ĐÚNG:",
       "question": "Dựa vào chủ điểm \"Bài 45: Câu Bị động — Hiện tại Đơn (Present Simple Passive: Am / Is / Are + V3/ed)\", câu nào sau đây CHÍNH XÁC?",
       "options": [
+        "English is spoken all over the world.",
         "English be spoken all over the world.",
         "is",
-        "English is spoken all over the world.",
         "world. the over all spoken is English"
       ],
       "correctAnswer": "English is spoken all over the world.",
@@ -271,10 +271,10 @@
       "promptVi": "[Nhận diện cấu trúc chuẩn] Chọn câu có cấu trúc ngữ pháp HOÀN TOÀN ĐÚNG:",
       "question": "Dựa vào chủ điểm \"Bài 45: Câu Bị động — Hiện tại Đơn (Present Simple Passive: Am / Is / Are + V3/ed)\", câu nào sau đây CHÍNH XÁC?",
       "options": [
-        "This room be cleaned every morning.",
-        "This room is cleaned every morning.",
+        "is",
         "morning. every cleaned is room This",
-        "is"
+        "This room be cleaned every morning.",
+        "This room is cleaned every morning."
       ],
       "correctAnswer": "This room is cleaned every morning.",
       "explanationVi": "Cấu trúc chuẩn xác là: \"This room is cleaned every morning.\" (Căn phòng này được dọn dẹp mỗi buổi sáng.)."
@@ -285,10 +285,10 @@
       "promptVi": "[Nhận diện cấu trúc chuẩn] Chọn câu có cấu trúc ngữ pháp HOÀN TOÀN ĐÚNG:",
       "question": "Dựa vào chủ điểm \"Bài 45: Câu Bị động — Hiện tại Đơn (Present Simple Passive: Am / Is / Are + V3/ed)\", câu nào sau đây CHÍNH XÁC?",
       "options": [
-        "Coffee is grown in Vietnam.",
+        "Coffee is grown at Vietnam.",
         "Coffee be grown in Vietnam.",
-        "Vietnam. in grown is Coffee",
-        "Coffee is grown at Vietnam."
+        "Coffee is grown in Vietnam.",
+        "Vietnam. in grown is Coffee"
       ],
       "correctAnswer": "Coffee is grown in Vietnam.",
       "explanationVi": "Cấu trúc chuẩn xác là: \"Coffee is grown in Vietnam.\" (Cà phê được trồng ở Việt Nam.)."
@@ -299,10 +299,10 @@
       "promptVi": "[Nhận diện cấu trúc chuẩn] Chọn câu có cấu trúc ngữ pháp HOÀN TOÀN ĐÚNG:",
       "question": "Dựa vào chủ điểm \"Bài 45: Câu Bị động — Hiện tại Đơn (Present Simple Passive: Am / Is / Are + V3/ed)\", câu nào sau đây CHÍNH XÁC?",
       "options": [
-        "Japan? in made cars these Are",
-        "be these cars made in Japan?",
+        "Are these cars made at Japan?",
         "Are these cars made in Japan?",
-        "Are these cars made at Japan?"
+        "Japan? in made cars these Are",
+        "be these cars made in Japan?"
       ],
       "correctAnswer": "Are these cars made in Japan?",
       "explanationVi": "Cấu trúc chuẩn xác là: \"Are these cars made in Japan?\" (Những chiếc xe hơi này có được sản xuất ở Nhật Bản không?)."
@@ -314,9 +314,9 @@
       "audioPrompt": "Welcome to our organic coffee processing plant! English is spoken by all our international guides.",
       "question": "Nhấn nút '🔊 Nghe audio' và chọn nghĩa tiếng Việt đúng:",
       "options": [
-        "Cảm ơn bạn! Những hạt cà phê Arabica thượng hạng này được trồng và thu hoạch ở đâu?",
         "Hôm nay thời tiết rất đẹp.",
         "Chào mừng bạn đến với nhà máy chế biến cà phê hữu cơ của chúng tôi! Tiếng Anh được nói bởi tất cả các hướng dẫn viên quốc tế của chúng tôi.",
+        "Cảm ơn bạn! Những hạt cà phê Arabica thượng hạng này được trồng và thu hoạch ở đâu?",
         "Hạt cà phê được trồng trên các cao nguyên vùng núi cao tại Tây Nguyên Việt Nam."
       ],
       "correctAnswer": "Chào mừng bạn đến với nhà máy chế biến cà phê hữu cơ của chúng tôi! Tiếng Anh được nói bởi tất cả các hướng dẫn viên quốc tế của chúng tôi.",
@@ -329,10 +329,10 @@
       "audioPrompt": "Thank you! Where are these premium Arabica coffee beans grown and harvested?",
       "question": "Nhấn nút '🔊 Nghe audio' và chọn nghĩa tiếng Việt đúng:",
       "options": [
+        "Cảm ơn bạn! Những hạt cà phê Arabica thượng hạng này được trồng và thu hoạch ở đâu?",
         "Những quả cà phê chín mọng màu đỏ được xử lý như thế nào khi chúng đến cơ sở này?",
-        "Hạt cà phê được trồng trên các cao nguyên vùng núi cao tại Tây Nguyên Việt Nam.",
         "Hôm nay thời tiết rất đẹp.",
-        "Cảm ơn bạn! Những hạt cà phê Arabica thượng hạng này được trồng và thu hoạch ở đâu?"
+        "Hạt cà phê được trồng trên các cao nguyên vùng núi cao tại Tây Nguyên Việt Nam."
       ],
       "correctAnswer": "Cảm ơn bạn! Những hạt cà phê Arabica thượng hạng này được trồng và thu hoạch ở đâu?",
       "explanationVi": "Câu nghe được: \"Thank you! Where are these premium Arabica coffee beans grown and harvested?\" có nghĩa là: \"Cảm ơn bạn! Những hạt cà phê Arabica thượng hạng này được trồng và thu hoạch ở đâu?\"."
@@ -344,10 +344,10 @@
       "audioPrompt": "The beans are grown on high mountainous plateaus in the Central Highlands of Vietnam.",
       "question": "Nhấn nút '🔊 Nghe audio' và chọn nghĩa tiếng Việt đúng:",
       "options": [
-        "Hôm nay thời tiết rất đẹp.",
+        "Đầu tiên, quả cà phê được rửa kỹ bằng nước khoáng tinh khiết trong các bể lớn.",
         "Hạt cà phê được trồng trên các cao nguyên vùng núi cao tại Tây Nguyên Việt Nam.",
-        "Những quả cà phê chín mọng màu đỏ được xử lý như thế nào khi chúng đến cơ sở này?",
-        "Đầu tiên, quả cà phê được rửa kỹ bằng nước khoáng tinh khiết trong các bể lớn."
+        "Hôm nay thời tiết rất đẹp.",
+        "Những quả cà phê chín mọng màu đỏ được xử lý như thế nào khi chúng đến cơ sở này?"
       ],
       "correctAnswer": "Hạt cà phê được trồng trên các cao nguyên vùng núi cao tại Tây Nguyên Việt Nam.",
       "explanationVi": "Câu nghe được: \"The beans are grown on high mountainous plateaus in the Central Highlands of Vietnam.\" có nghĩa là: \"Hạt cà phê được trồng trên các cao nguyên vùng núi cao tại Tây Nguyên Việt Nam.\"."
@@ -359,9 +359,9 @@
       "audioPrompt": "How are the ripe red cherries processed once they arrive at this facility?",
       "question": "Nhấn nút '🔊 Nghe audio' và chọn nghĩa tiếng Việt đúng:",
       "options": [
-        "Đầu tiên, quả cà phê được rửa kỹ bằng nước khoáng tinh khiết trong các bể lớn.",
         "Hôm nay thời tiết rất đẹp.",
         "Những quả cà phê chín mọng màu đỏ được xử lý như thế nào khi chúng đến cơ sở này?",
+        "Đầu tiên, quả cà phê được rửa kỹ bằng nước khoáng tinh khiết trong các bể lớn.",
         "Các hạt cà phê có được phơi khô tự nhiên dưới ánh nắng mặt trời nhiệt đới rực rỡ không?"
       ],
       "correctAnswer": "Những quả cà phê chín mọng màu đỏ được xử lý như thế nào khi chúng đến cơ sở này?",
@@ -410,10 +410,10 @@
       "passage": "Christopher: \"Welcome to our organic coffee processing plant! English is spoken by all our international guides.\"\nMaya: \"Thank you! Where are these premium Arabica coffee beans grown and harvested?\"\nChristopher: \"The beans are grown on high mountainous plateaus in the Central Highlands of Vietnam.\"\nMaya: \"How are the ripe red cherries processed once they arrive at this facility?\"",
       "question": "Dựa vào đoạn đối thoại trên, thông tin nào sau đây là CHÍNH XÁC về nội dung câu nói của Christopher?",
       "options": [
-        "Christopher phàn nàn rằng thời tiết hôm nay quá xấu.",
         "Christopher chia sẻ thông tin: \"Chào mừng bạn đến với nhà máy chế biến cà phê hữu cơ của chúng tôi! Tiếng Anh được nói bởi tất cả các hướng dẫn viên quốc tế của chúng tôi.\"",
-        "Christopher muốn mượn tiền để mua vé máy bay gấp.",
-        "Christopher từ chối trả lời và yêu cầu hủy cuộc hẹn."
+        "Christopher phàn nàn rằng thời tiết hôm nay quá xấu.",
+        "Christopher từ chối trả lời và yêu cầu hủy cuộc hẹn.",
+        "Christopher muốn mượn tiền để mua vé máy bay gấp."
       ],
       "correctAnswer": "Christopher chia sẻ thông tin: \"Chào mừng bạn đến với nhà máy chế biến cà phê hữu cơ của chúng tôi! Tiếng Anh được nói bởi tất cả các hướng dẫn viên quốc tế của chúng tôi.\"",
       "explanationVi": "Trong đoạn hội thoại, Christopher đã nói: \"Welcome to our organic coffee processing plant! English is spoken by all our international guides.\" (nghĩa là: \"Chào mừng bạn đến với nhà máy chế biến cà phê hữu cơ của chúng tôi! Tiếng Anh được nói bởi tất cả các hướng dẫn viên quốc tế của chúng tôi.\")."
@@ -425,9 +425,9 @@
       "passage": "Christopher: \"First, the cherries are washed thoroughly with pure mineral water in large tanks.\"\nMaya: \"Are the coffee beans dried naturally under the radiant tropical sun?\"\nChristopher: \"Yes, they are dried on raised wooden beds for two weeks until moisture reaches twelve percent.\"\nMaya: \"Is the roasting temperature controlled automatically by smart computer sensors?\"",
       "question": "Trong đoạn hội thoại trên, câu nói \"Is the roasting temperature controlled automatically by smart computer sensors?\" của Maya mang ý nghĩa gì?",
       "options": [
-        "Phản hồi: \"Yêu cầu cung cấp hóa đơn thanh toán tiền mặt\"",
         "Phản hồi: \"Hoàn toàn không đồng ý và muốn rời khỏi phòng ngay lập tức\"",
         "Phản hồi: \"Nhiệt độ rang có được kiểm soát tự động bởi các cảm biến máy tính thông minh không?\"",
+        "Phản hồi: \"Yêu cầu cung cấp hóa đơn thanh toán tiền mặt\"",
         "Phản hồi: \"Hẹn gặp lại vào cuối tuần sau tại sân bay quốc tế\""
       ],
       "correctAnswer": "Phản hồi: \"Nhiệt độ rang có được kiểm soát tự động bởi các cảm biến máy tính thông minh không?\"",

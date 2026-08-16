@@ -12,8 +12,8 @@
       "options": [
         "did",
         "could",
-        "can",
-        "was"
+        "was",
+        "can"
       ],
       "correctAnswer": "could",
       "explanationVi": "Diễn tả khả năng trong quá khứ dùng 'could'."
@@ -25,9 +25,9 @@
       "question": "___ you please help me with this box?",
       "options": [
         "Are",
-        "Did",
+        "Do",
         "Could",
-        "Do"
+        "Did"
       ],
       "correctAnswer": "Could",
       "explanationVi": "Yêu cầu lịch sự trang trọng dùng 'Could'."
@@ -38,9 +38,9 @@
       "promptVi": "[Trắc nghiệm ngữ pháp] Chọn từ đúng để hoàn thành câu (Tối qua tôi đã không thể ngủ được.):",
       "question": "I ___ sleep last night.",
       "options": [
-        "can't",
-        "don't",
         "couldn't",
+        "don't",
+        "can't",
         "wasn't"
       ],
       "correctAnswer": "couldn't",
@@ -52,10 +52,10 @@
       "promptVi": "[Trắc nghiệm ngữ pháp] Chọn từ đúng để hoàn thành câu (Tôi có thể hỏi bạn một câu hỏi cá nhân được không?):",
       "question": "Could I ___ you a personal question?",
       "options": [
-        "ask",
-        "asking",
         "asked",
-        "asks"
+        "asks",
+        "asking",
+        "ask"
       ],
       "correctAnswer": "ask",
       "explanationVi": "Sau 'Could I' dùng động từ nguyên mẫu không to (ask)."
@@ -66,10 +66,10 @@
       "promptVi": "[Phản xạ dịch thuật] Dịch câu sau sang tiếng Anh: \"Bạn có thể chơi đàn vĩ cầm khi bạn lên 7 tuổi không, Beatrice?\"",
       "question": "Chọn bản dịch chuẩn xác nhất cho câu: \"Bạn có thể chơi đàn vĩ cầm khi bạn lên 7 tuổi không, Beatrice?\"",
       "options": [
-        "Could you play the violin when you be seven years old, Beatrice?",
+        "No, I couldn't play any musical instruments when I was a child.",
         "We are studying English today.",
         "Could you play the violin when you were seven years old, Beatrice?",
-        "No, I couldn't play any musical instruments when I was a child."
+        "Could you play the violin when you be seven years old, Beatrice?"
       ],
       "correctAnswer": "Could you play the violin when you were seven years old, Beatrice?",
       "explanationVi": "Câu dịch chuẩn xác: \"Could you play the violin when you were seven years old, Beatrice?\" (Bạn có thể chơi đàn vĩ cầm khi bạn lên 7 tuổi không, Beatrice?)."
@@ -80,10 +80,10 @@
       "promptVi": "[Ngữ cảnh giao tiếp] Chọn câu phản hồi tự nhiên và đúng ngữ pháp:",
       "question": "Khi đối phương nói: \"Could you play the violin when you were seven years old, Beatrice?\", câu phản hồi phù hợp là gì?",
       "options": [
+        "They are not in the office.",
         "No, I couldn't play any musical instruments when I was a child.",
         "No, it was yesterday.",
-        "Yes, I will eat it.",
-        "They are not in the office."
+        "Yes, I will eat it."
       ],
       "correctAnswer": "No, I couldn't play any musical instruments when I was a child.",
       "explanationVi": "Phản hồi phù hợp trong bài: \"No, I couldn't play any musical instruments when I was a child.\" (Không, tôi không thể chơi bất kỳ nhạc cụ nào khi tôi còn là một đứa trẻ.)."
@@ -96,8 +96,8 @@
       "correctAnswer": "could",
       "options": [
         "can",
-        "did",
         "could",
+        "did",
         "was"
       ],
       "explanationVi": "Đáp án đúng là \"could\". Câu hoàn chỉnh: \"When I was young, I could run very fast.\" (Khi tôi còn trẻ, tôi có thể chạy rất nhanh.)."
@@ -110,8 +110,8 @@
       "correctAnswer": "Could",
       "options": [
         "Do",
-        "Could",
         "Did",
+        "Could",
         "Are"
       ],
       "explanationVi": "Đáp án đúng là \"Could\". Câu hoàn chỉnh: \"Could you please help me with this box?\" (Bạn có thể làm ơn giúp tôi với chiếc hộp này không?)."
@@ -124,9 +124,9 @@
       "correctAnswer": "couldn't",
       "options": [
         "don't",
-        "couldn't",
         "wasn't",
-        "can't"
+        "can't",
+        "couldn't"
       ],
       "explanationVi": "Đáp án đúng là \"couldn't\". Câu hoàn chỉnh: \"I couldn't sleep last night.\" (Tối qua tôi đã không thể ngủ được.)."
     },
@@ -137,10 +137,10 @@
       "question": "Could I ___ you a personal question?",
       "correctAnswer": "ask",
       "options": [
-        "asking",
-        "ask",
         "asks",
-        "asked"
+        "asked",
+        "asking",
+        "ask"
       ],
       "explanationVi": "Đáp án đúng là \"ask\". Câu hoàn chỉnh: \"Could I ask you a personal question?\" (Tôi có thể hỏi bạn một câu hỏi cá nhân được không?)."
     },
@@ -151,10 +151,10 @@
       "question": "When _____ not was young, I could run very fast.",
       "correctAnswer": "I",
       "options": [
-        "is",
         "are",
         "I",
-        "am"
+        "am",
+        "is"
       ],
       "explanationVi": "Câu phủ định hoàn chỉnh: \"When I not was young, I could run very fast.\"."
     },
@@ -164,15 +164,15 @@
       "promptVi": "[Sắp xếp câu] Ghép các khối từ thành câu hoàn chỉnh mang nghĩa: \"Khi tôi còn trẻ, tôi có thể chạy rất nhanh.\"",
       "question": "Sắp xếp các từ để tạo thành câu đúng: \"Khi tôi còn trẻ, tôi có thể chạy rất nhanh.\"",
       "words": [
-        "I",
+        "could",
         "run",
         "very",
-        "young,",
-        "could",
         "I",
+        "When",
         "fast.",
+        "I",
         "was",
-        "When"
+        "young,"
       ],
       "correctSentence": "When I was young, I could run very fast.",
       "hintVi": "Khi tôi còn trẻ, tôi có thể chạy rất nhanh.",
@@ -184,14 +184,14 @@
       "promptVi": "[Sắp xếp câu] Ghép các khối từ thành câu hoàn chỉnh mang nghĩa: \"Bạn có thể làm ơn giúp tôi với chiếc hộp này không?\"",
       "question": "Sắp xếp các từ để tạo thành câu đúng: \"Bạn có thể làm ơn giúp tôi với chiếc hộp này không?\"",
       "words": [
-        "with",
-        "you",
-        "me",
-        "this",
-        "box?",
         "please",
+        "help",
         "Could",
-        "help"
+        "with",
+        "this",
+        "me",
+        "you",
+        "box?"
       ],
       "correctSentence": "Could you please help me with this box?",
       "hintVi": "Bạn có thể làm ơn giúp tôi với chiếc hộp này không?",
@@ -203,11 +203,11 @@
       "promptVi": "[Sắp xếp câu] Ghép các khối từ thành câu hoàn chỉnh mang nghĩa: \"Tối qua tôi đã không thể ngủ được.\"",
       "question": "Sắp xếp các từ để tạo thành câu đúng: \"Tối qua tôi đã không thể ngủ được.\"",
       "words": [
-        "night.",
-        "sleep",
-        "I",
         "couldn't",
-        "last"
+        "night.",
+        "I",
+        "last",
+        "sleep"
       ],
       "correctSentence": "I couldn't sleep last night.",
       "hintVi": "Tối qua tôi đã không thể ngủ được.",
@@ -219,11 +219,11 @@
       "promptVi": "[Sắp xếp câu] Ghép các khối từ thành câu hoàn chỉnh mang nghĩa: \"Tôi có thể hỏi bạn một câu hỏi cá nhân được không?\"",
       "question": "Sắp xếp các từ để tạo thành câu đúng: \"Tôi có thể hỏi bạn một câu hỏi cá nhân được không?\"",
       "words": [
-        "personal",
-        "a",
-        "question?",
-        "ask",
         "Could",
+        "a",
+        "personal",
+        "ask",
+        "question?",
         "you",
         "I"
       ],
@@ -237,17 +237,17 @@
       "promptVi": "[Sắp xếp câu] Ghép các từ thành câu hội thoại: \"Những kỹ năng nào bạn có thể thực hiện đặc biệt tốt ở độ tuổi nhỏ đó?\"",
       "question": "Sắp xếp các từ để tạo thành câu thoại: \"Những kỹ năng nào bạn có thể thực hiện đặc biệt tốt ở độ tuổi nhỏ đó?\"",
       "words": [
-        "at",
-        "What",
-        "perform",
-        "age",
-        "skills",
-        "young",
-        "well",
-        "you",
-        "could",
         "exceptionally",
-        "that"
+        "What",
+        "at",
+        "you",
+        "skills",
+        "perform",
+        "that",
+        "age",
+        "could",
+        "well",
+        "young"
       ],
       "correctSentence": "What skills could you perform exceptionally well at that young age?",
       "hintVi": "Những kỹ năng nào bạn có thể thực hiện đặc biệt tốt ở độ tuổi nhỏ đó?",
@@ -259,10 +259,10 @@
       "promptVi": "[Nhận diện cấu trúc chuẩn] Chọn câu có cấu trúc ngữ pháp HOÀN TOÀN ĐÚNG:",
       "question": "Dựa vào chủ điểm \"Bài 37: Động từ Khuyết thiếu — Could / Couldn’t (Khả năng trong quá khứ / Yêu cầu lịch sự)\", câu nào sau đây CHÍNH XÁC?",
       "options": [
+        "When I was young, I could run very fast.",
         "When I be young, I could run very fast.",
-        "is",
         "fast. very run could I young, was I When",
-        "When I was young, I could run very fast."
+        "is"
       ],
       "correctAnswer": "When I was young, I could run very fast.",
       "explanationVi": "Cấu trúc chuẩn xác là: \"When I was young, I could run very fast.\" (Khi tôi còn trẻ, tôi có thể chạy rất nhanh.)."
@@ -273,10 +273,10 @@
       "promptVi": "[Nhận diện cấu trúc chuẩn] Chọn câu có cấu trúc ngữ pháp HOÀN TOÀN ĐÚNG:",
       "question": "Dựa vào chủ điểm \"Bài 37: Động từ Khuyết thiếu — Could / Couldn’t (Khả năng trong quá khứ / Yêu cầu lịch sự)\", câu nào sau đây CHÍNH XÁC?",
       "options": [
-        "is",
         "Could you please help me with this box?",
         "Could you please help me at this box?",
-        "box? this with me help please you Could"
+        "box? this with me help please you Could",
+        "is"
       ],
       "correctAnswer": "Could you please help me with this box?",
       "explanationVi": "Cấu trúc chuẩn xác là: \"Could you please help me with this box?\" (Bạn có thể làm ơn giúp tôi với chiếc hộp này không?)."
@@ -287,10 +287,10 @@
       "promptVi": "[Nhận diện cấu trúc chuẩn] Chọn câu có cấu trúc ngữ pháp HOÀN TOÀN ĐÚNG:",
       "question": "Dựa vào chủ điểm \"Bài 37: Động từ Khuyết thiếu — Could / Couldn’t (Khả năng trong quá khứ / Yêu cầu lịch sự)\", câu nào sau đây CHÍNH XÁC?",
       "options": [
-        "I couldn't sleep last night.",
-        "night. last sleep couldn't I",
         "is",
-        "are"
+        "are",
+        "I couldn't sleep last night.",
+        "night. last sleep couldn't I"
       ],
       "correctAnswer": "I couldn't sleep last night.",
       "explanationVi": "Cấu trúc chuẩn xác là: \"I couldn't sleep last night.\" (Tối qua tôi đã không thể ngủ được.)."
@@ -301,10 +301,10 @@
       "promptVi": "[Nhận diện cấu trúc chuẩn] Chọn câu có cấu trúc ngữ pháp HOÀN TOÀN ĐÚNG:",
       "question": "Dựa vào chủ điểm \"Bài 37: Động từ Khuyết thiếu — Could / Couldn’t (Khả năng trong quá khứ / Yêu cầu lịch sự)\", câu nào sau đây CHÍNH XÁC?",
       "options": [
-        "Could I ask you a personal question?",
         "are",
-        "is",
-        "question? personal a you ask I Could"
+        "Could I ask you a personal question?",
+        "question? personal a you ask I Could",
+        "is"
       ],
       "correctAnswer": "Could I ask you a personal question?",
       "explanationVi": "Cấu trúc chuẩn xác là: \"Could I ask you a personal question?\" (Tôi có thể hỏi bạn một câu hỏi cá nhân được không?)."
@@ -316,10 +316,10 @@
       "audioPrompt": "Could you play the violin when you were seven years old, Beatrice?",
       "question": "Nhấn nút '🔊 Nghe audio' và chọn nghĩa tiếng Việt đúng:",
       "options": [
-        "Hôm nay thời tiết rất đẹp.",
-        "Không, tôi không thể chơi bất kỳ nhạc cụ nào khi tôi còn là một đứa trẻ.",
         "Bạn có thể chơi đàn vĩ cầm khi bạn lên 7 tuổi không, Beatrice?",
-        "Những kỹ năng nào bạn có thể thực hiện đặc biệt tốt ở độ tuổi nhỏ đó?"
+        "Không, tôi không thể chơi bất kỳ nhạc cụ nào khi tôi còn là một đứa trẻ.",
+        "Những kỹ năng nào bạn có thể thực hiện đặc biệt tốt ở độ tuổi nhỏ đó?",
+        "Hôm nay thời tiết rất đẹp."
       ],
       "correctAnswer": "Bạn có thể chơi đàn vĩ cầm khi bạn lên 7 tuổi không, Beatrice?",
       "explanationVi": "Câu nghe được: \"Could you play the violin when you were seven years old, Beatrice?\" có nghĩa là: \"Bạn có thể chơi đàn vĩ cầm khi bạn lên 7 tuổi không, Beatrice?\"."
@@ -331,10 +331,10 @@
       "audioPrompt": "No, I couldn't play any musical instruments when I was a child.",
       "question": "Nhấn nút '🔊 Nghe audio' và chọn nghĩa tiếng Việt đúng:",
       "options": [
-        "Những kỹ năng nào bạn có thể thực hiện đặc biệt tốt ở độ tuổi nhỏ đó?",
-        "Không, tôi không thể chơi bất kỳ nhạc cụ nào khi tôi còn là một đứa trẻ.",
         "Hôm nay thời tiết rất đẹp.",
-        "Tôi có thể chạy rất nhanh, và tôi có thể bơi qua hồ nước của thị trấn một cách dễ dàng."
+        "Tôi có thể chạy rất nhanh, và tôi có thể bơi qua hồ nước của thị trấn một cách dễ dàng.",
+        "Những kỹ năng nào bạn có thể thực hiện đặc biệt tốt ở độ tuổi nhỏ đó?",
+        "Không, tôi không thể chơi bất kỳ nhạc cụ nào khi tôi còn là một đứa trẻ."
       ],
       "correctAnswer": "Không, tôi không thể chơi bất kỳ nhạc cụ nào khi tôi còn là một đứa trẻ.",
       "explanationVi": "Câu nghe được: \"No, I couldn't play any musical instruments when I was a child.\" có nghĩa là: \"Không, tôi không thể chơi bất kỳ nhạc cụ nào khi tôi còn là một đứa trẻ.\"."
@@ -346,9 +346,9 @@
       "audioPrompt": "What skills could you perform exceptionally well at that young age?",
       "question": "Nhấn nút '🔊 Nghe audio' và chọn nghĩa tiếng Việt đúng:",
       "options": [
-        "Những kỹ năng nào bạn có thể thực hiện đặc biệt tốt ở độ tuổi nhỏ đó?",
-        "Tôi có thể chạy rất nhanh, và tôi có thể bơi qua hồ nước của thị trấn một cách dễ dàng.",
         "Thật tuyệt vời! Anh trai tôi có thể nói hai thứ tiếng nước ngoài lúc 10 tuổi.",
+        "Tôi có thể chạy rất nhanh, và tôi có thể bơi qua hồ nước của thị trấn một cách dễ dàng.",
+        "Những kỹ năng nào bạn có thể thực hiện đặc biệt tốt ở độ tuổi nhỏ đó?",
         "Hôm nay thời tiết rất đẹp."
       ],
       "correctAnswer": "Những kỹ năng nào bạn có thể thực hiện đặc biệt tốt ở độ tuổi nhỏ đó?",
@@ -361,10 +361,10 @@
       "audioPrompt": "I could run very fast, and I could swim across our town's lake easily.",
       "question": "Nhấn nút '🔊 Nghe audio' và chọn nghĩa tiếng Việt đúng:",
       "options": [
+        "Tôi có thể chạy rất nhanh, và tôi có thể bơi qua hồ nước của thị trấn một cách dễ dàng.",
         "Hôm nay thời tiết rất đẹp.",
         "Thật tuyệt vời! Anh trai tôi có thể nói hai thứ tiếng nước ngoài lúc 10 tuổi.",
-        "Hồi đó anh ấy cũng có thể đọc và viết những ngôn ngữ đó chứ?",
-        "Tôi có thể chạy rất nhanh, và tôi có thể bơi qua hồ nước của thị trấn một cách dễ dàng."
+        "Hồi đó anh ấy cũng có thể đọc và viết những ngôn ngữ đó chứ?"
       ],
       "correctAnswer": "Tôi có thể chạy rất nhanh, và tôi có thể bơi qua hồ nước của thị trấn một cách dễ dàng.",
       "explanationVi": "Câu nghe được: \"I could run very fast, and I could swim across our town's lake easily.\" có nghĩa là: \"Tôi có thể chạy rất nhanh, và tôi có thể bơi qua hồ nước của thị trấn một cách dễ dàng.\"."
@@ -412,9 +412,9 @@
       "passage": "Arthur: \"Could you play the violin when you were seven years old, Beatrice?\"\nBeatrice: \"No, I couldn't play any musical instruments when I was a child.\"\nArthur: \"What skills could you perform exceptionally well at that young age?\"\nBeatrice: \"I could run very fast, and I could swim across our town's lake easily.\"",
       "question": "Dựa vào đoạn đối thoại trên, thông tin nào sau đây là CHÍNH XÁC về nội dung câu nói của Arthur?",
       "options": [
-        "Arthur muốn mượn tiền để mua vé máy bay gấp.",
         "Arthur chia sẻ thông tin: \"Bạn có thể chơi đàn vĩ cầm khi bạn lên 7 tuổi không, Beatrice?\"",
         "Arthur phàn nàn rằng thời tiết hôm nay quá xấu.",
+        "Arthur muốn mượn tiền để mua vé máy bay gấp.",
         "Arthur từ chối trả lời và yêu cầu hủy cuộc hẹn."
       ],
       "correctAnswer": "Arthur chia sẻ thông tin: \"Bạn có thể chơi đàn vĩ cầm khi bạn lên 7 tuổi không, Beatrice?\"",
@@ -429,8 +429,8 @@
       "options": [
         "Phản hồi: \"Hoàn toàn không đồng ý và muốn rời khỏi phòng ngay lập tức\"",
         "Phản hồi: \"Xin lỗi Arthur, bạn có thể làm ơn đưa giúp tôi lọ đường trên kệ được không?\"",
-        "Phản hồi: \"Hẹn gặp lại vào cuối tuần sau tại sân bay quốc tế\"",
-        "Phản hồi: \"Yêu cầu cung cấp hóa đơn thanh toán tiền mặt\""
+        "Phản hồi: \"Yêu cầu cung cấp hóa đơn thanh toán tiền mặt\"",
+        "Phản hồi: \"Hẹn gặp lại vào cuối tuần sau tại sân bay quốc tế\""
       ],
       "correctAnswer": "Phản hồi: \"Xin lỗi Arthur, bạn có thể làm ơn đưa giúp tôi lọ đường trên kệ được không?\"",
       "explanationVi": "Beatrice nói: \"Excuse me Arthur, could you please pass me the sugar on the shelf?\" có nghĩa là: \"Xin lỗi Arthur, bạn có thể làm ơn đưa giúp tôi lọ đường trên kệ được không?\"."

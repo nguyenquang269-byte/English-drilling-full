@@ -10,10 +10,10 @@
       "promptVi": "[Trắc nghiệm ngữ pháp] Chọn từ đúng để hoàn thành câu (Tôi sẽ ở nhà vào ngày mai.):",
       "question": "I ___ at home tomorrow.",
       "options": [
-        "am",
         "be",
-        "will be",
-        "was"
+        "was",
+        "am",
+        "will be"
       ],
       "correctAnswer": "will be",
       "explanationVi": "Diễn tả sự việc ở tương lai ('tomorrow') dùng 'will be'."
@@ -24,10 +24,10 @@
       "promptVi": "[Trắc nghiệm ngữ pháp] Chọn từ đúng để hoàn thành câu (Cô ấy sẽ trở thành bác sĩ vào năm tới.):",
       "question": "She ___ a doctor next year.",
       "options": [
-        "will be",
-        "is",
         "will",
-        "was"
+        "was",
+        "is",
+        "will be"
       ],
       "correctAnswer": "will be",
       "explanationVi": "'Next year' chỉ thời điểm tương lai, đi với 'will be'."
@@ -38,9 +38,9 @@
       "promptVi": "[Trắc nghiệm ngữ pháp] Chọn từ đúng để hoàn thành câu (Chúng tôi sẽ rất bận vào tuần tới.):",
       "question": "We ___ very busy next week.",
       "options": [
-        "were",
         "will be",
         "are",
+        "were",
         "be"
       ],
       "correctAnswer": "will be",
@@ -52,10 +52,10 @@
       "promptVi": "[Trắc nghiệm ngữ pháp] Chọn từ đúng để hoàn thành câu (Thời tiết sẽ nắng vào ngày mai.):",
       "question": "The weather ___ sunny tomorrow.",
       "options": [
-        "is",
-        "will",
         "will be",
-        "was"
+        "is",
+        "was",
+        "will"
       ],
       "correctAnswer": "will be",
       "explanationVi": "Dự báo thời tiết cho ngày mai ('tomorrow') dùng 'will be'."
@@ -66,9 +66,9 @@
       "promptVi": "[Phản xạ dịch thuật] Dịch câu sau sang tiếng Anh: \"Chào Mary! Sáng mai bạn có ở nhà không?\"",
       "question": "Chọn bản dịch chuẩn xác nhất cho câu: \"Chào Mary! Sáng mai bạn có ở nhà không?\"",
       "options": [
-        "We are studying English today.",
-        "Hello Mary! Will you be at home tomorrow morning?",
         "Hello Mary! be you be at home tomorrow morning?",
+        "Hello Mary! Will you be at home tomorrow morning?",
+        "We are studying English today.",
         "Yes, I will be at home until ten AM."
       ],
       "correctAnswer": "Hello Mary! Will you be at home tomorrow morning?",
@@ -82,8 +82,8 @@
       "options": [
         "Yes, I will be at home until ten AM.",
         "No, it was yesterday.",
-        "They are not in the office.",
-        "Yes, I will eat it."
+        "Yes, I will eat it.",
+        "They are not in the office."
       ],
       "correctAnswer": "Yes, I will be at home until ten AM.",
       "explanationVi": "Phản hồi phù hợp trong bài: \"Yes, I will be at home until ten AM.\" (Có, tôi sẽ ở nhà cho đến 10 giờ sáng.)."
@@ -96,9 +96,9 @@
       "correctAnswer": "will be",
       "options": [
         "be",
-        "am",
+        "was",
         "will be",
-        "was"
+        "am"
       ],
       "explanationVi": "Đáp án đúng là \"will be\". Câu hoàn chỉnh: \"I will be at home tomorrow.\" (Tôi sẽ ở nhà vào ngày mai.)."
     },
@@ -109,10 +109,10 @@
       "question": "She ___ a doctor next year.",
       "correctAnswer": "will be",
       "options": [
-        "is",
-        "will",
         "will be",
-        "was"
+        "is",
+        "was",
+        "will"
       ],
       "explanationVi": "Đáp án đúng là \"will be\". Câu hoàn chỉnh: \"She will be a doctor next year.\" (Cô ấy sẽ trở thành bác sĩ vào năm tới.)."
     },
@@ -123,10 +123,10 @@
       "question": "We ___ very busy next week.",
       "correctAnswer": "will be",
       "options": [
-        "be",
         "will be",
-        "were",
-        "are"
+        "be",
+        "are",
+        "were"
       ],
       "explanationVi": "Đáp án đúng là \"will be\". Câu hoàn chỉnh: \"We will be very busy next week.\" (Chúng tôi sẽ rất bận vào tuần tới.)."
     },
@@ -138,8 +138,8 @@
       "correctAnswer": "will be",
       "options": [
         "is",
-        "will be",
         "will",
+        "will be",
         "was"
       ],
       "explanationVi": "Đáp án đúng là \"will be\". Câu hoàn chỉnh: \"The weather will be sunny tomorrow.\" (Thời tiết sẽ nắng vào ngày mai.)."
@@ -151,10 +151,10 @@
       "question": "I _____ not be at home tomorrow.",
       "correctAnswer": "will",
       "options": [
-        "will",
-        "is",
         "are",
-        "am"
+        "is",
+        "am",
+        "will"
       ],
       "explanationVi": "Câu phủ định hoàn chỉnh: \"I will not be at home tomorrow.\"."
     },
@@ -164,12 +164,12 @@
       "promptVi": "[Sắp xếp câu] Ghép các khối từ thành câu hoàn chỉnh mang nghĩa: \"Tôi sẽ ở nhà vào ngày mai.\"",
       "question": "Sắp xếp các từ để tạo thành câu đúng: \"Tôi sẽ ở nhà vào ngày mai.\"",
       "words": [
-        "tomorrow.",
+        "I",
         "home",
         "at",
-        "will",
+        "tomorrow.",
         "be",
-        "I"
+        "will"
       ],
       "correctSentence": "I will be at home tomorrow.",
       "hintVi": "Tôi sẽ ở nhà vào ngày mai.",
@@ -181,13 +181,13 @@
       "promptVi": "[Sắp xếp câu] Ghép các khối từ thành câu hoàn chỉnh mang nghĩa: \"Cô ấy sẽ trở thành bác sĩ vào năm tới.\"",
       "question": "Sắp xếp các từ để tạo thành câu đúng: \"Cô ấy sẽ trở thành bác sĩ vào năm tới.\"",
       "words": [
-        "doctor",
         "She",
-        "a",
-        "next",
-        "be",
         "year.",
-        "will"
+        "be",
+        "will",
+        "next",
+        "doctor",
+        "a"
       ],
       "correctSentence": "She will be a doctor next year.",
       "hintVi": "Cô ấy sẽ trở thành bác sĩ vào năm tới.",
@@ -199,13 +199,13 @@
       "promptVi": "[Sắp xếp câu] Ghép các khối từ thành câu hoàn chỉnh mang nghĩa: \"Chúng tôi sẽ rất bận vào tuần tới.\"",
       "question": "Sắp xếp các từ để tạo thành câu đúng: \"Chúng tôi sẽ rất bận vào tuần tới.\"",
       "words": [
-        "very",
-        "next",
         "will",
+        "very",
         "week.",
+        "next",
+        "busy",
         "be",
-        "We",
-        "busy"
+        "We"
       ],
       "correctSentence": "We will be very busy next week.",
       "hintVi": "Chúng tôi sẽ rất bận vào tuần tới.",
@@ -217,12 +217,12 @@
       "promptVi": "[Sắp xếp câu] Ghép các khối từ thành câu hoàn chỉnh mang nghĩa: \"Thời tiết sẽ nắng vào ngày mai.\"",
       "question": "Sắp xếp các từ để tạo thành câu đúng: \"Thời tiết sẽ nắng vào ngày mai.\"",
       "words": [
+        "tomorrow.",
         "sunny",
         "will",
-        "be",
-        "tomorrow.",
+        "The",
         "weather",
-        "The"
+        "be"
       ],
       "correctSentence": "The weather will be sunny tomorrow.",
       "hintVi": "Thời tiết sẽ nắng vào ngày mai.",
@@ -234,13 +234,13 @@
       "promptVi": "[Sắp xếp câu] Ghép các từ thành câu hội thoại: \"Chiều mai bạn sẽ ở đâu?\"",
       "question": "Sắp xếp các từ để tạo thành câu thoại: \"Chiều mai bạn sẽ ở đâu?\"",
       "words": [
+        "be",
+        "Where",
         "afternoon",
-        "you",
+        "in",
         "will",
         "the",
-        "Where",
-        "be",
-        "in"
+        "you"
       ],
       "correctSentence": "Where will you be in the afternoon?",
       "hintVi": "Chiều mai bạn sẽ ở đâu?",
@@ -252,8 +252,8 @@
       "promptVi": "[Nhận diện cấu trúc chuẩn] Chọn câu có cấu trúc ngữ pháp HOÀN TOÀN ĐÚNG:",
       "question": "Dựa vào chủ điểm \"Bài 10: Động từ To Be — Tương lai Đơn (Will be - Sẽ ở đâu & Trạng thái tương lai)\", câu nào sau đây CHÍNH XÁC?",
       "options": [
-        "is",
         "are",
+        "is",
         "tomorrow. home at be will I",
         "I will be at home tomorrow."
       ],
@@ -266,10 +266,10 @@
       "promptVi": "[Nhận diện cấu trúc chuẩn] Chọn câu có cấu trúc ngữ pháp HOÀN TOÀN ĐÚNG:",
       "question": "Dựa vào chủ điểm \"Bài 10: Động từ To Be — Tương lai Đơn (Will be - Sẽ ở đâu & Trạng thái tương lai)\", câu nào sau đây CHÍNH XÁC?",
       "options": [
-        "are",
         "She will be a doctor next year.",
         "year. next doctor a be will She",
-        "is"
+        "is",
+        "are"
       ],
       "correctAnswer": "She will be a doctor next year.",
       "explanationVi": "Cấu trúc chuẩn xác là: \"She will be a doctor next year.\" (Cô ấy sẽ trở thành bác sĩ vào năm tới.)."
@@ -280,9 +280,9 @@
       "promptVi": "[Nhận diện cấu trúc chuẩn] Chọn câu có cấu trúc ngữ pháp HOÀN TOÀN ĐÚNG:",
       "question": "Dựa vào chủ điểm \"Bài 10: Động từ To Be — Tương lai Đơn (Will be - Sẽ ở đâu & Trạng thái tương lai)\", câu nào sau đây CHÍNH XÁC?",
       "options": [
-        "week. next busy very be will We",
         "are",
         "We will be very busy next week.",
+        "week. next busy very be will We",
         "is"
       ],
       "correctAnswer": "We will be very busy next week.",
@@ -294,10 +294,10 @@
       "promptVi": "[Nhận diện cấu trúc chuẩn] Chọn câu có cấu trúc ngữ pháp HOÀN TOÀN ĐÚNG:",
       "question": "Dựa vào chủ điểm \"Bài 10: Động từ To Be — Tương lai Đơn (Will be - Sẽ ở đâu & Trạng thái tương lai)\", câu nào sau đây CHÍNH XÁC?",
       "options": [
-        "tomorrow. sunny be will weather The",
         "is",
-        "are",
-        "The weather will be sunny tomorrow."
+        "tomorrow. sunny be will weather The",
+        "The weather will be sunny tomorrow.",
+        "are"
       ],
       "correctAnswer": "The weather will be sunny tomorrow.",
       "explanationVi": "Cấu trúc chuẩn xác là: \"The weather will be sunny tomorrow.\" (Thời tiết sẽ nắng vào ngày mai.)."
@@ -309,8 +309,8 @@
       "audioPrompt": "Hello Mary! Will you be at home tomorrow morning?",
       "question": "Nhấn nút '🔊 Nghe audio' và chọn nghĩa tiếng Việt đúng:",
       "options": [
-        "Hôm nay thời tiết rất đẹp.",
         "Chào Mary! Sáng mai bạn có ở nhà không?",
+        "Hôm nay thời tiết rất đẹp.",
         "Có, tôi sẽ ở nhà cho đến 10 giờ sáng.",
         "Chiều mai bạn sẽ ở đâu?"
       ],
@@ -324,10 +324,10 @@
       "audioPrompt": "Yes, I will be at home until ten AM.",
       "question": "Nhấn nút '🔊 Nghe audio' và chọn nghĩa tiếng Việt đúng:",
       "options": [
-        "Chiều mai bạn sẽ ở đâu?",
-        "Có, tôi sẽ ở nhà cho đến 10 giờ sáng.",
+        "Tôi sẽ ở quán cà phê mới gần văn phòng chúng ta.",
         "Hôm nay thời tiết rất đẹp.",
-        "Tôi sẽ ở quán cà phê mới gần văn phòng chúng ta."
+        "Có, tôi sẽ ở nhà cho đến 10 giờ sáng.",
+        "Chiều mai bạn sẽ ở đâu?"
       ],
       "correctAnswer": "Có, tôi sẽ ở nhà cho đến 10 giờ sáng.",
       "explanationVi": "Câu nghe được: \"Yes, I will be at home until ten AM.\" có nghĩa là: \"Có, tôi sẽ ở nhà cho đến 10 giờ sáng.\"."
@@ -339,10 +339,10 @@
       "audioPrompt": "Where will you be in the afternoon?",
       "question": "Nhấn nút '🔊 Nghe audio' và chọn nghĩa tiếng Việt đúng:",
       "options": [
-        "Hôm nay thời tiết rất đẹp.",
+        "Quán cà phê đó sẽ đông người không?",
         "Tôi sẽ ở quán cà phê mới gần văn phòng chúng ta.",
         "Chiều mai bạn sẽ ở đâu?",
-        "Quán cà phê đó sẽ đông người không?"
+        "Hôm nay thời tiết rất đẹp."
       ],
       "correctAnswer": "Chiều mai bạn sẽ ở đâu?",
       "explanationVi": "Câu nghe được: \"Where will you be in the afternoon?\" có nghĩa là: \"Chiều mai bạn sẽ ở đâu?\"."
@@ -354,8 +354,8 @@
       "audioPrompt": "I will be at the new coffee shop near our office.",
       "question": "Nhấn nút '🔊 Nghe audio' và chọn nghĩa tiếng Việt đúng:",
       "options": [
-        "Quán cà phê đó sẽ đông người không?",
         "Tôi sẽ ở quán cà phê mới gần văn phòng chúng ta.",
+        "Quán cà phê đó sẽ đông người không?",
         "Có thể! Nhưng không khí ở đó sẽ rất tuyệt vời.",
         "Hôm nay thời tiết rất đẹp."
       ],
@@ -405,10 +405,10 @@
       "passage": "Phong: \"Hello Mary! Will you be at home tomorrow morning?\"\nMary: \"Yes, I will be at home until ten AM.\"\nPhong: \"Where will you be in the afternoon?\"\nMary: \"I will be at the new coffee shop near our office.\"",
       "question": "Dựa vào đoạn đối thoại trên, thông tin nào sau đây là CHÍNH XÁC về nội dung câu nói của Phong?",
       "options": [
-        "Phong phàn nàn rằng thời tiết hôm nay quá xấu.",
-        "Phong chia sẻ thông tin: \"Chào Mary! Sáng mai bạn có ở nhà không?\"",
+        "Phong muốn mượn tiền để mua vé máy bay gấp.",
         "Phong từ chối trả lời và yêu cầu hủy cuộc hẹn.",
-        "Phong muốn mượn tiền để mua vé máy bay gấp."
+        "Phong phàn nàn rằng thời tiết hôm nay quá xấu.",
+        "Phong chia sẻ thông tin: \"Chào Mary! Sáng mai bạn có ở nhà không?\""
       ],
       "correctAnswer": "Phong chia sẻ thông tin: \"Chào Mary! Sáng mai bạn có ở nhà không?\"",
       "explanationVi": "Trong đoạn hội thoại, Phong đã nói: \"Hello Mary! Will you be at home tomorrow morning?\" (nghĩa là: \"Chào Mary! Sáng mai bạn có ở nhà không?\")."
@@ -420,10 +420,10 @@
       "passage": "Phong: \"Where will you be in the afternoon?\"\nMary: \"I will be at the new coffee shop near our office.\"\nPhong: \"Will the coffee shop be crowded?\"\nMary: \"Maybe! But the atmosphere will be great.\"",
       "question": "Trong đoạn hội thoại trên, câu nói \"Maybe! But the atmosphere will be great.\" của Mary mang ý nghĩa gì?",
       "options": [
-        "Phản hồi: \"Có thể! Nhưng không khí ở đó sẽ rất tuyệt vời.\"",
-        "Phản hồi: \"Yêu cầu cung cấp hóa đơn thanh toán tiền mặt\"",
         "Phản hồi: \"Hẹn gặp lại vào cuối tuần sau tại sân bay quốc tế\"",
-        "Phản hồi: \"Hoàn toàn không đồng ý và muốn rời khỏi phòng ngay lập tức\""
+        "Phản hồi: \"Hoàn toàn không đồng ý và muốn rời khỏi phòng ngay lập tức\"",
+        "Phản hồi: \"Yêu cầu cung cấp hóa đơn thanh toán tiền mặt\"",
+        "Phản hồi: \"Có thể! Nhưng không khí ở đó sẽ rất tuyệt vời.\""
       ],
       "correctAnswer": "Phản hồi: \"Có thể! Nhưng không khí ở đó sẽ rất tuyệt vời.\"",
       "explanationVi": "Mary nói: \"Maybe! But the atmosphere will be great.\" có nghĩa là: \"Có thể! Nhưng không khí ở đó sẽ rất tuyệt vời.\"."

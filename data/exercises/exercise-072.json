@@ -10,8 +10,8 @@
       "promptVi": "[Trắc nghiệm ngữ pháp] Chọn từ đúng để hoàn thành câu (Tôi rất thích thú với việc đọc sách lịch sử.):",
       "question": "I am ___ in reading history books.",
       "options": [
-        "interested",
         "interesting",
+        "interested",
         "interests",
         "interest"
       ],
@@ -24,10 +24,10 @@
       "promptVi": "[Trắc nghiệm ngữ pháp] Chọn từ đúng để hoàn thành câu (Bộ phim tẻ nhạt đến nỗi tôi đã ngủ thiếp đi.):",
       "question": "The movie was so ___ that I fell asleep.",
       "options": [
-        "bored",
         "boring",
         "boredom",
-        "bore"
+        "bore",
+        "bored"
       ],
       "correctAnswer": "boring",
       "explanationVi": "Chỉ tính chất của 'the movie' gây buồn ngủ dùng 'boring'."
@@ -38,10 +38,10 @@
       "promptVi": "[Trắc nghiệm ngữ pháp] Chọn từ đúng để hoàn thành câu (Tôi đã kiệt sức sau một ngày làm việc mệt mỏi.):",
       "question": "I was exhausted after a ___ working day.",
       "options": [
-        "tiring",
-        "tire",
         "tiredly",
-        "tired"
+        "tire",
+        "tired",
+        "tiring"
       ],
       "correctAnswer": "tiring",
       "explanationVi": "Bổ nghĩa cho 'working day' (ngày làm việc mệt mỏi) dùng 'tiring'."
@@ -52,10 +52,10 @@
       "promptVi": "[Trắc nghiệm ngữ pháp] Chọn từ đúng để hoàn thành câu (Trận đấu bóng đá thực sự rất hào hứng và kịch tính khi xem.):",
       "question": "The football match was really ___ to watch.",
       "options": [
-        "excited",
+        "excitement",
         "excite",
-        "exciting",
-        "excitement"
+        "excited",
+        "exciting"
       ],
       "correctAnswer": "exciting",
       "explanationVi": "Chỉ tính chất của 'The football match' dùng 'exciting'."
@@ -66,10 +66,10 @@
       "promptVi": "[Phản xạ dịch thuật] Dịch câu sau sang tiếng Anh: \"Tối qua bạn có xem bộ phim tài liệu thiên văn học không gian sâu mang tính đột phá đó không Serena?\"",
       "question": "Chọn bản dịch chuẩn xác nhất cho câu: \"Tối qua bạn có xem bộ phim tài liệu thiên văn học không gian sâu mang tính đột phá đó không Serena?\"",
       "options": [
-        "Yes, I did! The computer simulations of supernovas were absolutely fascinating.",
         "Did you watch that groundbreaking deep-space astronomy documentary last night, Serena?",
-        "We are studying English today.",
-        "be you watch that groundbreaking deep-space astronomy documentary last night, Serena?"
+        "be you watch that groundbreaking deep-space astronomy documentary last night, Serena?",
+        "Yes, I did! The computer simulations of supernovas were absolutely fascinating.",
+        "We are studying English today."
       ],
       "correctAnswer": "Did you watch that groundbreaking deep-space astronomy documentary last night, Serena?",
       "explanationVi": "Câu dịch chuẩn xác: \"Did you watch that groundbreaking deep-space astronomy documentary last night, Serena?\" (Tối qua bạn có xem bộ phim tài liệu thiên văn học không gian sâu mang tính đột phá đó không Serena?)."
@@ -80,10 +80,10 @@
       "promptVi": "[Ngữ cảnh giao tiếp] Chọn câu phản hồi tự nhiên và đúng ngữ pháp:",
       "question": "Khi đối phương nói: \"Did you watch that groundbreaking deep-space astronomy documentary last night, Serena?\", câu phản hồi phù hợp là gì?",
       "options": [
-        "Yes, I will eat it.",
+        "They are not in the office.",
         "No, it was yesterday.",
         "Yes, I did! The computer simulations of supernovas were absolutely fascinating.",
-        "They are not in the office."
+        "Yes, I will eat it."
       ],
       "correctAnswer": "Yes, I did! The computer simulations of supernovas were absolutely fascinating.",
       "explanationVi": "Phản hồi phù hợp trong bài: \"Yes, I did! The computer simulations of supernovas were absolutely fascinating.\" (Có chứ! Các mô phỏng máy tính về các vụ nổ siêu tân tinh hoàn toàn lôi cuốn và hấp dẫn. (fascinating = tính chất))."
@@ -95,9 +95,9 @@
       "question": "I am ___ in reading history books.",
       "correctAnswer": "interested",
       "options": [
+        "interest",
         "interesting",
         "interested",
-        "interest",
         "interests"
       ],
       "explanationVi": "Đáp án đúng là \"interested\". Câu hoàn chỉnh: \"I am interested in reading history books.\" (Tôi rất thích thú với việc đọc sách lịch sử.)."
@@ -109,10 +109,10 @@
       "question": "The movie was so ___ that I fell asleep.",
       "correctAnswer": "boring",
       "options": [
+        "bore",
         "boredom",
         "bored",
-        "boring",
-        "bore"
+        "boring"
       ],
       "explanationVi": "Đáp án đúng là \"boring\". Câu hoàn chỉnh: \"The movie was so boring that I fell asleep.\" (Bộ phim tẻ nhạt đến nỗi tôi đã ngủ thiếp đi.)."
     },
@@ -123,10 +123,10 @@
       "question": "I was exhausted after a ___ working day.",
       "correctAnswer": "tiring",
       "options": [
-        "tired",
         "tiredly",
-        "tiring",
-        "tire"
+        "tire",
+        "tired",
+        "tiring"
       ],
       "explanationVi": "Đáp án đúng là \"tiring\". Câu hoàn chỉnh: \"I was exhausted after a tiring working day.\" (Tôi đã kiệt sức sau một ngày làm việc mệt mỏi.)."
     },
@@ -138,9 +138,9 @@
       "correctAnswer": "exciting",
       "options": [
         "exciting",
+        "excitement",
         "excited",
-        "excite",
-        "excitement"
+        "excite"
       ],
       "explanationVi": "Đáp án đúng là \"exciting\". Câu hoàn chỉnh: \"The football match was really exciting to watch.\" (Trận đấu bóng đá thực sự rất hào hứng và kịch tính khi xem.)."
     },
@@ -151,10 +151,10 @@
       "question": "I _____ not interested in reading history books.",
       "correctAnswer": "am",
       "options": [
-        "are",
+        "is",
         "am",
-        "do",
-        "is"
+        "are",
+        "do"
       ],
       "explanationVi": "Câu phủ định hoàn chỉnh: \"I am not interested in reading history books.\"."
     },
@@ -164,13 +164,13 @@
       "promptVi": "[Sắp xếp câu] Ghép các khối từ thành câu hoàn chỉnh mang nghĩa: \"Tôi rất thích thú với việc đọc sách lịch sử.\"",
       "question": "Sắp xếp các từ để tạo thành câu đúng: \"Tôi rất thích thú với việc đọc sách lịch sử.\"",
       "words": [
+        "am",
+        "in",
+        "books.",
         "history",
         "reading",
-        "books.",
-        "I",
-        "in",
         "interested",
-        "am"
+        "I"
       ],
       "correctSentence": "I am interested in reading history books.",
       "hintVi": "Tôi rất thích thú với việc đọc sách lịch sử.",
@@ -183,14 +183,14 @@
       "question": "Sắp xếp các từ để tạo thành câu đúng: \"Bộ phim tẻ nhạt đến nỗi tôi đã ngủ thiếp đi.\"",
       "words": [
         "was",
-        "asleep.",
-        "The",
-        "fell",
-        "that",
-        "boring",
         "movie",
+        "boring",
         "so",
-        "I"
+        "that",
+        "I",
+        "fell",
+        "asleep.",
+        "The"
       ],
       "correctSentence": "The movie was so boring that I fell asleep.",
       "hintVi": "Bộ phim tẻ nhạt đến nỗi tôi đã ngủ thiếp đi.",
@@ -202,14 +202,14 @@
       "promptVi": "[Sắp xếp câu] Ghép các khối từ thành câu hoàn chỉnh mang nghĩa: \"Tôi đã kiệt sức sau một ngày làm việc mệt mỏi.\"",
       "question": "Sắp xếp các từ để tạo thành câu đúng: \"Tôi đã kiệt sức sau một ngày làm việc mệt mỏi.\"",
       "words": [
-        "a",
+        "I",
         "tiring",
-        "was",
-        "exhausted",
         "working",
+        "exhausted",
         "day.",
-        "after",
-        "I"
+        "a",
+        "was",
+        "after"
       ],
       "correctSentence": "I was exhausted after a tiring working day.",
       "hintVi": "Tôi đã kiệt sức sau một ngày làm việc mệt mỏi.",
@@ -221,14 +221,14 @@
       "promptVi": "[Sắp xếp câu] Ghép các khối từ thành câu hoàn chỉnh mang nghĩa: \"Trận đấu bóng đá thực sự rất hào hứng và kịch tính khi xem.\"",
       "question": "Sắp xếp các từ để tạo thành câu đúng: \"Trận đấu bóng đá thực sự rất hào hứng và kịch tính khi xem.\"",
       "words": [
-        "exciting",
-        "match",
-        "football",
-        "watch.",
+        "was",
         "really",
-        "The",
+        "match",
+        "watch.",
         "to",
-        "was"
+        "The",
+        "football",
+        "exciting"
       ],
       "correctSentence": "The football match was really exciting to watch.",
       "hintVi": "Trận đấu bóng đá thực sự rất hào hứng và kịch tính khi xem.",
@@ -241,15 +241,15 @@
       "question": "Sắp xếp các từ để tạo thành câu thoại: \"Bạn có cảm thấy buồn chán trong các phần tính toán vật lý thiên văn dài hai tiếng không? (bored = cảm xúc)\"",
       "words": [
         "segments",
+        "lengthy",
         "the",
-        "Were",
-        "you",
-        "two-hour",
-        "astrophysics",
-        "bored",
-        "calculation",
         "during",
-        "lengthy"
+        "two-hour",
+        "bored",
+        "you",
+        "astrophysics",
+        "calculation",
+        "Were"
       ],
       "correctSentence": "Were you bored during the lengthy two-hour astrophysics calculation segments?",
       "hintVi": "Bạn có cảm thấy buồn chán trong các phần tính toán vật lý thiên văn dài hai tiếng không? (bored = cảm xúc)",
@@ -261,9 +261,9 @@
       "promptVi": "[Nhận diện cấu trúc chuẩn] Chọn câu có cấu trúc ngữ pháp HOÀN TOÀN ĐÚNG:",
       "question": "Dựa vào chủ điểm \"Bài 72: Tính từ Đuôi -ED và -ING (Participle Adjectives: Feeling vs. Characteristic)\", câu nào sau đây CHÍNH XÁC?",
       "options": [
-        "I be interested in reading history books.",
-        "I am interested at reading history books.",
         "books. history reading in interested am I",
+        "I am interested at reading history books.",
+        "I be interested in reading history books.",
         "I am interested in reading history books."
       ],
       "correctAnswer": "I am interested in reading history books.",
@@ -275,9 +275,9 @@
       "promptVi": "[Nhận diện cấu trúc chuẩn] Chọn câu có cấu trúc ngữ pháp HOÀN TOÀN ĐÚNG:",
       "question": "Dựa vào chủ điểm \"Bài 72: Tính từ Đuôi -ED và -ING (Participle Adjectives: Feeling vs. Characteristic)\", câu nào sau đây CHÍNH XÁC?",
       "options": [
-        "is",
-        "The movie be so boring that I fell asleep.",
         "The movie was so boring that I fell asleep.",
+        "The movie be so boring that I fell asleep.",
+        "is",
         "asleep. fell I that boring so was movie The"
       ],
       "correctAnswer": "The movie was so boring that I fell asleep.",
@@ -289,10 +289,10 @@
       "promptVi": "[Nhận diện cấu trúc chuẩn] Chọn câu có cấu trúc ngữ pháp HOÀN TOÀN ĐÚNG:",
       "question": "Dựa vào chủ điểm \"Bài 72: Tính từ Đuôi -ED và -ING (Participle Adjectives: Feeling vs. Characteristic)\", câu nào sau đây CHÍNH XÁC?",
       "options": [
-        "day. working tiring a after exhausted was I",
-        "is",
+        "I was exhausted after a tiring working day.",
         "I be exhausted after a tiring working day.",
-        "I was exhausted after a tiring working day."
+        "day. working tiring a after exhausted was I",
+        "is"
       ],
       "correctAnswer": "I was exhausted after a tiring working day.",
       "explanationVi": "Cấu trúc chuẩn xác là: \"I was exhausted after a tiring working day.\" (Tôi đã kiệt sức sau một ngày làm việc mệt mỏi.)."
@@ -303,9 +303,9 @@
       "promptVi": "[Nhận diện cấu trúc chuẩn] Chọn câu có cấu trúc ngữ pháp HOÀN TOÀN ĐÚNG:",
       "question": "Dựa vào chủ điểm \"Bài 72: Tính từ Đuôi -ED và -ING (Participle Adjectives: Feeling vs. Characteristic)\", câu nào sau đây CHÍNH XÁC?",
       "options": [
-        "The football match be really exciting to watch.",
-        "The football match was really exciting at watch.",
         "watch. to exciting really was match football The",
+        "The football match was really exciting at watch.",
+        "The football match be really exciting to watch.",
         "The football match was really exciting to watch."
       ],
       "correctAnswer": "The football match was really exciting to watch.",
@@ -333,10 +333,10 @@
       "audioPrompt": "Yes, I did! The computer simulations of supernovas were absolutely fascinating.",
       "question": "Nhấn nút '🔊 Nghe audio' và chọn nghĩa tiếng Việt đúng:",
       "options": [
+        "Không hề buồn chán chút nào! Tôi rất thích thú vì các lời giải thích cực kỳ sáng rõ và thu hút. (interested = cảm xúc, engaging = tính chất)",
         "Bạn có cảm thấy buồn chán trong các phần tính toán vật lý thiên văn dài hai tiếng không? (bored = cảm xúc)",
-        "Có chứ! Các mô phỏng máy tính về các vụ nổ siêu tân tinh hoàn toàn lôi cuốn và hấp dẫn. (fascinating = tính chất)",
         "Hôm nay thời tiết rất đẹp.",
-        "Không hề buồn chán chút nào! Tôi rất thích thú vì các lời giải thích cực kỳ sáng rõ và thu hút. (interested = cảm xúc, engaging = tính chất)"
+        "Có chứ! Các mô phỏng máy tính về các vụ nổ siêu tân tinh hoàn toàn lôi cuốn và hấp dẫn. (fascinating = tính chất)"
       ],
       "correctAnswer": "Có chứ! Các mô phỏng máy tính về các vụ nổ siêu tân tinh hoàn toàn lôi cuốn và hấp dẫn. (fascinating = tính chất)",
       "explanationVi": "Câu nghe được: \"Yes, I did! The computer simulations of supernovas were absolutely fascinating.\" có nghĩa là: \"Có chứ! Các mô phỏng máy tính về các vụ nổ siêu tân tinh hoàn toàn lôi cuốn và hấp dẫn. (fascinating = tính chất)\"."
@@ -348,9 +348,9 @@
       "audioPrompt": "Were you bored during the lengthy two-hour astrophysics calculation segments?",
       "question": "Nhấn nút '🔊 Nghe audio' và chọn nghĩa tiếng Việt đúng:",
       "options": [
-        "Không hề buồn chán chút nào! Tôi rất thích thú vì các lời giải thích cực kỳ sáng rõ và thu hút. (interested = cảm xúc, engaging = tính chất)",
         "Hôm nay thời tiết rất đẹp.",
         "Tôi hoàn toàn kinh ngạc trước quy mô khổng lồ của các hố đen được phát hiện ở các thiên hà xa xôi. (amazed = cảm xúc)",
+        "Không hề buồn chán chút nào! Tôi rất thích thú vì các lời giải thích cực kỳ sáng rõ và thu hút. (interested = cảm xúc, engaging = tính chất)",
         "Bạn có cảm thấy buồn chán trong các phần tính toán vật lý thiên văn dài hai tiếng không? (bored = cảm xúc)"
       ],
       "correctAnswer": "Bạn có cảm thấy buồn chán trong các phần tính toán vật lý thiên văn dài hai tiếng không? (bored = cảm xúc)",
@@ -364,8 +364,8 @@
       "question": "Nhấn nút '🔊 Nghe audio' và chọn nghĩa tiếng Việt đúng:",
       "options": [
         "Hôm nay thời tiết rất đẹp.",
-        "Tôi hoàn toàn kinh ngạc trước quy mô khổng lồ của các hố đen được phát hiện ở các thiên hà xa xôi. (amazed = cảm xúc)",
         "Thật sự đáng kinh ngạc khi nhận ra hệ mặt trời của chúng ta nhỏ bé đến nhường nào so với vũ trụ. (astonishing = tính chất)",
+        "Tôi hoàn toàn kinh ngạc trước quy mô khổng lồ của các hố đen được phát hiện ở các thiên hà xa xôi. (amazed = cảm xúc)",
         "Không hề buồn chán chút nào! Tôi rất thích thú vì các lời giải thích cực kỳ sáng rõ và thu hút. (interested = cảm xúc, engaging = tính chất)"
       ],
       "correctAnswer": "Không hề buồn chán chút nào! Tôi rất thích thú vì các lời giải thích cực kỳ sáng rõ và thu hút. (interested = cảm xúc, engaging = tính chất)",
@@ -414,10 +414,10 @@
       "passage": "Julian: \"Did you watch that groundbreaking deep-space astronomy documentary last night, Serena?\"\nSerena: \"Yes, I did! The computer simulations of supernovas were absolutely fascinating.\"\nJulian: \"Were you bored during the lengthy two-hour astrophysics calculation segments?\"\nSerena: \"Not at all! I was deeply interested because the explanations were crystal clear and engaging.\"",
       "question": "Dựa vào đoạn đối thoại trên, thông tin nào sau đây là CHÍNH XÁC về nội dung câu nói của Julian?",
       "options": [
-        "Julian chia sẻ thông tin: \"Tối qua bạn có xem bộ phim tài liệu thiên văn học không gian sâu mang tính đột phá đó không Serena?\"",
         "Julian phàn nàn rằng thời tiết hôm nay quá xấu.",
+        "Julian từ chối trả lời và yêu cầu hủy cuộc hẹn.",
         "Julian muốn mượn tiền để mua vé máy bay gấp.",
-        "Julian từ chối trả lời và yêu cầu hủy cuộc hẹn."
+        "Julian chia sẻ thông tin: \"Tối qua bạn có xem bộ phim tài liệu thiên văn học không gian sâu mang tính đột phá đó không Serena?\""
       ],
       "correctAnswer": "Julian chia sẻ thông tin: \"Tối qua bạn có xem bộ phim tài liệu thiên văn học không gian sâu mang tính đột phá đó không Serena?\"",
       "explanationVi": "Trong đoạn hội thoại, Julian đã nói: \"Did you watch that groundbreaking deep-space astronomy documentary last night, Serena?\" (nghĩa là: \"Tối qua bạn có xem bộ phim tài liệu thiên văn học không gian sâu mang tính đột phá đó không Serena?\")."
@@ -430,9 +430,9 @@
       "question": "Trong đoạn hội thoại trên, câu nói \"Was he disappointed with the lack of alien life theories presented by the scientists?\" của Serena mang ý nghĩa gì?",
       "options": [
         "Phản hồi: \"Cậu ấy có cảm thấy thất vọng vì sự thiếu vắng các giả thuyết về sự sống ngoài hành tinh do các nhà khoa học đưa ra không? (disappointed = cảm xúc)\"",
+        "Phản hồi: \"Yêu cầu cung cấp hóa đơn thanh toán tiền mặt\"",
         "Phản hồi: \"Hoàn toàn không đồng ý và muốn rời khỏi phòng ngay lập tức\"",
-        "Phản hồi: \"Hẹn gặp lại vào cuối tuần sau tại sân bay quốc tế\"",
-        "Phản hồi: \"Yêu cầu cung cấp hóa đơn thanh toán tiền mặt\""
+        "Phản hồi: \"Hẹn gặp lại vào cuối tuần sau tại sân bay quốc tế\""
       ],
       "correctAnswer": "Phản hồi: \"Cậu ấy có cảm thấy thất vọng vì sự thiếu vắng các giả thuyết về sự sống ngoài hành tinh do các nhà khoa học đưa ra không? (disappointed = cảm xúc)\"",
       "explanationVi": "Serena nói: \"Was he disappointed with the lack of alien life theories presented by the scientists?\" có nghĩa là: \"Cậu ấy có cảm thấy thất vọng vì sự thiếu vắng các giả thuyết về sự sống ngoài hành tinh do các nhà khoa học đưa ra không? (disappointed = cảm xúc)\"."

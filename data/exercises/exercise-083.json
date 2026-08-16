@@ -10,10 +10,10 @@
       "promptVi": "[Trắc nghiệm ngữ pháp] Chọn từ đúng để hoàn thành câu (Mẹ tôi bắt tôi phải dọn dẹp phòng của mình vào mỗi thứ Bảy.):",
       "question": "My mother makes me ___ my room every Saturday.",
       "options": [
-        "cleaned",
         "clean",
+        "to clean",
         "cleaning",
-        "to clean"
+        "cleaned"
       ],
       "correctAnswer": "clean",
       "explanationVi": "Sau 'make + O' động từ ở dạng nguyên mẫu không to 'clean'."
@@ -24,10 +24,10 @@
       "promptVi": "[Trắc nghiệm ngữ pháp] Chọn từ đúng để hoàn thành câu (Tôi đã nhờ người thợ máy sửa chiếc xe ô tô của tôi.):",
       "question": "I had the mechanic ___ my car.",
       "options": [
-        "to repair",
-        "repair",
+        "repairing",
         "repaired",
-        "repairing"
+        "to repair",
+        "repair"
       ],
       "correctAnswer": "repair",
       "explanationVi": "Cấu trúc chủ động: have + người + V-inf 'repair'."
@@ -38,10 +38,10 @@
       "promptVi": "[Trắc nghiệm ngữ pháp] Chọn từ đúng để hoàn thành câu (Tôi cần phải đi cắt tóc vào cuối tuần này.):",
       "question": "I need to get my hair ___ this weekend.",
       "options": [
+        "cuts",
         "cut",
         "cutting",
-        "to cut",
-        "cuts"
+        "to cut"
       ],
       "correctAnswer": "cut",
       "explanationVi": "'cut' là dạng phân từ hai V3 trong cấu trúc 'get sth done'."
@@ -52,10 +52,10 @@
       "promptVi": "[Trắc nghiệm ngữ pháp] Chọn từ đúng để hoàn thành câu (Anh ấy đã giúp tôi mang chiếc vali nặng lên tầng trên.):",
       "question": "He helped me ___ the heavy suitcase upstairs.",
       "options": [
-        "carry",
-        "carried",
+        "carries",
         "carrying",
-        "carries"
+        "carried",
+        "carry"
       ],
       "correctAnswer": "carry",
       "explanationVi": "Sau 'help + O' dùng động từ nguyên mẫu (carry hoặc to carry)."
@@ -66,10 +66,10 @@
       "promptVi": "[Phản xạ dịch thuật] Dịch câu sau sang tiếng Anh: \"Chào buổi sáng Samantha. Nhà thầu đã cho thợ điện kiểm tra máy phát điện chính của chúng ta hôm qua chưa? (have sb do)\"",
       "question": "Chọn bản dịch chuẩn xác nhất cho câu: \"Chào buổi sáng Samantha. Nhà thầu đã cho thợ điện kiểm tra máy phát điện chính của chúng ta hôm qua chưa? (have sb do)\"",
       "options": [
-        "Good morning, Samantha. be the contractor have his electricians inspect our main power generator yesterday?",
         "We are studying English today.",
-        "Good morning, Samantha. Did the contractor have his electricians inspect our main power generator yesterday?",
-        "Yes, he had his senior technicians examine all wiring conduits and circuit breakers."
+        "Yes, he had his senior technicians examine all wiring conduits and circuit breakers.",
+        "Good morning, Samantha. be the contractor have his electricians inspect our main power generator yesterday?",
+        "Good morning, Samantha. Did the contractor have his electricians inspect our main power generator yesterday?"
       ],
       "correctAnswer": "Good morning, Samantha. Did the contractor have his electricians inspect our main power generator yesterday?",
       "explanationVi": "Câu dịch chuẩn xác: \"Good morning, Samantha. Did the contractor have his electricians inspect our main power generator yesterday?\" (Chào buổi sáng Samantha. Nhà thầu đã cho thợ điện kiểm tra máy phát điện chính của chúng ta hôm qua chưa? (have sb do))."
@@ -80,9 +80,9 @@
       "promptVi": "[Ngữ cảnh giao tiếp] Chọn câu phản hồi tự nhiên và đúng ngữ pháp:",
       "question": "Khi đối phương nói: \"Good morning, Samantha. Did the contractor have his electricians inspect our main power generator yesterday?\", câu phản hồi phù hợp là gì?",
       "options": [
-        "No, it was yesterday.",
-        "Yes, he had his senior technicians examine all wiring conduits and circuit breakers.",
         "Yes, I will eat it.",
+        "Yes, he had his senior technicians examine all wiring conduits and circuit breakers.",
+        "No, it was yesterday.",
         "They are not in the office."
       ],
       "correctAnswer": "Yes, he had his senior technicians examine all wiring conduits and circuit breakers.",
@@ -95,10 +95,10 @@
       "question": "My mother makes me ___ my room every Saturday.",
       "correctAnswer": "clean",
       "options": [
-        "cleaned",
+        "clean",
         "to clean",
-        "cleaning",
-        "clean"
+        "cleaned",
+        "cleaning"
       ],
       "explanationVi": "Đáp án đúng là \"clean\". Câu hoàn chỉnh: \"My mother makes me clean my room every Saturday.\" (Mẹ tôi bắt tôi phải dọn dẹp phòng của mình vào mỗi thứ Bảy.)."
     },
@@ -109,10 +109,10 @@
       "question": "I had the mechanic ___ my car.",
       "correctAnswer": "repair",
       "options": [
+        "repaired",
         "to repair",
         "repair",
-        "repairing",
-        "repaired"
+        "repairing"
       ],
       "explanationVi": "Đáp án đúng là \"repair\". Câu hoàn chỉnh: \"I had the mechanic repair my car.\" (Tôi đã nhờ người thợ máy sửa chiếc xe ô tô của tôi.)."
     },
@@ -123,10 +123,10 @@
       "question": "I need to get my hair ___ this weekend.",
       "correctAnswer": "cut",
       "options": [
-        "cut",
-        "cutting",
         "to cut",
-        "cuts"
+        "cut",
+        "cuts",
+        "cutting"
       ],
       "explanationVi": "Đáp án đúng là \"cut\". Câu hoàn chỉnh: \"I need to get my hair cut this weekend.\" (Tôi cần phải đi cắt tóc vào cuối tuần này.)."
     },
@@ -139,8 +139,8 @@
       "options": [
         "carrying",
         "carries",
-        "carry",
-        "carried"
+        "carried",
+        "carry"
       ],
       "explanationVi": "Đáp án đúng là \"carry\". Câu hoàn chỉnh: \"He helped me carry the heavy suitcase upstairs.\" (Anh ấy đã giúp tôi mang chiếc vali nặng lên tầng trên.)."
     },
@@ -151,10 +151,10 @@
       "question": "My _____ not makes me clean my room every Saturday.",
       "correctAnswer": "mother",
       "options": [
-        "mother",
+        "is",
         "am",
-        "are",
-        "is"
+        "mother",
+        "are"
       ],
       "explanationVi": "Câu phủ định hoàn chỉnh: \"My mother not makes me clean my room every Saturday.\"."
     },
@@ -164,15 +164,15 @@
       "promptVi": "[Sắp xếp câu] Ghép các khối từ thành câu hoàn chỉnh mang nghĩa: \"Mẹ tôi bắt tôi phải dọn dẹp phòng của mình vào mỗi thứ Bảy.\"",
       "question": "Sắp xếp các từ để tạo thành câu đúng: \"Mẹ tôi bắt tôi phải dọn dẹp phòng của mình vào mỗi thứ Bảy.\"",
       "words": [
-        "mother",
         "Saturday.",
+        "mother",
         "me",
+        "clean",
+        "My",
+        "my",
         "every",
         "room",
-        "my",
-        "makes",
-        "clean",
-        "My"
+        "makes"
       ],
       "correctSentence": "My mother makes me clean my room every Saturday.",
       "hintVi": "Mẹ tôi bắt tôi phải dọn dẹp phòng của mình vào mỗi thứ Bảy.",
@@ -184,13 +184,13 @@
       "promptVi": "[Sắp xếp câu] Ghép các khối từ thành câu hoàn chỉnh mang nghĩa: \"Tôi đã nhờ người thợ máy sửa chiếc xe ô tô của tôi.\"",
       "question": "Sắp xếp các từ để tạo thành câu đúng: \"Tôi đã nhờ người thợ máy sửa chiếc xe ô tô của tôi.\"",
       "words": [
-        "mechanic",
-        "my",
-        "I",
-        "had",
         "repair",
+        "I",
+        "my",
+        "had",
         "the",
-        "car."
+        "car.",
+        "mechanic"
       ],
       "correctSentence": "I had the mechanic repair my car.",
       "hintVi": "Tôi đã nhờ người thợ máy sửa chiếc xe ô tô của tôi.",
@@ -202,15 +202,15 @@
       "promptVi": "[Sắp xếp câu] Ghép các khối từ thành câu hoàn chỉnh mang nghĩa: \"Tôi cần phải đi cắt tóc vào cuối tuần này.\"",
       "question": "Sắp xếp các từ để tạo thành câu đúng: \"Tôi cần phải đi cắt tóc vào cuối tuần này.\"",
       "words": [
-        "need",
         "I",
-        "cut",
-        "to",
-        "this",
-        "my",
-        "get",
         "hair",
-        "weekend."
+        "weekend.",
+        "get",
+        "this",
+        "to",
+        "need",
+        "my",
+        "cut"
       ],
       "correctSentence": "I need to get my hair cut this weekend.",
       "hintVi": "Tôi cần phải đi cắt tóc vào cuối tuần này.",
@@ -222,14 +222,14 @@
       "promptVi": "[Sắp xếp câu] Ghép các khối từ thành câu hoàn chỉnh mang nghĩa: \"Anh ấy đã giúp tôi mang chiếc vali nặng lên tầng trên.\"",
       "question": "Sắp xếp các từ để tạo thành câu đúng: \"Anh ấy đã giúp tôi mang chiếc vali nặng lên tầng trên.\"",
       "words": [
-        "the",
         "me",
-        "heavy",
-        "helped",
         "He",
-        "carry",
         "suitcase",
-        "upstairs."
+        "helped",
+        "heavy",
+        "the",
+        "upstairs.",
+        "carry"
       ],
       "correctSentence": "He helped me carry the heavy suitcase upstairs.",
       "hintVi": "Anh ấy đã giúp tôi mang chiếc vali nặng lên tầng trên.",
@@ -241,21 +241,21 @@
       "promptVi": "[Sắp xếp câu] Ghép các từ thành câu hội thoại: \"Chúng ta phải yêu cầu đội bảo trì sửa chữa các tháp làm mát trên mái trước chiều thứ Sáu. (get sb to do)\"",
       "question": "Sắp xếp các từ để tạo thành câu thoại: \"Chúng ta phải yêu cầu đội bảo trì sửa chữa các tháp làm mát trên mái trước chiều thứ Sáu. (get sb to do)\"",
       "words": [
-        "We",
-        "must",
-        "cooling",
-        "rooftop",
-        "get",
         "before",
-        "the",
+        "repair",
+        "get",
+        "to",
+        "Friday",
+        "must",
+        "We",
+        "crew",
         "the",
         "maintenance",
-        "towers",
-        "crew",
-        "to",
-        "repair",
-        "Friday",
-        "afternoon"
+        "cooling",
+        "afternoon",
+        "rooftop",
+        "the",
+        "towers"
       ],
       "correctSentence": "We must get the maintenance crew to repair the rooftop cooling towers before Friday afternoon.",
       "hintVi": "Chúng ta phải yêu cầu đội bảo trì sửa chữa các tháp làm mát trên mái trước chiều thứ Sáu. (get sb to do)",
@@ -267,10 +267,10 @@
       "promptVi": "[Nhận diện cấu trúc chuẩn] Chọn câu có cấu trúc ngữ pháp HOÀN TOÀN ĐÚNG:",
       "question": "Dựa vào chủ điểm \"Bài 83: Cấu trúc Sai Khiến & Động từ Điều Khiển (Causative & Permissive: Make / Let / Help / Have / Get)\", câu nào sau đây CHÍNH XÁC?",
       "options": [
-        "My mother makes me clean my room every Saturday.",
+        "is",
         "are",
         "Saturday. every room my clean me makes mother My",
-        "is"
+        "My mother makes me clean my room every Saturday."
       ],
       "correctAnswer": "My mother makes me clean my room every Saturday.",
       "explanationVi": "Cấu trúc chuẩn xác là: \"My mother makes me clean my room every Saturday.\" (Mẹ tôi bắt tôi phải dọn dẹp phòng của mình vào mỗi thứ Bảy.)."
@@ -282,8 +282,8 @@
       "question": "Dựa vào chủ điểm \"Bài 83: Cấu trúc Sai Khiến & Động từ Điều Khiển (Causative & Permissive: Make / Let / Help / Have / Get)\", câu nào sau đây CHÍNH XÁC?",
       "options": [
         "car. my repair mechanic the had I",
-        "is",
         "I had the mechanic repair my car.",
+        "is",
         "are"
       ],
       "correctAnswer": "I had the mechanic repair my car.",
@@ -295,9 +295,9 @@
       "promptVi": "[Nhận diện cấu trúc chuẩn] Chọn câu có cấu trúc ngữ pháp HOÀN TOÀN ĐÚNG:",
       "question": "Dựa vào chủ điểm \"Bài 83: Cấu trúc Sai Khiến & Động từ Điều Khiển (Causative & Permissive: Make / Let / Help / Have / Get)\", câu nào sau đây CHÍNH XÁC?",
       "options": [
+        "I need to get my hair cut this weekend.",
         "I need at get my hair cut this weekend.",
         "weekend. this cut hair my get to need I",
-        "I need to get my hair cut this weekend.",
         "is"
       ],
       "correctAnswer": "I need to get my hair cut this weekend.",
@@ -309,10 +309,10 @@
       "promptVi": "[Nhận diện cấu trúc chuẩn] Chọn câu có cấu trúc ngữ pháp HOÀN TOÀN ĐÚNG:",
       "question": "Dựa vào chủ điểm \"Bài 83: Cấu trúc Sai Khiến & Động từ Điều Khiển (Causative & Permissive: Make / Let / Help / Have / Get)\", câu nào sau đây CHÍNH XÁC?",
       "options": [
-        "are",
-        "upstairs. suitcase heavy the carry me helped He",
+        "is",
         "He helped me carry the heavy suitcase upstairs.",
-        "is"
+        "upstairs. suitcase heavy the carry me helped He",
+        "are"
       ],
       "correctAnswer": "He helped me carry the heavy suitcase upstairs.",
       "explanationVi": "Cấu trúc chuẩn xác là: \"He helped me carry the heavy suitcase upstairs.\" (Anh ấy đã giúp tôi mang chiếc vali nặng lên tầng trên.)."
@@ -339,10 +339,10 @@
       "audioPrompt": "Yes, he had his senior technicians examine all wiring conduits and circuit breakers.",
       "question": "Nhấn nút '🔊 Nghe audio' và chọn nghĩa tiếng Việt đúng:",
       "options": [
-        "Vâng, ông ấy đã nhờ các kỹ thuật viên cấp cao kiểm tra tất cả các ống dẫn dây và cầu dao điện. (had his technicians examine)",
         "Chúng ta phải yêu cầu đội bảo trì sửa chữa các tháp làm mát trên mái trước chiều thứ Sáu. (get sb to do)",
-        "Tôi sẽ thuyết phục họ bảo dưỡng các bộ lọc không khí vào đầu giờ sáng mai. (get them to service)",
-        "Hôm nay thời tiết rất đẹp."
+        "Vâng, ông ấy đã nhờ các kỹ thuật viên cấp cao kiểm tra tất cả các ống dẫn dây và cầu dao điện. (had his technicians examine)",
+        "Hôm nay thời tiết rất đẹp.",
+        "Tôi sẽ thuyết phục họ bảo dưỡng các bộ lọc không khí vào đầu giờ sáng mai. (get them to service)"
       ],
       "correctAnswer": "Vâng, ông ấy đã nhờ các kỹ thuật viên cấp cao kiểm tra tất cả các ống dẫn dây và cầu dao điện. (had his technicians examine)",
       "explanationVi": "Câu nghe được: \"Yes, he had his senior technicians examine all wiring conduits and circuit breakers.\" có nghĩa là: \"Vâng, ông ấy đã nhờ các kỹ thuật viên cấp cao kiểm tra tất cả các ống dẫn dây và cầu dao điện. (had his technicians examine)\"."
@@ -354,10 +354,10 @@
       "audioPrompt": "We must get the maintenance crew to repair the rooftop cooling towers before Friday afternoon.",
       "question": "Nhấn nút '🔊 Nghe audio' và chọn nghĩa tiếng Việt đúng:",
       "options": [
-        "Chúng ta phải yêu cầu đội bảo trì sửa chữa các tháp làm mát trên mái trước chiều thứ Sáu. (get sb to do)",
+        "Hôm nay thời tiết rất đẹp.",
         "Các quy định an ninh tòa nhà có cho phép khách bên ngoài vào mà không có thẻ tên không? (let sb do)",
         "Tôi sẽ thuyết phục họ bảo dưỡng các bộ lọc không khí vào đầu giờ sáng mai. (get them to service)",
-        "Hôm nay thời tiết rất đẹp."
+        "Chúng ta phải yêu cầu đội bảo trì sửa chữa các tháp làm mát trên mái trước chiều thứ Sáu. (get sb to do)"
       ],
       "correctAnswer": "Chúng ta phải yêu cầu đội bảo trì sửa chữa các tháp làm mát trên mái trước chiều thứ Sáu. (get sb to do)",
       "explanationVi": "Câu nghe được: \"We must get the maintenance crew to repair the rooftop cooling towers before Friday afternoon.\" có nghĩa là: \"Chúng ta phải yêu cầu đội bảo trì sửa chữa các tháp làm mát trên mái trước chiều thứ Sáu. (get sb to do)\"."
@@ -369,10 +369,10 @@
       "audioPrompt": "I will get them to service the air filters first thing tomorrow morning.",
       "question": "Nhấn nút '🔊 Nghe audio' và chọn nghĩa tiếng Việt đúng:",
       "options": [
-        "Các quy định an ninh tòa nhà có cho phép khách bên ngoài vào mà không có thẻ tên không? (let sb do)",
         "Tôi sẽ thuyết phục họ bảo dưỡng các bộ lọc không khí vào đầu giờ sáng mai. (get them to service)",
         "Không, nhân viên bảo vệ không bao giờ cho phép bất kỳ ai bước vào sảnh thang máy mà không đăng ký trước. (let anyone enter)",
-        "Hôm nay thời tiết rất đẹp."
+        "Hôm nay thời tiết rất đẹp.",
+        "Các quy định an ninh tòa nhà có cho phép khách bên ngoài vào mà không có thẻ tên không? (let sb do)"
       ],
       "correctAnswer": "Tôi sẽ thuyết phục họ bảo dưỡng các bộ lọc không khí vào đầu giờ sáng mai. (get them to service)",
       "explanationVi": "Câu nghe được: \"I will get them to service the air filters first thing tomorrow morning.\" có nghĩa là: \"Tôi sẽ thuyết phục họ bảo dưỡng các bộ lọc không khí vào đầu giờ sáng mai. (get them to service)\"."
@@ -422,8 +422,8 @@
       "options": [
         "Property Manager chia sẻ thông tin: \"Chào buổi sáng Samantha. Nhà thầu đã cho thợ điện kiểm tra máy phát điện chính của chúng ta hôm qua chưa? (have sb do)\"",
         "Property Manager phàn nàn rằng thời tiết hôm nay quá xấu.",
-        "Property Manager từ chối trả lời và yêu cầu hủy cuộc hẹn.",
-        "Property Manager muốn mượn tiền để mua vé máy bay gấp."
+        "Property Manager muốn mượn tiền để mua vé máy bay gấp.",
+        "Property Manager từ chối trả lời và yêu cầu hủy cuộc hẹn."
       ],
       "correctAnswer": "Property Manager chia sẻ thông tin: \"Chào buổi sáng Samantha. Nhà thầu đã cho thợ điện kiểm tra máy phát điện chính của chúng ta hôm qua chưa? (have sb do)\"",
       "explanationVi": "Trong đoạn hội thoại, Property Manager đã nói: \"Good morning, Samantha. Did the contractor have his electricians inspect our main power generator yesterday?\" (nghĩa là: \"Chào buổi sáng Samantha. Nhà thầu đã cho thợ điện kiểm tra máy phát điện chính của chúng ta hôm qua chưa? (have sb do)\")."

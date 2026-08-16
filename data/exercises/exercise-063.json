@@ -10,9 +10,9 @@
       "promptVi": "[Trắc nghiệm ngữ pháp] Chọn từ đúng để hoàn thành câu (Mặc dù trời đang mưa to, chúng tôi vẫn đi dạo.):",
       "question": "___ it was raining heavily, we went for a walk.",
       "options": [
+        "Despite",
         "Because",
         "Although",
-        "Despite",
         "However"
       ],
       "correctAnswer": "Although",
@@ -24,10 +24,10 @@
       "promptVi": "[Trắc nghiệm ngữ pháp] Chọn từ đúng để hoàn thành câu (Anh ấy đã học rất chăm chỉ; tuy nhiên, anh ấy đã không vượt qua kỳ thi.):",
       "question": "He studied very hard; ___, he didn't pass the exam.",
       "options": [
-        "because",
         "so",
-        "however",
-        "although"
+        "because",
+        "although",
+        "however"
       ],
       "correctAnswer": "however",
       "explanationVi": "Đứng giữa dấu chấm phẩy và dấu phẩy để chỉ sự tương phản dùng 'however'."
@@ -38,9 +38,9 @@
       "promptVi": "[Trắc nghiệm ngữ pháp] Chọn từ đúng để hoàn thành câu (Bởi vì thời tiết lạnh, chúng tôi đã ở trong nhà.):",
       "question": "___ the weather was cold, we stayed indoors.",
       "options": [
+        "Because",
         "Although",
         "So",
-        "Because",
         "Therefore"
       ],
       "correctAnswer": "Because",
@@ -52,10 +52,10 @@
       "promptVi": "[Trắc nghiệm ngữ pháp] Chọn từ đúng để hoàn thành câu (Anh ấy đã không đặt báo thức, cho nên anh ấy thức dậy muộn.):",
       "question": "He didn't set the alarm, ___ he woke up late.",
       "options": [
-        "because",
         "so",
-        "but",
-        "although"
+        "because",
+        "although",
+        "but"
       ],
       "correctAnswer": "so",
       "explanationVi": "Nối mệnh đề nguyên nhân với mệnh đề kết quả dùng liên từ 'so'."
@@ -67,9 +67,9 @@
       "question": "Chọn bản dịch chuẩn xác nhất cho câu: \"Chào buổi chiều Megan. Mặc dù chi phí sản xuất ban đầu khá cao, nguyên mẫu pin mặt trời của bạn rất hấp dẫn. (Although + clause)\"",
       "options": [
         "We are studying English today.",
-        "Good afternoon, Megan. Although initial production costs are quite high, your solar battery prototype is fascinating.",
+        "Thank you, sir. Because the global demand for clean energy is surging, we expect unit costs to drop quickly.",
         "Good afternoon, Megan. Although initial production costs be quite high, your solar battery prototype is fascinating.",
-        "Thank you, sir. Because the global demand for clean energy is surging, we expect unit costs to drop quickly."
+        "Good afternoon, Megan. Although initial production costs are quite high, your solar battery prototype is fascinating."
       ],
       "correctAnswer": "Good afternoon, Megan. Although initial production costs are quite high, your solar battery prototype is fascinating.",
       "explanationVi": "Câu dịch chuẩn xác: \"Good afternoon, Megan. Although initial production costs are quite high, your solar battery prototype is fascinating.\" (Chào buổi chiều Megan. Mặc dù chi phí sản xuất ban đầu khá cao, nguyên mẫu pin mặt trời của bạn rất hấp dẫn. (Although + clause))."
@@ -81,9 +81,9 @@
       "question": "Khi đối phương nói: \"Good afternoon, Megan. Although initial production costs are quite high, your solar battery prototype is fascinating.\", câu phản hồi phù hợp là gì?",
       "options": [
         "Yes, I will eat it.",
+        "They are not in the office.",
         "No, it was yesterday.",
-        "Thank you, sir. Because the global demand for clean energy is surging, we expect unit costs to drop quickly.",
-        "They are not in the office."
+        "Thank you, sir. Because the global demand for clean energy is surging, we expect unit costs to drop quickly."
       ],
       "correctAnswer": "Thank you, sir. Because the global demand for clean energy is surging, we expect unit costs to drop quickly.",
       "explanationVi": "Phản hồi phù hợp trong bài: \"Thank you, sir. Because the global demand for clean energy is surging, we expect unit costs to drop quickly.\" (Cảm ơn ông. Bởi vì nhu cầu toàn cầu về năng lượng sạch đang tăng vọt, chúng tôi kỳ vọng giá thành mỗi đơn vị sẽ giảm nhanh. (Because + clause))."
@@ -95,10 +95,10 @@
       "question": "___ it was raining heavily, we went for a walk.",
       "correctAnswer": "Although",
       "options": [
-        "Although",
+        "Despite",
         "However",
         "Because",
-        "Despite"
+        "Although"
       ],
       "explanationVi": "Đáp án đúng là \"Although\". Câu hoàn chỉnh: \"Although it was raining heavily, we went for a walk.\" (Mặc dù trời đang mưa to, chúng tôi vẫn đi dạo.)."
     },
@@ -109,10 +109,10 @@
       "question": "He studied very hard; ___, he didn't pass the exam.",
       "correctAnswer": "however",
       "options": [
-        "although",
-        "however",
         "so",
-        "because"
+        "however",
+        "because",
+        "although"
       ],
       "explanationVi": "Đáp án đúng là \"however\". Câu hoàn chỉnh: \"He studied very hard; however, he didn't pass the exam.\" (Anh ấy đã học rất chăm chỉ; tuy nhiên, anh ấy đã không vượt qua kỳ thi.)."
     },
@@ -123,10 +123,10 @@
       "question": "___ the weather was cold, we stayed indoors.",
       "correctAnswer": "Because",
       "options": [
-        "Because",
-        "So",
         "Therefore",
-        "Although"
+        "So",
+        "Although",
+        "Because"
       ],
       "explanationVi": "Đáp án đúng là \"Because\". Câu hoàn chỉnh: \"Because the weather was cold, we stayed indoors.\" (Bởi vì thời tiết lạnh, chúng tôi đã ở trong nhà.)."
     },
@@ -138,9 +138,9 @@
       "correctAnswer": "so",
       "options": [
         "so",
+        "but",
         "because",
-        "although",
-        "but"
+        "although"
       ],
       "explanationVi": "Đáp án đúng là \"so\". Câu hoàn chỉnh: \"He didn't set the alarm, so he woke up late.\" (Anh ấy đã không đặt báo thức, cho nên anh ấy thức dậy muộn.)."
     },
@@ -151,10 +151,10 @@
       "question": "Although _____ not was raining heavily, we went for a walk.",
       "correctAnswer": "it",
       "options": [
-        "it",
-        "is",
         "are",
-        "am"
+        "am",
+        "is",
+        "it"
       ],
       "explanationVi": "Câu phủ định hoàn chỉnh: \"Although it not was raining heavily, we went for a walk.\"."
     },
@@ -164,16 +164,16 @@
       "promptVi": "[Sắp xếp câu] Ghép các khối từ thành câu hoàn chỉnh mang nghĩa: \"Mặc dù trời đang mưa to, chúng tôi vẫn đi dạo.\"",
       "question": "Sắp xếp các từ để tạo thành câu đúng: \"Mặc dù trời đang mưa to, chúng tôi vẫn đi dạo.\"",
       "words": [
-        "walk.",
-        "a",
-        "for",
-        "Although",
-        "went",
         "was",
-        "it",
-        "we",
+        "raining",
         "heavily,",
-        "raining"
+        "we",
+        "went",
+        "for",
+        "it",
+        "a",
+        "Although",
+        "walk."
       ],
       "correctSentence": "Although it was raining heavily, we went for a walk.",
       "hintVi": "Mặc dù trời đang mưa to, chúng tôi vẫn đi dạo.",
@@ -185,16 +185,16 @@
       "promptVi": "[Sắp xếp câu] Ghép các khối từ thành câu hoàn chỉnh mang nghĩa: \"Anh ấy đã học rất chăm chỉ; tuy nhiên, anh ấy đã không vượt qua kỳ thi.\"",
       "question": "Sắp xếp các từ để tạo thành câu đúng: \"Anh ấy đã học rất chăm chỉ; tuy nhiên, anh ấy đã không vượt qua kỳ thi.\"",
       "words": [
-        "however,",
-        "he",
-        "exam.",
         "pass",
-        "very",
-        "didn't",
+        "He",
         "the",
+        "however,",
+        "didn't",
         "hard;",
         "studied",
-        "He"
+        "very",
+        "exam.",
+        "he"
       ],
       "correctSentence": "He studied very hard; however, he didn't pass the exam.",
       "hintVi": "Anh ấy đã học rất chăm chỉ; tuy nhiên, anh ấy đã không vượt qua kỳ thi.",
@@ -206,14 +206,14 @@
       "promptVi": "[Sắp xếp câu] Ghép các khối từ thành câu hoàn chỉnh mang nghĩa: \"Bởi vì thời tiết lạnh, chúng tôi đã ở trong nhà.\"",
       "question": "Sắp xếp các từ để tạo thành câu đúng: \"Bởi vì thời tiết lạnh, chúng tôi đã ở trong nhà.\"",
       "words": [
-        "was",
-        "indoors.",
         "cold,",
         "we",
-        "weather",
-        "the",
         "Because",
-        "stayed"
+        "the",
+        "weather",
+        "stayed",
+        "was",
+        "indoors."
       ],
       "correctSentence": "Because the weather was cold, we stayed indoors.",
       "hintVi": "Bởi vì thời tiết lạnh, chúng tôi đã ở trong nhà.",
@@ -225,16 +225,16 @@
       "promptVi": "[Sắp xếp câu] Ghép các khối từ thành câu hoàn chỉnh mang nghĩa: \"Anh ấy đã không đặt báo thức, cho nên anh ấy thức dậy muộn.\"",
       "question": "Sắp xếp các từ để tạo thành câu đúng: \"Anh ấy đã không đặt báo thức, cho nên anh ấy thức dậy muộn.\"",
       "words": [
+        "so",
+        "up",
+        "alarm,",
         "late.",
         "didn't",
-        "he",
         "He",
-        "woke",
         "set",
-        "up",
-        "so",
-        "alarm,",
-        "the"
+        "he",
+        "the",
+        "woke"
       ],
       "correctSentence": "He didn't set the alarm, so he woke up late.",
       "hintVi": "Anh ấy đã không đặt báo thức, cho nên anh ấy thức dậy muộn.",
@@ -246,20 +246,20 @@
       "promptVi": "[Sắp xếp câu] Ghép các từ thành câu hội thoại: \"Nguyên mẫu hoạt động tốt trong các bài thử nghiệm phòng lab; tuy nhiên, điều kiện thời tiết thực tế khắc nghiệt hơn. (however)\"",
       "question": "Sắp xếp các từ để tạo thành câu thoại: \"Nguyên mẫu hoạt động tốt trong các bài thử nghiệm phòng lab; tuy nhiên, điều kiện thời tiết thực tế khắc nghiệt hơn. (however)\"",
       "words": [
-        "tests;",
-        "The",
-        "real-world",
-        "prototype",
-        "weather",
-        "conditions",
-        "are",
-        "performed",
         "well",
-        "however",
-        "during",
-        "stress",
         "laboratory",
-        "harsher"
+        "prototype",
+        "tests;",
+        "conditions",
+        "performed",
+        "during",
+        "are",
+        "The",
+        "however",
+        "harsher",
+        "weather",
+        "stress",
+        "real-world"
       ],
       "correctSentence": "The prototype performed well during laboratory stress tests; however, real-world weather conditions are harsher.",
       "hintVi": "Nguyên mẫu hoạt động tốt trong các bài thử nghiệm phòng lab; tuy nhiên, điều kiện thời tiết thực tế khắc nghiệt hơn. (however)",
@@ -271,10 +271,10 @@
       "promptVi": "[Nhận diện cấu trúc chuẩn] Chọn câu có cấu trúc ngữ pháp HOÀN TOÀN ĐÚNG:",
       "question": "Dựa vào chủ điểm \"Bài 63: Câu Ghép & Câu Phức — Liên từ Đối lập & Nguyên nhân - Kết quả (Contrast & Cause-Effect Conjunctions)\", câu nào sau đây CHÍNH XÁC?",
       "options": [
-        "walk. a for went we heavily, raining was it Although",
+        "Although it was raining heavily, we went for a walk.",
         "Although it be raining heavily, we went for a walk.",
         "Although it was raining heavily, we went at a walk.",
-        "Although it was raining heavily, we went for a walk."
+        "walk. a for went we heavily, raining was it Although"
       ],
       "correctAnswer": "Although it was raining heavily, we went for a walk.",
       "explanationVi": "Cấu trúc chuẩn xác là: \"Although it was raining heavily, we went for a walk.\" (Mặc dù trời đang mưa to, chúng tôi vẫn đi dạo.)."
@@ -285,10 +285,10 @@
       "promptVi": "[Nhận diện cấu trúc chuẩn] Chọn câu có cấu trúc ngữ pháp HOÀN TOÀN ĐÚNG:",
       "question": "Dựa vào chủ điểm \"Bài 63: Câu Ghép & Câu Phức — Liên từ Đối lập & Nguyên nhân - Kết quả (Contrast & Cause-Effect Conjunctions)\", câu nào sau đây CHÍNH XÁC?",
       "options": [
-        "He studied very hard; however, he didn't pass the exam.",
-        "exam. the pass didn't he however, hard; very studied He",
         "are",
-        "is"
+        "is",
+        "exam. the pass didn't he however, hard; very studied He",
+        "He studied very hard; however, he didn't pass the exam."
       ],
       "correctAnswer": "He studied very hard; however, he didn't pass the exam.",
       "explanationVi": "Cấu trúc chuẩn xác là: \"He studied very hard; however, he didn't pass the exam.\" (Anh ấy đã học rất chăm chỉ; tuy nhiên, anh ấy đã không vượt qua kỳ thi.)."
@@ -299,9 +299,9 @@
       "promptVi": "[Nhận diện cấu trúc chuẩn] Chọn câu có cấu trúc ngữ pháp HOÀN TOÀN ĐÚNG:",
       "question": "Dựa vào chủ điểm \"Bài 63: Câu Ghép & Câu Phức — Liên từ Đối lập & Nguyên nhân - Kết quả (Contrast & Cause-Effect Conjunctions)\", câu nào sau đây CHÍNH XÁC?",
       "options": [
+        "Because the weather was cold, we stayed indoors.",
         "Because the weather be cold, we stayed indoors.",
         "indoors. stayed we cold, was weather the Because",
-        "Because the weather was cold, we stayed indoors.",
         "is"
       ],
       "correctAnswer": "Because the weather was cold, we stayed indoors.",
@@ -313,10 +313,10 @@
       "promptVi": "[Nhận diện cấu trúc chuẩn] Chọn câu có cấu trúc ngữ pháp HOÀN TOÀN ĐÚNG:",
       "question": "Dựa vào chủ điểm \"Bài 63: Câu Ghép & Câu Phức — Liên từ Đối lập & Nguyên nhân - Kết quả (Contrast & Cause-Effect Conjunctions)\", câu nào sau đây CHÍNH XÁC?",
       "options": [
-        "late. up woke he so alarm, the set didn't He",
-        "He didn't set the alarm, so he woke up late.",
         "are",
-        "is"
+        "is",
+        "late. up woke he so alarm, the set didn't He",
+        "He didn't set the alarm, so he woke up late."
       ],
       "correctAnswer": "He didn't set the alarm, so he woke up late.",
       "explanationVi": "Cấu trúc chuẩn xác là: \"He didn't set the alarm, so he woke up late.\" (Anh ấy đã không đặt báo thức, cho nên anh ấy thức dậy muộn.)."
@@ -328,8 +328,8 @@
       "audioPrompt": "Good afternoon, Megan. Although initial production costs are quite high, your solar battery prototype is fascinating.",
       "question": "Nhấn nút '🔊 Nghe audio' và chọn nghĩa tiếng Việt đúng:",
       "options": [
-        "Hôm nay thời tiết rất đẹp.",
         "Chào buổi chiều Megan. Mặc dù chi phí sản xuất ban đầu khá cao, nguyên mẫu pin mặt trời của bạn rất hấp dẫn. (Although + clause)",
+        "Hôm nay thời tiết rất đẹp.",
         "Cảm ơn ông. Bởi vì nhu cầu toàn cầu về năng lượng sạch đang tăng vọt, chúng tôi kỳ vọng giá thành mỗi đơn vị sẽ giảm nhanh. (Because + clause)",
         "Nguyên mẫu hoạt động tốt trong các bài thử nghiệm phòng lab; tuy nhiên, điều kiện thời tiết thực tế khắc nghiệt hơn. (however)"
       ],
@@ -343,10 +343,10 @@
       "audioPrompt": "Thank you, sir. Because the global demand for clean energy is surging, we expect unit costs to drop quickly.",
       "question": "Nhấn nút '🔊 Nghe audio' và chọn nghĩa tiếng Việt đúng:",
       "options": [
-        "Nguyên mẫu hoạt động tốt trong các bài thử nghiệm phòng lab; tuy nhiên, điều kiện thời tiết thực tế khắc nghiệt hơn. (however)",
-        "Cảm ơn ông. Bởi vì nhu cầu toàn cầu về năng lượng sạch đang tăng vọt, chúng tôi kỳ vọng giá thành mỗi đơn vị sẽ giảm nhanh. (Because + clause)",
         "Hôm nay thời tiết rất đẹp.",
-        "Mặc dù nhiệt độ mùa đông giảm xuống dưới mức đóng băng, lớp cách nhiệt gốm đã đăng ký bản quyền của chúng tôi ngăn ngừa thất thoát năng lượng. (Even though)"
+        "Mặc dù nhiệt độ mùa đông giảm xuống dưới mức đóng băng, lớp cách nhiệt gốm đã đăng ký bản quyền của chúng tôi ngăn ngừa thất thoát năng lượng. (Even though)",
+        "Cảm ơn ông. Bởi vì nhu cầu toàn cầu về năng lượng sạch đang tăng vọt, chúng tôi kỳ vọng giá thành mỗi đơn vị sẽ giảm nhanh. (Because + clause)",
+        "Nguyên mẫu hoạt động tốt trong các bài thử nghiệm phòng lab; tuy nhiên, điều kiện thời tiết thực tế khắc nghiệt hơn. (however)"
       ],
       "correctAnswer": "Cảm ơn ông. Bởi vì nhu cầu toàn cầu về năng lượng sạch đang tăng vọt, chúng tôi kỳ vọng giá thành mỗi đơn vị sẽ giảm nhanh. (Because + clause)",
       "explanationVi": "Câu nghe được: \"Thank you, sir. Because the global demand for clean energy is surging, we expect unit costs to drop quickly.\" có nghĩa là: \"Cảm ơn ông. Bởi vì nhu cầu toàn cầu về năng lượng sạch đang tăng vọt, chúng tôi kỳ vọng giá thành mỗi đơn vị sẽ giảm nhanh. (Because + clause)\"."
@@ -358,10 +358,10 @@
       "audioPrompt": "The prototype performed well during laboratory stress tests; however, real-world weather conditions are harsher.",
       "question": "Nhấn nút '🔊 Nghe audio' và chọn nghĩa tiếng Việt đúng:",
       "options": [
-        "Mặc dù nhiệt độ mùa đông giảm xuống dưới mức đóng băng, lớp cách nhiệt gốm đã đăng ký bản quyền của chúng tôi ngăn ngừa thất thoát năng lượng. (Even though)",
         "Hôm nay thời tiết rất đẹp.",
+        "Nguyên mẫu hoạt động tốt trong các bài thử nghiệm phòng lab; tuy nhiên, điều kiện thời tiết thực tế khắc nghiệt hơn. (however)",
         "Vì nhóm của bạn nắm giữ ba bằng sáng chế quốc tế, các đối thủ cạnh tranh không thể sao chép thiết kế của bạn dễ dàng. (Since = Because)",
-        "Nguyên mẫu hoạt động tốt trong các bài thử nghiệm phòng lab; tuy nhiên, điều kiện thời tiết thực tế khắc nghiệt hơn. (however)"
+        "Mặc dù nhiệt độ mùa đông giảm xuống dưới mức đóng băng, lớp cách nhiệt gốm đã đăng ký bản quyền của chúng tôi ngăn ngừa thất thoát năng lượng. (Even though)"
       ],
       "correctAnswer": "Nguyên mẫu hoạt động tốt trong các bài thử nghiệm phòng lab; tuy nhiên, điều kiện thời tiết thực tế khắc nghiệt hơn. (however)",
       "explanationVi": "Câu nghe được: \"The prototype performed well during laboratory stress tests; however, real-world weather conditions are harsher.\" có nghĩa là: \"Nguyên mẫu hoạt động tốt trong các bài thử nghiệm phòng lab; tuy nhiên, điều kiện thời tiết thực tế khắc nghiệt hơn. (however)\"."
@@ -373,10 +373,10 @@
       "audioPrompt": "Even though winter temperatures drop below freezing, our patented ceramic insulation prevents energy loss.",
       "question": "Nhấn nút '🔊 Nghe audio' và chọn nghĩa tiếng Việt đúng:",
       "options": [
-        "Mặc dù có những gián đoạn chuỗi cung ứng vào tháng trước, chúng tôi đã sản xuất thành công năm mươi đơn vị thử nghiệm. (In spite of + Noun)",
-        "Hôm nay thời tiết rất đẹp.",
         "Mặc dù nhiệt độ mùa đông giảm xuống dưới mức đóng băng, lớp cách nhiệt gốm đã đăng ký bản quyền của chúng tôi ngăn ngừa thất thoát năng lượng. (Even though)",
-        "Vì nhóm của bạn nắm giữ ba bằng sáng chế quốc tế, các đối thủ cạnh tranh không thể sao chép thiết kế của bạn dễ dàng. (Since = Because)"
+        "Mặc dù có những gián đoạn chuỗi cung ứng vào tháng trước, chúng tôi đã sản xuất thành công năm mươi đơn vị thử nghiệm. (In spite of + Noun)",
+        "Vì nhóm của bạn nắm giữ ba bằng sáng chế quốc tế, các đối thủ cạnh tranh không thể sao chép thiết kế của bạn dễ dàng. (Since = Because)",
+        "Hôm nay thời tiết rất đẹp."
       ],
       "correctAnswer": "Mặc dù nhiệt độ mùa đông giảm xuống dưới mức đóng băng, lớp cách nhiệt gốm đã đăng ký bản quyền của chúng tôi ngăn ngừa thất thoát năng lượng. (Even though)",
       "explanationVi": "Câu nghe được: \"Even though winter temperatures drop below freezing, our patented ceramic insulation prevents energy loss.\" có nghĩa là: \"Mặc dù nhiệt độ mùa đông giảm xuống dưới mức đóng băng, lớp cách nhiệt gốm đã đăng ký bản quyền của chúng tôi ngăn ngừa thất thoát năng lượng. (Even though)\"."
@@ -424,10 +424,10 @@
       "passage": "Investor Harrison: \"Good afternoon, Megan. Although initial production costs are quite high, your solar battery prototype is fascinating.\"\nMegan: \"Thank you, sir. Because the global demand for clean energy is surging, we expect unit costs to drop quickly.\"\nInvestor Harrison: \"The prototype performed well during laboratory stress tests; however, real-world weather conditions are harsher.\"\nMegan: \"Even though winter temperatures drop below freezing, our patented ceramic insulation prevents energy loss.\"",
       "question": "Dựa vào đoạn đối thoại trên, thông tin nào sau đây là CHÍNH XÁC về nội dung câu nói của Investor Harrison?",
       "options": [
-        "Investor Harrison chia sẻ thông tin: \"Chào buổi chiều Megan. Mặc dù chi phí sản xuất ban đầu khá cao, nguyên mẫu pin mặt trời của bạn rất hấp dẫn. (Although + clause)\"",
-        "Investor Harrison muốn mượn tiền để mua vé máy bay gấp.",
+        "Investor Harrison từ chối trả lời và yêu cầu hủy cuộc hẹn.",
         "Investor Harrison phàn nàn rằng thời tiết hôm nay quá xấu.",
-        "Investor Harrison từ chối trả lời và yêu cầu hủy cuộc hẹn."
+        "Investor Harrison muốn mượn tiền để mua vé máy bay gấp.",
+        "Investor Harrison chia sẻ thông tin: \"Chào buổi chiều Megan. Mặc dù chi phí sản xuất ban đầu khá cao, nguyên mẫu pin mặt trời của bạn rất hấp dẫn. (Although + clause)\""
       ],
       "correctAnswer": "Investor Harrison chia sẻ thông tin: \"Chào buổi chiều Megan. Mặc dù chi phí sản xuất ban đầu khá cao, nguyên mẫu pin mặt trời của bạn rất hấp dẫn. (Although + clause)\"",
       "explanationVi": "Trong đoạn hội thoại, Investor Harrison đã nói: \"Good afternoon, Megan. Although initial production costs are quite high, your solar battery prototype is fascinating.\" (nghĩa là: \"Chào buổi chiều Megan. Mặc dù chi phí sản xuất ban đầu khá cao, nguyên mẫu pin mặt trời của bạn rất hấp dẫn. (Although + clause)\")."
@@ -441,8 +441,8 @@
       "options": [
         "Phản hồi: \"Chúng tôi muốn mở rộng quy mô hoạt động nhanh chóng, vì vậy khoản tài trợ mạo hiểm đáng kể này mang tính sống còn. (so)\"",
         "Phản hồi: \"Hoàn toàn không đồng ý và muốn rời khỏi phòng ngay lập tức\"",
-        "Phản hồi: \"Yêu cầu cung cấp hóa đơn thanh toán tiền mặt\"",
-        "Phản hồi: \"Hẹn gặp lại vào cuối tuần sau tại sân bay quốc tế\""
+        "Phản hồi: \"Hẹn gặp lại vào cuối tuần sau tại sân bay quốc tế\"",
+        "Phản hồi: \"Yêu cầu cung cấp hóa đơn thanh toán tiền mặt\""
       ],
       "correctAnswer": "Phản hồi: \"Chúng tôi muốn mở rộng quy mô hoạt động nhanh chóng, vì vậy khoản tài trợ mạo hiểm đáng kể này mang tính sống còn. (so)\"",
       "explanationVi": "Megan nói: \"We wanted to scale up operations rapidly, so this substantial venture funding is vital.\" có nghĩa là: \"Chúng tôi muốn mở rộng quy mô hoạt động nhanh chóng, vì vậy khoản tài trợ mạo hiểm đáng kể này mang tính sống còn. (so)\"."

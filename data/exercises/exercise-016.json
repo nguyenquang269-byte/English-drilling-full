@@ -10,9 +10,9 @@
       "promptVi": "[Trắc nghiệm ngữ pháp] Chọn từ đúng để hoàn thành câu (Ngày mai tôi sẽ giúp bạn làm dự án.):",
       "question": "I ___ help you with your project tomorrow.",
       "options": [
+        "will",
         "do",
         "did",
-        "will",
         "am"
       ],
       "correctAnswer": "will",
@@ -24,10 +24,10 @@
       "promptVi": "[Trắc nghiệm ngữ pháp] Chọn từ đúng để hoàn thành câu (Sáng mai bạn sẽ tham gia cuộc họp trực tuyến chứ?):",
       "question": "___ you join the online meeting tomorrow morning?",
       "options": [
-        "Do",
         "Will",
         "Are",
-        "Did"
+        "Did",
+        "Do"
       ],
       "correctAnswer": "Will",
       "explanationVi": "Câu hỏi hành động trong tương lai 'tomorrow morning' dùng 'Will' ở đầu câu."
@@ -38,10 +38,10 @@
       "promptVi": "[Trắc nghiệm ngữ pháp] Chọn từ đúng để hoàn thành câu (Chúng tôi sẽ không ra ngoài nếu trời mưa to.):",
       "question": "We ___ go out if it rains heavily.",
       "options": [
-        "won't",
-        "not",
+        "aren't",
         "don't",
-        "aren't"
+        "not",
+        "won't"
       ],
       "correctAnswer": "won't",
       "explanationVi": "Dạng phủ định trong tương lai dùng 'won't' (will not)."
@@ -53,9 +53,9 @@
       "question": "What time ___ the concert start tonight?",
       "options": [
         "does",
-        "is",
         "did",
-        "will"
+        "will",
+        "is"
       ],
       "correctAnswer": "will",
       "explanationVi": "Hỏi về sự kiện trong tương lai 'tonight' dùng 'will' sau 'What time'."
@@ -66,10 +66,10 @@
       "promptVi": "[Phản xạ dịch thuật] Dịch câu sau sang tiếng Anh: \"Bạn sẽ tham gia dự án tiếp thị của chúng tôi vào tháng tới chứ, Rachel?\"",
       "question": "Chọn bản dịch chuẩn xác nhất cho câu: \"Bạn sẽ tham gia dự án tiếp thị của chúng tôi vào tháng tới chứ, Rachel?\"",
       "options": [
-        "Yes, I will! I will lead the customer research campaign.",
-        "We are studying English today.",
         "be you join our marketing project next month, Rachel?",
-        "Will you join our marketing project next month, Rachel?"
+        "Will you join our marketing project next month, Rachel?",
+        "Yes, I will! I will lead the customer research campaign.",
+        "We are studying English today."
       ],
       "correctAnswer": "Will you join our marketing project next month, Rachel?",
       "explanationVi": "Câu dịch chuẩn xác: \"Will you join our marketing project next month, Rachel?\" (Bạn sẽ tham gia dự án tiếp thị của chúng tôi vào tháng tới chứ, Rachel?)."
@@ -80,10 +80,10 @@
       "promptVi": "[Ngữ cảnh giao tiếp] Chọn câu phản hồi tự nhiên và đúng ngữ pháp:",
       "question": "Khi đối phương nói: \"Will you join our marketing project next month, Rachel?\", câu phản hồi phù hợp là gì?",
       "options": [
-        "Yes, I will! I will lead the customer research campaign.",
-        "No, it was yesterday.",
         "They are not in the office.",
-        "Yes, I will eat it."
+        "Yes, I will eat it.",
+        "No, it was yesterday.",
+        "Yes, I will! I will lead the customer research campaign."
       ],
       "correctAnswer": "Yes, I will! I will lead the customer research campaign.",
       "explanationVi": "Phản hồi phù hợp trong bài: \"Yes, I will! I will lead the customer research campaign.\" (Có, tôi sẽ tham gia! Tôi sẽ phụ trách chiến dịch khảo sát khách hàng.)."
@@ -109,10 +109,10 @@
       "question": "___ you join the online meeting tomorrow morning?",
       "correctAnswer": "Will",
       "options": [
-        "Did",
-        "Are",
         "Do",
-        "Will"
+        "Will",
+        "Did",
+        "Are"
       ],
       "explanationVi": "Đáp án đúng là \"Will\". Câu hoàn chỉnh: \"Will you join the online meeting tomorrow morning?\" (Sáng mai bạn sẽ tham gia cuộc họp trực tuyến chứ?)."
     },
@@ -124,9 +124,9 @@
       "correctAnswer": "won't",
       "options": [
         "not",
-        "won't",
+        "aren't",
         "don't",
-        "aren't"
+        "won't"
       ],
       "explanationVi": "Đáp án đúng là \"won't\". Câu hoàn chỉnh: \"We won't go out if it rains heavily.\" (Chúng tôi sẽ không ra ngoài nếu trời mưa to.)."
     },
@@ -137,8 +137,8 @@
       "question": "What time ___ the concert start tonight?",
       "correctAnswer": "will",
       "options": [
-        "is",
         "will",
+        "is",
         "did",
         "does"
       ],
@@ -152,9 +152,9 @@
       "correctAnswer": "will",
       "options": [
         "will",
+        "is",
         "are",
-        "am",
-        "is"
+        "am"
       ],
       "explanationVi": "Câu phủ định hoàn chỉnh: \"I will not help you with your project tomorrow.\"."
     },
@@ -164,14 +164,14 @@
       "promptVi": "[Sắp xếp câu] Ghép các khối từ thành câu hoàn chỉnh mang nghĩa: \"Ngày mai tôi sẽ giúp bạn làm dự án.\"",
       "question": "Sắp xếp các từ để tạo thành câu đúng: \"Ngày mai tôi sẽ giúp bạn làm dự án.\"",
       "words": [
-        "will",
-        "with",
-        "help",
-        "your",
-        "project",
-        "I",
         "tomorrow.",
-        "you"
+        "you",
+        "help",
+        "project",
+        "your",
+        "I",
+        "with",
+        "will"
       ],
       "correctSentence": "I will help you with your project tomorrow.",
       "hintVi": "Ngày mai tôi sẽ giúp bạn làm dự án.",
@@ -183,14 +183,14 @@
       "promptVi": "[Sắp xếp câu] Ghép các khối từ thành câu hoàn chỉnh mang nghĩa: \"Sáng mai bạn sẽ tham gia cuộc họp trực tuyến chứ?\"",
       "question": "Sắp xếp các từ để tạo thành câu đúng: \"Sáng mai bạn sẽ tham gia cuộc họp trực tuyến chứ?\"",
       "words": [
-        "Will",
-        "morning?",
-        "tomorrow",
-        "the",
-        "meeting",
         "you",
+        "join",
+        "the",
+        "Will",
         "online",
-        "join"
+        "meeting",
+        "tomorrow",
+        "morning?"
       ],
       "correctSentence": "Will you join the online meeting tomorrow morning?",
       "hintVi": "Sáng mai bạn sẽ tham gia cuộc họp trực tuyến chứ?",
@@ -202,14 +202,14 @@
       "promptVi": "[Sắp xếp câu] Ghép các khối từ thành câu hoàn chỉnh mang nghĩa: \"Chúng tôi sẽ không ra ngoài nếu trời mưa to.\"",
       "question": "Sắp xếp các từ để tạo thành câu đúng: \"Chúng tôi sẽ không ra ngoài nếu trời mưa to.\"",
       "words": [
-        "rains",
-        "heavily.",
         "go",
-        "if",
+        "won't",
         "out",
+        "if",
         "We",
-        "it",
-        "won't"
+        "heavily.",
+        "rains",
+        "it"
       ],
       "correctSentence": "We won't go out if it rains heavily.",
       "hintVi": "Chúng tôi sẽ không ra ngoài nếu trời mưa to.",
@@ -221,13 +221,13 @@
       "promptVi": "[Sắp xếp câu] Ghép các khối từ thành câu hoàn chỉnh mang nghĩa: \"Buổi hòa nhạc tối nay sẽ bắt đầu lúc mấy giờ?\"",
       "question": "Sắp xếp các từ để tạo thành câu đúng: \"Buổi hòa nhạc tối nay sẽ bắt đầu lúc mấy giờ?\"",
       "words": [
-        "What",
         "time",
-        "concert",
-        "tonight?",
         "will",
+        "the",
+        "concert",
         "start",
-        "the"
+        "tonight?",
+        "What"
       ],
       "correctSentence": "What time will the concert start tonight?",
       "hintVi": "Buổi hòa nhạc tối nay sẽ bắt đầu lúc mấy giờ?",
@@ -239,17 +239,17 @@
       "promptVi": "[Sắp xếp câu] Ghép các từ thành câu hội thoại: \"Tuyệt vời quá! Khi nào chúng ta sẽ bắt đầu buổi thảo luận ý tưởng đầu tiên?\"",
       "question": "Sắp xếp các từ để tạo thành câu thoại: \"Tuyệt vời quá! Khi nào chúng ta sẽ bắt đầu buổi thảo luận ý tưởng đầu tiên?\"",
       "words": [
-        "That",
-        "the",
-        "session",
-        "When",
-        "start",
-        "brainstorm",
         "we",
+        "When",
         "will",
-        "wonderful",
+        "start",
+        "first",
+        "That",
+        "brainstorm",
+        "the",
         "is",
-        "first"
+        "wonderful",
+        "session"
       ],
       "correctSentence": "That is wonderful! When will we start the first brainstorm session?",
       "hintVi": "Tuyệt vời quá! Khi nào chúng ta sẽ bắt đầu buổi thảo luận ý tưởng đầu tiên?",
@@ -261,9 +261,9 @@
       "promptVi": "[Nhận diện cấu trúc chuẩn] Chọn câu có cấu trúc ngữ pháp HOÀN TOÀN ĐÚNG:",
       "question": "Dựa vào chủ điểm \"Bài 16: Động từ Thường — Tương lai Đơn (Will / Won't + động từ nguyên mẫu)\", câu nào sau đây CHÍNH XÁC?",
       "options": [
+        "is",
         "I will help you with your project tomorrow.",
         "I will help you at your project tomorrow.",
-        "is",
         "tomorrow. project your with you help will I"
       ],
       "correctAnswer": "I will help you with your project tomorrow.",
@@ -275,10 +275,10 @@
       "promptVi": "[Nhận diện cấu trúc chuẩn] Chọn câu có cấu trúc ngữ pháp HOÀN TOÀN ĐÚNG:",
       "question": "Dựa vào chủ điểm \"Bài 16: Động từ Thường — Tương lai Đơn (Will / Won't + động từ nguyên mẫu)\", câu nào sau đây CHÍNH XÁC?",
       "options": [
-        "Will you join the online meeting tomorrow morning?",
-        "are",
+        "is",
         "morning? tomorrow meeting online the join you Will",
-        "is"
+        "are",
+        "Will you join the online meeting tomorrow morning?"
       ],
       "correctAnswer": "Will you join the online meeting tomorrow morning?",
       "explanationVi": "Cấu trúc chuẩn xác là: \"Will you join the online meeting tomorrow morning?\" (Sáng mai bạn sẽ tham gia cuộc họp trực tuyến chứ?)."
@@ -289,10 +289,10 @@
       "promptVi": "[Nhận diện cấu trúc chuẩn] Chọn câu có cấu trúc ngữ pháp HOÀN TOÀN ĐÚNG:",
       "question": "Dựa vào chủ điểm \"Bài 16: Động từ Thường — Tương lai Đơn (Will / Won't + động từ nguyên mẫu)\", câu nào sau đây CHÍNH XÁC?",
       "options": [
+        "We won't go out if it rains heavily.",
         "heavily. rains it if out go won't We",
-        "are",
         "is",
-        "We won't go out if it rains heavily."
+        "are"
       ],
       "correctAnswer": "We won't go out if it rains heavily.",
       "explanationVi": "Cấu trúc chuẩn xác là: \"We won't go out if it rains heavily.\" (Chúng tôi sẽ không ra ngoài nếu trời mưa to.)."
@@ -304,9 +304,9 @@
       "question": "Dựa vào chủ điểm \"Bài 16: Động từ Thường — Tương lai Đơn (Will / Won't + động từ nguyên mẫu)\", câu nào sau đây CHÍNH XÁC?",
       "options": [
         "are",
+        "What time will the concert start tonight?",
         "tonight? start concert the will time What",
-        "is",
-        "What time will the concert start tonight?"
+        "is"
       ],
       "correctAnswer": "What time will the concert start tonight?",
       "explanationVi": "Cấu trúc chuẩn xác là: \"What time will the concert start tonight?\" (Buổi hòa nhạc tối nay sẽ bắt đầu lúc mấy giờ?)."
@@ -318,10 +318,10 @@
       "audioPrompt": "Will you join our marketing project next month, Rachel?",
       "question": "Nhấn nút '🔊 Nghe audio' và chọn nghĩa tiếng Việt đúng:",
       "options": [
-        "Hôm nay thời tiết rất đẹp.",
-        "Tuyệt vời quá! Khi nào chúng ta sẽ bắt đầu buổi thảo luận ý tưởng đầu tiên?",
         "Bạn sẽ tham gia dự án tiếp thị của chúng tôi vào tháng tới chứ, Rachel?",
-        "Có, tôi sẽ tham gia! Tôi sẽ phụ trách chiến dịch khảo sát khách hàng."
+        "Có, tôi sẽ tham gia! Tôi sẽ phụ trách chiến dịch khảo sát khách hàng.",
+        "Hôm nay thời tiết rất đẹp.",
+        "Tuyệt vời quá! Khi nào chúng ta sẽ bắt đầu buổi thảo luận ý tưởng đầu tiên?"
       ],
       "correctAnswer": "Bạn sẽ tham gia dự án tiếp thị của chúng tôi vào tháng tới chứ, Rachel?",
       "explanationVi": "Câu nghe được: \"Will you join our marketing project next month, Rachel?\" có nghĩa là: \"Bạn sẽ tham gia dự án tiếp thị của chúng tôi vào tháng tới chứ, Rachel?\"."
@@ -333,8 +333,8 @@
       "audioPrompt": "Yes, I will! I will lead the customer research campaign.",
       "question": "Nhấn nút '🔊 Nghe audio' và chọn nghĩa tiếng Việt đúng:",
       "options": [
-        "Chúng ta sẽ bắt đầu vào sáng thứ Ba tuần tới lúc 9 giờ 30.",
         "Có, tôi sẽ tham gia! Tôi sẽ phụ trách chiến dịch khảo sát khách hàng.",
+        "Chúng ta sẽ bắt đầu vào sáng thứ Ba tuần tới lúc 9 giờ 30.",
         "Hôm nay thời tiết rất đẹp.",
         "Tuyệt vời quá! Khi nào chúng ta sẽ bắt đầu buổi thảo luận ý tưởng đầu tiên?"
       ],
@@ -349,9 +349,9 @@
       "question": "Nhấn nút '🔊 Nghe audio' và chọn nghĩa tiếng Việt đúng:",
       "options": [
         "Tuyệt vời quá! Khi nào chúng ta sẽ bắt đầu buổi thảo luận ý tưởng đầu tiên?",
-        "Hôm nay thời tiết rất đẹp.",
+        "Chúng ta sẽ bắt đầu vào sáng thứ Ba tuần tới lúc 9 giờ 30.",
         "Công ty sẽ mời các chuyên gia bên ngoài đến giúp chúng ta chứ?",
-        "Chúng ta sẽ bắt đầu vào sáng thứ Ba tuần tới lúc 9 giờ 30."
+        "Hôm nay thời tiết rất đẹp."
       ],
       "correctAnswer": "Tuyệt vời quá! Khi nào chúng ta sẽ bắt đầu buổi thảo luận ý tưởng đầu tiên?",
       "explanationVi": "Câu nghe được: \"That is wonderful! When will we start the first brainstorm session?\" có nghĩa là: \"Tuyệt vời quá! Khi nào chúng ta sẽ bắt đầu buổi thảo luận ý tưởng đầu tiên?\"."
@@ -364,9 +364,9 @@
       "question": "Nhấn nút '🔊 Nghe audio' và chọn nghĩa tiếng Việt đúng:",
       "options": [
         "Hôm nay thời tiết rất đẹp.",
-        "Không, họ sẽ không mời chuyên gia bên ngoài vì đội ngũ của chúng ta đã đủ mạnh.",
         "Chúng ta sẽ bắt đầu vào sáng thứ Ba tuần tới lúc 9 giờ 30.",
-        "Công ty sẽ mời các chuyên gia bên ngoài đến giúp chúng ta chứ?"
+        "Công ty sẽ mời các chuyên gia bên ngoài đến giúp chúng ta chứ?",
+        "Không, họ sẽ không mời chuyên gia bên ngoài vì đội ngũ của chúng ta đã đủ mạnh."
       ],
       "correctAnswer": "Chúng ta sẽ bắt đầu vào sáng thứ Ba tuần tới lúc 9 giờ 30.",
       "explanationVi": "Câu nghe được: \"We will start next Tuesday morning at nine thirty.\" có nghĩa là: \"Chúng ta sẽ bắt đầu vào sáng thứ Ba tuần tới lúc 9 giờ 30.\"."
@@ -416,8 +416,8 @@
       "options": [
         "Thomas muốn mượn tiền để mua vé máy bay gấp.",
         "Thomas phàn nàn rằng thời tiết hôm nay quá xấu.",
-        "Thomas từ chối trả lời và yêu cầu hủy cuộc hẹn.",
-        "Thomas chia sẻ thông tin: \"Bạn sẽ tham gia dự án tiếp thị của chúng tôi vào tháng tới chứ, Rachel?\""
+        "Thomas chia sẻ thông tin: \"Bạn sẽ tham gia dự án tiếp thị của chúng tôi vào tháng tới chứ, Rachel?\"",
+        "Thomas từ chối trả lời và yêu cầu hủy cuộc hẹn."
       ],
       "correctAnswer": "Thomas chia sẻ thông tin: \"Bạn sẽ tham gia dự án tiếp thị của chúng tôi vào tháng tới chứ, Rachel?\"",
       "explanationVi": "Trong đoạn hội thoại, Thomas đã nói: \"Will you join our marketing project next month, Rachel?\" (nghĩa là: \"Bạn sẽ tham gia dự án tiếp thị của chúng tôi vào tháng tới chứ, Rachel?\")."
@@ -429,10 +429,10 @@
       "passage": "Thomas: \"Will the company invite external experts to help us?\"\nRachel: \"No, they won't invite external experts because our team is strong enough.\"\nThomas: \"Will you send the project roadmap to everyone via email today?\"\nRachel: \"I will send it before five PM so everyone can review it.\"",
       "question": "Trong đoạn hội thoại trên, câu nói \"I will send it before five PM so everyone can review it.\" của Rachel mang ý nghĩa gì?",
       "options": [
+        "Phản hồi: \"Yêu cầu cung cấp hóa đơn thanh toán tiền mặt\"",
         "Phản hồi: \"Hẹn gặp lại vào cuối tuần sau tại sân bay quốc tế\"",
-        "Phản hồi: \"Tôi sẽ gửi nó trước 5 giờ chiều để mọi người có thể xem qua.\"",
         "Phản hồi: \"Hoàn toàn không đồng ý và muốn rời khỏi phòng ngay lập tức\"",
-        "Phản hồi: \"Yêu cầu cung cấp hóa đơn thanh toán tiền mặt\""
+        "Phản hồi: \"Tôi sẽ gửi nó trước 5 giờ chiều để mọi người có thể xem qua.\""
       ],
       "correctAnswer": "Phản hồi: \"Tôi sẽ gửi nó trước 5 giờ chiều để mọi người có thể xem qua.\"",
       "explanationVi": "Rachel nói: \"I will send it before five PM so everyone can review it.\" có nghĩa là: \"Tôi sẽ gửi nó trước 5 giờ chiều để mọi người có thể xem qua.\"."
