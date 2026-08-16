@@ -10,10 +10,10 @@
       "promptVi": "[Trắc nghiệm ngữ pháp] Chọn từ đúng để hoàn thành câu (Bạn đã sẵn sàng cho kỳ thi chưa?):",
       "question": "___ you ready for the exam?",
       "options": [
-        "Am",
-        "Do",
         "Are",
-        "Is"
+        "Do",
+        "Is",
+        "Am"
       ],
       "correctAnswer": "Are",
       "explanationVi": "Chủ ngữ 'you' yêu cầu động từ 'Are' ở đầu câu hỏi."
@@ -24,10 +24,10 @@
       "promptVi": "[Trắc nghiệm ngữ pháp] Chọn từ đúng để hoàn thành câu (Cô ấy có phải là nhân viên mới không?):",
       "question": "___ she a new staff member?",
       "options": [
-        "Am",
-        "Is",
         "Does",
-        "Are"
+        "Am",
+        "Are",
+        "Is"
       ],
       "correctAnswer": "Is",
       "explanationVi": "Chủ ngữ 'she' đi với 'Is' ở đầu câu hỏi."
@@ -39,8 +39,8 @@
       "question": "___ they in the meeting room?",
       "options": [
         "Am",
-        "Do",
         "Is",
+        "Do",
         "Are"
       ],
       "correctAnswer": "Are",
@@ -52,10 +52,10 @@
       "promptVi": "[Trắc nghiệm ngữ pháp] Chọn từ đúng để hoàn thành câu (Hôm nay ngoài trời có lạnh không?):",
       "question": "___ it cold outside today?",
       "options": [
-        "Is",
-        "Are",
         "Am",
-        "Does"
+        "Is",
+        "Does",
+        "Are"
       ],
       "correctAnswer": "Is",
       "explanationVi": "Chủ ngữ 'it' dùng 'Is' ở đầu câu hỏi."
@@ -66,10 +66,10 @@
       "promptVi": "[Phản xạ dịch thuật] Dịch câu sau sang tiếng Anh: \"Bạn đã sẵn sàng cho bài thuyết trình chưa, Emma?\"",
       "question": "Chọn bản dịch chuẩn xác nhất cho câu: \"Bạn đã sẵn sàng cho bài thuyết trình chưa, Emma?\"",
       "options": [
-        "be you ready for the presentation, Emma?",
-        "Are you ready for the presentation, Emma?",
         "We are studying English today.",
-        "Yes, I am! Everything is prepared."
+        "Yes, I am! Everything is prepared.",
+        "be you ready for the presentation, Emma?",
+        "Are you ready for the presentation, Emma?"
       ],
       "correctAnswer": "Are you ready for the presentation, Emma?",
       "explanationVi": "Câu dịch chuẩn xác: \"Are you ready for the presentation, Emma?\" (Bạn đã sẵn sàng cho bài thuyết trình chưa, Emma?)."
@@ -80,10 +80,10 @@
       "promptVi": "[Ngữ cảnh giao tiếp] Chọn câu phản hồi tự nhiên và đúng ngữ pháp:",
       "question": "Khi đối phương nói: \"Are you ready for the presentation, Emma?\", câu phản hồi phù hợp là gì?",
       "options": [
-        "Yes, I will eat it.",
+        "Yes, I am! Everything is prepared.",
         "They are not in the office.",
         "No, it was yesterday.",
-        "Yes, I am! Everything is prepared."
+        "Yes, I will eat it."
       ],
       "correctAnswer": "Yes, I am! Everything is prepared.",
       "explanationVi": "Phản hồi phù hợp trong bài: \"Yes, I am! Everything is prepared.\" (Tôi sẵn sàng rồi! Mọi thứ đã được chuẩn bị xong.)."
@@ -109,10 +109,10 @@
       "question": "___ she a new staff member?",
       "correctAnswer": "Is",
       "options": [
-        "Is",
-        "Are",
         "Am",
-        "Does"
+        "Is",
+        "Does",
+        "Are"
       ],
       "explanationVi": "Đáp án đúng là \"Is\". Câu hoàn chỉnh: \"Is she a new staff member?\" (Cô ấy có phải là nhân viên mới không?)."
     },
@@ -123,10 +123,10 @@
       "question": "___ they in the meeting room?",
       "correctAnswer": "Are",
       "options": [
-        "Do",
-        "Am",
+        "Are",
         "Is",
-        "Are"
+        "Do",
+        "Am"
       ],
       "explanationVi": "Đáp án đúng là \"Are\". Câu hoàn chỉnh: \"Are they in the meeting room?\" (Họ có ở trong phòng họp không?)."
     },
@@ -138,8 +138,8 @@
       "correctAnswer": "Is",
       "options": [
         "Is",
-        "Does",
         "Are",
+        "Does",
         "Am"
       ],
       "explanationVi": "Đáp án đúng là \"Is\". Câu hoàn chỉnh: \"Is it cold outside today?\" (Hôm nay ngoài trời có lạnh không?)."
@@ -151,10 +151,10 @@
       "question": "Are _____ not ready for the exam?",
       "correctAnswer": "you",
       "options": [
-        "are",
+        "you",
         "am",
         "is",
-        "you"
+        "are"
       ],
       "explanationVi": "Câu phủ định hoàn chỉnh: \"Are you not ready for the exam?\"."
     },
@@ -164,12 +164,12 @@
       "promptVi": "[Sắp xếp câu] Ghép các khối từ thành câu hoàn chỉnh mang nghĩa: \"Bạn đã sẵn sàng cho kỳ thi chưa?\"",
       "question": "Sắp xếp các từ để tạo thành câu đúng: \"Bạn đã sẵn sàng cho kỳ thi chưa?\"",
       "words": [
-        "Are",
+        "the",
         "exam?",
+        "Are",
         "for",
-        "you",
         "ready",
-        "the"
+        "you"
       ],
       "correctSentence": "Are you ready for the exam?",
       "hintVi": "Bạn đã sẵn sàng cho kỳ thi chưa?",
@@ -182,11 +182,11 @@
       "question": "Sắp xếp các từ để tạo thành câu đúng: \"Cô ấy có phải là nhân viên mới không?\"",
       "words": [
         "Is",
+        "member?",
         "she",
         "staff",
         "a",
-        "new",
-        "member?"
+        "new"
       ],
       "correctSentence": "Is she a new staff member?",
       "hintVi": "Cô ấy có phải là nhân viên mới không?",
@@ -199,11 +199,11 @@
       "question": "Sắp xếp các từ để tạo thành câu đúng: \"Họ có ở trong phòng họp không?\"",
       "words": [
         "Are",
-        "room?",
-        "meeting",
         "the",
+        "meeting",
         "in",
-        "they"
+        "they",
+        "room?"
       ],
       "correctSentence": "Are they in the meeting room?",
       "hintVi": "Họ có ở trong phòng họp không?",
@@ -215,11 +215,11 @@
       "promptVi": "[Sắp xếp câu] Ghép các khối từ thành câu hoàn chỉnh mang nghĩa: \"Hôm nay ngoài trời có lạnh không?\"",
       "question": "Sắp xếp các từ để tạo thành câu đúng: \"Hôm nay ngoài trời có lạnh không?\"",
       "words": [
+        "today?",
         "it",
-        "cold",
-        "Is",
         "outside",
-        "today?"
+        "cold",
+        "Is"
       ],
       "correctSentence": "Is it cold outside today?",
       "hintVi": "Hôm nay ngoài trời có lạnh không?",
@@ -231,14 +231,14 @@
       "promptVi": "[Sắp xếp câu] Ghép các từ thành câu hội thoại: \"Thầy John có ở trong văn phòng lúc này không?\"",
       "question": "Sắp xếp các từ để tạo thành câu thoại: \"Thầy John có ở trong văn phòng lúc này không?\"",
       "words": [
-        "Is",
-        "Mr",
-        "in",
-        "John",
-        "right",
         "his",
+        "in",
         "office",
-        "now"
+        "now",
+        "John",
+        "Mr",
+        "Is",
+        "right"
       ],
       "correctSentence": "Is Mr. John in his office right now?",
       "hintVi": "Thầy John có ở trong văn phòng lúc này không?",
@@ -264,10 +264,10 @@
       "promptVi": "[Nhận diện cấu trúc chuẩn] Chọn câu có cấu trúc ngữ pháp HOÀN TOÀN ĐÚNG:",
       "question": "Dựa vào chủ điểm \"Bài 4: Động từ To Be — Hiện tại Đơn (Câu hỏi Yes/No & Trả lời ngắn)\", câu nào sau đây CHÍNH XÁC?",
       "options": [
-        "is",
         "Is she a new staff member?",
         "be she a new staff member?",
-        "member? staff new a she Is"
+        "member? staff new a she Is",
+        "is"
       ],
       "correctAnswer": "Is she a new staff member?",
       "explanationVi": "Cấu trúc chuẩn xác là: \"Is she a new staff member?\" (Cô ấy có phải là nhân viên mới không?)."
@@ -292,10 +292,10 @@
       "promptVi": "[Nhận diện cấu trúc chuẩn] Chọn câu có cấu trúc ngữ pháp HOÀN TOÀN ĐÚNG:",
       "question": "Dựa vào chủ điểm \"Bài 4: Động từ To Be — Hiện tại Đơn (Câu hỏi Yes/No & Trả lời ngắn)\", câu nào sau đây CHÍNH XÁC?",
       "options": [
-        "Is it cold outside today?",
-        "be it cold outside today?",
         "is",
-        "today? outside cold it Is"
+        "today? outside cold it Is",
+        "be it cold outside today?",
+        "Is it cold outside today?"
       ],
       "correctAnswer": "Is it cold outside today?",
       "explanationVi": "Cấu trúc chuẩn xác là: \"Is it cold outside today?\" (Hôm nay ngoài trời có lạnh không?)."
@@ -307,10 +307,10 @@
       "audioPrompt": "Are you ready for the presentation, Emma?",
       "question": "Nhấn nút '🔊 Nghe audio' và chọn nghĩa tiếng Việt đúng:",
       "options": [
-        "Bạn đã sẵn sàng cho bài thuyết trình chưa, Emma?",
-        "Tôi sẵn sàng rồi! Mọi thứ đã được chuẩn bị xong.",
         "Hôm nay thời tiết rất đẹp.",
-        "Thầy John có ở trong văn phòng lúc này không?"
+        "Thầy John có ở trong văn phòng lúc này không?",
+        "Tôi sẵn sàng rồi! Mọi thứ đã được chuẩn bị xong.",
+        "Bạn đã sẵn sàng cho bài thuyết trình chưa, Emma?"
       ],
       "correctAnswer": "Bạn đã sẵn sàng cho bài thuyết trình chưa, Emma?",
       "explanationVi": "Câu nghe được: \"Are you ready for the presentation, Emma?\" có nghĩa là: \"Bạn đã sẵn sàng cho bài thuyết trình chưa, Emma?\"."
@@ -322,10 +322,10 @@
       "audioPrompt": "Yes, I am! Everything is prepared.",
       "question": "Nhấn nút '🔊 Nghe audio' và chọn nghĩa tiếng Việt đúng:",
       "options": [
-        "Thầy John có ở trong văn phòng lúc này không?",
         "Không, thầy ấy không có ở đó. Thầy ấy đang ở cuộc họp ăn trưa.",
-        "Tôi sẵn sàng rồi! Mọi thứ đã được chuẩn bị xong.",
-        "Hôm nay thời tiết rất đẹp."
+        "Hôm nay thời tiết rất đẹp.",
+        "Thầy John có ở trong văn phòng lúc này không?",
+        "Tôi sẵn sàng rồi! Mọi thứ đã được chuẩn bị xong."
       ],
       "correctAnswer": "Tôi sẵn sàng rồi! Mọi thứ đã được chuẩn bị xong.",
       "explanationVi": "Câu nghe được: \"Yes, I am! Everything is prepared.\" có nghĩa là: \"Tôi sẵn sàng rồi! Mọi thứ đã được chuẩn bị xong.\"."
@@ -337,10 +337,10 @@
       "audioPrompt": "Is Mr. John in his office right now?",
       "question": "Nhấn nút '🔊 Nghe audio' và chọn nghĩa tiếng Việt đúng:",
       "options": [
-        "Thầy John có ở trong văn phòng lúc này không?",
-        "Không, thầy ấy không có ở đó. Thầy ấy đang ở cuộc họp ăn trưa.",
+        "Hôm nay thời tiết rất đẹp.",
         "Các trang slide cuộc họp có rõ ràng và dễ đọc không?",
-        "Hôm nay thời tiết rất đẹp."
+        "Không, thầy ấy không có ở đó. Thầy ấy đang ở cuộc họp ăn trưa.",
+        "Thầy John có ở trong văn phòng lúc này không?"
       ],
       "correctAnswer": "Thầy John có ở trong văn phòng lúc này không?",
       "explanationVi": "Câu nghe được: \"Is Mr. John in his office right now?\" có nghĩa là: \"Thầy John có ở trong văn phòng lúc này không?\"."
@@ -403,10 +403,10 @@
       "passage": "Kevin: \"Are you ready for the presentation, Emma?\"\nEmma: \"Yes, I am! Everything is prepared.\"\nKevin: \"Is Mr. John in his office right now?\"\nEmma: \"No, he isn't. He is at a lunch meeting.\"",
       "question": "Dựa vào đoạn đối thoại trên, thông tin nào sau đây là CHÍNH XÁC về nội dung câu nói của Kevin?",
       "options": [
-        "Kevin chia sẻ thông tin: \"Bạn đã sẵn sàng cho bài thuyết trình chưa, Emma?\"",
         "Kevin muốn mượn tiền để mua vé máy bay gấp.",
+        "Kevin từ chối trả lời và yêu cầu hủy cuộc hẹn.",
         "Kevin phàn nàn rằng thời tiết hôm nay quá xấu.",
-        "Kevin từ chối trả lời và yêu cầu hủy cuộc hẹn."
+        "Kevin chia sẻ thông tin: \"Bạn đã sẵn sàng cho bài thuyết trình chưa, Emma?\""
       ],
       "correctAnswer": "Kevin chia sẻ thông tin: \"Bạn đã sẵn sàng cho bài thuyết trình chưa, Emma?\"",
       "explanationVi": "Trong đoạn hội thoại, Kevin đã nói: \"Are you ready for the presentation, Emma?\" (nghĩa là: \"Bạn đã sẵn sàng cho bài thuyết trình chưa, Emma?\")."
@@ -418,9 +418,9 @@
       "passage": "Kevin: \"Is Mr. John in his office right now?\"\nEmma: \"No, he isn't. He is at a lunch meeting.\"\nKevin: \"Are the meeting slides clear and easy to read?\"\nEmma: \"Yes, they are very clear!\"",
       "question": "Trong đoạn hội thoại trên, câu nói \"Yes, they are very clear!\" của Emma mang ý nghĩa gì?",
       "options": [
+        "Phản hồi: \"Yêu cầu cung cấp hóa đơn thanh toán tiền mặt\"",
         "Phản hồi: \"Có, chúng rất rõ ràng!\"",
         "Phản hồi: \"Hoàn toàn không đồng ý và muốn rời khỏi phòng ngay lập tức\"",
-        "Phản hồi: \"Yêu cầu cung cấp hóa đơn thanh toán tiền mặt\"",
         "Phản hồi: \"Hẹn gặp lại vào cuối tuần sau tại sân bay quốc tế\""
       ],
       "correctAnswer": "Phản hồi: \"Có, chúng rất rõ ràng!\"",

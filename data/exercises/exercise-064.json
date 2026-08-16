@@ -10,10 +10,10 @@
       "promptVi": "[Trắc nghiệm ngữ pháp] Chọn từ đúng để hoàn thành câu (Tôi đã và đang học tiếng Anh được ba năm rồi.):",
       "question": "I have been ___ English for three years.",
       "options": [
-        "learning",
-        "learned",
         "learns",
-        "learn"
+        "learn",
+        "learned",
+        "learning"
       ],
       "correctAnswer": "learning",
       "explanationVi": "Cấu trúc HTHT tiếp diễn: have been + V-ing (learning)."
@@ -24,10 +24,10 @@
       "promptVi": "[Trắc nghiệm ngữ pháp] Chọn từ đúng để hoàn thành câu (Trời đã và đang mưa suốt cả buổi sáng.):",
       "question": "It ___ raining all morning.",
       "options": [
-        "was been",
-        "has been",
         "have been",
-        "is being"
+        "was been",
+        "is being",
+        "has been"
       ],
       "correctAnswer": "has been",
       "explanationVi": "Chủ ngữ 'It' đi với 'has been + V-ing'."
@@ -53,9 +53,9 @@
       "question": "He is tired because he ___ hard.",
       "options": [
         "is working",
-        "worked",
+        "has been working",
         "had worked",
-        "has been working"
+        "worked"
       ],
       "correctAnswer": "has been working",
       "explanationVi": "Hành động kéo dài để lại dấu hiệu mệt mỏi ở hiện tại dùng HTHT tiếp diễn."
@@ -67,8 +67,8 @@
       "question": "Chọn bản dịch chuẩn xác nhất cho câu: \"Trông bạn có vẻ kiệt sức hoàn toàn đấy Maya! Bạn đã chạy quanh sân vận động suốt cả buổi sáng phải không? (Have you been running)\"",
       "options": [
         "Yes, I have been training for the upcoming international marathon since five o'clock.",
-        "You look completely exhausted, Maya! Have you been running around the stadium all morning?",
         "You look completely exhausted, Maya! be you been running around the stadium all morning?",
+        "You look completely exhausted, Maya! Have you been running around the stadium all morning?",
         "We are studying English today."
       ],
       "correctAnswer": "You look completely exhausted, Maya! Have you been running around the stadium all morning?",
@@ -80,9 +80,9 @@
       "promptVi": "[Ngữ cảnh giao tiếp] Chọn câu phản hồi tự nhiên và đúng ngữ pháp:",
       "question": "Khi đối phương nói: \"You look completely exhausted, Maya! Have you been running around the stadium all morning?\", câu phản hồi phù hợp là gì?",
       "options": [
-        "They are not in the office.",
         "Yes, I will eat it.",
         "No, it was yesterday.",
+        "They are not in the office.",
         "Yes, I have been training for the upcoming international marathon since five o'clock."
       ],
       "correctAnswer": "Yes, I have been training for the upcoming international marathon since five o'clock.",
@@ -95,8 +95,8 @@
       "question": "I have been ___ English for three years.",
       "correctAnswer": "learning",
       "options": [
-        "learns",
         "learning",
+        "learns",
         "learned",
         "learn"
       ],
@@ -109,10 +109,10 @@
       "question": "It ___ raining all morning.",
       "correctAnswer": "has been",
       "options": [
-        "is being",
-        "was been",
+        "has been",
         "have been",
-        "has been"
+        "is being",
+        "was been"
       ],
       "explanationVi": "Đáp án đúng là \"has been\". Câu hoàn chỉnh: \"It has been raining all morning.\" (Trời đã và đang mưa suốt cả buổi sáng.)."
     },
@@ -123,10 +123,10 @@
       "question": "How long have you been ___ here?",
       "correctAnswer": "waiting",
       "options": [
-        "waits",
         "wait",
-        "waiting",
-        "waited"
+        "waits",
+        "waited",
+        "waiting"
       ],
       "explanationVi": "Đáp án đúng là \"waiting\". Câu hoàn chỉnh: \"How long have you been waiting here?\" (Bạn đã đợi ở đây bao lâu rồi?)."
     },
@@ -138,8 +138,8 @@
       "correctAnswer": "has been working",
       "options": [
         "is working",
-        "had worked",
         "has been working",
+        "had worked",
         "worked"
       ],
       "explanationVi": "Đáp án đúng là \"has been working\". Câu hoàn chỉnh: \"He is tired because he has been working hard.\" (Anh ấy mệt mỏi bởi vì anh ấy đã làm việc chăm chỉ suốt.)."
@@ -151,10 +151,10 @@
       "question": "I _____ not been learning English for three years.",
       "correctAnswer": "have",
       "options": [
-        "am",
         "are",
         "is",
-        "have"
+        "have",
+        "am"
       ],
       "explanationVi": "Câu phủ định hoàn chỉnh: \"I have not been learning English for three years.\"."
     },
@@ -165,12 +165,12 @@
       "question": "Sắp xếp các từ để tạo thành câu đúng: \"Tôi đã và đang học tiếng Anh được ba năm rồi.\"",
       "words": [
         "been",
-        "for",
-        "I",
+        "years.",
         "three",
+        "for",
         "English",
         "learning",
-        "years.",
+        "I",
         "have"
       ],
       "correctSentence": "I have been learning English for three years.",
@@ -183,12 +183,12 @@
       "promptVi": "[Sắp xếp câu] Ghép các khối từ thành câu hoàn chỉnh mang nghĩa: \"Trời đã và đang mưa suốt cả buổi sáng.\"",
       "question": "Sắp xếp các từ để tạo thành câu đúng: \"Trời đã và đang mưa suốt cả buổi sáng.\"",
       "words": [
-        "been",
+        "raining",
+        "morning.",
         "has",
         "It",
-        "morning.",
-        "all",
-        "raining"
+        "been",
+        "all"
       ],
       "correctSentence": "It has been raining all morning.",
       "hintVi": "Trời đã và đang mưa suốt cả buổi sáng.",
@@ -200,13 +200,13 @@
       "promptVi": "[Sắp xếp câu] Ghép các khối từ thành câu hoàn chỉnh mang nghĩa: \"Bạn đã đợi ở đây bao lâu rồi?\"",
       "question": "Sắp xếp các từ để tạo thành câu đúng: \"Bạn đã đợi ở đây bao lâu rồi?\"",
       "words": [
-        "How",
-        "here?",
-        "waiting",
-        "long",
-        "been",
         "you",
-        "have"
+        "been",
+        "long",
+        "here?",
+        "have",
+        "waiting",
+        "How"
       ],
       "correctSentence": "How long have you been waiting here?",
       "hintVi": "Bạn đã đợi ở đây bao lâu rồi?",
@@ -220,13 +220,13 @@
       "words": [
         "tired",
         "has",
-        "working",
-        "because",
-        "is",
         "hard.",
+        "because",
+        "he",
         "He",
         "been",
-        "he"
+        "working",
+        "is"
       ],
       "correctSentence": "He is tired because he has been working hard.",
       "hintVi": "Anh ấy mệt mỏi bởi vì anh ấy đã làm việc chăm chỉ suốt.",
@@ -239,18 +239,18 @@
       "question": "Sắp xếp các từ để tạo thành câu thoại: \"Huấn luyện viên câu lạc bộ điền kinh của chúng ta đã và đang phát triển lộ trình thể lực chuyên sâu này bao lâu rồi?\"",
       "words": [
         "been",
-        "our",
-        "coach",
-        "this",
         "routine",
+        "long",
+        "coach",
+        "intensive",
+        "How",
         "developing",
         "club",
-        "fitness",
-        "intensive",
-        "athletic",
+        "this",
         "has",
-        "long",
-        "How"
+        "athletic",
+        "our",
+        "fitness"
       ],
       "correctSentence": "How long has our athletic club coach been developing this intensive fitness routine?",
       "hintVi": "Huấn luyện viên câu lạc bộ điền kinh của chúng ta đã và đang phát triển lộ trình thể lực chuyên sâu này bao lâu rồi?",
@@ -262,10 +262,10 @@
       "promptVi": "[Nhận diện cấu trúc chuẩn] Chọn câu có cấu trúc ngữ pháp HOÀN TOÀN ĐÚNG:",
       "question": "Dựa vào chủ điểm \"Bài 64: Hiện tại Hoàn thành Tiếp diễn (Present Perfect Continuous: Have/Has been + V-ing)\", câu nào sau đây CHÍNH XÁC?",
       "options": [
-        "I have been learning English at three years.",
-        "I have been learning English for three years.",
+        "is",
         "years. three for English learning been have I",
-        "is"
+        "I have been learning English at three years.",
+        "I have been learning English for three years."
       ],
       "correctAnswer": "I have been learning English for three years.",
       "explanationVi": "Cấu trúc chuẩn xác là: \"I have been learning English for three years.\" (Tôi đã và đang học tiếng Anh được ba năm rồi.)."
@@ -276,9 +276,9 @@
       "promptVi": "[Nhận diện cấu trúc chuẩn] Chọn câu có cấu trúc ngữ pháp HOÀN TOÀN ĐÚNG:",
       "question": "Dựa vào chủ điểm \"Bài 64: Hiện tại Hoàn thành Tiếp diễn (Present Perfect Continuous: Have/Has been + V-ing)\", câu nào sau đây CHÍNH XÁC?",
       "options": [
-        "is",
         "morning. all raining been has It",
         "It has been raining all morning.",
+        "is",
         "are"
       ],
       "correctAnswer": "It has been raining all morning.",
@@ -291,9 +291,9 @@
       "question": "Dựa vào chủ điểm \"Bài 64: Hiện tại Hoàn thành Tiếp diễn (Present Perfect Continuous: Have/Has been + V-ing)\", câu nào sau đây CHÍNH XÁC?",
       "options": [
         "is",
-        "are",
+        "How long have you been waiting here?",
         "here? waiting been you have long How",
-        "How long have you been waiting here?"
+        "are"
       ],
       "correctAnswer": "How long have you been waiting here?",
       "explanationVi": "Cấu trúc chuẩn xác là: \"How long have you been waiting here?\" (Bạn đã đợi ở đây bao lâu rồi?)."
@@ -304,10 +304,10 @@
       "promptVi": "[Nhận diện cấu trúc chuẩn] Chọn câu có cấu trúc ngữ pháp HOÀN TOÀN ĐÚNG:",
       "question": "Dựa vào chủ điểm \"Bài 64: Hiện tại Hoàn thành Tiếp diễn (Present Perfect Continuous: Have/Has been + V-ing)\", câu nào sau đây CHÍNH XÁC?",
       "options": [
-        "He be tired because he has been working hard.",
-        "He is tired because he has been working hard.",
         "hard. working been has he because tired is He",
-        "is"
+        "He be tired because he has been working hard.",
+        "is",
+        "He is tired because he has been working hard."
       ],
       "correctAnswer": "He is tired because he has been working hard.",
       "explanationVi": "Cấu trúc chuẩn xác là: \"He is tired because he has been working hard.\" (Anh ấy mệt mỏi bởi vì anh ấy đã làm việc chăm chỉ suốt.)."
@@ -319,9 +319,9 @@
       "audioPrompt": "You look completely exhausted, Maya! Have you been running around the stadium all morning?",
       "question": "Nhấn nút '🔊 Nghe audio' và chọn nghĩa tiếng Việt đúng:",
       "options": [
-        "Trông bạn có vẻ kiệt sức hoàn toàn đấy Maya! Bạn đã chạy quanh sân vận động suốt cả buổi sáng phải không? (Have you been running)",
-        "Đúng vậy, tôi đã và đang tập luyện cho giải marathon quốc tế sắp tới từ lúc năm giờ sáng. (have been training since...)",
         "Huấn luyện viên câu lạc bộ điền kinh của chúng ta đã và đang phát triển lộ trình thể lực chuyên sâu này bao lâu rồi?",
+        "Đúng vậy, tôi đã và đang tập luyện cho giải marathon quốc tế sắp tới từ lúc năm giờ sáng. (have been training since...)",
+        "Trông bạn có vẻ kiệt sức hoàn toàn đấy Maya! Bạn đã chạy quanh sân vận động suốt cả buổi sáng phải không? (Have you been running)",
         "Hôm nay thời tiết rất đẹp."
       ],
       "correctAnswer": "Trông bạn có vẻ kiệt sức hoàn toàn đấy Maya! Bạn đã chạy quanh sân vận động suốt cả buổi sáng phải không? (Have you been running)",
@@ -349,10 +349,10 @@
       "audioPrompt": "How long has our athletic club coach been developing this intensive fitness routine?",
       "question": "Nhấn nút '🔊 Nghe audio' và chọn nghĩa tiếng Việt đúng:",
       "options": [
+        "Đôi giày chạy của bạn dính đầy bùn đất kìa! Trời vừa mới mưa trên đường chạy ven sông phải không? (Has it been raining)",
         "Thầy ấy đã và đang nghiên cứu các phương pháp khoa học thể thao hơn sáu tháng nay rồi. (has been researching for...)",
         "Huấn luyện viên câu lạc bộ điền kinh của chúng ta đã và đang phát triển lộ trình thể lực chuyên sâu này bao lâu rồi?",
-        "Hôm nay thời tiết rất đẹp.",
-        "Đôi giày chạy của bạn dính đầy bùn đất kìa! Trời vừa mới mưa trên đường chạy ven sông phải không? (Has it been raining)"
+        "Hôm nay thời tiết rất đẹp."
       ],
       "correctAnswer": "Huấn luyện viên câu lạc bộ điền kinh của chúng ta đã và đang phát triển lộ trình thể lực chuyên sâu này bao lâu rồi?",
       "explanationVi": "Câu nghe được: \"How long has our athletic club coach been developing this intensive fitness routine?\" có nghĩa là: \"Huấn luyện viên câu lạc bộ điền kinh của chúng ta đã và đang phát triển lộ trình thể lực chuyên sâu này bao lâu rồi?\"."
@@ -364,10 +364,10 @@
       "audioPrompt": "He has been researching sports science methodologies for more than six months.",
       "question": "Nhấn nút '🔊 Nghe audio' và chọn nghĩa tiếng Việt đúng:",
       "options": [
-        "Hôm nay thời tiết rất đẹp.",
         "Trời đã mưa phùn liên tục kể từ lúc rạng đông, nhưng không khí mát mẻ giúp tôi luôn tỉnh táo.",
+        "Đôi giày chạy của bạn dính đầy bùn đất kìa! Trời vừa mới mưa trên đường chạy ven sông phải không? (Has it been raining)",
         "Thầy ấy đã và đang nghiên cứu các phương pháp khoa học thể thao hơn sáu tháng nay rồi. (has been researching for...)",
-        "Đôi giày chạy của bạn dính đầy bùn đất kìa! Trời vừa mới mưa trên đường chạy ven sông phải không? (Has it been raining)"
+        "Hôm nay thời tiết rất đẹp."
       ],
       "correctAnswer": "Thầy ấy đã và đang nghiên cứu các phương pháp khoa học thể thao hơn sáu tháng nay rồi. (has been researching for...)",
       "explanationVi": "Câu nghe được: \"He has been researching sports science methodologies for more than six months.\" có nghĩa là: \"Thầy ấy đã và đang nghiên cứu các phương pháp khoa học thể thao hơn sáu tháng nay rồi. (has been researching for...)\"."
@@ -416,9 +416,9 @@
       "question": "Dựa vào đoạn đối thoại trên, thông tin nào sau đây là CHÍNH XÁC về nội dung câu nói của Liam?",
       "options": [
         "Liam chia sẻ thông tin: \"Trông bạn có vẻ kiệt sức hoàn toàn đấy Maya! Bạn đã chạy quanh sân vận động suốt cả buổi sáng phải không? (Have you been running)\"",
+        "Liam muốn mượn tiền để mua vé máy bay gấp.",
         "Liam phàn nàn rằng thời tiết hôm nay quá xấu.",
-        "Liam từ chối trả lời và yêu cầu hủy cuộc hẹn.",
-        "Liam muốn mượn tiền để mua vé máy bay gấp."
+        "Liam từ chối trả lời và yêu cầu hủy cuộc hẹn."
       ],
       "correctAnswer": "Liam chia sẻ thông tin: \"Trông bạn có vẻ kiệt sức hoàn toàn đấy Maya! Bạn đã chạy quanh sân vận động suốt cả buổi sáng phải không? (Have you been running)\"",
       "explanationVi": "Trong đoạn hội thoại, Liam đã nói: \"You look completely exhausted, Maya! Have you been running around the stadium all morning?\" (nghĩa là: \"Trông bạn có vẻ kiệt sức hoàn toàn đấy Maya! Bạn đã chạy quanh sân vận động suốt cả buổi sáng phải không? (Have you been running)\")."
@@ -430,10 +430,10 @@
       "passage": "Liam: \"Your running shoes are covered in mud! Has it been raining on the riverside track?\"\nMaya: \"It has been drizzling nonstop since dawn, but the cool air keeps me refreshed.\"\nLiam: \"I have run three kilometers today, but you have been running for two solid hours!\"\nMaya: \"I haven't been taking long breaks because consistency builds cardiovascular endurance.\"",
       "question": "Trong đoạn hội thoại trên, câu nói \"I haven't been taking long breaks because consistency builds cardiovascular endurance.\" của Maya mang ý nghĩa gì?",
       "options": [
-        "Phản hồi: \"Tôi đã không nghỉ giải lao dài vì tính kiên định xây dựng sức bền tim mạch.\"",
-        "Phản hồi: \"Yêu cầu cung cấp hóa đơn thanh toán tiền mặt\"",
+        "Phản hồi: \"Hẹn gặp lại vào cuối tuần sau tại sân bay quốc tế\"",
         "Phản hồi: \"Hoàn toàn không đồng ý và muốn rời khỏi phòng ngay lập tức\"",
-        "Phản hồi: \"Hẹn gặp lại vào cuối tuần sau tại sân bay quốc tế\""
+        "Phản hồi: \"Yêu cầu cung cấp hóa đơn thanh toán tiền mặt\"",
+        "Phản hồi: \"Tôi đã không nghỉ giải lao dài vì tính kiên định xây dựng sức bền tim mạch.\""
       ],
       "correctAnswer": "Phản hồi: \"Tôi đã không nghỉ giải lao dài vì tính kiên định xây dựng sức bền tim mạch.\"",
       "explanationVi": "Maya nói: \"I haven't been taking long breaks because consistency builds cardiovascular endurance.\" có nghĩa là: \"Tôi đã không nghỉ giải lao dài vì tính kiên định xây dựng sức bền tim mạch.\"."

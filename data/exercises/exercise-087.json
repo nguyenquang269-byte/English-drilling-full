@@ -10,10 +10,10 @@
       "promptVi": "[Trắc nghiệm ngữ pháp] Chọn từ đúng để hoàn thành câu (Xin vui lòng đi chậm lại, bạn đang lái xe quá nhanh.):",
       "question": "Please slow ___, you are driving too fast.",
       "options": [
-        "off",
-        "down",
         "out",
-        "up"
+        "up",
+        "off",
+        "down"
       ],
       "correctAnswer": "down",
       "explanationVi": "'slow down' mang nghĩa giảm tốc độ."
@@ -24,10 +24,10 @@
       "promptVi": "[Trắc nghiệm ngữ pháp] Chọn từ đúng để hoàn thành câu (Chúng ta hãy cùng xem lại các slide thuyết trình một lần nữa.):",
       "question": "Let's go ___ the presentation slides again.",
       "options": [
-        "in",
         "off",
-        "over",
-        "through"
+        "in",
+        "through",
+        "over"
       ],
       "correctAnswer": "over",
       "explanationVi": "'go over' có nghĩa là kiểm tra, rà soát lại tài liệu."
@@ -39,9 +39,9 @@
       "question": "If you keep ___ working hard, you will succeed.",
       "options": [
         "out",
-        "on",
+        "up",
         "off",
-        "up"
+        "on"
       ],
       "correctAnswer": "on",
       "explanationVi": "'keep on + V-ing' mang nghĩa tiếp tục làm gì không ngừng."
@@ -52,10 +52,10 @@
       "promptVi": "[Trắc nghiệm ngữ pháp] Chọn từ đúng để hoàn thành câu (Các chiến sĩ cứu hỏa đã cố gắng dập tắt ngọn lửa.):",
       "question": "The firefighters managed to put ___ the fire.",
       "options": [
+        "on",
         "off",
-        "down",
         "out",
-        "on"
+        "down"
       ],
       "correctAnswer": "out",
       "explanationVi": "'put out the fire' mang nghĩa dập tắt đám cháy."
@@ -68,8 +68,8 @@
       "options": [
         "Good morning, hikers! Put on your safety helmets before we go into the limestone cave system.",
         "The temperature has gone down significantly since we entered the underground passage.",
-        "We are studying English today.",
-        "is"
+        "is",
+        "We are studying English today."
       ],
       "correctAnswer": "Good morning, hikers! Put on your safety helmets before we go into the limestone cave system.",
       "explanationVi": "Câu dịch chuẩn xác: \"Good morning, hikers! Put on your safety helmets before we go into the limestone cave system.\" (Chào buổi sáng các bạn đi bộ đường dài! Hãy đội mũ bảo hiểm an toàn vào trước khi chúng ta đi vào trong hệ thống hang đá vôi. (Put on / go into))."
@@ -80,9 +80,9 @@
       "promptVi": "[Ngữ cảnh giao tiếp] Chọn câu phản hồi tự nhiên và đúng ngữ pháp:",
       "question": "Khi đối phương nói: \"Good morning, hikers! Put on your safety helmets before we go into the limestone cave system.\", câu phản hồi phù hợp là gì?",
       "options": [
-        "No, it was yesterday.",
-        "The temperature has gone down significantly since we entered the underground passage.",
         "They are not in the office.",
+        "The temperature has gone down significantly since we entered the underground passage.",
+        "No, it was yesterday.",
         "Yes, I will eat it."
       ],
       "correctAnswer": "The temperature has gone down significantly since we entered the underground passage.",
@@ -95,10 +95,10 @@
       "question": "Please slow ___, you are driving too fast.",
       "correctAnswer": "down",
       "options": [
+        "down",
         "up",
-        "out",
         "off",
-        "down"
+        "out"
       ],
       "explanationVi": "Đáp án đúng là \"down\". Câu hoàn chỉnh: \"Please slow down, you are driving too fast.\" (Xin vui lòng đi chậm lại, bạn đang lái xe quá nhanh.)."
     },
@@ -109,10 +109,10 @@
       "question": "Let's go ___ the presentation slides again.",
       "correctAnswer": "over",
       "options": [
-        "through",
-        "over",
         "off",
-        "in"
+        "in",
+        "through",
+        "over"
       ],
       "explanationVi": "Đáp án đúng là \"over\". Câu hoàn chỉnh: \"Let's go over the presentation slides again.\" (Chúng ta hãy cùng xem lại các slide thuyết trình một lần nữa.)."
     },
@@ -123,10 +123,10 @@
       "question": "If you keep ___ working hard, you will succeed.",
       "correctAnswer": "on",
       "options": [
+        "out",
         "on",
         "off",
-        "up",
-        "out"
+        "up"
       ],
       "explanationVi": "Đáp án đúng là \"on\". Câu hoàn chỉnh: \"If you keep on working hard, you will succeed.\" (Nếu bạn tiếp tục làm việc chăm chỉ, bạn sẽ thành công.)."
     },
@@ -137,9 +137,9 @@
       "question": "The firefighters managed to put ___ the fire.",
       "correctAnswer": "out",
       "options": [
+        "down",
         "on",
         "off",
-        "down",
         "out"
       ],
       "explanationVi": "Đáp án đúng là \"out\". Câu hoàn chỉnh: \"The firefighters managed to put out the fire.\" (Các chiến sĩ cứu hỏa đã cố gắng dập tắt ngọn lửa.)."
@@ -151,10 +151,10 @@
       "question": "Please _____ not down, you are driving too fast.",
       "correctAnswer": "slow",
       "options": [
-        "slow",
-        "is",
         "are",
-        "am"
+        "is",
+        "am",
+        "slow"
       ],
       "explanationVi": "Câu phủ định hoàn chỉnh: \"Please slow not down, you are driving too fast.\"."
     },
@@ -164,14 +164,14 @@
       "promptVi": "[Sắp xếp câu] Ghép các khối từ thành câu hoàn chỉnh mang nghĩa: \"Xin vui lòng đi chậm lại, bạn đang lái xe quá nhanh.\"",
       "question": "Sắp xếp các từ để tạo thành câu đúng: \"Xin vui lòng đi chậm lại, bạn đang lái xe quá nhanh.\"",
       "words": [
+        "too",
+        "you",
         "down,",
+        "slow",
+        "Please",
         "driving",
         "are",
-        "Please",
-        "fast.",
-        "you",
-        "too",
-        "slow"
+        "fast."
       ],
       "correctSentence": "Please slow down, you are driving too fast.",
       "hintVi": "Xin vui lòng đi chậm lại, bạn đang lái xe quá nhanh.",
@@ -183,12 +183,12 @@
       "promptVi": "[Sắp xếp câu] Ghép các khối từ thành câu hoàn chỉnh mang nghĩa: \"Chúng ta hãy cùng xem lại các slide thuyết trình một lần nữa.\"",
       "question": "Sắp xếp các từ để tạo thành câu đúng: \"Chúng ta hãy cùng xem lại các slide thuyết trình một lần nữa.\"",
       "words": [
+        "slides",
+        "over",
+        "go",
         "presentation",
         "the",
-        "slides",
-        "go",
         "again.",
-        "over",
         "Let's"
       ],
       "correctSentence": "Let's go over the presentation slides again.",
@@ -201,14 +201,14 @@
       "promptVi": "[Sắp xếp câu] Ghép các khối từ thành câu hoàn chỉnh mang nghĩa: \"Nếu bạn tiếp tục làm việc chăm chỉ, bạn sẽ thành công.\"",
       "question": "Sắp xếp các từ để tạo thành câu đúng: \"Nếu bạn tiếp tục làm việc chăm chỉ, bạn sẽ thành công.\"",
       "words": [
-        "If",
-        "on",
         "working",
         "hard,",
+        "on",
         "you",
-        "keep",
         "will",
         "succeed.",
+        "If",
+        "keep",
         "you"
       ],
       "correctSentence": "If you keep on working hard, you will succeed.",
@@ -221,14 +221,14 @@
       "promptVi": "[Sắp xếp câu] Ghép các khối từ thành câu hoàn chỉnh mang nghĩa: \"Các chiến sĩ cứu hỏa đã cố gắng dập tắt ngọn lửa.\"",
       "question": "Sắp xếp các từ để tạo thành câu đúng: \"Các chiến sĩ cứu hỏa đã cố gắng dập tắt ngọn lửa.\"",
       "words": [
+        "fire.",
         "firefighters",
-        "managed",
-        "put",
-        "out",
-        "The",
-        "to",
         "the",
-        "fire."
+        "out",
+        "put",
+        "managed",
+        "The",
+        "to"
       ],
       "correctSentence": "The firefighters managed to put out the fire.",
       "hintVi": "Các chiến sĩ cứu hỏa đã cố gắng dập tắt ngọn lửa.",
@@ -240,21 +240,21 @@
       "promptVi": "[Sắp xếp câu] Ghép các từ thành câu hội thoại: \"Coi chừng những tảng đá trơn trượt! Đừng để bị trượt chân và ngã xuống những măng đá sắc nhọn nhé. (fall down)\"",
       "question": "Sắp xếp các từ để tạo thành câu thoại: \"Coi chừng những tảng đá trơn trượt! Đừng để bị trượt chân và ngã xuống những măng đá sắc nhọn nhé. (fall down)\"",
       "words": [
+        "slip",
+        "Watch",
+        "and",
+        "out",
+        "for",
+        "rocks",
+        "slippery",
         "fall",
         "onto",
-        "slip",
-        "stalagmites",
-        "slippery",
-        "out",
-        "Do",
-        "rocky",
-        "and",
-        "Watch",
-        "not",
         "down",
+        "not",
+        "stalagmites",
         "the",
-        "rocks",
-        "for"
+        "rocky",
+        "Do"
       ],
       "correctSentence": "Watch out for slippery rocks! Do not slip and fall down onto the rocky stalagmites.",
       "hintVi": "Coi chừng những tảng đá trơn trượt! Đừng để bị trượt chân và ngã xuống những măng đá sắc nhọn nhé. (fall down)",
@@ -266,10 +266,10 @@
       "promptVi": "[Nhận diện cấu trúc chuẩn] Chọn câu có cấu trúc ngữ pháp HOÀN TOÀN ĐÚNG:",
       "question": "Dựa vào chủ điểm \"Bài 87: Cụm Động từ Theo Hướng & Vị trí (Directional & Positional Particles in Phrasal Verbs)\", câu nào sau đây CHÍNH XÁC?",
       "options": [
-        "is",
-        "Please slow down, you be driving too fast.",
         "Please slow down, you are driving too fast.",
-        "fast. too driving are you down, slow Please"
+        "Please slow down, you be driving too fast.",
+        "fast. too driving are you down, slow Please",
+        "is"
       ],
       "correctAnswer": "Please slow down, you are driving too fast.",
       "explanationVi": "Cấu trúc chuẩn xác là: \"Please slow down, you are driving too fast.\" (Xin vui lòng đi chậm lại, bạn đang lái xe quá nhanh.)."
@@ -281,8 +281,8 @@
       "question": "Dựa vào chủ điểm \"Bài 87: Cụm Động từ Theo Hướng & Vị trí (Directional & Positional Particles in Phrasal Verbs)\", câu nào sau đây CHÍNH XÁC?",
       "options": [
         "is",
-        "are",
         "again. slides presentation the over go Let's",
+        "are",
         "Let's go over the presentation slides again."
       ],
       "correctAnswer": "Let's go over the presentation slides again.",
@@ -296,8 +296,8 @@
       "options": [
         "If you keep on working hard, you will succeed.",
         "If you keep at working hard, you will succeed.",
-        "succeed. will you hard, working on keep you If",
-        "is"
+        "is",
+        "succeed. will you hard, working on keep you If"
       ],
       "correctAnswer": "If you keep on working hard, you will succeed.",
       "explanationVi": "Cấu trúc chuẩn xác là: \"If you keep on working hard, you will succeed.\" (Nếu bạn tiếp tục làm việc chăm chỉ, bạn sẽ thành công.)."
@@ -308,10 +308,10 @@
       "promptVi": "[Nhận diện cấu trúc chuẩn] Chọn câu có cấu trúc ngữ pháp HOÀN TOÀN ĐÚNG:",
       "question": "Dựa vào chủ điểm \"Bài 87: Cụm Động từ Theo Hướng & Vị trí (Directional & Positional Particles in Phrasal Verbs)\", câu nào sau đây CHÍNH XÁC?",
       "options": [
-        "is",
         "The firefighters managed to put out the fire.",
-        "The firefighters managed at put out the fire.",
-        "fire. the out put to managed firefighters The"
+        "is",
+        "fire. the out put to managed firefighters The",
+        "The firefighters managed at put out the fire."
       ],
       "correctAnswer": "The firefighters managed to put out the fire.",
       "explanationVi": "Cấu trúc chuẩn xác là: \"The firefighters managed to put out the fire.\" (Các chiến sĩ cứu hỏa đã cố gắng dập tắt ngọn lửa.)."
@@ -323,10 +323,10 @@
       "audioPrompt": "Good morning, hikers! Put on your safety helmets before we go into the limestone cave system.",
       "question": "Nhấn nút '🔊 Nghe audio' và chọn nghĩa tiếng Việt đúng:",
       "options": [
-        "Chào buổi sáng các bạn đi bộ đường dài! Hãy đội mũ bảo hiểm an toàn vào trước khi chúng ta đi vào trong hệ thống hang đá vôi. (Put on / go into)",
-        "Nhiệt độ đã giảm xuống đáng kể kể từ khi chúng ta bước vào lối đi dưới lòng đất. (go down = giảm xuống/hạ nhiệt)",
+        "Hôm nay thời tiết rất đẹp.",
         "Coi chừng những tảng đá trơn trượt! Đừng để bị trượt chân và ngã xuống những măng đá sắc nhọn nhé. (fall down)",
-        "Hôm nay thời tiết rất đẹp."
+        "Nhiệt độ đã giảm xuống đáng kể kể từ khi chúng ta bước vào lối đi dưới lòng đất. (go down = giảm xuống/hạ nhiệt)",
+        "Chào buổi sáng các bạn đi bộ đường dài! Hãy đội mũ bảo hiểm an toàn vào trước khi chúng ta đi vào trong hệ thống hang đá vôi. (Put on / go into)"
       ],
       "correctAnswer": "Chào buổi sáng các bạn đi bộ đường dài! Hãy đội mũ bảo hiểm an toàn vào trước khi chúng ta đi vào trong hệ thống hang đá vôi. (Put on / go into)",
       "explanationVi": "Câu nghe được: \"Good morning, hikers! Put on your safety helmets before we go into the limestone cave system.\" có nghĩa là: \"Chào buổi sáng các bạn đi bộ đường dài! Hãy đội mũ bảo hiểm an toàn vào trước khi chúng ta đi vào trong hệ thống hang đá vôi. (Put on / go into)\"."
@@ -338,9 +338,9 @@
       "audioPrompt": "The temperature has gone down significantly since we entered the underground passage.",
       "question": "Nhấn nút '🔊 Nghe audio' và chọn nghĩa tiếng Việt đúng:",
       "options": [
+        "Đội của chúng ta có thể chui lọt qua khe nứt đá hẹp này mà không cần cởi ba lô nặng ra không? (get through / take off)",
         "Coi chừng những tảng đá trơn trượt! Đừng để bị trượt chân và ngã xuống những măng đá sắc nhọn nhé. (fall down)",
         "Nhiệt độ đã giảm xuống đáng kể kể từ khi chúng ta bước vào lối đi dưới lòng đất. (go down = giảm xuống/hạ nhiệt)",
-        "Đội của chúng ta có thể chui lọt qua khe nứt đá hẹp này mà không cần cởi ba lô nặng ra không? (get through / take off)",
         "Hôm nay thời tiết rất đẹp."
       ],
       "correctAnswer": "Nhiệt độ đã giảm xuống đáng kể kể từ khi chúng ta bước vào lối đi dưới lòng đất. (go down = giảm xuống/hạ nhiệt)",
@@ -368,9 +368,9 @@
       "audioPrompt": "Can our team get through this narrow rock fissure without taking off our heavy backpacks?",
       "question": "Nhấn nút '🔊 Nghe audio' và chọn nghĩa tiếng Việt đúng:",
       "options": [
+        "Hôm nay thời tiết rất đẹp.",
         "Hãy nhìn lên trần vòm hang kìa! Hàng ngàn con dơi đang treo ngược người phía trên chúng ta. (Look up)",
         "Chúng ta có thể lách qua dễ dàng. Hãy vặn tăng độ sáng đèn pin đội đầu lên để chúng ta có thể nhìn ngắm xung quanh kỹ lưỡng. (turn up / look around)",
-        "Hôm nay thời tiết rất đẹp.",
         "Đội của chúng ta có thể chui lọt qua khe nứt đá hẹp này mà không cần cởi ba lô nặng ra không? (get through / take off)"
       ],
       "correctAnswer": "Đội của chúng ta có thể chui lọt qua khe nứt đá hẹp này mà không cần cởi ba lô nặng ra không? (get through / take off)",
@@ -434,10 +434,10 @@
       "passage": "Trek Leader Bruce: \"We can squeeze through easily. Turn up your headlamp brightness so we can look around thoroughly.\"\nHiker Jessica: \"Look up at the cathedral ceiling! Thousands of bats are hanging upside down above us.\"\nTrek Leader Bruce: \"Let's come out onto the sunlit valley terrace on the opposite side of the mountain ridge.\"\nHiker Jessica: \"I am so glad we went through with this adventurous mountain expedition today.\"",
       "question": "Trong đoạn hội thoại trên, câu nói \"I am so glad we went through with this adventurous mountain expedition today.\" của Hiker Jessica mang ý nghĩa gì?",
       "options": [
-        "Phản hồi: \"Tôi rất vui vì chúng ta đã kiên trì thực hiện trọn vẹn chuyến thám hiểm leo núi phiêu lưu này hôm nay. (go through with)\"",
-        "Phản hồi: \"Hoàn toàn không đồng ý và muốn rời khỏi phòng ngay lập tức\"",
+        "Phản hồi: \"Yêu cầu cung cấp hóa đơn thanh toán tiền mặt\"",
         "Phản hồi: \"Hẹn gặp lại vào cuối tuần sau tại sân bay quốc tế\"",
-        "Phản hồi: \"Yêu cầu cung cấp hóa đơn thanh toán tiền mặt\""
+        "Phản hồi: \"Hoàn toàn không đồng ý và muốn rời khỏi phòng ngay lập tức\"",
+        "Phản hồi: \"Tôi rất vui vì chúng ta đã kiên trì thực hiện trọn vẹn chuyến thám hiểm leo núi phiêu lưu này hôm nay. (go through with)\""
       ],
       "correctAnswer": "Phản hồi: \"Tôi rất vui vì chúng ta đã kiên trì thực hiện trọn vẹn chuyến thám hiểm leo núi phiêu lưu này hôm nay. (go through with)\"",
       "explanationVi": "Hiker Jessica nói: \"I am so glad we went through with this adventurous mountain expedition today.\" có nghĩa là: \"Tôi rất vui vì chúng ta đã kiên trì thực hiện trọn vẹn chuyến thám hiểm leo núi phiêu lưu này hôm nay. (go through with)\"."

@@ -11,9 +11,9 @@
       "question": "___ are you now?",
       "options": [
         "How",
+        "What",
         "Where",
-        "Who",
-        "What"
+        "Who"
       ],
       "correctAnswer": "Where",
       "explanationVi": "Hỏi về vị trí 'ở đâu' dùng từ để hỏi 'Where'."
@@ -24,9 +24,9 @@
       "promptVi": "[Trắc nghiệm ngữ pháp] Chọn từ đúng để hoàn thành câu (Người thanh niên kia là ai?):",
       "question": "___ is that young man?",
       "options": [
-        "Who",
-        "What",
         "Where",
+        "What",
+        "Who",
         "How"
       ],
       "correctAnswer": "Who",
@@ -52,9 +52,9 @@
       "promptVi": "[Trắc nghiệm ngữ pháp] Chọn từ đúng để hoàn thành câu (Địa chỉ email của bạn là gì?):",
       "question": "___ is your email address?",
       "options": [
+        "Where",
         "Who",
         "How",
-        "Where",
         "What"
       ],
       "correctAnswer": "What",
@@ -66,10 +66,10 @@
       "promptVi": "[Phản xạ dịch thuật] Dịch câu sau sang tiếng Anh: \"Chào Susan! Bây giờ bạn đang ở đâu thế?\"",
       "question": "Chọn bản dịch chuẩn xác nhất cho câu: \"Chào Susan! Bây giờ bạn đang ở đâu thế?\"",
       "options": [
-        "We are studying English today.",
+        "I am at the bookstore near the central park.",
         "Hello Susan! Where are you right now?",
         "Hello Susan! Where be you right now?",
-        "I am at the bookstore near the central park."
+        "We are studying English today."
       ],
       "correctAnswer": "Hello Susan! Where are you right now?",
       "explanationVi": "Câu dịch chuẩn xác: \"Hello Susan! Where are you right now?\" (Chào Susan! Bây giờ bạn đang ở đâu thế?)."
@@ -80,10 +80,10 @@
       "promptVi": "[Ngữ cảnh giao tiếp] Chọn câu phản hồi tự nhiên và đúng ngữ pháp:",
       "question": "Khi đối phương nói: \"Hello Susan! Where are you right now?\", câu phản hồi phù hợp là gì?",
       "options": [
-        "Yes, I will eat it.",
+        "I am at the bookstore near the central park.",
         "No, it was yesterday.",
-        "They are not in the office.",
-        "I am at the bookstore near the central park."
+        "Yes, I will eat it.",
+        "They are not in the office."
       ],
       "correctAnswer": "I am at the bookstore near the central park.",
       "explanationVi": "Phản hồi phù hợp trong bài: \"I am at the bookstore near the central park.\" (Tôi đang ở hiệu sách gần công viên trung tâm.)."
@@ -97,8 +97,8 @@
       "options": [
         "Where",
         "Who",
-        "What",
-        "How"
+        "How",
+        "What"
       ],
       "explanationVi": "Đáp án đúng là \"Where\". Câu hoàn chỉnh: \"Where are you now?\" (Bây giờ bạn đang ở đâu?)."
     },
@@ -125,8 +125,8 @@
       "options": [
         "Which",
         "Where",
-        "How",
-        "Who"
+        "Who",
+        "How"
       ],
       "explanationVi": "Đáp án đúng là \"How\". Câu hoàn chỉnh: \"How is the weather today?\" (Thời tiết hôm nay thế nào?)."
     },
@@ -137,10 +137,10 @@
       "question": "___ is your email address?",
       "correctAnswer": "What",
       "options": [
-        "Who",
-        "Where",
         "How",
-        "What"
+        "What",
+        "Where",
+        "Who"
       ],
       "explanationVi": "Đáp án đúng là \"What\". Câu hoàn chỉnh: \"What is your email address?\" (Địa chỉ email của bạn là gì?)."
     },
@@ -151,9 +151,9 @@
       "question": "Where _____ not you now?",
       "correctAnswer": "are",
       "options": [
-        "is",
         "do",
         "am",
+        "is",
         "are"
       ],
       "explanationVi": "Câu phủ định hoàn chỉnh: \"Where are not you now?\"."
@@ -179,11 +179,11 @@
       "promptVi": "[Sắp xếp câu] Ghép các khối từ thành câu hoàn chỉnh mang nghĩa: \"Người thanh niên kia là ai?\"",
       "question": "Sắp xếp các từ để tạo thành câu đúng: \"Người thanh niên kia là ai?\"",
       "words": [
-        "man?",
-        "young",
+        "Who",
         "is",
         "that",
-        "Who"
+        "young",
+        "man?"
       ],
       "correctSentence": "Who is that young man?",
       "hintVi": "Người thanh niên kia là ai?",
@@ -195,11 +195,11 @@
       "promptVi": "[Sắp xếp câu] Ghép các khối từ thành câu hoàn chỉnh mang nghĩa: \"Thời tiết hôm nay thế nào?\"",
       "question": "Sắp xếp các từ để tạo thành câu đúng: \"Thời tiết hôm nay thế nào?\"",
       "words": [
+        "today?",
         "How",
-        "is",
-        "the",
         "weather",
-        "today?"
+        "is",
+        "the"
       ],
       "correctSentence": "How is the weather today?",
       "hintVi": "Thời tiết hôm nay thế nào?",
@@ -211,10 +211,10 @@
       "promptVi": "[Sắp xếp câu] Ghép các khối từ thành câu hoàn chỉnh mang nghĩa: \"Địa chỉ email của bạn là gì?\"",
       "question": "Sắp xếp các từ để tạo thành câu đúng: \"Địa chỉ email của bạn là gì?\"",
       "words": [
-        "is",
         "email",
-        "address?",
         "What",
+        "address?",
+        "is",
         "your"
       ],
       "correctSentence": "What is your email address?",
@@ -228,12 +228,12 @@
       "question": "Sắp xếp các từ để tạo thành câu thoại: \"Cô gái bên cạnh bạn là ai vậy?\"",
       "words": [
         "Who",
-        "you",
         "is",
         "to",
         "girl",
+        "that",
         "next",
-        "that"
+        "you"
       ],
       "correctSentence": "Who is that girl next to you?",
       "hintVi": "Cô gái bên cạnh bạn là ai vậy?",
@@ -245,10 +245,10 @@
       "promptVi": "[Nhận diện cấu trúc chuẩn] Chọn câu có cấu trúc ngữ pháp HOÀN TOÀN ĐÚNG:",
       "question": "Dựa vào chủ điểm \"Bài 5: Động từ To Be — Hiện tại Đơn (Câu hỏi Wh- Word: Where / Who / How / What)\", câu nào sau đây CHÍNH XÁC?",
       "options": [
-        "Where are you now?",
         "Where be you now?",
-        "is",
-        "now? you are Where"
+        "Where are you now?",
+        "now? you are Where",
+        "is"
       ],
       "correctAnswer": "Where are you now?",
       "explanationVi": "Cấu trúc chuẩn xác là: \"Where are you now?\" (Bây giờ bạn đang ở đâu?)."
@@ -259,10 +259,10 @@
       "promptVi": "[Nhận diện cấu trúc chuẩn] Chọn câu có cấu trúc ngữ pháp HOÀN TOÀN ĐÚNG:",
       "question": "Dựa vào chủ điểm \"Bài 5: Động từ To Be — Hiện tại Đơn (Câu hỏi Wh- Word: Where / Who / How / What)\", câu nào sau đây CHÍNH XÁC?",
       "options": [
-        "Who be that young man?",
         "is",
-        "Who is that young man?",
-        "man? young that is Who"
+        "man? young that is Who",
+        "Who be that young man?",
+        "Who is that young man?"
       ],
       "correctAnswer": "Who is that young man?",
       "explanationVi": "Cấu trúc chuẩn xác là: \"Who is that young man?\" (Người thanh niên kia là ai?)."
@@ -273,10 +273,10 @@
       "promptVi": "[Nhận diện cấu trúc chuẩn] Chọn câu có cấu trúc ngữ pháp HOÀN TOÀN ĐÚNG:",
       "question": "Dựa vào chủ điểm \"Bài 5: Động từ To Be — Hiện tại Đơn (Câu hỏi Wh- Word: Where / Who / How / What)\", câu nào sau đây CHÍNH XÁC?",
       "options": [
-        "How is the weather today?",
-        "How be the weather today?",
+        "is",
         "today? weather the is How",
-        "is"
+        "How be the weather today?",
+        "How is the weather today?"
       ],
       "correctAnswer": "How is the weather today?",
       "explanationVi": "Cấu trúc chuẩn xác là: \"How is the weather today?\" (Thời tiết hôm nay thế nào?)."
@@ -287,10 +287,10 @@
       "promptVi": "[Nhận diện cấu trúc chuẩn] Chọn câu có cấu trúc ngữ pháp HOÀN TOÀN ĐÚNG:",
       "question": "Dựa vào chủ điểm \"Bài 5: Động từ To Be — Hiện tại Đơn (Câu hỏi Wh- Word: Where / Who / How / What)\", câu nào sau đây CHÍNH XÁC?",
       "options": [
-        "is",
         "address? email your is What",
         "What be your email address?",
-        "What is your email address?"
+        "What is your email address?",
+        "is"
       ],
       "correctAnswer": "What is your email address?",
       "explanationVi": "Cấu trúc chuẩn xác là: \"What is your email address?\" (Địa chỉ email của bạn là gì?)."
@@ -302,9 +302,9 @@
       "audioPrompt": "Hello Susan! Where are you right now?",
       "question": "Nhấn nút '🔊 Nghe audio' và chọn nghĩa tiếng Việt đúng:",
       "options": [
-        "Cô gái bên cạnh bạn là ai vậy?",
-        "Tôi đang ở hiệu sách gần công viên trung tâm.",
         "Chào Susan! Bây giờ bạn đang ở đâu thế?",
+        "Tôi đang ở hiệu sách gần công viên trung tâm.",
+        "Cô gái bên cạnh bạn là ai vậy?",
         "Hôm nay thời tiết rất đẹp."
       ],
       "correctAnswer": "Chào Susan! Bây giờ bạn đang ở đâu thế?",
@@ -317,9 +317,9 @@
       "audioPrompt": "I am at the bookstore near the central park.",
       "question": "Nhấn nút '🔊 Nghe audio' và chọn nghĩa tiếng Việt đúng:",
       "options": [
-        "Cô ấy là bạn cùng lớp của tôi, Mary. Cô ấy rất thân thiện.",
-        "Cô gái bên cạnh bạn là ai vậy?",
         "Tôi đang ở hiệu sách gần công viên trung tâm.",
+        "Cô gái bên cạnh bạn là ai vậy?",
+        "Cô ấy là bạn cùng lớp của tôi, Mary. Cô ấy rất thân thiện.",
         "Hôm nay thời tiết rất đẹp."
       ],
       "correctAnswer": "Tôi đang ở hiệu sách gần công viên trung tâm.",
@@ -332,10 +332,10 @@
       "audioPrompt": "Who is that girl next to you?",
       "question": "Nhấn nút '🔊 Nghe audio' và chọn nghĩa tiếng Việt đúng:",
       "options": [
-        "Cô gái bên cạnh bạn là ai vậy?",
         "Cô ấy là bạn cùng lớp của tôi, Mary. Cô ấy rất thân thiện.",
-        "Không khí ở hiệu sách thế nào?",
-        "Hôm nay thời tiết rất đẹp."
+        "Hôm nay thời tiết rất đẹp.",
+        "Cô gái bên cạnh bạn là ai vậy?",
+        "Không khí ở hiệu sách thế nào?"
       ],
       "correctAnswer": "Cô gái bên cạnh bạn là ai vậy?",
       "explanationVi": "Câu nghe được: \"Who is that girl next to you?\" có nghĩa là: \"Cô gái bên cạnh bạn là ai vậy?\"."
@@ -347,10 +347,10 @@
       "audioPrompt": "She is my classmate, Mary. She is very friendly.",
       "question": "Nhấn nút '🔊 Nghe audio' và chọn nghĩa tiếng Việt đúng:",
       "options": [
-        "Cô ấy là bạn cùng lớp của tôi, Mary. Cô ấy rất thân thiện.",
-        "Không khí ở hiệu sách thế nào?",
         "Nó rất yên tĩnh và bình yên!",
-        "Hôm nay thời tiết rất đẹp."
+        "Cô ấy là bạn cùng lớp của tôi, Mary. Cô ấy rất thân thiện.",
+        "Hôm nay thời tiết rất đẹp.",
+        "Không khí ở hiệu sách thế nào?"
       ],
       "correctAnswer": "Cô ấy là bạn cùng lớp của tôi, Mary. Cô ấy rất thân thiện.",
       "explanationVi": "Câu nghe được: \"She is my classmate, Mary. She is very friendly.\" có nghĩa là: \"Cô ấy là bạn cùng lớp của tôi, Mary. Cô ấy rất thân thiện.\"."
@@ -398,10 +398,10 @@
       "passage": "Daniel: \"Hello Susan! Where are you right now?\"\nSusan: \"I am at the bookstore near the central park.\"\nDaniel: \"Who is that girl next to you?\"\nSusan: \"She is my classmate, Mary. She is very friendly.\"",
       "question": "Dựa vào đoạn đối thoại trên, thông tin nào sau đây là CHÍNH XÁC về nội dung câu nói của Daniel?",
       "options": [
-        "Daniel muốn mượn tiền để mua vé máy bay gấp.",
-        "Daniel chia sẻ thông tin: \"Chào Susan! Bây giờ bạn đang ở đâu thế?\"",
         "Daniel phàn nàn rằng thời tiết hôm nay quá xấu.",
-        "Daniel từ chối trả lời và yêu cầu hủy cuộc hẹn."
+        "Daniel từ chối trả lời và yêu cầu hủy cuộc hẹn.",
+        "Daniel chia sẻ thông tin: \"Chào Susan! Bây giờ bạn đang ở đâu thế?\"",
+        "Daniel muốn mượn tiền để mua vé máy bay gấp."
       ],
       "correctAnswer": "Daniel chia sẻ thông tin: \"Chào Susan! Bây giờ bạn đang ở đâu thế?\"",
       "explanationVi": "Trong đoạn hội thoại, Daniel đã nói: \"Hello Susan! Where are you right now?\" (nghĩa là: \"Chào Susan! Bây giờ bạn đang ở đâu thế?\")."
@@ -413,10 +413,10 @@
       "passage": "Daniel: \"Who is that girl next to you?\"\nSusan: \"She is my classmate, Mary. She is very friendly.\"\nDaniel: \"How is the atmosphere at the bookstore?\"\nSusan: \"It is very quiet and peaceful!\"",
       "question": "Trong đoạn hội thoại trên, câu nói \"It is very quiet and peaceful!\" của Susan mang ý nghĩa gì?",
       "options": [
-        "Phản hồi: \"Hoàn toàn không đồng ý và muốn rời khỏi phòng ngay lập tức\"",
-        "Phản hồi: \"Nó rất yên tĩnh và bình yên!\"",
         "Phản hồi: \"Hẹn gặp lại vào cuối tuần sau tại sân bay quốc tế\"",
-        "Phản hồi: \"Yêu cầu cung cấp hóa đơn thanh toán tiền mặt\""
+        "Phản hồi: \"Nó rất yên tĩnh và bình yên!\"",
+        "Phản hồi: \"Yêu cầu cung cấp hóa đơn thanh toán tiền mặt\"",
+        "Phản hồi: \"Hoàn toàn không đồng ý và muốn rời khỏi phòng ngay lập tức\""
       ],
       "correctAnswer": "Phản hồi: \"Nó rất yên tĩnh và bình yên!\"",
       "explanationVi": "Susan nói: \"It is very quiet and peaceful!\" có nghĩa là: \"Nó rất yên tĩnh và bình yên!\"."

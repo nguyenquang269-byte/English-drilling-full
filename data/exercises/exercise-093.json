@@ -11,8 +11,8 @@
       "question": "Remember ___ the door before you leave.",
       "options": [
         "to lock",
-        "lock",
         "locking",
+        "lock",
         "locked"
       ],
       "correctAnswer": "to lock",
@@ -24,10 +24,10 @@
       "promptVi": "[Trắc nghiệm ngữ pháp] Chọn từ đúng để hoàn thành câu (Anh ấy đã dừng lại để mua một tờ báo trên đường về nhà.):",
       "question": "He stopped ___ a newspaper on his way home.",
       "options": [
-        "bought",
-        "buy",
+        "to buy",
         "buying",
-        "to buy"
+        "buy",
+        "bought"
       ],
       "correctAnswer": "to buy",
       "explanationVi": "Dừng lại để thực hiện mục đích mua báo dùng 'stopped to buy'."
@@ -38,8 +38,8 @@
       "promptVi": "[Trắc nghiệm ngữ pháp] Chọn từ đúng để hoàn thành câu (Tôi đã cố gắng giải câu đố toán học đó, nhưng nó quá khó.):",
       "question": "I tried ___ the math puzzle, but it was too difficult.",
       "options": [
-        "solving",
         "to solve",
+        "solving",
         "solve",
         "solved"
       ],
@@ -66,10 +66,10 @@
       "promptVi": "[Phản xạ dịch thuật] Dịch câu sau sang tiếng Anh: \"Chào buổi sáng Rachel. Bạn đã nhớ in thẻ lên máy bay điện tử cho chuyến bay đi Tokyo chưa? (remember to print = nhớ phải làm)\"",
       "question": "Chọn bản dịch chuẩn xác nhất cho câu: \"Chào buổi sáng Rachel. Bạn đã nhớ in thẻ lên máy bay điện tử cho chuyến bay đi Tokyo chưa? (remember to print = nhớ phải làm)\"",
       "options": [
-        "Good morning, Rachel. be you remember to print your electronic boarding pass for the Tokyo flight?",
-        "Good morning, Rachel. Did you remember to print your electronic boarding pass for the Tokyo flight?",
         "Yes, I distinctly remember printing three copies and putting them inside my leather travel folder.",
-        "We are studying English today."
+        "We are studying English today.",
+        "Good morning, Rachel. Did you remember to print your electronic boarding pass for the Tokyo flight?",
+        "Good morning, Rachel. be you remember to print your electronic boarding pass for the Tokyo flight?"
       ],
       "correctAnswer": "Good morning, Rachel. Did you remember to print your electronic boarding pass for the Tokyo flight?",
       "explanationVi": "Câu dịch chuẩn xác: \"Good morning, Rachel. Did you remember to print your electronic boarding pass for the Tokyo flight?\" (Chào buổi sáng Rachel. Bạn đã nhớ in thẻ lên máy bay điện tử cho chuyến bay đi Tokyo chưa? (remember to print = nhớ phải làm))."
@@ -82,8 +82,8 @@
       "options": [
         "No, it was yesterday.",
         "They are not in the office.",
-        "Yes, I distinctly remember printing three copies and putting them inside my leather travel folder.",
-        "Yes, I will eat it."
+        "Yes, I will eat it.",
+        "Yes, I distinctly remember printing three copies and putting them inside my leather travel folder."
       ],
       "correctAnswer": "Yes, I distinctly remember printing three copies and putting them inside my leather travel folder.",
       "explanationVi": "Phản hồi phù hợp trong bài: \"Yes, I distinctly remember printing three copies and putting them inside my leather travel folder.\" (Vâng, tôi nhớ rất rõ là đã in ba bản và cất chúng vào bên trong tập hồ sơ du lịch bằng da của mình rồi. (remember printing = nhớ đã làm))."
@@ -95,10 +95,10 @@
       "question": "Remember ___ the door before you leave.",
       "correctAnswer": "to lock",
       "options": [
-        "locked",
+        "lock",
         "locking",
         "to lock",
-        "lock"
+        "locked"
       ],
       "explanationVi": "Đáp án đúng là \"to lock\". Câu hoàn chỉnh: \"Remember to lock the door before you leave.\" (Hãy nhớ khóa cửa trước khi bạn rời đi.)."
     },
@@ -124,8 +124,8 @@
       "correctAnswer": "to solve",
       "options": [
         "solved",
-        "solve",
         "solving",
+        "solve",
         "to solve"
       ],
       "explanationVi": "Đáp án đúng là \"to solve\". Câu hoàn chỉnh: \"I tried to solve the math puzzle, but it was too difficult.\" (Tôi đã cố gắng giải câu đố toán học đó, nhưng nó quá khó.)."
@@ -137,10 +137,10 @@
       "question": "We regret ___ you that your flight is delayed.",
       "correctAnswer": "to inform",
       "options": [
-        "to inform",
-        "inform",
         "informing",
-        "informed"
+        "informed",
+        "inform",
+        "to inform"
       ],
       "explanationVi": "Đáp án đúng là \"to inform\". Câu hoàn chỉnh: \"We regret to inform you that your flight is delayed.\" (Chúng tôi rất tiếc phải thông báo với quý khách rằng chuyến bay của quý khách bị hoãn.)."
     },
@@ -152,9 +152,9 @@
       "correctAnswer": "to",
       "options": [
         "to",
-        "am",
+        "are",
         "is",
-        "are"
+        "am"
       ],
       "explanationVi": "Câu phủ định hoàn chỉnh: \"Remember to not lock the door before you leave.\"."
     },
@@ -164,14 +164,14 @@
       "promptVi": "[Sắp xếp câu] Ghép các khối từ thành câu hoàn chỉnh mang nghĩa: \"Hãy nhớ khóa cửa trước khi bạn rời đi.\"",
       "question": "Sắp xếp các từ để tạo thành câu đúng: \"Hãy nhớ khóa cửa trước khi bạn rời đi.\"",
       "words": [
+        "Remember",
         "leave.",
         "door",
-        "the",
-        "you",
-        "Remember",
+        "lock",
         "to",
+        "you",
         "before",
-        "lock"
+        "the"
       ],
       "correctSentence": "Remember to lock the door before you leave.",
       "hintVi": "Hãy nhớ khóa cửa trước khi bạn rời đi.",
@@ -183,16 +183,16 @@
       "promptVi": "[Sắp xếp câu] Ghép các khối từ thành câu hoàn chỉnh mang nghĩa: \"Anh ấy đã dừng lại để mua một tờ báo trên đường về nhà.\"",
       "question": "Sắp xếp các từ để tạo thành câu đúng: \"Anh ấy đã dừng lại để mua một tờ báo trên đường về nhà.\"",
       "words": [
-        "to",
         "his",
-        "newspaper",
-        "a",
-        "on",
         "way",
-        "stopped",
-        "buy",
+        "to",
+        "home.",
         "He",
-        "home."
+        "on",
+        "buy",
+        "stopped",
+        "newspaper",
+        "a"
       ],
       "correctSentence": "He stopped to buy a newspaper on his way home.",
       "hintVi": "Anh ấy đã dừng lại để mua một tờ báo trên đường về nhà.",
@@ -205,17 +205,17 @@
       "question": "Sắp xếp các từ để tạo thành câu đúng: \"Tôi đã cố gắng giải câu đố toán học đó, nhưng nó quá khó.\"",
       "words": [
         "it",
-        "was",
         "difficult.",
-        "solve",
-        "but",
-        "I",
-        "to",
-        "too",
         "the",
         "puzzle,",
         "math",
-        "tried"
+        "to",
+        "but",
+        "too",
+        "solve",
+        "tried",
+        "I",
+        "was"
       ],
       "correctSentence": "I tried to solve the math puzzle, but it was too difficult.",
       "hintVi": "Tôi đã cố gắng giải câu đố toán học đó, nhưng nó quá khó.",
@@ -227,16 +227,16 @@
       "promptVi": "[Sắp xếp câu] Ghép các khối từ thành câu hoàn chỉnh mang nghĩa: \"Chúng tôi rất tiếc phải thông báo với quý khách rằng chuyến bay của quý khách bị hoãn.\"",
       "question": "Sắp xếp các từ để tạo thành câu đúng: \"Chúng tôi rất tiếc phải thông báo với quý khách rằng chuyến bay của quý khách bị hoãn.\"",
       "words": [
-        "flight",
-        "is",
-        "your",
-        "delayed.",
-        "that",
-        "inform",
-        "you",
-        "to",
         "We",
-        "regret"
+        "delayed.",
+        "is",
+        "flight",
+        "to",
+        "you",
+        "your",
+        "that",
+        "regret",
+        "inform"
       ],
       "correctSentence": "We regret to inform you that your flight is delayed.",
       "hintVi": "Chúng tôi rất tiếc phải thông báo với quý khách rằng chuyến bay của quý khách bị hoãn.",
@@ -248,22 +248,22 @@
       "promptVi": "[Sắp xếp câu] Ghép các từ thành câu hội thoại: \"Xin đừng quên khóa các tủ lưu trữ tài liệu văn phòng trước khi bạn khởi hành ra ga quốc tế nhé. (forget to lock = quên không làm)\"",
       "question": "Sắp xếp các từ để tạo thành câu thoại: \"Xin đừng quên khóa các tủ lưu trữ tài liệu văn phòng trước khi bạn khởi hành ra ga quốc tế nhé. (forget to lock = quên không làm)\"",
       "words": [
-        "international",
-        "office",
-        "Please",
-        "to",
-        "you",
-        "the",
-        "leave",
-        "cabinets",
         "archive",
-        "forget",
+        "before",
+        "the",
+        "you",
+        "terminal",
+        "the",
+        "office",
+        "to",
         "lock",
         "for",
-        "before",
-        "terminal",
+        "forget",
         "don't",
-        "the"
+        "cabinets",
+        "Please",
+        "leave",
+        "international"
       ],
       "correctSentence": "Please don't forget to lock the office archive cabinets before you leave for the international terminal.",
       "hintVi": "Xin đừng quên khóa các tủ lưu trữ tài liệu văn phòng trước khi bạn khởi hành ra ga quốc tế nhé. (forget to lock = quên không làm)",
@@ -275,9 +275,9 @@
       "promptVi": "[Nhận diện cấu trúc chuẩn] Chọn câu có cấu trúc ngữ pháp HOÀN TOÀN ĐÚNG:",
       "question": "Dựa vào chủ điểm \"Bài 93: Động từ Theo sau 2 Dạng Khác Biệt Nghĩa (To-Infinitive vs. Gerund Meaning Shifts: Remember / Stop / Try / Regret / Forget)\", câu nào sau đây CHÍNH XÁC?",
       "options": [
+        "is",
         "leave. you before door the lock to Remember",
         "Remember at lock the door before you leave.",
-        "is",
         "Remember to lock the door before you leave."
       ],
       "correctAnswer": "Remember to lock the door before you leave.",
@@ -289,10 +289,10 @@
       "promptVi": "[Nhận diện cấu trúc chuẩn] Chọn câu có cấu trúc ngữ pháp HOÀN TOÀN ĐÚNG:",
       "question": "Dựa vào chủ điểm \"Bài 93: Động từ Theo sau 2 Dạng Khác Biệt Nghĩa (To-Infinitive vs. Gerund Meaning Shifts: Remember / Stop / Try / Regret / Forget)\", câu nào sau đây CHÍNH XÁC?",
       "options": [
-        "He stopped at buy a newspaper on his way home.",
-        "He stopped to buy a newspaper on his way home.",
         "home. way his on newspaper a buy to stopped He",
-        "is"
+        "He stopped at buy a newspaper on his way home.",
+        "is",
+        "He stopped to buy a newspaper on his way home."
       ],
       "correctAnswer": "He stopped to buy a newspaper on his way home.",
       "explanationVi": "Cấu trúc chuẩn xác là: \"He stopped to buy a newspaper on his way home.\" (Anh ấy đã dừng lại để mua một tờ báo trên đường về nhà.)."
@@ -317,9 +317,9 @@
       "promptVi": "[Nhận diện cấu trúc chuẩn] Chọn câu có cấu trúc ngữ pháp HOÀN TOÀN ĐÚNG:",
       "question": "Dựa vào chủ điểm \"Bài 93: Động từ Theo sau 2 Dạng Khác Biệt Nghĩa (To-Infinitive vs. Gerund Meaning Shifts: Remember / Stop / Try / Regret / Forget)\", câu nào sau đây CHÍNH XÁC?",
       "options": [
-        "We regret to inform you that your flight is delayed.",
         "We regret to inform you that your flight be delayed.",
         "delayed. is flight your that you inform to regret We",
+        "We regret to inform you that your flight is delayed.",
         "We regret at inform you that your flight is delayed."
       ],
       "correctAnswer": "We regret to inform you that your flight is delayed.",
@@ -333,8 +333,8 @@
       "question": "Nhấn nút '🔊 Nghe audio' và chọn nghĩa tiếng Việt đúng:",
       "options": [
         "Xin đừng quên khóa các tủ lưu trữ tài liệu văn phòng trước khi bạn khởi hành ra ga quốc tế nhé. (forget to lock = quên không làm)",
-        "Chào buổi sáng Rachel. Bạn đã nhớ in thẻ lên máy bay điện tử cho chuyến bay đi Tokyo chưa? (remember to print = nhớ phải làm)",
         "Vâng, tôi nhớ rất rõ là đã in ba bản và cất chúng vào bên trong tập hồ sơ du lịch bằng da của mình rồi. (remember printing = nhớ đã làm)",
+        "Chào buổi sáng Rachel. Bạn đã nhớ in thẻ lên máy bay điện tử cho chuyến bay đi Tokyo chưa? (remember to print = nhớ phải làm)",
         "Hôm nay thời tiết rất đẹp."
       ],
       "correctAnswer": "Chào buổi sáng Rachel. Bạn đã nhớ in thẻ lên máy bay điện tử cho chuyến bay đi Tokyo chưa? (remember to print = nhớ phải làm)",
@@ -349,8 +349,8 @@
       "options": [
         "Tôi sẽ không bao giờ quên lần đã để quên chìa khóa bên trong chiếc két sắt cũ trong tuần đầu tiên đi làm! (forget locking = quên ký ức đã làm)",
         "Hôm nay thời tiết rất đẹp.",
-        "Vâng, tôi nhớ rất rõ là đã in ba bản và cất chúng vào bên trong tập hồ sơ du lịch bằng da của mình rồi. (remember printing = nhớ đã làm)",
-        "Xin đừng quên khóa các tủ lưu trữ tài liệu văn phòng trước khi bạn khởi hành ra ga quốc tế nhé. (forget to lock = quên không làm)"
+        "Xin đừng quên khóa các tủ lưu trữ tài liệu văn phòng trước khi bạn khởi hành ra ga quốc tế nhé. (forget to lock = quên không làm)",
+        "Vâng, tôi nhớ rất rõ là đã in ba bản và cất chúng vào bên trong tập hồ sơ du lịch bằng da của mình rồi. (remember printing = nhớ đã làm)"
       ],
       "correctAnswer": "Vâng, tôi nhớ rất rõ là đã in ba bản và cất chúng vào bên trong tập hồ sơ du lịch bằng da của mình rồi. (remember printing = nhớ đã làm)",
       "explanationVi": "Câu nghe được: \"Yes, I distinctly remember printing three copies and putting them inside my leather travel folder.\" có nghĩa là: \"Vâng, tôi nhớ rất rõ là đã in ba bản và cất chúng vào bên trong tập hồ sơ du lịch bằng da của mình rồi. (remember printing = nhớ đã làm)\"."
@@ -362,10 +362,10 @@
       "audioPrompt": "Please don't forget to lock the office archive cabinets before you leave for the international terminal.",
       "question": "Nhấn nút '🔊 Nghe audio' và chọn nghĩa tiếng Việt đúng:",
       "options": [
-        "Trên chuyến xe taxi ra sân bay, tài xế có dừng lại để nạp nhiên liệu cho chiếc xe lai điện không? (stop to refuel = dừng để làm việc khác)",
+        "Xin đừng quên khóa các tủ lưu trữ tài liệu văn phòng trước khi bạn khởi hành ra ga quốc tế nhé. (forget to lock = quên không làm)",
         "Tôi sẽ không bao giờ quên lần đã để quên chìa khóa bên trong chiếc két sắt cũ trong tuần đầu tiên đi làm! (forget locking = quên ký ức đã làm)",
         "Hôm nay thời tiết rất đẹp.",
-        "Xin đừng quên khóa các tủ lưu trữ tài liệu văn phòng trước khi bạn khởi hành ra ga quốc tế nhé. (forget to lock = quên không làm)"
+        "Trên chuyến xe taxi ra sân bay, tài xế có dừng lại để nạp nhiên liệu cho chiếc xe lai điện không? (stop to refuel = dừng để làm việc khác)"
       ],
       "correctAnswer": "Xin đừng quên khóa các tủ lưu trữ tài liệu văn phòng trước khi bạn khởi hành ra ga quốc tế nhé. (forget to lock = quên không làm)",
       "explanationVi": "Câu nghe được: \"Please don't forget to lock the office archive cabinets before you leave for the international terminal.\" có nghĩa là: \"Xin đừng quên khóa các tủ lưu trữ tài liệu văn phòng trước khi bạn khởi hành ra ga quốc tế nhé. (forget to lock = quên không làm)\"."
@@ -377,8 +377,8 @@
       "audioPrompt": "I will never forget locking the keys inside our old safe during my first week on the job!",
       "question": "Nhấn nút '🔊 Nghe audio' và chọn nghĩa tiếng Việt đúng:",
       "options": [
-        "Hôm nay thời tiết rất đẹp.",
         "Không, anh ấy đã ngừng đi các đường vòng cao tốc vì giao thông sáng nay hoàn toàn thông thoáng. (stop taking = ngừng hẳn hành động)",
+        "Hôm nay thời tiết rất đẹp.",
         "Trên chuyến xe taxi ra sân bay, tài xế có dừng lại để nạp nhiên liệu cho chiếc xe lai điện không? (stop to refuel = dừng để làm việc khác)",
         "Tôi sẽ không bao giờ quên lần đã để quên chìa khóa bên trong chiếc két sắt cũ trong tuần đầu tiên đi làm! (forget locking = quên ký ức đã làm)"
       ],
@@ -430,8 +430,8 @@
       "options": [
         "Travel Manager Victor chia sẻ thông tin: \"Chào buổi sáng Rachel. Bạn đã nhớ in thẻ lên máy bay điện tử cho chuyến bay đi Tokyo chưa? (remember to print = nhớ phải làm)\"",
         "Travel Manager Victor phàn nàn rằng thời tiết hôm nay quá xấu.",
-        "Travel Manager Victor từ chối trả lời và yêu cầu hủy cuộc hẹn.",
-        "Travel Manager Victor muốn mượn tiền để mua vé máy bay gấp."
+        "Travel Manager Victor muốn mượn tiền để mua vé máy bay gấp.",
+        "Travel Manager Victor từ chối trả lời và yêu cầu hủy cuộc hẹn."
       ],
       "correctAnswer": "Travel Manager Victor chia sẻ thông tin: \"Chào buổi sáng Rachel. Bạn đã nhớ in thẻ lên máy bay điện tử cho chuyến bay đi Tokyo chưa? (remember to print = nhớ phải làm)\"",
       "explanationVi": "Trong đoạn hội thoại, Travel Manager Victor đã nói: \"Good morning, Rachel. Did you remember to print your electronic boarding pass for the Tokyo flight?\" (nghĩa là: \"Chào buổi sáng Rachel. Bạn đã nhớ in thẻ lên máy bay điện tử cho chuyến bay đi Tokyo chưa? (remember to print = nhớ phải làm)\")."
@@ -444,9 +444,9 @@
       "question": "Trong đoạn hội thoại trên, câu nói \"I tried emailing their senior marketing director directly, but their standard pricing tiers are fixed.\" của Rachel mang ý nghĩa gì?",
       "options": [
         "Phản hồi: \"Yêu cầu cung cấp hóa đơn thanh toán tiền mặt\"",
+        "Phản hồi: \"Tôi đã thử gửi email trực tiếp cho giám đốc tiếp thị cấp cao của họ, nhưng các mức giá tiêu chuẩn của họ là cố định. (try emailing = thử làm một phương pháp)\"",
         "Phản hồi: \"Hoàn toàn không đồng ý và muốn rời khỏi phòng ngay lập tức\"",
-        "Phản hồi: \"Hẹn gặp lại vào cuối tuần sau tại sân bay quốc tế\"",
-        "Phản hồi: \"Tôi đã thử gửi email trực tiếp cho giám đốc tiếp thị cấp cao của họ, nhưng các mức giá tiêu chuẩn của họ là cố định. (try emailing = thử làm một phương pháp)\""
+        "Phản hồi: \"Hẹn gặp lại vào cuối tuần sau tại sân bay quốc tế\""
       ],
       "correctAnswer": "Phản hồi: \"Tôi đã thử gửi email trực tiếp cho giám đốc tiếp thị cấp cao của họ, nhưng các mức giá tiêu chuẩn của họ là cố định. (try emailing = thử làm một phương pháp)\"",
       "explanationVi": "Rachel nói: \"I tried emailing their senior marketing director directly, but their standard pricing tiers are fixed.\" có nghĩa là: \"Tôi đã thử gửi email trực tiếp cho giám đốc tiếp thị cấp cao của họ, nhưng các mức giá tiêu chuẩn của họ là cố định. (try emailing = thử làm một phương pháp)\"."

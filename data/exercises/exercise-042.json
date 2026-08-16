@@ -10,9 +10,9 @@
       "promptVi": "[Trắc nghiệm ngữ pháp] Chọn từ đúng để hoàn thành câu (Chiếc xe hơi này nhanh hơn chiếc xe đạp kia.):",
       "question": "This car is faster ___ that bike.",
       "options": [
-        "to",
         "as",
         "then",
+        "to",
         "than"
       ],
       "correctAnswer": "than",
@@ -24,10 +24,10 @@
       "promptVi": "[Trắc nghiệm ngữ pháp] Chọn từ đúng để hoàn thành câu (Anh trai tôi cao bằng bố tôi.):",
       "question": "My brother is as tall ___ my father.",
       "options": [
-        "so",
+        "as",
         "than",
         "like",
-        "as"
+        "so"
       ],
       "correctAnswer": "as",
       "explanationVi": "Cấu trúc so sánh bằng: as + Adj + as."
@@ -38,10 +38,10 @@
       "promptVi": "[Trắc nghiệm ngữ pháp] Chọn từ đúng để hoàn thành câu (Bộ phim này không thú vị bằng cuốn sách.):",
       "question": "This film is not as ___ as the book.",
       "options": [
-        "most interesting",
-        "interestingly",
+        "interesting",
         "more interesting",
-        "interesting"
+        "most interesting",
+        "interestingly"
       ],
       "correctAnswer": "interesting",
       "explanationVi": "Trong cấu trúc as...as luôn giữ nguyên tính từ gốc."
@@ -53,9 +53,9 @@
       "question": "Health is ___ important than wealth.",
       "options": [
         "more",
+        "as",
         "most",
-        "much",
-        "as"
+        "much"
       ],
       "correctAnswer": "more",
       "explanationVi": "So sánh hơn với tính từ dài (important) dùng 'more + Adj + than'."
@@ -66,8 +66,8 @@
       "promptVi": "[Phản xạ dịch thuật] Dịch câu sau sang tiếng Anh: \"Bạn thích thuê căn hộ nào hơn, căn hộ studio ở trung tâm hay căn hộ ở ngoại ô?\"",
       "question": "Chọn bản dịch chuẩn xác nhất cho câu: \"Bạn thích thuê căn hộ nào hơn, căn hộ studio ở trung tâm hay căn hộ ở ngoại ô?\"",
       "options": [
-        "We are studying English today.",
         "Which apartment do you prefer renting, the downtown studio or the suburban flat?",
+        "We are studying English today.",
         "Which apartment be you prefer renting, the downtown studio or the suburban flat?",
         "The downtown studio is closer to my office, but it is much more expensive than the suburban flat."
       ],
@@ -80,10 +80,10 @@
       "promptVi": "[Ngữ cảnh giao tiếp] Chọn câu phản hồi tự nhiên và đúng ngữ pháp:",
       "question": "Khi đối phương nói: \"Which apartment do you prefer renting, the downtown studio or the suburban flat?\", câu phản hồi phù hợp là gì?",
       "options": [
-        "The downtown studio is closer to my office, but it is much more expensive than the suburban flat.",
-        "No, it was yesterday.",
         "They are not in the office.",
-        "Yes, I will eat it."
+        "Yes, I will eat it.",
+        "No, it was yesterday.",
+        "The downtown studio is closer to my office, but it is much more expensive than the suburban flat."
       ],
       "correctAnswer": "The downtown studio is closer to my office, but it is much more expensive than the suburban flat.",
       "explanationVi": "Phản hồi phù hợp trong bài: \"The downtown studio is closer to my office, but it is much more expensive than the suburban flat.\" (Studio ở trung tâm gần văn phòng của tôi hơn, nhưng nó đắt hơn nhiều so với căn hộ ở ngoại ô.)."
@@ -95,8 +95,8 @@
       "question": "This car is faster ___ that bike.",
       "correctAnswer": "than",
       "options": [
-        "than",
         "then",
+        "than",
         "to",
         "as"
       ],
@@ -109,10 +109,10 @@
       "question": "My brother is as tall ___ my father.",
       "correctAnswer": "as",
       "options": [
-        "as",
-        "than",
+        "so",
         "like",
-        "so"
+        "than",
+        "as"
       ],
       "explanationVi": "Đáp án đúng là \"as\". Câu hoàn chỉnh: \"My brother is as tall as my father.\" (Anh trai tôi cao bằng bố tôi.)."
     },
@@ -123,10 +123,10 @@
       "question": "This film is not as ___ as the book.",
       "correctAnswer": "interesting",
       "options": [
-        "interestingly",
-        "most interesting",
+        "interesting",
         "more interesting",
-        "interesting"
+        "most interesting",
+        "interestingly"
       ],
       "explanationVi": "Đáp án đúng là \"interesting\". Câu hoàn chỉnh: \"This film is not as interesting as the book.\" (Bộ phim này không thú vị bằng cuốn sách.)."
     },
@@ -137,10 +137,10 @@
       "question": "Health is ___ important than wealth.",
       "correctAnswer": "more",
       "options": [
+        "much",
         "as",
         "most",
-        "more",
-        "much"
+        "more"
       ],
       "explanationVi": "Đáp án đúng là \"more\". Câu hoàn chỉnh: \"Health is more important than wealth.\" (Sức khỏe quan trọng hơn của cải.)."
     },
@@ -151,10 +151,10 @@
       "question": "This _____ not is faster than that bike.",
       "correctAnswer": "car",
       "options": [
-        "car",
-        "is",
+        "am",
         "are",
-        "am"
+        "is",
+        "car"
       ],
       "explanationVi": "Câu phủ định hoàn chỉnh: \"This car not is faster than that bike.\"."
     },
@@ -164,13 +164,13 @@
       "promptVi": "[Sắp xếp câu] Ghép các khối từ thành câu hoàn chỉnh mang nghĩa: \"Chiếc xe hơi này nhanh hơn chiếc xe đạp kia.\"",
       "question": "Sắp xếp các từ để tạo thành câu đúng: \"Chiếc xe hơi này nhanh hơn chiếc xe đạp kia.\"",
       "words": [
-        "bike.",
-        "faster",
         "that",
-        "than",
         "car",
+        "bike.",
+        "than",
         "is",
-        "This"
+        "This",
+        "faster"
       ],
       "correctSentence": "This car is faster than that bike.",
       "hintVi": "Chiếc xe hơi này nhanh hơn chiếc xe đạp kia.",
@@ -182,14 +182,14 @@
       "promptVi": "[Sắp xếp câu] Ghép các khối từ thành câu hoàn chỉnh mang nghĩa: \"Anh trai tôi cao bằng bố tôi.\"",
       "question": "Sắp xếp các từ để tạo thành câu đúng: \"Anh trai tôi cao bằng bố tôi.\"",
       "words": [
-        "brother",
+        "my",
         "is",
+        "My",
         "father.",
         "as",
-        "my",
-        "My",
-        "tall",
-        "as"
+        "brother",
+        "as",
+        "tall"
       ],
       "correctSentence": "My brother is as tall as my father.",
       "hintVi": "Anh trai tôi cao bằng bố tôi.",
@@ -202,14 +202,14 @@
       "question": "Sắp xếp các từ để tạo thành câu đúng: \"Bộ phim này không thú vị bằng cuốn sách.\"",
       "words": [
         "as",
-        "film",
-        "interesting",
-        "not",
         "as",
+        "film",
         "This",
         "is",
         "the",
-        "book."
+        "interesting",
+        "book.",
+        "not"
       ],
       "correctSentence": "This film is not as interesting as the book.",
       "hintVi": "Bộ phim này không thú vị bằng cuốn sách.",
@@ -222,11 +222,11 @@
       "question": "Sắp xếp các từ để tạo thành câu đúng: \"Sức khỏe quan trọng hơn của cải.\"",
       "words": [
         "important",
-        "Health",
         "than",
-        "more",
+        "is",
         "wealth.",
-        "is"
+        "more",
+        "Health"
       ],
       "correctSentence": "Health is more important than wealth.",
       "hintVi": "Sức khỏe quan trọng hơn của cải.",
@@ -238,19 +238,19 @@
       "promptVi": "[Sắp xếp câu] Ghép các từ thành câu hội thoại: \"Căn hộ ở ngoại ô có hiện đại bằng căn hộ studio ở trung tâm thành phố không?\"",
       "question": "Sắp xếp các từ để tạo thành câu thoại: \"Căn hộ ở ngoại ô có hiện đại bằng căn hộ studio ở trung tâm thành phố không?\"",
       "words": [
-        "studio",
-        "city",
-        "as",
-        "suburban",
-        "as",
-        "modern",
-        "the",
         "flat",
-        "in",
-        "Is",
-        "center",
+        "as",
         "the",
-        "the"
+        "studio",
+        "the",
+        "Is",
+        "the",
+        "center",
+        "in",
+        "modern",
+        "city",
+        "suburban",
+        "as"
       ],
       "correctSentence": "Is the suburban flat as modern as the studio in the city center?",
       "hintVi": "Căn hộ ở ngoại ô có hiện đại bằng căn hộ studio ở trung tâm thành phố không?",
@@ -262,10 +262,10 @@
       "promptVi": "[Nhận diện cấu trúc chuẩn] Chọn câu có cấu trúc ngữ pháp HOÀN TOÀN ĐÚNG:",
       "question": "Dựa vào chủ điểm \"Bài 42: Câu So sánh — Cấu trúc đầy đủ (Than & As...As / Not as...as)\", câu nào sau đây CHÍNH XÁC?",
       "options": [
+        "is",
         "This car is faster than that bike.",
-        "bike. that than faster is car This",
         "This car be faster than that bike.",
-        "is"
+        "bike. that than faster is car This"
       ],
       "correctAnswer": "This car is faster than that bike.",
       "explanationVi": "Cấu trúc chuẩn xác là: \"This car is faster than that bike.\" (Chiếc xe hơi này nhanh hơn chiếc xe đạp kia.)."
@@ -276,10 +276,10 @@
       "promptVi": "[Nhận diện cấu trúc chuẩn] Chọn câu có cấu trúc ngữ pháp HOÀN TOÀN ĐÚNG:",
       "question": "Dựa vào chủ điểm \"Bài 42: Câu So sánh — Cấu trúc đầy đủ (Than & As...As / Not as...as)\", câu nào sau đây CHÍNH XÁC?",
       "options": [
-        "My brother is as tall as my father.",
         "My brother be as tall as my father.",
-        "father. my as tall as is brother My",
-        "is"
+        "is",
+        "My brother is as tall as my father.",
+        "father. my as tall as is brother My"
       ],
       "correctAnswer": "My brother is as tall as my father.",
       "explanationVi": "Cấu trúc chuẩn xác là: \"My brother is as tall as my father.\" (Anh trai tôi cao bằng bố tôi.)."
@@ -290,10 +290,10 @@
       "promptVi": "[Nhận diện cấu trúc chuẩn] Chọn câu có cấu trúc ngữ pháp HOÀN TOÀN ĐÚNG:",
       "question": "Dựa vào chủ điểm \"Bài 42: Câu So sánh — Cấu trúc đầy đủ (Than & As...As / Not as...as)\", câu nào sau đây CHÍNH XÁC?",
       "options": [
-        "This film be not as interesting as the book.",
-        "This film is not as interesting as the book.",
+        "is",
         "book. the as interesting as not is film This",
-        "is"
+        "This film is not as interesting as the book.",
+        "This film be not as interesting as the book."
       ],
       "correctAnswer": "This film is not as interesting as the book.",
       "explanationVi": "Cấu trúc chuẩn xác là: \"This film is not as interesting as the book.\" (Bộ phim này không thú vị bằng cuốn sách.)."
@@ -304,10 +304,10 @@
       "promptVi": "[Nhận diện cấu trúc chuẩn] Chọn câu có cấu trúc ngữ pháp HOÀN TOÀN ĐÚNG:",
       "question": "Dựa vào chủ điểm \"Bài 42: Câu So sánh — Cấu trúc đầy đủ (Than & As...As / Not as...as)\", câu nào sau đây CHÍNH XÁC?",
       "options": [
-        "Health is more important than wealth.",
         "is",
+        "wealth. than important more is Health",
         "Health be more important than wealth.",
-        "wealth. than important more is Health"
+        "Health is more important than wealth."
       ],
       "correctAnswer": "Health is more important than wealth.",
       "explanationVi": "Cấu trúc chuẩn xác là: \"Health is more important than wealth.\" (Sức khỏe quan trọng hơn của cải.)."
@@ -319,9 +319,9 @@
       "audioPrompt": "Which apartment do you prefer renting, the downtown studio or the suburban flat?",
       "question": "Nhấn nút '🔊 Nghe audio' và chọn nghĩa tiếng Việt đúng:",
       "options": [
-        "Hôm nay thời tiết rất đẹp.",
         "Căn hộ ở ngoại ô có hiện đại bằng căn hộ studio ở trung tâm thành phố không?",
         "Studio ở trung tâm gần văn phòng của tôi hơn, nhưng nó đắt hơn nhiều so với căn hộ ở ngoại ô.",
+        "Hôm nay thời tiết rất đẹp.",
         "Bạn thích thuê căn hộ nào hơn, căn hộ studio ở trung tâm hay căn hộ ở ngoại ô?"
       ],
       "correctAnswer": "Bạn thích thuê căn hộ nào hơn, căn hộ studio ở trung tâm hay căn hộ ở ngoại ô?",
@@ -334,8 +334,8 @@
       "audioPrompt": "The downtown studio is closer to my office, but it is much more expensive than the suburban flat.",
       "question": "Nhấn nút '🔊 Nghe audio' và chọn nghĩa tiếng Việt đúng:",
       "options": [
-        "Studio ở trung tâm gần văn phòng của tôi hơn, nhưng nó đắt hơn nhiều so với căn hộ ở ngoại ô.",
         "Hôm nay thời tiết rất đẹp.",
+        "Studio ở trung tâm gần văn phòng của tôi hơn, nhưng nó đắt hơn nhiều so với căn hộ ở ngoại ô.",
         "Căn hộ ở ngoại ô có hiện đại bằng căn hộ studio ở trung tâm thành phố không?",
         "Không, nó không hiện đại bằng căn studio, nhưng nó rộng hơn và yên tĩnh hơn đáng kể."
       ],
@@ -349,10 +349,10 @@
       "audioPrompt": "Is the suburban flat as modern as the studio in the city center?",
       "question": "Nhấn nút '🔊 Nghe audio' và chọn nghĩa tiếng Việt đúng:",
       "options": [
-        "Hôm nay thời tiết rất đẹp.",
-        "Không, nó không hiện đại bằng căn studio, nhưng nó rộng hơn và yên tĩnh hơn đáng kể.",
         "Căn hộ ở ngoại ô có hiện đại bằng căn hộ studio ở trung tâm thành phố không?",
-        "Đi lại bằng tàu điện ngầm có nhanh bằng tự lái xe hơi trong giờ cao điểm không?"
+        "Không, nó không hiện đại bằng căn studio, nhưng nó rộng hơn và yên tĩnh hơn đáng kể.",
+        "Đi lại bằng tàu điện ngầm có nhanh bằng tự lái xe hơi trong giờ cao điểm không?",
+        "Hôm nay thời tiết rất đẹp."
       ],
       "correctAnswer": "Căn hộ ở ngoại ô có hiện đại bằng căn hộ studio ở trung tâm thành phố không?",
       "explanationVi": "Câu nghe được: \"Is the suburban flat as modern as the studio in the city center?\" có nghĩa là: \"Căn hộ ở ngoại ô có hiện đại bằng căn hộ studio ở trung tâm thành phố không?\"."
@@ -364,10 +364,10 @@
       "audioPrompt": "No, it is not as modern as the studio, but it is significantly larger and quieter.",
       "question": "Nhấn nút '🔊 Nghe audio' và chọn nghĩa tiếng Việt đúng:",
       "options": [
-        "Thực ra đi tàu điện ngầm nhanh hơn lái xe vì tình trạng tắc đường rất kinh khủng.",
         "Hôm nay thời tiết rất đẹp.",
         "Không, nó không hiện đại bằng căn studio, nhưng nó rộng hơn và yên tĩnh hơn đáng kể.",
-        "Đi lại bằng tàu điện ngầm có nhanh bằng tự lái xe hơi trong giờ cao điểm không?"
+        "Đi lại bằng tàu điện ngầm có nhanh bằng tự lái xe hơi trong giờ cao điểm không?",
+        "Thực ra đi tàu điện ngầm nhanh hơn lái xe vì tình trạng tắc đường rất kinh khủng."
       ],
       "correctAnswer": "Không, nó không hiện đại bằng căn studio, nhưng nó rộng hơn và yên tĩnh hơn đáng kể.",
       "explanationVi": "Câu nghe được: \"No, it is not as modern as the studio, but it is significantly larger and quieter.\" có nghĩa là: \"Không, nó không hiện đại bằng căn studio, nhưng nó rộng hơn và yên tĩnh hơn đáng kể.\"."
@@ -415,10 +415,10 @@
       "passage": "Nathan: \"Which apartment do you prefer renting, the downtown studio or the suburban flat?\"\nHannah: \"The downtown studio is closer to my office, but it is much more expensive than the suburban flat.\"\nNathan: \"Is the suburban flat as modern as the studio in the city center?\"\nHannah: \"No, it is not as modern as the studio, but it is significantly larger and quieter.\"",
       "question": "Dựa vào đoạn đối thoại trên, thông tin nào sau đây là CHÍNH XÁC về nội dung câu nói của Nathan?",
       "options": [
-        "Nathan chia sẻ thông tin: \"Bạn thích thuê căn hộ nào hơn, căn hộ studio ở trung tâm hay căn hộ ở ngoại ô?\"",
-        "Nathan phàn nàn rằng thời tiết hôm nay quá xấu.",
         "Nathan từ chối trả lời và yêu cầu hủy cuộc hẹn.",
-        "Nathan muốn mượn tiền để mua vé máy bay gấp."
+        "Nathan muốn mượn tiền để mua vé máy bay gấp.",
+        "Nathan phàn nàn rằng thời tiết hôm nay quá xấu.",
+        "Nathan chia sẻ thông tin: \"Bạn thích thuê căn hộ nào hơn, căn hộ studio ở trung tâm hay căn hộ ở ngoại ô?\""
       ],
       "correctAnswer": "Nathan chia sẻ thông tin: \"Bạn thích thuê căn hộ nào hơn, căn hộ studio ở trung tâm hay căn hộ ở ngoại ô?\"",
       "explanationVi": "Trong đoạn hội thoại, Nathan đã nói: \"Which apartment do you prefer renting, the downtown studio or the suburban flat?\" (nghĩa là: \"Bạn thích thuê căn hộ nào hơn, căn hộ studio ở trung tâm hay căn hộ ở ngoại ô?\")."
@@ -431,9 +431,9 @@
       "question": "Trong đoạn hội thoại trên, câu nói \"That is true! Saving money every month is more important than living near luxury malls.\" của Hannah mang ý nghĩa gì?",
       "options": [
         "Phản hồi: \"Đúng vậy! Tiết kiệm tiền mỗi tháng quan trọng hơn việc sống gần các trung tâm mua sắm xa xỉ.\"",
+        "Phản hồi: \"Hẹn gặp lại vào cuối tuần sau tại sân bay quốc tế\"",
         "Phản hồi: \"Yêu cầu cung cấp hóa đơn thanh toán tiền mặt\"",
-        "Phản hồi: \"Hoàn toàn không đồng ý và muốn rời khỏi phòng ngay lập tức\"",
-        "Phản hồi: \"Hẹn gặp lại vào cuối tuần sau tại sân bay quốc tế\""
+        "Phản hồi: \"Hoàn toàn không đồng ý và muốn rời khỏi phòng ngay lập tức\""
       ],
       "correctAnswer": "Phản hồi: \"Đúng vậy! Tiết kiệm tiền mỗi tháng quan trọng hơn việc sống gần các trung tâm mua sắm xa xỉ.\"",
       "explanationVi": "Hannah nói: \"That is true! Saving money every month is more important than living near luxury malls.\" có nghĩa là: \"Đúng vậy! Tiết kiệm tiền mỗi tháng quan trọng hơn việc sống gần các trung tâm mua sắm xa xỉ.\"."

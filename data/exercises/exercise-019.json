@@ -10,10 +10,10 @@
       "promptVi": "[Trắc nghiệm ngữ pháp] Chọn từ đúng để hoàn thành câu (Tôi đang nướng một chiếc bánh sô-cô-la.):",
       "question": "I am ___ a chocolate cake.",
       "options": [
-        "baking",
-        "bakeing",
         "baked",
-        "bakes"
+        "bakes",
+        "bakeing",
+        "baking"
       ],
       "correctAnswer": "baking",
       "explanationVi": "'bake' tận cùng 'e' nên bỏ 'e' thêm 'ing' thành 'baking'."
@@ -38,10 +38,10 @@
       "promptVi": "[Trắc nghiệm ngữ pháp] Chọn từ đúng để hoàn thành câu (Họ đang bơi trong hồ bơi.):",
       "question": "They are ___ in the pool.",
       "options": [
-        "swimming",
         "swims",
-        "swam",
-        "swiming"
+        "swimming",
+        "swiming",
+        "swam"
       ],
       "correctAnswer": "swimming",
       "explanationVi": "'swim' gấp đôi 'm' thành 'swimming'."
@@ -53,9 +53,9 @@
       "question": "We are ___ our summer vacation.",
       "options": [
         "plans",
+        "planing",
         "planned",
-        "planning",
-        "planing"
+        "planning"
       ],
       "correctAnswer": "planning",
       "explanationVi": "'plan' có 1 nguyên âm + 1 phụ âm nên nhân đôi 'n' thành 'planning'."
@@ -66,10 +66,10 @@
       "promptVi": "[Phản xạ dịch thuật] Dịch câu sau sang tiếng Anh: \"Nhà bếp thơm quá! Bạn đang nấu món ngon gì vậy Sophia?\"",
       "question": "Chọn bản dịch chuẩn xác nhất cho câu: \"Nhà bếp thơm quá! Bạn đang nấu món ngon gì vậy Sophia?\"",
       "options": [
-        "We are studying English today.",
         "I am baking a chocolate cake and preparing fresh mushroom soup.",
-        "The kitchen smells wonderful! What delicious dish be you cooking, Sophia?",
-        "The kitchen smells wonderful! What delicious dish are you cooking, Sophia?"
+        "We are studying English today.",
+        "The kitchen smells wonderful! What delicious dish are you cooking, Sophia?",
+        "The kitchen smells wonderful! What delicious dish be you cooking, Sophia?"
       ],
       "correctAnswer": "The kitchen smells wonderful! What delicious dish are you cooking, Sophia?",
       "explanationVi": "Câu dịch chuẩn xác: \"The kitchen smells wonderful! What delicious dish are you cooking, Sophia?\" (Nhà bếp thơm quá! Bạn đang nấu món ngon gì vậy Sophia?)."
@@ -80,10 +80,10 @@
       "promptVi": "[Ngữ cảnh giao tiếp] Chọn câu phản hồi tự nhiên và đúng ngữ pháp:",
       "question": "Khi đối phương nói: \"The kitchen smells wonderful! What delicious dish are you cooking, Sophia?\", câu phản hồi phù hợp là gì?",
       "options": [
-        "No, it was yesterday.",
-        "They are not in the office.",
+        "Yes, I will eat it.",
         "I am baking a chocolate cake and preparing fresh mushroom soup.",
-        "Yes, I will eat it."
+        "No, it was yesterday.",
+        "They are not in the office."
       ],
       "correctAnswer": "I am baking a chocolate cake and preparing fresh mushroom soup.",
       "explanationVi": "Phản hồi phù hợp trong bài: \"I am baking a chocolate cake and preparing fresh mushroom soup.\" (Tôi đang nướng một chiếc bánh sô-cô-la và chuẩn bị món súp nấm tươi.)."
@@ -109,10 +109,10 @@
       "question": "He is ___ vegetables in the kitchen.",
       "correctAnswer": "cutting",
       "options": [
-        "cuts",
+        "cutted",
         "cuting",
         "cutting",
-        "cutted"
+        "cuts"
       ],
       "explanationVi": "Đáp án đúng là \"cutting\". Câu hoàn chỉnh: \"He is cutting vegetables in the kitchen.\" (Anh ấy đang thái rau củ trong nhà bếp.)."
     },
@@ -123,9 +123,9 @@
       "question": "They are ___ in the pool.",
       "correctAnswer": "swimming",
       "options": [
+        "swimming",
         "swiming",
         "swims",
-        "swimming",
         "swam"
       ],
       "explanationVi": "Đáp án đúng là \"swimming\". Câu hoàn chỉnh: \"They are swimming in the pool.\" (Họ đang bơi trong hồ bơi.)."
@@ -137,10 +137,10 @@
       "question": "We are ___ our summer vacation.",
       "correctAnswer": "planning",
       "options": [
-        "plans",
-        "planing",
         "planning",
-        "planned"
+        "planned",
+        "planing",
+        "plans"
       ],
       "explanationVi": "Đáp án đúng là \"planning\". Câu hoàn chỉnh: \"We are planning our summer vacation.\" (Chúng tôi đang lên kế hoạch cho kỳ nghỉ hè.)."
     },
@@ -151,10 +151,10 @@
       "question": "I _____ not baking a chocolate cake.",
       "correctAnswer": "am",
       "options": [
-        "am",
+        "do",
         "is",
-        "are",
-        "do"
+        "am",
+        "are"
       ],
       "explanationVi": "Câu phủ định hoàn chỉnh: \"I am not baking a chocolate cake.\"."
     },
@@ -164,12 +164,12 @@
       "promptVi": "[Sắp xếp câu] Ghép các khối từ thành câu hoàn chỉnh mang nghĩa: \"Tôi đang nướng một chiếc bánh sô-cô-la.\"",
       "question": "Sắp xếp các từ để tạo thành câu đúng: \"Tôi đang nướng một chiếc bánh sô-cô-la.\"",
       "words": [
+        "chocolate",
         "a",
         "I",
         "baking",
-        "chocolate",
-        "am",
-        "cake."
+        "cake.",
+        "am"
       ],
       "correctSentence": "I am baking a chocolate cake.",
       "hintVi": "Tôi đang nướng một chiếc bánh sô-cô-la.",
@@ -181,13 +181,13 @@
       "promptVi": "[Sắp xếp câu] Ghép các khối từ thành câu hoàn chỉnh mang nghĩa: \"Anh ấy đang thái rau củ trong nhà bếp.\"",
       "question": "Sắp xếp các từ để tạo thành câu đúng: \"Anh ấy đang thái rau củ trong nhà bếp.\"",
       "words": [
+        "is",
+        "kitchen.",
         "the",
         "in",
-        "kitchen.",
+        "He",
         "vegetables",
-        "is",
-        "cutting",
-        "He"
+        "cutting"
       ],
       "correctSentence": "He is cutting vegetables in the kitchen.",
       "hintVi": "Anh ấy đang thái rau củ trong nhà bếp.",
@@ -199,12 +199,12 @@
       "promptVi": "[Sắp xếp câu] Ghép các khối từ thành câu hoàn chỉnh mang nghĩa: \"Họ đang bơi trong hồ bơi.\"",
       "question": "Sắp xếp các từ để tạo thành câu đúng: \"Họ đang bơi trong hồ bơi.\"",
       "words": [
-        "pool.",
-        "They",
         "in",
-        "the",
+        "They",
         "swimming",
-        "are"
+        "the",
+        "are",
+        "pool."
       ],
       "correctSentence": "They are swimming in the pool.",
       "hintVi": "Họ đang bơi trong hồ bơi.",
@@ -216,12 +216,12 @@
       "promptVi": "[Sắp xếp câu] Ghép các khối từ thành câu hoàn chỉnh mang nghĩa: \"Chúng tôi đang lên kế hoạch cho kỳ nghỉ hè.\"",
       "question": "Sắp xếp các từ để tạo thành câu đúng: \"Chúng tôi đang lên kế hoạch cho kỳ nghỉ hè.\"",
       "words": [
+        "planning",
         "vacation.",
+        "our",
         "We",
         "are",
-        "summer",
-        "our",
-        "planning"
+        "summer"
       ],
       "correctSentence": "We are planning our summer vacation.",
       "hintVi": "Chúng tôi đang lên kế hoạch cho kỳ nghỉ hè.",
@@ -233,17 +233,17 @@
       "promptVi": "[Sắp xếp câu] Ghép các từ thành câu hội thoại: \"Bạn có đang thái rau củ trên thớt lúc này không?\"",
       "question": "Sắp xếp các từ để tạo thành câu thoại: \"Bạn có đang thái rau củ trên thớt lúc này không?\"",
       "words": [
-        "vegetables",
-        "the",
         "cutting",
-        "on",
-        "you",
-        "board",
         "Are",
-        "cutting",
         "now",
+        "right",
+        "you",
+        "cutting",
         "the",
-        "right"
+        "the",
+        "board",
+        "vegetables",
+        "on"
       ],
       "correctSentence": "Are you cutting the vegetables on the cutting board right now?",
       "hintVi": "Bạn có đang thái rau củ trên thớt lúc này không?",
@@ -255,10 +255,10 @@
       "promptVi": "[Nhận diện cấu trúc chuẩn] Chọn câu có cấu trúc ngữ pháp HOÀN TOÀN ĐÚNG:",
       "question": "Dựa vào chủ điểm \"Bài 19: Động từ Thường — Hiện tại Tiếp diễn (Be + V-ing)\", câu nào sau đây CHÍNH XÁC?",
       "options": [
-        "I am baking a chocolate cake.",
-        "I be baking a chocolate cake.",
         "cake. chocolate a baking am I",
-        "is"
+        "I be baking a chocolate cake.",
+        "is",
+        "I am baking a chocolate cake."
       ],
       "correctAnswer": "I am baking a chocolate cake.",
       "explanationVi": "Cấu trúc chuẩn xác là: \"I am baking a chocolate cake.\" (Tôi đang nướng một chiếc bánh sô-cô-la.)."
@@ -269,10 +269,10 @@
       "promptVi": "[Nhận diện cấu trúc chuẩn] Chọn câu có cấu trúc ngữ pháp HOÀN TOÀN ĐÚNG:",
       "question": "Dựa vào chủ điểm \"Bài 19: Động từ Thường — Hiện tại Tiếp diễn (Be + V-ing)\", câu nào sau đây CHÍNH XÁC?",
       "options": [
-        "He is cutting vegetables in the kitchen.",
-        "He be cutting vegetables in the kitchen.",
+        "kitchen. the in vegetables cutting is He",
         "He is cutting vegetables at the kitchen.",
-        "kitchen. the in vegetables cutting is He"
+        "He be cutting vegetables in the kitchen.",
+        "He is cutting vegetables in the kitchen."
       ],
       "correctAnswer": "He is cutting vegetables in the kitchen.",
       "explanationVi": "Cấu trúc chuẩn xác là: \"He is cutting vegetables in the kitchen.\" (Anh ấy đang thái rau củ trong nhà bếp.)."
@@ -283,10 +283,10 @@
       "promptVi": "[Nhận diện cấu trúc chuẩn] Chọn câu có cấu trúc ngữ pháp HOÀN TOÀN ĐÚNG:",
       "question": "Dựa vào chủ điểm \"Bài 19: Động từ Thường — Hiện tại Tiếp diễn (Be + V-ing)\", câu nào sau đây CHÍNH XÁC?",
       "options": [
-        "They are swimming in the pool.",
-        "They be swimming in the pool.",
+        "pool. the in swimming are They",
         "They are swimming at the pool.",
-        "pool. the in swimming are They"
+        "They be swimming in the pool.",
+        "They are swimming in the pool."
       ],
       "correctAnswer": "They are swimming in the pool.",
       "explanationVi": "Cấu trúc chuẩn xác là: \"They are swimming in the pool.\" (Họ đang bơi trong hồ bơi.)."
@@ -297,10 +297,10 @@
       "promptVi": "[Nhận diện cấu trúc chuẩn] Chọn câu có cấu trúc ngữ pháp HOÀN TOÀN ĐÚNG:",
       "question": "Dựa vào chủ điểm \"Bài 19: Động từ Thường — Hiện tại Tiếp diễn (Be + V-ing)\", câu nào sau đây CHÍNH XÁC?",
       "options": [
-        "We are planning our summer vacation.",
         "We be planning our summer vacation.",
-        "vacation. summer our planning are We",
-        "is"
+        "is",
+        "We are planning our summer vacation.",
+        "vacation. summer our planning are We"
       ],
       "correctAnswer": "We are planning our summer vacation.",
       "explanationVi": "Cấu trúc chuẩn xác là: \"We are planning our summer vacation.\" (Chúng tôi đang lên kế hoạch cho kỳ nghỉ hè.)."
@@ -312,8 +312,8 @@
       "audioPrompt": "The kitchen smells wonderful! What delicious dish are you cooking, Sophia?",
       "question": "Nhấn nút '🔊 Nghe audio' và chọn nghĩa tiếng Việt đúng:",
       "options": [
-        "Bạn có đang thái rau củ trên thớt lúc này không?",
         "Hôm nay thời tiết rất đẹp.",
+        "Bạn có đang thái rau củ trên thớt lúc này không?",
         "Nhà bếp thơm quá! Bạn đang nấu món ngon gì vậy Sophia?",
         "Tôi đang nướng một chiếc bánh sô-cô-la và chuẩn bị món súp nấm tươi."
       ],
@@ -327,10 +327,10 @@
       "audioPrompt": "I am baking a chocolate cake and preparing fresh mushroom soup.",
       "question": "Nhấn nút '🔊 Nghe audio' và chọn nghĩa tiếng Việt đúng:",
       "options": [
-        "Tôi đang nướng một chiếc bánh sô-cô-la và chuẩn bị món súp nấm tươi.",
         "Hôm nay thời tiết rất đẹp.",
+        "Không, em họ tôi đang băm hành và rửa xà lách giòn.",
         "Bạn có đang thái rau củ trên thớt lúc này không?",
-        "Không, em họ tôi đang băm hành và rửa xà lách giòn."
+        "Tôi đang nướng một chiếc bánh sô-cô-la và chuẩn bị món súp nấm tươi."
       ],
       "correctAnswer": "Tôi đang nướng một chiếc bánh sô-cô-la và chuẩn bị món súp nấm tươi.",
       "explanationVi": "Câu nghe được: \"I am baking a chocolate cake and preparing fresh mushroom soup.\" có nghĩa là: \"Tôi đang nướng một chiếc bánh sô-cô-la và chuẩn bị món súp nấm tươi.\"."
@@ -342,10 +342,10 @@
       "audioPrompt": "Are you cutting the vegetables on the cutting board right now?",
       "question": "Nhấn nút '🔊 Nghe audio' và chọn nghĩa tiếng Việt đúng:",
       "options": [
-        "Bạn có đang thái rau củ trên thớt lúc này không?",
         "Hôm nay thời tiết rất đẹp.",
+        "Bạn Victor của chúng ta đang làm gì trong phòng ăn vậy?",
         "Không, em họ tôi đang băm hành và rửa xà lách giòn.",
-        "Bạn Victor của chúng ta đang làm gì trong phòng ăn vậy?"
+        "Bạn có đang thái rau củ trên thớt lúc này không?"
       ],
       "correctAnswer": "Bạn có đang thái rau củ trên thớt lúc này không?",
       "explanationVi": "Câu nghe được: \"Are you cutting the vegetables on the cutting board right now?\" có nghĩa là: \"Bạn có đang thái rau củ trên thớt lúc này không?\"."
@@ -357,10 +357,10 @@
       "audioPrompt": "No, my cousin is chopping onions and washing crisp lettuce.",
       "question": "Nhấn nút '🔊 Nghe audio' và chọn nghĩa tiếng Việt đúng:",
       "options": [
+        "Bạn Victor của chúng ta đang làm gì trong phòng ăn vậy?",
         "Cậu ấy đang sắp xếp đĩa, lau sáng ly và bày khăn ăn.",
-        "Không, em họ tôi đang băm hành và rửa xà lách giòn.",
         "Hôm nay thời tiết rất đẹp.",
-        "Bạn Victor của chúng ta đang làm gì trong phòng ăn vậy?"
+        "Không, em họ tôi đang băm hành và rửa xà lách giòn."
       ],
       "correctAnswer": "Không, em họ tôi đang băm hành và rửa xà lách giòn.",
       "explanationVi": "Câu nghe được: \"No, my cousin is chopping onions and washing crisp lettuce.\" có nghĩa là: \"Không, em họ tôi đang băm hành và rửa xà lách giòn.\"."
@@ -408,10 +408,10 @@
       "passage": "Arthur: \"The kitchen smells wonderful! What delicious dish are you cooking, Sophia?\"\nSophia: \"I am baking a chocolate cake and preparing fresh mushroom soup.\"\nArthur: \"Are you cutting the vegetables on the cutting board right now?\"\nSophia: \"No, my cousin is chopping onions and washing crisp lettuce.\"",
       "question": "Dựa vào đoạn đối thoại trên, thông tin nào sau đây là CHÍNH XÁC về nội dung câu nói của Arthur?",
       "options": [
+        "Arthur từ chối trả lời và yêu cầu hủy cuộc hẹn.",
         "Arthur chia sẻ thông tin: \"Nhà bếp thơm quá! Bạn đang nấu món ngon gì vậy Sophia?\"",
-        "Arthur phàn nàn rằng thời tiết hôm nay quá xấu.",
         "Arthur muốn mượn tiền để mua vé máy bay gấp.",
-        "Arthur từ chối trả lời và yêu cầu hủy cuộc hẹn."
+        "Arthur phàn nàn rằng thời tiết hôm nay quá xấu."
       ],
       "correctAnswer": "Arthur chia sẻ thông tin: \"Nhà bếp thơm quá! Bạn đang nấu món ngon gì vậy Sophia?\"",
       "explanationVi": "Trong đoạn hội thoại, Arthur đã nói: \"The kitchen smells wonderful! What delicious dish are you cooking, Sophia?\" (nghĩa là: \"Nhà bếp thơm quá! Bạn đang nấu món ngon gì vậy Sophia?\")."
@@ -424,8 +424,8 @@
       "question": "Trong đoạn hội thoại trên, câu nói \"Please put them near the fridge. The ice machine is making fresh ice cubes.\" của Sophia mang ý nghĩa gì?",
       "options": [
         "Phản hồi: \"Hẹn gặp lại vào cuối tuần sau tại sân bay quốc tế\"",
-        "Phản hồi: \"Yêu cầu cung cấp hóa đơn thanh toán tiền mặt\"",
         "Phản hồi: \"Hoàn toàn không đồng ý và muốn rời khỏi phòng ngay lập tức\"",
+        "Phản hồi: \"Yêu cầu cung cấp hóa đơn thanh toán tiền mặt\"",
         "Phản hồi: \"Làm ơn để chúng gần tủ lạnh nhé. Máy làm đá đang tạo ra những viên đá tươi.\""
       ],
       "correctAnswer": "Phản hồi: \"Làm ơn để chúng gần tủ lạnh nhé. Máy làm đá đang tạo ra những viên đá tươi.\"",

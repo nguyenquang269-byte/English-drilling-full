@@ -11,8 +11,8 @@
       "question": "He ___ working on a new project.",
       "options": [
         "is",
-        "are",
         "does",
+        "are",
         "am"
       ],
       "correctAnswer": "is",
@@ -24,10 +24,10 @@
       "promptVi": "[Trắc nghiệm ngữ pháp] Chọn từ đúng để hoàn thành câu (Họ có đang học trong thư viện không?):",
       "question": "___ they studying in the library?",
       "options": [
-        "Do",
-        "Are",
+        "Have",
         "Is",
-        "Have"
+        "Do",
+        "Are"
       ],
       "correctAnswer": "Are",
       "explanationVi": "Chủ ngữ 'they' đi với 'Are' trong câu hỏi tiếp diễn."
@@ -38,10 +38,10 @@
       "promptVi": "[Trắc nghiệm ngữ pháp] Chọn từ đúng để hoàn thành câu (Cô ấy không đang nấu bữa tối ngay lúc này.):",
       "question": "She ___ cooking dinner right now.",
       "options": [
-        "isn't",
         "doesn't",
-        "aren't",
-        "not"
+        "isn't",
+        "not",
+        "aren't"
       ],
       "correctAnswer": "isn't",
       "explanationVi": "Ngôi 'She' trong câu phủ định tiếp diễn dùng 'isn't'."
@@ -52,10 +52,10 @@
       "promptVi": "[Trắc nghiệm ngữ pháp] Chọn từ đúng để hoàn thành câu (Bên ngoài lúc này trời có đang mưa không?):",
       "question": "___ it raining outside at the moment?",
       "options": [
-        "Does",
+        "Are",
         "Has",
-        "Is",
-        "Are"
+        "Does",
+        "Is"
       ],
       "correctAnswer": "Is",
       "explanationVi": "Chủ ngữ thời tiết 'it' đi với 'Is'."
@@ -67,9 +67,9 @@
       "question": "Chọn bản dịch chuẩn xác nhất cho câu: \"Chào buổi chiều Brenda! Bạn có đang viết bản tóm tắt tài chính hàng tháng không?\"",
       "options": [
         "We are studying English today.",
+        "Good afternoon Brenda! Are you writing the monthly finance summary?",
         "Yes, I am. I am finalizing the revenue numbers for our department.",
-        "Good afternoon Brenda! be you writing the monthly finance summary?",
-        "Good afternoon Brenda! Are you writing the monthly finance summary?"
+        "Good afternoon Brenda! be you writing the monthly finance summary?"
       ],
       "correctAnswer": "Good afternoon Brenda! Are you writing the monthly finance summary?",
       "explanationVi": "Câu dịch chuẩn xác: \"Good afternoon Brenda! Are you writing the monthly finance summary?\" (Chào buổi chiều Brenda! Bạn có đang viết bản tóm tắt tài chính hàng tháng không?)."
@@ -80,10 +80,10 @@
       "promptVi": "[Ngữ cảnh giao tiếp] Chọn câu phản hồi tự nhiên và đúng ngữ pháp:",
       "question": "Khi đối phương nói: \"Good afternoon Brenda! Are you writing the monthly finance summary?\", câu phản hồi phù hợp là gì?",
       "options": [
-        "Yes, I am. I am finalizing the revenue numbers for our department.",
         "They are not in the office.",
-        "Yes, I will eat it.",
-        "No, it was yesterday."
+        "Yes, I am. I am finalizing the revenue numbers for our department.",
+        "No, it was yesterday.",
+        "Yes, I will eat it."
       ],
       "correctAnswer": "Yes, I am. I am finalizing the revenue numbers for our department.",
       "explanationVi": "Phản hồi phù hợp trong bài: \"Yes, I am. I am finalizing the revenue numbers for our department.\" (Vâng, tôi đang làm. Tôi đang hoàn thiện các số liệu doanh thu cho phòng ban chúng ta.)."
@@ -95,10 +95,10 @@
       "question": "He ___ working on a new project.",
       "correctAnswer": "is",
       "options": [
+        "does",
         "is",
         "are",
-        "am",
-        "does"
+        "am"
       ],
       "explanationVi": "Đáp án đúng là \"is\". Câu hoàn chỉnh: \"He is working on a new project.\" (Anh ấy đang làm việc trên một dự án mới.)."
     },
@@ -110,8 +110,8 @@
       "correctAnswer": "Are",
       "options": [
         "Are",
-        "Do",
         "Is",
+        "Do",
         "Have"
       ],
       "explanationVi": "Đáp án đúng là \"Are\". Câu hoàn chỉnh: \"Are they studying in the library?\" (Họ có đang học trong thư viện không?)."
@@ -123,10 +123,10 @@
       "question": "She ___ cooking dinner right now.",
       "correctAnswer": "isn't",
       "options": [
-        "not",
-        "aren't",
+        "isn't",
         "doesn't",
-        "isn't"
+        "aren't",
+        "not"
       ],
       "explanationVi": "Đáp án đúng là \"isn't\". Câu hoàn chỉnh: \"She isn't cooking dinner right now.\" (Cô ấy không đang nấu bữa tối ngay lúc này.)."
     },
@@ -137,10 +137,10 @@
       "question": "___ it raining outside at the moment?",
       "correctAnswer": "Is",
       "options": [
+        "Has",
         "Is",
         "Does",
-        "Are",
-        "Has"
+        "Are"
       ],
       "explanationVi": "Đáp án đúng là \"Is\". Câu hoàn chỉnh: \"Is it raining outside at the moment?\" (Bên ngoài lúc này trời có đang mưa không?)."
     },
@@ -151,8 +151,8 @@
       "question": "He _____ not working on a new project.",
       "correctAnswer": "is",
       "options": [
-        "am",
         "do",
+        "am",
         "are",
         "is"
       ],
@@ -165,11 +165,11 @@
       "question": "Sắp xếp các từ để tạo thành câu đúng: \"Anh ấy đang làm việc trên một dự án mới.\"",
       "words": [
         "is",
-        "He",
+        "new",
+        "a",
         "working",
         "on",
-        "a",
-        "new",
+        "He",
         "project."
       ],
       "correctSentence": "He is working on a new project.",
@@ -183,11 +183,11 @@
       "question": "Sắp xếp các từ để tạo thành câu đúng: \"Họ có đang học trong thư viện không?\"",
       "words": [
         "Are",
+        "they",
         "studying",
-        "library?",
-        "the",
         "in",
-        "they"
+        "the",
+        "library?"
       ],
       "correctSentence": "Are they studying in the library?",
       "hintVi": "Họ có đang học trong thư viện không?",
@@ -199,12 +199,12 @@
       "promptVi": "[Sắp xếp câu] Ghép các khối từ thành câu hoàn chỉnh mang nghĩa: \"Cô ấy không đang nấu bữa tối ngay lúc này.\"",
       "question": "Sắp xếp các từ để tạo thành câu đúng: \"Cô ấy không đang nấu bữa tối ngay lúc này.\"",
       "words": [
-        "cooking",
-        "dinner",
-        "right",
         "now.",
-        "isn't",
-        "She"
+        "She",
+        "right",
+        "dinner",
+        "cooking",
+        "isn't"
       ],
       "correctSentence": "She isn't cooking dinner right now.",
       "hintVi": "Cô ấy không đang nấu bữa tối ngay lúc này.",
@@ -216,13 +216,13 @@
       "promptVi": "[Sắp xếp câu] Ghép các khối từ thành câu hoàn chỉnh mang nghĩa: \"Bên ngoài lúc này trời có đang mưa không?\"",
       "question": "Sắp xếp các từ để tạo thành câu đúng: \"Bên ngoài lúc này trời có đang mưa không?\"",
       "words": [
-        "at",
-        "Is",
+        "outside",
         "raining",
         "it",
-        "outside",
+        "Is",
+        "moment?",
         "the",
-        "moment?"
+        "at"
       ],
       "correctSentence": "Is it raining outside at the moment?",
       "hintVi": "Bên ngoài lúc này trời có đang mưa không?",
@@ -234,14 +234,14 @@
       "promptVi": "[Sắp xếp câu] Ghép các từ thành câu hội thoại: \"Patrick có đang hỗ trợ bạn các phép tính kiểm toán không?\"",
       "question": "Sắp xếp các từ để tạo thành câu thoại: \"Patrick có đang hỗ trợ bạn các phép tính kiểm toán không?\"",
       "words": [
-        "Patrick",
-        "calculations",
         "you",
-        "Is",
         "helping",
+        "calculations",
+        "Patrick",
         "the",
-        "with",
-        "audit"
+        "audit",
+        "Is",
+        "with"
       ],
       "correctSentence": "Is Patrick helping you with the audit calculations?",
       "hintVi": "Patrick có đang hỗ trợ bạn các phép tính kiểm toán không?",
@@ -253,10 +253,10 @@
       "promptVi": "[Nhận diện cấu trúc chuẩn] Chọn câu có cấu trúc ngữ pháp HOÀN TOÀN ĐÚNG:",
       "question": "Dựa vào chủ điểm \"Bài 20: Hiện tại Tiếp diễn — Đầy đủ 3 dạng & Trả lời ngắn\", câu nào sau đây CHÍNH XÁC?",
       "options": [
-        "project. new a on working is He",
-        "He is working on a new project.",
+        "He is working at a new project.",
         "He be working on a new project.",
-        "He is working at a new project."
+        "He is working on a new project.",
+        "project. new a on working is He"
       ],
       "correctAnswer": "He is working on a new project.",
       "explanationVi": "Cấu trúc chuẩn xác là: \"He is working on a new project.\" (Anh ấy đang làm việc trên một dự án mới.)."
@@ -267,10 +267,10 @@
       "promptVi": "[Nhận diện cấu trúc chuẩn] Chọn câu có cấu trúc ngữ pháp HOÀN TOÀN ĐÚNG:",
       "question": "Dựa vào chủ điểm \"Bài 20: Hiện tại Tiếp diễn — Đầy đủ 3 dạng & Trả lời ngắn\", câu nào sau đây CHÍNH XÁC?",
       "options": [
+        "library? the in studying they Are",
         "Are they studying in the library?",
-        "be they studying in the library?",
         "Are they studying at the library?",
-        "library? the in studying they Are"
+        "be they studying in the library?"
       ],
       "correctAnswer": "Are they studying in the library?",
       "explanationVi": "Cấu trúc chuẩn xác là: \"Are they studying in the library?\" (Họ có đang học trong thư viện không?)."
@@ -281,10 +281,10 @@
       "promptVi": "[Nhận diện cấu trúc chuẩn] Chọn câu có cấu trúc ngữ pháp HOÀN TOÀN ĐÚNG:",
       "question": "Dựa vào chủ điểm \"Bài 20: Hiện tại Tiếp diễn — Đầy đủ 3 dạng & Trả lời ngắn\", câu nào sau đây CHÍNH XÁC?",
       "options": [
-        "She isn't cooking dinner right now.",
+        "are",
         "now. right dinner cooking isn't She",
-        "is",
-        "are"
+        "She isn't cooking dinner right now.",
+        "is"
       ],
       "correctAnswer": "She isn't cooking dinner right now.",
       "explanationVi": "Cấu trúc chuẩn xác là: \"She isn't cooking dinner right now.\" (Cô ấy không đang nấu bữa tối ngay lúc này.)."
@@ -295,10 +295,10 @@
       "promptVi": "[Nhận diện cấu trúc chuẩn] Chọn câu có cấu trúc ngữ pháp HOÀN TOÀN ĐÚNG:",
       "question": "Dựa vào chủ điểm \"Bài 20: Hiện tại Tiếp diễn — Đầy đủ 3 dạng & Trả lời ngắn\", câu nào sau đây CHÍNH XÁC?",
       "options": [
-        "Is it raining outside at the moment?",
-        "is",
+        "moment? the at outside raining it Is",
         "be it raining outside at the moment?",
-        "moment? the at outside raining it Is"
+        "Is it raining outside at the moment?",
+        "is"
       ],
       "correctAnswer": "Is it raining outside at the moment?",
       "explanationVi": "Cấu trúc chuẩn xác là: \"Is it raining outside at the moment?\" (Bên ngoài lúc này trời có đang mưa không?)."
@@ -310,10 +310,10 @@
       "audioPrompt": "Good afternoon Brenda! Are you writing the monthly finance summary?",
       "question": "Nhấn nút '🔊 Nghe audio' và chọn nghĩa tiếng Việt đúng:",
       "options": [
-        "Hôm nay thời tiết rất đẹp.",
-        "Patrick có đang hỗ trợ bạn các phép tính kiểm toán không?",
         "Chào buổi chiều Brenda! Bạn có đang viết bản tóm tắt tài chính hàng tháng không?",
-        "Vâng, tôi đang làm. Tôi đang hoàn thiện các số liệu doanh thu cho phòng ban chúng ta."
+        "Vâng, tôi đang làm. Tôi đang hoàn thiện các số liệu doanh thu cho phòng ban chúng ta.",
+        "Hôm nay thời tiết rất đẹp.",
+        "Patrick có đang hỗ trợ bạn các phép tính kiểm toán không?"
       ],
       "correctAnswer": "Chào buổi chiều Brenda! Bạn có đang viết bản tóm tắt tài chính hàng tháng không?",
       "explanationVi": "Câu nghe được: \"Good afternoon Brenda! Are you writing the monthly finance summary?\" có nghĩa là: \"Chào buổi chiều Brenda! Bạn có đang viết bản tóm tắt tài chính hàng tháng không?\"."
@@ -325,10 +325,10 @@
       "audioPrompt": "Yes, I am. I am finalizing the revenue numbers for our department.",
       "question": "Nhấn nút '🔊 Nghe audio' và chọn nghĩa tiếng Việt đúng:",
       "options": [
-        "Vâng, tôi đang làm. Tôi đang hoàn thiện các số liệu doanh thu cho phòng ban chúng ta.",
-        "Patrick có đang hỗ trợ bạn các phép tính kiểm toán không?",
         "Không, anh ấy không hỗ trợ. Anh ấy đang tham dự một buổi tập huấn phần mềm lúc này.",
-        "Hôm nay thời tiết rất đẹp."
+        "Patrick có đang hỗ trợ bạn các phép tính kiểm toán không?",
+        "Hôm nay thời tiết rất đẹp.",
+        "Vâng, tôi đang làm. Tôi đang hoàn thiện các số liệu doanh thu cho phòng ban chúng ta."
       ],
       "correctAnswer": "Vâng, tôi đang làm. Tôi đang hoàn thiện các số liệu doanh thu cho phòng ban chúng ta.",
       "explanationVi": "Câu nghe được: \"Yes, I am. I am finalizing the revenue numbers for our department.\" có nghĩa là: \"Vâng, tôi đang làm. Tôi đang hoàn thiện các số liệu doanh thu cho phòng ban chúng ta.\"."
@@ -341,9 +341,9 @@
       "question": "Nhấn nút '🔊 Nghe audio' và chọn nghĩa tiếng Việt đúng:",
       "options": [
         "Patrick có đang hỗ trợ bạn các phép tính kiểm toán không?",
-        "Hôm nay thời tiết rất đẹp.",
         "Không, anh ấy không hỗ trợ. Anh ấy đang tham dự một buổi tập huấn phần mềm lúc này.",
-        "Các kế toán viên có đang in các biên lai giấy ra không?"
+        "Các kế toán viên có đang in các biên lai giấy ra không?",
+        "Hôm nay thời tiết rất đẹp."
       ],
       "correctAnswer": "Patrick có đang hỗ trợ bạn các phép tính kiểm toán không?",
       "explanationVi": "Câu nghe được: \"Is Patrick helping you with the audit calculations?\" có nghĩa là: \"Patrick có đang hỗ trợ bạn các phép tính kiểm toán không?\"."
@@ -356,9 +356,9 @@
       "question": "Nhấn nút '🔊 Nghe audio' và chọn nghĩa tiếng Việt đúng:",
       "options": [
         "Các kế toán viên có đang in các biên lai giấy ra không?",
+        "Hôm nay thời tiết rất đẹp.",
         "Không, anh ấy không hỗ trợ. Anh ấy đang tham dự một buổi tập huấn phần mềm lúc này.",
-        "Không, họ không in. Họ đang lưu các bản sao kỹ thuật số trên máy chủ an toàn.",
-        "Hôm nay thời tiết rất đẹp."
+        "Không, họ không in. Họ đang lưu các bản sao kỹ thuật số trên máy chủ an toàn."
       ],
       "correctAnswer": "Không, anh ấy không hỗ trợ. Anh ấy đang tham dự một buổi tập huấn phần mềm lúc này.",
       "explanationVi": "Câu nghe được: \"No, he isn't. He is attending a software training workshop right now.\" có nghĩa là: \"Không, anh ấy không hỗ trợ. Anh ấy đang tham dự một buổi tập huấn phần mềm lúc này.\"."
@@ -406,10 +406,10 @@
       "passage": "Harvey: \"Good afternoon Brenda! Are you writing the monthly finance summary?\"\nBrenda: \"Yes, I am. I am finalizing the revenue numbers for our department.\"\nHarvey: \"Is Patrick helping you with the audit calculations?\"\nBrenda: \"No, he isn't. He is attending a software training workshop right now.\"",
       "question": "Dựa vào đoạn đối thoại trên, thông tin nào sau đây là CHÍNH XÁC về nội dung câu nói của Harvey?",
       "options": [
-        "Harvey chia sẻ thông tin: \"Chào buổi chiều Brenda! Bạn có đang viết bản tóm tắt tài chính hàng tháng không?\"",
-        "Harvey phàn nàn rằng thời tiết hôm nay quá xấu.",
         "Harvey từ chối trả lời và yêu cầu hủy cuộc hẹn.",
-        "Harvey muốn mượn tiền để mua vé máy bay gấp."
+        "Harvey muốn mượn tiền để mua vé máy bay gấp.",
+        "Harvey phàn nàn rằng thời tiết hôm nay quá xấu.",
+        "Harvey chia sẻ thông tin: \"Chào buổi chiều Brenda! Bạn có đang viết bản tóm tắt tài chính hàng tháng không?\""
       ],
       "correctAnswer": "Harvey chia sẻ thông tin: \"Chào buổi chiều Brenda! Bạn có đang viết bản tóm tắt tài chính hàng tháng không?\"",
       "explanationVi": "Trong đoạn hội thoại, Harvey đã nói: \"Good afternoon Brenda! Are you writing the monthly finance summary?\" (nghĩa là: \"Chào buổi chiều Brenda! Bạn có đang viết bản tóm tắt tài chính hàng tháng không?\")."
@@ -421,10 +421,10 @@
       "passage": "Harvey: \"Are the accountants printing out the paper receipts?\"\nBrenda: \"No, they aren't. They are saving digital copies on the secure server.\"\nHarvey: \"What are you planning to do after finishing this report?\"\nBrenda: \"I am meeting our regional director at three thirty PM.\"",
       "question": "Trong đoạn hội thoại trên, câu nói \"I am meeting our regional director at three thirty PM.\" của Brenda mang ý nghĩa gì?",
       "options": [
-        "Phản hồi: \"Yêu cầu cung cấp hóa đơn thanh toán tiền mặt\"",
         "Phản hồi: \"Hẹn gặp lại vào cuối tuần sau tại sân bay quốc tế\"",
         "Phản hồi: \"Hoàn toàn không đồng ý và muốn rời khỏi phòng ngay lập tức\"",
-        "Phản hồi: \"Tôi sẽ gặp giám đốc khu vực của chúng ta lúc 3 giờ 30 chiều.\""
+        "Phản hồi: \"Tôi sẽ gặp giám đốc khu vực của chúng ta lúc 3 giờ 30 chiều.\"",
+        "Phản hồi: \"Yêu cầu cung cấp hóa đơn thanh toán tiền mặt\""
       ],
       "correctAnswer": "Phản hồi: \"Tôi sẽ gặp giám đốc khu vực của chúng ta lúc 3 giờ 30 chiều.\"",
       "explanationVi": "Brenda nói: \"I am meeting our regional director at three thirty PM.\" có nghĩa là: \"Tôi sẽ gặp giám đốc khu vực của chúng ta lúc 3 giờ 30 chiều.\"."

@@ -10,9 +10,9 @@
       "promptVi": "[Trắc nghiệm ngữ pháp] Chọn từ đúng để hoàn thành câu (Mặc dù thời tiết xấu, họ vẫn tận hưởng kỳ nghỉ của mình.):",
       "question": "___ the bad weather, they enjoyed their vacation.",
       "options": [
-        "Despite of",
-        "Even though",
         "Although",
+        "Even though",
+        "Despite of",
         "Despite"
       ],
       "correctAnswer": "Despite",
@@ -24,10 +24,10 @@
       "promptVi": "[Trắc nghiệm ngữ pháp] Chọn từ đúng để hoàn thành câu (Chuyến bay đã bị hoãn bởi vì sương mù dày đặc.):",
       "question": "The flight was delayed ___ the thick fog.",
       "options": [
-        "as",
         "because of",
         "because",
-        "since"
+        "since",
+        "as"
       ],
       "correctAnswer": "because of",
       "explanationVi": "Trước cụm danh từ 'the thick fog' dùng 'because of'."
@@ -38,10 +38,10 @@
       "promptVi": "[Trắc nghiệm ngữ pháp] Chọn từ đúng để hoàn thành câu (Bạn có thể mượn xe của tôi miễn là bạn lái xe an toàn.):",
       "question": "You can borrow my car ___ you drive safely.",
       "options": [
-        "in case of",
-        "despite",
         "because of",
-        "provided that"
+        "provided that",
+        "in case of",
+        "despite"
       ],
       "correctAnswer": "provided that",
       "explanationVi": "'provided that + Clause' mang nghĩa 'miễn là / với điều kiện là'."
@@ -66,10 +66,10 @@
       "promptVi": "[Phản xạ dịch thuật] Dịch câu sau sang tiếng Anh: \"Chào buổi sáng Giám đốc Vance. Mặc dù thị trường có sự biến động dữ dội, thương vụ sáp nhập dược phẩm của chúng ta đã hoàn tất một cách suôn sẻ. (Despite + Noun Phrase)\"",
       "question": "Chọn bản dịch chuẩn xác nhất cho câu: \"Chào buổi sáng Giám đốc Vance. Mặc dù thị trường có sự biến động dữ dội, thương vụ sáp nhập dược phẩm của chúng ta đã hoàn tất một cách suôn sẻ. (Despite + Noun Phrase)\"",
       "options": [
-        "Good morning, Director Vance. Despite intense market volatility, our pharmaceutical merger has finalized smoothly.",
         "We are studying English today.",
+        "Although regulatory antitrust reviews took six extra months, we secured unconditional global clearances.",
         "Good morning, Director Vance. Despite intense market volatility, our pharmaceutical merger be finalized smoothly.",
-        "Although regulatory antitrust reviews took six extra months, we secured unconditional global clearances."
+        "Good morning, Director Vance. Despite intense market volatility, our pharmaceutical merger has finalized smoothly."
       ],
       "correctAnswer": "Good morning, Director Vance. Despite intense market volatility, our pharmaceutical merger has finalized smoothly.",
       "explanationVi": "Câu dịch chuẩn xác: \"Good morning, Director Vance. Despite intense market volatility, our pharmaceutical merger has finalized smoothly.\" (Chào buổi sáng Giám đốc Vance. Mặc dù thị trường có sự biến động dữ dội, thương vụ sáp nhập dược phẩm của chúng ta đã hoàn tất một cách suôn sẻ. (Despite + Noun Phrase))."
@@ -95,10 +95,10 @@
       "question": "___ the bad weather, they enjoyed their vacation.",
       "correctAnswer": "Despite",
       "options": [
-        "Even though",
-        "Although",
+        "Despite of",
         "Despite",
-        "Despite of"
+        "Although",
+        "Even though"
       ],
       "explanationVi": "Đáp án đúng là \"Despite\". Câu hoàn chỉnh: \"Despite the bad weather, they enjoyed their vacation.\" (Mặc dù thời tiết xấu, họ vẫn tận hưởng kỳ nghỉ của mình.)."
     },
@@ -110,9 +110,9 @@
       "correctAnswer": "because of",
       "options": [
         "as",
+        "since",
         "because of",
-        "because",
-        "since"
+        "because"
       ],
       "explanationVi": "Đáp án đúng là \"because of\". Câu hoàn chỉnh: \"The flight was delayed because of the thick fog.\" (Chuyến bay đã bị hoãn bởi vì sương mù dày đặc.)."
     },
@@ -123,8 +123,8 @@
       "question": "You can borrow my car ___ you drive safely.",
       "correctAnswer": "provided that",
       "options": [
-        "provided that",
         "because of",
+        "provided that",
         "in case of",
         "despite"
       ],
@@ -137,10 +137,10 @@
       "question": "Take an umbrella with you ___ it rains.",
       "correctAnswer": "in case",
       "options": [
-        "in case",
-        "in case of",
         "so that",
-        "unless"
+        "unless",
+        "in case of",
+        "in case"
       ],
       "explanationVi": "Đáp án đúng là \"in case\". Câu hoàn chỉnh: \"Take an umbrella with you in case it rains.\" (Hãy mang theo ô bên mình phòng khi trời mưa.)."
     },
@@ -151,9 +151,9 @@
       "question": "Despite _____ not bad weather, they enjoyed their vacation.",
       "correctAnswer": "the",
       "options": [
-        "the",
         "is",
         "are",
+        "the",
         "am"
       ],
       "explanationVi": "Câu phủ định hoàn chỉnh: \"Despite the not bad weather, they enjoyed their vacation.\"."
@@ -165,13 +165,13 @@
       "question": "Sắp xếp các từ để tạo thành câu đúng: \"Mặc dù thời tiết xấu, họ vẫn tận hưởng kỳ nghỉ của mình.\"",
       "words": [
         "they",
-        "vacation.",
-        "bad",
-        "the",
-        "weather,",
         "their",
+        "the",
+        "vacation.",
+        "weather,",
+        "enjoyed",
         "Despite",
-        "enjoyed"
+        "bad"
       ],
       "correctSentence": "Despite the bad weather, they enjoyed their vacation.",
       "hintVi": "Mặc dù thời tiết xấu, họ vẫn tận hưởng kỳ nghỉ của mình.",
@@ -183,15 +183,15 @@
       "promptVi": "[Sắp xếp câu] Ghép các khối từ thành câu hoàn chỉnh mang nghĩa: \"Chuyến bay đã bị hoãn bởi vì sương mù dày đặc.\"",
       "question": "Sắp xếp các từ để tạo thành câu đúng: \"Chuyến bay đã bị hoãn bởi vì sương mù dày đặc.\"",
       "words": [
-        "because",
+        "was",
         "delayed",
-        "The",
         "fog.",
-        "the",
         "of",
-        "thick",
         "flight",
-        "was"
+        "thick",
+        "because",
+        "The",
+        "the"
       ],
       "correctSentence": "The flight was delayed because of the thick fog.",
       "hintVi": "Chuyến bay đã bị hoãn bởi vì sương mù dày đặc.",
@@ -203,16 +203,16 @@
       "promptVi": "[Sắp xếp câu] Ghép các khối từ thành câu hoàn chỉnh mang nghĩa: \"Bạn có thể mượn xe của tôi miễn là bạn lái xe an toàn.\"",
       "question": "Sắp xếp các từ để tạo thành câu đúng: \"Bạn có thể mượn xe của tôi miễn là bạn lái xe an toàn.\"",
       "words": [
+        "car",
         "my",
         "safely.",
         "can",
-        "car",
         "drive",
-        "provided",
-        "you",
-        "that",
+        "borrow",
         "You",
-        "borrow"
+        "that",
+        "you",
+        "provided"
       ],
       "correctSentence": "You can borrow my car provided that you drive safely.",
       "hintVi": "Bạn có thể mượn xe của tôi miễn là bạn lái xe an toàn.",
@@ -224,15 +224,15 @@
       "promptVi": "[Sắp xếp câu] Ghép các khối từ thành câu hoàn chỉnh mang nghĩa: \"Hãy mang theo ô bên mình phòng khi trời mưa.\"",
       "question": "Sắp xếp các từ để tạo thành câu đúng: \"Hãy mang theo ô bên mình phòng khi trời mưa.\"",
       "words": [
-        "in",
-        "an",
-        "with",
         "it",
+        "Take",
+        "umbrella",
+        "with",
         "you",
         "rains.",
-        "umbrella",
-        "Take",
-        "case"
+        "case",
+        "an",
+        "in"
       ],
       "correctSentence": "Take an umbrella with you in case it rains.",
       "hintVi": "Hãy mang theo ô bên mình phòng khi trời mưa.",
@@ -244,20 +244,20 @@
       "promptVi": "[Sắp xếp câu] Ghép các từ thành câu hội thoại: \"Nhờ có danh mục bằng sáng chế chỉnh sửa gen đột phá của chúng ta, các nhà đầu tư tổ chức quốc tế đã rót vào hai tỷ đô la. (Due to + Noun Phrase)\"",
       "question": "Sắp xếp các từ để tạo thành câu thoại: \"Nhờ có danh mục bằng sáng chế chỉnh sửa gen đột phá của chúng ta, các nhà đầu tư tổ chức quốc tế đã rót vào hai tỷ đô la. (Due to + Noun Phrase)\"",
       "words": [
-        "investors",
-        "Due",
-        "billion",
-        "portfolio",
-        "international",
-        "to",
-        "patent",
+        "dollars",
         "institutional",
-        "our",
+        "Due",
+        "international",
+        "billion",
+        "to",
+        "portfolio",
+        "patent",
         "breakthrough",
-        "injected",
-        "gene-editing",
+        "investors",
         "two",
-        "dollars"
+        "our",
+        "injected",
+        "gene-editing"
       ],
       "correctSentence": "Due to our breakthrough gene-editing patent portfolio, international institutional investors injected two billion dollars.",
       "hintVi": "Nhờ có danh mục bằng sáng chế chỉnh sửa gen đột phá của chúng ta, các nhà đầu tư tổ chức quốc tế đã rót vào hai tỷ đô la. (Due to + Noun Phrase)",
@@ -271,8 +271,8 @@
       "options": [
         "are",
         "Despite the bad weather, they enjoyed their vacation.",
-        "is",
-        "vacation. their enjoyed they weather, bad the Despite"
+        "vacation. their enjoyed they weather, bad the Despite",
+        "is"
       ],
       "correctAnswer": "Despite the bad weather, they enjoyed their vacation.",
       "explanationVi": "Cấu trúc chuẩn xác là: \"Despite the bad weather, they enjoyed their vacation.\" (Mặc dù thời tiết xấu, họ vẫn tận hưởng kỳ nghỉ của mình.)."
@@ -283,9 +283,9 @@
       "promptVi": "[Nhận diện cấu trúc chuẩn] Chọn câu có cấu trúc ngữ pháp HOÀN TOÀN ĐÚNG:",
       "question": "Dựa vào chủ điểm \"Bài 97: Liên từ & Cụm Giới từ Nâng cao (Advanced Conjunctions & Prepositional Connectors: Clauses vs. Phrases)\", câu nào sau đây CHÍNH XÁC?",
       "options": [
-        "The flight was delayed because of the thick fog.",
-        "The flight be delayed because of the thick fog.",
         "is",
+        "The flight be delayed because of the thick fog.",
+        "The flight was delayed because of the thick fog.",
         "fog. thick the of because delayed was flight The"
       ],
       "correctAnswer": "The flight was delayed because of the thick fog.",
@@ -297,9 +297,9 @@
       "promptVi": "[Nhận diện cấu trúc chuẩn] Chọn câu có cấu trúc ngữ pháp HOÀN TOÀN ĐÚNG:",
       "question": "Dựa vào chủ điểm \"Bài 97: Liên từ & Cụm Giới từ Nâng cao (Advanced Conjunctions & Prepositional Connectors: Clauses vs. Phrases)\", câu nào sau đây CHÍNH XÁC?",
       "options": [
-        "You can borrow my car provided that you drive safely.",
-        "is",
         "safely. drive you that provided car my borrow can You",
+        "is",
+        "You can borrow my car provided that you drive safely.",
         "are"
       ],
       "correctAnswer": "You can borrow my car provided that you drive safely.",
@@ -311,10 +311,10 @@
       "promptVi": "[Nhận diện cấu trúc chuẩn] Chọn câu có cấu trúc ngữ pháp HOÀN TOÀN ĐÚNG:",
       "question": "Dựa vào chủ điểm \"Bài 97: Liên từ & Cụm Giới từ Nâng cao (Advanced Conjunctions & Prepositional Connectors: Clauses vs. Phrases)\", câu nào sau đây CHÍNH XÁC?",
       "options": [
-        "Take an umbrella with you in case it rains.",
+        "Take an umbrella at you in case it rains.",
         "is",
-        "rains. it case in you with umbrella an Take",
-        "Take an umbrella at you in case it rains."
+        "Take an umbrella with you in case it rains.",
+        "rains. it case in you with umbrella an Take"
       ],
       "correctAnswer": "Take an umbrella with you in case it rains.",
       "explanationVi": "Cấu trúc chuẩn xác là: \"Take an umbrella with you in case it rains.\" (Hãy mang theo ô bên mình phòng khi trời mưa.)."
@@ -328,8 +328,8 @@
       "options": [
         "Chào buổi sáng Giám đốc Vance. Mặc dù thị trường có sự biến động dữ dội, thương vụ sáp nhập dược phẩm của chúng ta đã hoàn tất một cách suôn sẻ. (Despite + Noun Phrase)",
         "Mặc dù các đợt xem xét chống độc quyền theo quy định mất thêm sáu tháng, chúng ta đã giành được sự phê duyệt toàn cầu vô điều kiện. (Although + Clause)",
-        "Hôm nay thời tiết rất đẹp.",
-        "Nhờ có danh mục bằng sáng chế chỉnh sửa gen đột phá của chúng ta, các nhà đầu tư tổ chức quốc tế đã rót vào hai tỷ đô la. (Due to + Noun Phrase)"
+        "Nhờ có danh mục bằng sáng chế chỉnh sửa gen đột phá của chúng ta, các nhà đầu tư tổ chức quốc tế đã rót vào hai tỷ đô la. (Due to + Noun Phrase)",
+        "Hôm nay thời tiết rất đẹp."
       ],
       "correctAnswer": "Chào buổi sáng Giám đốc Vance. Mặc dù thị trường có sự biến động dữ dội, thương vụ sáp nhập dược phẩm của chúng ta đã hoàn tất một cách suôn sẻ. (Despite + Noun Phrase)",
       "explanationVi": "Câu nghe được: \"Good morning, Director Vance. Despite intense market volatility, our pharmaceutical merger has finalized smoothly.\" có nghĩa là: \"Chào buổi sáng Giám đốc Vance. Mặc dù thị trường có sự biến động dữ dội, thương vụ sáp nhập dược phẩm của chúng ta đã hoàn tất một cách suôn sẻ. (Despite + Noun Phrase)\"."
@@ -342,9 +342,9 @@
       "question": "Nhấn nút '🔊 Nghe audio' và chọn nghĩa tiếng Việt đúng:",
       "options": [
         "Hôm nay thời tiết rất đẹp.",
-        "Mặc dù các đợt xem xét chống độc quyền theo quy định mất thêm sáu tháng, chúng ta đã giành được sự phê duyệt toàn cầu vô điều kiện. (Although + Clause)",
         "Chúng ta có thể tiến hành các thử nghiệm lâm sàng ung thư giai đoạn ba, miễn là các quy trình an toàn của bệnh nhân được đáp ứng nghiêm ngặt. (provided that + Clause)",
-        "Nhờ có danh mục bằng sáng chế chỉnh sửa gen đột phá của chúng ta, các nhà đầu tư tổ chức quốc tế đã rót vào hai tỷ đô la. (Due to + Noun Phrase)"
+        "Nhờ có danh mục bằng sáng chế chỉnh sửa gen đột phá của chúng ta, các nhà đầu tư tổ chức quốc tế đã rót vào hai tỷ đô la. (Due to + Noun Phrase)",
+        "Mặc dù các đợt xem xét chống độc quyền theo quy định mất thêm sáu tháng, chúng ta đã giành được sự phê duyệt toàn cầu vô điều kiện. (Although + Clause)"
       ],
       "correctAnswer": "Mặc dù các đợt xem xét chống độc quyền theo quy định mất thêm sáu tháng, chúng ta đã giành được sự phê duyệt toàn cầu vô điều kiện. (Although + Clause)",
       "explanationVi": "Câu nghe được: \"Although regulatory antitrust reviews took six extra months, we secured unconditional global clearances.\" có nghĩa là: \"Mặc dù các đợt xem xét chống độc quyền theo quy định mất thêm sáu tháng, chúng ta đã giành được sự phê duyệt toàn cầu vô điều kiện. (Although + Clause)\"."
@@ -371,10 +371,10 @@
       "audioPrompt": "We can proceed with phase-three oncology clinical trials, provided that patient safety protocols are strictly met.",
       "question": "Nhấn nút '🔊 Nghe audio' và chọn nghĩa tiếng Việt đúng:",
       "options": [
-        "Chúng ta có thể tiến hành các thử nghiệm lâm sàng ung thư giai đoạn ba, miễn là các quy trình an toàn của bệnh nhân được đáp ứng nghiêm ngặt. (provided that + Clause)",
-        "Mặc dù phải đối mặt với sự cạnh tranh khốc liệt từ các tập đoàn khổng lồ đa quốc gia, các kênh phân phối địa phương của chúng ta vẫn chiếm ưu thế. (In spite of facing + V-ing)",
+        "Ngay cả khi các phòng thí nghiệm dược phẩm đối thủ phát triển các liệu pháp bắt chước, hiệu quả lâm sàng của chúng ta vẫn mạnh gấp đôi. (Even if + Clause)",
         "Hôm nay thời tiết rất đẹp.",
-        "Ngay cả khi các phòng thí nghiệm dược phẩm đối thủ phát triển các liệu pháp bắt chước, hiệu quả lâm sàng của chúng ta vẫn mạnh gấp đôi. (Even if + Clause)"
+        "Mặc dù phải đối mặt với sự cạnh tranh khốc liệt từ các tập đoàn khổng lồ đa quốc gia, các kênh phân phối địa phương của chúng ta vẫn chiếm ưu thế. (In spite of facing + V-ing)",
+        "Chúng ta có thể tiến hành các thử nghiệm lâm sàng ung thư giai đoạn ba, miễn là các quy trình an toàn của bệnh nhân được đáp ứng nghiêm ngặt. (provided that + Clause)"
       ],
       "correctAnswer": "Chúng ta có thể tiến hành các thử nghiệm lâm sàng ung thư giai đoạn ba, miễn là các quy trình an toàn của bệnh nhân được đáp ứng nghiêm ngặt. (provided that + Clause)",
       "explanationVi": "Câu nghe được: \"We can proceed with phase-three oncology clinical trials, provided that patient safety protocols are strictly met.\" có nghĩa là: \"Chúng ta có thể tiến hành các thử nghiệm lâm sàng ung thư giai đoạn ba, miễn là các quy trình an toàn của bệnh nhân được đáp ứng nghiêm ngặt. (provided that + Clause)\"."

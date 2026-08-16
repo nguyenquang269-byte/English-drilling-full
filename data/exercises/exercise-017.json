@@ -24,10 +24,10 @@
       "promptVi": "[Trắc nghiệm ngữ pháp] Chọn từ đúng để hoàn thành câu (Anh ấy đang chạy bộ trong công viên.):",
       "question": "He is ___ in the park.",
       "options": [
+        "ran",
         "running",
         "runing",
-        "runs",
-        "ran"
+        "runs"
       ],
       "correctAnswer": "running",
       "explanationVi": "Động từ 'run' (1 nguyên âm + 1 phụ âm) nhân đôi 'n' thành 'running'."
@@ -38,9 +38,9 @@
       "promptVi": "[Trắc nghiệm ngữ pháp] Chọn từ đúng để hoàn thành câu (Lúc này họ đang ăn tối.):",
       "question": "They are ___ dinner at the moment.",
       "options": [
+        "haves",
         "having",
         "haveing",
-        "haves",
         "had"
       ],
       "correctAnswer": "having",
@@ -52,10 +52,10 @@
       "promptVi": "[Trắc nghiệm ngữ pháp] Chọn từ đúng để hoàn thành câu (Cô ấy đang viết một bức email ngay lúc này.):",
       "question": "She ___ writing an email right now.",
       "options": [
-        "am",
         "be",
         "is",
-        "are"
+        "are",
+        "am"
       ],
       "correctAnswer": "is",
       "explanationVi": "Chủ ngữ ngôi thứ 3 số ít 'She' dùng 'is'."
@@ -80,10 +80,10 @@
       "promptVi": "[Ngữ cảnh giao tiếp] Chọn câu phản hồi tự nhiên và đúng ngữ pháp:",
       "question": "Khi đối phương nói: \"Hello Emma! Look at all the people in the central park today.\", câu phản hồi phù hợp là gì?",
       "options": [
-        "Yes, it is so lively! The children are running and playing soccer on the grass.",
         "They are not in the office.",
+        "Yes, I will eat it.",
         "No, it was yesterday.",
-        "Yes, I will eat it."
+        "Yes, it is so lively! The children are running and playing soccer on the grass."
       ],
       "correctAnswer": "Yes, it is so lively! The children are running and playing soccer on the grass.",
       "explanationVi": "Phản hồi phù hợp trong bài: \"Yes, it is so lively! The children are running and playing soccer on the grass.\" (Vâng, thật là náo nhiệt! Lũ trẻ đang chạy và chơi bóng đá trên bãi cỏ.)."
@@ -95,10 +95,10 @@
       "question": "I ___ studying English right now.",
       "correctAnswer": "am",
       "options": [
-        "be",
-        "am",
+        "are",
         "is",
-        "are"
+        "be",
+        "am"
       ],
       "explanationVi": "Đáp án đúng là \"am\". Câu hoàn chỉnh: \"I am studying English right now.\" (Tôi đang học tiếng Anh ngay bây giờ.)."
     },
@@ -109,10 +109,10 @@
       "question": "He is ___ in the park.",
       "correctAnswer": "running",
       "options": [
+        "runs",
         "running",
         "runing",
-        "ran",
-        "runs"
+        "ran"
       ],
       "explanationVi": "Đáp án đúng là \"running\". Câu hoàn chỉnh: \"He is running in the park.\" (Anh ấy đang chạy bộ trong công viên.)."
     },
@@ -123,9 +123,9 @@
       "question": "They are ___ dinner at the moment.",
       "correctAnswer": "having",
       "options": [
-        "had",
         "haves",
         "haveing",
+        "had",
         "having"
       ],
       "explanationVi": "Đáp án đúng là \"having\". Câu hoàn chỉnh: \"They are having dinner at the moment.\" (Lúc này họ đang ăn tối.)."
@@ -137,10 +137,10 @@
       "question": "She ___ writing an email right now.",
       "correctAnswer": "is",
       "options": [
-        "are",
         "is",
-        "am",
-        "be"
+        "be",
+        "are",
+        "am"
       ],
       "explanationVi": "Đáp án đúng là \"is\". Câu hoàn chỉnh: \"She is writing an email right now.\" (Cô ấy đang viết một bức email ngay lúc này.)."
     },
@@ -151,10 +151,10 @@
       "question": "I _____ not studying English right now.",
       "correctAnswer": "am",
       "options": [
-        "is",
         "do",
-        "am",
-        "are"
+        "are",
+        "is",
+        "am"
       ],
       "explanationVi": "Câu phủ định hoàn chỉnh: \"I am not studying English right now.\"."
     },
@@ -164,12 +164,12 @@
       "promptVi": "[Sắp xếp câu] Ghép các khối từ thành câu hoàn chỉnh mang nghĩa: \"Tôi đang học tiếng Anh ngay bây giờ.\"",
       "question": "Sắp xếp các từ để tạo thành câu đúng: \"Tôi đang học tiếng Anh ngay bây giờ.\"",
       "words": [
-        "now.",
-        "right",
         "am",
+        "now.",
+        "I",
         "English",
-        "studying",
-        "I"
+        "right",
+        "studying"
       ],
       "correctSentence": "I am studying English right now.",
       "hintVi": "Tôi đang học tiếng Anh ngay bây giờ.",
@@ -182,11 +182,11 @@
       "question": "Sắp xếp các từ để tạo thành câu đúng: \"Anh ấy đang chạy bộ trong công viên.\"",
       "words": [
         "park.",
-        "in",
+        "the",
         "He",
-        "is",
         "running",
-        "the"
+        "is",
+        "in"
       ],
       "correctSentence": "He is running in the park.",
       "hintVi": "Anh ấy đang chạy bộ trong công viên.",
@@ -198,13 +198,13 @@
       "promptVi": "[Sắp xếp câu] Ghép các khối từ thành câu hoàn chỉnh mang nghĩa: \"Lúc này họ đang ăn tối.\"",
       "question": "Sắp xếp các từ để tạo thành câu đúng: \"Lúc này họ đang ăn tối.\"",
       "words": [
-        "moment.",
+        "are",
+        "having",
         "the",
         "at",
-        "dinner",
-        "having",
-        "are",
-        "They"
+        "They",
+        "moment.",
+        "dinner"
       ],
       "correctSentence": "They are having dinner at the moment.",
       "hintVi": "Lúc này họ đang ăn tối.",
@@ -218,10 +218,10 @@
       "words": [
         "now.",
         "right",
-        "is",
         "email",
-        "writing",
         "an",
+        "writing",
+        "is",
         "She"
       ],
       "correctSentence": "She is writing an email right now.",
@@ -234,20 +234,20 @@
       "promptVi": "[Sắp xếp câu] Ghép các từ thành câu hội thoại: \"Nhìn đằng kia kìa! Một cụ già đang đọc báo trên băng ghế gỗ.\"",
       "question": "Sắp xếp các từ để tạo thành câu thoại: \"Nhìn đằng kia kìa! Một cụ già đang đọc báo trên băng ghế gỗ.\"",
       "words": [
-        "over",
-        "there",
-        "a",
-        "is",
-        "wooden",
-        "newspaper",
-        "the",
-        "An",
-        "reading",
-        "bench",
         "old",
+        "is",
         "gentleman",
         "Look",
-        "on"
+        "bench",
+        "over",
+        "there",
+        "wooden",
+        "a",
+        "An",
+        "reading",
+        "on",
+        "the",
+        "newspaper"
       ],
       "correctSentence": "Look over there! An old gentleman is reading a newspaper on the wooden bench.",
       "hintVi": "Nhìn đằng kia kìa! Một cụ già đang đọc báo trên băng ghế gỗ.",
@@ -260,9 +260,9 @@
       "question": "Dựa vào chủ điểm \"Bài 17: ToBe — Hiện tại Tiếp diễn (Am / Is / Are + V-ing)\", câu nào sau đây CHÍNH XÁC?",
       "options": [
         "I am studying English right now.",
+        "is",
         "I be studying English right now.",
-        "now. right English studying am I",
-        "is"
+        "now. right English studying am I"
       ],
       "correctAnswer": "I am studying English right now.",
       "explanationVi": "Cấu trúc chuẩn xác là: \"I am studying English right now.\" (Tôi đang học tiếng Anh ngay bây giờ.)."
@@ -289,8 +289,8 @@
       "options": [
         "They are having dinner at the moment.",
         "They be having dinner at the moment.",
-        "is",
-        "moment. the at dinner having are They"
+        "moment. the at dinner having are They",
+        "is"
       ],
       "correctAnswer": "They are having dinner at the moment.",
       "explanationVi": "Cấu trúc chuẩn xác là: \"They are having dinner at the moment.\" (Lúc này họ đang ăn tối.)."
@@ -301,10 +301,10 @@
       "promptVi": "[Nhận diện cấu trúc chuẩn] Chọn câu có cấu trúc ngữ pháp HOÀN TOÀN ĐÚNG:",
       "question": "Dựa vào chủ điểm \"Bài 17: ToBe — Hiện tại Tiếp diễn (Am / Is / Are + V-ing)\", câu nào sau đây CHÍNH XÁC?",
       "options": [
-        "She is writing an email right now.",
-        "She be writing an email right now.",
         "now. right email an writing is She",
-        "is"
+        "She be writing an email right now.",
+        "is",
+        "She is writing an email right now."
       ],
       "correctAnswer": "She is writing an email right now.",
       "explanationVi": "Cấu trúc chuẩn xác là: \"She is writing an email right now.\" (Cô ấy đang viết một bức email ngay lúc này.)."
@@ -316,10 +316,10 @@
       "audioPrompt": "Hello Emma! Look at all the people in the central park today.",
       "question": "Nhấn nút '🔊 Nghe audio' và chọn nghĩa tiếng Việt đúng:",
       "options": [
-        "Vâng, thật là náo nhiệt! Lũ trẻ đang chạy và chơi bóng đá trên bãi cỏ.",
         "Chào Emma! Hãy nhìn xem bao nhiêu người ở công viên trung tâm hôm nay kìa.",
-        "Hôm nay thời tiết rất đẹp.",
-        "Nhìn đằng kia kìa! Một cụ già đang đọc báo trên băng ghế gỗ."
+        "Vâng, thật là náo nhiệt! Lũ trẻ đang chạy và chơi bóng đá trên bãi cỏ.",
+        "Nhìn đằng kia kìa! Một cụ già đang đọc báo trên băng ghế gỗ.",
+        "Hôm nay thời tiết rất đẹp."
       ],
       "correctAnswer": "Chào Emma! Hãy nhìn xem bao nhiêu người ở công viên trung tâm hôm nay kìa.",
       "explanationVi": "Câu nghe được: \"Hello Emma! Look at all the people in the central park today.\" có nghĩa là: \"Chào Emma! Hãy nhìn xem bao nhiêu người ở công viên trung tâm hôm nay kìa.\"."
@@ -331,10 +331,10 @@
       "audioPrompt": "Yes, it is so lively! The children are running and playing soccer on the grass.",
       "question": "Nhấn nút '🔊 Nghe audio' và chọn nghĩa tiếng Việt đúng:",
       "options": [
+        "Hôm nay thời tiết rất đẹp.",
         "Vâng, thật là náo nhiệt! Lũ trẻ đang chạy và chơi bóng đá trên bãi cỏ.",
-        "Nhìn đằng kia kìa! Một cụ già đang đọc báo trên băng ghế gỗ.",
         "Và một cô gái trẻ đang vẽ một bức tranh phong cảnh hồ nước rất đẹp.",
-        "Hôm nay thời tiết rất đẹp."
+        "Nhìn đằng kia kìa! Một cụ già đang đọc báo trên băng ghế gỗ."
       ],
       "correctAnswer": "Vâng, thật là náo nhiệt! Lũ trẻ đang chạy và chơi bóng đá trên bãi cỏ.",
       "explanationVi": "Câu nghe được: \"Yes, it is so lively! The children are running and playing soccer on the grass.\" có nghĩa là: \"Vâng, thật là náo nhiệt! Lũ trẻ đang chạy và chơi bóng đá trên bãi cỏ.\"."
@@ -346,10 +346,10 @@
       "audioPrompt": "Look over there! An old gentleman is reading a newspaper on the wooden bench.",
       "question": "Nhấn nút '🔊 Nghe audio' và chọn nghĩa tiếng Việt đúng:",
       "options": [
-        "Nhìn đằng kia kìa! Một cụ già đang đọc báo trên băng ghế gỗ.",
-        "Và một cô gái trẻ đang vẽ một bức tranh phong cảnh hồ nước rất đẹp.",
         "Hôm nay thời tiết rất đẹp.",
-        "Tôi đang cầm hai ly cà phê ấm cho hai chúng ta đây."
+        "Tôi đang cầm hai ly cà phê ấm cho hai chúng ta đây.",
+        "Và một cô gái trẻ đang vẽ một bức tranh phong cảnh hồ nước rất đẹp.",
+        "Nhìn đằng kia kìa! Một cụ già đang đọc báo trên băng ghế gỗ."
       ],
       "correctAnswer": "Nhìn đằng kia kìa! Một cụ già đang đọc báo trên băng ghế gỗ.",
       "explanationVi": "Câu nghe được: \"Look over there! An old gentleman is reading a newspaper on the wooden bench.\" có nghĩa là: \"Nhìn đằng kia kìa! Một cụ già đang đọc báo trên băng ghế gỗ.\"."
@@ -362,9 +362,9 @@
       "question": "Nhấn nút '🔊 Nghe audio' và chọn nghĩa tiếng Việt đúng:",
       "options": [
         "Tôi đang cầm hai ly cà phê ấm cho hai chúng ta đây.",
-        "Và một cô gái trẻ đang vẽ một bức tranh phong cảnh hồ nước rất đẹp.",
         "Cảm ơn Lucas nhé! Làn gió mát đang thổi nhẹ nhàng lúc này.",
-        "Hôm nay thời tiết rất đẹp."
+        "Hôm nay thời tiết rất đẹp.",
+        "Và một cô gái trẻ đang vẽ một bức tranh phong cảnh hồ nước rất đẹp."
       ],
       "correctAnswer": "Và một cô gái trẻ đang vẽ một bức tranh phong cảnh hồ nước rất đẹp.",
       "explanationVi": "Câu nghe được: \"And a young woman is painting a beautiful landscape of the lake.\" có nghĩa là: \"Và một cô gái trẻ đang vẽ một bức tranh phong cảnh hồ nước rất đẹp.\"."
@@ -412,10 +412,10 @@
       "passage": "Lucas: \"Hello Emma! Look at all the people in the central park today.\"\nEmma: \"Yes, it is so lively! The children are running and playing soccer on the grass.\"\nLucas: \"Look over there! An old gentleman is reading a newspaper on the wooden bench.\"\nEmma: \"And a young woman is painting a beautiful landscape of the lake.\"",
       "question": "Dựa vào đoạn đối thoại trên, thông tin nào sau đây là CHÍNH XÁC về nội dung câu nói của Lucas?",
       "options": [
+        "Lucas muốn mượn tiền để mua vé máy bay gấp.",
         "Lucas chia sẻ thông tin: \"Chào Emma! Hãy nhìn xem bao nhiêu người ở công viên trung tâm hôm nay kìa.\"",
         "Lucas phàn nàn rằng thời tiết hôm nay quá xấu.",
-        "Lucas từ chối trả lời và yêu cầu hủy cuộc hẹn.",
-        "Lucas muốn mượn tiền để mua vé máy bay gấp."
+        "Lucas từ chối trả lời và yêu cầu hủy cuộc hẹn."
       ],
       "correctAnswer": "Lucas chia sẻ thông tin: \"Chào Emma! Hãy nhìn xem bao nhiêu người ở công viên trung tâm hôm nay kìa.\"",
       "explanationVi": "Trong đoạn hội thoại, Lucas đã nói: \"Hello Emma! Look at all the people in the central park today.\" (nghĩa là: \"Chào Emma! Hãy nhìn xem bao nhiêu người ở công viên trung tâm hôm nay kìa.\")."
@@ -427,10 +427,10 @@
       "passage": "Lucas: \"I am holding two cups of warm coffee for both of us.\"\nEmma: \"Thank you Lucas! The fresh breeze is blowing gently right now.\"\nLucas: \"Two runners are listening to upbeat music while jogging.\"\nEmma: \"My sister is walking her cute golden retriever along the flower path.\"",
       "question": "Trong đoạn hội thoại trên, câu nói \"My sister is walking her cute golden retriever along the flower path.\" của Emma mang ý nghĩa gì?",
       "options": [
-        "Phản hồi: \"Em gái tôi đang dắt chú chó golden retriever dễ thương đi dạo dọc đường hoa.\"",
         "Phản hồi: \"Hoàn toàn không đồng ý và muốn rời khỏi phòng ngay lập tức\"",
+        "Phản hồi: \"Hẹn gặp lại vào cuối tuần sau tại sân bay quốc tế\"",
         "Phản hồi: \"Yêu cầu cung cấp hóa đơn thanh toán tiền mặt\"",
-        "Phản hồi: \"Hẹn gặp lại vào cuối tuần sau tại sân bay quốc tế\""
+        "Phản hồi: \"Em gái tôi đang dắt chú chó golden retriever dễ thương đi dạo dọc đường hoa.\""
       ],
       "correctAnswer": "Phản hồi: \"Em gái tôi đang dắt chú chó golden retriever dễ thương đi dạo dọc đường hoa.\"",
       "explanationVi": "Emma nói: \"My sister is walking her cute golden retriever along the flower path.\" có nghĩa là: \"Em gái tôi đang dắt chú chó golden retriever dễ thương đi dạo dọc đường hoa.\"."

@@ -10,10 +10,10 @@
       "promptVi": "[Trắc nghiệm ngữ pháp] Chọn từ đúng để hoàn thành câu (Cô ấy làm việc trong ngành tiếp thị.):",
       "question": "She ___ in marketing.",
       "options": [
+        "works",
         "worked",
-        "working",
         "work",
-        "works"
+        "working"
       ],
       "correctAnswer": "works",
       "explanationVi": "Chủ ngữ 'She' thuộc ngôi thứ ba số ít nên động từ 'work' phải thêm 's' -> 'works'."
@@ -24,10 +24,10 @@
       "promptVi": "[Trắc nghiệm ngữ pháp] Chọn từ đúng để hoàn thành câu (Anh ấy uống cà phê mỗi sáng.):",
       "question": "He ___ coffee every morning.",
       "options": [
-        "drink",
-        "drank",
         "drinks",
-        "drinking"
+        "drink",
+        "drinking",
+        "drank"
       ],
       "correctAnswer": "drinks",
       "explanationVi": "Chủ ngữ 'He' yêu cầu động từ thêm 's' -> 'drinks'."
@@ -39,9 +39,9 @@
       "question": "Sarah ___ English videos.",
       "options": [
         "watches",
+        "watching",
         "watch",
-        "watchs",
-        "watching"
+        "watchs"
       ],
       "correctAnswer": "watches",
       "explanationVi": "Động từ kết thúc bằng 'ch' nên khi đi với tên riêng số ít (Sarah) ta thêm 'es' thành 'watches'."
@@ -52,10 +52,10 @@
       "promptVi": "[Trắc nghiệm ngữ pháp] Chọn từ đúng để hoàn thành câu (Anh ấy đi tàu điện ngầm đi làm.):",
       "question": "He ___ the subway to work.",
       "options": [
-        "takes",
         "taking",
+        "take",
         "took",
-        "take"
+        "takes"
       ],
       "correctAnswer": "takes",
       "explanationVi": "Chủ ngữ 'He' + động từ thêm 's' -> 'takes'."
@@ -66,10 +66,10 @@
       "promptVi": "[Phản xạ dịch thuật] Dịch câu sau sang tiếng Anh: \"Sarah có làm việc ở phòng ban của chúng ta không?\"",
       "question": "Chọn bản dịch chuẩn xác nhất cho câu: \"Sarah có làm việc ở phòng ban của chúng ta không?\"",
       "options": [
-        "We are studying English today.",
         "Yes, she works as a marketing specialist.",
+        "Does Sarah work in our department?",
         "be Sarah work in our department?",
-        "Does Sarah work in our department?"
+        "We are studying English today."
       ],
       "correctAnswer": "Does Sarah work in our department?",
       "explanationVi": "Câu dịch chuẩn xác: \"Does Sarah work in our department?\" (Sarah có làm việc ở phòng ban của chúng ta không?)."
@@ -80,10 +80,10 @@
       "promptVi": "[Ngữ cảnh giao tiếp] Chọn câu phản hồi tự nhiên và đúng ngữ pháp:",
       "question": "Khi đối phương nói: \"Does Sarah work in our department?\", câu phản hồi phù hợp là gì?",
       "options": [
-        "Yes, she works as a marketing specialist.",
-        "Yes, I will eat it.",
         "They are not in the office.",
-        "No, it was yesterday."
+        "Yes, I will eat it.",
+        "No, it was yesterday.",
+        "Yes, she works as a marketing specialist."
       ],
       "correctAnswer": "Yes, she works as a marketing specialist.",
       "explanationVi": "Phản hồi phù hợp trong bài: \"Yes, she works as a marketing specialist.\" (Có, cô ấy làm việc ở vị trí chuyên viên chuyên tiếp thị.)."
@@ -95,9 +95,9 @@
       "question": "She ___ in marketing.",
       "correctAnswer": "works",
       "options": [
+        "worked",
         "works",
         "work",
-        "worked",
         "working"
       ],
       "explanationVi": "Đáp án đúng là \"works\". Câu hoàn chỉnh: \"She works in marketing.\" (Cô ấy làm việc trong ngành tiếp thị.)."
@@ -109,9 +109,9 @@
       "question": "He ___ coffee every morning.",
       "correctAnswer": "drinks",
       "options": [
-        "drinking",
-        "drink",
         "drinks",
+        "drink",
+        "drinking",
         "drank"
       ],
       "explanationVi": "Đáp án đúng là \"drinks\". Câu hoàn chỉnh: \"He drinks coffee every morning.\" (Anh ấy uống cà phê mỗi sáng.)."
@@ -137,10 +137,10 @@
       "question": "He ___ the subway to work.",
       "correctAnswer": "takes",
       "options": [
-        "taking",
+        "takes",
         "take",
-        "took",
-        "takes"
+        "taking",
+        "took"
       ],
       "explanationVi": "Đáp án đúng là \"takes\". Câu hoàn chỉnh: \"He takes the subway to work.\" (Anh ấy đi tàu điện ngầm đi làm.)."
     },
@@ -151,10 +151,10 @@
       "question": "She _____ not in marketing.",
       "correctAnswer": "works",
       "options": [
-        "am",
+        "works",
         "is",
-        "are",
-        "works"
+        "am",
+        "are"
       ],
       "explanationVi": "Câu phủ định hoàn chỉnh: \"She works not in marketing.\"."
     },
@@ -164,10 +164,10 @@
       "promptVi": "[Sắp xếp câu] Ghép các khối từ thành câu hoàn chỉnh mang nghĩa: \"Cô ấy làm việc trong ngành tiếp thị.\"",
       "question": "Sắp xếp các từ để tạo thành câu đúng: \"Cô ấy làm việc trong ngành tiếp thị.\"",
       "words": [
-        "in",
         "marketing.",
-        "works",
-        "She"
+        "in",
+        "She",
+        "works"
       ],
       "correctSentence": "She works in marketing.",
       "hintVi": "Cô ấy làm việc trong ngành tiếp thị.",
@@ -179,11 +179,11 @@
       "promptVi": "[Sắp xếp câu] Ghép các khối từ thành câu hoàn chỉnh mang nghĩa: \"Anh ấy uống cà phê mỗi sáng.\"",
       "question": "Sắp xếp các từ để tạo thành câu đúng: \"Anh ấy uống cà phê mỗi sáng.\"",
       "words": [
-        "coffee",
         "every",
+        "He",
+        "coffee",
         "drinks",
-        "morning.",
-        "He"
+        "morning."
       ],
       "correctSentence": "He drinks coffee every morning.",
       "hintVi": "Anh ấy uống cà phê mỗi sáng.",
@@ -195,10 +195,10 @@
       "promptVi": "[Sắp xếp câu] Ghép các khối từ thành câu hoàn chỉnh mang nghĩa: \"Sarah xem các video tiếng Anh.\"",
       "question": "Sắp xếp các từ để tạo thành câu đúng: \"Sarah xem các video tiếng Anh.\"",
       "words": [
-        "English",
-        "Sarah",
         "videos.",
-        "watches"
+        "Sarah",
+        "watches",
+        "English"
       ],
       "correctSentence": "Sarah watches English videos.",
       "hintVi": "Sarah xem các video tiếng Anh.",
@@ -210,12 +210,12 @@
       "promptVi": "[Sắp xếp câu] Ghép các khối từ thành câu hoàn chỉnh mang nghĩa: \"Anh ấy đi tàu điện ngầm đi làm.\"",
       "question": "Sắp xếp các từ để tạo thành câu đúng: \"Anh ấy đi tàu điện ngầm đi làm.\"",
       "words": [
+        "He",
+        "takes",
+        "the",
         "subway",
         "to",
-        "He",
-        "the",
-        "work.",
-        "takes"
+        "work."
       ],
       "correctSentence": "He takes the subway to work.",
       "hintVi": "Anh ấy đi tàu điện ngầm đi làm.",
@@ -227,12 +227,12 @@
       "promptVi": "[Sắp xếp câu] Ghép các từ thành câu hội thoại: \"Cô ấy bắt đầu làm việc lúc mấy giờ?\"",
       "question": "Sắp xếp các từ để tạo thành câu thoại: \"Cô ấy bắt đầu làm việc lúc mấy giờ?\"",
       "words": [
-        "time",
-        "does",
         "work",
-        "she",
+        "time",
         "What",
-        "start"
+        "start",
+        "she",
+        "does"
       ],
       "correctSentence": "What time does she start work?",
       "hintVi": "Cô ấy bắt đầu làm việc lúc mấy giờ?",
@@ -244,10 +244,10 @@
       "promptVi": "[Nhận diện cấu trúc chuẩn] Chọn câu có cấu trúc ngữ pháp HOÀN TOÀN ĐÚNG:",
       "question": "Dựa vào chủ điểm \"Bài 7: Động từ Thường — Ngôi thứ ba số ít (He / She / It & Does / Doesn't)\", câu nào sau đây CHÍNH XÁC?",
       "options": [
-        "is",
-        "She works in marketing.",
+        "She works at marketing.",
         "marketing. in works She",
-        "She works at marketing."
+        "is",
+        "She works in marketing."
       ],
       "correctAnswer": "She works in marketing.",
       "explanationVi": "Cấu trúc chuẩn xác là: \"She works in marketing.\" (Cô ấy làm việc trong ngành tiếp thị.)."
@@ -260,8 +260,8 @@
       "options": [
         "He drinks coffee every morning.",
         "morning. every coffee drinks He",
-        "is",
-        "are"
+        "are",
+        "is"
       ],
       "correctAnswer": "He drinks coffee every morning.",
       "explanationVi": "Cấu trúc chuẩn xác là: \"He drinks coffee every morning.\" (Anh ấy uống cà phê mỗi sáng.)."
@@ -272,10 +272,10 @@
       "promptVi": "[Nhận diện cấu trúc chuẩn] Chọn câu có cấu trúc ngữ pháp HOÀN TOÀN ĐÚNG:",
       "question": "Dựa vào chủ điểm \"Bài 7: Động từ Thường — Ngôi thứ ba số ít (He / She / It & Does / Doesn't)\", câu nào sau đây CHÍNH XÁC?",
       "options": [
-        "are",
         "videos. English watches Sarah",
+        "Sarah watches English videos.",
         "is",
-        "Sarah watches English videos."
+        "are"
       ],
       "correctAnswer": "Sarah watches English videos.",
       "explanationVi": "Cấu trúc chuẩn xác là: \"Sarah watches English videos.\" (Sarah xem các video tiếng Anh.)."
@@ -287,9 +287,9 @@
       "question": "Dựa vào chủ điểm \"Bài 7: Động từ Thường — Ngôi thứ ba số ít (He / She / It & Does / Doesn't)\", câu nào sau đây CHÍNH XÁC?",
       "options": [
         "He takes the subway to work.",
-        "is",
         "He takes the subway at work.",
-        "work. to subway the takes He"
+        "work. to subway the takes He",
+        "is"
       ],
       "correctAnswer": "He takes the subway to work.",
       "explanationVi": "Cấu trúc chuẩn xác là: \"He takes the subway to work.\" (Anh ấy đi tàu điện ngầm đi làm.)."
@@ -301,9 +301,9 @@
       "audioPrompt": "Does Sarah work in our department?",
       "question": "Nhấn nút '🔊 Nghe audio' và chọn nghĩa tiếng Việt đúng:",
       "options": [
+        "Cô ấy bắt đầu làm việc lúc mấy giờ?",
         "Sarah có làm việc ở phòng ban của chúng ta không?",
         "Có, cô ấy làm việc ở vị trí chuyên viên chuyên tiếp thị.",
-        "Cô ấy bắt đầu làm việc lúc mấy giờ?",
         "Hôm nay thời tiết rất đẹp."
       ],
       "correctAnswer": "Sarah có làm việc ở phòng ban của chúng ta không?",
@@ -318,8 +318,8 @@
       "options": [
         "Hôm nay thời tiết rất đẹp.",
         "Cô ấy bắt đầu công việc lúc 8 giờ 30 sáng. Cô ấy uống cà phê trước khi bắt đầu.",
-        "Cô ấy bắt đầu làm việc lúc mấy giờ?",
-        "Có, cô ấy làm việc ở vị trí chuyên viên chuyên tiếp thị."
+        "Có, cô ấy làm việc ở vị trí chuyên viên chuyên tiếp thị.",
+        "Cô ấy bắt đầu làm việc lúc mấy giờ?"
       ],
       "correctAnswer": "Có, cô ấy làm việc ở vị trí chuyên viên chuyên tiếp thị.",
       "explanationVi": "Câu nghe được: \"Yes, she works as a marketing specialist.\" có nghĩa là: \"Có, cô ấy làm việc ở vị trí chuyên viên chuyên tiếp thị.\"."
@@ -331,10 +331,10 @@
       "audioPrompt": "What time does she start work?",
       "question": "Nhấn nút '🔊 Nghe audio' và chọn nghĩa tiếng Việt đúng:",
       "options": [
-        "Hôm nay thời tiết rất đẹp.",
         "Cô ấy bắt đầu làm việc lúc mấy giờ?",
         "Cô ấy bắt đầu công việc lúc 8 giờ 30 sáng. Cô ấy uống cà phê trước khi bắt đầu.",
-        "Cô ấy có lái xe đi làm mỗi ngày không?"
+        "Cô ấy có lái xe đi làm mỗi ngày không?",
+        "Hôm nay thời tiết rất đẹp."
       ],
       "correctAnswer": "Cô ấy bắt đầu làm việc lúc mấy giờ?",
       "explanationVi": "Câu nghe được: \"What time does she start work?\" có nghĩa là: \"Cô ấy bắt đầu làm việc lúc mấy giờ?\"."
@@ -346,10 +346,10 @@
       "audioPrompt": "She starts work at eight thirty AM. She drinks coffee before starting.",
       "question": "Nhấn nút '🔊 Nghe audio' và chọn nghĩa tiếng Việt đúng:",
       "options": [
+        "Hôm nay thời tiết rất đẹp.",
         "Không, cô ấy không lái xe. Cô ấy đi tàu điện ngầm.",
-        "Cô ấy bắt đầu công việc lúc 8 giờ 30 sáng. Cô ấy uống cà phê trước khi bắt đầu.",
         "Cô ấy có lái xe đi làm mỗi ngày không?",
-        "Hôm nay thời tiết rất đẹp."
+        "Cô ấy bắt đầu công việc lúc 8 giờ 30 sáng. Cô ấy uống cà phê trước khi bắt đầu."
       ],
       "correctAnswer": "Cô ấy bắt đầu công việc lúc 8 giờ 30 sáng. Cô ấy uống cà phê trước khi bắt đầu.",
       "explanationVi": "Câu nghe được: \"She starts work at eight thirty AM. She drinks coffee before starting.\" có nghĩa là: \"Cô ấy bắt đầu công việc lúc 8 giờ 30 sáng. Cô ấy uống cà phê trước khi bắt đầu.\"."
@@ -397,10 +397,10 @@
       "passage": "Minh: \"Does Sarah work in our department?\"\nLan: \"Yes, she works as a marketing specialist.\"\nMinh: \"What time does she start work?\"\nLan: \"She starts work at eight thirty AM. She drinks coffee before starting.\"",
       "question": "Dựa vào đoạn đối thoại trên, thông tin nào sau đây là CHÍNH XÁC về nội dung câu nói của Minh?",
       "options": [
+        "Minh muốn mượn tiền để mua vé máy bay gấp.",
         "Minh chia sẻ thông tin: \"Sarah có làm việc ở phòng ban của chúng ta không?\"",
         "Minh phàn nàn rằng thời tiết hôm nay quá xấu.",
-        "Minh từ chối trả lời và yêu cầu hủy cuộc hẹn.",
-        "Minh muốn mượn tiền để mua vé máy bay gấp."
+        "Minh từ chối trả lời và yêu cầu hủy cuộc hẹn."
       ],
       "correctAnswer": "Minh chia sẻ thông tin: \"Sarah có làm việc ở phòng ban của chúng ta không?\"",
       "explanationVi": "Trong đoạn hội thoại, Minh đã nói: \"Does Sarah work in our department?\" (nghĩa là: \"Sarah có làm việc ở phòng ban của chúng ta không?\")."
@@ -413,8 +413,8 @@
       "question": "Trong đoạn hội thoại trên, câu nói \"No, she doesn't drive. She takes the subway.\" của Lan mang ý nghĩa gì?",
       "options": [
         "Phản hồi: \"Không, cô ấy không lái xe. Cô ấy đi tàu điện ngầm.\"",
-        "Phản hồi: \"Hẹn gặp lại vào cuối tuần sau tại sân bay quốc tế\"",
         "Phản hồi: \"Hoàn toàn không đồng ý và muốn rời khỏi phòng ngay lập tức\"",
+        "Phản hồi: \"Hẹn gặp lại vào cuối tuần sau tại sân bay quốc tế\"",
         "Phản hồi: \"Yêu cầu cung cấp hóa đơn thanh toán tiền mặt\""
       ],
       "correctAnswer": "Phản hồi: \"Không, cô ấy không lái xe. Cô ấy đi tàu điện ngầm.\"",

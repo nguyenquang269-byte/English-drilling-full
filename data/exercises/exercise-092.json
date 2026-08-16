@@ -24,10 +24,10 @@
       "promptVi": "[Trắc nghiệm ngữ pháp] Chọn từ đúng để hoàn thành câu (Cuốn sách tôi mua hôm qua rất thú vị.):",
       "question": "The book ___ yesterday is very interesting.",
       "options": [
-        "which I bought it",
         "that bought",
-        "I bought",
-        "bought I"
+        "bought I",
+        "which I bought it",
+        "I bought"
       ],
       "correctAnswer": "I bought",
       "explanationVi": "Đại từ quan hệ làm tân ngữ được phép lược bỏ: 'The book I bought'."
@@ -38,10 +38,10 @@
       "promptVi": "[Trắc nghiệm ngữ pháp] Chọn từ đúng để hoàn thành câu (Tôi đã gặp một cậu bé có bố là một bác sĩ nổi tiếng.):",
       "question": "I met a boy ___ father is a famous doctor.",
       "options": [
-        "whose",
         "who's",
         "who",
-        "whom"
+        "whom",
+        "whose"
       ],
       "correctAnswer": "whose",
       "explanationVi": "'whose father' chỉ người bố của cậu bé (quan hệ sở hữu)."
@@ -52,10 +52,10 @@
       "promptVi": "[Trắc nghiệm ngữ pháp] Chọn từ đúng để hoàn thành câu (Ông David, người sống ở nhà bên cạnh, là một kiến trúc sư.):",
       "question": "Mr. David, ___ lives next door, is an architect.",
       "options": [
-        "who",
-        "which",
+        "whom",
         "that",
-        "whom"
+        "who",
+        "which"
       ],
       "correctAnswer": "who",
       "explanationVi": "Sau dấu phẩy trong mệnh đề không xác định chỉ người làm chủ ngữ dùng 'who'."
@@ -67,9 +67,9 @@
       "question": "Chọn bản dịch chuẩn xác nhất cho câu: \"Chào buổi sáng Clara. Bạn đã khảo sát nhà thờ Gothic cổ kính có tháp chuông được phục chế gần đây chưa? (whose bell tower)\"",
       "options": [
         "Good morning, Clara. be you inspect the ancient Gothic cathedral whose bell tower was restored recently?",
+        "Good morning, Clara. Did you inspect the ancient Gothic cathedral whose bell tower was restored recently?",
         "We are studying English today.",
-        "Yes, Arthur. The master mason who supervised the restoration did extraordinary conservation work.",
-        "Good morning, Clara. Did you inspect the ancient Gothic cathedral whose bell tower was restored recently?"
+        "Yes, Arthur. The master mason who supervised the restoration did extraordinary conservation work."
       ],
       "correctAnswer": "Good morning, Clara. Did you inspect the ancient Gothic cathedral whose bell tower was restored recently?",
       "explanationVi": "Câu dịch chuẩn xác: \"Good morning, Clara. Did you inspect the ancient Gothic cathedral whose bell tower was restored recently?\" (Chào buổi sáng Clara. Bạn đã khảo sát nhà thờ Gothic cổ kính có tháp chuông được phục chế gần đây chưa? (whose bell tower))."
@@ -80,9 +80,9 @@
       "promptVi": "[Ngữ cảnh giao tiếp] Chọn câu phản hồi tự nhiên và đúng ngữ pháp:",
       "question": "Khi đối phương nói: \"Good morning, Clara. Did you inspect the ancient Gothic cathedral whose bell tower was restored recently?\", câu phản hồi phù hợp là gì?",
       "options": [
-        "No, it was yesterday.",
-        "Yes, I will eat it.",
         "They are not in the office.",
+        "Yes, I will eat it.",
+        "No, it was yesterday.",
         "Yes, Arthur. The master mason who supervised the restoration did extraordinary conservation work."
       ],
       "correctAnswer": "Yes, Arthur. The master mason who supervised the restoration did extraordinary conservation work.",
@@ -95,10 +95,10 @@
       "question": "This is the best movie ___ I have ever seen.",
       "correctAnswer": "that",
       "options": [
-        "whom",
+        "that",
         "which",
-        "whose",
-        "that"
+        "whom",
+        "whose"
       ],
       "explanationVi": "Đáp án đúng là \"that\". Câu hoàn chỉnh: \"This is the best movie that I have ever seen.\" (Đây là bộ phim hay nhất mà tôi từng xem.)."
     },
@@ -111,8 +111,8 @@
       "options": [
         "I bought",
         "which I bought it",
-        "bought I",
-        "that bought"
+        "that bought",
+        "bought I"
       ],
       "explanationVi": "Đáp án đúng là \"I bought\". Câu hoàn chỉnh: \"The book I bought yesterday is very interesting.\" (Cuốn sách tôi mua hôm qua rất thú vị.)."
     },
@@ -123,10 +123,10 @@
       "question": "I met a boy ___ father is a famous doctor.",
       "correctAnswer": "whose",
       "options": [
-        "who",
-        "whose",
+        "who's",
         "whom",
-        "who's"
+        "who",
+        "whose"
       ],
       "explanationVi": "Đáp án đúng là \"whose\". Câu hoàn chỉnh: \"I met a boy whose father is a famous doctor.\" (Tôi đã gặp một cậu bé có bố là một bác sĩ nổi tiếng.)."
     },
@@ -137,10 +137,10 @@
       "question": "Mr. David, ___ lives next door, is an architect.",
       "correctAnswer": "who",
       "options": [
-        "whom",
-        "which",
         "who",
-        "that"
+        "that",
+        "whom",
+        "which"
       ],
       "explanationVi": "Đáp án đúng là \"who\". Câu hoàn chỉnh: \"Mr. David, who lives next door, is an architect.\" (Ông David, người sống ở nhà bên cạnh, là một kiến trúc sư.)."
     },
@@ -153,8 +153,8 @@
       "options": [
         "is",
         "are",
-        "am",
-        "do"
+        "do",
+        "am"
       ],
       "explanationVi": "Câu phủ định hoàn chỉnh: \"This not is the best movie that I have ever seen.\"."
     },
@@ -164,16 +164,16 @@
       "promptVi": "[Sắp xếp câu] Ghép các khối từ thành câu hoàn chỉnh mang nghĩa: \"Đây là bộ phim hay nhất mà tôi từng xem.\"",
       "question": "Sắp xếp các từ để tạo thành câu đúng: \"Đây là bộ phim hay nhất mà tôi từng xem.\"",
       "words": [
-        "that",
-        "have",
-        "movie",
         "best",
-        "This",
+        "seen.",
         "ever",
         "is",
         "the",
-        "seen.",
-        "I"
+        "I",
+        "have",
+        "This",
+        "that",
+        "movie"
       ],
       "correctSentence": "This is the best movie that I have ever seen.",
       "hintVi": "Đây là bộ phim hay nhất mà tôi từng xem.",
@@ -185,14 +185,14 @@
       "promptVi": "[Sắp xếp câu] Ghép các khối từ thành câu hoàn chỉnh mang nghĩa: \"Cuốn sách tôi mua hôm qua rất thú vị.\"",
       "question": "Sắp xếp các từ để tạo thành câu đúng: \"Cuốn sách tôi mua hôm qua rất thú vị.\"",
       "words": [
-        "bought",
         "is",
-        "book",
-        "The",
-        "I",
-        "very",
         "yesterday",
-        "interesting."
+        "book",
+        "very",
+        "interesting.",
+        "bought",
+        "The",
+        "I"
       ],
       "correctSentence": "The book I bought yesterday is very interesting.",
       "hintVi": "Cuốn sách tôi mua hôm qua rất thú vị.",
@@ -204,16 +204,16 @@
       "promptVi": "[Sắp xếp câu] Ghép các khối từ thành câu hoàn chỉnh mang nghĩa: \"Tôi đã gặp một cậu bé có bố là một bác sĩ nổi tiếng.\"",
       "question": "Sắp xếp các từ để tạo thành câu đúng: \"Tôi đã gặp một cậu bé có bố là một bác sĩ nổi tiếng.\"",
       "words": [
-        "boy",
-        "I",
-        "father",
-        "is",
-        "whose",
-        "a",
-        "a",
-        "famous",
         "doctor.",
-        "met"
+        "famous",
+        "met",
+        "is",
+        "I",
+        "a",
+        "father",
+        "a",
+        "whose",
+        "boy"
       ],
       "correctSentence": "I met a boy whose father is a famous doctor.",
       "hintVi": "Tôi đã gặp một cậu bé có bố là một bác sĩ nổi tiếng.",
@@ -225,15 +225,15 @@
       "promptVi": "[Sắp xếp câu] Ghép các khối từ thành câu hoàn chỉnh mang nghĩa: \"Ông David, người sống ở nhà bên cạnh, là một kiến trúc sư.\"",
       "question": "Sắp xếp các từ để tạo thành câu đúng: \"Ông David, người sống ở nhà bên cạnh, là một kiến trúc sư.\"",
       "words": [
-        "door,",
-        "is",
-        "an",
-        "next",
         "architect.",
+        "an",
+        "is",
+        "next",
         "David,",
+        "door,",
         "lives",
-        "Mr.",
-        "who"
+        "who",
+        "Mr."
       ],
       "correctSentence": "Mr. David, who lives next door, is an architect.",
       "hintVi": "Ông David, người sống ở nhà bên cạnh, là một kiến trúc sư.",
@@ -245,14 +245,14 @@
       "promptVi": "[Sắp xếp câu] Ghép các từ thành câu hội thoại: \"Bản thảo cổ chúng ta đã kiểm tra hôm qua có phải là da cừu thế kỷ 14 thật không? (Lược bỏ đại từ tân ngữ: manuscript [that/which] we examined)\"",
       "question": "Sắp xếp các từ để tạo thành câu thoại: \"Bản thảo cổ chúng ta đã kiểm tra hôm qua có phải là da cừu thế kỷ 14 thật không? (Lược bỏ đại từ tân ngữ: manuscript [that/which] we examined)\"",
       "words": [
-        "Is",
         "we",
-        "the",
-        "antique",
-        "examined",
         "manuscript",
         "genuine",
+        "antique",
+        "examined",
+        "the",
         "yesterday",
+        "Is",
         "fourteenth-century",
         "parchment"
       ],
@@ -266,10 +266,10 @@
       "promptVi": "[Nhận diện cấu trúc chuẩn] Chọn câu có cấu trúc ngữ pháp HOÀN TOÀN ĐÚNG:",
       "question": "Dựa vào chủ điểm \"Bài 92: Đại từ Quan hệ Toàn Diện — Ma Trận 3 Thể & Quy Tắc Lược Bỏ (Relative Pronouns Master Matrix & Omission Rules)\", câu nào sau đây CHÍNH XÁC?",
       "options": [
-        "This is the best movie that I have ever seen.",
-        "is",
+        "seen. ever have I that movie best the is This",
         "This be the best movie that I have ever seen.",
-        "seen. ever have I that movie best the is This"
+        "This is the best movie that I have ever seen.",
+        "is"
       ],
       "correctAnswer": "This is the best movie that I have ever seen.",
       "explanationVi": "Cấu trúc chuẩn xác là: \"This is the best movie that I have ever seen.\" (Đây là bộ phim hay nhất mà tôi từng xem.)."
@@ -280,9 +280,9 @@
       "promptVi": "[Nhận diện cấu trúc chuẩn] Chọn câu có cấu trúc ngữ pháp HOÀN TOÀN ĐÚNG:",
       "question": "Dựa vào chủ điểm \"Bài 92: Đại từ Quan hệ Toàn Diện — Ma Trận 3 Thể & Quy Tắc Lược Bỏ (Relative Pronouns Master Matrix & Omission Rules)\", câu nào sau đây CHÍNH XÁC?",
       "options": [
+        "interesting. very is yesterday bought I book The",
         "The book I bought yesterday is very interesting.",
         "The book I bought yesterday be very interesting.",
-        "interesting. very is yesterday bought I book The",
         "is"
       ],
       "correctAnswer": "The book I bought yesterday is very interesting.",
@@ -309,9 +309,9 @@
       "question": "Dựa vào chủ điểm \"Bài 92: Đại từ Quan hệ Toàn Diện — Ma Trận 3 Thể & Quy Tắc Lược Bỏ (Relative Pronouns Master Matrix & Omission Rules)\", câu nào sau đây CHÍNH XÁC?",
       "options": [
         "Mr. David, who lives next door, is an architect.",
+        "is",
         "Mr. David, who lives next door, be an architect.",
-        "architect. an is door, next lives who David, Mr.",
-        "is"
+        "architect. an is door, next lives who David, Mr."
       ],
       "correctAnswer": "Mr. David, who lives next door, is an architect.",
       "explanationVi": "Cấu trúc chuẩn xác là: \"Mr. David, who lives next door, is an architect.\" (Ông David, người sống ở nhà bên cạnh, là một kiến trúc sư.)."
@@ -323,10 +323,10 @@
       "audioPrompt": "Good morning, Clara. Did you inspect the ancient Gothic cathedral whose bell tower was restored recently?",
       "question": "Nhấn nút '🔊 Nghe audio' và chọn nghĩa tiếng Việt đúng:",
       "options": [
+        "Hôm nay thời tiết rất đẹp.",
         "Chào buổi sáng Clara. Bạn đã khảo sát nhà thờ Gothic cổ kính có tháp chuông được phục chế gần đây chưa? (whose bell tower)",
         "Vâng thưa Arthur. Người thợ đá bậc thầy, người giám sát việc trùng tu, đã làm công việc bảo tồn phi thường. (who supervised - chủ ngữ chỉ người)",
-        "Bản thảo cổ chúng ta đã kiểm tra hôm qua có phải là da cừu thế kỷ 14 thật không? (Lược bỏ đại từ tân ngữ: manuscript [that/which] we examined)",
-        "Hôm nay thời tiết rất đẹp."
+        "Bản thảo cổ chúng ta đã kiểm tra hôm qua có phải là da cừu thế kỷ 14 thật không? (Lược bỏ đại từ tân ngữ: manuscript [that/which] we examined)"
       ],
       "correctAnswer": "Chào buổi sáng Clara. Bạn đã khảo sát nhà thờ Gothic cổ kính có tháp chuông được phục chế gần đây chưa? (whose bell tower)",
       "explanationVi": "Câu nghe được: \"Good morning, Clara. Did you inspect the ancient Gothic cathedral whose bell tower was restored recently?\" có nghĩa là: \"Chào buổi sáng Clara. Bạn đã khảo sát nhà thờ Gothic cổ kính có tháp chuông được phục chế gần đây chưa? (whose bell tower)\"."
@@ -338,10 +338,10 @@
       "audioPrompt": "Yes, Arthur. The master mason who supervised the restoration did extraordinary conservation work.",
       "question": "Nhấn nút '🔊 Nghe audio' và chọn nghĩa tiếng Việt đúng:",
       "options": [
-        "Hôm nay thời tiết rất đẹp.",
         "Vâng thưa Arthur. Người thợ đá bậc thầy, người giám sát việc trùng tu, đã làm công việc bảo tồn phi thường. (who supervised - chủ ngữ chỉ người)",
         "Bản thảo cổ chúng ta đã kiểm tra hôm qua có phải là da cừu thế kỷ 14 thật không? (Lược bỏ đại từ tân ngữ: manuscript [that/which] we examined)",
-        "Đúng vậy, đó là cổ vật quý giá nhất mà viện khảo cổ học của chúng ta từng phân loại. (sau so sánh nhất dùng that: most valuable artifact that)"
+        "Đúng vậy, đó là cổ vật quý giá nhất mà viện khảo cổ học của chúng ta từng phân loại. (sau so sánh nhất dùng that: most valuable artifact that)",
+        "Hôm nay thời tiết rất đẹp."
       ],
       "correctAnswer": "Vâng thưa Arthur. Người thợ đá bậc thầy, người giám sát việc trùng tu, đã làm công việc bảo tồn phi thường. (who supervised - chủ ngữ chỉ người)",
       "explanationVi": "Câu nghe được: \"Yes, Arthur. The master mason who supervised the restoration did extraordinary conservation work.\" có nghĩa là: \"Vâng thưa Arthur. Người thợ đá bậc thầy, người giám sát việc trùng tu, đã làm công việc bảo tồn phi thường. (who supervised - chủ ngữ chỉ người)\"."
@@ -353,10 +353,10 @@
       "audioPrompt": "Is the antique manuscript we examined yesterday genuine fourteenth-century parchment?",
       "question": "Nhấn nút '🔊 Nghe audio' và chọn nghĩa tiếng Việt đúng:",
       "options": [
-        "Đúng vậy, đó là cổ vật quý giá nhất mà viện khảo cổ học của chúng ta từng phân loại. (sau so sánh nhất dùng that: most valuable artifact that)",
         "Bản thảo cổ chúng ta đã kiểm tra hôm qua có phải là da cừu thế kỷ 14 thật không? (Lược bỏ đại từ tân ngữ: manuscript [that/which] we examined)",
-        "Hôm nay thời tiết rất đẹp.",
-        "Giáo sư Higgins, người là chuyên gia văn bia hàng đầu của chúng ta, đã giải mã các dòng chữ khắc Latin thời trung cổ. (Mệnh đề không xác định có dấu phẩy: Higgins, who...)"
+        "Đúng vậy, đó là cổ vật quý giá nhất mà viện khảo cổ học của chúng ta từng phân loại. (sau so sánh nhất dùng that: most valuable artifact that)",
+        "Giáo sư Higgins, người là chuyên gia văn bia hàng đầu của chúng ta, đã giải mã các dòng chữ khắc Latin thời trung cổ. (Mệnh đề không xác định có dấu phẩy: Higgins, who...)",
+        "Hôm nay thời tiết rất đẹp."
       ],
       "correctAnswer": "Bản thảo cổ chúng ta đã kiểm tra hôm qua có phải là da cừu thế kỷ 14 thật không? (Lược bỏ đại từ tân ngữ: manuscript [that/which] we examined)",
       "explanationVi": "Câu nghe được: \"Is the antique manuscript we examined yesterday genuine fourteenth-century parchment?\" có nghĩa là: \"Bản thảo cổ chúng ta đã kiểm tra hôm qua có phải là da cừu thế kỷ 14 thật không? (Lược bỏ đại từ tân ngữ: manuscript [that/which] we examined)\"."
@@ -368,10 +368,10 @@
       "audioPrompt": "Yes, it is the most valuable artifact that our archaeological institute has ever cataloged.",
       "question": "Nhấn nút '🔊 Nghe audio' và chọn nghĩa tiếng Việt đúng:",
       "options": [
-        "Hôm nay thời tiết rất đẹp.",
+        "Đúng vậy, đó là cổ vật quý giá nhất mà viện khảo cổ học của chúng ta từng phân loại. (sau so sánh nhất dùng that: most valuable artifact that)",
         "Tài liệu lịch sử mà trong đó hiến chương thành lập được ghi chép được lưu giữ trong một căn hầm kiểm soát khí hậu. (in which)",
-        "Giáo sư Higgins, người là chuyên gia văn bia hàng đầu của chúng ta, đã giải mã các dòng chữ khắc Latin thời trung cổ. (Mệnh đề không xác định có dấu phẩy: Higgins, who...)",
-        "Đúng vậy, đó là cổ vật quý giá nhất mà viện khảo cổ học của chúng ta từng phân loại. (sau so sánh nhất dùng that: most valuable artifact that)"
+        "Hôm nay thời tiết rất đẹp.",
+        "Giáo sư Higgins, người là chuyên gia văn bia hàng đầu của chúng ta, đã giải mã các dòng chữ khắc Latin thời trung cổ. (Mệnh đề không xác định có dấu phẩy: Higgins, who...)"
       ],
       "correctAnswer": "Đúng vậy, đó là cổ vật quý giá nhất mà viện khảo cổ học của chúng ta từng phân loại. (sau so sánh nhất dùng that: most valuable artifact that)",
       "explanationVi": "Câu nghe được: \"Yes, it is the most valuable artifact that our archaeological institute has ever cataloged.\" có nghĩa là: \"Đúng vậy, đó là cổ vật quý giá nhất mà viện khảo cổ học của chúng ta từng phân loại. (sau so sánh nhất dùng that: most valuable artifact that)\"."
@@ -419,10 +419,10 @@
       "passage": "Chief Historian Arthur: \"Good morning, Clara. Did you inspect the ancient Gothic cathedral whose bell tower was restored recently?\"\nClara: \"Yes, Arthur. The master mason who supervised the restoration did extraordinary conservation work.\"\nChief Historian Arthur: \"Is the antique manuscript we examined yesterday genuine fourteenth-century parchment?\"\nClara: \"Yes, it is the most valuable artifact that our archaeological institute has ever cataloged.\"",
       "question": "Dựa vào đoạn đối thoại trên, thông tin nào sau đây là CHÍNH XÁC về nội dung câu nói của Chief Historian Arthur?",
       "options": [
-        "Chief Historian Arthur muốn mượn tiền để mua vé máy bay gấp.",
         "Chief Historian Arthur từ chối trả lời và yêu cầu hủy cuộc hẹn.",
+        "Chief Historian Arthur phàn nàn rằng thời tiết hôm nay quá xấu.",
         "Chief Historian Arthur chia sẻ thông tin: \"Chào buổi sáng Clara. Bạn đã khảo sát nhà thờ Gothic cổ kính có tháp chuông được phục chế gần đây chưa? (whose bell tower)\"",
-        "Chief Historian Arthur phàn nàn rằng thời tiết hôm nay quá xấu."
+        "Chief Historian Arthur muốn mượn tiền để mua vé máy bay gấp."
       ],
       "correctAnswer": "Chief Historian Arthur chia sẻ thông tin: \"Chào buổi sáng Clara. Bạn đã khảo sát nhà thờ Gothic cổ kính có tháp chuông được phục chế gần đây chưa? (whose bell tower)\"",
       "explanationVi": "Trong đoạn hội thoại, Chief Historian Arthur đã nói: \"Good morning, Clara. Did you inspect the ancient Gothic cathedral whose bell tower was restored recently?\" (nghĩa là: \"Chào buổi sáng Clara. Bạn đã khảo sát nhà thờ Gothic cổ kính có tháp chuông được phục chế gần đây chưa? (whose bell tower)\")."
@@ -434,10 +434,10 @@
       "passage": "Chief Historian Arthur: \"Professor Higgins, who is our lead epigraphist, deciphered the medieval Latin inscriptions.\"\nClara: \"The historical document in which the foundation charter is recorded is preserved in a climate-controlled vault.\"\nChief Historian Arthur: \"Can we omit the relative pronoun when it serves as the object of the verb?\"\nClara: \"Yes, we can say 'the man I met' or 'the book I read', but never when a preposition precedes it.\"",
       "question": "Trong đoạn hội thoại trên, câu nói \"Yes, we can say 'the man I met' or 'the book I read', but never when a preposition precedes it.\" của Clara mang ý nghĩa gì?",
       "options": [
-        "Phản hồi: \"Có chứ, chúng ta có thể nói 'the man I met' hoặc 'the book I read', nhưng tuyệt đối không được lược bỏ khi có giới từ đứng trước nó.\"",
         "Phản hồi: \"Hoàn toàn không đồng ý và muốn rời khỏi phòng ngay lập tức\"",
         "Phản hồi: \"Yêu cầu cung cấp hóa đơn thanh toán tiền mặt\"",
-        "Phản hồi: \"Hẹn gặp lại vào cuối tuần sau tại sân bay quốc tế\""
+        "Phản hồi: \"Hẹn gặp lại vào cuối tuần sau tại sân bay quốc tế\"",
+        "Phản hồi: \"Có chứ, chúng ta có thể nói 'the man I met' hoặc 'the book I read', nhưng tuyệt đối không được lược bỏ khi có giới từ đứng trước nó.\""
       ],
       "correctAnswer": "Phản hồi: \"Có chứ, chúng ta có thể nói 'the man I met' hoặc 'the book I read', nhưng tuyệt đối không được lược bỏ khi có giới từ đứng trước nó.\"",
       "explanationVi": "Clara nói: \"Yes, we can say 'the man I met' or 'the book I read', but never when a preposition precedes it.\" có nghĩa là: \"Có chứ, chúng ta có thể nói 'the man I met' hoặc 'the book I read', nhưng tuyệt đối không được lược bỏ khi có giới từ đứng trước nó.\"."

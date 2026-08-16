@@ -10,8 +10,8 @@
       "promptVi": "[Trắc nghiệm ngữ pháp] Chọn từ đúng để hoàn thành câu (Tôi sẽ đang học bài lúc 10 giờ sáng mai.):",
       "question": "I will be ___ at ten AM tomorrow.",
       "options": [
-        "study",
         "studying",
+        "study",
         "studied",
         "studies"
       ],
@@ -24,10 +24,10 @@
       "promptVi": "[Trắc nghiệm ngữ pháp] Chọn từ đúng để hoàn thành câu (Bạn sẽ đang làm việc vào cuối tuần này chứ?):",
       "question": "Will you ___ working this weekend?",
       "options": [
-        "being",
         "been",
+        "be",
         "are",
-        "be"
+        "being"
       ],
       "correctAnswer": "be",
       "explanationVi": "Cấu trúc câu hỏi Tương lai Tiếp diễn: Will + S + BE + V-ing."
@@ -38,10 +38,10 @@
       "promptVi": "[Trắc nghiệm ngữ pháp] Chọn từ đúng để hoàn thành câu (Vào giờ này tuần tới, chúng tôi sẽ đang bay đến Tokyo.):",
       "question": "At this time next week, we ___ flying to Tokyo.",
       "options": [
-        "will be",
-        "are",
+        "have been",
         "were",
-        "have been"
+        "are",
+        "will be"
       ],
       "correctAnswer": "will be",
       "explanationVi": "Dấu hiệu 'At this time next week' đi với thì Tương lai Tiếp diễn 'will be'."
@@ -52,8 +52,8 @@
       "promptVi": "[Trắc nghiệm ngữ pháp] Chọn từ đúng để hoàn thành câu (Tối nay bạn sẽ đang làm gì?):",
       "question": "___ will you be doing tonight?",
       "options": [
-        "When",
         "Who",
+        "When",
         "Where",
         "What"
       ],
@@ -66,8 +66,8 @@
       "promptVi": "[Phản xạ dịch thuật] Dịch câu sau sang tiếng Anh: \"Bạn sẽ đang làm gì vào lúc 10 giờ sáng mai vậy Chloe?\"",
       "question": "Chọn bản dịch chuẩn xác nhất cho câu: \"Bạn sẽ đang làm gì vào lúc 10 giờ sáng mai vậy Chloe?\"",
       "options": [
-        "We are studying English today.",
         "What will you be doing at ten AM tomorrow morning, Chloe?",
+        "We are studying English today.",
         "What be you be doing at ten AM tomorrow morning, Chloe?",
         "I will be attending an international marketing conference in district one."
       ],
@@ -80,10 +80,10 @@
       "promptVi": "[Ngữ cảnh giao tiếp] Chọn câu phản hồi tự nhiên và đúng ngữ pháp:",
       "question": "Khi đối phương nói: \"What will you be doing at ten AM tomorrow morning, Chloe?\", câu phản hồi phù hợp là gì?",
       "options": [
+        "I will be attending an international marketing conference in district one.",
         "Yes, I will eat it.",
-        "No, it was yesterday.",
         "They are not in the office.",
-        "I will be attending an international marketing conference in district one."
+        "No, it was yesterday."
       ],
       "correctAnswer": "I will be attending an international marketing conference in district one.",
       "explanationVi": "Phản hồi phù hợp trong bài: \"I will be attending an international marketing conference in district one.\" (Tôi sẽ đang tham dự một hội nghị tiếp thị quốc tế ở quận 1.)."
@@ -95,9 +95,9 @@
       "question": "I will be ___ at ten AM tomorrow.",
       "correctAnswer": "studying",
       "options": [
-        "studies",
-        "study",
         "studying",
+        "study",
+        "studies",
         "studied"
       ],
       "explanationVi": "Đáp án đúng là \"studying\". Câu hoàn chỉnh: \"I will be studying at ten AM tomorrow.\" (Tôi sẽ đang học bài lúc 10 giờ sáng mai.)."
@@ -109,10 +109,10 @@
       "question": "Will you ___ working this weekend?",
       "correctAnswer": "be",
       "options": [
-        "be",
-        "are",
+        "being",
         "been",
-        "being"
+        "be",
+        "are"
       ],
       "explanationVi": "Đáp án đúng là \"be\". Câu hoàn chỉnh: \"Will you be working this weekend?\" (Bạn sẽ đang làm việc vào cuối tuần này chứ?)."
     },
@@ -123,8 +123,8 @@
       "question": "At this time next week, we ___ flying to Tokyo.",
       "correctAnswer": "will be",
       "options": [
-        "have been",
         "were",
+        "have been",
         "are",
         "will be"
       ],
@@ -151,10 +151,10 @@
       "question": "I _____ not be studying at ten AM tomorrow.",
       "correctAnswer": "will",
       "options": [
-        "are",
         "will",
-        "am",
-        "is"
+        "is",
+        "are",
+        "am"
       ],
       "explanationVi": "Câu phủ định hoàn chỉnh: \"I will not be studying at ten AM tomorrow.\"."
     },
@@ -164,14 +164,14 @@
       "promptVi": "[Sắp xếp câu] Ghép các khối từ thành câu hoàn chỉnh mang nghĩa: \"Tôi sẽ đang học bài lúc 10 giờ sáng mai.\"",
       "question": "Sắp xếp các từ để tạo thành câu đúng: \"Tôi sẽ đang học bài lúc 10 giờ sáng mai.\"",
       "words": [
-        "tomorrow.",
         "will",
         "I",
+        "studying",
+        "be",
         "at",
         "AM",
-        "studying",
-        "ten",
-        "be"
+        "tomorrow.",
+        "ten"
       ],
       "correctSentence": "I will be studying at ten AM tomorrow.",
       "hintVi": "Tôi sẽ đang học bài lúc 10 giờ sáng mai.",
@@ -183,12 +183,12 @@
       "promptVi": "[Sắp xếp câu] Ghép các khối từ thành câu hoàn chỉnh mang nghĩa: \"Bạn sẽ đang làm việc vào cuối tuần này chứ?\"",
       "question": "Sắp xếp các từ để tạo thành câu đúng: \"Bạn sẽ đang làm việc vào cuối tuần này chứ?\"",
       "words": [
-        "weekend?",
-        "this",
-        "working",
         "be",
         "you",
-        "Will"
+        "Will",
+        "weekend?",
+        "this",
+        "working"
       ],
       "correctSentence": "Will you be working this weekend?",
       "hintVi": "Bạn sẽ đang làm việc vào cuối tuần này chứ?",
@@ -202,14 +202,14 @@
       "words": [
         "Tokyo.",
         "to",
-        "flying",
         "this",
-        "be",
+        "week,",
         "At",
+        "flying",
+        "be",
         "will",
         "we",
         "time",
-        "week,",
         "next"
       ],
       "correctSentence": "At this time next week, we will be flying to Tokyo.",
@@ -222,12 +222,12 @@
       "promptVi": "[Sắp xếp câu] Ghép các khối từ thành câu hoàn chỉnh mang nghĩa: \"Tối nay bạn sẽ đang làm gì?\"",
       "question": "Sắp xếp các từ để tạo thành câu đúng: \"Tối nay bạn sẽ đang làm gì?\"",
       "words": [
-        "will",
-        "you",
         "What",
-        "be",
+        "will",
+        "tonight?",
         "doing",
-        "tonight?"
+        "be",
+        "you"
       ],
       "correctSentence": "What will you be doing tonight?",
       "hintVi": "Tối nay bạn sẽ đang làm gì?",
@@ -239,19 +239,19 @@
       "promptVi": "[Sắp xếp câu] Ghép các từ thành câu hội thoại: \"Bạn sẽ đang phát biểu trên sân khấu chính trong sự kiện chứ?\"",
       "question": "Sắp xếp các từ để tạo thành câu thoại: \"Bạn sẽ đang phát biểu trên sân khấu chính trong sự kiện chứ?\"",
       "words": [
-        "speech",
-        "a",
         "giving",
-        "stage",
+        "you",
         "be",
+        "Will",
+        "the",
         "during",
         "the",
-        "the",
-        "you",
-        "event",
-        "Will",
+        "stage",
+        "main",
         "on",
-        "main"
+        "a",
+        "speech",
+        "event"
       ],
       "correctSentence": "Will you be giving a speech on the main stage during the event?",
       "hintVi": "Bạn sẽ đang phát biểu trên sân khấu chính trong sự kiện chứ?",
@@ -264,9 +264,9 @@
       "question": "Dựa vào chủ điểm \"Bài 30: Tương lai Tiếp diễn — Cơ bản (Will be + V-ing)\", câu nào sau đây CHÍNH XÁC?",
       "options": [
         "is",
-        "I will be studying at ten AM tomorrow.",
+        "tomorrow. AM ten at studying be will I",
         "I will be studying at ten be tomorrow.",
-        "tomorrow. AM ten at studying be will I"
+        "I will be studying at ten AM tomorrow."
       ],
       "correctAnswer": "I will be studying at ten AM tomorrow.",
       "explanationVi": "Cấu trúc chuẩn xác là: \"I will be studying at ten AM tomorrow.\" (Tôi sẽ đang học bài lúc 10 giờ sáng mai.)."
@@ -292,9 +292,9 @@
       "question": "Dựa vào chủ điểm \"Bài 30: Tương lai Tiếp diễn — Cơ bản (Will be + V-ing)\", câu nào sau đây CHÍNH XÁC?",
       "options": [
         "Tokyo. to flying be will we week, next time this At",
-        "is",
+        "At this time next week, we will be flying to Tokyo.",
         "at this time next week, we will be flying to Tokyo.",
-        "At this time next week, we will be flying to Tokyo."
+        "is"
       ],
       "correctAnswer": "At this time next week, we will be flying to Tokyo.",
       "explanationVi": "Cấu trúc chuẩn xác là: \"At this time next week, we will be flying to Tokyo.\" (Vào giờ này tuần tới, chúng tôi sẽ đang bay đến Tokyo.)."
@@ -306,8 +306,8 @@
       "question": "Dựa vào chủ điểm \"Bài 30: Tương lai Tiếp diễn — Cơ bản (Will be + V-ing)\", câu nào sau đây CHÍNH XÁC?",
       "options": [
         "are",
-        "is",
         "tonight? doing be you will What",
+        "is",
         "What will you be doing tonight?"
       ],
       "correctAnswer": "What will you be doing tonight?",
@@ -321,9 +321,9 @@
       "question": "Nhấn nút '🔊 Nghe audio' và chọn nghĩa tiếng Việt đúng:",
       "options": [
         "Bạn sẽ đang làm gì vào lúc 10 giờ sáng mai vậy Chloe?",
-        "Hôm nay thời tiết rất đẹp.",
         "Tôi sẽ đang tham dự một hội nghị tiếp thị quốc tế ở quận 1.",
-        "Bạn sẽ đang phát biểu trên sân khấu chính trong sự kiện chứ?"
+        "Bạn sẽ đang phát biểu trên sân khấu chính trong sự kiện chứ?",
+        "Hôm nay thời tiết rất đẹp."
       ],
       "correctAnswer": "Bạn sẽ đang làm gì vào lúc 10 giờ sáng mai vậy Chloe?",
       "explanationVi": "Câu nghe được: \"What will you be doing at ten AM tomorrow morning, Chloe?\" có nghĩa là: \"Bạn sẽ đang làm gì vào lúc 10 giờ sáng mai vậy Chloe?\"."
@@ -335,10 +335,10 @@
       "audioPrompt": "I will be attending an international marketing conference in district one.",
       "question": "Nhấn nút '🔊 Nghe audio' và chọn nghĩa tiếng Việt đúng:",
       "options": [
+        "Hôm nay thời tiết rất đẹp.",
         "Tôi sẽ đang tham dự một hội nghị tiếp thị quốc tế ở quận 1.",
         "Bạn sẽ đang phát biểu trên sân khấu chính trong sự kiện chứ?",
-        "Không, tôi sẽ không phát biểu trên sân khấu. Tôi sẽ đang ghi chép cho nhóm nghiên cứu của chúng ta.",
-        "Hôm nay thời tiết rất đẹp."
+        "Không, tôi sẽ không phát biểu trên sân khấu. Tôi sẽ đang ghi chép cho nhóm nghiên cứu của chúng ta."
       ],
       "correctAnswer": "Tôi sẽ đang tham dự một hội nghị tiếp thị quốc tế ở quận 1.",
       "explanationVi": "Câu nghe được: \"I will be attending an international marketing conference in district one.\" có nghĩa là: \"Tôi sẽ đang tham dự một hội nghị tiếp thị quốc tế ở quận 1.\"."
@@ -350,10 +350,10 @@
       "audioPrompt": "Will you be giving a speech on the main stage during the event?",
       "question": "Nhấn nút '🔊 Nghe audio' và chọn nghĩa tiếng Việt đúng:",
       "options": [
-        "Hôm nay thời tiết rất đẹp.",
-        "Bạn sẽ đang phát biểu trên sân khấu chính trong sự kiện chứ?",
+        "Các thành viên trong nhóm của chúng ta sẽ đang làm việc ở đâu vào khoảng trưa mai?",
         "Không, tôi sẽ không phát biểu trên sân khấu. Tôi sẽ đang ghi chép cho nhóm nghiên cứu của chúng ta.",
-        "Các thành viên trong nhóm của chúng ta sẽ đang làm việc ở đâu vào khoảng trưa mai?"
+        "Hôm nay thời tiết rất đẹp.",
+        "Bạn sẽ đang phát biểu trên sân khấu chính trong sự kiện chứ?"
       ],
       "correctAnswer": "Bạn sẽ đang phát biểu trên sân khấu chính trong sự kiện chứ?",
       "explanationVi": "Câu nghe được: \"Will you be giving a speech on the main stage during the event?\" có nghĩa là: \"Bạn sẽ đang phát biểu trên sân khấu chính trong sự kiện chứ?\"."
@@ -365,10 +365,10 @@
       "audioPrompt": "No, I won't be speaking on stage. I will be taking notes for our research group.",
       "question": "Nhấn nút '🔊 Nghe audio' và chọn nghĩa tiếng Việt đúng:",
       "options": [
-        "Họ sẽ đang chạy thử nghiệm ứng dụng di động mới trên các máy chủ thử nghiệm.",
         "Các thành viên trong nhóm của chúng ta sẽ đang làm việc ở đâu vào khoảng trưa mai?",
+        "Không, tôi sẽ không phát biểu trên sân khấu. Tôi sẽ đang ghi chép cho nhóm nghiên cứu của chúng ta.",
         "Hôm nay thời tiết rất đẹp.",
-        "Không, tôi sẽ không phát biểu trên sân khấu. Tôi sẽ đang ghi chép cho nhóm nghiên cứu của chúng ta."
+        "Họ sẽ đang chạy thử nghiệm ứng dụng di động mới trên các máy chủ thử nghiệm."
       ],
       "correctAnswer": "Không, tôi sẽ không phát biểu trên sân khấu. Tôi sẽ đang ghi chép cho nhóm nghiên cứu của chúng ta.",
       "explanationVi": "Câu nghe được: \"No, I won't be speaking on stage. I will be taking notes for our research group.\" có nghĩa là: \"Không, tôi sẽ không phát biểu trên sân khấu. Tôi sẽ đang ghi chép cho nhóm nghiên cứu của chúng ta.\"."
@@ -416,9 +416,9 @@
       "passage": "Liam: \"What will you be doing at ten AM tomorrow morning, Chloe?\"\nChloe: \"I will be attending an international marketing conference in district one.\"\nLiam: \"Will you be giving a speech on the main stage during the event?\"\nChloe: \"No, I won't be speaking on stage. I will be taking notes for our research group.\"",
       "question": "Dựa vào đoạn đối thoại trên, thông tin nào sau đây là CHÍNH XÁC về nội dung câu nói của Liam?",
       "options": [
+        "Liam muốn mượn tiền để mua vé máy bay gấp.",
         "Liam từ chối trả lời và yêu cầu hủy cuộc hẹn.",
         "Liam phàn nàn rằng thời tiết hôm nay quá xấu.",
-        "Liam muốn mượn tiền để mua vé máy bay gấp.",
         "Liam chia sẻ thông tin: \"Bạn sẽ đang làm gì vào lúc 10 giờ sáng mai vậy Chloe?\""
       ],
       "correctAnswer": "Liam chia sẻ thông tin: \"Bạn sẽ đang làm gì vào lúc 10 giờ sáng mai vậy Chloe?\"",

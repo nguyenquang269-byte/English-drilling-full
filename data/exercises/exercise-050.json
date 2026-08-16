@@ -10,10 +10,10 @@
       "promptVi": "[Trắc nghiệm ngữ pháp] Chọn từ đúng để hoàn thành câu (Nếu bạn cần bất kỳ sự giúp đỡ nào, xin vui lòng cho tôi biết.):",
       "question": "___ you need any help, please let me know.",
       "options": [
-        "Did",
-        "Were",
         "Had",
-        "Should"
+        "Should",
+        "Did",
+        "Were"
       ],
       "correctAnswer": "Should",
       "explanationVi": "Đảo ngữ câu điều kiện loại 1 dùng 'Should + S + V-inf'."
@@ -24,10 +24,10 @@
       "promptVi": "[Trắc nghiệm ngữ pháp] Chọn từ đúng để hoàn thành câu (Nếu tôi ở vị trí của bạn, tôi sẽ nhận lời mời làm việc đó.):",
       "question": "___ I in your position, I would accept the job offer.",
       "options": [
+        "Were",
         "Was",
         "Should",
-        "Had",
-        "Were"
+        "Had"
       ],
       "correctAnswer": "Were",
       "explanationVi": "Đảo ngữ loại 2 với to be dùng 'Were + S'."
@@ -38,10 +38,10 @@
       "promptVi": "[Trắc nghiệm ngữ pháp] Chọn từ đúng để hoàn thành câu (Giá như tôi đã biết về bữa tiệc, tôi đã tham dự rồi.):",
       "question": "___ I known about the party, I would have attended.",
       "options": [
+        "Had",
         "Should",
-        "Were",
         "Have",
-        "Had"
+        "Were"
       ],
       "correctAnswer": "Had",
       "explanationVi": "Đảo ngữ điều kiện loại 3 dùng 'Had + S + V3'."
@@ -52,9 +52,9 @@
       "promptVi": "[Trắc nghiệm ngữ pháp] Chọn từ đúng để hoàn thành câu (Trừ khi bạn học chăm chỉ, nếu không bạn sẽ thi trượt bài kiểm tra.):",
       "question": "___ you study hard, you will fail the test.",
       "options": [
+        "Because",
         "Although",
         "If",
-        "Because",
         "Unless"
       ],
       "correctAnswer": "Unless",
@@ -67,9 +67,9 @@
       "question": "Chọn bản dịch chuẩn xác nhất cho câu: \"Chào mừng quý vị đến với cuộc họp chiến lược điều hành thường niên. Hãy cùng phân tích mọi kịch bản kinh doanh tiềm năng.\"",
       "options": [
         "If we sign this contract today, our revenue will increase by twenty-five percent next quarter.",
-        "Welcome to our annual executive strategy meeting. Let's analyze all potential business scenarios.",
+        "We are studying English today.",
         "is",
-        "We are studying English today."
+        "Welcome to our annual executive strategy meeting. Let's analyze all potential business scenarios."
       ],
       "correctAnswer": "Welcome to our annual executive strategy meeting. Let's analyze all potential business scenarios.",
       "explanationVi": "Câu dịch chuẩn xác: \"Welcome to our annual executive strategy meeting. Let's analyze all potential business scenarios.\" (Chào mừng quý vị đến với cuộc họp chiến lược điều hành thường niên. Hãy cùng phân tích mọi kịch bản kinh doanh tiềm năng.)."
@@ -81,9 +81,9 @@
       "question": "Khi đối phương nói: \"Welcome to our annual executive strategy meeting. Let's analyze all potential business scenarios.\", câu phản hồi phù hợp là gì?",
       "options": [
         "If we sign this contract today, our revenue will increase by twenty-five percent next quarter.",
+        "Yes, I will eat it.",
         "No, it was yesterday.",
-        "They are not in the office.",
-        "Yes, I will eat it."
+        "They are not in the office."
       ],
       "correctAnswer": "If we sign this contract today, our revenue will increase by twenty-five percent next quarter.",
       "explanationVi": "Phản hồi phù hợp trong bài: \"If we sign this contract today, our revenue will increase by twenty-five percent next quarter.\" (Nếu chúng ta ký hợp đồng này hôm nay, doanh thu của chúng ta sẽ tăng 25% trong quý tới. (Loại 1))."
@@ -95,8 +95,8 @@
       "question": "___ you need any help, please let me know.",
       "correctAnswer": "Should",
       "options": [
-        "Had",
         "Should",
+        "Had",
         "Were",
         "Did"
       ],
@@ -109,9 +109,9 @@
       "question": "___ I in your position, I would accept the job offer.",
       "correctAnswer": "Were",
       "options": [
+        "Was",
         "Should",
         "Had",
-        "Was",
         "Were"
       ],
       "explanationVi": "Đáp án đúng là \"Were\". Câu hoàn chỉnh: \"Were I in your position, I would accept the job offer.\" (Nếu tôi ở vị trí của bạn, tôi sẽ nhận lời mời làm việc đó.)."
@@ -123,10 +123,10 @@
       "question": "___ I known about the party, I would have attended.",
       "correctAnswer": "Had",
       "options": [
-        "Should",
-        "Were",
+        "Had",
         "Have",
-        "Had"
+        "Should",
+        "Were"
       ],
       "explanationVi": "Đáp án đúng là \"Had\". Câu hoàn chỉnh: \"Had I known about the party, I would have attended.\" (Giá như tôi đã biết về bữa tiệc, tôi đã tham dự rồi.)."
     },
@@ -137,9 +137,9 @@
       "question": "___ you study hard, you will fail the test.",
       "correctAnswer": "Unless",
       "options": [
-        "Because",
-        "Unless",
         "Although",
+        "Unless",
+        "Because",
         "If"
       ],
       "explanationVi": "Đáp án đúng là \"Unless\". Câu hoàn chỉnh: \"Unless you study hard, you will fail the test.\" (Trừ khi bạn học chăm chỉ, nếu không bạn sẽ thi trượt bài kiểm tra.)."
@@ -151,10 +151,10 @@
       "question": "Should _____ not need any help, please let me know.",
       "correctAnswer": "you",
       "options": [
-        "are",
+        "is",
         "you",
-        "am",
-        "is"
+        "are",
+        "am"
       ],
       "explanationVi": "Câu phủ định hoàn chỉnh: \"Should you not need any help, please let me know.\"."
     },
@@ -165,14 +165,14 @@
       "question": "Sắp xếp các từ để tạo thành câu đúng: \"Nếu bạn cần bất kỳ sự giúp đỡ nào, xin vui lòng cho tôi biết.\"",
       "words": [
         "any",
-        "please",
-        "you",
         "know.",
-        "me",
-        "need",
         "Should",
+        "me",
+        "let",
+        "need",
+        "you",
         "help,",
-        "let"
+        "please"
       ],
       "correctSentence": "Should you need any help, please let me know.",
       "hintVi": "Nếu bạn cần bất kỳ sự giúp đỡ nào, xin vui lòng cho tôi biết.",
@@ -186,15 +186,15 @@
       "words": [
         "offer.",
         "job",
-        "in",
-        "your",
-        "accept",
-        "I",
-        "would",
-        "the",
         "I",
         "Were",
-        "position,"
+        "the",
+        "your",
+        "in",
+        "accept",
+        "I",
+        "position,",
+        "would"
       ],
       "correctSentence": "Were I in your position, I would accept the job offer.",
       "hintVi": "Nếu tôi ở vị trí của bạn, tôi sẽ nhận lời mời làm việc đó.",
@@ -206,16 +206,16 @@
       "promptVi": "[Sắp xếp câu] Ghép các khối từ thành câu hoàn chỉnh mang nghĩa: \"Giá như tôi đã biết về bữa tiệc, tôi đã tham dự rồi.\"",
       "question": "Sắp xếp các từ để tạo thành câu đúng: \"Giá như tôi đã biết về bữa tiệc, tôi đã tham dự rồi.\"",
       "words": [
-        "known",
-        "the",
-        "about",
-        "I",
-        "Had",
-        "I",
-        "would",
+        "attended.",
         "have",
         "party,",
-        "attended."
+        "the",
+        "would",
+        "I",
+        "known",
+        "Had",
+        "I",
+        "about"
       ],
       "correctSentence": "Had I known about the party, I would have attended.",
       "hintVi": "Giá như tôi đã biết về bữa tiệc, tôi đã tham dự rồi.",
@@ -228,14 +228,14 @@
       "question": "Sắp xếp các từ để tạo thành câu đúng: \"Trừ khi bạn học chăm chỉ, nếu không bạn sẽ thi trượt bài kiểm tra.\"",
       "words": [
         "will",
-        "study",
-        "Unless",
-        "test.",
         "you",
         "the",
         "hard,",
-        "fail",
-        "you"
+        "study",
+        "you",
+        "Unless",
+        "test.",
+        "fail"
       ],
       "correctSentence": "Unless you study hard, you will fail the test.",
       "hintVi": "Trừ khi bạn học chăm chỉ, nếu không bạn sẽ thi trượt bài kiểm tra.",
@@ -247,20 +247,20 @@
       "promptVi": "[Sắp xếp câu] Ghép các từ thành câu hội thoại: \"Nếu quý vị cần bất kỳ sự giải thích pháp lý bổ sung nào, các luật sư cấp cao của chúng tôi sẽ hỗ trợ quý vị ngay. (Đảo ngữ Loại 1: Should you need...)\"",
       "question": "Sắp xếp các từ để tạo thành câu thoại: \"Nếu quý vị cần bất kỳ sự giải thích pháp lý bổ sung nào, các luật sư cấp cao của chúng tôi sẽ hỗ trợ quý vị ngay. (Đảo ngữ Loại 1: Should you need...)\"",
       "words": [
+        "lawyers",
         "legal",
-        "Should",
         "additional",
+        "Should",
+        "will",
+        "assist",
         "you",
         "need",
-        "senior",
-        "you",
-        "will",
         "any",
-        "lawyers",
+        "immediately",
+        "you",
         "our",
         "clarification",
-        "immediately",
-        "assist"
+        "senior"
       ],
       "correctSentence": "Should you need any additional legal clarification, our senior lawyers will assist you immediately.",
       "hintVi": "Nếu quý vị cần bất kỳ sự giải thích pháp lý bổ sung nào, các luật sư cấp cao của chúng tôi sẽ hỗ trợ quý vị ngay. (Đảo ngữ Loại 1: Should you need...)",
@@ -273,9 +273,9 @@
       "question": "Dựa vào chủ điểm \"Bài 50: Câu Điều kiện — Tổng hợp 3 Loại & Đảo ngữ Bỏ 'If' (Conditional Summary & Inversions: Should / Were / Had)\", câu nào sau đây CHÍNH XÁC?",
       "options": [
         "Should you need any help, please let me know.",
-        "are",
         "know. me let please help, any need you Should",
-        "is"
+        "is",
+        "are"
       ],
       "correctAnswer": "Should you need any help, please let me know.",
       "explanationVi": "Cấu trúc chuẩn xác là: \"Should you need any help, please let me know.\" (Nếu bạn cần bất kỳ sự giúp đỡ nào, xin vui lòng cho tôi biết.)."
@@ -286,10 +286,10 @@
       "promptVi": "[Nhận diện cấu trúc chuẩn] Chọn câu có cấu trúc ngữ pháp HOÀN TOÀN ĐÚNG:",
       "question": "Dựa vào chủ điểm \"Bài 50: Câu Điều kiện — Tổng hợp 3 Loại & Đảo ngữ Bỏ 'If' (Conditional Summary & Inversions: Should / Were / Had)\", câu nào sau đây CHÍNH XÁC?",
       "options": [
-        "be I in your position, I would accept the job offer.",
         "Were I in your position, I would accept the job offer.",
-        "offer. job the accept would I position, your in I Were",
-        "Were I at your position, I would accept the job offer."
+        "be I in your position, I would accept the job offer.",
+        "Were I at your position, I would accept the job offer.",
+        "offer. job the accept would I position, your in I Were"
       ],
       "correctAnswer": "Were I in your position, I would accept the job offer.",
       "explanationVi": "Cấu trúc chuẩn xác là: \"Were I in your position, I would accept the job offer.\" (Nếu tôi ở vị trí của bạn, tôi sẽ nhận lời mời làm việc đó.)."
@@ -314,10 +314,10 @@
       "promptVi": "[Nhận diện cấu trúc chuẩn] Chọn câu có cấu trúc ngữ pháp HOÀN TOÀN ĐÚNG:",
       "question": "Dựa vào chủ điểm \"Bài 50: Câu Điều kiện — Tổng hợp 3 Loại & Đảo ngữ Bỏ 'If' (Conditional Summary & Inversions: Should / Were / Had)\", câu nào sau đây CHÍNH XÁC?",
       "options": [
-        "Unless you study hard, you will fail the test.",
-        "test. the fail will you hard, study you Unless",
+        "is",
         "are",
-        "is"
+        "test. the fail will you hard, study you Unless",
+        "Unless you study hard, you will fail the test."
       ],
       "correctAnswer": "Unless you study hard, you will fail the test.",
       "explanationVi": "Cấu trúc chuẩn xác là: \"Unless you study hard, you will fail the test.\" (Trừ khi bạn học chăm chỉ, nếu không bạn sẽ thi trượt bài kiểm tra.)."
@@ -344,10 +344,10 @@
       "audioPrompt": "If we sign this contract today, our revenue will increase by twenty-five percent next quarter.",
       "question": "Nhấn nút '🔊 Nghe audio' và chọn nghĩa tiếng Việt đúng:",
       "options": [
-        "Nếu quý vị cần bất kỳ sự giải thích pháp lý bổ sung nào, các luật sư cấp cao của chúng tôi sẽ hỗ trợ quý vị ngay. (Đảo ngữ Loại 1: Should you need...)",
-        "Nếu chúng ta ký hợp đồng này hôm nay, doanh thu của chúng ta sẽ tăng 25% trong quý tới. (Loại 1)",
+        "Hôm nay thời tiết rất đẹp.",
         "Nếu hiện tại chúng ta có vốn lưu động vô hạn, chúng ta sẽ mua lại nhà máy của đối thủ cạnh tranh. (Loại 2)",
-        "Hôm nay thời tiết rất đẹp."
+        "Nếu quý vị cần bất kỳ sự giải thích pháp lý bổ sung nào, các luật sư cấp cao của chúng tôi sẽ hỗ trợ quý vị ngay. (Đảo ngữ Loại 1: Should you need...)",
+        "Nếu chúng ta ký hợp đồng này hôm nay, doanh thu của chúng ta sẽ tăng 25% trong quý tới. (Loại 1)"
       ],
       "correctAnswer": "Nếu chúng ta ký hợp đồng này hôm nay, doanh thu của chúng ta sẽ tăng 25% trong quý tới. (Loại 1)",
       "explanationVi": "Câu nghe được: \"If we sign this contract today, our revenue will increase by twenty-five percent next quarter.\" có nghĩa là: \"Nếu chúng ta ký hợp đồng này hôm nay, doanh thu của chúng ta sẽ tăng 25% trong quý tới. (Loại 1)\"."
@@ -359,9 +359,9 @@
       "audioPrompt": "Should you need any additional legal clarification, our senior lawyers will assist you immediately.",
       "question": "Nhấn nút '🔊 Nghe audio' và chọn nghĩa tiếng Việt đúng:",
       "options": [
-        "Nếu chúng ta đầu tư mạnh vào trí tuệ nhân tạo hôm nay, năng suất của chúng ta sẽ sớm tăng gấp đôi. (Đảo ngữ Loại 2: Were we to invest...)",
         "Nếu quý vị cần bất kỳ sự giải thích pháp lý bổ sung nào, các luật sư cấp cao của chúng tôi sẽ hỗ trợ quý vị ngay. (Đảo ngữ Loại 1: Should you need...)",
         "Nếu hiện tại chúng ta có vốn lưu động vô hạn, chúng ta sẽ mua lại nhà máy của đối thủ cạnh tranh. (Loại 2)",
+        "Nếu chúng ta đầu tư mạnh vào trí tuệ nhân tạo hôm nay, năng suất của chúng ta sẽ sớm tăng gấp đôi. (Đảo ngữ Loại 2: Were we to invest...)",
         "Hôm nay thời tiết rất đẹp."
       ],
       "correctAnswer": "Nếu quý vị cần bất kỳ sự giải thích pháp lý bổ sung nào, các luật sư cấp cao của chúng tôi sẽ hỗ trợ quý vị ngay. (Đảo ngữ Loại 1: Should you need...)",
@@ -374,10 +374,10 @@
       "audioPrompt": "If we had unlimited working capital right now, we would acquire our competitor's factory.",
       "question": "Nhấn nút '🔊 Nghe audio' và chọn nghĩa tiếng Việt đúng:",
       "options": [
-        "Nếu chúng ta đã ra mắt ứng dụng di động hai năm trước, chúng ta đã chiếm lĩnh toàn bộ thị trường rồi. (Loại 3)",
+        "Nếu hiện tại chúng ta có vốn lưu động vô hạn, chúng ta sẽ mua lại nhà máy của đối thủ cạnh tranh. (Loại 2)",
         "Nếu chúng ta đầu tư mạnh vào trí tuệ nhân tạo hôm nay, năng suất của chúng ta sẽ sớm tăng gấp đôi. (Đảo ngữ Loại 2: Were we to invest...)",
-        "Hôm nay thời tiết rất đẹp.",
-        "Nếu hiện tại chúng ta có vốn lưu động vô hạn, chúng ta sẽ mua lại nhà máy của đối thủ cạnh tranh. (Loại 2)"
+        "Nếu chúng ta đã ra mắt ứng dụng di động hai năm trước, chúng ta đã chiếm lĩnh toàn bộ thị trường rồi. (Loại 3)",
+        "Hôm nay thời tiết rất đẹp."
       ],
       "correctAnswer": "Nếu hiện tại chúng ta có vốn lưu động vô hạn, chúng ta sẽ mua lại nhà máy của đối thủ cạnh tranh. (Loại 2)",
       "explanationVi": "Câu nghe được: \"If we had unlimited working capital right now, we would acquire our competitor's factory.\" có nghĩa là: \"Nếu hiện tại chúng ta có vốn lưu động vô hạn, chúng ta sẽ mua lại nhà máy của đối thủ cạnh tranh. (Loại 2)\"."
@@ -425,10 +425,10 @@
       "passage": "Victoria: \"Welcome to our annual executive strategy meeting. Let's analyze all potential business scenarios.\"\nLiam: \"If we sign this contract today, our revenue will increase by twenty-five percent next quarter.\"\nVictoria: \"Should you need any additional legal clarification, our senior lawyers will assist you immediately.\"\nLiam: \"If we had unlimited working capital right now, we would acquire our competitor's factory.\"",
       "question": "Dựa vào đoạn đối thoại trên, thông tin nào sau đây là CHÍNH XÁC về nội dung câu nói của Victoria?",
       "options": [
-        "Victoria chia sẻ thông tin: \"Chào mừng quý vị đến với cuộc họp chiến lược điều hành thường niên. Hãy cùng phân tích mọi kịch bản kinh doanh tiềm năng.\"",
         "Victoria phàn nàn rằng thời tiết hôm nay quá xấu.",
-        "Victoria từ chối trả lời và yêu cầu hủy cuộc hẹn.",
-        "Victoria muốn mượn tiền để mua vé máy bay gấp."
+        "Victoria chia sẻ thông tin: \"Chào mừng quý vị đến với cuộc họp chiến lược điều hành thường niên. Hãy cùng phân tích mọi kịch bản kinh doanh tiềm năng.\"",
+        "Victoria muốn mượn tiền để mua vé máy bay gấp.",
+        "Victoria từ chối trả lời và yêu cầu hủy cuộc hẹn."
       ],
       "correctAnswer": "Victoria chia sẻ thông tin: \"Chào mừng quý vị đến với cuộc họp chiến lược điều hành thường niên. Hãy cùng phân tích mọi kịch bản kinh doanh tiềm năng.\"",
       "explanationVi": "Trong đoạn hội thoại, Victoria đã nói: \"Welcome to our annual executive strategy meeting. Let's analyze all potential business scenarios.\" (nghĩa là: \"Chào mừng quý vị đến với cuộc họp chiến lược điều hành thường niên. Hãy cùng phân tích mọi kịch bản kinh doanh tiềm năng.\")."
@@ -440,10 +440,10 @@
       "passage": "Victoria: \"Were we to invest heavily in artificial intelligence today, our productivity would double soon.\"\nLiam: \"If we had launched our mobile application two years ago, we would have captured the whole market.\"\nVictoria: \"Had we recognized the market trend earlier, we would have avoided significant financial loss.\"\nLiam: \"Unless we innovate constantly, our competitors will overtake our leading position.\"",
       "question": "Trong đoạn hội thoại trên, câu nói \"Unless we innovate constantly, our competitors will overtake our leading position.\" của Liam mang ý nghĩa gì?",
       "options": [
-        "Phản hồi: \"Yêu cầu cung cấp hóa đơn thanh toán tiền mặt\"",
+        "Phản hồi: \"Trừ khi chúng ta liên tục đổi mới, nếu không đối thủ sẽ vượt qua vị trí dẫn đầu của chúng ta.\"",
         "Phản hồi: \"Hoàn toàn không đồng ý và muốn rời khỏi phòng ngay lập tức\"",
         "Phản hồi: \"Hẹn gặp lại vào cuối tuần sau tại sân bay quốc tế\"",
-        "Phản hồi: \"Trừ khi chúng ta liên tục đổi mới, nếu không đối thủ sẽ vượt qua vị trí dẫn đầu của chúng ta.\""
+        "Phản hồi: \"Yêu cầu cung cấp hóa đơn thanh toán tiền mặt\""
       ],
       "correctAnswer": "Phản hồi: \"Trừ khi chúng ta liên tục đổi mới, nếu không đối thủ sẽ vượt qua vị trí dẫn đầu của chúng ta.\"",
       "explanationVi": "Liam nói: \"Unless we innovate constantly, our competitors will overtake our leading position.\" có nghĩa là: \"Trừ khi chúng ta liên tục đổi mới, nếu không đối thủ sẽ vượt qua vị trí dẫn đầu của chúng ta.\"."
