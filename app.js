@@ -668,7 +668,15 @@ function initSpeechRecognition() {
     recognition.onerror = (e) => {
       console.warn("Speech recognition error:", e.error);
       stopRecording();
-      if (el.liveSpeechStatus) el.liveSpeechStatus.textContent = "⚠️ Không nhận diện được hoặc Micro bị chặn. Bạn có thể gõ văn bản dự phòng bên dưới.";
+      if (e.error === "not-allowed" || e.error === "service-not-allowed") {
+        updateMicStatusMessage("⚠️ Microphone bị chặn. Hãy cho phép quyền micro trong cài đặt trình duyệt.");
+        return;
+      }
+      if (e.error === "audio-capture") {
+        updateMicStatusMessage("⚠️ Không lấy được âm thanh từ microphone. Vui lòng kiểm tra quyền micro.");
+        return;
+      }
+      updateMicStatusMessage("⚠️ Không nhận diện được giọng nói. Bạn có thể gõ văn bản dự phòng bên dưới.");
     };
 
     recognition.onend = () => {
@@ -677,17 +685,57 @@ function initSpeechRecognition() {
   }
 }
 
-function startRecording(canvasId) {
+async function startRecording(canvasId) {
   stopAllAudio();
-  if (recognition) {
-    try {
-      recognition.start();
-    } catch (err) {}
+  const micReady = await ensureMicrophoneReady();
+  if (!micReady) {
+    stopRecording();
+    return;
   }
-  startWaveVisualizer(canvasId);
+
+  if (!recognition) {
+    updateMicStatusMessage("⚠️ Trình duyệt này chưa hỗ trợ nhận diện giọng nói. Hãy dùng Safari/Chrome mới nhất hoặc nhập văn bản dự phòng.");
+    startWaveVisualizer(canvasId);
+    return;
+  }
+
+  let started = false;
+  try {
+    recognition.start();
+    started = true;
+  } catch (err) {
+    if (err && err.name === "InvalidStateError") {
+      try {
+        recognition.stop();
+        recognition.start();
+        started = true;
+      } catch (retryErr) {
+        console.warn("Speech recognition restart error:", retryErr);
+      }
+    } else {
+      console.warn("Speech recognition start error:", err);
+    }
+  }
+
+  if (!started) {
+    updateMicStatusMessage("⚠️ Không thể bắt đầu ghi âm. Hãy thử lại sau vài giây hoặc tải lại trang.");
+    stopRecording();
+    return;
+  }
+
+  try {
+    startWaveVisualizer(canvasId);
+  } catch (e) {
+    console.warn("Wave visualizer start error:", e);
+  }
 }
 
 function stopRecording() {
+  if (recognition) {
+    try {
+      recognition.stop();
+    } catch (err) {}
+  }
   isRecording = false;
   quizIsRecordingSpeaking = false;
   if (el.btnMicRepeat) el.btnMicRepeat.classList.remove("recording");
@@ -704,18 +752,61 @@ let persistentMediaStream = null;
 let persistentAudioContext = null;
 let persistentAnalyser = null;
 let waveAnimFrameId = null;
+let lastMicPermissionError = null;
+
+function updateMicStatusMessage(message) {
+  if (el.liveSpeechStatus) el.liveSpeechStatus.textContent = message;
+  const quizStatus = document.getElementById("quizSpeakingLiveText");
+  if (quizStatus) quizStatus.textContent = message;
+}
+
+function buildMicErrorMessage(err) {
+  const secureHint = window.isSecureContext ? "" : " Hãy mở webapp bằng HTTPS hoặc localhost để bật quyền micro trên điện thoại.";
+  if (!err) return `⚠️ Không thể truy cập microphone.${secureHint}`;
+  if (err.name === "NotAllowedError" || err.name === "SecurityError") {
+    return `⚠️ Bạn chưa cấp quyền microphone.${secureHint}`;
+  }
+  if (err.name === "NotFoundError" || err.name === "DevicesNotFoundError") {
+    return "⚠️ Không tìm thấy microphone trên thiết bị.";
+  }
+  if (err.name === "NotReadableError" || err.name === "TrackStartError") {
+    return "⚠️ Microphone đang được ứng dụng khác sử dụng. Hãy tắt ứng dụng đó rồi thử lại.";
+  }
+  return `⚠️ Không thể truy cập microphone (${err.name || "UnknownError"}).${secureHint}`;
+}
 
 async function getPersistentMicStream() {
   if (persistentMediaStream && persistentMediaStream.active) {
     return persistentMediaStream;
   }
+  if (!navigator.mediaDevices || typeof navigator.mediaDevices.getUserMedia !== "function") {
+    lastMicPermissionError = new Error("MicrophoneAPIUnsupported");
+    lastMicPermissionError.name = "MicrophoneAPIUnsupported";
+    console.warn("navigator.mediaDevices.getUserMedia is not supported on this browser.");
+    return null;
+  }
   try {
     persistentMediaStream = await navigator.mediaDevices.getUserMedia({ audio: true });
+    lastMicPermissionError = null;
     return persistentMediaStream;
   } catch (err) {
+    lastMicPermissionError = err;
     console.warn("Microphone access permission error:", err);
     return null;
   }
+}
+
+async function ensureMicrophoneReady() {
+  const stream = await getPersistentMicStream();
+  if (!stream) {
+    if (lastMicPermissionError && lastMicPermissionError.name === "MicrophoneAPIUnsupported") {
+      updateMicStatusMessage("⚠️ Trình duyệt điện thoại chưa hỗ trợ microphone API. Hãy dùng Safari/Chrome mới nhất.");
+    } else {
+      updateMicStatusMessage(buildMicErrorMessage(lastMicPermissionError));
+    }
+    return false;
+  }
+  return true;
 }
 
 async function startWaveVisualizer(canvasId) {
