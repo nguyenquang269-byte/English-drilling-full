@@ -164,6 +164,50 @@
     .review-item-card.is-wrong { border-left: 5px solid var(--danger); background: #fffafb; }
 
     @keyframes pulse { from { box-shadow: 0 0 0 rgba(220,38,38,0.4); } to { box-shadow: 0 0 16px rgba(220,38,38,0.7); } }
+
+    /* Button Success Flashing & Pulsing Feedback */
+    @keyframes buttonFlashSuccess {
+      0% {
+        transform: scale(1);
+        box-shadow: 0 0 0 0 rgba(22, 163, 74, 0.8);
+        background-color: var(--primary);
+      }
+      25% {
+        transform: scale(1.08);
+        box-shadow: 0 0 0 12px rgba(22, 163, 74, 0.45);
+        background-color: #16a34a !important;
+        border-color: #15803d !important;
+      }
+      50% {
+        transform: scale(1.02);
+        box-shadow: 0 0 0 20px rgba(22, 163, 74, 0);
+        background-color: #15803d !important;
+      }
+      75% {
+        transform: scale(1.06);
+        box-shadow: 0 0 0 10px rgba(22, 163, 74, 0.3);
+        background-color: #16a34a !important;
+      }
+      100% {
+        transform: scale(1);
+        box-shadow: 0 0 0 0 rgba(22, 163, 74, 0);
+      }
+    }
+
+    .btn-flash-success {
+      animation: buttonFlashSuccess 0.85s cubic-bezier(0.25, 1, 0.5, 1) !important;
+      color: #ffffff !important;
+    }
+
+    @keyframes chipFlashSuccess {
+      0% { transform: scale(1); background: #dcfce7; border-color: #16a34a; }
+      50% { transform: scale(1.06); background: #86efac; border-color: #15803d; box-shadow: 0 0 16px rgba(22, 163, 74, 0.5); }
+      100% { transform: scale(1); background: #dcfce7; border-color: #16a34a; }
+    }
+
+    .chip-flash-success {
+      animation: chipFlashSuccess 0.75s ease-out !important;
+    }
   </style>
 </head>
 <body>

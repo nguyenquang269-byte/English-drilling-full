@@ -770,6 +770,239 @@ function stopWaveVisualizer() {
   }
 }
 
+// ==========================================
+// 4.1. AUDIO CHIME & VISUAL FLASH FEEDBACK
+// ==========================================
+let soundAudioContext = null;
+
+function getSoundAudioContext() {
+  if (!soundAudioContext || soundAudioContext.state === "closed") {
+    const AudioCtx = window.AudioContext || window.webkitAudioContext;
+    if (AudioCtx) {
+      soundAudioContext = new AudioCtx();
+    }
+  } else if (soundAudioContext.state === "suspended") {
+    soundAudioContext.resume();
+  }
+  return soundAudioContext;
+}
+
+function playSuccessSound() {
+  try {
+    const ctx = getSoundAudioContext();
+    if (!ctx) return;
+
+    // Cheerful, positive 3-note melodic arpeggio (C5 -> E5 -> G5)
+    const notes = [
+      { freq: 523.25, time: 0.0, dur: 0.16 }, // C5
+      { freq: 659.25, time: 0.09, dur: 0.18 }, // E5
+      { freq: 783.99, time: 0.20, dur: 0.35 }  // G5
+    ];
+
+    const now = ctx.currentTime;
+    notes.forEach(note => {
+      const osc = ctx.createOscillator();
+      const gain = ctx.createGain();
+
+      osc.type = "sine";
+      osc.frequency.setValueAtTime(note.freq, now + note.time);
+
+      gain.gain.setValueAtTime(0.001, now + note.time);
+      gain.gain.exponentialRampToValueAtTime(0.28, now + note.time + 0.02);
+      gain.gain.exponentialRampToValueAtTime(0.001, now + note.time + note.dur);
+
+      osc.connect(gain);
+      gain.connect(ctx.destination);
+
+      osc.start(now + note.time);
+      osc.stop(now + note.time + note.dur + 0.05);
+    });
+  } catch (e) {
+    console.warn("Audio success chime error:", e);
+  }
+}
+
+function triggerButtonSuccessFeedback(btnTarget) {
+  let btn = null;
+  if (typeof btnTarget === "string") {
+    btn = document.getElementById(btnTarget);
+  } else if (btnTarget instanceof HTMLElement) {
+    btn = btnTarget;
+  }
+  if (!btn) return;
+
+  btn.classList.remove("btn-flash-success", "chip-flash-success");
+  void btn.offsetWidth; // Force reflow
+  if (btn.classList.contains("chip-btn")) {
+    btn.classList.add("chip-flash-success");
+  } else {
+    btn.classList.add("btn-flash-success");
+  }
+
+  setTimeout(() => {
+    if (btn) btn.classList.remove("btn-flash-success", "chip-flash-success");
+  }, 1000);
+}
+
+// ==========================================
+// 4.2. CONTRACTION NORMALIZATION & EQUIVALENCE
+// ==========================================
+function normalizeEnglish(text) {
+  if (!text) return "";
+  let s = String(text).toLowerCase();
+
+  // Normalize curly apostrophes & accent quotes to standard apostrophe
+  s = s.replace(/[\u2018\u2019\u00B4\u0060]/g, "'");
+
+  // Contraction dictionary: maps short forms / spoken abbreviations to standard canonical forms
+  const contractionMap = [
+    // Pronoun + ToBe
+    [/\bi'm\b/g, "i am"],
+    [/\byou're\b/g, "you are"],
+    [/\bhe's\b/g, "he is"],
+    [/\bshe's\b/g, "she is"],
+    [/\bit's\b/g, "it is"],
+    [/\bwe're\b/g, "we are"],
+    [/\bthey're\b/g, "they are"],
+    [/\bthat's\b/g, "that is"],
+    [/\bwhat's\b/g, "what is"],
+    [/\bwhere's\b/g, "where is"],
+    [/\bwho's\b/g, "who is"],
+    [/\bhow's\b/g, "how is"],
+    [/\bwhen's\b/g, "when is"],
+    [/\bwhy's\b/g, "why is"],
+    [/\bthere's\b/g, "there is"],
+    [/\bhere's\b/g, "here is"],
+    [/\blet's\b/g, "let us"],
+
+    // Negative ToBe & Auxiliaries
+    [/\bisn't\b/g, "is not"],
+    [/\baren't\b/g, "are not"],
+    [/\bwasn't\b/g, "was not"],
+    [/\bweren't\b/g, "were not"],
+    [/\bdon't\b/g, "do not"],
+    [/\bdoesn't\b/g, "does not"],
+    [/\bdidn't\b/g, "did not"],
+    [/\bcan't\b/g, "cannot"],
+    [/\bcan not\b/g, "cannot"],
+    [/\bwon't\b/g, "will not"],
+    [/\bwouldn't\b/g, "would not"],
+    [/\bshouldn't\b/g, "should not"],
+    [/\bcouldn't\b/g, "could not"],
+    [/\bmustn't\b/g, "must not"],
+    [/\bhaven't\b/g, "have not"],
+    [/\bhasn't\b/g, "has not"],
+    [/\bhadn't\b/g, "had not"],
+
+    // Have / Had / Will / Would contractions
+    [/\bi've\b/g, "i have"],
+    [/\byou've\b/g, "you have"],
+    [/\bwe've\b/g, "we have"],
+    [/\bthey've\b/g, "they have"],
+    [/\bi'll\b/g, "i will"],
+    [/\byou'll\b/g, "you will"],
+    [/\bhe'll\b/g, "he will"],
+    [/\bshe'll\b/g, "she will"],
+    [/\bit'll\b/g, "it will"],
+    [/\bwe'll\b/g, "we will"],
+    [/\bthey'll\b/g, "they will"],
+    [/\bi'd\b/g, "i would"],
+    [/\byou'd\b/g, "you would"],
+    [/\bhe'd\b/g, "he would"],
+    [/\bshe'd\b/g, "she would"],
+    [/\bwe'd\b/g, "we would"],
+    [/\bthey'd\b/g, "they would"],
+
+    // Speech recognition variants without apostrophes
+    [/\bhes\b/g, "he is"],
+    [/\bshes\b/g, "she is"],
+    [/\btheyre\b/g, "they are"],
+    [/\byoure\b/g, "you are"],
+    [/\bwhats\b/g, "what is"],
+    [/\bwheres\b/g, "where is"],
+    [/\bwhos\b/g, "who is"],
+    [/\btheres\b/g, "there is"],
+    [/\bheres\b/g, "here is"],
+    [/\bisnt\b/g, "is not"],
+    [/\barent\b/g, "are not"],
+    [/\bwasnt\b/g, "was not"],
+    [/\bwerent\b/g, "were not"],
+    [/\bdont\b/g, "do not"],
+    [/\bdoesnt\b/g, "does not"],
+    [/\bdidnt\b/g, "did not"],
+    [/\bcant\b/g, "cannot"],
+    [/\bwont\b/g, "will not"]
+  ];
+
+  for (const [regex, replacement] of contractionMap) {
+    s = s.replace(regex, replacement);
+  }
+
+  // Remove punctuation marks, keeping only alphanumeric and spaces
+  s = s.replace(/[^a-z0-9 ]/g, " ");
+
+  // Collapse multiple spaces and trim
+  return s.replace(/\s+/g, " ").trim();
+}
+
+function calculateLevenshteinSimilarity(s1, s2) {
+  const m = s1.length;
+  const n = s2.length;
+  if (m === 0 && n === 0) return 100;
+  if (m === 0 || n === 0) return 0;
+
+  const dp = Array.from({ length: m + 1 }, () => new Array(n + 1).fill(0));
+  for (let i = 0; i <= m; i++) dp[i][0] = i;
+  for (let j = 0; j <= n; j++) dp[0][j] = j;
+
+  for (let i = 1; i <= m; i++) {
+    for (let j = 1; j <= n; j++) {
+      const cost = s1[i - 1] === s2[j - 1] ? 0 : 1;
+      dp[i][j] = Math.min(
+        dp[i - 1][j] + 1,
+        dp[i][j - 1] + 1,
+        dp[i - 1][j - 1] + cost
+      );
+    }
+  }
+
+  const distance = dp[m][n];
+  const maxLen = Math.max(m, n);
+  return Math.round(((maxLen - distance) / maxLen) * 100);
+}
+
+function calculateSimilarity(str1, str2) {
+  const norm1 = normalizeEnglish(str1);
+  const norm2 = normalizeEnglish(str2);
+
+  if (!norm1 && !norm2) return 100;
+  if (!norm1 || !norm2) return 0;
+  if (norm1 === norm2) return 100;
+
+  const words1 = norm1.split(" ");
+  const words2 = norm2.split(" ");
+
+  // Word token overlap
+  let matches = 0;
+  words1.forEach(w => {
+    if (words2.includes(w)) matches++;
+  });
+  const tokenScore = Math.round((matches / Math.max(words1.length, words2.length)) * 100);
+
+  // Levenshtein character similarity
+  const levScore = calculateLevenshteinSimilarity(norm1, norm2);
+
+  return Math.max(tokenScore, levScore);
+}
+
+function isAnswerEquivalent(user, target) {
+  if (!user || !target) return false;
+  const nUser = normalizeEnglish(user);
+  const nTarget = normalizeEnglish(target);
+  if (nUser === nTarget) return true;
+  return calculateSimilarity(user, target) >= 85;
+}
+
 function handleSpeechResult(transcript) {
   addRecognitionHistory(transcript);
 
@@ -789,6 +1022,8 @@ function handleSpeechResult(transcript) {
     el.liveSpeechStatus.textContent = `Bạn nói: "${transcript}"`;
 
     if (score >= 70) {
+      playSuccessSound();
+      triggerButtonSuccessFeedback(el.btnCheckRepeatText || el.btnMicRepeat);
       showFeedback(true, `🎉 Xuất sắc! Phát âm chính xác ${score}%.`);
       markDrillSuccess(1);
     } else {
@@ -801,17 +1036,6 @@ function handleSpeechResult(transcript) {
     el.contextInput.value = transcript;
     checkContext();
   }
-}
-
-function calculateSimilarity(str1, str2) {
-  const clean1 = str1.toLowerCase().replace(/[^a-z0-9 ]/g, "").trim().split(/\s+/);
-  const clean2 = str2.toLowerCase().replace(/[^a-z0-9 ]/g, "").trim().split(/\s+/);
-  
-  let matches = 0;
-  clean1.forEach(w => {
-    if (clean2.includes(w)) matches++;
-  });
-  return Math.round((matches / Math.max(clean1.length, clean2.length)) * 100);
 }
 
 function addRecognitionHistory(text) {
@@ -1091,8 +1315,8 @@ function renderCurrentDrill() {
     el.fillSentenceDisplay.innerHTML = (d.mode2_fill && d.mode2_fill.sentenceWithBlank.replace("___", '<span class="blank-input">___</span>')) || "";
 
     const options = (d.mode2_fill && d.mode2_fill.options) || [];
-    el.fillOptionsGrid.innerHTML = options.map(opt => `
-      <button class="chip-btn" onclick="checkFillOption('${opt.replace(/'/g, "\\'")}')">${opt}</button>
+    el.fillOptionsGrid.innerHTML = options.map((opt, i) => `
+      <button class="chip-btn" id="fill-opt-${i}" onclick="checkFillOption('${opt.replace(/'/g, "\\'")}', this)">${opt}</button>
     `).join("");
   } else if (currentMode === 3) {
     el.containerMode3.style.display = "block";
@@ -1102,13 +1326,13 @@ function renderCurrentDrill() {
   } else if (currentMode === 4) {
     el.containerMode4.style.display = "block";
     el.modeTitle.textContent = "Cấp độ 4: Biến đổi câu";
-    el.modePrompt.textContent = (d.mode4_transform && d.mode4_transform.promptVi) || "Biến đổi câu theo yêu cầu:";
+    el.modePrompt.textContent = (d.mode4_transform && d.mode4_transform.promptVi) || "Biến đổi câu theo yêu cầu (cho phép viết tắt như He's, They're...):";
     el.transformInstruction.textContent = (d.mode4_transform && d.mode4_transform.instructionVi) || "";
     el.transformInput.value = "";
   } else if (currentMode === 5) {
     el.containerMode5.style.display = "block";
     el.modeTitle.textContent = "Cấp độ 5: Ngữ cảnh mới";
-    el.modePrompt.textContent = (d.mode5_context && d.mode5_context.promptVi) || "Áp dụng cấu trúc vào ngữ cảnh mới:";
+    el.modePrompt.textContent = (d.mode5_context && d.mode5_context.promptVi) || "Áp dụng cấu trúc vào ngữ cảnh mới (cho phép viết tắt như She's, We're...):";
     el.contextInstruction.textContent = (d.mode5_context && d.mode5_context.instructionVi) || "";
     el.contextInput.value = "";
   }
@@ -1125,13 +1349,23 @@ function updateProgressFill() {
 }
 
 // Mode 2 Check
-window.checkFillOption = function(selected) {
+window.checkFillOption = function(selected, btnEl) {
   const target = getTargetData();
   const correct = target.drills.mode2_fill.correctAnswer;
-  if (selected.trim().toLowerCase() === correct.trim().toLowerCase()) {
+  const isMatch = isAnswerEquivalent(selected, correct);
+
+  document.querySelectorAll("#fillOptionsGrid .chip-btn").forEach(b => {
+    b.classList.remove("selected", "correct", "wrong");
+  });
+
+  if (isMatch) {
+    if (btnEl) btnEl.classList.add("correct");
+    playSuccessSound();
+    triggerButtonSuccessFeedback(btnEl);
     showFeedback(true, `🎉 Chính xác! Đáp án là "${correct}". ${target.drills.mode2_fill.explanationVi || ''}`);
     markDrillSuccess(2);
   } else {
+    if (btnEl) btnEl.classList.add("wrong");
     showFeedback(false, `Chưa chính xác. Hãy thử lại! Gợi ý: ${target.drills.mode2_fill.explanationVi || ''}`);
   }
 };
@@ -1179,10 +1413,13 @@ function resetScramble() {
 
 function checkScramble() {
   const target = getTargetData();
-  const correct = target.drills.mode3_scramble.correctSentence.trim().toLowerCase();
-  const current = scrambleSelectedWords.map(i => i.word).join(" ").trim().toLowerCase();
+  const correct = target.drills.mode3_scramble.correctSentence;
+  const current = scrambleSelectedWords.map(i => i.word).join(" ").trim();
+  const isMatch = isAnswerEquivalent(current, correct) || calculateSimilarity(current, correct) >= 88;
 
-  if (current === correct || calculateSimilarity(current, correct) >= 95) {
+  if (isMatch) {
+    playSuccessSound();
+    triggerButtonSuccessFeedback(el.btnCheckScramble);
     showFeedback(true, `🎉 Chính xác! Câu hoàn chỉnh: "${target.drills.mode3_scramble.correctSentence}".`);
     markDrillSuccess(3);
   } else {
@@ -1195,12 +1432,16 @@ function checkTransform() {
   const target = getTargetData();
   const correct = target.drills.mode4_transform.targetEn;
   const user = el.transformInput.value.trim();
+  const score = calculateSimilarity(user, correct);
+  const isMatch = isAnswerEquivalent(user, correct) || score >= 75;
 
-  if (calculateSimilarity(user, correct) >= 80) {
+  if (isMatch) {
+    playSuccessSound();
+    triggerButtonSuccessFeedback(el.btnCheckTransform);
     showFeedback(true, `🎉 Tuyệt vời! "${correct}".`);
     markDrillSuccess(4);
   } else {
-    showFeedback(false, `Chưa đúng cấu trúc. Gợi ý: ${target.drills.mode4_transform.hintVi || ''}`);
+    showFeedback(false, `Chưa đúng cấu trúc (${score}%). Gợi ý: ${target.drills.mode4_transform.hintVi || ''}`);
   }
 }
 
@@ -1209,12 +1450,16 @@ function checkContext() {
   const target = getTargetData();
   const correct = target.drills.mode5_context.targetEn;
   const user = el.contextInput.value.trim();
+  const score = calculateSimilarity(user, correct);
+  const isMatch = isAnswerEquivalent(user, correct) || score >= 75;
 
-  if (calculateSimilarity(user, correct) >= 80) {
+  if (isMatch) {
+    playSuccessSound();
+    triggerButtonSuccessFeedback(el.btnCheckContext);
     showFeedback(true, `🎉 Hoàn hảo! "${correct}".`);
     markDrillSuccess(5);
   } else {
-    showFeedback(false, `Chưa chính xác. Gợi ý: ${target.drills.mode5_context.hintVi || ''}`);
+    showFeedback(false, `Chưa chính xác (${score}%). Gợi ý: ${target.drills.mode5_context.hintVi || ''}`);
   }
 }
 
@@ -1538,18 +1783,20 @@ window.selectQuizChoiceByIndex = function(idx, btnEl) {
   const q = quizQuestions[currentQuizIdx];
   if (!q || !q.options || q.options[idx] === undefined) return;
   const selected = q.options[idx];
-  const isCorrect = selected.trim().toLowerCase() === q.correctAnswer.trim().toLowerCase();
+  const isCorrect = isAnswerEquivalent(selected, q.correctAnswer);
 
   // Disable all option buttons and highlight the right answer
   document.querySelectorAll("#quizAnswerDynamicArea .chip-btn").forEach((b, i) => {
     b.disabled = true;
-    if (q.options[i] && q.options[i].trim().toLowerCase() === q.correctAnswer.trim().toLowerCase()) {
+    if (q.options[i] && isAnswerEquivalent(q.options[i], q.correctAnswer)) {
       b.classList.add("correct");
     }
   });
 
   if (isCorrect) {
     if (btnEl) btnEl.classList.add("correct");
+    playSuccessSound();
+    triggerButtonSuccessFeedback(btnEl);
     handleQuizEvaluation(true, selected);
   } else {
     if (btnEl) btnEl.classList.add("wrong");
@@ -1564,10 +1811,16 @@ window.submitQuizFill = function() {
   if (!inputEl) return;
   const user = inputEl.value.trim();
   const q = quizQuestions[currentQuizIdx];
-  const isCorrect = user.toLowerCase() === q.correctAnswer.trim().toLowerCase();
+  const isCorrect = isAnswerEquivalent(user, q.correctAnswer);
   
   inputEl.disabled = true;
-  document.getElementById("btnSubmitQuizFill").disabled = true;
+  const submitBtn = document.getElementById("btnSubmitQuizFill");
+  if (submitBtn) submitBtn.disabled = true;
+
+  if (isCorrect) {
+    playSuccessSound();
+    triggerButtonSuccessFeedback(submitBtn);
+  }
   handleQuizEvaluation(isCorrect, user);
 };
 
@@ -1612,7 +1865,12 @@ window.resetQuizScramble = function() {
 window.submitQuizScramble = function() {
   const q = quizQuestions[currentQuizIdx];
   const current = quizScrambleSelectedWords.map(i => i.word).join(" ").trim();
-  const isCorrect = current.toLowerCase() === q.correctSentence.trim().toLowerCase() || calculateSimilarity(current, q.correctSentence) >= 95;
+  const isCorrect = isAnswerEquivalent(current, q.correctSentence) || calculateSimilarity(current, q.correctSentence) >= 88;
+  
+  if (isCorrect) {
+    playSuccessSound();
+    triggerButtonSuccessFeedback(document.querySelector("#quizAnswerDynamicArea button.btn-primary"));
+  }
   handleQuizEvaluation(isCorrect, current);
 };
 
@@ -1639,7 +1897,11 @@ function evaluateQuizSpeakingSpeech(transcript) {
   const status = document.getElementById("quizSpeakingLiveText");
   if (status) status.textContent = `Bạn đã nói: "${transcript}" (Độ tương đồng: ${score}%)`;
 
-  const isCorrect = score >= 70;
+  const isCorrect = score >= 70 || isAnswerEquivalent(transcript, target);
+  if (isCorrect) {
+    playSuccessSound();
+    triggerButtonSuccessFeedback(document.getElementById("btnQuizSpeakingMic"));
+  }
   handleQuizEvaluation(isCorrect, `${transcript} (${score}%)`);
 }
 
@@ -1649,7 +1911,13 @@ window.submitQuizSpeakingFallback = function() {
   const user = input.value.trim();
   const q = quizQuestions[currentQuizIdx];
   const score = calculateSimilarity(user, q.targetSentence);
-  handleQuizEvaluation(score >= 70, `${user} (${score}%)`);
+  const isCorrect = score >= 70 || isAnswerEquivalent(user, q.targetSentence);
+  
+  if (isCorrect) {
+    playSuccessSound();
+    triggerButtonSuccessFeedback(document.querySelector("#quizAnswerDynamicArea button.btn-primary:last-child"));
+  }
+  handleQuizEvaluation(isCorrect, `${user} (${score}%)`);
 };
 
 // Common Evaluation Handler
@@ -1677,6 +1945,9 @@ function handleQuizEvaluation(isCorrect, userAns) {
   }
 
   el.btnNextQuizQuestion.style.display = "inline-flex";
+  if (isCorrect) {
+    triggerButtonSuccessFeedback(el.btnNextQuizQuestion);
+  }
 
   // Smoothly scroll to the next button in case viewport is small
   setTimeout(() => {
@@ -1868,6 +2139,11 @@ function bindEvents() {
       handleSpeechResult(val);
     });
   }
+  if (el.repeatInputFallback) {
+    el.repeatInputFallback.addEventListener("keydown", (e) => {
+      if (e.key === "Enter" && el.btnCheckRepeatText) el.btnCheckRepeatText.click();
+    });
+  }
 
   // Drill Mode 3 (Scramble)
   el.btnResetScramble.addEventListener("click", () => {
@@ -1879,6 +2155,11 @@ function bindEvents() {
 
   // Drill Mode 4 (Transform)
   el.btnCheckTransform.addEventListener("click", checkTransform);
+  if (el.transformInput) {
+    el.transformInput.addEventListener("keydown", (e) => {
+      if (e.key === "Enter") checkTransform();
+    });
+  }
   el.btnMicTransform.addEventListener("click", () => {
     if (isRecording) stopRecording();
     else startRecording("waveCanvasRepeat");
@@ -1886,6 +2167,11 @@ function bindEvents() {
 
   // Drill Mode 5 (Context)
   el.btnCheckContext.addEventListener("click", checkContext);
+  if (el.contextInput) {
+    el.contextInput.addEventListener("keydown", (e) => {
+      if (e.key === "Enter") checkContext();
+    });
+  }
   el.btnMicContext.addEventListener("click", () => {
     if (isRecording) stopRecording();
     else startRecording("waveCanvasRepeat");
